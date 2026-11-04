@@ -1,8 +1,11 @@
 // City map with real streets (OpenStreetMap via OpenFreeMap, prepared by scripts/fetch-city.mjs) and animated blast rings.
+// The static base map (streets, water, buildings, runways) is painted once per shot into an offscreen canvas at 2x and
+// scaled per frame: on the azimuthal equidistant projection a zoom about the view centre is a pure uniform scale, and the
+// small centre drift inside a shot is treated as a translation. That turns a 5-second frame into a few milliseconds.
 import React, {useEffect, useLayoutEffect, useMemo, useRef, useState} from 'react';
 import {AbsoluteFill, continueRender, delayRender, staticFile, useVideoConfig} from 'remotion';
 import {geoCircle, geoPath} from 'd3-geo';
-import type {CityShot, LonLat} from '../scene';
+import type {CityShot, LonLat, RegionView} from '../scene';
 import {C, COND, MONO, clamp01, ease, easeOut} from '../theme';
 import {destination, makeProjection, viewAt} from './RegionMap';
 
@@ -18,9 +21,50 @@ const loadCity = (slug: string) => {
 };
 const EARTH_KM = 6371.0088;
 const D2R = Math.PI / 180;
+const SUPER = 2; // offscreen resolution multiplier
 
 const multi = (lines: LonLat[][]) => ({type: 'MultiLineString', coordinates: lines} as const);
 const polys = (rings: LonLat[][]) => ({type: 'MultiPolygon', coordinates: rings.map((r) => [r])} as const);
+
+const baseCache = new Map<string, HTMLCanvasElement>();
+
+function paintBase(data: CityData, baseView: RegionView, W: number, H: number, key: string): HTMLCanvasElement {
+  const hit = baseCache.get(key);
+  if (hit) return hit;
+  const bw = W * SUPER, bh = H * SUPER;
+  const canvas = document.createElement('canvas');
+  canvas.width = bw; canvas.height = bh;
+  const ctx = canvas.getContext('2d')!;
+  const proj = makeProjection(baseView, bw, bh);
+  const path = geoPath(proj, ctx);
+  const pxPerKm = bw / baseView.widthKm;
+  const detail = baseView.widthKm < 60;
+  ctx.fillStyle = '#0D1117'; ctx.fillRect(0, 0, bw, bh);
+  ctx.beginPath(); path(polys(data.parks) as any); ctx.fillStyle = '#10171A'; ctx.fill();
+  ctx.beginPath(); path(polys(data.water) as any); ctx.fillStyle = '#0B1726'; ctx.fill();
+  ctx.beginPath(); path(multi(data.waterway) as any); ctx.strokeStyle = '#0F2238'; ctx.lineWidth = Math.max(1, pxPerKm * 0.03); ctx.stroke();
+  if (detail && data.buildings.length) {
+    ctx.beginPath(); path(polys(data.buildings) as any); ctx.fillStyle = 'rgba(190,205,215,0.10)'; ctx.fill();
+  }
+  const road = (lines: LonLat[][], color: string, lw: number, dash?: number[]) => {
+    if (!lines.length) return;
+    ctx.beginPath(); path(multi(lines) as any); ctx.strokeStyle = color; ctx.lineWidth = lw; ctx.lineJoin = 'round'; ctx.lineCap = 'round';
+    ctx.setLineDash(dash ?? []); ctx.stroke(); ctx.setLineDash([]);
+  };
+  if (detail) road(data.roads.minor, 'rgba(160,180,190,0.16)', Math.max(0.6, pxPerKm * 0.012));
+  road(data.roads.secondary, 'rgba(170,190,200,0.32)', Math.max(0.9, pxPerKm * 0.02));
+  road(data.roads.primary, 'rgba(190,210,220,0.5)', Math.max(1.3, pxPerKm * 0.03));
+  road(data.roads.motorway, 'rgba(225,235,240,0.75)', Math.max(2, pxPerKm * 0.045));
+  road(data.roads.rail, 'rgba(200,200,210,0.35)', 1.2 * SUPER, [6, 6]);
+  for (const a of data.aeroway) {
+    ctx.beginPath();
+    if (a.type === 3) { path({type: 'Polygon', coordinates: [a.pts]} as any); ctx.fillStyle = 'rgba(200,210,220,0.10)'; ctx.fill(); }
+    else { path({type: 'LineString', coordinates: a.pts} as any); ctx.strokeStyle = 'rgba(220,230,235,0.8)'; ctx.lineWidth = Math.max(2, pxPerKm * 0.06); ctx.stroke(); }
+  }
+  baseCache.set(key, canvas);
+  if (baseCache.size > 6) baseCache.delete(baseCache.keys().next().value as string);
+  return canvas;
+}
 
 export const CityMap: React.FC<{shot: CityShot; t: number}> = ({shot, t}) => {
   const {width: W, height: H} = useVideoConfig();
@@ -35,6 +79,12 @@ export const CityMap: React.FC<{shot: CityShot; t: number}> = ({shot, t}) => {
   const view = viewAt(shot.view, shot.zoomTo, t, dur);
   const proj = useMemo(() => makeProjection(view, W, H), [view.center[0], view.center[1], view.widthKm, W, H]);
   const pxPerKm = W / view.widthKm;
+  // base view: the widest the shot gets, centred on the shot's start centre, with a margin for drift
+  const baseView: RegionView = useMemo(() => ({
+    center: shot.view.center,
+    widthKm: Math.max(shot.view.widthKm, shot.zoomTo?.widthKm ?? 0) * 1.12,
+  }), [shot.view, shot.zoomTo]);
+  const baseKey = `${shot.city}|${shot.id}|${W}x${H}|${baseView.widthKm.toFixed(2)}`;
 
   useLayoutEffect(() => {
     const canvas = ref.current;
@@ -43,29 +93,13 @@ export const CityMap: React.FC<{shot: CityShot; t: number}> = ({shot, t}) => {
     ctx.fillStyle = '#0D1117';
     ctx.fillRect(0, 0, W, H);
     if (!data) return;
-    const path = geoPath(proj, ctx);
-    const detail = view.widthKm < 30;
-    ctx.beginPath(); path(polys(data.parks) as any); ctx.fillStyle = '#10171A'; ctx.fill();
-    ctx.beginPath(); path(polys(data.water) as any); ctx.fillStyle = '#0B1726'; ctx.fill();
-    ctx.beginPath(); path(multi(data.waterway) as any); ctx.strokeStyle = '#0F2238'; ctx.lineWidth = Math.max(1, pxPerKm * 0.03); ctx.stroke();
-    if (detail && data.buildings.length) {
-      ctx.beginPath(); path(polys(data.buildings) as any); ctx.fillStyle = 'rgba(190,205,215,0.10)'; ctx.fill();
-    }
-    const road = (lines: LonLat[][], color: string, lw: number, dash?: number[]) => {
-      if (!lines.length) return;
-      ctx.beginPath(); path(multi(lines) as any); ctx.strokeStyle = color; ctx.lineWidth = lw; ctx.lineJoin = 'round'; ctx.lineCap = 'round';
-      ctx.setLineDash(dash ?? []); ctx.stroke(); ctx.setLineDash([]);
-    };
-    if (detail) road(data.roads.minor, 'rgba(160,180,190,0.16)', Math.max(0.6, pxPerKm * 0.012));
-    road(data.roads.secondary, 'rgba(170,190,200,0.32)', Math.max(0.9, pxPerKm * 0.02));
-    road(data.roads.primary, 'rgba(190,210,220,0.5)', Math.max(1.3, pxPerKm * 0.03));
-    road(data.roads.motorway, 'rgba(225,235,240,0.75)', Math.max(2, pxPerKm * 0.045));
-    road(data.roads.rail, 'rgba(200,200,210,0.35)', 1.2, [6, 6]);
-    for (const a of data.aeroway) {
-      ctx.beginPath();
-      if (a.type === 3) { path({type: 'Polygon', coordinates: [a.pts]} as any); ctx.fillStyle = 'rgba(200,210,220,0.10)'; ctx.fill(); }
-      else { path({type: 'LineString', coordinates: a.pts} as any); ctx.strokeStyle = 'rgba(220,230,235,0.8)'; ctx.lineWidth = Math.max(2, pxPerKm * 0.06); ctx.stroke(); }
-    }
+    const base = paintBase(data, baseView, W, H, baseKey);
+    const pb = makeProjection(baseView, W * SUPER, H * SUPER);
+    const q = pb(view.center) as [number, number];
+    const k = baseView.widthKm / (SUPER * view.widthKm);
+    ctx.imageSmoothingEnabled = true;
+    ctx.imageSmoothingQuality = 'high';
+    ctx.drawImage(base, W / 2 - q[0] * k, H / 2 - q[1] * k, W * SUPER * k, H * SUPER * k);
     // fireball glow after the flash
     if (shot.flashT !== undefined && t >= shot.flashT) {
       const p = proj(shot.gz) as [number, number];
@@ -78,7 +112,7 @@ export const CityMap: React.FC<{shot: CityShot; t: number}> = ({shot, t}) => {
     const vg = ctx.createRadialGradient(W / 2, H / 2, Math.min(W, H) * 0.5, W / 2, H / 2, Math.max(W, H) * 0.8);
     vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(0,0,0,0.5)');
     ctx.fillStyle = vg; ctx.fillRect(0, 0, W, H);
-  }, [data, proj, t, W, H, shot, view.widthKm, pxPerKm]);
+  }, [data, proj, t, W, H, shot, view.widthKm, view.center, pxPerKm, baseView, baseKey]);
 
   const circle = geoCircle();
   const svgPath = useMemo(() => geoPath(proj), [proj]);
@@ -99,14 +133,13 @@ export const CityMap: React.FC<{shot: CityShot; t: number}> = ({shot, t}) => {
       </svg>
       {shot.rings.map((r, i) => {
         if (t < r.t + 0.6) return null;
-        // labels fan out along a diagonal from ground zero so small rings do not overlap: ring i sits at bearing 45 + i*28 degrees
-        const bearing = 40 + i * 26;
-        const edge = proj(destination(shot.gz, bearing, r.km)) as [number, number] | null;
+        // labels fan out along a diagonal from ground zero so small rings do not overlap
+        const edge = proj(destination(shot.gz, 40 + i * 26, r.km)) as [number, number] | null;
         if (!edge) return null;
         const col = r.color ?? [C.white, C.red, C.orange, C.amber, C.teal][i % 5];
-        const right = true;
+        const small = r.km * pxPerKm < 60;
         return (
-          <div key={i} style={{position: 'absolute', left: right ? edge[0] + 10 : undefined, right: right ? undefined : W - edge[0] + 10, top: edge[1] - 12 - (r.km * pxPerKm < 60 ? (3 - i) * 22 : 0), fontFamily: MONO, fontSize: 16, letterSpacing: 1.5,
+          <div key={i} style={{position: 'absolute', left: edge[0] + 10, top: edge[1] - 12 - (small ? (3 - i) * 22 : 0), fontFamily: MONO, fontSize: 16, letterSpacing: 1.5,
             color: col, textShadow: '0 0 6px rgba(0,0,0,0.95)', whiteSpace: 'nowrap', textTransform: 'uppercase', opacity: ease(clamp01((t - r.t - 0.6) / 0.4))}}>
             {r.label} · {r.km} KM
           </div>
