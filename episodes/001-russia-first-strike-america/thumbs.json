@@ -1,0 +1,41 @@
+[
+ {
+  "id": "a",
+  "variant": "globe",
+  "line1": "27 MINUTES",
+  "line2": "TO OMAHA",
+  "tag": "RUSSIA STRIKES FIRST",
+  "camera": {
+   "t": 0,
+   "lat": 52,
+   "lon": -75,
+   "scale": 440
+  }
+ },
+ {
+  "id": "b",
+  "variant": "card",
+  "line1": "650 WARHEADS",
+  "line2": "30 MINUTES",
+  "tag": "RUSSIA STRIKES FIRST",
+  "camera": {
+   "t": 0,
+   "lat": 50,
+   "lon": -80,
+   "scale": 380
+  }
+ },
+ {
+  "id": "c",
+  "variant": "globe",
+  "line1": "6 MINUTES",
+  "line2": "TO DECIDE",
+  "tag": "RUSSIA STRIKES FIRST",
+  "camera": {
+   "t": 0,
+   "lat": 68,
+   "lon": -35,
+   "scale": 440
+  }
+ }
+]
