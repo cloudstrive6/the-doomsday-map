@@ -1,3 +1,4 @@
+# Chunked Remotion render of one episode (Episode or Short) on GitHub-hosted runners.
 name: render
 
 on:
