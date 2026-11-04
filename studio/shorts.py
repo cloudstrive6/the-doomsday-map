@@ -71,3 +71,31 @@ def mux(ep: Path, spec: dict, silent: Path, out: Path) -> dict:
                     "-c:v", "copy", "-c:a", "aac", "-b:a", "256k", "-shortest", "-movflags", "+faststart", str(out)], check=True)
     wav.unlink()
     return loud
+
+
+def captions_for(ep: Path, spec: dict) -> str:
+    from .package import captions
+    t = json.loads((ep / "narration" / "timing.json").read_text(encoding="utf-8"))
+    a, b = spec["start"], spec["end"]
+    units = [dict(u, start=u["start"] - a, end=min(u["end"], b) - a) for u in t["units"] if u["start"] >= a - 0.05 and u["start"] < b]
+    return captions({"units": units})
+
+
+def publish(ep: Path, times: list[str]) -> list[dict]:
+    """Mux, QC and upload every Short of an episode. times: UTC ISO publishAt per Short, in shorts.json order."""
+    from .youtube import upload_short
+    out_dir = ep / "build" / "shorts"
+    log_path = ep / "shorts_uploaded.json"
+    done = json.loads(log_path.read_text(encoding="utf-8")) if log_path.exists() else []
+    have = {d["id"] for d in done}
+    for spec, when in zip(specs(ep), times):
+        if spec["id"] in have:
+            continue
+        final = out_dir / f"{spec['id']}.mp4"
+        loud = mux(ep, spec, out_dir / f"{spec['id']}_silent.mp4", final)
+        r = upload_short(ep, spec, final, when, captions_for(ep, spec))
+        r["loudness"] = loud
+        done.append(r)
+        log_path.write_text(json.dumps(done, indent=2, ensure_ascii=False), encoding="utf-8")
+        print(json.dumps(r))
+    return done

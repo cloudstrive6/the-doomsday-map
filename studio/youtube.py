@@ -441,3 +441,57 @@ def _iso_dur(s: str) -> int:
     m = re.match(r"P(?:(\d+)D)?T?(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", s)
     d, h, mi, se = (int(x) if x else 0 for x in m.groups())
     return d * 86400 + h * 3600 + mi * 60 + se
+
+
+# ------------------------------------------------------------------ shorts and thumbnails
+
+
+def set_thumbnail(ep_dir: Path) -> str:
+    from googleapiclient.http import MediaFileUpload
+    meta = json.loads((ep_dir / "metadata.json").read_text(encoding="utf-8"))
+    yt().thumbnails().set(videoId=meta["youtube_id"], media_body=MediaFileUpload(str(ep_dir / "build" / "thumbnail.png"))).execute()
+    return meta["youtube_id"]
+
+
+def upload_short(ep_dir: Path, spec: dict, video: Path, publish_at: str, captions_srt: str | None = None) -> dict:
+    """Upload one Short private with publishAt; its description links the episode it was cut from.
+    (YouTube's Shorts 'related video' link has no API: set it in Studio.)"""
+    from googleapiclient.http import MediaFileUpload
+    cfg = load_config()
+    ep_meta = json.loads((ep_dir / "metadata.json").read_text(encoding="utf-8"))
+    long_url = ep_meta["url"]
+    desc = (f"{spec['hook']}\n\nWatch the full simulation: {long_url}\n\n"
+            f"{cfg['channel']['disclosure']}\n\n#shorts #nuclearwar #simulation")
+    body = {
+        "snippet": {"title": spec["yt_title"][:100], "description": desc,
+                    "tags": (ep_meta.get("tags") or cfg["channel"]["default_tags"])[:20] + ["shorts"],
+                    "categoryId": cfg["channel"]["category_id"], "defaultLanguage": "en", "defaultAudioLanguage": "en"},
+        "status": {"privacyStatus": "private", "publishAt": publish_at, "embeddable": True, "license": "youtube",
+                   "selfDeclaredMadeForKids": bool(cfg["channel"]["made_for_kids"]),
+                   "containsSyntheticMedia": bool(ep_meta.get("synthetic_media", False))},
+        "paidProductPlacementDetails": {"hasPaidProductPlacement": False},
+    }
+    api = yt()
+    req = api.videos().insert(part="snippet,status,paidProductPlacementDetails", body=body,
+                              media_body=MediaFileUpload(str(video), chunksize=16 * 1024 * 1024, resumable=True))
+    resp = None
+    while resp is None:
+        _, resp = req.next_chunk()
+    vid = resp["id"]
+    out = {"id": spec["id"], "youtube_id": vid, "url": f"https://youtube.com/shorts/{vid}", "publish_at": publish_at,
+           "title": spec["yt_title"], "warnings": []}
+    if captions_srt:
+        try:
+            from googleapiclient.http import MediaInMemoryUpload
+            api.captions().insert(part="snippet", body={"snippet": {"videoId": vid, "language": "en", "name": "English", "isDraft": False}},
+                                  media_body=MediaInMemoryUpload(captions_srt.encode("utf-8"), mimetype="application/octet-stream")).execute()
+        except Exception as e:
+            out["warnings"].append(f"captions: {e}")
+    try:
+        add_to_playlist(api, vid, "shorts")
+    except Exception as e:
+        out["warnings"].append(f"playlist: {e}")
+    got = api.videos().list(part="status", id=vid).execute()["items"][0]["status"]
+    if not got.get("publishAt"):
+        out["warnings"].append("publishAt not kept")
+    return out

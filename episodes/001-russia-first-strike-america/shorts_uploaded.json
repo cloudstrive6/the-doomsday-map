@@ -1,0 +1,38 @@
+[
+  {
+    "id": "s1",
+    "youtube_id": "4g-ER3p2Zbo",
+    "url": "https://youtube.com/shorts/4g-ER3p2Zbo",
+    "publish_at": "2026-11-05T14:00:00Z",
+    "title": "The President Would Have 6 Minutes to Decide #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -14.0,
+      "TP": -3.4
+    }
+  },
+  {
+    "id": "s2",
+    "youtube_id": "dpxhxTSJoec",
+    "url": "https://youtube.com/shorts/dpxhxTSJoec",
+    "publish_at": "2026-11-05T19:00:00Z",
+    "title": "What One 800 Kiloton Warhead Would Do to Omaha #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -14.0,
+      "TP": -2.0
+    }
+  },
+  {
+    "id": "s3",
+    "youtube_id": "CkQNFwM8CB0",
+    "url": "https://youtube.com/shorts/CkQNFwM8CB0",
+    "publish_at": "2026-11-06T00:00:00Z",
+    "title": "4 Times the World Almost Launched by Mistake #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -13.9,
+      "TP": -4.8
+    }
+  }
+]
