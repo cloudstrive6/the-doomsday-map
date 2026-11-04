@@ -99,12 +99,14 @@ export const CityMap: React.FC<{shot: CityShot; t: number}> = ({shot, t}) => {
       </svg>
       {shot.rings.map((r, i) => {
         if (t < r.t + 0.6) return null;
-        const edge = proj(destination(shot.gz, 90 + (i % 2) * 180, r.km)) as [number, number] | null;
+        // labels fan out along a diagonal from ground zero so small rings do not overlap: ring i sits at bearing 45 + i*28 degrees
+        const bearing = 40 + i * 26;
+        const edge = proj(destination(shot.gz, bearing, r.km)) as [number, number] | null;
         if (!edge) return null;
         const col = r.color ?? [C.white, C.red, C.orange, C.amber, C.teal][i % 5];
-        const right = i % 2 === 0;
+        const right = true;
         return (
-          <div key={i} style={{position: 'absolute', left: right ? edge[0] + 10 : undefined, right: right ? undefined : W - edge[0] + 10, top: edge[1] - 12, fontFamily: MONO, fontSize: 16, letterSpacing: 1.5,
+          <div key={i} style={{position: 'absolute', left: right ? edge[0] + 10 : undefined, right: right ? undefined : W - edge[0] + 10, top: edge[1] - 12 - (r.km * pxPerKm < 60 ? (3 - i) * 22 : 0), fontFamily: MONO, fontSize: 16, letterSpacing: 1.5,
             color: col, textShadow: '0 0 6px rgba(0,0,0,0.95)', whiteSpace: 'nowrap', textTransform: 'uppercase', opacity: ease(clamp01((t - r.t - 0.6) / 0.4))}}>
             {r.label} · {r.km} KM
           </div>

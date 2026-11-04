@@ -9,7 +9,7 @@
     {"id": "ch1", "type": "chapter", "start": 0, "end": 3, "kicker": "RENDER TEST", "title": "The Doomsday Map"},
     {"id": "globe1", "type": "globe", "start": 3, "end": 15, "tag": "SIMULATION", "clock": "T+00:04", "clockLabel": "SINCE FIRST LAUNCH",
      "caption": "Six missiles leave Kozelsk. Thirty minutes to the silo fields of Montana and North Dakota.",
-     "camera": [{"t": 0, "lat": 62, "lon": -30, "scale": 430}, {"t": 12, "lat": 58, "lon": -45, "scale": 620}],
+     "camera": [{"t": 0, "lat": 62, "lon": -30, "scale": 400}, {"t": 12, "lat": 56, "lon": -50, "scale": 500}],
      "sun": {"lat": -16, "lon": 160},
      "markers": [
        {"at": [35.78, 54.03], "label": "Kozelsk", "color": "#FF3B3B", "kind": "base"},

@@ -7,7 +7,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {VectorTile} from '@mapbox/vector-tile';
-import Pbf from 'pbf';
+import {PbfReader} from 'pbf';
 
 const args = Object.fromEntries(process.argv.slice(2).map((a, i, arr) => a.startsWith('--') ? [a.slice(2), arr[i + 1]] : null).filter(Boolean));
 const slug = args.slug;
@@ -88,7 +88,7 @@ async function pass(z, box, {minor, buildings}) {
       const buf = await getTile(z, x, y);
       done++;
       if (!buf.length) continue;
-      const vt = new VectorTile(new Pbf(buf));
+      const vt = new VectorTile(new PbfReader(buf));
       const L = vt.layers;
       const take = (layerName, fn) => {
         const layer = L[layerName];

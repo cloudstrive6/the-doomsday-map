@@ -200,7 +200,7 @@ export const Timeline: React.FC<{shot: TimelineShot; t: number}> = ({shot, t}) =
         );
       })}
       {Array.from({length: Math.floor(shot.total / 5) + 1}, (_, i) => (
-        <div key={`tick${i}`} style={{position: 'absolute', left: x(i * 5) - 20, top: y + 36, width: 40, textAlign: 'center', fontFamily: MONO, fontSize: 13, color: C.faint}}>{i * 5} {shot.unit ?? 'MIN'}</div>
+        <div key={`tick${i}`} style={{position: 'absolute', left: x(i * 5) - 40, top: y + 34, width: 80, textAlign: 'center', fontFamily: MONO, fontSize: 13, color: C.faint, whiteSpace: 'nowrap'}}>{i * 5} {shot.unit ?? 'MIN'}</div>
       ))}
       {shot.highlight ? (
         <>
