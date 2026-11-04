@@ -26,17 +26,35 @@ const ShotBody: React.FC<{shot: Shot; t: number}> = ({shot, t}) => {
   }
 };
 
-const ShotView: React.FC<{shot: Shot}> = ({shot}) => {
+// Every shot keeps moving (house rule: no still stretch over 6 s). Maps and globes without an authored camera move
+// get a slow drift; cards get a slow push-in on the whole card (the HUD chrome stays fixed).
+function withDrift(shot: Shot): Shot {
+  if ((shot.type === 'region' || shot.type === 'city') && !shot.zoomTo) {
+    return {...shot, zoomTo: {center: shot.view.center, widthKm: shot.view.widthKm * 0.92}};
+  }
+  if (shot.type === 'globe' && shot.camera.length === 1) {
+    const c = shot.camera[0];
+    return {...shot, camera: [c, {...c, t: c.t + (shot.end - shot.start), lon: c.lon - 4, scale: c.scale * 1.05}]};
+  }
+  return shot;
+}
+const CARD_TYPES = new Set(['stamp', 'number', 'chapter', 'isotype', 'bars', 'timeline', 'radar', 'text', 'split', 'endslate']);
+
+const ShotView: React.FC<{shot: Shot}> = ({shot: raw}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const t = frame / fps;
+  const shot = React.useMemo(() => withDrift(raw), [raw]);
   const dur = shot.end - shot.start;
+  const push = CARD_TYPES.has(shot.type) ? 1 + 0.045 * Math.min(1, t / Math.max(1, dur)) : 1;
   const fadeIn = clamp01(t / 0.35);
   const fadeOut = clamp01((dur - t) / 0.35);
   const dark = 1 - Math.min(fadeIn, fadeOut);
   return (
     <AbsoluteFill>
-      <ShotBody shot={shot} t={t} />
+      <AbsoluteFill style={push !== 1 ? {transform: `scale(${push})`} : undefined}>
+        <ShotBody shot={shot} t={t} />
+      </AbsoluteFill>
       <Chrome tag={shot.tag} clock={shot.clock} clockLabel={shot.clockLabel} caption={shot.caption} source={shot.source} t={t} />
       {dark > 0 ? <AbsoluteFill style={{background: '#000', opacity: dark}} /> : null}
     </AbsoluteFill>
