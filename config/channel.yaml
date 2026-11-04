@@ -16,7 +16,7 @@ channel:
   disclosure: "Narration is AI-generated. Scenario segments are simulations built from published models and are labelled on screen; nothing in them has happened."
 
 voice:                       # Google Cloud TTS, Chirp 3: HD
-  name: "en-US-Chirp3-HD-Iapetus"   # provisional until Bryce picks from the 2026-11-05 audition
+  name: "en-US-Chirp3-HD-Enceladus"   # chosen by Bryce 2026-11-05 from the 10-voice audition
   language: en-US
   speaking_rate: 0.93
   target_wpm: [135, 150]

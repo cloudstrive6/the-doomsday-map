@@ -219,7 +219,16 @@ add(id="c8-zero", type="text", start=S("p43"), end=S("p44"), tag="SIMULATION", l
 add(id="end", type="endslate", start=S("p44"), end=timing["total_seconds"] + 15, tag="", title="Next scenario", line="China blockades Taiwan, and the first nuclear weapon since 1945 is used. New scenario every day.")
 
 episode = {"slug": EP.name, "fps": 60, "width": 1920, "height": 1080, "durationSeconds": round(timing["total_seconds"] + 15, 2),
-           "music": {"src": "music/bed.mp3", "volume": 0.1},
+           "musicPlan": [
+               {"src": "bed.mp3", "from": 0, "to": S("p15") + 1, "loop": [2, 174], "gain_db": -17},
+               {"src": "bed_tense.mp3", "from": S("p15") - 1, "to": S("p31") + 1, "loop": [3, 92], "gain_db": -14},
+               {"src": "bed.mp3", "from": S("p31") - 1, "to": timing["total_seconds"] + 15, "loop": [2, 174], "gain_db": -17},
+           ],
+           "sfxPlan": [{"src": "impact.mp3", "t": s["start"] + 0.15, "gain_db": -9} for s in shots if s["type"] == "chapter"]
+                    + [{"src": "radar.mp3", "t": s["start"] + 0.4, "gain_db": -12} for s in shots if s["type"] == "radar"]
+                    + [{"src": "boom.mp3", "t": s["start"] + s["flashT"], "gain_db": -4} for s in shots if s["type"] == "city" and s.get("flashT", -1) >= 0]
+                    + [{"src": "boom.mp3", "t": s["start"] + f["t"], "gain_db": -10} for s in shots if s["id"] in ("c4-m12",) for f in s.get("flashes", []) if 0 <= f["t"] < s["end"] - s["start"]]
+                    + [{"src": "whoosh.mp3", "t": s["start"] - 0.4, "gain_db": -14} for s in shots if s["type"] == "stamp"],
            "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated.",
            "shots": shots}
 # strip None labels

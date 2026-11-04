@@ -7,6 +7,7 @@ so the rest of the pipeline can still be tested.
 from __future__ import annotations
 
 import base64
+import re
 import hashlib
 import io
 import json
@@ -97,38 +98,43 @@ def write_wav(path: Path, pcm: bytes):
 
 
 def normalize_wav(path: Path, lufs: float = -14.0, true_peak: float = -1.5):
-    """Bring a narration WAV to YouTube's playback reference loudness (-14 LUFS integrated): YouTube turns louder
-    uploads down but never turns quiet ones up, and raw Chirp 3 HD sits near -20 LUFS. One gain for the whole track
-    (the voice keeps its dynamics) plus a peak limiter that only touches the few plosives above the ceiling; the
-    sample rate and length stay the same, so shot timing is unchanged."""
-    import re
+    """Two-pass EBU R128 normalisation to YouTube's playback reference (-14 LUFS integrated) with a true-peak
+    ceiling. Pass 1 measures, pass 2 applies loudnorm with the measured values (linear when possible, so the voice
+    keeps its dynamics) and resamples back to the narration rate. A final check fails loudly if either target is
+    missed by more than 0.5 dB, so a bad mix never reaches an upload."""
+    import json as _json
     import subprocess
 
-    def measure(p: Path) -> float | None:
-        r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(p), "-af", "ebur128", "-f", "null", "-"],
-                           capture_output=True, text=True)
-        m = re.findall(r"I:\s+(-?[\d.]+|-inf) LUFS", r.stderr)
-        if r.returncode or not m:
-            raise RuntimeError(f"loudness measure failed for {p.name}: {r.stderr[-300:]}")
-        return None if m[-1] == "-inf" else float(m[-1])
+    def run(af):
+        return subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(path), "-af", af, "-f", "null", "-"],
+                              capture_output=True, text=True).stderr
 
-    now = measure(path)
-    if now is None or abs(now - lufs) < 0.5:
-        return
+    tgt = f"I={lufs}:TP={true_peak - 0.3}:LRA=11"
+    # gentle voice compression first: evens out syllable peaks so loudnorm can stay linear and still reach the target
+    comp = "acompressor=threshold=0.08:ratio=3:attack=4:release=120:knee=4:makeup=1.5,"
+    err = run(f"{comp}loudnorm={tgt}:print_format=json")
+    m = _json.loads(err[err.rindex("{"):err.rindex("}") + 1])
     tmp = path.with_suffix(".norm.wav")
-    ceiling = 10 ** ((true_peak - 0.5) / 20)  # 0.5 dB extra headroom for inter-sample peaks after AAC encoding
-    gain = lufs - now
-    for _ in range(4):  # always from the original; the gain is corrected for what the compressor/limiter took
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(path), "-af",
-                        # gentle voice compression evens out syllable peaks so the limiter only catches plosives
-                        f"acompressor=threshold=0.1:ratio=2.5:attack=5:release=120:knee=4,volume={gain:.2f}dB,"
-                        f"alimiter=limit={ceiling:.4f}:attack=1:release=50:level=false",
-                        "-ar", str(SAMPLE_RATE), "-ac", "1", "-c:a", "pcm_s16le", str(tmp)], check=True)
-        got = measure(tmp)
-        if got is None or abs(got - lufs) < 0.3:
-            break
-        gain += lufs - got
+    af = (f"{comp}loudnorm={tgt}:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}:"
+          f"measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(path), "-af", af, "-ar", str(SAMPLE_RATE), "-ac", "1",
+                    "-c:a", "pcm_s16le", str(tmp)], check=True)
     tmp.replace(path)
+    got = measure(path)
+    if abs(got["I"] - lufs) > 0.5 or got["TP"] > true_peak + 0.5:
+        raise RuntimeError(f"loudness check failed for {path.name}: {got}")
+    return got
+
+
+def measure(path: Path) -> dict:
+    """Integrated loudness (LUFS) and true peak (dBTP) of an audio or video file."""
+    import subprocess
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(path), "-af", "ebur128=peak=true", "-f", "null", "-"],
+                       capture_output=True, text=True)
+    summary = r.stderr[r.stderr.rindex("Summary:"):]
+    i = float(re.search(r"I:\s+(-?[\d.]+) LUFS", summary).group(1))
+    tp = float(re.search(r"Peak:\s+(-?[\d.]+) dBFS", summary).group(1))
+    return {"I": i, "TP": tp}
 
 
 def pcm_seconds(pcm: bytes) -> float:

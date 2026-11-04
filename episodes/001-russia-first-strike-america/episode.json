@@ -3,18 +3,128 @@
  "fps": 60,
  "width": 1920,
  "height": 1080,
- "durationSeconds": 745.51,
- "music": {
-  "src": "music/bed.mp3",
-  "volume": 0.1
- },
+ "durationSeconds": 748.54,
+ "musicPlan": [
+  {
+   "src": "bed.mp3",
+   "from": 0,
+   "to": 286.565,
+   "loop": [
+    2,
+    174
+   ],
+   "gain_db": -17
+  },
+  {
+   "src": "bed_tense.mp3",
+   "from": 284.565,
+   "to": 536.278,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  },
+  {
+   "src": "bed.mp3",
+   "from": 534.278,
+   "to": 748.54,
+   "loop": [
+    2,
+    174
+   ],
+   "gain_db": -17
+  }
+ ],
+ "sfxPlan": [
+  {
+   "src": "impact.mp3",
+   "t": 42.821,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 163.413,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 225.836,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 285.715,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 535.428,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 612.131,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 673.307,
+   "gain_db": -9
+  },
+  {
+   "src": "radar.mp3",
+   "t": 312.549,
+   "gain_db": -12
+  },
+  {
+   "src": "radar.mp3",
+   "t": 649.91,
+   "gain_db": -12
+  },
+  {
+   "src": "boom.mp3",
+   "t": 465.29,
+   "gain_db": -4
+  },
+  {
+   "src": "boom.mp3",
+   "t": 358.338,
+   "gain_db": -10
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 148.03199999999998,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 242.286,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 553.678,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 615.822,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 692.173,
+   "gain_db": -14
+  }
+ ],
  "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated.",
  "shots": [
   {
    "id": "open-city",
    "type": "city",
    "start": 0,
-   "end": 6.256,
+   "end": 5.64,
    "tag": "SIMULATION",
    "clock": "03:40",
    "clockLabel": "CENTRAL TIME · NEBRASKA",
@@ -52,8 +162,8 @@
   {
    "id": "open-globe",
    "type": "globe",
-   "start": 6.256,
-   "end": 23.601,
+   "start": 5.64,
+   "end": 22.201,
    "tag": "SIMULATION",
    "clock": "T+00:00",
    "clockLabel": "FIRST LAUNCH",
@@ -312,8 +422,8 @@
   {
    "id": "open-disclaimer",
    "type": "text",
-   "start": 23.601,
-   "end": 34.601,
+   "start": 22.201,
+   "end": 33.201,
    "tag": "SIMULATION",
    "lines": [
     "A simulation",
@@ -323,8 +433,8 @@
   {
    "id": "open-title",
    "type": "globe",
-   "start": 34.601,
-   "end": 45.359,
+   "start": 33.201,
+   "end": 42.671,
    "tag": "SIMULATION",
    "caption": "Russia launches a nuclear strike on America. Minute by minute.",
    "camera": [
@@ -590,8 +700,8 @@
   {
    "id": "c1-card",
    "type": "chapter",
-   "start": 45.359,
-   "end": 49.359,
+   "start": 42.671,
+   "end": 46.671,
    "tag": "REAL DATA",
    "kicker": "CHAPTER 01",
    "title": "The real forces"
@@ -599,8 +709,8 @@
   {
    "id": "c1-iso",
    "type": "isotype",
-   "start": 49.359,
-   "end": 67.855,
+   "start": 46.671,
+   "end": 65.727,
    "tag": "REAL DATA",
    "headline": "12,000+",
    "label": "nuclear warheads in the world",
@@ -614,8 +724,8 @@
   {
    "id": "c1-russia",
    "type": "region",
-   "start": 67.855,
-   "end": 91.864,
+   "start": 65.727,
+   "end": 90.744,
    "tag": "REAL DATA",
    "source": "Bulletin of the Atomic Scientists, Russian nuclear weapons 2025",
    "view": {
@@ -779,8 +889,8 @@
   {
    "id": "c1-subs",
    "type": "globe",
-   "start": 91.864,
-   "end": 111.168,
+   "start": 90.744,
+   "end": 110.776,
    "tag": "REAL DATA",
    "source": "Barents Observer; FAS Nuclear Notebook 2025",
    "caption": "Borei submarines: 16 Bulava missiles each, reach about 8,000 km",
@@ -858,8 +968,8 @@
   {
    "id": "c1-plains",
    "type": "region",
-   "start": 111.168,
-   "end": 135.512,
+   "start": 110.776,
+   "end": 132.432,
    "tag": "REAL DATA",
    "source": "Air Force Global Strike Command; minutemanmissile.com",
    "caption": "400 Minuteman III missiles in 450 silos",
@@ -967,8 +1077,8 @@
   {
    "id": "c1-offutt",
    "type": "city",
-   "start": 135.512,
-   "end": 151.512,
+   "start": 132.432,
+   "end": 148.432,
    "tag": "REAL DATA",
    "source": "US Strategic Command history; Brookings",
    "city": "omaha",
@@ -1024,8 +1134,8 @@
   {
    "id": "c1-stamp",
    "type": "stamp",
-   "start": 151.512,
-   "end": 166.343,
+   "start": 148.432,
+   "end": 163.263,
    "tag": "REAL HISTORY",
    "text": "Since the 1950s",
    "line": "SAC built its command post underground to survive a Soviet strike"
@@ -1033,8 +1143,8 @@
   {
    "id": "c2-card",
    "type": "chapter",
-   "start": 166.343,
-   "end": 169.843,
+   "start": 163.263,
+   "end": 166.763,
    "tag": "REAL DATA",
    "kicker": "CHAPTER 02",
    "title": "Thirty minutes"
@@ -1042,8 +1152,8 @@
   {
    "id": "c2-num",
    "type": "number",
-   "start": 169.843,
-   "end": 175.959,
+   "start": 166.763,
+   "end": 172.711,
    "tag": "REAL DATA",
    "value": "30 MIN",
    "label": "from a launch in Russia to impact in America",
@@ -1052,8 +1162,8 @@
   {
    "id": "c2-sbirs",
    "type": "globe",
-   "start": 175.959,
-   "end": 188.487,
+   "start": 172.711,
+   "end": 186.527,
    "tag": "REAL DATA",
    "caption": "Infrared satellites register a launch within seconds",
    "camera": [
@@ -1120,8 +1230,8 @@
   {
    "id": "c2-radars",
    "type": "globe",
-   "start": 188.487,
-   "end": 203.487,
+   "start": 186.527,
+   "end": 201.527,
    "tag": "REAL DATA",
    "caption": "Ground radars confirm the launch as missiles rise over the horizon: about ten minutes",
    "camera": [
@@ -1198,8 +1308,8 @@
   {
    "id": "c2-timeline",
    "type": "timeline",
-   "start": 203.487,
-   "end": 218.936,
+   "start": 201.527,
+   "end": 216.976,
    "tag": "REAL DATA",
    "title": "Thirty minutes",
    "sub": "launch to impact · who does what",
@@ -1247,8 +1357,8 @@
   {
    "id": "c2-nobody",
    "type": "text",
-   "start": 218.936,
-   "end": 227.31,
+   "start": 216.976,
+   "end": 225.686,
    "tag": "REAL DATA",
    "lines": [
     "Nobody has ever decided",
@@ -1258,8 +1368,8 @@
   {
    "id": "c3-card",
    "type": "chapter",
-   "start": 227.31,
-   "end": 231.31,
+   "start": 225.686,
+   "end": 229.686,
    "tag": "SIMULATION",
    "kicker": "CHAPTER 03",
    "title": "The warning shot that was never answered"
@@ -1267,8 +1377,8 @@
   {
    "id": "c3-baltic",
    "type": "region",
-   "start": 231.31,
-   "end": 244.31,
+   "start": 229.686,
+   "end": 242.686,
    "tag": "SIMULATION",
    "source": "Russia's 2026-09-30 note to NATO (CTV News, Kyiv Independent)",
    "view": {
@@ -1372,8 +1482,8 @@
   {
    "id": "c3-doctrine",
    "type": "stamp",
-   "start": 244.31,
-   "end": 255.238,
+   "start": 242.686,
+   "end": 254.118,
    "tag": "REAL HISTORY",
    "text": "Doctrine · 2024",
    "line": "an attack backed by a nuclear power counts as a joint attack"
@@ -1381,8 +1491,8 @@
   {
    "id": "c3-targets",
    "type": "region",
-   "start": 255.238,
-   "end": 272.238,
+   "start": 254.118,
+   "end": 271.118,
    "tag": "SIMULATION",
    "caption": "About 650 warheads at some 500 aim points. A scenario, not a forecast.",
    "view": {
@@ -1566,8 +1676,8 @@
   {
    "id": "c3-650",
    "type": "number",
-   "start": 272.238,
-   "end": 284.501,
+   "start": 271.118,
+   "end": 285.565,
    "tag": "SIMULATION",
    "value": "650",
    "countTo": 650,
@@ -1577,8 +1687,8 @@
   {
    "id": "c4-card",
    "type": "chapter",
-   "start": 284.501,
-   "end": 288.001,
+   "start": 285.565,
+   "end": 289.065,
    "tag": "SIMULATION",
    "kicker": "CHAPTER 04",
    "title": "Minute by minute"
@@ -1586,8 +1696,8 @@
   {
    "id": "c4-m0",
    "type": "globe",
-   "start": 288.001,
-   "end": 310.805,
+   "start": 289.065,
+   "end": 312.149,
    "tag": "SIMULATION",
    "clock": "T+00:00",
    "clockLabel": "03:40 CENTRAL",
@@ -1975,8 +2085,8 @@
   {
    "id": "c4-m1",
    "type": "radar",
-   "start": 310.805,
-   "end": 325.685,
+   "start": 312.149,
+   "end": 326.693,
    "tag": "SIMULATION",
    "clock": "T+01:00",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -2002,8 +2112,8 @@
   {
    "id": "c4-m3",
    "type": "region",
-   "start": 325.685,
-   "end": 343.646,
+   "start": 326.693,
+   "end": 345.718,
    "tag": "SIMULATION",
    "clock": "T+03:00",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -2095,8 +2205,8 @@
   {
    "id": "c4-m8",
    "type": "globe",
-   "start": 343.646,
-   "end": 353.766,
+   "start": 345.718,
+   "end": 355.838,
    "tag": "SIMULATION",
    "clock": "T+08:00",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -2375,8 +2485,8 @@
   {
    "id": "c4-m12",
    "type": "globe",
-   "start": 353.766,
-   "end": 369.43,
+   "start": 355.838,
+   "end": 372.062,
    "tag": "SIMULATION",
    "clock": "T+12:00",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -2665,8 +2775,8 @@
   {
    "id": "c4-m13",
    "type": "timeline",
-   "start": 369.43,
-   "end": 384.703,
+   "start": 372.062,
+   "end": 388.567,
    "tag": "SIMULATION",
    "clock": "T+13:00",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -2715,8 +2825,8 @@
   {
    "id": "c4-m19",
    "type": "globe",
-   "start": 384.703,
-   "end": 403.895,
+   "start": 388.567,
+   "end": 409.607,
    "tag": "SIMULATION",
    "clock": "T+19:00",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -3282,8 +3392,8 @@
   {
    "id": "c4-m20",
    "type": "region",
-   "start": 403.895,
-   "end": 422.527,
+   "start": 409.607,
+   "end": 427.679,
    "tag": "SIMULATION",
    "clock": "T+20:00",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -3382,8 +3492,8 @@
   {
    "id": "c4-m22",
    "type": "region",
-   "start": 422.527,
-   "end": 438.472,
+   "start": 427.679,
+   "end": 440.544,
    "tag": "SIMULATION",
    "clock": "T+22:00",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -3497,8 +3607,8 @@
   {
    "id": "c4-m25",
    "type": "region",
-   "start": 438.472,
-   "end": 461.528,
+   "start": 440.544,
+   "end": 459.736,
    "tag": "SIMULATION",
    "clock": "T+25:00",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -3585,8 +3695,8 @@
   {
    "id": "c4-m27",
    "type": "number",
-   "start": 461.528,
-   "end": 464.526,
+   "start": 459.736,
+   "end": 462.79,
    "tag": "SIMULATION",
    "value": "T+00:27",
    "label": "Offutt",
@@ -3595,8 +3705,8 @@
   {
    "id": "c5-flash",
    "type": "city",
-   "start": 464.526,
-   "end": 480.023,
+   "start": 462.79,
+   "end": 479.463,
    "tag": "SIMULATION",
    "clock": "T+27:00",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -3657,8 +3767,8 @@
   {
    "id": "c5-5psi",
    "type": "city",
-   "start": 480.023,
-   "end": 490.143,
+   "start": 479.463,
+   "end": 489.303,
    "tag": "SIMULATION",
    "clock": "T+27:00",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -3740,8 +3850,8 @@
   {
    "id": "c5-burns",
    "type": "city",
-   "start": 490.143,
-   "end": 501.103,
+   "start": 489.303,
+   "end": 499.367,
    "tag": "SIMULATION",
    "clock": "T+27:00",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -3829,8 +3939,8 @@
   {
    "id": "c5-1psi",
    "type": "city",
-   "start": 501.103,
-   "end": 519.736,
+   "start": 499.367,
+   "end": 518.056,
    "tag": "SIMULATION",
    "clock": "T+27:00",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -3932,8 +4042,8 @@
   {
    "id": "c5-fallout",
    "type": "region",
-   "start": 519.736,
-   "end": 535.558,
+   "start": 518.056,
+   "end": 535.278,
    "tag": "SIMULATION",
    "clock": "+6 HOURS",
    "clockLabel": "AFTER THE BURST",
@@ -4008,8 +4118,8 @@
   {
    "id": "c6-card",
    "type": "chapter",
-   "start": 535.558,
-   "end": 539.058,
+   "start": 535.278,
+   "end": 538.778,
    "tag": "REAL DATA",
    "kicker": "CHAPTER 06",
    "title": "The day after"
@@ -4017,8 +4127,8 @@
   {
    "id": "c6-710",
    "type": "bars",
-   "start": 539.058,
-   "end": 553.854,
+   "start": 538.778,
+   "end": 554.078,
    "tag": "REAL DATA",
    "title": "The seven-ten rule",
    "sub": "fallout radiation after a ground burst",
@@ -4053,8 +4163,8 @@
   {
    "id": "c6-shelter",
    "type": "stamp",
-   "start": 553.854,
-   "end": 568.119,
+   "start": 554.078,
+   "end": 567.951,
    "tag": "REAL DATA",
    "text": "No shelter system",
    "line": "get inside · stay inside · stay tuned"
@@ -4062,8 +4172,8 @@
   {
    "id": "c6-plan-a",
    "type": "number",
-   "start": 568.119,
-   "end": 581.119,
+   "start": 567.951,
+   "end": 580.951,
    "tag": "REAL DATA",
    "value": "34.1 MILLION",
    "countTo": 34.1,
@@ -4076,8 +4186,8 @@
   {
    "id": "c6-915",
    "type": "text",
-   "start": 581.119,
-   "end": 591.791,
+   "start": 580.951,
+   "end": 588.823,
    "tag": "REAL DATA",
    "lines": [
     "91,500,000 casualties",
@@ -4087,8 +4197,8 @@
   {
    "id": "c6-famine",
    "type": "isotype",
-   "start": 591.791,
-   "end": 604.791,
+   "start": 588.823,
+   "end": 601.823,
    "tag": "REAL DATA",
    "headline": "5,000,000,000",
    "label": "could be starving within two years",
@@ -4102,8 +4212,8 @@
   {
    "id": "c6-dark",
    "type": "globe",
-   "start": 604.791,
-   "end": 616.181,
+   "start": 601.823,
+   "end": 611.981,
    "tag": "REAL DATA",
    "caption": "Average temperatures fall for years. Harvests fail.",
    "camera": [
@@ -4129,8 +4239,8 @@
   {
    "id": "c7-card",
    "type": "chapter",
-   "start": 616.181,
-   "end": 620.03,
+   "start": 611.981,
+   "end": 616.222,
    "tag": "REAL HISTORY",
    "kicker": "CHAPTER 07",
    "title": "How close it has come"
@@ -4138,8 +4248,8 @@
   {
    "id": "c7-1979",
    "type": "stamp",
-   "start": 620.03,
-   "end": 638.494,
+   "start": 616.222,
+   "end": 635.246,
    "tag": "REAL HISTORY",
    "text": "1979",
    "line": "NORAD · a training tape shows a full Soviet attack · the adviser is minutes from calling the president",
@@ -4148,8 +4258,8 @@
   {
    "id": "c7-chip",
    "type": "number",
-   "start": 638.494,
-   "end": 652.814,
+   "start": 635.246,
+   "end": 649.51,
    "tag": "REAL HISTORY",
    "value": "46 CENTS",
    "label": "one faulty chip · June 1980",
@@ -4160,8 +4270,8 @@
   {
    "id": "c7-petrov",
    "type": "radar",
-   "start": 652.814,
-   "end": 664.951,
+   "start": 649.51,
+   "end": 662.151,
    "tag": "REAL HISTORY",
    "title": "Serpukhov-15 · 26 September 1983",
    "lines": [
@@ -4186,8 +4296,8 @@
   {
    "id": "c7-norway",
    "type": "region",
-   "start": 664.951,
-   "end": 678.085,
+   "start": 662.151,
+   "end": 673.157,
    "tag": "REAL HISTORY",
    "caption": "1995: a Norwegian science rocket, read by Russian radar as a possible missile",
    "view": {
@@ -4257,8 +4367,8 @@
   {
    "id": "c8-card",
    "type": "chapter",
-   "start": 678.085,
-   "end": 681.085,
+   "start": 673.157,
+   "end": 676.157,
    "tag": "REAL DATA",
    "kicker": "CHAPTER 08",
    "title": "The clock"
@@ -4266,8 +4376,8 @@
   {
    "id": "c8-85",
    "type": "number",
-   "start": 681.085,
-   "end": 694.645,
+   "start": 676.157,
+   "end": 692.573,
    "tag": "REAL DATA",
    "value": "85 SECONDS",
    "label": "to midnight · 27 January 2026",
@@ -4277,8 +4387,8 @@
   {
    "id": "c8-start",
    "type": "stamp",
-   "start": 694.645,
-   "end": 709.19,
+   "start": 692.573,
+   "end": 709.918,
    "tag": "REAL DATA",
    "text": "New START · expired",
    "line": "5 February 2026 · no treaty limit on strategic weapons for the first time in half a century"
@@ -4286,8 +4396,8 @@
   {
    "id": "c8-earth",
    "type": "globe",
-   "start": 709.19,
-   "end": 719.534,
+   "start": 709.918,
+   "end": 720.766,
    "tag": "REAL DATA",
    "caption": "Eighty-one years. Every person with the authority to launch has decided not to.",
    "camera": [
@@ -4312,8 +4422,8 @@
   {
    "id": "c8-zero",
    "type": "text",
-   "start": 719.534,
-   "end": 725.892,
+   "start": 720.766,
+   "end": 728.468,
    "tag": "SIMULATION",
    "lines": [
     "Minute zero",
@@ -4323,8 +4433,8 @@
   {
    "id": "end",
    "type": "endslate",
-   "start": 725.892,
-   "end": 745.51,
+   "start": 728.468,
+   "end": 748.54,
    "tag": "",
    "title": "Next scenario",
    "line": "China blockades Taiwan, and the first nuclear weapon since 1945 is used. New scenario every day."

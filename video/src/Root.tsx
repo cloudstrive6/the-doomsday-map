@@ -1,6 +1,6 @@
 import React from 'react';
 import {Composition, Still} from 'remotion';
-import {Avatar, Banner, Watermark} from './Branding';
+import {Avatar, Banner, BannerGuide, Watermark} from './Branding';
 import type {Episode as EpisodeT} from './scene';
 import {Episode} from './Episode';
 import demo from '../public/episodes/demo/episode.json';
@@ -18,6 +18,7 @@ export const Root: React.FC = () => (
     <Composition id="Short" component={Episode} defaultProps={{episode: {...(demo as unknown as EpisodeT), width: 1080, height: 1920}}} fps={60} width={1080} height={1920} durationInFrames={600} calculateMetadata={meta} />
     <Still id="Avatar" component={Avatar} width={800} height={800} />
     <Still id="Banner" component={Banner} width={2560} height={1440} />
+    <Still id="BannerGuide" component={BannerGuide} width={2560} height={1440} />
     <Still id="Watermark" component={Watermark} width={150} height={150} />
   </>
 );

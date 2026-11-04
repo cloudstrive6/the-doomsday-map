@@ -130,7 +130,8 @@ def build(ep: Path, chunks: int = 8, local: bool = False):
         if not silent.exists():
             return
     final = build_dir / "final.mp4"
-    mix_audio(ep, silent, final)
+    from .mix import mix
+    mix(ep, silent, final)
     problems = qc(final)
     print("QC:", "ok" if not problems else problems)
     return final
