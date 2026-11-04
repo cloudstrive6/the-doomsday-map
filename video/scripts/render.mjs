@@ -14,6 +14,8 @@ const has = (name) => argv.includes(`--${name}`);
 const episodePath = positional[0];
 if (!episodePath) { console.error('usage: render.mjs <episode.json> <out.mp4> [--chunk i/N]'); process.exit(2); }
 const episode = JSON.parse(fs.readFileSync(episodePath, 'utf8'));
+// audio is mixed in Python (studio/mix.py); renders are always silent, so drop audio refs (narration is not in git)
+if (!argv.includes('--audio')) { delete episode.narration; delete episode.music; delete episode.sfx; }
 const compositionId = flag('composition', episode.height > episode.width ? 'Short' : 'Episode');
 const totalFrames = Math.ceil(episode.durationSeconds * episode.fps);
 

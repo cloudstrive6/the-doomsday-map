@@ -8,6 +8,7 @@ import {geoCircle, geoPath} from 'd3-geo';
 import type {CityShot, LonLat, RegionView} from '../scene';
 import {C, COND, MONO, clamp01, ease, easeOut} from '../theme';
 import {destination, makeProjection, viewAt} from './RegionMap';
+import {getBase} from './baseCache';
 
 type CityData = {
   roads: Record<'motorway' | 'primary' | 'secondary' | 'minor' | 'rail', LonLat[][]>;
@@ -26,30 +27,49 @@ const SUPER = 2; // offscreen resolution multiplier
 const multi = (lines: LonLat[][]) => ({type: 'MultiLineString', coordinates: lines} as const);
 const polys = (rings: LonLat[][]) => ({type: 'MultiPolygon', coordinates: rings.map((r) => [r])} as const);
 
-const baseCache = new Map<string, HTMLCanvasElement>();
-
 function paintBase(data: CityData, baseView: RegionView, W: number, H: number, key: string): HTMLCanvasElement {
-  const hit = baseCache.get(key);
-  if (hit) return hit;
+  return getBase('city|' + key, () => paintCity(data, baseView, W, H));
+}
+
+function paintCity(data: CityData, baseView: RegionView, W: number, H: number): HTMLCanvasElement {
   const bw = W * SUPER, bh = H * SUPER;
   const canvas = document.createElement('canvas');
   canvas.width = bw; canvas.height = bh;
-  const ctx = canvas.getContext('2d')!;
+  // CPU-backed canvas: under the software GL backend used for CI renders, accelerated canvases silently drop
+  // very large paths
+  const ctx = canvas.getContext('2d', {willReadFrequently: true})!;
   const proj = makeProjection(baseView, bw, bh);
   const path = geoPath(proj, ctx);
   const pxPerKm = bw / baseView.widthKm;
   const detail = baseView.widthKm < 60;
+  // City polygons are drawn flat (project each vertex, fill planar). d3's spherical polygons depend on ring winding,
+  // and OSM tile rings come in both directions, so one reversed ring would flood the whole canvas.
+  const flat = (rings: LonLat[][]) => {
+    ctx.beginPath();
+    for (const ring of rings) {
+      for (let i = 0; i < ring.length; i++) {
+        const p = proj(ring[i]) as [number, number] | null;
+        if (!p) continue;
+        if (i === 0) ctx.moveTo(p[0], p[1]); else ctx.lineTo(p[0], p[1]);
+      }
+      ctx.closePath();
+    }
+  };
   ctx.fillStyle = '#0D1117'; ctx.fillRect(0, 0, bw, bh);
-  ctx.beginPath(); path(polys(data.parks) as any); ctx.fillStyle = '#10171A'; ctx.fill();
-  ctx.beginPath(); path(polys(data.water) as any); ctx.fillStyle = '#0B1726'; ctx.fill();
+  flat(data.parks); ctx.fillStyle = '#10171A'; ctx.fill('nonzero');
+  flat(data.water); ctx.fillStyle = '#0B1726'; ctx.fill('nonzero');
   ctx.beginPath(); path(multi(data.waterway) as any); ctx.strokeStyle = '#0F2238'; ctx.lineWidth = Math.max(1, pxPerKm * 0.03); ctx.stroke();
   if (detail && data.buildings.length) {
-    ctx.beginPath(); path(polys(data.buildings) as any); ctx.fillStyle = 'rgba(190,205,215,0.10)'; ctx.fill();
+    ctx.fillStyle = 'rgba(190,205,215,0.10)';
+    for (let i = 0; i < data.buildings.length; i += 1500) {  // batches keep each path small
+      flat(data.buildings.slice(i, i + 1500)); ctx.fill('nonzero');
+    }
   }
   const road = (lines: LonLat[][], color: string, lw: number, dash?: number[]) => {
     if (!lines.length) return;
-    ctx.beginPath(); path(multi(lines) as any); ctx.strokeStyle = color; ctx.lineWidth = lw; ctx.lineJoin = 'round'; ctx.lineCap = 'round';
-    ctx.setLineDash(dash ?? []); ctx.stroke(); ctx.setLineDash([]);
+    ctx.strokeStyle = color; ctx.lineWidth = lw; ctx.lineJoin = 'round'; ctx.lineCap = 'round'; ctx.setLineDash(dash ?? []);
+    for (let i = 0; i < lines.length; i += 2000) { ctx.beginPath(); path(multi(lines.slice(i, i + 2000)) as any); ctx.stroke(); }
+    ctx.setLineDash([]);
   };
   if (detail) road(data.roads.minor, 'rgba(160,180,190,0.16)', Math.max(0.6, pxPerKm * 0.012));
   road(data.roads.secondary, 'rgba(170,190,200,0.32)', Math.max(0.9, pxPerKm * 0.02));
@@ -58,11 +78,9 @@ function paintBase(data: CityData, baseView: RegionView, W: number, H: number, k
   road(data.roads.rail, 'rgba(200,200,210,0.35)', 1.2 * SUPER, [6, 6]);
   for (const a of data.aeroway) {
     ctx.beginPath();
-    if (a.type === 3) { path({type: 'Polygon', coordinates: [a.pts]} as any); ctx.fillStyle = 'rgba(200,210,220,0.10)'; ctx.fill(); }
+    if (a.type === 3) { flat([a.pts]); ctx.fillStyle = 'rgba(200,210,220,0.10)'; ctx.fill('nonzero'); }
     else { path({type: 'LineString', coordinates: a.pts} as any); ctx.strokeStyle = 'rgba(220,230,235,0.8)'; ctx.lineWidth = Math.max(2, pxPerKm * 0.06); ctx.stroke(); }
   }
-  baseCache.set(key, canvas);
-  if (baseCache.size > 6) baseCache.delete(baseCache.keys().next().value as string);
   return canvas;
 }
 
@@ -145,7 +163,8 @@ export const CityMap: React.FC<{shot: CityShot; t: number}> = ({shot, t}) => {
           </div>
         );
       })}
-      {(data?.places ?? []).filter((p) => p.cls === 'city' || p.cls === 'town' || view.widthKm < 25).slice(0, view.widthKm < 25 ? 40 : 12).map((p, i) => {
+      {(data?.places ?? []).filter((p) => !(shot.labels ?? []).some((l) => l.text.toLowerCase().includes(p.name.toLowerCase())))
+        .filter((p) => p.cls === 'city' || p.cls === 'town' || view.widthKm < 25).slice(0, view.widthKm < 25 ? 40 : 12).map((p, i) => {
         const q = proj(p.at) as [number, number] | null;
         if (!q || q[0] < 0 || q[0] > W || q[1] < 0 || q[1] > H) return null;
         return <div key={i} style={{position: 'absolute', left: q[0] - 60, width: 120, top: q[1] - 9, textAlign: 'center', fontFamily: MONO, fontSize: p.cls === 'city' ? 17 : 13, letterSpacing: 1.5, color: 'rgba(236,239,242,0.6)', textShadow: '0 0 6px rgba(0,0,0,0.95)', textTransform: 'uppercase', whiteSpace: 'nowrap'}}>{p.name}</div>;

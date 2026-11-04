@@ -1,6 +1,6 @@
 // Regional vector map: Natural Earth 50m countries on an azimuthal equidistant projection centred on the view,
 // with highlighted countries, labelled cities, range rings, great-circle lines, a wind-driven plume and a scale bar.
-import React, {useMemo} from 'react';
+import React, {useLayoutEffect, useMemo, useRef} from 'react';
 import {AbsoluteFill, useVideoConfig} from 'remotion';
 import {geoAzimuthalEquidistant, geoCircle, geoGraticule10, geoInterpolate, geoPath, geoCentroid} from 'd3-geo';
 import {feature, mesh} from 'topojson-client';
@@ -8,6 +8,7 @@ import world50 from 'world-atlas/countries-50m.json';
 import usStates from 'us-atlas/states-10m.json';
 import type {LonLat, RegionShot, RegionView} from '../scene';
 import {C, MONO, clamp01, ease, easeOut, lerp} from '../theme';
+import {getBase} from './baseCache';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const topo = world50 as any;
@@ -21,6 +22,42 @@ const usTopo = usStates as any;
 const STATE_BORDERS = mesh(usTopo, usTopo.objects.states, (a: any, b: any) => a !== b);
 const EARTH_KM = 6371.0088;
 const D2R = Math.PI / 180;
+
+// Static layers (graticule, land, highlights, state lines, coast, borders) are painted once per shot into an offscreen
+// canvas at 2x the widest view and scaled per frame, like the city map. SVG for these layers cost about 2 s a frame.
+const SUPER = 2;
+function paintRegionBase(shot: RegionShot, base: RegionView, W: number, H: number, key: string): HTMLCanvasElement {
+  return getBase('region|' + key, () => paintRegion(shot, base, W, H));
+}
+function paintRegion(shot: RegionShot, base: RegionView, W: number, H: number): HTMLCanvasElement {
+  const bw = W * SUPER, bh = H * SUPER;
+  const cv = document.createElement('canvas');
+  cv.width = bw; cv.height = bh;
+  const ctx = cv.getContext('2d', {willReadFrequently: true})!;
+  const proj = makeProjection(base, bw, bh);
+  const path = geoPath(proj, ctx);
+  ctx.fillStyle = C.bg; ctx.fillRect(0, 0, bw, bh);
+  ctx.beginPath(); path(GRAT); ctx.strokeStyle = 'rgba(140,180,200,0.07)'; ctx.lineWidth = SUPER; ctx.stroke();
+  const hiMap = new Map((shot.highlight ?? []).map((h) => [h.iso, h]));
+  for (const c of COUNTRIES) {
+    // every country is drawn: a centroid test drops large countries (the US, Russia) when zoomed into one corner
+    const h = hiMap.get(String(c.id));
+    ctx.beginPath(); path(c); ctx.fillStyle = h ? (h.fill ?? h.color + '33') : C.land; ctx.fill();
+  }
+  const c0 = base.center;
+  if (base.widthKm < 8000 && c0[0] < -60 && c0[0] > -170 && c0[1] > 22 && c0[1] < 72) {
+    ctx.beginPath(); path(STATE_BORDERS); ctx.strokeStyle = 'rgba(150,185,200,0.28)'; ctx.lineWidth = 0.9 * SUPER; ctx.stroke();
+  }
+  ctx.beginPath(); path(COAST); ctx.strokeStyle = 'rgba(170,215,225,0.5)'; ctx.lineWidth = 1.3 * SUPER; ctx.stroke();
+  ctx.beginPath(); path(BORDERS); ctx.strokeStyle = C.border; ctx.lineWidth = 1 * SUPER; ctx.stroke();
+  for (const h of shot.highlight ?? []) {
+    const c = COUNTRIES.find((x) => String(x.id) === h.iso);
+    if (!c) continue;
+    ctx.save(); ctx.shadowColor = h.color; ctx.shadowBlur = 5 * SUPER;
+    ctx.beginPath(); path(c); ctx.strokeStyle = h.color; ctx.lineWidth = 2.2 * SUPER; ctx.stroke(); ctx.restore();
+  }
+  return cv;
+}
 
 export function viewAt(a: RegionView, b: RegionView | undefined, t: number, dur: number): RegionView {
   if (!b) return a;
@@ -78,36 +115,30 @@ export const RegionMap: React.FC<{shot: RegionShot; t: number}> = ({shot, t}) =>
   const scaleKm = [10, 20, 50, 100, 200, 500, 1000, 2000].find((k) => k * pxPerKm > 140) ?? 2000;
   const circle = geoCircle();
   const pt = (ll: LonLat) => proj(ll) as [number, number] | null;
-  const bbox = (() => {
-    // only draw countries whose centroid is within ~1.6 view widths (performance)
-    return (c: any) => {
-      const p = pt(geoCentroid(c));
-      return p && p[0] > -W && p[0] < 2 * W && p[1] > -H && p[1] < 2 * H;
-    };
-  })();
-  const hiMap = new Map((shot.highlight ?? []).map((h) => [h.iso, h]));
+  const baseView: RegionView = useMemo(() => ({center: shot.view.center, widthKm: Math.max(shot.view.widthKm, shot.zoomTo?.widthKm ?? 0) * 1.12}), [shot.view, shot.zoomTo]);
+  const baseKey = `${shot.id}|${W}x${H}|${baseView.widthKm.toFixed(1)}`;
+  const ref = useRef<HTMLCanvasElement>(null);
+  useLayoutEffect(() => {
+    const cv = ref.current;
+    if (!cv) return;
+    const ctx = cv.getContext('2d')!;
+    const base = paintRegionBase(shot, baseView, W, H, baseKey);
+    const pb = makeProjection(baseView, W * SUPER, H * SUPER);
+    const q = pb(view.center) as [number, number];
+    const k = baseView.widthKm / (SUPER * view.widthKm);
+    ctx.fillStyle = C.bg; ctx.fillRect(0, 0, W, H);
+    ctx.imageSmoothingEnabled = true; ctx.imageSmoothingQuality = 'high';
+    ctx.drawImage(base, W / 2 - q[0] * k, H / 2 - q[1] * k, W * SUPER * k, H * SUPER * k);
+  }, [shot, baseView, baseKey, view.center[0], view.center[1], view.widthKm, W, H]);
   return (
     <AbsoluteFill style={{background: C.bg}}>
+      <canvas ref={ref} width={W} height={H} style={{position: 'absolute', inset: 0, width: '100%', height: '100%'}} />
       <svg width={W} height={H} style={{position: 'absolute', inset: 0}}>
         <defs>
           <radialGradient id="plumeG"><stop offset="0" stopColor={C.amber} stopOpacity="0.55" /><stop offset="1" stopColor={C.amber} stopOpacity="0.05" /></radialGradient>
           <filter id="soft"><feGaussianBlur stdDeviation="6" /></filter>
           <filter id="glow"><feGaussianBlur stdDeviation="2.5" result="b" /><feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge></filter>
         </defs>
-        <path d={path(GRAT) ?? ''} fill="none" stroke="rgba(140,180,200,0.07)" />
-        {COUNTRIES.filter(bbox).map((c) => {
-          const h = hiMap.get(String(c.id));
-          return <path key={c.id} d={path(c) ?? ''} fill={h ? (h.fill ?? h.color + '33') : C.land} stroke="none" />;
-        })}
-        {view.widthKm < 7000 && view.center[0] < -60 && view.center[0] > -170 && view.center[1] > 22 && view.center[1] < 72 ? (
-          <path d={path(STATE_BORDERS) ?? ''} fill="none" stroke="rgba(150,185,200,0.28)" strokeWidth={0.9} />
-        ) : null}
-        <path d={path(COAST) ?? ''} fill="none" stroke="rgba(170,215,225,0.5)" strokeWidth={1.3} />
-        <path d={path(BORDERS) ?? ''} fill="none" stroke={C.border} strokeWidth={1} />
-        {(shot.highlight ?? []).map((h) => {
-          const c = COUNTRIES.find((x) => String(x.id) === h.iso);
-          return c ? <path key={h.iso} d={path(c) ?? ''} fill="none" stroke={h.color} strokeWidth={2.2} filter="url(#glow)" /> : null;
-        })}
         {(shot.rings ?? []).map((r, i) => {
           const k = r.t === undefined ? 1 : easeOut(clamp01((t - r.t) / 0.9));
           if (k <= 0) return null;
