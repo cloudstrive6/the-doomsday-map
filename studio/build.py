@@ -29,6 +29,13 @@ def stage(ep: Path) -> Path:
     if nar.exists():
         shutil.copy2(nar, dest / "narration.wav")
         shot["narration"] = f"episodes/{slug}/narration.wav"
+    music_dir = VIDEO / "public" / "music"
+    music_dir.mkdir(parents=True, exist_ok=True)
+    for m in (ROOT / "assets" / "music").glob("*.mp3"):
+        shutil.copy2(m, music_dir / m.name)
+    if shot.get("music") and not (VIDEO / "public" / shot["music"]["src"]).exists():
+        print("no music file at", shot["music"]["src"], "(rendering without music)")
+        shot.pop("music")
     shot.setdefault("fps", cfg["fps"]); shot.setdefault("width", cfg["width"]); shot.setdefault("height", cfg["height"])
     shot["slug"] = slug
     (dest / "episode.json").write_text(json.dumps(shot, indent=1, ensure_ascii=False), encoding="utf-8")

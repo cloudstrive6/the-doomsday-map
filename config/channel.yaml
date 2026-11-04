@@ -21,18 +21,18 @@ voice:                       # Google Cloud TTS, Chirp 3: HD
   speaking_rate: 0.93
   target_wpm: [135, 150]
   pronunciations:
-    - {phrase: "Suwalki", ipa: "suˈvawki"}
+    - {phrase: "Suwalki", ipa: "suˈvɑlki"}
     - {phrase: "Rzeszow", ipa: "ˈʒɛʃuf"}
-    - {phrase: "Kozelsk", ipa: "kɐˈzʲelsk"}
+    - {phrase: "Kozelsk", ipa: "kɒˈzɛlsk"}
     - {phrase: "Offutt", ipa: "ˈɒfət"}
     - {phrase: "Minot", ipa: "ˈmaɪnɒt"}
     - {phrase: "Malmstrom", ipa: "ˈmɑlmstrəm"}
-    - {phrase: "Gadzhiyevo", ipa: "ɡɐˈdʒɨjɪvə"}
-    - {phrase: "Vilyuchinsk", ipa: "vʲɪlʲʉˈtɕinsk"}
+    - {phrase: "Gadzhiyevo", ipa: "ɡɑˈdʒijɛvoʊ"}
+    - {phrase: "Vilyuchinsk", ipa: "vɪlˈjutʃɪnsk"}
     - {phrase: "Pituffik", ipa: "piˈtufɪk"}
     - {phrase: "Yars", ipa: "jɑrs"}
     - {phrase: "Sarmat", ipa: "sɑrˈmɑt"}
-    - {phrase: "Bulava", ipa: "bʊlɐˈvɑ"}
+    - {phrase: "Bulava", ipa: "bulɑˈvɑ"}
   fallback_wpm: 145
 
 video:

@@ -1,0 +1,4333 @@
+{
+ "slug": "001-russia-first-strike-america",
+ "fps": 60,
+ "width": 1920,
+ "height": 1080,
+ "durationSeconds": 745.51,
+ "music": {
+  "src": "music/bed.mp3",
+  "volume": 0.1
+ },
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated.",
+ "shots": [
+  {
+   "id": "open-city",
+   "type": "city",
+   "start": 0,
+   "end": 6.256,
+   "tag": "SIMULATION",
+   "clock": "03:40",
+   "clockLabel": "CENTRAL TIME · NEBRASKA",
+   "city": "omaha",
+   "view": {
+    "center": [
+     -95.96,
+     41.22
+    ],
+    "widthKm": 90
+   },
+   "zoomTo": {
+    "center": [
+     -95.95,
+     41.2
+    ],
+    "widthKm": 60
+   },
+   "gz": [
+    -95.9145,
+    41.1183
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -95.9345,
+      41.2565
+     ],
+     "text": "Omaha",
+     "color": "rgba(236,239,242,0.7)"
+    }
+   ]
+  },
+  {
+   "id": "open-globe",
+   "type": "globe",
+   "start": 6.256,
+   "end": 23.601,
+   "tag": "SIMULATION",
+   "clock": "T+00:00",
+   "clockLabel": "FIRST LAUNCH",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 55,
+     "lon": 38,
+     "scale": 1500
+    },
+    {
+     "t": 6,
+     "lat": 58,
+     "lon": 30,
+     "scale": 620
+    },
+    {
+     "t": 16,
+     "lat": 62,
+     "lon": 5,
+     "scale": 470
+    }
+   ],
+   "sun": {
+    "lat": -20.26,
+    "lon": 31.6
+   },
+   "markers": [
+    {
+     "at": [
+      35.78,
+      54.03
+     ],
+     "label": "Kozelsk",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 0.3
+    },
+    {
+     "at": [
+      45.58,
+      51.67
+     ],
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 0.8
+    },
+    {
+     "at": [
+      59.84,
+      51.09
+     ],
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 1.3
+    },
+    {
+     "at": [
+      89.83,
+      55.32
+     ],
+     "label": "Uzhur",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 1.8
+    },
+    {
+     "at": [
+      47.9,
+      56.63
+     ],
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 2.3
+    },
+    {
+     "at": [
+      40.55,
+      56.85
+     ],
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 2.8
+    },
+    {
+     "at": [
+      60.0,
+      57.9
+     ],
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 3.3
+    },
+    {
+     "at": [
+      82.9,
+      55.0
+     ],
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 3.8
+    },
+    {
+     "at": [
+      83.8,
+      53.35
+     ],
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 4.3
+    },
+    {
+     "at": [
+      104.3,
+      52.3
+     ],
+     "label": "Irkutsk",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 4.8
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      35.78,
+      54.03
+     ],
+     "to": [
+      -101.36,
+      48.42
+     ],
+     "t0": 3.0,
+     "t1": 393.0,
+     "loft": 0.16
+    },
+    {
+     "from": [
+      45.58,
+      51.67
+     ],
+     "to": [
+      -111.19,
+      47.5
+     ],
+     "t0": 3.6,
+     "t1": 393.6,
+     "loft": 0.16
+    },
+    {
+     "from": [
+      59.84,
+      51.09
+     ],
+     "to": [
+      -104.87,
+      41.15
+     ],
+     "t0": 4.2,
+     "t1": 394.2,
+     "loft": 0.16
+    },
+    {
+     "from": [
+      89.83,
+      55.32
+     ],
+     "to": [
+      -101.36,
+      48.42
+     ],
+     "t0": 4.8,
+     "t1": 394.8,
+     "loft": 0.16
+    },
+    {
+     "from": [
+      47.9,
+      56.63
+     ],
+     "to": [
+      -111.19,
+      47.5
+     ],
+     "t0": 5.4,
+     "t1": 395.4,
+     "loft": 0.16
+    },
+    {
+     "from": [
+      40.55,
+      56.85
+     ],
+     "to": [
+      -104.87,
+      41.15
+     ],
+     "t0": 6.0,
+     "t1": 396.0,
+     "loft": 0.16
+    },
+    {
+     "from": [
+      60.0,
+      57.9
+     ],
+     "to": [
+      -101.36,
+      48.42
+     ],
+     "t0": 6.6,
+     "t1": 396.6,
+     "loft": 0.16
+    },
+    {
+     "from": [
+      82.9,
+      55.0
+     ],
+     "to": [
+      -111.19,
+      47.5
+     ],
+     "t0": 7.2,
+     "t1": 397.2,
+     "loft": 0.16
+    },
+    {
+     "from": [
+      83.8,
+      53.35
+     ],
+     "to": [
+      -104.87,
+      41.15
+     ],
+     "t0": 7.8,
+     "t1": 397.8,
+     "loft": 0.16
+    },
+    {
+     "from": [
+      104.3,
+      52.3
+     ],
+     "to": [
+      -101.36,
+      48.42
+     ],
+     "t0": 8.399999999999999,
+     "t1": 398.4,
+     "loft": 0.16
+    }
+   ]
+  },
+  {
+   "id": "open-disclaimer",
+   "type": "text",
+   "start": 23.601,
+   "end": 34.601,
+   "tag": "SIMULATION",
+   "lines": [
+    "A simulation",
+    "It has not happened. The missiles, the bases and the timings are real, and every number has a source."
+   ]
+  },
+  {
+   "id": "open-title",
+   "type": "globe",
+   "start": 34.601,
+   "end": 45.359,
+   "tag": "SIMULATION",
+   "caption": "Russia launches a nuclear strike on America. Minute by minute.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 60,
+     "lon": -45,
+     "scale": 380
+    },
+    {
+     "t": 12,
+     "lat": 55,
+     "lon": -60,
+     "scale": 420
+    }
+   ],
+   "sun": {
+    "lat": -20.26,
+    "lon": 31.6
+   },
+   "arcs": [
+    {
+     "from": [
+      35.0,
+      72.0
+     ],
+     "to": [
+      -68.7,
+      76.53
+     ],
+     "t0": -82.5,
+     "t1": 85.5,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      150.0,
+      55.0
+     ],
+     "to": [
+      -122.72,
+      47.72
+     ],
+     "t0": -75.0,
+     "t1": 207.0,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      35.0,
+      72.0
+     ],
+     "to": [
+      -70.54,
+      41.75
+     ],
+     "t0": -75.0,
+     "t1": 223.5,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      150.0,
+      55.0
+     ],
+     "to": [
+      -121.44,
+      39.14
+     ],
+     "t0": -75.0,
+     "t1": 237.0,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      35.0,
+      72.0
+     ],
+     "to": [
+      -77.06,
+      38.87
+     ],
+     "t0": -75.0,
+     "t1": 243.0,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      35.78,
+      54.03
+     ],
+     "to": [
+      -101.36,
+      48.42
+     ],
+     "t0": -90.0,
+     "t1": 279.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      35.0,
+      72.0
+     ],
+     "to": [
+      -81.52,
+      30.8
+     ],
+     "t0": -75.0,
+     "t1": 282.0,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      45.58,
+      51.67
+     ],
+     "to": [
+      -101.0,
+      48.9
+     ],
+     "t0": -90.0,
+     "t1": 297.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      89.83,
+      55.32
+     ],
+     "to": [
+      -110.4,
+      47.9
+     ],
+     "t0": -90.0,
+     "t1": 297.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      40.55,
+      56.85
+     ],
+     "to": [
+      -104.2,
+      41.6
+     ],
+     "t0": -90.0,
+     "t1": 304.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      60.0,
+      57.9
+     ],
+     "to": [
+      -95.9145,
+      41.1183
+     ],
+     "t0": -90.0,
+     "t1": 312.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      47.9,
+      56.63
+     ],
+     "to": [
+      -104.87,
+      41.15
+     ],
+     "t0": -90.0,
+     "t1": 315.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      104.3,
+      52.3
+     ],
+     "to": [
+      -103.1,
+      44.14
+     ],
+     "t0": -90.0,
+     "t1": 319.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      59.84,
+      51.09
+     ],
+     "to": [
+      -111.19,
+      47.5
+     ],
+     "t0": -90.0,
+     "t1": 321.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      82.9,
+      55.0
+     ],
+     "to": [
+      -104.85,
+      38.74
+     ],
+     "t0": -90.0,
+     "t1": 343.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      83.8,
+      53.35
+     ],
+     "to": [
+      -93.55,
+      38.73
+     ],
+     "t0": -90.0,
+     "t1": 351.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      104.3,
+      52.3
+     ],
+     "to": [
+      -93.66,
+      32.5
+     ],
+     "t0": -90.0,
+     "t1": 376.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    }
+   ],
+   "dim": 0.1
+  },
+  {
+   "id": "c1-card",
+   "type": "chapter",
+   "start": 45.359,
+   "end": 49.359,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 01",
+   "title": "The real forces"
+  },
+  {
+   "id": "c1-iso",
+   "type": "isotype",
+   "start": 49.359,
+   "end": 67.855,
+   "tag": "REAL DATA",
+   "headline": "12,000+",
+   "label": "nuclear warheads in the world",
+   "total": 240,
+   "filled": 212,
+   "per": "50 warheads",
+   "cols": 30,
+   "sub": "Russia and the United States hold almost nine in ten. About 1,700 strategic warheads deployed on each side.",
+   "source": "FAS Status of World Nuclear Forces 2025; SIPRI Yearbook 2025"
+  },
+  {
+   "id": "c1-russia",
+   "type": "region",
+   "start": 67.855,
+   "end": 91.864,
+   "tag": "REAL DATA",
+   "source": "Bulletin of the Atomic Scientists, Russian nuclear weapons 2025",
+   "view": {
+    "center": [
+     62,
+     57
+    ],
+    "widthKm": 7800
+   },
+   "zoomTo": {
+    "center": [
+     66,
+     56
+    ],
+    "widthKm": 6800
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#FF3B3B"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "643",
+     "text": "Russia"
+    },
+    {
+     "iso": "398",
+     "text": "Kazakhstan"
+    },
+    {
+     "iso": "156",
+     "text": "China"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      35.78,
+      54.03
+     ],
+     "label": "Kozelsk",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 5,
+     "t": 1.0
+    },
+    {
+     "at": [
+      45.58,
+      51.67
+     ],
+     "label": "Tatishchevo",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 5,
+     "t": 2.4
+    },
+    {
+     "at": [
+      59.84,
+      51.09
+     ],
+     "label": "Dombarovsky",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 5,
+     "t": 3.8
+    },
+    {
+     "at": [
+      89.83,
+      55.32
+     ],
+     "label": "Uzhur",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 5,
+     "t": 5.199999999999999
+    },
+    {
+     "at": [
+      47.9,
+      56.63
+     ],
+     "label": "Yoshkar-Ola",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 5,
+     "t": 6.6
+    },
+    {
+     "at": [
+      40.55,
+      56.85
+     ],
+     "label": "Teykovo",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 5,
+     "t": 8.0
+    },
+    {
+     "at": [
+      60.0,
+      57.9
+     ],
+     "label": "Nizhny Tagil",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 5,
+     "t": 9.399999999999999
+    },
+    {
+     "at": [
+      82.9,
+      55.0
+     ],
+     "label": "Novosibirsk",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 5,
+     "t": 10.799999999999999
+    },
+    {
+     "at": [
+      83.8,
+      53.35
+     ],
+     "label": "Barnaul",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 5,
+     "t": 12.2
+    },
+    {
+     "at": [
+      104.3,
+      52.3
+     ],
+     "label": "Irkutsk",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 5,
+     "t": 13.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      60,
+      47.5
+     ],
+     "text": "about 330 intercontinental missiles · 11 divisions",
+     "color": "rgba(236,239,242,0.75)",
+     "t": 17
+    }
+   ]
+  },
+  {
+   "id": "c1-subs",
+   "type": "globe",
+   "start": 91.864,
+   "end": 111.168,
+   "tag": "REAL DATA",
+   "source": "Barents Observer; FAS Nuclear Notebook 2025",
+   "caption": "Borei submarines: 16 Bulava missiles each, reach about 8,000 km",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 72,
+     "lon": 90,
+     "scale": 560
+    },
+    {
+     "t": 18,
+     "lat": 68,
+     "lon": 80,
+     "scale": 600
+    }
+   ],
+   "sun": {
+    "lat": 10,
+    "lon": 60
+   },
+   "markers": [
+    {
+     "at": [
+      33.33,
+      69.25
+     ],
+     "label": "Gadzhiyevo · Northern Fleet",
+     "color": "#FF7A1A",
+     "kind": "sub",
+     "t": 1
+    },
+    {
+     "at": [
+      158.4,
+      52.93
+     ],
+     "label": "Vilyuchinsk · Pacific Fleet",
+     "color": "#FF7A1A",
+     "kind": "sub",
+     "t": 4
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      33.33,
+      69.25
+     ],
+     "to": [
+      -77.06,
+      38.87
+     ],
+     "t0": 7,
+     "t1": 16,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      158.4,
+      52.93
+     ],
+     "to": [
+      -122.72,
+      47.72
+     ],
+     "t0": 9,
+     "t1": 17,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    }
+   ]
+  },
+  {
+   "id": "c1-plains",
+   "type": "region",
+   "start": 111.168,
+   "end": 135.512,
+   "tag": "REAL DATA",
+   "source": "Air Force Global Strike Command; minutemanmissile.com",
+   "caption": "400 Minuteman III missiles in 450 silos",
+   "view": {
+    "center": [
+     -105.5,
+     45.5
+    ],
+    "widthKm": 2600
+   },
+   "zoomTo": {
+    "center": [
+     -105.5,
+     45.2
+    ],
+    "widthKm": 2100
+   },
+   "cities": [
+    {
+     "at": [
+      -101.36,
+      48.42
+     ],
+     "label": "Minot AFB",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 6,
+     "t": 1
+    },
+    {
+     "at": [
+      -111.19,
+      47.5
+     ],
+     "label": "Malmstrom AFB",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 6,
+     "t": 3
+    },
+    {
+     "at": [
+      -104.87,
+      41.15
+     ],
+     "label": "F.E. Warren AFB",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 6,
+     "t": 5
+    },
+    {
+     "at": [
+      -95.9145,
+      41.1183
+     ],
+     "label": "Offutt AFB",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 5,
+     "t": 12
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -101.36,
+      48.42
+     ],
+     "km": 130,
+     "color": "#3ED6C8",
+     "t": 2
+    },
+    {
+     "at": [
+      -111.19,
+      47.5
+     ],
+     "km": 130,
+     "color": "#3ED6C8",
+     "t": 4
+    },
+    {
+     "at": [
+      -104.87,
+      41.15
+     ],
+     "km": 130,
+     "color": "#3ED6C8",
+     "t": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -105.5,
+      50.2
+     ],
+     "text": "silo fields · Montana, North Dakota, Wyoming, Colorado, Nebraska",
+     "color": "rgba(236,239,242,0.75)",
+     "t": 8
+    }
+   ]
+  },
+  {
+   "id": "c1-offutt",
+   "type": "city",
+   "start": 135.512,
+   "end": 151.512,
+   "tag": "REAL DATA",
+   "source": "US Strategic Command history; Brookings",
+   "city": "omaha",
+   "view": {
+    "center": [
+     -95.95,
+     41.2
+    ],
+    "widthKm": 60
+   },
+   "zoomTo": {
+    "center": [
+     -95.93,
+     41.17
+    ],
+    "widthKm": 34
+   },
+   "gz": [
+    -95.9145,
+    41.1183
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -95.9145,
+      41.1183
+     ],
+     "text": "Offutt AFB · US Strategic Command",
+     "color": "#FF3B3B",
+     "t": 1
+    },
+    {
+     "at": [
+      -95.9345,
+      41.2565
+     ],
+     "text": "Downtown Omaha",
+     "color": "rgba(236,239,242,0.8)",
+     "t": 4
+    },
+    {
+     "at": [
+      -95.89,
+      41.15
+     ],
+     "text": "Bellevue",
+     "color": "rgba(236,239,242,0.6)",
+     "t": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-stamp",
+   "type": "stamp",
+   "start": 151.512,
+   "end": 166.343,
+   "tag": "REAL HISTORY",
+   "text": "Since the 1950s",
+   "line": "SAC built its command post underground to survive a Soviet strike"
+  },
+  {
+   "id": "c2-card",
+   "type": "chapter",
+   "start": 166.343,
+   "end": 169.843,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 02",
+   "title": "Thirty minutes"
+  },
+  {
+   "id": "c2-num",
+   "type": "number",
+   "start": 169.843,
+   "end": 175.959,
+   "tag": "REAL DATA",
+   "value": "30 MIN",
+   "label": "from a launch in Russia to impact in America",
+   "source": "Reuters; Global Zero launch-on-warning timeline"
+  },
+  {
+   "id": "c2-sbirs",
+   "type": "globe",
+   "start": 175.959,
+   "end": 188.487,
+   "tag": "REAL DATA",
+   "caption": "Infrared satellites register a launch within seconds",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 45,
+     "lon": -40,
+     "scale": 450
+    },
+    {
+     "t": 12,
+     "lat": 42,
+     "lon": -70,
+     "scale": 520
+    }
+   ],
+   "sun": {
+    "lat": -20.26,
+    "lon": 31.6
+   },
+   "markers": [
+    {
+     "at": [
+      -104.76,
+      39.72
+     ],
+     "label": "Buckley SFB · satellite ground station",
+     "color": "#3ED6C8",
+     "kind": "ring",
+     "t": 1
+    },
+    {
+     "at": [
+      -104.85,
+      38.74
+     ],
+     "label": "NORAD",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "t": 3
+    },
+    {
+     "at": [
+      -95.9145,
+      41.1183
+     ],
+     "label": "STRATCOM",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "t": 4.5
+    },
+    {
+     "at": [
+      -77.06,
+      38.87
+     ],
+     "label": "National Military Command Center",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "t": 6
+    }
+   ]
+  },
+  {
+   "id": "c2-radars",
+   "type": "globe",
+   "start": 188.487,
+   "end": 203.487,
+   "tag": "REAL DATA",
+   "caption": "Ground radars confirm the launch as missiles rise over the horizon: about ten minutes",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 70,
+     "lon": -60,
+     "scale": 480
+    },
+    {
+     "t": 15,
+     "lat": 66,
+     "lon": -70,
+     "scale": 520
+    }
+   ],
+   "sun": {
+    "lat": -20.26,
+    "lon": 31.6
+   },
+   "markers": [
+    {
+     "at": [
+      -68.7,
+      76.53
+     ],
+     "label": "Pituffik",
+     "color": "#3ED6C8",
+     "kind": "ring",
+     "t": 1.0
+    },
+    {
+     "at": [
+      -149.19,
+      64.29
+     ],
+     "label": "Clear SFS",
+     "color": "#3ED6C8",
+     "kind": "ring",
+     "t": 2.2
+    },
+    {
+     "at": [
+      -0.67,
+      54.36
+     ],
+     "label": "Fylingdales",
+     "color": "#3ED6C8",
+     "kind": "ring",
+     "t": 3.4
+    },
+    {
+     "at": [
+      -70.54,
+      41.75
+     ],
+     "label": "Cape Cod SFS",
+     "color": "#3ED6C8",
+     "kind": "ring",
+     "t": 4.6
+    },
+    {
+     "at": [
+      -121.44,
+      39.14
+     ],
+     "label": "Beale AFB",
+     "color": "#3ED6C8",
+     "kind": "ring",
+     "t": 5.8
+    }
+   ]
+  },
+  {
+   "id": "c2-timeline",
+   "type": "timeline",
+   "start": 203.487,
+   "end": 218.936,
+   "tag": "REAL DATA",
+   "title": "Thirty minutes",
+   "sub": "launch to impact · who does what",
+   "total": 30,
+   "source": "Global Zero LOW timeline (Blair); National Interest",
+   "segments": [
+    {
+     "from": 0,
+     "to": 1,
+     "label": "Detect",
+     "color": "#3ED6C8"
+    },
+    {
+     "from": 1,
+     "to": 10,
+     "label": "Radar confirms",
+     "color": "#3ED6C8"
+    },
+    {
+     "from": 10,
+     "to": 13,
+     "label": "Brief",
+     "color": "#3ED6C8"
+    },
+    {
+     "from": 13,
+     "to": 19,
+     "label": "Decide",
+     "color": "#FF3B3B"
+    },
+    {
+     "from": 19,
+     "to": 30,
+     "label": "Launch · missiles in the air",
+     "color": "#F2B01E"
+    }
+   ],
+   "highlight": {
+    "from": 13,
+    "to": 19,
+    "label": "about 6 minutes"
+   },
+   "cursorTo": 30
+  },
+  {
+   "id": "c2-nobody",
+   "type": "text",
+   "start": 218.936,
+   "end": 227.31,
+   "tag": "REAL DATA",
+   "lines": [
+    "Nobody has ever decided",
+    "Our simulation asks what the thirty minutes look like if they ever do."
+   ]
+  },
+  {
+   "id": "c3-card",
+   "type": "chapter",
+   "start": 227.31,
+   "end": 231.31,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 03",
+   "title": "The warning shot that was never answered"
+  },
+  {
+   "id": "c3-baltic",
+   "type": "region",
+   "start": 231.31,
+   "end": 244.31,
+   "tag": "SIMULATION",
+   "source": "Russia's 2026-09-30 note to NATO (CTV News, Kyiv Independent)",
+   "view": {
+    "center": [
+     22,
+     55
+    ],
+    "widthKm": 2000
+   },
+   "zoomTo": {
+    "center": [
+     23,
+     54.8
+    ],
+    "widthKm": 1500
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#FF3B3B"
+    },
+    {
+     "iso": "112",
+     "color": "#FF3B3B"
+    },
+    {
+     "iso": "616",
+     "color": "#3ED6C8"
+    },
+    {
+     "iso": "440",
+     "color": "#3ED6C8"
+    },
+    {
+     "iso": "428",
+     "color": "#3ED6C8"
+    },
+    {
+     "iso": "233",
+     "color": "#3ED6C8"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "616",
+     "text": "Poland"
+    },
+    {
+     "iso": "440",
+     "text": "Lithuania"
+    },
+    {
+     "iso": "112",
+     "text": "Belarus"
+    },
+    {
+     "iso": "428",
+     "text": "Latvia"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      20.51,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      20.9,
+      54.4
+     ],
+     "to": [
+      23.6,
+      53.9
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 2,
+     "t1": 4
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      22.3,
+      53.6
+     ],
+     "text": "Suwalki Gap",
+     "color": "#F2B01E",
+     "t": 4
+    }
+   ]
+  },
+  {
+   "id": "c3-doctrine",
+   "type": "stamp",
+   "start": 244.31,
+   "end": 255.238,
+   "tag": "REAL HISTORY",
+   "text": "Doctrine · 2024",
+   "line": "an attack backed by a nuclear power counts as a joint attack"
+  },
+  {
+   "id": "c3-targets",
+   "type": "region",
+   "start": 255.238,
+   "end": 272.238,
+   "tag": "SIMULATION",
+   "caption": "About 650 warheads at some 500 aim points. A scenario, not a forecast.",
+   "view": {
+    "center": [
+     -98,
+     39.5
+    ],
+    "widthKm": 5600
+   },
+   "zoomTo": {
+    "center": [
+     -98,
+     40
+    ],
+    "widthKm": 5000
+   },
+   "rings": [
+    {
+     "at": [
+      -101.36,
+      48.42
+     ],
+     "km": 130,
+     "color": "#FF3B3B",
+     "t": 1
+    },
+    {
+     "at": [
+      -111.19,
+      47.5
+     ],
+     "km": 130,
+     "color": "#FF3B3B",
+     "t": 2
+    },
+    {
+     "at": [
+      -104.87,
+      41.15
+     ],
+     "km": 130,
+     "color": "#FF3B3B",
+     "t": 3
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -93.55,
+      38.73
+     ],
+     "label": "Whiteman AFB",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 5,
+     "t": 4.0
+    },
+    {
+     "at": [
+      -93.66,
+      32.5
+     ],
+     "label": "Barksdale AFB",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 5,
+     "t": 4.7
+    },
+    {
+     "at": [
+      -103.1,
+      44.14
+     ],
+     "label": "Ellsworth AFB",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 5,
+     "t": 5.4
+    },
+    {
+     "at": [
+      -81.52,
+      30.8
+     ],
+     "label": "Kings Bay",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 5,
+     "t": 6.1
+    },
+    {
+     "at": [
+      -122.72,
+      47.72
+     ],
+     "label": "Bangor",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 5,
+     "t": 6.8
+    },
+    {
+     "at": [
+      -68.7,
+      76.53
+     ],
+     "label": "Pituffik",
+     "color": "#F2B01E",
+     "kind": "ring",
+     "size": 4,
+     "t": 8.0
+    },
+    {
+     "at": [
+      -149.19,
+      64.29
+     ],
+     "label": "Clear SFS",
+     "color": "#F2B01E",
+     "kind": "ring",
+     "size": 4,
+     "t": 8.6
+    },
+    {
+     "at": [
+      -70.54,
+      41.75
+     ],
+     "label": "Cape Cod SFS",
+     "color": "#F2B01E",
+     "kind": "ring",
+     "size": 4,
+     "t": 9.8
+    },
+    {
+     "at": [
+      -121.44,
+      39.14
+     ],
+     "label": "Beale AFB",
+     "color": "#F2B01E",
+     "kind": "ring",
+     "size": 4,
+     "t": 10.4
+    },
+    {
+     "at": [
+      -95.9145,
+      41.1183
+     ],
+     "label": "Offutt AFB",
+     "color": "#FFFFFF",
+     "kind": "base",
+     "size": 6,
+     "t": 11.0
+    },
+    {
+     "at": [
+      -104.85,
+      38.74
+     ],
+     "label": "Cheyenne Mountain",
+     "color": "#FFFFFF",
+     "kind": "base",
+     "size": 6,
+     "t": 11.8
+    },
+    {
+     "at": [
+      -77.06,
+      38.87
+     ],
+     "label": "Pentagon",
+     "color": "#FFFFFF",
+     "kind": "base",
+     "size": 6,
+     "t": 12.6
+    }
+   ]
+  },
+  {
+   "id": "c3-650",
+   "type": "number",
+   "start": 272.238,
+   "end": 284.501,
+   "tag": "SIMULATION",
+   "value": "650",
+   "countTo": 650,
+   "label": "warheads in the first wave",
+   "sub": "two for every Minuteman silo · bomber and submarine bases · radars · command posts. Simulation assumption, built from open sources."
+  },
+  {
+   "id": "c4-card",
+   "type": "chapter",
+   "start": 284.501,
+   "end": 288.001,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 04",
+   "title": "Minute by minute"
+  },
+  {
+   "id": "c4-m0",
+   "type": "globe",
+   "start": 288.001,
+   "end": 310.805,
+   "tag": "SIMULATION",
+   "clock": "T+00:00",
+   "clockLabel": "03:40 CENTRAL",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 57,
+     "lon": 55,
+     "scale": 640
+    },
+    {
+     "t": 22,
+     "lat": 66,
+     "lon": 50,
+     "scale": 520
+    }
+   ],
+   "sun": {
+    "lat": -20.26,
+    "lon": 31.6
+   },
+   "markers": [
+    {
+     "at": [
+      35.78,
+      54.03
+     ],
+     "label": "Kozelsk",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 0.5
+    },
+    {
+     "at": [
+      45.58,
+      51.67
+     ],
+     "label": "Tatishchevo",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 1.4
+    },
+    {
+     "at": [
+      59.84,
+      51.09
+     ],
+     "label": "Dombarovsky",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 2.3
+    },
+    {
+     "at": [
+      89.83,
+      55.32
+     ],
+     "label": "Uzhur",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 3.2
+    },
+    {
+     "at": [
+      47.9,
+      56.63
+     ],
+     "label": "Yoshkar-Ola",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 4.1
+    },
+    {
+     "at": [
+      40.55,
+      56.85
+     ],
+     "label": "Teykovo",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 5.0
+    },
+    {
+     "at": [
+      60.0,
+      57.9
+     ],
+     "label": "Nizhny Tagil",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 5.9
+    },
+    {
+     "at": [
+      82.9,
+      55.0
+     ],
+     "label": "Novosibirsk",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 6.8
+    },
+    {
+     "at": [
+      83.8,
+      53.35
+     ],
+     "label": "Barnaul",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 7.7
+    },
+    {
+     "at": [
+      104.3,
+      52.3
+     ],
+     "label": "Irkutsk",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 8.6
+    },
+    {
+     "at": [
+      35.0,
+      72.0
+     ],
+     "label": "Barents Sea",
+     "color": "#FF7A1A",
+     "kind": "sub",
+     "t": 10
+    },
+    {
+     "at": [
+      150.0,
+      55.0
+     ],
+     "label": "Sea of Okhotsk",
+     "color": "#FF7A1A",
+     "kind": "sub",
+     "t": 12
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      35.0,
+      72.0
+     ],
+     "to": [
+      -68.7,
+      76.53
+     ],
+     "t0": 7.5,
+     "t1": 175.5,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      150.0,
+      55.0
+     ],
+     "to": [
+      -122.72,
+      47.72
+     ],
+     "t0": 15.0,
+     "t1": 297.0,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      35.0,
+      72.0
+     ],
+     "to": [
+      -70.54,
+      41.75
+     ],
+     "t0": 15.0,
+     "t1": 313.5,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      150.0,
+      55.0
+     ],
+     "to": [
+      -121.44,
+      39.14
+     ],
+     "t0": 15.0,
+     "t1": 327.0,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      35.0,
+      72.0
+     ],
+     "to": [
+      -77.06,
+      38.87
+     ],
+     "t0": 15.0,
+     "t1": 333.0,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      35.78,
+      54.03
+     ],
+     "to": [
+      -101.36,
+      48.42
+     ],
+     "t0": 4.5,
+     "t1": 369.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      35.0,
+      72.0
+     ],
+     "to": [
+      -81.52,
+      30.8
+     ],
+     "t0": 15.0,
+     "t1": 372.0,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      45.58,
+      51.67
+     ],
+     "to": [
+      -101.0,
+      48.9
+     ],
+     "t0": 5.5,
+     "t1": 387.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      89.83,
+      55.32
+     ],
+     "to": [
+      -110.4,
+      47.9
+     ],
+     "t0": 6.0,
+     "t1": 387.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      40.55,
+      56.85
+     ],
+     "to": [
+      -104.2,
+      41.6
+     ],
+     "t0": 6.5,
+     "t1": 394.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      60.0,
+      57.9
+     ],
+     "to": [
+      -95.9145,
+      41.1183
+     ],
+     "t0": 7.0,
+     "t1": 402.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      47.9,
+      56.63
+     ],
+     "to": [
+      -104.87,
+      41.15
+     ],
+     "t0": 7.5,
+     "t1": 405.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      104.3,
+      52.3
+     ],
+     "to": [
+      -103.1,
+      44.14
+     ],
+     "t0": 8.0,
+     "t1": 409.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      59.84,
+      51.09
+     ],
+     "to": [
+      -111.19,
+      47.5
+     ],
+     "t0": 8.5,
+     "t1": 411.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      82.9,
+      55.0
+     ],
+     "to": [
+      -104.85,
+      38.74
+     ],
+     "t0": 9.0,
+     "t1": 433.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      83.8,
+      53.35
+     ],
+     "to": [
+      -93.55,
+      38.73
+     ],
+     "t0": 9.5,
+     "t1": 441.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      104.3,
+      52.3
+     ],
+     "to": [
+      -93.66,
+      32.5
+     ],
+     "t0": 10.0,
+     "t1": 466.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    }
+   ]
+  },
+  {
+   "id": "c4-m1",
+   "type": "radar",
+   "start": 310.805,
+   "end": 325.685,
+   "tag": "SIMULATION",
+   "clock": "T+01:00",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "title": "Infrared warning · Buckley SFB",
+   "lines": [
+    {
+     "k": "launch flares",
+     "v": "300+"
+    },
+    {
+     "k": "origin",
+     "v": "Russia · 10 divisions · 2 sea areas"
+    },
+    {
+     "k": "first call",
+     "v": "NORAD"
+    }
+   ],
+   "tracks": 12,
+   "big": "LAUNCH · MULTIPLE · RUSSIA",
+   "footer": "This is not a test"
+  },
+  {
+   "id": "c4-m3",
+   "type": "region",
+   "start": 325.685,
+   "end": 343.646,
+   "tag": "SIMULATION",
+   "clock": "T+03:00",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "caption": "The conference opens. The president is woken.",
+   "view": {
+    "center": [
+     -96,
+     41
+    ],
+    "widthKm": 4600
+   },
+   "cities": [
+    {
+     "at": [
+      -104.85,
+      38.74
+     ],
+     "label": "NORAD · Cheyenne Mountain",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 6,
+     "t": 0.5
+    },
+    {
+     "at": [
+      -95.9145,
+      41.1183
+     ],
+     "label": "STRATCOM · Offutt",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 6,
+     "t": 2
+    },
+    {
+     "at": [
+      -77.06,
+      38.87
+     ],
+     "label": "NMCC · Pentagon",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 6,
+     "t": 3.5
+    },
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "The president",
+     "color": "#FFFFFF",
+     "kind": "ring",
+     "size": 5,
+     "t": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -104.85,
+      38.74
+     ],
+     "to": [
+      -95.9145,
+      41.1183
+     ],
+     "color": "#3ED6C8",
+     "dashed": true,
+     "t0": 2,
+     "t1": 3
+    },
+    {
+     "from": [
+      -95.9145,
+      41.1183
+     ],
+     "to": [
+      -77.06,
+      38.87
+     ],
+     "color": "#3ED6C8",
+     "dashed": true,
+     "t0": 3.5,
+     "t1": 4.5
+    }
+   ]
+  },
+  {
+   "id": "c4-m8",
+   "type": "globe",
+   "start": 343.646,
+   "end": 353.766,
+   "tag": "SIMULATION",
+   "clock": "T+08:00",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "caption": "Pituffik, Greenland: the radar sees the first missiles over the pole",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 78,
+     "lon": -40,
+     "scale": 620
+    },
+    {
+     "t": 10,
+     "lat": 80,
+     "lon": -50,
+     "scale": 700
+    }
+   ],
+   "sun": {
+    "lat": -20.26,
+    "lon": 31.6
+   },
+   "arcs": [
+    {
+     "from": [
+      35.0,
+      72.0
+     ],
+     "to": [
+      -68.7,
+      76.53
+     ],
+     "t0": -112.5,
+     "t1": 55.5,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      150.0,
+      55.0
+     ],
+     "to": [
+      -122.72,
+      47.72
+     ],
+     "t0": -105.0,
+     "t1": 177.0,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      35.0,
+      72.0
+     ],
+     "to": [
+      -70.54,
+      41.75
+     ],
+     "t0": -105.0,
+     "t1": 193.5,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      150.0,
+      55.0
+     ],
+     "to": [
+      -121.44,
+      39.14
+     ],
+     "t0": -105.0,
+     "t1": 207.0,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      35.0,
+      72.0
+     ],
+     "to": [
+      -77.06,
+      38.87
+     ],
+     "t0": -105.0,
+     "t1": 213.0,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      35.78,
+      54.03
+     ],
+     "to": [
+      -101.36,
+      48.42
+     ],
+     "t0": -120.0,
+     "t1": 249.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      35.0,
+      72.0
+     ],
+     "to": [
+      -81.52,
+      30.8
+     ],
+     "t0": -105.0,
+     "t1": 252.0,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      45.58,
+      51.67
+     ],
+     "to": [
+      -101.0,
+      48.9
+     ],
+     "t0": -120.0,
+     "t1": 267.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      89.83,
+      55.32
+     ],
+     "to": [
+      -110.4,
+      47.9
+     ],
+     "t0": -120.0,
+     "t1": 267.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      40.55,
+      56.85
+     ],
+     "to": [
+      -104.2,
+      41.6
+     ],
+     "t0": -120.0,
+     "t1": 274.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      60.0,
+      57.9
+     ],
+     "to": [
+      -95.9145,
+      41.1183
+     ],
+     "t0": -120.0,
+     "t1": 282.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      47.9,
+      56.63
+     ],
+     "to": [
+      -104.87,
+      41.15
+     ],
+     "t0": -120.0,
+     "t1": 285.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      104.3,
+      52.3
+     ],
+     "to": [
+      -103.1,
+      44.14
+     ],
+     "t0": -120.0,
+     "t1": 289.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      59.84,
+      51.09
+     ],
+     "to": [
+      -111.19,
+      47.5
+     ],
+     "t0": -120.0,
+     "t1": 291.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      82.9,
+      55.0
+     ],
+     "to": [
+      -104.85,
+      38.74
+     ],
+     "t0": -120.0,
+     "t1": 313.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      83.8,
+      53.35
+     ],
+     "to": [
+      -93.55,
+      38.73
+     ],
+     "t0": -120.0,
+     "t1": 321.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      104.3,
+      52.3
+     ],
+     "to": [
+      -93.66,
+      32.5
+     ],
+     "t0": -120.0,
+     "t1": 346.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -68.7,
+      76.53
+     ],
+     "label": "Pituffik radar",
+     "color": "#3ED6C8",
+     "kind": "ring",
+     "t": 0.5
+    }
+   ]
+  },
+  {
+   "id": "c4-m12",
+   "type": "globe",
+   "start": 353.766,
+   "end": 369.43,
+   "tag": "SIMULATION",
+   "clock": "T+12:00",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "caption": "The first warhead of the war: a submarine shot at the radar",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 76,
+     "lon": -55,
+     "scale": 900
+    },
+    {
+     "t": 14,
+     "lat": 76,
+     "lon": -62,
+     "scale": 1300
+    }
+   ],
+   "sun": {
+    "lat": -20.26,
+    "lon": 31.6
+   },
+   "arcs": [
+    {
+     "from": [
+      35.0,
+      72.0
+     ],
+     "to": [
+      -68.7,
+      76.53
+     ],
+     "t0": -172.5,
+     "t1": -4.5,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      150.0,
+      55.0
+     ],
+     "to": [
+      -122.72,
+      47.72
+     ],
+     "t0": -165.0,
+     "t1": 117.0,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      35.0,
+      72.0
+     ],
+     "to": [
+      -70.54,
+      41.75
+     ],
+     "t0": -165.0,
+     "t1": 133.5,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      150.0,
+      55.0
+     ],
+     "to": [
+      -121.44,
+      39.14
+     ],
+     "t0": -165.0,
+     "t1": 147.0,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      35.0,
+      72.0
+     ],
+     "to": [
+      -77.06,
+      38.87
+     ],
+     "t0": -165.0,
+     "t1": 153.0,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      35.78,
+      54.03
+     ],
+     "to": [
+      -101.36,
+      48.42
+     ],
+     "t0": -180.0,
+     "t1": 189.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      35.0,
+      72.0
+     ],
+     "to": [
+      -81.52,
+      30.8
+     ],
+     "t0": -165.0,
+     "t1": 192.0,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      45.58,
+      51.67
+     ],
+     "to": [
+      -101.0,
+      48.9
+     ],
+     "t0": -180.0,
+     "t1": 207.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      89.83,
+      55.32
+     ],
+     "to": [
+      -110.4,
+      47.9
+     ],
+     "t0": -180.0,
+     "t1": 207.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      40.55,
+      56.85
+     ],
+     "to": [
+      -104.2,
+      41.6
+     ],
+     "t0": -180.0,
+     "t1": 214.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      60.0,
+      57.9
+     ],
+     "to": [
+      -95.9145,
+      41.1183
+     ],
+     "t0": -180.0,
+     "t1": 222.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      47.9,
+      56.63
+     ],
+     "to": [
+      -104.87,
+      41.15
+     ],
+     "t0": -180.0,
+     "t1": 225.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      104.3,
+      52.3
+     ],
+     "to": [
+      -103.1,
+      44.14
+     ],
+     "t0": -180.0,
+     "t1": 229.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      59.84,
+      51.09
+     ],
+     "to": [
+      -111.19,
+      47.5
+     ],
+     "t0": -180.0,
+     "t1": 231.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      82.9,
+      55.0
+     ],
+     "to": [
+      -104.85,
+      38.74
+     ],
+     "t0": -180.0,
+     "t1": 253.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      83.8,
+      53.35
+     ],
+     "to": [
+      -93.55,
+      38.73
+     ],
+     "t0": -180.0,
+     "t1": 261.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      104.3,
+      52.3
+     ],
+     "to": [
+      -93.66,
+      32.5
+     ],
+     "t0": -180.0,
+     "t1": 286.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -68.7,
+      76.53
+     ],
+     "label": "Pituffik",
+     "color": "#3ED6C8",
+     "kind": "ring"
+    }
+   ],
+   "flashes": [
+    {
+     "at": [
+      -68.7,
+      76.53
+     ],
+     "t": 2.5,
+     "hold": 3,
+     "radius": 40
+    }
+   ]
+  },
+  {
+   "id": "c4-m13",
+   "type": "timeline",
+   "start": 369.43,
+   "end": 384.703,
+   "tag": "SIMULATION",
+   "clock": "T+13:00",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "title": "The options are on a card",
+   "sub": "launch the Minuteman force now, or absorb the strike",
+   "total": 30,
+   "segments": [
+    {
+     "from": 0,
+     "to": 1,
+     "label": "Detect",
+     "color": "#3ED6C8"
+    },
+    {
+     "from": 1,
+     "to": 10,
+     "label": "Radar confirms",
+     "color": "#3ED6C8"
+    },
+    {
+     "from": 10,
+     "to": 13,
+     "label": "Brief",
+     "color": "#3ED6C8"
+    },
+    {
+     "from": 13,
+     "to": 19,
+     "label": "Decide",
+     "color": "#FF3B3B"
+    },
+    {
+     "from": 19,
+     "to": 30,
+     "label": "Impact window",
+     "color": "#F2B01E"
+    }
+   ],
+   "highlight": {
+    "from": 13,
+    "to": 19,
+    "label": "six minutes"
+   },
+   "cursorTo": 19
+  },
+  {
+   "id": "c4-m19",
+   "type": "globe",
+   "start": 384.703,
+   "end": 403.895,
+   "tag": "SIMULATION",
+   "clock": "T+19:00",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "caption": "Launch under attack: 400 Minuteman missiles head north",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 72,
+     "lon": -95,
+     "scale": 520
+    },
+    {
+     "t": 18,
+     "lat": 78,
+     "lon": -70,
+     "scale": 560
+    }
+   ],
+   "sun": {
+    "lat": -20.26,
+    "lon": 31.6
+   },
+   "arcs": [
+    {
+     "from": [
+      35.0,
+      72.0
+     ],
+     "to": [
+      -68.7,
+      76.53
+     ],
+     "t0": -277.5,
+     "t1": -109.5,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      150.0,
+      55.0
+     ],
+     "to": [
+      -122.72,
+      47.72
+     ],
+     "t0": -270.0,
+     "t1": 12.0,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      35.0,
+      72.0
+     ],
+     "to": [
+      -70.54,
+      41.75
+     ],
+     "t0": -270.0,
+     "t1": 28.5,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      150.0,
+      55.0
+     ],
+     "to": [
+      -121.44,
+      39.14
+     ],
+     "t0": -270.0,
+     "t1": 42.0,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      35.0,
+      72.0
+     ],
+     "to": [
+      -77.06,
+      38.87
+     ],
+     "t0": -270.0,
+     "t1": 48.0,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      35.78,
+      54.03
+     ],
+     "to": [
+      -101.36,
+      48.42
+     ],
+     "t0": -285.0,
+     "t1": 84.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      35.0,
+      72.0
+     ],
+     "to": [
+      -81.52,
+      30.8
+     ],
+     "t0": -270.0,
+     "t1": 87.0,
+     "color": "#FF7A1A",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      45.58,
+      51.67
+     ],
+     "to": [
+      -101.0,
+      48.9
+     ],
+     "t0": -285.0,
+     "t1": 102.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      89.83,
+      55.32
+     ],
+     "to": [
+      -110.4,
+      47.9
+     ],
+     "t0": -285.0,
+     "t1": 102.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      40.55,
+      56.85
+     ],
+     "to": [
+      -104.2,
+      41.6
+     ],
+     "t0": -285.0,
+     "t1": 109.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      60.0,
+      57.9
+     ],
+     "to": [
+      -95.9145,
+      41.1183
+     ],
+     "t0": -285.0,
+     "t1": 117.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      47.9,
+      56.63
+     ],
+     "to": [
+      -104.87,
+      41.15
+     ],
+     "t0": -285.0,
+     "t1": 120.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      104.3,
+      52.3
+     ],
+     "to": [
+      -103.1,
+      44.14
+     ],
+     "t0": -285.0,
+     "t1": 124.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      59.84,
+      51.09
+     ],
+     "to": [
+      -111.19,
+      47.5
+     ],
+     "t0": -285.0,
+     "t1": 126.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      82.9,
+      55.0
+     ],
+     "to": [
+      -104.85,
+      38.74
+     ],
+     "t0": -285.0,
+     "t1": 148.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      83.8,
+      53.35
+     ],
+     "to": [
+      -93.55,
+      38.73
+     ],
+     "t0": -285.0,
+     "t1": 156.0,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      104.3,
+      52.3
+     ],
+     "to": [
+      -93.66,
+      32.5
+     ],
+     "t0": -285.0,
+     "t1": 181.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      -101.36,
+      48.42
+     ],
+     "to": [
+      35.78,
+      54.03
+     ],
+     "t0": 0.5,
+     "t1": 420.5,
+     "color": "#3ED6C8",
+     "loft": 0.16,
+     "width": 1.2
+    },
+    {
+     "from": [
+      -101.36,
+      48.42
+     ],
+     "to": [
+      45.58,
+      51.67
+     ],
+     "t0": 0.9,
+     "t1": 420.9,
+     "color": "#3ED6C8",
+     "loft": 0.16,
+     "width": 1.2
+    },
+    {
+     "from": [
+      -101.36,
+      48.42
+     ],
+     "to": [
+      59.84,
+      51.09
+     ],
+     "t0": 1.3,
+     "t1": 421.3,
+     "color": "#3ED6C8",
+     "loft": 0.16,
+     "width": 1.2
+    },
+    {
+     "from": [
+      -101.36,
+      48.42
+     ],
+     "to": [
+      89.83,
+      55.32
+     ],
+     "t0": 1.7000000000000002,
+     "t1": 421.7,
+     "color": "#3ED6C8",
+     "loft": 0.16,
+     "width": 1.2
+    },
+    {
+     "from": [
+      -101.36,
+      48.42
+     ],
+     "to": [
+      47.9,
+      56.63
+     ],
+     "t0": 2.1,
+     "t1": 422.1,
+     "color": "#3ED6C8",
+     "loft": 0.16,
+     "width": 1.2
+    },
+    {
+     "from": [
+      -101.36,
+      48.42
+     ],
+     "to": [
+      40.55,
+      56.85
+     ],
+     "t0": 2.5,
+     "t1": 422.5,
+     "color": "#3ED6C8",
+     "loft": 0.16,
+     "width": 1.2
+    },
+    {
+     "from": [
+      -111.19,
+      47.5
+     ],
+     "to": [
+      35.78,
+      54.03
+     ],
+     "t0": 0.5,
+     "t1": 420.5,
+     "color": "#3ED6C8",
+     "loft": 0.16,
+     "width": 1.2
+    },
+    {
+     "from": [
+      -111.19,
+      47.5
+     ],
+     "to": [
+      45.58,
+      51.67
+     ],
+     "t0": 0.9,
+     "t1": 420.9,
+     "color": "#3ED6C8",
+     "loft": 0.16,
+     "width": 1.2
+    },
+    {
+     "from": [
+      -111.19,
+      47.5
+     ],
+     "to": [
+      59.84,
+      51.09
+     ],
+     "t0": 1.3,
+     "t1": 421.3,
+     "color": "#3ED6C8",
+     "loft": 0.16,
+     "width": 1.2
+    },
+    {
+     "from": [
+      -111.19,
+      47.5
+     ],
+     "to": [
+      89.83,
+      55.32
+     ],
+     "t0": 1.7000000000000002,
+     "t1": 421.7,
+     "color": "#3ED6C8",
+     "loft": 0.16,
+     "width": 1.2
+    },
+    {
+     "from": [
+      -111.19,
+      47.5
+     ],
+     "to": [
+      47.9,
+      56.63
+     ],
+     "t0": 2.1,
+     "t1": 422.1,
+     "color": "#3ED6C8",
+     "loft": 0.16,
+     "width": 1.2
+    },
+    {
+     "from": [
+      -111.19,
+      47.5
+     ],
+     "to": [
+      40.55,
+      56.85
+     ],
+     "t0": 2.5,
+     "t1": 422.5,
+     "color": "#3ED6C8",
+     "loft": 0.16,
+     "width": 1.2
+    },
+    {
+     "from": [
+      -104.87,
+      41.15
+     ],
+     "to": [
+      35.78,
+      54.03
+     ],
+     "t0": 0.5,
+     "t1": 420.5,
+     "color": "#3ED6C8",
+     "loft": 0.16,
+     "width": 1.2
+    },
+    {
+     "from": [
+      -104.87,
+      41.15
+     ],
+     "to": [
+      45.58,
+      51.67
+     ],
+     "t0": 0.9,
+     "t1": 420.9,
+     "color": "#3ED6C8",
+     "loft": 0.16,
+     "width": 1.2
+    },
+    {
+     "from": [
+      -104.87,
+      41.15
+     ],
+     "to": [
+      59.84,
+      51.09
+     ],
+     "t0": 1.3,
+     "t1": 421.3,
+     "color": "#3ED6C8",
+     "loft": 0.16,
+     "width": 1.2
+    },
+    {
+     "from": [
+      -104.87,
+      41.15
+     ],
+     "to": [
+      89.83,
+      55.32
+     ],
+     "t0": 1.7000000000000002,
+     "t1": 421.7,
+     "color": "#3ED6C8",
+     "loft": 0.16,
+     "width": 1.2
+    },
+    {
+     "from": [
+      -104.87,
+      41.15
+     ],
+     "to": [
+      47.9,
+      56.63
+     ],
+     "t0": 2.1,
+     "t1": 422.1,
+     "color": "#3ED6C8",
+     "loft": 0.16,
+     "width": 1.2
+    },
+    {
+     "from": [
+      -104.87,
+      41.15
+     ],
+     "to": [
+      40.55,
+      56.85
+     ],
+     "t0": 2.5,
+     "t1": 422.5,
+     "color": "#3ED6C8",
+     "loft": 0.16,
+     "width": 1.2
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -101.36,
+      48.42
+     ],
+     "label": "Minot AFB",
+     "color": "#3ED6C8",
+     "kind": "base"
+    },
+    {
+     "at": [
+      -111.19,
+      47.5
+     ],
+     "label": "Malmstrom AFB",
+     "color": "#3ED6C8",
+     "kind": "base"
+    },
+    {
+     "at": [
+      -104.87,
+      41.15
+     ],
+     "label": "F.E. Warren AFB",
+     "color": "#3ED6C8",
+     "kind": "base"
+    }
+   ]
+  },
+  {
+   "id": "c4-m20",
+   "type": "region",
+   "start": 403.895,
+   "end": 422.527,
+   "tag": "SIMULATION",
+   "clock": "T+20:00",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "caption": "Bangor: two ground bursts on the submarine piers",
+   "view": {
+    "center": [
+     -122.6,
+     47.75
+    ],
+    "widthKm": 110
+   },
+   "zoomTo": {
+    "center": [
+     -122.68,
+     47.72
+    ],
+    "widthKm": 80
+   },
+   "cities": [
+    {
+     "at": [
+      -122.72,
+      47.72
+     ],
+     "label": "Naval Base Kitsap · Bangor",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 6
+    },
+    {
+     "at": [
+      -122.33,
+      47.61
+     ],
+     "label": "Seattle"
+    },
+    {
+     "at": [
+      -122.63,
+      47.57
+     ],
+     "label": "Bremerton"
+    },
+    {
+     "at": [
+      -122.44,
+      47.25
+     ],
+     "label": "Tacoma"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -122.72,
+      47.72
+     ],
+     "km": 0.56,
+     "color": "#FFFFFF",
+     "t": 2,
+     "dashed": false,
+     "label": "fireball"
+    },
+    {
+     "at": [
+      -122.72,
+      47.72
+     ],
+     "km": 2.9,
+     "color": "#FF3B3B",
+     "t": 2.6,
+     "label": "5 psi"
+    },
+    {
+     "at": [
+      -122.72,
+      47.72
+     ],
+     "km": 4.9,
+     "color": "#F2B01E",
+     "t": 3.3,
+     "label": "3rd degree burns"
+    },
+    {
+     "at": [
+      -122.72,
+      47.72
+     ],
+     "km": 7.8,
+     "color": "#3ED6C8",
+     "t": 4,
+     "label": "1 psi"
+    }
+   ]
+  },
+  {
+   "id": "c4-m22",
+   "type": "region",
+   "start": 422.527,
+   "end": 438.472,
+   "tag": "SIMULATION",
+   "clock": "T+22:00",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "caption": "Washington: six warheads, airburst",
+   "view": {
+    "center": [
+     -77.1,
+     38.88
+    ],
+    "widthKm": 90
+   },
+   "zoomTo": {
+    "center": [
+     -77.06,
+     38.88
+    ],
+    "widthKm": 60
+   },
+   "cities": [
+    {
+     "at": [
+      -77.06,
+      38.87
+     ],
+     "label": "Pentagon",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.01,
+      38.89
+     ],
+     "label": "Capitol"
+    },
+    {
+     "at": [
+      -76.87,
+      38.81
+     ],
+     "label": "Andrews"
+    },
+    {
+     "at": [
+      -77.45,
+      38.95
+     ],
+     "label": "Dulles"
+    },
+    {
+     "at": [
+      -76.61,
+      39.29
+     ],
+     "label": "Baltimore"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -77.06,
+      38.87
+     ],
+     "km": 0.45,
+     "color": "#FFFFFF",
+     "t": 1.5,
+     "dashed": false,
+     "label": "fireball"
+    },
+    {
+     "at": [
+      -77.06,
+      38.87
+     ],
+     "km": 3.6,
+     "color": "#FF3B3B",
+     "t": 2.2,
+     "label": "5 psi"
+    },
+    {
+     "at": [
+      -76.87,
+      38.81
+     ],
+     "km": 3.6,
+     "color": "#FF3B3B",
+     "t": 3.2
+    },
+    {
+     "at": [
+      -77.01,
+      38.9
+     ],
+     "km": 3.6,
+     "color": "#FF3B3B",
+     "t": 4.0
+    },
+    {
+     "at": [
+      -77.06,
+      38.87
+     ],
+     "km": 9.7,
+     "color": "#3ED6C8",
+     "t": 5,
+     "label": "1 psi"
+    }
+   ]
+  },
+  {
+   "id": "c4-m25",
+   "type": "region",
+   "start": 438.472,
+   "end": 461.528,
+   "tag": "SIMULATION",
+   "clock": "T+25:00",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "caption": "The silo fields: hundreds of ground bursts, two on each silo",
+   "view": {
+    "center": [
+     -105.5,
+     45.5
+    ],
+    "widthKm": 2300
+   },
+   "zoomTo": {
+    "center": [
+     -105.5,
+     45.5
+    ],
+    "widthKm": 2000
+   },
+   "cities": [
+    {
+     "at": [
+      -101.36,
+      48.42
+     ],
+     "label": "Minot AFB",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 5
+    },
+    {
+     "at": [
+      -111.19,
+      47.5
+     ],
+     "label": "Malmstrom AFB",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 5
+    },
+    {
+     "at": [
+      -104.87,
+      41.15
+     ],
+     "label": "F.E. Warren AFB",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 5
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -101.36,
+      48.42
+     ],
+     "km": 130,
+     "color": "#FF3B3B",
+     "t": 1.0,
+     "dashed": false
+    },
+    {
+     "at": [
+      -111.19,
+      47.5
+     ],
+     "km": 130,
+     "color": "#FF3B3B",
+     "t": 3.2,
+     "dashed": false
+    },
+    {
+     "at": [
+      -104.87,
+      41.15
+     ],
+     "km": 130,
+     "color": "#FF3B3B",
+     "t": 5.4,
+     "dashed": false
+    }
+   ]
+  },
+  {
+   "id": "c4-m27",
+   "type": "number",
+   "start": 461.528,
+   "end": 464.526,
+   "tag": "SIMULATION",
+   "value": "T+00:27",
+   "label": "Offutt",
+   "color": "#FF3B3B"
+  },
+  {
+   "id": "c5-flash",
+   "type": "city",
+   "start": 464.526,
+   "end": 480.023,
+   "tag": "SIMULATION",
+   "clock": "T+27:00",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP",
+   "city": "omaha",
+   "view": {
+    "center": [
+     -95.92,
+     41.14
+    ],
+    "widthKm": 24
+   },
+   "zoomTo": {
+    "center": [
+     -95.92,
+     41.15
+    ],
+    "widthKm": 28
+   },
+   "gz": [
+    -95.9145,
+    41.1183
+   ],
+   "flashT": 2.5,
+   "rings": [
+    {
+     "km": 1.1,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 2.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -95.9145,
+      41.1183
+     ],
+     "text": "Offutt AFB",
+     "color": "#FF3B3B"
+    }
+   ],
+   "legend": [
+    {
+     "text": "5 psi: most buildings destroyed",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "3rd degree burns from the flash",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "1 psi: windows shatter",
+     "color": "#3ED6C8"
+    }
+   ]
+  },
+  {
+   "id": "c5-5psi",
+   "type": "city",
+   "start": 480.023,
+   "end": 490.143,
+   "tag": "SIMULATION",
+   "clock": "T+27:00",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "city": "omaha",
+   "view": {
+    "center": [
+     -95.92,
+     41.15
+    ],
+    "widthKm": 28
+   },
+   "zoomTo": {
+    "center": [
+     -95.92,
+     41.16
+    ],
+    "widthKm": 34
+   },
+   "gz": [
+    -95.9145,
+    41.1183
+   ],
+   "flashT": -30,
+   "rings": [
+    {
+     "km": 1.1,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 5.0,
+     "label": "5 psi · most buildings destroyed",
+     "color": "#FF3B3B",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -95.9145,
+      41.1183
+     ],
+     "text": "Offutt AFB",
+     "color": "#FF3B3B"
+    },
+    {
+     "at": [
+      -95.9345,
+      41.2565
+     ],
+     "text": "Downtown Omaha · 15 km",
+     "color": "rgba(236,239,242,0.85)"
+    },
+    {
+     "at": [
+      -95.89,
+      41.15
+     ],
+     "text": "Bellevue",
+     "color": "rgba(236,239,242,0.7)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "5 psi: most buildings destroyed",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "3rd degree burns from the flash",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "1 psi: windows shatter",
+     "color": "#3ED6C8"
+    }
+   ]
+  },
+  {
+   "id": "c5-burns",
+   "type": "city",
+   "start": 490.143,
+   "end": 501.103,
+   "tag": "SIMULATION",
+   "clock": "T+27:00",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "city": "omaha",
+   "view": {
+    "center": [
+     -95.92,
+     41.16
+    ],
+    "widthKm": 34
+   },
+   "zoomTo": {
+    "center": [
+     -95.93,
+     41.18
+    ],
+    "widthKm": 42
+   },
+   "gz": [
+    -95.9145,
+    41.1183
+   ],
+   "flashT": -30,
+   "rings": [
+    {
+     "km": 1.1,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 5.0,
+     "label": "5 psi · most buildings destroyed",
+     "color": "#FF3B3B",
+     "t": -30
+    },
+    {
+     "km": 9.8,
+     "label": "3rd degree burns",
+     "color": "#F2B01E",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -95.9145,
+      41.1183
+     ],
+     "text": "Offutt AFB",
+     "color": "#FF3B3B"
+    },
+    {
+     "at": [
+      -95.9345,
+      41.2565
+     ],
+     "text": "Downtown Omaha · 15 km",
+     "color": "rgba(236,239,242,0.85)"
+    },
+    {
+     "at": [
+      -95.89,
+      41.15
+     ],
+     "text": "Bellevue",
+     "color": "rgba(236,239,242,0.7)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "5 psi: most buildings destroyed",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "3rd degree burns from the flash",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "1 psi: windows shatter",
+     "color": "#3ED6C8"
+    }
+   ]
+  },
+  {
+   "id": "c5-1psi",
+   "type": "city",
+   "start": 501.103,
+   "end": 519.736,
+   "tag": "SIMULATION",
+   "clock": "T+27:00",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "city": "omaha",
+   "view": {
+    "center": [
+     -95.93,
+     41.18
+    ],
+    "widthKm": 42
+   },
+   "zoomTo": {
+    "center": [
+     -95.93,
+     41.19
+    ],
+    "widthKm": 50
+   },
+   "gz": [
+    -95.9145,
+    41.1183
+   ],
+   "flashT": -30,
+   "rings": [
+    {
+     "km": 1.1,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 5.0,
+     "label": "5 psi · most buildings destroyed",
+     "color": "#FF3B3B",
+     "t": -30
+    },
+    {
+     "km": 9.8,
+     "label": "3rd degree burns",
+     "color": "#F2B01E",
+     "t": -30
+    },
+    {
+     "km": 13.6,
+     "label": "1 psi · windows",
+     "color": "#3ED6C8",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -95.9145,
+      41.1183
+     ],
+     "text": "Offutt AFB",
+     "color": "#FF3B3B"
+    },
+    {
+     "at": [
+      -95.9345,
+      41.2565
+     ],
+     "text": "Downtown Omaha · 15 km",
+     "color": "rgba(236,239,242,0.85)"
+    },
+    {
+     "at": [
+      -95.89,
+      41.15
+     ],
+     "text": "Bellevue",
+     "color": "rgba(236,239,242,0.7)"
+    },
+    {
+     "at": [
+      -95.86,
+      41.26
+     ],
+     "text": "Council Bluffs",
+     "color": "rgba(236,239,242,0.6)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "5 psi: most buildings destroyed",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "3rd degree burns from the flash",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "1 psi: windows shatter",
+     "color": "#3ED6C8"
+    }
+   ]
+  },
+  {
+   "id": "c5-fallout",
+   "type": "region",
+   "start": 519.736,
+   "end": 535.558,
+   "tag": "SIMULATION",
+   "clock": "+6 HOURS",
+   "clockLabel": "AFTER THE BURST",
+   "caption": "A ground burst. The wind in November blows from the west.",
+   "view": {
+    "center": [
+     -95.0,
+     41.3
+    ],
+    "widthKm": 260
+   },
+   "zoomTo": {
+    "center": [
+     -94.6,
+     41.3
+    ],
+    "widthKm": 300
+   },
+   "cities": [
+    {
+     "at": [
+      -95.9145,
+      41.1183
+     ],
+     "label": "Offutt",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 5
+    },
+    {
+     "at": [
+      -95.9345,
+      41.2565
+     ],
+     "label": "Omaha"
+    },
+    {
+     "at": [
+      -95.86,
+      41.26
+     ],
+     "label": "Council Bluffs"
+    },
+    {
+     "at": [
+      -93.62,
+      41.59
+     ],
+     "label": "Des Moines"
+    },
+    {
+     "at": [
+      -96.68,
+      40.81
+     ],
+     "label": "Lincoln"
+    }
+   ],
+   "plume": {
+    "at": [
+     -95.9145,
+     41.1183
+    ],
+    "bearing": 95,
+    "lengthKm": 190,
+    "widthKm": 55,
+    "t0": 1,
+    "t1": 10,
+    "label": "fallout · +6 h"
+   }
+  },
+  {
+   "id": "c6-card",
+   "type": "chapter",
+   "start": 535.558,
+   "end": 539.058,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 06",
+   "title": "The day after"
+  },
+  {
+   "id": "c6-710",
+   "type": "bars",
+   "start": 539.058,
+   "end": 553.854,
+   "tag": "REAL DATA",
+   "title": "The seven-ten rule",
+   "sub": "fallout radiation after a ground burst",
+   "source": "Glasstone and Dolan; Ready.gov",
+   "bars": [
+    {
+     "label": "1 hour after",
+     "value": 100,
+     "display": "100%",
+     "color": "#FF3B3B"
+    },
+    {
+     "label": "7 hours after",
+     "value": 10,
+     "display": "10%",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "2 days after",
+     "value": 1,
+     "display": "1%",
+     "color": "#3ED6C8"
+    },
+    {
+     "label": "2 weeks after",
+     "value": 0.1,
+     "display": "0.1%",
+     "color": "#3ED6C8"
+    }
+   ]
+  },
+  {
+   "id": "c6-shelter",
+   "type": "stamp",
+   "start": 553.854,
+   "end": 568.119,
+   "tag": "REAL DATA",
+   "text": "No shelter system",
+   "line": "get inside · stay inside · stay tuned"
+  },
+  {
+   "id": "c6-plan-a",
+   "type": "number",
+   "start": 568.119,
+   "end": 581.119,
+   "tag": "REAL DATA",
+   "value": "34.1 MILLION",
+   "countTo": 34.1,
+   "decimals": 1,
+   "suffix": " MILLION",
+   "label": "dead within a few hours",
+   "sub": "Princeton University, Plan A (2019): 34.1 million dead, 57.4 million injured, before fallout",
+   "source": "sgs.princeton.edu/the-lab/plan-a; ICAN"
+  },
+  {
+   "id": "c6-915",
+   "type": "text",
+   "start": 581.119,
+   "end": 591.791,
+   "tag": "REAL DATA",
+   "lines": [
+    "91,500,000 casualties",
+    "in the first few hours. Fallout and the collapse of hospitals come after."
+   ]
+  },
+  {
+   "id": "c6-famine",
+   "type": "isotype",
+   "start": 591.791,
+   "end": 604.791,
+   "tag": "REAL DATA",
+   "headline": "5,000,000,000",
+   "label": "could be starving within two years",
+   "sub": "Xia et al., Nature Food, 2022. US-Russia war scenario, about 150 million tonnes of soot.",
+   "total": 800,
+   "filled": 630,
+   "per": "10 million people",
+   "cols": 40,
+   "source": "Nature Food 3, 586-596 (2022)"
+  },
+  {
+   "id": "c6-dark",
+   "type": "globe",
+   "start": 604.791,
+   "end": 616.181,
+   "tag": "REAL DATA",
+   "caption": "Average temperatures fall for years. Harvests fail.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 35,
+     "lon": -30,
+     "scale": 430
+    },
+    {
+     "t": 11,
+     "lat": 30,
+     "lon": -40,
+     "scale": 450
+    }
+   ],
+   "sun": {
+    "lat": -20,
+    "lon": 60
+   },
+   "dim": 0.55
+  },
+  {
+   "id": "c7-card",
+   "type": "chapter",
+   "start": 616.181,
+   "end": 620.03,
+   "tag": "REAL HISTORY",
+   "kicker": "CHAPTER 07",
+   "title": "How close it has come"
+  },
+  {
+   "id": "c7-1979",
+   "type": "stamp",
+   "start": 620.03,
+   "end": 638.494,
+   "tag": "REAL HISTORY",
+   "text": "1979",
+   "line": "NORAD · a training tape shows a full Soviet attack · the adviser is minutes from calling the president",
+   "color": "#F2B01E"
+  },
+  {
+   "id": "c7-chip",
+   "type": "number",
+   "start": 638.494,
+   "end": 652.814,
+   "tag": "REAL HISTORY",
+   "value": "46 CENTS",
+   "label": "one faulty chip · June 1980",
+   "sub": "random numbers written into the missile-warning messages. Twice in a week the screens showed an attack.",
+   "color": "#F2B01E",
+   "source": "National Security Archive; GlobalSecurity"
+  },
+  {
+   "id": "c7-petrov",
+   "type": "radar",
+   "start": 652.814,
+   "end": 664.951,
+   "tag": "REAL HISTORY",
+   "title": "Serpukhov-15 · 26 September 1983",
+   "lines": [
+    {
+     "k": "tracks · inbound",
+     "v": "5"
+    },
+    {
+     "k": "reported origin",
+     "v": "United States"
+    },
+    {
+     "k": "duty officer",
+     "v": "Lt Col Stanislav Petrov"
+    }
+   ],
+   "tracks": 5,
+   "big": "FALSE ALARM",
+   "bigColor": "#F2B01E",
+   "footer": "He was right."
+  },
+  {
+   "id": "c7-norway",
+   "type": "region",
+   "start": 664.951,
+   "end": 678.085,
+   "tag": "REAL HISTORY",
+   "caption": "1995: a Norwegian science rocket, read by Russian radar as a possible missile",
+   "view": {
+    "center": [
+     25,
+     69
+    ],
+    "widthKm": 2600
+   },
+   "cities": [
+    {
+     "at": [
+      16.0,
+      69.3
+     ],
+     "label": "Andoya rocket range",
+     "color": "#F2B01E",
+     "kind": "base",
+     "size": 5
+    },
+    {
+     "at": [
+      33.08,
+      68.97
+     ],
+     "label": "Murmansk"
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      16.0,
+      69.3
+     ],
+     "to": [
+      10.0,
+      79.0
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 1,
+     "t1": 5
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "578",
+     "text": "Norway"
+    },
+    {
+     "iso": "643",
+     "text": "Russia"
+    },
+    {
+     "iso": "246",
+     "text": "Finland"
+    }
+   ]
+  },
+  {
+   "id": "c8-card",
+   "type": "chapter",
+   "start": 678.085,
+   "end": 681.085,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 08",
+   "title": "The clock"
+  },
+  {
+   "id": "c8-85",
+   "type": "number",
+   "start": 681.085,
+   "end": 694.645,
+   "tag": "REAL DATA",
+   "value": "85 SECONDS",
+   "label": "to midnight · 27 January 2026",
+   "sub": "Bulletin of the Atomic Scientists. The closest the Doomsday Clock has ever been.",
+   "source": "thebulletin.org"
+  },
+  {
+   "id": "c8-start",
+   "type": "stamp",
+   "start": 694.645,
+   "end": 709.19,
+   "tag": "REAL DATA",
+   "text": "New START · expired",
+   "line": "5 February 2026 · no treaty limit on strategic weapons for the first time in half a century"
+  },
+  {
+   "id": "c8-earth",
+   "type": "globe",
+   "start": 709.19,
+   "end": 719.534,
+   "tag": "REAL DATA",
+   "caption": "Eighty-one years. Every person with the authority to launch has decided not to.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 40,
+     "lon": -60,
+     "scale": 400
+    },
+    {
+     "t": 10,
+     "lat": 38,
+     "lon": -70,
+     "scale": 410
+    }
+   ],
+   "sun": {
+    "lat": -20,
+    "lon": -100
+   }
+  },
+  {
+   "id": "c8-zero",
+   "type": "text",
+   "start": 719.534,
+   "end": 725.892,
+   "tag": "SIMULATION",
+   "lines": [
+    "Minute zero",
+    "The only way to keep the thirty minutes on this map is for the first decision never to be made."
+   ]
+  },
+  {
+   "id": "end",
+   "type": "endslate",
+   "start": 725.892,
+   "end": 745.51,
+   "tag": "",
+   "title": "Next scenario",
+   "line": "China blockades Taiwan, and the first nuclear weapon since 1945 is used. New scenario every day."
+  }
+ ]
+}

@@ -10,7 +10,7 @@ on:
       chunks:
         description: "Number of parallel render chunks"
         required: true
-        default: "8"
+        default: "12"
       composition:
         description: "Episode or Short"
         required: true

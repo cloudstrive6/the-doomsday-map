@@ -5,6 +5,7 @@ import {AbsoluteFill, useVideoConfig} from 'remotion';
 import {geoAzimuthalEquidistant, geoCircle, geoGraticule10, geoInterpolate, geoPath, geoCentroid} from 'd3-geo';
 import {feature, mesh} from 'topojson-client';
 import world50 from 'world-atlas/countries-50m.json';
+import usStates from 'us-atlas/states-10m.json';
 import type {LonLat, RegionShot, RegionView} from '../scene';
 import {C, MONO, clamp01, ease, easeOut, lerp} from '../theme';
 
@@ -15,6 +16,9 @@ const COUNTRIES: any[] = (feature(topo, topo.objects.countries) as any).features
 const BORDERS = mesh(topo, topo.objects.countries, (a: any, b: any) => a !== b);
 const COAST = mesh(topo, topo.objects.countries, (a: any, b: any) => a === b);
 const GRAT = geoGraticule10();
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const usTopo = usStates as any;
+const STATE_BORDERS = mesh(usTopo, usTopo.objects.states, (a: any, b: any) => a !== b);
 const EARTH_KM = 6371.0088;
 const D2R = Math.PI / 180;
 
@@ -55,6 +59,7 @@ export function plumePolygon(at: LonLat, bearing: number, lengthKm: number, widt
     pts.push(destination(destination(at, bearing, d), bearing - 90, half));
   }
   pts.push(pts[0]);
+  pts.reverse(); // d3-geo: exterior rings wind clockwise
   return {type: 'Polygon', coordinates: [pts]} as const;
 }
 
@@ -94,6 +99,9 @@ export const RegionMap: React.FC<{shot: RegionShot; t: number}> = ({shot, t}) =>
           const h = hiMap.get(String(c.id));
           return <path key={c.id} d={path(c) ?? ''} fill={h ? (h.fill ?? h.color + '33') : C.land} stroke="none" />;
         })}
+        {view.widthKm < 7000 && view.center[0] < -60 && view.center[0] > -170 && view.center[1] > 22 && view.center[1] < 72 ? (
+          <path d={path(STATE_BORDERS) ?? ''} fill="none" stroke="rgba(150,185,200,0.28)" strokeWidth={0.9} />
+        ) : null}
         <path d={path(COAST) ?? ''} fill="none" stroke="rgba(170,215,225,0.5)" strokeWidth={1.3} />
         <path d={path(BORDERS) ?? ''} fill="none" stroke={C.border} strokeWidth={1} />
         {(shot.highlight ?? []).map((h) => {
@@ -138,8 +146,9 @@ export const RegionMap: React.FC<{shot: RegionShot; t: number}> = ({shot, t}) =>
       })}
       {(shot.rings ?? []).map((r, i) => {
         if (!r.label || (r.t !== undefined && t < r.t + 0.5)) return null;
-        const edge = pt(destination(r.at, 90, r.km));
-        return edge ? <Label key={`r${i}`} x={edge[0]} y={edge[1]} text={r.label} color={r.color ?? C.red} size={15} /> : null;
+        const edge = pt(destination(r.at, 40 + i * 26, r.km));
+        const small = r.km * pxPerKm < 60;
+        return edge ? <Label key={`r${i}`} x={edge[0]} y={edge[1]} text={r.label} color={r.color ?? C.red} size={15} dy={small ? -10 - (3 - i) * 20 : -10} /> : null;
       })}
       {(shot.labels ?? []).map((l, i) => {
         const p = pt(l.at);
