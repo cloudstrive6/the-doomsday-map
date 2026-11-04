@@ -1,0 +1,56 @@
+{
+  "slug": "demo",
+  "fps": 60,
+  "width": 1920,
+  "height": 1080,
+  "durationSeconds": 60,
+  "attribution": "Maps: Natural Earth, OpenStreetMap contributors via OpenFreeMap and OpenMapTiles. Imagery: NASA.",
+  "shots": [
+    {"id": "ch1", "type": "chapter", "start": 0, "end": 3, "kicker": "RENDER TEST", "title": "The Doomsday Map"},
+    {"id": "globe1", "type": "globe", "start": 3, "end": 15, "tag": "SIMULATION", "clock": "T+00:04", "clockLabel": "SINCE FIRST LAUNCH",
+     "caption": "Six missiles leave Kozelsk. Thirty minutes to the silo fields of Montana and North Dakota.",
+     "camera": [{"t": 0, "lat": 62, "lon": -30, "scale": 430}, {"t": 12, "lat": 58, "lon": -45, "scale": 620}],
+     "sun": {"lat": -16, "lon": 160},
+     "markers": [
+       {"at": [35.78, 54.03], "label": "Kozelsk", "color": "#FF3B3B", "kind": "base"},
+       {"at": [-101.36, 48.42], "label": "Minot AFB", "color": "#3ED6C8", "kind": "target", "t": 1},
+       {"at": [-111.19, 47.5], "label": "Malmstrom AFB", "color": "#3ED6C8", "kind": "target", "t": 1.3},
+       {"at": [-104.87, 41.15], "label": "F.E. Warren AFB", "color": "#3ED6C8", "kind": "target", "t": 1.6}
+     ],
+     "arcs": [
+       {"from": [35.78, 54.03], "to": [-101.36, 48.42], "t0": 2, "t1": 9},
+       {"from": [35.78, 54.03], "to": [-111.19, 47.5], "t0": 2.3, "t1": 9.4},
+       {"from": [35.78, 54.03], "to": [-104.87, 41.15], "t0": 2.6, "t1": 9.8},
+       {"from": [60.1, 51.1], "to": [-101.36, 48.42], "t0": 3, "t1": 10.2},
+       {"from": [60.1, 51.1], "to": [-95.91, 41.12], "t0": 3.2, "t1": 10.4},
+       {"from": [34.2, 69.3], "to": [-77.04, 38.9], "t0": 4, "t1": 9.2, "color": "#FF7A1A"}
+     ],
+     "flashes": [{"at": [-101.36, 48.42], "t": 9}, {"at": [-111.19, 47.5], "t": 9.4}, {"at": [-104.87, 41.15], "t": 9.8}, {"at": [-77.04, 38.9], "t": 9.2}, {"at": [-95.91, 41.12], "t": 10.4}]
+    },
+    {"id": "region1", "type": "region", "start": 15, "end": 25, "tag": "REAL DATA", "caption": "Iskander missiles in Kaliningrad reach Warsaw, Vilnius and Riga, and almost as far as Berlin.",
+     "source": "Ranges: CSIS Missile Threat; FAS Nuclear Notebook 2025",
+     "view": {"center": [21.5, 54.5], "widthKm": 1800}, "zoomTo": {"center": [21.0, 54.2], "widthKm": 1300},
+     "highlight": [{"iso": "643", "color": "#FF3B3B"}, {"iso": "112", "color": "#FF3B3B"}, {"iso": "616", "color": "#3ED6C8"}, {"iso": "440", "color": "#3ED6C8"}],
+     "countryLabels": [{"iso": "616", "text": "Poland"}, {"iso": "440", "text": "Lithuania"}, {"iso": "112", "text": "Belarus"}, {"iso": "276", "text": "Germany"}],
+     "cities": [{"at": [20.51, 54.71], "label": "Kaliningrad", "color": "#FF3B3B", "kind": "base", "size": 6}, {"at": [21.01, 52.23], "label": "Warsaw"}, {"at": [25.28, 54.69], "label": "Vilnius"}, {"at": [24.11, 56.95], "label": "Riga"}, {"at": [13.4, 52.52], "label": "Berlin"}],
+     "rings": [{"at": [20.51, 54.71], "km": 500, "label": "Iskander 500 km", "t": 2}],
+     "lines": [{"from": [20.51, 54.71], "to": [25.0, 54.0], "label": "Suwalki Gap", "dashed": true, "t0": 5, "t1": 6.5, "color": "#F2B01E"}],
+     "plume": {"at": [20.51, 54.71], "bearing": 95, "lengthKm": 420, "widthKm": 160, "t0": 7, "t1": 9.5, "label": "fallout, +48 h, wind from the west"}
+    },
+    {"id": "city1", "type": "city", "start": 25, "end": 37, "tag": "SIMULATION", "clock": "T+00:31", "caption": "800 kilotons over Offutt Air Force Base. Downtown Omaha is 15 kilometres away.",
+     "source": "Effects: Glasstone and Dolan scaling; NUKEMAP comparison",
+     "city": "omaha", "view": {"center": [-95.95, 41.2], "widthKm": 70}, "zoomTo": {"center": [-95.93, 41.17], "widthKm": 44}, "gz": [-95.9145, 41.1183],
+     "flashT": 2.5,
+     "rings": [{"km": 0.9, "label": "Fireball", "t": 2.6, "color": "#FFFFFF"}, {"km": 2.3, "label": "20 psi", "t": 3.4, "color": "#FF3B3B"}, {"km": 6.3, "label": "5 psi", "t": 4.4, "color": "#FF7A1A"}, {"km": 11.9, "label": "3rd degree burns", "t": 5.4, "color": "#F2B01E"}, {"km": 17.0, "label": "1 psi", "t": 6.4, "color": "#3ED6C8"}],
+     "labels": [{"at": [-95.9145, 41.1183], "text": "Offutt AFB · STRATCOM", "color": "#FF3B3B"}],
+     "legend": [{"text": "20 psi: concrete buildings collapse", "color": "#FF3B3B"}, {"text": "5 psi: most houses destroyed", "color": "#FF7A1A"}, {"text": "1 psi: windows shatter", "color": "#3ED6C8"}]
+    },
+    {"id": "stamp1", "type": "stamp", "start": 37, "end": 41, "tag": "REAL HISTORY", "text": "Doctrine · 2024", "line": "An attack backed by a nuclear power counts as a joint attack"},
+    {"id": "num1", "type": "number", "start": 41, "end": 46, "tag": "SIMULATION", "value": "34.1 MILLION", "countTo": 34.1, "decimals": 1, "suffix": " MILLION", "label": "dead within a few hours", "sub": "Princeton University, Plan A (2019): 34.1 million dead, 57.4 million injured"},
+    {"id": "iso1", "type": "isotype", "start": 46, "end": 52, "tag": "REAL DATA", "headline": "5,000,000,000", "label": "could die of hunger within two years", "sub": "Xia et al., Nature Food, 2022. US-Russia war, 150 million tonnes of soot.", "total": 800, "filled": 630, "per": "10 million people", "cols": 40},
+    {"id": "tl1", "type": "timeline", "start": 52, "end": 57, "tag": "REAL DATA", "title": "Thirty minutes", "sub": "from a launch in Russia to impact in America", "total": 30,
+     "segments": [{"from": 0, "to": 3, "label": "Detect", "color": "#3ED6C8"}, {"from": 3, "to": 8, "label": "Assess", "color": "#3ED6C8"}, {"from": 8, "to": 15, "label": "Brief", "color": "#3ED6C8"}, {"from": 15, "to": 21, "label": "Decide", "color": "#FF3B3B"}, {"from": 21, "to": 30, "label": "Launch · missiles in the air", "color": "#F2B01E"}],
+     "highlight": {"from": 15, "to": 21, "label": "about 6 minutes"}, "cursorTo": 30},
+    {"id": "radar1", "type": "radar", "start": 57, "end": 60, "tag": "SIMULATION", "title": "Early-warning radar · Pituffik", "lines": [{"k": "tracks · inbound", "v": "24"}, {"k": "predicted impact", "v": "Northern Plains"}, {"k": "time to decide", "v": "12:46"}], "tracks": 9, "big": "Russia? Or a glitch?", "footer": "Nobody wants to wait and find out"}
+  ]
+}

@@ -1,0 +1,109 @@
+# The Doomsday Map: channel and pipeline configuration. Agents read this; code reads this.
+channel:
+  name: "The Doomsday Map"
+  handle: "@TheDoomsdayMap"
+  url: "https://www.youtube.com/@TheDoomsdayMap"
+  niche: "What-if scenarios for nuclear war, great-power war and doomsday events, simulated minute by minute on real maps"
+  premise: "Real history and real data first, then a clearly labelled simulation built from published models, then what the world looks like after."
+  language: en-US
+  category_id: "27"          # Education
+  made_for_kids: false
+  default_tags: ["nuclear war", "what if", "simulation", "geopolitics", "map", "doomsday", "the doomsday map"]
+  lanes:                     # topic discipline: everything outside these lanes needs Bryce's approval
+    - nuclear war and nuclear weapons
+    - great-power war and flashpoints (Taiwan, Korea, Iran, Baltic, Arctic)
+    - EMP, infrastructure and cyber attacks on nations
+  disclosure: "Narration is AI-generated. Scenario segments are simulations built from published models and are labelled on screen; nothing in them has happened."
+
+voice:                       # Google Cloud TTS, Chirp 3: HD
+  name: "en-US-Chirp3-HD-Iapetus"   # provisional until Bryce picks from the 2026-11-05 audition
+  language: en-US
+  speaking_rate: 0.93
+  target_wpm: [135, 150]
+  pronunciations:
+    - {phrase: "Suwalki", ipa: "suˈvawki"}
+    - {phrase: "Rzeszow", ipa: "ˈʒɛʃuf"}
+    - {phrase: "Kozelsk", ipa: "kɐˈzʲelsk"}
+    - {phrase: "Offutt", ipa: "ˈɒfət"}
+    - {phrase: "Minot", ipa: "ˈmaɪnɒt"}
+    - {phrase: "Malmstrom", ipa: "ˈmɑlmstrəm"}
+    - {phrase: "Gadzhiyevo", ipa: "ɡɐˈdʒɨjɪvə"}
+    - {phrase: "Vilyuchinsk", ipa: "vʲɪlʲʉˈtɕinsk"}
+    - {phrase: "Pituffik", ipa: "piˈtufɪk"}
+    - {phrase: "Yars", ipa: "jɑrs"}
+    - {phrase: "Sarmat", ipa: "sɑrˈmɑt"}
+    - {phrase: "Bulava", ipa: "bʊlɐˈvɑ"}
+  fallback_wpm: 145
+
+video:
+  fps: 60
+  width: 1920
+  height: 1080
+  target_minutes: [11, 14]
+  loudness_lufs: -14
+  true_peak_db: -1.5
+  music_volume: 0.10
+  end_slate:
+    seconds: 15
+    title: "NEXT SCENARIO"
+  tags: ["REAL DATA", "SIMULATION", "REAL HISTORY"]   # corner tag on every scene
+  attribution: "Maps: Natural Earth (public domain), OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble."
+
+shorts:
+  per_episode: 3
+  length_s: [30, 60]
+  width: 1080
+  height: 1920
+  ending: "payoff"          # never cliffhanger (Doomed Doug test, 2026-11-03)
+  publish_times: ["09:00", "14:00", "19:00"]   # New York
+
+schedule:
+  timezone: "America/New_York"
+  display_timezone: "Pacific/Auckland"
+  publish_time: "12:00"
+  publish_days: [Mon, Tue, Wed, Thu, Fri, Sat, Sun]
+  review_window_days: 0.75    # uploads go private with publishAt at least 18 h ahead
+  episodes_ahead: 2
+  launch:
+    episodes: 3               # first three episodes: Bryce approves script and render in full
+    publish_days: [Mon, Tue, Wed, Thu, Fri, Sat, Sun]
+    queue_target: 1
+
+youtube:
+  playlists:
+    flashpoints: "Flashpoints: how a war starts"
+    full_exchange: "Full Exchange: launch to impact"
+    one_warhead: "One Warhead: a single city"
+    day_after: "The Day After"
+    marathons: "Full Series and Marathons"
+    shorts: "The Doomsday Map Shorts"
+
+competitors:                # tracked daily once the snapshot workflow is on
+  - "@Hindcast"              # placeholder handle; channel id UCuZK8igMPMfFtzUaiz_nzSQ
+  - "@TheNuclearClock"       # placeholder handle; channel id UCdp_NUWVoN4lXo_r6YuTATw
+  - "@SPOTLIGHT"
+  - "@ModernMuscle"
+  - "@ScienceTime24"
+  - "@Visualiser3D"
+  - "@MapPack"
+  - "@RealLifeLore"
+  - "@TheInfographicsShow"
+  - "@kurzgesagt"
+competitor_channel_ids:
+  - UCuZK8igMPMfFtzUaiz_nzSQ
+  - UCdp_NUWVoN4lXo_r6YuTATw
+  - UC8ZRQ_4OnYcb6axsNMqye2A
+  - UCV4BIX3xnDTUw8Bq_FbeT9Q
+  - UCMokuRp5kBvXuuTMFodsDAQ
+  - UCxoz4YfS4M3H3C57FD4jW4Q
+  - UCt2DqRgH0A-oV62jIs5w0Yw
+  - UCb0JxFSwHTzH0AEsAzQHV4w
+  - UCP5tjEmvPItGyLhmjdwP7Ww
+  - UCfdNM3NAhaBOXCafH7krzrA
+
+rules:
+  sources_per_fact: 2
+  max_description_links: 8
+  simulation_label_required: true
+  no_real_casualty_footage: true
+  no_ai_likeness_of_real_people: true

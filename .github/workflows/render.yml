@@ -1,0 +1,90 @@
+name: render
+
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "Episode slug under video/public/episodes/"
+        required: true
+        default: "demo"
+      chunks:
+        description: "Number of parallel render chunks"
+        required: true
+        default: "8"
+      composition:
+        description: "Episode or Short"
+        required: true
+        default: "Episode"
+
+concurrency:
+  group: render-${{ inputs.episode }}-${{ inputs.composition }}
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+      frames: ${{ steps.m.outputs.frames }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: video/package-lock.json }
+      - run: npm ci --no-audit --no-fund
+        working-directory: video
+      - id: m
+        working-directory: video
+        run: |
+          FRAMES=$(node scripts/render.mjs "public/episodes/${{ inputs.episode }}/episode.json" --frames-only)
+          N=${{ inputs.chunks }}
+          MATRIX=$(node -e "console.log(JSON.stringify([...Array($N).keys()]))")
+          echo "frames=$FRAMES" >> "$GITHUB_OUTPUT"
+          echo "matrix=$MATRIX" >> "$GITHUB_OUTPUT"
+          echo "episode ${{ inputs.episode }}: $FRAMES frames in $N chunks"
+
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        index: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: video/package-lock.json }
+      - run: npm ci --no-audit --no-fund
+        working-directory: video
+      - run: npx remotion browser ensure
+        working-directory: video
+      - name: Render chunk
+        working-directory: video
+        run: |
+          START=$(date +%s)
+          node scripts/render.mjs "public/episodes/${{ inputs.episode }}/episode.json" "out/chunk-${{ matrix.index }}.mp4" \
+            --chunk "${{ matrix.index }}/${{ inputs.chunks }}" --composition "${{ inputs.composition }}"
+          echo "chunk ${{ matrix.index }} took $(( $(date +%s) - START ))s"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chunk-${{ matrix.index }}
+          path: video/out/chunk-${{ matrix.index }}.mp4
+          retention-days: 3
+
+  concat:
+    needs: [plan, render]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with: { pattern: "chunk-*", path: chunks, merge-multiple: true }
+      - name: Concatenate
+        run: |
+          ls -la chunks
+          for i in $(seq 0 $(( ${{ inputs.chunks }} - 1 ))); do echo "file 'chunks/chunk-$i.mp4'"; done > list.txt
+          ffmpeg -loglevel error -f concat -safe 0 -i list.txt -c copy "video-${{ inputs.episode }}.mp4"
+          ffprobe -v error -show_entries format=duration:stream=nb_frames,r_frame_rate,width,height -of default=nw=1 "video-${{ inputs.episode }}.mp4"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: video-${{ inputs.episode }}-${{ inputs.composition }}
+          path: video-${{ inputs.episode }}.mp4
+          retention-days: 7
