@@ -1,0 +1,133 @@
+{
+ "slug": "001-russia-first-strike-america-s3",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 56.38,
+ "shots": [
+  {
+   "id": "c7-1979",
+   "type": "stamp",
+   "start": 0.0,
+   "end": 19.026,
+   "tag": "REAL HISTORY",
+   "text": "1979",
+   "line": "NORAD · a training tape shows a full Soviet attack · the adviser is minutes from calling the president",
+   "color": "#F2B01E"
+  },
+  {
+   "id": "c7-chip",
+   "type": "number",
+   "start": 19.026,
+   "end": 33.29,
+   "tag": "REAL HISTORY",
+   "value": "46 CENTS",
+   "label": "one faulty chip · June 1980",
+   "sub": "random numbers written into the missile-warning messages. Twice in a week the screens showed an attack.",
+   "color": "#F2B01E",
+   "source": "National Security Archive; GlobalSecurity"
+  },
+  {
+   "id": "c7-petrov",
+   "type": "radar",
+   "start": 33.29,
+   "end": 45.931,
+   "tag": "REAL HISTORY",
+   "title": "Serpukhov-15 · 26 September 1983",
+   "lines": [
+    {
+     "k": "tracks · inbound",
+     "v": "5"
+    },
+    {
+     "k": "reported origin",
+     "v": "United States"
+    },
+    {
+     "k": "duty officer",
+     "v": "Lt Col Stanislav Petrov"
+    }
+   ],
+   "tracks": 5,
+   "big": "FALSE ALARM",
+   "bigColor": "#F2B01E",
+   "footer": "He was right."
+  },
+  {
+   "id": "c7-norway",
+   "type": "region",
+   "start": 45.931,
+   "end": 56.38,
+   "tag": "REAL HISTORY",
+   "caption": "1995: a Norwegian science rocket, read by Russian radar as a possible missile",
+   "view": {
+    "center": [
+     25,
+     69
+    ],
+    "widthKm": 2600
+   },
+   "cities": [
+    {
+     "at": [
+      16.0,
+      69.3
+     ],
+     "label": "Andoya rocket range",
+     "color": "#F2B01E",
+     "kind": "base",
+     "size": 5
+    },
+    {
+     "at": [
+      33.08,
+      68.97
+     ],
+     "label": "Murmansk"
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      16.0,
+      69.3
+     ],
+     "to": [
+      10.0,
+      79.0
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 1,
+     "t1": 5
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "578",
+     "text": "Norway"
+    },
+    {
+     "iso": "643",
+     "text": "Russia"
+    },
+    {
+     "iso": "246",
+     "text": "Finland"
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "THE 46-CENT CHIP",
+  "THAT NEARLY STARTED A WAR"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

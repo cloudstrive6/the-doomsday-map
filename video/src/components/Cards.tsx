@@ -32,26 +32,26 @@ export const Chrome: React.FC<{tag?: Tag; clock?: string; clockLabel?: string; c
   return (
     <AbsoluteFill style={{pointerEvents: 'none'}}>
       {tag ? (
-        <div style={{position: 'absolute', left: 40 * s, top: 36 * s, display: 'flex', alignItems: 'center', gap: 10, padding: `${6 * s}px ${12 * s}px`,
+        <div style={{position: 'absolute', left: 40 * s, top: vertical ? 420 : 36 * s, display: 'flex', alignItems: 'center', gap: 10, padding: `${6 * s}px ${12 * s}px`,
           border: `1px solid ${TAG_COLOR[tag]}88`, background: 'rgba(8,10,14,0.65)', borderRadius: 3}}>
           <div style={{width: 8 * s, height: 8 * s, borderRadius: 8, background: TAG_COLOR[tag], boxShadow: `0 0 10px ${TAG_COLOR[tag]}`}} />
           <div style={{fontFamily: MONO, fontSize: 16 * s, letterSpacing: 3, color: TAG_COLOR[tag], fontWeight: 600}}>{tag}</div>
         </div>
       ) : null}
       {clock ? (
-        <div style={{position: 'absolute', right: 40 * s, top: 30 * s, textAlign: 'right'}}>
+        <div style={{position: 'absolute', right: 40 * s, top: vertical ? 410 : 30 * s, textAlign: 'right'}}>
           {clockLabel ? <div style={{fontFamily: MONO, fontSize: 13 * s, letterSpacing: 3, color: C.dim}}>{clockLabel}</div> : null}
           <div style={{fontFamily: MONO, fontSize: 34 * s, fontWeight: 600, color: clock.startsWith('T') ? C.red : C.text, letterSpacing: 2, textShadow: '0 0 12px rgba(0,0,0,0.8)'}}>{clock}</div>
         </div>
       ) : null}
       {caption ? (
-        <div style={{position: 'absolute', left: 0, right: 0, bottom: vertical ? 260 : 64, display: 'flex', justifyContent: 'center', opacity: pop(t, 0.1, 0.35)}}>
+        <div style={{position: 'absolute', left: 0, right: 0, bottom: vertical ? 560 : 64, display: 'flex', justifyContent: 'center', opacity: pop(t, 0.1, 0.35)}}>
           <div style={{fontFamily: FONT, fontWeight: 600, fontSize: (vertical ? 44 : 34), color: C.text, padding: '10px 22px', background: 'rgba(8,10,14,0.72)',
             borderLeft: `3px solid ${C.red}`, maxWidth: W * 0.8, textAlign: 'center', lineHeight: 1.25}}>{caption}</div>
         </div>
       ) : null}
       {source ? (
-        <div style={{position: 'absolute', left: 40 * s, bottom: vertical ? 200 : 28, fontFamily: MONO, fontSize: 13 * s, letterSpacing: 1, color: C.faint}}>{source}</div>
+        <div style={{position: 'absolute', left: 40 * s, bottom: vertical ? 500 : 28, fontFamily: MONO, fontSize: 13 * s, letterSpacing: 1, color: C.faint}}>{source}</div>
       ) : null}
     </AbsoluteFill>
   );

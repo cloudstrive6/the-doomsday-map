@@ -188,7 +188,7 @@ def upload_episode(ep_dir: Path, dry_run: bool = False, publish_at_override: str
             "selfDeclaredMadeForKids": bool(cfg["channel"]["made_for_kids"]),
             "embeddable": True,
             "license": "youtube",
-            "containsSyntheticMedia": False,  # set true per episode: synthetic narration + simulation visuals are disclosed in the description
+            "containsSyntheticMedia": bool(meta.get("synthetic_media", False)),  # AI narration + simulated events: disclosed per episode
         },
         # always answer YouTube's "Paid promotion" question: No, unless the episode really has a sponsor
         "paidProductPlacementDetails": {"hasPaidProductPlacement": bool(meta.get("paid_promotion", False))},

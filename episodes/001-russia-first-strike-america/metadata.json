@@ -1,0 +1,32 @@
+{
+  "title": "Russia Launches a Nuclear Strike on America... What Happens Next?",
+  "description": "It is 3:40 in the morning in Nebraska. Within 90 seconds, more than 300 Russian missiles are in the air. This is a minute-by-minute simulation of a Russian first strike on the United States, built from real force data, real bases and published blast models: from the first silo opening to the warhead that lands on Offutt Air Force Base at minute 27, and the world that comes after.\n\nThis is a simulation. It has not happened. Scenario segments are labelled SIMULATION on screen; facts are labelled REAL DATA or REAL HISTORY.\n\nChapters\n0:00 Cold open\n0:42 The real forces\n2:43 Thirty minutes\n3:45 The warning shot that was never answered\n4:45 Minute by minute\n7:42 One warhead\n8:55 The day after\n10:11 How close it has come\n11:13 The clock\n\nKey sources\n- SIPRI Yearbook 2026, World Nuclear Forces: https://www.sipri.org/sites/default/files/YB26%2008%20World%20Nuclear%20Forces.pdf\n- Bulletin of the Atomic Scientists, Russian nuclear weapons 2025: https://thebulletin.org/premium/2025-05/russian-nuclear-weapons-2025/\n- Global Zero, launch-on-warning timeline (Bruce Blair): https://www.globalzero.org/wp-content/uploads/2020/11/Full-LOWTimeline.pdf\n- Princeton Science and Global Security, Plan A: https://sgs.princeton.edu/the-lab/plan-a\n- Xia et al., Nature Food (2022): https://www.nature.com/articles/s43016-022-00573-0\n- National Security Archive, false warnings of 1979 and 1980: https://nsarchive.gwu.edu/node/2738\nBlast, thermal and fallout figures: Glasstone and Dolan, The Effects of Nuclear Weapons (1977), calibrated to NUKEMAP by Alex Wellerstein. Fallout guidance: Ready.gov.\n\nHow this video was made: the narration is AI-generated (Google Text-to-Speech). Scenario segments are simulations built from published models and open sources; the target list and timings are ours, a scenario, not a forecast.\nMaps: Natural Earth (public domain), OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Music: generated with Eleven Music.\n\n#nuclearwar #whatif #simulation",
+  "tags": [
+    "russia nuclear strike",
+    "nuclear war simulation",
+    "russia vs usa",
+    "what if russia nuked america",
+    "nuclear war",
+    "what if",
+    "simulation",
+    "minute by minute",
+    "offutt air force base",
+    "minuteman iii",
+    "icbm",
+    "doomsday clock",
+    "new start",
+    "nuclear war map",
+    "geopolitics",
+    "the doomsday map"
+  ],
+  "playlist": "full_exchange",
+  "synthetic_media": true,
+  "paid_promotion": false,
+  "youtube_id": "fWvrsNHlIak",
+  "publish_at": "2026-11-05T00:00:00Z",
+  "url": "https://youtu.be/fWvrsNHlIak",
+  "uploaded_at": "2026-11-04T20:36:24+00:00",
+  "upload_warnings": [
+    "thumbnail not set (<HttpError 403 when requesting https://youtube.googleapis.com/upload/youtube/v3/thumbnails/set?videoId=fWvrsNHlIak&alt=json&uploadType=media returned \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\". Details: \"[{'message': \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", 'domain': 'youtube.thumbnail', 'reason': 'forbidden', 'location': 'Authorization', 'locationType': 'header'}]\">); is the channel phone-verified?"
+  ]
+}

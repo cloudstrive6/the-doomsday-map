@@ -102,4 +102,5 @@ export interface Episode {
   sfx?: { src: string; t: number; volume?: number }[];
   shots: Shot[];
   attribution?: string;
+  shortTitle?: [string, string];  // Shorts only: two-line title band at the top (white, then yellow)
 }

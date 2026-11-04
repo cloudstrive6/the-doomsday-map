@@ -1,0 +1,351 @@
+{
+ "slug": "001-russia-first-strike-america-s2",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 55.21,
+ "shots": [
+  {
+   "id": "c5-flash",
+   "type": "city",
+   "start": 0.0,
+   "end": 16.673,
+   "tag": "SIMULATION",
+   "clock": "T+27:00",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP",
+   "city": "omaha",
+   "view": {
+    "center": [
+     -95.92,
+     41.14
+    ],
+    "widthKm": 19.2
+   },
+   "zoomTo": {
+    "center": [
+     -95.92,
+     41.15
+    ],
+    "widthKm": 22.4
+   },
+   "gz": [
+    -95.9145,
+    41.1183
+   ],
+   "flashT": 2.5,
+   "rings": [
+    {
+     "km": 1.1,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 2.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -95.9145,
+      41.1183
+     ],
+     "text": "Offutt AFB",
+     "color": "#FF3B3B"
+    }
+   ],
+   "legend": [
+    {
+     "text": "5 psi: most buildings destroyed",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "3rd degree burns from the flash",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "1 psi: windows shatter",
+     "color": "#3ED6C8"
+    }
+   ]
+  },
+  {
+   "id": "c5-5psi",
+   "type": "city",
+   "start": 16.673,
+   "end": 26.513,
+   "tag": "SIMULATION",
+   "clock": "T+27:00",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "city": "omaha",
+   "view": {
+    "center": [
+     -95.92,
+     41.15
+    ],
+    "widthKm": 22.4
+   },
+   "zoomTo": {
+    "center": [
+     -95.92,
+     41.16
+    ],
+    "widthKm": 27.2
+   },
+   "gz": [
+    -95.9145,
+    41.1183
+   ],
+   "flashT": -30,
+   "rings": [
+    {
+     "km": 1.1,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 5.0,
+     "label": "5 psi · most buildings destroyed",
+     "color": "#FF3B3B",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -95.9145,
+      41.1183
+     ],
+     "text": "Offutt AFB",
+     "color": "#FF3B3B"
+    },
+    {
+     "at": [
+      -95.9345,
+      41.2565
+     ],
+     "text": "Downtown Omaha · 15 km",
+     "color": "rgba(236,239,242,0.85)"
+    },
+    {
+     "at": [
+      -95.89,
+      41.15
+     ],
+     "text": "Bellevue",
+     "color": "rgba(236,239,242,0.7)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "5 psi: most buildings destroyed",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "3rd degree burns from the flash",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "1 psi: windows shatter",
+     "color": "#3ED6C8"
+    }
+   ]
+  },
+  {
+   "id": "c5-burns",
+   "type": "city",
+   "start": 26.513,
+   "end": 36.577,
+   "tag": "SIMULATION",
+   "clock": "T+27:00",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "city": "omaha",
+   "view": {
+    "center": [
+     -95.92,
+     41.16
+    ],
+    "widthKm": 27.2
+   },
+   "zoomTo": {
+    "center": [
+     -95.93,
+     41.18
+    ],
+    "widthKm": 33.6
+   },
+   "gz": [
+    -95.9145,
+    41.1183
+   ],
+   "flashT": -30,
+   "rings": [
+    {
+     "km": 1.1,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 5.0,
+     "label": "5 psi · most buildings destroyed",
+     "color": "#FF3B3B",
+     "t": -30
+    },
+    {
+     "km": 9.8,
+     "label": "3rd degree burns",
+     "color": "#F2B01E",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -95.9145,
+      41.1183
+     ],
+     "text": "Offutt AFB",
+     "color": "#FF3B3B"
+    },
+    {
+     "at": [
+      -95.9345,
+      41.2565
+     ],
+     "text": "Downtown Omaha · 15 km",
+     "color": "rgba(236,239,242,0.85)"
+    },
+    {
+     "at": [
+      -95.89,
+      41.15
+     ],
+     "text": "Bellevue",
+     "color": "rgba(236,239,242,0.7)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "5 psi: most buildings destroyed",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "3rd degree burns from the flash",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "1 psi: windows shatter",
+     "color": "#3ED6C8"
+    }
+   ]
+  },
+  {
+   "id": "c5-1psi",
+   "type": "city",
+   "start": 36.577,
+   "end": 55.21,
+   "tag": "SIMULATION",
+   "clock": "T+27:00",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "city": "omaha",
+   "view": {
+    "center": [
+     -95.93,
+     41.18
+    ],
+    "widthKm": 33.6
+   },
+   "zoomTo": {
+    "center": [
+     -95.93,
+     41.19
+    ],
+    "widthKm": 40.0
+   },
+   "gz": [
+    -95.9145,
+    41.1183
+   ],
+   "flashT": -30,
+   "rings": [
+    {
+     "km": 1.1,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 5.0,
+     "label": "5 psi · most buildings destroyed",
+     "color": "#FF3B3B",
+     "t": -30
+    },
+    {
+     "km": 9.8,
+     "label": "3rd degree burns",
+     "color": "#F2B01E",
+     "t": -30
+    },
+    {
+     "km": 13.6,
+     "label": "1 psi · windows",
+     "color": "#3ED6C8",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -95.9145,
+      41.1183
+     ],
+     "text": "Offutt AFB",
+     "color": "#FF3B3B"
+    },
+    {
+     "at": [
+      -95.9345,
+      41.2565
+     ],
+     "text": "Downtown Omaha · 15 km",
+     "color": "rgba(236,239,242,0.85)"
+    },
+    {
+     "at": [
+      -95.89,
+      41.15
+     ],
+     "text": "Bellevue",
+     "color": "rgba(236,239,242,0.7)"
+    },
+    {
+     "at": [
+      -95.86,
+      41.26
+     ],
+     "text": "Council Bluffs",
+     "color": "rgba(236,239,242,0.6)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "5 psi: most buildings destroyed",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "3rd degree burns from the flash",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "1 psi: windows shatter",
+     "color": "#3ED6C8"
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "ONE WARHEAD",
+  "ON OMAHA"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

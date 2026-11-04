@@ -1,7 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, Audio, Sequence, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import type {Episode as EpisodeT, Shot} from './scene';
-import {C, clamp01} from './theme';
+import {C, COND, clamp01} from './theme';
 import {Globe} from './components/Globe';
 import {RegionMap} from './components/RegionMap';
 import {CityMap} from './components/CityMap';
@@ -61,6 +61,19 @@ const ShotView: React.FC<{shot: Shot}> = ({shot: raw}) => {
   );
 };
 
+// Shorts: a fixed two-line title band under YouTube's top bar, so a viewer who lands mid-way knows the subject.
+const ShortTitle: React.FC<{lines: [string, string]}> = ({lines}) => {
+  const {width: W} = useVideoConfig();
+  return (
+    <div style={{position: 'absolute', left: 0, right: 0, top: 210, display: 'flex', flexDirection: 'column', alignItems: 'center', pointerEvents: 'none'}}>
+      <div style={{background: 'rgba(8,10,14,0.78)', padding: '14px 30px 18px', borderTop: `4px solid ${C.red}`, maxWidth: W * 0.9, textAlign: 'center'}}>
+        <div style={{fontFamily: COND, fontWeight: 800, fontSize: 76, lineHeight: 0.98, color: '#FFFFFF', letterSpacing: 1}}>{lines[0]}</div>
+        <div style={{fontFamily: COND, fontWeight: 800, fontSize: 70, lineHeight: 0.98, color: '#FFD23F', letterSpacing: 1, marginTop: 4}}>{lines[1]}</div>
+      </div>
+    </div>
+  );
+};
+
 export const Episode: React.FC<{episode: EpisodeT}> = ({episode}) => {
   const {fps} = useVideoConfig();
   return (
@@ -75,6 +88,7 @@ export const Episode: React.FC<{episode: EpisodeT}> = ({episode}) => {
           <ShotView shot={s} />
         </Sequence>
       ))}
+      {episode.shortTitle ? <ShortTitle lines={episode.shortTitle} /> : null}
     </AbsoluteFill>
   );
 };

@@ -1,0 +1,219 @@
+{
+ "slug": "001-russia-first-strike-america-s1",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 53.74,
+ "shots": [
+  {
+   "id": "c2-num",
+   "type": "number",
+   "start": 0.0,
+   "end": 9.451,
+   "tag": "REAL DATA",
+   "value": "30 MIN",
+   "label": "from a launch in Russia to impact in America",
+   "source": "Reuters; Global Zero launch-on-warning timeline"
+  },
+  {
+   "id": "c2-sbirs",
+   "type": "globe",
+   "start": 9.451,
+   "end": 23.267,
+   "tag": "REAL DATA",
+   "caption": "Infrared satellites register a launch within seconds",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 45,
+     "lon": -40,
+     "scale": 450
+    },
+    {
+     "t": 12,
+     "lat": 42,
+     "lon": -70,
+     "scale": 520
+    }
+   ],
+   "sun": {
+    "lat": -20.26,
+    "lon": 31.6
+   },
+   "markers": [
+    {
+     "at": [
+      -104.76,
+      39.72
+     ],
+     "label": "Buckley SFB · satellite ground station",
+     "color": "#3ED6C8",
+     "kind": "ring",
+     "t": 1
+    },
+    {
+     "at": [
+      -104.85,
+      38.74
+     ],
+     "label": "NORAD",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "t": 3
+    },
+    {
+     "at": [
+      -95.9145,
+      41.1183
+     ],
+     "label": "STRATCOM",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "t": 4.5
+    },
+    {
+     "at": [
+      -77.06,
+      38.87
+     ],
+     "label": "National Military Command Center",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "t": 6
+    }
+   ]
+  },
+  {
+   "id": "c2-radars",
+   "type": "globe",
+   "start": 23.267,
+   "end": 38.267,
+   "tag": "REAL DATA",
+   "caption": "Ground radars confirm the launch as missiles rise over the horizon: about ten minutes",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 70,
+     "lon": -60,
+     "scale": 480
+    },
+    {
+     "t": 15,
+     "lat": 66,
+     "lon": -70,
+     "scale": 520
+    }
+   ],
+   "sun": {
+    "lat": -20.26,
+    "lon": 31.6
+   },
+   "markers": [
+    {
+     "at": [
+      -68.7,
+      76.53
+     ],
+     "label": "Pituffik",
+     "color": "#3ED6C8",
+     "kind": "ring",
+     "t": 1.0
+    },
+    {
+     "at": [
+      -149.19,
+      64.29
+     ],
+     "label": "Clear SFS",
+     "color": "#3ED6C8",
+     "kind": "ring",
+     "t": 2.2
+    },
+    {
+     "at": [
+      -0.67,
+      54.36
+     ],
+     "label": "Fylingdales",
+     "color": "#3ED6C8",
+     "kind": "ring",
+     "t": 3.4
+    },
+    {
+     "at": [
+      -70.54,
+      41.75
+     ],
+     "label": "Cape Cod SFS",
+     "color": "#3ED6C8",
+     "kind": "ring",
+     "t": 4.6
+    },
+    {
+     "at": [
+      -121.44,
+      39.14
+     ],
+     "label": "Beale AFB",
+     "color": "#3ED6C8",
+     "kind": "ring",
+     "t": 5.8
+    }
+   ]
+  },
+  {
+   "id": "c2-timeline",
+   "type": "timeline",
+   "start": 38.267,
+   "end": 53.74,
+   "tag": "REAL DATA",
+   "title": "Thirty minutes",
+   "sub": "launch to impact · who does what",
+   "total": 30,
+   "source": "Global Zero LOW timeline (Blair); National Interest",
+   "segments": [
+    {
+     "from": 0,
+     "to": 1,
+     "label": "Detect",
+     "color": "#3ED6C8"
+    },
+    {
+     "from": 1,
+     "to": 10,
+     "label": "Radar confirms",
+     "color": "#3ED6C8"
+    },
+    {
+     "from": 10,
+     "to": 13,
+     "label": "Brief",
+     "color": "#3ED6C8"
+    },
+    {
+     "from": 13,
+     "to": 19,
+     "label": "Decide",
+     "color": "#FF3B3B"
+    },
+    {
+     "from": 19,
+     "to": 30,
+     "label": "Launch · missiles in the air",
+     "color": "#F2B01E"
+    }
+   ],
+   "highlight": {
+    "from": 13,
+    "to": 19,
+    "label": "about 6 minutes"
+   },
+   "cursorTo": 30
+  }
+ ],
+ "shortTitle": [
+  "6 MINUTES",
+  "TO DECIDE"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}
