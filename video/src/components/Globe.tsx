@@ -227,8 +227,10 @@ export const Globe: React.FC<{shot: GlobeShot; t: number}> = ({shot, t}) => {
         if (visible && prev) ctx.lineTo(sx, sy); else ctx.moveTo(sx, sy);
         prev = visible ? [sx, sy] : null;
       }
-      ctx.strokeStyle = col; ctx.globalAlpha = alpha * 0.9; ctx.shadowColor = col; ctx.shadowBlur = 8; ctx.stroke();
-      ctx.shadowBlur = 0;
+      // glow as a wide faint stroke under the line (canvas shadowBlur costs seconds per frame in software GL)
+      const lw = ctx.lineWidth;
+      ctx.strokeStyle = col; ctx.globalAlpha = alpha * 0.18; ctx.lineWidth = lw * 4; ctx.stroke();
+      ctx.globalAlpha = alpha * 0.9; ctx.lineWidth = lw; ctx.stroke();
       if (p < 1 && prev) {  // bright head
         ctx.beginPath(); ctx.arc(prev[0], prev[1], Math.max(2.5, r / 300), 0, Math.PI * 2); ctx.fillStyle = '#fff'; ctx.globalAlpha = 1; ctx.fill();
       }
@@ -254,7 +256,8 @@ export const Globe: React.FC<{shot: GlobeShot; t: number}> = ({shot, t}) => {
       if (m.kind === 'base' || m.kind === 'sub') {
         ctx.beginPath(); ctx.rect(sx - size, sy - size, size * 2, size * 2); ctx.fillStyle = col; ctx.fill();
       } else {
-        ctx.beginPath(); ctx.arc(sx, sy, size, 0, Math.PI * 2); ctx.fillStyle = col; ctx.shadowColor = col; ctx.shadowBlur = 10; ctx.fill(); ctx.shadowBlur = 0;
+        ctx.beginPath(); ctx.arc(sx, sy, size * 2.2, 0, Math.PI * 2); ctx.fillStyle = col; ctx.globalAlpha = pop * 0.25; ctx.fill(); ctx.globalAlpha = pop;
+        ctx.beginPath(); ctx.arc(sx, sy, size, 0, Math.PI * 2); ctx.fill();
       }
       ctx.globalAlpha = 1;
     }
@@ -278,7 +281,8 @@ export const Globe: React.FC<{shot: GlobeShot; t: number}> = ({shot, t}) => {
         ctx.beginPath(); ctx.arc(sx, sy, rr, 0, Math.PI * 2); ctx.fillStyle = g; ctx.fill();
         ctx.beginPath(); ctx.arc(sx, sy, rr * (0.6 + 0.9 * k), 0, Math.PI * 2); ctx.strokeStyle = `rgba(255,120,60,${(1 - k) * 0.8})`; ctx.lineWidth = 1.5; ctx.stroke();
       }
-      ctx.beginPath(); ctx.arc(sx, sy, Math.max(2.2, r / 260), 0, Math.PI * 2); ctx.fillStyle = col; ctx.shadowColor = col; ctx.shadowBlur = 12; ctx.fill(); ctx.shadowBlur = 0;
+      ctx.beginPath(); ctx.arc(sx, sy, Math.max(2.2, r / 260) * 2.4, 0, Math.PI * 2); ctx.fillStyle = col; ctx.globalAlpha = 0.3; ctx.fill(); ctx.globalAlpha = 1;
+      ctx.beginPath(); ctx.arc(sx, sy, Math.max(2.2, r / 260), 0, Math.PI * 2); ctx.fill();
     }
     // vignette
     const vg = ctx.createRadialGradient(cx, cy, Math.min(W, H) * 0.45, cx, cy, Math.max(W, H) * 0.75);

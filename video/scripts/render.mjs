@@ -19,6 +19,39 @@ if (!argv.includes('--audio')) { delete episode.narration; delete episode.music;
 const compositionId = flag('composition', episode.height > episode.width ? 'Short' : 'Episode');
 const totalFrames = Math.ceil(episode.durationSeconds * episode.fps);
 
+// Cost-weighted chunks: a zoomed globe frame costs several times a card frame, so equal frame counts leave one
+// runner far behind. Weights per frame by shot type (measured 2026-11-05 on 2-core runners).
+function frameWeights(ep, total) {
+  const w = new Float64Array(total).fill(0.35);
+  for (const s of ep.shots ?? []) {
+    let k = 0.35;
+    if (s.type === 'globe') {
+      // raster cost follows the globe's on-screen area, which stops growing once it fills the frame
+      const sc = Math.max(...(s.camera ?? [{scale: 450}]).map((c) => c.scale));
+      const area = Math.min(Math.PI * sc * sc, ep.width * ep.height) / (ep.width * ep.height);
+      k = 0.35 + 3 * area + 0.01 * (s.arcs?.length ?? 0);
+    } else if (s.type === 'city' || s.type === 'region') k = 0.6;
+    const a = Math.max(0, Math.floor(s.start * ep.fps)), b = Math.min(total, Math.ceil(s.end * ep.fps));
+    for (let f = a; f < b; f++) w[f] = k;
+  }
+  return w;
+}
+function chunkBounds(ep, total, n) {
+  const w = frameWeights(ep, total);
+  const sum = w.reduce((x, y) => x + y, 0);
+  const bounds = [0];
+  let acc = 0, next = sum / n;
+  for (let f = 0; f < total && bounds.length < n; f++) { acc += w[f]; if (acc >= next) { bounds.push(f + 1); next += sum / n; } }
+  while (bounds.length < n) bounds.push(total);
+  bounds.push(total);
+  return bounds;
+}
+if (flag('plan-chunks')) {
+  const n = Number(flag('plan-chunks'));
+  const b = chunkBounds(episode, totalFrames, n);
+  for (let i = 0; i < n; i++) console.log(`chunk ${i}: frames ${b[i]}-${b[i + 1] - 1} (${b[i + 1] - b[i]})`);
+  process.exit(0);
+}
 if (has('frames-only')) { console.log(totalFrames); process.exit(0); }
 
 const out = positional[1];
@@ -33,9 +66,9 @@ let frameRange = null;
 const chunk = flag('chunk');
 if (chunk) {
   const [i, n] = chunk.split('/').map(Number);
-  const start = Math.floor((i * composition.durationInFrames) / n);
-  const end = Math.floor(((i + 1) * composition.durationInFrames) / n) - 1;
-  frameRange = [start, end];
+  const bounds = chunkBounds(episode, composition.durationInFrames, n);
+  frameRange = [bounds[i], Math.max(bounds[i], bounds[i + 1] - 1)];
+  console.log(`chunk ${i}/${n}: frames ${frameRange[0]} to ${frameRange[1]} (${frameRange[1] - frameRange[0] + 1} frames, weighted)`);
 }
 const concurrency = flag('concurrency') ? Number(flag('concurrency')) : null;
 fs.mkdirSync(path.dirname(path.resolve(out)), {recursive: true});
