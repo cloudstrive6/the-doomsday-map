@@ -129,3 +129,28 @@ Non-blocking
    figure, no real person, no real date. Pass.
 
 To reach PASS: fix item 1 (strip bracket refs from subtitle cues), re-stage and re-check s3 frames at about 10 to 15 s.
+
+
+## 2026-11-05 (third pass) After narration regeneration and Short retiming
+
+PASS
+
+Checked: shorts.json windows against the regenerated narration/words.json; every burned-in cue of s1, s2 and s3 for bracket
+tags; s3 frames at 1, 8, 11, 13, 15, 24 and 33.5 s; first and last frames of s1 and s2; thumb_a/b/c rebuilt at 10:49 at full
+size and 168x94. build/captions.srt has no "[A" tags.
+
+1. Previous blocking item fixed: no subtitle cue in any Short contains a bracket; s3 at 10 to 15 s now reads "Minutes later,",
+   "the warheads separate from their rockets." and "They are small and fast," instead of the reference tag.
+2. Windows: s1 230.33 to 287.0 starts on "America's defence of its own territory" and ends on "and used no realistic
+   decoys." (286.4). s2 485.19 to 535.9 starts on "It detonates in the air above downtown Seattle" and ends on "the glass becomes a
+   weapon." (535.0), before "An airburst". s3 430.51 to 465.0 starts on "In our story, two more missiles are launched" and ends
+   on "it does not stop these four." (464.2). All start on a paragraph and end on a payoff.
+3. s3: band "4 WARHEADS / GET THROUGH" matches the ending and sits clear of the SIMULATION tag and the clock; globe shows red
+   arcs from Asia toward Alaska and the US, so who is against whom reads; no black or empty frame. The small FORT GREELY and
+   VANDENBERG labels remain (non-blocking, as before). Subtitles at 1 and 11 s looked dim only because they were mid fade-in.
+4. s1 and s2 are visually unchanged from the earlier pass; the known non-blocking nits stand (s2 ring labels crowd at the 1 psi
+   frame, s1 Fort Greely label small). Title bands and subtitles stay in the safe area.
+5. Thumbnails: all three legible at 168x94, headlines of four words or fewer, number first, SIMULATION in the tag, promises
+   kept (26 minutes to Seattle, last warhead at 32 minutes, six missiles launched). thumb_a's empty left half is accepted.
+6. Title and claims: all titles carry "Simulation" where the content is the scenario; numbers trace to the scenario engine or
+   sourced research; no casualty figure, real person or real date.

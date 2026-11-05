@@ -69,7 +69,12 @@
       "stage": "shotlisted",
       "note": "77 shots, 727.9 s, rebuilt on regenerated narration",
       "at": "2026-11-05T10:49:03+00:00"
+    },
+    {
+      "stage": "packaged",
+      "note": "gates passed: fact PASS r4, visual PASS",
+      "at": "2026-11-05T10:52:19+00:00"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "packaged"
 }
