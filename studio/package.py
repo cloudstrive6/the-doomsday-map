@@ -3,6 +3,7 @@ narration timing. metadata.json (title, description, tags) is written by hand or
 from __future__ import annotations
 
 import json
+import math
 import re
 import shutil
 from pathlib import Path
@@ -31,29 +32,46 @@ def chapters(timing: dict) -> str:
     return "\n".join(out)
 
 
-def captions(timing: dict, max_words: int = 11) -> str:
-    """Split each narration unit into short cues, timed in proportion to their character length."""
-    cues = []
+def _phrases(text: str, max_words: int) -> list[str]:
+    """Clauses first (split after . , ; : ? !), then each clause cut into near-equal pieces of at most max_words."""
+    clauses, cur = [], []
+    for w in text.split():
+        cur.append(w)
+        if w[-1] in ".?!,;:":
+            clauses.append(cur)
+            cur = []
+    if cur:
+        clauses.append(cur)
+    merged = []                       # glue tiny clauses ("Then another.") onto their neighbour when it fits
+    for c in clauses:
+        if merged and (len(c) <= 2 or len(merged[-1]) <= 2) and len(merged[-1]) + len(c) <= max_words:
+            merged[-1] = merged[-1] + c
+        else:
+            merged.append(c)
+    out = []
+    for c in merged:
+        n = math.ceil(len(c) / max_words)
+        size = math.ceil(len(c) / n)
+        out += [" ".join(c[i:i + size]) for i in range(0, len(c), size)]
+    return out
+
+
+def cues(timing: dict, max_words: int = 11) -> list[tuple[float, float, str]]:
+    """Narration units cut into phrases, timed in proportion to their character length."""
+    out = []
     for u in timing["units"]:
-        words = u["text"].split()
-        chunks, cur = [], []
-        for w in words:
-            cur.append(w)
-            if len(cur) >= max_words or (len(cur) >= 5 and w[-1] in ".?!,;:"):
-                chunks.append(cur)
-                cur = []
-        if cur:
-            if chunks and len(cur) < 3:
-                chunks[-1] += cur
-            else:
-                chunks.append(cur)
-        total = sum(len(" ".join(c)) for c in chunks) or 1
+        chunks = _phrases(u["text"], max_words)
+        total = sum(len(c) for c in chunks) or 1
         t = u["start"]
         for c in chunks:
-            d = (u["end"] - u["start"]) * len(" ".join(c)) / total
-            cues.append((t, t + d, " ".join(c)))
+            d = (u["end"] - u["start"]) * len(c) / total
+            out.append((t, t + d, c))
             t += d
-    return "\n".join(f"{i}\n{_srt_ts(a)} --> {_srt_ts(b)}\n{txt}\n" for i, (a, b, txt) in enumerate(cues, 1))
+    return out
+
+
+def captions(timing: dict, max_words: int = 11) -> str:
+    return "\n".join(f"{i}\n{_srt_ts(a)} --> {_srt_ts(b)}\n{txt}\n" for i, (a, b, txt) in enumerate(cues(timing, max_words), 1))
 
 
 def package(ep: Path, thumb: str = "a") -> None:

@@ -1,7 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, Audio, Sequence, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import type {Episode as EpisodeT, Shot} from './scene';
-import {C, COND, clamp01} from './theme';
+import {C, COND, FONT, clamp01} from './theme';
 import {Globe} from './components/Globe';
 import {RegionMap} from './components/RegionMap';
 import {CityMap} from './components/CityMap';
@@ -40,7 +40,7 @@ function withDrift(shot: Shot): Shot {
 }
 const CARD_TYPES = new Set(['stamp', 'number', 'chapter', 'isotype', 'bars', 'timeline', 'radar', 'text', 'split', 'endslate']);
 
-const ShotView: React.FC<{shot: Shot}> = ({shot: raw}) => {
+const ShotView: React.FC<{shot: Shot; subtitled?: boolean}> = ({shot: raw, subtitled}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const t = frame / fps;
@@ -55,9 +55,27 @@ const ShotView: React.FC<{shot: Shot}> = ({shot: raw}) => {
       <AbsoluteFill style={push !== 1 ? {transform: `scale(${push})`} : undefined}>
         <ShotBody shot={shot} t={t} />
       </AbsoluteFill>
-      <Chrome tag={shot.tag} clock={shot.clock} clockLabel={shot.clockLabel} caption={shot.caption} source={shot.source} t={t} />
+      <Chrome tag={shot.tag} clock={shot.clock} clockLabel={shot.clockLabel} caption={subtitled ? undefined : shot.caption} source={shot.source} t={t} />
       {dark > 0 ? <AbsoluteFill style={{background: '#000', opacity: dark}} /> : null}
     </AbsoluteFill>
+  );
+};
+
+// Narration subtitles for Shorts and Reels: one short phrase at a time, sized to sit with the HUD rather than shout.
+// They replace the shot captions (which paraphrase the same narration) and sit above YouTube's bottom overlay.
+const Subtitles: React.FC<{cues: {start: number; end: number; text: string}[]}> = ({cues}) => {
+  const frame = useCurrentFrame();
+  const {fps, width: W} = useVideoConfig();
+  const t = frame / fps;
+  const cue = cues.find((c) => t >= c.start && t < c.end);
+  if (!cue) return null;
+  const k = clamp01((t - cue.start) / 0.08);
+  return (
+    <div style={{position: 'absolute', left: 0, right: 0, bottom: 560, display: 'flex', justifyContent: 'center', pointerEvents: 'none'}}>
+      <div style={{fontFamily: FONT, fontWeight: 700, fontSize: 50, lineHeight: 1.22, color: '#FFFFFF', textAlign: 'center',
+        maxWidth: W * 0.82, padding: '10px 22px 12px', background: 'rgba(8,10,14,0.74)', borderRadius: 4,
+        textShadow: '0 2px 6px rgba(0,0,0,0.9)', opacity: k, transform: `translateY(${(1 - k) * 6}px)`}}>{cue.text}</div>
+    </div>
   );
 };
 
@@ -85,9 +103,10 @@ export const Episode: React.FC<{episode: EpisodeT}> = ({episode}) => {
       ))}
       {episode.shots.map((s) => (
         <Sequence key={s.id} name={s.id} from={Math.round(s.start * fps)} durationInFrames={Math.max(1, Math.round((s.end - s.start) * fps))} layout="none">
-          <ShotView shot={s} />
+          <ShotView shot={s} subtitled={!!episode.subtitles?.length} />
         </Sequence>
       ))}
+      {episode.subtitles?.length ? <Subtitles cues={episode.subtitles} /> : null}
       {episode.shortTitle ? <ShortTitle lines={episode.shortTitle} /> : null}
     </AbsoluteFill>
   );

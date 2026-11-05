@@ -1,4 +1,161 @@
 {
+ "subtitles": [
+  {
+   "start": 0.003,
+   "end": 1.401,
+   "text": "Here is the arithmetic"
+  },
+  {
+   "start": 1.401,
+   "end": 2.927,
+   "text": "that governs everything."
+  },
+  {
+   "start": 2.927,
+   "end": 5.342,
+   "text": "An intercontinental missile fired from"
+  },
+  {
+   "start": 5.342,
+   "end": 7.376,
+   "text": "Russia reaches the United States"
+  },
+  {
+   "start": 7.376,
+   "end": 8.901,
+   "text": "in about thirty minutes."
+  },
+  {
+   "start": 9.451,
+   "end": 11.709,
+   "text": "American infrared satellites see"
+  },
+  {
+   "start": 11.709,
+   "end": 13.544,
+   "text": "the launch within seconds."
+  },
+  {
+   "start": 13.544,
+   "end": 14.673,
+   "text": "The data goes to"
+  },
+  {
+   "start": 14.673,
+   "end": 16.366,
+   "text": "NORAD under the Rockies,"
+  },
+  {
+   "start": 16.366,
+   "end": 18.554,
+   "text": "to Strategic Command at Offutt,"
+  },
+  {
+   "start": 18.554,
+   "end": 20.53,
+   "text": "and to the National Military"
+  },
+  {
+   "start": 20.53,
+   "end": 22.717,
+   "text": "Command Center in the Pentagon."
+  },
+  {
+   "start": 23.267,
+   "end": 25.903,
+   "text": "Ground radars in Greenland, Alaska,"
+  },
+  {
+   "start": 25.903,
+   "end": 28.012,
+   "text": "England and on both American"
+  },
+  {
+   "start": 28.012,
+   "end": 29.819,
+   "text": "coasts confirm it as the"
+  },
+  {
+   "start": 29.819,
+   "end": 32.154,
+   "text": "missiles rise over the horizon."
+  },
+  {
+   "start": 32.154,
+   "end": 34.338,
+   "text": "That takes about ten minutes."
+  },
+  {
+   "start": 34.338,
+   "end": 36.221,
+   "text": "By the time the president"
+  },
+  {
+   "start": 36.221,
+   "end": 37.35,
+   "text": "is on the line,"
+  },
+  {
+   "start": 37.35,
+   "end": 39.309,
+   "text": "there may be less than ten"
+  },
+  {
+   "start": 39.309,
+   "end": 41.794,
+   "text": "minutes to decide whether to fire"
+  },
+  {
+   "start": 41.794,
+   "end": 44.656,
+   "text": "America's own missiles before they are"
+  },
+  {
+   "start": 44.656,
+   "end": 46.539,
+   "text": "destroyed in their silos."
+  },
+  {
+   "start": 46.539,
+   "end": 48.723,
+   "text": "Analysts who have studied the"
+  },
+  {
+   "start": 48.723,
+   "end": 51.057,
+   "text": "procedure put the real decision"
+  },
+  {
+   "start": 51.057,
+   "end": 53.166,
+   "text": "window at about six minutes."
+  },
+  {
+   "start": 53.716,
+   "end": 53.72,
+   "text": "Nobody has ever had to"
+  },
+  {
+   "start": 53.72,
+   "end": 53.726,
+   "text": "make that decision for real."
+  },
+  {
+   "start": 53.726,
+   "end": 53.732,
+   "text": "Our simulation asks what the"
+  },
+  {
+   "start": 53.732,
+   "end": 53.737,
+   "text": "thirty minutes look like if"
+  },
+  {
+   "start": 53.737,
+   "end": 53.74,
+   "text": "they ever do."
+  }
+ ],
  "slug": "001-russia-first-strike-america-s1",
  "fps": 60,
  "width": 1080,

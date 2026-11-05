@@ -156,8 +156,11 @@ export const CityMap: React.FC<{shot: CityShot; t: number}> = ({shot, t}) => {
         if (!edge) return null;
         const col = r.color ?? [C.white, C.red, C.orange, C.amber, C.teal][i % 5];
         const small = r.km * pxPerKm < 60;
+        // keep the label inside the frame: in vertical Shorts the outer rings reach the right edge
+        const estW = (`${r.label} · ${r.km} KM`.length) * 11.6;
+        const left = Math.max(24, Math.min(edge[0] + 10, W - estW - 24));
         return (
-          <div key={i} style={{position: 'absolute', left: edge[0] + 10, top: edge[1] - 12 - (small ? (3 - i) * 22 : 0), fontFamily: MONO, fontSize: 16, letterSpacing: 1.5,
+          <div key={i} style={{position: 'absolute', left, top: edge[1] - 12 - (small ? (3 - i) * 22 : 0), fontFamily: MONO, fontSize: 16, letterSpacing: 1.5,
             color: col, textShadow: '0 0 6px rgba(0,0,0,0.95)', whiteSpace: 'nowrap', textTransform: 'uppercase', opacity: ease(clamp01((t - r.t - 0.6) / 0.4))}}>
             {r.label} · {r.km} KM
           </div>

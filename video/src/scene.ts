@@ -102,5 +102,6 @@ export interface Episode {
   sfx?: { src: string; t: number; volume?: number }[];
   shots: Shot[];
   attribution?: string;
-  shortTitle?: [string, string];  // Shorts only: two-line title band at the top (white, then yellow)
+  shortTitle?: [string, string];
+  subtitles?: { start: number; end: number; text: string }[];  // burned-in narration subtitles (Shorts and Reels)  // Shorts only: two-line title band at the top (white, then yellow)
 }

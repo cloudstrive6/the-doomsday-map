@@ -40,7 +40,10 @@ def shot_list(ep: Path, spec: dict) -> dict:
         shots.append(s)
     shots[0]["start"] = 0.0          # a dropped chapter card leaves a gap at the top: the first shot covers it
     shots[-1]["end"] = round(b - a, 3)
-    return {"slug": f"{ep.name}-{spec['id']}", "fps": src["fps"], "width": cfg["width"], "height": cfg["height"],
+    from .package import cues
+    subs = [{"start": round(x, 3), "end": round(y, 3), "text": txt}
+            for x, y, txt in cues(_window_timing(ep, spec), max_words=6)]
+    return {"subtitles": subs, "slug": f"{ep.name}-{spec['id']}", "fps": src["fps"], "width": cfg["width"], "height": cfg["height"],
             "durationSeconds": round(b - a, 3), "shots": shots, "shortTitle": spec["title"],
             "attribution": src.get("attribution")}
 
@@ -73,12 +76,16 @@ def mux(ep: Path, spec: dict, silent: Path, out: Path) -> dict:
     return loud
 
 
-def captions_for(ep: Path, spec: dict) -> str:
-    from .package import captions
+def _window_timing(ep: Path, spec: dict) -> dict:
     t = json.loads((ep / "narration" / "timing.json").read_text(encoding="utf-8"))
     a, b = spec["start"], spec["end"]
-    units = [dict(u, start=u["start"] - a, end=min(u["end"], b) - a) for u in t["units"] if u["start"] >= a - 0.05 and u["start"] < b]
-    return captions({"units": units})
+    return {"units": [dict(u, start=max(0.0, u["start"] - a), end=min(u["end"], b) - a)
+                      for u in t["units"] if u["start"] >= a - 0.05 and u["start"] < b]}
+
+
+def captions_for(ep: Path, spec: dict) -> str:
+    from .package import captions
+    return captions(_window_timing(ep, spec))
 
 
 def publish(ep: Path, times: list[str]) -> list[dict]:
