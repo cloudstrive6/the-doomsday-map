@@ -74,9 +74,10 @@ schedule:
   review_window_days: 0.75    # uploads go private with publishAt at least 18 h ahead
   episodes_ahead: 2
   launch:
-    episodes: 3               # first three episodes: Bryce approves script and render in full
+    episodes: 2               # launch phase ended after episode 002
     publish_days: [Mon, Tue, Wed, Thu, Fri, Sat, Sun]
     queue_target: 1
+  human_review: false         # Bryce, 2026-11-05: no approval step; review agents and QC gate quality, production runs in the cloud
 
 youtube:
   playlists:
