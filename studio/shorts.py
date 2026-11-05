@@ -42,7 +42,7 @@ def shot_list(ep: Path, spec: dict) -> dict:
     shots[-1]["end"] = round(b - a, 3)
     from .package import cues
     subs = [{"start": round(x, 3), "end": round(y, 3), "text": txt}
-            for x, y, txt in cues(_window_timing(ep, spec), max_words=6)]
+            for x, y, txt in cues(_window_timing(ep, spec), max_words=6)] if cfg.get("subtitles", True) else []
     return {"subtitles": subs, "slug": f"{ep.name}-{spec['id']}", "fps": src["fps"], "width": cfg["width"], "height": cfg["height"],
             "durationSeconds": round(b - a, 3), "shots": shots, "shortTitle": spec["title"],
             "attribution": src.get("attribution")}

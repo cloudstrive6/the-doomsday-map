@@ -495,3 +495,15 @@ def upload_short(ep_dir: Path, spec: dict, video: Path, publish_at: str, caption
     if not got.get("publishAt"):
         out["warnings"].append("publishAt not kept")
     return out
+
+
+def unschedule(video_id: str) -> dict:
+    """Keep a scheduled upload private and drop its publishAt (used when a re-cut replaces it). Never deletes.
+    publishAt must be sent as an explicit null: leaving it out keeps the schedule."""
+    api = yt()
+    cur = api.videos().list(part="status", id=video_id).execute()["items"][0]["status"]
+    body = {"id": video_id, "status": {"privacyStatus": "private", "publishAt": None, "embeddable": cur.get("embeddable", True),
+                                       "license": cur.get("license", "youtube"),
+                                       "selfDeclaredMadeForKids": cur.get("selfDeclaredMadeForKids", False)}}
+    api.videos().update(part="status", body=body).execute()
+    return api.videos().list(part="status", id=video_id).execute()["items"][0]["status"]

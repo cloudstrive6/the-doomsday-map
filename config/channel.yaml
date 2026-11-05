@@ -55,6 +55,7 @@ shorts:
   width: 1080
   height: 1920
   ending: "payoff"          # never cliffhanger (Doomed Doug test, 2026-11-03)
+  subtitles: true           # burned-in narration subtitles, Barlow 700 at 50 px on a dark box (Bryce, 2026-11-05)
   publish_times: ["09:00", "14:00", "19:00"]   # New York
 
 schedule:
