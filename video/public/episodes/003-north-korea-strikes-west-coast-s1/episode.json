@@ -1,0 +1,388 @@
+{
+ "subtitles": [
+  {
+   "start": 0.029,
+   "end": 1.42,
+   "text": "America's defence of its own"
+  },
+  {
+   "start": 1.42,
+   "end": 3.06,
+   "text": "territory is a system called"
+  },
+  {
+   "start": 3.06,
+   "end": 5.27,
+   "text": "Ground-based Midcourse Defense."
+  },
+  {
+   "start": 5.613,
+   "end": 7.69,
+   "text": "It has forty-four interceptors."
+  },
+  {
+   "start": 7.89,
+   "end": 9.5,
+   "text": "Forty are at Fort Greely,"
+  },
+  {
+   "start": 9.5,
+   "end": 11.76,
+   "text": "in Alaska. Four are at Vandenberg,"
+  },
+  {
+   "start": 11.76,
+   "end": 12.89,
+   "text": "in California."
+  },
+  {
+   "start": 13.342,
+   "end": 14.7,
+   "text": "An interceptor does not"
+  },
+  {
+   "start": 14.7,
+   "end": 16.37,
+   "text": "explode near a missile."
+  },
+  {
+   "start": 16.718,
+   "end": 18.12,
+   "text": "It collides with the"
+  },
+  {
+   "start": 18.12,
+   "end": 19.95,
+   "text": "warhead in space,"
+  },
+  {
+   "start": 20.134,
+   "end": 21.63,
+   "text": "in the middle of its flight."
+  },
+  {
+   "start": 22.382,
+   "end": 23.786,
+   "text": "In scripted tests,"
+  },
+  {
+   "start": 23.786,
+   "end": 26.56,
+   "text": "the Arms Control Association counts twelve"
+  },
+  {
+   "start": 26.56,
+   "end": 29.59,
+   "text": "successful intercepts in twenty-one attempts."
+  },
+  {
+   "start": 29.896,
+   "end": 31.91,
+   "text": "Roughly half to sixty percent."
+  },
+  {
+   "start": 32.703,
+   "end": 34.32,
+   "text": "In twenty nineteen,"
+  },
+  {
+   "start": 34.32,
+   "end": 36.72,
+   "text": "the system fired two interceptors at"
+  },
+  {
+   "start": 36.72,
+   "end": 38.83,
+   "text": "one target for the first time."
+  },
+  {
+   "start": 39.06,
+   "end": 40.07,
+   "text": "Both worked."
+  },
+  {
+   "start": 41.059,
+   "end": 42.6,
+   "text": "A real engagement would likely"
+  },
+  {
+   "start": 42.6,
+   "end": 44.48,
+   "text": "use more than one interceptor"
+  },
+  {
+   "start": 44.48,
+   "end": 45.99,
+   "text": "for each warhead,"
+  },
+  {
+   "start": 46.312,
+   "end": 48.34,
+   "text": "so forty-four interceptors do not"
+  },
+  {
+   "start": 48.34,
+   "end": 50.57,
+   "text": "mean forty-four missiles stopped."
+  },
+  {
+   "start": 51.054,
+   "end": 51.98,
+   "text": "Critics point out that"
+  },
+  {
+   "start": 51.98,
+   "end": 53.755,
+   "text": "those tests were scripted,"
+  },
+  {
+   "start": 53.755,
+   "end": 56.43,
+   "text": "and used no realistic decoys."
+  }
+ ],
+ "slug": "003-north-korea-strikes-west-coast-s1",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 56.7,
+ "shots": [
+  {
+   "id": "c3-gmd",
+   "type": "region",
+   "start": 0.0,
+   "end": 13.34,
+   "tag": "REAL DATA",
+   "source": "Arms Control Association; Defense News",
+   "view": {
+    "center": [
+     -134,
+     52
+    ],
+    "widthKm": 7400
+   },
+   "zoomTo": {
+    "center": [
+     -134,
+     52
+    ],
+    "widthKm": 7000
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -145.73,
+      63.95
+     ],
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 7,
+     "t": 0.5
+    },
+    {
+     "at": [
+      -120.572,
+      34.742
+     ],
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 7,
+     "t": 3
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -145.73,
+      63.95
+     ],
+     "km": 300,
+     "color": "#3ED6C8",
+     "t": 1
+    },
+    {
+     "at": [
+      -120.572,
+      34.742
+     ],
+     "km": 300,
+     "color": "#3ED6C8",
+     "t": 3.5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -146.73,
+      68.35000000000001
+     ],
+     "text": "Fort Greely, Alaska · 40 interceptors",
+     "color": "#3ED6C8",
+     "t": 0.5
+    },
+    {
+     "at": [
+      -120.072,
+      38.942
+     ],
+     "text": "Vandenberg, California · 4",
+     "color": "#3ED6C8",
+     "t": 3
+    },
+    {
+     "at": [
+      -136,
+      45
+     ],
+     "text": "Ground-based Midcourse Defense · 44 interceptors",
+     "color": "#F2B01E",
+     "t": 5
+    }
+   ]
+  },
+  {
+   "id": "c3-hit",
+   "type": "globe",
+   "start": 13.34,
+   "end": 21.948,
+   "tag": "REAL DATA",
+   "caption": "Hit to kill: the interceptor collides with the warhead in space",
+   "source": "Arms Control Association (illustration)",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 56,
+     "lon": -165,
+     "scale": 900
+    },
+    {
+     "t": 8,
+     "lat": 56,
+     "lon": -160,
+     "scale": 1100
+    }
+   ],
+   "sun": {
+    "lat": 10,
+    "lon": 20
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -145.73,
+      63.95
+     ],
+     "label": "Fort Greely",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "t": 0.3
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      170,
+      50
+     ],
+     "to": [
+      -122.3321,
+      47.6062
+     ],
+     "t0": 0,
+     "t1": 8,
+     "color": "#FF3B3B",
+     "loft": 0.25
+    },
+    {
+     "from": [
+      -145.73,
+      63.95
+     ],
+     "to": [
+      -168,
+      54.5
+     ],
+     "t0": 1.5,
+     "t1": 4.6,
+     "color": "#3ED6C8",
+     "loft": 0.2
+    }
+   ],
+   "flashes": [
+    {
+     "at": [
+      -168,
+      54.5
+     ],
+     "t": 4.6,
+     "radius": 5,
+     "hold": 2,
+     "color": "#3ED6C8"
+    }
+   ]
+  },
+  {
+   "id": "c3-12of21",
+   "type": "number",
+   "start": 21.948,
+   "end": 32.572,
+   "tag": "REAL DATA",
+   "value": "12 OF 21",
+   "label": "scripted intercept tests succeeded",
+   "sub": "Arms Control Association · roughly half to sixty percent",
+   "color": "#3ED6C8",
+   "source": "Arms Control Association, Missile Defense factsheet"
+  },
+  {
+   "id": "c3-2019",
+   "type": "stamp",
+   "start": 32.572,
+   "end": 40.99,
+   "tag": "REAL HISTORY",
+   "text": "25 March 2019",
+   "line": "first salvo: two interceptors, one target · both worked",
+   "color": "#3ED6C8"
+  },
+  {
+   "id": "c3-44",
+   "type": "text",
+   "start": 40.99,
+   "end": 51.037,
+   "tag": "REAL DATA",
+   "lines": [
+    "44 interceptors is not 44 missiles stopped",
+    "A real engagement would likely use more than one interceptor per warhead."
+   ]
+  },
+  {
+   "id": "c3-scripted",
+   "type": "text",
+   "start": 51.037,
+   "end": 56.7,
+   "tag": "REAL DATA",
+   "lines": [
+    "Scripted tests",
+    "no realistic decoys, say critics"
+   ]
+  }
+ ],
+ "shortTitle": [
+  "44 INTERCEPTORS",
+  "HOW GOOD?"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

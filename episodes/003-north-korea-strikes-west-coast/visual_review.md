@@ -90,3 +90,42 @@ Title and thumbnail claims against the editorial rules
     every frame, which satisfies the tag rule.
 
 To reach PASS: fix items 1 and 2 and re-render s3; apply item 11 (cheap text edits); items 3 to 9 recommended.
+
+
+## 2026-11-05 (second pass) Revised packaging: thumbs a/b/c and new Short s3
+
+FAIL
+
+Checked: thumb_a/b/c rebuilt at 10:41 (full size and 168x94); new s3 (433.1 to 473.0, 39.9 s, shots c5-intercepts and
+c5-mid) rendered in /tmp/sh2 at 1, 8, 15, 17, 28, 38 and 39.5 s; s1 and s2 re-derived from shorts.json.
+
+Blocking
+
+1. Short s3, burned-in subtitle at Short time 10.5 to 15.55 s: the viewer sees the script reference tag
+   "[A21, A24, S6, C]" as a caption. The tags are not read aloud and must never be shown. Cause: the paragraph "In our
+   story, two more missiles are launched as well. Interceptors destroy both. ... [A21, A24, S6, C]" (script.md line 77)
+   has its trailing refs turned into a subtitle cue by `subtitle_cues` / `word_cues` in studio/shorts.py and
+   studio/package.py. Fix: strip `\[[^\]]*\]` from paragraph text before building cues (or drop cues with no matching
+   aligned word), then re-stage the Shorts. Checked all cues in s1 (28) and s2 (24): no brackets, so only s3 is hit;
+   the long video's captions.srt should be grepped for "[A" as well.
+
+Non-blocking
+
+2. s3 content: window starts on a paragraph ("In our story, two more missiles are launched", 433.1) and ends at
+   473.0 right after "it does not stop these four." (about 472.3): a payoff. Cold-start nit: "two more missiles" assumes
+   the first four, so a one-second lead-in is missing; acceptable. Globe shots only, as intended: SIMULATION tag present,
+   title band and clock clear of each other, red arcs show who is attacking whom, no black frames. Labels (FORT GREELY,
+   VANDENBERG) are about 12 px and hard to read on a phone; the interceptor graphics are not shown, only the label.
+   Enlarge globe label font for portrait or accept. Band "THE INTERCEPTOR WINDOW" is vague next to s1 and s2; "4 WARHEADS
+   GET THROUGH" would promise the payoff. Items 4 and 5 from the earlier review (s2 label crowding, s1 Fort Greely
+   label) accepted as non-blocking, and s1/s2 windows and titles are unchanged.
+3. Thumbnails at 168x94: all legible, headlines are four words or fewer, number first, and the word SIMULATION is in the tag.
+   thumb_a "26 MINUTES / TO SEATTLE": strong; the left half is still black and the red arc is faint, so who is against whom is
+   weak. Accepted. thumb_b "32 MINUTES / LAST WARHEAD": now shows the red North Korea shape and arcs at left against the
+   teal US; text no longer hides the subject. Good. thumb_c "6 MISSILES / 26 MINUTES": clear, distinct from a and b, and
+   kept by the video (six launched, 25.5 minutes to Seattle). The globe's red country is still a speck; fine.
+4. Titles and claims: metadata title "North Korea Nukes Seattle: A 26 Minute Simulation", s2 and s3 YouTube titles begin
+   "Simulation:". Numbers (6, 4, 26, 32, 44 interceptors, 250 kt) trace to the scenario or sourced research; no casualty
+   figure, no real person, no real date. Pass.
+
+To reach PASS: fix item 1 (strip bracket refs from subtitle cues), re-stage and re-check s3 frames at about 10 to 15 s.
