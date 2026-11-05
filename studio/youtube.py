@@ -392,9 +392,14 @@ def pull_competitors() -> Path:
         for c in pj.get("channels", []):
             for v in c.get("videos", []):
                 prev[v["id"]] = {"views": v["views"], "at": at}
-    for handle in cfg["competitors"]:
+    # channel ids are exact; the handles in channel.yaml are only labels (some are placeholders)
+    targets = [("id", c) for c in cfg.get("competitor_channel_ids") or []] or [("forHandle", h) for h in cfg["competitors"]]
+    for key, val in targets:
+        handle = val
         try:
-            ch = api.channels().list(part="snippet,statistics,contentDetails", forHandle=handle).execute().get("items")
+            ch = api.channels().list(part="snippet,statistics,contentDetails", **{key: val}).execute().get("items")
+            if ch:
+                handle = ch[0]["snippet"].get("customUrl") or val
             if not ch:
                 res["channels"].append({"handle": handle, "error": "not found"})
                 continue

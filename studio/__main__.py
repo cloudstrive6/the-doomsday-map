@@ -1,6 +1,6 @@
 """Studio CLI:  python -m studio <command> ...
 
-Commands: new <slug> | status | scenario <ep> | narrate <ep> | build <ep> | upload <ep> [--dry-run] | auth
+Commands: new <slug> | status | scenario <ep> | narrate <ep> | build <ep> | upload <ep> [--dry-run] | auth | competitors | analytics
 """
 from __future__ import annotations
 
@@ -61,6 +61,16 @@ def cmd_upload(a):
     print(json.dumps({k: meta.get(k) for k in ("title", "youtube_id", "publish_at", "url", "upload_warnings")}, indent=1))
 
 
+def cmd_competitors(a):
+    from .youtube import pull_competitors
+    print(pull_competitors())
+
+
+def cmd_analytics(a):
+    from .youtube import pull_analytics
+    print(pull_analytics(a.days))
+
+
 def cmd_auth(a):
     from .youtube import auth
     auth()
@@ -76,6 +86,8 @@ def main(argv=None):
     s = sub.add_parser("build"); s.add_argument("episode"); s.add_argument("--chunks", type=int, default=8); s.add_argument("--local", action="store_true"); s.set_defaults(fn=cmd_build)
     s = sub.add_parser("upload"); s.add_argument("episode"); s.add_argument("--dry-run", action="store_true"); s.add_argument("--publish-at"); s.set_defaults(fn=cmd_upload)
     s = sub.add_parser("auth"); s.set_defaults(fn=cmd_auth)
+    s = sub.add_parser("competitors"); s.set_defaults(fn=cmd_competitors)
+    s = sub.add_parser("analytics"); s.add_argument("--days", type=int, default=28); s.set_defaults(fn=cmd_analytics)
     a = p.parse_args(argv)
     a.fn(a)
 

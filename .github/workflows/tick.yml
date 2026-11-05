@@ -1,0 +1,35 @@
+name: Tick (external scheduler)
+
+# Triggered every 30 min by cron-job.org (GitHub's own `schedule:` can run hours late or be skipped).
+# Decides what is due (times in UTC) and dispatches it. Each workflow keeps its own `schedule:` as a
+# fallback and is idempotent, so a double trigger is harmless. New workflows (produce, social, monitor)
+# are dispatched here only once their file exists.
+on:
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github/workflows
+      - name: Dispatch what's due
+        run: |
+          H=$(date -u +%H); M=$(date -u +%M); DOW=$(date -u +%u)   # DOW 7 = Sunday
+          echo "tick at ${H}:${M} UTC (dow ${DOW})"
+          R="${{ github.repository }}"
+          has() { [ -f ".github/workflows/$1" ]; }
+          if has social.yml; then gh workflow run social.yml -R "$R" && echo "-> social"; fi              # every tick
+          if has monitor.yml && [ "$M" -lt 30 ]; then gh workflow run monitor.yml -R "$R" && echo "-> monitor"; fi   # hourly
+          if has produce.yml && { [ "$H" = "05" ] || [ "$H" = "17" ]; } && [ "$M" -lt 30 ]; then
+            gh workflow run produce.yml -R "$R" && echo "-> produce"
+          fi
+          if [ "$H" = "23" ] && [ "$M" -ge 30 ]; then gh workflow run snapshot.yml -R "$R" && echo "-> snapshot"; fi   # daily
