@@ -38,5 +38,5 @@ jobs:
         run: |
           git config user.name "doomsday-map-bot"
           git config user.email "${{ github.repository_owner_id }}+${{ github.repository_owner }}@users.noreply.github.com"
-          git add -A data/competitors data/analytics data/reach || true
+          for d in data/competitors data/analytics data/reach; do [ -e "$d" ] && git add -A "$d"; done
           (git commit -m "daily snapshot" || true) && git pull --rebase -X theirs && git push

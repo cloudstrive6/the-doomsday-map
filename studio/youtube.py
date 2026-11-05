@@ -329,6 +329,7 @@ def pull_analytics(days: int = 28) -> Path:
     except Exception as e:
         out["errors"].append(f"reach report: {e}")
     path = ROOT / "data" / "analytics" / f"{today.isoformat()}.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(out, indent=1, ensure_ascii=False), encoding="utf-8")
     return path
 
