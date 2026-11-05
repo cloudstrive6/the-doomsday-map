@@ -66,6 +66,14 @@ def cmd_auth_meta(a):
     auth()
 
 
+def cmd_social(a):
+    from . import meta
+    if a.action == "release":
+        print(meta.release_assets(episode_dir(a.episode)))
+    elif a.action == "publish-due":
+        meta.publish_due(dry_run=a.dry_run)
+
+
 def cmd_competitors(a):
     from .youtube import pull_competitors
     print(pull_competitors())
@@ -92,6 +100,7 @@ def main(argv=None):
     s = sub.add_parser("upload"); s.add_argument("episode"); s.add_argument("--dry-run", action="store_true"); s.add_argument("--publish-at"); s.set_defaults(fn=cmd_upload)
     s = sub.add_parser("auth"); s.set_defaults(fn=cmd_auth)
     s = sub.add_parser("auth-meta"); s.set_defaults(fn=cmd_auth_meta)
+    s = sub.add_parser("social"); s.add_argument("action", choices=["release", "publish-due"]); s.add_argument("episode", nargs="?"); s.add_argument("--dry-run", action="store_true"); s.set_defaults(fn=cmd_social)
     s = sub.add_parser("competitors"); s.set_defaults(fn=cmd_competitors)
     s = sub.add_parser("analytics"); s.add_argument("--days", type=int, default=28); s.set_defaults(fn=cmd_analytics)
     a = p.parse_args(argv)

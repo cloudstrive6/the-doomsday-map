@@ -58,6 +58,14 @@ shorts:
   subtitles: true           # burned-in narration subtitles, Barlow 700 at 50 px on a dark box (Bryce, 2026-11-05)
   publish_times: ["09:00", "14:00", "19:00"]   # New York
 
+social:                     # cross-posting after the video is live on YouTube (studio/meta.py, social.yml)
+  facebook_long: true         # episodes as native Facebook Page videos
+  facebook_reels: true        # Shorts as Facebook Reels
+  facebook_stories: true      # Shorts as 24-hour Page Stories (only within 24 h of going live)
+  instagram_reels: true       # needs META_IG_USER_ID (Instagram professional account linked to the Page)
+  instagram_stories: true
+  hashtags: "#nuclearwar #whatif #simulation #geopolitics #TheDoomsdayMap"
+
 schedule:
   timezone: "America/New_York"
   display_timezone: "Pacific/Auckland"

@@ -242,6 +242,11 @@ def upload_episode(ep_dir: Path, dry_run: bool = False, publish_at_override: str
         warnings.append("YouTube did not keep the publishAt schedule. The Google Cloud project is probably "
                         "unaudited (uploads locked private). Schedule it manually in Studio, and apply for the "
                         "YouTube API audit (see README).")
+    try:  # private draft release ep-NNN: where the cloud cross-poster fetches the video once it is live
+        from .meta import release_assets
+        release_assets(ep_dir)
+    except Exception as e:
+        warnings.append(f"release assets not stored ({e})")
     meta["upload_warnings"] = warnings
     meta_path.write_text(json.dumps(meta, indent=2, ensure_ascii=False), encoding="utf-8")
     return meta

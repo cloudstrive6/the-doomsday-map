@@ -118,4 +118,9 @@ def publish(ep: Path, times: list[str]) -> list[dict]:
         done.append(r)
         log_path.write_text(json.dumps(done, indent=2, ensure_ascii=False), encoding="utf-8")
         print(json.dumps(r))
+    try:  # the Shorts files go into the episode's private release for the cross-poster
+        from .meta import release_assets
+        release_assets(ep)
+    except Exception as e:
+        print("release assets not stored:", e)
     return done
