@@ -231,6 +231,9 @@ def publish_due(dry_run: bool = False) -> list[str]:
     from . import notify
     done, errors = [], []
     has_ig = bool(os.environ.get("META_IG_USER_ID"))
+    start = str(cfg.get("instagram_start") or "")
+    if has_ig and start and dt.date.today().isoformat() < start:
+        has_ig = False  # warm-up: a brand-new Instagram account posts by hand first (config social.instagram_start)
     for ep in sorted(p for p in (ROOT / "episodes").iterdir() if p.is_dir()):
         mp = ep / "metadata.json"
         if not mp.exists():

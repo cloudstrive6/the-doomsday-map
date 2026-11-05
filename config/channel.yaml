@@ -64,6 +64,7 @@ social:                     # cross-posting after the video is live on YouTube (
   facebook_stories: true      # Shorts as 24-hour Page Stories (only within 24 h of going live)
   instagram_reels: true       # needs META_IG_USER_ID (Instagram professional account linked to the Page)
   instagram_stories: true
+  instagram_start: "2026-11-07"   # @thedoomsdaymap restored 2026-11-06; one quiet day before API posting
   hashtags: "#nuclearwar #whatif #simulation #geopolitics #TheDoomsdayMap"
 
 schedule:
