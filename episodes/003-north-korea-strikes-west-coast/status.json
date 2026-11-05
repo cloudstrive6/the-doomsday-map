@@ -54,6 +54,11 @@
       "stage": "shotlisted",
       "note": "77 shots, 736 s",
       "at": "2026-11-05T10:14:57+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "77 shots, 736 s, visual review round 1 fixes",
+      "at": "2026-11-05T10:33:57+00:00"
     }
   ],
   "stage": "shotlisted"

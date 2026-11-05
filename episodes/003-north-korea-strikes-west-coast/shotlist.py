@@ -56,6 +56,10 @@ def add(**k):
     shots.append(k)
 
 
+def off(p, dlon, dlat):
+    return [round(p[0] + dlon, 4), round(p[1] + dlat, 4)]
+
+
 def clock(minute):
     return f"T+{int(minute):02d}:{int(round((minute % 1) * 60)):02d}"
 
@@ -129,9 +133,9 @@ add(id="c1-counts", type="bars", start=S("p05"), end=S("p06"), tag="REAL DATA", 
 add(id="c1-fission", type="stamp", start=S("p06"), end=S("p07"), tag="REAL DATA", text="Mostly fission", line="single-stage fission devices · only a few may be thermonuclear · SIPRI 2026", color=AMBER)
 add(id="c1-tests", type="region", start=S("p07"), end=S("p08"), tag="REAL DATA", clock="2017", clockLabel="3 SEPTEMBER · LAST TEST", source="CRS; CNBC; Norsar",
     view={"center": [127.5, 40.0], "widthKm": 1100}, zoomTo={"center": [128.6, 40.8], "widthKm": 700}, highlight=[HL_NK, {"iso": KOREAN_S, "color": TEAL}, {"iso": CHINA, "color": DIM}],
-    cities=[{"at": PUNGGYE, "label": "Punggye-ri · six tests", "color": RED, "kind": "target", "size": 6, "t": 0.5}, {"at": PYONGYANG, "label": "Pyongyang", "kind": "dot", "t": 1.5}],
+    cities=[{"at": PUNGGYE, "color": RED, "kind": "target", "size": 6, "t": 0.5}, {"at": PYONGYANG, "label": "Pyongyang", "kind": "dot", "t": 1.5}],
     rings=[{"at": PUNGGYE, "km": 18, "color": RED, "t": 2.0}, {"at": PUNGGYE, "km": 36, "color": AMBER, "t": 3.0}],
-    labels=[{"at": [125.4, 41.9], "text": "yield: about 50 to 250 kt", "color": AMBER, "t": 9}])
+    labels=[{"at": off(PUNGGYE, 0.75, 0.0), "text": "Punggye-ri · six tests", "color": WHITE, "t": 0.6}, {"at": [125.4, 41.9], "text": "yield: about 50 to 250 kt", "color": AMBER, "t": 9}])
 add(id="c1-icbm", type="number", start=S("p08"), end=S("p09"), tag="REAL DATA", value="10 OR FEWER", label="intercontinental missiles, Defense Intelligence Agency, 2025",
     sub="projected up to about 50 by 2035", color=AMBER, source="DIA via Congressional Research Service")
 add(id="c1-models", type="globe", start=S("p09"), end=S("p11"), tag="REAL DATA", source="CSIS Missile Threat; CRS; US Annual Threat Assessment 2026",
@@ -171,9 +175,10 @@ shots[-1]["start"] = W("p15", "Another")
 add(id="c3-card", type="chapter", start=S("p17"), end=S("p17") + 3.5, tag="REAL DATA", kicker="CHAPTER 03", title="The shield")
 add(id="c3-gmd", type="region", start=S("p17") + 3.5, end=S("p18"), tag="REAL DATA", source="Arms Control Association; Defense News",
     view={"center": [-134, 52], "widthKm": 7400}, zoomTo={"center": [-134, 52], "widthKm": 7000}, highlight=[HL_US],
-    cities=[{"at": GREELY, "label": "Fort Greely, Alaska · 40 interceptors", "color": TEAL, "kind": "base", "size": 7, "t": 0.5}, {"at": VAFB, "label": "Vandenberg, California · 4", "color": TEAL, "kind": "base", "size": 7, "t": 3}],
+    cities=[{"at": GREELY, "color": TEAL, "kind": "base", "size": 7, "t": 0.5}, {"at": VAFB, "color": TEAL, "kind": "base", "size": 7, "t": 3}],
     rings=[{"at": GREELY, "km": 300, "color": TEAL, "t": 1}, {"at": VAFB, "km": 300, "color": TEAL, "t": 3.5}],
-    labels=[{"at": [-136, 45], "text": "Ground-based Midcourse Defense · 44 interceptors", "color": AMBER, "t": 5}])
+    labels=[{"at": [GREELY[0] - 1.0, GREELY[1] + 4.4], "text": "Fort Greely, Alaska · 40 interceptors", "color": TEAL, "t": 0.5}, {"at": [VAFB[0] + 0.5, VAFB[1] + 4.2], "text": "Vandenberg, California · 4", "color": TEAL, "t": 3},
+            {"at": [-136, 45], "text": "Ground-based Midcourse Defense · 44 interceptors", "color": AMBER, "t": 5}])
 add(id="c3-hit", type="globe", start=S("p18"), end=S("p19"), tag="REAL DATA", caption="Hit to kill: the interceptor collides with the warhead in space", source="Arms Control Association (illustration)",
     camera=[{"t": 0, "lat": 56, "lon": -165, "scale": 900}, {"t": 8, "lat": 56, "lon": -160, "scale": 1100}], sun={"lat": 10, "lon": 20}, highlight=[HL_US],
     markers=[{"at": GREELY, "label": "Fort Greely", "color": TEAL, "kind": "base", "t": 0.3}],
@@ -261,6 +266,9 @@ LEGEND = [{"text": f"Fireball {FX['fireball_km']*1000:.0f} m", "color": WHITE}, 
           {"text": f"Burns {FX['thermal3_km']:.1f} km", "color": AMBER}, {"text": f"1 psi {FX['psi1_km']:.1f} km", "color": TEAL}]
 
 
+HIDE = [{"at": SEATTLE, "text": n, "t": 999} for n in ("First Hill", "Madrona", "Leschi", "Belltown", "Laurelhurst")]  # t far in the future: suppresses the map place label only
+
+
 def rings_upto(n, new_t):
     return [dict(r, t=(-30 if i < n - 1 else new_t)) for i, r in enumerate(RINGS[:n])]
 
@@ -269,7 +277,7 @@ SRC = "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engi
 def seattle_shot(sid, pid_a, pid_b, n, w0, w1, flash=None, cl="T+25:30"):
     d = dict(id=sid, type="city", start=S(pid_a), end=S(pid_b), tag="SIMULATION", clock=cl, clockLabel="SINCE FIRST LAUNCH", source=SRC, city="seattle",
              view={"center": [-122.3321, 47.6062], "widthKm": w0}, zoomTo={"center": [-122.3321, 47.6062], "widthKm": w1}, gz=SEATTLE,
-             rings=rings_upto(n, 0.6 if flash is None else flash + 0.1), labels=CITY_LABELS[:2 + n], legend=LEGEND[:n])
+             rings=rings_upto(n, 0.6 if flash is None else flash + 0.1), labels=[CITY_LABELS[0]] + CITY_LABELS[2:2 + n] + HIDE, legend=LEGEND[:n])
     if flash is not None:
         d["flashT"] = flash
         d["labels"] = CITY_LABELS[:2]
@@ -284,30 +292,29 @@ seattle_shot("c6-20psi", "p38", "p39", 2, 5.2, 6.2)
 seattle_shot("c6-5psi", "p39", "p40", 3, 17, 20)
 seattle_shot("c6-burns", "p40", "p41", 4, 22, 26)
 seattle_shot("c6-1psi", "p41", "p42", 5, 38, 50)
-shots[-4]["labels"] = CITY_LABELS[:4]; shots[-3]["labels"] = CITY_LABELS[:5]; shots[-2]["labels"] = CITY_LABELS[:6]
 add(id="c6-fallout", type="region", start=S("p42"), end=S("p43"), tag="SIMULATION", clock="T+25:30", clockLabel="SINCE FIRST LAUNCH", caption="Airburst: little local fallout. The dust rises high; the weather decides where it falls.",
-    source=SRC, view={"center": [-122.4, 47.6], "widthKm": 160}, zoomTo={"center": [-122.2, 47.6], "widthKm": 230}, highlight=[HL_US],
-    cities=[{"at": SEATTLE, "label": "Seattle", "color": RED, "kind": "target", "size": 6}, {"at": [-122.44, 47.25], "label": "Tacoma", "kind": "dot"}, {"at": [-122.2, 47.61], "label": "Bellevue", "kind": "dot"}],
-    rings=[{"at": SEATTLE, "km": FX["psi1_km"], "color": TEAL, "t": 0.5}])
+    source=SRC, view={"center": [-122.4, 47.45], "widthKm": 160}, zoomTo={"center": [-122.2, 47.4], "widthKm": 230}, highlight=[HL_US],
+    cities=[{"at": SEATTLE, "color": RED, "kind": "target", "size": 6}, {"at": [-122.44, 47.25], "label": "Tacoma", "kind": "dot"}, {"at": [-122.2, 47.61], "label": "Bellevue", "kind": "dot"}],
+    rings=[{"at": SEATTLE, "km": FX["psi1_km"], "color": TEAL, "t": 0.5}], labels=[{"at": [-122.33, 47.78], "text": "Seattle · 1 psi ring", "color": WHITE}])
 
 
-def burst_region(sid, start, end, key, center, w, label, minute, extra=None):
+def burst_region(sid, start, end, key, center, w, label, minute, extra=None, name=None):
     e = STR[key]["effects"]
     rings = [{"at": center, "km": e["fireball_km"], "color": WHITE, "t": 0.9, "dashed": False}, {"at": center, "km": e["psi5_km"], "color": RED, "t": 1.4, "label": "5 psi"},
              {"at": center, "km": e["thermal3_km"], "color": AMBER, "t": 1.9, "label": "Burns"}, {"at": center, "km": e["psi1_km"], "color": TEAL, "t": 2.4, "label": "1 psi"}]
     d = dict(id=sid, type="region", start=start, end=end, tag="SIMULATION", clock=clock(minute), clockLabel="SINCE FIRST LAUNCH", source=SRC, caption=label,
              view={"center": center, "widthKm": w}, zoomTo={"center": center, "widthKm": w * 1.1}, highlight=[HL_US],
-             cities=[{"at": center, "color": RED, "kind": "target", "size": 5}] + (extra or []), rings=rings,
+             cities=[{"at": center, "color": RED, "kind": "target", "size": 5}] + (extra or []), labels=[{"at": off(center, w * 0.0026, w * 0.0016), "text": name, "color": WHITE}], rings=rings,
              burst={"at": center, "t": 0.9, "km": e["fireball_km"], "fade": 5})
     add(**d)
 
 
 burst_region("c6-bangor", S("p43"), W("p43", "Four"), "hs18-bangor", BANGOR, 30, "Bangor, ground burst: heavy local fallout", STR["hs18-bangor"]["impact_min"],
-             [{"at": SEATTLE, "label": "Seattle", "kind": "dot"}, {"at": [-122.62, 47.57], "label": "Bremerton", "kind": "dot"}])
+             [{"at": [-122.62, 47.57], "label": "Bremerton", "kind": "dot"}], name="Bangor")
 burst_region("c6-sf", W("p43", "Four"), W("p43", "Then"), "hs17-sf", SF, 36, "San Francisco, airburst, 100 kt", STR["hs17-sf"]["impact_min"],
-             [{"at": [-122.27, 37.8], "label": "Oakland", "kind": "dot"}])
+             [{"at": [-122.27, 37.8], "label": "Oakland", "kind": "dot"}], name="San Francisco")
 burst_region("c6-vafb", W("p43", "Then"), S("p44"), "hs17-vafb", VAFB, 30, "Vandenberg: the last warhead, 32 minutes after the first launch", STR["hs17-vafb"]["impact_min"],
-             [{"at": [-120.43, 34.64], "label": "Lompoc", "kind": "dot"}])
+             [{"at": [-120.43, 34.64], "label": "Lompoc", "kind": "dot"}], name="Vandenberg SFB")
 add(id="c6-total", type="bars", start=S("p44"), end=S("p46"), tag="SIMULATION", title="Four warheads, 550 kilotons in all", sub="no casualty figure: no published study supports one",
     source="Scenario engine", bars=[{"label": "Seattle · air", "value": 250, "display": "250 kt", "color": RED}, {"label": "Bangor · ground", "value": 100, "display": "100 kt", "color": ORANGE},
                                    {"label": "San Francisco · air", "value": 100, "display": "100 kt", "color": ORANGE}, {"label": "Vandenberg · ground", "value": 100, "display": "100 kt", "color": ORANGE}])
@@ -326,7 +333,8 @@ add(id="c7-17", type="number", start=S("p48"), end=W("p48", "After"), tag="REAL 
 add(id="c7-1012", type="stamp", start=W("p48", "After"), end=S("p49"), tag="REAL DATA", text="12 October 2026", line="US Indo-Pacific Command: no immediate threat", color=TEAL)
 add(id="c7-third", type="region", start=S("p49"), end=S("p50"), tag="REAL DATA", caption="Congress: a third interceptor site on the East Coast by 2031", source="Arms Control Association; Defense News",
     view={"center": [-98, 42], "widthKm": 5400}, highlight=[HL_US], cities=[{"at": VAFB, "label": "Vandenberg · 4", "color": TEAL, "kind": "base", "size": 6, "t": 0.5}],
-    labels=[{"at": [-74.5, 40.0], "text": "third site: East Coast, by 2031", "color": AMBER, "t": 2.5}], rings=[{"at": [-77.0, 39.5], "km": 250, "color": AMBER, "t": 3, "dashed": True}])
+    labels=[{"at": [-88.5, 35.5], "text": "Third site, by 2031", "color": AMBER, "t": 2.5}], lines=[{"from": [-87.0, 36.2], "to": [-78.5, 39.0], "color": AMBER, "dashed": True, "t0": 2.5, "t1": 4}],
+    rings=[{"at": [-77.5, 39.5], "km": 250, "color": AMBER, "t": 3, "dashed": True}])
 
 # ================================================================== Chapter 08 when it stayed unused [REAL HISTORY]
 add(id="c8-card", type="chapter", start=S("p50"), end=S("p50") + 3.5, tag="REAL HISTORY", kicker="CHAPTER 08", title="When it stayed unused")
