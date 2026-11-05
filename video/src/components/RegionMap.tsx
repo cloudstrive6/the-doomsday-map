@@ -6,7 +6,7 @@ import {geoAzimuthalEquidistant, geoCircle, geoGraticule10, geoInterpolate, geoP
 import {feature, mesh} from 'topojson-client';
 import world50 from 'world-atlas/countries-50m.json';
 import usStates from 'us-atlas/states-10m.json';
-import type {LonLat, RegionShot, RegionView} from '../scene';
+import type {Ship, LonLat, RegionShot, RegionView} from '../scene';
 import {C, MONO, clamp01, ease, easeOut, lerp} from '../theme';
 import {getBase} from './baseCache';
 
@@ -100,6 +100,36 @@ export function plumePolygon(at: LonLat, bearing: number, lengthKm: number, widt
   return {type: 'Polygon', coordinates: [pts]} as const;
 }
 
+const SHIP_COLOR: Record<string, string> = {pla: C.red, coastguard: C.orange, us: C.teal, ally: '#7FB2FF', cargo: 'rgba(236,239,242,0.75)', tanker: C.amber};
+
+// Position and heading of a ship at time t along its path (piecewise linear in screen space, even speed).
+function shipAt(sh: Ship, t: number, pt: (ll: LonLat) => [number, number] | null): {p: [number, number]; ang: number; trail: [number, number][]} | null {
+  const pts = sh.path.map(pt).filter(Boolean) as [number, number][];
+  if (!pts.length) return null;
+  if (pts.length === 1) return {p: pts[0], ang: 0, trail: []};
+  const segs = pts.slice(1).map((q, i) => Math.hypot(q[0] - pts[i][0], q[1] - pts[i][1]));
+  const total = segs.reduce((a, b) => a + b, 0) || 1;
+  const t0 = sh.t0 ?? 0, t1 = sh.t1 ?? t0 + 1;
+  const k = clamp01((t - t0) / Math.max(0.01, t1 - t0));
+  const at = (d: number): [number, number, number] => {
+    let acc = 0;
+    for (let i = 0; i < segs.length; i++) {
+      if (acc + segs[i] >= d || i === segs.length - 1) {
+        const f = segs[i] ? clamp01((d - acc) / segs[i]) : 0;
+        const a = pts[i], b = pts[i + 1];
+        return [a[0] + (b[0] - a[0]) * f, a[1] + (b[1] - a[1]) * f, Math.atan2(b[1] - a[1], b[0] - a[0])];
+      }
+      acc += segs[i];
+    }
+    return [pts[0][0], pts[0][1], 0];
+  };
+  const d = k * total;
+  const [x, y, ang] = at(d);
+  const trail: [number, number][] = [];
+  if (k > 0 && k < 1) for (let j = 1; j <= 6; j++) { const q = at(Math.max(0, d - j * 9)); trail.push([q[0], q[1]]); }
+  return {p: [x, y], ang, trail};
+}
+
 const Label: React.FC<{x: number; y: number; text: string; color?: string; a?: number; size?: number; dx?: number; dy?: number}> = ({x, y, text, color, a = 1, size = 18, dx = 12, dy = -10}) => (
   <div style={{position: 'absolute', left: x + dx, top: y + dy, fontFamily: MONO, fontSize: size, letterSpacing: 1.5, color: color ?? C.text, opacity: a, whiteSpace: 'nowrap',
     textShadow: '0 0 6px rgba(0,0,0,0.95), 0 0 2px rgba(0,0,0,1)', textTransform: 'uppercase'}}>{text}</div>
@@ -139,6 +169,16 @@ export const RegionMap: React.FC<{shot: RegionShot; t: number}> = ({shot, t}) =>
           <filter id="soft"><feGaussianBlur stdDeviation="6" /></filter>
           <filter id="glow"><feGaussianBlur stdDeviation="2.5" result="b" /><feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge></filter>
         </defs>
+        {(shot.zones ?? []).map((z, i) => {
+          if (z.t !== undefined && t < z.t) return null;
+          const k = z.t === undefined ? 1 : easeOut(clamp01((t - z.t) / 0.6));
+          const ps = z.points.map(pt).filter(Boolean) as [number, number][];
+          if (ps.length < 3) return null;
+          const d = 'M' + ps.map((q) => `${q[0].toFixed(1)},${q[1].toFixed(1)}`).join('L') + 'Z';
+          const col = z.color ?? C.red;
+          const pulse = z.pulse ? 0.75 + 0.25 * Math.sin(t * 3) : 1;
+          return <path key={`z${i}`} d={d} fill={col} fillOpacity={0.16 * k * pulse} stroke={col} strokeOpacity={0.9 * k} strokeWidth={1.8} strokeDasharray="7 5" />;
+        })}
         {(shot.rings ?? []).map((r, i) => {
           const k = r.t === undefined ? 1 : easeOut(clamp01((t - r.t) / 0.9));
           if (k <= 0) return null;
@@ -157,6 +197,25 @@ export const RegionMap: React.FC<{shot: RegionShot; t: number}> = ({shot, t}) =>
           const poly = plumePolygon(shot.plume.at, shot.plume.bearing, shot.plume.lengthKm, shot.plume.widthKm, k);
           return <path d={path(poly as any) ?? ''} fill={shot.plume.color ?? C.amber} fillOpacity={0.32} filter="url(#soft)" />;
         })() : null}
+        {(shot.ships ?? []).map((sh, i) => {
+          if (sh.t !== undefined && t < sh.t) return null;
+          const st = shipAt(sh, t, pt);
+          if (!st) return null;
+          const col = sh.color ?? SHIP_COLOR[sh.kind ?? 'cargo'];
+          const sz = sh.size ?? (sh.kind === 'cargo' || sh.kind === 'tanker' ? 9 : 11);
+          const appear = sh.t === undefined ? 1 : clamp01((t - sh.t) / 0.4);
+          const sunk = sh.sunkAt !== undefined && t >= sh.sunkAt ? clamp01((t - sh.sunkAt) / 1.2) : 0;
+          const [x, y] = st.p;
+          const c = Math.cos(st.ang), s2 = Math.sin(st.ang);
+          const P = (fx: number, fy: number) => `${(x + fx * c - fy * s2).toFixed(1)},${(y + fx * s2 + fy * c).toFixed(1)}`;
+          return (
+            <g key={`s${i}`} opacity={appear * (1 - sunk)}>
+              {sh.wake !== false && st.trail.length ? <polyline points={[st.p, ...st.trail].map((q) => q.join(',')).join(' ')} fill="none" stroke={col} strokeOpacity={0.35} strokeWidth={1.4} /> : null}
+              <polygon points={`${P(sz * 1.3, 0)} ${P(-sz * 0.9, sz * 0.75)} ${P(-sz * 0.45, 0)} ${P(-sz * 0.9, -sz * 0.75)}`} fill={col} filter="url(#glow)" />
+              {sunk > 0 ? <circle cx={x} cy={y} r={6 + 26 * sunk} fill="none" stroke={C.amber} strokeOpacity={1 - sunk} strokeWidth={2} /> : null}
+            </g>
+          );
+        })}
         {(shot.cities ?? []).map((m, i) => {
           const p = pt(m.at);
           if (!p || (m.t !== undefined && t < m.t)) return null;
@@ -180,6 +239,18 @@ export const RegionMap: React.FC<{shot: RegionShot; t: number}> = ({shot, t}) =>
         const edge = pt(destination(r.at, 40 + i * 26, r.km));
         const small = r.km * pxPerKm < 60;
         return edge ? <Label key={`r${i}`} x={edge[0]} y={edge[1]} text={r.label} color={r.color ?? C.red} size={15} dy={small ? -10 - (3 - i) * 20 : -10} /> : null;
+      })}
+      {(shot.zones ?? []).map((z, i) => {
+        if (!z.label || (z.t !== undefined && t < z.t + 0.3)) return null;
+        const ps = z.points.map(pt).filter(Boolean) as [number, number][];
+        if (!ps.length) return null;
+        const cx = ps.reduce((a, q) => a + q[0], 0) / ps.length, cy = ps.reduce((a, q) => a + q[1], 0) / ps.length;
+        return <Label key={`zl${i}`} x={cx} y={cy} text={z.label} color={z.color ?? C.red} size={14} dx={-z.label.length * 4.1} dy={-8} />;
+      })}
+      {(shot.ships ?? []).map((sh, i) => {
+        if (!sh.label || (sh.t !== undefined && t < sh.t) || (sh.sunkAt !== undefined && t > sh.sunkAt + 0.6)) return null;
+        const st = shipAt(sh, t, pt);
+        return st ? <Label key={`sl${i}`} x={st.p[0]} y={st.p[1]} text={sh.label} color={sh.color ?? SHIP_COLOR[sh.kind ?? 'cargo']} size={14} dy={6} /> : null;
       })}
       {(shot.labels ?? []).map((l, i) => {
         const p = pt(l.at);

@@ -46,6 +46,19 @@ export interface RegionShot extends ShotBase {
   labels?: { at: LonLat; text: string; color?: string; t?: number }[];
   scaleBar?: boolean;
   countryLabels?: { iso: string; text: string; color?: string }[];
+  zones?: Zone[];            // declared areas (closure zones, exclusion zones), drawn as shaded polygons
+  ships?: Ship[];            // vessels moving along a path, drawn as chevrons pointing along their heading
+}
+
+export interface Zone { points: LonLat[]; label?: string; color?: string; t?: number; pulse?: boolean }
+export type ShipKind = 'pla' | 'coastguard' | 'us' | 'ally' | 'cargo' | 'tanker';
+export interface Ship {
+  path: LonLat[];            // positions over [t0, t1] (shot-local seconds); the ship holds at the last point
+  t0?: number; t1?: number;
+  kind?: ShipKind; color?: string; label?: string; size?: number;
+  t?: number;                // appears at t (default 0)
+  sunkAt?: number;           // flash and fade out at this time
+  wake?: boolean;            // short fading trail behind it (default true)
 }
 
 export interface CityShot extends ShotBase {
