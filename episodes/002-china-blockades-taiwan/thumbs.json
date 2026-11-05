@@ -434,72 +434,12 @@
  },
  {
   "id": "b",
-  "variant": "globe",
+  "variant": "image",
   "line1": "DAY 23",
   "line2": "ONE NUCLEAR SHOT",
   "tag": "CHINA BLOCKADES TAIWAN",
-  "camera": {
-   "t": 0,
-   "lat": 24.5,
-   "lon": 118.5,
-   "scale": 2400
-  },
-  "globe": {
-   "sun": {
-    "lat": -20,
-    "lon": -60
-   },
-   "highlight": [
-    {
-     "iso": "158",
-     "color": "#FFD23F"
-    },
-    {
-     "iso": "156",
-     "color": "#FF3B3B"
-    }
-   ],
-   "markers": [
-    {
-     "at": [
-      114.5,
-      25.0
-     ],
-     "color": "#FF3B3B",
-     "kind": "base",
-     "size": 7
-    }
-   ]
-  },
-  "arcs": [
-   {
-    "from": [
-     114.5,
-     25.0
-    ],
-    "to": [
-     128.0,
-     23.8
-    ],
-    "t0": 0,
-    "t1": 110,
-    "color": "#FF7A1A",
-    "loft": 0.14,
-    "width": 4
-   }
-  ],
-  "flashes": [
-   {
-    "at": [
-     114.5,
-     25.0
-    ],
-    "t": 29.5,
-    "hold": 3,
-    "radius": 40,
-    "color": "#FFB347"
-   }
-  ]
+  "align": "left",
+  "image": "thumbs/002-b.png"
  },
  {
   "id": "c",
