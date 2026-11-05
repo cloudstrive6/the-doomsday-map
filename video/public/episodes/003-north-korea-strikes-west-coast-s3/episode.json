@@ -1,0 +1,388 @@
+{
+ "subtitles": [
+  {
+   "start": 0.002,
+   "end": 0.99,
+   "text": "In our story,"
+  },
+  {
+   "start": 0.99,
+   "end": 1.93,
+   "text": "two more missiles are"
+  },
+  {
+   "start": 1.93,
+   "end": 3.22,
+   "text": "launched as well."
+  },
+  {
+   "start": 3.85,
+   "end": 5.647,
+   "text": "Interceptors destroy both."
+  },
+  {
+   "start": 5.647,
+   "end": 7.367,
+   "text": "That is a choice we made,"
+  },
+  {
+   "start": 7.367,
+   "end": 8.43,
+   "text": "not a forecast of how"
+  },
+  {
+   "start": 8.43,
+   "end": 10.24,
+   "text": "the real system would perform."
+  },
+  {
+   "start": 10.97,
+   "end": 12.155,
+   "text": "Minutes later,"
+  },
+  {
+   "start": 12.155,
+   "end": 14.46,
+   "text": "the warheads separate from their rockets."
+  },
+  {
+   "start": 14.823,
+   "end": 16.78,
+   "text": "They are small and fast,"
+  },
+  {
+   "start": 16.937,
+   "end": 19.2,
+   "text": "falling through space toward the coast."
+  },
+  {
+   "start": 19.804,
+   "end": 21.1,
+   "text": "In the middle of the flight,"
+  },
+  {
+   "start": 21.317,
+   "end": 23.24,
+   "text": "the interceptor window opens."
+  },
+  {
+   "start": 23.813,
+   "end": 26.367,
+   "text": "The defence has minutes, not hours,"
+  },
+  {
+   "start": 26.367,
+   "end": 28.0,
+   "text": "to find the real warheads,"
+  },
+  {
+   "start": 28.238,
+   "end": 29.05,
+   "text": "and to shoot more"
+  },
+  {
+   "start": 29.05,
+   "end": 30.46,
+   "text": "than once at each."
+  },
+  {
+   "start": 31.017,
+   "end": 32.01,
+   "text": "In our story,"
+  },
+  {
+   "start": 32.01,
+   "end": 34.04,
+   "text": "it does not stop these four."
+  }
+ ],
+ "slug": "003-north-korea-strikes-west-coast-s3",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 34.49,
+ "shots": [
+  {
+   "id": "c5-intercepts",
+   "type": "globe",
+   "start": 0.0,
+   "end": 10.514,
+   "tag": "SIMULATION",
+   "clock": "T+05:55",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "caption": "Two more missiles launched, both destroyed. Our choice, not a forecast.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 48,
+     "lon": -178,
+     "scale": 640
+    },
+    {
+     "t": 15,
+     "lat": 50,
+     "lon": -165,
+     "scale": 760
+    }
+   ],
+   "sun": {
+    "lat": 9.1,
+    "lon": 28.85
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      -122.3321,
+      47.6062
+     ],
+     "t0": -29.22,
+     "t1": 55.08,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      125.2,
+      39.8
+     ],
+     "to": [
+      -122.7134,
+      47.7305
+     ],
+     "t0": -20.7,
+     "t1": 55.08,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      -122.4194,
+      37.7749
+     ],
+     "t0": -9.29,
+     "t1": 55.08,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      125.2,
+      39.8
+     ],
+     "to": [
+      -120.572,
+      34.742
+     ],
+     "t0": -4.29,
+     "t1": 55.08,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      -175,
+      55
+     ],
+     "t0": -2,
+     "t1": 6.0,
+     "color": "#F2B01E",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      125.2,
+      39.8
+     ],
+     "to": [
+      -160,
+      50.5
+     ],
+     "t0": -1,
+     "t1": 8.5,
+     "color": "#F2B01E",
+     "loft": 0.2
+    }
+   ],
+   "flashes": [
+    {
+     "at": [
+      -175,
+      55
+     ],
+     "t": 6.0,
+     "radius": 5,
+     "hold": 2,
+     "color": "#3ED6C8"
+    },
+    {
+     "at": [
+      -160,
+      50.5
+     ],
+     "t": 8.5,
+     "radius": 5,
+     "hold": 2,
+     "color": "#3ED6C8"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -145.73,
+      63.95
+     ],
+     "label": "Fort Greely",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "t": 0.3
+    }
+   ]
+  },
+  {
+   "id": "c5-mid",
+   "type": "globe",
+   "start": 10.514,
+   "end": 34.49,
+   "tag": "SIMULATION",
+   "clock": "T+10:07",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "caption": "Warheads separate and fall through space. The interceptor window opens.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 52,
+     "lon": -170,
+     "scale": 760
+    },
+    {
+     "t": 12,
+     "lat": 54,
+     "lon": -155,
+     "scale": 1000
+    },
+    {
+     "t": 23,
+     "lat": 50,
+     "lon": -140,
+     "scale": 1200
+    }
+   ],
+   "sun": {
+    "lat": 9.1,
+    "lon": 28.85
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -145.73,
+      63.95
+     ],
+     "label": "Fort Greely · 40",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -120.572,
+      34.742
+     ],
+     "label": "Vandenberg · 4",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "t": 12
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      -122.3321,
+      47.6062
+     ],
+     "t0": -39.73,
+     "t1": 44.57,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      125.2,
+      39.8
+     ],
+     "to": [
+      -122.7134,
+      47.7305
+     ],
+     "t0": -31.21,
+     "t1": 44.57,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      -122.4194,
+      37.7749
+     ],
+     "t0": -19.8,
+     "t1": 44.57,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      125.2,
+      39.8
+     ],
+     "to": [
+      -120.572,
+      34.742
+     ],
+     "t0": -14.8,
+     "t1": 44.57,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    }
+   ],
+   "source": "Interceptor window: simulation assumption"
+  }
+ ],
+ "shortTitle": [
+  "4 WARHEADS",
+  "GET THROUGH"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

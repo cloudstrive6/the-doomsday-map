@@ -1,7 +1,7 @@
 [
  {
   "id": "s1",
-  "start": 230.3,
+  "start": 230.33,
   "end": 287.0,
   "title": [
    "44 INTERCEPTORS",
@@ -12,8 +12,8 @@
  },
  {
   "id": "s2",
-  "start": 493.3,
-  "end": 544.0,
+  "start": 485.19,
+  "end": 535.9000000000001,
   "title": [
    "250 KILOTONS",
    "OVER SEATTLE"
@@ -23,11 +23,11 @@
  },
  {
   "id": "s3",
-  "start": 433.1,
-  "end": 473.0,
+  "start": 430.51,
+  "end": 465.0,
   "title": [
-   "THE INTERCEPTOR",
-   "WINDOW"
+   "4 WARHEADS",
+   "GET THROUGH"
   ],
   "yt_title": "Simulation: Can the US Stop 4 North Korean Warheads in Space? #shorts",
   "hook": "A simulation: warheads separate, the interceptor window opens, and the defence has minutes, not hours."

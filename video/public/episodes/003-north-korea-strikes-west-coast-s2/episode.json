@@ -1,0 +1,880 @@
+{
+ "subtitles": [
+  {
+   "start": 0.271,
+   "end": 1.31,
+   "text": "It detonates in the"
+  },
+  {
+   "start": 1.31,
+   "end": 3.35,
+   "text": "air above downtown Seattle."
+  },
+  {
+   "start": 3.35,
+   "end": 5.64,
+   "text": "Two hundred and fifty kilotons."
+  },
+  {
+   "start": 7.023,
+   "end": 8.617,
+   "text": "The fireball is five hundred"
+  },
+  {
+   "start": 8.617,
+   "end": 10.38,
+   "text": "and fifty metres in radius."
+  },
+  {
+   "start": 10.843,
+   "end": 12.92,
+   "text": "Everything inside it is vapour."
+  },
+  {
+   "start": 14.125,
+   "end": 15.199,
+   "text": "Out to eight hundred"
+  },
+  {
+   "start": 15.199,
+   "end": 16.52,
+   "text": "and seventy metres,"
+  },
+  {
+   "start": 16.728,
+   "end": 18.37,
+   "text": "the blast adds twenty pounds"
+  },
+  {
+   "start": 18.37,
+   "end": 20.14,
+   "text": "per square inch of pressure."
+  },
+  {
+   "start": 20.421,
+   "end": 22.6,
+   "text": "Even strong buildings are destroyed."
+  },
+  {
+   "start": 23.649,
+   "end": 26.21,
+   "text": "Out to four point three kilometres,"
+  },
+  {
+   "start": 26.21,
+   "end": 28.36,
+   "text": "five pounds per square inch."
+  },
+  {
+   "start": 28.795,
+   "end": 30.24,
+   "text": "Most houses collapse."
+  },
+  {
+   "start": 30.68,
+   "end": 31.93,
+   "text": "That ring covers about"
+  },
+  {
+   "start": 31.93,
+   "end": 34.02,
+   "text": "fifty-seven square kilometres."
+  },
+  {
+   "start": 34.918,
+   "end": 36.25,
+   "text": "Out to six kilometres,"
+  },
+  {
+   "start": 36.25,
+   "end": 38.73,
+   "text": "the flash itself causes third-degree"
+  },
+  {
+   "start": 38.73,
+   "end": 40.62,
+   "text": "burns on bare skin."
+  },
+  {
+   "start": 41.706,
+   "end": 42.69,
+   "text": "And out to eleven"
+  },
+  {
+   "start": 42.69,
+   "end": 43.73,
+   "text": "and a half kilometres,"
+  },
+  {
+   "start": 43.73,
+   "end": 46.04,
+   "text": "one pound per square inch."
+  },
+  {
+   "start": 46.45,
+   "end": 48.02,
+   "text": "Windows shatter,"
+  },
+  {
+   "start": 48.308,
+   "end": 50.18,
+   "text": "and the glass becomes a weapon."
+  }
+ ],
+ "slug": "003-north-korea-strikes-west-coast-s2",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 50.71,
+ "shots": [
+  {
+   "id": "c6-flash",
+   "type": "city",
+   "start": 0.0,
+   "end": 6.314,
+   "tag": "SIMULATION",
+   "clock": "T+25:30",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "seattle",
+   "view": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 4.0
+   },
+   "zoomTo": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 3.36
+   },
+   "gz": [
+    -122.3321,
+    47.6062
+   ],
+   "rings": [
+    {
+     "km": 0.555,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.48
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -122.3302,
+      47.6038
+     ],
+     "text": "Downtown Seattle",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -122.3493,
+      47.6205
+     ],
+     "text": "Space Needle",
+     "color": "rgba(236,239,242,0.95)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 555 m",
+     "color": "#FFFFFF"
+    }
+   ],
+   "flashT": 0.38
+  },
+  {
+   "id": "c6-fireball",
+   "type": "city",
+   "start": 6.314,
+   "end": 13.634,
+   "tag": "SIMULATION",
+   "clock": "T+25:30",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "seattle",
+   "view": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 3.36
+   },
+   "zoomTo": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 3.84
+   },
+   "gz": [
+    -122.3321,
+    47.6062
+   ],
+   "rings": [
+    {
+     "km": 0.555,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -122.3302,
+      47.6038
+     ],
+     "text": "Downtown Seattle",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -122.38621,
+      47.67651
+     ],
+     "text": "Ballard",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "First Hill",
+     "t": 999
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "Madrona",
+     "t": 999
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "Leschi",
+     "t": 999
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "Belltown",
+     "t": 999
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "Laurelhurst",
+     "t": 999
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 555 m",
+     "color": "#FFFFFF"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c6-20psi",
+   "type": "city",
+   "start": 13.634,
+   "end": 23.139,
+   "tag": "SIMULATION",
+   "clock": "T+25:30",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "seattle",
+   "view": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 4.16
+   },
+   "zoomTo": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 4.96
+   },
+   "gz": [
+    -122.3321,
+    47.6062
+   ],
+   "rings": [
+    {
+     "km": 0.555,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 0.868,
+     "label": "20 psi",
+     "color": "#FF7A1A",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -122.3302,
+      47.6038
+     ],
+     "text": "Downtown Seattle",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -122.38621,
+      47.67651
+     ],
+     "text": "Ballard",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.2,
+      47.614
+     ],
+     "text": "Bellevue",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "First Hill",
+     "t": 999
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "Madrona",
+     "t": 999
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "Leschi",
+     "t": 999
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "Belltown",
+     "t": 999
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "Laurelhurst",
+     "t": 999
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 555 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 868 m",
+     "color": "#FF7A1A"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c6-5psi",
+   "type": "city",
+   "start": 23.139,
+   "end": 34.659,
+   "tag": "SIMULATION",
+   "clock": "T+25:30",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "seattle",
+   "view": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 13.6
+   },
+   "zoomTo": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 16.0
+   },
+   "gz": [
+    -122.3321,
+    47.6062
+   ],
+   "rings": [
+    {
+     "km": 0.555,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 0.868,
+     "label": "20 psi",
+     "color": "#FF7A1A",
+     "t": -30
+    },
+    {
+     "km": 4.266,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -122.3302,
+      47.6038
+     ],
+     "text": "Downtown Seattle",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -122.38621,
+      47.67651
+     ],
+     "text": "Ballard",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.2,
+      47.614
+     ],
+     "text": "Bellevue",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.3,
+      47.5
+     ],
+     "text": "Boeing Field",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "First Hill",
+     "t": 999
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "Madrona",
+     "t": 999
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "Leschi",
+     "t": 999
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "Belltown",
+     "t": 999
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "Laurelhurst",
+     "t": 999
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 555 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 868 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 4.3 km",
+     "color": "#FF3B3B"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c6-burns",
+   "type": "city",
+   "start": 34.659,
+   "end": 41.195,
+   "tag": "SIMULATION",
+   "clock": "T+25:30",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "seattle",
+   "view": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 17.6
+   },
+   "zoomTo": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 20.8
+   },
+   "gz": [
+    -122.3321,
+    47.6062
+   ],
+   "rings": [
+    {
+     "km": 0.555,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 0.868,
+     "label": "20 psi",
+     "color": "#FF7A1A",
+     "t": -30
+    },
+    {
+     "km": 4.266,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": -30
+    },
+    {
+     "km": 6.053,
+     "label": "Third-degree burns",
+     "color": "#F2B01E",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -122.3302,
+      47.6038
+     ],
+     "text": "Downtown Seattle",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -122.38621,
+      47.67651
+     ],
+     "text": "Ballard",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.2,
+      47.614
+     ],
+     "text": "Bellevue",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.3,
+      47.5
+     ],
+     "text": "Boeing Field",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.62,
+      47.57
+     ],
+     "text": "Bremerton",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "First Hill",
+     "t": 999
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "Madrona",
+     "t": 999
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "Leschi",
+     "t": 999
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "Belltown",
+     "t": 999
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "Laurelhurst",
+     "t": 999
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 555 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 868 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 4.3 km",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "Burns 6.1 km",
+     "color": "#F2B01E"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c6-1psi",
+   "type": "city",
+   "start": 41.195,
+   "end": 50.71,
+   "tag": "SIMULATION",
+   "clock": "T+25:30",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "seattle",
+   "view": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 30.4
+   },
+   "zoomTo": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 40.0
+   },
+   "gz": [
+    -122.3321,
+    47.6062
+   ],
+   "rings": [
+    {
+     "km": 0.555,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 0.868,
+     "label": "20 psi",
+     "color": "#FF7A1A",
+     "t": -30
+    },
+    {
+     "km": 4.266,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": -30
+    },
+    {
+     "km": 6.053,
+     "label": "Third-degree burns",
+     "color": "#F2B01E",
+     "t": -30
+    },
+    {
+     "km": 11.546,
+     "label": "1 psi",
+     "color": "#3ED6C8",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -122.3302,
+      47.6038
+     ],
+     "text": "Downtown Seattle",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -122.38621,
+      47.67651
+     ],
+     "text": "Ballard",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.2,
+      47.614
+     ],
+     "text": "Bellevue",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.3,
+      47.5
+     ],
+     "text": "Boeing Field",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.62,
+      47.57
+     ],
+     "text": "Bremerton",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "First Hill",
+     "t": 999
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "Madrona",
+     "t": 999
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "Leschi",
+     "t": 999
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "Belltown",
+     "t": 999
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "text": "Laurelhurst",
+     "t": 999
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 555 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 868 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 4.3 km",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "Burns 6.1 km",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "1 psi 11.5 km",
+     "color": "#3ED6C8"
+    }
+   ],
+   "flashT": -30
+  }
+ ],
+ "shortTitle": [
+  "250 KILOTONS",
+  "OVER SEATTLE"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}
