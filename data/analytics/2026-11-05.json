@@ -1,0 +1,39 @@
+{
+ "date": "2026-11-05",
+ "channel": {
+  "viewCount": "0",
+  "subscriberCount": "0",
+  "hiddenSubscriberCount": false,
+  "videoCount": "1"
+ },
+ "videos": [],
+ "errors": [],
+ "traffic_sources": {
+  "columns": [
+   "insightTrafficSourceType",
+   "views",
+   "estimatedMinutesWatched"
+  ],
+  "rows": []
+ },
+ "countries": {
+  "columns": [
+   "country",
+   "views"
+  ],
+  "rows": []
+ },
+ "revenue": {
+  "columns": [
+   "estimatedRevenue",
+   "playbackBasedCpm",
+   "monetizedPlaybacks"
+  ],
+  "rows": []
+ },
+ "reach": {
+  "job": "22cbe519-176f-4a0c-9484-ef5f01850ea5",
+  "days": 0,
+  "videos": {}
+ }
+}
