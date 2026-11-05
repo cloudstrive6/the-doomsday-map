@@ -1,0 +1,11 @@
+{
+  "ok": false,
+  "issues": [
+    "s2_silent: frozen 5.6s at 22.9s"
+  ],
+  "loudness": {
+    "I": -13.9,
+    "TP": -1.6
+  },
+  "at": "2026-11-05T11:26:17+00:00"
+}

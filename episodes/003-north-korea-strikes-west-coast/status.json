@@ -74,7 +74,12 @@
       "stage": "packaged",
       "note": "gates passed: fact PASS r4, visual PASS",
       "at": "2026-11-05T10:52:19+00:00"
+    },
+    {
+      "stage": "rendered",
+      "note": "https://github.com/cloudstrive6/the-doomsday-map/actions/runs/42004798832",
+      "at": "2026-11-05T11:26:25+00:00"
     }
   ],
-  "stage": "packaged"
+  "stage": "rendered"
 }
