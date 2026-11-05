@@ -61,18 +61,58 @@ Compiled 2026-11-05 (NZDT). Every claim the script uses is listed with its sourc
 | B9 | 2022-11-18: first clearly successful Hwasong-17 test; 2023-12-18: solid-fuel Hwasong-18 test judged probably operational (38 North). | https://missilethreat.csis.org/missile/hwasong-17/ ; https://missilethreat.csis.org/missile/hwasong-18/ |
 | B10 | 2024-10-31: Hwasong-19 test, about 86 minutes, the longest North Korean flight; the last ICBM flight to date. 2025-10-10: Hwasong-20 shown at parade, not yet flown. | https://missilethreat.csis.org/missile/hwasong-19/ ; https://www.nbcnews.com/world/north-korea/north-korea-long-range-missile-military-parade-rcna237012 |
 
-## C. Simulation assumptions
+## C. Simulation assumptions (SIMULATION tag, stated as assumptions in the script)
 
-To be written by the scenario designer.
+Scenario file: scenario.json; engine output: scenario.computed.json (run 2026-11-05). All numbers below are copied from the engine. The scenario is a scenario: it is not a forecast, it has not happened, and no real crisis is implied (D11).
 
-Suggestions only (not facts, label SIMULATION on screen):
-- S1. One Hwasong-class ICBM, single warhead, on a standard (not lofted) trajectory; flight about 30 to 35 minutes to the Pacific Northwest (A17, A18). Let the engine compute the exact figure.
-- S2. Yield: pick a stated, defensible figure and label it an assumption. Options grounded in A4 and A7: a fission device of tens of kilotons, or a 100 to 250 kt thermonuclear case as a stress case. Do not claim North Korea has a proven ICBM-deliverable warhead (A5).
-- S3. Target city: Seattle is the nearest big West Coast city (about 8,300 km); San Francisco and Los Angeles are farther. Choose by the thumbnail number (flight time).
-- S4. Missile defence: GMD launches a salvo of interceptors (A23); success is a simulation parameter, not a prediction, and should draw on the 50 to 60 percent scripted-test record (A21) with the decoy caveat (A24). Consider one run where the defence fails and state that it is a choice.
-- S5. Detection: space-based early warning flags the launch within a minute or two; time of alert to the public is a simulation assumption (B7 shows a real alert system failing).
-- S6. No death toll unless the scenario engine or a published study supplies it; do not use the National Interest NUKEMAP figures (see D).
-- S7. Date: fictional and unspecified; avoid 2026-11-18 and 2026-11-19.
+**Date and time.** Fictional, unnamed year in the script ("a night in April, in an unnamed year"). The file carries t0 = 2027-04-14 10:05 UTC only so the engine can place the sun: it is 03:05 Pacific Daylight Time on the West Coast (dark, most people asleep) and 19:05 in Pyongyang. It is not near 2026-11-18 or 2026-11-19 (APEC Shenzhen), 2027-01-01, or any election day. The script never says the date.
+
+**Escalation logic (why this strike, tied to A and B rows).**
+- S1. The cause is deliberately left out of the story beyond one sentence: a crisis on the Korean peninsula has gone wrong and Kim Jong Un, the "sole release authority" (A28), orders a limited strike on the US mainland. The script must not name a trigger or blame any real event, and must not imply a live crisis (D11).
+- S2. Size: four ICBMs, four warheads, one per missile. This sits inside the DIA count of "10 or fewer" ICBMs (A8) and keeps a single warhead per missile because SIPRI says there is no deployed MIRV capability (A5, A10 caveat, D10). Total yield 0.55 megatons (engine). The simulated force is a salvo, not North Korea's whole arsenal of about 60 warheads (A1).
+- S3. Targets: a limited coercive strike on the nearest large West Coast population centre (Seattle), the submarine base that would be a US retaliation asset (Bangor), the city of San Francisco, and the missile defence site itself (Vandenberg, 4 of the 44 GMD interceptors, A20). Choice of targets is the simulation's, not a claim about North Korean targeting.
+- S4. Yield: 250 kt for the hero (top of the 2017 test range of roughly 50 to 250 kt, A7, B5) and 100 kt for the other three (inside the range, most estimates 100 to 250). This is a stress case. The script must say North Korea has not shown an operational ICBM warhead (A5), that the yield is our assumption, and that estimates of the 2017 test differ (A7, D5). A smaller fission device of tens of kilotons would give much smaller rings; say so.
+- S5. Missiles are Hwasong-18 class (solid fuel, little warning at the pad, A13) and Hwasong-17 (A12). The Hwasong-20 is not used because it has not been flown (A15, D10). Standard, not lofted, trajectory (A19, D2).
+
+**Launch sites.** All labelled "(location simulated)": Sunan, Pyongyang area (39.2 N, 125.67 E) and a North Pyongan site (39.8 N, 125.2 E), the region where Wright's flight times start (A18). Real North Korean launches have come from the Pyongyang area (A14). Say "launched from near Pyongyang", not a named base.
+
+**Strike groups and timing (engine, minutes after minute zero).**
+
+| Strike | Weapon | Launch | Flight | Impact | Yield, burst |
+|---|---|---|---|---|---|
+| Seattle (hero) | Hwasong-18 class | 0 | 25.5 min | 25.5 | 250 kt air |
+| Naval Base Kitsap-Bangor | Hwasong-18 class | 1 | 25.3 min | 26.3 | 100 kt ground |
+| San Francisco | Hwasong-17 | 3 | 27.4 min | 30.4 | 100 kt air |
+| Vandenberg SFB | Hwasong-17 | 4 | 28.3 min | 32.3 | 100 kt ground |
+
+Flight time note: the engine gives 25.5 to 28.3 minutes (8,260 to 9,330 km), consistent with Schilling's "Seattle in under 30 minutes" (A18) but shorter than the "roughly 30 to 40 minutes" range quoted for the whole West Coast (Wright: Los Angeles 38 min). The script and thumbnail say "about twenty-six minutes to Seattle" and "twenty-five to thirty-two minutes across the four"; never "30 minutes" for Seattle. This is a modelled figure that ignores Earth rotation and real warhead mass (A18 caveat). Thumbnail number: 26 (from 25.5).
+
+**Defence and detection (all simulation choices, S6).**
+- S6. In the story a fifth and sixth missile are also launched and are intercepted. Those are not in scenario.json, so engine totals count only the four that land. The script must present this as a choice: the defence fires salvos of more than one interceptor per target (A22, A23), the scripted-test record is roughly half to 60 percent (12 of 21, A21), tests used no realistic decoys (A24), so no real-world performance is proven. Do not give a percentage of "kill probability" as our result.
+- S7. Detection: space-based early warning flags the launch within about a minute or two (assumption). Time to a public alert is an assumption, with B7 (Hawaii 2018, 38 minutes uncorrected, SINGLE-SOURCE until verified) as the real caution. The interceptor window is the midcourse phase, the middle of the roughly 26 minutes; do not give exact seconds.
+- S8. Golden Dome and NGI are not fielded (A25, A27, D7); the simulated defence is the 44-interceptor GMD of 2026 (A20).
+
+**Hero target: Seattle, one 250 kt airburst (engine numbers).**
+- Aim point: downtown Seattle (47.6062 N, 122.3321 W). City map file video/public/city/seattle.json fetched (30 km wide).
+- Fireball radius 0.555 km. 20 psi radius 0.868 km. 5 psi radius 4.266 km (area 57.2 square km). Third-degree burns radius 6.053 km. 1 psi radius 11.546 km (windows break and cause injuries). Fallout: little local fallout for an airburst; the script may say the dust stays high and widespread fallout depends on weather, without giving a plume figure.
+- Ring chapter order: fireball, 20 psi, 5 psi, burns, 1 psi. Use only these numbers; hand-written distances or "people killed" are not allowed.
+- Seattle's geography (Elliott Bay, Lake Union, hills, Boeing Field south) may be named only as map features on the city shot, not as casualty claims.
+
+**Secondary strikes (engine).**
+- Bangor, 100 kt ground: fireball 0.481 km, 20 psi 0.512 km, 5 psi 2.514 km, burns 4.158 km, 1 psi 6.806 km, heavy local fallout (ground burst).
+- San Francisco, 100 kt air: fireball 0.384 km, 20 psi 0.64 km, 5 psi 3.143 km, burns 4.158 km, 1 psi 8.507 km, little local fallout.
+- Vandenberg, 100 kt ground: same rings as Bangor, heavy local fallout.
+- Overall: four warheads, 0.55 Mt total, first impact 25.5 min, last 32.3 min.
+
+**Sun.** The engine sun point is lat 9.1, lon 28.85 at t0 (the Atlantic and Africa side), so both the Pacific launch and the West Coast are in darkness or deep twilight on the globe shots. Use the engine value for nuclear night shots.
+
+**What the script must not claim.**
+- No death or injury toll, for any city. The only published casualty study in the research (A30) is about the Korean region and must not be applied here. No NUKEMAP-based totals (D9).
+- No claim that North Korea can do this today: ICBM warhead operational status is unproven (A5, D4), the Hwasong-17 and -18 have flown only lofted shots (A19), and re-entry survival at full range is untested.
+- No claim that the defence would fail or would succeed. Both are labelled choices.
+- No claim about what the US would do next. The episode ends at the last impact and a short "what happens next is unknowable" beat; the follow-up is the next episode, "One 800-kiloton airburst over one US city, street by street" (end slate).
+- No named living person as a victim; Kim Jong Un may be named only as the release authority in a doctrine sentence (A28).
+- Do not call the 250 kt a fact about North Korean weapons; do not say "North Korea has MIRVs" (D10).
 
 ## D. Figures the script must NOT use
 
