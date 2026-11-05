@@ -37,7 +37,7 @@ def synthesize(text: str, voice: dict, cache_dir: Path) -> tuple[bytes, bool]:
     """Return (pcm16 mono 24 kHz, is_real_voice)."""
     from .config import load_dotenv
     load_dotenv()
-    key = os.environ.get("GOOGLE_TTS_API_KEY")
+    key = (os.environ.get("GOOGLE_TTS_API_KEY") or "").replace("\ufeff", "").strip()
     cache_dir.mkdir(parents=True, exist_ok=True)
     import re
     prons = [p for p in voice.get("pronunciations", []) if re.search(rf"\b{re.escape(p['phrase'])}\b", text)]

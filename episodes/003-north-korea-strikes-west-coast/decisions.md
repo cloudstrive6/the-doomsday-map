@@ -1,0 +1,1 @@
+- 2026-11-05: tts.py strips BOM/whitespace from GOOGLE_TTS_API_KEY (secret had a leading BOM, caused UnicodeEncodeError)

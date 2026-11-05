@@ -39,7 +39,12 @@
       "stage": "script_approved",
       "note": "Round 4 fact screen PASS: Ch 08 fix applied, engine numbers and research rows verified",
       "at": "2026-11-05T10:01:12+00:00"
+    },
+    {
+      "stage": "narrated",
+      "note": "1491 words, 12.0 min",
+      "at": "2026-11-05T10:07:49+00:00"
     }
   ],
-  "stage": "script_approved"
+  "stage": "narrated"
 }
