@@ -30,6 +30,15 @@
     "loudness": {
       "I": -14.0,
       "TP": -2.0
+    },
+    "social": {
+      "facebook": {
+        "id": "1128331392891330",
+        "url": "https://www.facebook.com/reel/1128331392891330"
+      },
+      "facebook_story": {
+        "id": "2365954957513966"
+      }
     }
   },
   {
