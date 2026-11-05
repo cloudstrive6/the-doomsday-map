@@ -40,9 +40,8 @@ def shot_list(ep: Path, spec: dict) -> dict:
         shots.append(s)
     shots[0]["start"] = 0.0          # a dropped chapter card leaves a gap at the top: the first shot covers it
     shots[-1]["end"] = round(b - a, 3)
-    from .package import cues
     subs = [{"start": round(x, 3), "end": round(y, 3), "text": txt}
-            for x, y, txt in cues(_window_timing(ep, spec), max_words=6)] if cfg.get("subtitles", True) else []
+            for x, y, txt in subtitle_cues(ep, spec)] if cfg.get("subtitles", True) else []
     return {"subtitles": subs, "slug": f"{ep.name}-{spec['id']}", "fps": src["fps"], "width": cfg["width"], "height": cfg["height"],
             "durationSeconds": round(b - a, 3), "shots": shots, "shortTitle": spec["title"],
             "attribution": src.get("attribution")}
@@ -83,9 +82,23 @@ def _window_timing(ep: Path, spec: dict) -> dict:
                       for u in t["units"] if u["start"] >= a - 0.05 and u["start"] < b]}
 
 
+def subtitle_cues(ep: Path, spec: dict, max_words: int = 6) -> list[tuple[float, float, str]]:
+    """Burned-in subtitle phrases on the Short's timeline, timed from aligned words when narration/words.json exists."""
+    from .package import cues, word_cues
+    win = _window_timing(ep, spec)
+    wpath = ep / "narration" / "words.json"
+    if not wpath.exists():
+        return cues(win, max_words)
+    ids = {u["id"] for u in win["units"]}
+    a, b = spec["start"], spec["end"]
+    words = [dict(w, start=max(0.0, w["start"] - a), end=min(w["end"], b) - a)
+             for w in json.loads(wpath.read_text(encoding="utf-8")) if w["unit"] in ids]
+    return [(x, min(y, b - a), t) for x, y, t in word_cues(win, words, max_words)]
+
+
 def captions_for(ep: Path, spec: dict) -> str:
-    from .package import captions
-    return captions(_window_timing(ep, spec))
+    from .package import srt
+    return srt(subtitle_cues(ep, spec, max_words=11))
 
 
 def publish(ep: Path, times: list[str]) -> list[dict]:

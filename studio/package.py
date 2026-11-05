@@ -70,14 +70,46 @@ def cues(timing: dict, max_words: int = 11) -> list[tuple[float, float, str]]:
     return out
 
 
-def captions(timing: dict, max_words: int = 11) -> str:
-    return "\n".join(f"{i}\n{_srt_ts(a)} --> {_srt_ts(b)}\n{txt}\n" for i, (a, b, txt) in enumerate(cues(timing, max_words), 1))
+def captions(timing: dict, max_words: int = 11, words: list[dict] | None = None) -> str:
+    cs = word_cues(timing, words, max_words) if words else cues(timing, max_words)
+    return srt(cs)
+
+
+def srt(cs: list[tuple[float, float, str]]) -> str:
+    return "\n".join(f"{i}\n{_srt_ts(a)} --> {_srt_ts(b)}\n{txt}\n" for i, (a, b, txt) in enumerate(cs, 1))
 
 
 def package(ep: Path, thumb: str = "a") -> None:
     timing = json.loads((ep / "narration" / "timing.json").read_text(encoding="utf-8"))
     build = ep / "build"
     (build / "chapters.txt").write_text(chapters(timing) + "\n", encoding="utf-8")
-    (build / "captions.srt").write_text(captions(timing), encoding="utf-8")
+    wpath = ep / "narration" / "words.json"
+    words = json.loads(wpath.read_text(encoding="utf-8")) if wpath.exists() else None
+    (build / "captions.srt").write_text(captions(timing, words=words), encoding="utf-8")
     shutil.copyfile(build / f"thumb_{thumb}.png", build / "thumbnail.png")
     print((build / "chapters.txt").read_text(encoding="utf-8"))
+
+
+def word_cues(timing: dict, words: list[dict], max_words: int = 11, hold: float = 0.35, bridge: float = 0.5) -> list[tuple[float, float, str]]:
+    """Phrases timed from the aligned words (narration/words.json): a phrase appears when its first word is spoken
+    and stays until the next phrase starts, or `hold` seconds after its last word when a pause follows."""
+    by_unit: dict[str, list[dict]] = {}
+    for w in words:
+        by_unit.setdefault(w["unit"], []).append(w)
+    raw = []
+    for u in timing["units"]:
+        ws = by_unit.get(u["id"], [])
+        i = 0
+        for ph in _phrases(u["text"], max_words):
+            n = len(ph.split())
+            chunk = ws[i:i + n]
+            i += n
+            if chunk:
+                raw.append([chunk[0]["start"], chunk[-1]["end"], ph])
+    for k in range(len(raw)):
+        nxt = raw[k + 1][0] if k + 1 < len(raw) else None
+        end = raw[k][1] + hold
+        if nxt is not None:
+            end = nxt if nxt - raw[k][1] < bridge else min(end, nxt)
+        raw[k][1] = end
+    return [(a, b, t) for a, b, t in raw]
