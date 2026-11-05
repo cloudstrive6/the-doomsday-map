@@ -273,7 +273,7 @@ export const RegionMap: React.FC<{shot: RegionShot; t: number}> = ({shot, t}) =>
         const p = pt(b.at);
         const white = Math.max(0, 1 - dt / 0.9);
         const rPx = Math.max(14, b.km * pxPerKm);
-        const glow = Math.max(0, 1 - dt / 7);
+        const glow = Math.max(0, 1 - dt / (b.fade ?? 7));
         return (
           <>
             {p ? (

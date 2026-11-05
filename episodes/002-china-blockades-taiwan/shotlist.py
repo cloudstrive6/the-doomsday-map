@@ -295,7 +295,8 @@ def ring_shot(sid, start, end, upto, new_t, width, clock_txt):
 
 
 ring_shot("c5-flash", S("p34"), S("p35"), 0, W("p34", "detonates") - S("p34") + 0.1, 7, "T+07:06")
-shots[-1]["burst"] = {"at": CG, "t": shots[-1]["rings"][0]["t"], "km": NUKE["fireball_km"]}
+shots[-1]["burst"] = {"at": CG, "t": shots[-1]["rings"][0]["t"], "km": NUKE["fireball_km"], "fade": 13}
+shots[-1]["zoomTo"] = {"center": CG, "widthKm": 15}   # pull back after the flash so the escorts come into view
 shots[-1]["clock"] = "T+07:00"
 ring_shot("c5-fireball", S("p35"), S("p36"), 0, -5, 6, "T+07:06")
 ring_shot("c5-5psi", S("p36"), S("p37"), 1, 0.4, 7.5, "T+07:07")

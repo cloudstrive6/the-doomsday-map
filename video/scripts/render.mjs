@@ -70,6 +70,12 @@ if (chunk) {
   frameRange = [bounds[i], Math.max(bounds[i], bounds[i + 1] - 1)];
   console.log(`chunk ${i}/${n}: frames ${frameRange[0]} to ${frameRange[1]} (${frameRange[1] - frameRange[0] + 1} frames, weighted)`);
 }
+const range = flag('range');   // --range <first>-<last> frames, e.g. to re-render one shot and splice it in
+if (range) {
+  const [a, b] = range.split('-').map(Number);
+  frameRange = [a, Math.min(b, composition.durationInFrames - 1)];
+  console.log(`range: frames ${frameRange[0]} to ${frameRange[1]}`);
+}
 const concurrency = flag('concurrency') ? Number(flag('concurrency')) : null;
 fs.mkdirSync(path.dirname(path.resolve(out)), {recursive: true});
 let lastPct = -1;

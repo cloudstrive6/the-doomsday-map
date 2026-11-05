@@ -48,7 +48,7 @@ export interface RegionShot extends ShotBase {
   countryLabels?: { iso: string; text: string; color?: string }[];
   zones?: Zone[];            // declared areas (closure zones, exclusion zones), drawn as shaded polygons
   ships?: Ship[];            // vessels moving along a path, drawn as chevrons pointing along their heading
-  burst?: { at: LonLat; t: number; km: number };  // nuclear detonation: full-frame white flash, then a glowing fireball of radius km
+  burst?: { at: LonLat; t: number; km: number; fade?: number };  // fade: seconds the fireball glow takes to die away (default 7)  // nuclear detonation: full-frame white flash, then a glowing fireball of radius km
 }
 
 export interface Zone { points: LonLat[]; label?: string; color?: string; t?: number; pulse?: boolean }
