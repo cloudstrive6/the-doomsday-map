@@ -3,7 +3,7 @@
 Ranked; the showrunner takes the first `backlog` idea unless the growth memo says otherwise. Status: backlog,
 in-production, done. In-lane only (config/channel.yaml). Each line: status | idea | why now | evidence.
 
-1. backlog | North Korea strikes the US West Coast, minute by minute | promised on episode 002's end slate; North Korea's ICBM tests and the US West Coast are a top search pairing | The Nuclear Clock "North Korea Launches a Nuclear Strike on The US" 56K in 3 days (2026-11-05)
+1. in-production | North Korea strikes the US West Coast, minute by minute | promised on episode 002's end slate; North Korea's ICBM tests and the US West Coast are a top search pairing | The Nuclear Clock "North Korea Launches a Nuclear Strike on The US" 56K in 3 days (2026-11-05)
 2. backlog | One 800-kiloton airburst over one US city, street by street | the "one warhead" chapter is the channel's signature; Kurzgesagt-scale evergreen demand | Kurzgesagt "What if We Nuke a City?" 29M; Visualiser 3D "LONDON / ONE NUKE" 878K
 3. backlog | Russia fires one warning shot in the Baltic (Plan A) | Princeton Plan A is the most-cited US-Russia escalation study; Kaliningrad tension in 2026 | The Nuclear Clock's top video 230K; Hindcast 1.7M on Russia-first
 4. backlog | Iran tests a bomb and Israel answers | live flashpoint, high search interest | The Nuclear Clock Fordow video 104K
