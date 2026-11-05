@@ -506,4 +506,6 @@ def unschedule(video_id: str) -> dict:
                                        "license": cur.get("license", "youtube"),
                                        "selfDeclaredMadeForKids": cur.get("selfDeclaredMadeForKids", False)}}
     api.videos().update(part="status", body=body).execute()
+    import time
+    time.sleep(5)  # an immediate read can still show the old schedule
     return api.videos().list(part="status", id=video_id).execute()["items"][0]["status"]
