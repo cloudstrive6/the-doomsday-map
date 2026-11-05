@@ -59,7 +59,12 @@
       "stage": "shotlisted",
       "note": "77 shots, 736 s, visual review round 1 fixes",
       "at": "2026-11-05T10:33:57+00:00"
+    },
+    {
+      "stage": "visual_approved",
+      "note": "Visual screener PASS: overlaps and edge labels fixed, 77 shots reviewed",
+      "at": "2026-11-05T10:37:13+00:00"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "visual_approved"
 }
