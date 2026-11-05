@@ -1,0 +1,399 @@
+{
+ "subtitles": [
+  {
+   "start": 0.469,
+   "end": 1.89,
+   "text": "Why the coast guard,"
+  },
+  {
+   "start": 2.143,
+   "end": 3.27,
+   "text": "and not the navy?"
+  },
+  {
+   "start": 3.857,
+   "end": 5.27,
+   "text": "Because of one word."
+  },
+  {
+   "start": 6.223,
+   "end": 7.97,
+   "text": "Under international law,"
+  },
+  {
+   "start": 8.281,
+   "end": 9.68,
+   "text": "a blockade of a country's"
+  },
+  {
+   "start": 9.68,
+   "end": 11.92,
+   "text": "ports by armed forces is"
+  },
+  {
+   "start": 11.92,
+   "end": 13.25,
+   "text": "an act of aggression."
+  },
+  {
+   "start": 13.68,
+   "end": 14.38,
+   "text": "It can mark the"
+  },
+  {
+   "start": 14.38,
+   "end": 15.65,
+   "text": "start of a war."
+  },
+  {
+   "start": 16.142,
+   "end": 17.13,
+   "text": "A quarantine,"
+  },
+  {
+   "start": 17.329,
+   "end": 18.46,
+   "text": "run by coast guards"
+  },
+  {
+   "start": 18.46,
+   "end": 20.01,
+   "text": "and customs officers,"
+  },
+  {
+   "start": 20.277,
+   "end": 21.75,
+   "text": "is, at least on paper,"
+  },
+  {
+   "start": 22.02,
+   "end": 23.07,
+   "text": "something less."
+  },
+  {
+   "start": 24.184,
+   "end": 26.04,
+   "text": "When America surrounded Cuba with"
+  },
+  {
+   "start": 26.04,
+   "end": 28.03,
+   "text": "warships in nineteen sixty-two,"
+  },
+  {
+   "start": 28.576,
+   "end": 30.57,
+   "text": "it chose the word quarantine"
+  },
+  {
+   "start": 30.895,
+   "end": 32.19,
+   "text": "for the same reason."
+  },
+  {
+   "start": 33.129,
+   "end": 34.62,
+   "text": "China has the largest coast"
+  },
+  {
+   "start": 34.62,
+   "end": 35.82,
+   "text": "guard in the world,"
+  },
+  {
+   "start": 35.82,
+   "end": 36.797,
+   "text": "with more than a hundred"
+  },
+  {
+   "start": 36.797,
+   "end": 38.75,
+   "text": "and fifty ocean-going ships."
+  },
+  {
+   "start": 39.083,
+   "end": 40.79,
+   "text": "Taiwan's has about ten."
+  }
+ ],
+ "slug": "002-china-blockades-taiwan-s3",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 41.52,
+ "shots": [
+  {
+   "id": "c3-law",
+   "type": "text",
+   "start": 0.0,
+   "end": 16.09,
+   "tag": "REAL DATA",
+   "lines": [
+    "Blockade: an act of aggression",
+    "UN General Assembly Resolution 3314 (1974), Article 3(c). It can mark the start of a war."
+   ]
+  },
+  {
+   "id": "c3-quarantine",
+   "type": "text",
+   "start": 16.09,
+   "end": 24.034,
+   "tag": "REAL DATA",
+   "lines": [
+    "Quarantine: law enforcement",
+    "coast guards and customs officers. At least on paper, something less than war."
+   ]
+  },
+  {
+   "id": "c3-cuba",
+   "type": "region",
+   "start": 24.034,
+   "end": 32.728,
+   "tag": "REAL HISTORY",
+   "clock": "1962",
+   "clockLabel": "OCTOBER",
+   "caption": "1962: America called its naval ring around Cuba a \"quarantine\"",
+   "source": "Lieber Institute, West Point; CSIS",
+   "view": {
+    "center": [
+     -78.5,
+     22.5
+    ],
+    "widthKm": 1600
+   },
+   "highlight": [
+    {
+     "iso": "192",
+     "color": "#FF3B3B"
+    },
+    {
+     "iso": "840",
+     "color": "#3ED6C8"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -74.0667,
+       22.6344
+      ],
+      [
+       -74.0667,
+       22.6344
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 0.3
+    },
+    {
+     "path": [
+      [
+       -75.11,
+       24.5808
+      ],
+      [
+       -75.11,
+       24.5808
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 0.55
+    },
+    {
+     "path": [
+      [
+       -77.0616,
+       25.782
+      ],
+      [
+       -77.0616,
+       25.782
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 0.8
+    },
+    {
+     "path": [
+      [
+       -79.3987,
+       25.9163
+      ],
+      [
+       -79.3987,
+       25.9163
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 1.05
+    },
+    {
+     "path": [
+      [
+       -81.4949,
+       24.9476
+      ],
+      [
+       -81.4949,
+       24.9476
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 1.3
+    },
+    {
+     "path": [
+      [
+       -82.7887,
+       23.1355
+      ],
+      [
+       -82.7887,
+       23.1355
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 1.55
+    },
+    {
+     "path": [
+      [
+       -82.9333,
+       20.9656
+      ],
+      [
+       -82.9333,
+       20.9656
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 1.8
+    },
+    {
+     "path": [
+      [
+       -81.89,
+       19.0192
+      ],
+      [
+       -81.89,
+       19.0192
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 2.05
+    },
+    {
+     "path": [
+      [
+       -79.9384,
+       17.818
+      ],
+      [
+       -79.9384,
+       17.818
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 2.3
+    },
+    {
+     "path": [
+      [
+       -77.6013,
+       17.6837
+      ],
+      [
+       -77.6013,
+       17.6837
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 2.55
+    },
+    {
+     "path": [
+      [
+       -75.5051,
+       18.6524
+      ],
+      [
+       -75.5051,
+       18.6524
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 2.8
+    },
+    {
+     "path": [
+      [
+       -74.2113,
+       20.4645
+      ],
+      [
+       -74.2113,
+       20.4645
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 3.05
+    }
+   ]
+  },
+  {
+   "id": "c3-ccg",
+   "type": "bars",
+   "start": 32.728,
+   "end": 41.52,
+   "tag": "REAL DATA",
+   "title": "Ocean-going coast guard ships",
+   "sub": "over 1,000 tonnes",
+   "source": "CSIS, How China Could Quarantine Taiwan, 2024-06-05",
+   "bars": [
+    {
+     "label": "China Coast Guard",
+     "value": 150,
+     "display": "more than 150",
+     "color": "#FF7A1A"
+    },
+    {
+     "label": "Taiwan Coast Guard",
+     "value": 10,
+     "display": "about 10",
+     "color": "#FFD23F"
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "NOT A BLOCKADE",
+  "A QUARANTINE"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

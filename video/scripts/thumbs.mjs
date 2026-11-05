@@ -17,8 +17,8 @@ const outDir = path.join(epDir, 'build');
 fs.mkdirSync(outDir, {recursive: true});
 const serveUrl = await bundle({entryPoint: path.resolve('src/index.ts'), publicDir: path.resolve('public'), onProgress: () => {}});
 for (const th of thumbs) {
-  const inputProps = {variant: th.variant, line1: th.line1, line2: th.line2, tag: th.tag,
-    globe: {arcs, flashes, ...(th.camera ? {camera: [th.camera]} : {})}};
+  const inputProps = {variant: th.variant, line1: th.line1, line2: th.line2, tag: th.tag, align: th.align, image: th.image, region: th.region,
+    globe: {arcs: th.arcs ?? arcs, flashes: th.flashes ?? flashes, ...(th.globe ?? {}), ...(th.camera ? {camera: [th.camera]} : {})}};
   const composition = await selectComposition({serveUrl, id: 'Thumbnail', inputProps, chromiumOptions: {gl: 'swangle'}});
   const out = path.join(outDir, `thumb_${th.id}.png`);
   await renderStill({composition, serveUrl, inputProps, frame: 0, output: out, imageFormat: 'png', chromiumOptions: {gl: 'swangle'}, timeoutInMilliseconds: 120000});

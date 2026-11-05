@@ -4,17 +4,21 @@
 // Rules (plan page section 10): number first, consequence second, at most five words over two lines,
 // a small red tag naming the actor, orange and white on dark blue, readable at 160 px wide.
 import React from 'react';
-import {AbsoluteFill} from 'remotion';
+import {AbsoluteFill, Img, staticFile} from 'remotion';
 import {Globe} from './components/Globe';
+import {RegionMap} from './components/RegionMap';
 import {C, COND} from './theme';
-import type {GlobeShot} from './scene';
+import type {GlobeShot, RegionShot} from './scene';
 
 export type ThumbProps = {
-  variant: 'globe' | 'card';
+  variant: 'globe' | 'card' | 'map' | 'image';
   line1: string;          // white, e.g. "27 MINUTES"
   line2: string;          // yellow, e.g. "TO OMAHA"
   tag?: string;           // red box, e.g. "RUSSIA STRIKES FIRST"
   globe?: Partial<GlobeShot>;
+  region?: Partial<RegionShot> & {t?: number};   // map variant: a region shot from the episode, drawn at time t
+  image?: string;                                 // image variant: background under public/, e.g. thumbs/002-b.png
+  align?: 'left' | 'right';
 };
 
 const Headline: React.FC<{p: ThumbProps; align: 'left' | 'right'; size: number}> = ({p, align, size}) => (
@@ -31,6 +35,31 @@ const Headline: React.FC<{p: ThumbProps; align: 'left' | 'right'; size: number}>
 );
 
 export const Thumbnail: React.FC<ThumbProps> = (p) => {
+  if (p.variant === 'map' && p.region) {
+    const {t = 30, ...shot} = p.region;
+    const right = (p.align ?? 'right') === 'right';
+    return (
+      <AbsoluteFill style={{background: '#05070A'}}>
+        <RegionMap shot={{id: 'thumb', type: 'region', start: 0, end: 60, scaleBar: false, ...shot} as RegionShot} t={t} />
+        <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(5,7,10,0.92) 0%, rgba(5,7,10,0.55) 38%, rgba(5,7,10,0) 58%)'}} />
+        <div style={{position: 'absolute', [right ? 'right' : 'left']: 50, top: 40}}>
+          <Headline p={p} align={right ? 'right' : 'left'} size={138} />
+        </div>
+      </AbsoluteFill>
+    );
+  }
+  if (p.variant === 'image' && p.image) {
+    const right = p.align === 'right';
+    return (
+      <AbsoluteFill style={{background: '#05070A'}}>
+        <Img src={staticFile(p.image)} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+        <AbsoluteFill style={{background: `linear-gradient(${right ? 250 : 110}deg, rgba(5,7,10,0.85) 0%, rgba(5,7,10,0.45) 32%, rgba(5,7,10,0) 52%)`}} />
+        <div style={{position: 'absolute', [right ? 'right' : 'left']: 50, top: 50}}>
+          <Headline p={p} align={right ? 'right' : 'left'} size={140} />
+        </div>
+      </AbsoluteFill>
+    );
+  }
   if (p.variant === 'card') {
     return (
       <AbsoluteFill style={{background: 'radial-gradient(ellipse at 70% 60%, #3A0D0D 0%, #14080A 45%, #07080B 100%)'}}>

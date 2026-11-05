@@ -1,0 +1,1118 @@
+{
+ "subtitles": [
+  {
+   "start": 0.098,
+   "end": 2.341,
+   "text": "Its target is not a city."
+  },
+  {
+   "start": 2.341,
+   "end": 4.163,
+   "text": "It is the American carrier"
+  },
+  {
+   "start": 4.163,
+   "end": 6.063,
+   "text": "group in the Philippine Sea,"
+  },
+  {
+   "start": 6.063,
+   "end": 7.284,
+   "text": "about six hundred and fifty"
+  },
+  {
+   "start": 7.284,
+   "end": 9.393,
+   "text": "kilometres east of Taiwan."
+  },
+  {
+   "start": 10.218,
+   "end": 11.933,
+   "text": "Seven minutes later,"
+  },
+  {
+   "start": 12.107,
+   "end": 13.923,
+   "text": "the warhead detonates a few"
+  },
+  {
+   "start": 13.923,
+   "end": 15.913,
+   "text": "hundred metres above the sea."
+  },
+  {
+   "start": 16.502,
+   "end": 17.873,
+   "text": "Ten kilotons:"
+  },
+  {
+   "start": 18.192,
+   "end": 19.383,
+   "text": "the top of the Pentagon's"
+  },
+  {
+   "start": 19.383,
+   "end": 21.893,
+   "text": "estimate for China's smallest warheads,"
+  },
+  {
+   "start": 22.182,
+   "end": 23.993,
+   "text": "and about half of Nagasaki."
+  },
+  {
+   "start": 25.084,
+   "end": 26.423,
+   "text": "The fireball is about"
+  },
+  {
+   "start": 26.423,
+   "end": 28.313,
+   "text": "three hundred metres across."
+  },
+  {
+   "start": 29.215,
+   "end": 29.963,
+   "text": "Within about one and"
+  },
+  {
+   "start": 29.963,
+   "end": 31.113,
+   "text": "a half kilometres,"
+  },
+  {
+   "start": 31.519,
+   "end": 32.683,
+   "text": "a blast like this would"
+  },
+  {
+   "start": 32.683,
+   "end": 35.113,
+   "text": "flatten most buildings on land."
+  },
+  {
+   "start": 35.567,
+   "end": 36.453,
+   "text": "At sea,"
+  },
+  {
+   "start": 36.629,
+   "end": 38.573,
+   "text": "that ring holds the carrier."
+  },
+  {
+   "start": 38.956,
+   "end": 41.093,
+   "text": "Within one point six kilometres,"
+  },
+  {
+   "start": 41.413,
+   "end": 42.923,
+   "text": "the flash alone burns"
+  },
+  {
+   "start": 42.923,
+   "end": 44.653,
+   "text": "anyone out on deck."
+  },
+  {
+   "start": 45.779,
+   "end": 47.543,
+   "text": "Out to about four kilometres,"
+  },
+  {
+   "start": 47.543,
+   "end": 49.673,
+   "text": "it would shatter windows on land."
+  },
+  {
+   "start": 50.112,
+   "end": 52.113,
+   "text": "The ships further out are shaken,"
+  },
+  {
+   "start": 52.358,
+   "end": 53.733,
+   "text": "and still afloat."
+  },
+  {
+   "start": 54.744,
+   "end": 55.523,
+   "text": "For the first time"
+  },
+  {
+   "start": 55.523,
+   "end": 57.216,
+   "text": "in eighty-one years,"
+  },
+  {
+   "start": 57.216,
+   "end": 58.283,
+   "text": "a nuclear weapon has"
+  },
+  {
+   "start": 58.283,
+   "end": 59.693,
+   "text": "been used in war."
+  }
+ ],
+ "slug": "002-china-blockades-taiwan-s2",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 60.343,
+ "shots": [
+  {
+   "id": "c5-target",
+   "type": "region",
+   "start": 0.0,
+   "end": 10.12,
+   "tag": "SIMULATION",
+   "clock": "T+03:00",
+   "clockLabel": "SINCE LAUNCH",
+   "source": "Scenario engine",
+   "view": {
+    "center": [
+     125.2,
+     24.4
+    ],
+    "widthKm": 1500
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F",
+     "fill": "rgba(255,210,63,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      121.6,
+      23.98
+     ],
+     "label": "Hualien",
+     "kind": "dot"
+    },
+    {
+     "at": [
+      123.0,
+      24.45
+     ],
+     "label": "Yonaguni",
+     "kind": "dot"
+    },
+    {
+     "at": [
+      127.768,
+      26.355
+     ],
+     "label": "Kadena",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 5
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       128.0,
+       23.8
+      ],
+      [
+       128.1,
+       23.85
+      ]
+     ],
+     "t0": 0,
+     "t1": 12,
+     "kind": "us",
+     "label": "US carrier group"
+    },
+    {
+     "path": [
+      [
+       128.25,
+       24.0
+      ],
+      [
+       128.35,
+       24.05
+      ]
+     ],
+     "t0": 0,
+     "t1": 12,
+     "kind": "us"
+    },
+    {
+     "path": [
+      [
+       127.75,
+       23.95
+      ],
+      [
+       127.85,
+       24.0
+      ]
+     ],
+     "t0": 0,
+     "t1": 12,
+     "kind": "us"
+    },
+    {
+     "path": [
+      [
+       128.2,
+       23.55
+      ],
+      [
+       128.3,
+       23.6
+      ]
+     ],
+     "t0": 0,
+     "t1": 12,
+     "kind": "us"
+    },
+    {
+     "path": [
+      [
+       127.8,
+       23.6
+      ],
+      [
+       127.9,
+       23.65
+      ]
+     ],
+     "t0": 0,
+     "t1": 12,
+     "kind": "us"
+    },
+    {
+     "path": [
+      [
+       128.4,
+       23.78
+      ],
+      [
+       128.5,
+       23.83
+      ]
+     ],
+     "t0": 0,
+     "t1": 12,
+     "kind": "us"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      121.6,
+      23.98
+     ],
+     "to": [
+      128.0,
+      23.8
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 2,
+     "t1": 4
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      124.8,
+      23.5
+     ],
+     "text": "about 650 km",
+     "color": "#F2B01E",
+     "t": 4
+    }
+   ]
+  },
+  {
+   "id": "c5-flash",
+   "type": "region",
+   "start": 10.12,
+   "end": 24.664,
+   "tag": "SIMULATION",
+   "clock": "T+07:00",
+   "clockLabel": "SINCE LAUNCH",
+   "source": "Scenario engine: Glasstone and Dolan scaling, NUKEMAP calibration",
+   "view": {
+    "center": [
+     128.0,
+     23.8
+    ],
+    "widthKm": 7
+   },
+   "zoomTo": {
+    "center": [
+     128.0,
+     23.8
+    ],
+    "widthKm": 7.840000000000001
+   },
+   "ships": [
+    {
+     "path": [
+      [
+       128.0,
+       23.8
+      ],
+      [
+       128.004,
+       23.802
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 16,
+     "label": "carrier"
+    },
+    {
+     "path": [
+      [
+       128.045,
+       23.83
+      ],
+      [
+       128.049,
+       23.832
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       127.95,
+       23.82
+      ],
+      [
+       127.954,
+       23.822
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       128.03,
+       23.755
+      ],
+      [
+       128.034,
+       23.757
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       127.965,
+       23.76
+      ],
+      [
+       127.969,
+       23.762
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       128.075,
+       23.8
+      ],
+      [
+       128.079,
+       23.802
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 0.153,
+     "label": "Fireball · about 300 m across",
+     "color": "#FFFFFF",
+     "t": 2.5730000000000133,
+     "dashed": false
+    }
+   ],
+   "scaleBar": true,
+   "burst": {
+    "at": [
+     128.0,
+     23.8
+    ],
+    "t": 2.5730000000000133,
+    "km": 0.153
+   }
+  },
+  {
+   "id": "c5-fireball",
+   "type": "region",
+   "start": 24.664,
+   "end": 29.185,
+   "tag": "SIMULATION",
+   "clock": "T+07:06",
+   "clockLabel": "SINCE LAUNCH",
+   "source": "Scenario engine: Glasstone and Dolan scaling, NUKEMAP calibration",
+   "view": {
+    "center": [
+     128.0,
+     23.8
+    ],
+    "widthKm": 6
+   },
+   "zoomTo": {
+    "center": [
+     128.0,
+     23.8
+    ],
+    "widthKm": 6.720000000000001
+   },
+   "ships": [
+    {
+     "path": [
+      [
+       128.0,
+       23.8
+      ],
+      [
+       128.004,
+       23.802
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 16,
+     "label": "carrier"
+    },
+    {
+     "path": [
+      [
+       128.045,
+       23.83
+      ],
+      [
+       128.049,
+       23.832
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       127.95,
+       23.82
+      ],
+      [
+       127.954,
+       23.822
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       128.03,
+       23.755
+      ],
+      [
+       128.034,
+       23.757
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       127.965,
+       23.76
+      ],
+      [
+       127.969,
+       23.762
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       128.075,
+       23.8
+      ],
+      [
+       128.079,
+       23.802
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 0.153,
+     "label": "Fireball · about 300 m across",
+     "color": "#FFFFFF",
+     "t": -5,
+     "dashed": false
+    }
+   ],
+   "scaleBar": true
+  },
+  {
+   "id": "c5-5psi",
+   "type": "region",
+   "start": 29.185,
+   "end": 38.913,
+   "tag": "SIMULATION",
+   "clock": "T+07:07",
+   "clockLabel": "SINCE LAUNCH",
+   "source": "Scenario engine: Glasstone and Dolan scaling, NUKEMAP calibration",
+   "view": {
+    "center": [
+     128.0,
+     23.8
+    ],
+    "widthKm": 7.5
+   },
+   "zoomTo": {
+    "center": [
+     128.0,
+     23.8
+    ],
+    "widthKm": 8.4
+   },
+   "ships": [
+    {
+     "path": [
+      [
+       128.0,
+       23.8
+      ],
+      [
+       128.004,
+       23.802
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 16,
+     "label": "carrier"
+    },
+    {
+     "path": [
+      [
+       128.045,
+       23.83
+      ],
+      [
+       128.049,
+       23.832
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       127.95,
+       23.82
+      ],
+      [
+       127.954,
+       23.822
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       128.03,
+       23.755
+      ],
+      [
+       128.034,
+       23.757
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       127.965,
+       23.76
+      ],
+      [
+       127.969,
+       23.762
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       128.075,
+       23.8
+      ],
+      [
+       128.079,
+       23.802
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 0.153,
+     "label": "Fireball · about 300 m across",
+     "color": "#FFFFFF",
+     "t": -5,
+     "dashed": false
+    },
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 1.459,
+     "label": "5 psi · on land, most buildings flattened",
+     "color": "#FF3B3B",
+     "t": 0.4,
+     "dashed": true
+    }
+   ],
+   "scaleBar": true
+  },
+  {
+   "id": "c5-burns",
+   "type": "region",
+   "start": 38.913,
+   "end": 45.113,
+   "tag": "SIMULATION",
+   "clock": "T+07:07",
+   "clockLabel": "SINCE LAUNCH",
+   "source": "Scenario engine: Glasstone and Dolan scaling, NUKEMAP calibration",
+   "view": {
+    "center": [
+     128.0,
+     23.8
+    ],
+    "widthKm": 8
+   },
+   "zoomTo": {
+    "center": [
+     128.0,
+     23.8
+    ],
+    "widthKm": 8.96
+   },
+   "ships": [
+    {
+     "path": [
+      [
+       128.0,
+       23.8
+      ],
+      [
+       128.004,
+       23.802
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 16,
+     "label": "carrier"
+    },
+    {
+     "path": [
+      [
+       128.045,
+       23.83
+      ],
+      [
+       128.049,
+       23.832
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       127.95,
+       23.82
+      ],
+      [
+       127.954,
+       23.822
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       128.03,
+       23.755
+      ],
+      [
+       128.034,
+       23.757
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       127.965,
+       23.76
+      ],
+      [
+       127.969,
+       23.762
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       128.075,
+       23.8
+      ],
+      [
+       128.079,
+       23.802
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 0.153,
+     "label": "Fireball · about 300 m across",
+     "color": "#FFFFFF",
+     "t": -5,
+     "dashed": false
+    },
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 1.459,
+     "label": "5 psi · on land, most buildings flattened",
+     "color": "#FF3B3B",
+     "t": -5,
+     "dashed": true
+    },
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 1.617,
+     "label": "Flash burns",
+     "color": "#FF7A1A",
+     "t": 0.4,
+     "dashed": true
+    }
+   ],
+   "scaleBar": true
+  },
+  {
+   "id": "c5-1psi",
+   "type": "region",
+   "start": 45.113,
+   "end": 54.562,
+   "tag": "SIMULATION",
+   "clock": "T+07:08",
+   "clockLabel": "SINCE LAUNCH",
+   "source": "Scenario engine: Glasstone and Dolan scaling, NUKEMAP calibration",
+   "view": {
+    "center": [
+     128.0,
+     23.8
+    ],
+    "widthKm": 13
+   },
+   "zoomTo": {
+    "center": [
+     128.0,
+     23.8
+    ],
+    "widthKm": 14.560000000000002
+   },
+   "ships": [
+    {
+     "path": [
+      [
+       128.0,
+       23.8
+      ],
+      [
+       128.004,
+       23.802
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 16,
+     "label": "carrier"
+    },
+    {
+     "path": [
+      [
+       128.045,
+       23.83
+      ],
+      [
+       128.049,
+       23.832
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       127.95,
+       23.82
+      ],
+      [
+       127.954,
+       23.822
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       128.03,
+       23.755
+      ],
+      [
+       128.034,
+       23.757
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       127.965,
+       23.76
+      ],
+      [
+       127.969,
+       23.762
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       128.075,
+       23.8
+      ],
+      [
+       128.079,
+       23.802
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 0.153,
+     "label": "Fireball · about 300 m across",
+     "color": "#FFFFFF",
+     "t": -5,
+     "dashed": false
+    },
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 1.459,
+     "label": "5 psi · on land, most buildings flattened",
+     "color": "#FF3B3B",
+     "t": -5,
+     "dashed": true
+    },
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 1.617,
+     "label": "Flash burns",
+     "color": "#FF7A1A",
+     "t": -5,
+     "dashed": true
+    },
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 3.949,
+     "label": "1 psi · on land, windows shatter",
+     "color": "#3ED6C8",
+     "t": 0.4,
+     "dashed": true
+    }
+   ],
+   "scaleBar": true
+  },
+  {
+   "id": "c5-81",
+   "type": "number",
+   "start": 54.562,
+   "end": 60.343,
+   "tag": "REAL HISTORY",
+   "value": "81 YEARS",
+   "label": "since a nuclear weapon was last used in war",
+   "sub": "Nagasaki · 9 August 1945 · about 21 kilotons",
+   "color": "#FF3B3B",
+   "source": "US DOE OSTI; National Museum of the US Air Force"
+  }
+ ],
+ "shortTitle": [
+  "ONE NUCLEAR SHOT",
+  "AT A US CARRIER"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

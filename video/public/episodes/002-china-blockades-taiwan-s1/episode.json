@@ -1,0 +1,282 @@
+{
+ "subtitles": [
+  {
+   "start": 0.37,
+   "end": 2.683,
+   "text": "Taiwan imports about ninety-seven"
+  },
+  {
+   "start": 2.683,
+   "end": 4.375,
+   "text": "percent of its energy,"
+  },
+  {
+   "start": 4.612,
+   "end": 5.525,
+   "text": "and almost all of"
+  },
+  {
+   "start": 5.525,
+   "end": 7.095,
+   "text": "it arrives by sea."
+  },
+  {
+   "start": 7.658,
+   "end": 9.505,
+   "text": "Nearly half of its electricity"
+  },
+  {
+   "start": 9.505,
+   "end": 11.615,
+   "text": "comes from natural gas,"
+  },
+  {
+   "start": 11.903,
+   "end": 13.425,
+   "text": "almost all of it shipped in"
+  },
+  {
+   "start": 13.425,
+   "end": 15.555,
+   "text": "as liquid through three terminals:"
+  },
+  {
+   "start": 15.803,
+   "end": 17.505,
+   "text": "one in Kaohsiung,"
+  },
+  {
+   "start": 17.505,
+   "end": 19.055,
+   "text": "one in Taichung,"
+  },
+  {
+   "start": 19.222,
+   "end": 20.815,
+   "text": "one near Taipei."
+  },
+  {
+   "start": 21.346,
+   "end": 23.345,
+   "text": "Its last nuclear reactor shut"
+  },
+  {
+   "start": 23.345,
+   "end": 25.135,
+   "text": "down in May twenty twenty-five."
+  },
+  {
+   "start": 26.124,
+   "end": 27.065,
+   "text": "By law,"
+  },
+  {
+   "start": 27.065,
+   "end": 28.865,
+   "text": "Taiwan keeps about eleven days"
+  },
+  {
+   "start": 28.865,
+   "end": 30.515,
+   "text": "of gas in storage."
+  },
+  {
+   "start": 30.848,
+   "end": 33.405,
+   "text": "Coal, about forty days. Oil,"
+  },
+  {
+   "start": 33.405,
+   "end": 34.995,
+   "text": "about four and a half months."
+  },
+  {
+   "start": 35.501,
+   "end": 35.505,
+   "text": "It grows only about thirty percent"
+  },
+  {
+   "start": 37.285,
+   "end": 35.505,
+   "text": "of the calories its people eat."
+  }
+ ],
+ "slug": "002-china-blockades-taiwan-s1",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 35.505,
+ "shots": [
+  {
+   "id": "c1-97",
+   "type": "number",
+   "start": 0.0,
+   "end": 7.657,
+   "tag": "REAL DATA",
+   "value": "97%",
+   "countTo": 97,
+   "suffix": "%",
+   "label": "of Taiwan's energy is imported",
+   "sub": "almost all of it by sea · energy self-sufficiency 4.2%",
+   "source": "CSIS, 2026-05-14; Energy Administration, MOEA"
+  },
+  {
+   "id": "c1-lng",
+   "type": "region",
+   "start": 7.657,
+   "end": 26.121,
+   "tag": "REAL DATA",
+   "caption": "Natural gas: 47.8% of Taiwan's electricity in 2025",
+   "source": "CSIS; Energy Administration, MOEA; Argus",
+   "view": {
+    "center": [
+     120.7,
+     23.8
+    ],
+    "widthKm": 1000
+   },
+   "zoomTo": {
+    "center": [
+     120.6,
+     23.8
+    ],
+    "widthKm": 900
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F",
+     "fill": "rgba(255,210,63,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      120.2,
+      22.82
+     ],
+     "label": "Yong-An LNG",
+     "color": "#F2B01E",
+     "kind": "base",
+     "size": 6,
+     "t": 1.0
+    },
+    {
+     "at": [
+      120.49,
+      24.25
+     ],
+     "label": "Taichung LNG",
+     "color": "#F2B01E",
+     "kind": "base",
+     "size": 6,
+     "t": 2.6
+    },
+    {
+     "at": [
+      121.05,
+      25.07
+     ],
+     "label": "Guantang LNG",
+     "color": "#F2B01E",
+     "kind": "base",
+     "size": 6,
+     "t": 4.2
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       118.9,
+       22.0
+      ],
+      [
+       120.12,
+       22.82
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 12,
+     "kind": "tanker"
+    },
+    {
+     "path": [
+      [
+       119.0,
+       24.0
+      ],
+      [
+       120.41,
+       24.25
+      ]
+     ],
+     "t0": 1.5,
+     "t1": 13,
+     "kind": "tanker"
+    },
+    {
+     "path": [
+      [
+       120.0,
+       26.0
+      ],
+      [
+       120.97,
+       25.07
+      ]
+     ],
+     "t0": 2.5,
+     "t1": 14,
+     "kind": "tanker"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      121.0,
+      21.8
+     ],
+     "text": "last reactor shut down · May 2025",
+     "color": "rgba(236,239,242,0.7)",
+     "t": 11
+    }
+   ]
+  },
+  {
+   "id": "c1-reserves",
+   "type": "bars",
+   "start": 26.121,
+   "end": 35.505,
+   "tag": "REAL DATA",
+   "title": "Days in storage",
+   "sub": "Taiwan, 2025 to 2026",
+   "source": "Energy Administration, MOEA; CSIS, 2026-05-14",
+   "bars": [
+    {
+     "label": "Liquefied natural gas",
+     "value": 11,
+     "display": "about 11 days",
+     "color": "#FF3B3B"
+    },
+    {
+     "label": "Coal",
+     "value": 40,
+     "display": "about 40 days",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "Crude oil",
+     "value": 140,
+     "display": "about 140 days",
+     "color": "#3ED6C8"
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "11 DAYS",
+  "OF GAS"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}
