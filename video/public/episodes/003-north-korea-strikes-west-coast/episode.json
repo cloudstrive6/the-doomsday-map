@@ -1,0 +1,3582 @@
+{
+ "slug": "003-north-korea-strikes-west-coast",
+ "fps": 60,
+ "width": 1920,
+ "height": 1080,
+ "durationSeconds": 736.01,
+ "musicPlan": [
+  {
+   "src": "bed.mp3",
+   "from": 0,
+   "to": 304.247,
+   "loop": [
+    2,
+    174
+   ],
+   "gain_db": -17
+  },
+  {
+   "src": "bed_tense.mp3",
+   "from": 302.247,
+   "to": 581.897,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  },
+  {
+   "src": "bed.mp3",
+   "from": 579.897,
+   "to": 736.01,
+   "loop": [
+    2,
+    174
+   ],
+   "gain_db": -17
+  }
+ ],
+ "sfxPlan": [
+  {
+   "src": "impact.mp3",
+   "t": 50.829,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 156.534,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 230.477,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 303.397,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 400.077,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 581.047,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 648.342,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 681.941,
+   "gain_db": -9
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 76.17599999999999,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 183.216,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 262.47200000000004,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 286.63300000000004,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 583.9970000000001,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 603.3290000000001,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 611.23,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 630.96,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 651.292,
+   "gain_db": -14
+  },
+  {
+   "src": "boom.mp3",
+   "t": 493.652,
+   "gain_db": -4
+  },
+  {
+   "src": "boom.mp3",
+   "t": 553.798,
+   "gain_db": -4
+  },
+  {
+   "src": "boom.mp3",
+   "t": 559.365,
+   "gain_db": -4
+  },
+  {
+   "src": "boom.mp3",
+   "t": 563.451,
+   "gain_db": -4
+  },
+  {
+   "src": "boom.mp3",
+   "t": 439.144,
+   "gain_db": -14
+  },
+  {
+   "src": "boom.mp3",
+   "t": 441.644,
+   "gain_db": -14
+  }
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated.",
+ "shots": [
+  {
+   "id": "open-seattle",
+   "type": "city",
+   "start": 0,
+   "end": 7.79,
+   "tag": "SIMULATION",
+   "clock": "03:05",
+   "clockLabel": "PACIFIC TIME · SEATTLE",
+   "city": "seattle",
+   "view": {
+    "center": [
+     -122.34,
+     47.62
+    ],
+    "widthKm": 24
+   },
+   "zoomTo": {
+    "center": [
+     -122.34,
+     47.615
+    ],
+    "widthKm": 14
+   },
+   "gz": [
+    -122.3321,
+    47.6062
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -122.3302,
+      47.6038
+     ],
+     "text": "Downtown Seattle",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 1
+    },
+    {
+     "at": [
+      -122.3493,
+      47.6205
+     ],
+     "text": "Space Needle",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 2
+    }
+   ]
+  },
+  {
+   "id": "open-alaska",
+   "type": "region",
+   "start": 7.79,
+   "end": 13.648,
+   "tag": "SIMULATION",
+   "clock": "02:05",
+   "clockLabel": "ALASKA TIME · FORT GREELY",
+   "view": {
+    "center": [
+     -148.0,
+     63.5
+    ],
+    "widthKm": 2600
+   },
+   "zoomTo": {
+    "center": [
+     -146.0,
+     63.8
+    ],
+    "widthKm": 1400
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -145.73,
+      63.95
+     ],
+     "label": "Fort Greely",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 6,
+     "t": 0.5
+    },
+    {
+     "at": [
+      -147.72,
+      64.84
+     ],
+     "label": "Fairbanks",
+     "kind": "dot",
+     "t": 1
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -142.5,
+      62.9
+     ],
+     "text": "several tracks on a screen",
+     "color": "#F2B01E",
+     "t": 3
+    }
+   ]
+  },
+  {
+   "id": "open-launch",
+   "type": "globe",
+   "start": 13.648,
+   "end": 22.817,
+   "tag": "SIMULATION",
+   "clock": "T+00:00",
+   "clockLabel": "FIRST LAUNCH",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 42,
+     "lon": 150,
+     "scale": 1500
+    },
+    {
+     "t": 8,
+     "lat": 46,
+     "lon": 180,
+     "scale": 640
+    }
+   ],
+   "sun": {
+    "lat": 9.1,
+    "lon": 28.85
+   },
+   "highlight": [
+    {
+     "iso": "408",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.10)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      125.67,
+      39.2
+     ],
+     "label": "Pyongyang area",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 0.5
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "label": "Seattle",
+     "color": "#3ED6C8",
+     "kind": "dot",
+     "t": 3
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      -122.3321,
+      47.6062
+     ],
+     "t0": 1.5,
+     "t1": 8.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    }
+   ],
+   "caption": "About twenty-six minutes, launch to impact"
+  },
+  {
+   "id": "open-disclaimer",
+   "type": "text",
+   "start": 22.817,
+   "end": 33.09,
+   "tag": "SIMULATION",
+   "lines": [
+    "A simulation",
+    "It has not happened. No crisis on the map is real and no date is attached to it."
+   ]
+  },
+  {
+   "id": "open-title",
+   "type": "globe",
+   "start": 33.09,
+   "end": 50.679,
+   "tag": "SIMULATION",
+   "caption": "North Korea strikes the US West Coast. Minute by minute.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 44,
+     "lon": 165,
+     "scale": 560
+    },
+    {
+     "t": 12,
+     "lat": 46,
+     "lon": -170,
+     "scale": 600
+    }
+   ],
+   "sun": {
+    "lat": 9.1,
+    "lon": 28.85
+   },
+   "highlight": [
+    {
+     "iso": "408",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.10)"
+    },
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      -122.3321,
+      47.6062
+     ],
+     "t0": 1,
+     "t1": 11,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      125.2,
+      39.8
+     ],
+     "to": [
+      -122.4194,
+      37.7749
+     ],
+     "t0": 2.2,
+     "t1": 12.2,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    }
+   ]
+  },
+  {
+   "id": "c1-card",
+   "type": "chapter",
+   "start": 50.679,
+   "end": 54.179,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 01",
+   "title": "What North Korea has"
+  },
+  {
+   "id": "c1-60",
+   "type": "number",
+   "start": 54.179,
+   "end": 62.255,
+   "tag": "REAL DATA",
+   "value": "ABOUT 60",
+   "countTo": 60,
+   "prefix": "ABOUT ",
+   "label": "nuclear warheads assembled",
+   "sub": "SIPRI Yearbook 2026 · a year earlier: about 50",
+   "color": "#FF3B3B",
+   "source": "SIPRI Yearbook 2026; NK News; Korea JoongAng Daily"
+  },
+  {
+   "id": "c1-counts",
+   "type": "bars",
+   "start": 62.255,
+   "end": 76.576,
+   "tag": "REAL DATA",
+   "title": "Estimates of North Korea's warheads",
+   "sub": "counts disagree · none is a number the government has confirmed",
+   "source": "SIPRI Yearbook 2026; CRS; South Korean defence minister, 2026-08-20",
+   "bars": [
+    {
+     "label": "Common estimate",
+     "value": 50,
+     "display": "about 50",
+     "color": "#3ED6C8"
+    },
+    {
+     "label": "SIPRI, assembled",
+     "value": 60,
+     "display": "about 60",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "SIPRI, with material for more",
+     "value": 90,
+     "display": "about 90",
+     "color": "#FF7A1A"
+    },
+    {
+     "label": "South Korean institute view",
+     "value": 120,
+     "display": "up to 120",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "c1-fission",
+   "type": "stamp",
+   "start": 76.576,
+   "end": 86.696,
+   "tag": "REAL DATA",
+   "text": "Mostly fission",
+   "line": "single-stage fission devices · only a few may be thermonuclear · SIPRI 2026",
+   "color": "#F2B01E"
+  },
+  {
+   "id": "c1-tests",
+   "type": "region",
+   "start": 86.696,
+   "end": 101.072,
+   "tag": "REAL DATA",
+   "clock": "2017",
+   "clockLabel": "3 SEPTEMBER · LAST TEST",
+   "source": "CRS; CNBC; Norsar",
+   "view": {
+    "center": [
+     127.5,
+     40.0
+    ],
+    "widthKm": 1100
+   },
+   "zoomTo": {
+    "center": [
+     128.6,
+     40.8
+    ],
+    "widthKm": 700
+   },
+   "highlight": [
+    {
+     "iso": "408",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.10)"
+    },
+    {
+     "iso": "410",
+     "color": "#3ED6C8"
+    },
+    {
+     "iso": "156",
+     "color": "rgba(236,239,242,0.95)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      129.08,
+      41.28
+     ],
+     "label": "Punggye-ri · six tests",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 6,
+     "t": 0.5
+    },
+    {
+     "at": [
+      125.75,
+      39.02
+     ],
+     "label": "Pyongyang",
+     "kind": "dot",
+     "t": 1.5
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      129.08,
+      41.28
+     ],
+     "km": 18,
+     "color": "#FF3B3B",
+     "t": 2.0
+    },
+    {
+     "at": [
+      129.08,
+      41.28
+     ],
+     "km": 36,
+     "color": "#F2B01E",
+     "t": 3.0
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      125.4,
+      41.9
+     ],
+     "text": "yield: about 50 to 250 kt",
+     "color": "#F2B01E",
+     "t": 9
+    }
+   ]
+  },
+  {
+   "id": "c1-icbm",
+   "type": "number",
+   "start": 101.072,
+   "end": 112.033,
+   "tag": "REAL DATA",
+   "value": "10 OR FEWER",
+   "label": "intercontinental missiles, Defense Intelligence Agency, 2025",
+   "sub": "projected up to about 50 by 2035",
+   "color": "#F2B01E",
+   "source": "DIA via Congressional Research Service"
+  },
+  {
+   "id": "c1-models",
+   "type": "globe",
+   "start": 112.033,
+   "end": 139.609,
+   "tag": "REAL DATA",
+   "source": "CSIS Missile Threat; CRS; US Annual Threat Assessment 2026",
+   "caption": "Hwasong-17: liquid fuel, up to 15,000 km. Hwasong-18: solid fuel, less warning.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 46,
+     "lon": 170,
+     "scale": 680
+    },
+    {
+     "t": 18,
+     "lat": 46,
+     "lon": -175,
+     "scale": 760
+    },
+    {
+     "t": 26,
+     "lat": 42,
+     "lon": -150,
+     "scale": 900
+    }
+   ],
+   "sun": {
+    "lat": 10,
+    "lon": 120
+   },
+   "highlight": [
+    {
+     "iso": "408",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.10)"
+    },
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      125.67,
+      39.2
+     ],
+     "label": "Pyongyang area",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "label": "Seattle",
+     "color": "#3ED6C8",
+     "kind": "dot",
+     "t": 14
+    },
+    {
+     "at": [
+      -122.4194,
+      37.7749
+     ],
+     "label": "San Francisco",
+     "color": "#3ED6C8",
+     "kind": "dot",
+     "t": 15
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      -122.4194,
+      37.7749
+     ],
+     "t0": 2,
+     "t1": 12,
+     "color": "#F2B01E",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      125.2,
+      39.8
+     ],
+     "to": [
+      -122.3321,
+      47.6062
+     ],
+     "t0": 10,
+     "t1": 20,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      -118.24,
+      34.05
+     ],
+     "t0": 19,
+     "t1": 28,
+     "color": "#F2B01E",
+     "loft": 0.16
+    }
+   ]
+  },
+  {
+   "id": "c1-caveat",
+   "type": "text",
+   "start": 139.609,
+   "end": 150.463,
+   "tag": "REAL DATA",
+   "lines": [
+    "The caveat",
+    "No public evidence of an operational warhead for an intercontinental missile. SIPRI, 2026."
+   ]
+  },
+  {
+   "id": "c1-caveat2",
+   "type": "text",
+   "start": 150.463,
+   "end": 156.384,
+   "tag": "REAL DATA",
+   "lines": [
+    "Never flown full range",
+    "with a real warhead aboard"
+   ]
+  },
+  {
+   "id": "c2-card",
+   "type": "chapter",
+   "start": 156.384,
+   "end": 159.884,
+   "tag": "REAL HISTORY",
+   "kicker": "CHAPTER 02",
+   "title": "How long would it take"
+  },
+  {
+   "id": "c2-hs14",
+   "type": "globe",
+   "start": 159.884,
+   "end": 175.128,
+   "tag": "REAL HISTORY",
+   "clock": "2017",
+   "clockLabel": "JULY · HWASONG-14",
+   "source": "UCS; The War Zone; CSIS Missile Threat",
+   "caption": "24 days apart, two Hwasong-14 flights. The second lasted 47 minutes.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 44,
+     "lon": 165,
+     "scale": 600
+    },
+    {
+     "t": 14.7,
+     "lat": 42,
+     "lon": -170,
+     "scale": 680
+    }
+   ],
+   "sun": {
+    "lat": 20,
+    "lon": 120
+   },
+   "highlight": [
+    {
+     "iso": "408",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.10)"
+    },
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -118.24,
+      34.05
+     ],
+     "label": "Los Angeles",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 7
+    },
+    {
+     "at": [
+      -87.63,
+      41.88
+     ],
+     "label": "Chicago",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 8
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      125.2,
+      39.8
+     ],
+     "to": [
+      138.5,
+      41.0
+     ],
+     "t0": 1,
+     "t1": 4,
+     "color": "#F2B01E",
+     "loft": 0.5
+    },
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      -118.24,
+      34.05
+     ],
+     "t0": 6,
+     "t1": 12,
+     "color": "rgba(236,239,242,0.95)",
+     "loft": 0.16,
+     "width": 1.2
+    },
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      -87.63,
+      41.88
+     ],
+     "t0": 6.5,
+     "t1": 13,
+     "color": "rgba(236,239,242,0.95)",
+     "loft": 0.16,
+     "width": 1.2
+    }
+   ]
+  },
+  {
+   "id": "c2-flights",
+   "type": "bars",
+   "start": 175.128,
+   "end": 183.616,
+   "tag": "REAL HISTORY",
+   "title": "Flight time of North Korea's long-range tests",
+   "sub": "minutes in the air · every one lofted",
+   "source": "CSIS Missile Threat; UCS",
+   "bars": [
+    {
+     "label": "Hwasong-14 · July 2017",
+     "value": 47,
+     "display": "47 min",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "Hwasong-15 · November 2017",
+     "value": 53,
+     "display": "53 min",
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c2-hs19",
+   "type": "stamp",
+   "start": 183.616,
+   "end": 197.12,
+   "tag": "REAL HISTORY",
+   "text": "October 2024",
+   "line": "Hwasong-19 · 86 minutes · the last long-range North Korean flight to date",
+   "color": "#FF3B3B"
+  },
+  {
+   "id": "c2-lofted",
+   "type": "globe",
+   "start": 197.12,
+   "end": 207.409,
+   "tag": "REAL HISTORY",
+   "source": "CSIS Missile Threat; UCS",
+   "caption": "Lofted: fired steeply upward to land near North Korea",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 42,
+     "lon": 135,
+     "scale": 1300
+    },
+    {
+     "t": 9.7,
+     "lat": 42,
+     "lon": 140,
+     "scale": 1100
+    }
+   ],
+   "sun": {
+    "lat": 15,
+    "lon": 100
+   },
+   "highlight": [
+    {
+     "iso": "408",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.10)"
+    },
+    {
+     "iso": "392",
+     "color": "#3ED6C8"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      131.5,
+      40.0
+     ],
+     "label": "lands about 1,000 km away",
+     "color": "#F2B01E",
+     "kind": "ring",
+     "t": 6
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      125.2,
+      39.8
+     ],
+     "to": [
+      131.5,
+      40.0
+     ],
+     "t0": 0.5,
+     "t1": 6,
+     "color": "#F2B01E",
+     "loft": 1.0
+    }
+   ]
+  },
+  {
+   "id": "c2-ucs",
+   "type": "bars",
+   "start": 207.409,
+   "end": 220.877,
+   "tag": "REAL DATA",
+   "title": "Warning time on a real attack path",
+   "sub": "launch to impact, minutes · Union of Concerned Scientists estimates",
+   "source": "UCS (David Wright), 2017",
+   "bars": [
+    {
+     "label": "Los Angeles",
+     "value": 38,
+     "display": "about 38 min",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "San Francisco",
+     "value": 33.5,
+     "display": "about 33 to 34 min",
+     "color": "#FF7A1A"
+    }
+   ]
+  },
+  {
+   "id": "c2-honest",
+   "type": "timeline",
+   "start": 220.877,
+   "end": 230.327,
+   "tag": "REAL DATA",
+   "title": "Seattle: under thirty minutes",
+   "sub": "John Schilling, 38 North · so, roughly half an hour",
+   "total": 40,
+   "unit": "MIN",
+   "segments": [
+    {
+     "from": 0,
+     "to": 30,
+     "label": "Seattle, under 30 min",
+     "color": "#FF3B3B"
+    },
+    {
+     "from": 30,
+     "to": 38,
+     "label": "Los Angeles, 38",
+     "color": "#F2B01E"
+    }
+   ],
+   "highlight": {
+    "from": 0,
+    "to": 30,
+    "label": "roughly half an hour"
+   },
+   "cursorTo": 30,
+   "source": "UCS; 38 North"
+  },
+  {
+   "id": "c3-card",
+   "type": "chapter",
+   "start": 230.327,
+   "end": 233.827,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 03",
+   "title": "The shield"
+  },
+  {
+   "id": "c3-gmd",
+   "type": "region",
+   "start": 233.827,
+   "end": 243.64,
+   "tag": "REAL DATA",
+   "source": "Arms Control Association; Defense News",
+   "view": {
+    "center": [
+     -134,
+     52
+    ],
+    "widthKm": 7400
+   },
+   "zoomTo": {
+    "center": [
+     -134,
+     52
+    ],
+    "widthKm": 7000
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -145.73,
+      63.95
+     ],
+     "label": "Fort Greely, Alaska · 40 interceptors",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 7,
+     "t": 0.5
+    },
+    {
+     "at": [
+      -120.572,
+      34.742
+     ],
+     "label": "Vandenberg, California · 4",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 7,
+     "t": 3
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -145.73,
+      63.95
+     ],
+     "km": 300,
+     "color": "#3ED6C8",
+     "t": 1
+    },
+    {
+     "at": [
+      -120.572,
+      34.742
+     ],
+     "km": 300,
+     "color": "#3ED6C8",
+     "t": 3.5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -136,
+      45
+     ],
+     "text": "Ground-based Midcourse Defense · 44 interceptors",
+     "color": "#F2B01E",
+     "t": 5
+    }
+   ]
+  },
+  {
+   "id": "c3-hit",
+   "type": "globe",
+   "start": 243.64,
+   "end": 252.248,
+   "tag": "REAL DATA",
+   "caption": "Hit to kill: the interceptor collides with the warhead in space",
+   "source": "Arms Control Association (illustration)",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 56,
+     "lon": -165,
+     "scale": 900
+    },
+    {
+     "t": 8,
+     "lat": 56,
+     "lon": -160,
+     "scale": 1100
+    }
+   ],
+   "sun": {
+    "lat": 10,
+    "lon": 20
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -145.73,
+      63.95
+     ],
+     "label": "Fort Greely",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "t": 0.3
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      170,
+      50
+     ],
+     "to": [
+      -122.3321,
+      47.6062
+     ],
+     "t0": 0,
+     "t1": 8,
+     "color": "#FF3B3B",
+     "loft": 0.25
+    },
+    {
+     "from": [
+      -145.73,
+      63.95
+     ],
+     "to": [
+      -168,
+      54.5
+     ],
+     "t0": 1.5,
+     "t1": 4.6,
+     "color": "#3ED6C8",
+     "loft": 0.2
+    }
+   ],
+   "flashes": [
+    {
+     "at": [
+      -168,
+      54.5
+     ],
+     "t": 4.6,
+     "radius": 5,
+     "hold": 2,
+     "color": "#3ED6C8"
+    }
+   ]
+  },
+  {
+   "id": "c3-12of21",
+   "type": "number",
+   "start": 252.248,
+   "end": 262.872,
+   "tag": "REAL DATA",
+   "value": "12 OF 21",
+   "label": "scripted intercept tests succeeded",
+   "sub": "Arms Control Association · roughly half to sixty percent",
+   "color": "#3ED6C8",
+   "source": "Arms Control Association, Missile Defense factsheet"
+  },
+  {
+   "id": "c3-2019",
+   "type": "stamp",
+   "start": 262.872,
+   "end": 271.29,
+   "tag": "REAL HISTORY",
+   "text": "25 March 2019",
+   "line": "first salvo: two interceptors, one target · both worked",
+   "color": "#3ED6C8"
+  },
+  {
+   "id": "c3-44",
+   "type": "text",
+   "start": 271.29,
+   "end": 281.337,
+   "tag": "REAL DATA",
+   "lines": [
+    "44 interceptors is not 44 missiles stopped",
+    "A real engagement would likely use more than one interceptor per warhead."
+   ]
+  },
+  {
+   "id": "c3-scripted",
+   "type": "text",
+   "start": 281.337,
+   "end": 287.033,
+   "tag": "REAL DATA",
+   "lines": [
+    "Scripted tests",
+    "no realistic decoys, say critics"
+   ]
+  },
+  {
+   "id": "c3-ngi",
+   "type": "stamp",
+   "start": 287.033,
+   "end": 291.28,
+   "tag": "REAL DATA",
+   "text": "Not fielded",
+   "line": "the next-generation interceptor",
+   "color": "#F2B01E"
+  },
+  {
+   "id": "c3-golden",
+   "type": "number",
+   "start": 291.28,
+   "end": 303.247,
+   "tag": "REAL DATA",
+   "value": "$1.2 TRILLION",
+   "countTo": 1.2,
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": " TRILLION",
+   "label": "Golden Dome over 20 years, Congressional Budget Office estimate",
+   "sub": "a plan, not a roof",
+   "color": "#F2B01E",
+   "source": "CBO, 2026-05-12; Air & Space Forces"
+  },
+  {
+   "id": "c4-card",
+   "type": "chapter",
+   "start": 303.247,
+   "end": 306.747,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 04",
+   "title": "The trigger"
+  },
+  {
+   "id": "c4-order",
+   "type": "region",
+   "start": 306.747,
+   "end": 322.664,
+   "tag": "SIMULATION",
+   "source": "CRS (North Korean law, 2013 and 2022)",
+   "view": {
+    "center": [
+     126.5,
+     38.5
+    ],
+    "widthKm": 700
+   },
+   "zoomTo": {
+    "center": [
+     126.2,
+     39.2
+    ],
+    "widthKm": 400
+   },
+   "highlight": [
+    {
+     "iso": "408",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.10)"
+    },
+    {
+     "iso": "410",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      125.75,
+      39.02
+     ],
+     "label": "Pyongyang",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 6,
+     "t": 0.5
+    },
+    {
+     "at": [
+      126.98,
+      37.57
+     ],
+     "label": "Seoul",
+     "kind": "dot",
+     "t": 1
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      125.75,
+      39.02
+     ],
+     "km": 40,
+     "color": "#FF3B3B",
+     "t": 3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      124.3,
+      40.5
+     ],
+     "text": "the final order belongs to one man",
+     "color": "#F2B01E",
+     "t": 5
+    }
+   ],
+   "caption": "In our story, the order is given"
+  },
+  {
+   "id": "c4-nocause",
+   "type": "text",
+   "start": 322.664,
+   "end": 328.03,
+   "tag": "SIMULATION",
+   "lines": [
+    "No cause named",
+    "We do not say it is likely."
+   ]
+  },
+  {
+   "id": "c4-six",
+   "type": "number",
+   "start": 328.03,
+   "end": 338.915,
+   "tag": "SIMULATION",
+   "value": "4 OF 6",
+   "label": "missiles get through · two are intercepted · one warhead each",
+   "sub": "six launched in all",
+   "color": "#FF3B3B"
+  },
+  {
+   "id": "c4-choice",
+   "type": "text",
+   "start": 338.915,
+   "end": 342.921,
+   "tag": "SIMULATION",
+   "lines": [
+    "A choice we made",
+    "not a forecast"
+   ]
+  },
+  {
+   "id": "c4-dia",
+   "type": "bars",
+   "start": 342.921,
+   "end": 352.552,
+   "tag": "SIMULATION",
+   "title": "Six sits inside the count",
+   "sub": "intercontinental missiles",
+   "source": "DIA via CRS",
+   "bars": [
+    {
+     "label": "Launched in our story",
+     "value": 6,
+     "display": "6",
+     "color": "#FF3B3B"
+    },
+    {
+     "label": "Defense Intelligence Agency count",
+     "value": 10,
+     "display": "10 or fewer",
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c4-types",
+   "type": "region",
+   "start": 352.552,
+   "end": 362.759,
+   "tag": "SIMULATION",
+   "caption": "Two Hwasong-18 class and two Hwasong-17",
+   "view": {
+    "center": [
+     125.0,
+     39.8
+    ],
+    "widthKm": 260
+   },
+   "zoomTo": {
+    "center": [
+     125.4,
+     39.6
+    ],
+    "widthKm": 200
+   },
+   "highlight": [
+    {
+     "iso": "408",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.10)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      125.67,
+      39.2
+     ],
+     "label": "Hwasong-18 + Hwasong-17 (location simulated)",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 6,
+     "t": 0.5
+    },
+    {
+     "at": [
+      125.2,
+      39.8
+     ],
+     "label": "Hwasong-18 + Hwasong-17",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 6,
+     "t": 2
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      125.67,
+      39.2
+     ],
+     "km": 10,
+     "color": "#FF3B3B",
+     "t": 1
+    },
+    {
+     "at": [
+      125.2,
+      39.8
+     ],
+     "km": 10,
+     "color": "#FF3B3B",
+     "t": 2.5
+    }
+   ]
+  },
+  {
+   "id": "c4-hs20",
+   "type": "text",
+   "start": 362.759,
+   "end": 368.272,
+   "tag": "SIMULATION",
+   "lines": [
+    "Not used: Hwasong-20",
+    "unveiled in 2025, never flown"
+   ]
+  },
+  {
+   "id": "c4-targets",
+   "type": "region",
+   "start": 368.272,
+   "end": 381.473,
+   "tag": "SIMULATION",
+   "caption": "Our choice of four targets",
+   "view": {
+    "center": [
+     -121.6,
+     41.8
+    ],
+    "widthKm": 3600
+   },
+   "zoomTo": {
+    "center": [
+     -121.6,
+     41.8
+    ],
+    "widthKm": 3300
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "label": "Seattle",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 7,
+     "t": 1
+    },
+    {
+     "at": [
+      -122.7134,
+      47.7305
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 5,
+     "t": 2.8
+    },
+    {
+     "at": [
+      -122.4194,
+      37.7749
+     ],
+     "label": "San Francisco",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 7,
+     "t": 6
+    },
+    {
+     "at": [
+      -120.572,
+      34.742
+     ],
+     "label": "Vandenberg",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 7,
+     "t": 8
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -118.2,
+      47.9
+     ],
+     "text": "Bangor submarine base",
+     "color": "#FF3B3B",
+     "t": 2.8
+    }
+   ]
+  },
+  {
+   "id": "c4-yields",
+   "type": "bars",
+   "start": 381.473,
+   "end": 392.53,
+   "tag": "SIMULATION",
+   "title": "Yield assumed, kilotons",
+   "sub": "our assumption, not a fact",
+   "source": "SIPRI; CNBC; 2017 test estimates of about 50 to 250 kt",
+   "bars": [
+    {
+     "label": "Seattle",
+     "value": 250,
+     "display": "250 kt",
+     "color": "#FF3B3B"
+    },
+    {
+     "label": "Bangor",
+     "value": 100,
+     "display": "100 kt",
+     "color": "#FF7A1A"
+    },
+    {
+     "label": "San Francisco",
+     "value": 100,
+     "display": "100 kt",
+     "color": "#FF7A1A"
+    },
+    {
+     "label": "Vandenberg",
+     "value": 100,
+     "display": "100 kt",
+     "color": "#FF7A1A"
+    }
+   ]
+  },
+  {
+   "id": "c4-smaller",
+   "type": "text",
+   "start": 392.53,
+   "end": 399.927,
+   "tag": "SIMULATION",
+   "lines": [
+    "A smaller weapon",
+    "a few tens of kilotons would shrink every ring that follows"
+   ]
+  },
+  {
+   "id": "c5-card",
+   "type": "chapter",
+   "start": 399.927,
+   "end": 403.427,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 05",
+   "title": "Minute by minute"
+  },
+  {
+   "id": "c5-m0",
+   "type": "globe",
+   "start": 403.427,
+   "end": 411.447,
+   "tag": "SIMULATION",
+   "clock": "T+00:00",
+   "clockLabel": "FIRST LAUNCH",
+   "caption": "Satellites see the heat within a minute or two",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 42,
+     "lon": 140,
+     "scale": 1300
+    },
+    {
+     "t": 8,
+     "lat": 45,
+     "lon": 160,
+     "scale": 800
+    }
+   ],
+   "sun": {
+    "lat": 9.1,
+    "lon": 28.85
+   },
+   "highlight": [
+    {
+     "iso": "408",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.10)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      125.67,
+      39.2
+     ],
+     "label": "Pyongyang area",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 0.5
+    },
+    {
+     "at": [
+      125.2,
+      39.8
+     ],
+     "label": "North Pyongan",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 0.8
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      -122.3321,
+      47.6062
+     ],
+     "t0": 0.5,
+     "t1": 90.28,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    }
+   ]
+  },
+  {
+   "id": "c5-m1",
+   "type": "globe",
+   "start": 411.447,
+   "end": 433.144,
+   "tag": "SIMULATION",
+   "clock": "T+00:56",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "caption": "Minute one: a second Hwasong-18. Minute three: a Hwasong-17. Minute four: the fourth.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 43,
+     "lon": 150,
+     "scale": 900
+    },
+    {
+     "t": 12,
+     "lat": 46,
+     "lon": 175,
+     "scale": 620
+    },
+    {
+     "t": 26,
+     "lat": 48,
+     "lon": -170,
+     "scale": 640
+    }
+   ],
+   "sun": {
+    "lat": 9.1,
+    "lon": 28.85
+   },
+   "highlight": [
+    {
+     "iso": "408",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.10)"
+    },
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      125.67,
+      39.2
+     ],
+     "label": "Pyongyang area",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 0.5
+    },
+    {
+     "at": [
+      125.2,
+      39.8
+     ],
+     "label": "North Pyongan",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 0.8
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      -122.3321,
+      47.6062
+     ],
+     "t0": -7.52,
+     "t1": 82.26,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      125.2,
+      39.8
+     ],
+     "to": [
+      -122.7134,
+      47.7305
+     ],
+     "t0": 1.0,
+     "t1": 82.26,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      -122.4194,
+      37.7749
+     ],
+     "t0": 12.41,
+     "t1": 82.26,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      125.2,
+      39.8
+     ],
+     "to": [
+      -120.572,
+      34.742
+     ],
+     "t0": 17.41,
+     "t1": 82.26,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    }
+   ]
+  },
+  {
+   "id": "c5-intercepts",
+   "type": "globe",
+   "start": 433.144,
+   "end": 449.144,
+   "tag": "SIMULATION",
+   "clock": "T+05:44",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "caption": "Two more missiles launched, both destroyed. Our choice, not a forecast.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 48,
+     "lon": -178,
+     "scale": 640
+    },
+    {
+     "t": 15,
+     "lat": 50,
+     "lon": -165,
+     "scale": 760
+    }
+   ],
+   "sun": {
+    "lat": 9.1,
+    "lon": 28.85
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      -122.3321,
+      47.6062
+     ],
+     "t0": -29.22,
+     "t1": 60.57,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      125.2,
+      39.8
+     ],
+     "to": [
+      -122.7134,
+      47.7305
+     ],
+     "t0": -20.7,
+     "t1": 60.57,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      -122.4194,
+      37.7749
+     ],
+     "t0": -9.29,
+     "t1": 60.57,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      125.2,
+      39.8
+     ],
+     "to": [
+      -120.572,
+      34.742
+     ],
+     "t0": -4.29,
+     "t1": 60.57,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      -175,
+      55
+     ],
+     "t0": -2,
+     "t1": 6.0,
+     "color": "#F2B01E",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      125.2,
+      39.8
+     ],
+     "to": [
+      -160,
+      50.5
+     ],
+     "t0": -1,
+     "t1": 8.5,
+     "color": "#F2B01E",
+     "loft": 0.2
+    }
+   ],
+   "flashes": [
+    {
+     "at": [
+      -175,
+      55
+     ],
+     "t": 6.0,
+     "radius": 5,
+     "hold": 2,
+     "color": "#3ED6C8"
+    },
+    {
+     "at": [
+      -160,
+      50.5
+     ],
+     "t": 8.5,
+     "radius": 5,
+     "hold": 2,
+     "color": "#3ED6C8"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -145.73,
+      63.95
+     ],
+     "label": "Fort Greely",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "t": 0.3
+    }
+   ]
+  },
+  {
+   "id": "c5-mid",
+   "type": "globe",
+   "start": 449.144,
+   "end": 476.757,
+   "tag": "SIMULATION",
+   "clock": "T+11:32",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "caption": "Warheads separate and fall through space. The interceptor window opens.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 52,
+     "lon": -170,
+     "scale": 760
+    },
+    {
+     "t": 12,
+     "lat": 54,
+     "lon": -155,
+     "scale": 1000
+    },
+    {
+     "t": 23,
+     "lat": 50,
+     "lon": -140,
+     "scale": 1200
+    }
+   ],
+   "sun": {
+    "lat": 9.1,
+    "lon": 28.85
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -145.73,
+      63.95
+     ],
+     "label": "Fort Greely · 40",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -120.572,
+      34.742
+     ],
+     "label": "Vandenberg · 4",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "t": 12
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      -122.3321,
+      47.6062
+     ],
+     "t0": -45.22,
+     "t1": 44.57,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      125.2,
+      39.8
+     ],
+     "to": [
+      -122.7134,
+      47.7305
+     ],
+     "t0": -36.7,
+     "t1": 44.57,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      -122.4194,
+      37.7749
+     ],
+     "t0": -25.29,
+     "t1": 44.57,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    },
+    {
+     "from": [
+      125.2,
+      39.8
+     ],
+     "to": [
+      -120.572,
+      34.742
+     ],
+     "t0": -20.29,
+     "t1": 44.57,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    }
+   ],
+   "source": "Interceptor window: simulation assumption"
+  },
+  {
+   "id": "c5-hawaii",
+   "type": "number",
+   "start": 476.757,
+   "end": 488.241,
+   "tag": "REAL HISTORY",
+   "value": "38 MIN",
+   "countTo": 38,
+   "suffix": " MIN",
+   "label": "a false missile alert in Hawaii stayed uncorrected",
+   "sub": "13 January 2018 · a true alert would leave less time",
+   "color": "#F2B01E",
+   "source": "FCC; NPR"
+  },
+  {
+   "id": "c5-arrive",
+   "type": "globe",
+   "start": 488.241,
+   "end": 493.312,
+   "tag": "SIMULATION",
+   "clock": "T+25:30",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 50,
+     "lon": -150,
+     "scale": 1500
+    },
+    {
+     "t": 4,
+     "lat": 47.6,
+     "lon": -126,
+     "scale": 4200
+    }
+   ],
+   "sun": {
+    "lat": 9.1,
+    "lon": 28.85
+   },
+   "markers": [
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "label": "Seattle",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.2
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      -122.3321,
+      47.6062
+     ],
+     "t0": -84.31,
+     "t1": 5.47,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    }
+   ]
+  },
+  {
+   "id": "c6-flash",
+   "type": "city",
+   "start": 493.312,
+   "end": 499.624,
+   "tag": "SIMULATION",
+   "clock": "T+25:30",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "seattle",
+   "view": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 5.0
+   },
+   "zoomTo": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 4.2
+   },
+   "gz": [
+    -122.3321,
+    47.6062
+   ],
+   "rings": [
+    {
+     "km": 0.555,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.44000000000000006
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -122.3302,
+      47.6038
+     ],
+     "text": "Downtown Seattle",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -122.3493,
+      47.6205
+     ],
+     "text": "Space Needle",
+     "color": "rgba(236,239,242,0.95)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 555 m",
+     "color": "#FFFFFF"
+    }
+   ],
+   "flashT": 0.34
+  },
+  {
+   "id": "c6-fireball",
+   "type": "city",
+   "start": 499.624,
+   "end": 506.944,
+   "tag": "SIMULATION",
+   "clock": "T+25:30",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "seattle",
+   "view": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 4.2
+   },
+   "zoomTo": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 4.8
+   },
+   "gz": [
+    -122.3321,
+    47.6062
+   ],
+   "rings": [
+    {
+     "km": 0.555,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -122.3302,
+      47.6038
+     ],
+     "text": "Downtown Seattle",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -122.3493,
+      47.6205
+     ],
+     "text": "Space Needle",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.38621,
+      47.67651
+     ],
+     "text": "Ballard",
+     "color": "rgba(236,239,242,0.95)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 555 m",
+     "color": "#FFFFFF"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c6-20psi",
+   "type": "city",
+   "start": 506.944,
+   "end": 516.449,
+   "tag": "SIMULATION",
+   "clock": "T+25:30",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "seattle",
+   "view": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 5.2
+   },
+   "zoomTo": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 6.2
+   },
+   "gz": [
+    -122.3321,
+    47.6062
+   ],
+   "rings": [
+    {
+     "km": 0.555,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 0.868,
+     "label": "20 psi",
+     "color": "#FF7A1A",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -122.3302,
+      47.6038
+     ],
+     "text": "Downtown Seattle",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -122.3493,
+      47.6205
+     ],
+     "text": "Space Needle",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.38621,
+      47.67651
+     ],
+     "text": "Ballard",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.2,
+      47.614
+     ],
+     "text": "Bellevue",
+     "color": "rgba(236,239,242,0.95)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 555 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 868 m",
+     "color": "#FF7A1A"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c6-5psi",
+   "type": "city",
+   "start": 516.449,
+   "end": 527.969,
+   "tag": "SIMULATION",
+   "clock": "T+25:30",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "seattle",
+   "view": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 17
+   },
+   "zoomTo": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 20
+   },
+   "gz": [
+    -122.3321,
+    47.6062
+   ],
+   "rings": [
+    {
+     "km": 0.555,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 0.868,
+     "label": "20 psi",
+     "color": "#FF7A1A",
+     "t": -30
+    },
+    {
+     "km": 4.266,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -122.3302,
+      47.6038
+     ],
+     "text": "Downtown Seattle",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -122.3493,
+      47.6205
+     ],
+     "text": "Space Needle",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.38621,
+      47.67651
+     ],
+     "text": "Ballard",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.2,
+      47.614
+     ],
+     "text": "Bellevue",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.3,
+      47.5
+     ],
+     "text": "Boeing Field",
+     "color": "rgba(236,239,242,0.95)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 555 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 868 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 4.3 km",
+     "color": "#FF3B3B"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c6-burns",
+   "type": "city",
+   "start": 527.969,
+   "end": 534.505,
+   "tag": "SIMULATION",
+   "clock": "T+25:30",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "seattle",
+   "view": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 22
+   },
+   "zoomTo": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 26
+   },
+   "gz": [
+    -122.3321,
+    47.6062
+   ],
+   "rings": [
+    {
+     "km": 0.555,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 0.868,
+     "label": "20 psi",
+     "color": "#FF7A1A",
+     "t": -30
+    },
+    {
+     "km": 4.266,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": -30
+    },
+    {
+     "km": 6.053,
+     "label": "Third-degree burns",
+     "color": "#F2B01E",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -122.3302,
+      47.6038
+     ],
+     "text": "Downtown Seattle",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -122.3493,
+      47.6205
+     ],
+     "text": "Space Needle",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.38621,
+      47.67651
+     ],
+     "text": "Ballard",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.2,
+      47.614
+     ],
+     "text": "Bellevue",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.3,
+      47.5
+     ],
+     "text": "Boeing Field",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.62,
+      47.57
+     ],
+     "text": "Bremerton",
+     "color": "rgba(236,239,242,0.95)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 555 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 868 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 4.3 km",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "Burns 6.1 km",
+     "color": "#F2B01E"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c6-1psi",
+   "type": "city",
+   "start": 534.505,
+   "end": 544.066,
+   "tag": "SIMULATION",
+   "clock": "T+25:30",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "seattle",
+   "view": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 38
+   },
+   "zoomTo": {
+    "center": [
+     -122.3321,
+     47.6062
+    ],
+    "widthKm": 50
+   },
+   "gz": [
+    -122.3321,
+    47.6062
+   ],
+   "rings": [
+    {
+     "km": 0.555,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 0.868,
+     "label": "20 psi",
+     "color": "#FF7A1A",
+     "t": -30
+    },
+    {
+     "km": 4.266,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": -30
+    },
+    {
+     "km": 6.053,
+     "label": "Third-degree burns",
+     "color": "#F2B01E",
+     "t": -30
+    },
+    {
+     "km": 11.546,
+     "label": "1 psi",
+     "color": "#3ED6C8",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -122.3302,
+      47.6038
+     ],
+     "text": "Downtown Seattle",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -122.3493,
+      47.6205
+     ],
+     "text": "Space Needle",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.38621,
+      47.67651
+     ],
+     "text": "Ballard",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.2,
+      47.614
+     ],
+     "text": "Bellevue",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.3,
+      47.5
+     ],
+     "text": "Boeing Field",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -122.62,
+      47.57
+     ],
+     "text": "Bremerton",
+     "color": "rgba(236,239,242,0.95)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 555 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 868 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 4.3 km",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "Burns 6.1 km",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "1 psi 11.5 km",
+     "color": "#3ED6C8"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c6-fallout",
+   "type": "region",
+   "start": 544.066,
+   "end": 552.898,
+   "tag": "SIMULATION",
+   "clock": "T+25:30",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "caption": "Airburst: little local fallout. The dust rises high; the weather decides where it falls.",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "view": {
+    "center": [
+     -122.4,
+     47.6
+    ],
+    "widthKm": 160
+   },
+   "zoomTo": {
+    "center": [
+     -122.2,
+     47.6
+    ],
+    "widthKm": 230
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "label": "Seattle",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 6
+    },
+    {
+     "at": [
+      -122.44,
+      47.25
+     ],
+     "label": "Tacoma",
+     "kind": "dot"
+    },
+    {
+     "at": [
+      -122.2,
+      47.61
+     ],
+     "label": "Bellevue",
+     "kind": "dot"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "km": 11.546,
+     "color": "#3ED6C8",
+     "t": 0.5
+    }
+   ]
+  },
+  {
+   "id": "c6-bangor",
+   "type": "region",
+   "start": 552.898,
+   "end": 558.465,
+   "tag": "SIMULATION",
+   "clock": "T+26:18",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "caption": "Bangor, ground burst: heavy local fallout",
+   "view": {
+    "center": [
+     -122.7134,
+     47.7305
+    ],
+    "widthKm": 30
+   },
+   "zoomTo": {
+    "center": [
+     -122.7134,
+     47.7305
+    ],
+    "widthKm": 33.0
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -122.7134,
+      47.7305
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 5
+    },
+    {
+     "at": [
+      -122.3321,
+      47.6062
+     ],
+     "label": "Seattle",
+     "kind": "dot"
+    },
+    {
+     "at": [
+      -122.62,
+      47.57
+     ],
+     "label": "Bremerton",
+     "kind": "dot"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -122.7134,
+      47.7305
+     ],
+     "km": 0.481,
+     "color": "#FFFFFF",
+     "t": 0.9,
+     "dashed": false
+    },
+    {
+     "at": [
+      -122.7134,
+      47.7305
+     ],
+     "km": 2.514,
+     "color": "#FF3B3B",
+     "t": 1.4,
+     "label": "5 psi"
+    },
+    {
+     "at": [
+      -122.7134,
+      47.7305
+     ],
+     "km": 4.158,
+     "color": "#F2B01E",
+     "t": 1.9,
+     "label": "Burns"
+    },
+    {
+     "at": [
+      -122.7134,
+      47.7305
+     ],
+     "km": 6.806,
+     "color": "#3ED6C8",
+     "t": 2.4,
+     "label": "1 psi"
+    }
+   ],
+   "burst": {
+    "at": [
+     -122.7134,
+     47.7305
+    ],
+    "t": 0.9,
+    "km": 0.481,
+    "fade": 5
+   }
+  },
+  {
+   "id": "c6-sf",
+   "type": "region",
+   "start": 558.465,
+   "end": 562.551,
+   "tag": "SIMULATION",
+   "clock": "T+30:24",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "caption": "San Francisco, airburst, 100 kt",
+   "view": {
+    "center": [
+     -122.4194,
+     37.7749
+    ],
+    "widthKm": 36
+   },
+   "zoomTo": {
+    "center": [
+     -122.4194,
+     37.7749
+    ],
+    "widthKm": 39.6
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -122.4194,
+      37.7749
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 5
+    },
+    {
+     "at": [
+      -122.27,
+      37.8
+     ],
+     "label": "Oakland",
+     "kind": "dot"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -122.4194,
+      37.7749
+     ],
+     "km": 0.384,
+     "color": "#FFFFFF",
+     "t": 0.9,
+     "dashed": false
+    },
+    {
+     "at": [
+      -122.4194,
+      37.7749
+     ],
+     "km": 3.143,
+     "color": "#FF3B3B",
+     "t": 1.4,
+     "label": "5 psi"
+    },
+    {
+     "at": [
+      -122.4194,
+      37.7749
+     ],
+     "km": 4.158,
+     "color": "#F2B01E",
+     "t": 1.9,
+     "label": "Burns"
+    },
+    {
+     "at": [
+      -122.4194,
+      37.7749
+     ],
+     "km": 8.507,
+     "color": "#3ED6C8",
+     "t": 2.4,
+     "label": "1 psi"
+    }
+   ],
+   "burst": {
+    "at": [
+     -122.4194,
+     37.7749
+    ],
+    "t": 0.9,
+    "km": 0.384,
+    "fade": 5
+   }
+  },
+  {
+   "id": "c6-vafb",
+   "type": "region",
+   "start": 562.551,
+   "end": 569.29,
+   "tag": "SIMULATION",
+   "clock": "T+32:18",
+   "clockLabel": "SINCE FIRST LAUNCH",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "caption": "Vandenberg: the last warhead, 32 minutes after the first launch",
+   "view": {
+    "center": [
+     -120.572,
+     34.742
+    ],
+    "widthKm": 30
+   },
+   "zoomTo": {
+    "center": [
+     -120.572,
+     34.742
+    ],
+    "widthKm": 33.0
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -120.572,
+      34.742
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 5
+    },
+    {
+     "at": [
+      -120.43,
+      34.64
+     ],
+     "label": "Lompoc",
+     "kind": "dot"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -120.572,
+      34.742
+     ],
+     "km": 0.481,
+     "color": "#FFFFFF",
+     "t": 0.9,
+     "dashed": false
+    },
+    {
+     "at": [
+      -120.572,
+      34.742
+     ],
+     "km": 2.514,
+     "color": "#FF3B3B",
+     "t": 1.4,
+     "label": "5 psi"
+    },
+    {
+     "at": [
+      -120.572,
+      34.742
+     ],
+     "km": 4.158,
+     "color": "#F2B01E",
+     "t": 1.9,
+     "label": "Burns"
+    },
+    {
+     "at": [
+      -120.572,
+      34.742
+     ],
+     "km": 6.806,
+     "color": "#3ED6C8",
+     "t": 2.4,
+     "label": "1 psi"
+    }
+   ],
+   "burst": {
+    "at": [
+     -120.572,
+     34.742
+    ],
+    "t": 0.9,
+    "km": 0.481,
+    "fade": 5
+   }
+  },
+  {
+   "id": "c6-total",
+   "type": "bars",
+   "start": 569.29,
+   "end": 580.897,
+   "tag": "SIMULATION",
+   "title": "Four warheads, 550 kilotons in all",
+   "sub": "no casualty figure: no published study supports one",
+   "source": "Scenario engine",
+   "bars": [
+    {
+     "label": "Seattle · air",
+     "value": 250,
+     "display": "250 kt",
+     "color": "#FF3B3B"
+    },
+    {
+     "label": "Bangor · ground",
+     "value": 100,
+     "display": "100 kt",
+     "color": "#FF7A1A"
+    },
+    {
+     "label": "San Francisco · air",
+     "value": 100,
+     "display": "100 kt",
+     "color": "#FF7A1A"
+    },
+    {
+     "label": "Vandenberg · ground",
+     "value": 100,
+     "display": "100 kt",
+     "color": "#FF7A1A"
+    }
+   ]
+  },
+  {
+   "id": "c7-card",
+   "type": "chapter",
+   "start": 580.897,
+   "end": 584.397,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 07",
+   "title": "The bill"
+  },
+  {
+   "id": "c7-study0",
+   "type": "stamp",
+   "start": 584.397,
+   "end": 590.2,
+   "tag": "REAL DATA",
+   "text": "2023",
+   "line": "Nagasaki University and the Nautilus Institute model a Korean nuclear war",
+   "color": "#F2B01E"
+  },
+  {
+   "id": "c7-study",
+   "type": "number",
+   "start": 590.2,
+   "end": 599.853,
+   "tag": "REAL DATA",
+   "value": "2.1 MILLION",
+   "countTo": 2.1,
+   "decimals": 1,
+   "suffix": " MILLION",
+   "label": "deaths within months in the largest Korea scenario",
+   "sub": "18 weapons, China joining in",
+   "color": "#FF3B3B",
+   "source": "RECNA and Nautilus Institute, 2023"
+  },
+  {
+   "id": "c7-korea",
+   "type": "region",
+   "start": 599.853,
+   "end": 603.729,
+   "tag": "REAL DATA",
+   "caption": "The study covers the Korean region, not this strike",
+   "source": "RECNA and Nautilus Institute, 2023",
+   "view": {
+    "center": [
+     127.0,
+     37.0
+    ],
+    "widthKm": 1100
+   },
+   "highlight": [
+    {
+     "iso": "408",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.10)"
+    },
+    {
+     "iso": "410",
+     "color": "#3ED6C8"
+    },
+    {
+     "iso": "392",
+     "color": "rgba(236,239,242,0.95)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      125.75,
+      39.02
+     ],
+     "label": "Pyongyang",
+     "kind": "dot"
+    },
+    {
+     "at": [
+      126.98,
+      37.57
+     ],
+     "label": "Seoul",
+     "kind": "dot"
+    }
+   ]
+  },
+  {
+   "id": "c7-spc0",
+   "type": "stamp",
+   "start": 603.729,
+   "end": 611.63,
+   "tag": "REAL DATA",
+   "text": "Strategic Posture Commission",
+   "line": "2023 · North Korea \"on pace\" to deploy enough intercontinental missiles",
+   "color": "#F2B01E"
+  },
+  {
+   "id": "c7-spc",
+   "type": "stamp",
+   "start": 611.63,
+   "end": 619.45,
+   "tag": "REAL DATA",
+   "text": "2027 to 2035",
+   "line": "to potentially challenge US ground-based defences",
+   "color": "#FF3B3B"
+  },
+  {
+   "id": "c7-17",
+   "type": "number",
+   "start": 619.45,
+   "end": 631.36,
+   "tag": "REAL DATA",
+   "value": "17",
+   "countTo": 17,
+   "label": "rounds of North Korean launches in 2026, by the end of October",
+   "sub": "all shorter range",
+   "color": "#FF3B3B",
+   "source": "Yonhap; Korea Times"
+  },
+  {
+   "id": "c7-1012",
+   "type": "stamp",
+   "start": 631.36,
+   "end": 639.538,
+   "tag": "REAL DATA",
+   "text": "12 October 2026",
+   "line": "US Indo-Pacific Command: no immediate threat",
+   "color": "#3ED6C8"
+  },
+  {
+   "id": "c7-third",
+   "type": "region",
+   "start": 639.538,
+   "end": 648.192,
+   "tag": "REAL DATA",
+   "caption": "Congress: a third interceptor site on the East Coast by 2031",
+   "source": "Arms Control Association; Defense News",
+   "view": {
+    "center": [
+     -98,
+     42
+    ],
+    "widthKm": 5400
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -120.572,
+      34.742
+     ],
+     "label": "Vandenberg · 4",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 6,
+     "t": 0.5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.5,
+      40.0
+     ],
+     "text": "third site: East Coast, by 2031",
+     "color": "#F2B01E",
+     "t": 2.5
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -77.0,
+      39.5
+     ],
+     "km": 250,
+     "color": "#F2B01E",
+     "t": 3,
+     "dashed": true
+    }
+   ]
+  },
+  {
+   "id": "c8-card",
+   "type": "chapter",
+   "start": 648.192,
+   "end": 651.692,
+   "tag": "REAL HISTORY",
+   "kicker": "CHAPTER 08",
+   "title": "When it stayed unused"
+  },
+  {
+   "id": "c8-2006",
+   "type": "stamp",
+   "start": 651.692,
+   "end": 657.753,
+   "tag": "REAL HISTORY",
+   "text": "October 2006",
+   "line": "first nuclear test · most analysts judged the yield below one kiloton",
+   "color": "#F2B01E"
+  },
+  {
+   "id": "c8-guam",
+   "type": "globe",
+   "start": 657.753,
+   "end": 672.465,
+   "tag": "REAL HISTORY",
+   "caption": "August 2017: \"fire and fury\", then a plan to fire four missiles toward Guam",
+   "source": "Review-Journal; CBC",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 28,
+     "lon": 132,
+     "scale": 1200
+    },
+    {
+     "t": 10,
+     "lat": 26,
+     "lon": 138,
+     "scale": 1000
+    }
+   ],
+   "sun": {
+    "lat": 15,
+    "lon": 90
+   },
+   "highlight": [
+    {
+     "iso": "408",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.10)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      144.8,
+      13.5
+     ],
+     "label": "Guam",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "t": 0.5
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      144.8,
+      13.5
+     ],
+     "t0": 1.0,
+     "t1": 8.0,
+     "color": "#F2B01E",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      146.0,
+      14.1
+     ],
+     "t0": 1.5,
+     "t1": 8.5,
+     "color": "#F2B01E",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      143.60000000000002,
+      14.1
+     ],
+     "t0": 2.0,
+     "t1": 9.0,
+     "color": "#F2B01E",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      125.67,
+      39.2
+     ],
+     "to": [
+      145.20000000000002,
+      12.3
+     ],
+     "t0": 2.5,
+     "t1": 9.5,
+     "color": "#F2B01E",
+     "loft": 0.2
+    }
+   ]
+  },
+  {
+   "id": "c8-ask",
+   "type": "text",
+   "start": 672.465,
+   "end": 681.791,
+   "tag": "REAL HISTORY",
+   "lines": [
+    "A test. A threat.",
+    "Our simulation asks what an actual attack would look like."
+   ]
+  },
+  {
+   "id": "c9-card",
+   "type": "chapter",
+   "start": 681.791,
+   "end": 685.291,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 09",
+   "title": "The clock"
+  },
+  {
+   "id": "c9-clock",
+   "type": "timeline",
+   "start": 685.291,
+   "end": 694.085,
+   "tag": "SIMULATION",
+   "title": "Launch to last impact",
+   "sub": "the window for a president to be woken, briefed and asked what to do · simulation",
+   "total": 34,
+   "unit": "MIN",
+   "segments": [
+    {
+     "from": 0,
+     "to": 4,
+     "label": "Launches",
+     "color": "#FF3B3B"
+    },
+    {
+     "from": 4,
+     "to": 25.5,
+     "label": "In flight",
+     "color": "#F2B01E"
+    },
+    {
+     "from": 25.5,
+     "to": 32.3,
+     "label": "Four impacts",
+     "color": "#FF3B3B"
+    }
+   ],
+   "highlight": {
+    "from": 0,
+    "to": 25.5,
+    "label": "about 26 minutes to Seattle"
+   },
+   "cursorTo": 32.3,
+   "source": "Scenario engine"
+  },
+  {
+   "id": "c9-stop",
+   "type": "text",
+   "start": 694.085,
+   "end": 701.238,
+   "tag": "SIMULATION",
+   "lines": [
+    "The simulation stops at the last impact",
+    "No one can say what comes next."
+   ]
+  },
+  {
+   "id": "end-real",
+   "type": "text",
+   "start": 701.238,
+   "end": 712.02,
+   "tag": "REAL DATA",
+   "lines": [
+    "About sixty warheads. Forty-four interceptors.",
+    "A flight of roughly half an hour."
+   ],
+   "size": 64
+  },
+  {
+   "id": "end",
+   "type": "endslate",
+   "start": 712.02,
+   "end": 736.01,
+   "tag": "",
+   "title": "Next scenario",
+   "line": "One eight-hundred-kiloton airburst over one American city, street by street. New scenario every day."
+  }
+ ],
+ "narration": "episodes/003-north-korea-strikes-west-coast/narration.wav"
+}
