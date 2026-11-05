@@ -142,7 +142,7 @@ class Strike:
     weapon: str                 # label, e.g. "RS-24 Yars"
     weapon_class: str           # icbm, slbm, ...
     yield_kt: float
-    burst: str = "air"
+    burst: str = "air"             # air, ground, or conventional (no nuclear effects)
     warheads: int = 1
     launch_offset_min: float = 0.0   # minutes after T-0
     notes: str = ""
@@ -170,7 +170,7 @@ def compute(sc: Scenario) -> dict:
     for s in sc.strikes:
         d = haversine_km(s.launch_lat, s.launch_lon, s.target_lat, s.target_lon)
         fm = flight_minutes(d, s.weapon_class)
-        e = effects(s.yield_kt, s.burst)
+        e = None if s.burst == "conventional" else effects(s.yield_kt, s.burst)  # conventional: flight time only
         rows.append({
             **asdict(s),
             "distance_km": round(d, 1),
@@ -178,12 +178,13 @@ def compute(sc: Scenario) -> dict:
             "flight_min": round(fm, 1),
             "launch_min": s.launch_offset_min,
             "impact_min": round(s.launch_offset_min + fm, 1),
-            "effects": e.as_dict(),
-            "area_psi5_km2": round(ring_area_km2(e.psi5_km), 1),
+            "effects": e.as_dict() if e else None,
+            "area_psi5_km2": round(ring_area_km2(e.psi5_km), 1) if e else None,
         })
     rows.sort(key=lambda r: r["impact_min"])
-    total_warheads = sum(r["warheads"] for r in rows)
-    total_yield_mt = sum(r["warheads"] * r["yield_kt"] for r in rows) / 1000
+    nuc = [r for r in rows if r["burst"] != "conventional"]
+    total_warheads = sum(r["warheads"] for r in nuc)
+    total_yield_mt = sum(r["warheads"] * r["yield_kt"] for r in nuc) / 1000
     return {
         "slug": sc.slug, "title": sc.title, "t0_utc": t0.isoformat(),
         "sun": {"lat": round(sun_lat, 2), "lon": round(sun_lon, 2)},

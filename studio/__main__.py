@@ -39,6 +39,9 @@ def cmd_scenario(a):
     print("totals", d["totals"], "sun", d["sun"])
     for r in d["strikes"]:
         e = r["effects"]
+        if e is None:
+            print(f"  {r['id']:16} impact {r['impact_min']:5.1f} min  conventional  {r['distance_km']:.0f} km, flight {r['flight_min']} min")
+            continue
         print(f"  {r['id']:16} impact {r['impact_min']:5.1f} min  {r['yield_kt']:>5} kt {r['burst']:6}  psi5 {e['psi5_km']:5.2f} km  burns {e['thermal3_km']:5.2f} km")
 
 

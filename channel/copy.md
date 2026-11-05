@@ -21,7 +21,7 @@ Narration is AI-generated. Maps: Natural Earth, OpenStreetMap contributors. Imag
 
 ## Facebook Page
 
-Categories: Video Creator, Education (avoid any News or Media/News category: Meta blocks news Pages in Canada and applies news-publisher rules).
+Categories: Digital creator, Education (chosen by Bryce 2026-11-05; Facebook has no "Video Creator" any more. Avoid any News or Media/News category: Meta blocks news Pages in Canada and applies news-publisher rules).
 
 Bio (101 characters): Nuclear war and world crises, simulated minute by minute on real maps. Real data. New scenario daily.
 

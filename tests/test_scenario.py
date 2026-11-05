@@ -59,3 +59,16 @@ def test_compute_sorts_by_impact():
     out = S.compute(sc)
     assert out["totals"]["warheads"] == 2
     assert out["strikes"][-1]["impact_min"] >= out["strikes"][0]["impact_min"]
+
+
+def test_conventional_strike_has_no_nuclear_effects():
+    from studio.scenario import Scenario, Strike, compute
+    sc = Scenario(slug="t", title="t", t0_utc="2026-12-15T20:10:00Z", strikes=[
+        Strike(id="c", launch_name="a", launch_lat=25.0, launch_lon=114.5, target_name="b", target_lat=13.58,
+               target_lon=144.93, weapon="DF-26", weapon_class="irbm", yield_kt=0, burst="conventional"),
+        Strike(id="n", launch_name="a", launch_lat=25.0, launch_lon=114.5, target_name="b", target_lat=23.8,
+               target_lon=128.0, weapon="DF-26", weapon_class="irbm", yield_kt=10, burst="air")])
+    out = compute(sc)
+    conv = next(r for r in out["strikes"] if r["id"] == "c")
+    assert conv["effects"] is None and conv["flight_min"] > 0
+    assert out["totals"]["warheads"] == 1 and out["totals"]["yield_mt"] == 0.01
