@@ -9,7 +9,37 @@
       "stage": "researched",
       "note": "32 A, 10 B items",
       "at": "2026-11-05T09:51:28+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "script draft 1",
+      "at": "2026-11-05T09:53:57+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "revised per script_review",
+      "at": "2026-11-05T09:55:55+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "revised per script_review 1-11",
+      "at": "2026-11-05T09:56:05+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "round 3 fixes",
+      "at": "2026-11-05T09:57:33+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "round 4 fixes",
+      "at": "2026-11-05T09:59:44+00:00"
+    },
+    {
+      "stage": "script_approved",
+      "note": "Round 4 fact screen PASS: Ch 08 fix applied, engine numbers and research rows verified",
+      "at": "2026-11-05T10:01:12+00:00"
     }
   ],
-  "stage": "researched"
+  "stage": "script_approved"
 }
