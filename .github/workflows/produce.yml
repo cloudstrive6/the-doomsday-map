@@ -1,0 +1,236 @@
+name: Produce episode
+
+# Fully unattended (no human review since 2026-11-05). Dispatched by tick.yml at 05:00 and 17:00 UTC; the queue check
+# decides whether another episode is needed. Jobs:
+#   check  -> create (agents: research, scenario, script + fact screen, narration, shot list + visual screen, package)
+#          -> render (16 chunks, reusable render.yml) and shorts (3 Shorts, 4 chunks each)
+#          -> finish (join, mix, QC, final screener, gate, upload + schedule, release files for cross-posting)
+on:
+  schedule:
+    - cron: "15 5 * * *"
+    - cron: "15 17 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Produce even if the queue is full"
+        type: boolean
+        default: false
+      skip_upload:
+        description: "Produce and render but don't upload"
+        type: boolean
+        default: false
+
+concurrency:
+  group: produce
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      need: ${{ steps.q.outputs.need }}
+    env:
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q PyYAML tzdata
+      - id: q
+        run: python -m studio queue --github-output
+
+  create:
+    needs: check
+    if: ${{ needs.check.outputs.need == 'true' || inputs.force }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    outputs:
+      ep: ${{ steps.ep.outputs.ep }}
+      shorts: ${{ steps.ep.outputs.shorts }}
+    env:
+      GH_TOKEN: ${{ github.token }}
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      ANTHROPIC_API_KEY_BACKUP: ${{ secrets.ANTHROPIC_API_KEY }}
+      GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: video/package-lock.json
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q -r requirements.txt faster-whisper
+          npm install -g @anthropic-ai/claude-code
+          (cd video && npm ci --no-audit --no-fund && npx remotion browser ensure)
+          git config user.name "doomsday-map-bot"
+          git config user.email "${{ github.repository_owner_id }}+${{ github.repository_owner }}@users.noreply.github.com"
+      - name: Restore caches (narration audio, whisper model)
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            data/tts_cache
+            ~/.cache/huggingface
+          key: create-${{ github.run_id }}
+          restore-keys: create-
+      - name: "Agents: research, scenario, script, narration, shot list, packaging"
+        run: |
+          rm -f .current_episode
+          bash pipeline/claude_run.sh claude_create.jsonl 700 "$(cat pipeline/prompts/produce_episode.md)"
+          test -s .current_episode || { python -m studio notify "Doomsday Map: the agents did not finish an episode. $RUN_URL"; exit 1; }
+      - id: ep
+        name: Episode id and final staging
+        run: |
+          EP=$(cat .current_episode)
+          python -m studio shotlist "$EP"
+          test -f "episodes/$EP/build/thumbnail.png" || python -m studio package "$EP"
+          echo "ep=$EP" >> "$GITHUB_OUTPUT"
+          if [ -f "episodes/$EP/shorts.json" ]; then echo "shorts=true" >> "$GITHUB_OUTPUT"; else echo "shorts=false" >> "$GITHUB_OUTPUT"; fi
+      - name: Save progress
+        if: always()
+        run: |
+          git add -A episodes data video/public .claude CLAUDE.md || true
+          (git commit -m "$(cat .current_episode 2>/dev/null || echo episode): created" || true) && git pull --rebase -X theirs && git push
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: |
+            data/tts_cache
+            ~/.cache/huggingface
+          key: create-${{ github.run_id }}
+      - name: Hand the narration and package to the finish job
+        uses: actions/upload-artifact@v4
+        with:
+          name: pkg-${{ steps.ep.outputs.ep }}
+          path: |
+            episodes/${{ steps.ep.outputs.ep }}/narration/
+            episodes/${{ steps.ep.outputs.ep }}/build/*.png
+            episodes/${{ steps.ep.outputs.ep }}/build/*.srt
+            episodes/${{ steps.ep.outputs.ep }}/build/*.txt
+          retention-days: 7
+
+  render:
+    needs: create
+    uses: ./.github/workflows/render.yml
+    with:
+      episode: ${{ needs.create.outputs.ep }}
+      chunks: "16"
+      composition: Episode
+
+  shorts:
+    needs: create
+    if: ${{ needs.create.outputs.shorts == 'true' }}
+    strategy:
+      fail-fast: false
+      matrix:
+        s: [s1, s2, s3]
+    uses: ./.github/workflows/render.yml
+    with:
+      episode: ${{ needs.create.outputs.ep }}-${{ matrix.s }}
+      chunks: "4"
+      composition: Short
+
+  finish:
+    needs: [create, render, shorts]
+    if: ${{ always() && needs.render.result == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      EP: ${{ needs.create.outputs.ep }}
+      GH_TOKEN: ${{ github.token }}
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      ANTHROPIC_API_KEY_BACKUP: ${{ secrets.ANTHROPIC_API_KEY }}
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q -r requirements.txt
+          npm install -g @anthropic-ai/claude-code
+          git config user.name "doomsday-map-bot"
+          git config user.email "${{ github.repository_owner_id }}+${{ github.repository_owner }}@users.noreply.github.com"
+      - uses: actions/download-artifact@v4
+        with:
+          name: pkg-${{ env.EP }}
+          path: episodes/${{ env.EP }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: video-${{ env.EP }}-Episode
+          path: dl/long
+      - uses: actions/download-artifact@v4
+        if: ${{ needs.shorts.result == 'success' }}
+        with:
+          pattern: video-${{ env.EP }}-s*-Short
+          path: dl/shorts
+      - name: Join, mix and QC
+        run: |
+          mkdir -p "episodes/$EP/build/shorts"
+          mv dl/long/*.mp4 "episodes/$EP/build/video_silent.mp4"
+          for s in s1 s2 s3; do f=$(ls dl/shorts/video-$EP-$s-Short/*.mp4 2>/dev/null | head -1); [ -n "$f" ] && mv "$f" "episodes/$EP/build/shorts/${s}_silent.mp4"; done
+          python -m studio finish "$EP"
+          python -m studio review-frames "$EP"
+          python -m studio stage "$EP" rendered --note "$RUN_URL"
+      - name: Final screener
+        run: |
+          echo "$EP" > .current_episode
+          bash pipeline/claude_run.sh claude_review.jsonl 120 "$(cat pipeline/prompts/review_final.md)"
+      - name: Gate
+        id: gate
+        run: |
+          if python -m studio gate "$EP"; then
+            python -m studio stage "$EP" qc_passed
+            echo "open=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "open=false" >> "$GITHUB_OUTPUT"
+            python -m studio notify "Doomsday Map: $EP held back by QC or the final screener. Not uploaded. See episodes/$EP/review_final.md and qc.json. $RUN_URL"
+          fi
+      - name: Upload and schedule (long video and Shorts)
+        if: ${{ steps.gate.outputs.open == 'true' && !inputs.skip_upload }}
+        run: |
+          python -m studio upload-all "$EP" | tee upload.json
+          python -m studio notify "Doomsday Map: $(python -c "import json;m=json.load(open('episodes/$EP/metadata.json',encoding='utf-8'));print(m['title'],'|',m.get('url'),'| public',m.get('publish_at'))")"
+      - name: Save state
+        if: always()
+        run: |
+          git add -A episodes data || true
+          (git commit -m "$EP: finished" || true) && git pull --rebase -X theirs && git push

@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -84,6 +85,78 @@ def cmd_analytics(a):
     print(pull_analytics(a.days))
 
 
+def cmd_stage(a):
+    from .pipeline import set_stage
+    set_stage(episode_dir(a.episode), a.stage, a.note or "")
+
+
+def cmd_align(a):
+    from .align import align
+    print(align(episode_dir(a.episode)))
+
+
+def cmd_shotlist(a):
+    from .pipeline import shotlist
+    issues = shotlist(episode_dir(a.episode))
+    if any("overlap" in i or "end <= start" in i for i in issues):
+        raise SystemExit("shot list has overlaps or empty shots")
+
+
+def cmd_stills(a):
+    from .pipeline import stills
+    stills(episode_dir(a.episode), a.times)
+
+
+def cmd_package(a):
+    from .pipeline import package
+    package(episode_dir(a.episode))
+
+
+def cmd_slot(a):
+    from .pipeline import iso, shorts_times, slot
+    from .youtube import local
+    t = slot()
+    print(json.dumps({"long": iso(t), "long_local": local(t), "shorts": shorts_times(t)}, indent=1))
+
+
+def cmd_queue(a):
+    from .pipeline import queue
+    q = queue()
+    print(json.dumps(q))
+    if a.github_output and os.environ.get("GITHUB_OUTPUT"):
+        with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+            f.write(f"need={'true' if q['need'] else 'false'}\n")
+
+
+def cmd_notify(a):
+    from .notify import send
+    send(a.text)
+
+
+def cmd_finish(a):
+    from .pipeline import finish
+    r = finish(episode_dir(a.episode))
+    if a.strict and not r["ok"]:
+        raise SystemExit(1)
+
+
+def cmd_review_frames(a):
+    from .pipeline import frames_for_review
+    frames_for_review(episode_dir(a.episode))
+
+
+def cmd_gate(a):
+    from .pipeline import gate
+    if not gate(episode_dir(a.episode)):
+        raise SystemExit(1)
+
+
+def cmd_upload_all(a):
+    from .pipeline import upload_all
+    print(json.dumps(upload_all(episode_dir(a.episode)), indent=1, default=str))
+
+
+
 def cmd_auth(a):
     from .youtube import auth
     auth()
@@ -99,6 +172,18 @@ def main(argv=None):
     s = sub.add_parser("build"); s.add_argument("episode"); s.add_argument("--chunks", type=int, default=8); s.add_argument("--local", action="store_true"); s.set_defaults(fn=cmd_build)
     s = sub.add_parser("upload"); s.add_argument("episode"); s.add_argument("--dry-run", action="store_true"); s.add_argument("--publish-at"); s.set_defaults(fn=cmd_upload)
     s = sub.add_parser("auth"); s.set_defaults(fn=cmd_auth)
+    s = sub.add_parser("stage"); s.add_argument("episode"); s.add_argument("stage"); s.add_argument("--note"); s.set_defaults(fn=cmd_stage)
+    s = sub.add_parser("align"); s.add_argument("episode"); s.set_defaults(fn=cmd_align)
+    s = sub.add_parser("shotlist"); s.add_argument("episode"); s.set_defaults(fn=cmd_shotlist)
+    s = sub.add_parser("stills"); s.add_argument("episode"); s.add_argument("times", nargs="+"); s.set_defaults(fn=cmd_stills)
+    s = sub.add_parser("package"); s.add_argument("episode"); s.set_defaults(fn=cmd_package)
+    s = sub.add_parser("slot"); s.set_defaults(fn=cmd_slot)
+    s = sub.add_parser("queue"); s.add_argument("--github-output", action="store_true"); s.set_defaults(fn=cmd_queue)
+    s = sub.add_parser("notify"); s.add_argument("text"); s.set_defaults(fn=cmd_notify)
+    s = sub.add_parser("finish"); s.add_argument("episode"); s.add_argument("--strict", action="store_true"); s.set_defaults(fn=cmd_finish)
+    s = sub.add_parser("review-frames"); s.add_argument("episode"); s.set_defaults(fn=cmd_review_frames)
+    s = sub.add_parser("gate"); s.add_argument("episode"); s.set_defaults(fn=cmd_gate)
+    s = sub.add_parser("upload-all"); s.add_argument("episode"); s.set_defaults(fn=cmd_upload_all)
     s = sub.add_parser("auth-meta"); s.set_defaults(fn=cmd_auth_meta)
     s = sub.add_parser("social"); s.add_argument("action", choices=["release", "publish-due"]); s.add_argument("episode", nargs="?"); s.add_argument("--dry-run", action="store_true"); s.set_defaults(fn=cmd_social)
     s = sub.add_parser("competitors"); s.set_defaults(fn=cmd_competitors)

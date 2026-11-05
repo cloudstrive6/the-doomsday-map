@@ -16,6 +16,17 @@ on:
         description: "Episode or Short"
         required: true
         default: "Episode"
+  workflow_call:          # produce.yml renders the episode and its Shorts through this workflow
+    inputs:
+      episode:
+        type: string
+        required: true
+      chunks:
+        type: string
+        required: true
+      composition:
+        type: string
+        required: true
 
 concurrency:
   group: render-${{ inputs.episode }}-${{ inputs.composition }}
@@ -29,6 +40,8 @@ jobs:
       frames: ${{ steps.m.outputs.frames }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: master   # the episode files were committed after this run was triggered
       - uses: actions/setup-node@v4
         with: { node-version: 22, cache: npm, cache-dependency-path: video/package-lock.json }
       - run: npm ci --no-audit --no-fund
@@ -53,6 +66,8 @@ jobs:
         index: ${{ fromJSON(needs.plan.outputs.matrix) }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: master   # the episode files were committed after this run was triggered
       - uses: actions/setup-node@v4
         with: { node-version: 22, cache: npm, cache-dependency-path: video/package-lock.json }
       - run: npm ci --no-audit --no-fund

@@ -134,7 +134,7 @@ def next_publish_slot(taken: list[str] | None = None) -> dt.datetime:
 
 def queue_status() -> dict:
     """How many episodes are scheduled but not yet public, and whether production should make another."""
-    from .__main__ import get_stage
+    from .pipeline import get_stage
     cfg = load_config()["schedule"]
     now = dt.datetime.now(dt.timezone.utc)
     taken = taken_slots()

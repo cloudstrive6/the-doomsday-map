@@ -33,3 +33,4 @@ jobs:
             gh workflow run produce.yml -R "$R" && echo "-> produce"
           fi
           if [ "$H" = "23" ] && [ "$M" -ge 30 ]; then gh workflow run snapshot.yml -R "$R" && echo "-> snapshot"; fi   # daily
+          if [ "$DOW" = "7" ] && [ "$H" = "20" ] && [ "$M" -lt 30 ]; then gh workflow run growth.yml -R "$R" && echo "-> growth"; fi   # weekly, Monday 09:00 NZDT

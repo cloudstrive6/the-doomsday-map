@@ -69,9 +69,9 @@ social:                     # cross-posting after the video is live on YouTube (
 schedule:
   timezone: "America/New_York"
   display_timezone: "Pacific/Auckland"
-  publish_time: "12:00"
+  publish_time: "19:00"          # New York; 13:00 NZDT next day
   publish_days: [Mon, Tue, Wed, Thu, Fri, Sat, Sun]
-  review_window_days: 0.75    # uploads go private with publishAt at least 18 h ahead
+  review_window_days: 0.25    # uploads go private with publishAt at least 6 h ahead (no human review since 2026-11-05)
   episodes_ahead: 2
   launch:
     episodes: 2               # launch phase ended after episode 002
