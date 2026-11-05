@@ -1,0 +1,6303 @@
+{
+ "slug": "002-china-blockades-taiwan",
+ "fps": 60,
+ "width": 1920,
+ "height": 1080,
+ "durationSeconds": 674.6,
+ "musicPlan": [
+  {
+   "src": "bed.mp3",
+   "from": 0,
+   "to": 256.567,
+   "loop": [
+    2,
+    174
+   ],
+   "gain_db": -17
+  },
+  {
+   "src": "bed_tense.mp3",
+   "from": 254.567,
+   "to": 500.465,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  },
+  {
+   "src": "bed.mp3",
+   "from": 498.465,
+   "to": 674.6,
+   "loop": [
+    2,
+    174
+   ],
+   "gain_db": -17
+  }
+ ],
+ "sfxPlan": [
+  {
+   "src": "impact.mp3",
+   "t": 59.045,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 122.66900000000001,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 213.83,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 255.717,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 422.46999999999997,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 499.61499999999995,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 531.7579999999999,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 579.637,
+   "gain_db": -9
+  },
+  {
+   "src": "radar.mp3",
+   "t": 605.56,
+   "gain_db": -12
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 30.283,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 169.993,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 313.624,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 400.122,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 539.0880000000001,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 593.575,
+   "gain_db": -14
+  },
+  {
+   "src": "boom.mp3",
+   "t": 451.35,
+   "gain_db": -4
+  },
+  {
+   "src": "boom.mp3",
+   "t": 374.061,
+   "gain_db": -12
+  },
+  {
+   "src": "boom.mp3",
+   "t": 379.861,
+   "gain_db": -12
+  }
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated.",
+ "shots": [
+  {
+   "id": "open-tanker",
+   "type": "region",
+   "start": 0,
+   "end": 8.216,
+   "tag": "SIMULATION",
+   "clock": "05:00",
+   "clockLabel": "TAIPEI TIME · DAY 1",
+   "view": {
+    "center": [
+     120.15,
+     22.35
+    ],
+    "widthKm": 240
+   },
+   "zoomTo": {
+    "center": [
+     120.2,
+     22.42
+    ],
+    "widthKm": 170
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F",
+     "fill": "rgba(255,210,63,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      120.27,
+      22.61
+     ],
+     "label": "Kaohsiung",
+     "kind": "dot"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       119.55,
+       21.85
+      ],
+      [
+       120.17,
+       22.49
+      ]
+     ],
+     "t0": 0,
+     "t1": 14,
+     "kind": "tanker",
+     "label": "LNG carrier"
+    },
+    {
+     "path": [
+      [
+       120.95,
+       21.9
+      ],
+      [
+       120.12,
+       22.2
+      ]
+     ],
+     "t0": 0,
+     "t1": 7.5,
+     "kind": "coastguard",
+     "label": "China Coast Guard"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      119.95,
+      22.0
+     ],
+     "text": "60 km off Kaohsiung",
+     "color": "rgba(236,239,242,0.7)",
+     "t": 2
+    }
+   ]
+  },
+  {
+   "id": "open-call",
+   "type": "region",
+   "start": 8.216,
+   "end": 27.185,
+   "tag": "SIMULATION",
+   "clock": "06:00",
+   "clockLabel": "TAIPEI TIME · DAY 1",
+   "caption": "Stop your engines. Prepare to be boarded for inspection.",
+   "view": {
+    "center": [
+     120.8,
+     23.6
+    ],
+    "widthKm": 1100
+   },
+   "zoomTo": {
+    "center": [
+     120.9,
+     23.7
+    ],
+    "widthKm": 1250
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F",
+     "fill": "rgba(255,210,63,0.08)"
+    },
+    {
+     "iso": "156",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      120.27,
+      22.61
+     ],
+     "label": "Kaohsiung",
+     "kind": "dot"
+    },
+    {
+     "at": [
+      121.74,
+      25.13
+     ],
+     "label": "Keelung",
+     "kind": "dot"
+    },
+    {
+     "at": [
+      120.51,
+      24.29
+     ],
+     "label": "Taichung",
+     "kind": "dot"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       121.0391,
+       22.4457
+      ],
+      [
+       120.1391,
+       22.4457
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 8.0,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       120.5146,
+       23.3132
+      ],
+      [
+       120.0283,
+       22.5559
+      ]
+     ],
+     "t0": 1.1,
+     "t1": 8.6,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       119.4923,
+       23.3928
+      ],
+      [
+       119.8668,
+       22.5744
+      ]
+     ],
+     "t0": 1.7,
+     "t1": 9.2,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       118.8392,
+       22.6196
+      ],
+      [
+       119.7302,
+       22.4926
+      ]
+     ],
+     "t0": 2.3,
+     "t1": 9.8,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       119.0941,
+       21.6677
+      ],
+      [
+       119.6824,
+       22.3488
+      ]
+     ],
+     "t0": 2.9,
+     "t1": 10.4,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       120.0011,
+       21.3472
+      ],
+      [
+       119.7458,
+       22.2102
+      ]
+     ],
+     "t0": 3.5,
+     "t1": 11.0,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       120.7549,
+       21.8902
+      ],
+      [
+       119.8907,
+       22.1417
+      ]
+     ],
+     "t0": 4.1,
+     "t1": 11.6,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       120.7278,
+       22.7666
+      ],
+      [
+       120.0493,
+       22.1753
+      ]
+     ],
+     "t0": 4.7,
+     "t1": 12.2,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       120.0164,
+       23.1858
+      ],
+      [
+       120.1474,
+       22.2954
+      ]
+     ],
+     "t0": 5.3,
+     "t1": 12.8,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       119.4623,
+       24.7466
+      ],
+      [
+       120.2823,
+       24.3757
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 8.0,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       119.3955,
+       24.0043
+      ],
+      [
+       120.1507,
+       24.4939
+      ]
+     ],
+     "t0": 1.1,
+     "t1": 8.6,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       119.97,
+       23.5926
+      ],
+      [
+       119.966,
+       24.4926
+      ]
+     ],
+     "t0": 1.7,
+     "t1": 9.2,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       120.5958,
+       23.8898
+      ],
+      [
+       119.8363,
+       24.3727
+      ]
+     ],
+     "t0": 2.3,
+     "t1": 9.8,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       120.6544,
+       24.5825
+      ],
+      [
+       119.8377,
+       24.2043
+      ]
+     ],
+     "t0": 2.9,
+     "t1": 10.4,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       120.0924,
+       24.9776
+      ],
+      [
+       119.9693,
+       24.0861
+      ]
+     ],
+     "t0": 3.5,
+     "t1": 11.0,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       119.4703,
+       24.6727
+      ],
+      [
+       120.154,
+       24.0874
+      ]
+     ],
+     "t0": 4.1,
+     "t1": 11.6,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       119.4218,
+       23.9482
+      ],
+      [
+       120.2837,
+       24.2073
+      ]
+     ],
+     "t0": 4.7,
+     "t1": 12.2,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       121.9668,
+       24.6504
+      ],
+      [
+       122.2144,
+       25.5157
+      ]
+     ],
+     "t0": 5.3,
+     "t1": 12.8,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       122.6759,
+       24.958
+      ],
+      [
+       122.0816,
+       25.6339
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 8.0,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       122.7849,
+       25.7675
+      ],
+      [
+       121.8951,
+       25.6326
+      ]
+     ],
+     "t0": 1.1,
+     "t1": 8.6,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       122.1316,
+       26.3344
+      ],
+      [
+       121.7643,
+       25.5127
+      ]
+     ],
+     "t0": 1.7,
+     "t1": 9.2,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       121.2726,
+       26.0973
+      ],
+      [
+       121.7656,
+       25.3443
+      ]
+     ],
+     "t0": 2.3,
+     "t1": 9.8,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       120.9984,
+       25.2181
+      ],
+      [
+       121.8984,
+       25.2261
+      ]
+     ],
+     "t0": 2.9,
+     "t1": 10.4,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       121.6054,
+       24.4658
+      ],
+      [
+       122.0849,
+       25.2274
+      ]
+     ],
+     "t0": 3.5,
+     "t1": 11.0,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       122.5975,
+       24.5323
+      ],
+      [
+       122.2157,
+       25.3473
+      ]
+     ],
+     "t0": 4.1,
+     "t1": 11.6,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       121.8162,
+       25.2366
+      ],
+      [
+       120.9241,
+       25.3557
+      ]
+     ],
+     "t0": 4.7,
+     "t1": 12.2,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       121.3122,
+       26.1746
+      ],
+      [
+       120.73,
+       25.4883
+      ]
+     ],
+     "t0": 5.3,
+     "t1": 12.8,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       120.243,
+       26.2633
+      ],
+      [
+       120.5059,
+       25.4026
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 8.0,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       119.6096,
+       25.4281
+      ],
+      [
+       120.4759,
+       25.1843
+      ]
+     ],
+     "t0": 1.1,
+     "t1": 8.6,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       119.9967,
+       24.4544
+      ],
+      [
+       120.67,
+       25.0517
+      ]
+     ],
+     "t0": 1.7,
+     "t1": 9.2,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       121.0329,
+       24.2482
+      ],
+      [
+       120.8941,
+       25.1374
+      ]
+     ],
+     "t0": 2.3,
+     "t1": 9.8,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       123.0451,
+       23.7021
+      ],
+      [
+       122.2218,
+       24.0657
+      ]
+     ],
+     "t0": 2.9,
+     "t1": 10.4,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       122.7805,
+       24.6946
+      ],
+      [
+       122.0297,
+       24.1983
+      ]
+     ],
+     "t0": 3.5,
+     "t1": 11.0,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       121.796,
+       25.0125
+      ],
+      [
+       121.8079,
+       24.1126
+      ]
+     ],
+     "t0": 4.1,
+     "t1": 11.6,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       121.0145,
+       24.3705
+      ],
+      [
+       121.7782,
+       23.8943
+      ]
+     ],
+     "t0": 4.7,
+     "t1": 12.2,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       121.157,
+       23.3763
+      ],
+      [
+       121.9703,
+       23.7617
+      ]
+     ],
+     "t0": 5.3,
+     "t1": 12.8,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       122.0769,
+       22.9548
+      ],
+      [
+       122.1921,
+       23.8474
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 8.0,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       118.2,
+       21.0
+      ],
+      [
+       119.6,
+       22.0
+      ],
+      [
+       118.9,
+       21.3
+      ]
+     ],
+     "t0": 1,
+     "t1": 17,
+     "kind": "cargo"
+    },
+    {
+     "path": [
+      [
+       123.8,
+       21.5
+      ],
+      [
+       121.9,
+       22.4
+      ],
+      [
+       123.0,
+       21.8
+      ]
+     ],
+     "t0": 1,
+     "t1": 17,
+     "kind": "tanker"
+    },
+    {
+     "path": [
+      [
+       123.9,
+       26.2
+      ],
+      [
+       122.4,
+       25.4
+      ],
+      [
+       123.4,
+       25.9
+      ]
+     ],
+     "t0": 1,
+     "t1": 17,
+     "kind": "cargo"
+    },
+    {
+     "path": [
+      [
+       117.6,
+       23.0
+      ],
+      [
+       119.3,
+       23.6
+      ],
+      [
+       118.4,
+       23.2
+      ]
+     ],
+     "t0": 1,
+     "t1": 17,
+     "kind": "tanker"
+    },
+    {
+     "path": [
+      [
+       124.2,
+       24.0
+      ],
+      [
+       122.4,
+       23.8
+      ],
+      [
+       123.5,
+       23.9
+      ]
+     ],
+     "t0": 1,
+     "t1": 17,
+     "kind": "cargo"
+    },
+    {
+     "path": [
+      [
+       119.2,
+       26.8
+      ],
+      [
+       120.4,
+       25.9
+      ],
+      [
+       119.7,
+       26.4
+      ]
+     ],
+     "t0": 1,
+     "t1": 17,
+     "kind": "tanker"
+    }
+   ]
+  },
+  {
+   "id": "open-11",
+   "type": "number",
+   "start": 27.185,
+   "end": 30.683,
+   "tag": "SIMULATION",
+   "value": "11 DAYS",
+   "label": "of gas in storage",
+   "sub": "Taiwan's legal LNG reserve",
+   "color": "#F2B01E",
+   "source": "Energy Administration, Ministry of Economic Affairs; CSIS"
+  },
+  {
+   "id": "open-23",
+   "type": "stamp",
+   "start": 30.683,
+   "end": 37.025,
+   "tag": "SIMULATION",
+   "text": "DAY 23",
+   "line": "the first nuclear weapon used in war since Nagasaki",
+   "color": "#FF3B3B"
+  },
+  {
+   "id": "open-disclaimer",
+   "type": "text",
+   "start": 37.025,
+   "end": 51.176,
+   "tag": "SIMULATION",
+   "lines": [
+    "A simulation",
+    "It has not happened. The coast guard patrols that begin it are real, and every number has a source."
+   ]
+  },
+  {
+   "id": "open-title",
+   "type": "globe",
+   "start": 51.176,
+   "end": 58.895,
+   "tag": "SIMULATION",
+   "caption": "China blockades Taiwan. Day by day.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 22,
+     "lon": 128,
+     "scale": 900
+    },
+    {
+     "t": 9,
+     "lat": 24,
+     "lon": 122,
+     "scale": 1500
+    }
+   ],
+   "sun": {
+    "lat": -10,
+    "lon": 110
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F"
+    },
+    {
+     "iso": "156",
+     "color": "#FF3B3B"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      121.56,
+      25.03
+     ],
+     "label": "Taiwan",
+     "color": "#FFD23F",
+     "kind": "dot",
+     "t": 1
+    }
+   ]
+  },
+  {
+   "id": "c1-card",
+   "type": "chapter",
+   "start": 58.895,
+   "end": 62.395,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 01",
+   "title": "An island that runs on ships"
+  },
+  {
+   "id": "c1-97",
+   "type": "number",
+   "start": 62.395,
+   "end": 66.552,
+   "tag": "REAL DATA",
+   "value": "97%",
+   "countTo": 97,
+   "suffix": "%",
+   "label": "of Taiwan's energy is imported",
+   "sub": "almost all of it by sea · energy self-sufficiency 4.2%",
+   "source": "CSIS, 2026-05-14; Energy Administration, MOEA"
+  },
+  {
+   "id": "c1-lng",
+   "type": "region",
+   "start": 66.552,
+   "end": 85.016,
+   "tag": "REAL DATA",
+   "caption": "Natural gas: 47.8% of Taiwan's electricity in 2025",
+   "source": "CSIS; Energy Administration, MOEA; Argus",
+   "view": {
+    "center": [
+     120.7,
+     23.8
+    ],
+    "widthKm": 1000
+   },
+   "zoomTo": {
+    "center": [
+     120.6,
+     23.8
+    ],
+    "widthKm": 900
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F",
+     "fill": "rgba(255,210,63,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      120.2,
+      22.82
+     ],
+     "label": "Yong-An LNG",
+     "color": "#F2B01E",
+     "kind": "base",
+     "size": 6,
+     "t": 1.0
+    },
+    {
+     "at": [
+      120.49,
+      24.25
+     ],
+     "label": "Taichung LNG",
+     "color": "#F2B01E",
+     "kind": "base",
+     "size": 6,
+     "t": 2.6
+    },
+    {
+     "at": [
+      121.05,
+      25.07
+     ],
+     "label": "Guantang LNG",
+     "color": "#F2B01E",
+     "kind": "base",
+     "size": 6,
+     "t": 4.2
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       118.9,
+       22.0
+      ],
+      [
+       120.12,
+       22.82
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 12,
+     "kind": "tanker"
+    },
+    {
+     "path": [
+      [
+       119.0,
+       24.0
+      ],
+      [
+       120.41,
+       24.25
+      ]
+     ],
+     "t0": 1.5,
+     "t1": 13,
+     "kind": "tanker"
+    },
+    {
+     "path": [
+      [
+       120.0,
+       26.0
+      ],
+      [
+       120.97,
+       25.07
+      ]
+     ],
+     "t0": 2.5,
+     "t1": 14,
+     "kind": "tanker"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      121.0,
+      21.8
+     ],
+     "text": "last reactor shut down · May 2025",
+     "color": "rgba(236,239,242,0.7)",
+     "t": 11
+    }
+   ]
+  },
+  {
+   "id": "c1-reserves",
+   "type": "bars",
+   "start": 85.016,
+   "end": 94.352,
+   "tag": "REAL DATA",
+   "title": "Days in storage",
+   "sub": "Taiwan, 2025 to 2026",
+   "source": "Energy Administration, MOEA; CSIS, 2026-05-14",
+   "bars": [
+    {
+     "label": "Liquefied natural gas",
+     "value": 11,
+     "display": "about 11 days",
+     "color": "#FF3B3B"
+    },
+    {
+     "label": "Coal",
+     "value": 40,
+     "display": "about 40 days",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "Crude oil",
+     "value": 140,
+     "display": "about 140 days",
+     "color": "#3ED6C8"
+    }
+   ]
+  },
+  {
+   "id": "c1-food",
+   "type": "isotype",
+   "start": 94.352,
+   "end": 98.705,
+   "tag": "REAL DATA",
+   "headline": "30%",
+   "label": "of the calories Taiwan eats are grown at home",
+   "total": 100,
+   "filled": 30,
+   "per": "1%",
+   "cols": 20,
+   "color": "#3ED6C8",
+   "sub": "30.3% in 2023, an 18-year low",
+   "source": "Taipei Times, 2024-10-16"
+  },
+  {
+   "id": "c1-trade",
+   "type": "globe",
+   "start": 98.705,
+   "end": 114.817,
+   "tag": "REAL DATA",
+   "caption": "Most of the world's most advanced chips. A fifth of seaborne trade sails past: about $2.45 trillion (2022).",
+   "source": "CSIS ChinaPower; Bloomberg Economics",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 18,
+     "lon": 128,
+     "scale": 820
+    },
+    {
+     "t": 15,
+     "lat": 22,
+     "lon": 124,
+     "scale": 980
+    }
+   ],
+   "sun": {
+    "lat": -10,
+    "lon": 120
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F"
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      121.5,
+      31.0
+     ],
+     "to": [
+      103.8,
+      1.3
+     ],
+     "t0": 0.5,
+     "t1": 7.0,
+     "color": "#3ED6C8",
+     "loft": 0.02,
+     "width": 1.6
+    },
+    {
+     "from": [
+      129.0,
+      35.1
+     ],
+     "to": [
+      103.8,
+      1.3
+     ],
+     "t0": 1.2,
+     "t1": 7.7,
+     "color": "#3ED6C8",
+     "loft": 0.02,
+     "width": 1.6
+    },
+    {
+     "from": [
+      120.3,
+      22.6
+     ],
+     "to": [
+      -118.2,
+      33.7
+     ],
+     "t0": 1.9,
+     "t1": 8.4,
+     "color": "#3ED6C8",
+     "loft": 0.02,
+     "width": 1.6
+    },
+    {
+     "from": [
+      118.1,
+      24.5
+     ],
+     "to": [
+      103.8,
+      1.3
+     ],
+     "t0": 2.5999999999999996,
+     "t1": 9.1,
+     "color": "#3ED6C8",
+     "loft": 0.02,
+     "width": 1.6
+    },
+    {
+     "from": [
+      126.6,
+      37.4
+     ],
+     "to": [
+      114.2,
+      22.3
+     ],
+     "t0": 3.3,
+     "t1": 9.8,
+     "color": "#3ED6C8",
+     "loft": 0.02,
+     "width": 1.6
+    },
+    {
+     "from": [
+      139.7,
+      35.4
+     ],
+     "to": [
+      103.8,
+      1.3
+     ],
+     "t0": 4.0,
+     "t1": 10.5,
+     "color": "#3ED6C8",
+     "loft": 0.02,
+     "width": 1.6
+    },
+    {
+     "from": [
+      121.6,
+      38.9
+     ],
+     "to": [
+      113.9,
+      22.5
+     ],
+     "t0": 4.699999999999999,
+     "t1": 11.2,
+     "color": "#3ED6C8",
+     "loft": 0.02,
+     "width": 1.6
+    }
+   ]
+  },
+  {
+   "id": "c1-strait",
+   "type": "region",
+   "start": 114.817,
+   "end": 122.519,
+   "tag": "REAL DATA",
+   "source": "Wikipedia; WorldAtlas; Britannica",
+   "view": {
+    "center": [
+     120.4,
+     24.9
+    ],
+    "widthKm": 480
+   },
+   "zoomTo": {
+    "center": [
+     120.35,
+     25.0
+    ],
+    "widthKm": 400
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F",
+     "fill": "rgba(255,210,63,0.08)"
+    },
+    {
+     "iso": "156",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.06)"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      119.79,
+      25.5
+     ],
+     "to": [
+      120.92,
+      24.81
+     ],
+     "label": "about 130 km",
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 1,
+     "t1": 3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      120.35,
+      25.35
+     ],
+     "text": "about 130 km at the narrowest",
+     "color": "#F2B01E",
+     "t": 3
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "China"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      119.79,
+      25.5
+     ],
+     "label": "Pingtan",
+     "color": "#FF3B3B",
+     "kind": "dot"
+    },
+    {
+     "at": [
+      120.92,
+      24.81
+     ],
+     "label": "Hsinchu",
+     "kind": "dot"
+    }
+   ]
+  },
+  {
+   "id": "c2-card",
+   "type": "chapter",
+   "start": 122.519,
+   "end": 125.92,
+   "tag": "REAL HISTORY",
+   "kicker": "CHAPTER 02",
+   "title": "It has already started"
+  },
+  {
+   "id": "c2-1996",
+   "type": "region",
+   "start": 125.92,
+   "end": 143.824,
+   "tag": "REAL HISTORY",
+   "clock": "1996",
+   "clockLabel": "MARCH",
+   "caption": "Missiles off Taiwan's two biggest ports, before its first direct presidential election",
+   "source": "US State Department; CSIS Missile Threat; DVIDS",
+   "view": {
+    "center": [
+     120.9,
+     23.7
+    ],
+    "widthKm": 1300
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F",
+     "fill": "rgba(255,210,63,0.08)"
+    },
+    {
+     "iso": "156",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      120.27,
+      22.61
+     ],
+     "label": "Kaohsiung",
+     "kind": "dot"
+    },
+    {
+     "at": [
+      121.74,
+      25.13
+     ],
+     "label": "Keelung",
+     "kind": "dot"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      122.04,
+      25.48
+     ],
+     "km": 30,
+     "color": "#FF3B3B",
+     "t": 2
+    },
+    {
+     "at": [
+      119.97,
+      22.31
+     ],
+     "km": 30,
+     "color": "#FF3B3B",
+     "t": 3.2
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       127.5,
+       26.0
+      ],
+      [
+       123.0,
+       23.9
+      ]
+     ],
+     "t0": 7,
+     "t1": 16,
+     "kind": "us",
+     "label": "USS Independence"
+    },
+    {
+     "path": [
+      [
+       123.5,
+       19.5
+      ],
+      [
+       122.7,
+       22.0
+      ]
+     ],
+     "t0": 9,
+     "t1": 17,
+     "kind": "us",
+     "label": "USS Nimitz"
+    }
+   ]
+  },
+  {
+   "id": "c2-2022",
+   "type": "region",
+   "start": 143.824,
+   "end": 159.824,
+   "tag": "REAL HISTORY",
+   "clock": "2022",
+   "clockLabel": "AUGUST",
+   "caption": "11 ballistic missiles. Five landed in Japan's exclusive economic zone.",
+   "source": "ASPI; Taipei Times, 2022-08-05",
+   "view": {
+    "center": [
+     122.0,
+     23.8
+    ],
+    "widthKm": 1300
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F",
+     "fill": "rgba(255,210,63,0.08)"
+    },
+    {
+     "iso": "156",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.06)"
+    },
+    {
+     "iso": "392",
+     "color": "#3ED6C8"
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       119.64,
+       25.258
+      ],
+      [
+       120.308,
+       25.465
+      ],
+      [
+       120.16,
+       25.942
+      ],
+      [
+       119.492,
+       25.735
+      ]
+     ],
+     "t": 0.5
+    },
+    {
+     "points": [
+      [
+       121.992,
+       25.365
+      ],
+      [
+       122.66,
+       25.158
+      ],
+      [
+       122.808,
+       25.635
+      ],
+      [
+       122.14,
+       25.842
+      ]
+     ],
+     "t": 0.9
+    },
+    {
+     "points": [
+      [
+       122.95,
+       23.15
+      ],
+      [
+       123.65,
+       23.15
+      ],
+      [
+       123.65,
+       23.65
+      ],
+      [
+       122.95,
+       23.65
+      ]
+     ],
+     "t": 1.3
+    },
+    {
+     "points": [
+      [
+       121.107,
+       21.185
+      ],
+      [
+       121.793,
+       21.325
+      ],
+      [
+       121.693,
+       21.815
+      ],
+      [
+       121.007,
+       21.675
+      ]
+     ],
+     "t": 1.7000000000000002
+    },
+    {
+     "points": [
+      [
+       119.075,
+       22.233
+      ],
+      [
+       119.72,
+       22.506
+      ],
+      [
+       119.525,
+       22.967
+      ],
+      [
+       118.88,
+       22.694
+      ]
+     ],
+     "t": 2.1
+    },
+    {
+     "points": [
+      [
+       118.25,
+       23.95
+      ],
+      [
+       118.95,
+       23.95
+      ],
+      [
+       118.95,
+       24.45
+      ],
+      [
+       118.25,
+       24.45
+      ]
+     ],
+     "t": 2.5
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      123.2,
+      24.0
+     ],
+     "km": 18,
+     "color": "#FF3B3B",
+     "t": 4.0
+    },
+    {
+     "at": [
+      123.5,
+      23.2
+     ],
+     "km": 18,
+     "color": "#FF3B3B",
+     "t": 4.6
+    },
+    {
+     "at": [
+      122.6,
+      25.6
+     ],
+     "km": 18,
+     "color": "#FF3B3B",
+     "t": 5.2
+    },
+    {
+     "at": [
+      121.6,
+      21.4
+     ],
+     "km": 18,
+     "color": "#FF3B3B",
+     "t": 5.8
+    },
+    {
+     "at": [
+      119.6,
+      22.6
+     ],
+     "km": 18,
+     "color": "#FF3B3B",
+     "t": 6.4
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      124.3,
+      24.9
+     ],
+     "text": "Japan EEZ",
+     "color": "#3ED6C8",
+     "t": 6
+    }
+   ]
+  },
+  {
+   "id": "c2-153",
+   "type": "number",
+   "start": 159.824,
+   "end": 170.393,
+   "tag": "REAL HISTORY",
+   "value": "153",
+   "countTo": 153,
+   "label": "Chinese military aircraft around Taiwan in one day",
+   "sub": "Joint Sword-2024B · 14 October 2024 · coast guard ships circling the island",
+   "color": "#FF3B3B",
+   "source": "NBC News; VOA"
+  },
+  {
+   "id": "c2-2025",
+   "type": "stamp",
+   "start": 170.393,
+   "end": 181.633,
+   "tag": "REAL HISTORY",
+   "text": "April 2025",
+   "line": "Strait Thunder-2025A · training in blockade and control · live fire at simulated ports and energy facilities",
+   "color": "#F2B01E"
+  },
+  {
+   "id": "c2-justice",
+   "type": "region",
+   "start": 181.633,
+   "end": 196.177,
+   "tag": "REAL HISTORY",
+   "clock": "2025",
+   "clockLabel": "DECEMBER",
+   "caption": "Justice Mission 2025: zones overlapping Taiwan's territorial waters",
+   "source": "USNI News, 2025-12-31; The Aviationist",
+   "view": {
+    "center": [
+     120.9,
+     23.7
+    ],
+    "widthKm": 1300
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F",
+     "fill": "rgba(255,210,63,0.08)"
+    },
+    {
+     "iso": "156",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.06)"
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       121.486,
+       25.474
+      ],
+      [
+       122.346,
+       25.208
+      ],
+      [
+       122.494,
+       25.686
+      ],
+      [
+       121.634,
+       25.952
+      ]
+     ],
+     "t": 1,
+     "pulse": true
+    },
+    {
+     "points": [
+      [
+       119.434,
+       21.901
+      ],
+      [
+       120.079,
+       22.174
+      ],
+      [
+       119.806,
+       22.819
+      ],
+      [
+       119.161,
+       22.546
+      ]
+     ],
+     "t": 2.2,
+     "pulse": true
+    },
+    {
+     "points": [
+      [
+       119.535,
+       24.19
+      ],
+      [
+       120.085,
+       24.19
+      ],
+      [
+       120.085,
+       24.79
+      ],
+      [
+       119.535,
+       24.79
+      ]
+     ],
+     "t": 3.4
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      119.3,
+      26.08
+     ],
+     "to": [
+      121.94,
+      25.58
+     ],
+     "color": "#FF3B3B",
+     "t0": 5,
+     "t1": 7
+    },
+    {
+     "from": [
+      118.1,
+      24.5
+     ],
+     "to": [
+      119.67,
+      22.36
+     ],
+     "color": "#FF3B3B",
+     "t0": 6,
+     "t1": 8
+    }
+   ]
+  },
+  {
+   "id": "c2-2026",
+   "type": "region",
+   "start": 196.177,
+   "end": 213.68,
+   "tag": "REAL DATA",
+   "clock": "OCT 2026",
+   "clockLabel": "NOW",
+   "caption": "China Coast Guard \"law enforcement patrols\" east of Taiwan, since early October 2026",
+   "source": "Reuters, 2026-10-31; Baird Maritime, 2026-11-02",
+   "view": {
+    "center": [
+     121.9,
+     23.8
+    ],
+    "widthKm": 1150
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F",
+     "fill": "rgba(255,210,63,0.08)"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       123.2,
+       25.6
+      ],
+      [
+       122.6,
+       24.2
+      ],
+      [
+       122.7,
+       22.8
+      ],
+      [
+       123.2,
+       22.0
+      ]
+     ],
+     "t0": 0,
+     "t1": 16,
+     "kind": "coastguard",
+     "label": "China Coast Guard"
+    },
+    {
+     "path": [
+      [
+       122.8,
+       22.3
+      ],
+      [
+       122.5,
+       23.5
+      ],
+      [
+       122.9,
+       24.9
+      ]
+     ],
+     "t0": 2,
+     "t1": 16,
+     "kind": "coastguard"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      123.3,
+      23.6
+     ],
+     "text": "waters east of Taiwan",
+     "color": "#FF7A1A",
+     "t": 3
+    }
+   ]
+  },
+  {
+   "id": "c3-card",
+   "type": "chapter",
+   "start": 213.68,
+   "end": 219.432,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 03",
+   "title": "Quarantine, not blockade"
+  },
+  {
+   "id": "c3-law",
+   "type": "text",
+   "start": 219.432,
+   "end": 229.77,
+   "tag": "REAL DATA",
+   "lines": [
+    "Blockade: an act of aggression",
+    "UN General Assembly Resolution 3314 (1974), Article 3(c). It can mark the start of a war."
+   ]
+  },
+  {
+   "id": "c3-quarantine",
+   "type": "text",
+   "start": 229.77,
+   "end": 237.714,
+   "tag": "REAL DATA",
+   "lines": [
+    "Quarantine: law enforcement",
+    "coast guards and customs officers. At least on paper, something less than war."
+   ]
+  },
+  {
+   "id": "c3-cuba",
+   "type": "region",
+   "start": 237.714,
+   "end": 246.408,
+   "tag": "REAL HISTORY",
+   "clock": "1962",
+   "clockLabel": "OCTOBER",
+   "caption": "1962: America called its naval ring around Cuba a \"quarantine\"",
+   "source": "Lieber Institute, West Point; CSIS",
+   "view": {
+    "center": [
+     -78.5,
+     22.5
+    ],
+    "widthKm": 1600
+   },
+   "highlight": [
+    {
+     "iso": "192",
+     "color": "#FF3B3B"
+    },
+    {
+     "iso": "840",
+     "color": "#3ED6C8"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -74.0667,
+       22.6344
+      ],
+      [
+       -74.0667,
+       22.6344
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 0.3
+    },
+    {
+     "path": [
+      [
+       -75.11,
+       24.5808
+      ],
+      [
+       -75.11,
+       24.5808
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 0.55
+    },
+    {
+     "path": [
+      [
+       -77.0616,
+       25.782
+      ],
+      [
+       -77.0616,
+       25.782
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 0.8
+    },
+    {
+     "path": [
+      [
+       -79.3987,
+       25.9163
+      ],
+      [
+       -79.3987,
+       25.9163
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 1.05
+    },
+    {
+     "path": [
+      [
+       -81.4949,
+       24.9476
+      ],
+      [
+       -81.4949,
+       24.9476
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 1.3
+    },
+    {
+     "path": [
+      [
+       -82.7887,
+       23.1355
+      ],
+      [
+       -82.7887,
+       23.1355
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 1.55
+    },
+    {
+     "path": [
+      [
+       -82.9333,
+       20.9656
+      ],
+      [
+       -82.9333,
+       20.9656
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 1.8
+    },
+    {
+     "path": [
+      [
+       -81.89,
+       19.0192
+      ],
+      [
+       -81.89,
+       19.0192
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 2.05
+    },
+    {
+     "path": [
+      [
+       -79.9384,
+       17.818
+      ],
+      [
+       -79.9384,
+       17.818
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 2.3
+    },
+    {
+     "path": [
+      [
+       -77.6013,
+       17.6837
+      ],
+      [
+       -77.6013,
+       17.6837
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 2.55
+    },
+    {
+     "path": [
+      [
+       -75.5051,
+       18.6524
+      ],
+      [
+       -75.5051,
+       18.6524
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 2.8
+    },
+    {
+     "path": [
+      [
+       -74.2113,
+       20.4645
+      ],
+      [
+       -74.2113,
+       20.4645
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "us",
+     "t": 3.05
+    }
+   ]
+  },
+  {
+   "id": "c3-ccg",
+   "type": "bars",
+   "start": 246.408,
+   "end": 255.567,
+   "tag": "REAL DATA",
+   "title": "Ocean-going coast guard ships",
+   "sub": "over 1,000 tonnes",
+   "source": "CSIS, How China Could Quarantine Taiwan, 2024-06-05",
+   "bars": [
+    {
+     "label": "China Coast Guard",
+     "value": 150,
+     "display": "more than 150",
+     "color": "#FF7A1A"
+    },
+    {
+     "label": "Taiwan Coast Guard",
+     "value": 10,
+     "display": "about 10",
+     "color": "#FFD23F"
+    }
+   ]
+  },
+  {
+   "id": "c4-card",
+   "type": "chapter",
+   "start": 255.567,
+   "end": 259.067,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 04",
+   "title": "Day by day"
+  },
+  {
+   "id": "c4-d1",
+   "type": "region",
+   "start": 259.067,
+   "end": 269.943,
+   "tag": "SIMULATION",
+   "clock": "DAY 1",
+   "clockLabel": "OF THE BLOCKADE",
+   "caption": "Customs inspection for every ship bound for Taiwan",
+   "view": {
+    "center": [
+     120.9,
+     23.7
+    ],
+    "widthKm": 1300
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F",
+     "fill": "rgba(255,210,63,0.08)"
+    },
+    {
+     "iso": "156",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      120.27,
+      22.61
+     ],
+     "label": "Kaohsiung",
+     "kind": "dot"
+    },
+    {
+     "at": [
+      121.74,
+      25.13
+     ],
+     "label": "Keelung",
+     "kind": "dot"
+    },
+    {
+     "at": [
+      120.51,
+      24.29
+     ],
+     "label": "Taichung",
+     "kind": "dot"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       121.3391,
+       22.4457
+      ],
+      [
+       120.1391,
+       22.4457
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 6.0,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       119.8737,
+       23.7459
+      ],
+      [
+       120.0283,
+       22.5559
+      ]
+     ],
+     "t0": 0.55,
+     "t1": 6.35,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       118.7066,
+       22.2678
+      ],
+      [
+       119.8668,
+       22.5744
+      ]
+     ],
+     "t0": 0.8999999999999999,
+     "t1": 6.7,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       120.1838,
+       21.3816
+      ],
+      [
+       119.7302,
+       22.4926
+      ]
+     ],
+     "t0": 1.2499999999999998,
+     "t1": 7.05,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       120.7257,
+       22.9417
+      ],
+      [
+       119.6824,
+       22.3488
+      ]
+     ],
+     "t0": 1.5999999999999999,
+     "t1": 7.4,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       119.0234,
+       23.1684
+      ],
+      [
+       119.7458,
+       22.2102
+      ]
+     ],
+     "t0": 1.95,
+     "t1": 7.75,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       119.0336,
+       21.3019
+      ],
+      [
+       119.8907,
+       22.1417
+      ]
+     ],
+     "t0": 2.3,
+     "t1": 8.1,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       120.9926,
+       21.4335
+      ],
+      [
+       120.0493,
+       22.1753
+      ]
+     ],
+     "t0": 2.65,
+     "t1": 8.45,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       120.7614,
+       23.3264
+      ],
+      [
+       120.1474,
+       22.2954
+      ]
+     ],
+     "t0": 3.0,
+     "t1": 8.8,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       119.1808,
+       24.8518
+      ],
+      [
+       120.2823,
+       24.3757
+      ]
+     ],
+     "t0": 3.35,
+     "t1": 9.15,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       119.8205,
+       23.3402
+      ],
+      [
+       120.1507,
+       24.4939
+      ]
+     ],
+     "t0": 3.7,
+     "t1": 9.5,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       121.1526,
+       24.3138
+      ],
+      [
+       119.966,
+       24.4926
+      ]
+     ],
+     "t0": 4.05,
+     "t1": 9.85,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       119.8607,
+       25.5725
+      ],
+      [
+       119.8363,
+       24.3727
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 6.0,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       118.6448,
+       24.0739
+      ],
+      [
+       119.8377,
+       24.2043
+      ]
+     ],
+     "t0": 0.55,
+     "t1": 6.35,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       120.2523,
+       22.9199
+      ],
+      [
+       119.9693,
+       24.0861
+      ]
+     ],
+     "t0": 0.8999999999999999,
+     "t1": 6.7,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       121.274,
+       24.5183
+      ],
+      [
+       120.154,
+       24.0874
+      ]
+     ],
+     "t0": 1.2499999999999998,
+     "t1": 7.05,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       119.7121,
+       25.2624
+      ],
+      [
+       120.2837,
+       24.2073
+      ]
+     ],
+     "t0": 1.5999999999999999,
+     "t1": 7.4,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       121.2417,
+       24.8129
+      ],
+      [
+       122.2144,
+       25.5157
+      ]
+     ],
+     "t0": 1.95,
+     "t1": 7.75,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       122.9038,
+       24.7599
+      ],
+      [
+       122.0816,
+       25.6339
+      ]
+     ],
+     "t0": 2.3,
+     "t1": 8.1,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       122.6559,
+       26.5606
+      ],
+      [
+       121.8951,
+       25.6326
+      ]
+     ],
+     "t0": 2.65,
+     "t1": 8.45,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       120.746,
+       26.1476
+      ],
+      [
+       121.7643,
+       25.5127
+      ]
+     ],
+     "t0": 3.0,
+     "t1": 8.8,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       121.2672,
+       24.2527
+      ],
+      [
+       121.7656,
+       25.3443
+      ]
+     ],
+     "t0": 3.35,
+     "t1": 9.15,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       123.0451,
+       24.8725
+      ],
+      [
+       121.8984,
+       25.2261
+      ]
+     ],
+     "t0": 3.7,
+     "t1": 9.5,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       122.2878,
+       26.4101
+      ],
+      [
+       122.0849,
+       25.2274
+      ]
+     ],
+     "t0": 4.05,
+     "t1": 9.85,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       121.0167,
+       25.3961
+      ],
+      [
+       122.2157,
+       25.3473
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 6.0,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       121.0302,
+       24.1604
+      ],
+      [
+       120.9241,
+       25.3557
+      ]
+     ],
+     "t0": 0.55,
+     "t1": 6.35,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       121.9017,
+       25.7475
+      ],
+      [
+       120.73,
+       25.4883
+      ]
+     ],
+     "t0": 0.8999999999999999,
+     "t1": 6.7,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       120.0979,
+       26.5311
+      ],
+      [
+       120.5059,
+       25.4026
+      ]
+     ],
+     "t0": 1.2499999999999998,
+     "t1": 7.05,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       119.4094,
+       24.6343
+      ],
+      [
+       120.4759,
+       25.1843
+      ]
+     ],
+     "t0": 1.5999999999999999,
+     "t1": 7.4,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       121.3528,
+       24.0649
+      ],
+      [
+       120.67,
+       25.0517
+      ]
+     ],
+     "t0": 1.95,
+     "t1": 7.75,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       121.7847,
+       25.9417
+      ],
+      [
+       120.8941,
+       25.1374
+      ]
+     ],
+     "t0": 2.3,
+     "t1": 8.1,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       121.3095,
+       24.8452
+      ],
+      [
+       122.2218,
+       24.0657
+      ]
+     ],
+     "t0": 2.65,
+     "t1": 8.45,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       121.3742,
+       23.1931
+      ],
+      [
+       122.0297,
+       24.1983
+      ]
+     ],
+     "t0": 3.0,
+     "t1": 8.8,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       122.8891,
+       23.5921
+      ],
+      [
+       121.8079,
+       24.1126
+      ]
+     ],
+     "t0": 3.35,
+     "t1": 9.15,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       122.1551,
+       25.0336
+      ],
+      [
+       121.7782,
+       23.8943
+      ]
+     ],
+     "t0": 3.7,
+     "t1": 9.5,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       120.792,
+       23.9886
+      ],
+      [
+       121.9703,
+       23.7617
+      ]
+     ],
+     "t0": 4.05,
+     "t1": 9.85,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       122.1189,
+       22.6496
+      ],
+      [
+       122.1921,
+       23.8474
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 6.0,
+     "kind": "coastguard"
+    },
+    {
+     "path": [
+      [
+       118.0,
+       27.2
+      ],
+      [
+       118.6,
+       26.7
+      ]
+     ],
+     "t0": 0,
+     "t1": 9,
+     "kind": "pla",
+     "label": "PLA Navy · over the horizon"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      122.9,
+      21.4
+     ],
+     "text": "37 coast guard ships",
+     "color": "#FF7A1A",
+     "t": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-d2",
+   "type": "region",
+   "start": 269.943,
+   "end": 278.103,
+   "tag": "SIMULATION",
+   "clock": "DAY 2",
+   "clockLabel": "OF THE BLOCKADE",
+   "view": {
+    "center": [
+     121.2,
+     23.4
+    ],
+    "widthKm": 1300
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F",
+     "fill": "rgba(255,210,63,0.08)"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       125.3786,
+       24.8412
+      ],
+      [
+       124.284,
+       24.5309
+      ],
+      [
+       125.1597,
+       24.7791
+      ]
+     ],
+     "t0": 0,
+     "t1": 8,
+     "kind": "tanker"
+    },
+    {
+     "path": [
+      [
+       124.3573,
+       26.4592
+      ],
+      [
+       123.518,
+       25.7444
+      ],
+      [
+       124.1894,
+       26.3162
+      ]
+     ],
+     "t0": 0,
+     "t1": 8,
+     "kind": "cargo"
+    },
+    {
+     "path": [
+      [
+       122.6711,
+       27.5109
+      ],
+      [
+       122.2533,
+       26.5332
+      ],
+      [
+       122.5875,
+       27.3154
+      ]
+     ],
+     "t0": 0,
+     "t1": 8,
+     "kind": "cargo"
+    },
+    {
+     "path": [
+      [
+       120.6538,
+       27.788
+      ],
+      [
+       120.7404,
+       26.741
+      ],
+      [
+       120.6711,
+       27.5786
+      ]
+     ],
+     "t0": 0,
+     "t1": 8,
+     "kind": "tanker"
+    },
+    {
+     "path": [
+      [
+       118.7052,
+       27.2356
+      ],
+      [
+       119.2789,
+       26.3267
+      ],
+      [
+       118.8199,
+       27.0538
+      ]
+     ],
+     "t0": 0,
+     "t1": 8,
+     "kind": "cargo"
+    },
+    {
+     "path": [
+      [
+       117.211,
+       25.9632
+      ],
+      [
+       118.1582,
+       25.3724
+      ],
+      [
+       117.4004,
+       25.845
+      ]
+     ],
+     "t0": 0,
+     "t1": 8,
+     "kind": "cargo"
+    },
+    {
+     "path": [
+      [
+       116.4673,
+       24.2227
+      ],
+      [
+       117.6005,
+       24.067
+      ],
+      [
+       116.6939,
+       24.1916
+      ]
+     ],
+     "t0": 0,
+     "t1": 8,
+     "kind": "tanker"
+    },
+    {
+     "path": [
+      [
+       116.6214,
+       22.3588
+      ],
+      [
+       117.716,
+       22.6691
+      ],
+      [
+       116.8403,
+       22.4209
+      ]
+     ],
+     "t0": 0,
+     "t1": 8,
+     "kind": "cargo"
+    },
+    {
+     "path": [
+      [
+       117.6427,
+       20.7408
+      ],
+      [
+       118.482,
+       21.4556
+      ],
+      [
+       117.8106,
+       20.8838
+      ]
+     ],
+     "t0": 0,
+     "t1": 8,
+     "kind": "cargo"
+    },
+    {
+     "path": [
+      [
+       119.3289,
+       19.6891
+      ],
+      [
+       119.7467,
+       20.6668
+      ],
+      [
+       119.4125,
+       19.8846
+      ]
+     ],
+     "t0": 0,
+     "t1": 8,
+     "kind": "tanker"
+    },
+    {
+     "path": [
+      [
+       121.3462,
+       19.412
+      ],
+      [
+       121.2596,
+       20.459
+      ],
+      [
+       121.3289,
+       19.6214
+      ]
+     ],
+     "t0": 0,
+     "t1": 8,
+     "kind": "cargo"
+    },
+    {
+     "path": [
+      [
+       123.2948,
+       19.9644
+      ],
+      [
+       122.7211,
+       20.8733
+      ],
+      [
+       123.1801,
+       20.1462
+      ]
+     ],
+     "t0": 0,
+     "t1": 8,
+     "kind": "cargo"
+    },
+    {
+     "path": [
+      [
+       124.789,
+       21.2368
+      ],
+      [
+       123.8418,
+       21.8276
+      ],
+      [
+       124.5996,
+       21.355
+      ]
+     ],
+     "t0": 0,
+     "t1": 8,
+     "kind": "tanker"
+    },
+    {
+     "path": [
+      [
+       125.5327,
+       22.9773
+      ],
+      [
+       124.3995,
+       23.133
+      ],
+      [
+       125.3061,
+       23.0084
+      ]
+     ],
+     "t0": 0,
+     "t1": 8,
+     "kind": "cargo"
+    },
+    {
+     "path": [
+      [
+       120.1391,
+       22.4457
+      ],
+      [
+       120.1391,
+       22.4457
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "coastguard",
+     "wake": false
+    },
+    {
+     "path": [
+      [
+       119.8668,
+       22.5744
+      ],
+      [
+       119.8668,
+       22.5744
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "coastguard",
+     "wake": false
+    },
+    {
+     "path": [
+      [
+       119.6824,
+       22.3488
+      ],
+      [
+       119.6824,
+       22.3488
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "coastguard",
+     "wake": false
+    },
+    {
+     "path": [
+      [
+       119.8907,
+       22.1417
+      ],
+      [
+       119.8907,
+       22.1417
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "coastguard",
+     "wake": false
+    },
+    {
+     "path": [
+      [
+       120.1474,
+       22.2954
+      ],
+      [
+       120.1474,
+       22.2954
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "coastguard",
+     "wake": false
+    },
+    {
+     "path": [
+      [
+       120.1507,
+       24.4939
+      ],
+      [
+       120.1507,
+       24.4939
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "coastguard",
+     "wake": false
+    },
+    {
+     "path": [
+      [
+       119.8363,
+       24.3727
+      ],
+      [
+       119.8363,
+       24.3727
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "coastguard",
+     "wake": false
+    },
+    {
+     "path": [
+      [
+       119.9693,
+       24.0861
+      ],
+      [
+       119.9693,
+       24.0861
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "coastguard",
+     "wake": false
+    },
+    {
+     "path": [
+      [
+       120.2837,
+       24.2073
+      ],
+      [
+       120.2837,
+       24.2073
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "coastguard",
+     "wake": false
+    },
+    {
+     "path": [
+      [
+       122.0816,
+       25.6339
+      ],
+      [
+       122.0816,
+       25.6339
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "coastguard",
+     "wake": false
+    },
+    {
+     "path": [
+      [
+       121.7643,
+       25.5127
+      ],
+      [
+       121.7643,
+       25.5127
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "coastguard",
+     "wake": false
+    },
+    {
+     "path": [
+      [
+       121.8984,
+       25.2261
+      ],
+      [
+       121.8984,
+       25.2261
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "coastguard",
+     "wake": false
+    },
+    {
+     "path": [
+      [
+       122.2157,
+       25.3473
+      ],
+      [
+       122.2157,
+       25.3473
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "coastguard",
+     "wake": false
+    },
+    {
+     "path": [
+      [
+       120.73,
+       25.4883
+      ],
+      [
+       120.73,
+       25.4883
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "coastguard",
+     "wake": false
+    },
+    {
+     "path": [
+      [
+       120.4759,
+       25.1843
+      ],
+      [
+       120.4759,
+       25.1843
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "coastguard",
+     "wake": false
+    },
+    {
+     "path": [
+      [
+       120.8941,
+       25.1374
+      ],
+      [
+       120.8941,
+       25.1374
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "coastguard",
+     "wake": false
+    },
+    {
+     "path": [
+      [
+       122.0297,
+       24.1983
+      ],
+      [
+       122.0297,
+       24.1983
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "coastguard",
+     "wake": false
+    },
+    {
+     "path": [
+      [
+       121.7782,
+       23.8943
+      ],
+      [
+       121.7782,
+       23.8943
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "coastguard",
+     "wake": false
+    },
+    {
+     "path": [
+      [
+       122.1921,
+       23.8474
+      ],
+      [
+       122.1921,
+       23.8474
+      ]
+     ],
+     "t0": 0,
+     "t1": 1,
+     "kind": "coastguard",
+     "wake": false
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      121.0,
+      19.6
+     ],
+     "text": "tankers hold position",
+     "color": "#F2B01E",
+     "t": 4
+    }
+   ]
+  },
+  {
+   "id": "c4-d4",
+   "type": "timeline",
+   "start": 278.103,
+   "end": 286.208,
+   "tag": "SIMULATION",
+   "clock": "DAY 4",
+   "clockLabel": "OF THE BLOCKADE",
+   "title": "Taiwan's gas",
+   "sub": "days of LNG in storage at the start of the blockade",
+   "total": 12,
+   "unit": "DAYS",
+   "segments": [
+    {
+     "from": 0,
+     "to": 4,
+     "label": "Normal supply",
+     "color": "#3ED6C8"
+    },
+    {
+     "from": 4,
+     "to": 11,
+     "label": "Industry cut off · homes and hospitals first",
+     "color": "#F2B01E"
+    },
+    {
+     "from": 11,
+     "to": 12,
+     "label": "Empty",
+     "color": "#FF3B3B"
+    }
+   ],
+   "cursorTo": 4
+  },
+  {
+   "id": "c4-d6",
+   "type": "region",
+   "start": 286.208,
+   "end": 314.024,
+   "tag": "SIMULATION",
+   "clock": "DAY 6",
+   "clockLabel": "OF THE BLOCKADE",
+   "view": {
+    "center": [
+     120.1,
+     22.45
+    ],
+    "widthKm": 260
+   },
+   "zoomTo": {
+    "center": [
+     120.9,
+     23.7
+    ],
+    "widthKm": 1300
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F",
+     "fill": "rgba(255,210,63,0.08)"
+    },
+    {
+     "iso": "156",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      120.27,
+      22.61
+     ],
+     "label": "Kaohsiung",
+     "kind": "dot"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       119.6,
+       21.85
+      ],
+      [
+       119.98,
+       22.3
+      ],
+      [
+       120.0,
+       22.33
+      ]
+     ],
+     "t0": 0,
+     "t1": 9,
+     "kind": "tanker",
+     "label": "LNG carrier"
+    },
+    {
+     "path": [
+      [
+       119.7,
+       21.75
+      ],
+      [
+       120.0,
+       22.12
+      ],
+      [
+       120.01,
+       22.15
+      ]
+     ],
+     "t0": 0,
+     "t1": 9,
+     "kind": "ally",
+     "label": "Taiwanese frigate"
+    },
+    {
+     "path": [
+      [
+       120.5,
+       22.1
+      ],
+      [
+       120.15,
+       22.4
+      ]
+     ],
+     "t0": 2,
+     "t1": 8.5,
+     "kind": "coastguard",
+     "label": "CCG cutter"
+    },
+    {
+     "path": [
+      [
+       118.2,
+       21.8
+      ],
+      [
+       119.551,
+       21.827
+      ]
+     ],
+     "t0": 13.935999999999979,
+     "t1": 20.93599999999998,
+     "kind": "pla"
+    },
+    {
+     "path": [
+      [
+       118.5,
+       22.3
+      ],
+      [
+       119.727,
+       23.867
+      ]
+     ],
+     "t0": 14.335999999999979,
+     "t1": 21.335999999999977,
+     "kind": "pla"
+    },
+    {
+     "path": [
+      [
+       118.8,
+       22.8
+      ],
+      [
+       121.597,
+       25.396
+      ]
+     ],
+     "t0": 14.73599999999998,
+     "t1": 21.73599999999998,
+     "kind": "pla"
+    },
+    {
+     "path": [
+      [
+       119.10000000000001,
+       23.3
+      ],
+      [
+       120.325,
+       25.045
+      ]
+     ],
+     "t0": 15.135999999999978,
+     "t1": 22.135999999999978,
+     "kind": "pla"
+    },
+    {
+     "path": [
+      [
+       118.2,
+       23.8
+      ],
+      [
+       121.8,
+       23.43
+      ]
+     ],
+     "t0": 15.535999999999978,
+     "t1": 22.53599999999998,
+     "kind": "pla"
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       119.601,
+       21.827
+      ],
+      [
+       120.303,
+       22.21
+      ],
+      [
+       120.039,
+       22.693
+      ],
+      [
+       119.337,
+       22.31
+      ]
+     ],
+     "label": "CLOSURE ZONE · KAOHSIUNG",
+     "t": 13.435999999999979,
+     "pulse": true
+    },
+    {
+     "points": [
+      [
+       119.777,
+       23.867
+      ],
+      [
+       120.35,
+       24.044
+      ],
+      [
+       120.143,
+       24.713
+      ],
+      [
+       119.57,
+       24.536
+      ]
+     ],
+     "label": "TAICHUNG",
+     "t": 14.23599999999998,
+     "pulse": true
+    },
+    {
+     "points": [
+      [
+       121.647,
+       25.396
+      ],
+      [
+       122.338,
+       25.104
+      ],
+      [
+       122.533,
+       25.564
+      ],
+      [
+       121.842,
+       25.856
+      ]
+     ],
+     "label": "KEELUNG",
+     "t": 15.035999999999978,
+     "pulse": true
+    },
+    {
+     "points": [
+      [
+       120.375,
+       25.045
+      ],
+      [
+       120.914,
+       25.154
+      ],
+      [
+       120.825,
+       25.595
+      ],
+      [
+       120.286,
+       25.486
+      ]
+     ],
+     "label": "GUANTANG LNG",
+     "t": 15.835999999999979,
+     "pulse": true
+    },
+    {
+     "points": [
+      [
+       121.85,
+       23.43
+      ],
+      [
+       122.45,
+       23.43
+      ],
+      [
+       122.45,
+       24.33
+      ],
+      [
+       121.85,
+       24.33
+      ]
+     ],
+     "label": "EAST COAST",
+     "t": 16.635999999999978,
+     "pulse": true
+    }
+   ]
+  },
+  {
+   "id": "c4-d9",
+   "type": "stamp",
+   "start": 314.024,
+   "end": 325.824,
+   "tag": "SIMULATION",
+   "clock": "DAY 9",
+   "clockLabel": "OF THE BLOCKADE",
+   "text": "Rolling blackouts",
+   "line": "chip factories on priority power · the world starts counting its stock",
+   "color": "#F2B01E"
+  },
+  {
+   "id": "c4-d11",
+   "type": "timeline",
+   "start": 325.824,
+   "end": 340.382,
+   "tag": "SIMULATION",
+   "clock": "DAY 11",
+   "clockLabel": "OF THE BLOCKADE",
+   "title": "Taiwan's gas",
+   "sub": "days of LNG in storage",
+   "total": 12,
+   "unit": "DAYS",
+   "segments": [
+    {
+     "from": 0,
+     "to": 4,
+     "label": "Normal supply",
+     "color": "#3ED6C8"
+    },
+    {
+     "from": 4,
+     "to": 11,
+     "label": "Rationing",
+     "color": "#F2B01E"
+    },
+    {
+     "from": 11,
+     "to": 12,
+     "label": "Empty",
+     "color": "#FF3B3B"
+    }
+   ],
+   "highlight": {
+    "from": 10,
+    "to": 11,
+    "label": "CSIS wargames: about 10 days"
+   },
+   "cursorTo": 11,
+   "source": "CSIS, Lights Out?, 2025-07-31"
+  },
+  {
+   "id": "c4-airlift",
+   "type": "number",
+   "start": 340.382,
+   "end": 347.257,
+   "tag": "REAL DATA",
+   "value": "800+",
+   "label": "cargo flights a day to supply Taiwan by air",
+   "sub": "CSIS blockade wargames, 2025 (FlightGlobal reports 860)",
+   "color": "#F2B01E",
+   "source": "CSIS; FlightGlobal"
+  },
+  {
+   "id": "c4-d14",
+   "type": "region",
+   "start": 347.257,
+   "end": 358.105,
+   "tag": "SIMULATION",
+   "clock": "DAY 14",
+   "clockLabel": "OF THE BLOCKADE",
+   "caption": "A convoy from the south, through the Bashi Channel",
+   "view": {
+    "center": [
+     121.0,
+     20.6
+    ],
+    "widthKm": 1500
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F",
+     "fill": "rgba(255,210,63,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#3ED6C8"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       118.6,
+       16.8
+      ],
+      [
+       121.2,
+       20.6
+      ],
+      [
+       121.25,
+       21.9
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 11,
+     "kind": "tanker"
+    },
+    {
+     "path": [
+      [
+       118.72,
+       16.55
+      ],
+      [
+       121.28,
+       20.400000000000002
+      ],
+      [
+       121.25,
+       21.75
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 11,
+     "kind": "tanker"
+    },
+    {
+     "path": [
+      [
+       118.83999999999999,
+       16.3
+      ],
+      [
+       121.36,
+       20.200000000000003
+      ],
+      [
+       121.25,
+       21.599999999999998
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 11,
+     "kind": "tanker"
+    },
+    {
+     "path": [
+      [
+       118.6,
+       16.05
+      ],
+      [
+       121.2,
+       20.0
+      ],
+      [
+       121.25,
+       21.45
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 11,
+     "kind": "tanker"
+    },
+    {
+     "path": [
+      [
+       118.72,
+       15.8
+      ],
+      [
+       121.28,
+       19.8
+      ],
+      [
+       121.25,
+       21.299999999999997
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 11,
+     "kind": "tanker"
+    },
+    {
+     "path": [
+      [
+       118.83999999999999,
+       15.55
+      ],
+      [
+       121.36,
+       19.6
+      ],
+      [
+       121.25,
+       21.15
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 11,
+     "kind": "tanker"
+    },
+    {
+     "path": [
+      [
+       118.95,
+       16.9
+      ],
+      [
+       121.5,
+       20.7
+      ],
+      [
+       121.55,
+       22.0
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 11,
+     "kind": "us",
+     "label": "US destroyer"
+    },
+    {
+     "path": [
+      [
+       119.19,
+       16.4
+      ],
+      [
+       121.66,
+       20.3
+      ],
+      [
+       121.55,
+       21.7
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 11,
+     "kind": "us"
+    },
+    {
+     "path": [
+      [
+       119.07,
+       15.9
+      ],
+      [
+       121.58,
+       19.9
+      ],
+      [
+       121.55,
+       21.4
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 11,
+     "kind": "us"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      121.4,
+      21.6
+     ],
+     "text": "Bashi Channel",
+     "color": "rgba(236,239,242,0.7)",
+     "t": 2
+    },
+    {
+     "at": [
+      120.3,
+      18.0
+     ],
+     "text": "Luzon",
+     "color": "rgba(236,239,242,0.7)"
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       119.601,
+       21.827
+      ],
+      [
+       120.303,
+       22.21
+      ],
+      [
+       120.039,
+       22.693
+      ],
+      [
+       119.337,
+       22.31
+      ]
+     ],
+     "label": "CLOSURE ZONE · KAOHSIUNG",
+     "t": 0
+    }
+   ]
+  },
+  {
+   "id": "c4-d16",
+   "type": "region",
+   "start": 358.105,
+   "end": 366.491,
+   "tag": "SIMULATION",
+   "clock": "DAY 16",
+   "clockLabel": "OF THE BLOCKADE",
+   "view": {
+    "center": [
+     120.6,
+     21.9
+    ],
+    "widthKm": 300
+   },
+   "zoomTo": {
+    "center": [
+     120.6,
+     22.0
+    ],
+    "widthKm": 240
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F",
+     "fill": "rgba(255,210,63,0.08)"
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       119.601,
+       21.827
+      ],
+      [
+       120.303,
+       22.21
+      ],
+      [
+       120.039,
+       22.693
+      ],
+      [
+       119.337,
+       22.31
+      ]
+     ],
+     "label": "CLOSURE ZONE · KAOHSIUNG",
+     "t": 0
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       121.1,
+       21.2
+      ],
+      [
+       120.85,
+       21.75
+      ]
+     ],
+     "t0": 0,
+     "t1": 6,
+     "kind": "tanker"
+    },
+    {
+     "path": [
+      [
+       121.25,
+       21.25
+      ],
+      [
+       121.0,
+       21.8
+      ]
+     ],
+     "t0": 0,
+     "t1": 6,
+     "kind": "us",
+     "label": "US destroyer"
+    },
+    {
+     "path": [
+      [
+       120.2,
+       22.35
+      ],
+      [
+       120.55,
+       22.0
+      ]
+     ],
+     "t0": 0,
+     "t1": 5,
+     "kind": "pla",
+     "label": "PLA destroyer"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      120.55,
+      22.0
+     ],
+     "to": [
+      121.0,
+      21.8
+     ],
+     "color": "#FF3B3B",
+     "t0": 5.5,
+     "t1": 6.2
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      121.0,
+      21.8
+     ],
+     "km": 4,
+     "color": "#F2B01E",
+     "t": 6.3,
+     "dashed": false
+    }
+   ]
+  },
+  {
+   "id": "c4-d16-strike",
+   "type": "globe",
+   "start": 366.491,
+   "end": 384.577,
+   "tag": "SIMULATION",
+   "clock": "DAY 16",
+   "clockLabel": "OF THE BLOCKADE",
+   "caption": "Conventional missiles. Okinawa: about 7 minutes. Guam: about 13.",
+   "source": "Scenario engine: 1,087 km and 3,426 km",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 22,
+     "lon": 126,
+     "scale": 900
+    },
+    {
+     "t": 16,
+     "lat": 21,
+     "lon": 131,
+     "scale": 780
+    }
+   ],
+   "sun": {
+    "lat": -20,
+    "lon": 60
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F"
+    },
+    {
+     "iso": "156",
+     "color": "#FF3B3B"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      127.768,
+      26.355
+     ],
+     "label": "Kadena AB",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "t": 0.5
+    },
+    {
+     "at": [
+      144.93,
+      13.584
+     ],
+     "label": "Andersen AFB · Guam",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "t": 0.8
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      117.0,
+      25.1
+     ],
+     "to": [
+      127.768,
+      26.355
+     ],
+     "t0": 1.0,
+     "t1": 7.57,
+     "color": "#FF3B3B",
+     "loft": 0.08
+    },
+    {
+     "from": [
+      114.5,
+      25.0
+     ],
+     "to": [
+      144.93,
+      13.584
+     ],
+     "t0": 1.4,
+     "t1": 13.370000000000001,
+     "color": "#FF3B3B",
+     "loft": 0.14
+    }
+   ],
+   "flashes": [
+    {
+     "at": [
+      127.768,
+      26.355
+     ],
+     "t": 7.57,
+     "radius": 10,
+     "hold": 2,
+     "color": "#F2B01E"
+    },
+    {
+     "at": [
+      144.93,
+      13.584
+     ],
+     "t": 13.370000000000001,
+     "radius": 10,
+     "hold": 2,
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c4-d19",
+   "type": "region",
+   "start": 384.577,
+   "end": 400.522,
+   "tag": "SIMULATION",
+   "clock": "DAY 19",
+   "clockLabel": "OF THE BLOCKADE",
+   "caption": "In the CSIS invasion wargames, China lost more than 130 major ships",
+   "source": "CSIS, The First Battle of the Next War, 2023",
+   "view": {
+    "center": [
+     120.9,
+     23.7
+    ],
+    "widthKm": 1300
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F",
+     "fill": "rgba(255,210,63,0.08)"
+    },
+    {
+     "iso": "156",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.06)"
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       119.601,
+       21.827
+      ],
+      [
+       120.303,
+       22.21
+      ],
+      [
+       120.039,
+       22.693
+      ],
+      [
+       119.337,
+       22.31
+      ]
+     ],
+     "label": "CLOSURE ZONE · KAOHSIUNG",
+     "t": 0
+    },
+    {
+     "points": [
+      [
+       119.777,
+       23.867
+      ],
+      [
+       120.35,
+       24.044
+      ],
+      [
+       120.143,
+       24.713
+      ],
+      [
+       119.57,
+       24.536
+      ]
+     ],
+     "label": "TAICHUNG",
+     "t": 0
+    },
+    {
+     "points": [
+      [
+       121.647,
+       25.396
+      ],
+      [
+       122.338,
+       25.104
+      ],
+      [
+       122.533,
+       25.564
+      ],
+      [
+       121.842,
+       25.856
+      ]
+     ],
+     "label": "KEELUNG",
+     "t": 0
+    },
+    {
+     "points": [
+      [
+       120.375,
+       25.045
+      ],
+      [
+       120.914,
+       25.154
+      ],
+      [
+       120.825,
+       25.595
+      ],
+      [
+       120.286,
+       25.486
+      ]
+     ],
+     "label": "GUANTANG LNG",
+     "t": 0
+    },
+    {
+     "points": [
+      [
+       121.85,
+       23.43
+      ],
+      [
+       122.45,
+       23.43
+      ],
+      [
+       122.45,
+       24.33
+      ],
+      [
+       121.85,
+       24.33
+      ]
+     ],
+     "label": "EAST COAST",
+     "t": 0
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       119.651,
+       21.877
+      ],
+      [
+       120.353,
+       22.26
+      ]
+     ],
+     "t0": 0,
+     "t1": 14,
+     "kind": "pla",
+     "sunkAt": 2.0
+    },
+    {
+     "path": [
+      [
+       120.4,
+       24.094
+      ],
+      [
+       120.193,
+       24.763
+      ]
+     ],
+     "t0": 0,
+     "t1": 14,
+     "kind": "pla",
+     "sunkAt": 3.1
+    },
+    {
+     "path": [
+      [
+       122.583,
+       25.614
+      ],
+      [
+       121.892,
+       25.906
+      ]
+     ],
+     "t0": 0,
+     "t1": 14,
+     "kind": "pla"
+    },
+    {
+     "path": [
+      [
+       120.336,
+       25.536
+      ],
+      [
+       120.425,
+       25.095
+      ]
+     ],
+     "t0": 0,
+     "t1": 14,
+     "kind": "pla",
+     "sunkAt": 5.300000000000001
+    },
+    {
+     "path": [
+      [
+       121.9,
+       23.48
+      ],
+      [
+       122.5,
+       23.48
+      ]
+     ],
+     "t0": 0,
+     "t1": 14,
+     "kind": "pla",
+     "sunkAt": 6.4
+    },
+    {
+     "path": [
+      [
+       120.353,
+       22.26
+      ],
+      [
+       120.089,
+       22.743
+      ]
+     ],
+     "t0": 0,
+     "t1": 14,
+     "kind": "pla"
+    },
+    {
+     "path": [
+      [
+       120.193,
+       24.763
+      ],
+      [
+       119.62,
+       24.586
+      ]
+     ],
+     "t0": 0,
+     "t1": 14,
+     "kind": "pla",
+     "sunkAt": 8.600000000000001
+    },
+    {
+     "path": [
+      [
+       121.892,
+       25.906
+      ],
+      [
+       121.697,
+       25.446
+      ]
+     ],
+     "t0": 0,
+     "t1": 14,
+     "kind": "pla",
+     "sunkAt": 9.700000000000001
+    },
+    {
+     "path": [
+      [
+       120.425,
+       25.095
+      ],
+      [
+       120.964,
+       25.204
+      ]
+     ],
+     "t0": 0,
+     "t1": 14,
+     "kind": "pla"
+    },
+    {
+     "path": [
+      [
+       122.5,
+       23.48
+      ],
+      [
+       122.5,
+       24.38
+      ]
+     ],
+     "t0": 0,
+     "t1": 14,
+     "kind": "pla",
+     "sunkAt": 11.9
+    },
+    {
+     "path": [
+      [
+       120.089,
+       22.743
+      ],
+      [
+       119.387,
+       22.36
+      ]
+     ],
+     "t0": 0,
+     "t1": 14,
+     "kind": "pla",
+     "sunkAt": 13.0
+    },
+    {
+     "path": [
+      [
+       119.62,
+       24.586
+      ],
+      [
+       119.827,
+       23.917
+      ]
+     ],
+     "t0": 0,
+     "t1": 14,
+     "kind": "pla"
+    },
+    {
+     "path": [
+      [
+       121.697,
+       25.446
+      ],
+      [
+       122.388,
+       25.154
+      ]
+     ],
+     "t0": 0,
+     "t1": 14,
+     "kind": "pla",
+     "sunkAt": 15.200000000000001
+    },
+    {
+     "path": [
+      [
+       120.964,
+       25.204
+      ],
+      [
+       120.875,
+       25.645
+      ]
+     ],
+     "t0": 0,
+     "t1": 14,
+     "kind": "pla",
+     "sunkAt": 16.3
+    },
+    {
+     "path": [
+      [
+       122.5,
+       24.38
+      ],
+      [
+       121.9,
+       24.38
+      ]
+     ],
+     "t0": 0,
+     "t1": 14,
+     "kind": "pla"
+    }
+   ]
+  },
+  {
+   "id": "c4-d22",
+   "type": "stamp",
+   "start": 400.522,
+   "end": 414.114,
+   "tag": "SIMULATION",
+   "clock": "DAY 22",
+   "clockLabel": "OF THE BLOCKADE",
+   "text": "Failing",
+   "line": "for a leadership that has just purged its own top generals, a threat to the party itself",
+   "color": "#F2B01E"
+  },
+  {
+   "id": "c4-pentagon",
+   "type": "text",
+   "start": 414.114,
+   "end": 422.32,
+   "tag": "REAL DATA",
+   "lines": [
+    "\"Probably would consider nuclear first use\"",
+    "US Department of Defense, on China, if a conventional defeat over Taiwan gravely threatened the regime's survival"
+   ]
+  },
+  {
+   "id": "c5-card",
+   "type": "chapter",
+   "start": 422.32,
+   "end": 425.82,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 05",
+   "title": "Day twenty-three"
+  },
+  {
+   "id": "c5-launch",
+   "type": "globe",
+   "start": 425.82,
+   "end": 438.657,
+   "tag": "SIMULATION",
+   "clock": "04:10",
+   "clockLabel": "TAIPEI TIME · DAY 23",
+   "caption": "Conventional or nuclear? On radar, the same missile.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 24,
+     "lon": 115,
+     "scale": 1700
+    },
+    {
+     "t": 12,
+     "lat": 24,
+     "lon": 121,
+     "scale": 1100
+    }
+   ],
+   "sun": {
+    "lat": -23.35,
+    "lon": -123.45
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F"
+    },
+    {
+     "iso": "156",
+     "color": "#FF3B3B"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      114.5,
+      25.0
+     ],
+     "label": "DF-26 launcher",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "t": 0.5
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      114.5,
+      25.0
+     ],
+     "to": [
+      128.0,
+      23.8
+     ],
+     "t0": 2,
+     "t1": 108.5,
+     "color": "#FF3B3B",
+     "loft": 0.12
+    }
+   ]
+  },
+  {
+   "id": "c5-target",
+   "type": "region",
+   "start": 438.657,
+   "end": 448.777,
+   "tag": "SIMULATION",
+   "clock": "T+03:00",
+   "clockLabel": "SINCE LAUNCH",
+   "source": "Scenario engine",
+   "view": {
+    "center": [
+     125.2,
+     24.4
+    ],
+    "widthKm": 1500
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F",
+     "fill": "rgba(255,210,63,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      121.6,
+      23.98
+     ],
+     "label": "Hualien",
+     "kind": "dot"
+    },
+    {
+     "at": [
+      123.0,
+      24.45
+     ],
+     "label": "Yonaguni",
+     "kind": "dot"
+    },
+    {
+     "at": [
+      127.768,
+      26.355
+     ],
+     "label": "Kadena",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 5
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       128.0,
+       23.8
+      ],
+      [
+       128.1,
+       23.85
+      ]
+     ],
+     "t0": 0,
+     "t1": 12,
+     "kind": "us",
+     "label": "US carrier group"
+    },
+    {
+     "path": [
+      [
+       128.25,
+       24.0
+      ],
+      [
+       128.35,
+       24.05
+      ]
+     ],
+     "t0": 0,
+     "t1": 12,
+     "kind": "us"
+    },
+    {
+     "path": [
+      [
+       127.75,
+       23.95
+      ],
+      [
+       127.85,
+       24.0
+      ]
+     ],
+     "t0": 0,
+     "t1": 12,
+     "kind": "us"
+    },
+    {
+     "path": [
+      [
+       128.2,
+       23.55
+      ],
+      [
+       128.3,
+       23.6
+      ]
+     ],
+     "t0": 0,
+     "t1": 12,
+     "kind": "us"
+    },
+    {
+     "path": [
+      [
+       127.8,
+       23.6
+      ],
+      [
+       127.9,
+       23.65
+      ]
+     ],
+     "t0": 0,
+     "t1": 12,
+     "kind": "us"
+    },
+    {
+     "path": [
+      [
+       128.4,
+       23.78
+      ],
+      [
+       128.5,
+       23.83
+      ]
+     ],
+     "t0": 0,
+     "t1": 12,
+     "kind": "us"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      121.6,
+      23.98
+     ],
+     "to": [
+      128.0,
+      23.8
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 2,
+     "t1": 4
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      124.8,
+      23.5
+     ],
+     "text": "about 650 km",
+     "color": "#F2B01E",
+     "t": 4
+    }
+   ]
+  },
+  {
+   "id": "c5-flash",
+   "type": "region",
+   "start": 448.777,
+   "end": 463.321,
+   "tag": "SIMULATION",
+   "clock": "T+07:00",
+   "clockLabel": "SINCE LAUNCH",
+   "source": "Scenario engine: Glasstone and Dolan scaling, NUKEMAP calibration",
+   "view": {
+    "center": [
+     128.0,
+     23.8
+    ],
+    "widthKm": 7
+   },
+   "zoomTo": {
+    "center": [
+     128.0,
+     23.8
+    ],
+    "widthKm": 7.840000000000001
+   },
+   "ships": [
+    {
+     "path": [
+      [
+       128.0,
+       23.8
+      ],
+      [
+       128.004,
+       23.802
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 16,
+     "label": "carrier"
+    },
+    {
+     "path": [
+      [
+       128.045,
+       23.83
+      ],
+      [
+       128.049,
+       23.832
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       127.95,
+       23.82
+      ],
+      [
+       127.954,
+       23.822
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       128.03,
+       23.755
+      ],
+      [
+       128.034,
+       23.757
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       127.965,
+       23.76
+      ],
+      [
+       127.969,
+       23.762
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       128.075,
+       23.8
+      ],
+      [
+       128.079,
+       23.802
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 0.153,
+     "label": "Fireball · about 300 m across",
+     "color": "#FFFFFF",
+     "t": 2.5730000000000133,
+     "dashed": false
+    }
+   ],
+   "scaleBar": true,
+   "burst": {
+    "at": [
+     128.0,
+     23.8
+    ],
+    "t": 2.5730000000000133,
+    "km": 0.153
+   }
+  },
+  {
+   "id": "c5-fireball",
+   "type": "region",
+   "start": 463.321,
+   "end": 467.842,
+   "tag": "SIMULATION",
+   "clock": "T+07:06",
+   "clockLabel": "SINCE LAUNCH",
+   "source": "Scenario engine: Glasstone and Dolan scaling, NUKEMAP calibration",
+   "view": {
+    "center": [
+     128.0,
+     23.8
+    ],
+    "widthKm": 6
+   },
+   "zoomTo": {
+    "center": [
+     128.0,
+     23.8
+    ],
+    "widthKm": 6.720000000000001
+   },
+   "ships": [
+    {
+     "path": [
+      [
+       128.0,
+       23.8
+      ],
+      [
+       128.004,
+       23.802
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 16,
+     "label": "carrier"
+    },
+    {
+     "path": [
+      [
+       128.045,
+       23.83
+      ],
+      [
+       128.049,
+       23.832
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       127.95,
+       23.82
+      ],
+      [
+       127.954,
+       23.822
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       128.03,
+       23.755
+      ],
+      [
+       128.034,
+       23.757
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       127.965,
+       23.76
+      ],
+      [
+       127.969,
+       23.762
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       128.075,
+       23.8
+      ],
+      [
+       128.079,
+       23.802
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 0.153,
+     "label": "Fireball · about 300 m across",
+     "color": "#FFFFFF",
+     "t": -5,
+     "dashed": false
+    }
+   ],
+   "scaleBar": true
+  },
+  {
+   "id": "c5-5psi",
+   "type": "region",
+   "start": 467.842,
+   "end": 477.57,
+   "tag": "SIMULATION",
+   "clock": "T+07:07",
+   "clockLabel": "SINCE LAUNCH",
+   "source": "Scenario engine: Glasstone and Dolan scaling, NUKEMAP calibration",
+   "view": {
+    "center": [
+     128.0,
+     23.8
+    ],
+    "widthKm": 7.5
+   },
+   "zoomTo": {
+    "center": [
+     128.0,
+     23.8
+    ],
+    "widthKm": 8.4
+   },
+   "ships": [
+    {
+     "path": [
+      [
+       128.0,
+       23.8
+      ],
+      [
+       128.004,
+       23.802
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 16,
+     "label": "carrier"
+    },
+    {
+     "path": [
+      [
+       128.045,
+       23.83
+      ],
+      [
+       128.049,
+       23.832
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       127.95,
+       23.82
+      ],
+      [
+       127.954,
+       23.822
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       128.03,
+       23.755
+      ],
+      [
+       128.034,
+       23.757
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       127.965,
+       23.76
+      ],
+      [
+       127.969,
+       23.762
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       128.075,
+       23.8
+      ],
+      [
+       128.079,
+       23.802
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 0.153,
+     "label": "Fireball · about 300 m across",
+     "color": "#FFFFFF",
+     "t": -5,
+     "dashed": false
+    },
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 1.459,
+     "label": "5 psi · on land, most buildings flattened",
+     "color": "#FF3B3B",
+     "t": 0.4,
+     "dashed": true
+    }
+   ],
+   "scaleBar": true
+  },
+  {
+   "id": "c5-burns",
+   "type": "region",
+   "start": 477.57,
+   "end": 483.77,
+   "tag": "SIMULATION",
+   "clock": "T+07:07",
+   "clockLabel": "SINCE LAUNCH",
+   "source": "Scenario engine: Glasstone and Dolan scaling, NUKEMAP calibration",
+   "view": {
+    "center": [
+     128.0,
+     23.8
+    ],
+    "widthKm": 8
+   },
+   "zoomTo": {
+    "center": [
+     128.0,
+     23.8
+    ],
+    "widthKm": 8.96
+   },
+   "ships": [
+    {
+     "path": [
+      [
+       128.0,
+       23.8
+      ],
+      [
+       128.004,
+       23.802
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 16,
+     "label": "carrier"
+    },
+    {
+     "path": [
+      [
+       128.045,
+       23.83
+      ],
+      [
+       128.049,
+       23.832
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       127.95,
+       23.82
+      ],
+      [
+       127.954,
+       23.822
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       128.03,
+       23.755
+      ],
+      [
+       128.034,
+       23.757
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       127.965,
+       23.76
+      ],
+      [
+       127.969,
+       23.762
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       128.075,
+       23.8
+      ],
+      [
+       128.079,
+       23.802
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 0.153,
+     "label": "Fireball · about 300 m across",
+     "color": "#FFFFFF",
+     "t": -5,
+     "dashed": false
+    },
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 1.459,
+     "label": "5 psi · on land, most buildings flattened",
+     "color": "#FF3B3B",
+     "t": -5,
+     "dashed": true
+    },
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 1.617,
+     "label": "Flash burns",
+     "color": "#FF7A1A",
+     "t": 0.4,
+     "dashed": true
+    }
+   ],
+   "scaleBar": true
+  },
+  {
+   "id": "c5-1psi",
+   "type": "region",
+   "start": 483.77,
+   "end": 493.219,
+   "tag": "SIMULATION",
+   "clock": "T+07:08",
+   "clockLabel": "SINCE LAUNCH",
+   "source": "Scenario engine: Glasstone and Dolan scaling, NUKEMAP calibration",
+   "view": {
+    "center": [
+     128.0,
+     23.8
+    ],
+    "widthKm": 13
+   },
+   "zoomTo": {
+    "center": [
+     128.0,
+     23.8
+    ],
+    "widthKm": 14.560000000000002
+   },
+   "ships": [
+    {
+     "path": [
+      [
+       128.0,
+       23.8
+      ],
+      [
+       128.004,
+       23.802
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 16,
+     "label": "carrier"
+    },
+    {
+     "path": [
+      [
+       128.045,
+       23.83
+      ],
+      [
+       128.049,
+       23.832
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       127.95,
+       23.82
+      ],
+      [
+       127.954,
+       23.822
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       128.03,
+       23.755
+      ],
+      [
+       128.034,
+       23.757
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       127.965,
+       23.76
+      ],
+      [
+       127.969,
+       23.762
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    },
+    {
+     "path": [
+      [
+       128.075,
+       23.8
+      ],
+      [
+       128.079,
+       23.802
+      ]
+     ],
+     "t0": 0,
+     "t1": 30,
+     "kind": "us",
+     "size": 11
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 0.153,
+     "label": "Fireball · about 300 m across",
+     "color": "#FFFFFF",
+     "t": -5,
+     "dashed": false
+    },
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 1.459,
+     "label": "5 psi · on land, most buildings flattened",
+     "color": "#FF3B3B",
+     "t": -5,
+     "dashed": true
+    },
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 1.617,
+     "label": "Flash burns",
+     "color": "#FF7A1A",
+     "t": -5,
+     "dashed": true
+    },
+    {
+     "at": [
+      128.0,
+      23.8
+     ],
+     "km": 3.949,
+     "label": "1 psi · on land, windows shatter",
+     "color": "#3ED6C8",
+     "t": 0.4,
+     "dashed": true
+    }
+   ],
+   "scaleBar": true
+  },
+  {
+   "id": "c5-81",
+   "type": "number",
+   "start": 493.219,
+   "end": 499.465,
+   "tag": "REAL HISTORY",
+   "value": "81 YEARS",
+   "label": "since a nuclear weapon was last used in war",
+   "sub": "Nagasaki · 9 August 1945 · about 21 kilotons",
+   "color": "#FF3B3B",
+   "source": "US DOE OSTI; National Museum of the US Air Force"
+  },
+  {
+   "id": "c6-card",
+   "type": "chapter",
+   "start": 499.465,
+   "end": 502.965,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 06",
+   "title": "The bill"
+  },
+  {
+   "id": "c6-gdp",
+   "type": "bars",
+   "start": 502.965,
+   "end": 518.097,
+   "tag": "REAL DATA",
+   "title": "Cost to the world economy",
+   "sub": "first year, share of global GDP · Bloomberg Economics, February 2026",
+   "source": "Bloomberg Economics via Insurance Journal, 2026-02-12",
+   "bars": [
+    {
+     "label": "One-year blockade",
+     "value": 5.3,
+     "display": "-5.3%",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "War over Taiwan",
+     "value": 9.6,
+     "display": "-9.6% · $10.6 trillion",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "c6-countries",
+   "type": "bars",
+   "start": 518.097,
+   "end": 528.218,
+   "tag": "REAL DATA",
+   "title": "In a war over Taiwan",
+   "sub": "first-year change in GDP · Bloomberg Economics, February 2026",
+   "source": "Bloomberg Economics",
+   "bars": [
+    {
+     "label": "Taiwan",
+     "value": 40,
+     "display": "-40%",
+     "color": "#FF3B3B"
+    },
+    {
+     "label": "South Korea",
+     "value": 23,
+     "display": "-23%",
+     "color": "#FF7A1A"
+    },
+    {
+     "label": "Japan",
+     "value": 14.7,
+     "display": "-14.7%",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "United States",
+     "value": 6.6,
+     "display": "-6.6%",
+     "color": "#3ED6C8"
+    }
+   ]
+  },
+  {
+   "id": "c6-nonuke",
+   "type": "text",
+   "start": 528.218,
+   "end": 531.608,
+   "tag": "REAL DATA",
+   "lines": [
+    "Not included",
+    "a nuclear weapon"
+   ]
+  },
+  {
+   "id": "c7-card",
+   "type": "chapter",
+   "start": 531.608,
+   "end": 539.488,
+   "tag": "REAL HISTORY",
+   "kicker": "CHAPTER 07",
+   "title": "It has been planned before"
+  },
+  {
+   "id": "c7-1955",
+   "type": "stamp",
+   "start": 539.488,
+   "end": 552.465,
+   "tag": "REAL HISTORY",
+   "text": "1955",
+   "line": "Eisenhower: tactical atomic weapons on military targets, \"as you would use a bullet\"",
+   "color": "#F2B01E"
+  },
+  {
+   "id": "c7-kinmen",
+   "type": "region",
+   "start": 552.465,
+   "end": 559.756,
+   "tag": "REAL HISTORY",
+   "clock": "1958",
+   "clockLabel": "AUGUST",
+   "caption": "1958: shelling and a blockade of Kinmen",
+   "source": "US State Department, Office of the Historian",
+   "view": {
+    "center": [
+     118.25,
+     24.45
+    ],
+    "widthKm": 130
+   },
+   "zoomTo": {
+    "center": [
+     118.25,
+     24.45
+    ],
+    "widthKm": 100
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F",
+     "fill": "rgba(255,210,63,0.08)"
+    },
+    {
+     "iso": "156",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      118.09,
+      24.48
+     ],
+     "label": "Xiamen",
+     "color": "#FF3B3B",
+     "kind": "dot"
+    },
+    {
+     "at": [
+      118.32,
+      24.44
+     ],
+     "label": "Kinmen",
+     "color": "#FFD23F",
+     "kind": "dot"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      118.34,
+      24.45
+     ],
+     "km": 1.2,
+     "color": "#FF7A1A",
+     "t": 0.5,
+     "dashed": false
+    },
+    {
+     "at": [
+      118.27,
+      24.46
+     ],
+     "km": 1.2,
+     "color": "#FF7A1A",
+     "t": 0.85,
+     "dashed": false
+    },
+    {
+     "at": [
+      118.4,
+      24.42
+     ],
+     "km": 1.2,
+     "color": "#FF7A1A",
+     "t": 1.2,
+     "dashed": false
+    },
+    {
+     "at": [
+      118.3,
+      24.41
+     ],
+     "km": 1.2,
+     "color": "#FF7A1A",
+     "t": 1.5499999999999998,
+     "dashed": false
+    },
+    {
+     "at": [
+      118.37,
+      24.48
+     ],
+     "km": 1.2,
+     "color": "#FF7A1A",
+     "t": 1.9,
+     "dashed": false
+    },
+    {
+     "at": [
+      118.23,
+      24.44
+     ],
+     "km": 1.2,
+     "color": "#FF7A1A",
+     "t": 2.25,
+     "dashed": false
+    }
+   ]
+  },
+  {
+   "id": "c7-shanghai",
+   "type": "region",
+   "start": 559.756,
+   "end": 579.487,
+   "tag": "REAL HISTORY",
+   "clock": "1958",
+   "clockLabel": "SEPTEMBER",
+   "caption": "\"nuclear strikes deep into China as far north as Shanghai\"",
+   "source": "Documents released by Daniel Ellsberg, 2021 (New York Times; CBS News)",
+   "view": {
+    "center": [
+     120.8,
+     29.0
+    ],
+    "widthKm": 2100
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F",
+     "fill": "rgba(255,210,63,0.08)"
+    },
+    {
+     "iso": "156",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      118.6,
+      25.4
+     ],
+     "label": "Fujian air bases",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 5,
+     "t": 1.0
+    },
+    {
+     "at": [
+      119.3,
+      26.08
+     ],
+     "label": "Fuzhou",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 5,
+     "t": 1.8
+    },
+    {
+     "at": [
+      120.15,
+      30.27
+     ],
+     "label": "Hangzhou",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 5,
+     "t": 2.6
+    },
+    {
+     "at": [
+      121.47,
+      31.23
+     ],
+     "label": "Shanghai",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 5,
+     "t": 3.4000000000000004
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      123.4,
+      29.0
+     ],
+     "text": "risk of Soviet retaliation accepted",
+     "color": "#F2B01E",
+     "t": 9
+    }
+   ]
+  },
+  {
+   "id": "c8-card",
+   "type": "chapter",
+   "start": 579.487,
+   "end": 582.987,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 08",
+   "title": "The decision"
+  },
+  {
+   "id": "c8-620",
+   "type": "number",
+   "start": 582.987,
+   "end": 593.975,
+   "tag": "REAL DATA",
+   "value": "620",
+   "countTo": 620,
+   "label": "Chinese nuclear warheads · January 2026",
+   "sub": "most in storage · over 1,000 expected by 2030 (Pentagon) · declared policy: no first use",
+   "color": "#FF3B3B",
+   "source": "SIPRI Yearbook 2026; FAS; Pentagon 2025 report"
+  },
+  {
+   "id": "c8-us",
+   "type": "stamp",
+   "start": 593.975,
+   "end": 605.16,
+   "tag": "REAL DATA",
+   "text": "No promise",
+   "line": "the US has never ruled out first use · W76-2 low-yield Trident warhead, about 5 kilotons",
+   "color": "#3ED6C8"
+  },
+  {
+   "id": "c8-options",
+   "type": "radar",
+   "start": 605.16,
+   "end": 618.192,
+   "tag": "SIMULATION",
+   "title": "Day 23 · the president's options",
+   "lines": [
+    {
+     "k": "option 1",
+     "v": "a small nuclear reply · W76-2"
+    },
+    {
+     "k": "option 2",
+     "v": "a reply without one"
+    },
+    {
+     "k": "option 3",
+     "v": "call Beijing"
+    }
+   ],
+   "tracks": 1,
+   "big": "DECIDE",
+   "bigColor": "#FF3B3B"
+  },
+  {
+   "id": "c8-3of15",
+   "type": "isotype",
+   "start": 618.192,
+   "end": 621.63,
+   "tag": "REAL DATA",
+   "headline": "3 of 15",
+   "label": "wargame runs ended in nuclear catastrophe",
+   "total": 15,
+   "filled": 3,
+   "per": "one run",
+   "cols": 15,
+   "color": "#FF3B3B",
+   "sub": "CSIS and MIT, Confronting Armageddon, December 2024. Cities destroyed, millions killed.",
+   "source": "CSIS, 2024-12-13"
+  },
+  {
+   "id": "c8-diplomacy",
+   "type": "text",
+   "start": 621.63,
+   "end": 640.352,
+   "tag": "REAL DATA",
+   "lines": [
+    "Diplomacy, not threats",
+    "what worked better at stopping China from gambling on a nuclear weapon · CSIS and MIT, 2024"
+   ]
+  },
+  {
+   "id": "c8-stop",
+   "type": "text",
+   "start": 640.352,
+   "end": 645.657,
+   "tag": "SIMULATION",
+   "lines": [
+    "The simulation stops here",
+    "Nobody can tell you how it ends."
+   ]
+  },
+  {
+   "id": "c8-now",
+   "type": "region",
+   "start": 645.657,
+   "end": 654.535,
+   "tag": "REAL DATA",
+   "clock": "NOW",
+   "clockLabel": "NOVEMBER 2026",
+   "caption": "Real: China Coast Guard patrols east of Taiwan",
+   "source": "Reuters, 2026-10-31",
+   "view": {
+    "center": [
+     121.9,
+     23.8
+    ],
+    "widthKm": 1100
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#FFD23F",
+     "fill": "rgba(255,210,63,0.08)"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       122.9,
+       25.2
+      ],
+      [
+       122.5,
+       23.9
+      ],
+      [
+       122.7,
+       22.6
+      ]
+     ],
+     "t0": 0,
+     "t1": 9,
+     "kind": "coastguard",
+     "label": "China Coast Guard"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "type": "endslate",
+   "start": 654.535,
+   "end": 674.6,
+   "tag": "",
+   "title": "Next scenario",
+   "line": "North Korea strikes the US West Coast. Minute by minute. New scenario every day."
+  }
+ ]
+}

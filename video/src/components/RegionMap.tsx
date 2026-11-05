@@ -267,6 +267,23 @@ export const RegionMap: React.FC<{shot: RegionShot; t: number}> = ({shot, t}) =>
         const p = pt(destination(shot.plume!.at, shot.plume!.bearing, shot.plume!.lengthKm * 0.55));
         return p ? <Label x={p[0]} y={p[1]} text={shot.plume!.label!} color={C.amber} size={16} dx={-shot.plume!.label!.length * 4.6} dy={-10} /> : null;
       })() : null}
+      {shot.burst && t >= shot.burst.t ? (() => {
+        const b = shot.burst!;
+        const dt = t - b.t;
+        const p = pt(b.at);
+        const white = Math.max(0, 1 - dt / 0.9);
+        const rPx = Math.max(14, b.km * pxPerKm);
+        const glow = Math.max(0, 1 - dt / 7);
+        return (
+          <>
+            {p ? (
+              <div style={{position: 'absolute', left: p[0] - rPx * 3, top: p[1] - rPx * 3, width: rPx * 6, height: rPx * 6, borderRadius: '50%', pointerEvents: 'none',
+                background: `radial-gradient(circle, rgba(255,255,240,${0.95 * glow}) 0%, rgba(255,210,120,${0.85 * glow}) 18%, rgba(255,122,26,${0.5 * glow}) 34%, rgba(255,59,59,${0.18 * glow}) 55%, rgba(0,0,0,0) 70%)`}} />
+            ) : null}
+            {white > 0 ? <AbsoluteFill style={{background: '#FFFDF4', opacity: white * white}} /> : null}
+          </>
+        );
+      })() : null}
       {shot.scaleBar !== false ? (
         <div style={{position: 'absolute', right: 48, bottom: 44, display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 6}}>
           <div style={{fontFamily: MONO, fontSize: 13, letterSpacing: 2, color: C.dim}}>{scaleKm} KM</div>

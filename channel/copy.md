@@ -1,23 +1,21 @@
 # Channel copy (2026-11-05)
 
-## YouTube channel description
+## YouTube channel description (limit 1,000 characters; this is 872)
 
 What would really happen if a nuclear war started tonight? The Doomsday Map simulates nuclear strikes, great-power wars and doomsday scenarios minute by minute, on real maps.
 
-Every episode follows the same rule: real history and real data first, then a clearly labelled simulation built from published models, then what the world looks like afterwards. The forces, bases and timings are real. The blast, burn and fallout figures come from the standard reference models. Every number on screen has a source, listed in the description.
+Every episode starts with real history and real data, then a clearly labelled simulation built from published models. The forces, bases and timings are real, and every number on screen has a source in the description.
 
 What you will find here:
 - Full exchanges: launch to impact, minute by minute
-- Flashpoints: how a war over Taiwan, Korea, Iran or the Baltic could actually start
-- One warhead: what a single weapon does to a real city, ring by ring
-- The day after: fallout, famine, and how the world would change
-- The close calls: the false alarms that nearly ended it all
+- Flashpoints: how a war over Taiwan, Korea, Iran or the Baltic could start
+- One warhead: what a single weapon does to a real city
+- The day after: fallout, famine and a changed world
+- The close calls that nearly ended it all
 
-The simulations are scenarios, not forecasts. Nothing in them has happened, and the point of mapping them is to understand why they never should.
+These are scenarios, not forecasts. Nothing in them has happened, and we map them to understand why they never should.
 
-New scenario every day.
-
-Narration is AI-generated. Maps: Natural Earth, OpenStreetMap contributors. Imagery: NASA.
+New scenario every day. Narration is AI-generated.
 
 ## Facebook Page
 
