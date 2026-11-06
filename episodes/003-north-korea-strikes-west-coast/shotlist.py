@@ -289,8 +289,8 @@ def seattle_shot(sid, pid_a, pid_b, n, w0, w1, flash=None, cl="T+25:30"):
 seattle_shot("c6-flash", "p36", "p37", 1, 5.0, 4.2, flash=round(W("p36", "detonates") - S("p36") + 0.1, 2))
 seattle_shot("c6-fireball", "p37", "p38", 1, 4.2, 4.8)
 seattle_shot("c6-20psi", "p38", "p39", 2, 5.2, 6.2)
-seattle_shot("c6-5psi", "p39", "p40", 3, 17, 20)
-seattle_shot("c6-burns", "p40", "p41", 4, 22, 26)
+seattle_shot("c6-5psi", "p39", "p40", 3, 14, 24)
+seattle_shot("c6-burns", "p40", "p41", 4, 20, 30)
 seattle_shot("c6-1psi", "p41", "p42", 5, 38, 50)
 add(id="c6-fallout", type="region", start=S("p42"), end=S("p43"), tag="SIMULATION", clock="T+25:30", clockLabel="SINCE FIRST LAUNCH", caption="Airburst: little local fallout. The dust rises high; the weather decides where it falls.",
     source=SRC, view={"center": [-122.4, 47.45], "widthKm": 160}, zoomTo={"center": [-122.2, 47.4], "widthKm": 230}, highlight=[HL_US],
