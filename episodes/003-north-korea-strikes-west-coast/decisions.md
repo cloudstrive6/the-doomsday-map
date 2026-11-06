@@ -5,3 +5,6 @@
 - Engine fixes: studio/tts.py strips a leading BOM from GOOGLE_TTS_API_KEY (UnicodeEncodeError). studio/narrate.py REF regex now accepts S-refs ([A-DS]); "[.., S6, ..]" tags in two paragraphs had been read aloud and captioned. Narration regenerated and everything retimed (11.9 min, 1,484 words).
 - Risks: 250 kt and 100 kt yields are labelled stress-case choices (SIPRI: no public evidence of an operational ICBM warhead). Hawaii 2018 and Guam 2017 rows are single-source, softened in script. Shared credit-line opacity (C.faint in video/src/theme.ts) is dim; left as is. Recheck news (Hwasong-20 flight, seventh nuclear test) if the upload slips. Seattle city file is 16 MB.
 - Four cards had to be split to meet the 14 s rule; shot count 77.
+
+## 2026-11-06 QC fix
+- Render QC failed: s2_silent frozen 5.6 s at 22.9 s (Short 2, Seattle city shots with a near-static slow zoom). Widened zoom on c6-5psi (14 to 24 km) and c6-burns (20 to 30 km) in shotlist.py and patched episode.json directly (narration/ is not in the repo, so shotlist.py could not be rerun here). CI should re-render and re-run QC; if it fails again, split those city shots at a sentence.
