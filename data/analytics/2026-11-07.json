@@ -1,12 +1,389 @@
 {
  "date": "2026-11-07",
  "channel": {
-  "viewCount": "165",
-  "subscriberCount": "1",
+  "viewCount": "1188",
+  "subscriberCount": "3",
   "hiddenSubscriberCount": false,
   "videoCount": "8"
  },
- "videos": [],
+ "videos": [
+  {
+   "video": "QK55Sko_aw4",
+   "views": 69,
+   "estimatedMinutesWatched": 18,
+   "averageViewDuration": 37,
+   "averageViewPercentage": 67.77,
+   "subscribersGained": 0,
+   "likes": 1,
+   "comments": 0,
+   "shares": 0,
+   "title": "What One 800 Kiloton Warhead Would Do to Omaha #shorts",
+   "published": "2026-11-05T19:00:23Z",
+   "lifetime_views": 123,
+   "retention_curve": [
+    [
+     0.01,
+     1.5,
+     0.667
+    ],
+    [
+     0.06,
+     1.393,
+     0.575
+    ],
+    [
+     0.11,
+     1.071,
+     0.546
+    ],
+    [
+     0.16,
+     1,
+     0.51
+    ],
+    [
+     0.21,
+     0.786,
+     0.455
+    ],
+    [
+     0.26,
+     0.75,
+     0.362
+    ],
+    [
+     0.31,
+     0.679,
+     0.3
+    ],
+    [
+     0.36,
+     0.643,
+     0.313
+    ],
+    [
+     0.41,
+     0.536,
+     0.321
+    ],
+    [
+     0.46,
+     0.536,
+     0.371
+    ],
+    [
+     0.51,
+     0.536,
+     0.444
+    ],
+    [
+     0.56,
+     0.536,
+     0.513
+    ],
+    [
+     0.61,
+     0.536,
+     0.538
+    ],
+    [
+     0.66,
+     0.536,
+     0.514
+    ],
+    [
+     0.71,
+     0.536,
+     0.513
+    ],
+    [
+     0.76,
+     0.536,
+     0.513
+    ],
+    [
+     0.81,
+     0.536,
+     0.513
+    ],
+    [
+     0.86,
+     0.536,
+     0.513
+    ],
+    [
+     0.91,
+     0.5,
+     0.513
+    ],
+    [
+     0.96,
+     0.5,
+     0.513
+    ]
+   ]
+  },
+  {
+   "video": "l8W1p2lfHCw",
+   "views": 43,
+   "estimatedMinutesWatched": 14,
+   "averageViewDuration": 37,
+   "averageViewPercentage": 70.19,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "The President Would Have 6 Minutes to Decide #shorts",
+   "published": "2026-11-05T14:00:09Z",
+   "lifetime_views": 96,
+   "retention_curve": [
+    [
+     0.01,
+     1.5,
+     0.663
+    ],
+    [
+     0.06,
+     1.136,
+     0.515
+    ],
+    [
+     0.11,
+     1,
+     0.433
+    ],
+    [
+     0.16,
+     0.909,
+     0.393
+    ],
+    [
+     0.21,
+     0.773,
+     0.349
+    ],
+    [
+     0.26,
+     0.682,
+     0.324
+    ],
+    [
+     0.31,
+     0.682,
+     0.353
+    ],
+    [
+     0.36,
+     0.636,
+     0.405
+    ],
+    [
+     0.41,
+     0.636,
+     0.469
+    ],
+    [
+     0.46,
+     0.682,
+     0.535
+    ],
+    [
+     0.51,
+     0.636,
+     0.601
+    ],
+    [
+     0.56,
+     0.636,
+     0.664
+    ],
+    [
+     0.61,
+     0.636,
+     0.711
+    ],
+    [
+     0.66,
+     0.591,
+     0.739
+    ],
+    [
+     0.71,
+     0.591,
+     0.756
+    ],
+    [
+     0.76,
+     0.591,
+     0.762
+    ],
+    [
+     0.81,
+     0.591,
+     0.761
+    ],
+    [
+     0.86,
+     0.591,
+     0.756
+    ],
+    [
+     0.91,
+     0.591,
+     0.75
+    ],
+    [
+     0.96,
+     0.5,
+     0.769
+    ]
+   ]
+  },
+  {
+   "video": "fWvrsNHlIak",
+   "views": 32,
+   "estimatedMinutesWatched": 102,
+   "averageViewDuration": 192,
+   "averageViewPercentage": 25.69,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "Russia Launches a Nuclear Strike on America... What Happens Next?",
+   "published": "2026-11-05T00:00:31Z",
+   "lifetime_views": 41,
+   "retention_curve": [
+    [
+     0.01,
+     0.969,
+     0.272
+    ],
+    [
+     0.06,
+     0.688,
+     0.234
+    ],
+    [
+     0.11,
+     0.469,
+     0.18
+    ],
+    [
+     0.16,
+     0.406,
+     0.139
+    ],
+    [
+     0.21,
+     0.344,
+     0.118
+    ],
+    [
+     0.26,
+     0.25,
+     0.135
+    ],
+    [
+     0.31,
+     0.281,
+     0.251
+    ],
+    [
+     0.36,
+     0.25,
+     0.397
+    ],
+    [
+     0.41,
+     0.281,
+     0.399
+    ],
+    [
+     0.46,
+     0.25,
+     0.317
+    ],
+    [
+     0.51,
+     0.219,
+     0.282
+    ],
+    [
+     0.56,
+     0.25,
+     0.267
+    ],
+    [
+     0.61,
+     0.25,
+     0.191
+    ],
+    [
+     0.66,
+     0.219,
+     0.123
+    ],
+    [
+     0.71,
+     0.219,
+     0.107
+    ],
+    [
+     0.76,
+     0.188,
+     0.087
+    ],
+    [
+     0.81,
+     0.219,
+     0.057
+    ],
+    [
+     0.86,
+     0.094,
+     0.05
+    ],
+    [
+     0.91,
+     0.125,
+     0.072
+    ],
+    [
+     0.96,
+     0.062,
+     0.209
+    ]
+   ]
+  },
+  {
+   "video": "ZjCRJ3VsOu0",
+   "views": 7,
+   "estimatedMinutesWatched": 1,
+   "averageViewDuration": 28,
+   "averageViewPercentage": 50.77,
+   "subscribersGained": 0,
+   "likes": 1,
+   "comments": 0,
+   "shares": 0,
+   "title": "4 Times the World Almost Launched by Mistake #shorts",
+   "published": "2026-11-06T00:00:33Z",
+   "lifetime_views": 33
+  },
+  {
+   "video": "asHo8qWpZDg",
+   "views": 2,
+   "estimatedMinutesWatched": 0,
+   "averageViewDuration": 40,
+   "averageViewPercentage": 6.03,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "China Blockades Taiwan... and the First Nuke Since 1945 Is Fired",
+   "published": "2026-11-06T00:00:07Z",
+   "lifetime_views": 24
+  }
+ ],
  "errors": [],
  "traffic_sources": {
   "columns": [
@@ -14,14 +391,60 @@
    "views",
    "estimatedMinutesWatched"
   ],
-  "rows": []
+  "rows": [
+   [
+    "SHORTS",
+    108,
+    30
+   ],
+   [
+    "RELATED_VIDEO",
+    31,
+    94
+   ],
+   [
+    "YT_SEARCH",
+    5,
+    1
+   ],
+   [
+    "YT_OTHER_PAGE",
+    4,
+    8
+   ],
+   [
+    "YT_CHANNEL",
+    2,
+    0
+   ],
+   [
+    "NOTIFICATION",
+    2,
+    1
+   ],
+   [
+    "SUBSCRIBER",
+    1,
+    0
+   ],
+   [
+    "NO_LINK_OTHER",
+    0,
+    0
+   ]
+  ]
  },
  "countries": {
   "columns": [
    "country",
    "views"
   ],
-  "rows": []
+  "rows": [
+   [
+    "US",
+    42
+   ]
+  ]
  },
  "revenue": {
   "columns": [
@@ -33,9 +456,69 @@
  },
  "reach": {
   "job": "22cbe519-176f-4a0c-9484-ef5f01850ea5",
-  "days": 30,
+  "days": 31,
   "videos": {
    "fWvrsNHlIak": {
+    "impressions": 1250,
+    "clicks": 26,
+    "ctr": 0.0208
+   },
+   "0BKN1bwvjRI": {
+    "impressions": 1,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "9JvUOVsxthA": {
+    "impressions": 1,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "Bw7RPbexCTA": {
+    "impressions": 1,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "CkQNFwM8CB0": {
+    "impressions": 1,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "QK55Sko_aw4": {
+    "impressions": 17,
+    "clicks": 1,
+    "ctr": 0.0588
+   },
+   "ZjCRJ3VsOu0": {
+    "impressions": 11,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "asHo8qWpZDg": {
+    "impressions": 5,
+    "clicks": 1,
+    "ctr": 0.2
+   },
+   "dpxhxTSJoec": {
+    "impressions": 1,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "hK24hiHogvs": {
+    "impressions": 1,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "kOTfAUeBpRA": {
+    "impressions": 1,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "l8W1p2lfHCw": {
+    "impressions": 7,
+    "clicks": 1,
+    "ctr": 0.1429
+   },
+   "mcIl2VZevA8": {
     "impressions": 1,
     "clicks": 0,
     "ctr": 0.0
