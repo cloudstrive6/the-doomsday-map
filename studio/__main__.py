@@ -112,6 +112,11 @@ def cmd_package(a):
     package(episode_dir(a.episode))
 
 
+def cmd_thumbimages(a):
+    from .imagegen import generate
+    generate(episode_dir(a.episode), force=a.force)
+
+
 def cmd_thumbcheck(a):
     from .thumbcheck import check
     r = check(episode_dir(a.episode))
@@ -184,6 +189,7 @@ def main(argv=None):
     s = sub.add_parser("shotlist"); s.add_argument("episode"); s.set_defaults(fn=cmd_shotlist)
     s = sub.add_parser("stills"); s.add_argument("episode"); s.add_argument("times", nargs="+"); s.set_defaults(fn=cmd_stills)
     s = sub.add_parser("package"); s.add_argument("episode"); s.set_defaults(fn=cmd_package)
+    s = sub.add_parser("thumbimages"); s.add_argument("episode"); s.add_argument("--force", action="store_true"); s.set_defaults(fn=cmd_thumbimages)
     s = sub.add_parser("thumbcheck"); s.add_argument("episode"); s.add_argument("--strict", action="store_true"); s.set_defaults(fn=cmd_thumbcheck)
     s = sub.add_parser("slot"); s.set_defaults(fn=cmd_slot)
     s = sub.add_parser("queue"); s.add_argument("--github-output", action="store_true"); s.set_defaults(fn=cmd_queue)

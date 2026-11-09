@@ -1,228 +1,32 @@
 [
  {
   "id": "a",
-  "variant": "map",
+  "variant": "image",
   "line1": "26 MINUTES",
   "line2": "TO SEATTLE",
-  "tag": "NORTH KOREA SIMULATION",
-  "align": "right",
-  "region": {
-   "t": 30,
-   "view": {
-    "center": [
-     -128,
-     47.5
-    ],
-    "widthKm": 1800
-   },
-   "highlight": [
-    {
-     "iso": "840",
-     "color": "#3ED6C8",
-     "fill": "rgba(62,214,200,0.08)"
-    }
-   ],
-   "burst": {
-    "at": [
-     -122.3321,
-     47.6062
-    ],
-    "t": 29.2,
-    "km": 70
-   },
-   "rings": [
-    {
-     "at": [
-      -122.3321,
-      47.6062
-     ],
-     "km": 60,
-     "color": "#FF7A1A",
-     "dashed": false
-    },
-    {
-     "at": [
-      -122.3321,
-      47.6062
-     ],
-     "km": 120,
-     "color": "#FF3B3B"
-    }
-   ],
-   "lines": [
-    {
-     "from": [
-      -150,
-      55
-     ],
-     "to": [
-      -122.33,
-      47.61
-     ],
-     "color": "#FF3B3B"
-    }
-   ]
-  }
+  "tag": "NORTH KOREA STRIKES FIRST",
+  "align": "left",
+  "image_prompt": "Night photo of the Seattle skyline seen across Elliott Bay with the Space Needle clearly in the foreground on the left; behind the city on the right a gigantic nuclear fireball and mushroom cloud rises into the sky, glowing bright orange and yellow, lighting the clouds, the towers and the water.",
+  "image": "thumbs/003-a.jpg"
  },
  {
   "id": "b",
-  "variant": "globe",
-  "line1": "32 MINUTES",
-  "line2": "LAST WARHEAD",
-  "tag": "NORTH KOREA SIMULATION",
-  "globe": {
-   "camera": [
-    {
-     "t": 0,
-     "lat": 46,
-     "lon": -165,
-     "scale": 520
-    }
-   ],
-   "highlight": [
-    {
-     "iso": "840",
-     "color": "#3ED6C8",
-     "fill": "rgba(62,214,200,0.08)"
-    },
-    {
-     "iso": "408",
-     "color": "#FF3B3B",
-     "fill": "rgba(255,59,59,0.12)"
-    }
-   ],
-   "sun": {
-    "lat": 9.1,
-    "lon": 28.85
-   },
-   "arcs": [
-    {
-     "from": [
-      125.67,
-      39.2
-     ],
-     "to": [
-      -122.3321,
-      47.6062
-     ],
-     "t0": 0,
-     "t1": 1,
-     "color": "#FF3B3B",
-     "loft": 0.16
-    },
-    {
-     "from": [
-      125.67,
-      39.2
-     ],
-     "to": [
-      -122.7134,
-      47.7305
-     ],
-     "t0": 0,
-     "t1": 1,
-     "color": "#FF3B3B",
-     "loft": 0.16
-    },
-    {
-     "from": [
-      125.67,
-      39.2
-     ],
-     "to": [
-      -122.4194,
-      37.7749
-     ],
-     "t0": 0,
-     "t1": 1,
-     "color": "#FF3B3B",
-     "loft": 0.16
-    },
-    {
-     "from": [
-      125.67,
-      39.2
-     ],
-     "to": [
-      -120.572,
-      34.742
-     ],
-     "t0": 0,
-     "t1": 1,
-     "color": "#FF3B3B",
-     "loft": 0.16
-    }
-   ],
-   "flashes": [
-    {
-     "at": [
-      -122.3321,
-      47.6062
-     ],
-     "t": 0.5,
-     "radius": 4,
-     "hold": 2
-    },
-    {
-     "at": [
-      -122.4194,
-      37.7749
-     ],
-     "t": 0.5,
-     "radius": 4,
-     "hold": 2
-    }
-   ]
-  }
+  "variant": "image",
+  "line1": "6 MISSILES",
+  "line2": "4 GET THROUGH",
+  "tag": "44 INTERCEPTORS",
+  "align": "left",
+  "image_prompt": "Close orbital view at night of the Pacific Northwest coast of North America, seen from high above the Pacific Ocean: the dark ocean fills the left half, the coastline runs down the right half with the bright city lights of Seattle on Puget Sound and Vancouver to the north, snow on the Cascade mountains. A huge glowing orange nuclear fireball erupts at Seattle. Six bright orange missile trails come down from the upper left over the ocean toward the coast; two of them end in small white interception flashes high over the ocean, four reach the coast. The curved horizon and a thin blue atmosphere at the top.",
+  "image": "thumbs/003-b.jpg"
  },
  {
   "id": "c",
-  "variant": "card",
-  "line1": "6 MISSILES",
-  "line2": "26 MINUTES",
-  "tag": "NORTH KOREA SIMULATION",
-  "globe": {
-   "camera": [
-    {
-     "t": 0,
-     "lat": 50,
-     "lon": -125,
-     "scale": 340
-    }
-   ],
-   "highlight": [
-    {
-     "iso": "840",
-     "color": "#3ED6C8",
-     "fill": "rgba(62,214,200,0.08)"
-    },
-    {
-     "iso": "408",
-     "color": "#FF3B3B",
-     "fill": "rgba(255,59,59,0.12)"
-    }
-   ],
-   "sun": {
-    "lat": 9.1,
-    "lon": 28.85
-   },
-   "arcs": [
-    {
-     "from": [
-      125.67,
-      39.2
-     ],
-     "to": [
-      -122.3321,
-      47.6062
-     ],
-     "t0": 0,
-     "t1": 1,
-     "color": "#FF3B3B",
-     "loft": 0.16
-    }
-   ],
-   "flashes": []
-  }
+  "variant": "image",
+  "line1": "3:05 AM",
+  "line2": "LAUNCH DETECTED",
+  "tag": "SEATTLE HAS 26 MINUTES",
+  "align": "left",
+  "image_prompt": "Night photo of a huge road-mobile intercontinental ballistic missile lifting off from its multi-axle launcher truck in a snowy mountain valley, the missile rising diagonally to the upper right, an enormous blinding orange and white rocket flame and billowing glowing smoke lighting up the snow, the launcher and the pine trees.",
+  "image": "thumbs/003-c.jpg"
  }
 ]

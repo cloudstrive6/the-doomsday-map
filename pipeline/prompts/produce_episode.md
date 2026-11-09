@@ -40,10 +40,13 @@ Director writes shotlist.py, builds, renders stills and self-checks (`shotlisted
 validate.txt (no banner, a card over 4 s in the first 60 s) or an end slate that is not 10 s is a FAIL. FAIL → director fixes and re-renders the affected
 stills. PASS → `visual_approved`.
 
-## 6. Packaging → packager, then visual-screener on thumbnails
-metadata.json, thumbs.json, shorts.json, `python -m studio package <id>`; screener checks build/thumb_a/b/c.png at feed
-size and the shorts windows (append to visual_review.md). Then run `python -m studio shotlist <id>` once more (it stages
-the Shorts) and `python -m studio stills <id>` is not needed again.
+## 6. Packaging → packager, then thumbnail-reviewer, then visual-screener on the Shorts
+metadata.json, thumbs.json (photoreal: `python -m studio thumbimages <id>`), shorts.json, `python -m studio package <id>`.
+Then the **thumbnail-reviewer** agent (`.claude/agents/thumbnail-reviewer.md`): `python -m studio thumbcheck <id>`
+(brightness gate against the niche's top thumbnails) plus its CTR review; it writes `thumb_review.md` and fixes and
+reruns until PASS (at most three rounds; after that keep the best and note it in decisions.md). The screener checks the
+Shorts windows (append to visual_review.md). Then run `python -m studio shotlist <id>` once more (it stages the Shorts)
+and `python -m studio stills <id>` is not needed again.
 
 ## 7. Done
 Append a dated summary to `episodes/<id>/decisions.md` (rounds per gate, risks). `python -m studio stage <id> packaged`.

@@ -53,7 +53,8 @@ export const Thumbnail: React.FC<ThumbProps> = (p) => {
     return (
       <AbsoluteFill style={{background: '#05070A'}}>
         <Img src={staticFile(p.image)} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
-        <AbsoluteFill style={{background: `linear-gradient(${right ? 250 : 110}deg, rgba(5,7,10,0.85) 0%, rgba(5,7,10,0.45) 32%, rgba(5,7,10,0) 52%)`}} />
+        {/* light shade only behind the headline: photo thumbnails must stay bright (studio/thumbcheck.py) */}
+        <AbsoluteFill style={{background: `linear-gradient(${right ? 250 : 110}deg, rgba(5,7,10,0.55) 0%, rgba(5,7,10,0.2) 28%, rgba(5,7,10,0) 42%)`}} />
         <div style={{position: 'absolute', [right ? 'right' : 'left']: 50, top: 50}}>
           <Headline p={p} align={right ? 'right' : 'left'} size={140} />
         </div>

@@ -38,7 +38,7 @@ agents and the automated QC in this repo. Read this file fully before working.
 | `narration/` | `python -m studio narrate <id>` then `python -m studio align <id>` | narration.wav, timing.json, words.json (word times) |
 | `shotlist.py` → `episode.json` | director | Python that builds the shot list from timing; see episodes 001 and 002 as the reference implementations |
 | `metadata.json` | packager | title, description with `{{CHAPTERS}}`, tags, playlist key, `synthetic_media: true` |
-| `thumbs.json` | packager | three variants a (map or globe), b (globe), c (number card); see 002 |
+| `thumbs.json` | packager | three photoreal variants (place, scale, moment) with `image_prompt`, made by Gemini (`thumbimages`) and gated by the thumbnail-reviewer (`thumbcheck`); see 003 |
 | `shorts.json` | packager | three windows on the episode timeline, 30 to 60 s, each ending on a payoff, two-line title band, YouTube title |
 | `status.json` | `python -m studio stage` | current stage and history |
 
