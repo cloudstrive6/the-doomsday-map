@@ -44,7 +44,12 @@
       "stage": "visual_approved",
       "note": "visual-screener PASS round 3",
       "at": "2026-11-09T23:15:26+00:00"
+    },
+    {
+      "stage": "packaged",
+      "note": "all gates passed",
+      "at": "2026-11-09T23:27:48+00:00"
     }
   ],
-  "stage": "visual_approved"
+  "stage": "packaged"
 }

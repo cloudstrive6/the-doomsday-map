@@ -37,3 +37,24 @@ Non-blocking:
 - s3 mid and end frames: the clock "1995" is struck through by the coastline and "21 JANUARY" is clipped at the right edge.
 - s1: band, tag and clock do not overlap; "T+11:06" sits right under the band but is readable. Small ring labels are tiny on a phone.
 - Band is two lines, legible, inside the safe area in all three Shorts.
+
+
+## Round 4 post re-narration (2026-11-09)
+
+PASS
+
+Evidence: fresh stills at 20 times (build/stills, contact.png) rendered from the rebuilt 672.04 s episode.json; Short stills at start, middle and end for s1, s2, s3 (build/shortstills_s1, _s2, _s3, each with sheet.png). `build/validate.txt` reads `ok`.
+
+Checks:
+- Retention: no `retention:` lines. Banner 16.93 to 19.93 s (3.0 s) sits over the moving Chicago city shot open-banner, clear of the SIMULATION tag and the clock. The only cards in the first minute (open-800 3.9 s count-up, c1-card 3.5 s chapter) are 4 s or under, and the rest are moving maps or globes.
+- End slate: starts 656.074 s on the next-scenario line, last word ends 662.04 s, slate and music run to 672.04 s, exactly 10 s after the last word. Half-empty layout kept (NEXT SCENARIO box, bottom-left free).
+- Labels: Hiroshima, 1 MILE GONE and 3 MILES DAMAGED are inside the frame and readable; Chicago ring labels (fireball, 20 psi, 5 psi, burns, 1 psi) are readable and clear of the corner tag and clock at 395, 478 and 600 s.
+- Shorts: s1 388.64 to 430.03 (41.4 s) ends on "ordinary buildings fail."; s2 71.73 to 128.63 (56.9 s) ends on "one sixty-second of the second."; s3 190.5 to 224.79 (34.3 s) ends on "No order was given." All within 30 to 60 s and on a payoff. Title band (two lines) is inside the safe area and no longer overprints the s2 bars headline; no spoken or burned-in source refs.
+
+Non-blocking polish (does not fail the episode):
+1. s2 mid frame (about 100 s globe): "UNITED STATES: 8 KT TO 1.2 MT" is clipped at the left edge and "RUSSIA: HUNDREDS..." runs off the right edge in vertical. Move those labels inboard or shorten them for the 9:16 crop.
+2. s3 end frame: "25 JANUARY" is clipped at the right edge, the "1995" clock is struck through by the Norway coastline, and the Andoya label is crossed by the coastline. Nudge the clock/label or the camera.
+3. s1 last frame: small ring labels (fireball, UNITED CENTER, 20 PSI) are tiny and crowd each other near the centre; "09:26 . BURST" is clipped at the right. Readable but small on a phone.
+4. s1 first frame: "THE LOOP" label touches the SIMULATION tag. s3 first frame (stamp card) has an almost invisible sub-line; brighten it.
+5. 58 s Hiroshima: "3 MILES DAMAGED" label touches "AKI WARD"; ring line crosses the "1" of "1 MILE GONE". Legible.
+6. 600 s frame: "MIDWAY AIRPORT" label sits on its icon and the footer credit runs under it; "20 PSI" label touches the orange ring. Legible.
