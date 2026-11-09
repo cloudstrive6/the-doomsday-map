@@ -52,7 +52,10 @@ export function cameraAt(keys: CameraKey[], t: number): CameraKey {
   for (let i = 0; i < keys.length - 1; i++) {
     const a = keys[i], b = keys[i + 1];
     if (t <= b.t) {
-      const u = ease(clamp01((t - a.t) / Math.max(1e-6, b.t - a.t)));
+      // part linear so the camera never stops at a key: a pure ease-in-out crawls for seconds around each key and
+      // trips the 4 s freeze check on long moves (003 c5-mid, 2026-11-09)
+      const lin = clamp01((t - a.t) / Math.max(1e-6, b.t - a.t));
+      const u = 0.4 * lin + 0.6 * ease(lin);
       let dl = b.lon - a.lon;
       if (dl > 180) dl -= 360;
       if (dl < -180) dl += 360;

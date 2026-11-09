@@ -83,7 +83,9 @@ jobs:
           echo "chunk ${{ matrix.index }} took $(( $(date +%s) - START ))s"
       - uses: actions/upload-artifact@v4
         with:
-          name: chunk-${{ matrix.index }}
+          # name is unique per render: produce.yml renders the long video and three Shorts in one run, and a
+          # shared "chunk-N" name let the long concat pick up Short chunks (003, 2026-11-09: a 1080x1920 "long" file)
+          name: chunk-${{ inputs.episode }}-${{ inputs.composition }}-${{ matrix.index }}
           path: video/out/chunk-${{ matrix.index }}.mp4
           retention-days: 3
 
@@ -92,7 +94,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/download-artifact@v4
-        with: { pattern: "chunk-*", path: chunks, merge-multiple: true }
+        with: { pattern: "chunk-${{ inputs.episode }}-${{ inputs.composition }}-*", path: chunks, merge-multiple: true }
       - name: Install ffmpeg
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
       - name: Concatenate

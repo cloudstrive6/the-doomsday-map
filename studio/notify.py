@@ -11,7 +11,10 @@ from pathlib import Path
 def send(text: str, photo: Path | None = None) -> bool:
     from .config import load_dotenv
     load_dotenv()
-    token, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
+    # strip a stray byte-order mark or whitespace pasted into the secrets: a BOM in the token made every
+    # alert fail with "'ascii' codec can't encode character '﻿'" (found 2026-11-09)
+    clean = lambda v: (v or "").replace("﻿", "").strip()
+    token, chat = clean(os.environ.get("TELEGRAM_BOT_TOKEN")), clean(os.environ.get("TELEGRAM_CHAT_ID"))
     if not token or not chat:
         print(("[notify] Telegram not configured; message was:\n" + text).encode("ascii", "replace").decode())
         return False

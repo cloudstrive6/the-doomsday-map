@@ -28,13 +28,26 @@ const ShotBody: React.FC<{shot: Shot; t: number}> = ({shot, t}) => {
 
 // Every shot keeps moving (house rule: no still stretch over 6 s). Maps and globes without an authored camera move
 // get a slow drift; cards get a slow push-in on the whole card (the HUD chrome stays fixed).
+// Motion is a rate, not a total: a fixed zoom spread over a long shot moves too slowly per frame and fails the
+// 4 s freeze check (003, 2026-11-09: an 11 s text card, a 7.5 s region map and a globe with an early last key).
 function withDrift(shot: Shot): Shot {
+  const dur = shot.end - shot.start;
   if ((shot.type === 'region' || shot.type === 'city') && !shot.zoomTo) {
-    return {...shot, zoomTo: {center: shot.view.center, widthKm: shot.view.widthKm * 0.92}};
+    return {...shot, zoomTo: {center: shot.view.center, widthKm: shot.view.widthKm * Math.max(0.8, 1 - 0.014 * dur)}};
   }
   if (shot.type === 'globe' && shot.camera.length === 1) {
     const c = shot.camera[0];
-    return {...shot, camera: [c, {...c, t: c.t + (shot.end - shot.start), lon: c.lon - 4, scale: c.scale * 1.05}]};
+    return {...shot, camera: [c, {...c, t: c.t + dur, lon: c.lon - Math.max(4, 0.6 * dur), scale: c.scale * (1 + Math.max(0.05, 0.008 * dur))}]};
+  }
+  if (shot.type === 'globe' && shot.camera.length > 1) {
+    // an authored move that ends early leaves the rest of the shot still: keep drifting the same way to the end
+    const last = shot.camera[shot.camera.length - 1];
+    const prev = shot.camera[shot.camera.length - 2];
+    const rest = dur - last.t;
+    if (rest > 2) {
+      const dLon = last.lon - prev.lon || -4;
+      return {...shot, camera: [...shot.camera, {...last, t: dur, lon: last.lon + Math.sign(dLon) * Math.max(2, 0.5 * rest), scale: last.scale * (1 + 0.008 * rest)}]};
+    }
   }
   return shot;
 }
@@ -46,7 +59,8 @@ const ShotView: React.FC<{shot: Shot; subtitled?: boolean}> = ({shot: raw, subti
   const t = frame / fps;
   const shot = React.useMemo(() => withDrift(raw), [raw]);
   const dur = shot.end - shot.start;
-  const push = CARD_TYPES.has(shot.type) ? 1 + 0.045 * Math.min(1, t / Math.max(1, dur)) : 1;
+  // cards push in at about 1% a second (at least 4.5% in total), so long cards keep moving too
+  const push = CARD_TYPES.has(shot.type) ? 1 + Math.max(0.045 * Math.min(1, t / Math.max(1, dur)), Math.min(0.14, 0.01 * t)) : 1;
   const fadeIn = clamp01(t / 0.35);
   const fadeOut = clamp01((dur - t) / 0.35);
   const dark = 1 - Math.min(fadeIn, fadeOut);
