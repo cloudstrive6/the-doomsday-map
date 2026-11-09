@@ -158,7 +158,17 @@ def finish(ep: Path) -> dict:
     if loud["TP"] > cfg["true_peak_db"]:
         issues.append(f"true peak {loud['TP']} dBTP")
     det = _detect(b / "final.mp4")
+    # the end slate is meant to hold still: YouTube's end-screen elements sit on fixed spots of it
+    # (its empty "NEXT SCENARIO" box is the target for the end-screen video), so freezes there are not issues
+    slate_start = None
+    ej = ep / "episode.json"
+    if ej.exists():
+        slate = [s for s in json.loads(ej.read_text(encoding="utf-8")).get("shots", []) if s.get("type") == "endslate"]
+        slate_start = min(s["start"] for s in slate) if slate else None
     for s, d in det["freezes"]:
+        if slate_start is not None and s >= slate_start - 0.5:
+            print(f"QC: freeze {d:.1f}s at {s:.1f}s is on the end slate (from {slate_start:.1f}s): allowed")
+            continue
         issues.append(f"frozen {d:.1f}s at {s:.1f}s")
     for s, e in det["blacks"]:
         issues.append(f"black {e - s:.1f}s at {s:.1f}s")

@@ -59,8 +59,10 @@ const ShotView: React.FC<{shot: Shot; subtitled?: boolean}> = ({shot: raw, subti
   const t = frame / fps;
   const shot = React.useMemo(() => withDrift(raw), [raw]);
   const dur = shot.end - shot.start;
-  // cards push in at about 1% a second (at least 4.5% in total), so long cards keep moving too
-  const push = CARD_TYPES.has(shot.type) ? 1 + Math.max(0.045 * Math.min(1, t / Math.max(1, dur)), Math.min(0.14, 0.01 * t)) : 1;
+  // cards push in at about 1% a second (at least 4.5% in total), so long cards keep moving too. The end slate keeps the
+  // original gentle 4.5% push: YouTube's end-screen elements sit on fixed spots of it (QC allows it to hold still).
+  const slow = 1 + 0.045 * Math.min(1, t / Math.max(1, dur));
+  const push = shot.type === 'endslate' ? slow : CARD_TYPES.has(shot.type) ? Math.max(slow, 1 + Math.min(0.14, 0.01 * t)) : 1;
   const fadeIn = clamp01(t / 0.35);
   const fadeOut = clamp01((dur - t) / 0.35);
   const dark = 1 - Math.min(fadeIn, fadeOut);
