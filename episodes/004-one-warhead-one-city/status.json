@@ -29,7 +29,12 @@
       "stage": "script_approved",
       "note": "fact-screener PASS round 3",
       "at": "2026-11-09T22:55:43+00:00"
+    },
+    {
+      "stage": "narrated",
+      "note": "11.4 min, 1495 words",
+      "at": "2026-11-09T23:01:16+00:00"
     }
   ],
-  "stage": "script_approved"
+  "stage": "narrated"
 }
