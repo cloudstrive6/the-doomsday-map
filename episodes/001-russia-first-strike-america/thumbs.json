@@ -1,41 +1,32 @@
 [
  {
   "id": "a",
-  "variant": "globe",
   "line1": "27 MINUTES",
   "line2": "TO OMAHA",
-  "tag": "RUSSIA STRIKES FIRST",
-  "camera": {
-   "t": 0,
-   "lat": 52,
-   "lon": -75,
-   "scale": 440
-  }
+  "tag": "300 MISSILES IN 90 SECONDS",
+  "align": "left",
+  "image_prompt": "Night photo of the downtown Omaha, Nebraska skyline across the Missouri River, flat prairie city with a few modest towers; behind the city on the right a gigantic nuclear fireball and mushroom cloud rises into the sky, glowing bright orange and yellow, lighting the clouds, the buildings and the river.",
+  "variant": "image",
+  "image": "thumbs/001-a.jpg"
  },
  {
   "id": "b",
-  "variant": "card",
   "line1": "650 WARHEADS",
   "line2": "30 MINUTES",
   "tag": "RUSSIA STRIKES FIRST",
-  "camera": {
-   "t": 0,
-   "lat": 50,
-   "lon": -80,
-   "scale": 380
-  }
+  "align": "right",
+  "image_prompt": "Close view from low orbit at dawn over the Arctic: the Earth fills the lower two thirds of the frame, the sun rising behind the curved horizon at the top right with a brilliant golden glow, the sunlit Arctic ice and the coast of Canada below. Dozens of thick, bright orange missile trails arc from the top left over the pole down toward North America, and several large glowing orange nuclear fireballs erupt on the North American plains at the bottom right.",
+  "variant": "image",
+  "image": "thumbs/001-b.jpg"
  },
  {
   "id": "c",
-  "variant": "globe",
   "line1": "6 MINUTES",
-  "line2": "TO DECIDE",
-  "tag": "RUSSIA STRIKES FIRST",
-  "camera": {
-   "t": 0,
-   "lat": 68,
-   "lon": -35,
-   "scale": 440
-  }
+  "line2": "TO FIRE BACK",
+  "tag": "OR LOSE THE SILOS",
+  "align": "left",
+  "image_prompt": "Night photo on the flat snowy Great Plains of Nebraska: a Minuteman intercontinental missile bursting out of an underground silo in a small fenced compound, a huge column of bright orange and white rocket flame and glowing smoke lighting the snow and the fence, the missile rising straight up on the right of the frame, a second launch glow far away on the horizon.",
+  "variant": "image",
+  "image": "thumbs/001-c.jpg"
  }
 ]
