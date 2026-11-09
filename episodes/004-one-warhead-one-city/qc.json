@@ -1,0 +1,12 @@
+{
+  "ok": false,
+  "issues": [
+    "frozen 4.2s at 295.3s"
+  ],
+  "shotlist_checks": [],
+  "loudness": {
+    "I": -14.0,
+    "TP": -1.7
+  },
+  "at": "2026-11-09T23:49:57+00:00"
+}
