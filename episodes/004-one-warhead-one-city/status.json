@@ -9,7 +9,27 @@
       "stage": "researched",
       "note": "28 A, 10 B items",
       "at": "2026-11-09T22:50:18+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "script draft 1, about 1400 words",
+      "at": "2026-11-09T22:52:12+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "script revised for review round 1",
+      "at": "2026-11-09T22:54:00+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "round 2 fixes: A1 share, burst height line, Princeton Plan A named",
+      "at": "2026-11-09T22:54:58+00:00"
+    },
+    {
+      "stage": "script_approved",
+      "note": "fact-screener PASS round 3",
+      "at": "2026-11-09T22:55:43+00:00"
     }
   ],
-  "stage": "researched"
+  "stage": "script_approved"
 }
