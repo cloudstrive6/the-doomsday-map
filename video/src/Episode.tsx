@@ -70,12 +70,15 @@ const ShotView: React.FC<{shot: Shot; subtitled?: boolean}> = ({shot: raw, subti
   // original gentle 4.5% push: YouTube's end-screen elements sit on fixed spots of it (QC allows it to hold still).
   const slow = 1 + 0.045 * Math.min(1, t / Math.max(1, dur));
   const push = shot.type === 'endslate' ? slow : CARD_TYPES.has(shot.type) ? Math.max(slow, 1 + Math.min(0.14, 0.01 * t)) : 1;
+  // the push stops at 14% after 14 s; a longer card then pans sideways inside that zoomed margin (6 px/s, at most
+  // 120 px: no new crop) so it never holds still (004, 2026-11-10: a 20 s split card froze 4.2 s and failed QC)
+  const pan = CARD_TYPES.has(shot.type) && shot.type !== 'endslate' ? Math.min(120, 6 * Math.max(0, t - 14)) : 0;
   const fadeIn = clamp01(t / 0.35);
   const fadeOut = clamp01((dur - t) / 0.35);
   const dark = 1 - Math.min(fadeIn, fadeOut);
   return (
     <AbsoluteFill>
-      <AbsoluteFill style={push !== 1 ? {transform: `scale(${push})`} : undefined}>
+      <AbsoluteFill style={push !== 1 ? {transform: `scale(${push}) translateX(${(-pan / push).toFixed(2)}px)`} : undefined}>
         <ShotBody shot={shot} t={t} />
       </AbsoluteFill>
       <Chrome tag={shot.tag} clock={shot.clock} clockLabel={shot.clockLabel} caption={subtitled ? undefined : shot.caption} source={shot.source} t={t} />
