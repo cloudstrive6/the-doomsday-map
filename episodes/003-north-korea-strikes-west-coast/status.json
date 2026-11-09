@@ -94,7 +94,22 @@
       "stage": "rendered",
       "note": "https://github.com/cloudstrive6/the-doomsday-map/actions/runs/42560088322",
       "at": "2026-11-09T04:42:13+00:00"
+    },
+    {
+      "stage": "rendered",
+      "note": "https://github.com/cloudstrive6/the-doomsday-map/actions/runs/42560088322",
+      "at": "2026-11-09T06:39:00+00:00"
+    },
+    {
+      "stage": "qc_passed",
+      "note": "",
+      "at": "2026-11-09T06:39:18+00:00"
+    },
+    {
+      "stage": "uploaded",
+      "note": "https://youtu.be/up8u4934iUM at 2026-11-10T00:00:00Z",
+      "at": "2026-11-09T06:40:32+00:00"
     }
   ],
-  "stage": "rendered"
+  "stage": "uploaded"
 }
