@@ -1,6 +1,11 @@
-FAIL
+PASS
 
-1. QC is blocking: build/qc.json reports "frozen 9.6s at 720.5s" (limit 4 s). Loudness (-14.0 LUFS) and true peak (-1.8 dBTP) are fine.
-2. The end slate (frame long_15_707s) has an empty framed box on the right labelled "NEXT SCENARIO" with no map or preview in it. It looks broken and is almost certainly the frozen stretch. It needs motion and content, or the box should be removed and the slate split or animated so no still stretch exceeds 4 s.
-3. Not checked: the other 15 long-video frames and the Shorts frames were not inspected, because the QC failure already blocks this episode. Re-run the full visual check after the fix.
-4. Metadata: the title and description match the video, the simulation disclaimer ("This is a simulation. It has not happened.") is present, and there are no em-dashes. The thumbnail (26 MINUTES TO SEATTLE, with a SIMULATION tag) is readable at small size.
+1. QC: ok, no issues. Loudness -14.0 LUFS, true peak -1.8 dBTP, no frozen or black stretches flagged.
+2. Long video (16 frames): corner tags are correct (SIMULATION, REAL DATA, REAL HISTORY), maps show the right places (Korea, Pacific, Alaska, Seattle city view, Guam), and the end slate is intentionally sparse. No broken frames.
+3. Shorts (3 x 3 frames): two-line title bands and word-timed subtitles are present and inside the safe area. Corner tags are correct, and the Seattle and Pacific map views are right.
+4. Thumbnail A: "26 MINUTES TO SEATTLE" with the "NORTH KOREA SIMULATION" label is readable at small size. The Seattle glow and rings sit under the text.
+5. Metadata: the title matches the video. The description has the "This is a simulation. It has not happened." disclaimer, no casualty figure, and no em-dashes. The AI narration is disclosed and synthetic_media is true.
+
+Minor polish (not blocking):
+- The "FOUR WARHEADS, 550 KILOTONS IN ALL" frame (about 570 s) is mostly empty beside the heading. It looks like a mid-animation sampling moment.
+- The left half of thumbnail A is dark and empty. It is still readable.
