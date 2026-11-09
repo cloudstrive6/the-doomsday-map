@@ -9,7 +9,8 @@ and the reference packages of episode 002: `metadata.json`, `thumbs.json`, `shor
 
 1. `metadata.json`: `title` (at most 70 characters, the scenario plus the stakes; competitor patterns are fine, exact
    copies are not), `description` (hook paragraph; "This is a simulation. It has not happened." paragraph; `Chapters`
-   then `{{CHAPTERS}}`; Key sources: 5 to 8 links from research.md; "How this video was made" paragraph saying the
+   then `{{CHAPTERS}}`, filled from script.md's section headers: from 2026-11-09 the history comes early and the last
+   chapter is the day after, and the End slate line is not a chapter, so write no chapter list by hand; Key sources: 5 to 8 links from research.md; "How this video was made" paragraph saying the
    narration is AI-generated and what is ours; map and imagery credits; 3 hashtags), `tags` (15 to 20, at most 400
    characters total), `playlist` (a key from config/channel.yaml youtube.playlists), `synthetic_media: true`,
    `paid_promotion: false`.

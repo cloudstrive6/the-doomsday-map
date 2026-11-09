@@ -14,7 +14,8 @@ Read `CLAUDE.md` first. Work in the repository root. Commit after each major ste
 - If an episode has `status.json` at an earlier stage, RESUME it from that stage.
 - Otherwise start a new one: take the first `backlog` idea in `data/ideas.md` (unless the newest
   `data/insights/*.md` recommends otherwise), run `python -m studio new <slug>`, write `brief.md` (topic, angle, why
-  now, the hook moment, the hero strike, the thumbnail number, the next episode for the end slate), mark the idea
+  now, the hook moment, the hero strike, the thumbnail number, the next episode for the end slate: the next `backlog`
+  idea after this one, which the script names in its last spoken line, never with a date), mark the idea
   `in-production`, `python -m studio stage <id> idea`.
 
 ## 1. Research → researcher
@@ -24,6 +25,8 @@ Read `CLAUDE.md` first. Work in the repository root. Commit after each major ste
 scenario.json, `python -m studio scenario <id>`, research.md section C written.
 
 ## 3. Script → script-writer ⇄ fact-screener (max 4 rounds)
+Shape from 2026-11-09 (see script-writer.md): a one-sentence spoken disclaimer in the cold open, real history and close
+calls early, the last chapter is the simulation's day after, then one spoken next-scenario line.
 Writer → `scripted`; screener writes script_review.md; FAIL goes back to the writer with the review. PASS →
 `script_approved`. After 4 failed rounds: simplify the brief once and retry; if it still fails, notify and stop.
 
@@ -33,7 +36,8 @@ Writer → `scripted`; screener writes script_review.md; FAIL goes back to the w
 
 ## 5. Shot list → director, then visual-screener (max 3 rounds)
 Director writes shotlist.py, builds, renders stills and self-checks (`shotlisted`). Then the visual-screener reviews
-`build/stills/*.png` and writes `episodes/<id>/visual_review.md`. FAIL → director fixes and re-renders the affected
+`build/stills/*.png` and `build/validate.txt` and writes `episodes/<id>/visual_review.md`. Any `retention:` line in
+validate.txt (no banner, a card over 4 s in the first 60 s) or an end slate that is not 10 s is a FAIL. FAIL → director fixes and re-renders the affected
 stills. PASS → `visual_approved`.
 
 ## 6. Packaging → packager, then visual-screener on thumbnails

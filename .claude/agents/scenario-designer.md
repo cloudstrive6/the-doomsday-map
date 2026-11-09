@@ -17,5 +17,8 @@ plus their research.md section C.
 3. Replace research.md section C with the decided assumptions: the escalation logic and why (tie to A and B rows),
    each strike group, the hero target with its engine numbers (fireball, 5 psi, burns, 1 psi, fallout), what the
    script must not claim (death tolls, unknowable outcomes). Keep it honest: the scenario is a scenario.
+Section C also sets out the day after (fallout direction from the wind you chose, the response, what stops
+working), because from 2026-11-09 the episode ends on the simulation's aftermath, not on a history chapter; keep it to
+what published models and real data rows support.
 Pick one hero strike for the close-up (a city with `video/public/city/<slug>.json`, or at sea), because the
 "one warhead, ring by ring" chapter is the channel's signature.
