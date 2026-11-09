@@ -15,3 +15,25 @@ Non-blocking polish (optional, does not fail the episode):
 - 478 s: "MIDWAY AIRPORT" starts on its airport icon.
 - 600 s card ("GET INSIDE. STAY INSIDE. STAY TUNED.") is a deliberate text card with the SIMULATION tag, outside the first minute; acceptable.
 - Opening minute, Hiroshima fireball glow, bare end slate: unchanged from round 2, accepted.
+
+
+## Shorts review (2026-11-09)
+
+FAIL
+
+Evidence: windows checked against episode.json and narration/words.json; vertical stills rendered from the three Short episode.json files at start, middle and end (1080x1920). `python -m studio shotlist` re-run: s1 52.5 s, s2 56.9 s, s3 34.0 s.
+
+Edited by the reviewer (small timing/title fix in shorts.json):
+- s3: end moved 233.52 to 224.5. The old end sat on the "c2-minutes" text card and the line "officers had only minutes to judge", which the fact review softened. Window now ends on "No order was given." (a payoff), 34.0 s. Title changed from "A FALSE ALARM / AND FIVE MISSILES" to "TWO FALSE ALARMS / NO ORDER GIVEN"; yt_title now "Two Nuclear False Alarms: Petrov in 1983, Norway in 1995 #shorts" (dropped "Stopped a Nuclear War", an over-claim); hook no longer says "decision made in minutes". Note: script.md p17 still says "only minutes" in the long video; change it to "very little time" in the script (the long video narration must be redone anyway, see 1).
+- s1 and s2 timings are fine: both start within 0.4 s before a paragraph start (p30, p08) and end on a payoff (p32 "ordinary buildings fail", p10 "one sixty-second of the second"), 30 to 60 s.
+
+Blocking findings:
+1. Narration speaks the source refs. `REF` in studio/narrate.py did not match "[C, engine]" or "[C, engine, A11]", so the TTS text and timing.json units keep them; heard.json shows "C." "Engine." spoken after p30, p31, p32, p33, p34, p35, p36 (for example 439.37 to 440.4 s, inside s1's last second, and p30 at 403 s inside s1). The same tokens leak into burned-in subtitles ("ordinary buildings fail. [C, engine]" on the last s1 frame). Fix applied: REF in studio/narrate.py now strips `engine` refs. Still to do (needs Google TTS credentials): rerun `python -m studio narrate 004-one-warhead-one-city`, `align`, `shotlist`, then re-check shorts.json times (all windows shift slightly after p30). I also removed the bracket tokens from the local narration/words.json (gitignored), which only fixes subtitles, not audio.
+2. s2 title band collides with the bars card in vertical. At the start the band sits on the card headline "OUR WARHEAD IS ABOUT 53 TIMES HIROSHIMA" (text on text, also over the "HIROSHIMA, 1945" label); at the end the SIMULATION tag overprints the "15 Mt" bar label. Fix: in shotlist.py for c1-53x, c1-range, c1-small, push the bars' first row and title down about 260 px for the vertical layout (or give the bars shot a `top` offset), and move the tag clear of row 2. Alternatively shorten the s2 start so it opens on the globe c1-russia (but that loses the Hiroshima comparison).
+3. s2 first frame (72 s) is near empty: only the headline on a dark background, with the band on top. Same fix as 2 (bars should be drawn from frame 0).
+
+Non-blocking:
+- s3 stamp card (26 SEPTEMBER 1983) runs 9 s at the start of a Short, but its sub-line is almost invisible; brighten it.
+- s3 mid and end frames: the clock "1995" is struck through by the coastline and "21 JANUARY" is clipped at the right edge.
+- s1: band, tag and clock do not overlap; "T+11:06" sits right under the band but is readable. Small ring labels are tiny on a phone.
+- Band is two lines, legible, inside the safe area in all three Shorts.

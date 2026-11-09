@@ -1,0 +1,220 @@
+{
+ "subtitles": [
+  {
+   "start": 0.631,
+   "end": 1.98,
+   "text": "On the twenty-sixth of September,"
+  },
+  {
+   "start": 1.98,
+   "end": 3.25,
+   "text": "nineteen eighty-three,"
+  },
+  {
+   "start": 3.794,
+   "end": 5.32,
+   "text": "a Soviet satellite warned"
+  },
+  {
+   "start": 5.32,
+   "end": 7.099,
+   "text": "of one American missile,"
+  },
+  {
+   "start": 7.099,
+   "end": 8.41,
+   "text": "then four more."
+  },
+  {
+   "start": 9.265,
+   "end": 12.48,
+   "text": "Duty officer Stanislav Petrov judged"
+  },
+  {
+   "start": 12.48,
+   "end": 14.25,
+   "text": "it a false alarm,"
+  },
+  {
+   "start": 14.25,
+   "end": 15.76,
+   "text": "reasoning that a real"
+  },
+  {
+   "start": 15.76,
+   "end": 17.47,
+   "text": "attack would be hundreds."
+  },
+  {
+   "start": 18.574,
+   "end": 20.87,
+   "text": "A later inquiry found a malfunction."
+  },
+  {
+   "start": 21.6,
+   "end": 23.53,
+   "text": "In January nineteen ninety-five,"
+  },
+  {
+   "start": 24.324,
+   "end": 26.54,
+   "text": "a Norwegian science rocket was"
+  },
+  {
+   "start": 26.54,
+   "end": 28.35,
+   "text": "tracked by Russian radar."
+  },
+  {
+   "start": 28.705,
+   "end": 30.3,
+   "text": "Russia's leaders were reportedly"
+  },
+  {
+   "start": 30.3,
+   "end": 32.47,
+   "text": "brought their nuclear briefcases."
+  },
+  {
+   "start": 32.695,
+   "end": 34.07,
+   "text": "No order was given."
+  }
+ ],
+ "slug": "004-one-warhead-one-city-s3",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 34.29,
+ "shots": [
+  {
+   "id": "c2-petrov0",
+   "type": "stamp",
+   "start": 0.0,
+   "end": 9.115,
+   "tag": "REAL HISTORY",
+   "text": "26 September 1983",
+   "line": "a Soviet satellite warns of one American missile, then four more",
+   "color": "#F2B01E",
+   "source": "Arms Control Association; Wired"
+  },
+  {
+   "id": "c2-petrov",
+   "type": "region",
+   "start": 9.115,
+   "end": 21.597,
+   "tag": "REAL HISTORY",
+   "clock": "1983",
+   "clockLabel": "SERPUKHOV-15 BUNKER",
+   "source": "Arms Control Association; Wired",
+   "caption": "Petrov judged it a false alarm: a real attack would be hundreds.",
+   "view": {
+    "center": [
+     34,
+     56
+    ],
+    "widthKm": 1800
+   },
+   "zoomTo": {
+    "center": [
+     37,
+     55.5
+    ],
+    "widthKm": 900
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "dot",
+     "t": 0.5
+    },
+    {
+     "at": [
+      37.4,
+      54.84
+     ],
+     "label": "Serpukhov-15 (approx. location)",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 6,
+     "t": 1.2
+    }
+   ]
+  },
+  {
+   "id": "c2-norway",
+   "type": "region",
+   "start": 21.597,
+   "end": 34.29,
+   "tag": "REAL HISTORY",
+   "clock": "1995",
+   "clockLabel": "25 JANUARY",
+   "source": "Reuters; Arms Control Association",
+   "caption": "A Norwegian science rocket, tracked by Russian radar. No order was given.",
+   "view": {
+    "center": [
+     26,
+     64
+    ],
+    "widthKm": 2800
+   },
+   "zoomTo": {
+    "center": [
+     28,
+     64
+    ],
+    "widthKm": 2200
+   },
+   "highlight": [
+    {
+     "iso": "578",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.08)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      16.13,
+      69.3
+     ],
+     "label": "Andoya, Norway",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 6,
+     "t": 0.5
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "dot",
+     "t": 3
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "TWO FALSE ALARMS",
+  "NO ORDER GIVEN"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

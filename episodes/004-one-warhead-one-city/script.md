@@ -40,7 +40,7 @@ On the twenty-sixth of September, nineteen eighty-three, a Soviet satellite warn
 
 In January nineteen ninety-five, a Norwegian science rocket was tracked by Russian radar. Russia's leaders were reportedly brought their nuclear briefcases. No order was given. [B9]
 
-None of these was a deliberate attack. In two of them, officers had only minutes to judge whether a warning was real. [B6, B7, B9]
+None of these was a deliberate attack. In two of them, officers had very little time to judge whether a warning was real. [B6, B7, B9]
 
 ## Chapter 03: the trigger [SIMULATION]
 

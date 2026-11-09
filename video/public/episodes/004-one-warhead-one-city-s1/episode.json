@@ -1,0 +1,700 @@
+{
+ "subtitles": [
+  {
+   "start": 0.196,
+   "end": 2.36,
+   "text": "The fireball. Radius,"
+  },
+  {
+   "start": 2.36,
+   "end": 4.29,
+   "text": "eight hundred and eighty metres."
+  },
+  {
+   "start": 4.737,
+   "end": 7.193,
+   "text": "Everything inside is vaporised."
+  },
+  {
+   "start": 7.193,
+   "end": 8.005,
+   "text": "That is about two"
+  },
+  {
+   "start": 8.005,
+   "end": 10.455,
+   "text": "point four square kilometres,"
+  },
+  {
+   "start": 10.455,
+   "end": 11.87,
+   "text": "centred on the Loop."
+  },
+  {
+   "start": 12.445,
+   "end": 13.41,
+   "text": "Next,"
+  },
+  {
+   "start": 13.617,
+   "end": 14.86,
+   "text": "the twenty pounds per"
+  },
+  {
+   "start": 14.86,
+   "end": 15.96,
+   "text": "square inch ring."
+  },
+  {
+   "start": 15.96,
+   "end": 18.41,
+   "text": "One point three kilometres."
+  },
+  {
+   "start": 18.862,
+   "end": 21.12,
+   "text": "Heavily built concrete structures are"
+  },
+  {
+   "start": 21.12,
+   "end": 23.39,
+   "text": "severely damaged or destroyed."
+  },
+  {
+   "start": 23.882,
+   "end": 25.12,
+   "text": "Then the five pounds"
+  },
+  {
+   "start": 25.12,
+   "end": 26.56,
+   "text": "per square inch ring."
+  },
+  {
+   "start": 26.56,
+   "end": 28.73,
+   "text": "Six point three kilometres."
+  },
+  {
+   "start": 29.19,
+   "end": 30.02,
+   "text": "About a hundred and"
+  },
+  {
+   "start": 30.02,
+   "end": 31.79,
+   "text": "twenty-four square kilometres."
+  },
+  {
+   "start": 32.179,
+   "end": 33.84,
+   "text": "Most ordinary buildings collapse"
+  },
+  {
+   "start": 33.84,
+   "end": 35.99,
+   "text": "or are heavily damaged."
+  },
+  {
+   "start": 36.606,
+   "end": 37.94,
+   "text": "That is the area where,"
+  },
+  {
+   "start": 37.94,
+   "end": 39.144,
+   "text": "by this measure,"
+  },
+  {
+   "start": 39.144,
+   "end": 40.81,
+   "text": "ordinary buildings fail."
+  }
+ ],
+ "slug": "004-one-warhead-one-city-s1",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 41.39,
+ "shots": [
+  {
+   "id": "c5-fireball",
+   "type": "city",
+   "start": 0.0,
+   "end": 12.304,
+   "tag": "SIMULATION",
+   "clock": "T+11:06",
+   "clockLabel": "09:26 · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 3.36
+   },
+   "zoomTo": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 3.84
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [
+    {
+     "km": 0.883,
+     "label": "Fireball",
+     "angle": 315,
+     "color": "#FFFFFF",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -87.6459,
+      41.8929
+     ],
+     "text": "The Loop",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -87.6,
+      41.8917
+     ],
+     "text": "Navy Pier",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near North Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near South Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Chicago Loop",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lower West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lincoln Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Hyde Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Bridgeport",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Armour Square",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Douglas",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "West Town",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Oakland",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Fuller Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Grand Boulevard",
+     "t": 999
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 883 m",
+     "color": "#FFFFFF"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c5-20psi",
+   "type": "city",
+   "start": 12.304,
+   "end": 23.88,
+   "tag": "SIMULATION",
+   "clock": "T+11:06",
+   "clockLabel": "09:26 · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 4.16
+   },
+   "zoomTo": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 4.96
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [
+    {
+     "km": 0.883,
+     "label": "Fireball",
+     "angle": 315,
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 1.28,
+     "label": "20 psi",
+     "angle": 135,
+     "color": "#FF7A1A",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -87.6459,
+      41.8929
+     ],
+     "text": "The Loop",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -87.6,
+      41.8917
+     ],
+     "text": "Navy Pier",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.6167,
+      41.8623
+     ],
+     "text": "Soldier Field",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near North Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near South Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Chicago Loop",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lower West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lincoln Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Hyde Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Bridgeport",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Armour Square",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Douglas",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "West Town",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Oakland",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Fuller Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Grand Boulevard",
+     "t": 999
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 883 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 1280 m",
+     "color": "#FF7A1A"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c5-5psi",
+   "type": "city",
+   "start": 23.88,
+   "end": 41.39,
+   "tag": "SIMULATION",
+   "clock": "T+11:06",
+   "clockLabel": "09:26 · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 11.2
+   },
+   "zoomTo": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 19.2
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [
+    {
+     "km": 0.883,
+     "label": "Fireball",
+     "angle": 315,
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 1.28,
+     "label": "20 psi",
+     "angle": 135,
+     "color": "#FF7A1A",
+     "t": -30
+    },
+    {
+     "km": 6.286,
+     "label": "5 psi",
+     "angle": 45,
+     "color": "#FF3B3B",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -87.6459,
+      41.8929
+     ],
+     "text": "The Loop",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -87.6167,
+      41.8623
+     ],
+     "text": "Soldier Field",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.6742,
+      41.8807
+     ],
+     "text": "United Center",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near North Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near South Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Chicago Loop",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lower West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lincoln Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Hyde Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Bridgeport",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Armour Square",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Douglas",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "West Town",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Oakland",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Fuller Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Grand Boulevard",
+     "t": 999
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 883 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 1280 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 6.3 km",
+     "color": "#FF3B3B"
+    }
+   ],
+   "flashT": -30
+  }
+ ],
+ "shortTitle": [
+  "ONE WARHEAD",
+  "RING BY RING"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

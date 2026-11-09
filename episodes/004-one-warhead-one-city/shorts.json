@@ -1,8 +1,8 @@
 [
  {
   "id": "s1",
-  "start": 388.696,
-  "end": 441.183,
+  "start": 388.64,
+  "end": 430.03,
   "title": [
    "ONE WARHEAD",
    "RING BY RING"
@@ -12,8 +12,8 @@
  },
  {
   "id": "s2",
-  "start": 71.728,
-  "end": 128.583,
+  "start": 71.73,
+  "end": 128.63,
   "title": [
    "53 TIMES",
    "HIROSHIMA"
@@ -23,13 +23,13 @@
  },
  {
   "id": "s3",
-  "start": 190.497,
-  "end": 233.52,
+  "start": 190.5,
+  "end": 224.79,
   "title": [
-   "A FALSE ALARM",
-   "AND FIVE MISSILES"
+   "TWO FALSE ALARMS",
+   "NO ORDER GIVEN"
   ],
-  "yt_title": "The Night One Officer Stopped a Nuclear War (1983) #shorts",
-  "hook": "Stanislav Petrov, a satellite warning and a decision made in minutes."
+  "yt_title": "Two Nuclear False Alarms: Petrov in 1983, Norway in 1995 #shorts",
+  "hook": "Stanislav Petrov and a satellite warning in 1983, then a Norwegian rocket in 1995. Neither became an attack."
  }
 ]

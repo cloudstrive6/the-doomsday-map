@@ -3,7 +3,7 @@
  "fps": 60,
  "width": 1920,
  "height": 1080,
- "durationSeconds": 689.06,
+ "durationSeconds": 672.04,
  "banner": {
   "start": 16.93,
   "end": 19.93
@@ -22,7 +22,7 @@
   {
    "src": "bed.mp3",
    "from": 34.976,
-   "to": 235.12,
+   "to": 235.064,
    "loop": [
     2,
     174
@@ -31,8 +31,8 @@
   },
   {
    "src": "bed_tense.mp3",
-   "from": 233.12,
-   "to": 689.06,
+   "from": 233.064,
+   "to": 672.04,
    "loop": [
     3,
     92
@@ -53,22 +53,22 @@
   },
   {
    "src": "impact.mp3",
-   "t": 234.27,
+   "t": 234.214,
    "gain_db": -9
   },
   {
    "src": "impact.mp3",
-   "t": 299.99699999999996,
+   "t": 299.941,
    "gain_db": -9
   },
   {
    "src": "impact.mp3",
-   "t": 542.99,
+   "t": 525.966,
    "gain_db": -9
   },
   {
    "src": "radar.mp3",
-   "t": 334.976,
+   "t": 334.91999999999996,
    "gain_db": -12
   },
   {
@@ -93,7 +93,7 @@
   },
   {
    "src": "boom.mp3",
-   "t": 375.865,
+   "t": 375.829,
    "gain_db": -4
   }
  ],
@@ -1172,7 +1172,7 @@
    "id": "c2-minutes",
    "type": "text",
    "start": 224.793,
-   "end": 234.12,
+   "end": 234.064,
    "tag": "REAL HISTORY",
    "lines": [
     "None was a deliberate attack",
@@ -1182,8 +1182,8 @@
   {
    "id": "c3-card",
    "type": "chapter",
-   "start": 234.12,
-   "end": 237.62,
+   "start": 234.064,
+   "end": 237.564,
    "tag": "SIMULATION",
    "kicker": "CHAPTER 03",
    "title": "The trigger"
@@ -1191,8 +1191,8 @@
   {
    "id": "c3-noplan",
    "type": "text",
-   "start": 237.62,
-   "end": 249.28,
+   "start": 237.564,
+   "end": 249.224,
    "tag": "SIMULATION",
    "lines": [
     "No war plan. No crisis. No named country.",
@@ -1202,8 +1202,8 @@
   {
    "id": "c3-weapon",
    "type": "globe",
-   "start": 249.28,
-   "end": 261.976,
+   "start": 249.224,
+   "end": 261.92,
    "tag": "SIMULATION",
    "caption": "One submarine-launched missile, about 2,700 km. Flight time: 11 minutes.",
    "source": "Scenario engine",
@@ -1274,8 +1274,8 @@
   {
    "id": "c3-target",
    "type": "city",
-   "start": 261.976,
-   "end": 279.937,
+   "start": 261.92,
+   "end": 279.881,
    "tag": "SIMULATION",
    "caption": "The Loop, a weekday morning. Our choice, not a forecast.",
    "source": "Scenario engine; OpenStreetMap",
@@ -1332,8 +1332,8 @@
   {
    "id": "c3-burst",
    "type": "split",
-   "start": 279.937,
-   "end": 299.847,
+   "start": 279.881,
+   "end": 299.791,
    "tag": "SIMULATION",
    "left": {
     "title": "Airburst · our choice",
@@ -1351,8 +1351,8 @@
   {
    "id": "c4-card",
    "type": "chapter",
-   "start": 299.847,
-   "end": 303.347,
+   "start": 299.791,
+   "end": 303.291,
    "tag": "SIMULATION",
    "kicker": "CHAPTER 04",
    "title": "Minute by minute"
@@ -1360,8 +1360,8 @@
   {
    "id": "c4-m0",
    "type": "globe",
-   "start": 303.347,
-   "end": 307.503,
+   "start": 303.291,
+   "end": 307.447,
    "tag": "SIMULATION",
    "clock": "T+00:00",
    "clockLabel": "09:15 CENTRAL",
@@ -1414,7 +1414,7 @@
       41.8789
      ],
      "t0": 0.0,
-     "t1": 72.42,
+     "t1": 72.44,
      "color": "#FF3B3B",
      "loft": 0.16
     }
@@ -1423,8 +1423,8 @@
   {
    "id": "c4-clock",
    "type": "timeline",
-   "start": 307.503,
-   "end": 318.568,
+   "start": 307.447,
+   "end": 318.512,
    "tag": "SIMULATION",
    "title": "Launch to impact: 11.1 minutes",
    "sub": "the engine keeps one clock · simulation",
@@ -1455,8 +1455,8 @@
   {
    "id": "c4-nodef",
    "type": "text",
-   "start": 318.568,
-   "end": 323.336,
+   "start": 318.512,
+   "end": 323.28,
    "tag": "SIMULATION",
    "lines": [
     "No defence. No warning. No second missile.",
@@ -1466,8 +1466,8 @@
   {
    "id": "c4-m5",
    "type": "globe",
-   "start": 323.336,
-   "end": 334.576,
+   "start": 323.28,
+   "end": 334.52,
    "tag": "SIMULATION",
    "clock": "T+05:08",
    "clockLabel": "09:20 · MINUTE FIVE",
@@ -1520,7 +1520,7 @@
       41.8789
      ],
      "t0": -19.99,
-     "t1": 52.43,
+     "t1": 52.45,
      "color": "#FF3B3B",
      "loft": 0.16
     }
@@ -1529,8 +1529,8 @@
   {
    "id": "c4-m8",
    "type": "radar",
-   "start": 334.576,
-   "end": 346.096,
+   "start": 334.52,
+   "end": 346.04,
    "tag": "SIMULATION",
    "title": "Minute eight · radar track",
    "lines": [
@@ -1554,8 +1554,8 @@
   {
    "id": "c4-m9a",
    "type": "city",
-   "start": 346.096,
-   "end": 352.07,
+   "start": 346.04,
+   "end": 352.03,
    "tag": "SIMULATION",
    "clock": "T+09:00",
    "clockLabel": "MINUTE NINE",
@@ -1603,8 +1603,8 @@
   {
    "id": "c4-m9b",
    "type": "city",
-   "start": 352.07,
-   "end": 359.633,
+   "start": 352.03,
+   "end": 359.577,
    "tag": "SIMULATION",
    "clock": "T+09:36",
    "clockLabel": "MINUTE NINE",
@@ -1643,8 +1643,8 @@
   {
    "id": "c4-m10",
    "type": "city",
-   "start": 359.633,
-   "end": 370.649,
+   "start": 359.577,
+   "end": 370.593,
    "tag": "SIMULATION",
    "clock": "T+10:00",
    "clockLabel": "MINUTE TEN",
@@ -1692,8 +1692,8 @@
   {
    "id": "c4-m11",
    "type": "globe",
-   "start": 370.649,
-   "end": 375.165,
+   "start": 370.593,
+   "end": 375.109,
    "tag": "SIMULATION",
    "clock": "T+11:00",
    "clockLabel": "MINUTE ELEVEN · 09:26",
@@ -1706,7 +1706,7 @@
      "scale": 2000
     },
     {
-     "t": 4.5160000000000196,
+     "t": 4.515999999999963,
      "lat": 41.9,
      "lon": -87.6,
      "scale": 6000
@@ -1755,8 +1755,8 @@
   {
    "id": "c5-flash",
    "type": "city",
-   "start": 375.165,
-   "end": 388.696,
+   "start": 375.109,
+   "end": 388.64,
    "tag": "SIMULATION",
    "clock": "T+11:06",
    "clockLabel": "09:26 · BURST",
@@ -1786,7 +1786,7 @@
      "label": "Fireball",
      "angle": 315,
      "color": "#FFFFFF",
-     "t": 0.7999999999999999
+     "t": 0.82
     }
    ],
    "labels": [
@@ -1925,13 +1925,13 @@
      "color": "#FFFFFF"
     }
    ],
-   "flashT": 0.7
+   "flashT": 0.72
   },
   {
    "id": "c5-fireball",
    "type": "city",
-   "start": 388.696,
-   "end": 404.976,
+   "start": 388.64,
+   "end": 400.944,
    "tag": "SIMULATION",
    "clock": "T+11:06",
    "clockLabel": "09:26 · BURST",
@@ -2105,8 +2105,8 @@
   {
    "id": "c5-20psi",
    "type": "city",
-   "start": 404.976,
-   "end": 419.128,
+   "start": 400.944,
+   "end": 412.52,
    "tag": "SIMULATION",
    "clock": "T+11:06",
    "clockLabel": "09:26 · BURST",
@@ -2299,8 +2299,8 @@
   {
    "id": "c5-5psi",
    "type": "city",
-   "start": 419.128,
-   "end": 441.233,
+   "start": 412.52,
+   "end": 430.033,
    "tag": "SIMULATION",
    "clock": "T+11:06",
    "clockLabel": "09:26 · BURST",
@@ -2504,8 +2504,8 @@
   {
    "id": "c5-burns",
    "type": "city",
-   "start": 441.233,
-   "end": 465.521,
+   "start": 430.033,
+   "end": 451.241,
    "tag": "SIMULATION",
    "clock": "T+11:06",
    "clockLabel": "09:26 · BURST",
@@ -2728,8 +2728,8 @@
   {
    "id": "c5-1psi",
    "type": "city",
-   "start": 465.521,
-   "end": 487.961,
+   "start": 451.241,
+   "end": 470.601,
    "tag": "SIMULATION",
    "clock": "T+11:06",
    "clockLabel": "09:26 · BURST",
@@ -2971,8 +2971,8 @@
   {
    "id": "c5-grow",
    "type": "bars",
-   "start": 487.961,
-   "end": 497.771,
+   "start": 470.601,
+   "end": 481.954,
    "tag": "SIMULATION",
    "title": "From the fireball to the last window",
    "sub": "radius of each ring, kilometres · nearly twenty times",
@@ -3013,8 +3013,8 @@
   {
    "id": "c5-whole",
    "type": "city",
-   "start": 497.771,
-   "end": 508.05,
+   "start": 481.954,
+   "end": 491.642,
    "tag": "SIMULATION",
    "clock": "T+11:06",
    "clockLabel": "09:26 · BURST",
@@ -3257,8 +3257,8 @@
   {
    "id": "c5-hiro1",
    "type": "city",
-   "start": 508.05,
-   "end": 517.651,
+   "start": 491.642,
+   "end": 502.534,
    "tag": "SIMULATION",
    "clock": "T+11:06",
    "clockLabel": "COMPARE · HIROSHIMA",
@@ -3435,8 +3435,8 @@
   {
    "id": "c5-hiro2",
    "type": "city",
-   "start": 517.651,
-   "end": 529.258,
+   "start": 502.534,
+   "end": 512.234,
    "tag": "SIMULATION",
    "clock": "T+11:06",
    "clockLabel": "COMPARE · HIROSHIMA",
@@ -3612,8 +3612,8 @@
   {
    "id": "c5-lake",
    "type": "city",
-   "start": 529.258,
-   "end": 542.84,
+   "start": 512.234,
+   "end": 525.816,
    "tag": "SIMULATION",
    "clock": "T+11:06",
    "clockLabel": "09:26 · BURST",
@@ -3856,8 +3856,8 @@
   {
    "id": "c6-card",
    "type": "chapter",
-   "start": 542.84,
-   "end": 548.817,
+   "start": 525.816,
+   "end": 531.793,
    "tag": "SIMULATION",
    "kicker": "CHAPTER 06",
    "title": "The day after"
@@ -3865,8 +3865,8 @@
   {
    "id": "c6-plan",
    "type": "number",
-   "start": 548.817,
-   "end": 561.61,
+   "start": 531.793,
+   "end": 544.586,
    "tag": "REAL DATA",
    "value": "TENS OF MILLIONS",
    "label": "estimated dead in the first hours of a full US-Russia exchange",
@@ -3877,8 +3877,8 @@
   {
    "id": "c6-food",
    "type": "number",
-   "start": 561.61,
-   "end": 569.288,
+   "start": 544.586,
+   "end": 552.27,
    "tag": "REAL DATA",
    "value": "BILLIONS",
    "label": "short of food after soot from thousands of warheads",
@@ -3889,8 +3889,8 @@
   {
    "id": "c6-smallest",
    "type": "region",
-   "start": 569.288,
-   "end": 575.737,
+   "start": 552.27,
+   "end": 558.713,
    "tag": "SIMULATION",
    "caption": "That is the far end of the scale. One warhead is the smallest case.",
    "view": {
@@ -3942,8 +3942,8 @@
   {
    "id": "c6-wind",
    "type": "city",
-   "start": 575.737,
-   "end": 593.697,
+   "start": 558.713,
+   "end": 576.673,
    "tag": "SIMULATION",
    "clock": "DAY 1",
    "clockLabel": "AFTER THE BURST",
@@ -4137,8 +4137,8 @@
   {
    "id": "c6-inside",
    "type": "text",
-   "start": 593.697,
-   "end": 600.393,
+   "start": 576.673,
+   "end": 583.369,
    "tag": "SIMULATION",
    "lines": [
     "Get inside. Stay inside. Stay tuned."
@@ -4148,8 +4148,8 @@
   {
    "id": "c6-24h",
    "type": "number",
-   "start": 600.393,
-   "end": 606.09,
+   "start": 583.369,
+   "end": 589.07,
    "tag": "REAL DATA",
    "value": "24 HOURS",
    "countTo": 24,
@@ -4162,8 +4162,8 @@
   {
    "id": "c6-return",
    "type": "text",
-   "start": 606.09,
-   "end": 610.93,
+   "start": 589.07,
+   "end": 593.906,
    "tag": "REAL DATA",
    "lines": [
     "Do not return to an evacuated area",
@@ -4174,8 +4174,8 @@
   {
    "id": "c6-down",
    "type": "city",
-   "start": 610.93,
-   "end": 624.466,
+   "start": 593.906,
+   "end": 607.442,
    "tag": "SIMULATION",
    "clock": "DAY 1",
    "clockLabel": "WHAT THE RINGS IMPLY",
@@ -4418,8 +4418,8 @@
   {
    "id": "c6-72",
    "type": "timeline",
-   "start": 624.466,
-   "end": 636.378,
+   "start": 607.442,
+   "end": 619.354,
    "tag": "REAL DATA",
    "title": "The first 24 to 72 hours",
    "sub": "federal planning focus · outside help must reach the edge of the damage",
@@ -4450,8 +4450,8 @@
   {
    "id": "c6-beds",
    "type": "number",
-   "start": 636.378,
-   "end": 649.243,
+   "start": 619.354,
+   "end": 632.219,
    "tag": "REAL DATA",
    "value": "ABOUT 2,000",
    "countTo": 2000,
@@ -4464,8 +4464,8 @@
   {
    "id": "c6-country",
    "type": "region",
-   "start": 649.243,
-   "end": 654.29,
+   "start": 632.219,
+   "end": 637.27,
    "tag": "SIMULATION",
    "caption": "The rest of the country is untouched by this one weapon.",
    "clock": "DAY 1",
@@ -4519,8 +4519,8 @@
   {
    "id": "c6-day2",
    "type": "city",
-   "start": 654.29,
-   "end": 666.195,
+   "start": 637.27,
+   "end": 649.171,
    "tag": "SIMULATION",
    "clock": "DAY 2",
    "clockLabel": "AFTER THE BURST",
@@ -4717,8 +4717,8 @@
   {
    "id": "c6-last",
    "type": "city",
-   "start": 666.195,
-   "end": 673.098,
+   "start": 649.171,
+   "end": 656.074,
    "tag": "SIMULATION",
    "clock": "DAY 2",
    "clockLabel": "IT HAS NOT HAPPENED",
@@ -4961,8 +4961,8 @@
   {
    "id": "end",
    "type": "endslate",
-   "start": 673.098,
-   "end": 689.06,
+   "start": 656.074,
+   "end": 672.04,
    "tag": "",
    "title": "Next scenario",
    "line": "Russia uses one tactical nuke in Ukraine, day by day."

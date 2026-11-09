@@ -1,0 +1,336 @@
+{
+ "subtitles": [
+  {
+   "start": 0.4,
+   "end": 3.14,
+   "text": "Our warhead is eight hundred kilotons."
+  },
+  {
+   "start": 3.625,
+   "end": 5.86,
+   "text": "About fifty-three times Hiroshima,"
+  },
+  {
+   "start": 6.063,
+   "end": 7.54,
+   "text": "by simple arithmetic."
+  },
+  {
+   "start": 8.701,
+   "end": 11.5,
+   "text": "No American warhead is that size."
+  },
+  {
+   "start": 12.02,
+   "end": 13.63,
+   "text": "The American arsenal runs from"
+  },
+  {
+   "start": 13.63,
+   "end": 15.31,
+   "text": "about eight kilotons to about"
+  },
+  {
+   "start": 15.31,
+   "end": 17.3,
+   "text": "one point two megatons."
+  },
+  {
+   "start": 18.088,
+   "end": 19.97,
+   "text": "Russia's heaviest warheads on a"
+  },
+  {
+   "start": 19.97,
+   "end": 22.71,
+   "text": "multiple-warhead missile are reported in"
+  },
+  {
+   "start": 22.71,
+   "end": 24.48,
+   "text": "the hundreds of kilotons."
+  },
+  {
+   "start": 25.022,
+   "end": 26.49,
+   "text": "So eight hundred sits among"
+  },
+  {
+   "start": 26.49,
+   "end": 29.42,
+   "text": "the biggest modern strategic warheads."
+  },
+  {
+   "start": 29.946,
+   "end": 31.94,
+   "text": "It is a simulation choice,"
+  },
+  {
+   "start": 32.18,
+   "end": 33.96,
+   "text": "and we say so on screen."
+  },
+  {
+   "start": 34.796,
+   "end": 35.77,
+   "text": "And it is small by"
+  },
+  {
+   "start": 35.77,
+   "end": 37.24,
+   "text": "the standards of history."
+  },
+  {
+   "start": 37.559,
+   "end": 38.93,
+   "text": "The United States tested a"
+  },
+  {
+   "start": 38.93,
+   "end": 41.29,
+   "text": "fifteen megaton device at Bikini"
+  },
+  {
+   "start": 41.29,
+   "end": 43.3,
+   "text": "Atoll in nineteen fifty-four."
+  },
+  {
+   "start": 44.029,
+   "end": 46.61,
+   "text": "The Soviet Union exploded fifty megatons"
+  },
+  {
+   "start": 46.61,
+   "end": 49.68,
+   "text": "over Novaya Zemlya in nineteen sixty-one."
+  },
+  {
+   "start": 50.441,
+   "end": 52.09,
+   "text": "Our warhead is about one"
+  },
+  {
+   "start": 52.09,
+   "end": 53.54,
+   "text": "nineteenth of the first,"
+  },
+  {
+   "start": 53.763,
+   "end": 56.3,
+   "text": "and one sixty-second of the second."
+  }
+ ],
+ "slug": "004-one-warhead-one-city-s2",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 56.9,
+ "shots": [
+  {
+   "id": "c1-53x",
+   "type": "bars",
+   "start": 0.0,
+   "end": 8.215,
+   "tag": "SIMULATION",
+   "title": "Our warhead is about 53 times Hiroshima",
+   "sub": "kilotons · simple arithmetic, 800 divided by 15",
+   "source": "OSTI (Hiroshima); simulation choice (ours)",
+   "bars": [
+    {
+     "label": "Hiroshima, 1945",
+     "value": 15,
+     "display": "15 kt",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "Our warhead",
+     "value": 800,
+     "display": "800 kt",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "c1-range",
+   "type": "bars",
+   "start": 8.215,
+   "end": 17.938,
+   "tag": "REAL DATA",
+   "title": "American warhead sizes today",
+   "sub": "kilotons · no US warhead is 800 kt",
+   "source": "Federation of American Scientists; Arms Control Association",
+   "bars": [
+    {
+     "label": "Smallest, about",
+     "value": 8,
+     "display": "8 kt",
+     "color": "#3ED6C8"
+    },
+    {
+     "label": "Largest, about",
+     "value": 1200,
+     "display": "1.2 Mt",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "Our simulation choice",
+     "value": 800,
+     "display": "800 kt",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "c1-russia",
+   "type": "globe",
+   "start": 17.938,
+   "end": 34.519,
+   "tag": "SIMULATION",
+   "caption": "Among the biggest modern strategic warheads. A simulation choice.",
+   "source": "Federation of American Scientists",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 55,
+     "lon": 40,
+     "scale": 700
+    },
+    {
+     "t": 18,
+     "lat": 52,
+     "lon": -30,
+     "scale": 800
+    }
+   ],
+   "sun": {
+    "lat": 10,
+    "lon": 20
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Russia: hundreds of kt on a multiple-warhead missile",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 1
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "label": "United States: 8 kt to 1.2 Mt",
+     "color": "#3ED6C8",
+     "kind": "dot",
+     "t": 8
+    }
+   ]
+  },
+  {
+   "id": "c1-history",
+   "type": "globe",
+   "start": 34.519,
+   "end": 50.291,
+   "tag": "REAL HISTORY",
+   "source": "US DOE; Russian Federal Nuclear Center",
+   "caption": "Bikini Atoll, 1954: 15 Mt. Novaya Zemlya, 1961: 50 Mt.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 14,
+     "lon": 165,
+     "scale": 800
+    },
+    {
+     "t": 9,
+     "lat": 20,
+     "lon": 130,
+     "scale": 700
+    },
+    {
+     "t": 15,
+     "lat": 62,
+     "lon": 70,
+     "scale": 760
+    }
+   ],
+   "sun": {
+    "lat": 10,
+    "lon": 100
+   },
+   "markers": [
+    {
+     "at": [
+      165.5,
+      11.6
+     ],
+     "label": "Bikini Atoll · 15 Mt · 1954",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.5
+    },
+    {
+     "at": [
+      55.0,
+      73.4
+     ],
+     "label": "Novaya Zemlya · 50 Mt · 1961",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 12
+    }
+   ]
+  },
+  {
+   "id": "c1-small",
+   "type": "bars",
+   "start": 50.291,
+   "end": 56.9,
+   "tag": "SIMULATION",
+   "title": "Small by the standards of history",
+   "sub": "megatons · ours is 0.8",
+   "source": "US DOE; Russian Federal Nuclear Center; scenario engine",
+   "bars": [
+    {
+     "label": "Our warhead",
+     "value": 0.8,
+     "display": "0.8 Mt",
+     "color": "#FF3B3B"
+    },
+    {
+     "label": "Bikini, 1954",
+     "value": 15,
+     "display": "15 Mt",
+     "color": "#FF7A1A"
+    },
+    {
+     "label": "Tsar Bomba, 1961",
+     "value": 50,
+     "display": "50 Mt",
+     "color": "#F2B01E"
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "53 TIMES",
+  "HIROSHIMA"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

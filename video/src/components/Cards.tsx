@@ -178,18 +178,19 @@ export const Isotype: React.FC<{shot: IsotypeShot; t: number}> = ({shot, t}) => 
   );
 };
 
-export const Bars: React.FC<{shot: BarsShot; t: number}> = ({shot, t}) => {
+export const Bars: React.FC<{shot: BarsShot; t: number}> = ({shot, t: t0}) => {
   const {width: W, height: H} = useVideoConfig();
+  const t = t0 + (H > W ? 0.6 : 0); // Shorts: the first frame already shows the title and the first bars
   const max = Math.max(...shot.bars.map((b) => b.value));
   const vertical = H > W;
   const left = vertical ? 60 : 160, width = vertical ? W - 120 : W - 320;
   return (
     <Ground blue>
-      <div style={{position: 'absolute', left, top: vertical ? 160 : 130}}>
+      <div style={{position: 'absolute', left, top: vertical ? 500 : 130}}>
         <div style={{fontFamily: COND, fontWeight: 700, fontSize: 64, color: C.text, textTransform: 'uppercase', letterSpacing: 1, opacity: pop(t)}}>{shot.title}</div>
         {shot.sub ? <div style={{fontFamily: MONO, fontSize: 16, letterSpacing: 3, color: C.dim, marginTop: 6, textTransform: 'uppercase', opacity: pop(t, 0.15)}}>{shot.sub}</div> : null}
       </div>
-      <div style={{position: 'absolute', left, top: vertical ? 320 : 290, width}}>
+      <div style={{position: 'absolute', left, top: vertical ? 720 : 290, width}}>
         {shot.bars.map((b, i) => {
           const k = easeOut(clamp01((t - 0.3 - i * 0.25) / 1.2));
           const col = b.color ?? (i === 0 ? C.red : C.teal);

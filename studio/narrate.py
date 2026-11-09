@@ -15,7 +15,7 @@ from pathlib import Path
 from .config import ROOT, load_config
 from . import tts
 
-REF = re.compile(r"\s*\[[A-DS][0-9]*(?:,\s*(?:[A-DS][0-9]*))*\]")
+REF = re.compile(r"\s*\[(?:[A-DS][0-9]*|engine)(?:,\s*(?:[A-DS][0-9]*|engine))*\]")
 
 
 def parse_script(text: str) -> list[dict]:
