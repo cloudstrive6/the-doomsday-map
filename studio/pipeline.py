@@ -98,9 +98,7 @@ def shotlist(ep: Path) -> list[str]:
         print("validate:", i)
     # the visual screener reads this file: "retention:" lines are regressions of the 2026-11-09 retention rules
     (ep / "build").mkdir(exist_ok=True)
-    (ep / "build" / "validate.txt").write_text("".join(f"{i}
-" for i in issues) or "ok
-", encoding="utf-8")
+    (ep / "build" / "validate.txt").write_text("".join(f"{i}\n" for i in issues) or "ok\n", encoding="utf-8")
     return issues
 
 
