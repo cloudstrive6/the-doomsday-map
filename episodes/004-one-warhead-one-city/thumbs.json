@@ -1,0 +1,32 @@
+[
+ {
+  "id": "a",
+  "variant": "image",
+  "line1": "53X HIROSHIMA",
+  "line2": "OVER THE LOOP",
+  "tag": "WINDOWS BREAK 17 KM AWAY",
+  "align": "left",
+  "image_prompt": "Dawn-blue night photo of the Chicago skyline seen from Lake Michigan with the Willis Tower and the Loop towers on the right half of the frame; behind and above the towers a gigantic nuclear fireball and mushroom cloud glows bright orange and yellow, lighting the clouds, the glass towers and the water. The left side is empty dark blue sky.",
+  "image": "thumbs/004-a.jpg"
+ },
+ {
+  "id": "b",
+  "variant": "image",
+  "line1": "9:15 AM",
+  "line2": "ONE MISSILE",
+  "tag": "NOBODY IS WARNED",
+  "align": "left",
+  "image_prompt": "Orbital view looking down at an angle on Lake Michigan and the American Midwest at dusk, in bright deep-blue twilight with glowing city lights: the lake on the right side of the frame, Chicago at its southern tip where a gigantic, very bright orange and yellow nuclear fireball and mushroom cloud fills a third of the frame, lighting up the clouds and the coast with a wide orange glow. Exactly one bright orange missile trail arcs in from the upper right down to Chicago. Curved horizon with a thick bright blue atmosphere glow at the top. The left side is lighter blue clouds and sky.",
+  "image": "thumbs/004-b.jpg"
+ },
+ {
+  "id": "c",
+  "variant": "image",
+  "line1": "11 MINUTES",
+  "line2": "TO CHICAGO",
+  "tag": "FIRED FROM THE ATLANTIC",
+  "align": "left",
+  "image_prompt": "Night photo of a huge ballistic missile bursting up out of the ocean surface from a submerged submarine, with an enormous blinding orange and white rocket flame, towering white spray and glowing smoke lighting the waves; the missile climbs diagonally to the upper right. Stormy ocean, deep blue night sky, no ship visible, the left side empty sky.",
+  "image": "thumbs/004-c.jpg"
+ }
+]
