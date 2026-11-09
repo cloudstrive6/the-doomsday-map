@@ -1,0 +1,52 @@
+{
+ "slug": "004-one-warhead-one-city",
+ "title": "One 800-kiloton nuclear warhead over Chicago, street by street",
+ "t0_utc": "2027-03-16T14:15:00+00:00",
+ "sun": {
+  "lat": -2.28,
+  "lon": -31.45
+ },
+ "totals": {
+  "strikes": 1,
+  "warheads": 1,
+  "yield_mt": 0.8,
+  "first_impact_min": 11.1,
+  "last_impact_min": 11.1
+ },
+ "strikes": [
+  {
+   "id": "sub-chicago",
+   "launch_name": "Atlantic Ocean, submarine (location simulated)",
+   "launch_lat": 40.0,
+   "launch_lon": -55.0,
+   "target_name": "The Loop, Chicago, Illinois",
+   "target_lat": 41.8789,
+   "target_lon": -87.6359,
+   "weapon": "Unattributed submarine-launched ballistic missile, one warhead",
+   "weapon_class": "slbm",
+   "yield_kt": 800,
+   "burst": "air",
+   "warheads": 1,
+   "launch_offset_min": 0,
+   "notes": "Hero strike and the only strike. 800 kt is an illustrative simulation choice at the top of the range of the heaviest modern strategic warheads (research A6, A7); it is not a real US-held warhead (A6) and the attacker is deliberately unattributed. Air burst chosen for maximum blast and thermal reach with little local fallout (A16). Ground zero is the Loop; launch 9:15 a.m. CDT, impact about 9:26 a.m. CDT, on a Tuesday (no real-event date).",
+   "distance_km": 2732.7,
+   "bearing_deg": 285.1,
+   "flight_min": 11.1,
+   "launch_min": 0,
+   "impact_min": 11.1,
+   "effects": {
+    "yield_kt": 800,
+    "burst": "air",
+    "fireball_km": 0.883,
+    "psi20_km": 1.28,
+    "psi5_km": 6.286,
+    "psi1_km": 17.014,
+    "thermal3_km": 9.752,
+    "fallout": "little local fallout"
+   },
+   "area_psi5_km2": 124.1
+  }
+ ],
+ "sources": [],
+ "model": "Glasstone and Dolan scaling calibrated to NUKEMAP Hiroshima figures; flight times fitted to published ranges; all values are estimates for a labelled simulation."
+}

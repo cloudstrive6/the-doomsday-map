@@ -52,18 +52,59 @@ Compiled 2026-11-09. Every claim the script uses is listed with its sources. Two
 | B9 | 1995-01-25: a Norwegian and US scientific Black Brant XII rocket launched from Andoya was tracked by Russian early-warning radar as a possible submarine-launched missile; President Yeltsin, the defence minister and the chief of the general staff were reported to have been brought nuclear briefcases, the only known activation of the Russian nuclear briefcase in a crisis; no retaliation was ordered. Details beyond the date are thin and disputed | Wikipedia, Norwegian rocket incident (https://en.wikipedia.org/wiki/Norwegian_rocket_incident) (search listing only, the fetched URL returned 404); GlobalSecurity, False Alarm 25 January 1995 (https://www.globalsecurity.org/wmd/world/russia/c3i-false-alarm-1995.htm) (search listing only, page returned 403). Soft: say "reportedly" |
 | B10 | 2026-02-05: New START expired, ending the last treaty limit on US and Russian strategic warheads (A4) | Arms Control Association (https://www.armscontrol.org/act/2026-03/news/new-start-expires-us-urges-modernized-treaty) (opened); FAS (https://fas.org/publication/the-expiration-of-new-start/) (opened) |
 
-## C. Simulation assumptions
+## C. Simulation assumptions (SIMULATION tag)
 
-To be written by the scenario designer. Everything below is a SUGGESTION from the research desk, not a decision. The scenario engine (`python -m studio scenario 004-one-warhead-one-city`) supplies every blast, burn and fallout number.
+Everything here is a simulation choice, not a fact and not a prediction. Every blast, burn and fallout number comes from `scenario.computed.json` (engine: Glasstone and Dolan scaling calibrated to NUKEMAP Hiroshima figures, A15). It has not happened.
 
-- Suggested city: Chicago or Washington DC (not Seattle or San Francisco, used in 003). Chicago: large, flat, a clear lakefront for the ring map and a lake to the east. DC: dense landmarks, but a strike there raises "decapitation" and continuity-of-government questions that the brief does not intend. Pick one and check the engine's population layer.
-- Suggested weapon framing: one 800 kt warhead, labelled "an illustrative yield in the range of the heaviest modern strategic warheads (A6, A7), a simulation choice". Do not attribute it to a named country's real warhead (no US warhead is 800 kt), and do not name an attacker as a prediction. If an attacker is needed, say "an unattributed strike" or a generic adversary.
-- Suggested burst: airburst at the height the engine optimises for maximum 5 psi radius, with a line saying a ground burst would produce far more local fallout (A16). Choose the burst height in the engine; do not state it from memory.
-- Suggested clock: day and local clock time only, no calendar date (collision rule), a weekday morning or evening for a population-heavy case; sun position from the engine.
-- Suggested sequence for the ring walk: flash and fireball, thermal pulse, blast arrival, firestorm risk (Hiroshima's firestorm, A11), fallout plume direction (wind is a simulation assumption), then the day after: hospitals (A18), grid, communications, shelter advice (A17), evacuation.
-- Death toll: none unless a published study supplies one for this city and yield (A15, NUKEMAP caveat). If population counts are shown, label them "people inside the ring" from the engine, not casualties.
-- Suggested ending: the aftermath on day two and day three, never the Doomsday Clock or arsenal statistics. Keep the arsenal and clock data (A1 to A4, A21) to the early REAL DATA chapter.
-- Hiroshima comparison to use on screen: "about fifty times Hiroshima" with the arithmetic caveat in A12.
+### Escalation logic
+
+There is none, on purpose. This episode is the single-warhead case: one weapon, one city, no war plan. The scenario asks only what one warhead does, ring by ring. The attacker is deliberately unattributed ("an unattributed submarine", location simulated, Atlantic) so the episode names no country as aggressor and stays out of forecasting. It is the smallest case on the scale that A19 (Princeton Plan A) and A20 (Nature Food) describe at the far end; the script may say so and cite them, not us.
+
+### Strike group (one strike)
+
+| Field | Choice | Why |
+|---|---|---|
+| Weapon | One unattributed submarine-launched ballistic missile, one warhead (`weapon_class` slbm) | A short, unexplained flight (11.1 min from the engine) gives a clean minute-zero to impact clock; no named arsenal |
+| Yield | 800 kt, air burst | Illustrative simulation choice, at the top of the range of the heaviest modern strategic warheads (A6: US range about 8 kt to 1.2 Mt; A7: SS-18 warheads about 500 to 800 kt). No US-held warhead is 800 kt (A6, D). It is about 53 times Hiroshima by arithmetic (A12) |
+| Burst | Air | Maximises blast and thermal reach, far less local fallout than a ground burst (A16). The engine does not model burst height in metres, so the script gives no height |
+| Launch | 40.0 N, 55.0 W, Atlantic (location simulated) | Distance 2,732.7 km, bearing 285.1 degrees at the target end, flight 11.1 min |
+| Target | The Loop, Chicago, 41.8789 N, 87.6359 W | Not Seattle or San Francisco (003) or Omaha (001). Large, flat, dense, a lakeshore for the ring map. Chosen over Washington DC to avoid the decapitation and continuity-of-government questions the brief does not intend |
+| t0 | 2027-03-16 14:15 UTC (a Tuesday), launch at minute zero; impact at minute 11.1, about 9:26 a.m. Central Daylight Time | A weekday morning for a population-heavy case. Date is a simulation choice, not a real event date. Script uses "minute zero" and "a Tuesday morning in March" only |
+| Sun | Subsolar point about 2.3 S, 31.5 W at t0 (engine); Chicago is in morning daylight at impact | Daylight flash and daylight skyline; not a night shot |
+
+### Hero target: the Loop, with the engine numbers
+
+Chicago is the one city close-up. City file: `video/public/city/chicago.json` (OpenStreetMap, 60 km wide, detail pass 20 km around ground zero; attribution in the description: OpenFreeMap, OpenMapTiles, OpenStreetMap contributors). Ground zero is about 1 km from the lakeshore, so the eastern part of every ring lies over Lake Michigan; the script should not say how many people stand inside a ring (no population layer was used).
+
+| Ring | Radius (engine) | Area (our arithmetic, pi r squared) | What it means |
+|---|---|---|---|
+| Fireball | 0.883 km | about 2.4 km2 | Everything inside is vaporised |
+| 20 psi | 1.28 km | about 5.1 km2 | Heavily built concrete structures severely damaged or destroyed |
+| 5 psi | 6.286 km | about 124 km2 (engine: 124.1) | Most ordinary buildings collapse or are heavily damaged |
+| Third-degree burns | 9.752 km | about 299 km2 | Unshielded skin, clear line of sight. The burn ring is wider than the 5 psi ring |
+| 1 psi | 17.014 km | about 909 km2 | Windows shatter, injuries from flying glass |
+
+Order of arrival for the ring walk: the flash and fireball first, the thermal pulse within seconds, the blast wave after, travelling as sound does, so the 1 psi ring hears it last. Do not quote arrival seconds; the engine gives none. Say "seconds" and "tens of seconds" and no more. Hiroshima comparison from A11: a firestorm formed over about 4.4 square miles at 15 kt, so the script may say a firestorm is possible here but must not claim one is certain or give its size.
+
+Fallout: an air burst produces little local fallout (engine: "little local fallout", A16). The wind is a simulation assumption: from the west-northwest (about 290 degrees), blowing toward the east-southeast, so any light fallout drifts over Lake Michigan and toward southwest Michigan and northwest Indiana. Prevailing winds at this latitude are generally westerly, but that is not a weather forecast. The engine gives no plume dimensions for an air burst, so the plume shot, if used, is labelled "illustrative", and the script says a ground burst would be a different, far worse fallout story (A16). Official advice applies regardless of burst type: get inside, stay inside, stay tuned, at least 24 hours (A17).
+
+### The day after (what the episode ends on)
+
+Only what A17, A18 and published guidance support, stated as what planners expect, never as a count:
+- Hours one to twenty-four: the response is shelter and information. FEMA planning guidance focuses on the first 24 to 72 hours (A17). Stay inside; radiation levels fall rapidly in the first day (A17).
+- Hospitals: the US has about 2,000 specialist burn beds in the whole country (A18, "about"). No study here models the surge, so the script says the gap, not a number of patients.
+- What stops working inside the rings: the script may say power, phones and roads in the heavily damaged zone would be expected to fail, framed as what the damage rings imply (buildings down, lines down), not as a measured outcome. No outage figure, no grid statistic, no EMP claim (a 800 kt air burst at this height is not an EMP scenario).
+- The response: help arrives from outside the zone, and evacuation is ordered by officials; people should not return until told (A17). Name no agency head and no living person.
+- Day two and day three: the city is a stretch of rubble in the middle and intact outskirts, with the rest of the country untouched by this one weapon. Close on the aftermath, not on arsenal statistics, the Clock or history.
+
+### What the script must not claim
+
+- A death toll, injury count or population-in-ring figure for Chicago (none from a published study for this city and yield; A15 NUKEMAP caveat).
+- That 800 kt is a US warhead, or that any named country fired it (A6, D).
+- That the strike is likely, imminent, or tied to a real date.
+- A burst height in metres, an arrival time in seconds, a firestorm size, or a fallout dose or footprint for the air burst (the engine supplies none).
+- That one warhead causes climate effects or famine (A20 is thousands of warheads).
+- Any statement about the real defences, alert status or response of Chicago agencies beyond the public guidance in A17.
 
 ## D. Figures the script must NOT use
 
