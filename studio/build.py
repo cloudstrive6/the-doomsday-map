@@ -62,10 +62,52 @@ def validate(ep: Path) -> list[str]:
         prev_end = s["end"]
     if timing_p.exists():
         t = json.loads(timing_p.read_text(encoding="utf-8"))
-        if abs(total - t["total_seconds"]) > 16:
-            issues.append(f"durationSeconds {total} vs narration {t['total_seconds']} (end slate may add up to 15 s)")
+        tail = total - t["total_seconds"]
+        if not (SLATE_TAIL - 0.5 <= tail <= SLATE_TAIL + 0.5):
+            issues.append(f"durationSeconds {total} vs narration {t['total_seconds']}: the end slate must run "
+                          f"{SLATE_TAIL:.0f} s after the last word (YouTube end screens need at least 5 s), not {tail:.1f} s")
         if prev_end < t["total_seconds"] - 0.5:
             issues.append(f"shots end at {prev_end} but narration runs to {t['total_seconds']}")
+    plan = shot.get("musicPlan") or []
+    if plan and max(seg["to"] for seg in plan) < total - 0.5:
+        issues.append(f"music ends at {max(seg['to'] for seg in plan):.1f} s but the video runs to {total:.1f} s: "
+                      "the last musicPlan segment must run to durationSeconds so the end slate is not quiet")
+    issues += retention_issues(shot)
+    return issues
+
+
+SLATE_TAIL = 10.0                 # end slate after the last spoken word, seconds (was 15 s up to episode 003)
+EARLY_WINDOW = 60.0               # the opening minute, where 001 and 002 lost half their viewers on static cards
+EARLY_CARD_MAX = 4.0              # longest text, stamp, number or chapter card allowed in the opening minute
+EARLY_CARDS = ("text", "stamp", "number", "chapter")
+MOVING = ("globe", "region", "city")
+
+
+def retention_issues(shot: dict) -> list[str]:
+    """Retention rules from the 2026-11-09 analysis (T1): no static disclaimer card, no card over 4 s in the first
+    minute, and a short moving SIMULATION banner over moving footage. Lines start with "retention:" so the screeners
+    can find them."""
+    issues = []
+    shots = sorted(shot.get("shots", []), key=lambda s: s["start"])
+    for s in shots:
+        dur = s["end"] - s["start"]
+        if s["start"] < EARLY_WINDOW and s["type"] in EARLY_CARDS and dur > EARLY_CARD_MAX + 1e-6:
+            issues.append(f"retention: {s['id']} is a {s['type']} card held {dur:.1f} s at {s['start']:.1f} s; "
+                          f"in the first {EARLY_WINDOW:.0f} s no card may run over {EARLY_CARD_MAX:.0f} s (cut to moving footage)")
+    b = shot.get("banner")
+    if not b:
+        issues.append("retention: no banner. Add the episode-level `banner` (SIMULATION, NOT REAL EVENTS, 2.5 to 3.5 s "
+                      "over a moving globe, region or city shot in the cold open); it replaces the static disclaimer card")
+        return issues
+    dur = b["end"] - b["start"]
+    if not 2.5 - 1e-6 <= dur <= 3.5 + 1e-6:
+        issues.append(f"retention: banner runs {dur:.1f} s; keep it 2.5 to 3.5 s")
+    if b["start"] >= EARLY_WINDOW:
+        issues.append(f"retention: banner starts at {b['start']:.1f} s; it belongs in the cold open (first {EARLY_WINDOW:.0f} s)")
+    under = [s for s in shots if s["start"] < b["end"] and s["end"] > b["start"]]
+    for s in under:
+        if s["type"] not in MOVING:
+            issues.append(f"retention: banner sits over {s['id']} ({s['type']}); put it over a moving globe, region or city shot")
     return issues
 
 

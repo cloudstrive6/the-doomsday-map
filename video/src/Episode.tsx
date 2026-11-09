@@ -5,7 +5,7 @@ import {C, COND, FONT, clamp01} from './theme';
 import {Globe} from './components/Globe';
 import {RegionMap} from './components/RegionMap';
 import {CityMap} from './components/CityMap';
-import {Bars, BigNumber, Chapter, Chrome, EndSlate, Isotype, Radar, Split, Stamp, TextCard, Timeline} from './components/Cards';
+import {Banner, Bars, BigNumber, Chapter, Chrome, EndSlate, Isotype, Radar, Split, Stamp, TextCard, Timeline} from './components/Cards';
 
 const ShotBody: React.FC<{shot: Shot; t: number}> = ({shot, t}) => {
   switch (shot.type) {
@@ -52,6 +52,13 @@ function withDrift(shot: Shot): Shot {
   return shot;
 }
 const CARD_TYPES = new Set(['stamp', 'number', 'chapter', 'isotype', 'bars', 'timeline', 'radar', 'text', 'split', 'endslate']);
+
+// The moving disclaimer runs on its own timeline so it can cross a cut between two moving shots.
+const BannerView: React.FC<{banner: NonNullable<EpisodeT['banner']>}> = ({banner}) => {
+  const frame = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  return <Banner banner={banner} t={frame / fps} dur={banner.end - banner.start} />;
+};
 
 const ShotView: React.FC<{shot: Shot; subtitled?: boolean}> = ({shot: raw, subtitled}) => {
   const frame = useCurrentFrame();
@@ -122,6 +129,11 @@ export const Episode: React.FC<{episode: EpisodeT}> = ({episode}) => {
           <ShotView shot={s} subtitled={!!episode.subtitles?.length} />
         </Sequence>
       ))}
+      {episode.banner ? (
+        <Sequence name="banner" from={Math.round(episode.banner.start * fps)} durationInFrames={Math.max(1, Math.round((episode.banner.end - episode.banner.start) * fps))} layout="none">
+          <BannerView banner={episode.banner} />
+        </Sequence>
+      ) : null}
       {episode.subtitles?.length ? <Subtitles cues={episode.subtitles} /> : null}
       {episode.shortTitle ? <ShortTitle lines={episode.shortTitle} /> : null}
     </AbsoluteFill>

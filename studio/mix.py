@@ -5,6 +5,9 @@ episode.json fields used:
   "musicPlan": [{"src": "bed.mp3", "from": 0, "to": 284.5, "loop": [0, 176], "gain_db": -20}, ...]
       src under assets/music; loop = clean section of the source to repeat (seconds); gain relative to the source
   "sfxPlan": [{"src": "impact.mp3", "t": 45.4, "gain_db": -8}, ...]   src under assets/sfx
+  "slateMusicLiftDb": 10  optional; after the last spoken word the music rises by this much (default 10 dB) so the end
+      slate is not quiet (measured on 003, 2026-11-09: the bed alone sat at -24 LUFS against -14 for the voice;
+      a 10 dB lift brings the slate to about -18.5 LUFS)
 """
 from __future__ import annotations
 
@@ -17,6 +20,8 @@ from . import tts
 
 XFADE = 4.0
 FADE = 2.0
+SLATE_LIFT_DB = 10.0
+SLATE_RAMP = 1.5
 
 
 def _music_segment_filter(idx: int, seg: dict, label: str) -> str:
@@ -71,7 +76,16 @@ def mix(ep: Path, video_in: Path, out: Path) -> dict:
         sfx_labels.append(lab)
         n += 1
     if music_labels:
-        fc.append("".join(f"[{l}]" for l in music_labels) + f"amix=inputs={len(music_labels)}:normalize=0:duration=longest,apad,atrim=0:{total:.3f}[music];")
+        fc.append("".join(f"[{l}]" for l in music_labels) + f"amix=inputs={len(music_labels)}:normalize=0:duration=longest,apad,atrim=0:{total:.3f}[musicraw];")
+        # lift the music over the end slate, from the last spoken word to the end (ramped, so it swells rather than jumps)
+        lift = float(shot.get("slateMusicLiftDb", SLATE_LIFT_DB))
+        timing_p = ep / "narration" / "timing.json"
+        last_word = json.loads(timing_p.read_text(encoding="utf-8"))["total_seconds"] if timing_p.exists() else None
+        if lift and last_word and last_word < total:
+            k = 10 ** (lift / 20) - 1
+            fc.append(f"[musicraw]volume=eval=frame:volume='1+{k:.4f}*clip((t-{last_word:.3f})/{SLATE_RAMP},0,1)'[music];")
+        else:
+            fc.append("[musicraw]anull[music];")
         # duck the music under the narration (sidechain), keep it full in the pauses
         fc.append("[voice]asplit=2[v1][vkey];[music][vkey]sidechaincompress=threshold=0.03:ratio=5:attack=60:release=700:makeup=1[mduck];")
         bus = ["[v1]", "[mduck]"]

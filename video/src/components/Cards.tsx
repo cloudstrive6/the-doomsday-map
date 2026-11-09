@@ -2,7 +2,7 @@
 // radar, text, airburst/groundburst split, end slate.
 import React from 'react';
 import {AbsoluteFill, useVideoConfig} from 'remotion';
-import type {BarsShot, ChapterShot, EndSlateShot, IsotypeShot, NumberShot, RadarShot, SplitShot, StampShot, Tag, TextShot, TimelineShot} from '../scene';
+import type {Banner as BannerT, BarsShot, ChapterShot, EndSlateShot, IsotypeShot, NumberShot, RadarShot, SplitShot, StampShot, Tag, TextShot, TimelineShot} from '../scene';
 import {C, COND, FONT, MONO, TAG_COLOR, clamp01, ease, easeOut} from '../theme';
 
 const pop = (t: number, at = 0, dur = 0.45) => ease(clamp01((t - at) / dur));
@@ -53,6 +53,36 @@ export const Chrome: React.FC<{tag?: Tag; clock?: string; clockLabel?: string; c
       {source ? (
         <div style={{position: 'absolute', left: 40 * s, bottom: vertical ? 500 : 28, fontFamily: MONO, fontSize: 13 * s, letterSpacing: 1, color: C.faint}}>{source}</div>
       ) : null}
+    </AbsoluteFill>
+  );
+};
+
+// The moving disclaimer band (scene.ts Banner): top centre, between the corner tag and the clock, so the footage under it
+// keeps moving and stays visible. It wipes open from the centre, a scan line sweeps across it, and it wipes shut.
+// t is local to the banner (0 at banner.start); dur is its length in seconds.
+export const Banner: React.FC<{banner: BannerT; t: number; dur: number}> = ({banner, t, dur}) => {
+  const {width: W, height: H} = useVideoConfig();
+  const vertical = H > W;
+  const s = vertical ? 1.35 : 1;
+  const open = ease(clamp01(t / 0.3)) * ease(clamp01((dur - t) / 0.3));
+  const scan = clamp01((t - 0.2) / Math.max(0.5, dur - 0.5));
+  const blink = Math.floor(t * 3) % 2 === 0 ? 1 : 0.35;
+  const text = banner.text ?? 'SIMULATION · NOT REAL EVENTS';
+  return (
+    <AbsoluteFill style={{pointerEvents: 'none'}}>
+      <div style={{position: 'absolute', left: 0, right: 0, top: vertical ? 560 : 34, display: 'flex', justifyContent: 'center'}}>
+        <div style={{position: 'relative', overflow: 'hidden', clipPath: `inset(0 ${50 * (1 - open)}% 0 ${50 * (1 - open)}%)`,
+          background: 'rgba(8,10,14,0.82)', border: `1px solid ${C.red}AA`, borderLeft: `4px solid ${C.red}`, borderRight: `4px solid ${C.red}`,
+          padding: `${10 * s}px ${30 * s}px ${banner.line ? 10 * s : 12 * s}px`, textAlign: 'center', boxShadow: `0 0 30px ${C.red}33`}}>
+          <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 14 * s}}>
+            <div style={{width: 10 * s, height: 10 * s, borderRadius: 10, background: C.red, opacity: blink, boxShadow: `0 0 12px ${C.red}`}} />
+            <div style={{fontFamily: COND, fontWeight: 800, fontSize: 40 * s, letterSpacing: 4, color: C.white, lineHeight: 1}}>{text}</div>
+          </div>
+          {banner.line ? <div style={{fontFamily: MONO, fontSize: 14 * s, letterSpacing: 4, color: C.dim, marginTop: 6 * s}}>{banner.line}</div> : null}
+          <div style={{position: 'absolute', top: 0, bottom: 0, left: `${scan * 100}%`, width: 60 * s, marginLeft: -30 * s,
+            background: `linear-gradient(90deg, transparent, ${C.red}55, transparent)`}} />
+        </div>
+      </div>
     </AbsoluteFill>
   );
 };

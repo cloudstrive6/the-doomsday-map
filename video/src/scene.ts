@@ -105,6 +105,15 @@ export type Shot =
   | GlobeShot | RegionShot | CityShot | StampShot | NumberShot | ChapterShot | IsotypeShot
   | BarsShot | TimelineShot | RadarShot | TextShot | SplitShot | EndSlateShot;
 
+// Moving disclaimer (from episode 004, 2026-11-09): replaces the old static "this is a simulation" text card.
+// Episode-level and in absolute seconds, so it rides across a cut. Draw it over a globe, region or city shot only.
+export interface Banner {
+  start: number;
+  end: number;               // 2.5 to 3.5 s after start
+  text?: string;             // default "SIMULATION · NOT REAL EVENTS"
+  line?: string;             // optional small second line, e.g. "BUILT FROM PUBLISHED MODELS"
+}
+
 export interface Episode {
   slug: string;
   fps: number;
@@ -115,6 +124,7 @@ export interface Episode {
   music?: { src: string; volume: number };
   sfx?: { src: string; t: number; volume?: number }[];
   shots: Shot[];
+  banner?: Banner;           // the moving disclaimer: a 2.5 to 3 s HUD band over moving footage early in the cold open
   attribution?: string;
   shortTitle?: [string, string];
   subtitles?: { start: number; end: number; text: string }[];  // burned-in narration subtitles (Shorts and Reels)  // Shorts only: two-line title band at the top (white, then yellow)

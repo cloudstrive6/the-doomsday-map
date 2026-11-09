@@ -96,6 +96,11 @@ def shotlist(ep: Path) -> list[str]:
     issues = validate(ep)
     for i in issues:
         print("validate:", i)
+    # the visual screener reads this file: "retention:" lines are regressions of the 2026-11-09 retention rules
+    (ep / "build").mkdir(exist_ok=True)
+    (ep / "build" / "validate.txt").write_text("".join(f"{i}
+" for i in issues) or "ok
+", encoding="utf-8")
     return issues
 
 
@@ -175,7 +180,10 @@ def finish(ep: Path) -> dict:
     for sh in sorted((b / "shorts").glob("s[0-9]_silent.mp4")):
         for s, d in _detect(sh)["freezes"]:
             issues.append(f"{sh.stem}: frozen {d:.1f}s at {s:.1f}s")
-    report = {"ok": not issues, "issues": issues, "loudness": loud, "at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}
+    # shot-list checks (end slate length, music to the end, retention rules): findings for the final screener, not blocking
+    from .build import validate
+    checks = validate(ep) if ej.exists() else []
+    report = {"ok": not issues, "issues": issues, "shotlist_checks": checks, "loudness": loud, "at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}
     (b / "qc.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
     (ep / "qc.json").write_text(json.dumps(report, indent=2), encoding="utf-8")  # tracked copy for the record
     print("QC:", "ok" if report["ok"] else issues)
