@@ -1,16 +1,11 @@
 {
   "ok": false,
   "issues": [
-    "size 1080x1920",
-    "frozen 6.2s at 25.4s",
-    "frozen 5.0s at 449.9s",
-    "frozen 4.1s at 641.9s",
-    "s1_silent: frozen 6.2s at 25.4s",
-    "s3_silent: frozen 6.2s at 25.4s"
+    "frozen 9.6s at 720.5s"
   ],
   "loudness": {
-    "I": -13.9,
+    "I": -14.0,
     "TP": -1.8
   },
-  "at": "2026-11-09T02:54:34+00:00"
+  "at": "2026-11-09T04:06:33+00:00"
 }
