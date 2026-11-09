@@ -1,0 +1,4931 @@
+{
+ "slug": "004-one-warhead-one-city",
+ "fps": 60,
+ "width": 1920,
+ "height": 1080,
+ "durationSeconds": 691.19,
+ "banner": {
+  "start": 16.93,
+  "end": 19.93
+ },
+ "musicPlan": [
+  {
+   "src": "bed_tense.mp3",
+   "from": 0,
+   "to": 36.976,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  },
+  {
+   "src": "bed.mp3",
+   "from": 34.976,
+   "to": 235.12,
+   "loop": [
+    2,
+    174
+   ],
+   "gain_db": -17
+  },
+  {
+   "src": "bed_tense.mp3",
+   "from": 233.12,
+   "to": 691.19,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  }
+ ],
+ "sfxPlan": [
+  {
+   "src": "impact.mp3",
+   "t": 36.126,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 143.15,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 234.27,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 299.99699999999996,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 542.99,
+   "gain_db": -9
+  },
+  {
+   "src": "radar.mp3",
+   "t": 334.976,
+   "gain_db": -12
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 135.53,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 147.68,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 172.416,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 190.097,
+   "gain_db": -14
+  },
+  {
+   "src": "boom.mp3",
+   "t": 375.865,
+   "gain_db": -4
+  }
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated.",
+ "shots": [
+  {
+   "id": "open-sub",
+   "type": "globe",
+   "start": 0,
+   "end": 3.6,
+   "tag": "SIMULATION",
+   "clock": "09:15",
+   "clockLabel": "CENTRAL TIME · TUESDAY",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 38,
+     "lon": -62,
+     "scale": 1500
+    },
+    {
+     "t": 3.6,
+     "lat": 40,
+     "lon": -66,
+     "scale": 1250
+    }
+   ],
+   "sun": {
+    "lat": -2.28,
+    "lon": -31.45
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -55.0,
+      40.0
+     ],
+     "label": "Submarine (location simulated)",
+     "color": "#FF3B3B",
+     "kind": "sub",
+     "t": 0.3
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -55.0,
+      40.0
+     ],
+     "to": [
+      -87.6359,
+      41.8789
+     ],
+     "t0": 1.0,
+     "t1": 13.35,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    }
+   ]
+  },
+  {
+   "id": "open-climb",
+   "type": "globe",
+   "start": 3.6,
+   "end": 7.712,
+   "tag": "SIMULATION",
+   "clock": "T+00:30",
+   "clockLabel": "SINCE LAUNCH",
+   "caption": "One missile. One warhead.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 40,
+     "lon": -66,
+     "scale": 1250
+    },
+    {
+     "t": 4.112,
+     "lat": 42,
+     "lon": -72,
+     "scale": 1050
+    }
+   ],
+   "sun": {
+    "lat": -2.28,
+    "lon": -31.45
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -55.0,
+      40.0
+     ],
+     "color": "#FF3B3B",
+     "kind": "sub",
+     "t": 0
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -55.0,
+      40.0
+     ],
+     "to": [
+      -87.6359,
+      41.8789
+     ],
+     "t0": -2.6,
+     "t1": 9.75,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    }
+   ]
+  },
+  {
+   "id": "open-over",
+   "type": "region",
+   "start": 7.712,
+   "end": 13.353,
+   "tag": "SIMULATION",
+   "clock": "T+02:00",
+   "clockLabel": "SINCE LAUNCH",
+   "caption": "Eleven minutes to the Loop",
+   "view": {
+    "center": [
+     -72,
+     41.5
+    ],
+    "widthKm": 3600
+   },
+   "zoomTo": {
+    "center": [
+     -78,
+     41.5
+    ],
+    "widthKm": 2300
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -55.0,
+      40.0
+     ],
+     "label": "Launch (simulated)",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 5,
+     "t": 0.2
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "label": "Chicago",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 7,
+     "t": 1.5
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -55.0,
+      40.0
+     ],
+     "to": [
+      -87.6359,
+      41.8789
+     ],
+     "color": "#FF3B3B",
+     "t0": 0.2,
+     "t1": 5.2
+    }
+   ]
+  },
+  {
+   "id": "open-city",
+   "type": "city",
+   "start": 13.353,
+   "end": 16.529,
+   "tag": "SIMULATION",
+   "clock": "09:26",
+   "clockLabel": "IN ELEVEN MINUTES",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.62,
+     41.9
+    ],
+    "widthKm": 40
+   },
+   "zoomTo": {
+    "center": [
+     -87.635,
+     41.884
+    ],
+    "widthKm": 14
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "The Loop",
+     "color": "#FFFFFF",
+     "t": 1.2
+    },
+    {
+     "at": [
+      -87.6,
+      41.8917
+     ],
+     "text": "Navy Pier",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 2.0
+    }
+   ]
+  },
+  {
+   "id": "open-banner",
+   "type": "city",
+   "start": 16.529,
+   "end": 22.169,
+   "tag": "SIMULATION",
+   "clock": "09:26",
+   "clockLabel": "IN ELEVEN MINUTES",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.635,
+     41.884
+    ],
+    "widthKm": 13
+   },
+   "zoomTo": {
+    "center": [
+     -87.63,
+     41.882
+    ],
+    "widthKm": 6
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Willis Tower",
+     "color": "#FFFFFF",
+     "t": 0.5
+    },
+    {
+     "at": [
+      -87.6233,
+      41.8827
+     ],
+     "text": "Millennium Park",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 1.8
+    },
+    {
+     "at": [
+      -87.6402,
+      41.8786
+     ],
+     "text": "Union Station",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 3.0
+    }
+   ]
+  },
+  {
+   "id": "open-atmo",
+   "type": "globe",
+   "start": 22.169,
+   "end": 25.881,
+   "tag": "SIMULATION",
+   "clock": "T+05:00",
+   "clockLabel": "SINCE LAUNCH",
+   "caption": "Above the atmosphere",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 50,
+     "lon": -80,
+     "scale": 900
+    },
+    {
+     "t": 4.5,
+     "lat": 46,
+     "lon": -86,
+     "scale": 1500
+    }
+   ],
+   "sun": {
+    "lat": -2.28,
+    "lon": -31.45
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "label": "Chicago",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.5
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -55.0,
+      40.0
+     ],
+     "to": [
+      -87.6359,
+      41.8789
+     ],
+     "t0": -6,
+     "t1": 6,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    }
+   ]
+  },
+  {
+   "id": "open-street",
+   "type": "city",
+   "start": 25.881,
+   "end": 32.076,
+   "tag": "SIMULATION",
+   "clock": "09:20",
+   "clockLabel": "CHICAGO · NOBODY KNOWS",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.64,
+     41.878
+    ],
+    "widthKm": 5
+   },
+   "zoomTo": {
+    "center": [
+     -87.628,
+     41.884
+    ],
+    "widthKm": 3.2
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -87.6402,
+      41.8786
+     ],
+     "text": "The trains run",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 0.6
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "The offices fill",
+     "color": "#FFFFFF",
+     "t": 2.4
+    }
+   ]
+  },
+  {
+   "id": "open-800",
+   "type": "number",
+   "start": 32.076,
+   "end": 35.976,
+   "tag": "SIMULATION",
+   "value": "800 KT",
+   "countTo": 800,
+   "suffix": " KT",
+   "label": "one warhead · our simulation choice",
+   "sub": "on its way down",
+   "color": "#FF3B3B"
+  },
+  {
+   "id": "c1-card",
+   "type": "chapter",
+   "start": 35.976,
+   "end": 39.476,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 01",
+   "title": "How big is one warhead"
+  },
+  {
+   "id": "c1-hiro",
+   "type": "region",
+   "start": 39.476,
+   "end": 50.11,
+   "tag": "REAL HISTORY",
+   "clock": "1945",
+   "clockLabel": "6 AUGUST · 8:15 A.M.",
+   "source": "OSTI Manhattan Project history",
+   "view": {
+    "center": [
+     132.4536,
+     34.3955
+    ],
+    "widthKm": 160
+   },
+   "zoomTo": {
+    "center": [
+     132.4536,
+     34.3955
+    ],
+    "widthKm": 60
+   },
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "rgba(236,239,242,0.95)",
+     "fill": "rgba(236,239,242,0.05)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      132.4536,
+      34.3955
+     ],
+     "label": "Hiroshima",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 6,
+     "t": 0.8
+    },
+    {
+     "at": [
+      132.55,
+      34.24
+     ],
+     "label": "Kure",
+     "kind": "dot",
+     "t": 1.5
+    },
+    {
+     "at": [
+      132.2,
+      34.17
+     ],
+     "label": "Iwakuni",
+     "kind": "dot",
+     "t": 2.2
+    },
+    {
+     "at": [
+      132.32,
+      34.3
+     ],
+     "label": "Miyajima",
+     "kind": "dot",
+     "t": 3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      133.2,
+      34.9
+     ],
+     "text": "a uranium bomb",
+     "color": "#F2B01E",
+     "t": 3
+    }
+   ]
+  },
+  {
+   "id": "c1-15kt",
+   "type": "number",
+   "start": 50.11,
+   "end": 52.851,
+   "tag": "REAL HISTORY",
+   "value": "15 KT",
+   "countTo": 15,
+   "suffix": " KT",
+   "label": "Hiroshima, about",
+   "sub": "13 to 16 kt in published ranges",
+   "color": "#F2B01E",
+   "source": "OSTI; Hiroshima Committee"
+  },
+  {
+   "id": "c1-hirorings",
+   "type": "region",
+   "start": 52.851,
+   "end": 64.65,
+   "tag": "REAL HISTORY",
+   "clock": "1945",
+   "clockLabel": "HIROSHIMA",
+   "source": "OSTI Manhattan Project history; NUKEMAP scaling",
+   "view": {
+    "center": [
+     132.4536,
+     34.3955
+    ],
+    "widthKm": 44
+   },
+   "zoomTo": {
+    "center": [
+     132.4536,
+     34.3955
+    ],
+    "widthKm": 74
+   },
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "rgba(236,239,242,0.95)",
+     "fill": "rgba(236,239,242,0.05)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      132.4536,
+      34.3955
+     ],
+     "label": "Hiroshima",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 5,
+     "t": 0.2
+    },
+    {
+     "at": [
+      132.55,
+      34.24
+     ],
+     "label": "Kure",
+     "kind": "dot",
+     "t": 1.5
+    },
+    {
+     "at": [
+      132.2,
+      34.17
+     ],
+     "label": "Iwakuni",
+     "kind": "dot",
+     "t": 2.2
+    },
+    {
+     "at": [
+      132.32,
+      34.3
+     ],
+     "label": "Miyajima",
+     "kind": "dot",
+     "t": 3
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      132.4536,
+      34.3955
+     ],
+     "km": 1.6,
+     "color": "#FF3B3B",
+     "label": "1 mile",
+     "t": 1.5
+    },
+    {
+     "at": [
+      132.4536,
+      34.3955
+     ],
+     "km": 4.8,
+     "color": "#F2B01E",
+     "label": "3 miles",
+     "t": 6
+    },
+    {
+     "at": [
+      132.4536,
+      34.3955
+     ],
+     "km": 19.3,
+     "color": "#3ED6C8",
+     "label": "12 miles",
+     "t": 11
+    }
+   ]
+  },
+  {
+   "id": "c1-70k",
+   "type": "number",
+   "start": 64.65,
+   "end": 71.728,
+   "tag": "REAL HISTORY",
+   "value": "ABOUT 70,000",
+   "countTo": 70000,
+   "prefix": "ABOUT ",
+   "label": "died at once",
+   "sub": "well over 100,000 by the end of 1945",
+   "color": "#FF3B3B",
+   "source": "OSTI; Hiroshima Committee"
+  },
+  {
+   "id": "c1-53x",
+   "type": "bars",
+   "start": 71.728,
+   "end": 79.945,
+   "tag": "SIMULATION",
+   "title": "Our warhead is about 53 times Hiroshima",
+   "sub": "kilotons · simple arithmetic, 800 divided by 15",
+   "source": "OSTI (Hiroshima); simulation choice (ours)",
+   "bars": [
+    {
+     "label": "Hiroshima, 1945",
+     "value": 15,
+     "display": "15 kt",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "Our warhead",
+     "value": 800,
+     "display": "800 kt",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "c1-range",
+   "type": "bars",
+   "start": 79.945,
+   "end": 89.668,
+   "tag": "REAL DATA",
+   "title": "American warhead sizes today",
+   "sub": "kilotons · no US warhead is 800 kt",
+   "source": "Federation of American Scientists; Arms Control Association",
+   "bars": [
+    {
+     "label": "Smallest, about",
+     "value": 8,
+     "display": "8 kt",
+     "color": "#3ED6C8"
+    },
+    {
+     "label": "Largest, about",
+     "value": 1200,
+     "display": "1.2 Mt",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "Our simulation choice",
+     "value": 800,
+     "display": "800 kt",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "c1-russia",
+   "type": "globe",
+   "start": 89.668,
+   "end": 106.249,
+   "tag": "SIMULATION",
+   "caption": "Among the biggest modern strategic warheads. A simulation choice.",
+   "source": "Federation of American Scientists",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 55,
+     "lon": 40,
+     "scale": 700
+    },
+    {
+     "t": 18,
+     "lat": 52,
+     "lon": -30,
+     "scale": 800
+    }
+   ],
+   "sun": {
+    "lat": 10,
+    "lon": 20
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Russia: hundreds of kt on a multiple-warhead missile",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 1
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "label": "United States: 8 kt to 1.2 Mt",
+     "color": "#3ED6C8",
+     "kind": "dot",
+     "t": 8
+    }
+   ]
+  },
+  {
+   "id": "c1-history",
+   "type": "globe",
+   "start": 106.249,
+   "end": 122.021,
+   "tag": "REAL HISTORY",
+   "source": "US DOE; Russian Federal Nuclear Center",
+   "caption": "Bikini Atoll, 1954: 15 Mt. Novaya Zemlya, 1961: 50 Mt.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 14,
+     "lon": 165,
+     "scale": 800
+    },
+    {
+     "t": 9,
+     "lat": 20,
+     "lon": 130,
+     "scale": 700
+    },
+    {
+     "t": 15,
+     "lat": 62,
+     "lon": 70,
+     "scale": 760
+    }
+   ],
+   "sun": {
+    "lat": 10,
+    "lon": 100
+   },
+   "markers": [
+    {
+     "at": [
+      165.5,
+      11.6
+     ],
+     "label": "Bikini Atoll · 15 Mt · 1954",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.5
+    },
+    {
+     "at": [
+      55.0,
+      73.4
+     ],
+     "label": "Novaya Zemlya · 50 Mt · 1961",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 12
+    }
+   ]
+  },
+  {
+   "id": "c1-small",
+   "type": "bars",
+   "start": 122.021,
+   "end": 128.633,
+   "tag": "SIMULATION",
+   "title": "Small by the standards of history",
+   "sub": "megatons · ours is 0.8",
+   "source": "US DOE; Russian Federal Nuclear Center; scenario engine",
+   "bars": [
+    {
+     "label": "Our warhead",
+     "value": 0.8,
+     "display": "0.8 Mt",
+     "color": "#FF3B3B"
+    },
+    {
+     "label": "Bikini, 1954",
+     "value": 15,
+     "display": "15 Mt",
+     "color": "#FF7A1A"
+    },
+    {
+     "label": "Tsar Bomba, 1961",
+     "value": 50,
+     "display": "50 Mt",
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c1-12k",
+   "type": "number",
+   "start": 128.633,
+   "end": 135.93,
+   "tag": "REAL DATA",
+   "value": "ABOUT 12,000",
+   "countTo": 12000,
+   "prefix": "ABOUT ",
+   "label": "nuclear warheads in the world",
+   "sub": "the United States and Russia hold more than 8 in every 10",
+   "color": "#F2B01E",
+   "source": "SIPRI Yearbook; Federation of American Scientists"
+  },
+  {
+   "id": "c1-treaty",
+   "type": "stamp",
+   "start": 135.93,
+   "end": 143.0,
+   "tag": "REAL DATA",
+   "text": "5 February 2026",
+   "line": "no treaty caps the strategic arsenals of either",
+   "color": "#FF3B3B",
+   "source": "Arms Control Association"
+  },
+  {
+   "id": "c2-card",
+   "type": "chapter",
+   "start": 143.0,
+   "end": 148.08,
+   "tag": "REAL HISTORY",
+   "kicker": "CHAPTER 02",
+   "title": "How close it has come"
+  },
+  {
+   "id": "c2-gold0",
+   "type": "stamp",
+   "start": 148.08,
+   "end": 156.79,
+   "tag": "REAL HISTORY",
+   "text": "January 1961",
+   "line": "a B-52 breaks apart over North Carolina",
+   "color": "#F2B01E",
+   "source": "Sandia memo, 1969; National Security Archive"
+  },
+  {
+   "id": "c2-gold",
+   "type": "region",
+   "start": 156.79,
+   "end": 172.816,
+   "tag": "REAL HISTORY",
+   "clock": "1961",
+   "clockLabel": "GOLDSBORO, NORTH CAROLINA",
+   "source": "National Security Archive; Sandia memo, 1969",
+   "caption": "Two hydrogen bombs, each up to 3.8 megatons. One switch, a memo said.",
+   "view": {
+    "center": [
+     -80,
+     36
+    ],
+    "widthKm": 1500
+   },
+   "zoomTo": {
+    "center": [
+     -78.0,
+     35.38
+    ],
+    "widthKm": 500
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -78.0,
+      35.38
+     ],
+     "label": "Goldsboro",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 6,
+     "t": 0.8
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -78.0,
+      35.38
+     ],
+     "km": 60,
+     "color": "#F2B01E",
+     "t": 4,
+     "dashed": true
+    }
+   ]
+  },
+  {
+   "id": "c2-cuba0",
+   "type": "stamp",
+   "start": 172.816,
+   "end": 183.743,
+   "tag": "REAL HISTORY",
+   "text": "October 1962",
+   "line": "a Soviet submarine, harassed by American ships, nearly fires a nuclear torpedo",
+   "color": "#F2B01E",
+   "source": "National Security Archive"
+  },
+  {
+   "id": "c2-cuba",
+   "type": "region",
+   "start": 183.743,
+   "end": 190.497,
+   "tag": "REAL HISTORY",
+   "clock": "1962",
+   "clockLabel": "CUBAN MISSILE CRISIS",
+   "source": "National Security Archive",
+   "caption": "Officers helped talk the captain out of it. Accounts differ on how near it was.",
+   "view": {
+    "center": [
+     -74,
+     26
+    ],
+    "widthKm": 3000
+   },
+   "zoomTo": {
+    "center": [
+     -76,
+     25
+    ],
+    "widthKm": 2200
+   },
+   "highlight": [
+    {
+     "iso": "192",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.10)"
+    },
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -82.37,
+      23.11
+     ],
+     "label": "Cuba",
+     "color": "#FF3B3B",
+     "kind": "dot",
+     "t": 0.5
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -82.37,
+      23.11
+     ],
+     "km": 800,
+     "color": "#F2B01E",
+     "t": 2,
+     "dashed": true,
+     "label": "US quarantine"
+    }
+   ]
+  },
+  {
+   "id": "c2-petrov0",
+   "type": "stamp",
+   "start": 190.497,
+   "end": 199.615,
+   "tag": "REAL HISTORY",
+   "text": "26 September 1983",
+   "line": "a Soviet satellite warns of one American missile, then four more",
+   "color": "#F2B01E",
+   "source": "Arms Control Association; Wired"
+  },
+  {
+   "id": "c2-petrov",
+   "type": "region",
+   "start": 199.615,
+   "end": 212.097,
+   "tag": "REAL HISTORY",
+   "clock": "1983",
+   "clockLabel": "SERPUKHOV-15 BUNKER",
+   "source": "Arms Control Association; Wired",
+   "caption": "Petrov judged it a false alarm: a real attack would be hundreds.",
+   "view": {
+    "center": [
+     37.6,
+     55.3
+    ],
+    "widthKm": 700
+   },
+   "zoomTo": {
+    "center": [
+     37.6,
+     55.3
+    ],
+    "widthKm": 300
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "dot",
+     "t": 0.5
+    },
+    {
+     "at": [
+      37.4,
+      54.84
+     ],
+     "label": "Serpukhov-15 (near Moscow)",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 6,
+     "t": 1.2
+    }
+   ]
+  },
+  {
+   "id": "c2-norway",
+   "type": "region",
+   "start": 212.097,
+   "end": 224.793,
+   "tag": "REAL HISTORY",
+   "clock": "1995",
+   "clockLabel": "25 JANUARY",
+   "source": "Reuters; Arms Control Association",
+   "caption": "A Norwegian science rocket, tracked by Russian radar. No order was given.",
+   "view": {
+    "center": [
+     26,
+     64
+    ],
+    "widthKm": 2800
+   },
+   "zoomTo": {
+    "center": [
+     28,
+     64
+    ],
+    "widthKm": 2200
+   },
+   "highlight": [
+    {
+     "iso": "578",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.08)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      16.13,
+      69.3
+     ],
+     "label": "Andoya, Norway",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 6,
+     "t": 0.5
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "dot",
+     "t": 3
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      16.13,
+      69.3
+     ],
+     "to": [
+      37.62,
+      55.75
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 1.5,
+     "t1": 5
+    }
+   ]
+  },
+  {
+   "id": "c2-minutes",
+   "type": "text",
+   "start": 224.793,
+   "end": 234.12,
+   "tag": "REAL HISTORY",
+   "lines": [
+    "None was a deliberate attack",
+    "In two of them, officers had only minutes to judge a warning."
+   ]
+  },
+  {
+   "id": "c3-card",
+   "type": "chapter",
+   "start": 234.12,
+   "end": 237.62,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 03",
+   "title": "The trigger"
+  },
+  {
+   "id": "c3-noplan",
+   "type": "text",
+   "start": 237.62,
+   "end": 249.28,
+   "tag": "SIMULATION",
+   "lines": [
+    "No war plan. No crisis. No named country.",
+    "The question is only what one warhead does, and where it stops."
+   ]
+  },
+  {
+   "id": "c3-weapon",
+   "type": "globe",
+   "start": 249.28,
+   "end": 261.976,
+   "tag": "SIMULATION",
+   "caption": "One submarine-launched missile, about 2,700 km. Flight time: 11 minutes.",
+   "source": "Scenario engine",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 40,
+     "lon": -68,
+     "scale": 1100
+    },
+    {
+     "t": 12,
+     "lat": 41,
+     "lon": -78,
+     "scale": 1500
+    }
+   ],
+   "sun": {
+    "lat": -2.28,
+    "lon": -31.45
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -55.0,
+      40.0
+     ],
+     "label": "Atlantic (location simulated)",
+     "color": "#FF3B3B",
+     "kind": "sub",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "label": "Chicago",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 5
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -55.0,
+      40.0
+     ],
+     "to": [
+      -87.6359,
+      41.8789
+     ],
+     "t0": 1.5,
+     "t1": 11.5,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    }
+   ]
+  },
+  {
+   "id": "c3-target",
+   "type": "region",
+   "start": 261.976,
+   "end": 279.937,
+   "tag": "SIMULATION",
+   "caption": "The Loop, a weekday morning. Our choice, not a forecast.",
+   "source": "Scenario engine",
+   "view": {
+    "center": [
+     -87.6,
+     41.9
+    ],
+    "widthKm": 260
+   },
+   "zoomTo": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 90
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "label": "The Loop",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 7,
+     "t": 0.5
+    },
+    {
+     "at": [
+      -87.33,
+      41.6
+     ],
+     "label": "Gary",
+     "kind": "dot",
+     "t": 1.5
+    },
+    {
+     "at": [
+      -87.9,
+      41.97
+     ],
+     "label": "O'Hare",
+     "kind": "dot",
+     "t": 2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -87.25,
+      42.15
+     ],
+     "text": "Lake Michigan",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 1
+    }
+   ]
+  },
+  {
+   "id": "c3-burst",
+   "type": "split",
+   "start": 279.937,
+   "end": 299.847,
+   "tag": "SIMULATION",
+   "left": {
+    "title": "Airburst · our choice",
+    "sub": "blast and heat spread wider, little local fallout",
+    "color": "#3ED6C8",
+    "kind": "airburst"
+   },
+   "right": {
+    "title": "Ground burst",
+    "sub": "a crater and local fallout",
+    "color": "#FF7A1A",
+    "kind": "groundburst"
+   }
+  },
+  {
+   "id": "c4-card",
+   "type": "chapter",
+   "start": 299.847,
+   "end": 303.347,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 04",
+   "title": "Minute by minute"
+  },
+  {
+   "id": "c4-m0",
+   "type": "globe",
+   "start": 303.347,
+   "end": 307.503,
+   "tag": "SIMULATION",
+   "clock": "T+00:00",
+   "clockLabel": "09:15 CENTRAL",
+   "caption": "Minute zero. The missile leaves the water.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 40,
+     "lon": -58,
+     "scale": 1300
+    },
+    {
+     "t": 4.156000000000006,
+     "lat": 41,
+     "lon": -66,
+     "scale": 1100
+    }
+   ],
+   "sun": {
+    "lat": -2.28,
+    "lon": -31.45
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -55.0,
+      40.0
+     ],
+     "label": "Atlantic (location simulated)",
+     "color": "#FF3B3B",
+     "kind": "sub",
+     "t": 0.2
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -55.0,
+      40.0
+     ],
+     "to": [
+      -87.6359,
+      41.8789
+     ],
+     "t0": 0.0,
+     "t1": 72.42,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    }
+   ]
+  },
+  {
+   "id": "c4-clock",
+   "type": "timeline",
+   "start": 307.503,
+   "end": 318.568,
+   "tag": "SIMULATION",
+   "title": "Launch to impact: 11.1 minutes",
+   "sub": "the engine keeps one clock · simulation",
+   "total": 12,
+   "unit": "MIN",
+   "segments": [
+    {
+     "from": 0,
+     "to": 11.1,
+     "label": "In flight",
+     "color": "#F2B01E"
+    },
+    {
+     "from": 11.1,
+     "to": 12,
+     "label": "Burst",
+     "color": "#FF3B3B"
+    }
+   ],
+   "highlight": {
+    "from": 0,
+    "to": 11.1,
+    "label": "nothing can be changed once it starts"
+   },
+   "cursorTo": 11.1,
+   "source": "Scenario engine"
+  },
+  {
+   "id": "c4-nodef",
+   "type": "text",
+   "start": 318.568,
+   "end": 323.336,
+   "tag": "SIMULATION",
+   "lines": [
+    "No defence. No warning. No second missile.",
+    "We do not model them."
+   ]
+  },
+  {
+   "id": "c4-m5",
+   "type": "globe",
+   "start": 323.336,
+   "end": 334.576,
+   "tag": "SIMULATION",
+   "clock": "T+05:08",
+   "clockLabel": "09:20 · MINUTE FIVE",
+   "caption": "Above the atmosphere. Nobody in Chicago has been told.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 52,
+     "lon": -70,
+     "scale": 800
+    },
+    {
+     "t": 11.240000000000009,
+     "lat": 46,
+     "lon": -84,
+     "scale": 1300
+    }
+   ],
+   "sun": {
+    "lat": -2.28,
+    "lon": -31.45
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "label": "Chicago",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 1
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -55.0,
+      40.0
+     ],
+     "to": [
+      -87.6359,
+      41.8789
+     ],
+     "t0": -19.99,
+     "t1": 52.43,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    }
+   ]
+  },
+  {
+   "id": "c4-m8",
+   "type": "radar",
+   "start": 334.576,
+   "end": 346.096,
+   "tag": "SIMULATION",
+   "title": "Minute eight · radar track",
+   "lines": [
+    {
+     "k": "tracks",
+     "v": "one point"
+    },
+    {
+     "k": "objects",
+     "v": "one"
+    },
+    {
+     "k": "second wave",
+     "v": "none"
+    }
+   ],
+   "tracks": 1,
+   "big": "ONE",
+   "bigColor": "#FF3B3B"
+  },
+  {
+   "id": "c4-m9a",
+   "type": "city",
+   "start": 346.096,
+   "end": 352.07,
+   "tag": "SIMULATION",
+   "clock": "T+09:00",
+   "clockLabel": "MINUTE NINE",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.635,
+     41.884
+    ],
+    "widthKm": 5
+   },
+   "zoomTo": {
+    "center": [
+     -87.63,
+     41.882
+    ],
+    "widthKm": 3.4
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Nothing yet on the street",
+     "color": "#FFFFFF",
+     "t": 0.5
+    },
+    {
+     "at": [
+      -87.6233,
+      41.8827
+     ],
+     "text": "A delivery truck unloads",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 2.5
+    }
+   ]
+  },
+  {
+   "id": "c4-m9b",
+   "type": "city",
+   "start": 352.07,
+   "end": 359.633,
+   "tag": "SIMULATION",
+   "clock": "T+09:36",
+   "clockLabel": "MINUTE NINE",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.6402,
+     41.8786
+    ],
+    "widthKm": 3.6
+   },
+   "zoomTo": {
+    "center": [
+     -87.6402,
+     41.8786
+    ],
+    "widthKm": 2.4
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -87.6402,
+      41.8786
+     ],
+     "text": "A train pulls in",
+     "color": "#FFFFFF",
+     "t": 0.4
+    }
+   ]
+  },
+  {
+   "id": "c4-m10",
+   "type": "city",
+   "start": 359.633,
+   "end": 370.649,
+   "tag": "SIMULATION",
+   "clock": "T+10:00",
+   "clockLabel": "MINUTE TEN",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.625,
+     41.88
+    ],
+    "widthKm": 6
+   },
+   "zoomTo": {
+    "center": [
+     -87.635,
+     41.879
+    ],
+    "widthKm": 3.2
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -87.6233,
+      41.8827
+     ],
+     "text": "Offices full",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 0.8
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Nothing left to warn anyone with",
+     "color": "#FFFFFF",
+     "t": 4
+    }
+   ]
+  },
+  {
+   "id": "c4-m11",
+   "type": "globe",
+   "start": 370.649,
+   "end": 375.165,
+   "tag": "SIMULATION",
+   "clock": "T+11:00",
+   "clockLabel": "MINUTE ELEVEN · 09:26",
+   "caption": "Final approach",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 44,
+     "lon": -80,
+     "scale": 2000
+    },
+    {
+     "t": 4.5160000000000196,
+     "lat": 41.9,
+     "lon": -87.6,
+     "scale": 6000
+    }
+   ],
+   "sun": {
+    "lat": -2.28,
+    "lon": -31.45
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "label": "The Loop",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.2
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -55.0,
+      40.0
+     ],
+     "to": [
+      -87.6359,
+      41.8789
+     ],
+     "t0": -8,
+     "t1": 3.8,
+     "color": "#FF3B3B",
+     "loft": 0.16
+    }
+   ]
+  },
+  {
+   "id": "c5-flash",
+   "type": "city",
+   "start": 375.165,
+   "end": 388.696,
+   "tag": "SIMULATION",
+   "clock": "T+11:06",
+   "clockLabel": "09:26 · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 5.0
+   },
+   "zoomTo": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 4.2
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [
+    {
+     "km": 0.883,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.7999999999999999
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "The Loop",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -87.6,
+      41.8917
+     ],
+     "text": "Navy Pier",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near North Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near South Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Chicago Loop",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lower West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lincoln Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Hyde Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Bridgeport",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Armour Square",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Douglas",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "West Town",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Oakland",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Fuller Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Grand Boulevard",
+     "t": 999
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 883 m",
+     "color": "#FFFFFF"
+    }
+   ],
+   "flashT": 0.7
+  },
+  {
+   "id": "c5-fireball",
+   "type": "city",
+   "start": 388.696,
+   "end": 404.976,
+   "tag": "SIMULATION",
+   "clock": "T+11:06",
+   "clockLabel": "09:26 · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 4.2
+   },
+   "zoomTo": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 4.8
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [
+    {
+     "km": 0.883,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "The Loop",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -87.6,
+      41.8917
+     ],
+     "text": "Navy Pier",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near North Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near South Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Chicago Loop",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lower West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lincoln Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Hyde Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Bridgeport",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Armour Square",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Douglas",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "West Town",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Oakland",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Fuller Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Grand Boulevard",
+     "t": 999
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 883 m",
+     "color": "#FFFFFF"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c5-20psi",
+   "type": "city",
+   "start": 404.976,
+   "end": 419.128,
+   "tag": "SIMULATION",
+   "clock": "T+11:06",
+   "clockLabel": "09:26 · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 5.2
+   },
+   "zoomTo": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 6.2
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [
+    {
+     "km": 0.883,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 1.28,
+     "label": "20 psi",
+     "color": "#FF7A1A",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "The Loop",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -87.6,
+      41.8917
+     ],
+     "text": "Navy Pier",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.6167,
+      41.8623
+     ],
+     "text": "Soldier Field",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near North Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near South Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Chicago Loop",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lower West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lincoln Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Hyde Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Bridgeport",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Armour Square",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Douglas",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "West Town",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Oakland",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Fuller Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Grand Boulevard",
+     "t": 999
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 883 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 1280 m",
+     "color": "#FF7A1A"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c5-5psi",
+   "type": "city",
+   "start": 419.128,
+   "end": 441.233,
+   "tag": "SIMULATION",
+   "clock": "T+11:06",
+   "clockLabel": "09:26 · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 14
+   },
+   "zoomTo": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 24
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [
+    {
+     "km": 0.883,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 1.28,
+     "label": "20 psi",
+     "color": "#FF7A1A",
+     "t": -30
+    },
+    {
+     "km": 6.286,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "The Loop",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -87.6167,
+      41.8623
+     ],
+     "text": "Soldier Field",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.6742,
+      41.8807
+     ],
+     "text": "United Center",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near North Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near South Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Chicago Loop",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lower West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lincoln Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Hyde Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Bridgeport",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Armour Square",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Douglas",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "West Town",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Oakland",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Fuller Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Grand Boulevard",
+     "t": 999
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 883 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 1280 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 6.3 km",
+     "color": "#FF3B3B"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c5-burns",
+   "type": "city",
+   "start": 441.233,
+   "end": 465.521,
+   "tag": "SIMULATION",
+   "clock": "T+11:06",
+   "clockLabel": "09:26 · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 20
+   },
+   "zoomTo": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 30
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [
+    {
+     "km": 0.883,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 1.28,
+     "label": "20 psi",
+     "color": "#FF7A1A",
+     "t": -30
+    },
+    {
+     "km": 6.286,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": -30
+    },
+    {
+     "km": 9.752,
+     "label": "Third-degree burns",
+     "color": "#F2B01E",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "The Loop",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -87.6742,
+      41.8807
+     ],
+     "text": "United Center",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.6553,
+      41.9484
+     ],
+     "text": "Wrigley Field",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.5942,
+      41.7943
+     ],
+     "text": "Hyde Park",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near North Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near South Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Chicago Loop",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lower West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lincoln Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Hyde Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Bridgeport",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Armour Square",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Douglas",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "West Town",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Oakland",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Fuller Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Grand Boulevard",
+     "t": 999
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 883 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 1280 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 6.3 km",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "Burns 9.8 km",
+     "color": "#F2B01E"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c5-1psi",
+   "type": "city",
+   "start": 465.521,
+   "end": 487.961,
+   "tag": "SIMULATION",
+   "clock": "T+11:06",
+   "clockLabel": "09:26 · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 38
+   },
+   "zoomTo": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 50
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [
+    {
+     "km": 0.883,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 1.28,
+     "label": "20 psi",
+     "color": "#FF7A1A",
+     "t": -30
+    },
+    {
+     "km": 6.286,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": -30
+    },
+    {
+     "km": 9.752,
+     "label": "Third-degree burns",
+     "color": "#F2B01E",
+     "t": -30
+    },
+    {
+     "km": 17.014,
+     "label": "1 psi",
+     "color": "#3ED6C8",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "The Loop",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -87.6553,
+      41.9484
+     ],
+     "text": "Wrigley Field",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.5942,
+      41.7943
+     ],
+     "text": "Hyde Park",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.7524,
+      41.7868
+     ],
+     "text": "Midway Airport",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.45,
+      41.88
+     ],
+     "text": "Lake Michigan",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near North Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near South Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Chicago Loop",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lower West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lincoln Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Hyde Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Bridgeport",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Armour Square",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Douglas",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "West Town",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Oakland",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Fuller Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Grand Boulevard",
+     "t": 999
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 883 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 1280 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 6.3 km",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "Burns 9.8 km",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "1 psi 17.0 km",
+     "color": "#3ED6C8"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c5-grow",
+   "type": "bars",
+   "start": 487.961,
+   "end": 497.771,
+   "tag": "SIMULATION",
+   "title": "From the fireball to the last window",
+   "sub": "radius of each ring, kilometres · nearly twenty times",
+   "source": "Scenario engine",
+   "bars": [
+    {
+     "label": "Fireball",
+     "value": 0.883,
+     "display": "0.88",
+     "color": "#FFFFFF"
+    },
+    {
+     "label": "20 psi",
+     "value": 1.28,
+     "display": "1.28",
+     "color": "#FF7A1A"
+    },
+    {
+     "label": "5 psi",
+     "value": 6.286,
+     "display": "6.3",
+     "color": "#FF3B3B"
+    },
+    {
+     "label": "Third-degree burns",
+     "value": 9.752,
+     "display": "9.8",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "1 psi",
+     "value": 17.014,
+     "display": "17.0",
+     "color": "#3ED6C8"
+    }
+   ]
+  },
+  {
+   "id": "c5-whole",
+   "type": "city",
+   "start": 497.771,
+   "end": 508.05,
+   "tag": "SIMULATION",
+   "clock": "T+11:06",
+   "clockLabel": "09:26 · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 44
+   },
+   "zoomTo": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 56
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [
+    {
+     "km": 0.883,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 1.28,
+     "label": "20 psi",
+     "color": "#FF7A1A",
+     "t": -30
+    },
+    {
+     "km": 6.286,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": -30
+    },
+    {
+     "km": 9.752,
+     "label": "Third-degree burns",
+     "color": "#F2B01E",
+     "t": -30
+    },
+    {
+     "km": 17.014,
+     "label": "1 psi",
+     "color": "#3ED6C8",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "The Loop",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -87.6553,
+      41.9484
+     ],
+     "text": "Wrigley Field",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.5942,
+      41.7943
+     ],
+     "text": "Hyde Park",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.7524,
+      41.7868
+     ],
+     "text": "Midway Airport",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.45,
+      41.88
+     ],
+     "text": "Lake Michigan",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near North Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near South Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Chicago Loop",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lower West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lincoln Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Hyde Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Bridgeport",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Armour Square",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Douglas",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "West Town",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Oakland",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Fuller Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Grand Boulevard",
+     "t": 999
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 883 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 1280 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 6.3 km",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "Burns 9.8 km",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "1 psi 17.0 km",
+     "color": "#3ED6C8"
+    }
+   ],
+   "flashT": -30,
+   "caption": "A whole city centre, then the districts around it"
+  },
+  {
+   "id": "c5-hiro1",
+   "type": "city",
+   "start": 508.05,
+   "end": 517.651,
+   "tag": "SIMULATION",
+   "clock": "T+11:06",
+   "clockLabel": "COMPARE · HIROSHIMA",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine); OSTI",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 6
+   },
+   "zoomTo": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 8
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [
+    {
+     "km": 1.6,
+     "label": "Hiroshima: nearly everything within 1 mile",
+     "color": "#F2B01E",
+     "t": -30
+    },
+    {
+     "km": 0.883,
+     "label": "Our fireball alone",
+     "color": "#FFFFFF",
+     "t": 2.0
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "The Loop",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near North Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near South Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Chicago Loop",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lower West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lincoln Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Hyde Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Bridgeport",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Armour Square",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Douglas",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "West Town",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Oakland",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Fuller Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Grand Boulevard",
+     "t": 999
+    }
+   ],
+   "legend": [
+    {
+     "text": "Hiroshima, 15 kt: 1.6 km",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "Our fireball: 883 m",
+     "color": "#FFFFFF"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c5-hiro2",
+   "type": "city",
+   "start": 517.651,
+   "end": 529.258,
+   "tag": "SIMULATION",
+   "clock": "T+11:06",
+   "clockLabel": "COMPARE · HIROSHIMA",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine); OSTI",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 16
+   },
+   "zoomTo": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 22
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [
+    {
+     "km": 1.6,
+     "label": "Hiroshima: 1 mile",
+     "color": "#F2B01E",
+     "t": -30
+    },
+    {
+     "km": 6.286,
+     "label": "Our 5 psi: about 4 miles",
+     "color": "#FF3B3B",
+     "t": 1.0
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "The Loop",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near North Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near South Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Chicago Loop",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lower West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lincoln Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Hyde Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Bridgeport",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Armour Square",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Douglas",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "West Town",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Oakland",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Fuller Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Grand Boulevard",
+     "t": 999
+    }
+   ],
+   "legend": [
+    {
+     "text": "Hiroshima, 15 kt",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "Our 5 psi: 6.3 km",
+     "color": "#FF3B3B"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c5-lake",
+   "type": "city",
+   "start": 529.258,
+   "end": 542.84,
+   "tag": "SIMULATION",
+   "clock": "T+11:06",
+   "clockLabel": "09:26 · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 56
+   },
+   "zoomTo": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 60
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [
+    {
+     "km": 0.883,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 1.28,
+     "label": "20 psi",
+     "color": "#FF7A1A",
+     "t": -30
+    },
+    {
+     "km": 6.286,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": -30
+    },
+    {
+     "km": 9.752,
+     "label": "Third-degree burns",
+     "color": "#F2B01E",
+     "t": -30
+    },
+    {
+     "km": 17.014,
+     "label": "1 psi",
+     "color": "#3ED6C8",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "The Loop",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -87.6553,
+      41.9484
+     ],
+     "text": "Wrigley Field",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.5942,
+      41.7943
+     ],
+     "text": "Hyde Park",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.7524,
+      41.7868
+     ],
+     "text": "Midway Airport",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.45,
+      41.88
+     ],
+     "text": "Lake Michigan",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near North Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near South Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Chicago Loop",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lower West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lincoln Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Hyde Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Bridgeport",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Armour Square",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Douglas",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "West Town",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Oakland",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Fuller Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Grand Boulevard",
+     "t": 999
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 883 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 1280 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 6.3 km",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "Burns 9.8 km",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "1 psi 17.0 km",
+     "color": "#3ED6C8"
+    }
+   ],
+   "flashT": -30,
+   "caption": "The eastern part of the larger rings lies over Lake Michigan. No count of people."
+  },
+  {
+   "id": "c6-card",
+   "type": "chapter",
+   "start": 542.84,
+   "end": 548.817,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 06",
+   "title": "The day after"
+  },
+  {
+   "id": "c6-plan",
+   "type": "number",
+   "start": 548.817,
+   "end": 561.61,
+   "tag": "REAL DATA",
+   "value": "TENS OF MILLIONS",
+   "label": "estimated dead in the first hours of a full US-Russia exchange",
+   "sub": "Princeton Plan A, 2019 · 34.1 million dead, 57.4 million injured",
+   "color": "#F2B01E",
+   "source": "Princeton Science and Global Security, Plan A, 2019"
+  },
+  {
+   "id": "c6-food",
+   "type": "number",
+   "start": 561.61,
+   "end": 569.288,
+   "tag": "REAL DATA",
+   "value": "BILLIONS",
+   "label": "short of food after soot from thousands of warheads",
+   "sub": "Nature Food, 2022 · not one warhead",
+   "color": "#FF3B3B",
+   "source": "Xia, Robock et al., Nature Food, August 2022"
+  },
+  {
+   "id": "c6-smallest",
+   "type": "region",
+   "start": 569.288,
+   "end": 575.737,
+   "tag": "SIMULATION",
+   "caption": "That is the far end of the scale. One warhead is the smallest case.",
+   "view": {
+    "center": [
+     -96,
+     39
+    ],
+    "widthKm": 5200
+   },
+   "zoomTo": {
+    "center": [
+     -92,
+     40
+    ],
+    "widthKm": 3200
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "label": "One warhead",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 7,
+     "t": 1
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "km": 17.014,
+     "color": "#3ED6C8",
+     "t": 2
+    }
+   ]
+  },
+  {
+   "id": "c6-wind",
+   "type": "region",
+   "start": 575.737,
+   "end": 593.697,
+   "tag": "SIMULATION",
+   "clock": "DAY 1",
+   "clockLabel": "AFTER THE BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "caption": "Wind from the west-northwest, our choice. Light fallout drifts out over the lake.",
+   "view": {
+    "center": [
+     -87.2,
+     41.9
+    ],
+    "widthKm": 120
+   },
+   "zoomTo": {
+    "center": [
+     -86.8,
+     41.9
+    ],
+    "widthKm": 170
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 6,
+     "t": 0.2
+    },
+    {
+     "at": [
+      -87.33,
+      41.6
+     ],
+     "label": "Gary",
+     "kind": "dot",
+     "t": 1
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "km": 17.014,
+     "color": "#3ED6C8",
+     "t": 0.5,
+     "label": "1 psi"
+    }
+   ],
+   "plume": {
+    "at": [
+     -87.6359,
+     41.8789
+    ],
+    "bearing": 110,
+    "lengthKm": 70,
+    "widthKm": 14,
+    "t0": 2,
+    "t1": 12,
+    "color": "rgba(180,180,190,0.35)",
+    "label": "light fallout, if any"
+   },
+   "labels": [
+    {
+     "at": [
+      -86.7,
+      42.2
+     ],
+     "text": "Lake Michigan",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 1
+    }
+   ]
+  },
+  {
+   "id": "c6-inside",
+   "type": "text",
+   "start": 593.697,
+   "end": 600.393,
+   "tag": "SIMULATION",
+   "lines": [
+    "Get inside. Stay inside. Stay tuned."
+   ],
+   "size": 84
+  },
+  {
+   "id": "c6-24h",
+   "type": "number",
+   "start": 600.393,
+   "end": 606.09,
+   "tag": "REAL DATA",
+   "value": "24 HOURS",
+   "countTo": 24,
+   "suffix": " HOURS",
+   "label": "shelter, at least",
+   "sub": "radiation levels drop rapidly in the first day",
+   "color": "#3ED6C8",
+   "source": "Ready.gov, US government guidance"
+  },
+  {
+   "id": "c6-return",
+   "type": "text",
+   "start": 606.09,
+   "end": 610.93,
+   "tag": "REAL DATA",
+   "lines": [
+    "Do not return to an evacuated area",
+    "until officials say so"
+   ],
+   "source": "Ready.gov"
+  },
+  {
+   "id": "c6-down",
+   "type": "city",
+   "start": 610.93,
+   "end": 624.466,
+   "tag": "SIMULATION",
+   "clock": "DAY 1",
+   "clockLabel": "WHAT THE RINGS IMPLY",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 36
+   },
+   "zoomTo": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 44
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [
+    {
+     "km": 0.883,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 1.28,
+     "label": "20 psi",
+     "color": "#FF7A1A",
+     "t": -30
+    },
+    {
+     "km": 6.286,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": -30
+    },
+    {
+     "km": 9.752,
+     "label": "Third-degree burns",
+     "color": "#F2B01E",
+     "t": -30
+    },
+    {
+     "km": 17.014,
+     "label": "1 psi",
+     "color": "#3ED6C8",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "The Loop",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -87.6553,
+      41.9484
+     ],
+     "text": "Wrigley Field",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.5942,
+      41.7943
+     ],
+     "text": "Hyde Park",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.7524,
+      41.7868
+     ],
+     "text": "Midway Airport",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.45,
+      41.88
+     ],
+     "text": "Lake Michigan",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near North Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near South Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Chicago Loop",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lower West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lincoln Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Hyde Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Bridgeport",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Armour Square",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Douglas",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "West Town",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Oakland",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Fuller Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Grand Boulevard",
+     "t": 999
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 883 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 1280 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 6.3 km",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "Burns 9.8 km",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "1 psi 17.0 km",
+     "color": "#3ED6C8"
+    }
+   ],
+   "flashT": -30,
+   "caption": "Power, phones and roads would be expected to fail. Not a measured outcome."
+  },
+  {
+   "id": "c6-72",
+   "type": "timeline",
+   "start": 624.466,
+   "end": 636.378,
+   "tag": "REAL DATA",
+   "title": "The first 24 to 72 hours",
+   "sub": "federal planning focus · outside help must reach the edge of the damage",
+   "total": 96,
+   "unit": "HR",
+   "segments": [
+    {
+     "from": 0,
+     "to": 24,
+     "label": "Shelter",
+     "color": "#3ED6C8"
+    },
+    {
+     "from": 24,
+     "to": 72,
+     "label": "Planning window",
+     "color": "#F2B01E"
+    }
+   ],
+   "highlight": {
+    "from": 24,
+    "to": 72,
+    "label": "help reaches the edge"
+   },
+   "cursorTo": 72,
+   "source": "FEMA, Planning Guidance for Response to a Nuclear Detonation, 2022"
+  },
+  {
+   "id": "c6-beds",
+   "type": "number",
+   "start": 636.378,
+   "end": 649.243,
+   "tag": "REAL DATA",
+   "value": "ABOUT 2,000",
+   "countTo": 2000,
+   "prefix": "ABOUT ",
+   "label": "specialist burn beds in the whole United States",
+   "sub": "no study here models how many patients one warhead would bring",
+   "color": "#FF3B3B",
+   "source": "Klein et al., JAMA, 2009; PMC burn-centre review"
+  },
+  {
+   "id": "c6-country",
+   "type": "region",
+   "start": 649.243,
+   "end": 654.29,
+   "tag": "SIMULATION",
+   "caption": "The rest of the country is untouched by this one weapon.",
+   "clock": "DAY 1",
+   "clockLabel": "AFTER THE BURST",
+   "view": {
+    "center": [
+     -96,
+     39
+    ],
+    "widthKm": 4600
+   },
+   "zoomTo": {
+    "center": [
+     -90,
+     41
+    ],
+    "widthKm": 1500
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "label": "The Loop",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 7,
+     "t": 0.5
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "km": 17.014,
+     "color": "#3ED6C8",
+     "t": 1.5
+    }
+   ]
+  },
+  {
+   "id": "c6-day2",
+   "type": "city",
+   "start": 654.29,
+   "end": 666.195,
+   "tag": "SIMULATION",
+   "clock": "DAY 2",
+   "clockLabel": "AFTER THE BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 14
+   },
+   "zoomTo": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 40
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "caption": "Rubble at the centre, standing buildings at the edge. Smoke goes east over the lake.",
+   "rings": [
+    {
+     "km": 0.883,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 6.286,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": -30
+    },
+    {
+     "km": 17.014,
+     "label": "1 psi",
+     "color": "#3ED6C8",
+     "t": -30
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "The Loop",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -87.45,
+      41.88
+     ],
+     "text": "Lake Michigan",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near North Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near South Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Chicago Loop",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lower West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lincoln Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Hyde Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Bridgeport",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Armour Square",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Douglas",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "West Town",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Oakland",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Fuller Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Grand Boulevard",
+     "t": 999
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 883 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "5 psi 6.3 km",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "1 psi 17.0 km",
+     "color": "#3ED6C8"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c6-last",
+   "type": "city",
+   "start": 666.195,
+   "end": 673.098,
+   "tag": "SIMULATION",
+   "clock": "DAY 2",
+   "clockLabel": "IT HAS NOT HAPPENED",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "chicago",
+   "view": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 46
+   },
+   "zoomTo": {
+    "center": [
+     -87.6359,
+     41.8789
+    ],
+    "widthKm": 58
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [
+    {
+     "km": 0.883,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 1.28,
+     "label": "20 psi",
+     "color": "#FF7A1A",
+     "t": -30
+    },
+    {
+     "km": 6.286,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": -30
+    },
+    {
+     "km": 9.752,
+     "label": "Third-degree burns",
+     "color": "#F2B01E",
+     "t": -30
+    },
+    {
+     "km": 17.014,
+     "label": "1 psi",
+     "color": "#3ED6C8",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "The Loop",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -87.6553,
+      41.9484
+     ],
+     "text": "Wrigley Field",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.5942,
+      41.7943
+     ],
+     "text": "Hyde Park",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.7524,
+      41.7868
+     ],
+     "text": "Midway Airport",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.45,
+      41.88
+     ],
+     "text": "Lake Michigan",
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near North Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near South Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Chicago Loop",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lower West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lincoln Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Hyde Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Bridgeport",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Armour Square",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Douglas",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "West Town",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Oakland",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Fuller Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Grand Boulevard",
+     "t": 999
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 883 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 1280 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 6.3 km",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "Burns 9.8 km",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "1 psi 17.0 km",
+     "color": "#3ED6C8"
+    }
+   ],
+   "flashT": -30,
+   "caption": "Nothing in this simulation is a prediction. It has not happened."
+  },
+  {
+   "id": "end",
+   "type": "endslate",
+   "start": 673.098,
+   "end": 691.19,
+   "tag": "",
+   "title": "Next scenario",
+   "line": "Russia uses one tactical nuke in Ukraine, day by day."
+  }
+ ]
+}
