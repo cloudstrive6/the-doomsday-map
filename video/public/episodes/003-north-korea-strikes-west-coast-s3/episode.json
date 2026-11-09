@@ -1,98 +1,98 @@
 {
  "subtitles": [
   {
-   "start": 0.002,
-   "end": 0.99,
+   "start": 0.0,
+   "end": 0.97,
    "text": "In our story,"
   },
   {
-   "start": 0.99,
-   "end": 1.93,
+   "start": 0.97,
+   "end": 2.537,
    "text": "two more missiles are"
   },
   {
-   "start": 1.93,
-   "end": 3.22,
+   "start": 2.537,
+   "end": 3.806,
    "text": "launched as well."
   },
   {
-   "start": 3.85,
-   "end": 5.647,
+   "start": 3.806,
+   "end": 5.746,
    "text": "Interceptors destroy both."
   },
   {
-   "start": 5.647,
-   "end": 7.367,
+   "start": 5.746,
+   "end": 7.612,
    "text": "That is a choice we made,"
   },
   {
-   "start": 7.367,
-   "end": 8.43,
+   "start": 7.612,
+   "end": 9.179,
    "text": "not a forecast of how"
   },
   {
-   "start": 8.43,
-   "end": 10.24,
+   "start": 9.179,
+   "end": 11.418,
    "text": "the real system would perform."
   },
   {
-   "start": 10.97,
-   "end": 12.155,
+   "start": 11.968,
+   "end": 13.004,
    "text": "Minutes later,"
   },
   {
-   "start": 12.155,
-   "end": 14.46,
+   "start": 13.004,
+   "end": 16.038,
    "text": "the warheads separate from their rockets."
   },
   {
-   "start": 14.823,
-   "end": 16.78,
+   "start": 16.038,
+   "end": 17.813,
    "text": "They are small and fast,"
   },
   {
-   "start": 16.937,
-   "end": 19.2,
+   "start": 17.813,
+   "end": 20.699,
    "text": "falling through space toward the coast."
   },
   {
-   "start": 19.804,
-   "end": 21.1,
+   "start": 21.249,
+   "end": 23.511,
    "text": "In the middle of the flight,"
   },
   {
-   "start": 21.317,
-   "end": 23.24,
+   "start": 23.511,
+   "end": 25.854,
    "text": "the interceptor window opens."
   },
   {
-   "start": 23.813,
-   "end": 26.367,
+   "start": 25.854,
+   "end": 28.682,
    "text": "The defence has minutes, not hours,"
   },
   {
-   "start": 26.367,
-   "end": 28.0,
+   "start": 28.682,
+   "end": 30.783,
    "text": "to find the real warheads,"
   },
   {
-   "start": 28.238,
-   "end": 29.05,
+   "start": 30.783,
+   "end": 32.156,
    "text": "and to shoot more"
   },
   {
-   "start": 29.05,
-   "end": 30.46,
+   "start": 32.156,
+   "end": 33.61,
    "text": "than once at each."
   },
   {
-   "start": 31.017,
-   "end": 32.01,
+   "start": 33.61,
+   "end": 34.661,
    "text": "In our story,"
   },
   {
-   "start": 32.01,
-   "end": 34.04,
+   "start": 34.661,
+   "end": 36.923,
    "text": "it does not stop these four."
   }
  ],
@@ -100,15 +100,15 @@
  "fps": 60,
  "width": 1080,
  "height": 1920,
- "durationSeconds": 34.49,
+ "durationSeconds": 37.459,
  "shots": [
   {
    "id": "c5-intercepts",
    "type": "globe",
    "start": 0.0,
-   "end": 10.514,
+   "end": 11.968,
    "tag": "SIMULATION",
-   "clock": "T+05:55",
+   "clock": "T+06:29",
    "clockLabel": "SINCE FIRST LAUNCH",
    "caption": "Two more missiles launched, both destroyed. Our choice, not a forecast.",
    "camera": [
@@ -146,8 +146,8 @@
       -122.3321,
       47.6062
      ],
-     "t0": -29.22,
-     "t1": 55.08,
+     "t0": -30.67,
+     "t1": 58.66,
      "color": "#FF3B3B",
      "loft": 0.16
     },
@@ -160,8 +160,8 @@
       -122.7134,
       47.7305
      ],
-     "t0": -20.7,
-     "t1": 55.08,
+     "t0": -22.71,
+     "t1": 58.66,
      "color": "#FF3B3B",
      "loft": 0.16
     },
@@ -174,8 +174,8 @@
       -122.4194,
       37.7749
      ],
-     "t0": -9.29,
-     "t1": 55.08,
+     "t0": -11.3,
+     "t1": 58.66,
      "color": "#FF3B3B",
      "loft": 0.16
     },
@@ -188,8 +188,8 @@
       -120.572,
       34.742
      ],
-     "t0": -4.29,
-     "t1": 55.08,
+     "t0": -6.3,
+     "t1": 58.66,
      "color": "#FF3B3B",
      "loft": 0.16
     },
@@ -260,10 +260,10 @@
   {
    "id": "c5-mid",
    "type": "globe",
-   "start": 10.514,
-   "end": 34.49,
+   "start": 11.968,
+   "end": 37.459,
    "tag": "SIMULATION",
-   "clock": "T+10:07",
+   "clock": "T+10:52",
    "clockLabel": "SINCE FIRST LAUNCH",
    "caption": "Warheads separate and fall through space. The interceptor window opens.",
    "camera": [
@@ -329,8 +329,8 @@
       -122.3321,
       47.6062
      ],
-     "t0": -39.73,
-     "t1": 44.57,
+     "t0": -42.64,
+     "t1": 46.7,
      "color": "#FF3B3B",
      "loft": 0.16
     },
@@ -343,8 +343,8 @@
       -122.7134,
       47.7305
      ],
-     "t0": -31.21,
-     "t1": 44.57,
+     "t0": -34.68,
+     "t1": 46.7,
      "color": "#FF3B3B",
      "loft": 0.16
     },
@@ -357,8 +357,8 @@
       -122.4194,
       37.7749
      ],
-     "t0": -19.8,
-     "t1": 44.57,
+     "t0": -23.27,
+     "t1": 46.7,
      "color": "#FF3B3B",
      "loft": 0.16
     },
@@ -371,8 +371,8 @@
       -120.572,
       34.742
      ],
-     "t0": -14.8,
-     "t1": 44.57,
+     "t0": -18.27,
+     "t1": 46.7,
      "color": "#FF3B3B",
      "loft": 0.16
     }

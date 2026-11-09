@@ -1,123 +1,123 @@
 {
  "subtitles": [
   {
-   "start": 0.271,
-   "end": 1.31,
+   "start": 0.0,
+   "end": 1.422,
    "text": "It detonates in the"
   },
   {
-   "start": 1.31,
-   "end": 3.35,
+   "start": 1.422,
+   "end": 3.442,
    "text": "air above downtown Seattle."
   },
   {
-   "start": 3.35,
-   "end": 5.64,
+   "start": 3.442,
+   "end": 5.762,
    "text": "Two hundred and fifty kilotons."
   },
   {
-   "start": 7.023,
-   "end": 8.617,
+   "start": 6.312,
+   "end": 8.516,
    "text": "The fireball is five hundred"
   },
   {
-   "start": 8.617,
-   "end": 10.38,
+   "start": 8.516,
+   "end": 10.642,
    "text": "and fifty metres in radius."
   },
   {
-   "start": 10.843,
-   "end": 12.92,
+   "start": 10.642,
+   "end": 13.082,
    "text": "Everything inside it is vapour."
   },
   {
-   "start": 14.125,
-   "end": 15.199,
+   "start": 13.632,
+   "end": 15.127,
    "text": "Out to eight hundred"
   },
   {
-   "start": 15.199,
-   "end": 16.52,
+   "start": 15.127,
+   "end": 16.548,
    "text": "and seventy metres,"
   },
   {
-   "start": 16.728,
-   "end": 18.37,
+   "start": 16.548,
+   "end": 18.642,
    "text": "the blast adds twenty pounds"
   },
   {
-   "start": 18.37,
-   "end": 20.14,
+   "start": 18.642,
+   "end": 20.735,
    "text": "per square inch of pressure."
   },
   {
-   "start": 20.421,
-   "end": 22.6,
+   "start": 20.735,
+   "end": 23.427,
    "text": "Even strong buildings are destroyed."
   },
   {
-   "start": 23.649,
-   "end": 26.21,
+   "start": 23.977,
+   "end": 26.8,
    "text": "Out to four point three kilometres,"
   },
   {
-   "start": 26.21,
-   "end": 28.36,
+   "start": 26.8,
+   "end": 29.059,
    "text": "five pounds per square inch."
   },
   {
-   "start": 28.795,
-   "end": 30.24,
+   "start": 29.059,
+   "end": 30.753,
    "text": "Most houses collapse."
   },
   {
-   "start": 30.68,
-   "end": 31.93,
+   "start": 30.753,
+   "end": 32.527,
    "text": "That ring covers about"
   },
   {
-   "start": 31.93,
-   "end": 34.02,
+   "start": 32.527,
+   "end": 34.947,
    "text": "fifty-seven square kilometres."
   },
   {
-   "start": 34.918,
-   "end": 36.25,
+   "start": 35.497,
+   "end": 37.415,
    "text": "Out to six kilometres,"
   },
   {
-   "start": 36.25,
-   "end": 38.73,
+   "start": 37.415,
+   "end": 40.554,
    "text": "the flash itself causes third-degree"
   },
   {
-   "start": 38.73,
-   "end": 40.62,
+   "start": 40.554,
+   "end": 42.211,
    "text": "burns on bare skin."
   },
   {
-   "start": 41.706,
-   "end": 42.69,
+   "start": 42.761,
+   "end": 43.865,
    "text": "And out to eleven"
   },
   {
-   "start": 42.69,
-   "end": 43.73,
+   "start": 43.865,
+   "end": 45.294,
    "text": "and a half kilometres,"
   },
   {
-   "start": 43.73,
-   "end": 46.04,
+   "start": 45.294,
+   "end": 46.983,
    "text": "one pound per square inch."
   },
   {
-   "start": 46.45,
-   "end": 48.02,
+   "start": 46.983,
+   "end": 48.022,
    "text": "Windows shatter,"
   },
   {
-   "start": 48.308,
-   "end": 50.18,
+   "start": 48.022,
+   "end": 50.036,
    "text": "and the glass becomes a weapon."
   }
  ],
@@ -125,13 +125,13 @@
  "fps": 60,
  "width": 1080,
  "height": 1920,
- "durationSeconds": 50.71,
+ "durationSeconds": 50.586,
  "shots": [
   {
    "id": "c6-flash",
    "type": "city",
    "start": 0.0,
-   "end": 6.314,
+   "end": 6.312,
    "tag": "SIMULATION",
    "clock": "T+25:30",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -160,7 +160,7 @@
      "km": 0.555,
      "label": "Fireball",
      "color": "#FFFFFF",
-     "t": 0.48
+     "t": 0.64
     }
    ],
    "labels": [
@@ -187,13 +187,13 @@
      "color": "#FFFFFF"
     }
    ],
-   "flashT": 0.38
+   "flashT": 0.54
   },
   {
    "id": "c6-fireball",
    "type": "city",
-   "start": 6.314,
-   "end": 13.634,
+   "start": 6.312,
+   "end": 13.632,
    "tag": "SIMULATION",
    "clock": "T+25:30",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -294,8 +294,8 @@
   {
    "id": "c6-20psi",
    "type": "city",
-   "start": 13.634,
-   "end": 23.139,
+   "start": 13.632,
+   "end": 23.977,
    "tag": "SIMULATION",
    "clock": "T+25:30",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -414,8 +414,8 @@
   {
    "id": "c6-5psi",
    "type": "city",
-   "start": 23.139,
-   "end": 34.659,
+   "start": 23.977,
+   "end": 35.497,
    "tag": "SIMULATION",
    "clock": "T+25:30",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -426,14 +426,14 @@
      -122.3321,
      47.6062
     ],
-    "widthKm": 13.6
+    "widthKm": 11.2
    },
    "zoomTo": {
     "center": [
      -122.3321,
      47.6062
     ],
-    "widthKm": 16.0
+    "widthKm": 19.2
    },
    "gz": [
     -122.3321,
@@ -552,8 +552,8 @@
   {
    "id": "c6-burns",
    "type": "city",
-   "start": 34.659,
-   "end": 41.195,
+   "start": 35.497,
+   "end": 42.761,
    "tag": "SIMULATION",
    "clock": "T+25:30",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -564,14 +564,14 @@
      -122.3321,
      47.6062
     ],
-    "widthKm": 17.6
+    "widthKm": 16.0
    },
    "zoomTo": {
     "center": [
      -122.3321,
      47.6062
     ],
-    "widthKm": 20.8
+    "widthKm": 24.0
    },
    "gz": [
     -122.3321,
@@ -708,8 +708,8 @@
   {
    "id": "c6-1psi",
    "type": "city",
-   "start": 41.195,
-   "end": 50.71,
+   "start": 42.761,
+   "end": 50.586,
    "tag": "SIMULATION",
    "clock": "T+25:30",
    "clockLabel": "SINCE FIRST LAUNCH",

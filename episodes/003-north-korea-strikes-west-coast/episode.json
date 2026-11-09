@@ -3,12 +3,12 @@
  "fps": 60,
  "width": 1920,
  "height": 1080,
- "durationSeconds": 727.89,
+ "durationSeconds": 730.41,
  "musicPlan": [
   {
    "src": "bed.mp3",
    "from": 0,
-   "to": 304.247,
+   "to": 306.823,
    "loop": [
     2,
     174
@@ -17,8 +17,8 @@
   },
   {
    "src": "bed_tense.mp3",
-   "from": 302.247,
-   "to": 573.777,
+   "from": 304.823,
+   "to": 580.889,
    "loop": [
     3,
     92
@@ -27,8 +27,8 @@
   },
   {
    "src": "bed.mp3",
-   "from": 571.777,
-   "to": 727.89,
+   "from": 578.889,
+   "to": 730.41,
    "loop": [
     2,
     174
@@ -39,117 +39,117 @@
  "sfxPlan": [
   {
    "src": "impact.mp3",
-   "t": 50.829,
+   "t": 53.125,
    "gain_db": -9
   },
   {
    "src": "impact.mp3",
-   "t": 156.534,
+   "t": 159.446,
    "gain_db": -9
   },
   {
    "src": "impact.mp3",
-   "t": 230.477,
+   "t": 230.14100000000002,
    "gain_db": -9
   },
   {
    "src": "impact.mp3",
-   "t": 303.397,
+   "t": 305.97299999999996,
    "gain_db": -9
   },
   {
    "src": "impact.mp3",
-   "t": 397.445,
+   "t": 401.813,
    "gain_db": -9
   },
   {
    "src": "impact.mp3",
-   "t": 572.927,
+   "t": 580.039,
    "gain_db": -9
   },
   {
    "src": "impact.mp3",
-   "t": 640.222,
+   "t": 644.03,
    "gain_db": -9
   },
   {
    "src": "impact.mp3",
-   "t": 673.821,
+   "t": 677.853,
    "gain_db": -9
   },
   {
    "src": "whoosh.mp3",
-   "t": 76.17599999999999,
+   "t": 78.416,
    "gain_db": -14
   },
   {
    "src": "whoosh.mp3",
-   "t": 183.216,
+   "t": 185.283,
    "gain_db": -14
   },
   {
    "src": "whoosh.mp3",
-   "t": 262.47200000000004,
+   "t": 265.10400000000004,
    "gain_db": -14
   },
   {
    "src": "whoosh.mp3",
-   "t": 286.63300000000004,
+   "t": 289.26500000000004,
    "gain_db": -14
   },
   {
    "src": "whoosh.mp3",
-   "t": 575.8770000000001,
+   "t": 582.989,
    "gain_db": -14
   },
   {
    "src": "whoosh.mp3",
-   "t": 595.2090000000001,
+   "t": 602.097,
    "gain_db": -14
   },
   {
    "src": "whoosh.mp3",
-   "t": 603.1700000000001,
+   "t": 610.225,
    "gain_db": -14
   },
   {
    "src": "whoosh.mp3",
-   "t": 622.84,
+   "t": 628.195,
    "gain_db": -14
   },
   {
    "src": "whoosh.mp3",
-   "t": 643.172,
+   "t": 646.98,
    "gain_db": -14
   },
   {
    "src": "boom.mp3",
-   "t": 485.572,
+   "t": 495.14000000000004,
    "gain_db": -4
   },
   {
    "src": "boom.mp3",
-   "t": 545.678,
+   "t": 554.862,
    "gain_db": -4
   },
   {
    "src": "boom.mp3",
-   "t": 551.245,
+   "t": 560.6229999999999,
    "gain_db": -4
   },
   {
    "src": "boom.mp3",
-   "t": 555.331,
+   "t": 564.943,
    "gain_db": -4
   },
   {
    "src": "boom.mp3",
-   "t": 436.512,
+   "t": 442.336,
    "gain_db": -14
   },
   {
    "src": "boom.mp3",
-   "t": 439.012,
+   "t": 444.836,
    "gain_db": -14
   }
  ],
@@ -159,7 +159,7 @@
    "id": "open-seattle",
    "type": "city",
    "start": 0,
-   "end": 7.79,
+   "end": 7.976,
    "tag": "SIMULATION",
    "clock": "03:05",
    "clockLabel": "PACIFIC TIME · SEATTLE",
@@ -207,8 +207,8 @@
   {
    "id": "open-alaska",
    "type": "region",
-   "start": 7.79,
-   "end": 13.648,
+   "start": 7.976,
+   "end": 13.984,
    "tag": "SIMULATION",
    "clock": "02:05",
    "clockLabel": "ALASKA TIME · FORT GREELY",
@@ -270,8 +270,8 @@
   {
    "id": "open-launch",
    "type": "globe",
-   "start": 13.648,
-   "end": 22.817,
+   "start": 13.984,
+   "end": 23.153,
    "tag": "SIMULATION",
    "clock": "T+00:00",
    "clockLabel": "FIRST LAUNCH",
@@ -343,8 +343,8 @@
   {
    "id": "open-disclaimer",
    "type": "text",
-   "start": 22.817,
-   "end": 33.09,
+   "start": 23.153,
+   "end": 34.231,
    "tag": "SIMULATION",
    "lines": [
     "A simulation",
@@ -354,8 +354,8 @@
   {
    "id": "open-title",
    "type": "globe",
-   "start": 33.09,
-   "end": 50.679,
+   "start": 34.231,
+   "end": 52.975,
    "tag": "SIMULATION",
    "caption": "North Korea strikes the US West Coast. Minute by minute.",
    "camera": [
@@ -422,8 +422,8 @@
   {
    "id": "c1-card",
    "type": "chapter",
-   "start": 50.679,
-   "end": 54.179,
+   "start": 52.975,
+   "end": 56.475,
    "tag": "REAL DATA",
    "kicker": "CHAPTER 01",
    "title": "What North Korea has"
@@ -431,8 +431,8 @@
   {
    "id": "c1-60",
    "type": "number",
-   "start": 54.179,
-   "end": 62.255,
+   "start": 56.475,
+   "end": 64.495,
    "tag": "REAL DATA",
    "value": "ABOUT 60",
    "countTo": 60,
@@ -445,8 +445,8 @@
   {
    "id": "c1-counts",
    "type": "bars",
-   "start": 62.255,
-   "end": 76.576,
+   "start": 64.495,
+   "end": 78.816,
    "tag": "REAL DATA",
    "title": "Estimates of North Korea's warheads",
    "sub": "counts disagree · none is a number the government has confirmed",
@@ -481,8 +481,8 @@
   {
    "id": "c1-fission",
    "type": "stamp",
-   "start": 76.576,
-   "end": 86.696,
+   "start": 78.816,
+   "end": 88.6,
    "tag": "REAL DATA",
    "text": "Mostly fission",
    "line": "single-stage fission devices · only a few may be thermonuclear · SIPRI 2026",
@@ -491,8 +491,8 @@
   {
    "id": "c1-tests",
    "type": "region",
-   "start": 86.696,
-   "end": 101.072,
+   "start": 88.6,
+   "end": 102.472,
    "tag": "REAL DATA",
    "clock": "2017",
    "clockLabel": "3 SEPTEMBER · LAST TEST",
@@ -591,8 +591,8 @@
   {
    "id": "c1-icbm",
    "type": "number",
-   "start": 101.072,
-   "end": 112.033,
+   "start": 102.472,
+   "end": 114.217,
    "tag": "REAL DATA",
    "value": "10 OR FEWER",
    "label": "intercontinental missiles, Defense Intelligence Agency, 2025",
@@ -603,8 +603,8 @@
   {
    "id": "c1-models",
    "type": "globe",
-   "start": 112.033,
-   "end": 139.609,
+   "start": 114.217,
+   "end": 143.753,
    "tag": "REAL DATA",
    "source": "CSIS Missile Threat; CRS; US Annual Threat Assessment 2026",
    "caption": "Hwasong-17: liquid fuel, up to 15,000 km. Hwasong-18: solid fuel, less warning.",
@@ -724,8 +724,8 @@
   {
    "id": "c1-caveat",
    "type": "text",
-   "start": 139.609,
-   "end": 150.463,
+   "start": 143.753,
+   "end": 153.121,
    "tag": "REAL DATA",
    "lines": [
     "The caveat",
@@ -735,8 +735,8 @@
   {
    "id": "c1-caveat2",
    "type": "text",
-   "start": 150.463,
-   "end": 156.384,
+   "start": 153.121,
+   "end": 159.296,
    "tag": "REAL DATA",
    "lines": [
     "Never flown full range",
@@ -746,8 +746,8 @@
   {
    "id": "c2-card",
    "type": "chapter",
-   "start": 156.384,
-   "end": 159.884,
+   "start": 159.296,
+   "end": 162.796,
    "tag": "REAL HISTORY",
    "kicker": "CHAPTER 02",
    "title": "How long would it take"
@@ -755,8 +755,8 @@
   {
    "id": "c2-hs14",
    "type": "globe",
-   "start": 159.884,
-   "end": 175.128,
+   "start": 162.796,
+   "end": 179.776,
    "tag": "REAL HISTORY",
    "clock": "2017",
    "clockLabel": "JULY · HWASONG-14",
@@ -864,8 +864,8 @@
   {
    "id": "c2-flights",
    "type": "bars",
-   "start": 175.128,
-   "end": 183.616,
+   "start": 179.776,
+   "end": 185.683,
    "tag": "REAL HISTORY",
    "title": "Flight time of North Korea's long-range tests",
    "sub": "minutes in the air · every one lofted",
@@ -888,8 +888,8 @@
   {
    "id": "c2-hs19",
    "type": "stamp",
-   "start": 183.616,
-   "end": 197.12,
+   "start": 185.683,
+   "end": 197.456,
    "tag": "REAL HISTORY",
    "text": "October 2024",
    "line": "Hwasong-19 · 86 minutes · the last long-range North Korean flight to date",
@@ -898,8 +898,8 @@
   {
    "id": "c2-lofted",
    "type": "globe",
-   "start": 197.12,
-   "end": 207.409,
+   "start": 197.456,
+   "end": 207.857,
    "tag": "REAL HISTORY",
    "source": "CSIS Missile Threat; UCS",
    "caption": "Lofted: fired steeply upward to land near North Korea",
@@ -964,8 +964,8 @@
   {
    "id": "c2-ucs",
    "type": "bars",
-   "start": 207.409,
-   "end": 220.877,
+   "start": 207.857,
+   "end": 220.905,
    "tag": "REAL DATA",
    "title": "Warning time on a real attack path",
    "sub": "launch to impact, minutes · Union of Concerned Scientists estimates",
@@ -988,8 +988,8 @@
   {
    "id": "c2-honest",
    "type": "timeline",
-   "start": 220.877,
-   "end": 230.327,
+   "start": 220.905,
+   "end": 229.991,
    "tag": "REAL DATA",
    "title": "Seattle: under thirty minutes",
    "sub": "John Schilling, 38 North · so, roughly half an hour",
@@ -1020,8 +1020,8 @@
   {
    "id": "c3-card",
    "type": "chapter",
-   "start": 230.327,
-   "end": 233.827,
+   "start": 229.991,
+   "end": 233.491,
    "tag": "REAL DATA",
    "kicker": "CHAPTER 03",
    "title": "The shield"
@@ -1029,8 +1029,8 @@
   {
    "id": "c3-gmd",
    "type": "region",
-   "start": 233.827,
-   "end": 243.64,
+   "start": 233.491,
+   "end": 246.328,
    "tag": "REAL DATA",
    "source": "Arms Control Association; Defense News",
    "view": {
@@ -1129,8 +1129,8 @@
   {
    "id": "c3-hit",
    "type": "globe",
-   "start": 243.64,
-   "end": 252.248,
+   "start": 246.328,
+   "end": 254.096,
    "tag": "REAL DATA",
    "caption": "Hit to kill: the interceptor collides with the warhead in space",
    "source": "Arms Control Association (illustration)",
@@ -1217,8 +1217,8 @@
   {
    "id": "c3-12of21",
    "type": "number",
-   "start": 252.248,
-   "end": 262.872,
+   "start": 254.096,
+   "end": 265.504,
    "tag": "REAL DATA",
    "value": "12 OF 21",
    "label": "scripted intercept tests succeeded",
@@ -1229,8 +1229,8 @@
   {
    "id": "c3-2019",
    "type": "stamp",
-   "start": 262.872,
-   "end": 271.29,
+   "start": 265.504,
+   "end": 273.772,
    "tag": "REAL HISTORY",
    "text": "25 March 2019",
    "line": "first salvo: two interceptors, one target · both worked",
@@ -1239,8 +1239,8 @@
   {
    "id": "c3-44",
    "type": "text",
-   "start": 271.29,
-   "end": 281.337,
+   "start": 273.772,
+   "end": 283.969,
    "tag": "REAL DATA",
    "lines": [
     "44 interceptors is not 44 missiles stopped",
@@ -1250,8 +1250,8 @@
   {
    "id": "c3-scripted",
    "type": "text",
-   "start": 281.337,
-   "end": 287.033,
+   "start": 283.969,
+   "end": 289.665,
    "tag": "REAL DATA",
    "lines": [
     "Scripted tests",
@@ -1261,8 +1261,8 @@
   {
    "id": "c3-ngi",
    "type": "stamp",
-   "start": 287.033,
-   "end": 291.28,
+   "start": 289.665,
+   "end": 292.754,
    "tag": "REAL DATA",
    "text": "Not fielded",
    "line": "the next-generation interceptor",
@@ -1271,8 +1271,8 @@
   {
    "id": "c3-golden",
    "type": "number",
-   "start": 291.28,
-   "end": 303.247,
+   "start": 292.754,
+   "end": 305.823,
    "tag": "REAL DATA",
    "value": "$1.2 TRILLION",
    "countTo": 1.2,
@@ -1287,8 +1287,8 @@
   {
    "id": "c4-card",
    "type": "chapter",
-   "start": 303.247,
-   "end": 306.747,
+   "start": 305.823,
+   "end": 309.323,
    "tag": "SIMULATION",
    "kicker": "CHAPTER 04",
    "title": "The trigger"
@@ -1296,8 +1296,8 @@
   {
    "id": "c4-order",
    "type": "region",
-   "start": 306.747,
-   "end": 322.664,
+   "start": 309.323,
+   "end": 325.24,
    "tag": "SIMULATION",
    "source": "CRS (North Korean law, 2013 and 2022)",
    "view": {
@@ -1374,8 +1374,8 @@
   {
    "id": "c4-nocause",
    "type": "text",
-   "start": 322.664,
-   "end": 327.19,
+   "start": 325.24,
+   "end": 333.605,
    "tag": "SIMULATION",
    "lines": [
     "No cause named",
@@ -1385,8 +1385,8 @@
   {
    "id": "c4-six",
    "type": "number",
-   "start": 327.19,
-   "end": 339.485,
+   "start": 333.605,
+   "end": 343.363,
    "tag": "SIMULATION",
    "value": "4 OF 6",
    "label": "missiles get through · two are intercepted · one warhead each",
@@ -1396,8 +1396,8 @@
   {
    "id": "c4-choice",
    "type": "text",
-   "start": 339.485,
-   "end": 343.78,
+   "start": 343.363,
+   "end": 347.546,
    "tag": "SIMULATION",
    "lines": [
     "A choice we made",
@@ -1407,8 +1407,8 @@
   {
    "id": "c4-dia",
    "type": "bars",
-   "start": 343.78,
-   "end": 349.92,
+   "start": 347.546,
+   "end": 353.672,
    "tag": "SIMULATION",
    "title": "Six sits inside the count",
    "sub": "intercontinental missiles",
@@ -1431,8 +1431,8 @@
   {
    "id": "c4-types",
    "type": "region",
-   "start": 349.92,
-   "end": 360.127,
+   "start": 353.672,
+   "end": 362.232,
    "tag": "SIMULATION",
    "caption": "Two Hwasong-18 class and two Hwasong-17",
    "view": {
@@ -1504,8 +1504,8 @@
   {
    "id": "c4-hs20",
    "type": "text",
-   "start": 360.127,
-   "end": 365.64,
+   "start": 362.232,
+   "end": 370.12,
    "tag": "SIMULATION",
    "lines": [
     "Not used: Hwasong-20",
@@ -1515,8 +1515,8 @@
   {
    "id": "c4-targets",
    "type": "region",
-   "start": 365.64,
-   "end": 378.841,
+   "start": 370.12,
+   "end": 382.929,
    "tag": "SIMULATION",
    "caption": "Our choice of four targets",
    "view": {
@@ -1600,8 +1600,8 @@
   {
    "id": "c4-yields",
    "type": "bars",
-   "start": 378.841,
-   "end": 389.89,
+   "start": 382.929,
+   "end": 394.567,
    "tag": "SIMULATION",
    "title": "Yield assumed, kilotons",
    "sub": "our assumption, not a fact",
@@ -1636,8 +1636,8 @@
   {
    "id": "c4-smaller",
    "type": "text",
-   "start": 389.89,
-   "end": 397.295,
+   "start": 394.567,
+   "end": 401.663,
    "tag": "SIMULATION",
    "lines": [
     "A smaller weapon",
@@ -1647,8 +1647,8 @@
   {
    "id": "c5-card",
    "type": "chapter",
-   "start": 397.295,
-   "end": 400.795,
+   "start": 401.663,
+   "end": 405.163,
    "tag": "SIMULATION",
    "kicker": "CHAPTER 05",
    "title": "Minute by minute"
@@ -1656,8 +1656,8 @@
   {
    "id": "c5-m0",
    "type": "globe",
-   "start": 400.795,
-   "end": 408.815,
+   "start": 405.163,
+   "end": 412.623,
    "tag": "SIMULATION",
    "clock": "T+00:00",
    "clockLabel": "FIRST LAUNCH",
@@ -1720,7 +1720,7 @@
       47.6062
      ],
      "t0": 0.5,
-     "t1": 84.8,
+     "t1": 89.84,
      "color": "#FF3B3B",
      "loft": 0.16
     }
@@ -1729,8 +1729,8 @@
   {
    "id": "c5-m1",
    "type": "globe",
-   "start": 408.815,
-   "end": 430.512,
+   "start": 412.623,
+   "end": 436.336,
    "tag": "SIMULATION",
    "clock": "T+00:56",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -1803,8 +1803,8 @@
       -122.3321,
       47.6062
      ],
-     "t0": -7.52,
-     "t1": 76.78,
+     "t0": -6.96,
+     "t1": 82.38,
      "color": "#FF3B3B",
      "loft": 0.16
     },
@@ -1818,7 +1818,7 @@
       47.7305
      ],
      "t0": 1.0,
-     "t1": 76.78,
+     "t1": 82.38,
      "color": "#FF3B3B",
      "loft": 0.16
     },
@@ -1832,7 +1832,7 @@
       37.7749
      ],
      "t0": 12.41,
-     "t1": 76.78,
+     "t1": 82.38,
      "color": "#FF3B3B",
      "loft": 0.16
     },
@@ -1846,7 +1846,7 @@
       34.742
      ],
      "t0": 17.41,
-     "t1": 76.78,
+     "t1": 82.38,
      "color": "#FF3B3B",
      "loft": 0.16
     }
@@ -1855,10 +1855,10 @@
   {
    "id": "c5-intercepts",
    "type": "globe",
-   "start": 430.512,
-   "end": 441.024,
+   "start": 436.336,
+   "end": 448.304,
    "tag": "SIMULATION",
-   "clock": "T+05:55",
+   "clock": "T+06:29",
    "clockLabel": "SINCE FIRST LAUNCH",
    "caption": "Two more missiles launched, both destroyed. Our choice, not a forecast.",
    "camera": [
@@ -1896,8 +1896,8 @@
       -122.3321,
       47.6062
      ],
-     "t0": -29.22,
-     "t1": 55.08,
+     "t0": -30.67,
+     "t1": 58.66,
      "color": "#FF3B3B",
      "loft": 0.16
     },
@@ -1910,8 +1910,8 @@
       -122.7134,
       47.7305
      ],
-     "t0": -20.7,
-     "t1": 55.08,
+     "t0": -22.71,
+     "t1": 58.66,
      "color": "#FF3B3B",
      "loft": 0.16
     },
@@ -1924,8 +1924,8 @@
       -122.4194,
       37.7749
      ],
-     "t0": -9.29,
-     "t1": 55.08,
+     "t0": -11.3,
+     "t1": 58.66,
      "color": "#FF3B3B",
      "loft": 0.16
     },
@@ -1938,8 +1938,8 @@
       -120.572,
       34.742
      ],
-     "t0": -4.29,
-     "t1": 55.08,
+     "t0": -6.3,
+     "t1": 58.66,
      "color": "#FF3B3B",
      "loft": 0.16
     },
@@ -2010,10 +2010,10 @@
   {
    "id": "c5-mid",
    "type": "globe",
-   "start": 441.024,
-   "end": 468.637,
+   "start": 448.304,
+   "end": 477.662,
    "tag": "SIMULATION",
-   "clock": "T+10:07",
+   "clock": "T+10:52",
    "clockLabel": "SINCE FIRST LAUNCH",
    "caption": "Warheads separate and fall through space. The interceptor window opens.",
    "camera": [
@@ -2079,8 +2079,8 @@
       -122.3321,
       47.6062
      ],
-     "t0": -39.73,
-     "t1": 44.57,
+     "t0": -42.64,
+     "t1": 46.7,
      "color": "#FF3B3B",
      "loft": 0.16
     },
@@ -2093,8 +2093,8 @@
       -122.7134,
       47.7305
      ],
-     "t0": -31.21,
-     "t1": 44.57,
+     "t0": -34.68,
+     "t1": 46.7,
      "color": "#FF3B3B",
      "loft": 0.16
     },
@@ -2107,8 +2107,8 @@
       -122.4194,
       37.7749
      ],
-     "t0": -19.8,
-     "t1": 44.57,
+     "t0": -23.27,
+     "t1": 46.7,
      "color": "#FF3B3B",
      "loft": 0.16
     },
@@ -2121,8 +2121,8 @@
       -120.572,
       34.742
      ],
-     "t0": -14.8,
-     "t1": 44.57,
+     "t0": -18.27,
+     "t1": 46.7,
      "color": "#FF3B3B",
      "loft": 0.16
     }
@@ -2132,8 +2132,8 @@
   {
    "id": "c5-hawaii",
    "type": "number",
-   "start": 468.637,
-   "end": 480.121,
+   "start": 477.662,
+   "end": 488.913,
    "tag": "REAL HISTORY",
    "value": "38 MIN",
    "countTo": 38,
@@ -2146,8 +2146,8 @@
   {
    "id": "c5-arrive",
    "type": "globe",
-   "start": 480.121,
-   "end": 485.192,
+   "start": 488.913,
+   "end": 494.6,
    "tag": "SIMULATION",
    "clock": "T+25:30",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -2191,8 +2191,8 @@
       -122.3321,
       47.6062
      ],
-     "t0": -78.83,
-     "t1": 5.47,
+     "t0": -83.25,
+     "t1": 6.09,
      "color": "#FF3B3B",
      "loft": 0.16
     }
@@ -2201,8 +2201,8 @@
   {
    "id": "c6-flash",
    "type": "city",
-   "start": 485.192,
-   "end": 491.504,
+   "start": 494.6,
+   "end": 500.912,
    "tag": "SIMULATION",
    "clock": "T+25:30",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -2231,7 +2231,7 @@
      "km": 0.555,
      "label": "Fireball",
      "color": "#FFFFFF",
-     "t": 0.48
+     "t": 0.64
     }
    ],
    "labels": [
@@ -2258,13 +2258,13 @@
      "color": "#FFFFFF"
     }
    ],
-   "flashT": 0.38
+   "flashT": 0.54
   },
   {
    "id": "c6-fireball",
    "type": "city",
-   "start": 491.504,
-   "end": 498.824,
+   "start": 500.912,
+   "end": 508.232,
    "tag": "SIMULATION",
    "clock": "T+25:30",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -2365,8 +2365,8 @@
   {
    "id": "c6-20psi",
    "type": "city",
-   "start": 498.824,
-   "end": 508.329,
+   "start": 508.232,
+   "end": 518.577,
    "tag": "SIMULATION",
    "clock": "T+25:30",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -2485,8 +2485,8 @@
   {
    "id": "c6-5psi",
    "type": "city",
-   "start": 508.329,
-   "end": 519.849,
+   "start": 518.577,
+   "end": 530.097,
    "tag": "SIMULATION",
    "clock": "T+25:30",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -2623,8 +2623,8 @@
   {
    "id": "c6-burns",
    "type": "city",
-   "start": 519.849,
-   "end": 526.385,
+   "start": 530.097,
+   "end": 537.361,
    "tag": "SIMULATION",
    "clock": "T+25:30",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -2779,8 +2779,8 @@
   {
    "id": "c6-1psi",
    "type": "city",
-   "start": 526.385,
-   "end": 535.946,
+   "start": 537.361,
+   "end": 545.186,
    "tag": "SIMULATION",
    "clock": "T+25:30",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -2945,8 +2945,8 @@
   {
    "id": "c6-fallout",
    "type": "region",
-   "start": 535.946,
-   "end": 544.778,
+   "start": 545.186,
+   "end": 553.962,
    "tag": "SIMULATION",
    "clock": "T+25:30",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -3025,8 +3025,8 @@
   {
    "id": "c6-bangor",
    "type": "region",
-   "start": 544.778,
-   "end": 550.345,
+   "start": 553.962,
+   "end": 559.723,
    "tag": "SIMULATION",
    "clock": "T+26:18",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -3137,8 +3137,8 @@
   {
    "id": "c6-sf",
    "type": "region",
-   "start": 550.345,
-   "end": 554.431,
+   "start": 559.723,
+   "end": 564.043,
    "tag": "SIMULATION",
    "clock": "T+30:24",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -3249,8 +3249,8 @@
   {
    "id": "c6-vafb",
    "type": "region",
-   "start": 554.431,
-   "end": 561.17,
+   "start": 564.043,
+   "end": 570.354,
    "tag": "SIMULATION",
    "clock": "T+32:18",
    "clockLabel": "SINCE FIRST LAUNCH",
@@ -3361,8 +3361,8 @@
   {
    "id": "c6-total",
    "type": "bars",
-   "start": 561.17,
-   "end": 572.777,
+   "start": 570.354,
+   "end": 579.889,
    "tag": "SIMULATION",
    "title": "Four warheads, 550 kilotons in all",
    "sub": "no casualty figure: no published study supports one",
@@ -3397,8 +3397,8 @@
   {
    "id": "c7-card",
    "type": "chapter",
-   "start": 572.777,
-   "end": 576.277,
+   "start": 579.889,
+   "end": 583.389,
    "tag": "REAL DATA",
    "kicker": "CHAPTER 07",
    "title": "The bill"
@@ -3406,8 +3406,8 @@
   {
    "id": "c7-study0",
    "type": "stamp",
-   "start": 576.277,
-   "end": 582.08,
+   "start": 583.389,
+   "end": 588.161,
    "tag": "REAL DATA",
    "text": "2023",
    "line": "Nagasaki University and the Nautilus Institute model a Korean nuclear war",
@@ -3416,8 +3416,8 @@
   {
    "id": "c7-study",
    "type": "number",
-   "start": 582.08,
-   "end": 591.733,
+   "start": 588.161,
+   "end": 598.271,
    "tag": "REAL DATA",
    "value": "2.1 MILLION",
    "countTo": 2.1,
@@ -3431,8 +3431,8 @@
   {
    "id": "c7-korea",
    "type": "region",
-   "start": 591.733,
-   "end": 595.609,
+   "start": 598.271,
+   "end": 602.497,
    "tag": "REAL DATA",
    "caption": "The study covers the Korean region, not this strike",
    "source": "RECNA and Nautilus Institute, 2023",
@@ -3480,8 +3480,8 @@
   {
    "id": "c7-spc0",
    "type": "stamp",
-   "start": 595.609,
-   "end": 603.57,
+   "start": 602.497,
+   "end": 610.625,
    "tag": "REAL DATA",
    "text": "Strategic Posture Commission",
    "line": "2023 · North Korea \"on pace\" to deploy enough intercontinental missiles",
@@ -3490,8 +3490,8 @@
   {
    "id": "c7-spc",
    "type": "stamp",
-   "start": 603.57,
-   "end": 611.33,
+   "start": 610.625,
+   "end": 616.594,
    "tag": "REAL DATA",
    "text": "2027 to 2035",
    "line": "to potentially challenge US ground-based defences",
@@ -3500,8 +3500,8 @@
   {
    "id": "c7-17",
    "type": "number",
-   "start": 611.33,
-   "end": 623.24,
+   "start": 616.594,
+   "end": 628.595,
    "tag": "REAL DATA",
    "value": "17",
    "countTo": 17,
@@ -3513,8 +3513,8 @@
   {
    "id": "c7-1012",
    "type": "stamp",
-   "start": 623.24,
-   "end": 631.418,
+   "start": 628.595,
+   "end": 636.346,
    "tag": "REAL DATA",
    "text": "12 October 2026",
    "line": "US Indo-Pacific Command: no immediate threat",
@@ -3523,8 +3523,8 @@
   {
    "id": "c7-third",
    "type": "region",
-   "start": 631.418,
-   "end": 640.072,
+   "start": 636.346,
+   "end": 643.88,
    "tag": "REAL DATA",
    "caption": "Congress: a third interceptor site on the East Coast by 2031",
    "source": "Arms Control Association; Defense News",
@@ -3598,8 +3598,8 @@
   {
    "id": "c8-card",
    "type": "chapter",
-   "start": 640.072,
-   "end": 643.572,
+   "start": 643.88,
+   "end": 647.38,
    "tag": "REAL HISTORY",
    "kicker": "CHAPTER 08",
    "title": "When it stayed unused"
@@ -3607,8 +3607,8 @@
   {
    "id": "c8-2006",
    "type": "stamp",
-   "start": 643.572,
-   "end": 649.633,
+   "start": 647.38,
+   "end": 654.505,
    "tag": "REAL HISTORY",
    "text": "October 2006",
    "line": "first nuclear test · most analysts judged the yield below one kiloton",
@@ -3617,8 +3617,8 @@
   {
    "id": "c8-guam",
    "type": "globe",
-   "start": 649.633,
-   "end": 664.345,
+   "start": 654.505,
+   "end": 668.713,
    "tag": "REAL HISTORY",
    "caption": "August 2017: \"fire and fury\", then a plan to fire four missiles toward Guam",
    "source": "Review-Journal; CBC",
@@ -3721,8 +3721,8 @@
   {
    "id": "c8-ask",
    "type": "text",
-   "start": 664.345,
-   "end": 673.671,
+   "start": 668.713,
+   "end": 677.703,
    "tag": "REAL HISTORY",
    "lines": [
     "A test. A threat.",
@@ -3732,8 +3732,8 @@
   {
    "id": "c9-card",
    "type": "chapter",
-   "start": 673.671,
-   "end": 677.171,
+   "start": 677.703,
+   "end": 681.203,
    "tag": "SIMULATION",
    "kicker": "CHAPTER 09",
    "title": "The clock"
@@ -3741,8 +3741,8 @@
   {
    "id": "c9-clock",
    "type": "timeline",
-   "start": 677.171,
-   "end": 685.965,
+   "start": 681.203,
+   "end": 688.648,
    "tag": "SIMULATION",
    "title": "Launch to last impact",
    "sub": "the window for a president to be woken, briefed and asked what to do · simulation",
@@ -3779,8 +3779,8 @@
   {
    "id": "c9-stop",
    "type": "text",
-   "start": 685.965,
-   "end": 693.118,
+   "start": 688.648,
+   "end": 695.246,
    "tag": "SIMULATION",
    "lines": [
     "The simulation stops at the last impact",
@@ -3790,8 +3790,8 @@
   {
    "id": "end-real",
    "type": "text",
-   "start": 693.118,
-   "end": 703.9,
+   "start": 695.246,
+   "end": 706.476,
    "tag": "REAL DATA",
    "lines": [
     "About sixty warheads. Forty-four interceptors.",
@@ -3802,8 +3802,8 @@
   {
    "id": "end",
    "type": "endslate",
-   "start": 703.9,
-   "end": 727.89,
+   "start": 706.476,
+   "end": 730.41,
    "tag": "",
    "title": "Next scenario",
    "line": "One eight-hundred-kiloton airburst over one American city, street by street. New scenario every day."

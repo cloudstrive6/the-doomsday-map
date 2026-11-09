@@ -107,6 +107,13 @@ jobs:
         name: Episode id and final staging
         run: |
           EP=$(cat .current_episode)
+          # narration/ is git-ignored, so an episode narrated in another run or on the PC has no audio here.
+          # Re-narrate it in this run so the shot list, render and mix all use the same timing
+          # (003 crashed on every run from 2026-11-07 because of this).
+          if [ ! -s "episodes/$EP/narration/timing.json" ]; then
+            echo "narration missing for $EP: regenerating in this run"
+            python -m studio narrate "$EP"
+          fi
           python -m studio shotlist "$EP"
           test -f "episodes/$EP/build/thumbnail.png" || python -m studio package "$EP"
           echo "ep=$EP" >> "$GITHUB_OUTPUT"
