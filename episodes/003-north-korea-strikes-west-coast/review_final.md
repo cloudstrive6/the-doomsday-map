@@ -1,10 +1,6 @@
 FAIL
 
-1. Automated QC (build/qc.json) is not clean: frozen stretch 5.0 s at 449.9 s and 4.1 s at 641.9 s in the long video, both over the 4 s limit. The frame at about 464 s is a static "38 MIN" number card with no movement.
-2. Both frozen stretches are in the long video, so fixing the long video's shots (add motion or split the cards at a sentence) clears them.
-3. Shorts QC: frozen 6.2 s at 25.4 s in s1_silent and s3_silent (over 4 s). The QC also reports "size 1080x1920" as an issue for a Short. That size is correct for Shorts, so the size check may be misapplied to Shorts and needs checking.
-4. Loudness is fine: -13.9 LUFS, true peak -1.8 dBTP.
-5. Metadata: the simulation disclaimer is present, there are no em-dashes, and the title and description match the video. No problem there.
-6. Spot check: the corner tags are correct (REAL HISTORY on the number card, REAL DATA on the Short). The Short subtitles are present and inside the safe area. The rest of the frames and the thumbnail were not examined, because the QC failure already decides the verdict.
-
-Fix: re-shotlist the long video (add drift or a split at the 450 s and 642 s cards), re-check the Shorts windows that include the 25 s freeze, and re-render.
+1. QC is blocking: build/qc.json reports "frozen 9.6s at 720.5s" (limit 4 s). Loudness (-14.0 LUFS) and true peak (-1.8 dBTP) are fine.
+2. The end slate (frame long_15_707s) has an empty framed box on the right labelled "NEXT SCENARIO" with no map or preview in it. It looks broken and is almost certainly the frozen stretch. It needs motion and content, or the box should be removed and the slate split or animated so no still stretch exceeds 4 s.
+3. Not checked: the other 15 long-video frames and the Shorts frames were not inspected, because the QC failure already blocks this episode. Re-run the full visual check after the fix.
+4. Metadata: the title and description match the video, the simulation disclaimer ("This is a simulation. It has not happened.") is present, and there are no em-dashes. The thumbnail (26 MINUTES TO SEATTLE, with a SIMULATION tag) is readable at small size.
