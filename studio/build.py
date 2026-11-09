@@ -62,9 +62,15 @@ def validate(ep: Path) -> list[str]:
         prev_end = s["end"]
     if timing_p.exists():
         t = json.loads(timing_p.read_text(encoding="utf-8"))
-        tail = total - t["total_seconds"]
+        words_p = ep / "narration" / "words.json"
+        last_word = t["total_seconds"]
+        if words_p.exists():
+            ws = json.loads(words_p.read_text(encoding="utf-8"))
+            if ws:
+                last_word = ws[-1]["end"]
+        tail = total - last_word
         if not (SLATE_TAIL - 0.5 <= tail <= SLATE_TAIL + 0.5):
-            issues.append(f"durationSeconds {total} vs narration {t['total_seconds']}: the end slate must run "
+            issues.append(f"durationSeconds {total} vs last word {last_word}: the end slate must run "
                           f"{SLATE_TAIL:.0f} s after the last word (YouTube end screens need at least 5 s), not {tail:.1f} s")
         if prev_end < t["total_seconds"] - 0.5:
             issues.append(f"shots end at {prev_end} but narration runs to {t['total_seconds']}")

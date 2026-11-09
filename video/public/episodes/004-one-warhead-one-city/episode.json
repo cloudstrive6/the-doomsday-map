@@ -3,7 +3,7 @@
  "fps": 60,
  "width": 1920,
  "height": 1080,
- "durationSeconds": 691.19,
+ "durationSeconds": 689.06,
  "banner": {
   "start": 16.93,
   "end": 19.93
@@ -32,7 +32,7 @@
   {
    "src": "bed_tense.mp3",
    "from": 233.12,
-   "to": 691.19,
+   "to": 689.06,
    "loop": [
     3,
     92
@@ -536,83 +536,69 @@
   },
   {
    "id": "c1-hiro",
-   "type": "region",
+   "type": "city",
    "start": 39.476,
    "end": 50.11,
    "tag": "REAL HISTORY",
    "clock": "1945",
    "clockLabel": "6 AUGUST · 8:15 A.M.",
-   "source": "OSTI Manhattan Project history",
+   "source": "OSTI Manhattan Project history; OpenStreetMap (modern map)",
+   "city": "hiroshima",
    "view": {
     "center": [
      132.4536,
      34.3955
     ],
-    "widthKm": 160
+    "widthKm": 50
    },
    "zoomTo": {
     "center": [
      132.4536,
      34.3955
     ],
-    "widthKm": 60
+    "widthKm": 22
    },
-   "highlight": [
-    {
-     "iso": "392",
-     "color": "rgba(236,239,242,0.95)",
-     "fill": "rgba(236,239,242,0.05)"
-    }
+   "gz": [
+    132.4536,
+    34.3955
    ],
-   "cities": [
+   "rings": [],
+   "labels": [
     {
      "at": [
       132.4536,
       34.3955
      ],
-     "label": "Hiroshima",
-     "color": "#FF3B3B",
-     "kind": "target",
-     "size": 6,
+     "text": "Hiroshima",
+     "color": "#FFFFFF",
      "t": 0.8
-    },
-    {
-     "at": [
-      132.55,
-      34.24
-     ],
-     "label": "Kure",
-     "kind": "dot",
-     "t": 1.5
-    },
-    {
-     "at": [
-      132.2,
-      34.17
-     ],
-     "label": "Iwakuni",
-     "kind": "dot",
-     "t": 2.2
     },
     {
      "at": [
       132.32,
       34.3
      ],
-     "label": "Miyajima",
-     "kind": "dot",
-     "t": 3
-    }
-   ],
-   "labels": [
+     "text": "Miyajima",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 2.5
+    },
     {
      "at": [
-      133.2,
-      34.9
+      132.55,
+      34.24
+     ],
+     "text": "Kure",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 4
+    },
+    {
+     "at": [
+      132.36,
+      34.37
      ],
      "text": "a uranium bomb",
      "color": "#F2B01E",
-     "t": 3
+     "t": 5.5
     }
    ]
   },
@@ -632,106 +618,67 @@
   },
   {
    "id": "c1-hirorings",
-   "type": "region",
+   "type": "city",
    "start": 52.851,
    "end": 64.65,
    "tag": "REAL HISTORY",
    "clock": "1945",
    "clockLabel": "HIROSHIMA",
-   "source": "OSTI Manhattan Project history; NUKEMAP scaling",
+   "source": "OSTI Manhattan Project history; Hiroshima Committee",
+   "city": "hiroshima",
    "view": {
     "center": [
      132.4536,
      34.3955
     ],
-    "widthKm": 44
+    "widthKm": 14
    },
    "zoomTo": {
     "center": [
      132.4536,
      34.3955
     ],
-    "widthKm": 74
+    "widthKm": 56
    },
-   "highlight": [
-    {
-     "iso": "392",
-     "color": "rgba(236,239,242,0.95)",
-     "fill": "rgba(236,239,242,0.05)"
-    }
+   "gz": [
+    132.4536,
+    34.3955
    ],
-   "cities": [
+   "labels": [
     {
      "at": [
       132.4536,
       34.3955
      ],
-     "label": "Hiroshima",
-     "color": "#FF3B3B",
-     "kind": "target",
-     "size": 5,
+     "text": "Hiroshima",
+     "color": "#FFFFFF",
      "t": 0.2
-    },
-    {
-     "at": [
-      132.55,
-      34.24
-     ],
-     "label": "Kure",
-     "kind": "dot",
-     "t": 1.5
-    },
-    {
-     "at": [
-      132.2,
-      34.17
-     ],
-     "label": "Iwakuni",
-     "kind": "dot",
-     "t": 2.2
-    },
-    {
-     "at": [
-      132.32,
-      34.3
-     ],
-     "label": "Miyajima",
-     "kind": "dot",
-     "t": 3
     }
    ],
    "rings": [
     {
-     "at": [
-      132.4536,
-      34.3955
-     ],
      "km": 1.6,
      "color": "#FF3B3B",
-     "label": "1 mile",
-     "t": 1.5
+     "label": "1 mile gone",
+     "angle": 15,
+     "t": 0.8
     },
     {
-     "at": [
-      132.4536,
-      34.3955
-     ],
      "km": 4.8,
      "color": "#F2B01E",
-     "label": "3 miles",
-     "t": 6
+     "label": "3 miles damaged",
+     "angle": 120,
+     "t": 3
     },
     {
-     "at": [
-      132.4536,
-      34.3955
-     ],
      "km": 19.3,
      "color": "#3ED6C8",
-     "label": "12 miles",
-     "t": 11
+     "label": "12 miles glass broke",
+     "angle": 258,
+     "t": 6
     }
-   ]
+   ],
+   "flashT": -30
   },
   {
    "id": "c1-70k",
@@ -1029,23 +976,11 @@
       -78.0,
       35.38
      ],
-     "label": "Goldsboro",
+     "label": "Goldsboro area",
      "color": "#FF3B3B",
      "kind": "target",
      "size": 6,
      "t": 0.8
-    }
-   ],
-   "rings": [
-    {
-     "at": [
-      -78.0,
-      35.38
-     ],
-     "km": 60,
-     "color": "#F2B01E",
-     "t": 4,
-     "dashed": true
     }
    ]
   },
@@ -1107,19 +1042,6 @@
      "kind": "dot",
      "t": 0.5
     }
-   ],
-   "rings": [
-    {
-     "at": [
-      -82.37,
-      23.11
-     ],
-     "km": 800,
-     "color": "#F2B01E",
-     "t": 2,
-     "dashed": true,
-     "label": "US quarantine"
-    }
    ]
   },
   {
@@ -1145,17 +1067,17 @@
    "caption": "Petrov judged it a false alarm: a real attack would be hundreds.",
    "view": {
     "center": [
-     37.6,
-     55.3
+     34,
+     56
     ],
-    "widthKm": 700
+    "widthKm": 1800
    },
    "zoomTo": {
     "center": [
-     37.6,
-     55.3
+     37,
+     55.5
     ],
-    "widthKm": 300
+    "widthKm": 900
    },
    "highlight": [
     {
@@ -1179,7 +1101,7 @@
       37.4,
       54.84
      ],
-     "label": "Serpukhov-15 (near Moscow)",
+     "label": "Serpukhov-15 (approx. location)",
      "color": "#FF3B3B",
      "kind": "base",
      "size": 6,
@@ -1243,22 +1165,6 @@
      "label": "Moscow",
      "kind": "dot",
      "t": 3
-    }
-   ],
-   "lines": [
-    {
-     "from": [
-      16.13,
-      69.3
-     ],
-     "to": [
-      37.62,
-      55.75
-     ],
-     "color": "#F2B01E",
-     "dashed": true,
-     "t0": 1.5,
-     "t1": 5
     }
    ]
   },
@@ -1367,73 +1273,59 @@
   },
   {
    "id": "c3-target",
-   "type": "region",
+   "type": "city",
    "start": 261.976,
    "end": 279.937,
    "tag": "SIMULATION",
    "caption": "The Loop, a weekday morning. Our choice, not a forecast.",
-   "source": "Scenario engine",
+   "source": "Scenario engine; OpenStreetMap",
+   "city": "chicago",
    "view": {
     "center": [
-     -87.6,
-     41.9
+     -87.7,
+     41.88
     ],
-    "widthKm": 260
+    "widthKm": 64
    },
    "zoomTo": {
     "center": [
      -87.6359,
      41.8789
     ],
-    "widthKm": 90
+    "widthKm": 22
    },
-   "highlight": [
-    {
-     "iso": "840",
-     "color": "#3ED6C8",
-     "fill": "rgba(62,214,200,0.06)"
-    }
+   "gz": [
+    -87.6359,
+    41.8789
    ],
-   "cities": [
+   "rings": [],
+   "labels": [
     {
      "at": [
       -87.6359,
       41.8789
      ],
-     "label": "The Loop",
-     "color": "#FF3B3B",
-     "kind": "target",
-     "size": 7,
+     "text": "The Loop",
+     "color": "#FFFFFF",
      "t": 0.5
     },
     {
      "at": [
-      -87.33,
-      41.6
+      -87.9048,
+      41.9742
      ],
-     "label": "Gary",
-     "kind": "dot",
+     "text": "O'Hare",
+     "color": "rgba(236,239,242,0.95)",
      "t": 1.5
     },
     {
      "at": [
-      -87.9,
-      41.97
-     ],
-     "label": "O'Hare",
-     "kind": "dot",
-     "t": 2
-    }
-   ],
-   "labels": [
-    {
-     "at": [
-      -87.25,
-      42.15
+      -87.5,
+      41.9
      ],
      "text": "Lake Michigan",
      "color": "rgba(236,239,242,0.95)",
-     "t": 1
+     "t": 2.5
     }
    ]
   },
@@ -1892,6 +1784,7 @@
     {
      "km": 0.883,
      "label": "Fireball",
+     "angle": 315,
      "color": "#FFFFFF",
      "t": 0.7999999999999999
     }
@@ -1899,8 +1792,8 @@
    "labels": [
     {
      "at": [
-      -87.6359,
-      41.8789
+      -87.6459,
+      41.8929
      ],
      "text": "The Loop",
      "color": "#FFFFFF"
@@ -2066,6 +1959,7 @@
     {
      "km": 0.883,
      "label": "Fireball",
+     "angle": 315,
      "color": "#FFFFFF",
      "t": 0.6
     }
@@ -2073,8 +1967,8 @@
    "labels": [
     {
      "at": [
-      -87.6359,
-      41.8789
+      -87.6459,
+      41.8929
      ],
      "text": "The Loop",
      "color": "#FFFFFF"
@@ -2240,12 +2134,14 @@
     {
      "km": 0.883,
      "label": "Fireball",
+     "angle": 315,
      "color": "#FFFFFF",
      "t": -30
     },
     {
      "km": 1.28,
      "label": "20 psi",
+     "angle": 135,
      "color": "#FF7A1A",
      "t": 0.6
     }
@@ -2253,8 +2149,8 @@
    "labels": [
     {
      "at": [
-      -87.6359,
-      41.8789
+      -87.6459,
+      41.8929
      ],
      "text": "The Loop",
      "color": "#FFFFFF"
@@ -2432,18 +2328,21 @@
     {
      "km": 0.883,
      "label": "Fireball",
+     "angle": 315,
      "color": "#FFFFFF",
      "t": -30
     },
     {
      "km": 1.28,
      "label": "20 psi",
+     "angle": 135,
      "color": "#FF7A1A",
      "t": -30
     },
     {
      "km": 6.286,
      "label": "5 psi",
+     "angle": 45,
      "color": "#FF3B3B",
      "t": 0.6
     }
@@ -2451,8 +2350,8 @@
    "labels": [
     {
      "at": [
-      -87.6359,
-      41.8789
+      -87.6459,
+      41.8929
      ],
      "text": "The Loop",
      "color": "#FFFFFF"
@@ -2634,24 +2533,28 @@
     {
      "km": 0.883,
      "label": "Fireball",
+     "angle": 315,
      "color": "#FFFFFF",
      "t": -30
     },
     {
      "km": 1.28,
      "label": "20 psi",
+     "angle": 135,
      "color": "#FF7A1A",
      "t": -30
     },
     {
      "km": 6.286,
      "label": "5 psi",
+     "angle": 45,
      "color": "#FF3B3B",
      "t": -30
     },
     {
      "km": 9.752,
      "label": "Third-degree burns",
+     "angle": 255,
      "color": "#F2B01E",
      "t": 0.6
     }
@@ -2659,8 +2562,8 @@
    "labels": [
     {
      "at": [
-      -87.6359,
-      41.8789
+      -87.6459,
+      41.8929
      ],
      "text": "The Loop",
      "color": "#FFFFFF"
@@ -2854,30 +2757,35 @@
     {
      "km": 0.883,
      "label": "Fireball",
+     "angle": 315,
      "color": "#FFFFFF",
      "t": -30
     },
     {
      "km": 1.28,
      "label": "20 psi",
+     "angle": 135,
      "color": "#FF7A1A",
      "t": -30
     },
     {
      "km": 6.286,
      "label": "5 psi",
+     "angle": 45,
      "color": "#FF3B3B",
      "t": -30
     },
     {
      "km": 9.752,
      "label": "Third-degree burns",
+     "angle": 255,
      "color": "#F2B01E",
      "t": -30
     },
     {
      "km": 17.014,
      "label": "1 psi",
+     "angle": 300,
      "color": "#3ED6C8",
      "t": 0.6
     }
@@ -2885,8 +2793,8 @@
    "labels": [
     {
      "at": [
-      -87.6359,
-      41.8789
+      -87.6459,
+      41.8929
      ],
      "text": "The Loop",
      "color": "#FFFFFF"
@@ -3134,30 +3042,35 @@
     {
      "km": 0.883,
      "label": "Fireball",
+     "angle": 315,
      "color": "#FFFFFF",
      "t": -30
     },
     {
      "km": 1.28,
      "label": "20 psi",
+     "angle": 135,
      "color": "#FF7A1A",
      "t": -30
     },
     {
      "km": 6.286,
      "label": "5 psi",
+     "angle": 45,
      "color": "#FF3B3B",
      "t": -30
     },
     {
      "km": 9.752,
      "label": "Third-degree burns",
+     "angle": 255,
      "color": "#F2B01E",
      "t": -30
     },
     {
      "km": 17.014,
      "label": "1 psi",
+     "angle": 300,
      "color": "#3ED6C8",
      "t": 0.6
     }
@@ -3165,8 +3078,8 @@
    "labels": [
     {
      "at": [
-      -87.6359,
-      41.8789
+      -87.6459,
+      41.8929
      ],
      "text": "The Loop",
      "color": "#FFFFFF"
@@ -3374,11 +3287,13 @@
      "km": 1.6,
      "label": "Hiroshima: nearly everything within 1 mile",
      "color": "#F2B01E",
-     "t": -30
+     "t": -30,
+     "angle": 150
     },
     {
      "km": 0.883,
      "label": "Our fireball alone",
+     "angle": 315,
      "color": "#FFFFFF",
      "t": 2.0
     }
@@ -3386,8 +3301,8 @@
    "labels": [
     {
      "at": [
-      -87.6359,
-      41.8789
+      -87.6459,
+      41.8929
      ],
      "text": "The Loop",
      "color": "#FFFFFF"
@@ -3550,7 +3465,8 @@
      "km": 1.6,
      "label": "Hiroshima: 1 mile",
      "color": "#F2B01E",
-     "t": -30
+     "t": -30,
+     "angle": 150
     },
     {
      "km": 6.286,
@@ -3562,8 +3478,8 @@
    "labels": [
     {
      "at": [
-      -87.6359,
-      41.8789
+      -87.6459,
+      41.8929
      ],
      "text": "The Loop",
      "color": "#FFFFFF"
@@ -3725,30 +3641,35 @@
     {
      "km": 0.883,
      "label": "Fireball",
+     "angle": 315,
      "color": "#FFFFFF",
      "t": -30
     },
     {
      "km": 1.28,
      "label": "20 psi",
+     "angle": 135,
      "color": "#FF7A1A",
      "t": -30
     },
     {
      "km": 6.286,
      "label": "5 psi",
+     "angle": 45,
      "color": "#FF3B3B",
      "t": -30
     },
     {
      "km": 9.752,
      "label": "Third-degree burns",
+     "angle": 255,
      "color": "#F2B01E",
      "t": -30
     },
     {
      "km": 17.014,
      "label": "1 psi",
+     "angle": 300,
      "color": "#3ED6C8",
      "t": 0.6
     }
@@ -3756,8 +3677,8 @@
    "labels": [
     {
      "at": [
-      -87.6359,
-      41.8789
+      -87.6459,
+      41.8929
      ],
      "text": "The Loop",
      "color": "#FFFFFF"
@@ -4020,7 +3941,7 @@
   },
   {
    "id": "c6-wind",
-   "type": "region",
+   "type": "city",
    "start": 575.737,
    "end": 593.697,
    "tag": "SIMULATION",
@@ -4028,84 +3949,190 @@
    "clockLabel": "AFTER THE BURST",
    "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
    "caption": "Wind from the west-northwest, our choice. Light fallout drifts out over the lake.",
+   "city": "chicago",
    "view": {
     "center": [
-     -87.2,
-     41.9
-    ],
-    "widthKm": 120
-   },
-   "zoomTo": {
-    "center": [
-     -86.8,
-     41.9
-    ],
-    "widthKm": 170
-   },
-   "highlight": [
-    {
-     "iso": "840",
-     "color": "#3ED6C8",
-     "fill": "rgba(62,214,200,0.06)"
-    }
-   ],
-   "cities": [
-    {
-     "at": [
-      -87.6359,
-      41.8789
-     ],
-     "color": "#FF3B3B",
-     "kind": "target",
-     "size": 6,
-     "t": 0.2
-    },
-    {
-     "at": [
-      -87.33,
-      41.6
-     ],
-     "label": "Gary",
-     "kind": "dot",
-     "t": 1
-    }
-   ],
-   "rings": [
-    {
-     "at": [
-      -87.6359,
-      41.8789
-     ],
-     "km": 17.014,
-     "color": "#3ED6C8",
-     "t": 0.5,
-     "label": "1 psi"
-    }
-   ],
-   "plume": {
-    "at": [
      -87.6359,
      41.8789
     ],
-    "bearing": 110,
-    "lengthKm": 70,
-    "widthKm": 14,
-    "t0": 2,
-    "t1": 12,
-    "color": "rgba(180,180,190,0.35)",
-    "label": "light fallout, if any"
+    "widthKm": 44
    },
+   "zoomTo": {
+    "center": [
+     -87.45,
+     41.88
+    ],
+    "widthKm": 60
+   },
+   "gz": [
+    -87.6359,
+    41.8789
+   ],
+   "rings": [
+    {
+     "km": 0.883,
+     "label": "Fireball",
+     "angle": 315,
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 17.014,
+     "label": "1 psi",
+     "angle": 300,
+     "color": "#3ED6C8",
+     "t": -30
+    }
+   ],
    "labels": [
     {
      "at": [
-      -86.7,
-      42.2
+      -87.6459,
+      41.8929
+     ],
+     "text": "The Loop",
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      -87.45,
+      41.88
      ],
      "text": "Lake Michigan",
-     "color": "rgba(236,239,242,0.95)",
-     "t": 1
+     "color": "rgba(236,239,242,0.95)"
+    },
+    {
+     "at": [
+      -87.42,
+      41.93
+     ],
+     "text": "light fallout, if any, drifts east",
+     "color": "#F2B01E"
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near North Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near South Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Chicago Loop",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Near West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lower West Side",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Lincoln Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Hyde Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Bridgeport",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Armour Square",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Douglas",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "West Town",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Oakland",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Fuller Park",
+     "t": 999
+    },
+    {
+     "at": [
+      -87.6359,
+      41.8789
+     ],
+     "text": "Grand Boulevard",
+     "t": 999
     }
-   ]
+   ],
+   "legend": [
+    {
+     "text": "Fireball 883 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "1 psi 17.0 km",
+     "color": "#3ED6C8"
+    }
+   ],
+   "flashT": -30
   },
   {
    "id": "c6-inside",
@@ -4176,30 +4203,35 @@
     {
      "km": 0.883,
      "label": "Fireball",
+     "angle": 315,
      "color": "#FFFFFF",
      "t": -30
     },
     {
      "km": 1.28,
      "label": "20 psi",
+     "angle": 135,
      "color": "#FF7A1A",
      "t": -30
     },
     {
      "km": 6.286,
      "label": "5 psi",
+     "angle": 45,
      "color": "#FF3B3B",
      "t": -30
     },
     {
      "km": 9.752,
      "label": "Third-degree burns",
+     "angle": 255,
      "color": "#F2B01E",
      "t": -30
     },
     {
      "km": 17.014,
      "label": "1 psi",
+     "angle": 300,
      "color": "#3ED6C8",
      "t": 0.6
     }
@@ -4207,8 +4239,8 @@
    "labels": [
     {
      "at": [
-      -87.6359,
-      41.8789
+      -87.6459,
+      41.8929
      ],
      "text": "The Loop",
      "color": "#FFFFFF"
@@ -4517,18 +4549,21 @@
     {
      "km": 0.883,
      "label": "Fireball",
+     "angle": 315,
      "color": "#FFFFFF",
      "t": -30
     },
     {
      "km": 6.286,
      "label": "5 psi",
+     "angle": 45,
      "color": "#FF3B3B",
      "t": -30
     },
     {
      "km": 17.014,
      "label": "1 psi",
+     "angle": 300,
      "color": "#3ED6C8",
      "t": -30
     }
@@ -4536,8 +4571,8 @@
    "labels": [
     {
      "at": [
-      -87.6359,
-      41.8789
+      -87.6459,
+      41.8929
      ],
      "text": "The Loop",
      "color": "#FFFFFF"
@@ -4711,30 +4746,35 @@
     {
      "km": 0.883,
      "label": "Fireball",
+     "angle": 315,
      "color": "#FFFFFF",
      "t": -30
     },
     {
      "km": 1.28,
      "label": "20 psi",
+     "angle": 135,
      "color": "#FF7A1A",
      "t": -30
     },
     {
      "km": 6.286,
      "label": "5 psi",
+     "angle": 45,
      "color": "#FF3B3B",
      "t": -30
     },
     {
      "km": 9.752,
      "label": "Third-degree burns",
+     "angle": 255,
      "color": "#F2B01E",
      "t": -30
     },
     {
      "km": 17.014,
      "label": "1 psi",
+     "angle": 300,
      "color": "#3ED6C8",
      "t": 0.6
     }
@@ -4742,8 +4782,8 @@
    "labels": [
     {
      "at": [
-      -87.6359,
-      41.8789
+      -87.6459,
+      41.8929
      ],
      "text": "The Loop",
      "color": "#FFFFFF"
@@ -4922,7 +4962,7 @@
    "id": "end",
    "type": "endslate",
    "start": 673.098,
-   "end": 691.19,
+   "end": 689.06,
    "tag": "",
    "title": "Next scenario",
    "line": "Russia uses one tactical nuke in Ukraine, day by day."

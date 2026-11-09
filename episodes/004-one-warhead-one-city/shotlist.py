@@ -14,7 +14,7 @@ RED, TEAL, AMBER, ORANGE, WHITE, YELLOW = "#FF3B3B", "#3ED6C8", "#F2B01E", "#FF7
 DIM = "rgba(236,239,242,0.95)"
 SUN = sc["sun"]
 TOTAL = timing["total_seconds"]
-END = round(TOTAL + 10, 2)
+END = round((WORDS[-1]["end"] if WORDS else TOTAL) + 10, 2)
 
 
 def S(pid):
@@ -128,14 +128,14 @@ add(id="open-800", type="number", start=S("p06") - 3.9, end=S("p06"), tag="SIMUL
 
 # ================================================================== Chapter 01 how big is one warhead [REAL DATA]
 add(id="c1-card", type="chapter", start=S("p06"), end=S("p06") + 3.5, tag="REAL DATA", kicker="CHAPTER 01", title="How big is one warhead")
-add(id="c1-hiro", type="region", start=S("p06") + 3.5, end=W("p07", "released"), tag="REAL HISTORY", clock="1945", clockLabel="6 AUGUST · 8:15 A.M.", source="OSTI Manhattan Project history",
-    view={"center": HIROSHIMA, "widthKm": 160}, zoomTo={"center": HIROSHIMA, "widthKm": 60}, highlight=[{"iso": JAPAN, "color": DIM, "fill": "rgba(236,239,242,0.05)"}],
-    cities=[{"at": HIROSHIMA, "label": "Hiroshima", "color": RED, "kind": "target", "size": 6, "t": 0.8}, {"at": [132.55, 34.24], "label": "Kure", "kind": "dot", "t": 1.5}, {"at": [132.2, 34.17], "label": "Iwakuni", "kind": "dot", "t": 2.2}, {"at": [132.32, 34.30], "label": "Miyajima", "kind": "dot", "t": 3}], labels=[{"at": [133.2, 34.9], "text": "a uranium bomb", "color": AMBER, "t": 3}])
+add(id="c1-hiro", type="city", start=S("p06") + 3.5, end=W("p07", "released"), tag="REAL HISTORY", clock="1945", clockLabel="6 AUGUST · 8:15 A.M.", source="OSTI Manhattan Project history; OpenStreetMap (modern map)", city="hiroshima",
+    view={"center": HIROSHIMA, "widthKm": 50}, zoomTo={"center": HIROSHIMA, "widthKm": 22}, gz=HIROSHIMA, rings=[],
+    labels=[{"at": [132.4536, 34.3955], "text": "Hiroshima", "color": WHITE, "t": 0.8}, {"at": [132.32, 34.30], "text": "Miyajima", "color": DIM, "t": 2.5}, {"at": [132.55, 34.24], "text": "Kure", "color": DIM, "t": 4}, {"at": [132.36, 34.37], "text": "a uranium bomb", "color": AMBER, "t": 5.5}])
 add(id="c1-15kt", type="number", start=W("p07", "released"), end=W("p07", "Nearly"), tag="REAL HISTORY", value="15 KT", countTo=15, suffix=" KT", label="Hiroshima, about", sub="13 to 16 kt in published ranges", color=AMBER, source="OSTI; Hiroshima Committee")
-add(id="c1-hirorings", type="region", start=W("p07", "Nearly"), end=W("p07", "seventy"), tag="REAL HISTORY", clock="1945", clockLabel="HIROSHIMA", source="OSTI Manhattan Project history; NUKEMAP scaling",
-    view={"center": HIROSHIMA, "widthKm": 44}, zoomTo={"center": HIROSHIMA, "widthKm": 74}, highlight=[{"iso": JAPAN, "color": DIM, "fill": "rgba(236,239,242,0.05)"}],
-    cities=[{"at": HIROSHIMA, "label": "Hiroshima", "color": RED, "kind": "target", "size": 5, "t": 0.2}, {"at": [132.55, 34.24], "label": "Kure", "kind": "dot", "t": 1.5}, {"at": [132.2, 34.17], "label": "Iwakuni", "kind": "dot", "t": 2.2}, {"at": [132.32, 34.30], "label": "Miyajima", "kind": "dot", "t": 3}],
-    rings=[{"at": HIROSHIMA, "km": 1.6, "color": RED, "label": "1 mile", "t": 1.5}, {"at": HIROSHIMA, "km": 4.8, "color": AMBER, "label": "3 miles", "t": 6}, {"at": HIROSHIMA, "km": 19.3, "color": TEAL, "label": "12 miles", "t": 11}])
+add(id="c1-hirorings", type="city", start=W("p07", "Nearly"), end=W("p07", "seventy"), tag="REAL HISTORY", clock="1945", clockLabel="HIROSHIMA", source="OSTI Manhattan Project history; Hiroshima Committee", city="hiroshima",
+    view={"center": HIROSHIMA, "widthKm": 14}, zoomTo={"center": HIROSHIMA, "widthKm": 56}, gz=HIROSHIMA,
+    labels=[{"at": HIROSHIMA, "text": "Hiroshima", "color": WHITE, "t": 0.2}],
+    rings=[{"km": 1.6, "color": RED, "label": "1 mile gone", "angle": 15, "t": 0.8}, {"km": 4.8, "color": AMBER, "label": "3 miles damaged", "angle": 120, "t": 3}, {"km": 19.3, "color": TEAL, "label": "12 miles glass broke", "angle": 258, "t": 6}], flashT=-30)
 add(id="c1-70k", type="number", start=W("p07", "seventy"), end=S("p08"), tag="REAL HISTORY", value="ABOUT 70,000", countTo=70000, prefix="ABOUT ", label="died at once", sub="well over 100,000 by the end of 1945", color=RED, source="OSTI; Hiroshima Committee")
 add(id="c1-53x", type="bars", start=S("p08"), end=S("p09"), tag="SIMULATION", title="Our warhead is about 53 times Hiroshima", sub="kilotons · simple arithmetic, 800 divided by 15", source="OSTI (Hiroshima); simulation choice (ours)",
     bars=[{"label": "Hiroshima, 1945", "value": 15, "display": "15 kt", "color": AMBER}, {"label": "Our warhead", "value": 800, "display": "800 kt", "color": RED}])
@@ -160,22 +160,21 @@ add(id="c2-gold0", type="stamp", start=S("p13"), end=W("p13", "Each"), tag="REAL
 add(id="c2-gold", type="region", start=W("p13", "Each"), end=S("p14"), tag="REAL HISTORY", clock="1961", clockLabel="GOLDSBORO, NORTH CAROLINA", source="National Security Archive; Sandia memo, 1969",
     caption="Two hydrogen bombs, each up to 3.8 megatons. One switch, a memo said.",
     view={"center": [-80, 36], "widthKm": 1500}, zoomTo={"center": GOLDSBORO, "widthKm": 500}, highlight=[HL_US],
-    cities=[{"at": GOLDSBORO, "label": "Goldsboro", "color": RED, "kind": "target", "size": 6, "t": 0.8}], rings=[{"at": GOLDSBORO, "km": 60, "color": AMBER, "t": 4, "dashed": True}])
+    cities=[{"at": GOLDSBORO, "label": "Goldsboro area", "color": RED, "kind": "target", "size": 6, "t": 0.8}])
 add(id="c2-cuba0", type="stamp", start=S("p14"), end=W("p14", "Officers"), tag="REAL HISTORY", text="October 1962", line="a Soviet submarine, harassed by American ships, nearly fires a nuclear torpedo", color=AMBER, source="National Security Archive")
 add(id="c2-cuba", type="region", start=W("p14", "Officers"), end=S("p15"), tag="REAL HISTORY", clock="1962", clockLabel="CUBAN MISSILE CRISIS", source="National Security Archive",
     caption="Officers helped talk the captain out of it. Accounts differ on how near it was.",
     view={"center": [-74, 26], "widthKm": 3000}, zoomTo={"center": [-76, 25], "widthKm": 2200}, highlight=[{"iso": CUBA, "color": RED, "fill": "rgba(255,59,59,0.10)"}, HL_US],
-    cities=[{"at": HAVANA, "label": "Cuba", "color": RED, "kind": "dot", "t": 0.5}], rings=[{"at": HAVANA, "km": 800, "color": AMBER, "t": 2, "dashed": True, "label": "US quarantine"}])
+    cities=[{"at": HAVANA, "label": "Cuba", "color": RED, "kind": "dot", "t": 0.5}])
 add(id="c2-petrov0", type="stamp", start=S("p15"), end=W("p15", "Duty"), tag="REAL HISTORY", text="26 September 1983", line="a Soviet satellite warns of one American missile, then four more", color=AMBER, source="Arms Control Association; Wired")
 add(id="c2-petrov", type="region", start=W("p15", "Duty"), end=S("p16"), tag="REAL HISTORY", clock="1983", clockLabel="SERPUKHOV-15 BUNKER", source="Arms Control Association; Wired",
     caption="Petrov judged it a false alarm: a real attack would be hundreds.",
-    view={"center": [37.6, 55.3], "widthKm": 700}, zoomTo={"center": [37.6, 55.3], "widthKm": 300}, highlight=[{"iso": RUSSIA, "color": AMBER, "fill": "rgba(242,176,30,0.06)"}],
-    cities=[{"at": MOSCOW, "label": "Moscow", "kind": "dot", "t": 0.5}, {"at": SERPUKHOV, "label": "Serpukhov-15 (near Moscow)", "color": RED, "kind": "base", "size": 6, "t": 1.2}])
+    view={"center": [34, 56], "widthKm": 1800}, zoomTo={"center": [37, 55.5], "widthKm": 900}, highlight=[{"iso": RUSSIA, "color": AMBER, "fill": "rgba(242,176,30,0.06)"}],
+    cities=[{"at": MOSCOW, "label": "Moscow", "kind": "dot", "t": 0.5}, {"at": SERPUKHOV, "label": "Serpukhov-15 (approx. location)", "color": RED, "kind": "base", "size": 6, "t": 1.2}])
 add(id="c2-norway", type="region", start=S("p16"), end=S("p17"), tag="REAL HISTORY", clock="1995", clockLabel="25 JANUARY", source="Reuters; Arms Control Association",
     caption="A Norwegian science rocket, tracked by Russian radar. No order was given.",
     view={"center": [26, 64], "widthKm": 2800}, zoomTo={"center": [28, 64], "widthKm": 2200}, highlight=[{"iso": NORWAY, "color": TEAL, "fill": "rgba(62,214,200,0.08)"}, {"iso": RUSSIA, "color": AMBER, "fill": "rgba(242,176,30,0.05)"}],
-    cities=[{"at": ANDOYA, "label": "Andoya, Norway", "color": TEAL, "kind": "base", "size": 6, "t": 0.5}, {"at": MOSCOW, "label": "Moscow", "kind": "dot", "t": 3}],
-    lines=[{"from": ANDOYA, "to": MOSCOW, "color": AMBER, "dashed": True, "t0": 1.5, "t1": 5}])
+    cities=[{"at": ANDOYA, "label": "Andoya, Norway", "color": TEAL, "kind": "base", "size": 6, "t": 0.5}, {"at": MOSCOW, "label": "Moscow", "kind": "dot", "t": 3}])
 add(id="c2-minutes", type="text", start=S("p17"), end=S("p18"), tag="REAL HISTORY", lines=["None was a deliberate attack", "In two of them, officers had only minutes to judge a warning."])
 
 # ================================================================== Chapter 03 the trigger [SIMULATION]
@@ -185,10 +184,9 @@ add(id="c3-weapon", type="globe", start=S("p19"), end=S("p20"), tag="SIMULATION"
     camera=[{"t": 0, "lat": 40, "lon": -68, "scale": 1100}, {"t": 12, "lat": 41, "lon": -78, "scale": 1500}], sun=SUN, highlight=[HL_US],
     markers=[{"at": SUB, "label": "Atlantic (location simulated)", "color": RED, "kind": "sub", "t": 0.3}, {"at": CHICAGO, "label": "Chicago", "color": RED, "kind": "target", "t": 5}],
     arcs=[{"from": SUB, "to": CHICAGO, "t0": 1.5, "t1": 11.5, "color": RED, "loft": 0.16}])
-add(id="c3-target", type="region", start=S("p20"), end=S("p21"), tag="SIMULATION", caption="The Loop, a weekday morning. Our choice, not a forecast.", source="Scenario engine",
-    view={"center": [-87.6, 41.9], "widthKm": 260}, zoomTo={"center": CHICAGO, "widthKm": 90}, highlight=[HL_US],
-    cities=[{"at": CHICAGO, "label": "The Loop", "color": RED, "kind": "target", "size": 7, "t": 0.5}, {"at": [-87.33, 41.6], "label": "Gary", "kind": "dot", "t": 1.5}, {"at": [-87.9, 41.97], "label": "O'Hare", "kind": "dot", "t": 2}],
-    labels=[{"at": [-87.25, 42.15], "text": "Lake Michigan", "color": DIM, "t": 1}])
+add(id="c3-target", type="city", start=S("p20"), end=S("p21"), tag="SIMULATION", caption="The Loop, a weekday morning. Our choice, not a forecast.", source="Scenario engine; OpenStreetMap", city="chicago",
+    view={"center": [-87.7, 41.88], "widthKm": 64}, zoomTo={"center": CHICAGO, "widthKm": 22}, gz=CHICAGO, rings=[],
+    labels=[{"at": [-87.6359, 41.8789], "text": "The Loop", "color": WHITE, "t": 0.5}, {"at": [-87.9048, 41.9742], "text": "O'Hare", "color": DIM, "t": 1.5}, {"at": [-87.5, 41.9], "text": "Lake Michigan", "color": DIM, "t": 2.5}])
 add(id="c3-burst", type="split", start=S("p21"), end=S("p22"), tag="SIMULATION", left={"title": "Airburst · our choice", "sub": "blast and heat spread wider, little local fallout", "color": TEAL, "kind": "airburst"},
     right={"title": "Ground burst", "sub": "a crater and local fallout", "color": ORANGE, "kind": "groundburst"})
 
@@ -223,12 +221,12 @@ add(id="c4-m11", type="globe", start=S("p28"), end=W("p28", "The"), tag="SIMULAT
     markers=[{"at": CHICAGO, "label": "The Loop", "color": RED, "kind": "target", "t": 0.2}], arcs=[{"from": SUB, "to": CHICAGO, "t0": -8, "t1": 3.8, "color": RED, "loft": 0.16}])
 
 # ================================================================== Chapter 05 one warhead, ring by ring [SIMULATION]
-CITY_LABELS = [{"at": [-87.6359, 41.8789], "text": "The Loop", "color": WHITE}, {"at": [-87.6, 41.8917], "text": "Navy Pier", "color": DIM},
+CITY_LABELS = [{"at": [-87.6459, 41.8929], "text": "The Loop", "color": WHITE}, {"at": [-87.6, 41.8917], "text": "Navy Pier", "color": DIM},
                {"at": [-87.6167, 41.8623], "text": "Soldier Field", "color": DIM}, {"at": [-87.6742, 41.8807], "text": "United Center", "color": DIM},
                {"at": [-87.6553, 41.9484], "text": "Wrigley Field", "color": DIM}, {"at": [-87.5942, 41.7943], "text": "Hyde Park", "color": DIM},
                {"at": [-87.7524, 41.7868], "text": "Midway Airport", "color": DIM}, {"at": [-87.45, 41.88], "text": "Lake Michigan", "color": DIM}]
-RINGS = [{"km": FX["fireball_km"], "label": "Fireball", "color": WHITE}, {"km": FX["psi20_km"], "label": "20 psi", "color": ORANGE}, {"km": FX["psi5_km"], "label": "5 psi", "color": RED},
-         {"km": FX["thermal3_km"], "label": "Third-degree burns", "color": AMBER}, {"km": FX["psi1_km"], "label": "1 psi", "color": TEAL}]
+RINGS = [{"km": FX["fireball_km"], "label": "Fireball", "angle": 315, "color": WHITE}, {"km": FX["psi20_km"], "label": "20 psi", "angle": 135, "color": ORANGE}, {"km": FX["psi5_km"], "label": "5 psi", "angle": 45, "color": RED},
+         {"km": FX["thermal3_km"], "label": "Third-degree burns", "angle": 255, "color": AMBER}, {"km": FX["psi1_km"], "label": "1 psi", "angle": 300, "color": TEAL}]
 LEGEND = [{"text": f"Fireball {FX['fireball_km'] * 1000:.0f} m", "color": WHITE}, {"text": f"20 psi {FX['psi20_km'] * 1000:.0f} m", "color": ORANGE}, {"text": f"5 psi {FX['psi5_km']:.1f} km", "color": RED},
           {"text": f"Burns {FX['thermal3_km']:.1f} km", "color": AMBER}, {"text": f"1 psi {FX['psi1_km']:.1f} km", "color": TEAL}]
 LABELS_BY_N = {1: [0, 1], 2: [0, 1, 2], 3: [0, 2, 3], 4: [0, 3, 4, 5], 5: [0, 4, 5, 6, 7]}
@@ -263,10 +261,10 @@ add(id="c5-grow", type="bars", start=S("p35"), end=W("p35", "That"), tag="SIMULA
           {"label": "5 psi", "value": FX["psi5_km"], "display": f"{FX['psi5_km']:.1f}", "color": RED}, {"label": "Third-degree burns", "value": FX["thermal3_km"], "display": f"{FX['thermal3_km']:.1f}", "color": AMBER},
           {"label": "1 psi", "value": FX["psi1_km"], "display": f"{FX['psi1_km']:.1f}", "color": TEAL}])
 city_shot("c5-whole", W("p35", "That"), S("p36"), 5, 44, 56, caption="A whole city centre, then the districts around it")
-HIRO = lambda km, label, col: {"km": km, "label": label, "color": col, "t": -30}
+HIRO = lambda km, label, col: {"km": km, "label": label, "color": col, "t": -30, "angle": 150}
 add(id="c5-hiro1", type="city", start=S("p36"), end=W("p36", "Our", 2), tag="SIMULATION", clock=CL, clockLabel="COMPARE · HIROSHIMA", source=SRC + "; OSTI", city="chicago",
     view={"center": CHICAGO, "widthKm": 6}, zoomTo={"center": CHICAGO, "widthKm": 8}, gz=CHICAGO,
-    rings=[HIRO(1.6, "Hiroshima: nearly everything within 1 mile", AMBER), {"km": FX["fireball_km"], "label": "Our fireball alone", "color": WHITE, "t": 2.0}],
+    rings=[HIRO(1.6, "Hiroshima: nearly everything within 1 mile", AMBER), {"km": FX["fireball_km"], "label": "Our fireball alone", "angle": 315, "color": WHITE, "t": 2.0}],
     labels=[CITY_LABELS[0]] + HIDE, legend=[{"text": "Hiroshima, 15 kt: 1.6 km", "color": AMBER}, {"text": f"Our fireball: {FX['fireball_km'] * 1000:.0f} m", "color": WHITE}], flashT=-30)
 add(id="c5-hiro2", type="city", start=W("p36", "Our", 2), end=S("p37"), tag="SIMULATION", clock=CL, clockLabel="COMPARE · HIROSHIMA", source=SRC + "; OSTI", city="chicago",
     view={"center": CHICAGO, "widthKm": 16}, zoomTo={"center": CHICAGO, "widthKm": 22}, gz=CHICAGO,
@@ -283,12 +281,9 @@ add(id="c6-food", type="number", start=W("p39", "Researchers"), end=W("p39", "Th
 add(id="c6-smallest", type="region", start=W("p39", "That", 2), end=S("p40"), tag="SIMULATION", caption="That is the far end of the scale. One warhead is the smallest case.",
     view={"center": [-96, 39], "widthKm": 5200}, zoomTo={"center": [-92, 40], "widthKm": 3200}, highlight=[HL_US],
     cities=[{"at": CHICAGO, "label": "One warhead", "color": RED, "kind": "target", "size": 7, "t": 1}], rings=[{"at": CHICAGO, "km": FX["psi1_km"], "color": TEAL, "t": 2}])
-add(id="c6-wind", type="region", start=S("p40"), end=S("p41"), tag="SIMULATION", clock="DAY 1", clockLabel="AFTER THE BURST", source=SRC, caption="Wind from the west-northwest, our choice. Light fallout drifts out over the lake.",
-    view={"center": [-87.2, 41.9], "widthKm": 120}, zoomTo={"center": [-86.8, 41.9], "widthKm": 170}, highlight=[HL_US],
-    cities=[{"at": CHICAGO, "color": RED, "kind": "target", "size": 6, "t": 0.2}, {"at": [-87.33, 41.6], "label": "Gary", "kind": "dot", "t": 1}],
-    rings=[{"at": CHICAGO, "km": FX["psi1_km"], "color": TEAL, "t": 0.5, "label": "1 psi"}],
-    plume={"at": CHICAGO, "bearing": 110, "lengthKm": 70, "widthKm": 14, "t0": 2, "t1": 12, "color": "rgba(180,180,190,0.35)", "label": "light fallout, if any"},
-    labels=[{"at": [-86.7, 42.2], "text": "Lake Michigan", "color": DIM, "t": 1}])
+add(id="c6-wind", type="city", start=S("p40"), end=S("p41"), tag="SIMULATION", clock="DAY 1", clockLabel="AFTER THE BURST", source=SRC, caption="Wind from the west-northwest, our choice. Light fallout drifts out over the lake.",
+    city="chicago", view={"center": CHICAGO, "widthKm": 44}, zoomTo={"center": [-87.45, 41.88], "widthKm": 60}, gz=CHICAGO,
+    rings=[dict(RINGS[0], t=-30), dict(RINGS[4], t=-30)], labels=[CITY_LABELS[0], CITY_LABELS[7], {"at": [-87.42, 41.93], "text": "light fallout, if any, drifts east", "color": AMBER}] + HIDE, legend=[LEGEND[0], LEGEND[4]], flashT=-30)
 add(id="c6-inside", type="text", start=S("p41"), end=W("p41", "Shelter"), tag="SIMULATION", lines=["Get inside. Stay inside. Stay tuned."], size=84)
 add(id="c6-24h", type="number", start=W("p41", "Shelter"), end=W("p41", "Do"), tag="REAL DATA", value="24 HOURS", countTo=24, suffix=" HOURS", label="shelter, at least", sub="radiation levels drop rapidly in the first day", color=TEAL, source="Ready.gov, US government guidance")
 add(id="c6-return", type="text", start=W("p41", "Do"), end=S("p42"), tag="REAL DATA", lines=["Do not return to an evacuated area", "until officials say so"], source="Ready.gov")

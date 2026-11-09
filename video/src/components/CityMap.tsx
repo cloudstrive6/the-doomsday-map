@@ -152,16 +152,17 @@ export const CityMap: React.FC<{shot: CityShot; t: number}> = ({shot, t}) => {
       {shot.rings.map((r, i) => {
         if (t < r.t + 0.6) return null;
         // labels fan out along a diagonal from ground zero so small rings do not overlap
-        const edge = proj(destination(shot.gz, 40 + i * 26, r.km)) as [number, number] | null;
+        const edge = proj(destination(shot.gz, r.angle ?? 40 + i * 26, r.km)) as [number, number] | null;
         if (!edge) return null;
         const col = r.color ?? [C.white, C.red, C.orange, C.amber, C.teal][i % 5];
         const small = r.km * pxPerKm < 60;
         // keep the label inside the frame: in vertical Shorts the outer rings reach the right edge
         const estW = (`${r.label} · ${r.km} KM`.length) * 11.6;
-        const left = Math.max(24, Math.min(edge[0] + 10, W - estW - 24));
+        const leftSide = r.angle !== undefined && Math.sin(r.angle * D2R) < 0;
+        const left = leftSide ? Math.max(24, Math.min(edge[0] - 18 - estW, W - estW - 24)) : Math.max(24, Math.min(edge[0] + 18, W - estW - 24));
         return (
-          <div key={i} style={{position: 'absolute', left, top: edge[1] - 12 - (small ? (3 - i) * 22 : 0), fontFamily: MONO, fontSize: 16, letterSpacing: 1.5,
-            color: col, textShadow: '0 0 6px rgba(0,0,0,0.95)', whiteSpace: 'nowrap', textTransform: 'uppercase', opacity: ease(clamp01((t - r.t - 0.6) / 0.4))}}>
+          <div key={i} style={{position: 'absolute', left, top: edge[1] - 12 + (r.angle !== undefined && Math.cos(r.angle * D2R) < 0 ? 8 : -8) - (small && r.angle === undefined ? (3 - i) * 22 : 0), fontFamily: MONO, fontSize: 16, letterSpacing: 1.5, textAlign: leftSide ? 'right' : 'left', width: estW,
+            color: col, textShadow: '0 0 4px #000, 0 0 8px #000, 0 0 12px #000', whiteSpace: 'nowrap', textTransform: 'uppercase', opacity: ease(clamp01((t - r.t - 0.6) / 0.4))}}>
             {r.label} · {r.km} KM
           </div>
         );

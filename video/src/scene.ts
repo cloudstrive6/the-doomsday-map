@@ -68,7 +68,7 @@ export interface CityShot extends ShotBase {
   view: RegionView;
   zoomTo?: RegionView;
   gz: LonLat;                 // ground zero
-  rings: { km: number; label: string; color?: string; t: number }[];
+  rings: { km: number; label: string; color?: string; t: number; angle?: number }[];
   flashT?: number;
   labels?: { at: LonLat; text: string; color?: string; t?: number }[];
   legend?: { text: string; color?: string }[];
