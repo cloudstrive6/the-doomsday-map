@@ -1,83 +1,83 @@
 {
  "subtitles": [
   {
-   "start": 0.631,
-   "end": 1.98,
+   "start": 0.0,
+   "end": 2.734,
    "text": "On the twenty-sixth of September,"
   },
   {
-   "start": 1.98,
-   "end": 3.25,
+   "start": 2.734,
+   "end": 4.557,
    "text": "nineteen eighty-three,"
   },
   {
-   "start": 3.794,
-   "end": 5.32,
+   "start": 4.557,
+   "end": 6.629,
    "text": "a Soviet satellite warned"
   },
   {
-   "start": 5.32,
-   "end": 7.099,
+   "start": 6.629,
+   "end": 8.618,
    "text": "of one American missile,"
   },
   {
-   "start": 7.099,
-   "end": 8.41,
+   "start": 8.618,
+   "end": 9.861,
    "text": "then four more."
   },
   {
-   "start": 9.265,
-   "end": 12.48,
+   "start": 9.861,
+   "end": 12.844,
    "text": "Duty officer Stanislav Petrov judged"
   },
   {
-   "start": 12.48,
-   "end": 14.25,
+   "start": 12.844,
+   "end": 14.252,
    "text": "it a false alarm,"
   },
   {
-   "start": 14.25,
-   "end": 15.76,
+   "start": 14.252,
+   "end": 15.992,
    "text": "reasoning that a real"
   },
   {
-   "start": 15.76,
-   "end": 17.47,
+   "start": 15.992,
+   "end": 18.064,
    "text": "attack would be hundreds."
   },
   {
-   "start": 18.574,
-   "end": 20.87,
+   "start": 18.064,
+   "end": 21.047,
    "text": "A later inquiry found a malfunction."
   },
   {
-   "start": 21.6,
-   "end": 23.53,
+   "start": 21.597,
+   "end": 23.87,
    "text": "In January nineteen ninety-five,"
   },
   {
-   "start": 24.324,
-   "end": 26.54,
+   "start": 23.87,
+   "end": 26.001,
    "text": "a Norwegian science rocket was"
   },
   {
-   "start": 26.54,
-   "end": 28.35,
+   "start": 26.001,
+   "end": 27.777,
    "text": "tracked by Russian radar."
   },
   {
-   "start": 28.705,
-   "end": 30.3,
+   "start": 27.777,
+   "end": 30.049,
    "text": "Russia's leaders were reportedly"
   },
   {
-   "start": 30.3,
-   "end": 32.47,
+   "start": 30.049,
+   "end": 32.393,
    "text": "brought their nuclear briefcases."
   },
   {
-   "start": 32.695,
-   "end": 34.07,
+   "start": 32.393,
+   "end": 33.743,
    "text": "No order was given."
   }
  ],
@@ -91,7 +91,7 @@
    "id": "c2-petrov0",
    "type": "stamp",
    "start": 0.0,
-   "end": 9.115,
+   "end": 9.238,
    "tag": "REAL HISTORY",
    "text": "26 September 1983",
    "line": "a Soviet satellite warns of one American missile, then four more",
@@ -101,7 +101,7 @@
   {
    "id": "c2-petrov",
    "type": "region",
-   "start": 9.115,
+   "start": 9.238,
    "end": 21.597,
    "tag": "REAL HISTORY",
    "clock": "1983",

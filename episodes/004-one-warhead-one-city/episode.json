@@ -3,10 +3,10 @@
  "fps": 60,
  "width": 1920,
  "height": 1080,
- "durationSeconds": 672.04,
+ "durationSeconds": 674.17,
  "banner": {
-  "start": 16.93,
-  "end": 19.93
+  "start": 17.4,
+  "end": 20.4
  },
  "musicPlan": [
   {
@@ -32,7 +32,7 @@
   {
    "src": "bed_tense.mp3",
    "from": 233.064,
-   "to": 672.04,
+   "to": 674.17,
    "loop": [
     3,
     92
@@ -73,7 +73,7 @@
   },
   {
    "src": "whoosh.mp3",
-   "t": 135.53,
+   "t": 135.971,
    "gain_db": -14
   },
   {
@@ -93,7 +93,7 @@
   },
   {
    "src": "boom.mp3",
-   "t": 375.829,
+   "t": 375.21299999999997,
    "gain_db": -4
   }
  ],
@@ -404,7 +404,7 @@
    "id": "open-atmo",
    "type": "globe",
    "start": 22.169,
-   "end": 25.881,
+   "end": 25.448,
    "tag": "SIMULATION",
    "clock": "T+05:00",
    "clockLabel": "SINCE LAUNCH",
@@ -466,7 +466,7 @@
   {
    "id": "open-street",
    "type": "city",
-   "start": 25.881,
+   "start": 25.448,
    "end": 32.076,
    "tag": "SIMULATION",
    "clock": "09:20",
@@ -538,7 +538,7 @@
    "id": "c1-hiro",
    "type": "city",
    "start": 39.476,
-   "end": 50.11,
+   "end": 51.14,
    "tag": "REAL HISTORY",
    "clock": "1945",
    "clockLabel": "6 AUGUST · 8:15 A.M.",
@@ -605,8 +605,8 @@
   {
    "id": "c1-15kt",
    "type": "number",
-   "start": 50.11,
-   "end": 52.851,
+   "start": 51.14,
+   "end": 52.743,
    "tag": "REAL HISTORY",
    "value": "15 KT",
    "countTo": 15,
@@ -619,8 +619,8 @@
   {
    "id": "c1-hirorings",
    "type": "city",
-   "start": 52.851,
-   "end": 64.65,
+   "start": 52.743,
+   "end": 63.964,
    "tag": "REAL HISTORY",
    "clock": "1945",
    "clockLabel": "HIROSHIMA",
@@ -683,7 +683,7 @@
   {
    "id": "c1-70k",
    "type": "number",
-   "start": 64.65,
+   "start": 63.964,
    "end": 71.728,
    "tag": "REAL HISTORY",
    "value": "ABOUT 70,000",
@@ -722,7 +722,7 @@
    "id": "c1-range",
    "type": "bars",
    "start": 79.945,
-   "end": 89.668,
+   "end": 89.31,
    "tag": "REAL DATA",
    "title": "American warhead sizes today",
    "sub": "kilotons · no US warhead is 800 kt",
@@ -751,7 +751,7 @@
   {
    "id": "c1-russia",
    "type": "globe",
-   "start": 89.668,
+   "start": 89.31,
    "end": 106.249,
    "tag": "SIMULATION",
    "caption": "Among the biggest modern strategic warheads. A simulation choice.",
@@ -813,7 +813,7 @@
    "id": "c1-history",
    "type": "globe",
    "start": 106.249,
-   "end": 122.021,
+   "end": 121.533,
    "tag": "REAL HISTORY",
    "source": "US DOE; Russian Federal Nuclear Center",
    "caption": "Bikini Atoll, 1954: 15 Mt. Novaya Zemlya, 1961: 50 Mt.",
@@ -867,7 +867,7 @@
   {
    "id": "c1-small",
    "type": "bars",
-   "start": 122.021,
+   "start": 121.533,
    "end": 128.633,
    "tag": "SIMULATION",
    "title": "Small by the standards of history",
@@ -898,7 +898,7 @@
    "id": "c1-12k",
    "type": "number",
    "start": 128.633,
-   "end": 135.93,
+   "end": 136.371,
    "tag": "REAL DATA",
    "value": "ABOUT 12,000",
    "countTo": 12000,
@@ -911,7 +911,7 @@
   {
    "id": "c1-treaty",
    "type": "stamp",
-   "start": 135.93,
+   "start": 136.371,
    "end": 143.0,
    "tag": "REAL DATA",
    "text": "5 February 2026",
@@ -932,7 +932,7 @@
    "id": "c2-gold0",
    "type": "stamp",
    "start": 148.08,
-   "end": 156.79,
+   "end": 155.995,
    "tag": "REAL HISTORY",
    "text": "January 1961",
    "line": "a B-52 breaks apart over North Carolina",
@@ -942,7 +942,7 @@
   {
    "id": "c2-gold",
    "type": "region",
-   "start": 156.79,
+   "start": 155.995,
    "end": 172.816,
    "tag": "REAL HISTORY",
    "clock": "1961",
@@ -988,7 +988,7 @@
    "id": "c2-cuba0",
    "type": "stamp",
    "start": 172.816,
-   "end": 183.743,
+   "end": 182.426,
    "tag": "REAL HISTORY",
    "text": "October 1962",
    "line": "a Soviet submarine, harassed by American ships, nearly fires a nuclear torpedo",
@@ -998,7 +998,7 @@
   {
    "id": "c2-cuba",
    "type": "region",
-   "start": 183.743,
+   "start": 182.426,
    "end": 190.497,
    "tag": "REAL HISTORY",
    "clock": "1962",
@@ -1048,7 +1048,7 @@
    "id": "c2-petrov0",
    "type": "stamp",
    "start": 190.497,
-   "end": 199.615,
+   "end": 199.738,
    "tag": "REAL HISTORY",
    "text": "26 September 1983",
    "line": "a Soviet satellite warns of one American missile, then four more",
@@ -1058,7 +1058,7 @@
   {
    "id": "c2-petrov",
    "type": "region",
-   "start": 199.615,
+   "start": 199.738,
    "end": 212.097,
    "tag": "REAL HISTORY",
    "clock": "1983",
@@ -1414,7 +1414,7 @@
       41.8789
      ],
      "t0": 0.0,
-     "t1": 72.44,
+     "t1": 71.82,
      "color": "#FF3B3B",
      "loft": 0.16
     }
@@ -1424,7 +1424,7 @@
    "id": "c4-clock",
    "type": "timeline",
    "start": 307.447,
-   "end": 318.512,
+   "end": 317.773,
    "tag": "SIMULATION",
    "title": "Launch to impact: 11.1 minutes",
    "sub": "the engine keeps one clock · simulation",
@@ -1455,7 +1455,7 @@
   {
    "id": "c4-nodef",
    "type": "text",
-   "start": 318.512,
+   "start": 317.773,
    "end": 323.28,
    "tag": "SIMULATION",
    "lines": [
@@ -1520,7 +1520,7 @@
       41.8789
      ],
      "t0": -19.99,
-     "t1": 52.45,
+     "t1": 51.84,
      "color": "#FF3B3B",
      "loft": 0.16
     }
@@ -1555,7 +1555,7 @@
    "id": "c4-m9a",
    "type": "city",
    "start": 346.04,
-   "end": 352.03,
+   "end": 351.605,
    "tag": "SIMULATION",
    "clock": "T+09:00",
    "clockLabel": "MINUTE NINE",
@@ -1603,7 +1603,7 @@
   {
    "id": "c4-m9b",
    "type": "city",
-   "start": 352.03,
+   "start": 351.605,
    "end": 359.577,
    "tag": "SIMULATION",
    "clock": "T+09:36",
@@ -1693,7 +1693,7 @@
    "id": "c4-m11",
    "type": "globe",
    "start": 370.593,
-   "end": 375.109,
+   "end": 373.823,
    "tag": "SIMULATION",
    "clock": "T+11:00",
    "clockLabel": "MINUTE ELEVEN · 09:26",
@@ -1706,7 +1706,7 @@
      "scale": 2000
     },
     {
-     "t": 4.515999999999963,
+     "t": 3.2299999999999613,
      "lat": 41.9,
      "lon": -87.6,
      "scale": 6000
@@ -1755,7 +1755,7 @@
   {
    "id": "c5-flash",
    "type": "city",
-   "start": 375.109,
+   "start": 373.823,
    "end": 388.64,
    "tag": "SIMULATION",
    "clock": "T+11:06",
@@ -1786,7 +1786,7 @@
      "label": "Fireball",
      "angle": 315,
      "color": "#FFFFFF",
-     "t": 0.82
+     "t": 1.49
     }
    ],
    "labels": [
@@ -1925,7 +1925,7 @@
      "color": "#FFFFFF"
     }
    ],
-   "flashT": 0.72
+   "flashT": 1.39
   },
   {
    "id": "c5-fireball",
@@ -2972,7 +2972,7 @@
    "id": "c5-grow",
    "type": "bars",
    "start": 470.601,
-   "end": 481.954,
+   "end": 481.449,
    "tag": "SIMULATION",
    "title": "From the fireball to the last window",
    "sub": "radius of each ring, kilometres · nearly twenty times",
@@ -3013,7 +3013,7 @@
   {
    "id": "c5-whole",
    "type": "city",
-   "start": 481.954,
+   "start": 481.449,
    "end": 491.642,
    "tag": "SIMULATION",
    "clock": "T+11:06",
@@ -3258,7 +3258,7 @@
    "id": "c5-hiro1",
    "type": "city",
    "start": 491.642,
-   "end": 502.534,
+   "end": 502.362,
    "tag": "SIMULATION",
    "clock": "T+11:06",
    "clockLabel": "COMPARE · HIROSHIMA",
@@ -3435,7 +3435,7 @@
   {
    "id": "c5-hiro2",
    "type": "city",
-   "start": 502.534,
+   "start": 502.362,
    "end": 512.234,
    "tag": "SIMULATION",
    "clock": "T+11:06",
@@ -3866,7 +3866,7 @@
    "id": "c6-plan",
    "type": "number",
    "start": 531.793,
-   "end": 544.586,
+   "end": 543.359,
    "tag": "REAL DATA",
    "value": "TENS OF MILLIONS",
    "label": "estimated dead in the first hours of a full US-Russia exchange",
@@ -3877,8 +3877,8 @@
   {
    "id": "c6-food",
    "type": "number",
-   "start": 544.586,
-   "end": 552.27,
+   "start": 543.359,
+   "end": 551.686,
    "tag": "REAL DATA",
    "value": "BILLIONS",
    "label": "short of food after soot from thousands of warheads",
@@ -3889,7 +3889,7 @@
   {
    "id": "c6-smallest",
    "type": "region",
-   "start": 552.27,
+   "start": 551.686,
    "end": 558.713,
    "tag": "SIMULATION",
    "caption": "That is the far end of the scale. One warhead is the smallest case.",
@@ -4138,7 +4138,7 @@
    "id": "c6-inside",
    "type": "text",
    "start": 576.673,
-   "end": 583.369,
+   "end": 582.512,
    "tag": "SIMULATION",
    "lines": [
     "Get inside. Stay inside. Stay tuned."
@@ -4148,8 +4148,8 @@
   {
    "id": "c6-24h",
    "type": "number",
-   "start": 583.369,
-   "end": 589.07,
+   "start": 582.512,
+   "end": 588.767,
    "tag": "REAL DATA",
    "value": "24 HOURS",
    "countTo": 24,
@@ -4162,7 +4162,7 @@
   {
    "id": "c6-return",
    "type": "text",
-   "start": 589.07,
+   "start": 588.767,
    "end": 593.906,
    "tag": "REAL DATA",
    "lines": [
@@ -4465,7 +4465,7 @@
    "id": "c6-country",
    "type": "region",
    "start": 632.219,
-   "end": 637.27,
+   "end": 638.051,
    "tag": "SIMULATION",
    "caption": "The rest of the country is untouched by this one weapon.",
    "clock": "DAY 1",
@@ -4519,7 +4519,7 @@
   {
    "id": "c6-day2",
    "type": "city",
-   "start": 637.27,
+   "start": 638.051,
    "end": 649.171,
    "tag": "SIMULATION",
    "clock": "DAY 2",
@@ -4962,7 +4962,7 @@
    "id": "end",
    "type": "endslate",
    "start": 656.074,
-   "end": 672.04,
+   "end": 674.17,
    "tag": "",
    "title": "Next scenario",
    "line": "Russia uses one tactical nuke in Ukraine, day by day."
