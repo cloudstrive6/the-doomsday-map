@@ -157,12 +157,12 @@ export const CityMap: React.FC<{shot: CityShot; t: number}> = ({shot, t}) => {
         const col = r.color ?? [C.white, C.red, C.orange, C.amber, C.teal][i % 5];
         const small = r.km * pxPerKm < 60;
         // keep the label inside the frame: in vertical Shorts the outer rings reach the right edge
-        const estW = (`${r.label} · ${r.km} KM`.length) * 11.6;
+        const estW = (`${r.label} · ${r.km} KM`.length) * 15.6 + 20;
         const leftSide = r.angle !== undefined && Math.sin(r.angle * D2R) < 0;
         const left = leftSide ? Math.max(24, Math.min(edge[0] - 18 - estW, W - estW - 24)) : Math.max(24, Math.min(edge[0] + 18, W - estW - 24));
         return (
-          <div key={i} style={{position: 'absolute', left, top: edge[1] - 12 + (r.angle !== undefined && Math.cos(r.angle * D2R) < 0 ? 8 : -8) - (small && r.angle === undefined ? (3 - i) * 22 : 0), fontFamily: MONO, fontSize: 16, letterSpacing: 1.5, textAlign: leftSide ? 'right' : 'left', width: estW,
-            color: col, textShadow: '0 0 4px #000, 0 0 8px #000, 0 0 12px #000', whiteSpace: 'nowrap', textTransform: 'uppercase', opacity: ease(clamp01((t - r.t - 0.6) / 0.4))}}>
+          <div key={i} style={{position: 'absolute', left, top: edge[1] - 12 + (r.angle !== undefined && Math.cos(r.angle * D2R) < 0 ? 8 : -8) - (small && r.angle === undefined ? (3 - i) * 22 : 0), fontFamily: MONO, fontSize: 22, letterSpacing: 1.5, textAlign: leftSide ? 'right' : 'left', width: estW, boxSizing: 'border-box', padding: '2px 8px', background: 'rgba(8,10,14,0.78)',
+            color: col, textShadow: '0 0 4px #000, 0 0 8px #000', whiteSpace: 'nowrap', textTransform: 'uppercase', opacity: ease(clamp01((t - r.t - 0.6) / 0.4))}}>
             {r.label} · {r.km} KM
           </div>
         );

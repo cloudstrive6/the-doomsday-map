@@ -1,0 +1,4471 @@
+{
+ "slug": "005-russia-one-tactical-nuke-ukraine",
+ "fps": 60,
+ "width": 1920,
+ "height": 1080,
+ "durationSeconds": 683.72,
+ "banner": {
+  "start": 26.57,
+  "end": 29.57
+ },
+ "musicPlan": [
+  {
+   "src": "bed_tense.mp3",
+   "from": 0,
+   "to": 40.112,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  },
+  {
+   "src": "bed.mp3",
+   "from": 38.112,
+   "to": 280.784,
+   "loop": [
+    2,
+    174
+   ],
+   "gain_db": -17
+  },
+  {
+   "src": "bed_tense.mp3",
+   "from": 278.784,
+   "to": 683.72,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  }
+ ],
+ "sfxPlan": [
+  {
+   "src": "impact.mp3",
+   "t": 39.262,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 111.973,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 279.93399999999997,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 338.366,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 421.18199999999996,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 510.351,
+   "gain_db": -9
+  },
+  {
+   "src": "radar.mp3",
+   "t": 353.94399999999996,
+   "gain_db": -12
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 74.856,
+   "gain_db": -14
+  },
+  {
+   "src": "boom.mp3",
+   "t": 375.15000000000003,
+   "gain_db": -4
+  }
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated.",
+ "shots": [
+  {
+   "id": "open-launch",
+   "type": "globe",
+   "start": 0,
+   "end": 5.0,
+   "tag": "SIMULATION",
+   "clock": "09:20",
+   "clockLabel": "DAY 1 · KYIV TIME",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 50.6,
+     "lon": 35.5,
+     "scale": 1700
+    },
+    {
+     "t": 5.0,
+     "lat": 50.0,
+     "lon": 36.9,
+     "scale": 3600
+    }
+   ],
+   "sun": {
+    "lat": -22.88,
+    "lon": 68.21
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      36.6,
+      50.55
+     ],
+     "label": "Launch: Belgorod region (simulated)",
+     "color": "#FF8A8A",
+     "kind": "base",
+     "size": 4,
+     "t": 0.4
+    },
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "label": "Open farmland",
+     "color": "#FF8A8A",
+     "kind": "target",
+     "size": 3,
+     "t": 3.2
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      36.6,
+      50.55
+     ],
+     "to": [
+      37.824,
+      49.517
+     ],
+     "t0": 1.0,
+     "t1": 5.4,
+     "color": "#FF3B3B",
+     "loft": 0.08
+    }
+   ]
+  },
+  {
+   "id": "open-flight",
+   "type": "region",
+   "start": 5.0,
+   "end": 17.833,
+   "tag": "SIMULATION",
+   "clock": "T+00:40",
+   "clockLabel": "SINCE LAUNCH",
+   "caption": "About 140 km south-east of the launcher",
+   "view": {
+    "center": [
+     36.9,
+     50.0
+    ],
+    "widthKm": 480
+   },
+   "zoomTo": {
+    "center": [
+     36.95,
+     49.95
+    ],
+    "widthKm": 270
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      36.6,
+      50.55
+     ],
+     "label": "Launch: Belgorod region (simulated)",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 5,
+     "t": 0.2
+    },
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "label": "Target: open farmland (simulated)",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 7,
+     "t": 2.8
+    },
+    {
+     "at": [
+      36.23,
+      49.99
+     ],
+     "label": "Kharkiv",
+     "kind": "dot",
+     "t": 7.0
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      36.6,
+      50.55
+     ],
+     "to": [
+      37.824,
+      49.517
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0,
+     "t1": 1
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       36.6612,
+       50.4983
+      ],
+      [
+       36.906,
+       50.2918
+      ]
+     ],
+     "t0": 0,
+     "t1": 12.83,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander-M",
+     "t": 0.3,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "open-field",
+   "type": "city",
+   "start": 17.833,
+   "end": 23.63,
+   "tag": "SIMULATION",
+   "clock": "09:23",
+   "clockLabel": "IN THREE MINUTES",
+   "city": "kharkiv-farmland",
+   "view": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 40
+   },
+   "zoomTo": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 9
+   },
+   "gz": [
+    37.824,
+    49.517
+   ],
+   "rings": [],
+   "caption": "No mapped building within 5 km of this point.",
+   "source": "OpenStreetMap",
+   "labels": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "text": "That field",
+     "color": "#FFFFFF",
+     "t": 0.6
+    },
+    {
+     "at": [
+      37.80357,
+      49.46679
+     ],
+     "text": "Lozova",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 1.0
+    },
+    {
+     "at": [
+      37.87554,
+      49.59562
+     ],
+     "text": "Tabaivka",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 1.6
+    },
+    {
+     "at": [
+      37.71276,
+      49.50396
+     ],
+     "text": "Zahryzove",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 2.2
+    },
+    {
+     "at": [
+      37.894,
+      49.5425
+     ],
+     "text": "Berestove",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 2.8
+    },
+    {
+     "at": [
+      37.7196,
+      49.5206
+     ],
+     "text": "Kruhliakivka",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 3.4
+    },
+    {
+     "at": [
+      37.92,
+      49.57443
+     ],
+     "text": "Krokhmalne",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 4.0
+    }
+   ]
+  },
+  {
+   "id": "open-nagasaki",
+   "type": "globe",
+   "start": 23.63,
+   "end": 26.161,
+   "tag": "REAL HISTORY",
+   "clock": "1945",
+   "clockLabel": "NAGASAKI",
+   "source": "US DOE OSTI",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 31,
+     "lon": 126,
+     "scale": 1500
+    },
+    {
+     "t": 2.5310000000000024,
+     "lat": 32.7,
+     "lon": 129.8,
+     "scale": 3200
+    }
+   ],
+   "sun": {
+    "lat": 10,
+    "lon": 100
+   },
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#F2B01E"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      129.87,
+      32.74
+     ],
+     "label": "Nagasaki, 1945: the last time",
+     "color": "#F2B01E",
+     "kind": "target",
+     "t": 0.4
+    }
+   ]
+  },
+  {
+   "id": "open-banner",
+   "type": "region",
+   "start": 26.161,
+   "end": 31.801,
+   "tag": "SIMULATION",
+   "clock": "T+01:30",
+   "clockLabel": "SINCE LAUNCH",
+   "view": {
+    "center": [
+     35.5,
+     50.3
+    ],
+    "widthKm": 1500
+   },
+   "zoomTo": {
+    "center": [
+     36.9,
+     50.0
+    ],
+    "widthKm": 380
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      36.6,
+      50.55
+     ],
+     "label": "Launch: Belgorod region (simulated)",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 5,
+     "t": 0.2
+    },
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "label": "Target: open farmland (simulated)",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 7,
+     "t": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      36.6,
+      50.55
+     ],
+     "to": [
+      37.824,
+      49.517
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0,
+     "t1": 1
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       36.804,
+       50.3778
+      ],
+      [
+       37.2528,
+       49.9991
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.64,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander-M",
+     "t": 0.1,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "open-arc",
+   "type": "globe",
+   "start": 31.801,
+   "end": 34.823,
+   "tag": "SIMULATION",
+   "clock": "T+01:45",
+   "clockLabel": "SINCE LAUNCH",
+   "caption": "Past the top of its arc",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 51,
+     "lon": 38,
+     "scale": 1000
+    },
+    {
+     "t": 3.022000000000002,
+     "lat": 49.9,
+     "lon": 37,
+     "scale": 2600
+    }
+   ],
+   "sun": {
+    "lat": -22.88,
+    "lon": 68.21
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "label": "Open farmland",
+     "color": "#FF8A8A",
+     "kind": "target",
+     "size": 3,
+     "t": 0.3
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      36.6,
+      50.55
+     ],
+     "to": [
+      37.824,
+      49.517
+     ],
+     "t0": -5,
+     "t1": 6,
+     "color": "#FF3B3B",
+     "loft": 0.3
+    }
+   ]
+  },
+  {
+   "id": "open-ground",
+   "type": "city",
+   "start": 34.823,
+   "end": 39.112,
+   "tag": "SIMULATION",
+   "clock": "T+02:00",
+   "clockLabel": "ON THE GROUND",
+   "city": "kharkiv-farmland",
+   "view": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 7
+   },
+   "zoomTo": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 4.2
+   },
+   "gz": [
+    37.824,
+    49.517
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "text": "Nobody has been told",
+     "color": "#FFFFFF",
+     "t": 0.5
+    }
+   ]
+  },
+  {
+   "id": "c1-card",
+   "type": "chapter",
+   "start": 39.112,
+   "end": 42.612,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 01",
+   "title": "What Russia really has"
+  },
+  {
+   "id": "c1-4400",
+   "type": "number",
+   "start": 42.612,
+   "end": 46.412,
+   "tag": "REAL DATA",
+   "value": "ABOUT 4,400",
+   "countTo": 4400,
+   "prefix": "ABOUT ",
+   "label": "Russian nuclear warheads",
+   "sub": "Federation of American Scientists, March 2026",
+   "color": "#F2B01E",
+   "source": "Federation of American Scientists, Status of World Nuclear Forces"
+  },
+  {
+   "id": "c1-bases",
+   "type": "region",
+   "start": 46.412,
+   "end": 58.304,
+   "tag": "REAL DATA",
+   "caption": "About 1,800 deployed strategic: land, submarines, bombers. Locations approximate.",
+   "source": "Federation of American Scientists",
+   "view": {
+    "center": [
+     42,
+     59
+    ],
+    "widthKm": 4200
+   },
+   "zoomTo": {
+    "center": [
+     40,
+     59
+    ],
+    "widthKm": 3300
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      35.8,
+      54.0
+     ],
+     "label": "Land-based missiles",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 8.631000000000004
+    },
+    {
+     "at": [
+      33.4,
+      68.8
+     ],
+     "label": "Submarines",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 9.304000000000002
+    },
+    {
+     "at": [
+      46.2,
+      51.5
+     ],
+     "label": "Bombers",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 10.378
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "dot",
+     "t": 0.5
+    }
+   ]
+  },
+  {
+   "id": "c1-ns",
+   "type": "globe",
+   "start": 58.304,
+   "end": 62.29,
+   "tag": "REAL DATA",
+   "caption": "Separate from those: the ones this episode is about.",
+   "source": "Federation of American Scientists",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 56,
+     "lon": 45,
+     "scale": 650
+    },
+    {
+     "t": 3.985999999999997,
+     "lat": 52,
+     "lon": 38,
+     "scale": 1100
+    }
+   ],
+   "sun": {
+    "lat": 10,
+    "lon": 60
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Non-strategic (tactical) warheads",
+     "color": "#FF3B3B",
+     "kind": "dot",
+     "t": 1.0
+    }
+   ]
+  },
+  {
+   "id": "c1-tactical",
+   "type": "number",
+   "start": 62.29,
+   "end": 75.256,
+   "tag": "REAL DATA",
+   "value": "1,000 TO 2,000",
+   "label": "non-strategic (tactical) warheads, US estimates",
+   "sub": "aerial bombs, missile warheads, artillery shells",
+   "color": "#FF3B3B",
+   "source": "US government estimates via Federation of American Scientists"
+  },
+  {
+   "id": "c1-noyield",
+   "type": "stamp",
+   "start": 75.256,
+   "end": 79.049,
+   "tag": "REAL DATA",
+   "text": "NO PUBLISHED YIELD",
+   "line": "for Russian tactical warheads. We come back to this.",
+   "color": "#F2B01E",
+   "source": "Research: no open source gives a figure"
+  },
+  {
+   "id": "c1-range",
+   "type": "region",
+   "start": 79.049,
+   "end": 97.849,
+   "tag": "REAL DATA",
+   "clock": "",
+   "source": "CSIS Missile Threat",
+   "caption": "Iskander-M: range 400 to 500 km. Fired at Ukraine conventionally throughout this war.",
+   "view": {
+    "center": [
+     34,
+     50
+    ],
+    "widthKm": 1700
+   },
+   "zoomTo": {
+    "center": [
+     34,
+     50
+    ],
+    "widthKm": 2400
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      36.6,
+      50.55
+     ],
+     "label": "Belgorod region",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 5,
+     "t": 0.5
+    },
+    {
+     "at": [
+      36.23,
+      49.99
+     ],
+     "label": "Kharkiv",
+     "kind": "dot",
+     "t": 15.86099999999999
+    },
+    {
+     "at": [
+      30.52,
+      50.45
+     ],
+     "label": "Kyiv",
+     "kind": "dot",
+     "t": 3
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      36.6,
+      50.55
+     ],
+     "km": 400,
+     "color": "#F2B01E",
+     "label": "400 km",
+     "t": 5.86099999999999
+    },
+    {
+     "at": [
+      36.6,
+      50.55
+     ],
+     "km": 500,
+     "color": "#FF3B3B",
+     "label": "500 km",
+     "t": 6.600999999999999
+    }
+   ]
+  },
+  {
+   "id": "c1-treaty",
+   "type": "globe",
+   "start": 97.849,
+   "end": 111.823,
+   "tag": "REAL DATA",
+   "clock": "FEB 2026",
+   "clockLabel": "LAST ARMS TREATY EXPIRES",
+   "source": "Arms Control Association",
+   "caption": "For the first time in decades, neither side has a cap.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 52,
+     "lon": 40,
+     "scale": 650
+    },
+    {
+     "t": 7,
+     "lat": 50,
+     "lon": -10,
+     "scale": 750
+    },
+    {
+     "t": 13,
+     "lat": 45,
+     "lon": -70,
+     "scale": 800
+    }
+   ],
+   "sun": {
+    "lat": 10,
+    "lon": 20
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Russia: no cap",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 0.5
+    },
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "United States: no cap",
+     "color": "#3ED6C8",
+     "kind": "dot",
+     "t": 8
+    }
+   ]
+  },
+  {
+   "id": "c2-card",
+   "type": "chapter",
+   "start": 111.823,
+   "end": 115.323,
+   "tag": "REAL HISTORY",
+   "kicker": "CHAPTER 02",
+   "title": "How close it has come"
+  },
+  {
+   "id": "c2-japan",
+   "type": "globe",
+   "start": 115.323,
+   "end": 125.92,
+   "tag": "REAL HISTORY",
+   "clock": "1945",
+   "clockLabel": "ONLY TWO, EVER",
+   "source": "US DOE OSTI",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 36,
+     "lon": 132,
+     "scale": 2200
+    },
+    {
+     "t": 10.597000000000008,
+     "lat": 33.5,
+     "lon": 130.5,
+     "scale": 3000
+    }
+   ],
+   "sun": {
+    "lat": 10,
+    "lon": 100
+   },
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#F2B01E"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      132.45,
+      34.4
+     ],
+     "label": "Hiroshima · about 15 kt",
+     "color": "#F2B01E",
+     "kind": "target",
+     "t": -0.1389999999999958
+    },
+    {
+     "at": [
+      129.87,
+      32.74
+     ],
+     "label": "Nagasaki · about 21 kt",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 5.479000000000013
+    }
+   ]
+  },
+  {
+   "id": "c2-cuba",
+   "type": "region",
+   "start": 125.92,
+   "end": 141.024,
+   "tag": "REAL HISTORY",
+   "clock": "1962",
+   "clockLabel": "CUBAN MISSILE CRISIS",
+   "source": "National Security Archive; White House remarks, 2022",
+   "caption": "Biden, sixty years later: the yardstick for the danger in Ukraine.",
+   "view": {
+    "center": [
+     -74,
+     27
+    ],
+    "widthKm": 3200
+   },
+   "zoomTo": {
+    "center": [
+     -60,
+     36
+    ],
+    "widthKm": 5200
+   },
+   "highlight": [
+    {
+     "iso": "192",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.10)"
+    },
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -82.37,
+      23.11
+     ],
+     "label": "Cuba, 1962",
+     "color": "#FF3B3B",
+     "kind": "dot",
+     "t": 0.5
+    },
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "Washington",
+     "kind": "dot",
+     "t": 4
+    }
+   ]
+  },
+  {
+   "id": "c2-putin",
+   "type": "region",
+   "start": 141.024,
+   "end": 150.17,
+   "tag": "REAL HISTORY",
+   "clock": "SEPT 2022",
+   "clockLabel": "PUTIN",
+   "source": "Kremlin address, September 2022; Reuters",
+   "caption": "\"All the means at its disposal.\" \"It's not a bluff.\"",
+   "view": {
+    "center": [
+     38,
+     52
+    ],
+    "widthKm": 2600
+   },
+   "zoomTo": {
+    "center": [
+     33,
+     50
+    ],
+    "widthKm": 1500
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 0.5
+    },
+    {
+     "at": [
+      30.52,
+      50.45
+     ],
+     "label": "Kyiv",
+     "kind": "dot",
+     "t": 3
+    }
+   ]
+  },
+  {
+   "id": "c2-armageddon",
+   "type": "globe",
+   "start": 150.17,
+   "end": 157.558,
+   "tag": "REAL HISTORY",
+   "clock": "OCT 2022",
+   "clockLabel": "BIDEN",
+   "source": "White House remarks; Reuters",
+   "caption": "\"Armageddon\": the first time since the Cuban Missile Crisis.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 42,
+     "lon": -50,
+     "scale": 700
+    },
+    {
+     "t": 7.4,
+     "lat": 40,
+     "lon": -78,
+     "scale": 1300
+    }
+   ],
+   "sun": {
+    "lat": 10,
+    "lon": 20
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    },
+    {
+     "iso": "192",
+     "color": "#FF3B3B"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "Washington",
+     "color": "#3ED6C8",
+     "kind": "dot",
+     "t": 0.5
+    },
+    {
+     "at": [
+      -82.37,
+      23.11
+     ],
+     "label": "Cuba, 1962",
+     "color": "#FF3B3B",
+     "kind": "dot",
+     "t": 3
+    }
+   ]
+  },
+  {
+   "id": "c2-whitehouse",
+   "type": "region",
+   "start": 157.558,
+   "end": 169.049,
+   "tag": "REAL HISTORY",
+   "clock": "OCT 2022",
+   "clockLabel": "WASHINGTON",
+   "source": "White House briefing; Reuters",
+   "view": {
+    "center": [
+     -77.04,
+     38.9
+    ],
+    "widthKm": 60
+   },
+   "zoomTo": {
+    "center": [
+     -77.04,
+     38.9
+    ],
+    "widthKm": 18
+   },
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House: no sign of imminent use",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 6,
+     "t": 6.162000000000006
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0,
+      38.94
+     ],
+     "text": "\"No such thing as easily using a tactical nuclear weapon\"",
+     "color": "#FFFFFF",
+     "t": 0.4
+    }
+   ]
+  },
+  {
+   "id": "c2-phone",
+   "type": "globe",
+   "start": 169.049,
+   "end": 177.27,
+   "tag": "REAL HISTORY",
+   "clock": "OCT 2022",
+   "clockLabel": "DEFENCE CHIEFS",
+   "source": "Reuters; Pentagon readouts",
+   "caption": "American and Russian defence chiefs speak by phone.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 48,
+     "lon": -35,
+     "scale": 650
+    },
+    {
+     "t": 8.221000000000004,
+     "lat": 48,
+     "lon": 0,
+     "scale": 800
+    }
+   ],
+   "sun": {
+    "lat": 10,
+    "lon": 20
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "Washington",
+     "color": "#3ED6C8",
+     "kind": "dot",
+     "t": 0.5
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 2
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -77.04,
+      38.9
+     ],
+     "to": [
+      37.62,
+      55.75
+     ],
+     "t0": 3.0,
+     "t1": 7.0,
+     "color": "#3ED6C8",
+     "loft": 0.15
+    }
+   ]
+  },
+  {
+   "id": "c2-reports",
+   "type": "region",
+   "start": 177.27,
+   "end": 187.404,
+   "tag": "REAL HISTORY",
+   "clock": "NOV 2022",
+   "clockLabel": "NEWS REPORTS",
+   "source": "Reuters; New York Times reporting, November 2022",
+   "caption": "Senior officials reportedly discussed tactical use. No evidence any warhead moved.",
+   "view": {
+    "center": [
+     38,
+     54
+    ],
+    "widthKm": 1900
+   },
+   "zoomTo": {
+    "center": [
+     36,
+     52
+    ],
+    "widthKm": 1100
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 0.5
+    },
+    {
+     "at": [
+      30.52,
+      50.45
+     ],
+     "label": "Kyiv",
+     "kind": "dot",
+     "t": 2.5
+    }
+   ]
+  },
+  {
+   "id": "c2-ankara",
+   "type": "region",
+   "start": 187.404,
+   "end": 194.737,
+   "tag": "REAL HISTORY",
+   "clock": "NOV 2022",
+   "clockLabel": "ANKARA",
+   "source": "Reuters; Associated Press",
+   "caption": "The CIA director meets Russia's foreign intelligence chief to warn against it.",
+   "view": {
+    "center": [
+     32,
+     44
+    ],
+    "widthKm": 3200
+   },
+   "zoomTo": {
+    "center": [
+     32.5,
+     41
+    ],
+    "widthKm": 1300
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "792",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      32.86,
+      39.93
+     ],
+     "label": "Ankara",
+     "color": "#3ED6C8",
+     "kind": "target",
+     "size": 6,
+     "t": 0.8
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "dot",
+     "t": 2
+    }
+   ]
+  },
+  {
+   "id": "c2-doctrine",
+   "type": "region",
+   "start": 194.737,
+   "end": 217.513,
+   "tag": "REAL HISTORY",
+   "clock": "NOV 2024",
+   "clockLabel": "DOCTRINE REWRITTEN",
+   "source": "Russian presidential decree, 2024; Arms Control Association",
+   "caption": "Nuclear use may be considered after a critical threat to Russia or Belarus. It names no target and no moment.",
+   "view": {
+    "center": [
+     38,
+     56
+    ],
+    "widthKm": 4200
+   },
+   "zoomTo": {
+    "center": [
+     32,
+     54
+    ],
+    "widthKm": 1900
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.12)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Russia",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 0.5
+    },
+    {
+     "at": [
+      27.57,
+      53.9
+     ],
+     "label": "Belarus",
+     "color": "#FF3B3B",
+     "kind": "dot",
+     "t": 3.5
+    }
+   ]
+  },
+  {
+   "id": "c2-belarus",
+   "type": "region",
+   "start": 217.513,
+   "end": 231.255,
+   "tag": "REAL HISTORY",
+   "clock": "2026",
+   "clockLabel": "NUCLEAR DRILLS",
+   "source": "Russian Defence Ministry statements; Reuters",
+   "caption": "A three-day nuclear exercise with Belarus. Tactical weapons were part of the drills.",
+   "view": {
+    "center": [
+     30,
+     55
+    ],
+    "widthKm": 2200
+   },
+   "zoomTo": {
+    "center": [
+     28,
+     54
+    ],
+    "widthKm": 1200
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.12)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      27.57,
+      53.9
+     ],
+     "label": "Belarus",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 6,
+     "t": 0.8
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Russia",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 2.5
+    }
+   ]
+  },
+  {
+   "id": "c2-medvedev",
+   "type": "globe",
+   "start": 231.255,
+   "end": 246.348,
+   "tag": "REAL HISTORY",
+   "clock": "FEB 2026",
+   "clockLabel": "MEDVEDEV",
+   "source": "TASS; Reuters. Ukraine and Britain deny any such plan.",
+   "caption": "Britain and France giving Ukraine nuclear technology? Ukraine and Britain deny any such plan.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 52,
+     "lon": 25,
+     "scale": 900
+    },
+    {
+     "t": 15.093000000000018,
+     "lat": 50,
+     "lon": 8,
+     "scale": 1500
+    }
+   ],
+   "sun": {
+    "lat": 10,
+    "lon": 20
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "826",
+     "color": "#3ED6C8"
+    },
+    {
+     "iso": "250",
+     "color": "#3ED6C8"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Medvedev: non-strategic weapons",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 1
+    },
+    {
+     "at": [
+      -0.13,
+      51.5
+     ],
+     "label": "Britain",
+     "color": "#3ED6C8",
+     "kind": "dot",
+     "t": 5
+    },
+    {
+     "at": [
+      2.35,
+      48.86
+     ],
+     "label": "France",
+     "color": "#3ED6C8",
+     "kind": "dot",
+     "t": 6
+    }
+   ]
+  },
+  {
+   "id": "c2-oreshnik",
+   "type": "region",
+   "start": 246.348,
+   "end": 254.85,
+   "tag": "REAL HISTORY",
+   "clock": "2026",
+   "clockLabel": "ORESHNIK",
+   "source": "Ukrainian Air Force statements; Reuters",
+   "caption": "Oreshnik, nuclear-capable, fired at Ukraine without a nuclear warhead.",
+   "view": {
+    "center": [
+     32,
+     49.5
+    ],
+    "widthKm": 1500
+   },
+   "zoomTo": {
+    "center": [
+     30,
+     49.5
+    ],
+    "widthKm": 900
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      30.52,
+      50.45
+     ],
+     "label": "Ukrainian territory",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 6,
+     "t": 0.8
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Russia",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 2.5
+    }
+   ]
+  },
+  {
+   "id": "c2-oneweapon",
+   "type": "region",
+   "start": 254.85,
+   "end": 271.578,
+   "tag": "REAL HISTORY",
+   "clock": "",
+   "caption": "\"Escalate to de-escalate\": one small strike to make the other side stop. A commentators' idea, not a published Russian plan.",
+   "view": {
+    "center": [
+     34,
+     50
+    ],
+    "widthKm": 1500
+   },
+   "zoomTo": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 200
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "label": "One strike",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 7,
+     "t": 1.0
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "km": 20,
+     "color": "#FF3B3B",
+     "t": 2.5
+    }
+   ]
+  },
+  {
+   "id": "c2-flight",
+   "type": "region",
+   "start": 271.578,
+   "end": 279.784,
+   "tag": "SIMULATION",
+   "clock": "T+00:00",
+   "clockLabel": "IF IT LAUNCHED",
+   "caption": "About 140 km in about three minutes.",
+   "source": "Scenario engine",
+   "view": {
+    "center": [
+     36.9,
+     50.0
+    ],
+    "widthKm": 420
+   },
+   "zoomTo": {
+    "center": [
+     36.9,
+     50.0
+    ],
+    "widthKm": 300
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      36.6,
+      50.55
+     ],
+     "label": "Belgorod region (simulated)",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 5,
+     "t": 0.2
+    },
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "label": "Simulated target",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 7,
+     "t": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      36.6,
+      50.55
+     ],
+     "to": [
+      37.824,
+      49.517
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0,
+     "t1": 1
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       36.6,
+       50.55
+      ],
+      [
+       37.824,
+       49.517
+      ]
+     ],
+     "t0": 1.5,
+     "t1": 6.5,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander-M",
+     "t": 1.2,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "c3-card",
+   "type": "chapter",
+   "start": 279.784,
+   "end": 285.145,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 03",
+   "title": "The trigger"
+  },
+  {
+   "id": "c3-sector",
+   "type": "region",
+   "start": 285.145,
+   "end": 296.685,
+   "tag": "SIMULATION",
+   "clock": "BEFORE DAY 1",
+   "clockLabel": "OUR ASSUMPTION",
+   "caption": "A counter-offensive threatens a Russian-held sector. Moscow calls it a critical threat to territorial integrity.",
+   "view": {
+    "center": [
+     37.2,
+     49.9
+    ],
+    "widthKm": 900
+   },
+   "zoomTo": {
+    "center": [
+     37.6,
+     49.6
+    ],
+    "widthKm": 330
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       36.9,
+       49.2
+      ],
+      [
+       38.0,
+       49.25
+      ],
+      [
+       38.15,
+       49.85
+      ],
+      [
+       37.2,
+       49.95
+      ]
+     ],
+     "label": "Russian-held sector (invented)",
+     "color": "#FF3B3B",
+     "t": 3.0,
+     "pulse": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      36.2,
+      49.1
+     ],
+     "to": [
+      37.1,
+      49.5
+     ],
+     "label": "Counter-offensive (simulated)",
+     "color": "#3ED6C8",
+     "t0": 1.0,
+     "t1": 5.0
+    }
+   ]
+  },
+  {
+   "id": "c3-choose",
+   "type": "text",
+   "start": 296.685,
+   "end": 303.945,
+   "tag": "SIMULATION",
+   "lines": [
+    "The doctrine does not say what Russia would do.",
+    "We are choosing."
+   ]
+  },
+  {
+   "id": "c3-one",
+   "type": "number",
+   "start": 303.945,
+   "end": 310.537,
+   "tag": "SIMULATION",
+   "value": "ONE",
+   "label": "Iskander-M · one warhead · one target",
+   "sub": "our simulation choice",
+   "color": "#FF3B3B"
+  },
+  {
+   "id": "c3-farm",
+   "type": "city",
+   "start": 310.537,
+   "end": 318.1,
+   "tag": "SIMULATION",
+   "caption": "An invented staging area in open farmland, eastern Kharkiv region.",
+   "source": "Scenario assumption; OpenStreetMap",
+   "city": "kharkiv-farmland",
+   "view": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 60
+   },
+   "zoomTo": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 14
+   },
+   "gz": [
+    37.824,
+    49.517
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "text": "Staging area (simulated)",
+     "color": "#FFFFFF",
+     "t": 1.0
+    },
+    {
+     "at": [
+      37.80357,
+      49.46679
+     ],
+     "text": "Lozova",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 3.0
+    },
+    {
+     "at": [
+      37.7196,
+      49.5206
+     ],
+     "text": "Kruhliakivka",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 4.5
+    }
+   ]
+  },
+  {
+   "id": "c3-zap",
+   "type": "region",
+   "start": 318.1,
+   "end": 326.762,
+   "tag": "SIMULATION",
+   "caption": "No city. Not near the Zaporizhzhia plant. The location is simulated.",
+   "source": "Scenario assumption",
+   "view": {
+    "center": [
+     36.0,
+     48.6
+    ],
+    "widthKm": 760
+   },
+   "zoomTo": {
+    "center": [
+     36.4,
+     49.0
+    ],
+    "widthKm": 520
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "label": "Simulated target",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 7,
+     "t": 0.6
+    },
+    {
+     "at": [
+      34.586,
+      47.51
+     ],
+     "label": "Zaporizhzhia plant",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 6,
+     "t": 3.0
+    },
+    {
+     "at": [
+      36.23,
+      49.99
+     ],
+     "label": "Kharkiv",
+     "kind": "dot",
+     "t": 1.6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      37.824,
+      49.517
+     ],
+     "to": [
+      34.586,
+      47.51
+     ],
+     "color": "#3ED6C8",
+     "dashed": true,
+     "t0": 3.4,
+     "t1": 5.2
+    }
+   ]
+  },
+  {
+   "id": "c3-15kt",
+   "type": "number",
+   "start": 326.762,
+   "end": 333.439,
+   "tag": "SIMULATION",
+   "value": "NO PUBLISHED YIELD",
+   "label": "for Russian tactical warheads",
+   "sub": "research found none",
+   "color": "#F2B01E",
+   "source": "Research notes, section C"
+  },
+  {
+   "id": "c3-hiro",
+   "type": "bars",
+   "start": 333.439,
+   "end": 338.216,
+   "tag": "SIMULATION",
+   "title": "We assume 15 kilotons, the same as Hiroshima",
+   "sub": "kilotons · a simulation choice, not a fact about any Russian warhead",
+   "source": "US DOE OSTI (Hiroshima); simulation choice (ours)",
+   "bars": [
+    {
+     "label": "Hiroshima, 1945",
+     "value": 15,
+     "display": "about 15 kt",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "Our warhead",
+     "value": 15,
+     "display": "15 kt",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "c4-card",
+   "type": "chapter",
+   "start": 338.216,
+   "end": 341.716,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 04",
+   "title": "Minute by minute"
+  },
+  {
+   "id": "c4-m0",
+   "type": "region",
+   "start": 341.716,
+   "end": 353.544,
+   "tag": "SIMULATION",
+   "clock": "T+00:00",
+   "clockLabel": "MINUTE ZERO",
+   "caption": "Minute zero. A ballistic missile climbs out of Belgorod region.",
+   "view": {
+    "center": [
+     36.7,
+     50.3
+    ],
+    "widthKm": 230
+   },
+   "zoomTo": {
+    "center": [
+     36.9,
+     50.0
+    ],
+    "widthKm": 290
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      36.6,
+      50.55
+     ],
+     "label": "Launch: Belgorod region (simulated)",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 5,
+     "t": 0.2
+    },
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "label": "Target: open farmland (simulated)",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 7,
+     "t": 2.0
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      36.6,
+      50.55
+     ],
+     "to": [
+      37.824,
+      49.517
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0,
+     "t1": 1
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       36.6,
+       50.55
+      ],
+      [
+       37.008,
+       50.2057
+      ]
+     ],
+     "t0": 0,
+     "t1": 11.83,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander-M",
+     "t": 0.3,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "c4-m1",
+   "type": "radar",
+   "start": 353.544,
+   "end": 361.425,
+   "tag": "SIMULATION",
+   "title": "Minute one · air defence",
+   "lines": [
+    {
+     "k": "tracks",
+     "v": "one"
+    },
+    {
+     "k": "warning",
+     "v": "seconds"
+    },
+    {
+     "k": "type",
+     "v": "looks like any Iskander"
+    }
+   ],
+   "tracks": 1,
+   "big": "SECONDS",
+   "bigColor": "#FF3B3B"
+  },
+  {
+   "id": "c4-m2",
+   "type": "region",
+   "start": 361.425,
+   "end": 375.05,
+   "tag": "SIMULATION",
+   "clock": "T+02:00",
+   "clockLabel": "MINUTE TWO",
+   "caption": "It begins to fall. Below: a staging area of vehicles and tents.",
+   "view": {
+    "center": [
+     37.1,
+     49.8
+    ],
+    "widthKm": 130
+   },
+   "zoomTo": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 34
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "label": "Staging area (simulated)",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 7,
+     "t": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      36.6,
+      50.55
+     ],
+     "to": [
+      37.824,
+      49.517
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0,
+     "t1": 1
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       37.416,
+       49.8613
+      ],
+      [
+       37.824,
+       49.517
+      ]
+     ],
+     "t0": 0,
+     "t1": 13.62,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander-M",
+     "t": 0.0,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "c4-flash",
+   "type": "city",
+   "start": 375.05,
+   "end": 386.934,
+   "tag": "SIMULATION",
+   "clock": "T+03:00",
+   "clockLabel": "MINUTE THREE · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "kharkiv-farmland",
+   "view": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 4.5
+   },
+   "zoomTo": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 3.6
+   },
+   "gz": [
+    37.824,
+    49.517
+   ],
+   "rings": [
+    {
+     "km": 0.18,
+     "label": "Fireball",
+     "angle": 330,
+     "color": "#FFFFFF",
+     "t": 0.2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      37.824,
+      49.5215
+     ],
+     "text": "Staging area (simulated)",
+     "color": "#FFFFFF"
+    }
+   ],
+   "legend": [],
+   "flashT": 0.1,
+   "caption": "Minute three. An air burst. A flash brighter than the sun, then a fireball."
+  },
+  {
+   "id": "c4-shock",
+   "type": "city",
+   "start": 386.934,
+   "end": 393.466,
+   "tag": "SIMULATION",
+   "clock": "T+03:00",
+   "clockLabel": "MINUTE THREE · SHOCK WAVE",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "kharkiv-farmland",
+   "view": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 5
+   },
+   "zoomTo": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 14
+   },
+   "gz": [
+    37.824,
+    49.517
+   ],
+   "flashT": -30,
+   "rings": [
+    {
+     "km": 0.18,
+     "label": "Fireball",
+     "angle": 330,
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 1.67,
+     "label": "Shock wave",
+     "color": "#FF7A1A",
+     "angle": 45,
+     "t": 0.2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      37.824,
+      49.5215
+     ],
+     "text": "Staging area (simulated)",
+     "color": "#FFFFFF"
+    }
+   ],
+   "legend": []
+  },
+  {
+   "id": "c4-m4",
+   "type": "globe",
+   "start": 393.466,
+   "end": 407.282,
+   "tag": "SIMULATION",
+   "clock": "T+04:00",
+   "clockLabel": "MINUTE FOUR",
+   "caption": "Satellites register the flash within seconds. Monitors in neighbouring countries log numbers.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 48,
+     "lon": 37,
+     "scale": 2400
+    },
+    {
+     "t": 6,
+     "lat": 49,
+     "lon": 28,
+     "scale": 1100
+    },
+    {
+     "t": 13.8,
+     "lat": 50,
+     "lon": 22,
+     "scale": 1000
+    }
+   ],
+   "sun": {
+    "lat": -22.88,
+    "lon": 68.21
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.12)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.12)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.12)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.12)"
+    },
+    {
+     "iso": "498",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.12)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "label": "Detonation",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.3
+    },
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "label": "Warsaw",
+     "color": "#6EA8FF",
+     "kind": "ring",
+     "t": 7
+    },
+    {
+     "at": [
+      26.1,
+      44.43
+     ],
+     "label": "Bucharest",
+     "color": "#6EA8FF",
+     "kind": "ring",
+     "t": 8.5
+    }
+   ],
+   "flashes": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "t": 0.4,
+     "radius": 90,
+     "color": "#FFFFFF"
+    }
+   ]
+  },
+  {
+   "id": "c4-m10",
+   "type": "region",
+   "start": 407.282,
+   "end": 421.032,
+   "tag": "SIMULATION",
+   "clock": "T+10:00",
+   "clockLabel": "MINUTE TEN",
+   "view": {
+    "center": [
+     34,
+     51.5
+    ],
+    "widthKm": 2200
+   },
+   "zoomTo": {
+    "center": [
+     34,
+     51.5
+    ],
+    "widthKm": 1500
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "label": "Detonation site",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 6,
+     "t": 0.3
+    },
+    {
+     "at": [
+      30.52,
+      50.45
+     ],
+     "label": "Kyiv",
+     "kind": "dot",
+     "t": 0.6
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      26,
+      52.6
+     ],
+     "text": "Ukraine's air force: a nuclear detonation",
+     "color": "#3ED6C8",
+     "t": 1.2
+    },
+    {
+     "at": [
+      37,
+      57.2
+     ],
+     "text": "Russia's defence ministry: nothing, or something else",
+     "color": "#F2B01E",
+     "t": 8.158999999999992
+    }
+   ]
+  },
+  {
+   "id": "c5-card",
+   "type": "chapter",
+   "start": 421.032,
+   "end": 424.532,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 05",
+   "title": "One warhead, ring by ring"
+  },
+  {
+   "id": "c5-fireball",
+   "type": "city",
+   "start": 424.532,
+   "end": 435.561,
+   "tag": "SIMULATION",
+   "clock": "T+03:00",
+   "clockLabel": "MINUTE THREE · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "kharkiv-farmland",
+   "view": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 5.0
+   },
+   "zoomTo": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 4.0
+   },
+   "gz": [
+    37.824,
+    49.517
+   ],
+   "rings": [
+    {
+     "km": 0.18,
+     "label": "Fireball",
+     "angle": 330,
+     "color": "#FFFFFF",
+     "t": 2.465000000000009
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      37.824,
+      49.5215
+     ],
+     "text": "Staging area (simulated)",
+     "color": "#FFFFFF"
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 180 m",
+     "color": "#FFFFFF"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c5-20psi",
+   "type": "city",
+   "start": 435.561,
+   "end": 443.609,
+   "tag": "SIMULATION",
+   "clock": "T+03:00",
+   "clockLabel": "MINUTE THREE · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "kharkiv-farmland",
+   "view": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 3.4
+   },
+   "zoomTo": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 4.0
+   },
+   "gz": [
+    37.824,
+    49.517
+   ],
+   "rings": [
+    {
+     "km": 0.18,
+     "label": "Fireball",
+     "angle": 330,
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 0.34,
+     "label": "20 psi",
+     "angle": 150,
+     "color": "#FF7A1A",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      37.824,
+      49.5215
+     ],
+     "text": "Staging area (simulated)",
+     "color": "#FFFFFF"
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 180 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 340 m",
+     "color": "#FF7A1A"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c5-5psi",
+   "type": "city",
+   "start": 443.609,
+   "end": 452.804,
+   "tag": "SIMULATION",
+   "clock": "T+03:00",
+   "clockLabel": "MINUTE THREE · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "kharkiv-farmland",
+   "view": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 9
+   },
+   "zoomTo": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 14
+   },
+   "gz": [
+    37.824,
+    49.517
+   ],
+   "rings": [
+    {
+     "km": 0.18,
+     "label": "Fireball",
+     "angle": 330,
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 0.34,
+     "label": "20 psi",
+     "angle": 150,
+     "color": "#FF7A1A",
+     "t": -30
+    },
+    {
+     "km": 1.67,
+     "label": "5 psi",
+     "angle": 60,
+     "color": "#FF3B3B",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      37.824,
+      49.5215
+     ],
+     "text": "Staging area (simulated)",
+     "color": "#FFFFFF"
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 180 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 340 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 1.67 km",
+     "color": "#FF3B3B"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c5-area",
+   "type": "number",
+   "start": 452.804,
+   "end": 456.698,
+   "tag": "SIMULATION",
+   "value": "8.8 KM²",
+   "countTo": 8.8,
+   "decimals": 1,
+   "suffix": " KM²",
+   "label": "inside the 5 psi ring",
+   "sub": "most ordinary buildings collapse or are badly damaged",
+   "color": "#FF3B3B",
+   "source": "Scenario engine"
+  },
+  {
+   "id": "c5-burns",
+   "type": "city",
+   "start": 456.698,
+   "end": 466.258,
+   "tag": "SIMULATION",
+   "clock": "T+03:00",
+   "clockLabel": "MINUTE THREE · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "kharkiv-farmland",
+   "view": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 12
+   },
+   "zoomTo": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 17
+   },
+   "gz": [
+    37.824,
+    49.517
+   ],
+   "rings": [
+    {
+     "km": 0.18,
+     "label": "Fireball",
+     "angle": 330,
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 0.34,
+     "label": "20 psi",
+     "angle": 150,
+     "color": "#FF7A1A",
+     "t": -30
+    },
+    {
+     "km": 1.67,
+     "label": "5 psi",
+     "angle": 60,
+     "color": "#FF3B3B",
+     "t": -30
+    },
+    {
+     "km": 1.91,
+     "label": "Third-degree burns",
+     "angle": 230,
+     "color": "#F2B01E",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      37.824,
+      49.5215
+     ],
+     "text": "Staging area (simulated)",
+     "color": "#FFFFFF"
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 180 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 340 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 1.67 km",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "Burns 1.9 km",
+     "color": "#F2B01E"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c5-1psi",
+   "type": "city",
+   "start": 466.258,
+   "end": 475.37,
+   "tag": "SIMULATION",
+   "clock": "T+03:00",
+   "clockLabel": "MINUTE THREE · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "kharkiv-farmland",
+   "view": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 18
+   },
+   "zoomTo": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 22
+   },
+   "gz": [
+    37.824,
+    49.517
+   ],
+   "rings": [
+    {
+     "km": 0.18,
+     "label": "Fireball",
+     "angle": 330,
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 0.34,
+     "label": "20 psi",
+     "angle": 150,
+     "color": "#FF7A1A",
+     "t": -30
+    },
+    {
+     "km": 1.67,
+     "label": "5 psi",
+     "angle": 60,
+     "color": "#FF3B3B",
+     "t": -30
+    },
+    {
+     "km": 1.91,
+     "label": "Third-degree burns",
+     "angle": 230,
+     "color": "#F2B01E",
+     "t": -30
+    },
+    {
+     "km": 4.52,
+     "label": "1 psi",
+     "angle": 20,
+     "color": "#3ED6C8",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      37.824,
+      49.5215
+     ],
+     "text": "Staging area (simulated)",
+     "color": "#FFFFFF"
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 180 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 340 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 1.67 km",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "Burns 1.9 km",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "1 psi 4.5 km",
+     "color": "#3ED6C8"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c5-fallout",
+   "type": "region",
+   "start": 475.37,
+   "end": 495.795,
+   "tag": "SIMULATION",
+   "clock": "DAY 1",
+   "clockLabel": "AFTER THE BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "caption": "An air burst: little local fallout. No dose, no contour: the engine supplies none.",
+   "view": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 36
+   },
+   "zoomTo": {
+    "center": [
+     37.6,
+     49.5
+    ],
+    "widthKm": 130
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "label": "Air burst",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 6,
+     "t": 0.4
+    },
+    {
+     "at": [
+      36.23,
+      49.99
+     ],
+     "label": "Kharkiv",
+     "kind": "dot",
+     "t": 9
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "km": 4.52,
+     "color": "#3ED6C8",
+     "t": 1.0
+    }
+   ],
+   "plume": {
+    "at": [
+     37.824,
+     49.517
+    ],
+    "bearing": 90,
+    "lengthKm": 40,
+    "widthKm": 6,
+    "t0": 7.33299999999997,
+    "t1": 12.33299999999997,
+    "color": "#F2B01E",
+    "label": "thin cloud drifts east (our wind choice)"
+   },
+   "labels": [
+    {
+     "at": [
+      37.9,
+      49.62
+     ],
+     "text": "toward the Russian-held side",
+     "color": "#F2B01E",
+     "t": 11.620000000000005
+    }
+   ]
+  },
+  {
+   "id": "c5-out",
+   "type": "region",
+   "start": 495.795,
+   "end": 510.201,
+   "tag": "SIMULATION",
+   "clock": "DAY 1",
+   "clockLabel": "AFTER THE BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "caption": "No published study covers this strike, so we give no death toll. Eight point eight square kilometres of farmland.",
+   "view": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 40
+   },
+   "zoomTo": {
+    "center": [
+     34,
+     50
+    ],
+    "widthKm": 1500
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "label": "One warhead",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 7,
+     "t": 1.0
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "km": 1.67,
+     "color": "#FF3B3B",
+     "t": 0.6
+    },
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "km": 4.52,
+     "color": "#3ED6C8",
+     "t": 1.0
+    }
+   ]
+  },
+  {
+   "id": "c6-card",
+   "type": "chapter",
+   "start": 510.201,
+   "end": 513.701,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 06",
+   "title": "The day after"
+  },
+  {
+   "id": "c6-un",
+   "type": "globe",
+   "start": 513.701,
+   "end": 533.314,
+   "tag": "SIMULATION",
+   "clock": "DAY 1",
+   "clockLabel": "THE FIRST HOURS",
+   "caption": "We assume emergency sessions at the UN Security Council, the G7 and NATO.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 45,
+     "lon": -45,
+     "scale": 650
+    },
+    {
+     "t": 8,
+     "lat": 46,
+     "lon": -15,
+     "scale": 800
+    },
+    {
+     "t": 19.612999999999943,
+     "lat": 48,
+     "lon": 30,
+     "scale": 1300
+    }
+   ],
+   "sun": {
+    "lat": 10,
+    "lon": 20
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -74.0,
+      40.7
+     ],
+     "label": "UN Security Council",
+     "color": "#3ED6C8",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "NATO",
+     "color": "#3ED6C8",
+     "kind": "dot",
+     "t": 5.528999999999996
+    },
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "Washington, 2022: \"decisive\" consequences",
+     "color": "#3ED6C8",
+     "kind": "dot",
+     "t": 8.480000000000018
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 9.928999999999974
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -77.04,
+      38.9
+     ],
+     "to": [
+      37.62,
+      55.75
+     ],
+     "t0": 8.480000000000018,
+     "t1": 13.480000000000018,
+     "color": "#3ED6C8",
+     "loft": 0.15
+    }
+   ]
+  },
+  {
+   "id": "c6-nato",
+   "type": "region",
+   "start": 533.314,
+   "end": 542.874,
+   "tag": "SIMULATION",
+   "clock": "DAY 1",
+   "clockLabel": "ARTICLE 5",
+   "caption": "Ukraine is not a NATO member. Article 5 would not be triggered.",
+   "source": "NATO; North Atlantic Treaty",
+   "view": {
+    "center": [
+     26,
+     50.5
+    ],
+    "widthKm": 2500
+   },
+   "zoomTo": {
+    "center": [
+     26,
+     50.5
+    ],
+    "widthKm": 1900
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "804",
+     "text": "UKRAINE: NOT A MEMBER",
+     "color": "#3ED6C8"
+    },
+    {
+     "iso": "616",
+     "text": "NATO",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "642",
+     "text": "NATO",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 6,
+     "t": 0.5
+    }
+   ]
+  },
+  {
+   "id": "c6-channels",
+   "type": "globe",
+   "start": 542.874,
+   "end": 553.33,
+   "tag": "SIMULATION",
+   "clock": "DAY 1",
+   "clockLabel": "CHANNELS REOPEN",
+   "caption": "Defence chiefs phone. Intelligence heads meet. We assume they do, as in 2022.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 46,
+     "lon": -40,
+     "scale": 700
+    },
+    {
+     "t": 10,
+     "lat": 46,
+     "lon": 20,
+     "scale": 1000
+    }
+   ],
+   "sun": {
+    "lat": 10,
+    "lon": 20
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "Washington",
+     "color": "#3ED6C8",
+     "kind": "dot",
+     "t": 0.4
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 1.0
+    },
+    {
+     "at": [
+      32.86,
+      39.93
+     ],
+     "label": "Ankara",
+     "color": "#3ED6C8",
+     "kind": "ring",
+     "t": 6
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -77.04,
+      38.9
+     ],
+     "to": [
+      37.62,
+      55.75
+     ],
+     "t0": 1.5,
+     "t1": 5.5,
+     "color": "#3ED6C8",
+     "loft": 0.15
+    },
+    {
+     "from": [
+      -77.04,
+      38.9
+     ],
+     "to": [
+      32.86,
+      39.93
+     ],
+     "t0": 5.0,
+     "t1": 8.5,
+     "color": "#3ED6C8",
+     "loft": 0.15
+    }
+   ]
+  },
+  {
+   "id": "c6-radiation",
+   "type": "region",
+   "start": 553.33,
+   "end": 568.547,
+   "tag": "SIMULATION",
+   "clock": "DAY 1",
+   "clockLabel": "RADIATION MONITORS",
+   "caption": "Modelling expectation for an air burst: readings at background outside the immediate area. An expectation, not a measurement.",
+   "view": {
+    "center": [
+     28,
+     49.5
+    ],
+    "widthKm": 1700
+   },
+   "zoomTo": {
+    "center": [
+     24,
+     49.5
+    ],
+    "widthKm": 1500
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.10)"
+    },
+    {
+     "iso": "642",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.10)"
+    },
+    {
+     "iso": "703",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.10)"
+    },
+    {
+     "iso": "348",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.10)"
+    },
+    {
+     "iso": "498",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.10)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "label": "Detonation site",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 6,
+     "t": 0.4
+    },
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "label": "Warsaw",
+     "color": "#6EA8FF",
+     "kind": "ring",
+     "t": 3
+    },
+    {
+     "at": [
+      26.1,
+      44.43
+     ],
+     "label": "Bucharest",
+     "color": "#6EA8FF",
+     "kind": "ring",
+     "t": 5
+    },
+    {
+     "at": [
+      19.04,
+      47.5
+     ],
+     "label": "Budapest",
+     "color": "#3ED6C8",
+     "kind": "ring",
+     "t": 7
+    },
+    {
+     "at": [
+      28.86,
+      47.01
+     ],
+     "label": "Chisinau",
+     "color": "#3ED6C8",
+     "kind": "ring",
+     "t": 9
+    }
+   ]
+  },
+  {
+   "id": "c6-answer",
+   "type": "region",
+   "start": 568.547,
+   "end": 585.703,
+   "tag": "SIMULATION",
+   "clock": "DAY 2 TO 3",
+   "clockLabel": "OUR CHOICES",
+   "view": {
+    "center": [
+     28,
+     50
+    ],
+    "widthKm": 2400
+   },
+   "zoomTo": {
+    "center": [
+     30,
+     50
+    ],
+    "widthKm": 1500
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "label": "Detonation site",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 6,
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      21,
+      53.6
+     ],
+     "text": "No ally answers with a nuclear weapon",
+     "color": "#3ED6C8",
+     "t": 1.0
+    },
+    {
+     "at": [
+      21,
+      47.4
+     ],
+     "text": "A conventional response is one option",
+     "color": "#FFFFFF",
+     "t": 3.8629999999999427
+    },
+    {
+     "at": [
+      21,
+      46.4
+     ],
+     "text": "2022: a retired US general, not for his government",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 9.441000000000031
+    }
+   ]
+  },
+  {
+   "id": "c6-isolate",
+   "type": "globe",
+   "start": 585.703,
+   "end": 597.635,
+   "tag": "SIMULATION",
+   "clock": "DAY 2 TO 3",
+   "clockLabel": "OUR CHOICES",
+   "caption": "Sanctions and isolation. China and India distance themselves. Our choices.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 50,
+     "lon": 45,
+     "scale": 650
+    },
+    {
+     "t": 5,
+     "lat": 40,
+     "lon": 80,
+     "scale": 650
+    },
+    {
+     "t": 11.932000000000016,
+     "lat": 52,
+     "lon": 50,
+     "scale": 700
+    }
+   ],
+   "sun": {
+    "lat": 10,
+    "lon": 90
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.09)"
+    },
+    {
+     "iso": "156",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "356",
+     "color": "#F2B01E"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Sanctions, isolation",
+     "color": "#FF3B3B",
+     "kind": "dot",
+     "t": 0.5
+    },
+    {
+     "at": [
+      116.4,
+      39.9
+     ],
+     "label": "China",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 3.0410000000000537
+    },
+    {
+     "at": [
+      77.2,
+      28.6
+     ],
+     "label": "India",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 3.586999999999989
+    },
+    {
+     "at": [
+      52,
+      58.5
+     ],
+     "label": "Russia: no second weapon, for now",
+     "color": "#FF3B3B",
+     "kind": "dot",
+     "t": 7.580000000000041
+    }
+   ]
+  },
+  {
+   "id": "c6-seas",
+   "type": "region",
+   "start": 597.635,
+   "end": 610.69,
+   "tag": "SIMULATION",
+   "clock": "DAY 4 TO 7",
+   "clockLabel": "OUR CHOICES",
+   "caption": "Oil, grain and insurance jump. Flights rerouted. Poland and the Baltic states raise alert levels.",
+   "view": {
+    "center": [
+     32,
+     48
+    ],
+    "widthKm": 1900
+   },
+   "zoomTo": {
+    "center": [
+     30,
+     50.5
+    ],
+    "widthKm": 2500
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       35.5,
+       52.0
+      ],
+      [
+       40.2,
+       50.4
+      ],
+      [
+       40.1,
+       47.6
+      ],
+      [
+       38.0,
+       47.0
+      ],
+      [
+       35.5,
+       48.3
+      ]
+     ],
+     "label": "Airspace: flights rerouted",
+     "color": "#F2B01E",
+     "t": 6.014999999999986,
+     "pulse": true
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       30.75,
+       46.5
+      ],
+      [
+       30.2,
+       44.0
+      ],
+      [
+       29.2,
+       41.3
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 9,
+     "kind": "cargo",
+     "label": "Grain",
+     "t": 0
+    },
+    {
+     "path": [
+      [
+       37.8,
+       44.7
+      ],
+      [
+       33.5,
+       43.0
+      ],
+      [
+       29.4,
+       41.2
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 10,
+     "kind": "tanker",
+     "label": "Oil",
+     "t": 0
+    }
+   ]
+  },
+  {
+   "id": "c6-rail",
+   "type": "region",
+   "start": 610.69,
+   "end": 618.116,
+   "tag": "SIMULATION",
+   "clock": "DAY 4 TO 7",
+   "clockLabel": "OUR CHOICES",
+   "caption": "Rail through the target district stops. Banking links with Russia are cut.",
+   "view": {
+    "center": [
+     36,
+     51.5
+    ],
+    "widthKm": 1000
+   },
+   "zoomTo": {
+    "center": [
+     37,
+     53
+    ],
+    "widthKm": 1500
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    },
+    {
+     "iso": "643",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.09)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "label": "Rail stops",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 6,
+     "t": 0.5
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Banking links cut",
+     "color": "#FF3B3B",
+     "kind": "dot",
+     "t": 2.6549999999999727
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      37.824,
+      49.517
+     ],
+     "to": [
+      37.62,
+      55.75
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 2.5,
+     "t1": 5.0
+    }
+   ]
+  },
+  {
+   "id": "c6-noemp",
+   "type": "region",
+   "start": 618.116,
+   "end": 627.811,
+   "tag": "SIMULATION",
+   "clock": "DAY 4 TO 7",
+   "clockLabel": "NO BLACKOUT",
+   "caption": "No blackout. A low 15 kt air burst has no wide-area electromagnetic pulse.",
+   "view": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 60
+   },
+   "zoomTo": {
+    "center": [
+     34,
+     50
+    ],
+    "widthKm": 1400
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "label": "Detonation site",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 6,
+     "t": 0.3
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "km": 4.52,
+     "color": "#3ED6C8",
+     "t": 0.5
+    }
+   ]
+  },
+  {
+   "id": "c6-znpp",
+   "type": "region",
+   "start": 627.811,
+   "end": 643.74,
+   "tag": "SIMULATION",
+   "clock": "DAY 4 TO 7",
+   "clockLabel": "FEAR SPREADS",
+   "source": "IAEA statements",
+   "view": {
+    "center": [
+     35.8,
+     48.6
+    ],
+    "widthKm": 900
+   },
+   "zoomTo": {
+    "center": [
+     34.586,
+     47.51
+    ],
+    "widthKm": 220
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.586,
+      47.51
+     ],
+     "label": "Zaporizhzhia plant: largest in Europe, held by Russian forces",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 7,
+     "t": 0.8
+    },
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "label": "Detonation site",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 5,
+     "t": 0.3
+    },
+    {
+     "at": [
+      35.05,
+      48.46
+     ],
+     "label": "Dnipro",
+     "kind": "dot",
+     "t": 1.5
+    },
+    {
+     "at": [
+      35.14,
+      47.84
+     ],
+     "label": "Zaporizhzhia city",
+     "kind": "dot",
+     "t": 2.5
+    },
+    {
+     "at": [
+      34.4,
+      47.9
+     ],
+     "kind": "dot",
+     "t": 99
+    },
+    {
+     "at": [
+      36.23,
+      49.99
+     ],
+     "label": "Kharkiv",
+     "kind": "dot",
+     "t": 3.5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      34.0,
+      47.1
+     ],
+     "text": "IAEA director: off-site power \"extremely fragile\"",
+     "color": "#F2B01E",
+     "t": 8.838999999999942
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       34.35,
+       47.35
+      ],
+      [
+       34.8,
+       47.35
+      ],
+      [
+       34.8,
+       47.67
+      ],
+      [
+       34.35,
+       47.67
+      ]
+     ],
+     "label": "",
+     "color": "#F2B01E",
+     "t": 8.838999999999942,
+     "pulse": true
+    }
+   ]
+  },
+  {
+   "id": "c6-next",
+   "type": "region",
+   "start": 643.74,
+   "end": 648.956,
+   "tag": "SIMULATION",
+   "clock": "DAY 4 TO 7",
+   "clockLabel": "OUR ASSUMPTION",
+   "caption": "No one is sure what the next strike would hit.",
+   "view": {
+    "center": [
+     35.5,
+     48.8
+    ],
+    "widthKm": 500
+   },
+   "zoomTo": {
+    "center": [
+     36,
+     49.2
+    ],
+    "widthKm": 1300
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.586,
+      47.51
+     ],
+     "label": "?",
+     "color": "#F2B01E",
+     "kind": "ring",
+     "size": 7,
+     "t": 0.5
+    },
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "label": "?",
+     "color": "#FF3B3B",
+     "kind": "ring",
+     "size": 7,
+     "t": 1.5
+    },
+    {
+     "at": [
+      36.23,
+      49.99
+     ],
+     "label": "?",
+     "color": "#F2B01E",
+     "kind": "ring",
+     "size": 7,
+     "t": 2.5
+    }
+   ]
+  },
+  {
+   "id": "c6-d7",
+   "type": "region",
+   "start": 648.956,
+   "end": 658.516,
+   "tag": "SIMULATION",
+   "clock": "DAY 7",
+   "clockLabel": "THE WAR GOES ON",
+   "caption": "No ceasefire. No one knows whether a second weapon exists, or where.",
+   "view": {
+    "center": [
+     33,
+     49
+    ],
+    "widthKm": 1400
+   },
+   "zoomTo": {
+    "center": [
+     34,
+     49
+    ],
+    "widthKm": 2200
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "label": "Day one",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 6,
+     "t": 0.3
+    },
+    {
+     "at": [
+      34.586,
+      47.51
+     ],
+     "kind": "ring",
+     "color": "#F2B01E",
+     "size": 6,
+     "t": 2
+    },
+    {
+     "at": [
+      30.52,
+      50.45
+     ],
+     "label": "Kyiv",
+     "kind": "dot",
+     "t": 1.0
+    }
+   ]
+  },
+  {
+   "id": "c6-rule",
+   "type": "globe",
+   "start": 658.516,
+   "end": 669.299,
+   "tag": "SIMULATION",
+   "clock": "DAY 7",
+   "clockLabel": "IT HAS NOT HAPPENED",
+   "caption": "After Nagasaki, nobody used one. On day seven, nobody can say if that can be mended.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 38,
+     "lon": 120,
+     "scale": 700
+    },
+    {
+     "t": 5,
+     "lat": 42,
+     "lon": 80,
+     "scale": 800
+    },
+    {
+     "t": 10.783000000000015,
+     "lat": 49,
+     "lon": 40,
+     "scale": 1500
+    }
+   ],
+   "sun": {
+    "lat": 10,
+    "lon": 100
+   },
+   "markers": [
+    {
+     "at": [
+      129.87,
+      32.74
+     ],
+     "label": "Nagasaki, 1945",
+     "color": "#F2B01E",
+     "kind": "target",
+     "t": 0.3
+    },
+    {
+     "at": [
+      37.824,
+      49.517
+     ],
+     "label": "Day one",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 6
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      129.87,
+      32.74
+     ],
+     "to": [
+      37.824,
+      49.517
+     ],
+     "t0": 1.0,
+     "t1": 7.0,
+     "color": "#F2B01E",
+     "loft": 0.2
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "type": "endslate",
+   "start": 669.299,
+   "end": 683.72,
+   "tag": "",
+   "title": "Next scenario",
+   "line": "Iran tests a bomb, and Israel answers."
+  }
+ ]
+}

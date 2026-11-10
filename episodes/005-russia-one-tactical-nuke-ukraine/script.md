@@ -4,7 +4,7 @@ Episode 005. Draft 1, 2026-11-10. About twelve minutes at 138 words per minute. 
 
 ## Cold open [SIMULATION]
 
-Day one. Nine twenty in the morning. A missile leaves a launcher in Russia's Belgorod region, aimed at open farmland a hundred and thirty kilometres south. [C]
+Day one. Nine twenty in the morning. A missile leaves a launcher in Russia's Belgorod region, aimed at open farmland a hundred and forty kilometres south-east. [C]
 
 It looks like any other Iskander. Russia has fired them at Ukraine throughout this war. [A14, C]
 
@@ -44,7 +44,7 @@ And the signals have kept coming. In twenty twenty-six, Russia held a three-day 
 
 Some commentators call the idea behind one-weapon use escalate to de-escalate. One small strike, meant to make the other side stop. It is an idea they describe. It is not a published Russian plan. [C]
 
-How fast would it happen? An Iskander covers a hundred and thirty kilometres in about three minutes. [C]
+How fast would it happen? An Iskander covers a hundred and forty kilometres in about three minutes. [C]
 
 ## Chapter 03: the trigger [SIMULATION]
 
