@@ -1,260 +1,260 @@
 {
  "date": "2026-11-10",
- "at": "2026-11-10T04:47:46Z",
+ "at": "2026-11-10T10:05:48Z",
  "channels": [
   {
    "handle": "@hindcast26",
    "title": "Hindcast",
-   "subs": "3500",
-   "median_long_views_last50": 6884,
+   "subs": "3510",
+   "median_long_views_last50": 6890,
    "videos": [
     {
      "id": "wSqBTop2VZ4",
      "title": "What If It Never Stopped Raining? Country by Country, Day by Day",
      "published": "2026-11-09T10:49:29Z",
-     "views": 303,
+     "views": 336,
      "seconds": 502,
      "short": false,
-     "outlier_x": 0.04,
-     "age_days": 0.7,
-     "vph_lifetime": 16.9,
-     "vph_recent": 12.9
+     "outlier_x": 0.05,
+     "age_days": 1.0,
+     "vph_lifetime": 14.4,
+     "vph_recent": 9.5
     },
     {
      "id": "0xzp8pIXd9w",
      "title": "Israel’s Secret That Was Kept Away From America. Are They Digging Next Secret Reactor?",
      "published": "2026-11-07T21:11:41Z",
-     "views": 1227,
+     "views": 1232,
      "seconds": 1016,
      "short": false,
      "outlier_x": 0.18,
-     "age_days": 2.3,
-     "vph_lifetime": 22.1,
-     "vph_recent": 3.1
+     "age_days": 2.5,
+     "vph_lifetime": 20.2,
+     "vph_recent": 2.0
     },
     {
      "id": "_VD62kyoxvI",
      "title": "The Last Two Minutes of the Florida Learjet Reconstructed",
      "published": "2026-11-06T11:22:23Z",
-     "views": 6396,
+     "views": 6399,
      "seconds": 627,
      "short": false,
      "outlier_x": 0.93,
-     "age_days": 3.7,
-     "vph_lifetime": 71.5,
-     "vph_recent": 2.7
+     "age_days": 3.9,
+     "vph_lifetime": 67.6,
+     "vph_recent": 1.6
     },
     {
      "id": "aiWYxUBRiBw",
      "title": "What If the US Used a Nuke Agains Iran? We Followed It to the Last Country Standing",
      "published": "2026-11-05T14:13:40Z",
-     "views": 65121,
+     "views": 66286,
      "seconds": 805,
      "short": false,
-     "outlier_x": 9.46,
-     "age_days": 4.6,
-     "vph_lifetime": 589.0,
-     "vph_recent": 298.1
+     "outlier_x": 9.62,
+     "age_days": 4.8,
+     "vph_lifetime": 572.1,
+     "vph_recent": 258.6
     },
     {
      "id": "0ibaATM6xjo",
      "title": "The Solar Storm That Missed Earth by 9 Days. What If It Hadn’t?",
      "published": "2026-11-02T13:39:18Z",
-     "views": 6884,
+     "views": 6890,
      "seconds": 683,
      "short": false,
      "outlier_x": 1.0,
-     "age_days": 7.6,
-     "vph_lifetime": 37.6,
-     "vph_recent": 2.3
+     "age_days": 7.9,
+     "vph_lifetime": 36.6,
+     "vph_recent": 1.7
     },
     {
      "id": "iX7s3G8jjFU",
      "title": "What If Israel Nuked Iran? The Bomb Hits the Mountain and Misses the Uranium",
      "published": "2026-10-29T14:36:51Z",
-     "views": 203889,
+     "views": 203963,
      "seconds": 677,
      "short": false,
-     "outlier_x": 29.62,
-     "age_days": 11.6,
-     "vph_lifetime": 732.9,
-     "vph_recent": 14.4
+     "outlier_x": 29.6,
+     "age_days": 11.8,
+     "vph_lifetime": 719.5,
+     "vph_recent": 14.2
     },
     {
      "id": "y99SjQLmxmI",
      "title": "What If Russia Used a Nuke Agains Ukraine? We Mapped Every Strike That Follows",
      "published": "2026-10-21T13:13:18Z",
-     "views": 1816431,
+     "views": 1818218,
      "seconds": 1013,
      "short": false,
-     "outlier_x": 263.86,
-     "age_days": 19.6,
-     "vph_lifetime": 3851.8,
-     "vph_recent": 605.0
+     "outlier_x": 263.89,
+     "age_days": 19.9,
+     "vph_lifetime": 3812.8,
+     "vph_recent": 469.8
     }
    ]
   },
   {
    "handle": "@thenuclearclocks",
    "title": "The Nuclear Clock",
-   "subs": "1930",
-   "median_long_views_last50": 16744.5,
+   "subs": "1940",
+   "median_long_views_last50": 16916.5,
    "videos": [
     {
      "id": "GosHwf4jeX8",
      "title": "US Is Getting Ready for Radiation. Here's What Happens Next.",
      "published": "2026-11-09T21:34:36Z",
-     "views": 173,
+     "views": 248,
      "seconds": 571,
      "short": false,
      "outlier_x": 0.01,
-     "age_days": 0.3,
-     "vph_lifetime": 24.0,
-     "vph_recent": 19.0
+     "age_days": 0.5,
+     "vph_lifetime": 19.8,
+     "vph_recent": 16.6
     },
     {
      "id": "qwJfQxYwYYc",
      "title": "What If Germany Used a Nuke Against Poland? We Mapped Every Strike That Follows",
      "published": "2026-11-08T19:47:20Z",
-     "views": 584,
+     "views": 593,
      "seconds": 721,
      "short": false,
-     "outlier_x": 0.03,
-     "age_days": 1.4,
-     "vph_lifetime": 17.7,
-     "vph_recent": 3.1
+     "outlier_x": 0.04,
+     "age_days": 1.6,
+     "vph_lifetime": 15.5,
+     "vph_recent": 2.4
     },
     {
      "id": "PDOTj67Vk5A",
      "title": "Russia Launches a Nuclear Strike on Poland... What Happens Next?",
      "published": "2026-11-06T21:51:44Z",
-     "views": 1097,
+     "views": 1116,
      "seconds": 721,
      "short": false,
      "outlier_x": 0.07,
-     "age_days": 3.3,
-     "vph_lifetime": 13.9,
-     "vph_recent": 3.8
+     "age_days": 3.5,
+     "vph_lifetime": 13.2,
+     "vph_recent": 3.7
     },
     {
      "id": "JW9-TNNlfvE",
      "title": "What If Iran Launched Its Entire Nuclear Arsenal",
      "published": "2026-11-05T19:28:10Z",
-     "views": 25292,
+     "views": 25619,
      "seconds": 721,
      "short": false,
      "outlier_x": 1.51,
-     "age_days": 4.4,
-     "vph_lifetime": 240.1,
-     "vph_recent": 102.9
+     "age_days": 4.6,
+     "vph_lifetime": 231.6,
+     "vph_recent": 82.1
     },
     {
      "id": "k0BMHhVbWzM",
      "title": "Is Iran About to Nuke The US? Here's What You'd See",
      "published": "2026-11-04T19:54:32Z",
-     "views": 5384,
+     "views": 5390,
      "seconds": 721,
      "short": false,
      "outlier_x": 0.32,
-     "age_days": 5.4,
-     "vph_lifetime": 41.8,
-     "vph_recent": 1.3
+     "age_days": 5.6,
+     "vph_lifetime": 40.2,
+     "vph_recent": 1.2
     },
     {
      "id": "afuAXkWNXRE",
      "title": "Is Russia About to Nuke Europe? Here's What You'd See",
      "published": "2026-11-03T20:05:50Z",
-     "views": 155681,
+     "views": 156084,
      "seconds": 776,
      "short": false,
-     "outlier_x": 9.3,
-     "age_days": 6.4,
-     "vph_lifetime": 1019.5,
-     "vph_recent": 158.1
+     "outlier_x": 9.23,
+     "age_days": 6.6,
+     "vph_lifetime": 987.9,
+     "vph_recent": 116.7
     },
     {
      "id": "ZcyuzY8jWy4",
      "title": "North Korea Launches a Nuclear Strike on The US... What Happens Next?",
      "published": "2026-11-02T20:43:18Z",
-     "views": 95128,
+     "views": 95607,
      "seconds": 729,
      "short": false,
-     "outlier_x": 5.68,
-     "age_days": 7.3,
-     "vph_lifetime": 540.3,
-     "vph_recent": 185.0
+     "outlier_x": 5.65,
+     "age_days": 7.6,
+     "vph_lifetime": 527.1,
+     "vph_recent": 137.2
     },
     {
      "id": "wfrvdX0oOKY",
      "title": "Russia Launches a Nuclear Strike on Europe... What Happens Next?",
      "published": "2026-11-01T19:50:56Z",
-     "views": 246866,
+     "views": 247032,
      "seconds": 729,
      "short": false,
-     "outlier_x": 14.74,
-     "age_days": 8.4,
-     "vph_lifetime": 1228.5,
-     "vph_recent": 54.2
+     "outlier_x": 14.6,
+     "age_days": 8.6,
+     "vph_lifetime": 1197.7,
+     "vph_recent": 42.7
     },
     {
      "id": "Vw6UAmoDeHI",
      "title": "What If The US Nuked Iran? The Bomb Hits the Mountain and Misses the Uranium",
      "published": "2026-10-31T20:22:36Z",
-     "views": 119881,
+     "views": 120276,
      "seconds": 509,
      "short": false,
-     "outlier_x": 7.16,
-     "age_days": 9.4,
-     "vph_lifetime": 534.2,
-     "vph_recent": 66.3
+     "outlier_x": 7.11,
+     "age_days": 9.6,
+     "vph_lifetime": 523.6,
+     "vph_recent": 70.5
     },
     {
      "id": "poIPU-XNlW4",
      "title": "What If Russia Launched Its Entire Nuclear Arsenal",
      "published": "2026-10-30T21:28:49Z",
-     "views": 28358,
+     "views": 28404,
      "seconds": 558,
      "short": false,
-     "outlier_x": 1.69,
-     "age_days": 10.3,
-     "vph_lifetime": 114.7,
-     "vph_recent": 36.9
+     "outlier_x": 1.68,
+     "age_days": 10.5,
+     "vph_lifetime": 112.4,
+     "vph_recent": 22.7
     },
     {
      "id": "59YG9ddt-Uk",
      "title": "What If America Used a Nuke Against Iran? We Mapped Every Strike That Follows",
      "published": "2026-10-29T19:46:18Z",
-     "views": 8197,
+     "views": 8214,
      "seconds": 493,
      "short": false,
      "outlier_x": 0.49,
-     "age_days": 11.4,
-     "vph_lifetime": 30.0,
-     "vph_recent": 2.9
+     "age_days": 11.6,
+     "vph_lifetime": 29.5,
+     "vph_recent": 3.0
     },
     {
      "id": "ExdG5DwMCiw",
      "title": "What If The US Launched Its Entire Nuclear Arsenal",
      "published": "2026-10-27T10:35:23Z",
-     "views": 216019,
+     "views": 216609,
      "seconds": 556,
      "short": false,
-     "outlier_x": 12.9,
-     "age_days": 13.8,
-     "vph_lifetime": 654.2,
-     "vph_recent": 105.2
+     "outlier_x": 12.8,
+     "age_days": 14.0,
+     "vph_lifetime": 645.6,
+     "vph_recent": 108.3
     },
     {
      "id": "a8Psz-Rr4Pw",
      "title": "What If a Tsunami Got Taller and Couldn't Stop?",
      "published": "2026-10-23T21:02:34Z",
-     "views": 179,
+     "views": 181,
      "seconds": 546,
      "short": false,
      "outlier_x": 0.01,
-     "age_days": 17.3,
+     "age_days": 17.5,
      "vph_lifetime": 0.4,
-     "vph_recent": 0.0
+     "vph_recent": 0.2
     },
     {
      "id": "lcverz2ipZM",
@@ -264,7 +264,7 @@
      "seconds": 268,
      "short": false,
      "outlier_x": 0.01,
-     "age_days": 23.0,
+     "age_days": 23.2,
      "vph_lifetime": 0.2,
      "vph_recent": 0.0
     }
@@ -273,92 +273,92 @@
   {
    "handle": "@knowbetter.studio",
    "title": "Know Better",
-   "subs": "365",
-   "median_long_views_last50": 472,
+   "subs": "389",
+   "median_long_views_last50": 481,
    "videos": [
     {
      "id": "HzHxxyRsPKE",
      "title": "What If a Full-Scale War Between the USA and China Happened?",
      "published": "2026-11-09T14:00:05Z",
-     "views": 1989,
+     "views": 5845,
      "seconds": 1140,
      "short": false,
-     "outlier_x": 4.21,
-     "age_days": 0.6,
-     "vph_lifetime": 134.4,
-     "vph_recent": 343.8
+     "outlier_x": 12.15,
+     "age_days": 0.8,
+     "vph_lifetime": 290.9,
+     "vph_recent": 537.5
     },
     {
      "id": "WL59By8kBrg",
      "title": "What If the World Had No Internet?",
      "published": "2026-11-05T14:00:21Z",
-     "views": 495,
+     "views": 510,
      "seconds": 1252,
      "short": false,
-     "outlier_x": 1.05,
-     "age_days": 4.6,
-     "vph_lifetime": 4.5,
-     "vph_recent": 3.7
+     "outlier_x": 1.06,
+     "age_days": 4.8,
+     "vph_lifetime": 4.4,
+     "vph_recent": 3.2
     },
     {
      "id": "RjQ-Q9lMywU",
      "title": "What If AI Took Over the World? Month by Month",
      "published": "2026-11-03T14:00:20Z",
-     "views": 355,
+     "views": 382,
      "seconds": 1173,
      "short": false,
-     "outlier_x": 0.75,
-     "age_days": 6.6,
-     "vph_lifetime": 2.2,
-     "vph_recent": 4.4
+     "outlier_x": 0.79,
+     "age_days": 6.8,
+     "vph_lifetime": 2.3,
+     "vph_recent": 4.8
     },
     {
      "id": "WG9zGhQuSjU",
      "title": "What If Full Nuclear War Happened? Minute by Minute",
      "published": "2026-11-02T09:43:00Z",
-     "views": 92136,
+     "views": 94034,
      "seconds": 1271,
      "short": false,
-     "outlier_x": 195.2,
-     "age_days": 7.8,
-     "vph_lifetime": 492.5,
-     "vph_recent": 542.7
+     "outlier_x": 195.5,
+     "age_days": 8.0,
+     "vph_lifetime": 488.8,
+     "vph_recent": 449.5
     },
     {
      "id": "F-jJfHS9xPY",
      "title": "What Nikola Tesla Actually Invented!? And Why He Died Alone",
      "published": "2026-10-30T07:54:47Z",
-     "views": 133,
+     "views": 135,
      "seconds": 843,
      "short": false,
      "outlier_x": 0.28,
-     "age_days": 10.9,
+     "age_days": 11.1,
      "vph_lifetime": 0.5,
-     "vph_recent": 0.2
+     "vph_recent": 0.3
     },
     {
      "id": "nJiW9lJWjHM",
      "title": "Hiroshima and Nagasaki Explained: The Bombs That Ended World War II (1945)",
      "published": "2026-10-29T17:06:55Z",
-     "views": 544,
+     "views": 558,
      "seconds": 788,
      "short": false,
-     "outlier_x": 1.15,
-     "age_days": 11.5,
+     "outlier_x": 1.16,
+     "age_days": 11.7,
      "vph_lifetime": 2.0,
-     "vph_recent": 1.5
+     "vph_recent": 2.1
     },
     {
      "id": "bB-9_4zw8ZA",
      "title": "The Great Depression Explained: How One Crash Broke the World (1929)",
      "published": "2026-10-29T07:35:45Z",
-     "views": 472,
+     "views": 481,
      "seconds": 957,
      "short": false,
      "outlier_x": 1.0,
-     "age_days": 11.9,
+     "age_days": 12.1,
      "vph_lifetime": 1.7,
-     "vph_recent": 3.7
+     "vph_recent": 2.7
     },
     {
      "id": "0HznpK5howA",
@@ -368,7 +368,7 @@
      "seconds": 465,
      "short": false,
      "outlier_x": 0.07,
-     "age_days": 13.1,
+     "age_days": 13.3,
      "vph_lifetime": 0.1,
      "vph_recent": 0.0
     },
@@ -380,7 +380,7 @@
      "seconds": 380,
      "short": false,
      "outlier_x": 0.07,
-     "age_days": 13.8,
+     "age_days": 14.0,
      "vph_lifetime": 0.1,
      "vph_recent": 0.0
     }
@@ -390,19 +390,19 @@
    "handle": "@spotlight9864",
    "title": "SPOTLIGHT",
    "subs": "272000",
-   "median_long_views_last50": 18874,
+   "median_long_views_last50": 18878,
    "videos": [
     {
      "id": "dHbBf8oi0UE",
      "title": "The First 60 Minutes of Nuclear War",
      "published": "2026-10-22T14:51:17Z",
-     "views": 90759,
+     "views": 92313,
      "seconds": 13217,
      "short": false,
-     "outlier_x": 4.81,
-     "age_days": 18.6,
-     "vph_lifetime": 203.5,
-     "vph_recent": 261.2
+     "outlier_x": 4.89,
+     "age_days": 18.8,
+     "vph_lifetime": 204.6,
+     "vph_recent": 277.3
     },
     {
      "id": "SWRDWmiWly0",
@@ -412,7 +412,7 @@
      "seconds": 0,
      "short": true,
      "outlier_x": 0.0,
-     "age_days": 18.9,
+     "age_days": 19.2,
      "vph_lifetime": 0.0,
      "vph_recent": 0.0
     },
@@ -420,25 +420,25 @@
      "id": "pfdBalhvNUM",
      "title": "America Chose Not to Defend Itself. On Purpose.",
      "published": "2026-10-16T14:25:20Z",
-     "views": 5126,
+     "views": 5132,
      "seconds": 539,
      "short": false,
      "outlier_x": 0.27,
-     "age_days": 24.6,
-     "vph_lifetime": 8.7,
-     "vph_recent": 0.6
+     "age_days": 24.8,
+     "vph_lifetime": 8.6,
+     "vph_recent": 0.9
     },
     {
      "id": "s4gs5KUOIhw",
      "title": "The True Scale of a Modern Nuclear Weapon",
      "published": "2026-09-29T15:52:16Z",
-     "views": 18874,
+     "views": 18878,
      "seconds": 1829,
      "short": false,
      "outlier_x": 1.0,
-     "age_days": 41.5,
-     "vph_lifetime": 18.9,
-     "vph_recent": 0.6
+     "age_days": 41.8,
+     "vph_lifetime": 18.8,
+     "vph_recent": 0.7
     },
     {
      "id": "uN4mxviLsqI",
@@ -448,19 +448,19 @@
      "seconds": 355,
      "short": false,
      "outlier_x": 0.11,
-     "age_days": 42.7,
+     "age_days": 42.9,
      "vph_lifetime": 2.0,
-     "vph_recent": 0.2
+     "vph_recent": 0.1
     },
     {
      "id": "J4H2kppqj-0",
      "title": "The Bomb So Powerful They Had to Weaken It",
      "published": "2026-09-16T14:50:21Z",
-     "views": 1696,
+     "views": 1697,
      "seconds": 488,
      "short": false,
      "outlier_x": 0.09,
-     "age_days": 54.6,
+     "age_days": 54.8,
      "vph_lifetime": 1.3,
      "vph_recent": 0.2
     },
@@ -472,9 +472,9 @@
      "seconds": 1022,
      "short": false,
      "outlier_x": 0.36,
-     "age_days": 90.7,
+     "age_days": 90.9,
      "vph_lifetime": 3.1,
-     "vph_recent": 0.6
+     "vph_recent": 0.3
     },
     {
      "id": "uojZqT18oDs",
@@ -484,7 +484,7 @@
      "seconds": 447,
      "short": false,
      "outlier_x": 0.38,
-     "age_days": 99.9,
+     "age_days": 100.1,
      "vph_lifetime": 3.0,
      "vph_recent": 0.0
     },
@@ -492,13 +492,13 @@
      "id": "mGD5Bu8-SQ4",
      "title": "The Nuclear Weapon America Hopes It Never Has to Use",
      "published": "2026-07-10T18:55:02Z",
-     "views": 187415,
+     "views": 187417,
      "seconds": 490,
      "short": false,
      "outlier_x": 9.93,
-     "age_days": 122.4,
-     "vph_lifetime": 63.8,
-     "vph_recent": 0.8
+     "age_days": 122.6,
+     "vph_lifetime": 63.7,
+     "vph_recent": 0.6
     },
     {
      "id": "r_mkJpXNbQM",
@@ -508,20 +508,20 @@
      "seconds": 497,
      "short": false,
      "outlier_x": 0.95,
-     "age_days": 144.4,
+     "age_days": 144.6,
      "vph_lifetime": 5.2,
-     "vph_recent": 0.4
+     "vph_recent": 0.2
     },
     {
      "id": "fR6hLTSm2Uw",
      "title": "Before Any Missiles Launch, America Does This!",
      "published": "2026-05-24T18:48:33Z",
-     "views": 9972,
+     "views": 9973,
      "seconds": 541,
      "short": false,
      "outlier_x": 0.53,
-     "age_days": 169.4,
-     "vph_lifetime": 2.5,
+     "age_days": 169.6,
+     "vph_lifetime": 2.4,
      "vph_recent": 0.2
     },
     {
@@ -532,7 +532,7 @@
      "seconds": 509,
      "short": false,
      "outlier_x": 0.08,
-     "age_days": 193.7,
+     "age_days": 193.9,
      "vph_lifetime": 0.3,
      "vph_recent": 0.0
     },
@@ -540,25 +540,25 @@
      "id": "EUtTip7-xM4",
      "title": "99% Won’t Survive Nuclear War… These States Might",
      "published": "2026-04-14T14:38:10Z",
-     "views": 2794,
+     "views": 2795,
      "seconds": 488,
      "short": false,
      "outlier_x": 0.15,
-     "age_days": 209.6,
+     "age_days": 209.8,
      "vph_lifetime": 0.6,
-     "vph_recent": 0.4
+     "vph_recent": 0.3
     },
     {
      "id": "DdpR85Dmk40",
      "title": "Nuclear War’s Aftermath Is Not What You Think",
      "published": "2026-03-24T13:16:20Z",
-     "views": 67392,
+     "views": 67397,
      "seconds": 1298,
      "short": false,
      "outlier_x": 3.57,
-     "age_days": 230.6,
+     "age_days": 230.9,
      "vph_lifetime": 12.2,
-     "vph_recent": 1.7
+     "vph_recent": 1.3
     },
     {
      "id": "BKp7o75VyZs",
@@ -568,9 +568,9 @@
      "seconds": 483,
      "short": false,
      "outlier_x": 0.35,
-     "age_days": 235.7,
+     "age_days": 235.9,
      "vph_lifetime": 1.2,
-     "vph_recent": 0.2
+     "vph_recent": 0.1
     },
     {
      "id": "hwHfgHaG_DY",
@@ -580,7 +580,7 @@
      "seconds": 507,
      "short": false,
      "outlier_x": 0.09,
-     "age_days": 241.4,
+     "age_days": 241.6,
      "vph_lifetime": 0.3,
      "vph_recent": 0.0
     },
@@ -588,25 +588,25 @@
      "id": "xKQZvWcxNQQ",
      "title": "The World After Nuclear War Isn’t What You Think",
      "published": "2026-02-20T11:04:11Z",
-     "views": 57341,
+     "views": 57346,
      "seconds": 493,
      "short": false,
      "outlier_x": 3.04,
-     "age_days": 262.7,
+     "age_days": 263.0,
      "vph_lifetime": 9.1,
-     "vph_recent": 1.2
+     "vph_recent": 1.0
     },
     {
      "id": "dVBJ2iXKLJk",
      "title": "The World After World War 3 — What Happens Next?",
      "published": "2026-01-02T14:02:41Z",
-     "views": 27437,
+     "views": 27441,
      "seconds": 488,
      "short": false,
      "outlier_x": 1.45,
-     "age_days": 311.6,
+     "age_days": 311.8,
      "vph_lifetime": 3.7,
-     "vph_recent": 0.0
+     "vph_recent": 0.4
     },
     {
      "id": "AfmmmM15c0U",
@@ -616,7 +616,7 @@
      "seconds": 546,
      "short": false,
      "outlier_x": 1.76,
-     "age_days": 332.3,
+     "age_days": 332.5,
      "vph_lifetime": 4.2,
      "vph_recent": 0.0
     },
@@ -624,49 +624,49 @@
      "id": "mhKaZPVjU8o",
      "title": "This Is What a Nuclear Explosion REALLY Looks Like — The Scale Is Unbelievable",
      "published": "2025-11-28T19:35:33Z",
-     "views": 509416,
+     "views": 509448,
      "seconds": 892,
      "short": false,
      "outlier_x": 26.99,
-     "age_days": 346.4,
-     "vph_lifetime": 61.3,
-     "vph_recent": 13.5
+     "age_days": 346.6,
+     "vph_lifetime": 61.2,
+     "vph_recent": 9.7
     },
     {
      "id": "UN-Cri-UEJo",
      "title": "WW3 Simulation: What Would Really Happen If World War 3 Started",
      "published": "2025-11-13T15:23:38Z",
-     "views": 723159,
+     "views": 723359,
      "seconds": 1594,
      "short": false,
      "outlier_x": 38.32,
-     "age_days": 361.6,
+     "age_days": 361.8,
      "vph_lifetime": 83.3,
-     "vph_recent": 44.2
+     "vph_recent": 40.9
     },
     {
      "id": "W79T4QclMlo",
      "title": "The First Hour of Nuclear War — What You’d See Before the World Ends",
      "published": "2025-10-31T12:34:08Z",
-     "views": 1292277,
+     "views": 1292284,
      "seconds": 519,
      "short": false,
-     "outlier_x": 68.47,
-     "age_days": 374.7,
-     "vph_lifetime": 143.7,
-     "vph_recent": 4.6
+     "outlier_x": 68.45,
+     "age_days": 374.9,
+     "vph_lifetime": 143.6,
+     "vph_recent": 3.0
     },
     {
      "id": "EyOsoasb9gw",
      "title": "The First 24 Hours of World War 3",
      "published": "2025-10-17T17:52:31Z",
-     "views": 146162,
+     "views": 146164,
      "seconds": 516,
      "short": false,
      "outlier_x": 7.74,
-     "age_days": 388.5,
+     "age_days": 388.7,
      "vph_lifetime": 15.7,
-     "vph_recent": 0.6
+     "vph_recent": 0.5
     },
     {
      "id": "BxsmTQ_Im9s",
@@ -676,7 +676,7 @@
      "seconds": 514,
      "short": false,
      "outlier_x": 1.3,
-     "age_days": 396.6,
+     "age_days": 396.9,
      "vph_lifetime": 2.6,
      "vph_recent": 0.0
     },
@@ -688,7 +688,7 @@
      "seconds": 502,
      "short": false,
      "outlier_x": 0.08,
-     "age_days": 402.4,
+     "age_days": 402.7,
      "vph_lifetime": 0.2,
      "vph_recent": 0.0
     },
@@ -700,7 +700,7 @@
      "seconds": 484,
      "short": false,
      "outlier_x": 0.09,
-     "age_days": 408.4,
+     "age_days": 408.6,
      "vph_lifetime": 0.2,
      "vph_recent": 0.0
     },
@@ -712,21 +712,21 @@
      "seconds": 482,
      "short": false,
      "outlier_x": 0.13,
-     "age_days": 416.8,
+     "age_days": 417.0,
      "vph_lifetime": 0.2,
-     "vph_recent": 0.4
+     "vph_recent": 0.2
     },
     {
      "id": "--TKZiD0zfY",
      "title": "The Terrifying Scale of a Nuclear Blast… Explained",
      "published": "2025-09-11T14:59:23Z",
-     "views": 54590,
+     "views": 54591,
      "seconds": 1915,
      "short": false,
      "outlier_x": 2.89,
-     "age_days": 424.6,
+     "age_days": 424.8,
      "vph_lifetime": 5.4,
-     "vph_recent": 0.0
+     "vph_recent": 0.1
     },
     {
      "id": "un2pKJbsGt4",
@@ -735,8 +735,8 @@
      "views": 35767,
      "seconds": 506,
      "short": false,
-     "outlier_x": 1.9,
-     "age_days": 429.8,
+     "outlier_x": 1.89,
+     "age_days": 430.0,
      "vph_lifetime": 3.5,
      "vph_recent": 0.0
     },
@@ -748,21 +748,21 @@
      "seconds": 485,
      "short": false,
      "outlier_x": 0.36,
-     "age_days": 436.6,
+     "age_days": 436.8,
      "vph_lifetime": 0.6,
-     "vph_recent": 0.2
+     "vph_recent": 0.1
     },
     {
      "id": "fJ3UfhiJLDw",
      "title": "The Terrifying True Scale of Nuclear Explosions",
      "published": "2025-08-09T16:35:40Z",
-     "views": 13052,
+     "views": 13053,
      "seconds": 502,
      "short": false,
      "outlier_x": 0.69,
-     "age_days": 457.5,
+     "age_days": 457.7,
      "vph_lifetime": 1.2,
-     "vph_recent": 0.0
+     "vph_recent": 0.1
     },
     {
      "id": "Nl0WD2kVTVo",
@@ -772,7 +772,7 @@
      "seconds": 556,
      "short": false,
      "outlier_x": 1.03,
-     "age_days": 507.5,
+     "age_days": 507.7,
      "vph_lifetime": 1.6,
      "vph_recent": 0.0
     },
@@ -780,25 +780,25 @@
      "id": "NkIVWtXYDKM",
      "title": "This Is How the End Begins",
      "published": "2025-06-13T12:18:12Z",
-     "views": 213668,
+     "views": 213671,
      "seconds": 2171,
      "short": false,
      "outlier_x": 11.32,
-     "age_days": 514.7,
+     "age_days": 514.9,
      "vph_lifetime": 17.3,
-     "vph_recent": 0.0
+     "vph_recent": 0.3
     },
     {
      "id": "zwXXaR1KlHw",
      "title": "This Is How Many Nukes It Takes to Destroy Earth",
      "published": "2025-06-05T09:34:33Z",
-     "views": 64134,
+     "views": 64135,
      "seconds": 503,
      "short": false,
      "outlier_x": 3.4,
-     "age_days": 522.8,
+     "age_days": 523.0,
      "vph_lifetime": 5.1,
-     "vph_recent": 0.0
+     "vph_recent": 0.1
     },
     {
      "id": "ct_XGllL_KQ",
@@ -808,7 +808,7 @@
      "seconds": 547,
      "short": false,
      "outlier_x": 23.82,
-     "age_days": 535.6,
+     "age_days": 535.8,
      "vph_lifetime": 35.0,
      "vph_recent": 0.0
     },
@@ -820,7 +820,7 @@
      "seconds": 502,
      "short": false,
      "outlier_x": 1.5,
-     "age_days": 544.6,
+     "age_days": 544.8,
      "vph_lifetime": 2.2,
      "vph_recent": 0.0
     },
@@ -832,9 +832,9 @@
      "seconds": 719,
      "short": false,
      "outlier_x": 8.3,
-     "age_days": 563.8,
+     "age_days": 564.0,
      "vph_lifetime": 11.6,
-     "vph_recent": 0.4
+     "vph_recent": 0.2
     },
     {
      "id": "AH5iW5I2Gwk",
@@ -844,7 +844,7 @@
      "seconds": 506,
      "short": false,
      "outlier_x": 0.39,
-     "age_days": 584.6,
+     "age_days": 584.8,
      "vph_lifetime": 0.5,
      "vph_recent": 0.0
     },
@@ -856,7 +856,7 @@
      "seconds": 488,
      "short": false,
      "outlier_x": 0.32,
-     "age_days": 642.6,
+     "age_days": 642.8,
      "vph_lifetime": 0.4,
      "vph_recent": 0.0
     },
@@ -868,9 +868,9 @@
      "seconds": 519,
      "short": false,
      "outlier_x": 0.65,
-     "age_days": 648.7,
+     "age_days": 649.0,
      "vph_lifetime": 0.8,
-     "vph_recent": 0.2
+     "vph_recent": 0.1
     },
     {
      "id": "HGJbeO0hoEg",
@@ -880,7 +880,7 @@
      "seconds": 489,
      "short": false,
      "outlier_x": 0.41,
-     "age_days": 664.6,
+     "age_days": 664.8,
      "vph_lifetime": 0.5,
      "vph_recent": 0.0
     },
@@ -888,13 +888,13 @@
      "id": "mQGh7FA5ylQ",
      "title": "This is Why Every Army Fears FPV Drones",
      "published": "2025-01-14T13:45:36Z",
-     "views": 3596,
+     "views": 3597,
      "seconds": 483,
      "short": false,
      "outlier_x": 0.19,
-     "age_days": 664.6,
+     "age_days": 664.8,
      "vph_lifetime": 0.2,
-     "vph_recent": 0.0
+     "vph_recent": 0.1
     },
     {
      "id": "DzuytWtRQr8",
@@ -904,7 +904,7 @@
      "seconds": 1025,
      "short": false,
      "outlier_x": 0.99,
-     "age_days": 668.6,
+     "age_days": 668.8,
      "vph_lifetime": 1.2,
      "vph_recent": 0.0
     },
@@ -916,7 +916,7 @@
      "seconds": 759,
      "short": false,
      "outlier_x": 2.18,
-     "age_days": 669.7,
+     "age_days": 669.9,
      "vph_lifetime": 2.6,
      "vph_recent": 0.0
     },
@@ -924,13 +924,13 @@
      "id": "agMsMbXRENQ",
      "title": "This Is What Nuclear Strike Actually Looks Like",
      "published": "2024-12-21T19:07:13Z",
-     "views": 1365113,
+     "views": 1365155,
      "seconds": 690,
      "short": false,
-     "outlier_x": 72.33,
-     "age_days": 688.4,
+     "outlier_x": 72.31,
+     "age_days": 688.6,
      "vph_lifetime": 82.6,
-     "vph_recent": 15.4
+     "vph_recent": 11.6
     },
     {
      "id": "BOTlKLf4SHM",
@@ -940,7 +940,7 @@
      "seconds": 656,
      "short": false,
      "outlier_x": 0.31,
-     "age_days": 699.4,
+     "age_days": 699.6,
      "vph_lifetime": 0.3,
      "vph_recent": 0.0
     },
@@ -948,25 +948,25 @@
      "id": "QkTTqgP2Wcw",
      "title": "Can USA Missile Defense Intercept a Nuclear ICBM?",
      "published": "2024-11-27T14:14:01Z",
-     "views": 205067,
+     "views": 205072,
      "seconds": 566,
      "short": false,
-     "outlier_x": 10.87,
-     "age_days": 712.6,
+     "outlier_x": 10.86,
+     "age_days": 712.8,
      "vph_lifetime": 12.0,
-     "vph_recent": 0.4
+     "vph_recent": 0.7
     },
     {
      "id": "mHfyu_t_kIQ",
      "title": "This Next Generation Combat Vehicle Is Ready For Battle",
      "published": "2024-11-20T13:42:04Z",
-     "views": 18708,
+     "views": 18710,
      "seconds": 484,
      "short": false,
      "outlier_x": 0.99,
-     "age_days": 719.6,
+     "age_days": 719.8,
      "vph_lifetime": 1.1,
-     "vph_recent": 0.0
+     "vph_recent": 0.2
     },
     {
      "id": "13EffsZMl2Y",
@@ -976,7 +976,7 @@
      "seconds": 1238,
      "short": false,
      "outlier_x": 4.95,
-     "age_days": 725.5,
+     "age_days": 725.7,
      "vph_lifetime": 5.4,
      "vph_recent": 0.0
     },
@@ -988,7 +988,7 @@
      "seconds": 482,
      "short": false,
      "outlier_x": 11.85,
-     "age_days": 731.6,
+     "age_days": 731.8,
      "vph_lifetime": 12.7,
      "vph_recent": 0.0
     }
@@ -998,235 +998,235 @@
    "handle": "@modernmuscle213",
    "title": "Modern Muscle",
    "subs": "364000",
-   "median_long_views_last50": 233551.0,
+   "median_long_views_last50": 233553.0,
    "videos": [
     {
      "id": "rCYJlAVOoqU",
      "title": "How the Hellcat Engine Works!",
      "published": "2026-06-15T22:00:24Z",
-     "views": 2219,
+     "views": 2223,
      "seconds": 1550,
      "short": false,
      "outlier_x": 0.01,
-     "age_days": 147.3,
+     "age_days": 147.5,
      "vph_lifetime": 0.6,
-     "vph_recent": 1.2
+     "vph_recent": 1.0
     },
     {
      "id": "pmSf_-l3iD0",
      "title": "The True EPIC Scale of Russian Nuclear Weapons!",
      "published": "2026-02-25T02:59:52Z",
-     "views": 20605,
+     "views": 20613,
      "seconds": 1021,
      "short": false,
      "outlier_x": 0.09,
-     "age_days": 258.1,
+     "age_days": 258.3,
      "vph_lifetime": 3.3,
-     "vph_recent": 1.0
+     "vph_recent": 1.2
     },
     {
      "id": "nc8olJ_yBlQ",
      "title": "America's Response: What Happens After a US Nuclear Strike?",
      "published": "2025-12-31T17:01:34Z",
-     "views": 153850,
+     "views": 153853,
      "seconds": 538,
      "short": false,
      "outlier_x": 0.66,
-     "age_days": 313.5,
+     "age_days": 313.7,
      "vph_lifetime": 20.4,
-     "vph_recent": 0.2
+     "vph_recent": 0.4
     },
     {
      "id": "q6bh7NMEk50",
      "title": "The True Scale of America's Nuclear Weapons!",
      "published": "2025-10-30T16:01:27Z",
-     "views": 223572,
+     "views": 223576,
      "seconds": 1136,
      "short": false,
      "outlier_x": 0.96,
-     "age_days": 375.5,
+     "age_days": 375.8,
      "vph_lifetime": 24.8,
-     "vph_recent": 1.2
+     "vph_recent": 1.0
     },
     {
      "id": "5cpDMuyE0Vc",
      "title": "Inside the Glock 19!",
      "published": "2025-10-10T19:00:10Z",
-     "views": 23245,
+     "views": 23269,
      "seconds": 246,
      "short": false,
      "outlier_x": 0.1,
-     "age_days": 395.4,
-     "vph_lifetime": 2.4,
-     "vph_recent": 3.1
+     "age_days": 395.6,
+     "vph_lifetime": 2.5,
+     "vph_recent": 3.8
     },
     {
      "id": "FJqOiPqtAqM",
      "title": "How a Mauser M98 Rifle Works!",
      "published": "2025-10-01T16:00:21Z",
-     "views": 7847,
+     "views": 7854,
      "seconds": 376,
      "short": false,
      "outlier_x": 0.03,
-     "age_days": 404.5,
+     "age_days": 404.8,
      "vph_lifetime": 0.8,
-     "vph_recent": 2.5
+     "vph_recent": 1.9
     },
     {
      "id": "J_lzACyCQWs",
      "title": "The ATOMIC Bombing of Hiroshima & Nagasaki   Detailed 3D Model Breakdown!",
      "published": "2025-07-12T01:00:17Z",
-     "views": 503343,
+     "views": 503376,
      "seconds": 1635,
      "short": false,
      "outlier_x": 2.16,
-     "age_days": 486.2,
+     "age_days": 486.4,
      "vph_lifetime": 43.1,
-     "vph_recent": 11.5
+     "vph_recent": 8.9
     },
     {
      "id": "TWTNbKEPyI0",
      "title": "The ATOMIC Bombing of Nagasaki - Detailed 3D Model Breakdown!",
      "published": "2025-06-04T16:00:47Z",
-     "views": 2520655,
+     "views": 2520749,
      "seconds": 869,
      "short": false,
      "outlier_x": 10.79,
-     "age_days": 523.5,
-     "vph_lifetime": 200.6,
-     "vph_recent": 38.8
+     "age_days": 523.8,
+     "vph_lifetime": 200.5,
+     "vph_recent": 28.2
     },
     {
      "id": "VZnjOnvbvjc",
      "title": "The ATOMIC Bombing of Hiroshima - Detailed 3D Model Breakdown!",
      "published": "2025-04-06T13:00:53Z",
-     "views": 1988171,
+     "views": 1988246,
      "seconds": 583,
      "short": false,
      "outlier_x": 8.51,
-     "age_days": 582.7,
-     "vph_lifetime": 142.2,
-     "vph_recent": 54.0
+     "age_days": 582.9,
+     "vph_lifetime": 142.1,
+     "vph_recent": 33.9
     },
     {
      "id": "hH-K7X5n-vM",
      "title": "US Nuclear War Simulation in REALTIME!!!",
      "published": "2024-07-24T23:00:31Z",
-     "views": 1975577,
+     "views": 1975879,
      "seconds": 646,
      "short": false,
      "outlier_x": 8.46,
-     "age_days": 838.2,
+     "age_days": 838.5,
      "vph_lifetime": 98.2,
-     "vph_recent": 83.8
+     "vph_recent": 70.3
     },
     {
      "id": "PxcYvNbg_RE",
      "title": "How would ISRAEL Fight a Nuclear War?",
      "published": "2024-07-10T17:40:14Z",
-     "views": 700527,
+     "views": 700538,
      "seconds": 699,
      "short": false,
      "outlier_x": 3.0,
-     "age_days": 852.5,
+     "age_days": 852.7,
      "vph_lifetime": 34.2,
-     "vph_recent": 6.0
+     "vph_recent": 4.0
     },
     {
      "id": "cbOmOQAPyzM",
      "title": "America's SECRET Nuclear War Plan!!",
      "published": "2024-05-18T16:00:35Z",
-     "views": 63895,
+     "views": 63898,
      "seconds": 670,
      "short": false,
      "outlier_x": 0.27,
-     "age_days": 905.5,
+     "age_days": 905.8,
      "vph_lifetime": 2.9,
-     "vph_recent": 0.4
+     "vph_recent": 0.5
     },
     {
      "id": "uc7Z1A3VP2U",
      "title": "How Would the US & NATO Fight a Nuclear War?",
      "published": "2024-05-03T22:52:06Z",
-     "views": 1235686,
+     "views": 1235702,
      "seconds": 797,
      "short": false,
      "outlier_x": 5.29,
-     "age_days": 920.2,
+     "age_days": 920.5,
      "vph_lifetime": 55.9,
-     "vph_recent": 6.3
+     "vph_recent": 4.7
     },
     {
      "id": "fSEdaef-52A",
      "title": "7 Cars that FAIL the Moose Test!",
      "published": "2024-01-24T20:41:30Z",
-     "views": 292974,
+     "views": 292982,
      "seconds": 530,
      "short": false,
      "outlier_x": 1.25,
-     "age_days": 1020.3,
+     "age_days": 1020.6,
      "vph_lifetime": 12.0,
-     "vph_recent": 7.7
+     "vph_recent": 4.6
     },
     {
      "id": "Yj03k0tUuEk",
      "title": "How would the United States Launch a Nuclear Strike?",
      "published": "2023-09-16T05:15:03Z",
-     "views": 193698,
+     "views": 193703,
      "seconds": 664,
      "short": false,
      "outlier_x": 0.83,
-     "age_days": 1151.0,
+     "age_days": 1151.2,
      "vph_lifetime": 7.0,
-     "vph_recent": 1.5
+     "vph_recent": 1.2
     },
     {
      "id": "Q7A9b4EEGfQ",
      "title": "How Would the United States Fight a Nuclear War?",
      "published": "2023-07-16T19:12:42Z",
-     "views": 4326204,
+     "views": 4326258,
      "seconds": 3102,
      "short": false,
      "outlier_x": 18.52,
-     "age_days": 1212.4,
+     "age_days": 1212.6,
      "vph_lifetime": 148.7,
-     "vph_recent": 6.0
+     "vph_recent": 8.1
     },
     {
      "id": "rzcob1TjZbM",
      "title": "Which Cities Would the US Target in a Nuclear War?",
      "published": "2023-06-08T19:00:31Z",
-     "views": 1615117,
+     "views": 1615147,
      "seconds": 684,
      "short": false,
      "outlier_x": 6.92,
-     "age_days": 1250.4,
+     "age_days": 1250.6,
      "vph_lifetime": 53.8,
-     "vph_recent": 3.1
+     "vph_recent": 4.4
     },
     {
      "id": "IuxfFFmSZC4",
      "title": "What's America's Russian Nuclear War Plan?",
      "published": "2023-01-02T23:56:14Z",
-     "views": 3984178,
+     "views": 3984207,
      "seconds": 1775,
      "short": false,
      "outlier_x": 17.06,
-     "age_days": 1407.2,
+     "age_days": 1407.4,
      "vph_lifetime": 118.0,
-     "vph_recent": 6.0
+     "vph_recent": 5.7
     },
     {
      "id": "Z1fvMmkIfSM",
      "title": "How would the United States Fight a Nuclear War?",
      "published": "2022-06-27T23:43:39Z",
-     "views": 8393998,
+     "views": 8394042,
      "seconds": 672,
      "short": false,
      "outlier_x": 35.94,
-     "age_days": 1596.2,
+     "age_days": 1596.4,
      "vph_lifetime": 219.1,
-     "vph_recent": 9.8
+     "vph_recent": 9.0
     },
     {
      "id": "w770GzwKoKc",
@@ -1236,7 +1236,7 @@
      "seconds": 656,
      "short": false,
      "outlier_x": 0.14,
-     "age_days": 1714.4,
+     "age_days": 1714.6,
      "vph_lifetime": 0.8,
      "vph_recent": 0.0
     },
@@ -1244,13 +1244,13 @@
      "id": "-og8j5_cmcc",
      "title": "7 Things You Should NEVER Do In AWD & 4WD Cars!",
      "published": "2022-02-22T21:50:25Z",
-     "views": 31344,
+     "views": 31347,
      "seconds": 705,
      "short": false,
      "outlier_x": 0.13,
-     "age_days": 1721.3,
+     "age_days": 1721.5,
      "vph_lifetime": 0.8,
-     "vph_recent": 0.4
+     "vph_recent": 0.5
     },
     {
      "id": "580p6DhfIqE",
@@ -1260,7 +1260,7 @@
      "seconds": 589,
      "short": false,
      "outlier_x": 0.14,
-     "age_days": 1734.2,
+     "age_days": 1734.4,
      "vph_lifetime": 0.8,
      "vph_recent": 0.0
     },
@@ -1272,7 +1272,7 @@
      "seconds": 758,
      "short": false,
      "outlier_x": 0.08,
-     "age_days": 1739.5,
+     "age_days": 1739.7,
      "vph_lifetime": 0.4,
      "vph_recent": 0.0
     },
@@ -1280,13 +1280,13 @@
      "id": "UeyWRx6QVTU",
      "title": "7 Cars Only Stupid People Buy",
      "published": "2022-01-22T17:00:31Z",
-     "views": 34440,
+     "views": 34442,
      "seconds": 682,
      "short": false,
      "outlier_x": 0.15,
-     "age_days": 1752.5,
+     "age_days": 1752.7,
      "vph_lifetime": 0.8,
-     "vph_recent": 0.0
+     "vph_recent": 0.2
     },
     {
      "id": "6Q6emhyCCak",
@@ -1296,7 +1296,7 @@
      "seconds": 529,
      "short": false,
      "outlier_x": 0.1,
-     "age_days": 1759.6,
+     "age_days": 1759.8,
      "vph_lifetime": 0.5,
      "vph_recent": 0.0
     },
@@ -1308,7 +1308,7 @@
      "seconds": 709,
      "short": false,
      "outlier_x": 4.14,
-     "age_days": 1874.4,
+     "age_days": 1874.6,
      "vph_lifetime": 21.5,
      "vph_recent": 0.0
     },
@@ -1320,7 +1320,7 @@
      "seconds": 932,
      "short": false,
      "outlier_x": 0.21,
-     "age_days": 1885.2,
+     "age_days": 1885.4,
      "vph_lifetime": 1.1,
      "vph_recent": 0.0
     },
@@ -1332,7 +1332,7 @@
      "seconds": 836,
      "short": false,
      "outlier_x": 1.43,
-     "age_days": 1892.2,
+     "age_days": 1892.4,
      "vph_lifetime": 7.3,
      "vph_recent": 0.0
     },
@@ -1344,7 +1344,7 @@
      "seconds": 679,
      "short": false,
      "outlier_x": 1.59,
-     "age_days": 1916.5,
+     "age_days": 1916.7,
      "vph_lifetime": 8.1,
      "vph_recent": 0.0
     },
@@ -1356,7 +1356,7 @@
      "seconds": 845,
      "short": false,
      "outlier_x": 0.95,
-     "age_days": 1925.4,
+     "age_days": 1925.6,
      "vph_lifetime": 4.8,
      "vph_recent": 0.0
     },
@@ -1368,7 +1368,7 @@
      "seconds": 751,
      "short": false,
      "outlier_x": 0.2,
-     "age_days": 1976.6,
+     "age_days": 1976.8,
      "vph_lifetime": 1.0,
      "vph_recent": 0.0
     },
@@ -1380,7 +1380,7 @@
      "seconds": 727,
      "short": false,
      "outlier_x": 0.07,
-     "age_days": 1988.4,
+     "age_days": 1988.6,
      "vph_lifetime": 0.3,
      "vph_recent": 0.0
     },
@@ -1392,7 +1392,7 @@
      "seconds": 688,
      "short": false,
      "outlier_x": 1.74,
-     "age_days": 1998.3,
+     "age_days": 1998.5,
      "vph_lifetime": 8.5,
      "vph_recent": 0.0
     },
@@ -1404,7 +1404,7 @@
      "seconds": 756,
      "short": false,
      "outlier_x": 2.07,
-     "age_days": 2012.2,
+     "age_days": 2012.5,
      "vph_lifetime": 10.0,
      "vph_recent": 0.0
     },
@@ -1416,7 +1416,7 @@
      "seconds": 767,
      "short": false,
      "outlier_x": 1.15,
-     "age_days": 2019.4,
+     "age_days": 2019.6,
      "vph_lifetime": 5.5,
      "vph_recent": 0.0
     },
@@ -1428,7 +1428,7 @@
      "seconds": 675,
      "short": false,
      "outlier_x": 0.32,
-     "age_days": 2026.3,
+     "age_days": 2026.5,
      "vph_lifetime": 1.5,
      "vph_recent": 0.0
     },
@@ -1440,7 +1440,7 @@
      "seconds": 713,
      "short": false,
      "outlier_x": 0.35,
-     "age_days": 2033.2,
+     "age_days": 2033.4,
      "vph_lifetime": 1.7,
      "vph_recent": 0.0
     },
@@ -1452,7 +1452,7 @@
      "seconds": 481,
      "short": false,
      "outlier_x": 0.07,
-     "age_days": 2040.6,
+     "age_days": 2040.8,
      "vph_lifetime": 0.3,
      "vph_recent": 0.0
     },
@@ -1460,13 +1460,13 @@
      "id": "PPAS-IPYoHk",
      "title": "7 Most Reliable Cars on Earth!!",
      "published": "2021-04-02T17:21:26Z",
-     "views": 767457,
+     "views": 767458,
      "seconds": 725,
      "short": false,
      "outlier_x": 3.29,
-     "age_days": 2047.5,
+     "age_days": 2047.7,
      "vph_lifetime": 15.6,
-     "vph_recent": 0.0
+     "vph_recent": 0.1
     },
     {
      "id": "xxfHt88D9NA",
@@ -1476,7 +1476,7 @@
      "seconds": 609,
      "short": false,
      "outlier_x": 4.24,
-     "age_days": 2058.3,
+     "age_days": 2058.5,
      "vph_lifetime": 20.0,
      "vph_recent": 0.0
     },
@@ -1484,11 +1484,11 @@
      "id": "vCv2Vpr6vcQ",
      "title": "7 Worst Sports Cars Only Stupid People Buy",
      "published": "2021-03-14T14:00:31Z",
-     "views": 1999756,
+     "views": 1999757,
      "seconds": 829,
      "short": false,
      "outlier_x": 8.56,
-     "age_days": 2066.6,
+     "age_days": 2066.8,
      "vph_lifetime": 40.3,
      "vph_recent": 0.2
     },
@@ -1500,7 +1500,7 @@
      "seconds": 617,
      "short": false,
      "outlier_x": 1.23,
-     "age_days": 2073.1,
+     "age_days": 2073.3,
      "vph_lifetime": 5.8,
      "vph_recent": 0.0
     },
@@ -1512,7 +1512,7 @@
      "seconds": 657,
      "short": false,
      "outlier_x": 0.09,
-     "age_days": 2159.3,
+     "age_days": 2159.5,
      "vph_lifetime": 0.4,
      "vph_recent": 0.0
     },
@@ -1524,7 +1524,7 @@
      "seconds": 711,
      "short": false,
      "outlier_x": 5.05,
-     "age_days": 2311.4,
+     "age_days": 2311.7,
      "vph_lifetime": 21.2,
      "vph_recent": 0.0
     },
@@ -1532,25 +1532,25 @@
      "id": "4u_LBoLpJuY",
      "title": "7 Things You Should NEVER Do In a Manual Transmission Car!",
      "published": "2020-06-29T21:00:01Z",
-     "views": 6854128,
+     "views": 6854137,
      "seconds": 625,
      "short": false,
      "outlier_x": 29.35,
-     "age_days": 2324.3,
+     "age_days": 2324.5,
      "vph_lifetime": 122.9,
-     "vph_recent": 6.3
+     "vph_recent": 4.0
     },
     {
      "id": "yoEFlIw5Yno",
      "title": "9 Cars You'll Never Guess Shared Engines!!",
      "published": "2020-06-24T19:00:17Z",
-     "views": 28749,
+     "views": 28750,
      "seconds": 585,
      "short": false,
      "outlier_x": 0.12,
-     "age_days": 2329.4,
+     "age_days": 2329.6,
      "vph_lifetime": 0.5,
-     "vph_recent": 0.0
+     "vph_recent": 0.1
     },
     {
      "id": "CWk54xZ2ACU",
@@ -1560,7 +1560,7 @@
      "seconds": 621,
      "short": false,
      "outlier_x": 0.09,
-     "age_days": 2334.3,
+     "age_days": 2334.5,
      "vph_lifetime": 0.4,
      "vph_recent": 0.0
     },
@@ -1572,7 +1572,7 @@
      "seconds": 602,
      "short": false,
      "outlier_x": 1.04,
-     "age_days": 2337.3,
+     "age_days": 2337.5,
      "vph_lifetime": 4.3,
      "vph_recent": 0.0
     },
@@ -1584,9 +1584,9 @@
      "seconds": 602,
      "short": false,
      "outlier_x": 1.13,
-     "age_days": 2345.3,
+     "age_days": 2345.5,
      "vph_lifetime": 4.7,
-     "vph_recent": 0.4
+     "vph_recent": 0.2
     },
     {
      "id": "tqLVAsDhbOc",
@@ -1596,7 +1596,7 @@
      "seconds": 622,
      "short": false,
      "outlier_x": 0.17,
-     "age_days": 2359.0,
+     "age_days": 2359.3,
      "vph_lifetime": 0.7,
      "vph_recent": 0.0
     }
@@ -1606,163 +1606,163 @@
    "handle": "@sciencetime24",
    "title": "Science Time",
    "subs": "1180000",
-   "median_long_views_last50": 609939.0,
+   "median_long_views_last50": 609965.0,
    "videos": [
     {
      "id": "M2r0RHXOPBo",
      "title": "The True Scale of a 100 Megaton Nuke on New York in 3D",
      "published": "2026-10-09T19:00:17Z",
-     "views": 3460113,
+     "views": 3464427,
      "seconds": 904,
      "short": false,
-     "outlier_x": 5.67,
-     "age_days": 31.4,
-     "vph_lifetime": 4590.3,
-     "vph_recent": 864.2
+     "outlier_x": 5.68,
+     "age_days": 31.6,
+     "vph_lifetime": 4563.9,
+     "vph_recent": 838.8
     },
     {
      "id": "bo-C0d73HQw",
      "title": "The True Scale Of The Solar System",
      "published": "2026-09-09T19:00:30Z",
-     "views": 55042,
+     "views": 55117,
      "seconds": 1265,
      "short": false,
      "outlier_x": 0.09,
-     "age_days": 61.4,
+     "age_days": 61.6,
      "vph_lifetime": 37.3,
-     "vph_recent": 44.2
+     "vph_recent": 29.0
     },
     {
      "id": "cwrKZ1X9xrA",
      "title": "Brian Cox Talks About Alien Life - A 2026 Special",
      "published": "2025-12-27T20:00:26Z",
-     "views": 1141386,
+     "views": 1141703,
      "seconds": 2135,
      "short": false,
      "outlier_x": 1.87,
-     "age_days": 317.4,
-     "vph_lifetime": 149.9,
-     "vph_recent": 75.6
+     "age_days": 317.6,
+     "vph_lifetime": 149.8,
+     "vph_recent": 67.6
     },
     {
      "id": "YiHrDjFKM5s",
      "title": "80 Years Since The Atomic Bombing Of Hiroshima & Nagasaki",
      "published": "2025-08-09T19:00:35Z",
-     "views": 13154088,
+     "views": 13170659,
      "seconds": 1062,
      "short": false,
-     "outlier_x": 21.57,
-     "age_days": 457.4,
-     "vph_lifetime": 1198.2,
-     "vph_recent": 2059.0
+     "outlier_x": 21.59,
+     "age_days": 457.6,
+     "vph_lifetime": 1199.2,
+     "vph_recent": 2597.7
     },
     {
      "id": "qr3e8aJwhxE",
      "title": "What If Iran Attacks Israel With A Nuclear Weapon?",
      "published": "2025-06-27T19:00:51Z",
-     "views": 467008,
+     "views": 467274,
      "seconds": 775,
      "short": false,
      "outlier_x": 0.77,
-     "age_days": 500.4,
+     "age_days": 500.6,
      "vph_lifetime": 38.9,
-     "vph_recent": 61.7
+     "vph_recent": 55.9
     },
     {
      "id": "88Q8-pOM9Ss",
      "title": "Brian Cox Explains Black Holes - From Birth to Death",
      "published": "2025-05-17T19:00:07Z",
-     "views": 332140,
+     "views": 332174,
      "seconds": 1040,
      "short": false,
      "outlier_x": 0.54,
-     "age_days": 541.4,
+     "age_days": 541.6,
      "vph_lifetime": 25.6,
-     "vph_recent": 14.4
+     "vph_recent": 10.4
     },
     {
      "id": "zS7fDY2jY44",
      "title": "Brian Cox - Are Intelligent Aliens Out There?",
      "published": "2025-03-27T00:01:00Z",
-     "views": 1269182,
+     "views": 1269314,
      "seconds": 1372,
      "short": false,
      "outlier_x": 2.08,
-     "age_days": 593.2,
+     "age_days": 593.4,
      "vph_lifetime": 89.1,
-     "vph_recent": 39.8
+     "vph_recent": 32.3
     },
     {
      "id": "NbNPBcUgDTs",
      "title": "Brian Cox Explains The Fermi Paradox",
      "published": "2025-03-08T20:00:12Z",
-     "views": 4243779,
+     "views": 4244495,
      "seconds": 802,
      "short": false,
      "outlier_x": 6.96,
-     "age_days": 611.4,
+     "age_days": 611.6,
      "vph_lifetime": 289.2,
-     "vph_recent": 211.7
+     "vph_recent": 173.0
     },
     {
      "id": "_aX0LWRIeN8",
      "title": "The True Speed Of Modern Nuclear Weapons",
      "published": "2024-12-28T20:00:14Z",
-     "views": 4449366,
+     "views": 4449959,
      "seconds": 3602,
      "short": false,
-     "outlier_x": 7.29,
-     "age_days": 681.4,
-     "vph_lifetime": 272.1,
-     "vph_recent": 123.7
+     "outlier_x": 7.3,
+     "age_days": 681.6,
+     "vph_lifetime": 272.0,
+     "vph_recent": 117.7
     },
     {
      "id": "ujfC0NgdU48",
      "title": "The True Scale Of Modern Nuclear Weapons",
      "published": "2024-10-26T19:00:26Z",
-     "views": 27726673,
+     "views": 27728518,
      "seconds": 1081,
      "short": false,
      "outlier_x": 45.46,
-     "age_days": 744.4,
-     "vph_lifetime": 1551.9,
-     "vph_recent": 395.2
+     "age_days": 744.6,
+     "vph_lifetime": 1551.6,
+     "vph_recent": 371.4
     },
     {
      "id": "Ve_ikA6tH88",
      "title": "How Would The United States Fight A Nuclear War?",
      "published": "2024-09-22T19:00:14Z",
-     "views": 1782035,
+     "views": 1782069,
      "seconds": 767,
      "short": false,
      "outlier_x": 2.92,
-     "age_days": 778.4,
+     "age_days": 778.6,
      "vph_lifetime": 95.4,
-     "vph_recent": 2.5
+     "vph_recent": 4.5
     },
     {
      "id": "L_tqRbnLFlw",
      "title": "What If A Nuclear Weapon Hits New York Tomorrow?",
      "published": "2024-08-17T19:00:14Z",
-     "views": 2731167,
+     "views": 2731229,
      "seconds": 872,
      "short": false,
      "outlier_x": 4.48,
-     "age_days": 814.4,
+     "age_days": 814.6,
      "vph_lifetime": 139.7,
-     "vph_recent": 29.2
+     "vph_recent": 20.4
     },
     {
      "id": "hT9DwqpMgWI",
      "title": "The Evolution & Scale of Nuclear Weapons",
      "published": "2024-07-13T19:00:17Z",
-     "views": 634657,
+     "views": 634683,
      "seconds": 1112,
      "short": false,
      "outlier_x": 1.04,
-     "age_days": 849.4,
+     "age_days": 849.6,
      "vph_lifetime": 31.1,
-     "vph_recent": 3.8
+     "vph_recent": 4.4
     },
     {
      "id": "lbAas7fPeHQ",
@@ -1772,7 +1772,7 @@
      "seconds": 725,
      "short": false,
      "outlier_x": 0.09,
-     "age_days": 870.4,
+     "age_days": 870.6,
      "vph_lifetime": 2.7,
      "vph_recent": 0.0
     },
@@ -1784,69 +1784,69 @@
      "seconds": 704,
      "short": false,
      "outlier_x": 0.09,
-     "age_days": 884.4,
+     "age_days": 884.6,
      "vph_lifetime": 2.6,
-     "vph_recent": 0.8
+     "vph_recent": 0.4
     },
     {
      "id": "-FF9Gh-mdAk",
      "title": "The Atomic Bombings of Hiroshima And Nagasaki - Part 2",
      "published": "2024-06-01T19:00:00Z",
-     "views": 5762043,
+     "views": 5762801,
      "seconds": 810,
      "short": false,
      "outlier_x": 9.45,
-     "age_days": 891.4,
+     "age_days": 891.6,
      "vph_lifetime": 269.3,
-     "vph_recent": 97.5
+     "vph_recent": 120.5
     },
     {
      "id": "eGl7HQ3PmN4",
      "title": "The Atomic Bombings of Hiroshima And Nagasaki - Part 1",
      "published": "2024-05-18T19:00:25Z",
-     "views": 1674242,
+     "views": 1674277,
      "seconds": 1031,
      "short": false,
      "outlier_x": 2.74,
-     "age_days": 905.4,
+     "age_days": 905.6,
      "vph_lifetime": 77.0,
-     "vph_recent": 6.5
+     "vph_recent": 6.6
     },
     {
      "id": "SKusWmJngOw",
      "title": "The Devastating True Scale of Nuclear Weapons",
      "published": "2024-05-04T19:00:11Z",
-     "views": 3197633,
+     "views": 3197648,
      "seconds": 917,
      "short": false,
      "outlier_x": 5.24,
-     "age_days": 919.4,
+     "age_days": 919.6,
      "vph_lifetime": 144.9,
-     "vph_recent": 4.8
+     "vph_recent": 3.8
     },
     {
      "id": "c53yK1MJOYI",
      "title": "Are We Alone In The Galaxy?",
      "published": "2024-04-27T19:00:14Z",
-     "views": 585221,
+     "views": 585247,
      "seconds": 655,
      "short": false,
      "outlier_x": 0.96,
-     "age_days": 926.4,
+     "age_days": 926.6,
      "vph_lifetime": 26.3,
-     "vph_recent": 7.7
+     "vph_recent": 6.3
     },
     {
      "id": "JHAxzG2dHM0",
      "title": "Scientists Find The Most Massive Stellar Black Hole Ever Detected in The Milky Way Galaxy",
      "published": "2024-04-20T19:00:11Z",
-     "views": 93589,
+     "views": 93594,
      "seconds": 650,
      "short": false,
      "outlier_x": 0.15,
-     "age_days": 933.4,
+     "age_days": 933.6,
      "vph_lifetime": 4.2,
-     "vph_recent": 0.4
+     "vph_recent": 0.7
     },
     {
      "id": "NaERbyZ9FhA",
@@ -1856,45 +1856,45 @@
      "seconds": 780,
      "short": false,
      "outlier_x": 0.16,
-     "age_days": 940.4,
+     "age_days": 940.6,
      "vph_lifetime": 4.3,
-     "vph_recent": 0.8
+     "vph_recent": 0.4
     },
     {
      "id": "Yo673NZU_eI",
      "title": "JWST on The Hunt For Newborn Exoplanets",
      "published": "2024-04-10T19:00:14Z",
-     "views": 27759,
+     "views": 27761,
      "seconds": 51,
      "short": true,
      "outlier_x": 0.05,
-     "age_days": 943.4,
+     "age_days": 943.6,
      "vph_lifetime": 1.2,
-     "vph_recent": 0.2
+     "vph_recent": 0.3
     },
     {
      "id": "_s0f8yQL7uE",
      "title": "Life on Enceladus? ESA Aims to Find Out",
      "published": "2024-04-08T19:00:16Z",
-     "views": 30570,
+     "views": 30571,
      "seconds": 46,
      "short": true,
      "outlier_x": 0.05,
-     "age_days": 945.4,
+     "age_days": 945.6,
      "vph_lifetime": 1.3,
-     "vph_recent": 0.0
+     "vph_recent": 0.1
     },
     {
      "id": "cFX3MPo3nP4",
      "title": "What is The Three Body Problem?",
      "published": "2024-04-06T19:00:13Z",
-     "views": 108401,
+     "views": 108400,
      "seconds": 610,
      "short": false,
      "outlier_x": 0.18,
-     "age_days": 947.4,
+     "age_days": 947.6,
      "vph_lifetime": 4.8,
-     "vph_recent": 0.4
+     "vph_recent": 0.1
     },
     {
      "id": "6XbZhX1Atyo",
@@ -1904,7 +1904,7 @@
      "seconds": 42,
      "short": true,
      "outlier_x": 0.03,
-     "age_days": 948.4,
+     "age_days": 948.6,
      "vph_lifetime": 0.9,
      "vph_recent": 0.0
     },
@@ -1916,7 +1916,7 @@
      "seconds": 50,
      "short": true,
      "outlier_x": 0.07,
-     "age_days": 950.4,
+     "age_days": 950.6,
      "vph_lifetime": 1.8,
      "vph_recent": 0.0
     },
@@ -1924,13 +1924,13 @@
      "id": "1lbooQjdgDQ",
      "title": "How Big Is Our Galaxy?",
      "published": "2024-03-31T19:05:03Z",
-     "views": 919087,
+     "views": 919100,
      "seconds": 622,
      "short": false,
      "outlier_x": 1.51,
-     "age_days": 953.4,
+     "age_days": 953.6,
      "vph_lifetime": 40.2,
-     "vph_recent": 6.7
+     "vph_recent": 4.6
     },
     {
      "id": "IjdPhj9HkhU",
@@ -1940,21 +1940,21 @@
      "seconds": 50,
      "short": true,
      "outlier_x": 0.12,
-     "age_days": 955.4,
+     "age_days": 955.6,
      "vph_lifetime": 3.1,
-     "vph_recent": 0.4
+     "vph_recent": 0.2
     },
     {
      "id": "tycPtqNX_KE",
      "title": "Mysterious 'Unparticles' May be Pushing The Universe Apart #space #physics #universe",
      "published": "2024-03-27T20:00:30Z",
-     "views": 48333,
+     "views": 48334,
      "seconds": 58,
      "short": true,
      "outlier_x": 0.08,
-     "age_days": 957.4,
+     "age_days": 957.6,
      "vph_lifetime": 2.1,
-     "vph_recent": 0.0
+     "vph_recent": 0.1
     },
     {
      "id": "XKa6HCXQ5ng",
@@ -1964,7 +1964,7 @@
      "seconds": 40,
      "short": true,
      "outlier_x": 0.03,
-     "age_days": 959.4,
+     "age_days": 959.6,
      "vph_lifetime": 0.9,
      "vph_recent": 0.0
     },
@@ -1972,13 +1972,13 @@
      "id": "WvnIXeAz1mk",
      "title": "The Simulation Hypothesis Explained by Nick Bostrom",
      "published": "2024-03-23T20:00:21Z",
-     "views": 200344,
+     "views": 200367,
      "seconds": 634,
      "short": false,
      "outlier_x": 0.33,
-     "age_days": 961.4,
+     "age_days": 961.6,
      "vph_lifetime": 8.7,
-     "vph_recent": 2.7
+     "vph_recent": 3.5
     },
     {
      "id": "OhbJmM_KzHs",
@@ -1988,7 +1988,7 @@
      "seconds": 47,
      "short": true,
      "outlier_x": 0.03,
-     "age_days": 962.4,
+     "age_days": 962.6,
      "vph_lifetime": 0.8,
      "vph_recent": 0.0
     },
@@ -2000,7 +2000,7 @@
      "seconds": 52,
      "short": true,
      "outlier_x": 0.02,
-     "age_days": 964.4,
+     "age_days": 964.6,
      "vph_lifetime": 0.6,
      "vph_recent": 0.0
     },
@@ -2012,21 +2012,21 @@
      "seconds": 49,
      "short": true,
      "outlier_x": 0.04,
-     "age_days": 966.4,
+     "age_days": 966.6,
      "vph_lifetime": 1.1,
-     "vph_recent": 0.4
+     "vph_recent": 0.2
     },
     {
      "id": "v9kLfTiasYw",
      "title": "Can You Survive Nuclear Winter?",
      "published": "2024-03-16T20:00:21Z",
-     "views": 568998,
+     "views": 568999,
      "seconds": 867,
      "short": false,
      "outlier_x": 0.93,
-     "age_days": 968.4,
+     "age_days": 968.6,
      "vph_lifetime": 24.5,
-     "vph_recent": 0.6
+     "vph_recent": 0.4
     },
     {
      "id": "DVkGxAsNEBI",
@@ -2036,7 +2036,7 @@
      "seconds": 57,
      "short": true,
      "outlier_x": 0.03,
-     "age_days": 969.4,
+     "age_days": 969.6,
      "vph_lifetime": 0.7,
      "vph_recent": 0.0
     },
@@ -2048,7 +2048,7 @@
      "seconds": 54,
      "short": true,
      "outlier_x": 0.02,
-     "age_days": 971.4,
+     "age_days": 971.6,
      "vph_lifetime": 0.4,
      "vph_recent": 0.0
     },
@@ -2060,7 +2060,7 @@
      "seconds": 49,
      "short": true,
      "outlier_x": 0.03,
-     "age_days": 973.4,
+     "age_days": 973.6,
      "vph_lifetime": 0.7,
      "vph_recent": 0.0
     },
@@ -2068,13 +2068,13 @@
      "id": "XLFvC7EJfQk",
      "title": "What if Hostile Aliens Find Voyagers' Golden Records?",
      "published": "2024-03-09T20:00:18Z",
-     "views": 64748,
+     "views": 64752,
      "seconds": 601,
      "short": false,
      "outlier_x": 0.11,
-     "age_days": 975.4,
+     "age_days": 975.6,
      "vph_lifetime": 2.8,
-     "vph_recent": 0.2
+     "vph_recent": 0.5
     },
     {
      "id": "PJBd0jdJE64",
@@ -2084,7 +2084,7 @@
      "seconds": 54,
      "short": true,
      "outlier_x": 0.03,
-     "age_days": 976.4,
+     "age_days": 976.6,
      "vph_lifetime": 0.8,
      "vph_recent": 0.0
     },
@@ -2096,7 +2096,7 @@
      "seconds": 47,
      "short": true,
      "outlier_x": 0.02,
-     "age_days": 978.4,
+     "age_days": 978.6,
      "vph_lifetime": 0.5,
      "vph_recent": 0.0
     },
@@ -2108,7 +2108,7 @@
      "seconds": 55,
      "short": true,
      "outlier_x": 0.02,
-     "age_days": 980.4,
+     "age_days": 980.6,
      "vph_lifetime": 0.6,
      "vph_recent": 0.0
     },
@@ -2120,9 +2120,9 @@
      "seconds": 661,
      "short": false,
      "outlier_x": 0.56,
-     "age_days": 982.4,
+     "age_days": 982.6,
      "vph_lifetime": 14.4,
-     "vph_recent": 0.2
+     "vph_recent": 0.1
     },
     {
      "id": "_siY7AelrWI",
@@ -2132,7 +2132,7 @@
      "seconds": 54,
      "short": true,
      "outlier_x": 0.06,
-     "age_days": 983.4,
+     "age_days": 983.6,
      "vph_lifetime": 1.5,
      "vph_recent": 0.0
     },
@@ -2144,7 +2144,7 @@
      "seconds": 57,
      "short": true,
      "outlier_x": 0.66,
-     "age_days": 985.4,
+     "age_days": 985.6,
      "vph_lifetime": 17.0,
      "vph_recent": 0.0
     },
@@ -2156,7 +2156,7 @@
      "seconds": 49,
      "short": true,
      "outlier_x": 0.03,
-     "age_days": 987.4,
+     "age_days": 987.6,
      "vph_lifetime": 0.7,
      "vph_recent": 0.0
     },
@@ -2164,11 +2164,11 @@
      "id": "R_wifJhplV8",
      "title": "Has The Future Already Happened?",
      "published": "2024-02-24T20:00:08Z",
-     "views": 118812,
+     "views": 118813,
      "seconds": 610,
      "short": false,
      "outlier_x": 0.19,
-     "age_days": 989.4,
+     "age_days": 989.6,
      "vph_lifetime": 5.0,
      "vph_recent": 0.2
     },
@@ -2180,9 +2180,9 @@
      "seconds": 42,
      "short": true,
      "outlier_x": 0.02,
-     "age_days": 990.4,
+     "age_days": 990.6,
      "vph_lifetime": 0.5,
-     "vph_recent": 0.2
+     "vph_recent": 0.1
     },
     {
      "id": "1jjUcqoRhfE",
@@ -2192,7 +2192,7 @@
      "seconds": 48,
      "short": true,
      "outlier_x": 0.02,
-     "age_days": 992.4,
+     "age_days": 992.6,
      "vph_lifetime": 0.4,
      "vph_recent": 0.0
     },
@@ -2204,7 +2204,7 @@
      "seconds": 44,
      "short": true,
      "outlier_x": 0.02,
-     "age_days": 994.4,
+     "age_days": 994.6,
      "vph_lifetime": 0.4,
      "vph_recent": 0.0
     }
@@ -2220,25 +2220,25 @@
      "id": "w5rzQQXVjwk",
      "title": "How It Works: Perimeter – Russia’s Automatic Nuclear AI System",
      "published": "2025-11-07T17:01:43Z",
-     "views": 6864,
+     "views": 6869,
      "seconds": 273,
      "short": false,
      "outlier_x": 1.21,
-     "age_days": 367.5,
+     "age_days": 367.7,
      "vph_lifetime": 0.8,
-     "vph_recent": 0.4
+     "vph_recent": 0.7
     },
     {
      "id": "Kh_HfyHprGE",
      "title": "The Nuclear Bomb That Disappeared in Spain!",
      "published": "2025-09-06T16:11:18Z",
-     "views": 21456,
+     "views": 21457,
      "seconds": 24,
      "short": true,
      "outlier_x": 3.78,
-     "age_days": 429.5,
+     "age_days": 429.7,
      "vph_lifetime": 2.1,
-     "vph_recent": 0.0
+     "vph_recent": 0.1
     },
     {
      "id": "bMf1t_l27XM",
@@ -2248,7 +2248,7 @@
      "seconds": 48,
      "short": true,
      "outlier_x": 1.4,
-     "age_days": 436.5,
+     "age_days": 436.8,
      "vph_lifetime": 0.8,
      "vph_recent": 0.0
     },
@@ -2260,33 +2260,33 @@
      "seconds": 382,
      "short": false,
      "outlier_x": 0.39,
-     "age_days": 443.3,
+     "age_days": 443.5,
      "vph_lifetime": 0.2,
-     "vph_recent": 0.2
+     "vph_recent": 0.1
     },
     {
      "id": "KxqycqJElAE",
      "title": "Nanobots Already Inside You?!",
      "published": "2025-08-17T14:07:45Z",
-     "views": 12195,
+     "views": 12193,
      "seconds": 22,
      "short": true,
      "outlier_x": 2.15,
-     "age_days": 449.6,
+     "age_days": 449.8,
      "vph_lifetime": 1.1,
-     "vph_recent": 1.5
+     "vph_recent": 0.6
     },
     {
      "id": "EV8KDbARsDg",
      "title": "How Did a Nuclear Bomb Disappear Near Japan?",
      "published": "2025-08-06T22:09:56Z",
-     "views": 2718205,
+     "views": 2718206,
      "seconds": 21,
      "short": true,
      "outlier_x": 478.73,
-     "age_days": 460.3,
-     "vph_lifetime": 246.1,
-     "vph_recent": 0.0
+     "age_days": 460.5,
+     "vph_lifetime": 245.9,
+     "vph_recent": 0.1
     },
     {
      "id": "x1jjOv07UlA",
@@ -2296,7 +2296,7 @@
      "seconds": 236,
      "short": false,
      "outlier_x": 0.47,
-     "age_days": 463.5,
+     "age_days": 463.7,
      "vph_lifetime": 0.2,
      "vph_recent": 0.0
     },
@@ -2308,7 +2308,7 @@
      "seconds": 163,
      "short": true,
      "outlier_x": 0.39,
-     "age_days": 478.6,
+     "age_days": 478.8,
      "vph_lifetime": 0.2,
      "vph_recent": 0.0
     },
@@ -2316,13 +2316,13 @@
      "id": "PRyQblS7Y38",
      "title": "Nuclear War AI Simulation - IRAN vs. Israel",
      "published": "2025-06-28T10:49:00Z",
-     "views": 8561,
+     "views": 8565,
      "seconds": 125,
      "short": true,
      "outlier_x": 1.51,
-     "age_days": 499.7,
+     "age_days": 500.0,
      "vph_lifetime": 0.7,
-     "vph_recent": 1.0
+     "vph_recent": 0.9
     },
     {
      "id": "o_6dJrGbYOE",
@@ -2332,7 +2332,7 @@
      "seconds": 236,
      "short": false,
      "outlier_x": 0.32,
-     "age_days": 511.4,
+     "age_days": 511.6,
      "vph_lifetime": 0.1,
      "vph_recent": 0.0
     },
@@ -2344,7 +2344,7 @@
      "seconds": 222,
      "short": false,
      "outlier_x": 0.63,
-     "age_days": 520.3,
+     "age_days": 520.5,
      "vph_lifetime": 0.3,
      "vph_recent": 0.0
     },
@@ -2356,7 +2356,7 @@
      "seconds": 290,
      "short": false,
      "outlier_x": 0.45,
-     "age_days": 528.3,
+     "age_days": 528.5,
      "vph_lifetime": 0.2,
      "vph_recent": 0.0
     },
@@ -2368,7 +2368,7 @@
      "seconds": 245,
      "short": false,
      "outlier_x": 0.27,
-     "age_days": 556.5,
+     "age_days": 556.7,
      "vph_lifetime": 0.1,
      "vph_recent": 0.0
     },
@@ -2380,7 +2380,7 @@
      "seconds": 260,
      "short": false,
      "outlier_x": 2.56,
-     "age_days": 563.5,
+     "age_days": 563.8,
      "vph_lifetime": 1.1,
      "vph_recent": 0.0
     },
@@ -2388,13 +2388,13 @@
      "id": "5jh1zvPW00s",
      "title": "Nuclear War AI Simulation - European Union vs. Russia",
      "published": "2025-04-19T12:45:24Z",
-     "views": 218763,
+     "views": 218765,
      "seconds": 428,
      "short": false,
      "outlier_x": 38.53,
-     "age_days": 569.7,
+     "age_days": 569.9,
      "vph_lifetime": 16.0,
-     "vph_recent": 1.9
+     "vph_recent": 1.1
     },
     {
      "id": "7MbgvXSuNO8",
@@ -2404,21 +2404,21 @@
      "seconds": 238,
      "short": false,
      "outlier_x": 13.19,
-     "age_days": 575.7,
+     "age_days": 576.0,
      "vph_lifetime": 5.4,
-     "vph_recent": 0.4
+     "vph_recent": 0.2
     },
     {
      "id": "cOtKsdp-A5Q",
      "title": "AI Simulation of a Nuclear Explosion in PARIS",
      "published": "2025-04-11T11:24:22Z",
-     "views": 8969,
+     "views": 8970,
      "seconds": 250,
      "short": false,
      "outlier_x": 1.58,
-     "age_days": 577.7,
+     "age_days": 577.9,
      "vph_lifetime": 0.6,
-     "vph_recent": 0.4
+     "vph_recent": 0.3
     },
     {
      "id": "4x-2rDNMTQs",
@@ -2428,7 +2428,7 @@
      "seconds": 19,
      "short": true,
      "outlier_x": 0.66,
-     "age_days": 584.4,
+     "age_days": 584.6,
      "vph_lifetime": 0.3,
      "vph_recent": 0.0
     },
@@ -2436,25 +2436,25 @@
      "id": "p-RG2S75LBs",
      "title": "Nuclear explosion in Paris",
      "published": "2025-04-02T20:00:01Z",
-     "views": 7537,
+     "views": 7538,
      "seconds": 19,
      "short": true,
      "outlier_x": 1.33,
-     "age_days": 586.4,
+     "age_days": 586.6,
      "vph_lifetime": 0.5,
-     "vph_recent": 0.0
+     "vph_recent": 0.1
     },
     {
      "id": "4IS0yCRiqyo",
      "title": "NUCLEAR AI SIMULATION: New York, Moscow, Los Angeles, San Francisco",
      "published": "2025-03-30T14:45:21Z",
-     "views": 11462,
+     "views": 11465,
      "seconds": 241,
      "short": false,
      "outlier_x": 2.02,
-     "age_days": 589.6,
+     "age_days": 589.8,
      "vph_lifetime": 0.8,
-     "vph_recent": 0.2
+     "vph_recent": 0.4
     },
     {
      "id": "OBJuP6DEFQE",
@@ -2464,7 +2464,7 @@
      "seconds": 15,
      "short": true,
      "outlier_x": 2.2,
-     "age_days": 589.6,
+     "age_days": 589.9,
      "vph_lifetime": 0.9,
      "vph_recent": 0.0
     },
@@ -2476,9 +2476,9 @@
      "seconds": 237,
      "short": false,
      "outlier_x": 0.63,
-     "age_days": 596.3,
+     "age_days": 596.6,
      "vph_lifetime": 0.2,
-     "vph_recent": 0.2
+     "vph_recent": 0.1
     },
     {
      "id": "0Sk_8AqwNF8",
@@ -2488,9 +2488,9 @@
      "seconds": 208,
      "short": false,
      "outlier_x": 1.0,
-     "age_days": 604.5,
+     "age_days": 604.7,
      "vph_lifetime": 0.4,
-     "vph_recent": 0.4
+     "vph_recent": 0.2
     },
     {
      "id": "0wLenxit7Kg",
@@ -2500,21 +2500,21 @@
      "seconds": 213,
      "short": false,
      "outlier_x": 0.93,
-     "age_days": 617.6,
+     "age_days": 617.8,
      "vph_lifetime": 0.4,
-     "vph_recent": 0.2
+     "vph_recent": 0.1
     },
     {
      "id": "uYL4VUdQ_Uw",
      "title": "How does Russia's most accurate nuclear missile work? ISKANDER SS-26 Stone",
      "published": "2025-02-16T13:48:15Z",
-     "views": 4133,
+     "views": 4135,
      "seconds": 241,
      "short": false,
      "outlier_x": 0.73,
-     "age_days": 631.6,
+     "age_days": 631.8,
      "vph_lifetime": 0.3,
-     "vph_recent": 0.6
+     "vph_recent": 0.5
     },
     {
      "id": "t_nM431n3vE",
@@ -2524,7 +2524,7 @@
      "seconds": 248,
      "short": false,
      "outlier_x": 0.51,
-     "age_days": 660.2,
+     "age_days": 660.5,
      "vph_lifetime": 0.2,
      "vph_recent": 0.0
     },
@@ -2532,13 +2532,13 @@
      "id": "pYBnQhfn86Y",
      "title": "Simulation of a Nuclear Explosion in NEW YORK",
      "published": "2024-12-27T20:37:24Z",
-     "views": 16696,
+     "views": 16702,
      "seconds": 216,
      "short": false,
      "outlier_x": 2.94,
-     "age_days": 682.3,
+     "age_days": 682.6,
      "vph_lifetime": 1.0,
-     "vph_recent": 1.5
+     "vph_recent": 1.3
     },
     {
      "id": "8jV9vTqNHcw",
@@ -2548,7 +2548,7 @@
      "seconds": 231,
      "short": false,
      "outlier_x": 0.11,
-     "age_days": 694.4,
+     "age_days": 694.6,
      "vph_lifetime": 0.0,
      "vph_recent": 0.0
     },
@@ -2556,13 +2556,13 @@
      "id": "j65X53aXiKk",
      "title": "How does the Russian nuclear missile ORESHNIK work?",
      "published": "2024-12-08T18:08:51Z",
-     "views": 303879,
+     "views": 303883,
      "seconds": 207,
      "short": false,
      "outlier_x": 53.52,
-     "age_days": 701.4,
-     "vph_lifetime": 18.1,
-     "vph_recent": 2.9
+     "age_days": 701.7,
+     "vph_lifetime": 18.0,
+     "vph_recent": 1.8
     },
     {
      "id": "1CNpwo-YkPk",
@@ -2572,7 +2572,7 @@
      "seconds": 183,
      "short": false,
      "outlier_x": 0.27,
-     "age_days": 709.4,
+     "age_days": 709.7,
      "vph_lifetime": 0.1,
      "vph_recent": 0.0
     },
@@ -2580,23 +2580,23 @@
      "id": "AaDTmNQbXVE",
      "title": "Simulation of a Nuclear Explosion in LOS ANGELES",
      "published": "2024-11-17T17:13:15Z",
-     "views": 215452,
+     "views": 215466,
      "seconds": 198,
      "short": false,
      "outlier_x": 37.95,
-     "age_days": 722.5,
+     "age_days": 722.7,
      "vph_lifetime": 12.4,
-     "vph_recent": 5.6
+     "vph_recent": 4.1
     },
     {
      "id": "yciN80vAgTY",
      "title": "UK Nuclear War Target List",
      "published": "2024-11-11T16:46:23Z",
-     "views": 167923,
+     "views": 167931,
      "seconds": 287,
      "short": false,
-     "outlier_x": 29.57,
-     "age_days": 728.5,
+     "outlier_x": 29.58,
+     "age_days": 728.7,
      "vph_lifetime": 9.6,
      "vph_recent": 1.5
     },
@@ -2608,7 +2608,7 @@
      "seconds": 194,
      "short": false,
      "outlier_x": 0.43,
-     "age_days": 738.6,
+     "age_days": 738.8,
      "vph_lifetime": 0.1,
      "vph_recent": 0.0
     },
@@ -2620,7 +2620,7 @@
      "seconds": 207,
      "short": false,
      "outlier_x": 0.95,
-     "age_days": 757.4,
+     "age_days": 757.6,
      "vph_lifetime": 0.3,
      "vph_recent": 0.0
     },
@@ -2628,13 +2628,13 @@
      "id": "1skgi9uu0Z8",
      "title": "Full Nuclear War AI Simulation  - Russia vs NATO vs China",
      "published": "2024-10-04T13:30:02Z",
-     "views": 98530,
+     "views": 98532,
      "seconds": 598,
      "short": false,
      "outlier_x": 17.35,
-     "age_days": 766.6,
+     "age_days": 766.9,
      "vph_lifetime": 5.4,
-     "vph_recent": 0.0
+     "vph_recent": 0.2
     },
     {
      "id": "_WiTxQYzrZI",
@@ -2644,7 +2644,7 @@
      "seconds": 206,
      "short": false,
      "outlier_x": 7.07,
-     "age_days": 792.7,
+     "age_days": 792.9,
      "vph_lifetime": 2.1,
      "vph_recent": 0.0
     },
@@ -2656,7 +2656,7 @@
      "seconds": 448,
      "short": false,
      "outlier_x": 0.57,
-     "age_days": 800.6,
+     "age_days": 800.9,
      "vph_lifetime": 0.2,
      "vph_recent": 0.0
     },
@@ -2664,25 +2664,25 @@
      "id": "XCanqsh91xw",
      "title": "US history on the map in 10 minutes",
      "published": "2024-08-23T13:00:38Z",
-     "views": 1845,
+     "views": 1846,
      "seconds": 674,
      "short": false,
-     "outlier_x": 0.32,
-     "age_days": 808.7,
+     "outlier_x": 0.33,
+     "age_days": 808.9,
      "vph_lifetime": 0.1,
-     "vph_recent": 0.0
+     "vph_recent": 0.1
     },
     {
      "id": "OPUx6EB3YZM",
      "title": "The Safest Places in Your Home - Nuclear War simulation",
      "published": "2024-08-04T15:36:26Z",
-     "views": 8822,
+     "views": 8827,
      "seconds": 226,
      "short": false,
      "outlier_x": 1.55,
-     "age_days": 827.5,
+     "age_days": 827.8,
      "vph_lifetime": 0.4,
-     "vph_recent": 0.8
+     "vph_recent": 0.9
     },
     {
      "id": "cqzU8RrVdAo",
@@ -2692,7 +2692,7 @@
      "seconds": 220,
      "short": false,
      "outlier_x": 2.57,
-     "age_days": 835.3,
+     "age_days": 835.5,
      "vph_lifetime": 0.7,
      "vph_recent": 0.0
     },
@@ -2704,7 +2704,7 @@
      "seconds": 24,
      "short": true,
      "outlier_x": 0.47,
-     "age_days": 839.3,
+     "age_days": 839.5,
      "vph_lifetime": 0.1,
      "vph_recent": 0.0
     },
@@ -2716,7 +2716,7 @@
      "seconds": 19,
      "short": true,
      "outlier_x": 2.54,
-     "age_days": 841.5,
+     "age_days": 841.8,
      "vph_lifetime": 0.7,
      "vph_recent": 0.0
     },
@@ -2728,7 +2728,7 @@
      "seconds": 331,
      "short": false,
      "outlier_x": 0.44,
-     "age_days": 842.3,
+     "age_days": 842.5,
      "vph_lifetime": 0.1,
      "vph_recent": 0.0
     },
@@ -2740,7 +2740,7 @@
      "seconds": 21,
      "short": true,
      "outlier_x": 0.25,
-     "age_days": 844.4,
+     "age_days": 844.6,
      "vph_lifetime": 0.1,
      "vph_recent": 0.0
     },
@@ -2752,7 +2752,7 @@
      "seconds": 276,
      "short": false,
      "outlier_x": 1.75,
-     "age_days": 852.3,
+     "age_days": 852.6,
      "vph_lifetime": 0.5,
      "vph_recent": 0.0
     },
@@ -2764,7 +2764,7 @@
      "seconds": 215,
      "short": false,
      "outlier_x": 0.99,
-     "age_days": 875.3,
+     "age_days": 875.5,
      "vph_lifetime": 0.3,
      "vph_recent": 0.0
     },
@@ -2772,11 +2772,11 @@
      "id": "QAKgtO3Sl5k",
      "title": "Inside the World’s Most Powerful Building - Pentagon",
      "published": "2024-06-09T16:59:53Z",
-     "views": 24056,
+     "views": 24057,
      "seconds": 217,
      "short": false,
      "outlier_x": 4.24,
-     "age_days": 883.5,
+     "age_days": 883.7,
      "vph_lifetime": 1.1,
      "vph_recent": 0.2
     },
@@ -2784,37 +2784,37 @@
      "id": "2_UMKcnuYt0",
      "title": "Simulation of a Nuclear Explosion in LONDON",
      "published": "2024-06-01T16:21:04Z",
-     "views": 879431,
+     "views": 879445,
      "seconds": 251,
      "short": false,
-     "outlier_x": 154.88,
-     "age_days": 891.5,
+     "outlier_x": 154.89,
+     "age_days": 891.7,
      "vph_lifetime": 41.1,
-     "vph_recent": 8.5
+     "vph_recent": 5.5
     },
     {
      "id": "ZrBxH-mmSBw",
      "title": "Nuclear War Simulation - London vs. Russia",
      "published": "2024-05-23T20:56:33Z",
-     "views": 12925,
+     "views": 12927,
      "seconds": 25,
      "short": true,
      "outlier_x": 2.28,
-     "age_days": 900.3,
+     "age_days": 900.5,
      "vph_lifetime": 0.6,
-     "vph_recent": 0.0
+     "vph_recent": 0.2
     },
     {
      "id": "wxEcWBjkez0",
      "title": "Nuclear War AI Simulation - Russia vs UK",
      "published": "2024-05-19T20:03:28Z",
-     "views": 279263,
+     "views": 279270,
      "seconds": 225,
      "short": false,
      "outlier_x": 49.18,
-     "age_days": 904.4,
+     "age_days": 904.6,
      "vph_lifetime": 12.9,
-     "vph_recent": 4.0
+     "vph_recent": 2.7
     }
    ]
   },
@@ -2822,223 +2822,223 @@
    "handle": "@mappack",
    "title": "Map Pack",
    "subs": "443000",
-   "median_long_views_last50": 26691.5,
+   "median_long_views_last50": 26729.5,
    "videos": [
     {
      "id": "5LrdTcUtuH0",
      "title": "This Could Trigger a War Between Russia and Japan",
      "published": "2026-11-05T20:11:00Z",
-     "views": 53940,
+     "views": 54706,
      "seconds": 1861,
      "short": false,
-     "outlier_x": 2.02,
-     "age_days": 4.4,
-     "vph_lifetime": 515.6,
-     "vph_recent": 243.3
+     "outlier_x": 2.05,
+     "age_days": 4.6,
+     "vph_lifetime": 497.7,
+     "vph_recent": 193.4
     },
     {
      "id": "u9BmjynsfSA",
      "title": "Why Is Alaska’s Coast So Empty?",
      "published": "2026-10-29T22:11:35Z",
-     "views": 17614,
+     "views": 17675,
      "seconds": 2173,
      "short": false,
      "outlier_x": 0.66,
-     "age_days": 11.3,
-     "vph_lifetime": 65.1,
-     "vph_recent": 8.1
+     "age_days": 11.5,
+     "vph_lifetime": 64.1,
+     "vph_recent": 9.8
     },
     {
      "id": "Xs7PZf2pmcE",
      "title": "Why the NEXT World War Could Start in the Most UNEXPECTED Place on Earth",
      "published": "2026-10-26T22:17:09Z",
-     "views": 17765,
+     "views": 17782,
      "seconds": 1765,
      "short": false,
      "outlier_x": 0.67,
-     "age_days": 14.3,
-     "vph_lifetime": 51.9,
-     "vph_recent": 6.7
+     "age_days": 14.5,
+     "vph_lifetime": 51.1,
+     "vph_recent": 5.0
     },
     {
      "id": "uSgE21gA7rA",
      "title": "This Tiny Island Gives the US an UNFAIR Advantage in Every War",
      "published": "2026-10-19T22:11:15Z",
-     "views": 330227,
+     "views": 330823,
      "seconds": 2085,
      "short": false,
-     "outlier_x": 12.37,
-     "age_days": 21.3,
-     "vph_lifetime": 646.7,
-     "vph_recent": 171.2
+     "outlier_x": 12.38,
+     "age_days": 21.5,
+     "vph_lifetime": 641.2,
+     "vph_recent": 141.5
     },
     {
      "id": "lh6HDYq_508",
      "title": "The Curse of Crimea",
      "published": "2026-09-16T21:11:21Z",
-     "views": 224281,
+     "views": 224328,
      "seconds": 2571,
      "short": false,
-     "outlier_x": 8.4,
-     "age_days": 54.3,
-     "vph_lifetime": 172.0,
-     "vph_recent": 4.6
+     "outlier_x": 8.39,
+     "age_days": 54.5,
+     "vph_lifetime": 171.4,
+     "vph_recent": 6.8
     },
     {
      "id": "etFwWL7HCfU",
      "title": "This Desert Is America's Greatest Asset. Here's Why",
      "published": "2026-08-12T21:00:07Z",
-     "views": 143554,
+     "views": 143572,
      "seconds": 2027,
      "short": false,
-     "outlier_x": 5.38,
-     "age_days": 89.3,
-     "vph_lifetime": 67.0,
-     "vph_recent": 3.1
+     "outlier_x": 5.37,
+     "age_days": 89.5,
+     "vph_lifetime": 66.8,
+     "vph_recent": 3.2
     },
     {
      "id": "N8GNkKwSWoo",
      "title": "America’s Two Day War Plan That Terrifies China",
      "published": "2026-08-08T21:00:06Z",
-     "views": 115929,
+     "views": 115971,
      "seconds": 2040,
      "short": false,
      "outlier_x": 4.34,
-     "age_days": 93.3,
-     "vph_lifetime": 51.8,
-     "vph_recent": 12.7
+     "age_days": 93.5,
+     "vph_lifetime": 51.7,
+     "vph_recent": 10.3
     },
     {
      "id": "jvZdM-uyeCE",
      "title": "2 Hours Of Geography's Secret Passageways",
      "published": "2026-08-05T21:00:00Z",
-     "views": 30915,
+     "views": 30935,
      "seconds": 15820,
      "short": false,
      "outlier_x": 1.16,
-     "age_days": 96.3,
+     "age_days": 96.5,
      "vph_lifetime": 13.4,
-     "vph_recent": 1.7
+     "vph_recent": 2.8
     },
     {
      "id": "M4cUVHNixn4",
      "title": "Why These 13 Countries Won't Exist By 2050 (It's NOT War )",
      "published": "2026-08-02T21:00:15Z",
-     "views": 286637,
+     "views": 288608,
      "seconds": 2429,
      "short": false,
-     "outlier_x": 10.74,
-     "age_days": 99.3,
-     "vph_lifetime": 120.2,
-     "vph_recent": 442.9
+     "outlier_x": 10.8,
+     "age_days": 99.5,
+     "vph_lifetime": 120.8,
+     "vph_recent": 407.0
     },
     {
      "id": "komPOUO6YSs",
      "title": "Why THIS Island Will Trigger World War lll",
      "published": "2026-07-28T21:30:37Z",
-     "views": 12105,
+     "views": 12108,
      "seconds": 2327,
      "short": false,
      "outlier_x": 0.45,
-     "age_days": 104.3,
+     "age_days": 104.5,
      "vph_lifetime": 4.8,
-     "vph_recent": 1.2
+     "vph_recent": 0.9
     },
     {
      "id": "HtAcAwgVSVc",
      "title": "Why The US CAN'T Use Its Oil",
      "published": "2026-07-25T21:00:06Z",
-     "views": 1736150,
+     "views": 1742793,
      "seconds": 1988,
      "short": false,
-     "outlier_x": 65.05,
-     "age_days": 107.3,
-     "vph_lifetime": 674.0,
-     "vph_recent": 1518.6
+     "outlier_x": 65.2,
+     "age_days": 107.5,
+     "vph_lifetime": 675.2,
+     "vph_recent": 1384.7
     },
     {
      "id": "Uatv5zYJkDQ",
      "title": "2 Hours of the World's Most Expensive Engineering Disasters",
      "published": "2026-07-24T21:00:32Z",
-     "views": 11463,
+     "views": 11481,
      "seconds": 7323,
      "short": false,
      "outlier_x": 0.43,
-     "age_days": 108.3,
+     "age_days": 108.5,
      "vph_lifetime": 4.4,
-     "vph_recent": 2.1
+     "vph_recent": 2.8
     },
     {
      "id": "cqFKvTLve7o",
      "title": "The Invisible Network That Has The US Winning",
      "published": "2026-07-22T21:00:00Z",
-     "views": 35468,
+     "views": 35472,
      "seconds": 1956,
      "short": false,
      "outlier_x": 1.33,
-     "age_days": 110.3,
+     "age_days": 110.5,
      "vph_lifetime": 13.4,
-     "vph_recent": 1.2
+     "vph_recent": 1.0
     },
     {
      "id": "0zaUfwGtzgk",
      "title": "3 Hidden Systems That Give the US an Unfair Advantage",
      "published": "2026-07-20T21:00:05Z",
-     "views": 15947,
+     "views": 15973,
      "seconds": 6975,
      "short": false,
      "outlier_x": 0.6,
-     "age_days": 112.3,
+     "age_days": 112.5,
      "vph_lifetime": 5.9,
-     "vph_recent": 3.1
+     "vph_recent": 4.0
     },
     {
      "id": "cwgZpr-tvTg",
      "title": "2 Hours of Places The World Doesn't Want You to See",
      "published": "2026-07-17T21:00:05Z",
-     "views": 24441,
+     "views": 24505,
      "seconds": 6394,
      "short": false,
      "outlier_x": 0.92,
-     "age_days": 115.3,
+     "age_days": 115.5,
      "vph_lifetime": 8.8,
-     "vph_recent": 8.7
+     "vph_recent": 10.4
     },
     {
      "id": "wK8Kvvad5QQ",
      "title": "This Deadly Sea Has Something America Wants (It's NOT Oil)",
      "published": "2026-07-16T21:00:03Z",
-     "views": 16314,
+     "views": 16316,
      "seconds": 2027,
      "short": false,
      "outlier_x": 0.61,
-     "age_days": 116.3,
+     "age_days": 116.5,
      "vph_lifetime": 5.8,
-     "vph_recent": 0.8
+     "vph_recent": 0.6
     },
     {
      "id": "t08F08mz-88",
      "title": "Why The US Refuses To Close This 60 Mile Gap (NOT What You Think)",
      "published": "2026-07-14T21:00:24Z",
-     "views": 10302,
+     "views": 10306,
      "seconds": 2032,
      "short": false,
      "outlier_x": 0.39,
-     "age_days": 118.3,
+     "age_days": 118.5,
      "vph_lifetime": 3.6,
-     "vph_recent": 0.4
+     "vph_recent": 0.6
     },
     {
      "id": "sl7LrMuYnBA",
      "title": "2 Hours of US Places That Don't Play By The Rules",
      "published": "2026-07-13T21:00:08Z",
-     "views": 13395,
+     "views": 13424,
      "seconds": 5143,
      "short": false,
      "outlier_x": 0.5,
-     "age_days": 119.3,
+     "age_days": 119.5,
      "vph_lifetime": 4.7,
-     "vph_recent": 4.0
+     "vph_recent": 4.8
     },
     {
      "id": "h4N8OoHWm1k",
@@ -3048,7 +3048,7 @@
      "seconds": 2064,
      "short": false,
      "outlier_x": 0.32,
-     "age_days": 123.3,
+     "age_days": 123.5,
      "vph_lifetime": 2.9,
      "vph_recent": 0.0
     },
@@ -3056,61 +3056,61 @@
      "id": "sy3iXjblxy4",
      "title": "2 Hours US Map Secrets NOBODY Is Talking About",
      "published": "2026-07-08T21:00:34Z",
-     "views": 38902,
+     "views": 38926,
      "seconds": 7422,
      "short": false,
      "outlier_x": 1.46,
-     "age_days": 124.3,
+     "age_days": 124.5,
      "vph_lifetime": 13.0,
-     "vph_recent": 2.9
+     "vph_recent": 3.7
     },
     {
      "id": "w3SrMxKy2GY",
      "title": "Why NOBODY Has A Plan B For When America's Water Runs Out",
      "published": "2026-07-07T21:00:33Z",
-     "views": 5722,
+     "views": 5726,
      "seconds": 1858,
      "short": false,
      "outlier_x": 0.21,
-     "age_days": 125.3,
+     "age_days": 125.5,
      "vph_lifetime": 1.9,
-     "vph_recent": 0.2
+     "vph_recent": 0.5
     },
     {
      "id": "g6rLnATbVXU",
      "title": "100+ Places You Are BANNED From Visiting",
      "published": "2026-07-06T21:00:18Z",
-     "views": 34128,
+     "views": 34163,
      "seconds": 7214,
      "short": false,
      "outlier_x": 1.28,
-     "age_days": 126.3,
-     "vph_lifetime": 11.3,
-     "vph_recent": 9.0
+     "age_days": 126.5,
+     "vph_lifetime": 11.2,
+     "vph_recent": 7.8
     },
     {
      "id": "uTqwP4CmkA0",
      "title": "2 Hours Of Places That Will SOON Vanish From the Map",
      "published": "2026-07-03T21:00:14Z",
-     "views": 14163,
+     "views": 14194,
      "seconds": 7233,
      "short": false,
      "outlier_x": 0.53,
-     "age_days": 129.3,
+     "age_days": 129.5,
      "vph_lifetime": 4.6,
-     "vph_recent": 1.0
+     "vph_recent": 3.4
     },
     {
      "id": "QuGoF3rFK0A",
      "title": "US Geography Is Hiding Secrets NOBODY Talks About",
      "published": "2026-07-02T21:00:34Z",
-     "views": 36474,
+     "views": 36488,
      "seconds": 2032,
      "short": false,
      "outlier_x": 1.37,
-     "age_days": 130.3,
-     "vph_lifetime": 11.7,
-     "vph_recent": 1.7
+     "age_days": 130.5,
+     "vph_lifetime": 11.6,
+     "vph_recent": 2.2
     },
     {
      "id": "8dEPrwH00Kw",
@@ -3120,7 +3120,7 @@
      "seconds": 1925,
      "short": false,
      "outlier_x": 0.18,
-     "age_days": 132.3,
+     "age_days": 132.5,
      "vph_lifetime": 1.5,
      "vph_recent": 0.0
     },
@@ -3128,73 +3128,73 @@
      "id": "bKiQdLn4mIM",
      "title": "2 Hours Geography Exploration of MISSING Lands",
      "published": "2026-06-29T21:00:15Z",
-     "views": 28942,
+     "views": 28954,
      "seconds": 7508,
      "short": false,
      "outlier_x": 1.08,
-     "age_days": 133.3,
+     "age_days": 133.5,
      "vph_lifetime": 9.0,
-     "vph_recent": 1.7
+     "vph_recent": 2.0
     },
     {
      "id": "aFBJkcf-2_4",
      "title": "2 Hours Of America’s (and Russia’s) Best Kept Geography Secrets",
      "published": "2026-06-27T21:00:40Z",
-     "views": 19878,
+     "views": 19896,
      "seconds": 6601,
      "short": false,
      "outlier_x": 0.74,
-     "age_days": 135.3,
+     "age_days": 135.5,
      "vph_lifetime": 6.1,
-     "vph_recent": 1.7
+     "vph_recent": 2.6
     },
     {
      "id": "1CmFDILpxLk",
      "title": "AI is Breaking the Power Grid. This State Fixed It.",
      "published": "2026-06-25T16:30:10Z",
-     "views": 4251,
+     "views": 4254,
      "seconds": 1672,
      "short": false,
      "outlier_x": 0.16,
-     "age_days": 137.5,
+     "age_days": 137.7,
      "vph_lifetime": 1.3,
-     "vph_recent": 0.2
+     "vph_recent": 0.4
     },
     {
      "id": "JYMIpZm606E",
      "title": "Why A US Invasion Would Be Over In 72 Hours",
      "published": "2026-06-23T16:30:14Z",
-     "views": 37360,
+     "views": 37363,
      "seconds": 2242,
      "short": false,
      "outlier_x": 1.4,
-     "age_days": 139.5,
-     "vph_lifetime": 11.2,
-     "vph_recent": 0.8
+     "age_days": 139.7,
+     "vph_lifetime": 11.1,
+     "vph_recent": 0.7
     },
     {
      "id": "sxpMMRlC57s",
      "title": "2 Hours Of HIDDEN Geography Secrets",
      "published": "2026-06-22T16:30:02Z",
-     "views": 19620,
+     "views": 19645,
      "seconds": 7624,
      "short": false,
-     "outlier_x": 0.74,
-     "age_days": 140.5,
+     "outlier_x": 0.73,
+     "age_days": 140.7,
      "vph_lifetime": 5.8,
-     "vph_recent": 2.7
+     "vph_recent": 3.7
     },
     {
      "id": "Q9IvYlwf-mo",
      "title": "2 Hours of Geography Disasters and Dangerous Places",
      "published": "2026-06-19T16:00:31Z",
-     "views": 68797,
+     "views": 68921,
      "seconds": 7145,
      "short": false,
      "outlier_x": 2.58,
-     "age_days": 143.5,
+     "age_days": 143.8,
      "vph_lifetime": 20.0,
-     "vph_recent": 17.1
+     "vph_recent": 20.3
     },
     {
      "id": "vLTvdQ-xKDY",
@@ -3204,9 +3204,9 @@
      "seconds": 1423,
      "short": false,
      "outlier_x": 2.64,
-     "age_days": 144.5,
-     "vph_lifetime": 20.4,
-     "vph_recent": 1.5
+     "age_days": 144.7,
+     "vph_lifetime": 20.3,
+     "vph_recent": 0.8
     },
     {
      "id": "SUGAZ8AK4VY",
@@ -3216,45 +3216,45 @@
      "seconds": 1446,
      "short": false,
      "outlier_x": 0.21,
-     "age_days": 146.5,
+     "age_days": 146.7,
      "vph_lifetime": 1.6,
-     "vph_recent": 0.4
+     "vph_recent": 0.2
     },
     {
      "id": "q9PzOXOimKg",
      "title": "100 HIDDEN Locations That Are Off Limits Forever. Here's Why",
      "published": "2026-06-15T16:00:24Z",
-     "views": 371192,
+     "views": 371559,
      "seconds": 7750,
      "short": false,
-     "outlier_x": 13.91,
-     "age_days": 147.5,
+     "outlier_x": 13.9,
+     "age_days": 147.8,
      "vph_lifetime": 104.8,
-     "vph_recent": 20.0
+     "vph_recent": 44.9
     },
     {
      "id": "3iSAu9_OCeA",
      "title": "China VS...",
      "published": "2026-06-14T16:00:27Z",
-     "views": 15060,
+     "views": 15061,
      "seconds": 18,
      "short": true,
      "outlier_x": 0.56,
-     "age_days": 148.5,
+     "age_days": 148.8,
      "vph_lifetime": 4.2,
-     "vph_recent": 0.4
+     "vph_recent": 0.3
     },
     {
      "id": "-KWtSZCRWpM",
      "title": "EVERYONE Saw It Coming...",
      "published": "2026-06-13T16:00:29Z",
-     "views": 16793,
+     "views": 16796,
      "seconds": 22,
      "short": true,
      "outlier_x": 0.63,
-     "age_days": 149.5,
+     "age_days": 149.8,
      "vph_lifetime": 4.7,
-     "vph_recent": 0.2
+     "vph_recent": 0.4
     },
     {
      "id": "GF1hmAyjLXU",
@@ -3264,21 +3264,21 @@
      "seconds": 27,
      "short": true,
      "outlier_x": 0.49,
-     "age_days": 150.5,
+     "age_days": 150.8,
      "vph_lifetime": 3.6,
-     "vph_recent": 0.6
+     "vph_recent": 0.3
     },
     {
      "id": "S6mp7wQR51I",
      "title": "2 Hours of High-Stakes Geopolitics",
      "published": "2026-06-12T16:00:15Z",
-     "views": 15407,
+     "views": 15411,
      "seconds": 6924,
      "short": false,
      "outlier_x": 0.58,
-     "age_days": 150.5,
+     "age_days": 150.8,
      "vph_lifetime": 4.3,
-     "vph_recent": 0.6
+     "vph_recent": 0.7
     },
     {
      "id": "Xl5XAo5-rHY",
@@ -3288,7 +3288,7 @@
      "seconds": 1360,
      "short": false,
      "outlier_x": 0.24,
-     "age_days": 151.5,
+     "age_days": 151.7,
      "vph_lifetime": 1.8,
      "vph_recent": 0.0
     },
@@ -3296,13 +3296,13 @@
      "id": "zeMkA9FmABQ",
      "title": "They Found SOMETHING. Then Classified It.",
      "published": "2026-06-10T16:00:35Z",
-     "views": 6470,
+     "views": 6474,
      "seconds": 26,
      "short": true,
      "outlier_x": 0.24,
-     "age_days": 152.5,
+     "age_days": 152.8,
      "vph_lifetime": 1.8,
-     "vph_recent": 0.6
+     "vph_recent": 0.7
     },
     {
      "id": "OZn3kge28e4",
@@ -3312,117 +3312,117 @@
      "seconds": 2060,
      "short": false,
      "outlier_x": 0.23,
-     "age_days": 153.5,
+     "age_days": 153.8,
      "vph_lifetime": 1.7,
-     "vph_recent": 0.2
+     "vph_recent": 0.1
     },
     {
      "id": "LLXv1A6ADTc",
      "title": "2 Hours Of The Geopolitical Geography NOBODY Explains",
      "published": "2026-06-08T16:00:19Z",
-     "views": 22792,
+     "views": 22802,
      "seconds": 8411,
      "short": false,
      "outlier_x": 0.85,
-     "age_days": 154.5,
+     "age_days": 154.8,
      "vph_lifetime": 6.1,
-     "vph_recent": 0.8
+     "vph_recent": 1.3
     },
     {
      "id": "wv3r6lDWQ8w",
      "title": "The Data Centers That Will Be America's DOOM. Here's Why",
      "published": "2026-06-04T16:00:29Z",
-     "views": 91494,
+     "views": 91496,
      "seconds": 1620,
      "short": false,
-     "outlier_x": 3.43,
-     "age_days": 158.5,
+     "outlier_x": 3.42,
+     "age_days": 158.8,
      "vph_lifetime": 24.0,
-     "vph_recent": 1.0
+     "vph_recent": 0.7
     },
     {
      "id": "Bm-X7fKcDv0",
      "title": "2 Hours Of Wars Nobody Is Explaining Correctly (NOT What You Think)",
      "published": "2026-06-03T16:00:24Z",
-     "views": 59059,
+     "views": 59093,
      "seconds": 7652,
      "short": false,
      "outlier_x": 2.21,
-     "age_days": 159.5,
+     "age_days": 159.8,
      "vph_lifetime": 15.4,
-     "vph_recent": 3.7
+     "vph_recent": 5.0
     },
     {
      "id": "cXOw2OmllBU",
      "title": "The 6 Conflicts Nobody Is Preparing For (It's NOT Ukraine or Gaza)",
      "published": "2026-06-02T17:00:39Z",
-     "views": 20438,
+     "views": 20444,
      "seconds": 1582,
      "short": false,
-     "outlier_x": 0.77,
-     "age_days": 160.5,
+     "outlier_x": 0.76,
+     "age_days": 160.7,
      "vph_lifetime": 5.3,
-     "vph_recent": 0.2
+     "vph_recent": 0.7
     },
     {
      "id": "z_l1gLBVXwE",
      "title": "200 World & US Errors That Never Got Fixed",
      "published": "2026-05-29T16:00:29Z",
-     "views": 37615,
+     "views": 37623,
      "seconds": 8218,
      "short": false,
      "outlier_x": 1.41,
-     "age_days": 164.5,
+     "age_days": 164.8,
      "vph_lifetime": 9.5,
-     "vph_recent": 0.0
+     "vph_recent": 0.8
     },
     {
      "id": "xA9daLR19m8",
      "title": "What Happens To The US Without NATO (It's NOT What You Think)",
      "published": "2026-05-28T16:00:14Z",
-     "views": 64062,
+     "views": 64066,
      "seconds": 1356,
      "short": false,
      "outlier_x": 2.4,
-     "age_days": 165.5,
+     "age_days": 165.8,
      "vph_lifetime": 16.1,
-     "vph_recent": 1.7
+     "vph_recent": 1.2
     },
     {
      "id": "qLRCSXas3ng",
      "title": "200 US Geography Lies YOU Still Believe",
      "published": "2026-05-27T16:00:26Z",
-     "views": 52951,
+     "views": 52980,
      "seconds": 9688,
      "short": false,
      "outlier_x": 1.98,
-     "age_days": 166.5,
+     "age_days": 166.8,
      "vph_lifetime": 13.2,
-     "vph_recent": 2.3
+     "vph_recent": 3.9
     },
     {
      "id": "iYofGDPAu0U",
      "title": "Where In The US YOU Actually Want to Be (During a Nuclear Strike)",
      "published": "2026-05-26T16:00:09Z",
-     "views": 6426,
+     "views": 6428,
      "seconds": 1430,
      "short": false,
      "outlier_x": 0.24,
-     "age_days": 167.5,
+     "age_days": 167.8,
      "vph_lifetime": 1.6,
-     "vph_recent": 1.7
+     "vph_recent": 1.0
     },
     {
      "id": "iKt8I1IXpwc",
      "title": "3 Hours Of Empty Places That Should Not Exist (But Do)",
      "published": "2026-05-22T16:00:37Z",
-     "views": 79886,
+     "views": 80051,
      "seconds": 12612,
      "short": false,
      "outlier_x": 2.99,
-     "age_days": 171.5,
+     "age_days": 171.8,
      "vph_lifetime": 19.4,
-     "vph_recent": 16.2
+     "vph_recent": 23.7
     }
    ]
   },
@@ -3430,607 +3430,607 @@
    "handle": "@reallifelore",
    "title": "RealLifeLore",
    "subs": "7930000",
-   "median_long_views_last50": 1080957.5,
+   "median_long_views_last50": 1081068.5,
    "videos": [
     {
      "id": "3IVbe0xrRt8",
      "title": "Why the Pacific Northwest Coast is Insanely Empty",
      "published": "2026-10-31T17:30:32Z",
-     "views": 855613,
+     "views": 865873,
      "seconds": 2466,
      "short": false,
-     "outlier_x": 0.79,
-     "age_days": 9.5,
-     "vph_lifetime": 3764.5,
-     "vph_recent": 1433.7
+     "outlier_x": 0.8,
+     "age_days": 9.7,
+     "vph_lifetime": 3722.8,
+     "vph_recent": 1687.0
     },
     {
      "id": "40LcIZKsp18",
      "title": "How To Save a Child's Life From Gaza",
      "published": "2026-10-29T18:25:34Z",
-     "views": 178878,
+     "views": 179116,
      "seconds": 2271,
      "short": false,
      "outlier_x": 0.17,
-     "age_days": 11.4,
-     "vph_lifetime": 652.0,
-     "vph_recent": 57.3
+     "age_days": 11.7,
+     "vph_lifetime": 640.5,
+     "vph_recent": 51.0
     },
     {
      "id": "FA-oEtccS_k",
      "title": "Why Russia Thinks It Can Attack Europe and WIN",
      "published": "2026-10-23T17:06:11Z",
-     "views": 1403737,
+     "views": 1405648,
      "seconds": 2623,
      "short": false,
      "outlier_x": 1.3,
-     "age_days": 17.5,
-     "vph_lifetime": 3344.7,
-     "vph_recent": 430.0
+     "age_days": 17.7,
+     "vph_lifetime": 3307.5,
+     "vph_recent": 394.9
     },
     {
      "id": "R60ZGwd3n9E",
      "title": "Why The US Is Suddenly Attacking Canada",
      "published": "2026-10-15T16:12:47Z",
-     "views": 1189880,
+     "views": 1190812,
      "seconds": 3183,
      "short": false,
      "outlier_x": 1.1,
-     "age_days": 25.5,
-     "vph_lifetime": 1942.4,
-     "vph_recent": 156.7
+     "age_days": 25.7,
+     "vph_lifetime": 1927.2,
+     "vph_recent": 166.4
     },
     {
      "id": "U_UoAZrOTNU",
      "title": "Why Everything is Going Wrong for Saudi Arabia",
      "published": "2026-09-30T16:51:41Z",
-     "views": 1865042,
+     "views": 1865456,
      "seconds": 1521,
      "short": false,
      "outlier_x": 1.73,
-     "age_days": 40.5,
-     "vph_lifetime": 1918.9,
-     "vph_recent": 75.6
+     "age_days": 40.7,
+     "vph_lifetime": 1908.9,
+     "vph_recent": 76.9
     },
     {
      "id": "WiRLNEl-4bk",
      "title": "Why The Nepal Flood Was WAY Scarier Than You Think",
      "published": "2026-09-19T14:41:39Z",
-     "views": 2327122,
+     "views": 2327290,
      "seconds": 1811,
      "short": false,
      "outlier_x": 2.15,
-     "age_days": 51.6,
-     "vph_lifetime": 1879.6,
-     "vph_recent": 56.3
+     "age_days": 51.8,
+     "vph_lifetime": 1871.7,
+     "vph_recent": 43.9
     },
     {
      "id": "NQSndaDIvcs",
      "title": "Why The Taliban Are Begging The US To Come Back",
      "published": "2026-09-11T12:43:43Z",
-     "views": 3750711,
+     "views": 3751838,
      "seconds": 2331,
      "short": false,
      "outlier_x": 3.47,
-     "age_days": 59.7,
-     "vph_lifetime": 2619.1,
-     "vph_recent": 244.6
+     "age_days": 59.9,
+     "vph_lifetime": 2610.2,
+     "vph_recent": 228.5
     },
     {
      "id": "YSBh_TPIwHY",
      "title": "Why 600,000 People Live On This Rock With No Resources",
      "published": "2026-08-31T15:32:43Z",
-     "views": 1328706,
+     "views": 1328784,
      "seconds": 1901,
      "short": false,
      "outlier_x": 1.23,
-     "age_days": 70.6,
-     "vph_lifetime": 784.7,
-     "vph_recent": 25.4
+     "age_days": 70.8,
+     "vph_lifetime": 782.3,
+     "vph_recent": 20.0
     },
     {
      "id": "UHsSZ7lUvKM",
      "title": "New Somali Piracy Situation is Insane",
      "published": "2026-08-21T17:39:04Z",
-     "views": 1278157,
+     "views": 1278515,
      "seconds": 2676,
      "short": false,
      "outlier_x": 1.18,
-     "age_days": 80.5,
-     "vph_lifetime": 661.9,
-     "vph_recent": 55.2
+     "age_days": 80.7,
+     "vph_lifetime": 660.2,
+     "vph_recent": 61.4
     },
     {
      "id": "JjhyYOKmFGM",
      "title": "How China Keeps Winning by Doing Nothing",
      "published": "2026-08-12T17:27:43Z",
-     "views": 1396874,
+     "views": 1397305,
      "seconds": 1753,
      "short": false,
      "outlier_x": 1.29,
-     "age_days": 89.5,
-     "vph_lifetime": 650.5,
-     "vph_recent": 84.8
+     "age_days": 89.7,
+     "vph_lifetime": 649.1,
+     "vph_recent": 83.0
     },
     {
      "id": "zkbgLhBmzGo",
      "title": "What's Hidden Under the Sands of the Sahara Desert?",
      "published": "2026-07-30T14:17:48Z",
-     "views": 1288883,
+     "views": 1289359,
      "seconds": 2888,
      "short": false,
      "outlier_x": 1.19,
-     "age_days": 102.6,
-     "vph_lifetime": 523.4,
-     "vph_recent": 71.3
+     "age_days": 102.8,
+     "vph_lifetime": 522.5,
+     "vph_recent": 80.7
     },
     {
      "id": "ZPu3kezlC08",
      "title": "The Hormuz Situation Keeps Getting More Insane",
      "published": "2026-07-22T16:44:25Z",
-     "views": 832124,
+     "views": 832159,
      "seconds": 1843,
      "short": false,
      "outlier_x": 0.77,
-     "age_days": 110.5,
-     "vph_lifetime": 313.8,
-     "vph_recent": 5.8
+     "age_days": 110.7,
+     "vph_lifetime": 313.2,
+     "vph_recent": 6.2
     },
     {
      "id": "QjhqB3tC1Ko",
      "title": "Crimea Situation Is Insane",
      "published": "2026-07-09T17:22:11Z",
-     "views": 1987747,
+     "views": 1987906,
      "seconds": 1288,
      "short": false,
      "outlier_x": 1.84,
-     "age_days": 123.5,
-     "vph_lifetime": 670.8,
-     "vph_recent": 35.0
+     "age_days": 123.7,
+     "vph_lifetime": 669.6,
+     "vph_recent": 32.5
     },
     {
      "id": "nEBcD6sFDpY",
      "title": "Caspian Sea Situation Is Insane",
      "published": "2026-06-30T16:29:45Z",
-     "views": 665963,
+     "views": 666044,
      "seconds": 1153,
      "short": false,
      "outlier_x": 0.62,
-     "age_days": 132.5,
-     "vph_lifetime": 209.4,
-     "vph_recent": 6.9
+     "age_days": 132.7,
+     "vph_lifetime": 209.1,
+     "vph_recent": 11.1
     },
     {
      "id": "V14RCK_QiG0",
      "title": "The Incredible Logistics Behind the World's Longest Flight",
      "published": "2026-06-19T17:17:13Z",
-     "views": 708491,
+     "views": 708533,
      "seconds": 1636,
      "short": false,
      "outlier_x": 0.66,
-     "age_days": 143.5,
-     "vph_lifetime": 205.7,
-     "vph_recent": 7.5
+     "age_days": 143.7,
+     "vph_lifetime": 205.4,
+     "vph_recent": 7.7
     },
     {
      "id": "T8y7ZIq4jXY",
      "title": "Why Russia is Suddenly Losing in Ukraine",
      "published": "2026-06-12T16:55:44Z",
-     "views": 2123767,
+     "views": 2124106,
      "seconds": 1565,
      "short": false,
      "outlier_x": 1.96,
-     "age_days": 150.5,
-     "vph_lifetime": 588.0,
-     "vph_recent": 54.4
+     "age_days": 150.7,
+     "vph_lifetime": 587.2,
+     "vph_recent": 59.2
     },
     {
      "id": "VkYWW95eSLs",
      "title": "A European Ice Age is Coming Sooner Than We Thought...",
      "published": "2026-05-29T17:14:35Z",
-     "views": 1267047,
+     "views": 1267076,
      "seconds": 1451,
      "short": false,
      "outlier_x": 1.17,
-     "age_days": 164.5,
-     "vph_lifetime": 321.0,
-     "vph_recent": 3.8
+     "age_days": 164.7,
+     "vph_lifetime": 320.5,
+     "vph_recent": 4.7
     },
     {
      "id": "O3dSjY4j7Ak",
      "title": "Why Life in Louisiana has Become Impossible",
      "published": "2026-05-22T16:23:15Z",
-     "views": 1051612,
+     "views": 1051808,
      "seconds": 2438,
      "short": false,
      "outlier_x": 0.97,
-     "age_days": 171.5,
-     "vph_lifetime": 255.5,
-     "vph_recent": 29.6
+     "age_days": 171.7,
+     "vph_lifetime": 255.2,
+     "vph_recent": 33.3
     },
     {
      "id": "Km2A-9DwzeM",
      "title": "Why Britain Pays So Much to Defend the Falklands",
      "published": "2026-05-16T16:28:27Z",
-     "views": 615299,
+     "views": 615334,
      "seconds": 3190,
      "short": false,
      "outlier_x": 0.57,
-     "age_days": 177.5,
-     "vph_lifetime": 144.4,
-     "vph_recent": 17.5
+     "age_days": 177.7,
+     "vph_lifetime": 144.3,
+     "vph_recent": 12.0
     },
     {
      "id": "To8rpgqvtSc",
      "title": "What's Hidden Under the World's Most Mysterious Places?",
      "published": "2026-04-30T21:46:55Z",
-     "views": 436912,
+     "views": 437024,
      "seconds": 8843,
      "short": false,
      "outlier_x": 0.4,
-     "age_days": 193.3,
-     "vph_lifetime": 94.2,
-     "vph_recent": 8.8
+     "age_days": 193.5,
+     "vph_lifetime": 94.1,
+     "vph_recent": 15.0
     },
     {
      "id": "2o4IUPNYAK0",
      "title": "How Iran Will Kill 80+ Years of US Global Hegemony",
      "published": "2026-04-24T16:56:18Z",
-     "views": 972554,
+     "views": 972569,
      "seconds": 1804,
      "short": false,
      "outlier_x": 0.9,
-     "age_days": 199.5,
-     "vph_lifetime": 203.1,
-     "vph_recent": 3.7
+     "age_days": 199.7,
+     "vph_lifetime": 202.9,
+     "vph_recent": 3.2
     },
     {
      "id": "LwdSfdEkXPA",
      "title": "Why Israel is Trying to Conquer 10% of Lebanon",
      "published": "2026-04-15T17:36:28Z",
-     "views": 1030667,
+     "views": 1030779,
      "seconds": 1633,
      "short": false,
      "outlier_x": 0.95,
-     "age_days": 208.5,
-     "vph_lifetime": 206.0,
-     "vph_recent": 15.6
+     "age_days": 208.7,
+     "vph_lifetime": 205.8,
+     "vph_recent": 18.4
     },
     {
      "id": "-QoNbWhZClM",
      "title": "The Dumbest Decision in American History",
      "published": "2026-04-08T17:43:29Z",
-     "views": 1744478,
+     "views": 1744520,
      "seconds": 1905,
      "short": false,
      "outlier_x": 1.61,
-     "age_days": 215.5,
-     "vph_lifetime": 337.4,
-     "vph_recent": 3.7
+     "age_days": 215.7,
+     "vph_lifetime": 337.0,
+     "vph_recent": 5.8
     },
     {
      "id": "UCpEozv3pRY",
      "title": "The Making of the Modern Middle East",
      "published": "2026-04-01T16:49:16Z",
-     "views": 647736,
+     "views": 647883,
      "seconds": 16168,
      "short": false,
      "outlier_x": 0.6,
-     "age_days": 222.5,
-     "vph_lifetime": 121.3,
-     "vph_recent": 13.8
+     "age_days": 222.7,
+     "vph_lifetime": 121.2,
+     "vph_recent": 20.9
     },
     {
      "id": "eX0WfHpKmqY",
      "title": "Why 400,000 People Live in Earth's Coldest City",
      "published": "2026-03-27T16:58:08Z",
-     "views": 971019,
+     "views": 971433,
      "seconds": 1708,
      "short": false,
      "outlier_x": 0.9,
-     "age_days": 227.5,
+     "age_days": 227.7,
      "vph_lifetime": 177.8,
-     "vph_recent": 22.7
+     "vph_recent": 50.7
     },
     {
      "id": "Kp4eLkofznA",
      "title": "How The Iran War is Becoming a World War",
      "published": "2026-03-18T18:05:42Z",
-     "views": 2108571,
+     "views": 2108614,
      "seconds": 2090,
      "short": false,
      "outlier_x": 1.95,
-     "age_days": 236.4,
-     "vph_lifetime": 371.6,
-     "vph_recent": 9.6
+     "age_days": 236.7,
+     "vph_lifetime": 371.2,
+     "vph_recent": 8.9
     },
     {
      "id": "qZXpB0lHmd8",
      "title": "The Middle East's Next War After Iran",
      "published": "2026-03-13T16:12:00Z",
-     "views": 1527216,
+     "views": 1527242,
      "seconds": 2172,
      "short": false,
      "outlier_x": 1.41,
-     "age_days": 241.5,
-     "vph_lifetime": 263.5,
-     "vph_recent": 2.5
+     "age_days": 241.7,
+     "vph_lifetime": 263.2,
+     "vph_recent": 3.7
     },
     {
      "id": "TBHryws39sc",
      "title": "The Nightmare Geography Glitch Hiding in New Hampshire",
      "published": "2026-02-26T15:56:14Z",
-     "views": 1071304,
+     "views": 1071364,
      "seconds": 1384,
      "short": false,
      "outlier_x": 0.99,
-     "age_days": 256.5,
-     "vph_lifetime": 174.0,
-     "vph_recent": 12.7
+     "age_days": 256.8,
+     "vph_lifetime": 173.9,
+     "vph_recent": 12.0
     },
     {
      "id": "c3C9gxWwzTg",
      "title": "Why Cuba is the Fastest Dying Country on Earth",
      "published": "2026-02-20T16:30:22Z",
-     "views": 1600416,
+     "views": 1600539,
      "seconds": 3400,
      "short": false,
      "outlier_x": 1.48,
-     "age_days": 262.5,
-     "vph_lifetime": 254.0,
-     "vph_recent": 39.8
+     "age_days": 262.7,
+     "vph_lifetime": 253.8,
+     "vph_recent": 31.4
     },
     {
      "id": "5iy1qcy6XkY",
      "title": "The Ceuta Situation is Insane",
      "published": "2026-02-18T14:32:47Z",
-     "views": 472827,
+     "views": 472848,
      "seconds": 1973,
      "short": false,
      "outlier_x": 0.44,
-     "age_days": 264.6,
-     "vph_lifetime": 74.5,
-     "vph_recent": 5.0
+     "age_days": 264.8,
+     "vph_lifetime": 74.4,
+     "vph_recent": 4.5
     },
     {
      "id": "e8RFxahD7hQ",
      "title": "What a US Invasion of Greenland Would Actually Look Like",
      "published": "2026-01-30T16:22:35Z",
-     "views": 463905,
+     "views": 463914,
      "seconds": 2458,
      "short": false,
      "outlier_x": 0.43,
-     "age_days": 283.5,
-     "vph_lifetime": 68.2,
-     "vph_recent": 4.2
+     "age_days": 283.7,
+     "vph_lifetime": 68.1,
+     "vph_recent": 3.0
     },
     {
      "id": "z-qp5Z7F4XQ",
      "title": "Why NOTHING About Maduro's Kidnapping Makes Sense",
      "published": "2026-01-24T17:29:19Z",
-     "views": 882767,
+     "views": 882784,
      "seconds": 2759,
      "short": false,
      "outlier_x": 0.82,
-     "age_days": 289.5,
-     "vph_lifetime": 127.1,
-     "vph_recent": 1.2
+     "age_days": 289.7,
+     "vph_lifetime": 127.0,
+     "vph_recent": 2.2
     },
     {
      "id": "IgD7zmJN3_A",
      "title": "How The UAE Just Got Wrecked In Yemen",
      "published": "2026-01-14T18:16:10Z",
-     "views": 535379,
+     "views": 535447,
      "seconds": 1921,
      "short": false,
      "outlier_x": 0.5,
-     "age_days": 299.4,
+     "age_days": 299.7,
      "vph_lifetime": 74.5,
-     "vph_recent": 4.2
+     "vph_recent": 8.6
     },
     {
      "id": "r_RnzEDln8w",
      "title": "What's Hidden Under the Jungles of New Guinea?",
      "published": "2025-12-24T16:48:31Z",
-     "views": 2564148,
+     "views": 2565155,
      "seconds": 2540,
      "short": false,
      "outlier_x": 2.37,
-     "age_days": 320.5,
-     "vph_lifetime": 333.4,
-     "vph_recent": 122.1
+     "age_days": 320.7,
+     "vph_lifetime": 333.3,
+     "vph_recent": 156.4
     },
     {
      "id": "RACRUkkdJgQ",
      "title": "Why The Worst Border Gore on Earth Exists",
      "published": "2025-12-19T18:53:04Z",
-     "views": 700744,
+     "views": 700814,
      "seconds": 1982,
      "short": false,
      "outlier_x": 0.65,
-     "age_days": 325.4,
+     "age_days": 325.6,
      "vph_lifetime": 89.7,
-     "vph_recent": 7.7
+     "vph_recent": 10.5
     },
     {
      "id": "QOUBqb1jHsA",
      "title": "How Japan is Preparing for War With China",
      "published": "2025-12-12T20:51:55Z",
-     "views": 1711977,
+     "views": 1712026,
      "seconds": 2973,
      "short": false,
      "outlier_x": 1.58,
-     "age_days": 332.3,
-     "vph_lifetime": 214.6,
-     "vph_recent": 23.7
+     "age_days": 332.6,
+     "vph_lifetime": 214.5,
+     "vph_recent": 16.4
     },
     {
      "id": "iMVGVJFyggY",
      "title": "The Worst Horror On Earth You Aren't Being Told About",
      "published": "2025-11-28T20:07:59Z",
-     "views": 2271920,
+     "views": 2271957,
      "seconds": 2796,
      "short": false,
      "outlier_x": 2.1,
-     "age_days": 346.4,
-     "vph_lifetime": 273.3,
-     "vph_recent": 14.0
+     "age_days": 346.6,
+     "vph_lifetime": 273.1,
+     "vph_recent": 10.5
     },
     {
      "id": "pGKyL7YPnSQ",
      "title": "Why 90% of Japan is \"Empty\"",
      "published": "2025-11-19T16:59:31Z",
-     "views": 745803,
+     "views": 745843,
      "seconds": 1427,
      "short": false,
      "outlier_x": 0.69,
-     "age_days": 355.5,
+     "age_days": 355.7,
      "vph_lifetime": 87.4,
-     "vph_recent": 9.4
+     "vph_recent": 8.5
     },
     {
      "id": "n8kSGH4I8Ps",
      "title": "Why the Iranian Regime is Failing",
      "published": "2025-11-11T15:41:17Z",
-     "views": 1621091,
+     "views": 1621103,
      "seconds": 2345,
      "short": false,
      "outlier_x": 1.5,
-     "age_days": 363.5,
-     "vph_lifetime": 185.8,
-     "vph_recent": 3.5
+     "age_days": 363.8,
+     "vph_lifetime": 185.7,
+     "vph_recent": 2.9
     },
     {
      "id": "A-2bCKakP7c",
      "title": "Why The 2-State Solution Has Become Impossible Now",
      "published": "2025-10-31T16:38:50Z",
-     "views": 593354,
+     "views": 593363,
      "seconds": 2372,
      "short": false,
      "outlier_x": 0.55,
-     "age_days": 374.5,
+     "age_days": 374.7,
      "vph_lifetime": 66.0,
-     "vph_recent": 3.7
+     "vph_recent": 2.7
     },
     {
      "id": "jq0FhcfAbG0",
      "title": "Why Utah’s Great Salt Lake is Dying",
      "published": "2025-10-17T18:28:19Z",
-     "views": 847270,
+     "views": 847293,
      "seconds": 1806,
      "short": false,
      "outlier_x": 0.78,
-     "age_days": 388.4,
-     "vph_lifetime": 90.9,
+     "age_days": 388.7,
+     "vph_lifetime": 90.8,
      "vph_recent": 4.4
     },
     {
      "id": "O-9SE9mf2Rc",
      "title": "Why Israel & Turkey Are Heading To War Over Syria",
      "published": "2025-10-11T16:17:57Z",
-     "views": 899248,
+     "views": 899262,
      "seconds": 2447,
      "short": false,
      "outlier_x": 0.83,
-     "age_days": 394.5,
-     "vph_lifetime": 95.0,
-     "vph_recent": 1.2
+     "age_days": 394.7,
+     "vph_lifetime": 94.9,
+     "vph_recent": 1.9
     },
     {
      "id": "sgQesoA7rcU",
      "title": "Every Time The World Map Has Changed Since 2000",
      "published": "2025-09-30T17:53:51Z",
-     "views": 1090611,
+     "views": 1090773,
      "seconds": 3235,
      "short": false,
      "outlier_x": 1.01,
-     "age_days": 405.5,
-     "vph_lifetime": 112.1,
-     "vph_recent": 20.8
+     "age_days": 405.7,
+     "vph_lifetime": 112.0,
+     "vph_recent": 25.7
     },
     {
      "id": "d-Mh-ndtqAY",
      "title": "Why The US & Venezuela Are On The Brink of War",
      "published": "2025-09-22T14:50:02Z",
-     "views": 3887872,
+     "views": 3887896,
      "seconds": 2345,
      "short": false,
      "outlier_x": 3.6,
-     "age_days": 413.6,
-     "vph_lifetime": 391.7,
-     "vph_recent": 2.5
+     "age_days": 413.8,
+     "vph_lifetime": 391.5,
+     "vph_recent": 3.5
     },
     {
      "id": "NVxI4nlRDBQ",
      "title": "Why Tourists Are Flocking to Afghanistan Now",
      "published": "2025-09-11T16:33:52Z",
-     "views": 780174,
+     "views": 780190,
      "seconds": 1452,
      "short": false,
      "outlier_x": 0.72,
-     "age_days": 424.5,
-     "vph_lifetime": 76.6,
-     "vph_recent": 2.5
+     "age_days": 424.7,
+     "vph_lifetime": 76.5,
+     "vph_recent": 2.8
     },
     {
      "id": "iVx_bvyBhDM",
      "title": "Why The US Southeast Coast is Absurdly Empty",
      "published": "2025-08-29T16:29:59Z",
-     "views": 2122530,
+     "views": 2122642,
      "seconds": 2054,
      "short": false,
      "outlier_x": 1.96,
-     "age_days": 437.5,
-     "vph_lifetime": 202.1,
-     "vph_recent": 9.0
+     "age_days": 437.7,
+     "vph_lifetime": 202.0,
+     "vph_recent": 15.1
     },
     {
      "id": "RdNQWHc5a4E",
      "title": "Why The ICC Is The World’s Biggest Joke",
      "published": "2025-08-22T15:50:33Z",
-     "views": 971394,
+     "views": 971416,
      "seconds": 2928,
      "short": false,
      "outlier_x": 0.9,
-     "age_days": 444.5,
+     "age_days": 444.8,
      "vph_lifetime": 91.0,
-     "vph_recent": 4.6
+     "vph_recent": 4.4
     },
     {
      "id": "if6uRH13ZCg",
      "title": "Why Cambodia & Thailand Are Moving Towards War",
      "published": "2025-08-19T14:56:59Z",
-     "views": 1065350,
+     "views": 1065393,
      "seconds": 2282,
      "short": false,
      "outlier_x": 0.99,
-     "age_days": 447.6,
-     "vph_lifetime": 99.2,
-     "vph_recent": 9.0
+     "age_days": 447.8,
+     "vph_lifetime": 99.1,
+     "vph_recent": 8.6
     },
     {
      "id": "Fjjy0aNEA4w",
      "title": "Why Myanmar is Dying",
      "published": "2025-07-31T17:08:38Z",
-     "views": 2177608,
+     "views": 2177800,
      "seconds": 2582,
      "short": false,
      "outlier_x": 2.01,
-     "age_days": 466.5,
-     "vph_lifetime": 194.5,
-     "vph_recent": 28.3
+     "age_days": 466.7,
+     "vph_lifetime": 194.4,
+     "vph_recent": 32.3
     },
     {
      "id": "3rBRdzf1fYo",
      "title": "Why The World's Most Segregated Metro Exists",
      "published": "2025-07-23T16:15:56Z",
-     "views": 1479139,
+     "views": 1479407,
      "seconds": 1490,
      "short": false,
      "outlier_x": 1.37,
-     "age_days": 474.5,
-     "vph_lifetime": 129.9,
-     "vph_recent": 82.7
+     "age_days": 474.7,
+     "vph_lifetime": 129.8,
+     "vph_recent": 66.5
     }
    ]
   },
@@ -4038,606 +4038,606 @@
    "handle": "@theinfographicsshow",
    "title": "The Infographics Show",
    "subs": "15500000",
-   "median_long_views_last50": 496940.5,
+   "median_long_views_last50": 497738.5,
    "videos": [
     {
      "id": "0DYYdcGrbMM",
      "title": "History Is Repeating. This Is Where It Goes Wrong.",
      "published": "2026-11-10T02:11:16Z",
-     "views": 51395,
+     "views": 356231,
      "seconds": 1122,
      "short": false,
-     "outlier_x": 0.1,
-     "age_days": 0.1,
-     "vph_lifetime": 19704.1
+     "outlier_x": 0.72,
+     "age_days": 0.3,
+     "vph_lifetime": 45041.2
     },
     {
      "id": "tehBa2ZjG-I",
      "title": "Why You Don't Want to Earn $150,000 to $250,000",
      "published": "2026-11-09T21:11:21Z",
-     "views": 126548,
+     "views": 169271,
      "seconds": 868,
      "short": false,
-     "outlier_x": 0.25,
-     "age_days": 0.3,
-     "vph_lifetime": 16635.8,
-     "vph_recent": 19160.0
+     "outlier_x": 0.34,
+     "age_days": 0.5,
+     "vph_lifetime": 13114.0,
+     "vph_recent": 13556.7
     },
     {
      "id": "0oV87yfN59g",
      "title": "Events That Will Cause the End of the World and More Apocalypse Scenarios",
      "published": "2026-11-08T21:11:37Z",
-     "views": 71061,
+     "views": 73776,
      "seconds": 13080,
      "short": false,
-     "outlier_x": 0.14,
-     "age_days": 1.3,
-     "vph_lifetime": 2248.6,
-     "vph_recent": 593.8
+     "outlier_x": 0.15,
+     "age_days": 1.5,
+     "vph_lifetime": 1999.2,
+     "vph_recent": 552.6
     },
     {
      "id": "f1MGkmM28wA",
      "title": "Foreign Nations JUST Left the US Bond Market. Wall Street Panics RIGHT NOW.",
      "published": "2026-11-08T15:11:11Z",
-     "views": 903321,
+     "views": 919341,
      "seconds": 844,
      "short": false,
-     "outlier_x": 1.82,
-     "age_days": 1.6,
-     "vph_lifetime": 24018.3,
-     "vph_recent": 3981.3
+     "outlier_x": 1.85,
+     "age_days": 1.8,
+     "vph_lifetime": 21424.7,
+     "vph_recent": 3497.2
     },
     {
      "id": "TPiiTEK8OPE",
      "title": "Holy f***ing sh*t your gym routine is useless...",
      "published": "2026-11-07T21:11:08Z",
-     "views": 245983,
+     "views": 251904,
      "seconds": 895,
      "short": false,
-     "outlier_x": 0.49,
-     "age_days": 2.3,
-     "vph_lifetime": 4423.3,
-     "vph_recent": 1678.3
+     "outlier_x": 0.51,
+     "age_days": 2.5,
+     "vph_lifetime": 4135.6,
+     "vph_recent": 1395.0
     },
     {
      "id": "mEP1xCHdfyI",
      "title": "China's Robot Army Situation is Terrifying",
      "published": "2026-11-07T15:11:12Z",
-     "views": 173022,
+     "views": 175755,
      "seconds": 1519,
      "short": false,
      "outlier_x": 0.35,
-     "age_days": 2.6,
-     "vph_lifetime": 2808.4,
-     "vph_recent": 899.4
+     "age_days": 2.8,
+     "vph_lifetime": 2626.7,
+     "vph_recent": 705.7
     },
     {
      "id": "c8dlJJuqcOQ",
      "title": "Scientists Are Freaking Out Over Space Time (It's Not Real)",
      "published": "2026-11-07T02:11:32Z",
-     "views": 129185,
+     "views": 138552,
      "seconds": 10426,
      "short": false,
-     "outlier_x": 0.26,
-     "age_days": 3.1,
-     "vph_lifetime": 1731.6,
-     "vph_recent": 1058.5
+     "outlier_x": 0.28,
+     "age_days": 3.3,
+     "vph_lifetime": 1734.0,
+     "vph_recent": 1416.2
     },
     {
      "id": "SSVG6rJM8Cw",
      "title": "Why the 2022 Car Bubble is Bursting Now",
      "published": "2026-11-06T21:11:31Z",
-     "views": 682104,
+     "views": 692815,
      "seconds": 958,
      "short": false,
-     "outlier_x": 1.37,
-     "age_days": 3.3,
-     "vph_lifetime": 8568.7,
-     "vph_recent": 2250.2
+     "outlier_x": 1.39,
+     "age_days": 3.5,
+     "vph_lifetime": 8159.9,
+     "vph_recent": 2134.3
     },
     {
      "id": "Awf9D7vIgvE",
      "title": "VLC Took 33 Seconds To Load, So Developers Investigated Windows.",
      "published": "2026-11-06T02:11:31Z",
-     "views": 2020256,
+     "views": 2059078,
      "seconds": 883,
      "short": false,
-     "outlier_x": 4.07,
-     "age_days": 4.1,
-     "vph_lifetime": 20488.5,
-     "vph_recent": 5708.4
+     "outlier_x": 4.14,
+     "age_days": 4.3,
+     "vph_lifetime": 19817.0,
+     "vph_recent": 6524.0
     },
     {
      "id": "Qi5iRWzsQdc",
      "title": "CHINA IS OVER",
      "published": "2026-11-05T21:11:29Z",
-     "views": 780807,
+     "views": 789390,
      "seconds": 1066,
      "short": false,
-     "outlier_x": 1.57,
-     "age_days": 4.3,
-     "vph_lifetime": 7536.4,
-     "vph_recent": 1988.6
+     "outlier_x": 1.59,
+     "age_days": 4.5,
+     "vph_lifetime": 7248.4,
+     "vph_recent": 1802.2
     },
     {
      "id": "SOYJ41syEUA",
      "title": "The AI Economy Is DEAD. Big Tech is TRAPPED Right NOW.",
      "published": "2026-11-05T02:11:21Z",
-     "views": 447182,
+     "views": 451388,
      "seconds": 13008,
      "short": false,
-     "outlier_x": 0.9,
-     "age_days": 5.1,
-     "vph_lifetime": 3647.3,
-     "vph_recent": 999.8
+     "outlier_x": 0.91,
+     "age_days": 5.3,
+     "vph_lifetime": 3529.0,
+     "vph_recent": 895.7
     },
     {
      "id": "4ye6BMbA3UU",
      "title": "Ex-Google Executive: AI is Ending Capitalism",
      "published": "2026-11-04T21:11:37Z",
-     "views": 564464,
+     "views": 568848,
      "seconds": 886,
      "short": false,
      "outlier_x": 1.14,
-     "age_days": 5.3,
-     "vph_lifetime": 4423.6,
-     "vph_recent": 802.1
+     "age_days": 5.5,
+     "vph_lifetime": 4280.2,
+     "vph_recent": 814.7
     },
     {
      "id": "W8Dl-TS9H2c",
      "title": "MIT looked at what AI actually killed and holy sh*t...",
      "published": "2026-11-04T02:11:39Z",
-     "views": 1591837,
+     "views": 1610211,
      "seconds": 777,
      "short": false,
-     "outlier_x": 3.2,
-     "age_days": 6.1,
-     "vph_lifetime": 10858.2,
-     "vph_recent": 2353.5
+     "outlier_x": 3.24,
+     "age_days": 6.3,
+     "vph_lifetime": 10600.3,
+     "vph_recent": 2915.2
     },
     {
      "id": "Ua_Q5VY0tDo",
      "title": "50 Geography Facts That Are Fake (But You Believed Them)",
      "published": "2026-11-03T21:11:39Z",
-     "views": 242015,
+     "views": 245153,
      "seconds": 1758,
      "short": false,
      "outlier_x": 0.49,
-     "age_days": 6.3,
-     "vph_lifetime": 1596.4,
-     "vph_recent": 491.5
+     "age_days": 6.5,
+     "vph_lifetime": 1562.5,
+     "vph_recent": 542.3
     },
     {
      "id": "eNzaPa9f0Ks",
      "title": "$40 Trillion Debt Passed. The American ECONOMY Is Collapsing.",
      "published": "2026-11-03T02:11:07Z",
-     "views": 392524,
+     "views": 393232,
      "seconds": 834,
      "short": false,
      "outlier_x": 0.79,
-     "age_days": 7.1,
-     "vph_lifetime": 2300.7,
-     "vph_recent": 129.8
+     "age_days": 7.3,
+     "vph_lifetime": 2235.4,
+     "vph_recent": 131.7
     },
     {
      "id": "dnmdZOEGXe8",
      "title": "Russia Closing 5 Hospital Due to PLAGUE OUTBREAK",
      "published": "2026-11-02T21:11:16Z",
-     "views": 758772,
+     "views": 761052,
      "seconds": 815,
      "short": false,
      "outlier_x": 1.53,
-     "age_days": 7.3,
-     "vph_lifetime": 4320.8,
-     "vph_recent": 402.5
+     "age_days": 7.5,
+     "vph_lifetime": 4206.8,
+     "vph_recent": 416.4
     },
     {
      "id": "JhuL2Yr-tvs",
      "title": "UNPLUG Your Smart TV NOW!",
      "published": "2026-11-01T22:11:22Z",
-     "views": 613836,
+     "views": 616530,
      "seconds": 949,
      "short": false,
      "outlier_x": 1.24,
-     "age_days": 8.3,
-     "vph_lifetime": 3090.7,
-     "vph_recent": 399.2
+     "age_days": 8.5,
+     "vph_lifetime": 3023.6,
+     "vph_recent": 454.3
     },
     {
      "id": "AvyHU0m8vdE",
      "title": "How Are Americans Affording $500,000 Homes on Average Salaries?",
      "published": "2026-11-01T16:11:17Z",
-     "views": 581992,
+     "views": 584748,
      "seconds": 891,
      "short": false,
      "outlier_x": 1.17,
-     "age_days": 8.5,
-     "vph_lifetime": 2844.4,
-     "vph_recent": 734.8
+     "age_days": 8.7,
+     "vph_lifetime": 2785.7,
+     "vph_recent": 626.3
     },
     {
      "id": "M3hvIUwAL7c",
      "title": "Wall Street is freaking out over OpenAI now...",
      "published": "2026-10-31T20:11:31Z",
-     "views": 1498922,
+     "views": 1499343,
      "seconds": 1095,
      "short": false,
-     "outlier_x": 3.02,
-     "age_days": 9.4,
-     "vph_lifetime": 6673.6,
-     "vph_recent": 129.0
+     "outlier_x": 3.01,
+     "age_days": 9.6,
+     "vph_lifetime": 6521.6,
+     "vph_recent": 104.0
     },
     {
      "id": "HTYIKPcPRRQ",
      "title": "Holy sh*t spacetime is fake...",
      "published": "2026-10-31T15:11:32Z",
-     "views": 2273234,
+     "views": 2281100,
      "seconds": 987,
      "short": false,
-     "outlier_x": 4.57,
-     "age_days": 9.6,
-     "vph_lifetime": 9900.7,
-     "vph_recent": 1334.2
+     "outlier_x": 4.58,
+     "age_days": 9.8,
+     "vph_lifetime": 9710.8,
+     "vph_recent": 1409.8
     },
     {
      "id": "fDzCHPWkou4",
      "title": "World War 3 Protocol. Why Global Nuclear Annihilation Is Inevitable.",
      "published": "2026-10-31T01:11:21Z",
-     "views": 378418,
+     "views": 380967,
      "seconds": 11482,
      "short": false,
-     "outlier_x": 0.76,
-     "age_days": 10.2,
-     "vph_lifetime": 1553.4,
-     "vph_recent": 337.1
+     "outlier_x": 0.77,
+     "age_days": 10.4,
+     "vph_lifetime": 1530.6,
+     "vph_recent": 409.7
     },
     {
      "id": "YVFA79OhlU0",
      "title": "The 11% Interest Trap Just Hit Wall Street. Elite Portfolios Are PANICKING Right NOW.",
      "published": "2026-10-30T20:11:00Z",
-     "views": 646405,
+     "views": 649796,
      "seconds": 933,
      "short": false,
-     "outlier_x": 1.3,
-     "age_days": 10.4,
-     "vph_lifetime": 2600.0,
-     "vph_recent": 772.9
+     "outlier_x": 1.31,
+     "age_days": 10.6,
+     "vph_lifetime": 2559.1,
+     "vph_recent": 705.7
     },
     {
      "id": "dg6bbyhFjhc",
      "title": "YOU vs Horror Movie Killers || Could You Defeat and Survive These Horror Villains",
      "published": "2026-10-30T01:11:18Z",
-     "views": 102123,
+     "views": 102416,
      "seconds": 6979,
      "short": false,
      "outlier_x": 0.21,
-     "age_days": 11.2,
-     "vph_lifetime": 381.6,
-     "vph_recent": 45.8
+     "age_days": 11.4,
+     "vph_lifetime": 375.3,
+     "vph_recent": 50.6
     },
     {
      "id": "sKfaPvntZuA",
      "title": "Most Terrifying Financial Shift in the World Right Now",
      "published": "2026-10-29T20:11:01Z",
-     "views": 597497,
+     "views": 597628,
      "seconds": 1017,
      "short": false,
      "outlier_x": 1.2,
-     "age_days": 11.4,
-     "vph_lifetime": 2191.7,
-     "vph_recent": 35.8
+     "age_days": 11.6,
+     "vph_lifetime": 2150.4,
+     "vph_recent": 30.2
     },
     {
      "id": "pTMzflqBw8g",
      "title": "Top 10 Insane Dark Web Conspiracies That Were Actually True All Along",
      "published": "2026-10-29T01:11:03Z",
-     "views": 743510,
+     "views": 749172,
      "seconds": 1851,
      "short": false,
-     "outlier_x": 1.5,
-     "age_days": 12.2,
-     "vph_lifetime": 2549.7,
-     "vph_recent": 1180.8
+     "outlier_x": 1.51,
+     "age_days": 12.4,
+     "vph_lifetime": 2523.2,
+     "vph_recent": 1123.9
     },
     {
      "id": "WSAOK-saNAU",
      "title": "Holy s**t.. 30-year-olds are getting stage 4 cancer...",
      "published": "2026-10-28T20:11:35Z",
-     "views": 827299,
+     "views": 829429,
      "seconds": 848,
      "short": false,
-     "outlier_x": 1.66,
-     "age_days": 12.4,
-     "vph_lifetime": 2789.2,
-     "vph_recent": 435.0
+     "outlier_x": 1.67,
+     "age_days": 12.6,
+     "vph_lifetime": 2747.3,
+     "vph_recent": 418.3
     },
     {
      "id": "MgngwkPAuqQ",
      "title": "The AI bubble is about to pop...",
      "published": "2026-10-27T20:11:15Z",
-     "views": 4608575,
+     "views": 4620374,
      "seconds": 1202,
      "short": false,
-     "outlier_x": 9.27,
-     "age_days": 13.4,
-     "vph_lifetime": 14374.5,
-     "vph_recent": 1783.1
+     "outlier_x": 9.28,
+     "age_days": 13.6,
+     "vph_lifetime": 14176.9,
+     "vph_recent": 2006.6
     },
     {
      "id": "ojxd4XN0m2o",
      "title": "The Nuclear Football is BROKEN. It's JUST 4 Minutes to WW3.",
      "published": "2026-10-26T20:11:02Z",
-     "views": 302588,
+     "views": 302933,
      "seconds": 831,
      "short": false,
      "outlier_x": 0.61,
-     "age_days": 14.4,
-     "vph_lifetime": 878.1,
-     "vph_recent": 91.0
+     "age_days": 14.6,
+     "vph_lifetime": 865.7,
+     "vph_recent": 77.9
     },
     {
      "id": "3pggYUPCK_A",
      "title": "The Tirzepatide Boom Just Hit a Wall",
      "published": "2026-10-25T20:11:23Z",
-     "views": 411360,
+     "views": 414671,
      "seconds": 843,
      "short": false,
      "outlier_x": 0.83,
-     "age_days": 15.4,
-     "vph_lifetime": 1116.0,
-     "vph_recent": 521.0
+     "age_days": 15.6,
+     "vph_lifetime": 1109.0,
+     "vph_recent": 573.3
     },
     {
      "id": "H7buemdxULY",
      "title": "120° Heat - Wear Black Robes!",
      "published": "2026-10-25T14:11:36Z",
-     "views": 152271,
+     "views": 152343,
      "seconds": 857,
      "short": false,
      "outlier_x": 0.31,
-     "age_days": 15.6,
-     "vph_lifetime": 406.5,
-     "vph_recent": 15.2
+     "age_days": 15.8,
+     "vph_lifetime": 401.0,
+     "vph_recent": 14.4
     },
     {
      "id": "IpheDQ5v6oQ",
      "title": "Karma Just Hit Roblox. Hard.",
      "published": "2026-10-24T20:11:08Z",
-     "views": 1021596,
+     "views": 1024313,
      "seconds": 895,
      "short": false,
      "outlier_x": 2.06,
-     "age_days": 16.4,
-     "vph_lifetime": 2602.1,
-     "vph_recent": 644.4
+     "age_days": 16.6,
+     "vph_lifetime": 2574.2,
+     "vph_recent": 577.9
     },
     {
      "id": "KXHYz5W0sW0",
      "title": "Most Terrifying Financial Chart in the World Right Now",
      "published": "2026-10-24T14:11:14Z",
-     "views": 723235,
+     "views": 723458,
      "seconds": 886,
      "short": false,
-     "outlier_x": 1.46,
-     "age_days": 16.6,
-     "vph_lifetime": 1814.4,
-     "vph_recent": 31.5
+     "outlier_x": 1.45,
+     "age_days": 16.8,
+     "vph_lifetime": 1791.1,
+     "vph_recent": 36.9
     },
     {
      "id": "azsA-qGnZ2E",
      "title": "The OPENAI Cyberattack on Hugging Face Was WAY BIGGER Than We Thought",
      "published": "2026-10-24T01:11:33Z",
-     "views": 517115,
+     "views": 517453,
      "seconds": 1073,
      "short": false,
      "outlier_x": 1.04,
-     "age_days": 17.2,
-     "vph_lifetime": 1256.3,
-     "vph_recent": 71.5
+     "age_days": 17.4,
+     "vph_lifetime": 1241.2,
+     "vph_recent": 67.6
     },
     {
      "id": "8FgyNgIgVjw",
      "title": "The Kessler Syndrome (When Humanity Gets Trapped on Earth Forever) - Year by Year",
      "published": "2026-10-23T20:11:24Z",
-     "views": 147602,
+     "views": 147621,
      "seconds": 997,
      "short": false,
      "outlier_x": 0.3,
-     "age_days": 17.4,
-     "vph_lifetime": 354.3,
-     "vph_recent": 11.2
+     "age_days": 17.6,
+     "vph_lifetime": 349.9,
+     "vph_recent": 7.3
     },
     {
      "id": "wcZ7q219JS8",
      "title": "50 Horrifying Auschwitz Facts You Were Never Taught",
      "published": "2026-10-23T01:11:37Z",
-     "views": 451319,
+     "views": 452354,
      "seconds": 2011,
      "short": false,
      "outlier_x": 0.91,
-     "age_days": 18.2,
-     "vph_lifetime": 1036.1,
-     "vph_recent": 259.4
+     "age_days": 18.4,
+     "vph_lifetime": 1026.0,
+     "vph_recent": 227.0
     },
     {
      "id": "yv-xKJVXrLE",
      "title": "How Are Americans Buying $80,000 Trucks on a $70,000 Salary?",
      "published": "2026-10-22T20:11:28Z",
-     "views": 1052028,
+     "views": 1052896,
      "seconds": 1051,
      "short": false,
      "outlier_x": 2.12,
-     "age_days": 18.4,
-     "vph_lifetime": 2387.7,
-     "vph_recent": 209.0
+     "age_days": 18.6,
+     "vph_lifetime": 2361.3,
+     "vph_recent": 186.2
     },
     {
      "id": "Tms3kCQiwQo",
      "title": "How a 25-Year-Old AI Boy Genius Lost $35 BILLION in 72 Hours",
      "published": "2026-10-22T01:11:24Z",
-     "views": 372180,
+     "views": 372225,
      "seconds": 1071,
      "short": false,
      "outlier_x": 0.75,
-     "age_days": 19.2,
-     "vph_lifetime": 809.8,
-     "vph_recent": 15.2
+     "age_days": 19.4,
+     "vph_lifetime": 800.6,
+     "vph_recent": 11.8
     },
     {
      "id": "5153vDFmwBs",
      "title": "You Need to stop Using INCOGNITO Mode Right Now",
      "published": "2026-10-20T20:11:26Z",
-     "views": 458238,
+     "views": 458334,
      "seconds": 809,
      "short": false,
      "outlier_x": 0.92,
-     "age_days": 20.4,
-     "vph_lifetime": 937.8,
-     "vph_recent": 37.3
+     "age_days": 20.6,
+     "vph_lifetime": 928.0,
+     "vph_recent": 27.6
     },
     {
      "id": "Mh3jD3aPojY",
      "title": "It's not just your appetite that Ozempic changes",
      "published": "2026-10-20T01:11:34Z",
-     "views": 476766,
+     "views": 478024,
      "seconds": 1474,
      "short": false,
      "outlier_x": 0.96,
-     "age_days": 21.2,
-     "vph_lifetime": 939.2,
-     "vph_recent": 206.2
+     "age_days": 21.4,
+     "vph_lifetime": 932.0,
+     "vph_recent": 221.9
     },
     {
      "id": "qERTeNo8kNI",
      "title": "World War 3 - Hour by Hour at 35,000 Feet",
      "published": "2026-10-19T20:11:26Z",
-     "views": 1080853,
+     "views": 1081059,
      "seconds": 1388,
      "short": false,
-     "outlier_x": 2.18,
-     "age_days": 21.4,
-     "vph_lifetime": 2108.5,
-     "vph_recent": 84.6
+     "outlier_x": 2.17,
+     "age_days": 21.6,
+     "vph_lifetime": 2087.4,
+     "vph_recent": 61.5
     },
     {
      "id": "DRP7tRXts0Q",
      "title": "Renting vs Buying - Follow The Math!",
      "published": "2026-10-18T15:11:07Z",
-     "views": 557429,
+     "views": 558202,
      "seconds": 828,
      "short": false,
      "outlier_x": 1.12,
-     "age_days": 22.6,
-     "vph_lifetime": 1029.2,
-     "vph_recent": 199.4
+     "age_days": 22.8,
+     "vph_lifetime": 1020.6,
+     "vph_recent": 172.4
     },
     {
      "id": "8BcFZKbTgTg",
      "title": "OpenAI's Agents Went ROGUE.",
      "published": "2026-10-17T15:11:16Z",
-     "views": 305806,
+     "views": 305828,
      "seconds": 919,
      "short": false,
-     "outlier_x": 0.62,
-     "age_days": 23.6,
-     "vph_lifetime": 540.7,
-     "vph_recent": 14.8
+     "outlier_x": 0.61,
+     "age_days": 23.8,
+     "vph_lifetime": 535.7,
+     "vph_recent": 9.4
     },
     {
      "id": "NrL10B3ZXDg",
      "title": "The AI slop situation is a mess",
      "published": "2026-10-17T01:11:36Z",
-     "views": 211485,
+     "views": 211540,
      "seconds": 488,
      "short": false,
      "outlier_x": 0.43,
-     "age_days": 24.2,
-     "vph_lifetime": 364.9,
-     "vph_recent": 9.0
+     "age_days": 24.4,
+     "vph_lifetime": 361.7,
+     "vph_recent": 9.7
     },
     {
      "id": "JbJSWEJmI7A",
      "title": "The Steam Review Crisis",
      "published": "2026-10-16T20:11:09Z",
-     "views": 212335,
+     "views": 212354,
      "seconds": 1056,
      "short": false,
      "outlier_x": 0.43,
-     "age_days": 24.4,
-     "vph_lifetime": 363.2,
-     "vph_recent": 11.3
+     "age_days": 24.6,
+     "vph_lifetime": 360.0,
+     "vph_recent": 7.4
     },
     {
      "id": "8M8U9Tj15bI",
      "title": "Why Paying Off US Debt Would Crash the World Economy",
      "published": "2026-10-15T20:11:04Z",
-     "views": 329219,
+     "views": 329315,
      "seconds": 1055,
      "short": false,
      "outlier_x": 0.66,
-     "age_days": 25.4,
-     "vph_lifetime": 540.9,
-     "vph_recent": 10.0
+     "age_days": 25.6,
+     "vph_lifetime": 536.4,
+     "vph_recent": 14.1
     },
     {
      "id": "ZV6pUX8kJwg",
      "title": "The US Treasury Is Trapped. A $1 Trillion Interest Collapse Begins NOW.",
      "published": "2026-10-14T20:11:08Z",
-     "views": 784235,
+     "views": 784301,
      "seconds": 752,
      "short": false,
      "outlier_x": 1.58,
-     "age_days": 26.4,
-     "vph_lifetime": 1239.7,
-     "vph_recent": 5.2
+     "age_days": 26.6,
+     "vph_lifetime": 1229.5,
+     "vph_recent": 8.9
     },
     {
      "id": "AVOt4CCwAB4",
      "title": "How AI quietly rewrote daily life in under 3 years",
      "published": "2026-10-14T01:11:38Z",
-     "views": 311567,
+     "views": 311896,
      "seconds": 13290,
      "short": false,
      "outlier_x": 0.63,
-     "age_days": 27.2,
-     "vph_lifetime": 478.2,
-     "vph_recent": 44.4
+     "age_days": 27.4,
+     "vph_lifetime": 474.8,
+     "vph_recent": 53.3
     },
     {
      "id": "p5KvyYwaj4s",
      "title": "65-Mile Strip Where World War 3 Begins",
      "published": "2026-10-13T20:11:33Z",
-     "views": 790739,
+     "views": 790801,
      "seconds": 1407,
      "short": false,
      "outlier_x": 1.59,
-     "age_days": 27.4,
-     "vph_lifetime": 1204.3,
-     "vph_recent": 15.2
+     "age_days": 27.6,
+     "vph_lifetime": 1194.7,
+     "vph_recent": 13.4
     },
     {
      "id": "jbNtXEPs7a4",
      "title": "How Nazi Regime Finally Collapsed",
      "published": "2026-10-13T01:11:23Z",
-     "views": 965757,
+     "views": 966290,
      "seconds": 2385,
      "short": false,
      "outlier_x": 1.94,
-     "age_days": 28.2,
-     "vph_lifetime": 1429.5,
-     "vph_recent": 81.9
+     "age_days": 28.4,
+     "vph_lifetime": 1419.1,
+     "vph_recent": 91.3
     },
     {
      "id": "Bo4BEvbn1Z8",
      "title": "Retatrutide GLP-1 Isn't Approved. MILLIONS Are Already Using It RIGHT NOW.",
      "published": "2026-10-12T20:11:23Z",
-     "views": 291195,
+     "views": 291721,
      "seconds": 1715,
      "short": false,
      "outlier_x": 0.59,
-     "age_days": 28.4,
-     "vph_lifetime": 427.8,
-     "vph_recent": 103.3
+     "age_days": 28.6,
+     "vph_lifetime": 425.3,
+     "vph_recent": 101.2
     }
    ]
   }
