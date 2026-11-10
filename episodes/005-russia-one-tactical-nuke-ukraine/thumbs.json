@@ -1,0 +1,32 @@
+[
+ {
+  "id": "a",
+  "variant": "image",
+  "line1": "15 KILOTONS",
+  "line2": "OVER A FIELD",
+  "tag": "AND THE WAR GOES ON",
+  "align": "left",
+  "image_prompt": "Dusk photo across an open flat farmland in eastern Ukraine, a wide golden wheat field with a dirt road. A huge nuclear fireball and mushroom cloud sits on the far right third of the frame, its cloud top far from the left edge, glowing bright orange and yellow, lighting the low clouds and the field. The entire left half and the whole upper left are empty deep blue dusk sky with no cloud or glow. No people, no buildings, no vehicles.",
+  "image": "thumbs/005-a.jpg"
+ },
+ {
+  "id": "b",
+  "variant": "image",
+  "line1": "180 SECONDS",
+  "line2": "TO IMPACT",
+  "tag": "THE WAR DOES NOT STOP",
+  "align": "left",
+  "image_prompt": "Orbital view looking down at an angle on Eastern Europe at dusk with glowing city lights, Ukraine on the right half of the frame, Black Sea at the bottom; over eastern Ukraine a single extremely bright orange and yellow nuclear flash and small mushroom cloud lights up the clouds with a wide orange glow. Exactly one bright orange missile trail arcs in from the upper right to that flash. Curved horizon with a thick bright light-blue atmosphere glow, luminous blue sky. The left side is light blue clouds and sky.",
+  "image": "thumbs/005-b.jpg"
+ },
+ {
+  "id": "c",
+  "variant": "image",
+  "line1": "LOOKS LIKE",
+  "line2": "ANY ISKANDER",
+  "tag": "BUT IT CARRIES A WARHEAD",
+  "align": "left",
+  "image_prompt": "Dawn photo of a single short-range ballistic missile rising steeply from a large eight-wheeled military launcher truck parked on a flat field, with an enormous blinding orange and white rocket flame and billowing smoke and glowing dust lighting the ground; the missile climbs diagonally to the upper right. Deep blue pre-dawn sky, no people, the left side empty sky.",
+  "image": "thumbs/005-c.jpg"
+ }
+]
