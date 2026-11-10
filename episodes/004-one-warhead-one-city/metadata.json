@@ -1,5 +1,5 @@
 {
-  "title": "One Warhead Hits Chicago: What 800 Kilotons Does Street by Street",
+  "title": "What One Nuke Would Do to Chicago, Street by Street",
   "description": "Nine fifteen on a Tuesday morning. One missile leaves a submarine in the Atlantic, and eleven minutes later a single 800-kiloton warhead bursts over the Loop in Chicago. This is a street-by-street simulation of what one warhead does, ring by ring from the fireball (880 metres) to the last broken window (17 kilometres), and what the day after looks like.\n\nThis is a simulation. It has not happened. No crisis in it is real and no date is attached. The warhead size, the target, the launch point and the airburst are our choices, not a forecast; the blast, burn and fallout figures come from our scenario engine. Scenario segments are labelled SIMULATION on screen; facts are labelled REAL DATA or REAL HISTORY.\n\nChapters\n0:00 Cold open\n0:35 How big is one warhead\n2:23 How close it has come\n3:54 The trigger\n4:59 Minute by minute\n6:18 One warhead, ring by ring\n8:45 The day after\n\nKey sources\n- OSTI, Manhattan Project history, Hiroshima: https://www.osti.gov/opennet/manhattan-project-history/Events/1945/hiroshima.htm\n- Hiroshima Committee: https://www.hiroshimacommittee.org/?p=25\n- Federation of American Scientists, Status of World Nuclear Forces: https://fas.org/initiatives/status-world-nuclear-forces/\n- Arms Control Association on New START's expiry: https://www.armscontrol.org/act/2026-03/news/new-start-expires-us-urges-modernized-treaty\n- Glasstone and Dolan, The Effects of Nuclear Weapons (Atomic Archive): https://www.atomicarchive.com/resources/documents/effects/glasstone-dolan/index.html\n- NUKEMAP FAQ, Alex Wellerstein: https://nuclearsecrecy.com/nukemap/faq/\n- Ready.gov, Nuclear Explosion: https://www.ready.gov/nuclear-explosion\n- Princeton Science and Global Security, Plan A: https://nuclearprinceton.princeton.edu/news/princeton-science-and-global-security-nuclear-war-simulation\n\nHow this video was made: the narration is AI-generated (Google Text-to-Speech). Scenario segments are simulations built from published models and open sources; the launch point, target, yield and burst type are ours, a scenario, not a forecast. We give no casualty figure for the simulated strike because no published study supports one.\nMaps: Natural Earth (public domain), OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble; thumbnail backgrounds are AI-generated. Music: generated with Eleven Music.\n\n#nuclearwar #simulation #chicago",
   "tags": [
     "one warhead",
@@ -26,5 +26,12 @@
   "publish_at": "2026-11-11T00:00:00Z",
   "url": "https://youtu.be/lufMFIv5AeY",
   "uploaded_at": "2026-11-10T00:15:57+00:00",
-  "upload_warnings": []
+  "upload_warnings": [],
+  "title_history": [
+    {
+      "title": "One Warhead Hits Chicago: What 800 Kilotons Does Street by Street",
+      "replaced": "2026-11-10",
+      "why": "orchestrated quality pass: place and nuke in the first 40 characters, no title/thumbnail overlap, hypothetical framing (Bryce approved)"
+    }
+  ]
 }
