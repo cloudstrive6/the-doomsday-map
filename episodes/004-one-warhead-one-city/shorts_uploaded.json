@@ -1,0 +1,38 @@
+[
+  {
+    "id": "s1",
+    "youtube_id": "Qe5PtpijICA",
+    "url": "https://youtube.com/shorts/Qe5PtpijICA",
+    "publish_at": "2026-11-11T14:00:00Z",
+    "title": "What One 800-Kiloton Nuke Does to Chicago, Ring by Ring #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -14.0,
+      "TP": -4.4
+    }
+  },
+  {
+    "id": "s2",
+    "youtube_id": "Km51s_0dCMI",
+    "url": "https://youtube.com/shorts/Km51s_0dCMI",
+    "publish_at": "2026-11-11T19:00:00Z",
+    "title": "How Big Is 800 Kilotons? 53 Hiroshimas, and Still Small #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -14.0,
+      "TP": -4.2
+    }
+  },
+  {
+    "id": "s3",
+    "youtube_id": "Xh-d91arwTU",
+    "url": "https://youtube.com/shorts/Xh-d91arwTU",
+    "publish_at": "2026-11-12T00:00:00Z",
+    "title": "Two Nuclear False Alarms: Petrov in 1983, Norway in 1995 #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -13.9,
+      "TP": -4.5
+    }
+  }
+]
