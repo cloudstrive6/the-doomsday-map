@@ -1,0 +1,68 @@
+{
+ "slug": "005-russia-one-tactical-nuke-ukraine",
+ "title": "Russia uses one tactical nuclear weapon in Ukraine, and the days that follow",
+ "t0_utc": "2026-12-08T07:20:00+00:00",
+ "sun": {
+  "lat": -22.88,
+  "lon": 68.21
+ },
+ "totals": {
+  "strikes": 1,
+  "warheads": 1,
+  "yield_mt": 0.01,
+  "first_impact_min": 3.0,
+  "last_impact_min": 3.0
+ },
+ "strikes": [
+  {
+   "id": "iskander-staging-area",
+   "launch_name": "Russian Iskander-M brigade, Belgorod region (location simulated)",
+   "launch_lat": 50.55,
+   "launch_lon": 36.6,
+   "target_name": "Ukrainian reserve staging area, open farmland, eastern Kharkiv region (location simulated)",
+   "target_lat": 49.45,
+   "target_lon": 37.2,
+   "weapon": "Iskander-M (nuclear-armed, assumed)",
+   "weapon_class": "srbm",
+   "yield_kt": 15,
+   "burst": "air",
+   "warheads": 1,
+   "launch_offset_min": 0,
+   "notes": "Day 1, 09:20 Kyiv. Carrier: Iskander-M, range 400 to 500 km, the dual-capable missile Russia fires conventionally every week (research A14, A30). Yield 15 kt is a simulation choice: no open source gives Russian tactical yields (A16); chosen to equal Hiroshima, about 15 kt (A22, B1). Airburst. Target is a military assembly area in open country, away from cities and from Zaporizhzhia plant (A27).",
+   "distance_km": 129.6,
+   "bearing_deg": 160.4,
+   "flight_min": 3.0,
+   "launch_min": 0,
+   "impact_min": 3.0,
+   "effects": {
+    "yield_kt": 15,
+    "burst": "air",
+    "fireball_km": 0.18,
+    "psi20_km": 0.34,
+    "psi5_km": 1.67,
+    "psi1_km": 4.52,
+    "thermal3_km": 1.91,
+    "fallout": "little local fallout"
+   },
+   "area_psi5_km2": 8.8
+  }
+ ],
+ "sources": [
+  {
+   "claim": "Iskander-M range and payload",
+   "url": "https://missilethreat.csis.org/missile/ss-26/",
+   "publisher": "CSIS Missile Threat"
+  },
+  {
+   "claim": "Hiroshima and Nagasaki yields",
+   "url": "https://www.osti.gov/opennet/manhattan-project-history/Events/1945/nagasaki.htm",
+   "publisher": "US DOE OSTI"
+  },
+  {
+   "claim": "Blast scaling",
+   "url": "https://nuclearsecrecy.com/nukemap/",
+   "publisher": "NUKEMAP, Alex Wellerstein"
+  }
+ ],
+ "model": "Glasstone and Dolan scaling calibrated to NUKEMAP Hiroshima figures; flight times fitted to published ranges; all values are estimates for a labelled simulation."
+}
