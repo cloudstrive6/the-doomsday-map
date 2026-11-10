@@ -25,7 +25,32 @@ export const Ground: React.FC<{children?: React.ReactNode; blue?: boolean}> = ({
   </AbsoluteFill>
 );
 
-export const Chrome: React.FC<{tag?: Tag; clock?: string; clockLabel?: string; caption?: string; source?: string; t: number}> = ({tag, clock, clockLabel, caption, source, t}) => {
+// A ticking clock (2026-11-10): a still "T+00:40" for 13 s read as a frozen frame. With `clockRate` the clock advances
+// by rate story-seconds per second: "T+MM:SS" or "T+HH:MM:SS" counts up, "T-..." counts down (stops at zero), and
+// "HH:MM ..." advances minutes. Anything else stays as written.
+const pad = (n: number) => String(Math.floor(n)).padStart(2, '0');
+export function tickClock(clock: string, rate: number | undefined, t: number): string {
+  if (rate === undefined) rate = /^T[+-]\d/.test(clock) ? 1 : 0;   // T+ and T- clocks tick unless told not to
+  if (!rate) return clock;
+  const d = rate * t;
+  let m = clock.match(/^T([+-])(\d{1,2}):(\d{2})(?::(\d{2}))?(.*)$/);
+  if (m) {
+    const hms = m[4] !== undefined;
+    const base = hms ? (+m[2]) * 3600 + (+m[3]) * 60 + (+m[4]) : (+m[2]) * 60 + (+m[3]);
+    const v = Math.max(0, m[1] === '+' ? base + d : base - d);
+    const body = hms || v >= 3600 ? `${pad(v / 3600)}:${pad((v % 3600) / 60)}:${pad(v % 60)}` : `${pad(v / 60)}:${pad(v % 60)}`;
+    return `T${m[1]}${body}${m[5]}`;
+  }
+  m = clock.match(/^(\d{1,2}):(\d{2})(.*)$/);
+  if (m) {
+    const v = ((+m[1]) * 60 + (+m[2]) + d / 60) % 1440;
+    return `${pad(v / 60)}:${pad(v % 60)}${m[3]}`;
+  }
+  return clock;
+}
+
+export const Chrome: React.FC<{tag?: Tag; clock?: string; clockLabel?: string; clockRate?: number; caption?: string; source?: string; t: number}> = ({tag, clock: clock0, clockLabel, clockRate, caption, source, t}) => {
+  const clock = clock0 ? tickClock(clock0, clockRate, t) : clock0;
   const {width: W, height: H} = useVideoConfig();
   const vertical = H > W;
   const s = vertical ? 1.35 : 1;

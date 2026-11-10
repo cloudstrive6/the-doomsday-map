@@ -68,14 +68,18 @@ Shorts
 21. Title band: the weapon or number, then the named target; the first sentence makes sense to a stranger.
 22. End on the biggest line, echoing the title, so it loops.
 
-## Engine work still to do (rules that wait for it are warnings until it ships and two episodes pass)
+## Engine work (rules that wait for it are warnings until it ships and two episodes pass)
 
-Ranked by impact over effort: (1) a finished frame 0, cuts without a dip inside a chapter, and the flash on a hard cut
-to white; (2) label clamp, plates and a 24 px floor with a bounds validator (`layout:` lines), labels 2x in vertical;
-(3) pace and near-still numbers as blocking checks; (4) Shorts bridge to the long video (description line 1, comment,
-end line); (5) a ticking clock; (6) digits in subtitles; (7) Shorts built from several segments (cold-open hook);
-(8) a region camera with several keyframes; (9) flash v2 (shock ring, shake, afterglow); (10) actor legend chip;
-(11) base map v2 (relief, land and sea contrast).
+Shipped 2026-11-11: a finished frame 0 and straight cuts (dips only around chapter cards and the end slate); flash v2
+(full white, growing and cooling fireball, shock ring, shake, afterglow); safe labels (24 px floor, 1.5x in Shorts,
+plates, clamped clear of the HUD, stacked on collision, long ones shrink); camera keys for region and city shots with
+base maps repainted at the right scale; ticking clocks (`clockRate`); region legend chip; Shorts with no end fade, a
+"FULL SIMULATION ON THE CHANNEL" pill in the last 3 s and the long-video link on description line 1; digits in
+subtitles that never split a number.
+
+Still to do, ranked: (1) make `pace:` and the near-still share blocking once two episodes pass them; (2) Shorts built
+from several segments (a cold-open hook line first); (3) base map v2 (shaded relief, stronger land and sea contrast);
+(4) a pinned-style channel comment on each Short linking the long video (needs the comment scope).
 
 ## Experiments (one change at a time; the growth analyst adds rows)
 

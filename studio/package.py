@@ -48,11 +48,40 @@ def _phrases(text: str, max_words: int) -> list[str]:
             merged[-1] = merged[-1] + c
         else:
             merged.append(c)
+    from .numbers import number_spans
     out = []
     for c in merged:
         n = math.ceil(len(c) / max_words)
         size = math.ceil(len(c) / n)
-        out += [" ".join(c[i:i + size]) for i in range(0, len(c), size)]
+        # cut only between atoms: a spoken number with its unit ("one point nine one kilometres") is one atom, so a
+        # subtitle never shows half a number (2026-11-10: "point nine kilometres," appeared on its own)
+        spans = {a: b for a, b in number_spans(c)}
+        atoms, i = [], 0
+        while i < len(c):
+            j = spans.get(i, i + 1)
+            atoms.append(c[i:j])
+            i = j
+        pieces: list[list[str]] = []
+        piece: list[str] = []
+        for at in atoms:
+            if piece and len(piece) + len(at) > size:
+                pieces.append(piece)
+                piece = []
+            piece += at
+        if piece:
+            pieces.append(piece)
+        # a one-word cue flashes by: fold it into its neighbour in the same clause (a little over max_words is fine)
+        k = 0
+        while len(pieces) > 1 and k < len(pieces):
+            if len(pieces[k]) == 1:
+                if k > 0:
+                    pieces[k - 1] += pieces.pop(k)
+                    continue
+                first = pieces.pop(0)
+                pieces[0] = first + pieces[0]
+                continue
+            k += 1
+        out += [" ".join(p) for p in pieces]
     return out
 
 
@@ -67,7 +96,8 @@ def cues(timing: dict, max_words: int = 11) -> list[tuple[float, float, str]]:
             d = (u["end"] - u["start"]) * len(c) / total
             out.append((t, t + d, c))
             t += d
-    return out
+    from .numbers import display
+    return [(a, b, display(c)) for a, b, c in out]
 
 
 def captions(timing: dict, max_words: int = 11, words: list[dict] | None = None) -> str:
@@ -112,4 +142,5 @@ def word_cues(timing: dict, words: list[dict], max_words: int = 11, hold: float 
         if nxt is not None:
             end = nxt if nxt - raw[k][1] < bridge else min(end, nxt)
         raw[k][1] = end
-    return [(a, b, t) for a, b, t in raw]
+    from .numbers import display
+    return [(a, b, display(t)) for a, b, t in raw]   # timed on the spoken words, shown with digits

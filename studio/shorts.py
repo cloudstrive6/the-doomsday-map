@@ -37,6 +37,8 @@ def shot_list(ep: Path, spec: dict) -> dict:
             s["view"]["widthKm"] = round(s["view"]["widthKm"] * CITY_ZOOM, 2)
             if s.get("zoomTo"):
                 s["zoomTo"]["widthKm"] = round(s["zoomTo"]["widthKm"] * CITY_ZOOM, 2)
+            for key in s.get("camera") or []:
+                key["widthKm"] = round(key["widthKm"] * CITY_ZOOM, 2)
         shots.append(s)
     shots[0]["start"] = 0.0          # a dropped chapter card leaves a gap at the top: the first shot covers it
     shots[-1]["end"] = round(b - a, 3)
@@ -67,7 +69,7 @@ def mux(ep: Path, spec: dict, silent: Path, out: Path) -> dict:
     dur = b - a
     wav = out.with_suffix(".wav")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{a:.3f}", "-t", f"{dur:.3f}", "-i", str(ep / "build" / "final.mp4"),
-                    "-vn", "-af", f"afade=t=in:d=0.12,afade=t=out:st={dur - 0.7:.3f}:d=0.7", "-ar", "48000", "-ac", "2", str(wav)], check=True)
+                    "-vn", "-af", f"afade=t=in:d=0.05,afade=t=out:st={dur - 0.15:.3f}:d=0.15", "-ar", "48000", "-ac", "2", str(wav)], check=True)
     loud = _normalize_stereo(wav, cfg["loudness_lufs"], cfg["true_peak_db"])
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(silent), "-i", str(wav), "-map", "0:v", "-map", "1:a",
                     "-c:v", "copy", "-c:a", "aac", "-b:a", "256k", "-shortest", "-movflags", "+faststart", str(out)], check=True)

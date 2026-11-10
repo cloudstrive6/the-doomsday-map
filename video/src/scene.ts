@@ -12,7 +12,9 @@ export interface ShotBase {
   caption?: string;   // lower-third line (short, one sentence)
   clock?: string;     // top-right HUD clock text, e.g. "T+00:06" or "04:12 LOCAL"
   clockLabel?: string;
+  clockRate?: number; // story seconds per video second ("T-" clocks count down). Default: 1 for "T+"/"T-" clocks, 0 otherwise
   source?: string;    // tiny footer credit, e.g. "FAS, Status of World Nuclear Forces 2025"
+  transition?: 'cut' | 'dip';  // how this shot comes in. Default: a straight cut, except into and out of chapter cards and the end slate
 }
 
 export interface CameraKey { t: number; lat: number; lon: number; scale: number } // scale = globe radius in px
@@ -38,6 +40,8 @@ export interface RegionShot extends ShotBase {
   type: 'region';
   view: RegionView;
   zoomTo?: RegionView;        // animate from view to zoomTo over the shot
+  camera?: (RegionView & { t: number })[];  // several camera keys (shot-local t); override view and zoomTo when 2 or more
+  legend?: { text: string; color?: string }[];  // actor legend chip, bottom left
   highlight?: { iso: string; color: string; fill?: string }[];
   cities?: Marker[];
   rings?: { at: LonLat; km: number; label?: string; color?: string; t?: number; dashed?: boolean }[];
@@ -67,6 +71,7 @@ export interface CityShot extends ShotBase {
   city: string;               // slug of public/city/<slug>.json (prepared by scripts/fetch-city.mjs)
   view: RegionView;
   zoomTo?: RegionView;
+  camera?: (RegionView & { t: number })[];  // several camera keys, as for region shots
   gz: LonLat;                 // ground zero
   rings: { km: number; label: string; color?: string; t: number; angle?: number }[];
   flashT?: number;
@@ -127,5 +132,6 @@ export interface Episode {
   banner?: Banner;           // the moving disclaimer: a 2.5 to 3 s HUD band over moving footage early in the cold open
   attribution?: string;
   shortTitle?: [string, string];
+  bridge?: string;           // Shorts: line shown in the last 3 s (default "FULL SIMULATION ON THE CHANNEL"; "" turns it off)
   subtitles?: { start: number; end: number; text: string }[];  // burned-in narration subtitles (Shorts and Reels)  // Shorts only: two-line title band at the top (white, then yellow)
 }

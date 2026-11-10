@@ -9,6 +9,7 @@ import usStates from 'us-atlas/states-10m.json';
 import type {Ship, LonLat, RegionShot, RegionView} from '../scene';
 import {C, MONO, clamp01, ease, easeOut, lerp} from '../theme';
 import {getBase} from './baseCache';
+import {SafeLabel} from './SafeLabel';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const topo = world50 as any;
@@ -59,10 +60,36 @@ function paintRegion(shot: RegionShot, base: RegionView, W: number, H: number): 
   return cv;
 }
 
-export function viewAt(a: RegionView, b: RegionView | undefined, t: number, dur: number): RegionView {
+const mix = (a: RegionView, b: RegionView, u: number): RegionView =>
+  ({center: [lerp(a.center[0], b.center[0], u), lerp(a.center[1], b.center[1], u)], widthKm: Math.exp(lerp(Math.log(a.widthKm), Math.log(b.widthKm), u))});
+
+// Camera keys (2026-11-10): `camera: [{t, center, widthKm}, ...]` gives a region or city shot several moves (a pull-out,
+// a hold, a pan to the next place) instead of one view-to-zoomTo ease. Each leg eases; before the first key the view
+// holds at it, after the last key it keeps a slow push so the shot never freezes.
+export type CamKey = RegionView & {t: number};
+export function viewAt(a: RegionView, b: RegionView | undefined, t: number, dur: number, keys?: CamKey[]): RegionView {
+  if (keys && keys.length >= 2) {
+    const k = [...keys].sort((x, y) => x.t - y.t);
+    if (t <= k[0].t) return k[0];
+    for (let i = 1; i < k.length; i++) {
+      if (t <= k[i].t) return mix(k[i - 1], k[i], ease(clamp01((t - k[i - 1].t) / Math.max(0.01, k[i].t - k[i - 1].t))));
+    }
+    const last = k[k.length - 1];
+    return {center: last.center, widthKm: last.widthKm * Math.max(0.85, 1 - 0.012 * (t - last.t))};
+  }
   if (!b) return a;
-  const u = ease(clamp01(t / Math.max(0.01, dur)));
-  return {center: [lerp(a.center[0], b.center[0], u), lerp(a.center[1], b.center[1], u)], widthKm: Math.exp(lerp(Math.log(a.widthKm), Math.log(b.widthKm), u))};
+  return mix(a, b, ease(clamp01(t / Math.max(0.01, dur))));
+}
+
+// The painted base covers the view at 1.6 to 3.2x its width, in power-of-two steps, centred on a snapped point near the
+// view centre. Deep zooms and long pans repaint at the right scale instead of stretching one wide canvas.
+export function baseFor(view: RegionView, width?: number): RegionView {
+  const w = width ?? Math.pow(2, Math.ceil(Math.log2(view.widthKm * 1.6)));
+  const stepKm = w / 8;
+  const latStep = stepKm / 111.2;
+  const lat = Math.max(-85, Math.min(85, Math.round(view.center[1] / latStep) * latStep));
+  const lonStep = stepKm / (111.2 * Math.max(0.2, Math.cos(lat * Math.PI / 180)));
+  return {center: [Math.round(view.center[0] / lonStep) * lonStep, lat], widthKm: w};
 }
 
 export function makeProjection(view: RegionView, W: number, H: number) {
@@ -130,23 +157,21 @@ function shipAt(sh: Ship, t: number, pt: (ll: LonLat) => [number, number] | null
   return {p: [x, y], ang, trail};
 }
 
-const Label: React.FC<{x: number; y: number; text: string; color?: string; a?: number; size?: number; dx?: number; dy?: number}> = ({x, y, text, color, a = 1, size = 18, dx = 12, dy = -10}) => (
-  <div style={{position: 'absolute', left: x + dx, top: y + dy, fontFamily: MONO, fontSize: size, letterSpacing: 1.5, color: color ?? C.text, opacity: a, whiteSpace: 'nowrap',
-    textShadow: '0 0 6px rgba(0,0,0,0.95), 0 0 2px rgba(0,0,0,1)', textTransform: 'uppercase'}}>{text}</div>
-);
 
 export const RegionMap: React.FC<{shot: RegionShot; t: number}> = ({shot, t}) => {
   const {width: W, height: H} = useVideoConfig();
   const dur = shot.end - shot.start;
-  const view = viewAt(shot.view, shot.zoomTo, t, dur);
+  const view = viewAt(shot.view, shot.zoomTo, t, dur, shot.camera);
   const proj = useMemo(() => makeProjection(view, W, H), [view.center[0], view.center[1], view.widthKm, W, H]);
   const path = useMemo(() => geoPath(proj), [proj]);
+  const cap = !!shot.caption;
   const pxPerKm = W / view.widthKm;
   const scaleKm = [10, 20, 50, 100, 200, 500, 1000, 2000].find((k) => k * pxPerKm > 140) ?? 2000;
   const circle = geoCircle();
   const pt = (ll: LonLat) => proj(ll) as [number, number] | null;
-  const baseView: RegionView = useMemo(() => ({center: shot.view.center, widthKm: Math.max(shot.view.widthKm, shot.zoomTo?.widthKm ?? 0) * 1.12}), [shot.view, shot.zoomTo]);
-  const baseKey = `${shot.id}|${W}x${H}|${baseView.widthKm.toFixed(1)}`;
+  const bv = baseFor(view);
+  const baseView: RegionView = useMemo(() => bv, [bv.center[0], bv.center[1], bv.widthKm]);
+  const baseKey = `${shot.id}|${W}x${H}|${baseView.widthKm}|${baseView.center[0].toFixed(4)},${baseView.center[1].toFixed(4)}`;
   const ref = useRef<HTMLCanvasElement>(null);
   useLayoutEffect(() => {
     const cv = ref.current;
@@ -159,6 +184,17 @@ export const RegionMap: React.FC<{shot: RegionShot; t: number}> = ({shot, t}) =>
     ctx.fillStyle = C.bg; ctx.fillRect(0, 0, W, H);
     ctx.imageSmoothingEnabled = true; ctx.imageSmoothingQuality = 'high';
     ctx.drawImage(base, W / 2 - q[0] * k, H / 2 - q[1] * k, W * SUPER * k, H * SUPER * k);
+    const r = baseView.widthKm / (1.6 * view.widthKm);   // 1 to 2 inside an octave; the switch to the finer base is at 2
+    if (r > 1.6) {
+      const fine: RegionView = baseFor({center: view.center, widthKm: view.widthKm * 1.0001}, baseView.widthKm / 2);
+      const fb = paintRegionBase(shot, fine, W, H, `${shot.id}|${W}x${H}|${fine.widthKm}|${fine.center[0].toFixed(4)},${fine.center[1].toFixed(4)}`);
+      const pf = makeProjection(fine, W * SUPER, H * SUPER);
+      const qf = pf(view.center) as [number, number];
+      const kf = fine.widthKm / (SUPER * view.widthKm);
+      ctx.globalAlpha = clamp01((r - 1.6) / 0.4);
+      ctx.drawImage(fb, W / 2 - qf[0] * kf, H / 2 - qf[1] * kf, W * SUPER * kf, H * SUPER * kf);
+      ctx.globalAlpha = 1;
+    }
   }, [shot, baseView, baseKey, view.center[0], view.center[1], view.widthKm, W, H]);
   return (
     <AbsoluteFill style={{background: C.bg}}>
@@ -231,62 +267,85 @@ export const RegionMap: React.FC<{shot: RegionShot; t: number}> = ({shot, t}) =>
       </svg>
       {(shot.cities ?? []).map((m, i) => {
         const p = pt(m.at);
-        if (!p || !m.label || (m.t !== undefined && t < m.t)) return null;
-        return <Label key={`l${i}`} x={p[0]} y={p[1]} text={m.label} color={m.color} a={m.t === undefined ? 1 : ease(clamp01((t - m.t) / 0.4))} />;
+        if (!p || !m.label) return null;
+        return <SafeLabel key={`l${i}`} x={p[0]} y={p[1]} text={m.label} color={m.color} caption={cap} a={m.t === undefined ? 1 : t < m.t ? 0 : ease(clamp01((t - m.t) / 0.4))} />;
       })}
       {(shot.rings ?? []).map((r, i) => {
-        if (!r.label || (r.t !== undefined && t < r.t + 0.5)) return null;
+        if (!r.label) return null;
+        const ra = r.t !== undefined && t < r.t + 0.5 ? 0 : 1;
         const edge = pt(destination(r.at, 40 + i * 26, r.km));
         const small = r.km * pxPerKm < 60;
-        return edge ? <Label key={`r${i}`} x={edge[0]} y={edge[1]} text={r.label} color={r.color ?? C.red} size={15} dy={small ? -10 - (3 - i) * 20 : -10} /> : null;
+        return edge ? <SafeLabel key={`r${i}`} x={edge[0]} y={edge[1]} text={r.label} color={r.color ?? C.red} caption={cap} size={22} a={ra} dy={small ? -10 - (3 - i) * 30 : -10} /> : null;
       })}
       {(shot.zones ?? []).map((z, i) => {
-        if (!z.label || (z.t !== undefined && t < z.t + 0.3)) return null;
+        if (!z.label) return null;
+        const za = z.t !== undefined && t < z.t + 0.3 ? 0 : 1;
         const ps = z.points.map(pt).filter(Boolean) as [number, number][];
         if (!ps.length) return null;
         const cx = ps.reduce((a, q) => a + q[0], 0) / ps.length, cy = ps.reduce((a, q) => a + q[1], 0) / ps.length;
-        return <Label key={`zl${i}`} x={cx} y={cy} text={z.label} color={z.color ?? C.red} size={14} dx={-z.label.length * 4.1} dy={-8} />;
+        return <SafeLabel key={`zl${i}`} x={cx} y={cy} text={z.label} color={z.color ?? C.red} caption={cap} align="center" dy={0} a={za} />;
       })}
       {(shot.ships ?? []).map((sh, i) => {
         if (!sh.label || (sh.t !== undefined && t < sh.t) || (sh.sunkAt !== undefined && t > sh.sunkAt + 0.6)) return null;
         const st = shipAt(sh, t, pt);
-        return st ? <Label key={`sl${i}`} x={st.p[0]} y={st.p[1]} text={sh.label} color={sh.color ?? SHIP_COLOR[sh.kind ?? 'cargo']} size={14} dy={6} /> : null;
+        return st ? <SafeLabel key={`sl${i}`} x={st.p[0]} y={st.p[1]} text={sh.label} color={sh.color ?? SHIP_COLOR[sh.kind ?? 'cargo']} caption={cap} dy={22} /> : null;
       })}
       {(shot.labels ?? []).map((l, i) => {
         const p = pt(l.at);
-        if (!p || (l.t !== undefined && t < l.t)) return null;
-        return <Label key={`t${i}`} x={p[0]} y={p[1]} text={l.text} color={l.color ?? C.dim} size={16} dx={-l.text.length * 4.6} dy={8} />;
+        if (!p) return null;
+        return <SafeLabel key={`t${i}`} x={p[0]} y={p[1]} text={l.text} color={l.color ?? C.dim} caption={cap} align="center" dy={26} a={l.t === undefined ? 1 : t < l.t ? 0 : ease(clamp01((t - l.t) / 0.4))} />;
       })}
       {(shot.countryLabels ?? []).map((cl, i) => {
         const c = COUNTRIES.find((x) => String(x.id) === cl.iso);
         if (!c) return null;
         const p = pt(geoCentroid(c));
-        return p ? <Label key={`c${i}`} x={p[0]} y={p[1]} text={cl.text} color={cl.color ?? 'rgba(236,239,242,0.45)'} size={17} dx={-cl.text.length * 5.5} dy={-9} /> : null;
+        return p ? <SafeLabel key={`c${i}`} x={p[0]} y={p[1]} text={cl.text} color={cl.color ?? 'rgba(236,239,242,0.55)'} caption={cap} size={34} align="center" dy={0} plate={false} weight={600} /> : null;
       })}
       {shot.plume?.label && t > shot.plume.t0 + 0.6 ? (() => {
         const p = pt(destination(shot.plume!.at, shot.plume!.bearing, shot.plume!.lengthKm * 0.55));
-        return p ? <Label x={p[0]} y={p[1]} text={shot.plume!.label!} color={C.amber} size={16} dx={-shot.plume!.label!.length * 4.6} dy={-10} /> : null;
+        return p ? <SafeLabel x={p[0]} y={p[1]} text={shot.plume!.label!} color={C.amber} caption={cap} align="center" dy={-10} /> : null;
       })() : null}
       {shot.burst && t >= shot.burst.t ? (() => {
         const b = shot.burst!;
         const dt = t - b.t;
         const p = pt(b.at);
-        const white = Math.max(0, 1 - dt / 0.9);
-        const rPx = Math.max(14, b.km * pxPerKm);
+        // flash v2 (2026-11-10): full white for the first frames, then the fireball grows and cools from white to
+        // orange over several seconds while a shock ring runs outward; the shake and afterglow live in Episode.tsx
+        const white = dt < 0.06 ? 1 : Math.max(0, 1 - (dt - 0.06) / 0.85) ** 2;
+        const grow = 0.55 + 0.6 * easeOut(clamp01(dt / 1.6));
+        const rPx = Math.max(14, b.km * pxPerKm) * grow;
         const glow = Math.max(0, 1 - dt / (b.fade ?? 7));
+        const cool = clamp01(dt / 4);
+        const boil = 1 + 0.04 * Math.sin(dt * 7.3);
+        const shockK = clamp01(dt / 1.8);
+        const shockR = rPx * (1.2 + 9 * easeOut(shockK));
+        const g1 = Math.round(255 - 40 * cool), b1 = Math.round(240 - 140 * cool), g2 = Math.round(210 - 60 * cool), b2 = Math.round(120 - 60 * cool);
         return (
           <>
             {p ? (
-              <div style={{position: 'absolute', left: p[0] - rPx * 3, top: p[1] - rPx * 3, width: rPx * 6, height: rPx * 6, borderRadius: '50%', pointerEvents: 'none',
-                background: `radial-gradient(circle, rgba(255,255,240,${0.95 * glow}) 0%, rgba(255,210,120,${0.85 * glow}) 18%, rgba(255,122,26,${0.5 * glow}) 34%, rgba(255,59,59,${0.18 * glow}) 55%, rgba(0,0,0,0) 70%)`}} />
+              <div style={{position: 'absolute', left: p[0] - rPx * 3 * boil, top: p[1] - rPx * 3 * boil, width: rPx * 6 * boil, height: rPx * 6 * boil, borderRadius: '50%', pointerEvents: 'none',
+                background: `radial-gradient(circle, rgba(255,${g1},${b1},${0.97 * glow}) 0%, rgba(255,${g2},${b2},${0.88 * glow}) 18%, rgba(255,122,26,${0.55 * glow}) 34%, rgba(255,59,59,${0.2 * glow}) 55%, rgba(0,0,0,0) 70%)`}} />
             ) : null}
-            {white > 0 ? <AbsoluteFill style={{background: '#FFFDF4', opacity: white * white}} /> : null}
+            {p && shockK < 1 ? (
+              <div style={{position: 'absolute', left: p[0] - shockR, top: p[1] - shockR, width: shockR * 2, height: shockR * 2, borderRadius: '50%', pointerEvents: 'none',
+                border: `${Math.max(2, 6 * (1 - shockK)).toFixed(1)}px solid rgba(255,236,200,${(0.85 * (1 - shockK)).toFixed(3)})`, boxShadow: `0 0 ${(24 * (1 - shockK)).toFixed(1)}px rgba(255,170,90,${(0.6 * (1 - shockK)).toFixed(3)})`}} />
+            ) : null}
+            {white > 0 ? <AbsoluteFill style={{background: '#FFFDF4', opacity: white}} /> : null}
           </>
         );
       })() : null}
+      {shot.legend?.length ? (
+        <div style={{position: 'absolute', left: 48, bottom: shot.caption ? 150 : 76, background: 'rgba(8,10,14,0.78)', padding: '12px 16px', border: '1px solid rgba(236,239,242,0.12)'}}>
+          {shot.legend.map((l, i) => (
+            <div key={i} style={{display: 'flex', alignItems: 'center', gap: 12, fontFamily: MONO, fontSize: H > W ? 34 : 22, color: C.text, letterSpacing: 1.5, textTransform: 'uppercase', marginBottom: i < shot.legend!.length - 1 ? 8 : 0}}>
+              <div style={{width: 16, height: 16, background: l.color ?? C.red}} />{l.text}
+            </div>
+          ))}
+        </div>
+      ) : null}
       {shot.scaleBar !== false ? (
         <div style={{position: 'absolute', right: 48, bottom: 44, display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 6}}>
-          <div style={{fontFamily: MONO, fontSize: 13, letterSpacing: 2, color: C.dim}}>{scaleKm} KM</div>
+          <div style={{fontFamily: MONO, fontSize: 18, letterSpacing: 2, color: C.dim}}>{scaleKm} KM</div>
           <div style={{width: scaleKm * pxPerKm, height: 2, background: C.dim, boxShadow: '0 0 4px rgba(0,0,0,0.9)'}} />
         </div>
       ) : null}

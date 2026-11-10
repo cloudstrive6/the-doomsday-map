@@ -87,6 +87,11 @@ Rules learned on 001 and 002:
   city shot, covering the first nuclear image and the spoken disclaimer. `python -m studio shotlist` prints
   `retention:` lines (blocking for the screeners) and `pace:` lines (warnings until the multi-key camera exists) and
   writes them to `build/validate.txt`.
+- Engine from 2026-11-11: straight cuts (dips only around chapter cards and the end slate, `transition` overrides),
+  a finished frame 0, flash v2 (white, fireball, shock ring, shake, afterglow), safe labels (24 px floor, plated,
+  clamped inside the frame, stacked), `camera` keys on region and city shots, `clockRate` ticking clocks, region
+  `legend`. Shorts: no fade at either end, a "FULL SIMULATION ON THE CHANNEL" pill in the last 3 s, digits in
+  subtitles (`studio/numbers.py`).
 - Region views: `widthKm` is the horizontal width; a 16:9 frame shows 0.56 x that vertically. Taiwan-sized subjects
   need about 1,300 km. Keep important labels away from the right edge.
 - Chapter cards overlap the first sentence of their chapter (3.5 to 4 s). The end slate starts on the spoken

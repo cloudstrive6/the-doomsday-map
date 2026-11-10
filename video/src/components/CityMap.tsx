@@ -9,6 +9,7 @@ import type {CityShot, LonLat, RegionView} from '../scene';
 import {C, COND, MONO, clamp01, ease, easeOut} from '../theme';
 import {destination, makeProjection, viewAt} from './RegionMap';
 import {getBase} from './baseCache';
+import {SafeLabel} from './SafeLabel';
 
 type CityData = {
   roads: Record<'motorway' | 'primary' | 'secondary' | 'minor' | 'rail', LonLat[][]>;
@@ -94,14 +95,16 @@ export const CityMap: React.FC<{shot: CityShot; t: number}> = ({shot, t}) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [shot.city]);
   const dur = shot.end - shot.start;
-  const view = viewAt(shot.view, shot.zoomTo, t, dur);
+  const view = viewAt(shot.view, shot.zoomTo, t, dur, shot.camera);
   const proj = useMemo(() => makeProjection(view, W, H), [view.center[0], view.center[1], view.widthKm, W, H]);
   const pxPerKm = W / view.widthKm;
   // base view: the widest the shot gets, centred on the shot's start centre, with a margin for drift
-  const baseView: RegionView = useMemo(() => ({
-    center: shot.view.center,
-    widthKm: Math.max(shot.view.widthKm, shot.zoomTo?.widthKm ?? 0) * 1.12,
-  }), [shot.view, shot.zoomTo]);
+  const baseView: RegionView = useMemo(() => {
+    const keys = [shot.view, ...(shot.zoomTo ? [shot.zoomTo] : []), ...(shot.camera ?? [])];
+    // cover every key: its width plus twice its distance from the base centre (a pan), with a margin for drift
+    const km = (a: LonLat, b: LonLat) => Math.hypot((a[0] - b[0]) * 111.2 * Math.cos(b[1] * D2R), (a[1] - b[1]) * 111.2);
+    return {center: shot.view.center, widthKm: Math.max(...keys.map((k) => k.widthKm + 2 * km(k.center, shot.view.center))) * 1.12};
+  }, [shot.view, shot.zoomTo, shot.camera]);
   const baseKey = `${shot.city}|${shot.id}|${W}x${H}|${baseView.widthKm.toFixed(2)}`;
 
   useLayoutEffect(() => {
@@ -134,7 +137,8 @@ export const CityMap: React.FC<{shot: CityShot; t: number}> = ({shot, t}) => {
 
   const circle = geoCircle();
   const svgPath = useMemo(() => geoPath(proj), [proj]);
-  const flash = shot.flashT !== undefined ? clamp01((t - shot.flashT) / 0.9) : 1;
+  const flash = shot.flashT !== undefined ? clamp01((t - shot.flashT - 0.06) / 0.85) : 1;
+  const sinceFlash = shot.flashT !== undefined ? t - shot.flashT : -1;
   const gzPx = proj(shot.gz) as [number, number] | null;
   return (
     <AbsoluteFill style={{background: '#0D1117'}}>
@@ -147,50 +151,49 @@ export const CityMap: React.FC<{shot: CityShot; t: number}> = ({shot, t}) => {
           const col = r.color ?? [C.white, C.red, C.orange, C.amber, C.teal][i % 5];
           return <path key={i} d={svgPath(c) ?? ''} fill={col + '12'} stroke={col} strokeWidth={2} />;
         })}
+        {gzPx && sinceFlash >= 0 && sinceFlash < 1.8 ? (() => {
+          const k = sinceFlash / 1.8;
+          const outer = Math.max(...shot.rings.map((r) => r.km), 1) * pxPerKm * 1.15;
+          const rr = Math.max(8, (shot.rings[0]?.km ?? 0.2) * pxPerKm) + outer * easeOut(k);
+          return <circle cx={gzPx[0]} cy={gzPx[1]} r={rr} fill="none" stroke="rgba(255,236,200,1)" strokeOpacity={0.85 * (1 - k)} strokeWidth={Math.max(2, 7 * (1 - k))} />;
+        })() : null}
         {gzPx ? <g><line x1={gzPx[0] - 14} y1={gzPx[1]} x2={gzPx[0] + 14} y2={gzPx[1]} stroke={C.white} strokeWidth={1} /><line x1={gzPx[0]} y1={gzPx[1] - 14} x2={gzPx[0]} y2={gzPx[1] + 14} stroke={C.white} strokeWidth={1} /></g> : null}
       </svg>
       {shot.rings.map((r, i) => {
-        if (t < r.t + 0.6) return null;
         // labels fan out along a diagonal from ground zero so small rings do not overlap
         const edge = proj(destination(shot.gz, r.angle ?? 40 + i * 26, r.km)) as [number, number] | null;
         if (!edge) return null;
         const col = r.color ?? [C.white, C.red, C.orange, C.amber, C.teal][i % 5];
         const small = r.km * pxPerKm < 60;
-        // keep the label inside the frame: in vertical Shorts the outer rings reach the right edge
-        const estW = (`${r.label} · ${r.km} KM`.length) * 15.6 + 20;
         const leftSide = r.angle !== undefined && Math.sin(r.angle * D2R) < 0;
-        const left = leftSide ? Math.max(24, Math.min(edge[0] - 18 - estW, W - estW - 24)) : Math.max(24, Math.min(edge[0] + 18, W - estW - 24));
-        return (
-          <div key={i} style={{position: 'absolute', left, top: edge[1] - 12 + (r.angle !== undefined && Math.cos(r.angle * D2R) < 0 ? 8 : -8) - (small && r.angle === undefined ? (3 - i) * 22 : 0), fontFamily: MONO, fontSize: 22, letterSpacing: 1.5, textAlign: leftSide ? 'right' : 'left', width: estW, boxSizing: 'border-box', padding: '2px 8px', background: 'rgba(8,10,14,0.78)',
-            color: col, textShadow: '0 0 4px #000, 0 0 8px #000', whiteSpace: 'nowrap', textTransform: 'uppercase', opacity: ease(clamp01((t - r.t - 0.6) / 0.4))}}>
-            {r.label} · {r.km} KM
-          </div>
-        );
+        const dy = (r.angle !== undefined && Math.cos(r.angle * D2R) < 0 ? 8 : -8) - (small && r.angle === undefined ? (3 - i) * 34 : 0);
+        return <SafeLabel key={i} x={edge[0]} y={edge[1]} text={`${r.label} · ${r.km} KM`} color={col} size={22} caption={!!shot.caption}
+          align={leftSide ? 'right' : 'left'} dx={18} dy={dy} a={t < r.t + 0.6 ? 0 : ease(clamp01((t - r.t - 0.6) / 0.4))} />;
       })}
       {(data?.places ?? []).filter((p) => !(shot.labels ?? []).some((l) => l.text.toLowerCase().includes(p.name.toLowerCase())))
         .filter((p) => p.cls === 'city' || p.cls === 'town' || view.widthKm < 25).slice(0, view.widthKm < 25 ? 40 : 12).map((p, i) => {
         const q = proj(p.at) as [number, number] | null;
         if (!q || q[0] < 0 || q[0] > W || q[1] < 0 || q[1] > H) return null;
-        return <div key={i} style={{position: 'absolute', left: q[0] - 60, width: 120, top: q[1] - 9, textAlign: 'center', fontFamily: MONO, fontSize: p.cls === 'city' ? 17 : 13, letterSpacing: 1.5, color: 'rgba(236,239,242,0.6)', textShadow: '0 0 6px rgba(0,0,0,0.95)', textTransform: 'uppercase', whiteSpace: 'nowrap'}}>{p.name}</div>;
+        return <div key={i} style={{position: 'absolute', left: q[0] - 60, width: 120, top: q[1] - 9, textAlign: 'center', fontFamily: MONO, fontSize: (p.cls === 'city' ? 24 : 19) * (H > W ? 1.4 : 1), letterSpacing: 1.5, color: 'rgba(236,239,242,0.62)', textShadow: '0 0 6px rgba(0,0,0,0.95)', textTransform: 'uppercase', whiteSpace: 'nowrap'}}>{p.name}</div>;
       })}
       {(shot.labels ?? []).map((l, i) => {
         const q = proj(l.at) as [number, number] | null;
-        if (!q || (l.t !== undefined && t < l.t)) return null;
-        return <div key={`l${i}`} style={{position: 'absolute', left: q[0] + 10, top: q[1] - 10, fontFamily: MONO, fontSize: 16, letterSpacing: 1.5, color: l.color ?? C.text, textShadow: '0 0 6px rgba(0,0,0,0.95)', textTransform: 'uppercase', whiteSpace: 'nowrap'}}>{l.text}</div>;
+        if (!q) return null;
+        return <SafeLabel key={`l${i}`} x={q[0]} y={q[1]} text={l.text} color={l.color ?? C.text} caption={!!shot.caption} a={l.t === undefined ? 1 : t < l.t ? 0 : ease(clamp01((t - l.t) / 0.4))} />;
       })}
       {shot.legend?.length ? (
         <div style={{position: 'absolute', left: 48, bottom: 120, background: 'rgba(8,10,14,0.7)', padding: '12px 16px', border: '1px solid rgba(236,239,242,0.1)'}}>
           {shot.legend.map((l, i) => (
-            <div key={i} style={{display: 'flex', alignItems: 'center', gap: 10, fontFamily: MONO, fontSize: 14, color: C.dim, letterSpacing: 1, marginBottom: 6}}>
+            <div key={i} style={{display: 'flex', alignItems: 'center', gap: 10, fontFamily: MONO, fontSize: H > W ? 30 : 20, color: C.text, letterSpacing: 1, marginBottom: 6}}>
               <div style={{width: 10, height: 10, background: l.color ?? C.red}} />{l.text}
             </div>
           ))}
         </div>
       ) : null}
       <div style={{position: 'absolute', right: 48, bottom: 44, display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 6}}>
-        {(() => { const km = [1, 2, 5, 10, 20, 50].find((k) => k * pxPerKm > 140) ?? 50; return (<><div style={{fontFamily: MONO, fontSize: 13, letterSpacing: 2, color: C.dim}}>{km} KM</div><div style={{width: km * pxPerKm, height: 2, background: C.dim}} /></>); })()}
+        {(() => { const km = [1, 2, 5, 10, 20, 50].find((k) => k * pxPerKm > 140) ?? 50; return (<><div style={{fontFamily: MONO, fontSize: 18, letterSpacing: 2, color: C.dim}}>{km} KM</div><div style={{width: km * pxPerKm, height: 2, background: C.dim}} /></>); })()}
       </div>
-      {shot.flashT !== undefined && t >= shot.flashT && flash < 1 ? <AbsoluteFill style={{background: '#fff', opacity: (1 - flash) * 0.95}} /> : null}
+      {shot.flashT !== undefined && t >= shot.flashT && flash < 1 ? <AbsoluteFill style={{background: '#FFFDF4', opacity: (1 - flash) ** 2}} /> : null}
       {!data ? <div style={{position: 'absolute', left: 60, top: 60, fontFamily: COND, fontSize: 30, color: C.red}}>city data missing: {shot.city}</div> : null}
     </AbsoluteFill>
   );

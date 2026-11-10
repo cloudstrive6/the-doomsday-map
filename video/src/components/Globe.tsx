@@ -9,6 +9,7 @@ import world110 from 'world-atlas/countries-110m.json';
 import world50 from 'world-atlas/countries-50m.json';
 import type {CameraKey, GlobeShot, LonLat} from '../scene';
 import {C, MONO, ease, clamp01, lerp} from '../theme';
+import {SafeLabel} from './SafeLabel';
 
 type Tex = {w: number; h: number; d: Uint8ClampedArray};
 const texCache: Record<string, Promise<Tex>> = {};
@@ -298,10 +299,10 @@ export const Globe: React.FC<{shot: GlobeShot; t: number}> = ({shot, t}) => {
     const out: {x: number; y: number; text: string; color: string; a: number}[] = [];
     const cx = W / 2, cy = H / 2, r = cam.scale;
     for (const m of shot.markers ?? []) {
-      if (!m.label || (m.t !== undefined && t < m.t)) continue;
+      if (!m.label) continue;
       const [vx, vy, vz] = toView(m.at[0], m.at[1], cam.lat, cam.lon);
       if (vz < 0.06) continue;
-      out.push({x: cx + r * vx, y: cy - r * vy, text: m.label, color: m.color ?? C.teal, a: m.t === undefined ? 1 : ease(clamp01((t - m.t) / 0.4))});
+      out.push({x: cx + r * vx, y: cy - r * vy, text: m.label, color: m.color ?? C.teal, a: m.t === undefined ? 1 : t < m.t ? 0 : ease(clamp01((t - m.t) / 0.4))});
     }
     return out;
   }, [shot.markers, t, cam.lat, cam.lon, cam.scale, W, H]);
@@ -310,10 +311,7 @@ export const Globe: React.FC<{shot: GlobeShot; t: number}> = ({shot, t}) => {
     <AbsoluteFill style={{background: C.bg}}>
       <canvas ref={ref} width={W} height={H} style={{width: '100%', height: '100%'}} />
       {labels.map((l, i) => (
-        <div key={i} style={{position: 'absolute', left: l.x + 12, top: l.y - 11, fontFamily: MONO, fontSize: 18, letterSpacing: 1.5,
-          color: l.color, opacity: l.a, textShadow: '0 0 6px rgba(0,0,0,0.9), 0 0 2px rgba(0,0,0,1)', whiteSpace: 'nowrap', textTransform: 'uppercase'}}>
-          {l.text}
-        </div>
+        <SafeLabel key={i} x={l.x} y={l.y} text={l.text} color={l.color} a={l.a} caption={!!shot.caption} />
       ))}
     </AbsoluteFill>
   );

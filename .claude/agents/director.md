@@ -30,6 +30,22 @@ Opening (where 001 and 002 lost half their viewers, and 004 and 005 still lost a
   `pace:` lines for every gap; fix them (they are warnings for the screeners until the multi-key camera exists, but
   each one is a stretch where viewers leave: 005 had gaps over 59% of its runtime).
 
+Engine tools (from 2026-11-11; see `video/src/scene.ts`):
+- Cuts: shots now cut straight to each other; only chapter cards and the end slate dip through black. Set
+  `"transition": "dip"` on a shot only for a deliberate pause, `"cut"` to force a hard cut into a chapter card.
+- Camera keys: a region or city shot can carry `"camera": [{"t": 0, "center": [lon, lat], "widthKm": 1700}, {"t": 4,
+  ...}, ...]` (shot-local seconds) for a pull-out, a hold and a pan in one shot. Each key is an arrival for the pace
+  check, so long map shots after 90 s use keys every 4 to 6 s instead of one slow zoom.
+- Flash: a region `burst` or a city `flashT` now hits full white, then a growing fireball, a shock ring, a short
+  shake and an orange afterglow. Put the flash at the start of its shot (`t` 0.05 to 0.2) so the cut lands on it.
+- Clock: add `"clockRate": 1` (story seconds per video second; higher for compressed time) so "T+00:40" ticks; a
+  "T-02:47" clock counts down. Use it on every minute-by-minute shot.
+- Legend: a region shot can carry `"legend": [{"text": "RUSSIA", "color": "#F2B01E"}, ...]` (bottom left) on any map
+  that shows two sides.
+- Labels: every map label is drawn at 24 px or more on a dark plate and pulled inside the frame clear of the tag,
+  clock and caption, and overlapping labels stack. Keep labels short (about 30 characters; long ones shrink); quotes
+  go in the `caption`. `countryLabels` are now large; use them for the actors.
+
 Readability and consistency (from the 2026-11-10 review of 005: clipped and overprinted labels, near-empty frames):
 - Labels stay inside the frame with a margin of about 96 px at the start, middle and end of every zoom, and clear of
   the corner tag, the clock and the caption box. If a label cannot fit, shorten it or drop it; never let it run off

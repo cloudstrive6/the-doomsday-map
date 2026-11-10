@@ -471,7 +471,8 @@ def upload_short(ep_dir: Path, spec: dict, video: Path, publish_at: str, caption
     cfg = load_config()
     ep_meta = json.loads((ep_dir / "metadata.json").read_text(encoding="utf-8"))
     long_url = ep_meta["url"]
-    desc = (f"{spec['hook']}\n\nWatch the full simulation: {long_url}\n\n"
+    # the long video's link is line 1 (2026-11-10: Shorts brought 92% of views but almost no subscribers or clicks)
+    desc = (f"Full simulation: {long_url}\n\n{spec['hook']}\n\n"
             f"{cfg['channel']['disclosure']}\n\n#shorts #nuclearwar #simulation")
     body = {
         "snippet": {"title": spec["yt_title"][:100], "description": desc,
