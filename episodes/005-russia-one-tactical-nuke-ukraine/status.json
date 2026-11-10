@@ -39,7 +39,12 @@
       "stage": "visual_approved",
       "note": "round 2 blocker fixed and verified by showrunner",
       "at": "2026-11-10T01:17:34+00:00"
+    },
+    {
+      "stage": "packaged",
+      "note": "packaged",
+      "at": "2026-11-10T01:21:14+00:00"
     }
   ],
-  "stage": "visual_approved"
+  "stage": "packaged"
 }

@@ -1,0 +1,520 @@
+{
+ "subtitles": [
+  {
+   "start": 0.402,
+   "end": 1.874,
+   "text": "In September twenty twenty-two,"
+  },
+  {
+   "start": 2.45,
+   "end": 4.444,
+   "text": "Vladimir Putin said Russia would use"
+  },
+  {
+   "start": 4.444,
+   "end": 6.558,
+   "text": "all the means at its disposal,"
+  },
+  {
+   "start": 6.558,
+   "end": 7.59,
+   "text": "and added:"
+  },
+  {
+   "start": 7.59,
+   "end": 8.934,
+   "text": "\"It's not a bluff.\""
+  },
+  {
+   "start": 9.257,
+   "end": 10.524,
+   "text": "Two weeks later,"
+  },
+  {
+   "start": 10.524,
+   "end": 12.084,
+   "text": "President Biden said the world had"
+  },
+  {
+   "start": 12.084,
+   "end": 14.164,
+   "text": "not faced the prospect of Armageddon"
+  },
+  {
+   "start": 14.164,
+   "end": 16.154,
+   "text": "since the Cuban Missile Crisis."
+  },
+  {
+   "start": 16.685,
+   "end": 17.584,
+   "text": "He added that he did"
+  },
+  {
+   "start": 17.584,
+   "end": 18.764,
+   "text": "not think there was any"
+  },
+  {
+   "start": 18.764,
+   "end": 20.484,
+   "text": "such thing as easily using"
+  },
+  {
+   "start": 20.484,
+   "end": 22.474,
+   "text": "a tactical nuclear weapon."
+  },
+  {
+   "start": 22.846,
+   "end": 24.184,
+   "text": "The White House said at"
+  },
+  {
+   "start": 24.184,
+   "end": 25.704,
+   "text": "the time that it saw"
+  },
+  {
+   "start": 25.704,
+   "end": 27.714,
+   "text": "no sign of imminent use."
+  },
+  {
+   "start": 28.643,
+   "end": 29.764,
+   "text": "Behind the scenes,"
+  },
+  {
+   "start": 29.764,
+   "end": 31.014,
+   "text": "the channels opened."
+  },
+  {
+   "start": 31.44,
+   "end": 33.544,
+   "text": "American and Russian defence chiefs"
+  },
+  {
+   "start": 33.544,
+   "end": 35.514,
+   "text": "spoke by phone in October."
+  },
+  {
+   "start": 36.396,
+   "end": 37.444,
+   "text": "In November,"
+  },
+  {
+   "start": 37.444,
+   "end": 39.344,
+   "text": "news reports said senior Russian"
+  },
+  {
+   "start": 39.344,
+   "end": 42.214,
+   "text": "officials had discussed tactical use,"
+  },
+  {
+   "start": 42.45,
+   "end": 44.024,
+   "text": "with no evidence that any"
+  },
+  {
+   "start": 44.024,
+   "end": 45.834,
+   "text": "warhead had been moved."
+  },
+  {
+   "start": 46.53,
+   "end": 48.024,
+   "text": "Days later the head of the"
+  },
+  {
+   "start": 48.024,
+   "end": 50.924,
+   "text": "CIA met Russia's foreign intelligence chief"
+  },
+  {
+   "start": 50.924,
+   "end": 53.284,
+   "text": "in Ankara to warn against it."
+  }
+ ],
+ "slug": "005-russia-one-tactical-nuke-ukraine-s3",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 53.284,
+ "shots": [
+  {
+   "id": "c2-putin",
+   "type": "region",
+   "start": 0.0,
+   "end": 9.107,
+   "tag": "REAL HISTORY",
+   "clock": "SEPT 2022",
+   "clockLabel": "PUTIN",
+   "source": "Kremlin address, September 2022; Reuters",
+   "caption": "\"All the means at its disposal.\" \"It's not a bluff.\"",
+   "view": {
+    "center": [
+     38,
+     52
+    ],
+    "widthKm": 2600
+   },
+   "zoomTo": {
+    "center": [
+     33,
+     50
+    ],
+    "widthKm": 1500
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 0.5
+    },
+    {
+     "at": [
+      30.52,
+      50.45
+     ],
+     "label": "Kyiv",
+     "kind": "dot",
+     "t": 3
+    }
+   ]
+  },
+  {
+   "id": "c2-armageddon",
+   "type": "globe",
+   "start": 9.107,
+   "end": 16.535,
+   "tag": "REAL HISTORY",
+   "clock": "OCT 2022",
+   "clockLabel": "BIDEN",
+   "source": "White House remarks; Reuters",
+   "caption": "\"Armageddon\": the first time since the Cuban Missile Crisis.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 42,
+     "lon": -50,
+     "scale": 700
+    },
+    {
+     "t": 7.4,
+     "lat": 40,
+     "lon": -78,
+     "scale": 1300
+    }
+   ],
+   "sun": {
+    "lat": 10,
+    "lon": 20
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    },
+    {
+     "iso": "192",
+     "color": "#FF3B3B"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "Washington",
+     "color": "#3ED6C8",
+     "kind": "dot",
+     "t": 0.5
+    },
+    {
+     "at": [
+      -82.37,
+      23.11
+     ],
+     "label": "Cuba, 1962",
+     "color": "#FF3B3B",
+     "kind": "dot",
+     "t": 3
+    }
+   ]
+  },
+  {
+   "id": "c2-whitehouse",
+   "type": "region",
+   "start": 16.535,
+   "end": 28.025,
+   "tag": "REAL HISTORY",
+   "clock": "OCT 2022",
+   "clockLabel": "WASHINGTON",
+   "source": "White House briefing; Reuters",
+   "view": {
+    "center": [
+     -77.04,
+     38.9
+    ],
+    "widthKm": 60
+   },
+   "zoomTo": {
+    "center": [
+     -77.04,
+     38.9
+    ],
+    "widthKm": 18
+   },
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House: no sign of imminent use",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "size": 6,
+     "t": 6.161000000000001
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0,
+      38.94
+     ],
+     "text": "\"No such thing as easily using a tactical nuclear weapon\"",
+     "color": "#FFFFFF",
+     "t": 0.4
+    }
+   ]
+  },
+  {
+   "id": "c2-phone",
+   "type": "globe",
+   "start": 28.025,
+   "end": 36.246,
+   "tag": "REAL HISTORY",
+   "clock": "OCT 2022",
+   "clockLabel": "DEFENCE CHIEFS",
+   "source": "Reuters; Pentagon readouts",
+   "caption": "American and Russian defence chiefs speak by phone.",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 48,
+     "lon": -35,
+     "scale": 650
+    },
+    {
+     "t": 8.221000000000004,
+     "lat": 48,
+     "lon": 0,
+     "scale": 800
+    }
+   ],
+   "sun": {
+    "lat": 10,
+    "lon": 20
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "840",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.06)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "Washington",
+     "color": "#3ED6C8",
+     "kind": "dot",
+     "t": 0.5
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 2
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -77.04,
+      38.9
+     ],
+     "to": [
+      37.62,
+      55.75
+     ],
+     "t0": 3.0,
+     "t1": 7.0,
+     "color": "#3ED6C8",
+     "loft": 0.15
+    }
+   ]
+  },
+  {
+   "id": "c2-reports",
+   "type": "region",
+   "start": 36.246,
+   "end": 46.38,
+   "tag": "REAL HISTORY",
+   "clock": "NOV 2022",
+   "clockLabel": "NEWS REPORTS",
+   "source": "Reuters; New York Times reporting, November 2022",
+   "caption": "Senior officials reportedly discussed tactical use. No evidence any warhead moved.",
+   "view": {
+    "center": [
+     38,
+     54
+    ],
+    "widthKm": 1900
+   },
+   "zoomTo": {
+    "center": [
+     36,
+     52
+    ],
+    "widthKm": 1100
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 0.5
+    },
+    {
+     "at": [
+      30.52,
+      50.45
+     ],
+     "label": "Kyiv",
+     "kind": "dot",
+     "t": 2.5
+    }
+   ]
+  },
+  {
+   "id": "c2-ankara",
+   "type": "region",
+   "start": 46.38,
+   "end": 53.284,
+   "tag": "REAL HISTORY",
+   "clock": "NOV 2022",
+   "clockLabel": "ANKARA",
+   "source": "Reuters; Associated Press",
+   "caption": "The CIA director meets Russia's foreign intelligence chief to warn against it.",
+   "view": {
+    "center": [
+     32,
+     44
+    ],
+    "widthKm": 3200
+   },
+   "zoomTo": {
+    "center": [
+     32.5,
+     41
+    ],
+    "widthKm": 1300
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "792",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      32.86,
+      39.93
+     ],
+     "label": "Ankara",
+     "color": "#3ED6C8",
+     "kind": "target",
+     "size": 6,
+     "t": 0.8
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "dot",
+     "t": 2
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "\"NOT A BLUFF\"",
+  "THEN THE PHONES"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

@@ -31,3 +31,18 @@ To pass: fix finding 1 in shotlist.py, run `python -m studio shotlist 005-russia
 
 ## Round 3 (showrunner)
 Blocker (Berestove label over clock) fixed by dropping labels; stills 21-23 s checked, clock clear. PASS.
+
+## Shorts
+PASS
+
+Windows (checked against narration/timing.json and the staged vertical shot lists; sample frames at 1, 12, 30 and 50 s of each):
+- s1 338.384 to 393.300 (54.9 s): starts on p25, ends 0.3 s after the last word of p29 ("to warn them"), on the shock wave. Payoff, not a cliffhanger. In range.
+- s2 421.200 to 475.100 (53.9 s): starts on p32, ends on p37 ("flying glass becomes the hazard"), the last ring. Payoff. In range.
+- s3 141.416 to 194.700 (53.3 s): starts on p13, ends on p15 ("to warn against it"). Acceptable closing beat. In range.
+- All three start on a shot boundary, so the stager does not fail. Title bands (two lines, white then yellow) are legible, centred, below the top bar and clear of the tag and clock. No real-person likeness (maps and globe only; Putin and Biden are named in text only, as speakers, not victims). No simulated date anywhere; s3 shows real 2022 dates tagged REAL HISTORY.
+
+Minor findings (not blocking):
+1. s1 at 12 s: the "TARGET: OPEN FARMLAND" label is cut by the right edge, and at 30 s the "STAGING" label is cut too. Shift those labels left or anchor them left of the marker in the c4-m0 and c4-m2 shots (labels/cities `anchor` or offset).
+2. s1 at 1 s and 30 s: the map labels (LAUNCH, ISKANDER-M) are very small on a phone, and the lower 40% of the frame is empty apart from the subtitle. At 30 s (c4-m2) the frame is nearly empty: a dashed line and a faint label. Consider a larger label size or a tighter zoom for Shorts.
+3. s3 at 30 s: the clock label "DEFENSE CHIEFS" sits just under the title band and is hard to read over the globe. Minor.
+4. s2: ring labels still touch rings (already noted for the long video); they are readable.

@@ -1,0 +1,556 @@
+{
+ "subtitles": [
+  {
+   "start": 0.042,
+   "end": 1.92,
+   "text": "Here is what fifteen kilotons"
+  },
+  {
+   "start": 1.92,
+   "end": 3.881,
+   "text": "does to open farmland,"
+  },
+  {
+   "start": 3.881,
+   "end": 5.39,
+   "text": "from the scenario engine."
+  },
+  {
+   "start": 5.91,
+   "end": 6.98,
+   "text": "The fireball:"
+  },
+  {
+   "start": 6.98,
+   "end": 7.852,
+   "text": "a hundred and eighty"
+  },
+  {
+   "start": 7.852,
+   "end": 9.19,
+   "text": "metres in radius."
+  },
+  {
+   "start": 9.44,
+   "end": 10.499,
+   "text": "About three hundred and"
+  },
+  {
+   "start": 10.499,
+   "end": 11.89,
+   "text": "sixty metres across."
+  },
+  {
+   "start": 12.425,
+   "end": 14.21,
+   "text": "Everything inside it is gone."
+  },
+  {
+   "start": 14.74,
+   "end": 16.717,
+   "text": "Three hundred and forty metres out,"
+  },
+  {
+   "start": 16.717,
+   "end": 17.98,
+   "text": "the blast reaches twenty"
+  },
+  {
+   "start": 17.98,
+   "end": 19.75,
+   "text": "pounds per square inch."
+  },
+  {
+   "start": 20.094,
+   "end": 22.31,
+   "text": "Almost nothing built survives that."
+  },
+  {
+   "start": 23.071,
+   "end": 25.787,
+   "text": "At one point six seven kilometres,"
+  },
+  {
+   "start": 25.787,
+   "end": 27.77,
+   "text": "five pounds per square inch."
+  },
+  {
+   "start": 27.978,
+   "end": 29.74,
+   "text": "Most ordinary buildings collapse"
+  },
+  {
+   "start": 29.74,
+   "end": 31.69,
+   "text": "or are badly damaged."
+  },
+  {
+   "start": 31.922,
+   "end": 33.267,
+   "text": "That ring covers about eight"
+  },
+  {
+   "start": 33.267,
+   "end": 35.07,
+   "text": "point eight square kilometres."
+  },
+  {
+   "start": 36.294,
+   "end": 38.55,
+   "text": "The flash burns farther than that."
+  },
+  {
+   "start": 38.807,
+   "end": 40.376,
+   "text": "Third-degree burns reach one"
+  },
+  {
+   "start": 40.376,
+   "end": 41.97,
+   "text": "point nine kilometres,"
+  },
+  {
+   "start": 42.183,
+   "end": 43.12,
+   "text": "past the edge of"
+  },
+  {
+   "start": 43.12,
+   "end": 44.53,
+   "text": "the five-psi ring."
+  },
+  {
+   "start": 45.667,
+   "end": 47.839,
+   "text": "At four and a half kilometres,"
+  },
+  {
+   "start": 47.839,
+   "end": 49.85,
+   "text": "one pound per square inch."
+  },
+  {
+   "start": 50.076,
+   "end": 51.367,
+   "text": "Windows shatter,"
+  },
+  {
+   "start": 51.367,
+   "end": 53.77,
+   "text": "and flying glass becomes the hazard."
+  }
+ ],
+ "slug": "005-russia-one-tactical-nuke-ukraine-s2",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 53.9,
+ "shots": [
+  {
+   "id": "c5-fireball",
+   "type": "city",
+   "start": 0.0,
+   "end": 14.529,
+   "tag": "SIMULATION",
+   "clock": "T+03:00",
+   "clockLabel": "MINUTE THREE · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "kharkiv-farmland",
+   "view": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 4.0
+   },
+   "zoomTo": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 3.2
+   },
+   "gz": [
+    37.824,
+    49.517
+   ],
+   "rings": [
+    {
+     "km": 0.18,
+     "label": "Fireball",
+     "angle": 330,
+     "color": "#FFFFFF",
+     "t": 2.465000000000009
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      37.824,
+      49.5215
+     ],
+     "text": "Staging area (simulated)",
+     "color": "#FFFFFF"
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 180 m",
+     "color": "#FFFFFF"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c5-20psi",
+   "type": "city",
+   "start": 14.529,
+   "end": 22.577,
+   "tag": "SIMULATION",
+   "clock": "T+03:00",
+   "clockLabel": "MINUTE THREE · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "kharkiv-farmland",
+   "view": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 2.72
+   },
+   "zoomTo": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 3.2
+   },
+   "gz": [
+    37.824,
+    49.517
+   ],
+   "rings": [
+    {
+     "km": 0.18,
+     "label": "Fireball",
+     "angle": 330,
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 0.34,
+     "label": "20 psi",
+     "angle": 150,
+     "color": "#FF7A1A",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      37.824,
+      49.5215
+     ],
+     "text": "Staging area (simulated)",
+     "color": "#FFFFFF"
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 180 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 340 m",
+     "color": "#FF7A1A"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c5-5psi",
+   "type": "city",
+   "start": 22.577,
+   "end": 31.772,
+   "tag": "SIMULATION",
+   "clock": "T+03:00",
+   "clockLabel": "MINUTE THREE · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "kharkiv-farmland",
+   "view": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 7.2
+   },
+   "zoomTo": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 11.2
+   },
+   "gz": [
+    37.824,
+    49.517
+   ],
+   "rings": [
+    {
+     "km": 0.18,
+     "label": "Fireball",
+     "angle": 330,
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 0.34,
+     "label": "20 psi",
+     "angle": 150,
+     "color": "#FF7A1A",
+     "t": -30
+    },
+    {
+     "km": 1.67,
+     "label": "5 psi",
+     "angle": 60,
+     "color": "#FF3B3B",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      37.824,
+      49.5215
+     ],
+     "text": "Staging area (simulated)",
+     "color": "#FFFFFF"
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 180 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 340 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 1.67 km",
+     "color": "#FF3B3B"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c5-area",
+   "type": "number",
+   "start": 31.772,
+   "end": 35.666,
+   "tag": "SIMULATION",
+   "value": "8.8 KM²",
+   "countTo": 8.8,
+   "decimals": 1,
+   "suffix": " KM²",
+   "label": "inside the 5 psi ring",
+   "sub": "most ordinary buildings collapse or are badly damaged",
+   "color": "#FF3B3B",
+   "source": "Scenario engine"
+  },
+  {
+   "id": "c5-burns",
+   "type": "city",
+   "start": 35.666,
+   "end": 45.226,
+   "tag": "SIMULATION",
+   "clock": "T+03:00",
+   "clockLabel": "MINUTE THREE · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "kharkiv-farmland",
+   "view": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 9.6
+   },
+   "zoomTo": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 13.6
+   },
+   "gz": [
+    37.824,
+    49.517
+   ],
+   "rings": [
+    {
+     "km": 0.18,
+     "label": "Fireball",
+     "angle": 330,
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 0.34,
+     "label": "20 psi",
+     "angle": 150,
+     "color": "#FF7A1A",
+     "t": -30
+    },
+    {
+     "km": 1.67,
+     "label": "5 psi",
+     "angle": 60,
+     "color": "#FF3B3B",
+     "t": -30
+    },
+    {
+     "km": 1.91,
+     "label": "Third-degree burns",
+     "angle": 230,
+     "color": "#F2B01E",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      37.824,
+      49.5215
+     ],
+     "text": "Staging area (simulated)",
+     "color": "#FFFFFF"
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 180 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 340 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 1.67 km",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "Burns 1.9 km",
+     "color": "#F2B01E"
+    }
+   ],
+   "flashT": -30
+  },
+  {
+   "id": "c5-1psi",
+   "type": "city",
+   "start": 45.226,
+   "end": 53.9,
+   "tag": "SIMULATION",
+   "clock": "T+03:00",
+   "clockLabel": "MINUTE THREE · BURST",
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "city": "kharkiv-farmland",
+   "view": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 14.4
+   },
+   "zoomTo": {
+    "center": [
+     37.824,
+     49.517
+    ],
+    "widthKm": 17.6
+   },
+   "gz": [
+    37.824,
+    49.517
+   ],
+   "rings": [
+    {
+     "km": 0.18,
+     "label": "Fireball",
+     "angle": 330,
+     "color": "#FFFFFF",
+     "t": -30
+    },
+    {
+     "km": 0.34,
+     "label": "20 psi",
+     "angle": 150,
+     "color": "#FF7A1A",
+     "t": -30
+    },
+    {
+     "km": 1.67,
+     "label": "5 psi",
+     "angle": 60,
+     "color": "#FF3B3B",
+     "t": -30
+    },
+    {
+     "km": 1.91,
+     "label": "Third-degree burns",
+     "angle": 230,
+     "color": "#F2B01E",
+     "t": -30
+    },
+    {
+     "km": 4.52,
+     "label": "1 psi",
+     "angle": 20,
+     "color": "#3ED6C8",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      37.824,
+      49.5215
+     ],
+     "text": "Staging area (simulated)",
+     "color": "#FFFFFF"
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 180 m",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 340 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 1.67 km",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "Burns 1.9 km",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "1 psi 4.5 km",
+     "color": "#3ED6C8"
+    }
+   ],
+   "flashT": -30
+  }
+ ],
+ "shortTitle": [
+  "15 KILOTONS",
+  "RING BY RING"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}
