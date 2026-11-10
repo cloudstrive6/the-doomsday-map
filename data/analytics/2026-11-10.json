@@ -1,18 +1,18 @@
 {
  "date": "2026-11-10",
  "channel": {
-  "viewCount": "1883",
-  "subscriberCount": "3",
+  "viewCount": "1887",
+  "subscriberCount": "4",
   "hiddenSubscriberCount": false,
-  "videoCount": "9"
+  "videoCount": "11"
  },
  "videos": [
   {
    "video": "hK24hiHogvs",
-   "views": 1196,
-   "estimatedMinutesWatched": 560,
+   "views": 1200,
+   "estimatedMinutesWatched": 562,
    "averageViewDuration": 53,
-   "averageViewPercentage": 87.97,
+   "averageViewPercentage": 88.01,
    "subscribersGained": 1,
    "likes": 15,
    "comments": 2,
@@ -23,28 +23,28 @@
    "retention_curve": [
     [
      0.01,
-     1.643,
+     1.644,
      0.658
     ],
     [
      0.06,
-     1.523,
-     0.546
+     1.521,
+     0.547
     ],
     [
      0.11,
-     1.304,
-     0.541
+     1.303,
+     0.542
     ],
     [
      0.16,
      1.125,
-     0.538
+     0.539
     ],
     [
      0.21,
      1.024,
-     0.539
+     0.54
     ],
     [
      0.26,
@@ -53,188 +53,188 @@
     ],
     [
      0.31,
-     0.925,
-     0.559
+     0.926,
+     0.56
     ],
     [
      0.36,
      0.888,
-     0.577
+     0.578
     ],
     [
      0.41,
      0.841,
-     0.597
+     0.599
     ],
     [
      0.46,
-     0.815,
-     0.62
+     0.816,
+     0.622
     ],
     [
      0.51,
      0.791,
-     0.653
+     0.655
     ],
     [
      0.56,
      0.77,
-     0.712
+     0.714
     ],
     [
      0.61,
-     0.747,
-     0.787
+     0.748,
+     0.789
     ],
     [
      0.66,
-     0.729,
-     0.849
+     0.73,
+     0.85
     ],
     [
      0.71,
-     0.727,
-     0.892
+     0.728,
+     0.893
     ],
     [
      0.76,
-     0.716,
-     0.923
+     0.717,
+     0.924
     ],
     [
      0.81,
-     0.703,
+     0.704,
      0.937
     ],
     [
      0.86,
-     0.692,
+     0.693,
      0.94
     ],
     [
      0.91,
-     0.68,
-     0.936
+     0.681,
+     0.937
     ],
     [
      0.96,
-     0.666,
+     0.667,
      0.929
     ]
    ]
   },
   {
    "video": "Bw7RPbexCTA",
-   "views": 208,
-   "estimatedMinutesWatched": 53,
-   "averageViewDuration": 35,
-   "averageViewPercentage": 98.53,
+   "views": 266,
+   "estimatedMinutesWatched": 63,
+   "averageViewDuration": 32,
+   "averageViewPercentage": 91.05,
    "subscribersGained": 1,
-   "likes": 2,
+   "likes": 4,
    "comments": 0,
-   "shares": 0,
+   "shares": 1,
    "title": "Taiwan Has About 11 Days of Gas. Here's Why That Matters #shorts",
    "published": "2026-11-06T14:00:13Z",
    "lifetime_views": 266,
    "retention_curve": [
     [
      0.01,
-     1.744,
-     0.632
+     1.676,
+     0.63
     ],
     [
      0.06,
-     1.733,
-     0.531
+     1.649,
+     0.527
     ],
     [
      0.11,
-     1.593,
-     0.511
+     1.522,
+     0.507
     ],
     [
      0.16,
-     1.384,
-     0.509
+     1.288,
+     0.505
     ],
     [
      0.21,
-     1.221,
-     0.508
+     1.144,
+     0.504
     ],
     [
      0.26,
-     1.128,
-     0.508
+     1.045,
+     0.504
     ],
     [
      0.31,
-     1.023,
-     0.509
+     0.955,
+     0.505
     ],
     [
      0.36,
-     0.942,
-     0.512
+     0.865,
+     0.509
     ],
     [
      0.41,
-     0.919,
-     0.518
+     0.838,
+     0.515
     ],
     [
      0.46,
-     0.884,
-     0.53
+     0.802,
+     0.528
     ],
     [
      0.51,
-     0.849,
-     0.556
+     0.775,
+     0.554
     ],
     [
      0.56,
-     0.814,
-     0.611
+     0.739,
+     0.609
     ],
     [
      0.61,
-     0.802,
-     0.707
+     0.73,
+     0.708
     ],
     [
      0.66,
-     0.802,
-     0.816
+     0.73,
+     0.818
     ],
     [
      0.71,
-     0.791,
-     0.89
+     0.712,
+     0.892
     ],
     [
      0.76,
-     0.791,
-     0.929
+     0.721,
+     0.93
     ],
     [
      0.81,
-     0.779,
-     0.946
+     0.703,
+     0.947
     ],
     [
      0.86,
-     0.756,
+     0.685,
      0.95
     ],
     [
      0.91,
-     0.756,
+     0.676,
      0.95
     ],
     [
      0.96,
-     0.744,
+     0.667,
      0.951
     ]
    ]
@@ -357,7 +357,7 @@
   },
   {
    "video": "l8W1p2lfHCw",
-   "views": 95,
+   "views": 96,
    "estimatedMinutesWatched": 43,
    "averageViewDuration": 61,
    "averageViewPercentage": 114.62,
@@ -473,7 +473,7 @@
   },
   {
    "video": "9JvUOVsxthA",
-   "views": 78,
+   "views": 81,
    "estimatedMinutesWatched": 5,
    "averageViewDuration": 16,
    "averageViewPercentage": 40.37,
@@ -589,7 +589,7 @@
   },
   {
    "video": "fWvrsNHlIak",
-   "views": 45,
+   "views": 46,
    "estimatedMinutesWatched": 146,
    "averageViewDuration": 200,
    "averageViewPercentage": 26.72,
@@ -821,119 +821,133 @@
   },
   {
    "video": "asHo8qWpZDg",
-   "views": 30,
-   "estimatedMinutesWatched": 123,
-   "averageViewDuration": 284,
-   "averageViewPercentage": 42.12,
+   "views": 37,
+   "estimatedMinutesWatched": 139,
+   "averageViewDuration": 253,
+   "averageViewPercentage": 37.51,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "title": "China Blockades Taiwan... and the First Nuke Since 1945 Is Fired",
    "published": "2026-11-06T00:00:07Z",
-   "lifetime_views": 39,
+   "lifetime_views": 41,
    "retention_curve": [
     [
      0.01,
-     1,
-     0.358
+     0.97,
+     0.342
     ],
     [
      0.06,
-     0.885,
-     0.639
+     0.879,
+     0.564
     ],
     [
      0.11,
-     0.538,
-     0.452
+     0.515,
+     0.381
     ],
     [
      0.16,
-     0.538,
-     0.326
+     0.485,
+     0.253
     ],
     [
      0.21,
-     0.461,
-     0.317
+     0.394,
+     0.227
     ],
     [
      0.26,
-     0.461,
-     0.364
+     0.394,
+     0.274
     ],
     [
      0.31,
-     0.423,
-     0.473
+     0.333,
+     0.422
     ],
     [
      0.36,
-     0.461,
-     0.708
+     0.364,
+     0.732
     ],
     [
      0.41,
-     0.5,
-     0.742
+     0.424,
+     0.811
     ],
     [
      0.46,
-     0.385,
-     0.437
+     0.333,
+     0.492
     ],
     [
      0.51,
-     0.385,
-     0.42
+     0.333,
+     0.446
     ],
     [
      0.56,
-     0.385,
-     0.421
+     0.333,
+     0.429
     ],
     [
      0.61,
-     0.385,
-     0.4
+     0.333,
+     0.405
     ],
     [
      0.66,
-     0.385,
-     0.333
+     0.333,
+     0.347
     ],
     [
      0.71,
-     0.385,
-     0.215
+     0.333,
+     0.231
     ],
     [
      0.76,
-     0.385,
-     0.366
+     0.333,
+     0.382
     ],
     [
      0.81,
-     0.269,
-     0.172
+     0.273,
+     0.48
     ],
     [
      0.86,
-     0.231,
-     0.217
+     0.212,
+     0.291
     ],
     [
      0.91,
-     0.269,
-     0.324
+     0.242,
+     0.306
     ],
     [
      0.96,
-     0.269,
-     0.36
+     0.242,
+     0.265
     ]
    ]
+  },
+  {
+   "video": "up8u4934iUM",
+   "views": 1,
+   "estimatedMinutesWatched": 2,
+   "averageViewDuration": 158,
+   "averageViewPercentage": 21.7,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "North Korea Nukes Seattle: A 26 Minute Simulation",
+   "published": "2026-11-10T00:00:18Z",
+   "lifetime_views": 3
   }
  ],
  "errors": [],
@@ -946,28 +960,28 @@
   "rows": [
    [
     "SHORTS",
-    1670,
-    685
+    1730,
+    697
    ],
    [
     "RELATED_VIDEO",
-    62,
-    229
+    66,
+    235
    ],
    [
     "YT_SEARCH",
-    38,
-    6
+    43,
+    16
    ],
    [
     "YT_OTHER_PAGE",
-    32,
-    34
+    37,
+    35
    ],
    [
     "NO_LINK_OTHER",
-    3,
-    16
+    4,
+    19
    ],
    [
     "YT_CHANNEL",
