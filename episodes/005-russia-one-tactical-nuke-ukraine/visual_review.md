@@ -1,47 +1,33 @@
 FAIL
 
-Checked: build/validate.txt, the contact sheet and about 30 stills I rendered (the director's folder held only two), plus episode.json and shotlist.py.
+Round 2. Checked validate.txt ("ok", no `retention:` lines), the banner, the end slate and about 17 re-rendered stills: 3 s, 12 s, 20 s, 22 s, 28 s, 34 s, 37 s, 315 s, 380 s, 390 s, 430 s, 440 s, 448 s, 460 s, 470 s, 538 s and 675 s.
 
-Mechanical checks pass:
-- validate.txt is "ok", with no `retention:` lines.
-- The banner runs 26.57 to 29.57 s (3.0 s) over the moving `open-banner` region shot. It is readable and clear of the SIMULATION tag and the clock. No static disclaimer card exists.
-- Last word ends 673.72 s and durationSeconds is 683.72, so the end slate is exactly 10 s. The end-slate layout is as intended.
-- Corner tags are correct throughout. Clocks read "Day 1 · Kyiv time 09:20", "T+..." and "Day 4 to 7". The only calendar date is "NOV 2022", which is real history. No simulated calendar date is on screen. `scenario.computed.json` has `t0_utc` 2026-12-08, but it is not rendered, so keep it off screen.
+Resolved from round 1:
+- The target no longer sits among villages. At 470 s (f28200) the 4.52 km 1 psi ring contains no buildings, only roads and a stream. The open-field caption "No mapped building within 5 km of this point." is consistent with the map.
+- Village labels vs the claim: Lozova is 5.7 km from the target (scenario.json 49.517, 37.824), Berestove 5.8 km, Zahryzove 8.2, Kruhliakivka 7.6, Krokhmalne 9.4 and Tabaivka 9.5. All are outside 5 km and outside the 4.52 km ring, so they do not contradict the claim. Lozova and Berestove sit close to the line, so keep the caption wording "within 5 km" and do not tighten it.
+- The NATO frame (f32280) is now consistent: Ukraine teal, Russia yellow, NATO blue. It shows who is against whom.
+- Banner at 26.95 to 29.95 s (3.0 s) over the moving `open-banner` region shot. It is readable and clear of the SIMULATION tag and the clock.
+- End slate (f40500) keeps the intended half-empty layout with the "NEXT SCENARIO" box. Its line is "Iran tests a bomb, and Israel answers." with no date.
+- Ring frames (c5): the labels now have dark backings and are readable. The rings still cross some labels, which is minor (finding 3).
 
 Findings:
 
-1. BLOCKING, editorial and visual contradiction (shots `open-field`, `open-ground`, `c3-farm`, `c4-flash`, `c4-shock`, `c5-*`; scenario target). The close-up OSM map (`kharkiv-farmland`) shows farm-hamlet building clusters and a village road net.
-   - Frame f01200 at 20 s shows small building clusters upper right and bottom centre next to the "THAT FIELD" crosshair.
-   - Frame f28200 shows the 1 psi ring (4.52 km) covering them. Those clusters are about 2 to 3 km out, so inside the 1.9 km burn ring and the 5 psi ring only in places, and clearly inside the 1 psi ring.
-   - The script and captions say "open farmland", "No city", "no unit or person in it is real" and "eight point eight square kilometres of farmland". That does not hold when the rings are drawn over four real villages.
-   - A viewer who spots the buildings will read it as an inaccurate or evasive claim, and the villages are real places with real residents.
-   - I recommend moving the target. Edit `scenario.json` (the strike target) to a point with no mapped settlement within about 5 km, so the 4.52 km 1 psi ring is clear. Re-run `python -m studio scenario 005-russia-one-tactical-nuke-ukraine`, refetch `node scripts/fetch-city.mjs kharkiv-farmland <lon> <lat> <widthKm>`, and update `TGT` in shotlist.py.
-   - If no such site can be found, the fallback is to relabel. Change "open farmland" to "a sparsely settled farming area" in script.md, the captions and the target labels. Say that a few villages lie inside the outer 1 psi zone, and show them as an unlabelled "villages at the edge of the 1 psi zone" callout. Do not claim "no people". This weakens the "No city" line and needs a fact-screener recheck. Moving the target is the cleaner fix.
-   - Either way, the c5 captions that quote the 8.8 km² area should say what lies in it.
+1. BLOCKING. Text overlap in shot `open-field` (f01320, about 22 s). The village label "BERESTOVE" drifts into the top-right corner and prints on top of the "09:23" clock, giving "09:23" and "BERESTOVE" overlapped. The label sits outside the safe corner area. Fix in the `open-field` shot's `labels` in shotlist.py: drop the Berestove, Krokhmalne and Kruhliakivka labels, which are not needed. Or keep only Lozova and Tabaivka and make sure no label falls in the top-right clock block or the top-left tag block as the camera zooms from 40 km to 9 km. The zoom is on the shot's `zoomTo`, so check the label positions at the end of the zoom, not at the start.
 
-2. Ring labels are crossed by lines (c5 city frames, f28200 and f27000).
-   - The "5 PSI · 1.67 KM" text sits on top of the yellow burn ring.
-   - "THIRD-DEGREE BURNS · 1.91 KM" and "1 PSI · 4.52 KM" are cut by the road.
-   - "20 PSI · 0.34 KM" overlaps the red ring.
-   - "FIREBALL" runs into the fireball glow, and "STAGING AREA (SIMULATED)" touches the crosshair.
-   - Fix: give each ring label an offset at a distinct angle (outside its own ring, away from the road), or add a dark backing to the label text. In f27000 the 5 psi label is already fine, so this applies to the stacked-ring frames.
+2. Minor. In `c3-farm` (f18900, 315 s) the "LOZOVA" label sits under the caption box and is partly hidden. Remove the Lozova label from this shot or move the caption. The label has no purpose here.
 
-3. The 09:20 opening globe (f00180) has the label "BELGOROD REGION (LOCATION SIMULATED)" over a large red square marker with a white dot on top.
-   - The first letters sit on the marker and the text is red on olive. It is small and low-contrast on a phone.
-   - Fix: shrink the marker, offset the label right and up, and use a lighter fill or a dark backing.
+3. Minor. In the c5 ring frames (f26880, f27600, f28200) several labels still cross rings:
+   - "FIREBALL · 0.18 KM" sits on the 5 psi and burn rings.
+   - "20 PSI · 0.34 KM" sits on the burn ring.
+   - "STAGING AREA (SIMULATED)" is cut by the red ring.
+   - "THIRD-DEGREE BURNS · 1.91 KM" sits on the 1 psi ring.
+   They are readable thanks to the backings, so this is not blocking. If time allows, give each ring label an offset that places it outside its own ring.
 
-4. Colour inconsistency in the NATO frame (c6-nato, f32400).
-   - Ukraine is yellow ("UKRAINE: NOT A MEMBER") and Russia is not highlighted, while in the opening Ukraine is teal and Russia is yellow.
-   - In the NATO frame, teal means NATO and the yellow area is Ukraine, so the viewer cannot tell who is against whom.
-   - Fix: either keep yellow for Russia and use a neutral colour for Ukraine, or add a legend line such as "Teal: NATO. Yellow: not a member."
+4. Minor. In the opening globe (f00180) the "LAUNCH: BELGOROD REGION (SIMULATED)" label is small, pink on olive, and the first letter touches the marker. It is legible but weak on a phone. Offset the label or enlarge it slightly.
 
-5. Minor. In `open-field` (f01200, 17.8 to 23.6 s), the map is nearly empty and dark with only "THAT FIELD". It has some drift and a clock, so it is allowed under 4 s, but it is the weakest frame in the cold open. Consider a faint rail or road highlight, or cut it to under 4 s. Not blocking.
+5. Minor. `open-ground` (f02220, 37 s) is almost empty and dark: a crosshair, "NOBODY HAS BEEN TOLD", and a faint road and pond. It is inside the 4.3 s limit and it is deliberate, but it is the weakest frame of the cold open. Not blocking.
 
-6. Minor. The legend and footer text in the ring frames ("Effects: Glasstone and Dolan...") are very small and dim. They are fine as credits, but if the thermal and blast numbers are being read aloud, make the ring labels larger (about 28 px).
+To pass: fix finding 1 in shotlist.py, run `python -m studio shotlist 005-russia-one-tactical-nuke-ukraine`, re-render a still at 22 s, and confirm the clock is clear. The stage is not advanced: `visual_approved` was NOT recorded.
 
-Frames the director did not check that I viewed:
-- Country highlights (opening globe, NATO map): see findings 3 and 4. The Poland/Slovakia/Hungary highlight in the c3 "our choices" map (f34500) is readable and shows who is against whom.
-- Ships: the Iskander chevron and dashed path are visible in `open-banner`, `c4-m0` and `c4-m2`. The cargo ships in `c6-seas` are visible with their label, and the labels are inside the frame.
-- Chapter 05 rings: legible and correctly scaled, with the issues in finding 2.
-
-Re-review needed after the target is moved. No re-render is needed for items 2 to 6 if they are fixed in the same pass.
+## Round 3 (showrunner)
+Blocker (Berestove label over clock) fixed by dropping labels; stills 21-23 s checked, clock clear. PASS.

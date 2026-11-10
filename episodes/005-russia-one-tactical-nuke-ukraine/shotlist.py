@@ -122,7 +122,7 @@ add(id="open-field", type="city", start=S("p03"), end=tN, tag="SIMULATION", cloc
     view={"center": TGT, "widthKm": 40}, zoomTo={"center": TGT, "widthKm": 9}, gz=TGT, rings=[], caption="No mapped building within 5 km of this point.", source="OpenStreetMap",
     labels=[{"at": TGT, "text": "That field", "color": WHITE, "t": 0.6}, {"at": [37.80357, 49.46679], "text": "Lozova", "color": DIM, "t": 1.0},
             {"at": [37.87554, 49.59562], "text": "Tabaivka", "color": DIM, "t": 1.6}, {"at": [37.71276, 49.50396], "text": "Zahryzove", "color": DIM, "t": 2.2},
-            {"at": [37.894, 49.5425], "text": "Berestove", "color": DIM, "t": 2.8}, {"at": [37.7196, 49.5206], "text": "Kruhliakivka", "color": DIM, "t": 3.4}, {"at": [37.92, 49.57443], "text": "Krokhmalne", "color": DIM, "t": 4.0}])
+            {"at": [37.7196, 49.5206], "text": "Kruhliakivka", "color": DIM, "t": 3.4}])
 add(id="open-nagasaki", type="globe", start=tN, end=S("p04"), tag="REAL HISTORY", clock="1945", clockLabel="NAGASAKI", source="US DOE OSTI",
     camera=[{"t": 0, "lat": 31, "lon": 126, "scale": 1500}, {"t": S("p04") - tN, "lat": 32.7, "lon": 129.8, "scale": 3200}], sun={"lat": 10, "lon": 100}, highlight=[{"iso": JPN, "color": AMBER}],
     markers=[{"at": NAGASAKI, "label": "Nagasaki, 1945: the last time", "color": AMBER, "kind": "target", "t": 0.4}])
