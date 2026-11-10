@@ -79,6 +79,7 @@ def validate(ep: Path) -> list[str]:
         issues.append(f"music ends at {max(seg['to'] for seg in plan):.1f} s but the video runs to {total:.1f} s: "
                       "the last musicPlan segment must run to durationSeconds so the end slate is not quiet")
     issues += retention_issues(shot)
+    issues += pace_issues(shot)
     return issues
 
 
@@ -114,6 +115,50 @@ def retention_issues(shot: dict) -> list[str]:
     for s in under:
         if s["type"] not in MOVING:
             issues.append(f"retention: banner sits over {s['id']} ({s['type']}); put it over a moving globe, region or city shot")
+    return issues
+
+
+PACE_EARLY_END = 90.0             # pacing rule from the 2026-11-10 orchestrated pass: something new arrives on screen
+PACE_EARLY_GAP = 4.0              # at least every 4 s up to 90 s (the opening hold is measured at about 75 to 80 s)
+PACE_GAP = 6.0                    # and at least every 6 s after that
+_ITEM_TIMES = ("t", "t0")
+
+
+def arrivals(shot: dict) -> list[float]:
+    """Every moment something new appears: shot starts, and each timed item inside a shot (labels, cities, rings,
+    arcs, lines, ships, zones, markers, flashes, plumes, camera keys). Item times are relative to the shot start."""
+    out = []
+    for s in shot.get("shots", []):
+        st = s["start"]
+        out.append(st)
+        for k, v in s.items():
+            if isinstance(v, list):
+                for it in v:
+                    if isinstance(it, dict):
+                        for tk in _ITEM_TIMES:
+                            if isinstance(it.get(tk), (int, float)):
+                                out.append(st + it[tk]); break
+            elif isinstance(v, dict):
+                if isinstance(v.get("t0"), (int, float)):
+                    out.append(st + v["t0"])
+        if isinstance(s.get("flashT"), (int, float)):
+            out.append(st + s["flashT"])
+    return sorted(t for t in out if t >= 0)
+
+
+def pace_issues(shot: dict) -> list[str]:
+    """Gaps with nothing new on screen. Lines start with "pace:"; the end slate is exempt. Findings for the director
+    and the screeners (not a blocking QC fail)."""
+    shots = sorted(shot.get("shots", []), key=lambda s: s["start"])
+    slate = min((s["start"] for s in shots if s.get("type") == "endslate"), default=shot.get("durationSeconds", 0))
+    times = [t for t in arrivals(shot) if t < slate] + [slate]
+    issues = []
+    for a, b in zip(times, times[1:]):
+        limit = PACE_EARLY_GAP if a < PACE_EARLY_END else PACE_GAP
+        if b - a > limit + 0.3:   # small tolerance so a 4.1 s gap is not noise
+            sid = next((s["id"] for s in shots if s["start"] <= a + 1e-6 < s["end"]), "?")
+            issues.append(f"pace: nothing new on screen for {b - a:.1f} s from {a:.1f} s ({sid}); add an arrival "
+                          f"(label, ring, marker, camera key or cut) at least every {limit:.0f} s")
     return issues
 
 

@@ -5,7 +5,8 @@ human review: your gates are the only quality control before the render, so hold
 agent in the foreground (`run_in_background: false`) and wait for its result; parallel work means several foreground
 Agent calls in one message. Only end your turn when the episode is `packaged` (or deliberately aborted and notified).
 
-Read `CLAUDE.md` first. Work in the repository root. Commit after each major step:
+Read `CLAUDE.md` first, then `pipeline/craft.md` (the team line-up, the targets and the craft rules from the
+2026-11-10 orchestrated quality pass) and the newest `data/scorecard.md`. Work in the repository root. Commit after each major step:
 `git add -A episodes data video/public && git commit -m "<id>: <step>" || true` (the workflow pushes).
 
 ## 0. Pick up or start
@@ -49,7 +50,8 @@ Shorts windows (append to visual_review.md). Then run `python -m studio shotlist
 and `python -m studio stills <id>` is not needed again.
 
 ## 7. Done
-Append a dated summary to `episodes/<id>/decisions.md` (rounds per gate, risks). `python -m studio stage <id> packaged`.
+Append a dated summary to `episodes/<id>/decisions.md` (rounds per gate, risks, the number of `pace:` lines left, the
+thumbnail checklist score of A, the top three titles with their lint scores, and which craft rules were hard to meet). `python -m studio stage <id> packaged`.
 Write the id to `.current_episode`. Notify: `python -m studio notify "The Doomsday Map: <title> packaged, rendering now."`
 
 ## Rules

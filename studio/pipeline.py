@@ -146,6 +146,21 @@ def _detect(video: Path) -> dict:
     return {"freezes": freezes, "blacks": blacks}
 
 
+def near_still(video: Path) -> dict:
+    """Stretches that look frozen to a viewer though pixels still drift (QC's freeze check misses them): a looser
+    freezedetect on a small 10 fps copy. A warning for the screeners (005 measured about 30% of its runtime)."""
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(video), "-vf",
+                        "fps=10,scale=320:-2,freezedetect=n=-45dB:d=2", "-an", "-f", "null", "-"],
+                       capture_output=True, text=True).stderr
+    st = [(float(a), float(b)) for a, b in zip(re.findall(r"freeze_start: ([0-9.]+)", r),
+                                                re.findall(r"freeze_duration: ([0-9.]+)", r))]
+    dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(video)],
+                               capture_output=True, text=True).stdout.strip() or 0) or 1.0
+    total = sum(d for _, d in st)
+    return {"seconds": round(total, 1), "share": round(total / dur, 3),
+            "over_4s": [[round(a, 1), round(d, 1)] for a, d in st if d >= 4]}
+
+
 def finish(ep: Path) -> dict:
     """build/video_silent.mp4 (from the render job) -> build/final.mp4, then QC -> build/qc.json."""
     from .build import qc as basic_qc
@@ -181,7 +196,12 @@ def finish(ep: Path) -> dict:
     # shot-list checks (end slate length, music to the end, retention rules): findings for the final screener, not blocking
     from .build import validate
     checks = validate(ep) if ej.exists() else []
-    report = {"ok": not issues, "issues": issues, "shotlist_checks": checks, "loudness": loud, "at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}
+    try:
+        still = near_still(b / "final.mp4")
+    except Exception as e:  # a warning metric must never break the finish step
+        still = {"error": str(e)}
+    report = {"ok": not issues, "issues": issues, "shotlist_checks": checks, "near_still": still, "loudness": loud,
+              "at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}
     (b / "qc.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
     (ep / "qc.json").write_text(json.dumps(report, indent=2), encoding="utf-8")  # tracked copy for the record
     print("QC:", "ok" if report["ok"] else issues)
@@ -205,8 +225,42 @@ def frames_for_review(ep: Path, n: int = 16) -> Path:
                                        str(sh)], capture_output=True, text=True).stdout.strip() or 0)
             subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{sd * frac:.2f}", "-i", str(sh), "-frames:v", "1",
                             "-vf", "scale=360:640", str(out / f"{sh.stem}_{k}.png")], check=True)
+    try:
+        shot_sheets(ep, out)
+    except Exception as e:  # the sheets help the screener; their absence must not stop the run
+        print("shot sheets failed:", e)
     print(out)
     return out
+
+
+def shot_sheets(ep: Path, out: Path) -> None:
+    """One frame per shot (0.3 s after its last arrival, so labels and rings are on screen), as numbered 4x3 contact
+    sheets `sheet_NN.png` plus `shots.txt` mapping each tile to its shot id and time, for the scored final review."""
+    from .build import arrivals
+    ej = ep / "episode.json"
+    if not ej.exists():
+        return
+    shots = sorted(json.loads(ej.read_text(encoding="utf-8"))["shots"], key=lambda s: s["start"])
+    tiles = out / "shots"
+    tiles.mkdir(parents=True, exist_ok=True)
+    lines = []
+    for i, s in enumerate(shots):
+        last = max([t for t in arrivals({"shots": [s]}) if t < s["end"]] or [s["start"]])
+        t = min(last + 0.3, s["end"] - 0.2) if s["end"] - s["start"] > 0.6 else (s["start"] + s["end"]) / 2
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{t:.2f}", "-i", str(ep / "build" / "final.mp4"),
+                        "-frames:v", "1", "-vf", "scale=480:270", str(tiles / f"{i:03d}.png")], check=True)
+        lines.append(f"tile {i:03d} | sheet {i // 12:02d} position {i % 12 + 1} | {s['id']} | {s['type']} | "
+                     f"{s['start']:.1f} to {s['end']:.1f} s | frame at {t:.1f} s")
+    (out / "shots.txt").write_text("".join(f"{x}\n" for x in lines), encoding="utf-8")
+    frames = sorted(tiles.glob("*.png"))
+    for k in range(0, len(frames), 12):
+        group = frames[k:k + 12]
+        ins = sum((["-i", str(f)] for f in group), [])
+        lay = "|".join(f"{(i % 4) * 480}_{(i // 4) * 270}" for i in range(len(group)))
+        fc = ("".join(f"[{i}:v]" for i in range(len(group))) + f"xstack=inputs={len(group)}:layout={lay}:fill=black[o]"
+              if len(group) > 1 else "[0:v]null[o]")
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *ins, "-filter_complex", fc, "-map", "[o]",
+                        str(out / f"sheet_{k // 12:02d}.png")], check=True)
 
 
 def gate(ep: Path) -> bool:

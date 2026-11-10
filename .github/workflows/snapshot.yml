@@ -34,9 +34,11 @@ jobs:
       - run: python -m studio competitors
       - run: python -m studio analytics --days 28
         continue-on-error: true   # a brand-new channel has little analytics yet
+      - run: python -m studio scorecard   # 7 and 28 day results per episode against the targets (data/scorecard.md)
+        continue-on-error: true
       - name: Save
         run: |
           git config user.name "doomsday-map-bot"
           git config user.email "${{ github.repository_owner_id }}+${{ github.repository_owner }}@users.noreply.github.com"
-          for d in data/competitors data/analytics data/reach; do [ -e "$d" ] && git add -A "$d"; done
+          for d in data/competitors data/analytics data/reach data/scorecard.md data/scorecard.json; do [ -e "$d" ] && git add -A "$d"; done
           (git commit -m "daily snapshot" || true) && git pull --rebase -X theirs && git push

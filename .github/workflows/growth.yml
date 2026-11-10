@@ -48,6 +48,8 @@ jobs:
         continue-on-error: true
       - run: python -m studio competitors
         continue-on-error: true
+      - run: python -m studio scorecard
+        continue-on-error: true
       - name: Growth analyst
         run: bash pipeline/claude_run.sh claude_growth.jsonl 150 "$(cat pipeline/prompts/weekly_growth.md)"
       - name: Save

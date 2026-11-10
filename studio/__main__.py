@@ -1,6 +1,6 @@
 """Studio CLI:  python -m studio <command> ...
 
-Commands: new <slug> | status | scenario <ep> | narrate <ep> | build <ep> | upload <ep> [--dry-run] | auth | competitors | analytics
+Commands: new <slug> | status | scenario <ep> | narrate <ep> | build <ep> | upload <ep> [--dry-run] | auth | competitors | analytics | scorecard
 """
 from __future__ import annotations
 
@@ -83,6 +83,14 @@ def cmd_competitors(a):
 def cmd_analytics(a):
     from .youtube import pull_analytics
     print(pull_analytics(a.days))
+
+
+def cmd_scorecard(a):
+    from .scorecard import build
+    o = build()
+    for k, v in o["verdicts"].items():
+        print(k, v["label"], "median", v["median"], "n", v["n"], "met", v["met"])
+    print("subscribers", o["subscribers"], "-> data/scorecard.md")
 
 
 def cmd_stage(a):
@@ -202,6 +210,7 @@ def main(argv=None):
     s = sub.add_parser("social"); s.add_argument("action", choices=["release", "publish-due"]); s.add_argument("episode", nargs="?"); s.add_argument("--dry-run", action="store_true"); s.set_defaults(fn=cmd_social)
     s = sub.add_parser("competitors"); s.set_defaults(fn=cmd_competitors)
     s = sub.add_parser("analytics"); s.add_argument("--days", type=int, default=28); s.set_defaults(fn=cmd_analytics)
+    s = sub.add_parser("scorecard"); s.set_defaults(fn=cmd_scorecard)
     a = p.parse_args(argv)
     a.fn(a)
 

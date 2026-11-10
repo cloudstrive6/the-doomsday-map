@@ -3,7 +3,9 @@
 YouTube channel @TheDoomsdayMap: minute-by-minute what-if simulations of nuclear war and great-power conflict on real
 maps. Daily long video (11 to 14 min, 1080p60) plus three vertical Shorts cut from it. Everything here runs unattended
 in GitHub Actions; there is no human approval step (owner's decision, 2026-11-05). Quality is gated by the screener
-agents and the automated QC in this repo. Read this file fully before working.
+agents and the automated QC in this repo. Read this file fully before working, then `pipeline/craft.md` (the shared
+craft guide from the 2026-11-10 orchestrated quality pass, with the targets every episode is measured against and the
+skills in `.claude/skills/` each agent uses).
 
 ## Editorial rules (hard)
 
@@ -18,13 +20,15 @@ agents and the automated QC in this repo. Read this file fully before working.
 - Blast, burn and fallout numbers come only from the scenario engine (`python -m studio scenario`), never typed by hand.
 - No real casualty footage, no gore, no AI likeness of a real person, no named living individuals as victims.
   No death toll for a simulated strike unless a published study supplies it (cite the study, not us).
-- Say "simulation" and "it has not happened" in the cold open, as ONE short spoken sentence (not a paragraph), and
-  never over a static card. On screen, the episode `banner` ("SIMULATION · NOT REAL EVENTS", 2.5 to 3.5 s over moving
-  footage) and the SIMULATION corner tag carry it. Never present a scenario as a prediction. Do not set a simulated
+- Say "simulation" and "it has not happened" in the cold open, as ONE short spoken sentence (not a paragraph), spoken
+  by about 10 s, and never over a static card. On screen, the episode `banner` ("SIMULATION · NOT REAL EVENTS", 2.5 to
+  3.5 s over moving footage, covering the first nuclear image when the episode opens on its payoff) and the SIMULATION
+  corner tag carry it. Never present a scenario as a prediction. Do not set a simulated
   crisis on a real upcoming date.
 - Writing: no em-dashes anywhere (use commas, colons or "to"); absolute dates in files; spoken numbers written out in
   script.md ("twenty twenty-six", "eleven days").
-- Titles may follow competitor patterns but never copy a competitor title or tag line exactly.
+- Titles may follow competitor patterns but never copy a competitor title or tag line exactly. A title about a real,
+  ongoing conflict is framed as a hypothetical ("What If ...", "simulated"), never as a news statement.
 
 ## Episode layout (`episodes/<NNN>-<slug>/`)
 
@@ -75,11 +79,14 @@ Rules learned on 001 and 002:
 - Cut on paragraph starts (`S("p12")`) or on a spoken word (`W("p34", "detonates")`), never mid-word.
 - Every shot moves (automatic drift exists for single-key cameras; avoid near-empty frames: the QC fails any still
   stretch over 4 s). Cards over ~14 s get split at a sentence.
-- The opening minute (from 004, 2026-11-09; 001 and 002 lost half their viewers there on a static disclaimer card):
-  no disclaimer card; no text, stamp, number or chapter card longer than 4 s in the first 60 s; something new moves
-  every 3 to 5 s. Set the episode-level `banner` (`{"start", "end"}`, 2.5 to 3.5 s, optional `text` and `line`) over a
-  moving globe, region or city shot while the disclaimer sentence is spoken. `python -m studio shotlist` prints
-  `retention:` lines for any breach and writes them to `build/validate.txt`.
+- The opening (from 004, 2026-11-09, tightened 2026-11-10; 001 and 002 lost half their viewers on a static disclaimer
+  card, and 005 lost viewers to a 13 s single shot and an 11.5 s number card ending right at the 11% point): open on
+  the payoff (the flash on the real target inside 8 s); no disclaimer card; up to 90 s something new arrives at least
+  every 4 s, no card runs over 4 s and no shot over 8 s; after 90 s something new at least every 6 s. Set the
+  episode-level `banner` (`{"start", "end"}`, 2.5 to 3.5 s, optional `text` and `line`) over a moving globe, region or
+  city shot, covering the first nuclear image and the spoken disclaimer. `python -m studio shotlist` prints
+  `retention:` lines (blocking for the screeners) and `pace:` lines (warnings until the multi-key camera exists) and
+  writes them to `build/validate.txt`.
 - Region views: `widthKm` is the horizontal width; a 16:9 frame shows 0.56 x that vertically. Taiwan-sized subjects
   need about 1,300 km. Keep important labels away from the right edge.
 - Chapter cards overlap the first sentence of their chapter (3.5 to 4 s). The end slate starts on the spoken
@@ -101,7 +108,9 @@ long video at 09:00, 14:00 and 19:00 New York, each description linking the long
 
 Loudness -14 LUFS (plus or minus 1) and true peak at or below -1.5 dBTP; no frozen stretch over 4 s; no black stretch
 over 1 s outside chapter dips; 1920x1080 at 60 fps; subtitles never start before their first word. The final screener
-looks at frames from the finished video and must PASS. `qc.json` also lists `shotlist_checks` (end slate length, music
+looks at one frame per shot from the finished video, scores the rubric in `pipeline/prompts/review_final.md` with
+quoted evidence, and must PASS (any P0 is a FAIL). `qc.json` also reports the near-still share of the runtime as a
+warning (005 measured about 30%). `qc.json` also lists `shotlist_checks` (end slate length, music
 to the end, `retention:` lines) for the screeners.
 
 ## Never

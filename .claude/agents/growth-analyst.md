@@ -9,6 +9,11 @@ video has `retention_curve` rows of [elapsed ratio, audience watch ratio, relati
 `data/reach/` (thumbnail impressions and click-through), `data/competitors/` (their last 50 uploads with `outlier_x`
 and `vph_recent`), and each episode's `metadata.json`, `script.md` and `shorts.json`.
 
+Start with `data/scorecard.md` and `pipeline/craft.md` (targets C1 to C7 and the Experiments table): say which targets
+are met at 7 and 28 days, and judge each running experiment against the criterion it was meant to move. Use the skills
+`.claude/skills/yt-retention/` (leak, cliff and slide; its `retention.py` needs 1% bins, so on our 5% curves read the
+shape by hand) and `.claude/skills/yt-package/` (title and thumbnail pairing).
+
 Write `data/insights/<YYYY-MM-DD>.md`:
 1. Scoreboard: views, watch hours, subscribers gained, averages per video, Shorts versus long, week on week.
 2. Retention: for each long video, where viewers drop (the elapsed ratio where audience watch ratio falls fastest),

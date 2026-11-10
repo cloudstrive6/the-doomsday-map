@@ -76,7 +76,8 @@ def generate(ep: Path, force: bool = False) -> list[str]:
         prompt = th.get("image_prompt")
         if not prompt:
             continue
-        rel = f"thumbs/{ep.name[:3]}-{th['id']}.jpg"
+        # a variant keeps its own image file: the thumbnail-reviewer may swap ids so the best variant is "a"
+        rel = th.get("image") if str(th.get("image", "")).startswith("thumbs/") else f"thumbs/{ep.name[:3]}-{th['id']}.jpg"
         out = ROOT / "video" / "public" / rel
         if force or not out.exists():
             image(prompt, out, side="right" if th.get("align") == "right" else "left")
