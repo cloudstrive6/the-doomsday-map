@@ -1,7 +1,8 @@
-FAIL
+PASS
 
-1. QC is blocking and failed: `frozen 4.3s at 370.6s`. This exceeds the 4 s limit and is not a chapter dip or the end slate. The review frame at 363 s (SIMULATION, T+02:00, Iskander-M descending toward the staging area) shows an almost empty dark map with one dashed line, which fits a near-static stretch. Fix the shot at about 366 to 375 s in shotlist.py: add camera movement, a split at a sentence, or more content, then re-render.
-2. Visual polish on the same frame: the "STAGING AREA" label is clipped at the right edge ("STAGING AREA (") and overlaps the scale bar. Move the label inward.
-3. Passed checks: loudness -14.0 LUFS and true peak -1.7 dBTP are within limits. `shotlist_checks` is empty, so there is no missing-banner or retention finding.
-4. metadata.json: the simulation disclaimer is present, the title and description match the video, and there are no em-dashes. The `{{CHAPTERS}}` placeholder is intended and filled at packaging.
-5. Only the 363 s frame was inspected in detail. The other review frames, the Shorts frames and the thumbnail were not examined, because the QC failure already blocks the episode.
+1. qc.json is clean: ok true, no issues, shotlist_checks empty (banner present, no retention breaches). Loudness -14.0 LUFS, true peak -1.7 dBTP.
+2. Long video frames: corner tags are correct (SIMULATION, REAL DATA, REAL HISTORY). Maps show the right places (Kharkiv field, Europe, Ukraine). Burst rings and labels are readable. No empty or broken frames. The frame at 64 s is a dark fade-in of the "1,000 TO 2,000" number card, which looks like an ordinary transition.
+3. Polish, long video: at 364 s the "STAGING AREA (SIMULATED)" label runs off the right edge and overlaps the 10 km scale bar. Keep labels away from the right edge.
+4. Polish, Shorts: in Short 1 the "STAGING" label is clipped at the right edge. In Short 3 the quote line "NO SUCH THING AS EASILY USING A TACTICAL NUCLEAR WEAP..." is cut off at the right edge. Subtitles are present and inside the safe area. Title bands are fine.
+5. Thumbnail: "15 KILOTONS OVER A FIELD / AND THE WAR GOES ON" is large and readable at small size, with a clear mushroom cloud. No real person is shown.
+6. metadata.json: the title matches the video. The description has the "This is a simulation. It has not happened." disclaimer, states that the choices are ours and that no death toll is given, and has the {{CHAPTERS}} placeholder, sources and AI disclosure. No em-dashes. synthetic_media is true.
