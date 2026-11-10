@@ -3,10 +3,10 @@
  "fps": 60,
  "width": 1920,
  "height": 1080,
- "durationSeconds": 683.84,
+ "durationSeconds": 686.22,
  "banner": {
-  "start": 26.95,
-  "end": 29.95
+  "start": 27.43,
+  "end": 30.43
  },
  "musicPlan": [
   {
@@ -32,7 +32,7 @@
   {
    "src": "bed_tense.mp3",
    "from": 278.952,
-   "to": 683.84,
+   "to": 686.22,
    "loop": [
     3,
     92
@@ -83,7 +83,7 @@
   },
   {
    "src": "boom.mp3",
-   "t": 375.33000000000004,
+   "t": 374.69,
    "gain_db": -4
   }
  ],
@@ -278,7 +278,7 @@
    "id": "open-field",
    "type": "city",
    "start": 18.225,
-   "end": 24.03,
+   "end": 24.707,
    "tag": "SIMULATION",
    "clock": "09:23",
    "clockLabel": "IN THREE MINUTES",
@@ -355,7 +355,7 @@
   {
    "id": "open-nagasaki",
    "type": "globe",
-   "start": 24.03,
+   "start": 24.707,
    "end": 26.553,
    "tag": "REAL HISTORY",
    "clock": "1945",
@@ -369,7 +369,7 @@
      "scale": 1500
     },
     {
-     "t": 2.5229999999999997,
+     "t": 1.846,
      "lat": 32.7,
      "lon": 129.8,
      "scale": 3200
@@ -498,7 +498,7 @@
    "id": "open-arc",
    "type": "globe",
    "start": 32.193,
-   "end": 35.214,
+   "end": 35.298,
    "tag": "SIMULATION",
    "clock": "T+01:45",
    "clockLabel": "SINCE LAUNCH",
@@ -511,7 +511,7 @@
      "scale": 1000
     },
     {
-     "t": 3.021000000000001,
+     "t": 3.105000000000004,
      "lat": 49.9,
      "lon": 37,
      "scale": 2600
@@ -566,7 +566,7 @@
   {
    "id": "open-ground",
    "type": "city",
-   "start": 35.214,
+   "start": 35.298,
    "end": 39.504,
    "tag": "SIMULATION",
    "clock": "T+02:00",
@@ -664,7 +664,7 @@
      "label": "Land-based missiles",
      "color": "#F2B01E",
      "kind": "dot",
-     "t": 8.631000000000004
+     "t": 9.053000000000008
     },
     {
      "at": [
@@ -674,7 +674,7 @@
      "label": "Submarines",
      "color": "#F2B01E",
      "kind": "dot",
-     "t": 9.304000000000002
+     "t": 9.789000000000009
     },
     {
      "at": [
@@ -684,7 +684,7 @@
      "label": "Bombers",
      "color": "#F2B01E",
      "kind": "dot",
-     "t": 10.386000000000003
+     "t": 10.824000000000005
     },
     {
      "at": [
@@ -701,7 +701,7 @@
    "id": "c1-ns",
    "type": "globe",
    "start": 58.696,
-   "end": 62.665,
+   "end": 64.163,
    "tag": "REAL DATA",
    "caption": "Separate from those: the ones this episode is about.",
    "source": "Federation of American Scientists",
@@ -713,7 +713,7 @@
      "scale": 650
     },
     {
-     "t": 3.969000000000001,
+     "t": 5.466999999999999,
      "lat": 52,
      "lon": 38,
      "scale": 1100
@@ -746,7 +746,7 @@
   {
    "id": "c1-tactical",
    "type": "number",
-   "start": 62.665,
+   "start": 64.163,
    "end": 75.648,
    "tag": "REAL DATA",
    "value": "1,000 TO 2,000",
@@ -820,7 +820,7 @@
      ],
      "label": "Kharkiv",
      "kind": "dot",
-     "t": 15.888999999999996
+     "t": 16.628
     },
     {
      "at": [
@@ -841,7 +841,7 @@
      "km": 400,
      "color": "#F2B01E",
      "label": "400 km",
-     "t": 5.869
+     "t": 6.489000000000004
     },
     {
      "at": [
@@ -851,7 +851,7 @@
      "km": 500,
      "color": "#FF3B3B",
      "label": "500 km",
-     "t": 6.588999999999999
+     "t": 7.706000000000003
     }
    ]
   },
@@ -975,7 +975,7 @@
      "label": "Hiroshima · about 15 kt",
      "color": "#F2B01E",
      "kind": "target",
-     "t": -0.13900000000001
+     "t": 1.7099999999999937
     },
     {
      "at": [
@@ -985,7 +985,7 @@
      "label": "Nagasaki · about 21 kt",
      "color": "#FF3B3B",
      "kind": "target",
-     "t": 5.478999999999999
+     "t": 5.878
     }
    ]
   },
@@ -1051,7 +1051,7 @@
    "id": "c2-putin",
    "type": "region",
    "start": 141.416,
-   "end": 150.523,
+   "end": 149.452,
    "tag": "REAL HISTORY",
    "clock": "SEPT 2022",
    "clockLabel": "PUTIN",
@@ -1108,8 +1108,8 @@
   {
    "id": "c2-armageddon",
    "type": "globe",
-   "start": 150.523,
-   "end": 157.951,
+   "start": 149.452,
+   "end": 156.758,
    "tag": "REAL HISTORY",
    "clock": "OCT 2022",
    "clockLabel": "BIDEN",
@@ -1170,7 +1170,7 @@
   {
    "id": "c2-whitehouse",
    "type": "region",
-   "start": 157.951,
+   "start": 156.758,
    "end": 169.441,
    "tag": "REAL HISTORY",
    "clock": "OCT 2022",
@@ -1200,7 +1200,7 @@
      "color": "#3ED6C8",
      "kind": "base",
      "size": 6,
-     "t": 6.161000000000001
+     "t": 7.489999999999981
     }
    ],
    "labels": [
@@ -1219,7 +1219,7 @@
    "id": "c2-phone",
    "type": "globe",
    "start": 169.441,
-   "end": 177.662,
+   "end": 176.754,
    "tag": "REAL HISTORY",
    "clock": "OCT 2022",
    "clockLabel": "DEFENCE CHIEFS",
@@ -1233,7 +1233,7 @@
      "scale": 650
     },
     {
-     "t": 8.221000000000004,
+     "t": 7.312999999999988,
      "lat": 48,
      "lon": 0,
      "scale": 800
@@ -1297,8 +1297,8 @@
   {
    "id": "c2-reports",
    "type": "region",
-   "start": 177.662,
-   "end": 187.796,
+   "start": 176.754,
+   "end": 186.352,
    "tag": "REAL HISTORY",
    "clock": "NOV 2022",
    "clockLabel": "NEWS REPORTS",
@@ -1355,7 +1355,7 @@
   {
    "id": "c2-ankara",
    "type": "region",
-   "start": 187.796,
+   "start": 186.352,
    "end": 195.129,
    "tag": "REAL HISTORY",
    "clock": "NOV 2022",
@@ -1474,7 +1474,7 @@
    "id": "c2-belarus",
    "type": "region",
    "start": 217.905,
-   "end": 231.647,
+   "end": 233.366,
    "tag": "REAL HISTORY",
    "clock": "2026",
    "clockLabel": "NUCLEAR DRILLS",
@@ -1533,8 +1533,8 @@
   {
    "id": "c2-medvedev",
    "type": "globe",
-   "start": 231.647,
-   "end": 246.74,
+   "start": 233.366,
+   "end": 247.227,
    "tag": "REAL HISTORY",
    "clock": "FEB 2026",
    "clockLabel": "MEDVEDEV",
@@ -1548,7 +1548,7 @@
      "scale": 900
     },
     {
-     "t": 15.093000000000018,
+     "t": 13.86099999999999,
      "lat": 50,
      "lon": 8,
      "scale": 1500
@@ -1614,7 +1614,7 @@
   {
    "id": "c2-oreshnik",
    "type": "region",
-   "start": 246.74,
+   "start": 247.227,
    "end": 255.242,
    "tag": "REAL HISTORY",
    "clock": "2026",
@@ -1841,7 +1841,7 @@
    "id": "c3-sector",
    "type": "region",
    "start": 285.313,
-   "end": 296.853,
+   "end": 296.076,
    "tag": "SIMULATION",
    "clock": "BEFORE DAY 1",
    "clockLabel": "OUR ASSUMPTION",
@@ -1918,7 +1918,7 @@
   {
    "id": "c3-choose",
    "type": "text",
-   "start": 296.853,
+   "start": 296.076,
    "end": 304.113,
    "tag": "SIMULATION",
    "lines": [
@@ -1941,7 +1941,7 @@
    "id": "c3-farm",
    "type": "city",
    "start": 310.705,
-   "end": 318.268,
+   "end": 317.717,
    "tag": "SIMULATION",
    "caption": "An invented staging area in open farmland, eastern Kharkiv region.",
    "source": "Scenario assumption; OpenStreetMap",
@@ -1998,7 +1998,7 @@
   {
    "id": "c3-zap",
    "type": "region",
-   "start": 318.268,
+   "start": 317.717,
    "end": 326.93,
    "tag": "SIMULATION",
    "caption": "No city. Not near the Zaporizhzhia plant. The location is simulated.",
@@ -2083,7 +2083,7 @@
    "id": "c3-15kt",
    "type": "number",
    "start": 326.93,
-   "end": 333.607,
+   "end": 332.847,
    "tag": "SIMULATION",
    "value": "NO PUBLISHED YIELD",
    "label": "for Russian tactical warheads",
@@ -2094,7 +2094,7 @@
   {
    "id": "c3-hiro",
    "type": "bars",
-   "start": 333.607,
+   "start": 332.847,
    "end": 338.384,
    "tag": "SIMULATION",
    "title": "We assume 15 kilotons, the same as Hiroshima",
@@ -2250,7 +2250,7 @@
    "id": "c4-m2",
    "type": "region",
    "start": 361.593,
-   "end": 375.23,
+   "end": 374.59,
    "tag": "SIMULATION",
    "clock": "T+02:00",
    "clockLabel": "MINUTE TWO",
@@ -2318,7 +2318,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 13.64,
+     "t1": 13.0,
      "kind": "pla",
      "color": "#FF3B3B",
      "label": "Iskander-M",
@@ -2330,8 +2330,8 @@
   {
    "id": "c4-flash",
    "type": "city",
-   "start": 375.23,
-   "end": 387.102,
+   "start": 374.59,
+   "end": 385.614,
    "tag": "SIMULATION",
    "clock": "T+03:00",
    "clockLabel": "MINUTE THREE · BURST",
@@ -2381,7 +2381,7 @@
   {
    "id": "c4-shock",
    "type": "city",
-   "start": 387.102,
+   "start": 385.614,
    "end": 393.634,
    "tag": "SIMULATION",
    "clock": "T+03:00",
@@ -2627,7 +2627,7 @@
      ],
      "text": "Russia's defence ministry: nothing, or something else",
      "color": "#F2B01E",
-     "t": 8.158999999999992
+     "t": 7.852000000000032
     }
    ]
   },
@@ -2765,7 +2765,7 @@
    "id": "c5-5psi",
    "type": "city",
    "start": 443.777,
-   "end": 452.972,
+   "end": 452.285,
    "tag": "SIMULATION",
    "clock": "T+03:00",
    "clockLabel": "MINUTE THREE · BURST",
@@ -2841,7 +2841,7 @@
   {
    "id": "c5-area",
    "type": "number",
-   "start": 452.972,
+   "start": 452.285,
    "end": 456.866,
    "tag": "SIMULATION",
    "value": "8.8 KM²",
@@ -3112,8 +3112,8 @@
     "bearing": 90,
     "lengthKm": 40,
     "widthKm": 6,
-    "t0": 7.33299999999997,
-    "t1": 12.33299999999997,
+    "t0": 8.02600000000001,
+    "t1": 13.02600000000001,
     "color": "#F2B01E",
     "label": "thin cloud drifts east (our wind choice)"
    },
@@ -3125,7 +3125,7 @@
      ],
      "text": "toward the Russian-held side",
      "color": "#F2B01E",
-     "t": 11.411999999999978
+     "t": 12.995000000000005
     }
    ]
   },
@@ -3272,7 +3272,7 @@
      "label": "NATO",
      "color": "#3ED6C8",
      "kind": "dot",
-     "t": 5.54099999999994
+     "t": 5.975999999999999
     },
     {
      "at": [
@@ -3282,7 +3282,7 @@
      "label": "Washington, 2022: \"decisive\" consequences",
      "color": "#3ED6C8",
      "kind": "dot",
-     "t": 8.480000000000018
+     "t": 7.780999999999949
     },
     {
      "at": [
@@ -3292,7 +3292,7 @@
      "label": "Moscow",
      "color": "#F2B01E",
      "kind": "dot",
-     "t": 9.900999999999954
+     "t": 10.03699999999992
     }
    ],
    "arcs": [
@@ -3305,8 +3305,8 @@
       37.62,
       55.75
      ],
-     "t0": 8.480000000000018,
-     "t1": 13.480000000000018,
+     "t0": 7.780999999999949,
+     "t1": 12.780999999999949,
      "color": "#3ED6C8",
      "loft": 0.15
     }
@@ -3633,7 +3633,7 @@
    "id": "c6-answer",
    "type": "region",
    "start": 568.715,
-   "end": 585.871,
+   "end": 586.646,
    "tag": "SIMULATION",
    "clock": "DAY 2 TO 3",
    "clockLabel": "OUR CHOICES",
@@ -3728,7 +3728,7 @@
      ],
      "text": "A conventional response is one option",
      "color": "#FFFFFF",
-     "t": 3.855000000000018
+     "t": 4.169999999999959
     },
     {
      "at": [
@@ -3737,14 +3737,14 @@
      ],
      "text": "2022: a retired US general, not for his government",
      "color": "rgba(236,239,242,0.95)",
-     "t": 9.440999999999917
+     "t": 9.173999999999978
     }
    ]
   },
   {
    "id": "c6-isolate",
    "type": "globe",
-   "start": 585.871,
+   "start": 586.646,
    "end": 597.803,
    "tag": "SIMULATION",
    "clock": "DAY 2 TO 3",
@@ -3764,7 +3764,7 @@
      "scale": 650
     },
     {
-     "t": 11.932000000000016,
+     "t": 11.157000000000039,
      "lat": 52,
      "lon": 50,
      "scale": 700
@@ -3808,7 +3808,7 @@
      "label": "China",
      "color": "#F2B01E",
      "kind": "dot",
-     "t": 3.0410000000000537
+     "t": 2.5020000000000664
     },
     {
      "at": [
@@ -3818,7 +3818,7 @@
      "label": "India",
      "color": "#F2B01E",
      "kind": "dot",
-     "t": 3.5790000000000646
+     "t": 3.3360000000000127
     },
     {
      "at": [
@@ -3828,7 +3828,7 @@
      "label": "Russia: no second weapon, for now",
      "color": "#FF3B3B",
      "kind": "dot",
-     "t": 7.580000000000041
+     "t": 6.805000000000064
     }
    ]
   },
@@ -3836,7 +3836,7 @@
    "id": "c6-seas",
    "type": "region",
    "start": 597.803,
-   "end": 610.81,
+   "end": 610.368,
    "tag": "SIMULATION",
    "clock": "DAY 4 TO 7",
    "clockLabel": "OUR CHOICES",
@@ -3928,7 +3928,7 @@
      ],
      "label": "Airspace: flights rerouted",
      "color": "#F2B01E",
-     "t": 6.014999999999986,
+     "t": 5.198999999999955,
      "pulse": true
     }
    ],
@@ -3980,7 +3980,7 @@
   {
    "id": "c6-rail",
    "type": "region",
-   "start": 610.81,
+   "start": 610.368,
    "end": 618.284,
    "tag": "SIMULATION",
    "clock": "DAY 4 TO 7",
@@ -4032,7 +4032,7 @@
      "label": "Banking links cut",
      "color": "#FF3B3B",
      "kind": "dot",
-     "t": 2.703000000000088
+     "t": 2.5989999999999327
     }
    ],
    "lines": [
@@ -4056,7 +4056,7 @@
    "id": "c6-noemp",
    "type": "region",
    "start": 618.284,
-   "end": 627.979,
+   "end": 628.038,
    "tag": "SIMULATION",
    "clock": "DAY 4 TO 7",
    "clockLabel": "NO BLACKOUT",
@@ -4110,8 +4110,8 @@
   {
    "id": "c6-znpp",
    "type": "region",
-   "start": 627.979,
-   "end": 643.908,
+   "start": 628.038,
+   "end": 641.9,
    "tag": "SIMULATION",
    "clock": "DAY 4 TO 7",
    "clockLabel": "FEAR SPREADS",
@@ -4204,7 +4204,7 @@
      ],
      "text": "IAEA director: off-site power \"extremely fragile\"",
      "color": "#F2B01E",
-     "t": 8.850999999999999
+     "t": 9.754999999999995
     }
    ],
    "zones": [
@@ -4229,7 +4229,7 @@
      ],
      "label": "",
      "color": "#F2B01E",
-     "t": 8.850999999999999,
+     "t": 9.754999999999995,
      "pulse": true
     }
    ]
@@ -4237,7 +4237,7 @@
   {
    "id": "c6-next",
    "type": "region",
-   "start": 643.908,
+   "start": 641.9,
    "end": 649.124,
    "tag": "SIMULATION",
    "clock": "DAY 4 TO 7",
@@ -4444,7 +4444,7 @@
    "id": "end",
    "type": "endslate",
    "start": 669.467,
-   "end": 683.84,
+   "end": 686.22,
    "tag": "",
    "title": "Next scenario",
    "line": "Iran tests a bomb, and Israel answers."

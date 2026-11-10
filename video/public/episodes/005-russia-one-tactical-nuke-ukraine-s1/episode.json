@@ -1,133 +1,133 @@
 {
  "subtitles": [
   {
-   "start": 0.817,
-   "end": 3.506,
+   "start": 0.0,
+   "end": 2.074,
    "text": "Minute zero. The launch."
   },
   {
-   "start": 4.052,
-   "end": 6.036,
+   "start": 2.074,
+   "end": 4.667,
    "text": "Radar sees a ballistic missile"
   },
   {
-   "start": 6.036,
-   "end": 8.446,
+   "start": 4.667,
+   "end": 7.432,
    "text": "climbing out of Belgorod region."
   },
   {
-   "start": 9.194,
-   "end": 11.666,
+   "start": 7.432,
+   "end": 10.457,
    "text": "It looks like every other Iskander."
   },
   {
-   "start": 11.977,
-   "end": 13.436,
+   "start": 10.457,
+   "end": 12.617,
    "text": "We assume nobody can tell"
   },
   {
-   "start": 13.436,
-   "end": 14.866,
+   "start": 12.617,
+   "end": 14.778,
    "text": "the difference in flight."
   },
   {
-   "start": 15.33,
-   "end": 16.346,
+   "start": 15.328,
+   "end": 16.103,
    "text": "Minute one."
   },
   {
-   "start": 16.756,
-   "end": 18.636,
+   "start": 16.103,
+   "end": 18.289,
    "text": "Air defence crews have seconds,"
   },
   {
-   "start": 18.636,
-   "end": 19.97,
+   "start": 18.289,
+   "end": 19.134,
    "text": "not minutes."
   },
   {
-   "start": 19.97,
-   "end": 21.256,
+   "start": 19.134,
+   "end": 21.108,
    "text": "A three-minute flight leaves"
   },
   {
-   "start": 21.256,
-   "end": 22.966,
+   "start": 21.108,
+   "end": 22.659,
    "text": "no meaningful warning."
   },
   {
-   "start": 23.648,
-   "end": 26.766,
+   "start": 23.209,
+   "end": 26.043,
    "text": "Minute two. It begins to fall."
   },
   {
-   "start": 27.14,
-   "end": 28.432,
+   "start": 26.043,
+   "end": 27.46,
    "text": "Over the field,"
   },
   {
-   "start": 28.432,
-   "end": 30.196,
+   "start": 27.46,
+   "end": 29.917,
    "text": "a staging area of vehicles"
   },
   {
-   "start": 30.196,
-   "end": 31.956,
+   "start": 29.917,
+   "end": 31.995,
    "text": "and tents sits under a"
   },
   {
-   "start": 31.956,
-   "end": 33.646,
+   "start": 31.995,
+   "end": 33.507,
    "text": "cold winter sky."
   },
   {
-   "start": 34.386,
-   "end": 35.686,
+   "start": 34.057,
+   "end": 35.383,
    "text": "Minute three."
   },
   {
-   "start": 36.266,
-   "end": 37.976,
+   "start": 35.383,
+   "end": 38.239,
    "text": "The warhead detonates in the"
   },
   {
-   "start": 37.976,
-   "end": 39.786,
+   "start": 38.239,
+   "end": 40.279,
    "text": "air above the field."
   },
   {
-   "start": 40.338,
-   "end": 41.846,
+   "start": 40.279,
+   "end": 42.115,
    "text": "Not on the ground."
   },
   {
-   "start": 43.289,
-   "end": 44.376,
+   "start": 42.665,
+   "end": 44.012,
    "text": "There is a flash"
   },
   {
-   "start": 44.376,
-   "end": 46.066,
+   "start": 44.012,
+   "end": 45.863,
    "text": "brighter than the sun."
   },
   {
-   "start": 46.353,
-   "end": 48.286,
+   "start": 45.863,
+   "end": 47.21,
    "text": "Then a fireball."
   },
   {
-   "start": 48.868,
-   "end": 50.576,
+   "start": 47.21,
+   "end": 49.735,
    "text": "Then a shock wave that crosses"
   },
   {
-   "start": 50.576,
-   "end": 52.496,
+   "start": 49.735,
+   "end": 52.175,
    "text": "the field faster than a sound"
   },
   {
-   "start": 52.496,
-   "end": 54.916,
+   "start": 52.175,
+   "end": 54.7,
    "text": "can reach anyone to warn them."
   }
  ],
@@ -263,7 +263,7 @@
    "id": "c4-m2",
    "type": "region",
    "start": 23.209,
-   "end": 36.846,
+   "end": 36.206,
    "tag": "SIMULATION",
    "clock": "T+02:00",
    "clockLabel": "MINUTE TWO",
@@ -331,7 +331,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 13.64,
+     "t1": 13.0,
      "kind": "pla",
      "color": "#FF3B3B",
      "label": "Iskander-M",
@@ -343,8 +343,8 @@
   {
    "id": "c4-flash",
    "type": "city",
-   "start": 36.846,
-   "end": 48.718,
+   "start": 36.206,
+   "end": 47.23,
    "tag": "SIMULATION",
    "clock": "T+03:00",
    "clockLabel": "MINUTE THREE · BURST",
@@ -394,7 +394,7 @@
   {
    "id": "c4-shock",
    "type": "city",
-   "start": 48.718,
+   "start": 47.23,
    "end": 54.916,
    "tag": "SIMULATION",
    "clock": "T+03:00",

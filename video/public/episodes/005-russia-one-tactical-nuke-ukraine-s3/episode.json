@@ -1,143 +1,143 @@
 {
  "subtitles": [
   {
-   "start": 0.402,
-   "end": 1.874,
+   "start": 0.0,
+   "end": 2.044,
    "text": "In September twenty twenty-two,"
   },
   {
-   "start": 2.45,
-   "end": 4.444,
+   "start": 2.044,
+   "end": 4.417,
    "text": "Vladimir Putin said Russia would use"
   },
   {
-   "start": 4.444,
-   "end": 6.558,
+   "start": 4.417,
+   "end": 6.395,
    "text": "all the means at its disposal,"
   },
   {
-   "start": 6.558,
-   "end": 7.59,
+   "start": 6.395,
+   "end": 7.054,
    "text": "and added:"
   },
   {
-   "start": 7.59,
-   "end": 8.934,
+   "start": 7.054,
+   "end": 8.306,
    "text": "\"It's not a bluff.\""
   },
   {
-   "start": 9.257,
-   "end": 10.524,
+   "start": 8.306,
+   "end": 9.361,
    "text": "Two weeks later,"
   },
   {
-   "start": 10.524,
-   "end": 12.084,
+   "start": 9.361,
+   "end": 11.602,
    "text": "President Biden said the world had"
   },
   {
-   "start": 12.084,
-   "end": 14.164,
+   "start": 11.602,
+   "end": 13.976,
    "text": "not faced the prospect of Armageddon"
   },
   {
-   "start": 14.164,
-   "end": 16.154,
+   "start": 13.976,
+   "end": 16.019,
    "text": "since the Cuban Missile Crisis."
   },
   {
-   "start": 16.685,
-   "end": 17.584,
+   "start": 16.019,
+   "end": 17.338,
    "text": "He added that he did"
   },
   {
-   "start": 17.584,
-   "end": 18.764,
+   "start": 17.338,
+   "end": 18.854,
    "text": "not think there was any"
   },
   {
-   "start": 18.764,
-   "end": 20.484,
+   "start": 18.854,
+   "end": 20.568,
    "text": "such thing as easily using"
   },
   {
-   "start": 20.484,
-   "end": 22.474,
+   "start": 20.568,
+   "end": 22.282,
    "text": "a tactical nuclear weapon."
   },
   {
-   "start": 22.846,
-   "end": 24.184,
+   "start": 22.832,
+   "end": 24.426,
    "text": "The White House said at"
   },
   {
-   "start": 24.184,
-   "end": 25.704,
+   "start": 24.426,
+   "end": 25.812,
    "text": "the time that it saw"
   },
   {
-   "start": 25.704,
-   "end": 27.714,
+   "start": 25.812,
+   "end": 27.475,
    "text": "no sign of imminent use."
   },
   {
-   "start": 28.643,
-   "end": 29.764,
+   "start": 28.025,
+   "end": 29.413,
    "text": "Behind the scenes,"
   },
   {
-   "start": 29.764,
-   "end": 31.014,
+   "start": 29.413,
+   "end": 30.955,
    "text": "the channels opened."
   },
   {
-   "start": 31.44,
-   "end": 33.544,
+   "start": 30.955,
+   "end": 33.654,
    "text": "American and Russian defence chiefs"
   },
   {
-   "start": 33.544,
-   "end": 35.514,
+   "start": 33.654,
+   "end": 35.659,
    "text": "spoke by phone in October."
   },
   {
-   "start": 36.396,
-   "end": 37.444,
+   "start": 35.659,
+   "end": 36.584,
    "text": "In November,"
   },
   {
-   "start": 37.444,
-   "end": 39.344,
+   "start": 36.584,
+   "end": 39.052,
    "text": "news reports said senior Russian"
   },
   {
-   "start": 39.344,
-   "end": 42.214,
+   "start": 39.052,
+   "end": 41.905,
    "text": "officials had discussed tactical use,"
   },
   {
-   "start": 42.45,
-   "end": 44.024,
+   "start": 41.905,
+   "end": 43.833,
    "text": "with no evidence that any"
   },
   {
-   "start": 44.024,
-   "end": 45.834,
+   "start": 43.833,
+   "end": 45.606,
    "text": "warhead had been moved."
   },
   {
-   "start": 46.53,
-   "end": 48.024,
+   "start": 45.606,
+   "end": 47.611,
    "text": "Days later the head of the"
   },
   {
-   "start": 48.024,
-   "end": 50.924,
+   "start": 47.611,
+   "end": 50.927,
    "text": "CIA met Russia's foreign intelligence chief"
   },
   {
-   "start": 50.924,
-   "end": 53.284,
+   "start": 50.927,
+   "end": 53.163,
    "text": "in Ankara to warn against it."
   }
  ],
@@ -151,7 +151,7 @@
    "id": "c2-putin",
    "type": "region",
    "start": 0.0,
-   "end": 9.107,
+   "end": 8.036,
    "tag": "REAL HISTORY",
    "clock": "SEPT 2022",
    "clockLabel": "PUTIN",
@@ -208,8 +208,8 @@
   {
    "id": "c2-armageddon",
    "type": "globe",
-   "start": 9.107,
-   "end": 16.535,
+   "start": 8.036,
+   "end": 15.342,
    "tag": "REAL HISTORY",
    "clock": "OCT 2022",
    "clockLabel": "BIDEN",
@@ -270,7 +270,7 @@
   {
    "id": "c2-whitehouse",
    "type": "region",
-   "start": 16.535,
+   "start": 15.342,
    "end": 28.025,
    "tag": "REAL HISTORY",
    "clock": "OCT 2022",
@@ -300,7 +300,7 @@
      "color": "#3ED6C8",
      "kind": "base",
      "size": 6,
-     "t": 6.161000000000001
+     "t": 7.489999999999981
     }
    ],
    "labels": [
@@ -319,7 +319,7 @@
    "id": "c2-phone",
    "type": "globe",
    "start": 28.025,
-   "end": 36.246,
+   "end": 35.338,
    "tag": "REAL HISTORY",
    "clock": "OCT 2022",
    "clockLabel": "DEFENCE CHIEFS",
@@ -333,7 +333,7 @@
      "scale": 650
     },
     {
-     "t": 8.221000000000004,
+     "t": 7.312999999999988,
      "lat": 48,
      "lon": 0,
      "scale": 800
@@ -397,8 +397,8 @@
   {
    "id": "c2-reports",
    "type": "region",
-   "start": 36.246,
-   "end": 46.38,
+   "start": 35.338,
+   "end": 44.936,
    "tag": "REAL HISTORY",
    "clock": "NOV 2022",
    "clockLabel": "NEWS REPORTS",
@@ -455,7 +455,7 @@
   {
    "id": "c2-ankara",
    "type": "region",
-   "start": 46.38,
+   "start": 44.936,
    "end": 53.284,
    "tag": "REAL HISTORY",
    "clock": "NOV 2022",

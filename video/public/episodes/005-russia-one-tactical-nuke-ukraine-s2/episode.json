@@ -1,143 +1,143 @@
 {
  "subtitles": [
   {
-   "start": 0.042,
-   "end": 1.92,
+   "start": 0.0,
+   "end": 2.028,
    "text": "Here is what fifteen kilotons"
   },
   {
-   "start": 1.92,
-   "end": 3.881,
+   "start": 2.028,
+   "end": 3.567,
    "text": "does to open farmland,"
   },
   {
-   "start": 3.881,
-   "end": 5.39,
+   "start": 3.567,
+   "end": 5.315,
    "text": "from the scenario engine."
   },
   {
-   "start": 5.91,
-   "end": 6.98,
+   "start": 5.865,
+   "end": 6.73,
    "text": "The fireball:"
   },
   {
-   "start": 6.98,
-   "end": 7.852,
+   "start": 6.73,
+   "end": 8.06,
    "text": "a hundred and eighty"
   },
   {
-   "start": 7.852,
+   "start": 8.06,
    "end": 9.19,
    "text": "metres in radius."
   },
   {
-   "start": 9.44,
-   "end": 10.499,
+   "start": 9.19,
+   "end": 10.72,
    "text": "About three hundred and"
   },
   {
-   "start": 10.499,
-   "end": 11.89,
+   "start": 10.72,
+   "end": 12.05,
    "text": "sixty metres across."
   },
   {
-   "start": 12.425,
-   "end": 14.21,
+   "start": 12.05,
+   "end": 13.979,
    "text": "Everything inside it is gone."
   },
   {
-   "start": 14.74,
-   "end": 16.717,
+   "start": 14.529,
+   "end": 16.772,
    "text": "Three hundred and forty metres out,"
   },
   {
-   "start": 16.717,
-   "end": 17.98,
+   "start": 16.772,
+   "end": 18.31,
    "text": "the blast reaches twenty"
   },
   {
-   "start": 17.98,
-   "end": 19.75,
+   "start": 18.31,
+   "end": 19.784,
    "text": "pounds per square inch."
   },
   {
-   "start": 20.094,
-   "end": 22.31,
+   "start": 19.784,
+   "end": 22.027,
    "text": "Almost nothing built survives that."
   },
   {
-   "start": 23.071,
-   "end": 25.787,
+   "start": 22.577,
+   "end": 25.041,
    "text": "At one point six seven kilometres,"
   },
   {
-   "start": 25.787,
-   "end": 27.77,
+   "start": 25.041,
+   "end": 27.071,
    "text": "five pounds per square inch."
   },
   {
-   "start": 27.978,
-   "end": 29.74,
+   "start": 27.071,
+   "end": 29.39,
    "text": "Most ordinary buildings collapse"
   },
   {
-   "start": 29.74,
-   "end": 31.69,
+   "start": 29.39,
+   "end": 30.912,
    "text": "or are badly damaged."
   },
   {
-   "start": 31.922,
-   "end": 33.267,
+   "start": 30.912,
+   "end": 32.942,
    "text": "That ring covers about eight"
   },
   {
-   "start": 33.267,
-   "end": 35.07,
+   "start": 32.942,
+   "end": 35.116,
    "text": "point eight square kilometres."
   },
   {
-   "start": 36.294,
-   "end": 38.55,
+   "start": 35.666,
+   "end": 38.262,
    "text": "The flash burns farther than that."
   },
   {
-   "start": 38.807,
-   "end": 40.376,
+   "start": 38.262,
+   "end": 40.4,
    "text": "Third-degree burns reach one"
   },
   {
-   "start": 40.376,
-   "end": 41.97,
+   "start": 40.4,
+   "end": 42.08,
    "text": "point nine kilometres,"
   },
   {
-   "start": 42.183,
-   "end": 43.12,
+   "start": 42.08,
+   "end": 43.302,
    "text": "past the edge of"
   },
   {
-   "start": 43.12,
-   "end": 44.53,
+   "start": 43.302,
+   "end": 44.676,
    "text": "the five-psi ring."
   },
   {
-   "start": 45.667,
-   "end": 47.839,
+   "start": 45.226,
+   "end": 47.604,
    "text": "At four and a half kilometres,"
   },
   {
-   "start": 47.839,
-   "end": 49.85,
+   "start": 47.604,
+   "end": 49.666,
    "text": "one pound per square inch."
   },
   {
-   "start": 50.076,
-   "end": 51.367,
+   "start": 49.666,
+   "end": 50.934,
    "text": "Windows shatter,"
   },
   {
-   "start": 51.367,
-   "end": 53.77,
+   "start": 50.934,
+   "end": 53.788,
    "text": "and flying glass becomes the hazard."
   }
  ],
@@ -272,7 +272,7 @@
    "id": "c5-5psi",
    "type": "city",
    "start": 22.577,
-   "end": 31.772,
+   "end": 31.085,
    "tag": "SIMULATION",
    "clock": "T+03:00",
    "clockLabel": "MINUTE THREE · BURST",
@@ -348,7 +348,7 @@
   {
    "id": "c5-area",
    "type": "number",
-   "start": 31.772,
+   "start": 31.085,
    "end": 35.666,
    "tag": "SIMULATION",
    "value": "8.8 KM²",
