@@ -1,0 +1,38 @@
+[
+  {
+    "id": "s1",
+    "youtube_id": "GJ4KihR5Uzw",
+    "url": "https://youtube.com/shorts/GJ4KihR5Uzw",
+    "publish_at": "2026-11-12T14:00:00Z",
+    "title": "One Missile, Three Minutes: A Simulated Nuclear Strike in Ukraine #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -14.0,
+      "TP": -1.8
+    }
+  },
+  {
+    "id": "s2",
+    "youtube_id": "77M-y-VaweA",
+    "url": "https://youtube.com/shorts/77M-y-VaweA",
+    "publish_at": "2026-11-12T19:00:00Z",
+    "title": "What One 15-Kiloton Nuke Does to Open Farmland, Ring by Ring #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -14.0,
+      "TP": -2.5
+    }
+  },
+  {
+    "id": "s3",
+    "youtube_id": "CswtYFhvZkE",
+    "url": "https://youtube.com/shorts/CswtYFhvZkE",
+    "publish_at": "2026-11-13T00:00:00Z",
+    "title": "Putin's \"Not a Bluff\" and the Secret Calls That Followed in 2022 #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -13.9,
+      "TP": -4.4
+    }
+  }
+]
