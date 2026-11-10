@@ -9,7 +9,27 @@
       "stage": "researched",
       "note": "30 A, 10 B items",
       "at": "2026-11-10T00:49:50+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "draft 1",
+      "at": "2026-11-10T00:51:51+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "round 1 review fixes (issues 1-9 and notes)",
+      "at": "2026-11-10T00:53:25+00:00"
+    },
+    {
+      "stage": "script_approved",
+      "note": "round 2 screener FAIL on 3 one-line fixes, applied by showrunner; no re-screen",
+      "at": "2026-11-10T00:54:16+00:00"
+    },
+    {
+      "stage": "narrated",
+      "note": "11.3 min, 1441 words",
+      "at": "2026-11-10T00:59:12+00:00"
     }
   ],
-  "stage": "researched"
+  "stage": "narrated"
 }
