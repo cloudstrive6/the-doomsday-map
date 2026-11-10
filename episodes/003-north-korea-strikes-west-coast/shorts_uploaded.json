@@ -9,6 +9,22 @@
     "loudness": {
       "I": -13.9,
       "TP": -4.0
+    },
+    "social": {
+      "facebook": {
+        "id": "1121731840615152",
+        "url": "https://www.facebook.com/reel/1121731840615152"
+      },
+      "instagram": {
+        "id": "18121327438998790",
+        "url": "https://www.instagram.com/reel/DfkEzdklHk2/"
+      },
+      "facebook_story": {
+        "id": "2406962173446805"
+      },
+      "instagram_story": {
+        "id": "17912845944560542"
+      }
     }
   },
   {
