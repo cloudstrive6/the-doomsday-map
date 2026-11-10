@@ -1,8 +1,8 @@
-FAIL
+PASS
 
-1. qc.json reports "frozen 4.2s at 295.3s", over the 4 s limit. It is not on the end slate and not a chapter dip. The frame at 315 s shows the "Launch to impact: 11.1 minutes" timeline card, so the freeze probably sits on that card. Fix: add motion to the card (a moving marker or camera drift) or split it at a sentence, then re-render.
-2. Loudness is -14.0 LUFS and true peak is -1.7 dBTP, both within limits.
-3. shotlist_checks is empty, so there is no "no banner" finding and no retention breach. I did not look at the opening frames for the banner. The banner shows only 2.5 to 3.5 s, and the 21 s review frame is too late to catch it.
-4. The frames I viewed (273 s, 315 s) carry the correct SIMULATION corner tag. The Loop map shows Chicago, and the subtitles are readable. I did not inspect the other review frames or the Shorts frames individually.
-5. thumb_a.png is bright and readable at small size: "53X HIROSHIMA OVER THE LOOP", with a Chicago skyline and mushroom cloud.
-6. metadata.json has the simulation disclaimer ("This is a simulation. It has not happened."), no em-dashes and no casualty figure. The title and description match the video.
+1. qc.json: ok, no issues, no shotlist_checks (banner and retention rules clean). Loudness -14.0 LUFS, true peak -1.8 dBTP.
+2. Long video frames: corner tags correct (REAL HISTORY for Hiroshima, chapter cards and Cuba 1962; SIMULATION for Chicago and the scenario globe; REAL DATA for the FEMA planning card). Maps show the right places. The video ends in the simulation aftermath (Day 2, SIMULATION), not on history. No empty or broken frames.
+3. Minor polish (not blocking): "UNION STATION" and "WILLIS TOWER" labels overlap at about 21 s; the Russia label on the globe at about 105 s runs off the right edge ("...MULTIPLE-WARHEAD" clipped); the footer source line and legend at the bottom of the ring maps are faint; the Hiroshima "1 MILE GONE" label touches the ring edge.
+4. Shorts: subtitles present and inside the safe area, title bands readable, tags correct (Short 3 is REAL HISTORY, Shorts 1 and 2 SIMULATION). The T+ clock sits close to the right edge in Short 1 but is not clipped.
+5. Thumbnail: "53X HIROSHIMA / OVER THE LOOP" is large and readable at small size, with a clear photoreal skyline and fireball.
+6. metadata.json: title and description match the video; the simulation disclaimer ("This is a simulation. It has not happened.") and AI narration note are present; no em-dashes; `{{CHAPTERS}}` placeholder is present for the packager; no casualty figure is claimed.
