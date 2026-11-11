@@ -1,0 +1,921 @@
+{
+ "subtitles": [
+  {
+   "start": 0.0,
+   "end": 1.97,
+   "text": "4:38 in the morning,"
+  },
+  {
+   "start": 2.182,
+   "end": 3.43,
+   "text": "central Iran:"
+  },
+  {
+   "start": 3.43,
+   "end": 4.94,
+   "text": "a nuclear warhead bursts"
+  },
+  {
+   "start": 4.94,
+   "end": 5.91,
+   "text": "on a mountain."
+  },
+  {
+   "start": 6.37,
+   "end": 7.83,
+   "text": "This is a simulation,"
+  },
+  {
+   "start": 8.086,
+   "end": 9.61,
+   "text": "and it has not happened."
+  },
+  {
+   "start": 10.348,
+   "end": 11.69,
+   "text": "8 minutes earlier,"
+  },
+  {
+   "start": 11.849,
+   "end": 13.24,
+   "text": "a Jericho missile leaves a"
+  },
+  {
+   "start": 13.24,
+   "end": 15.23,
+   "text": "battery in central Israel."
+  },
+  {
+   "start": 15.393,
+   "end": 16.776,
+   "text": "It has one target:"
+  },
+  {
+   "start": 16.776,
+   "end": 18.33,
+   "text": "a mountain in Iran."
+  },
+  {
+   "start": 18.827,
+   "end": 20.05,
+   "text": "4 days before,"
+  },
+  {
+   "start": 20.418,
+   "end": 22.1,
+   "text": "that mountain hosted Iran's"
+  },
+  {
+   "start": 22.1,
+   "end": 23.51,
+   "text": "first nuclear test."
+  },
+  {
+   "start": 24.008,
+   "end": 26.2,
+   "text": "Since then an Israeli air raid"
+  },
+  {
+   "start": 26.2,
+   "end": 28.11,
+   "text": "has hit its tunnel entrances,"
+  },
+  {
+   "start": 28.344,
+   "end": 30.48,
+   "text": "and Iran has fired back."
+  },
+  {
+   "start": 30.48,
+   "end": 31.46,
+   "text": "The work under the"
+  },
+  {
+   "start": 31.46,
+   "end": 33.29,
+   "text": "rock has not stopped."
+  }
+ ],
+ "slug": "006-iran-tests-bomb-israel-answers-s1",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 33.5,
+ "shots": [
+  {
+   "id": "open-run",
+   "type": "region",
+   "start": 0.0,
+   "end": 4.21,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     43.0,
+     33.2
+    ],
+    "widthKm": 2700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      43.0,
+      33.2
+     ],
+     "widthKm": 2700
+    },
+    {
+     "t": 2.0,
+     "center": [
+      46.5,
+      33.6
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 4.21,
+     "center": [
+      50.8,
+      33.9
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "clock": "T-00:05",
+   "clockLabel": "TO IMPACT",
+   "clockRate": 1.2,
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "376",
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    },
+    {
+     "iso": "364",
+     "text": "IRAN",
+     "color": "#F2B01E"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.9,
+      31.7
+     ],
+     "label": "Jericho battery (simulated)",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 5
+    },
+    {
+     "at": [
+      51.39,
+      35.69
+     ],
+     "label": "Tehran",
+     "kind": "dot",
+     "t": 1.4
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Test mountain (simulated)",
+     "kind": "target",
+     "t": 2.4,
+     "color": "#FF3B3B",
+     "size": 7
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      34.9,
+      31.7
+     ],
+     "to": [
+      52.6,
+      34.3
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.3,
+     "t1": 4.01
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       34.9,
+       31.7
+      ],
+      [
+       52.6,
+       34.3
+      ]
+     ],
+     "t0": 0.3,
+     "t1": 4.21,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Jericho II",
+     "t": 0.1,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "open-flash",
+   "type": "region",
+   "start": 4.21,
+   "end": 9.881,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     52.6,
+     34.3
+    ],
+    "widthKm": 460
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 460
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 330
+    },
+    {
+     "t": 0.19,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 5.67,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 300
+    }
+   ],
+   "clock": "04:38",
+   "clockLabel": "CENTRAL IRAN · LOCAL TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "burst": {
+    "at": [
+     52.6,
+     34.3
+    ],
+    "t": 0.1,
+    "km": 9,
+    "fade": 6
+   },
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Ground zero (simulated)",
+     "kind": "target",
+     "t": 0.8,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 2.3
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 1.167,
+     "color": "#FF3B3B",
+     "t": 0.6
+    }
+   ],
+   "caption": "A 10-kiloton ground burst on a mountain. Simulation: it has not happened."
+  },
+  {
+   "id": "open-launch",
+   "type": "globe",
+   "start": 9.881,
+   "end": 15.243,
+   "tag": "SIMULATION",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 33,
+     "lon": 40,
+     "scale": 1500
+    },
+    {
+     "t": 0.1,
+     "lat": 33,
+     "lon": 43,
+     "scale": 1900
+    },
+    {
+     "t": 5.36,
+     "lat": 33.2,
+     "lon": 46,
+     "scale": 2300
+    }
+   ],
+   "sun": {
+    "lat": -15.27,
+    "lon": 168.63
+   },
+   "clock": "T-08:00",
+   "clockLabel": "TO IMPACT",
+   "clockRate": 54,
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      34.9,
+      31.7
+     ],
+     "label": "Jericho battery, central Israel (simulated)",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 5,
+     "t": 3.21
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      34.9,
+      31.7
+     ],
+     "to": [
+      52.6,
+      34.3
+     ],
+     "t0": 2.73,
+     "t1": 9.0,
+     "color": "#FF3B3B",
+     "loft": 0.12
+    }
+   ]
+  },
+  {
+   "id": "open-target",
+   "type": "region",
+   "start": 15.243,
+   "end": 18.825,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     46,
+     33.6
+    ],
+    "widthKm": 1100
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      46,
+      33.6
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 0.1,
+     "center": [
+      50,
+      34
+     ],
+     "widthKm": 650
+    },
+    {
+     "t": 3.58,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "T-03:10",
+   "clockLabel": "TO IMPACT",
+   "clockRate": 54,
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "One target: a mountain in Iran",
+     "kind": "target",
+     "t": 0.49,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 2.0
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       45.0,
+       33.5
+      ],
+      [
+       52.6,
+       34.3
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 3.28,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Jericho II",
+     "t": 0.1,
+     "wake": true
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 25,
+     "color": "#FF3B3B",
+     "t": 0.6,
+     "dashed": true
+    }
+   ]
+  },
+  {
+   "id": "open-test",
+   "type": "region",
+   "start": 18.825,
+   "end": 23.858,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     49,
+     33.8
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      49,
+      33.8
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 5.03,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "HOUR 00",
+   "clockLabel": "THE FIRST TEST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Iran's first nuclear test (simulated)",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 7
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 20,
+     "color": "#F2B01E",
+     "label": "Contained",
+     "t": 3.12,
+     "dashed": true
+    }
+   ]
+  },
+  {
+   "id": "open-raid",
+   "type": "region",
+   "start": 23.858,
+   "end": 28.29,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     42,
+     32.5
+    ],
+    "widthKm": 2000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      42,
+      32.5
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 4.43,
+     "center": [
+      48,
+      33.5
+     ],
+     "widthKm": 1300
+    }
+   ],
+   "clock": "HOUR 40",
+   "clockLabel": "THE RAID",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.94,
+      31.21
+     ],
+     "label": "Nevatim",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#3ED6C8",
+     "size": 5
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Tunnel entrances",
+     "kind": "target",
+     "t": 2.85,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       34.94,
+       31.21
+      ],
+      [
+       52.6,
+       34.3
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 4.23,
+     "kind": "ally",
+     "color": "#3ED6C8",
+     "label": "Israeli raid",
+     "t": 0.2,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "open-fire",
+   "type": "region",
+   "start": 28.29,
+   "end": 33.5,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     45,
+     33.5
+    ],
+    "widthKm": 2000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      45,
+      33.5
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 0.1,
+     "center": [
+      47.5,
+      33.5
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 5.47,
+     "center": [
+      50,
+      34
+     ],
+     "widthKm": 1000
+    }
+   ],
+   "clock": "HOUR 42",
+   "clockLabel": "IRAN FIRES BACK",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       47.0,
+       34.3
+      ],
+      [
+       34.94,
+       31.21
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 5.07,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iranian salvo",
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.94,
+      31.21
+     ],
+     "label": "Nevatim",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#3ED6C8",
+     "size": 5
+    },
+    {
+     "at": [
+      51.39,
+      35.69
+     ],
+     "label": "Tehran",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.68,
+      32.65
+     ],
+     "label": "Isfahan",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      53.2,
+      34.9
+     ],
+     "text": "The work under the rock goes on",
+     "color": "#F2B01E",
+     "t": 2.34
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 20,
+     "color": "#F2B01E",
+     "t": 2.14,
+     "dashed": true
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "ONE 10 KT NUKE",
+  "ON A MOUNTAIN"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

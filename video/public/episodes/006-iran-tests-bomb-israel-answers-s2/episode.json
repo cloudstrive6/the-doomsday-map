@@ -1,0 +1,565 @@
+{
+ "subtitles": [
+  {
+   "start": 0.002,
+   "end": 2.578,
+   "text": "Day 4. In our scenario,"
+  },
+  {
+   "start": 2.751,
+   "end": 5.048,
+   "text": "Israel's cabinet decides that only a"
+  },
+  {
+   "start": 5.048,
+   "end": 7.758,
+   "text": "nuclear weapon addresses a buried target."
+  },
+  {
+   "start": 8.157,
+   "end": 10.364,
+   "text": "One Jericho Two missile,"
+  },
+  {
+   "start": 10.364,
+   "end": 11.628,
+   "text": "a reported range of"
+  },
+  {
+   "start": 11.628,
+   "end": 14.138,
+   "text": "1500 km or more,"
+  },
+  {
+   "start": 14.394,
+   "end": 17.048,
+   "text": "flies sixteen hundred and seventy kilometres"
+  },
+  {
+   "start": 17.048,
+   "end": 18.358,
+   "text": "in 8 minutes."
+  },
+  {
+   "start": 19.088,
+   "end": 20.648,
+   "text": "Israel has never confirmed"
+  },
+  {
+   "start": 20.648,
+   "end": 22.458,
+   "text": "it has nuclear weapons;"
+  },
+  {
+   "start": 23.492,
+   "end": 25.128,
+   "text": "the ten-kiloton yield is"
+  },
+  {
+   "start": 25.128,
+   "end": 27.098,
+   "text": "entirely our assumption."
+  },
+  {
+   "start": 27.732,
+   "end": 28.488,
+   "text": "The launch comes"
+  },
+  {
+   "start": 28.488,
+   "end": 30.874,
+   "text": "96 hours after the test,"
+  },
+  {
+   "start": 30.874,
+   "end": 32.898,
+   "text": "and the flight takes 8 minutes."
+  },
+  {
+   "start": 33.279,
+   "end": 34.208,
+   "text": "That is the clock"
+  },
+  {
+   "start": 34.208,
+   "end": 35.558,
+   "text": "from the cold open."
+  },
+  {
+   "start": 35.866,
+   "end": 37.886,
+   "text": "No other nuclear weapon is used."
+  },
+  {
+   "start": 37.886,
+   "end": 39.411,
+   "text": "Two nuclear events,"
+  },
+  {
+   "start": 39.411,
+   "end": 41.138,
+   "text": "11 kilotons together."
+  }
+ ],
+ "slug": "006-iran-tests-bomb-israel-answers-s2",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 41.248,
+ "shots": [
+  {
+   "id": "c4-cabinet",
+   "type": "region",
+   "start": 0.0,
+   "end": 8.007,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     35.4,
+     31.8
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      35.4,
+      31.8
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 0.1,
+     "center": [
+      35.6,
+      32.0
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 5.82,
+     "center": [
+      41,
+      32.4
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 7.62,
+     "center": [
+      47,
+      33.3
+     ],
+     "widthKm": 1700
+    },
+    {
+     "t": 8.01,
+     "center": [
+      49,
+      33.4
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "clock": "DAY 4",
+   "clockLabel": "OUR SCENARIO",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      35.21,
+      31.77
+     ],
+     "label": "Israel's cabinet decides",
+     "kind": "base",
+     "t": 3.08,
+     "color": "#3ED6C8",
+     "size": 7
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "A buried target",
+     "kind": "target",
+     "t": 6.42,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      35.7,
+      31.2
+     ],
+     "text": "Only a nuclear weapon addresses it",
+     "color": "#FFD23F",
+     "t": 4.9
+    }
+   ]
+  },
+  {
+   "id": "c4-jericho",
+   "type": "region",
+   "start": 8.007,
+   "end": 27.704,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     38,
+     30
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      38,
+      30
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 0.1,
+     "center": [
+      40,
+      29.5
+     ],
+     "widthKm": 1900
+    },
+    {
+     "t": 6.24,
+     "center": [
+      43,
+      29.5
+     ],
+     "widthKm": 2500
+    },
+    {
+     "t": 10.93,
+     "center": [
+      45,
+      29.5
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 19.7,
+     "center": [
+      47,
+      30
+     ],
+     "widthKm": 2100
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "MINUTES AFTER LAUNCH",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.9,
+      31.7
+     ],
+     "label": "Jericho II battery (simulated)",
+     "kind": "base",
+     "t": 0.33,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Test mountain",
+     "kind": "target",
+     "t": 6.24,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      34.9,
+      31.7
+     ],
+     "km": 1500,
+     "color": "#F2B01E",
+     "label": "1,500 km or more",
+     "dashed": true,
+     "t": 3.47
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       34.9,
+       31.7
+      ],
+      [
+       52.6,
+       34.3
+      ]
+     ],
+     "t0": 6.24,
+     "t1": 10.73,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Jericho II",
+     "t": 6.24,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      41.0,
+      33.8
+     ],
+     "text": "1,670 km in eight minutes",
+     "color": "#FFFFFF",
+     "t": 6.59
+    },
+    {
+     "at": [
+      45.0,
+      26.8
+     ],
+     "text": "Israel has never confirmed its arsenal",
+     "color": "#3ED6C8",
+     "t": 11.59
+    },
+    {
+     "at": [
+      48.0,
+      28.2
+     ],
+     "text": "10 kt: entirely our assumption",
+     "color": "#FF3B3B",
+     "t": 15.43
+    }
+   ]
+  },
+  {
+   "id": "c4-clock",
+   "type": "region",
+   "start": 27.704,
+   "end": 41.248,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     38,
+     32
+    ],
+    "widthKm": 2000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      38,
+      32
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 0.1,
+     "center": [
+      44,
+      33
+     ],
+     "widthKm": 2300
+    },
+    {
+     "t": 8.01,
+     "center": [
+      47,
+      33
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 13.8,
+     "center": [
+      48,
+      33.3
+     ],
+     "widthKm": 1700
+    }
+   ],
+   "clock": "HOUR 96",
+   "clockLabel": "THE LAUNCH",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.9,
+      31.7
+     ],
+     "label": "Launch: hour 96",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Test mountain",
+     "kind": "target",
+     "t": 1.2,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       34.9,
+       31.7
+      ],
+      [
+       52.6,
+       34.3
+      ]
+     ],
+     "t0": 3.02,
+     "t1": 7.86,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Jericho II",
+     "t": 3.02,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      41.0,
+      36.3
+     ],
+     "text": "96 hours after the test",
+     "color": "#FFFFFF",
+     "t": 0.63
+    },
+    {
+     "at": [
+      44.5,
+      29.5
+     ],
+     "text": "Flight: eight minutes",
+     "color": "#FFFFFF",
+     "t": 3.89
+    },
+    {
+     "at": [
+      44.0,
+      36.2
+     ],
+     "text": "The clock from the cold open",
+     "color": "#FFD23F",
+     "t": 6.05
+    },
+    {
+     "at": [
+      48.0,
+      30.2
+     ],
+     "text": "No other nuclear weapon is used",
+     "color": "#FFFFFF",
+     "t": 8.01
+    },
+    {
+     "at": [
+      48.0,
+      29.0
+     ],
+     "text": "Two events: 11 kt together",
+     "color": "#FF3B3B",
+     "t": 10.03
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "ONE 10 KT NUKE",
+  "FOR A BURIED SITE"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

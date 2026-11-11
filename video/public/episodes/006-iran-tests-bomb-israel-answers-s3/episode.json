@@ -1,0 +1,386 @@
+{
+ "subtitles": [
+  {
+   "start": 0.014,
+   "end": 1.052,
+   "text": "A burst on the ground"
+  },
+  {
+   "start": 1.052,
+   "end": 3.342,
+   "text": "lifts earth into the fireball,"
+  },
+  {
+   "start": 3.517,
+   "end": 4.272,
+   "text": "and that earth comes"
+  },
+  {
+   "start": 4.272,
+   "end": 5.906,
+   "text": "back down as fallout."
+  },
+  {
+   "start": 5.906,
+   "end": 6.972,
+   "text": "The fireball is"
+  },
+  {
+   "start": 6.972,
+   "end": 8.212,
+   "text": "190 m"
+  },
+  {
+   "start": 8.212,
+   "end": 9.262,
+   "text": "in radius,"
+  },
+  {
+   "start": 9.447,
+   "end": 11.982,
+   "text": "about 380 m across."
+  },
+  {
+   "start": 12.792,
+   "end": 14.852,
+   "text": "20 pounds per square inch"
+  },
+  {
+   "start": 14.852,
+   "end": 16.512,
+   "text": "of overpressure reaches"
+  },
+  {
+   "start": 16.512,
+   "end": 19.256,
+   "text": "240 m."
+  },
+  {
+   "start": 19.737,
+   "end": 20.912,
+   "text": "5 psi reaches"
+  },
+  {
+   "start": 20.912,
+   "end": 23.205,
+   "text": "1.17 km,"
+  },
+  {
+   "start": 23.205,
+   "end": 24.192,
+   "text": "an area of about"
+  },
+  {
+   "start": 24.192,
+   "end": 26.282,
+   "text": "4.3 square kilometres."
+  },
+  {
+   "start": 26.48,
+   "end": 27.592,
+   "text": "On flat ground that"
+  },
+  {
+   "start": 27.592,
+   "end": 29.302,
+   "text": "flattens most buildings."
+  },
+  {
+   "start": 29.595,
+   "end": 30.532,
+   "text": "This is a mountain,"
+  },
+  {
+   "start": 30.532,
+   "end": 32.642,
+   "text": "and rock changes the result:"
+  },
+  {
+   "start": 32.844,
+   "end": 33.672,
+   "text": "we give no number"
+  },
+  {
+   "start": 33.672,
+   "end": 34.682,
+   "text": "for the tunnels."
+  }
+ ],
+ "slug": "006-iran-tests-bomb-israel-answers-s3",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 34.932,
+ "shots": [
+  {
+   "id": "h-fireball",
+   "type": "city",
+   "start": 0.0,
+   "end": 19.456,
+   "tag": "SIMULATION",
+   "city": "iran-site",
+   "view": {
+    "center": [
+     52.6,
+     34.3
+    ],
+    "widthKm": 1.12
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 1.12
+    },
+    {
+     "t": 3.89,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 1.38
+    },
+    {
+     "t": 7.78,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 1.63
+    },
+    {
+     "t": 11.67,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 1.89
+    },
+    {
+     "t": 15.56,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 2.14
+    },
+    {
+     "t": 19.46,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 2.4
+    }
+   ],
+   "gz": [
+    52.6,
+    34.3
+   ],
+   "clock": "T+08:00",
+   "clockLabel": "IMPACT · T+96 H",
+   "clockRate": 0,
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "legend": [
+    {
+     "text": "Fireball 191 m radius",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 238 m",
+     "color": "#FF7A1A"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 0.191,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": 5.84
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 0.238,
+     "color": "#FF7A1A",
+     "label": "20 psi",
+     "t": 12.7
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "text": "Simulated location",
+     "color": "#FFFFFF",
+     "t": 0.4
+    },
+    {
+     "at": [
+      52.6,
+      34.302499999999995
+     ],
+     "text": "Earth lifted, then falls back as fallout",
+     "color": "#F2B01E",
+     "t": 4.82
+    }
+   ]
+  },
+  {
+   "id": "h-5psi",
+   "type": "city",
+   "start": 19.456,
+   "end": 34.932,
+   "tag": "SIMULATION",
+   "city": "iran-site",
+   "view": {
+    "center": [
+     52.6,
+     34.3
+    ],
+    "widthKm": 2.56
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 2.56
+    },
+    {
+     "t": 3.96,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 2.8
+    },
+    {
+     "t": 7.92,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 3.04
+    },
+    {
+     "t": 11.87,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 3.28
+    },
+    {
+     "t": 15.83,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 3.52
+    }
+   ],
+   "gz": [
+    52.6,
+    34.3
+   ],
+   "clock": "T+08:00",
+   "clockLabel": "IMPACT · T+96 H",
+   "clockRate": 0,
+   "source": "",
+   "legend": [
+    {
+     "text": "Fireball 191 m radius",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 238 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 1.17 km",
+     "color": "#FF3B3B"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 0.191,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": -30
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 0.238,
+     "color": "#FF7A1A",
+     "label": "20 psi",
+     "t": -30
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 1.167,
+     "color": "#FF3B3B",
+     "label": "5 psi",
+     "t": 0.1
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "text": "Simulated location",
+     "color": "#FFFFFF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      52.6,
+      34.288999999999994
+     ],
+     "text": "About 4.3 km2 inside the 5 psi ring",
+     "color": "#FFFFFF",
+     "t": 3.71
+    },
+    {
+     "at": [
+      52.6,
+      34.311
+     ],
+     "text": "Rock changes the result: no tunnel number",
+     "color": "#FFD23F",
+     "t": 10.63
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "10 KT NUKE",
+  "ON A MOUNTAIN"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}
