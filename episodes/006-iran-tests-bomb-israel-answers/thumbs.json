@@ -1,0 +1,32 @@
+[
+ {
+  "id": "a",
+  "variant": "image",
+  "line1": "ONE MOUNTAIN",
+  "line2": "TEN KILOTONS",
+  "tag": "NO INSPECTORS",
+  "align": "left",
+  "image_prompt": "Vivid photoreal scene: a huge blazing orange and yellow nuclear fireball and mushroom cloud erupting from the summit of a rugged mountain on the right two thirds of the frame, the whole sky behind it glowing deep blue turning to bright orange near the horizon, slopes lit fiery orange by the blast, saturated colors, bright, no empty black areas; empty plain in the foreground, no buildings, no people.",
+  "image": "thumbs/006-a.jpg"
+ },
+ {
+  "id": "b",
+  "variant": "image",
+  "line1": "1,670 KM",
+  "line2": "ONE JERICHO",
+  "tag": "ONE WARHEAD",
+  "align": "left",
+  "image_prompt": "Bright saturated view from low orbit of the Middle East by night, deep blue atmosphere and bright sunrise glow along the curved horizon, Earth lit in vivid blue, golden city lights across the coast; a thick glowing orange and yellow missile trail arcs from the left (Israel) toward the right (central Iran) and ends in a very large blazing orange and yellow nuclear fireball with a shock ring on the right; bright, luminous, no large black areas, text-free upper left sky.",
+  "image": "thumbs/006-b.jpg"
+ },
+ {
+  "id": "c",
+  "variant": "image",
+  "line1": "HOUR 40",
+  "line2": "JETS LAUNCH",
+  "tag": "THEN THE SALVO",
+  "align": "left",
+  "image_prompt": "Bright golden-hour photo of two twin-engine fighter jets in afterburner taking off at sunset, large and close, filling the right half of the frame, climbing steeply toward the upper right with huge bright orange afterburner flames, large bombs under the wings; the left side is clear glowing orange and blue sky; warm sunset light, runway below; no people, no faces.",
+  "image": "thumbs/006-c.jpg"
+ }
+]
