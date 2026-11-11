@@ -49,7 +49,12 @@
       "stage": "packaged",
       "note": "gates passed; shorts partly imperfect, see decisions.md",
       "at": "2026-11-11T06:13:30+00:00"
+    },
+    {
+      "stage": "rendered",
+      "note": "https://github.com/cloudstrive6/the-doomsday-map/actions/runs/42962958073",
+      "at": "2026-11-11T06:32:58+00:00"
     }
   ],
-  "stage": "packaged"
+  "stage": "rendered"
 }
