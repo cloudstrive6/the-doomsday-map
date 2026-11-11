@@ -571,7 +571,7 @@
      ],
      "label": "Iran's first nuclear test (simulated)",
      "kind": "target",
-     "t": 2.09,
+     "t": 0.3,
      "color": "#F2B01E",
      "size": 7
     },
@@ -756,15 +756,15 @@
       47.5,
       33.5
      ],
-     "widthKm": 1300
+     "widthKm": 1400
     },
     {
      "t": 5.47,
      "center": [
-      52.6,
-      34.3
+      50,
+      34
      ],
-     "widthKm": 500
+     "widthKm": 1000
     }
    ],
    "clock": "HOUR 42",
@@ -805,7 +805,7 @@
       ]
      ],
      "t0": 0.2,
-     "t1": 2.04,
+     "t1": 5.07,
      "kind": "pla",
      "color": "#FF3B3B",
      "label": "Iranian salvo",
@@ -827,6 +827,15 @@
     },
     {
      "at": [
+      51.39,
+      35.69
+     ],
+     "label": "Tehran",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
       50.88,
       34.64
      ],
@@ -840,6 +849,15 @@
       33.98
      ],
      "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.68,
+      32.65
+     ],
+     "label": "Isfahan",
      "kind": "dot",
      "t": 0.3
     },
@@ -2438,7 +2456,7 @@
    "id": "c2-how",
    "type": "region",
    "start": 173.32,
-   "end": 183.882,
+   "end": 189.815,
    "tag": "REAL DATA",
    "view": {
     "center": [
@@ -2474,6 +2492,22 @@
     },
     {
      "t": 10.56,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 13.12,
+     "center": [
+      51.4,
+      33.6
+     ],
+     "widthKm": 800
+    },
+    {
+     "t": 16.5,
      "center": [
       52.6,
       34.3
@@ -2557,46 +2591,26 @@
      "text": "A year or more: a missile warhead",
      "color": "#FF3B3B",
      "t": 8.11
+    },
+    {
+     "at": [
+      54.2,
+      35.4
+     ],
+     "text": "Suppose it gets there anyway",
+     "color": "#FFD23F",
+     "t": 10.56
+    },
+    {
+     "at": [
+      54.2,
+      34.7
+     ],
+     "text": "What happens in the first four days?",
+     "color": "#FFFFFF",
+     "t": 13.12
     }
    ]
-  },
-  {
-   "id": "c2-four",
-   "type": "timeline",
-   "start": 183.882,
-   "end": 189.815,
-   "tag": "SIMULATION",
-   "title": "The first four days",
-   "sub": "hours after the test · schematic",
-   "total": 96,
-   "unit": "h",
-   "segments": [
-    {
-     "from": 0,
-     "to": 40,
-     "label": "Waiting",
-     "color": "#F2B01E"
-    },
-    {
-     "from": 40,
-     "to": 42,
-     "label": "Raid",
-     "color": "#3ED6C8"
-    },
-    {
-     "from": 42,
-     "to": 96,
-     "label": "Digging goes on",
-     "color": "#F2B01E"
-    },
-    {
-     "from": 95,
-     "to": 96,
-     "label": "Jericho",
-     "color": "#FF3B3B"
-    }
-   ],
-   "cursorTo": 96
   },
   {
    "id": "c3-card",
@@ -2859,31 +2873,31 @@
    "id": "c3-zero",
    "type": "region",
    "start": 210.519,
-   "end": 230.271,
+   "end": 217.843,
    "tag": "SIMULATION",
    "view": {
     "center": [
-     52.6,
-     34.3
+     51.6,
+     34.0
     ],
-    "widthKm": 500
+    "widthKm": 900
    },
    "camera": [
     {
      "t": 0,
      "center": [
-      52.6,
-      34.3
+      51.6,
+      34.0
      ],
-     "widthKm": 500
+     "widthKm": 900
     },
     {
      "t": 0.1,
      "center": [
-      52.6,
-      34.3
+      52.1,
+      34.2
      ],
-     "widthKm": 500
+     "widthKm": 700
     },
     {
      "t": 7.32,
@@ -2891,31 +2905,7 @@
       52.6,
       34.3
      ],
-     "widthKm": 500
-    },
-    {
-     "t": 9.74,
-     "center": [
-      52.6,
-      34.3
-     ],
-     "widthKm": 500
-    },
-    {
-     "t": 13.06,
-     "center": [
-      52.6,
-      34.3
-     ],
-     "widthKm": 500
-    },
-    {
-     "t": 19.75,
-     "center": [
-      52.6,
-      34.3
-     ],
-     "widthKm": 500
+     "widthKm": 560
     }
    ],
    "clock": "T+00:00",
@@ -2980,66 +2970,12 @@
    "labels": [
     {
      "at": [
-      52.9,
-      34.45
-     ],
-     "text": "Every clock counts from here",
-     "color": "#FFFFFF",
-     "t": 2.43
-    },
-    {
-     "at": [
-      52.9,
-      34.33
+      53.4,
+      34.3
      ],
      "text": "No calendar date",
      "color": "#FFD23F",
      "t": 5.67
-    },
-    {
-     "at": [
-      52.9,
-      34.2
-     ],
-     "text": "Test assumed contained",
-     "color": "#3ED6C8",
-     "t": 7.62
-    },
-    {
-     "at": [
-      52.7,
-      34.52
-     ],
-     "text": "No fireball",
-     "color": "#FFFFFF",
-     "t": 11.77
-    },
-    {
-     "at": [
-      52.7,
-      34.42
-     ],
-     "text": "No fallout",
-     "color": "#FFFFFF",
-     "t": 13.06
-    },
-    {
-     "at": [
-      52.7,
-      34.12
-     ],
-     "text": "No ring numbers",
-     "color": "#FFFFFF",
-     "t": 14.15
-    },
-    {
-     "at": [
-      52.7,
-      34.02
-     ],
-     "text": "A deep test is not a surface burst",
-     "color": "#FFD23F",
-     "t": 15.56
     }
    ],
    "rings": [
@@ -3048,10 +2984,166 @@
       52.6,
       34.3
      ],
-     "km": 20,
+     "km": 30,
      "color": "#3ED6C8",
      "dashed": true,
-     "t": 7.62
+     "t": 1.0
+    }
+   ]
+  },
+  {
+   "id": "c3-contained",
+   "type": "region",
+   "start": 217.843,
+   "end": 230.271,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     52.6,
+     34.3
+    ],
+    "widthKm": 560
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 560
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.7,
+      34.4
+     ],
+     "widthKm": 520
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 9.62,
+     "center": [
+      52.6,
+      34.3386
+     ],
+     "widthKm": 500.0
+    },
+    {
+     "t": 12.43,
+     "center": [
+      52.6,
+      34.35
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "T+00:08",
+   "clockLabel": "MINUTE ZERO",
+   "clockRate": 1,
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Test assumed contained",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#3ED6C8",
+     "size": 7
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      53.0,
+      34.95
+     ],
+     "text": "No fireball",
+     "color": "#FFFFFF",
+     "t": 4.44
+    },
+    {
+     "at": [
+      53.0,
+      34.7
+     ],
+     "text": "No fallout",
+     "color": "#FFFFFF",
+     "t": 5.73
+    },
+    {
+     "at": [
+      53.0,
+      33.85
+     ],
+     "text": "No ring numbers",
+     "color": "#FFFFFF",
+     "t": 6.82
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 30,
+     "color": "#3ED6C8",
+     "dashed": true,
+     "t": 0.3
     }
    ]
   },
@@ -3971,63 +4063,47 @@
    "id": "c4-entrances",
    "type": "region",
    "start": 321.251,
-   "end": 337.239,
+   "end": 330.44,
    "tag": "REAL DATA",
    "view": {
     "center": [
-     51.68,
-     32.65
+     51.2,
+     32.4
     ],
-    "widthKm": 500
+    "widthKm": 800
    },
    "camera": [
     {
      "t": 0,
      "center": [
-      51.68,
-      32.65
+      51.2,
+      32.4
      ],
-     "widthKm": 500
+     "widthKm": 800
     },
     {
      "t": 0.1,
      "center": [
-      51.68,
+      51.7,
       32.65
      ],
-     "widthKm": 500
+     "widthKm": 640
     },
     {
      "t": 6.1,
      "center": [
-      51.68,
-      32.65
+      51.8,
+      32.8
      ],
-     "widthKm": 500
+     "widthKm": 560
     },
     {
-     "t": 8.69,
+     "t": 9.19,
      "center": [
-      51.68,
-      32.65
+      51.9,
+      32.9
      ],
-     "widthKm": 500
-    },
-    {
-     "t": 9.59,
-     "center": [
-      52.2,
-      33.6
-     ],
-     "widthKm": 500
-    },
-    {
-     "t": 15.99,
-     "center": [
-      52.6,
-      34.3
-     ],
-     "widthKm": 500
+     "widthKm": 520
     }
    ],
    "clock": "",
@@ -4037,44 +4113,6 @@
      "iso": "364",
      "color": "#F2B01E",
      "fill": "rgba(242,176,30,0.07)"
-    }
-   ],
-   "labels": [
-    {
-     "at": [
-      51.9,
-      32.9
-     ],
-     "text": "Storage tunnels: too deep for even that bomb",
-     "color": "#FFFFFF",
-     "t": 2.94
-    },
-    {
-     "at": [
-      51.9,
-      32.45
-     ],
-     "text": "So the strikes went for the entrances",
-     "color": "#FF3B3B",
-     "t": 6.4
-    },
-    {
-     "at": [
-      52.75,
-      34.45
-     ],
-     "text": "Israel's aim: the entrances",
-     "color": "#3ED6C8",
-     "t": 9.69
-    },
-    {
-     "at": [
-      52.75,
-      34.12
-     ],
-     "text": "Not the halls below",
-     "color": "#FF3B3B",
-     "t": 14.18
     }
    ],
    "cities": [
@@ -4091,14 +4129,163 @@
     },
     {
      "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      52.0,
+      33.2
+     ],
+     "text": "Storage tunnels: too deep for even that bomb",
+     "color": "#FFFFFF",
+     "t": 2.94
+    },
+    {
+     "at": [
+      52.0,
+      32.3
+     ],
+     "text": "So the strikes went for the entrances",
+     "color": "#FF3B3B",
+     "t": 6.4
+    }
+   ]
+  },
+  {
+   "id": "c4-aim",
+   "type": "region",
+   "start": 330.44,
+   "end": 337.239,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     52.0,
+     33.8
+    ],
+    "widthKm": 800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      52.0,
+      33.8
+     ],
+     "widthKm": 800
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.4,
+      34.1
+     ],
+     "widthKm": 620
+    },
+    {
+     "t": 6.8,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 520
+    }
+   ],
+   "clock": "HOUR 40",
+   "clockLabel": "ISRAEL'S AIM",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
       52.6,
       34.3
      ],
      "label": "Our site",
      "kind": "target",
-     "t": 9.59,
+     "t": 0.3,
      "color": "#FF3B3B",
-     "size": 6
+     "size": 7
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 12,
+     "color": "#3ED6C8",
+     "t": 3.31,
+     "label": "Entrances"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      53.3,
+      34.7
+     ],
+     "text": "Israel's aim: the entrances",
+     "color": "#3ED6C8",
+     "t": 0.5
+    },
+    {
+     "at": [
+      53.3,
+      33.9
+     ],
+     "text": "Not the halls below",
+     "color": "#FF3B3B",
+     "t": 4.99
     }
    ]
   },
@@ -4110,33 +4297,41 @@
    "tag": "SIMULATION",
    "view": {
     "center": [
-     44,
-     32.8
+     45,
+     33
     ],
-    "widthKm": 2200
+    "widthKm": 2500
    },
    "camera": [
     {
      "t": 0,
      "center": [
-      44,
-      32.8
+      45,
+      33
      ],
-     "widthKm": 2200
+     "widthKm": 2500
     },
     {
      "t": 0.1,
      "center": [
-      44,
+      45.2,
       33
      ],
-     "widthKm": 2000
+     "widthKm": 2400
     },
     {
-     "t": 9.25,
+     "t": 8.85,
      "center": [
-      41,
-      32.5
+      45,
+      33
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 11.75,
+     "center": [
+      40,
+      32.3
      ],
      "widthKm": 1500
     },
@@ -4180,18 +4375,17 @@
       52.6,
       34.3
      ],
-     "label": "Raid lands",
+     "label": "Raid lands: test site",
      "kind": "target",
      "t": 0.4,
      "color": "#FF3B3B",
-     "size": 6
+     "size": 7
     },
     {
      "at": [
       51.68,
       32.65
      ],
-     "label": "Raid lands",
      "kind": "target",
      "t": 0.9,
      "color": "#FF3B3B",
@@ -4233,8 +4427,8 @@
    "labels": [
     {
      "at": [
-      47.0,
-      35.9
+      42.0,
+      35.6
      ],
      "text": "Iran fires back",
      "color": "#FFD23F",
@@ -4439,8 +4633,8 @@
    "tag": "SIMULATION",
    "view": {
     "center": [
-     35.21,
-     31.77
+     35.4,
+     31.8
     ],
     "widthKm": 500
    },
@@ -4448,21 +4642,29 @@
     {
      "t": 0,
      "center": [
-      35.21,
-      31.77
+      35.4,
+      31.8
      ],
      "widthKm": 500
     },
     {
      "t": 0.1,
      "center": [
-      38,
-      32.5
+      35.6,
+      32.0
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 5.82,
+     "center": [
+      41,
+      32.4
      ],
      "widthKm": 1300
     },
     {
-     "t": 6.42,
+     "t": 7.62,
      "center": [
       47,
       33.3
@@ -4530,8 +4732,8 @@
    "labels": [
     {
      "at": [
-      36.5,
-      33.9
+      35.7,
+      31.2
      ],
      "text": "Only a nuclear weapon addresses it",
      "color": "#FFD23F",
@@ -4548,7 +4750,7 @@
    "view": {
     "center": [
      38,
-     32
+     30
     ],
     "widthKm": 1500
    },
@@ -4557,7 +4759,7 @@
      "t": 0,
      "center": [
       38,
-      32
+      30
      ],
      "widthKm": 1500
     },
@@ -4565,7 +4767,7 @@
      "t": 0.1,
      "center": [
       40,
-      32.5
+      29.5
      ],
      "widthKm": 1900
     },
@@ -4573,7 +4775,7 @@
      "t": 6.24,
      "center": [
       43,
-      33
+      29.5
      ],
      "widthKm": 2500
     },
@@ -4581,7 +4783,7 @@
      "t": 10.93,
      "center": [
       45,
-      33.5
+      29.5
      ],
      "widthKm": 2400
     },
@@ -4589,7 +4791,7 @@
      "t": 19.7,
      "center": [
       47,
-      33.3
+      30
      ],
      "widthKm": 2100
     }
@@ -4681,7 +4883,7 @@
     {
      "at": [
       41.0,
-      36.3
+      33.8
      ],
      "text": "1,670 km in eight minutes",
      "color": "#FFFFFF",
@@ -4689,8 +4891,8 @@
     },
     {
      "at": [
-      44.0,
-      30.6
+      45.0,
+      26.8
      ],
      "text": "Israel has never confirmed its arsenal",
      "color": "#3ED6C8",
@@ -4698,8 +4900,8 @@
     },
     {
      "at": [
-      47.0,
-      30.0
+      48.0,
+      28.2
      ],
      "text": "10 kt: entirely our assumption",
      "color": "#FF3B3B",
@@ -4711,7 +4913,7 @@
    "id": "c4-clock",
    "type": "region",
    "start": 401.256,
-   "end": 409.417,
+   "end": 415.057,
    "tag": "SIMULATION",
    "view": {
     "center": [
@@ -4738,7 +4940,15 @@
      "widthKm": 2300
     },
     {
-     "t": 8.16,
+     "t": 8.01,
+     "center": [
+      47,
+      33
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 13.8,
      "center": [
       48,
       33.3
@@ -4837,42 +5047,30 @@
     },
     {
      "at": [
-      41.0,
-      28.4
+      44.0,
+      36.2
      ],
      "text": "The clock from the cold open",
      "color": "#FFD23F",
      "t": 6.05
-    }
-   ]
-  },
-  {
-   "id": "c4-eleven",
-   "type": "bars",
-   "start": 409.417,
-   "end": 415.057,
-   "tag": "SIMULATION",
-   "title": "Two nuclear events, eleven kilotons together",
-   "sub": "kilotons · no other nuclear weapon is used",
-   "source": "Scenario engine",
-   "bars": [
-    {
-     "label": "Test, hour 0",
-     "value": 1,
-     "display": "1 kt",
-     "color": "#F2B01E"
     },
     {
-     "label": "Jericho, hour 96",
-     "value": 10,
-     "display": "10 kt",
-     "color": "#FF3B3B"
+     "at": [
+      48.0,
+      30.2
+     ],
+     "text": "No other nuclear weapon is used",
+     "color": "#FFFFFF",
+     "t": 8.01
     },
     {
-     "label": "Total",
-     "value": 11,
-     "display": "11 kt",
-     "color": "#FFFFFF"
+     "at": [
+      48.0,
+      29.0
+     ],
+     "text": "Two events: 11 kt together",
+     "color": "#FF3B3B",
+     "t": 10.03
     }
    ]
   },
@@ -4977,89 +5175,88 @@
   },
   {
    "id": "h-flash",
-   "type": "region",
+   "type": "city",
    "start": 421.38300000000004,
    "end": 431.368,
    "tag": "SIMULATION",
+   "city": "iran-site",
    "view": {
     "center": [
      52.6,
      34.3
     ],
-    "widthKm": 150
+    "widthKm": 5.0
    },
    "camera": [
     {
-     "t": 0,
+     "t": 0.0,
      "center": [
       52.6,
       34.3
      ],
-     "widthKm": 150
+     "widthKm": 5.0
     },
     {
-     "t": 0.1,
-     "center": [
-      52.62,
-      34.31
-     ],
-     "widthKm": 150
-    },
-    {
-     "t": 7.33,
+     "t": 3.33,
      "center": [
       52.6,
       34.3
      ],
-     "widthKm": 150
+     "widthKm": 4.4
+    },
+    {
+     "t": 6.66,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 3.8
     },
     {
      "t": 9.98,
      "center": [
       52.6,
-      34.28
+      34.3
      ],
-     "widthKm": 150
+     "widthKm": 3.2
     }
    ],
-   "burst": {
-    "at": [
-     52.6,
-     34.3
-    ],
-    "t": 0.1,
-    "km": 3.0,
-    "fade": 8
-   },
+   "gz": [
+    52.6,
+    34.3
+   ],
    "clock": "T+08:00",
    "clockLabel": "IMPACT · T+96 H",
    "clockRate": 0,
    "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
-   "highlight": [
-    {
-     "iso": "364",
-     "color": "#F2B01E",
-     "fill": "rgba(242,176,30,0.07)"
-    }
-   ],
-   "cities": [
+   "flashT": 0.1,
+   "rings": [
     {
      "at": [
       52.6,
       34.3
      ],
-     "label": "Ground zero (simulated)",
-     "kind": "target",
-     "t": 0.5,
-     "color": "#FF3B3B",
-     "size": 6
+     "km": 0.191,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": 0.6
     }
    ],
+   "legend": [],
    "labels": [
     {
      "at": [
-      52.62,
-      34.37
+      52.6,
+      34.3
+     ],
+     "text": "Simulated location",
+     "color": "#FFFFFF",
+     "t": 0.5
+    },
+    {
+     "at": [
+      52.6,
+      34.303999999999995
      ],
      "text": "Ground burst: our choice",
      "color": "#FFFFFF",
@@ -5067,88 +5264,88 @@
     },
     {
      "at": [
-      52.62,
-      34.24
-     ],
-     "text": "The engine offers air or ground only",
-     "color": "rgba(236,239,242,0.95)",
-     "t": 4.13
-    },
-    {
-     "at": [
-      52.62,
-      34.31
+      52.6,
+      34.296
      ],
      "text": "Every number here is the engine's",
      "color": "#FFD23F",
-     "t": 7.53
+     "t": 7.33
     }
    ],
-   "caption": "A ground burst lifts earth into the fireball."
+   "caption": "A ground burst lifts earth into the fireball. The engine offers air or ground only."
   },
   {
    "id": "h-fireball",
-   "type": "region",
+   "type": "city",
    "start": 431.368,
    "end": 450.824,
    "tag": "SIMULATION",
+   "city": "iran-site",
    "view": {
     "center": [
      52.6,
      34.3
     ],
-    "widthKm": 150
+    "widthKm": 1.4
    },
    "camera": [
     {
-     "t": 0,
+     "t": 0.0,
      "center": [
       52.6,
       34.3
      ],
-     "widthKm": 150
+     "widthKm": 1.4
     },
     {
-     "t": 0.1,
-     "center": [
-      52.61,
-      34.31
-     ],
-     "widthKm": 150
-    },
-    {
-     "t": 0.1,
+     "t": 3.89,
      "center": [
       52.6,
       34.3
      ],
-     "widthKm": 150
+     "widthKm": 1.72
     },
     {
-     "t": 0.1,
+     "t": 7.78,
      "center": [
       52.6,
       34.3
      ],
-     "widthKm": 150
+     "widthKm": 2.04
     },
     {
-     "t": 0.1,
+     "t": 11.67,
      "center": [
       52.6,
-      34.31
+      34.3
      ],
-     "widthKm": 150
+     "widthKm": 2.36
+    },
+    {
+     "t": 15.56,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 2.68
     },
     {
      "t": 19.46,
      "center": [
       52.6,
-      34.29
+      34.3
      ],
-     "widthKm": 150
+     "widthKm": 3.0
     }
    ],
+   "gz": [
+    52.6,
+    34.3
+   ],
+   "clock": "T+08:00",
+   "clockLabel": "IMPACT · T+96 H",
+   "clockRate": 0,
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
    "legend": [
     {
      "text": "Fireball 191 m radius",
@@ -5157,17 +5354,6 @@
     {
      "text": "20 psi 238 m",
      "color": "#FF7A1A"
-    }
-   ],
-   "clock": "T+08:00",
-   "clockLabel": "IMPACT · T+96 H",
-   "clockRate": 0,
-   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
-   "highlight": [
-    {
-     "iso": "364",
-     "color": "#F2B01E",
-     "fill": "rgba(242,176,30,0.07)"
     }
    ],
    "rings": [
@@ -5192,104 +5378,91 @@
      "t": 12.7
     }
    ],
-   "cities": [
+   "labels": [
     {
      "at": [
       52.6,
       34.3
      ],
-     "label": "Earth lifted into the fireball",
-     "kind": "target",
-     "t": 0.9,
-     "color": "#FF3B3B",
-     "size": 6
-    }
-   ],
-   "labels": [
+     "text": "Simulated location",
+     "color": "#FFFFFF",
+     "t": 0.4
+    },
     {
      "at": [
-      52.62,
-      34.37
+      52.6,
+      34.302499999999995
      ],
-     "text": "The earth comes back down as fallout",
+     "text": "Earth lifted, then falls back as fallout",
      "color": "#F2B01E",
      "t": 4.82
-    },
-    {
-     "at": [
-      52.62,
-      34.24
-     ],
-     "text": "About 380 m across",
-     "color": "#FFFFFF",
-     "t": 9.3
-    },
-    {
-     "at": [
-      52.62,
-      34.42
-     ],
-     "text": "20 psi: 240 m",
-     "color": "#FF7A1A",
-     "t": 16.36
     }
    ]
   },
   {
    "id": "h-5psi",
-   "type": "region",
+   "type": "city",
    "start": 450.824,
    "end": 466.657,
    "tag": "SIMULATION",
+   "city": "iran-site",
    "view": {
     "center": [
      52.6,
      34.3
     ],
-    "widthKm": 150
+    "widthKm": 3.2
    },
    "camera": [
     {
-     "t": 0,
+     "t": 0.0,
      "center": [
       52.6,
       34.3
      ],
-     "widthKm": 150
+     "widthKm": 3.2
     },
     {
-     "t": 0.1,
-     "center": [
-      52.61,
-      34.31
-     ],
-     "widthKm": 150
-    },
-    {
-     "t": 0.1,
+     "t": 3.96,
      "center": [
       52.6,
       34.3
      ],
-     "widthKm": 150
+     "widthKm": 3.5
     },
     {
-     "t": 0.1,
+     "t": 7.92,
      "center": [
       52.6,
-      34.29
+      34.3
      ],
-     "widthKm": 150
+     "widthKm": 3.8
+    },
+    {
+     "t": 11.87,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 4.1
     },
     {
      "t": 15.83,
      "center": [
-      52.59,
+      52.6,
       34.3
      ],
-     "widthKm": 150
+     "widthKm": 4.4
     }
    ],
+   "gz": [
+    52.6,
+    34.3
+   ],
+   "clock": "T+08:00",
+   "clockLabel": "IMPACT · T+96 H",
+   "clockRate": 0,
+   "source": "",
    "legend": [
     {
      "text": "Fireball 191 m radius",
@@ -5302,17 +5475,6 @@
     {
      "text": "5 psi 1.17 km",
      "color": "#FF3B3B"
-    }
-   ],
-   "clock": "T+08:00",
-   "clockLabel": "IMPACT · T+96 H",
-   "clockRate": 0,
-   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
-   "highlight": [
-    {
-     "iso": "364",
-     "color": "#F2B01E",
-     "fill": "rgba(242,176,30,0.07)"
     }
    ],
    "rings": [
@@ -5350,96 +5512,79 @@
    "labels": [
     {
      "at": [
-      52.64,
-      34.38
+      52.6,
+      34.3
      ],
-     "text": "5 psi: 1.17 km",
-     "color": "#FF3B3B",
-     "t": 1.31
+     "text": "Simulated location",
+     "color": "#FFFFFF",
+     "t": 0.3
     },
     {
      "at": [
-      52.64,
-      34.25
+      52.6,
+      34.288999999999994
      ],
-     "text": "About 4.3 km2 inside",
+     "text": "About 4.3 km2 inside the 5 psi ring",
      "color": "#FFFFFF",
      "t": 3.71
     },
     {
      "at": [
-      52.64,
-      34.2
+      52.6,
+      34.311
      ],
-     "text": "Flat ground: most buildings flattened",
-     "color": "rgba(236,239,242,0.95)",
-     "t": 6.99
-    },
-    {
-     "at": [
-      52.64,
-      34.43
-     ],
-     "text": "This is a mountain: rock changes it",
+     "text": "Rock changes the result: no tunnel number",
      "color": "#FFD23F",
      "t": 10.63
-    },
-    {
-     "at": [
-      52.64,
-      34.16
-     ],
-     "text": "No number for the tunnels",
-     "color": "#FFD23F",
-     "t": 14.35
     }
    ]
   },
   {
    "id": "h-burns",
-   "type": "region",
+   "type": "city",
    "start": 466.657,
    "end": 482.265,
    "tag": "SIMULATION",
+   "city": "iran-site",
    "view": {
     "center": [
      52.6,
      34.3
     ],
-    "widthKm": 150
+    "widthKm": 6.0
    },
    "camera": [
     {
-     "t": 0,
+     "t": 0.0,
      "center": [
       52.6,
       34.3
      ],
-     "widthKm": 150
+     "widthKm": 6.0
     },
     {
-     "t": 0.1,
-     "center": [
-      52.6,
-      34.31
-     ],
-     "widthKm": 150
-    },
-    {
-     "t": 0.1,
+     "t": 3.9,
      "center": [
       52.6,
       34.3
      ],
-     "widthKm": 150
+     "widthKm": 6.75
     },
     {
-     "t": 0.1,
+     "t": 7.8,
      "center": [
       52.6,
       34.3
      ],
-     "widthKm": 220
+     "widthKm": 7.5
+    },
+    {
+     "t": 11.71,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 8.25
     },
     {
      "t": 15.61,
@@ -5447,9 +5592,17 @@
       52.6,
       34.3
      ],
-     "widthKm": 300
+     "widthKm": 9.0
     }
    ],
+   "gz": [
+    52.6,
+    34.3
+   ],
+   "clock": "T+08:00",
+   "clockLabel": "IMPACT · T+96 H",
+   "clockRate": 0,
+   "source": "",
    "legend": [
     {
      "text": "Fireball 191 m radius",
@@ -5470,17 +5623,6 @@
     {
      "text": "Broken windows 3.2 km",
      "color": "#3ED6C8"
-    }
-   ],
-   "clock": "T+08:00",
-   "clockLabel": "IMPACT · T+96 H",
-   "clockRate": 0,
-   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
-   "highlight": [
-    {
-     "iso": "364",
-     "color": "#F2B01E",
-     "fill": "rgba(242,176,30,0.07)"
     }
    ],
    "rings": [
@@ -5538,39 +5680,21 @@
    "labels": [
     {
      "at": [
-      52.64,
-      34.38
+      52.6,
+      34.3
      ],
-     "text": "Burns: 1.6 km",
-     "color": "#F2B01E",
-     "t": 0.25
-    },
-    {
-     "at": [
-      52.64,
-      34.25
-     ],
-     "text": "Windows: 3.2 km",
-     "color": "#3ED6C8",
-     "t": 4.78
-    },
-    {
-     "at": [
-      52.64,
-      34.43
-     ],
-     "text": "Thinly populated country (our choice)",
+     "text": "Simulated location",
      "color": "#FFFFFF",
-     "t": 9.17
+     "t": 0.3
     },
     {
      "at": [
-      52.64,
-      34.2
+      52.6,
+      34.326
      ],
-     "text": "No town inside these rings",
+     "text": "No town inside these rings (our choice)",
      "color": "#FFD23F",
-     "t": 12.35
+     "t": 9.17
     }
    ]
   },
@@ -6174,27 +6298,27 @@
    "tag": "SIMULATION",
    "view": {
     "center": [
-     52.6,
-     34.3
+     53.0,
+     34.4
     ],
-    "widthKm": 500
+    "widthKm": 700
    },
    "camera": [
     {
      "t": 0,
      "center": [
-      52.6,
-      34.3
+      53.0,
+      34.4
      ],
-     "widthKm": 500
+     "widthKm": 700
     },
     {
      "t": 0.1,
      "center": [
-      52.6,
-      34.3
+      53.5,
+      34.6
      ],
-     "widthKm": 500
+     "widthKm": 800
     },
     {
      "t": 7.01,
@@ -6202,7 +6326,7 @@
       54.5,
       34.6
      ],
-     "widthKm": 800
+     "widthKm": 900
     },
     {
      "t": 11.24,
@@ -6266,6 +6390,26 @@
     },
     {
      "at": [
+      55.0,
+      34.9
+     ],
+     "label": "Dasht-e Kavir desert",
+     "kind": "target",
+     "t": 7.01,
+     "color": "#FFFFFF",
+     "size": 5
+    },
+    {
+     "at": [
+      51.39,
+      35.69
+     ],
+     "label": "Tehran",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
       51.73,
       33.72
      ],
@@ -6288,15 +6432,6 @@
     "label": "Drifting east: no dose"
    },
    "labels": [
-    {
-     "at": [
-      55.3,
-      35.4
-     ],
-     "text": "Dasht-e Kavir desert",
-     "color": "#FFFFFF",
-     "t": 7.01
-    },
     {
      "at": [
       51.0,

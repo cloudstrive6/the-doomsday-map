@@ -134,14 +134,14 @@ reg("open-target", tL, S("p04"), [("s", [46, 33.6], 1100), (2.0, [50, 34], 650),
 # p04: first test, the raid, Iran fires back, the work goes on
 a = S("p04")
 tS, tI, tW = W("p04", "Since"), W("p04", "Iran"), W("p04", "The")
-reg("open-test", a, tS, [("s", [49, 33.8], 900), ("e", TGT, 320)], clock="HOUR 00", clockLabel="THE FIRST TEST", clockRate=0, highlight=[HL_IRAN],
-    cities=[city(a, TGT, "Iran's first nuclear test (simulated)", W("p04", "hosted"), AMBER, "target", 7)],
+reg("open-test", a, tS, [("s", [49, 33.8], 900), ("e", TGT, 500)], clock="HOUR 00", clockLabel="THE FIRST TEST", clockRate=0, highlight=[HL_IRAN],
+    cities=[city(a, TGT, "Iran's first nuclear test (simulated)", a + 0.3, AMBER, "target", 7)],
     rings=[{"at": TGT, "km": 20, "color": AMBER, "label": "Contained", "t": rel(a, W("p04", "first")), "dashed": True}])
 reg("open-raid", tS, tI, [("s", [42, 32.5], 2000), ("e", [48, 33.5], 1300)], clock="HOUR 40", clockLabel="THE RAID", clockRate=0, highlight=[HL_ISR, HL_IRAN], legend=LEG,
     cities=[city(tS, NEVATIM, "Nevatim", tS + 0.3, TEAL, "base", 5), city(tS, TGT, "Tunnel entrances", W("p04", "tunnel"), RED, "target", 6)],
     ships=[missile(tS, [NEVATIM, TGT], tS + 0.2, tI - 0.2, label="Israeli raid", color=TEAL, kind="ally")])
-reg("open-fire", tI, S("p05"), [("s", [45, 33.5], 2000), (2.2, [47.5, 33.5], 1300), ("e", TGT, 420)], clock="HOUR 42", clockLabel="IRAN FIRES BACK", clockRate=0, highlight=[HL_ISR, HL_IRAN], legend=LEG,
-    ships=[missile(tI, [WEST_IRAN, NEVATIM], tI + 0.2, tW, label="Iranian salvo", color=RED)],
+reg("open-fire", tI, S("p05"), [("s", [45, 33.5], 2000), (2.2, [47.5, 33.5], 1400), ("e", [50, 34], 1000)], clock="HOUR 42", clockLabel="IRAN FIRES BACK", clockRate=0, highlight=[HL_ISR, HL_IRAN], legend=LEG,
+    ships=[missile(tI, [WEST_IRAN, NEVATIM], tI + 0.2, S("p05") - 0.4, label="Iranian salvo", color=RED)],
     cities=[city(tI, NEVATIM, "Nevatim", tI + 0.3, TEAL, "base", 5)],
     labels=[lab(tI, [53.2, 34.9], "The work under the rock goes on", tW + 0.3, AMBER)],
     rings=[{"at": TGT, "km": 20, "color": AMBER, "t": rel(tI, tW + 0.1), "dashed": True}])
@@ -224,12 +224,9 @@ add(id="c2-scale", type="bars", start=W("p13", "other"), end=S("p14"), tag="REAL
     bars=[{"label": "US intelligence chief: under", "value": 1, "display": "under 1 kt", "color": AMBER}, {"label": "Other estimates, low", "value": 0.5, "display": "0.5 kt", "color": AMBER}, {"label": "Other estimates, high", "value": 2, "display": "2 kt", "color": AMBER}, {"label": "Our simulated test", "value": 1, "display": "1 kt", "color": RED}])
 a = S("p14")
 tSu = W("p14", "Suppose")
-reg("c2-how", a, tSu, [("s", [53, 32.5], 1500), (3.4, [53, 33], 900), (7.0, TGT, 600), ("e", TGT, 450)], tag="REAL DATA", clock="", source="One published estimate (research note A7)", highlight=[HL_IRAN],
+reg("c2-how", a, S("p15"), [("s", [53, 32.5], 1500), (3.4, [53, 33], 900), (7.0, TGT, 600), (tSu, TGT, 500), (W("p14", "What"), [51.4, 33.6], 800), ("e", TGT, 500)], tag="REAL DATA", clock="", source="One published estimate (research note A7)", highlight=[HL_IRAN],
     cities=[city(a, [51.4, 33.0], "How fast?", a + 0.3, WHITE, "target", 6)],
-    labels=[lab(a, [49.2, 35.2], "Weeks: enrichment", W("p14", "weeks"), AMBER), lab(a, [49.2, 34.6], "Months: a crude device", W("p14", "months"), AMBER), lab(a, [49.2, 34.0], "A year or more: a missile warhead", W("p14", "year"), RED)])
-add(id="c2-four", type="timeline", start=tSu, end=S("p15"), tag="SIMULATION", title="The first four days", sub="hours after the test · schematic", total=96, unit="h",
-    segments=[{"from": 0, "to": 40, "label": "Waiting", "color": AMBER}, {"from": 40, "to": 42, "label": "Raid", "color": TEAL}, {"from": 42, "to": 96, "label": "Digging goes on", "color": AMBER}, {"from": 95, "to": 96, "label": "Jericho", "color": RED}], cursorTo=96)
-
+    labels=[lab(a, [49.2, 35.2], "Weeks: enrichment", W("p14", "weeks"), AMBER), lab(a, [49.2, 34.6], "Months: a crude device", W("p14", "months"), AMBER), lab(a, [49.2, 34.0], "A year or more: a missile warhead", W("p14", "year"), RED), lab(a, [54.2, 35.4], "Suppose it gets there anyway", tSu, YELLOW), lab(a, [54.2, 34.7], "What happens in the first four days?", W("p14", "What"), WHITE)])
 # ================================================================== Chapter 03 the test [SIMULATION]
 a = chapter("c3-card", S("p15"), 3.5, "CHAPTER 03", "The test", "SIMULATION")
 tTh = W("p15", "Then")
@@ -244,11 +241,14 @@ reg("c3-invent", a, S("p16"), [("s", TGT, 420), (2.5, TGT, 300), ("e", TGT, 220)
     labels=[lab(a, [52.9, 34.08], "Not any real place", W("p15", "any"), YELLOW)])
 a = S("p16")
 tW = W("p16", "We")
-reg("c3-zero", a, S("p17"), [("s", TGT, 500), (3.0, TGT, 340), (tW, TGT, 240), (W("p16", "On", 2), TGT, 220), (W("p16", "no", 3), TGT, 180), ("e", TGT, 160)], clock="T+00:00", clockLabel="MINUTE ZERO", clockRate=1, highlight=[HL_IRAN],
+reg("c3-zero", a, tW, [("s", [51.6, 34.0], 900), (3.4, [52.1, 34.2], 700), ("e", TGT, 560)], clock="T+00:00", clockLabel="MINUTE ZERO", clockRate=1, highlight=[HL_IRAN],
     cities=[city(a, TGT, "The test", a + 0.4, RED, "target", 7)],
-    labels=[lab(a, [52.9, 34.45], "Every clock counts from here", W("p16", "every"), WHITE), lab(a, [52.9, 34.33], "No calendar date", W("p16", "calendar"), YELLOW), lab(a, [52.9, 34.2], "Test assumed contained", tW + 0.3, TEAL),
-            lab(a, [52.7, 34.52], "No fireball", W("p16", "no", 2), WHITE), lab(a, [52.7, 34.42], "No fallout", W("p16", "no", 3), WHITE), lab(a, [52.7, 34.12], "No ring numbers", W("p16", "no", 4), WHITE), lab(a, [52.7, 34.02], "A deep test is not a surface burst", W("p16", "because"), YELLOW)],
-    rings=[{"at": TGT, "km": 20, "color": TEAL, "dashed": True, "t": rel(a, tW + 0.3)}])
+    labels=[lab(a, [53.4, 34.3], "No calendar date", W("p16", "calendar"), YELLOW)],
+    rings=[{"at": TGT, "km": 30, "color": TEAL, "dashed": True, "t": 1.0}])
+reg("c3-contained", tW, S("p17"), [("s", TGT, 560), (4.5, [52.7, 34.4], 520), (8.5, [52.6, 34.3], 500), ("e", [52.6, 34.35], 500)], clock="T+00:08", clockLabel="MINUTE ZERO", clockRate=1, highlight=[HL_IRAN],
+    cities=[city(tW, TGT, "Test assumed contained", tW + 0.3, TEAL, "target", 7)],
+    labels=[lab(tW, [53.0, 34.95], "No fireball", W("p16", "no", 2), WHITE), lab(tW, [53.0, 34.7], "No fallout", W("p16", "no", 3), WHITE), lab(tW, [53.0, 33.85], "No ring numbers", W("p16", "no", 4), WHITE)],
+    rings=[{"at": TGT, "km": 30, "color": TEAL, "dashed": True, "t": 0.3}])
 a = S("p17")
 tEn = W("p17", "ended")
 reg("c3-game24", a, W("p17", "An"), [("s", [43, 32], 2600), (4.5, [42, 32], 2200), (tEn + 1.5, [46, 33], 1900), ("e", [46, 33], 1700)], tag="REAL DATA", clock="2024", clockLabel="WAR GAME", clockRate=0, source="Bulletin of the Atomic Scientists, 2024",
@@ -293,15 +293,19 @@ glob("c4-bombs", a, tAt, [("s", 33, 35, 900), (3.8, 40, -10, 650), (W("p22", "Am
      markers=[{"at": NEVATIM, "label": "Israel: bunker busters", "color": TEAL, "kind": "base", "t": 0.4}, {"at": WHITEMAN, "label": "US: 13.5 t bomb and B-2", "color": BLUE, "kind": "base", "t": rel(a, W("p22", "America"))}, {"at": FORDOW, "label": "Fordow", "color": AMBER, "kind": "target", "t": rel(a, W("p22", "Fordow"))}],
      arcs=[{"from": WHITEMAN, "to": FORDOW, "t0": rel(a, W("p22", "America")), "t1": rel(a, W("p22", "America")) + 4.0, "color": BLUE, "loft": 0.3}], caption="Israel does not own that bomb, or the B-2 that carries it.")
 tEn = W("p22", "Israel's")
-reg("c4-entrances", tAt, S("p23"), [("s", ISFAHAN, 400), (3.0, ISFAHAN, 250), (W("p22", "so"), ISFAHAN, 170), (tEn - 0.5, ISFAHAN, 150), (tEn + 0.4, [52.2, 33.6], 500), ("e", TGT, 160)], tag="REAL DATA", clock="", source="IAEA; Institute for Science and International Security", highlight=[HL_IRAN],
-    labels=[lab(tAt, [51.9, 32.9], "Storage tunnels: too deep for even that bomb", W("p22", "storage"), WHITE), lab(tAt, [51.9, 32.45], "So the strikes went for the entrances", W("p22", "strikes"), RED), lab(tAt, [52.75, 34.45], "Israel's aim: the entrances", tEn + 0.5, TEAL), lab(tAt, [52.75, 34.12], "Not the halls below", W("p22", "halls"), RED)],
-    cities=[city(tAt, ISFAHAN, "Isfahan, 2025", tAt + 0.3, AMBER, "target", 7), city(tAt, TGT, "Our site", tEn + 0.4, RED, "target", 6)])
+reg("c4-entrances", tAt, tEn, [("s", [51.2, 32.4], 800), (3.0, [51.7, 32.65], 640), (W("p22", "so"), [51.8, 32.8], 560), ("e", [51.9, 32.9], 520)], tag="REAL DATA", clock="", source="IAEA; Institute for Science and International Security", highlight=[HL_IRAN],
+    cities=[city(tAt, ISFAHAN, "Isfahan, 2025", tAt + 0.3, AMBER, "target", 7)],
+    labels=[lab(tAt, [52.0, 33.2], "Storage tunnels: too deep for even that bomb", W("p22", "storage"), WHITE), lab(tAt, [52.0, 32.3], "So the strikes went for the entrances", W("p22", "strikes"), RED)])
+reg("c4-aim", tEn, S("p23"), [("s", [52.0, 33.8], 800), (3.2, [52.4, 34.1], 620), ("e", TGT, 520)], clock="HOUR 40", clockLabel="ISRAEL'S AIM", clockRate=0, highlight=[HL_IRAN],
+    cities=[city(tEn, TGT, "Our site", tEn + 0.3, RED, "target", 7)],
+    rings=[{"at": TGT, "km": 12, "color": TEAL, "t": rel(tEn, W("p22", "entrances", 2)), "label": "Entrances"}],
+    labels=[lab(tEn, [53.3, 34.7], "Israel's aim: the entrances", tEn + 0.5, TEAL), lab(tEn, [53.3, 33.9], "Not the halls below", W("p22", "halls"), RED)])
 a = S("p23")
 tF2 = W("p23", "fires")
-reg("c4-salvo", a, W("p23", "in", 2), [("s", [44, 32.8], 2200), (3.0, [44, 33], 2000), (W("p23", "twelve"), [41, 32.5], 1500), ("e", [38, 32], 1100)], clock="HOUR 42", clockLabel="THE RAIDS LAND", clockRate=0, highlight=[HL_ISR, HL_IRAN], legend=LEG,
-    cities=[city(a, TGT, "Raid lands", a + 0.4, RED, "target", 6), city(a, ISFAHAN, "Raid lands", a + 0.9, RED, "target", 6), city(a, NEVATIM, "Nevatim", tF2 + 0.3, TEAL, "base", 6)],
+reg("c4-salvo", a, W("p23", "in", 2), [("s", [45, 33], 2500), (3.0, [45.2, 33], 2400), (W("p23", "twelve") - 0.4, [45, 33], 2400), (W("p23", "twelve") + 2.5, [40, 32.3], 1500), ("e", [38, 32], 1100)], clock="HOUR 42", clockLabel="THE RAIDS LAND", clockRate=0, highlight=[HL_ISR, HL_IRAN], legend=LEG,
+    cities=[city(a, TGT, "Raid lands: test site", a + 0.4, RED, "target", 7), city(a, ISFAHAN, "", a + 0.9, RED, "target", 6), city(a, NEVATIM, "Nevatim", tF2 + 0.3, TEAL, "base", 6)],
     ships=[missile(a, [WEST_IRAN, NEVATIM], W("p23", "One"), W("p23", "away") + 0.3, label="One missile = a salvo", color=RED)],
-    labels=[lab(a, [47.0, 35.9], "Iran fires back", tF2, YELLOW), lab(a, [41.0, 29.0], "About 1,200 km, 6.5 minutes", W("p23", "twelve"), WHITE)])
+    labels=[lab(a, [42.0, 35.6], "Iran fires back", tF2, YELLOW), lab(a, [41.0, 29.0], "About 1,200 km, 6.5 minutes", W("p23", "twelve"), WHITE)])
 a = W("p23", "in", 2)
 add(id="c4-550", type="number", start=a, end=W("p23", "and", 3), tag="REAL DATA", value="ABOUT 550", countTo=550, prefix="ABOUT ", label="Iranian missiles, June 2025", color=RED, source="Israeli military statements; Reuters")
 add(id="c4-nine", type="isotype", start=W("p23", "and", 3), end=S("p24"), tag="REAL DATA", headline="ABOUT NINE IN TEN INTERCEPTED", label="Iranian missiles, June 2025", total=10, filled=9, per="by Israel's count", color=TEAL, source="Israeli military statements; Reuters")
@@ -312,22 +316,20 @@ reg("c4-digging", a, S("p25"), [("s", [47, 33.5], 1400), (3.0, TGT, 600), (W("p2
     labels=[lab(a, [51.5, 35.3], "As in the 2024 game", W("p24", "as"), WHITE), lab(a, [53.7, 33.7], "And so does the warhead", W("p24", "warhead"), RED)])
 a = S("p25")
 tOne = W("p25", "One")
-reg("c4-cabinet", a, tOne, [("s", JERUSALEM, 400), (3.5, [38, 32.5], 1300), (W("p25", "buried"), [47, 33.3], 1700), ("e", [49, 33.4], 1500)], clock="DAY 4", clockLabel="OUR SCENARIO", clockRate=0, highlight=[HL_ISR, HL_IRAN], legend=LEG,
+reg("c4-cabinet", a, tOne, [("s", [35.4, 31.8], 500), (4.4, [35.6, 32.0], 600), (W("p25", "buried") - 0.6, [41, 32.4], 1300), (W("p25", "buried") + 1.2, [47, 33.3], 1700), ("e", [49, 33.4], 1500)], clock="DAY 4", clockLabel="OUR SCENARIO", clockRate=0, highlight=[HL_ISR, HL_IRAN], legend=LEG,
     cities=[city(a, JERUSALEM, "Israel's cabinet decides", W("p25", "cabinet"), TEAL, "base", 7), city(a, TGT, "A buried target", W("p25", "buried"), RED, "target", 6)],
-    labels=[lab(a, [36.5, 33.9], "Only a nuclear weapon addresses it", W("p25", "nuclear"), YELLOW)])
+    labels=[lab(a, [35.7, 31.2], "Only a nuclear weapon addresses it", W("p25", "nuclear"), YELLOW)])
 tFl = W("p25", "flies")
-reg("c4-jericho", tOne, S("p26"), [("s", [38, 32], 1500), (3.0, [40, 32.5], 1900), (tFl, [43, 33], 2500), (W("p25", "Israel"), [45, 33.5], 2400), ("e", [47, 33.3], 2100)], clock="T+00:00", clockLabel="MINUTES AFTER LAUNCH", clockRate=0, highlight=[HL_ISR, HL_IRAN], legend=LEG,
+reg("c4-jericho", tOne, S("p26"), [("s", [38, 30], 1500), (3.0, [40, 29.5], 1900), (tFl, [43, 29.5], 2500), (W("p25", "Israel"), [45, 29.5], 2400), ("e", [47, 30], 2100)], clock="T+00:00", clockLabel="MINUTES AFTER LAUNCH", clockRate=0, highlight=[HL_ISR, HL_IRAN], legend=LEG,
     cities=[city(tOne, JER, "Jericho II battery (simulated)", W("p25", "Jericho"), RED, "base", 6), city(tOne, TGT, "Test mountain", tFl, RED, "target", 6)],
     rings=[{"at": JER, "km": 1500, "color": AMBER, "label": "1,500 km or more", "dashed": True, "t": rel(tOne, W("p25", "fifteen"))}],
     ships=[missile(tOne, [JER, TGT], tFl, W("p25", "Israel") - 0.2, label="Jericho II", color=RED)],
-    labels=[lab(tOne, [41.0, 36.3], "1,670 km in eight minutes", W("p25", "sixteen"), WHITE), lab(tOne, [44.0, 30.6], "Israel has never confirmed its arsenal", W("p25", "never"), TEAL), lab(tOne, [47.0, 30.0], "10 kt: entirely our assumption", W("p25", "ten-kiloton"), RED)])
+    labels=[lab(tOne, [41.0, 33.8], "1,670 km in eight minutes", W("p25", "sixteen"), WHITE), lab(tOne, [45.0, 26.8], "Israel has never confirmed its arsenal", W("p25", "never"), TEAL), lab(tOne, [48.0, 28.2], "10 kt: entirely our assumption", W("p25", "ten-kiloton"), RED)])
 a = S("p26")
-reg("c4-clock", a, S("p27"), [("s", [38, 32], 2000), (3.0, [44, 33], 2300), ("e", [48, 33.3], 1700)], clock="HOUR 96", clockLabel="THE LAUNCH", clockRate=0, highlight=[HL_ISR, HL_IRAN], legend=LEG,
+reg("c4-clock", a, S("p28"), [("s", [38, 32], 2000), (3.0, [44, 33], 2300), (W("p27", "No"), [47, 33], 1800), ("e", [48, 33.3], 1700)], clock="HOUR 96", clockLabel="THE LAUNCH", clockRate=0, highlight=[HL_ISR, HL_IRAN], legend=LEG,
     cities=[city(a, JER, "Launch: hour 96", a + 0.3, RED, "base", 6), city(a, TGT, "Test mountain", a + 1.2, RED, "target", 6)],
     ships=[missile(a, [JER, TGT], W("p26", "and"), S("p27") - 0.3, label="Jericho II", color=RED)],
-    labels=[lab(a, [41.0, 36.3], "96 hours after the test", W("p26", "ninety-six"), WHITE), lab(a, [44.5, 29.5], "Flight: eight minutes", W("p26", "eight"), WHITE), lab(a, [41.0, 28.4], "The clock from the cold open", W("p26", "clock"), YELLOW)])
-add(id="c4-eleven", type="bars", start=S("p27"), end=S("p28"), tag="SIMULATION", title="Two nuclear events, eleven kilotons together", sub="kilotons · no other nuclear weapon is used", source="Scenario engine",
-    bars=[{"label": "Test, hour 0", "value": 1, "display": "1 kt", "color": AMBER}, {"label": "Jericho, hour 96", "value": 10, "display": "10 kt", "color": RED}, {"label": "Total", "value": 11, "display": "11 kt", "color": WHITE}])
+    labels=[lab(a, [41.0, 36.3], "96 hours after the test", W("p26", "ninety-six"), WHITE), lab(a, [44.5, 29.5], "Flight: eight minutes", W("p26", "eight"), WHITE), lab(a, [44.0, 36.2], "The clock from the cold open", W("p26", "clock"), YELLOW), lab(a, [48.0, 30.2], "No other nuclear weapon is used", W("p27", "No"), WHITE), lab(a, [48.0, 29.0], "Two events: 11 kt together", W("p27", "Two"), RED)])
 reg("c4-what", S("p28"), S("p29"), [("s", [49, 33.5], 700), (1.8, TGT, 350), ("e", TGT, 220)], clock="T+00:07", clockLabel="AFTER LAUNCH", clockRate=1, highlight=[HL_IRAN],
     cities=[city(S("p28"), TGT, "What does ten kilotons do to a mountain?", S("p28") + 0.3, RED, "target", 7)])
 
@@ -357,28 +359,32 @@ def prior(n):
     return [dict(ring_at(i, -30)) for i in range(n)]
 
 
-# H1 flash
+# Hero rings as city shots on the invented site (iran-site.json: terrain tiles only, labelled "simulated location")
+def cty(sid, a, b, w0, w1, **kw):
+    dur = b - a
+    n = max(2, int(dur // 4.5) + 1)
+    keys = [{"t": round(dur * i / n, 2), "center": TGT, "widthKm": round(w0 + (w1 - w0) * i / n, 3)} for i in range(n + 1)]
+    d = dict(id=sid, type="city", start=a, end=b, tag="SIMULATION", city="iran-site", view={"center": TGT, "widthKm": w0}, camera=keys, gz=TGT,
+             clock=CLK, clockLabel="IMPACT · T+96 H", clockRate=0, source=HC["source"])
+    d.update(kw)
+    add(**d)
+
+
+SIM = {"at": TGT, "text": "Simulated location", "color": WHITE}
 a = tC5
 tEng = W("p29", "Every")
-reg("h-flash", a, S("p30"), [("s", TGT, 150), (3.5, [52.62, 34.31], 150), (tEng, [52.6, 34.3], 150), ("e", [52.6, 34.28], 150)], burst={"at": TGT, "t": 0.1, "km": 3.0, "fade": 8}, clock=CLK, clockLabel="IMPACT · T+96 H", clockRate=0,
-    source=HC["source"], highlight=[HL_IRAN],
-    cities=[city(a, TGT, "Ground zero (simulated)", a + 0.5, RED, "target", 6)],
-    labels=[lab(a, [52.62, 34.37], "Ground burst: our choice", W("p29", "ground"), WHITE), lab(a, [52.62, 34.24], "The engine offers air or ground only", W("p29", "engine"), DIM), lab(a, [52.62, 34.31], "Every number here is the engine's", tEng + 0.2, YELLOW)],
-    caption="A ground burst lifts earth into the fireball.")
+cty("h-flash", a, S("p30"), 5.0, 3.2, flashT=0.1, rings=[dict(ring_at(0, rel(a, a + 0.6)))], legend=[],
+    labels=[dict(SIM, t=0.5), lab(a, [52.6, 34.3 + 0.004], "Ground burst: our choice", W("p29", "ground"), WHITE), lab(a, [52.6, 34.3 - 0.004], "Every number here is the engine's", tEng, YELLOW)],
+    caption="A ground burst lifts earth into the fireball. The engine offers air or ground only.")
 a = S("p30")
-reg("h-fireball", a, S("p32"), [("s", TGT, 150), (4.0, [52.61, 34.31], 150), (8.0, [52.6, 34.3], 150), (S("p31") - a, [52.6, 34.3], 150), (S("p31") - a + 3.4, [52.6, 34.31], 150), ("e", [52.6, 34.29], 150)], legend=LEGEND[:2], clock=CLK, clockLabel="IMPACT · T+96 H", clockRate=0, source=HC["source"], highlight=[HL_IRAN],
-    rings=[ring_at(0, rel(a, W("p30", "fireball", 2))), ring_at(1, rel(a, S("p31")))],
-    cities=[city(a, TGT, "Earth lifted into the fireball", W("p30", "lifts"), RED, "target", 6)],
-    labels=[lab(a, [52.62, 34.37], "The earth comes back down as fallout", W("p30", "fallout"), AMBER), lab(a, [52.62, 34.24], "About 380 m across", W("p30", "about"), WHITE), lab(a, [52.62, 34.42], "20 psi: 240 m", W("p31", "two"), ORANGE)])
+cty("h-fireball", a, S("p32"), 1.4, 3.0, legend=LEGEND[:2], rings=[ring_at(0, rel(a, W("p30", "fireball", 2))), ring_at(1, rel(a, S("p31")))],
+    labels=[dict(SIM, t=0.4), lab(a, [52.6, 34.3 + 0.0025], "Earth lifted, then falls back as fallout", W("p30", "fallout"), AMBER)])
 a = S("p32")
-reg("h-5psi", a, S("p33"), [("s", TGT, 150), (4.5, [52.61, 34.31], 150), (8.5, [52.6, 34.3], 150), (12.0, [52.6, 34.29], 150), ("e", [52.59, 34.3], 150)], legend=LEGEND[:3], clock=CLK, clockLabel="IMPACT · T+96 H", clockRate=0, source=HC["source"], highlight=[HL_IRAN],
-    rings=prior(2) + [ring_at(2, 0.1)],
-    labels=[lab(a, [52.64, 34.38], "5 psi: 1.17 km", W("p32", "one"), RED), lab(a, [52.64, 34.25], "About 4.3 km2 inside", W("p32", "area"), WHITE), lab(a, [52.64, 34.2], "Flat ground: most buildings flattened", W("p32", "flat"), DIM),
-            lab(a, [52.64, 34.43], "This is a mountain: rock changes it", W("p32", "mountain"), YELLOW), lab(a, [52.64, 34.16], "No number for the tunnels", W("p32", "tunnels"), YELLOW)])
+cty("h-5psi", a, S("p33"), 3.2, 4.4, source="", legend=LEGEND[:3], rings=prior(2) + [ring_at(2, 0.1)],
+    labels=[dict(SIM, t=0.3), lab(a, [52.6, 34.3 - 0.011], "About 4.3 km2 inside the 5 psi ring", W("p32", "area"), WHITE), lab(a, [52.6, 34.3 + 0.011], "Rock changes the result: no tunnel number", W("p32", "mountain"), YELLOW)])
 a = S("p33")
-reg("h-burns", a, S("p34"), [("s", TGT, 150), (4.0, [52.6, 34.31], 150), (8.0, [52.6, 34.3], 150), (12.0, [52.6, 34.3], 220), ("e", TGT, 300)], legend=LEGEND[:5], clock=CLK, clockLabel="IMPACT · T+96 H", clockRate=0, source=HC["source"], highlight=[HL_IRAN],
-    rings=prior(3) + [ring_at(3, 0.1), ring_at(4, rel(a, W("p33", "Broken")))],
-    labels=[lab(a, [52.64, 34.38], "Burns: 1.6 km", W("p33", "Third-degree"), AMBER), lab(a, [52.64, 34.25], "Windows: 3.2 km", W("p33", "Broken"), TEAL), lab(a, [52.64, 34.43], "Thinly populated country (our choice)", W("p33", "thinly"), WHITE), lab(a, [52.64, 34.2], "No town inside these rings", W("p33", "no"), YELLOW)])
+cty("h-burns", a, S("p34"), 6.0, 9.0, source="", legend=LEGEND[:5], rings=prior(3) + [ring_at(3, 0.1), ring_at(4, rel(a, W("p33", "Broken")))],
+    labels=[dict(SIM, t=0.3), lab(a, [52.6, 34.3 + 0.026], "No town inside these rings (our choice)", W("p33", "thinly"), YELLOW)])
 # wind and plume
 a = S("p34")
 reg("w-plume", a, S("p35"), [("s", TGT, 300), (4.0, [52.8, 34.4], 700), (8.5, [53.5, 34.6], 800), (13.0, [52.5, 34.6], 900), ("e", [52, 34.6], 900)], clock="DAY 1", clockLabel="AFTER THE BURST", clockRate=0, source="Scenario engine; wind is our assumption", highlight=[HL_IRAN],
@@ -408,10 +414,10 @@ reg("e-dark", a, S("p37"), [("s", TGT, 220), (3.0, TGT, 400), (tSn, [51.5, 33.9]
     labels=[lab(a, [52.0, 35.4], "Since June 2025: no inspector inside", tSn, YELLOW), lab(a, [52.0, 32.0], "Stockpile figure: more than a year stale", W("p36", "stockpile"), WHITE)])
 a = S("p37")
 tP = W("p37", "The")
-reg("f-plume", a, S("p38"), [("s", TGT, 220), (3.4, TGT, 500), (W("p37", "Dasht-e"), [54.5, 34.6], 800), (W("p37", "Fallout"), [53.5, 34.6], 1200), ("e", [52.5, 34.2], 1300)], clock="DAY 1", clockLabel="THE SECOND CHANGE", clockRate=0, source="Scenario engine; wind is our assumption", highlight=[HL_IRAN],
-    cities=[city(a, TGT, "Did the weapon reach the halls?", a + 0.3, RED, "target", 6), city(a, KASHAN, "Kashan", W("p37", "cities"), WHITE, "dot"), city(a, QOM, "Qom", W("p37", "away"), WHITE, "dot")],
+reg("f-plume", a, S("p38"), [("s", [53.0, 34.4], 700), (3.4, [53.5, 34.6], 800), (W("p37", "Dasht-e"), [54.5, 34.6], 900), (W("p37", "Fallout"), [53.5, 34.6], 1200), ("e", [52.5, 34.2], 1300)], clock="DAY 1", clockLabel="THE SECOND CHANGE", clockRate=0, source="Scenario engine; wind is our assumption", highlight=[HL_IRAN],
+    cities=[city(a, TGT, "Did the weapon reach the halls?", a + 0.3, RED, "target", 6), city(a, KASHAN, "Kashan", W("p37", "cities"), WHITE, "dot"), city(a, QOM, "Qom", W("p37", "away"), WHITE, "dot"), city(a, [55.0, 34.9], "Dasht-e Kavir desert", W("p37", "Dasht-e"), WHITE, "target", 5)],
     plume={"at": TGT, "bearing": 70, "lengthKm": 120, "widthKm": 18, "t0": rel(a, W("p37", "plume")), "t1": rel(a, W("p37", "plume")) + 5, "color": AMBER, "label": "Drifting east: no dose"},
-    labels=[lab(a, [55.3, 35.4], "Dasht-e Kavir desert", W("p37", "Dasht-e"), WHITE), lab(a, [51.0, 35.2], "Thinning away from the cities", W("p37", "thinning"), AMBER)])
+    labels=[lab(a, [51.0, 35.2], "Thinning away from the cities", W("p37", "thinning"), AMBER)])
 a = S("p38")
 reg("g-iaea", a, S("p39"), [("s", [51.4, 34.0], 600), (3.0, FORDOW, 300), (W("p38", "Nothing"), [52.0, 34.2], 500), ("e", TGT, 300)], tag="REAL DATA", clock="", source="IAEA statements, 2025", highlight=[HL_IRAN],
     cities=[city(a, FORDOW, "Real sites: deep halls may be partly intact", a + 0.4, AMBER, "target", 7), city(a, TGT, "Our site", W("p38", "Nothing"), RED, "target", 6)],
@@ -489,10 +495,10 @@ def densify():
             if b - a <= limit:
                 continue
             s = next((x for x in shots if x["start"] <= a + 1e-6 < x["end"]), None)
-            if not s or s["type"] not in ("region", "globe") or "camera" not in s:
+            if not s or s["type"] not in ("region", "globe", "city") or "camera" not in s:
                 continue
             n = math.ceil((b - a) / limit) - 1
-            fields = ["center", "widthKm"] if s["type"] == "region" else ["lat", "lon", "scale"]
+            fields = ["center", "widthKm"] if s["type"] in ("region", "city") else ["lat", "lon", "scale"]
             for i in range(1, n + 1):
                 tt = round(a + (b - a) * i / (n + 1) - s["start"], 2)
                 key = {"t": tt}
