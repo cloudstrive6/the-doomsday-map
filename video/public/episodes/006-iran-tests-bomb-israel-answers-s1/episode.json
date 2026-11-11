@@ -2,122 +2,122 @@
  "subtitles": [
   {
    "start": 0.0,
-   "end": 1.97,
+   "end": 2.286,
    "text": "4:38 in the morning,"
   },
   {
-   "start": 2.182,
-   "end": 3.43,
+   "start": 2.286,
+   "end": 3.186,
    "text": "central Iran:"
   },
   {
-   "start": 3.43,
-   "end": 4.94,
+   "start": 3.186,
+   "end": 4.848,
    "text": "a nuclear warhead bursts"
   },
   {
-   "start": 4.94,
-   "end": 5.91,
+   "start": 4.848,
+   "end": 5.818,
    "text": "on a mountain."
   },
   {
-   "start": 6.37,
-   "end": 7.83,
+   "start": 6.368,
+   "end": 7.751,
    "text": "This is a simulation,"
   },
   {
-   "start": 8.086,
-   "end": 9.61,
+   "start": 7.751,
+   "end": 9.331,
    "text": "and it has not happened."
   },
   {
-   "start": 10.348,
-   "end": 11.69,
+   "start": 9.881,
+   "end": 11.545,
    "text": "8 minutes earlier,"
   },
   {
-   "start": 11.849,
-   "end": 13.24,
+   "start": 11.545,
+   "end": 13.511,
    "text": "a Jericho missile leaves a"
   },
   {
-   "start": 13.24,
-   "end": 15.23,
+   "start": 13.511,
+   "end": 15.477,
    "text": "battery in central Israel."
   },
   {
-   "start": 15.393,
-   "end": 16.776,
+   "start": 15.477,
+   "end": 16.838,
    "text": "It has one target:"
   },
   {
-   "start": 16.776,
-   "end": 18.33,
+   "start": 16.838,
+   "end": 18.275,
    "text": "a mountain in Iran."
   },
   {
-   "start": 18.827,
-   "end": 20.05,
+   "start": 18.825,
+   "end": 20.147,
    "text": "4 days before,"
   },
   {
-   "start": 20.418,
-   "end": 22.1,
+   "start": 20.147,
+   "end": 22.247,
    "text": "that mountain hosted Iran's"
   },
   {
-   "start": 22.1,
-   "end": 23.51,
+   "start": 22.247,
+   "end": 23.724,
    "text": "first nuclear test."
   },
   {
-   "start": 24.008,
-   "end": 26.2,
+   "start": 23.724,
+   "end": 26.057,
    "text": "Since then an Israeli air raid"
   },
   {
-   "start": 26.2,
-   "end": 28.11,
+   "start": 26.057,
+   "end": 28.312,
    "text": "has hit its tunnel entrances,"
   },
   {
-   "start": 28.344,
-   "end": 30.48,
+   "start": 28.312,
+   "end": 30.178,
    "text": "and Iran has fired back."
   },
   {
-   "start": 30.48,
-   "end": 31.46,
+   "start": 30.178,
+   "end": 31.578,
    "text": "The work under the"
   },
   {
-   "start": 31.46,
-   "end": 33.29,
+   "start": 31.578,
+   "end": 33.211,
    "text": "rock has not stopped."
   },
   {
-   "start": 33.767,
-   "end": 36.175,
+   "start": 33.761,
+   "end": 36.062,
    "text": "One question hangs over the map."
   },
   {
-   "start": 36.175,
-   "end": 37.26,
+   "start": 36.062,
+   "end": 37.5,
    "text": "Did the weapon reach"
   },
   {
-   "start": 37.26,
-   "end": 38.97,
+   "start": 37.5,
+   "end": 39.153,
    "text": "what was buried inside?"
   },
   {
-   "start": 39.563,
-   "end": 41.02,
+   "start": 39.153,
+   "end": 40.807,
    "text": "This film answers it as"
   },
   {
-   "start": 41.02,
-   "end": 42.8,
+   "start": 40.807,
+   "end": 42.604,
    "text": "far as published data go."
   }
  ],
@@ -131,7 +131,7 @@
    "id": "open-run",
    "type": "region",
    "start": 0.0,
-   "end": 4.21,
+   "end": 4.04,
    "tag": "SIMULATION",
    "view": {
     "center": [
@@ -158,7 +158,7 @@
      "widthKm": 2200
     },
     {
-     "t": 4.21,
+     "t": 4.04,
      "center": [
       50.8,
       33.9
@@ -249,7 +249,7 @@
      "color": "#FF3B3B",
      "dashed": true,
      "t0": 0.3,
-     "t1": 4.01
+     "t1": 3.84
     }
    ],
    "ships": [
@@ -265,7 +265,7 @@
       ]
      ],
      "t0": 0.3,
-     "t1": 4.21,
+     "t1": 4.04,
      "kind": "pla",
      "color": "#FF3B3B",
      "label": "Jericho II",
@@ -277,7 +277,7 @@
   {
    "id": "open-flash",
    "type": "region",
-   "start": 4.21,
+   "start": 4.04,
    "end": 9.881,
    "tag": "SIMULATION",
    "view": {
@@ -305,7 +305,7 @@
      "widthKm": 330
     },
     {
-     "t": 0.19,
+     "t": 0.36,
      "center": [
       52.6,
       34.3
@@ -313,7 +313,7 @@
      "widthKm": 300
     },
     {
-     "t": 5.67,
+     "t": 5.84,
      "center": [
       52.6,
       34.3
@@ -379,7 +379,7 @@
    "id": "open-launch",
    "type": "globe",
    "start": 9.881,
-   "end": 15.243,
+   "end": 14.917,
    "tag": "SIMULATION",
    "camera": [
     {
@@ -395,7 +395,7 @@
      "scale": 1900
     },
     {
-     "t": 5.36,
+     "t": 5.04,
      "lat": 33.2,
      "lon": 46,
      "scale": 2300
@@ -430,7 +430,7 @@
      "color": "#FF3B3B",
      "kind": "base",
      "size": 5,
-     "t": 3.21
+     "t": 3.36
     }
    ],
    "arcs": [
@@ -443,7 +443,7 @@
       52.6,
       34.3
      ],
-     "t0": 2.73,
+     "t0": 2.52,
      "t1": 9.0,
      "color": "#FF3B3B",
      "loft": 0.12
@@ -453,7 +453,7 @@
   {
    "id": "open-target",
    "type": "region",
-   "start": 15.243,
+   "start": 14.917,
    "end": 18.825,
    "tag": "SIMULATION",
    "view": {
@@ -481,7 +481,7 @@
      "widthKm": 650
     },
     {
-     "t": 3.58,
+     "t": 3.91,
      "center": [
       52.6,
       34.3
@@ -507,7 +507,7 @@
      ],
      "label": "One target: a mountain in Iran",
      "kind": "target",
-     "t": 0.49,
+     "t": 1.26,
      "color": "#FF3B3B",
      "size": 7
     },
@@ -534,7 +534,7 @@
       ]
      ],
      "t0": 0.1,
-     "t1": 3.28,
+     "t1": 3.61,
      "kind": "pla",
      "color": "#FF3B3B",
      "label": "Jericho II",
@@ -559,7 +559,7 @@
    "id": "open-test",
    "type": "region",
    "start": 18.825,
-   "end": 23.858,
+   "end": 23.056,
    "tag": "SIMULATION",
    "view": {
     "center": [
@@ -578,7 +578,7 @@
      "widthKm": 900
     },
     {
-     "t": 5.03,
+     "t": 4.23,
      "center": [
       52.6,
       34.3
@@ -654,7 +654,7 @@
      "km": 20,
      "color": "#F2B01E",
      "label": "Contained",
-     "t": 3.12,
+     "t": 2.96,
      "dashed": true
     }
    ]
@@ -662,8 +662,8 @@
   {
    "id": "open-raid",
    "type": "region",
-   "start": 23.858,
-   "end": 28.29,
+   "start": 23.056,
+   "end": 28.134,
    "tag": "SIMULATION",
    "view": {
     "center": [
@@ -682,7 +682,7 @@
      "widthKm": 2000
     },
     {
-     "t": 4.43,
+     "t": 5.08,
      "center": [
       48,
       33.5
@@ -734,7 +734,7 @@
      ],
      "label": "Tunnel entrances",
      "kind": "target",
-     "t": 2.85,
+     "t": 3.81,
      "color": "#FF3B3B",
      "size": 6
     }
@@ -752,7 +752,7 @@
       ]
      ],
      "t0": 0.2,
-     "t1": 4.23,
+     "t1": 4.88,
      "kind": "ally",
      "color": "#3ED6C8",
      "label": "Israeli raid",
@@ -764,7 +764,7 @@
   {
    "id": "open-fire",
    "type": "region",
-   "start": 28.29,
+   "start": 28.134,
    "end": 33.761,
    "tag": "SIMULATION",
    "view": {
@@ -792,7 +792,15 @@
      "widthKm": 1400
     },
     {
-     "t": 5.47,
+     "t": 3.81,
+     "center": [
+      49.1772,
+      33.8354
+     ],
+     "widthKm": 1131.646
+    },
+    {
+     "t": 5.63,
      "center": [
       50,
       34
@@ -838,7 +846,7 @@
       ]
      ],
      "t0": 0.2,
-     "t1": 5.07,
+     "t1": 5.23,
      "kind": "pla",
      "color": "#FF3B3B",
      "label": "Iranian salvo",
@@ -921,7 +929,7 @@
      ],
      "text": "The work under the rock goes on",
      "color": "#F2B01E",
-     "t": 2.34
+     "t": 1.99
     }
    ],
    "rings": [
@@ -932,7 +940,7 @@
      ],
      "km": 20,
      "color": "#F2B01E",
-     "t": 2.14,
+     "t": 1.79,
      "dashed": true
     }
    ]
@@ -941,7 +949,7 @@
    "id": "q-map",
    "type": "region",
    "start": 33.761,
-   "end": 39.413,
+   "end": 38.919,
    "tag": "SIMULATION",
    "view": {
     "center": [
@@ -968,7 +976,15 @@
      "widthKm": 500
     },
     {
-     "t": 5.65,
+     "t": 2.41,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500.0
+    },
+    {
+     "t": 5.16,
      "center": [
       52.6,
       34.3
@@ -1041,14 +1057,14 @@
      ],
      "text": "Did the weapon reach what was buried?",
      "color": "#FFD23F",
-     "t": 3.83
+     "t": 4.42
     }
    ]
   },
   {
    "id": "q-globe",
    "type": "globe",
-   "start": 39.413,
+   "start": 38.919,
    "end": 42.8,
    "tag": "SIMULATION",
    "camera": [
@@ -1059,7 +1075,7 @@
      "scale": 1100
     },
     {
-     "t": 4.29,
+     "t": 4.79,
      "lat": 33.5,
      "lon": 47,
      "scale": 1700
