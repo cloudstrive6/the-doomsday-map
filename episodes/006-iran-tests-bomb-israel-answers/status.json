@@ -29,7 +29,12 @@
       "stage": "script_approved",
       "note": "fact-screener PASS",
       "at": "2026-11-11T05:18:34+00:00"
+    },
+    {
+      "stage": "narrated",
+      "note": "10.7 min, 1457 words",
+      "at": "2026-11-11T05:25:34+00:00"
     }
   ],
-  "stage": "script_approved"
+  "stage": "narrated"
 }
