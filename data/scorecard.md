@@ -1,8 +1,8 @@
-# Scorecard (2026-11-10, latest snapshot 2026-11-10)
+# Scorecard (2026-11-11, latest snapshot 2026-11-11)
 
 Built by `python -m studio scorecard` from data/analytics/. Targets judged on the median of episodes 004 onward; earlier episodes are the baseline. Small samples: read as tests, not proof.
 
-Subscribers: 4 (target 50 by 2026-12-10)
+Subscribers: 6 (target 50 by 2026-12-10)
 
 ## Targets
 
