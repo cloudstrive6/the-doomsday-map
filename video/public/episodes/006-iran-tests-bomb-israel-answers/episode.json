@@ -1,0 +1,7087 @@
+{
+ "slug": "006-iran-tests-bomb-israel-answers",
+ "fps": 60,
+ "width": 1920,
+ "height": 1080,
+ "durationSeconds": 649.18,
+ "banner": {
+  "start": 4.01,
+  "end": 7.01
+ },
+ "musicPlan": [
+  {
+   "src": "bed_tense.mp3",
+   "from": 0,
+   "to": 44.704,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  },
+  {
+   "src": "bed.mp3",
+   "from": 42.704,
+   "to": 190.815,
+   "loop": [
+    2,
+    174
+   ],
+   "gain_db": -17
+  },
+  {
+   "src": "bed_tense.mp3",
+   "from": 188.815,
+   "to": 649.18,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  }
+ ],
+ "sfxPlan": [
+  {
+   "src": "impact.mp3",
+   "t": 43.854,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 124.629,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 189.965,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 288.36499999999995,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 418.933,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 523.086,
+   "gain_db": -9
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 93.321,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 104.79599999999999,
+   "gain_db": -14
+  },
+  {
+   "src": "boom.mp3",
+   "t": 4.31,
+   "gain_db": -4
+  },
+  {
+   "src": "boom.mp3",
+   "t": 421.48300000000006,
+   "gain_db": -4
+  }
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated.",
+ "shots": [
+  {
+   "id": "open-run",
+   "type": "region",
+   "start": 0,
+   "end": 4.21,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     43.0,
+     33.2
+    ],
+    "widthKm": 2700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      43.0,
+      33.2
+     ],
+     "widthKm": 2700
+    },
+    {
+     "t": 2.0,
+     "center": [
+      46.5,
+      33.6
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 4.21,
+     "center": [
+      50.8,
+      33.9
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "clock": "T-00:05",
+   "clockLabel": "TO IMPACT",
+   "clockRate": 1.2,
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "376",
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    },
+    {
+     "iso": "364",
+     "text": "IRAN",
+     "color": "#F2B01E"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.9,
+      31.7
+     ],
+     "label": "Jericho battery (simulated)",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 5
+    },
+    {
+     "at": [
+      51.39,
+      35.69
+     ],
+     "label": "Tehran",
+     "kind": "dot",
+     "t": 1.4
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Test mountain (simulated)",
+     "kind": "target",
+     "t": 2.4,
+     "color": "#FF3B3B",
+     "size": 7
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      34.9,
+      31.7
+     ],
+     "to": [
+      52.6,
+      34.3
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.3,
+     "t1": 4.01
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       34.9,
+       31.7
+      ],
+      [
+       52.6,
+       34.3
+      ]
+     ],
+     "t0": 0.3,
+     "t1": 4.21,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Jericho II",
+     "t": 0.1,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "open-flash",
+   "type": "region",
+   "start": 4.21,
+   "end": 9.881,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     52.6,
+     34.3
+    ],
+    "widthKm": 460
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 460
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 330
+    },
+    {
+     "t": 0.19,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 5.67,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 300
+    }
+   ],
+   "clock": "04:38",
+   "clockLabel": "CENTRAL IRAN · LOCAL TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "burst": {
+    "at": [
+     52.6,
+     34.3
+    ],
+    "t": 0.1,
+    "km": 9,
+    "fade": 6
+   },
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Ground zero (simulated)",
+     "kind": "target",
+     "t": 0.8,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 2.3
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 1.167,
+     "color": "#FF3B3B",
+     "t": 0.6
+    }
+   ],
+   "caption": "A 10-kiloton ground burst on a mountain. Simulation: it has not happened."
+  },
+  {
+   "id": "open-launch",
+   "type": "globe",
+   "start": 9.881,
+   "end": 15.243,
+   "tag": "SIMULATION",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 33,
+     "lon": 40,
+     "scale": 1500
+    },
+    {
+     "t": 0.1,
+     "lat": 33,
+     "lon": 43,
+     "scale": 1900
+    },
+    {
+     "t": 5.36,
+     "lat": 33.2,
+     "lon": 46,
+     "scale": 2300
+    }
+   ],
+   "sun": {
+    "lat": -15.27,
+    "lon": 168.63
+   },
+   "clock": "T-08:00",
+   "clockLabel": "TO IMPACT",
+   "clockRate": 54,
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      34.9,
+      31.7
+     ],
+     "label": "Jericho battery, central Israel (simulated)",
+     "color": "#FF3B3B",
+     "kind": "base",
+     "size": 5,
+     "t": 3.21
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      34.9,
+      31.7
+     ],
+     "to": [
+      52.6,
+      34.3
+     ],
+     "t0": 2.73,
+     "t1": 9.0,
+     "color": "#FF3B3B",
+     "loft": 0.12
+    }
+   ]
+  },
+  {
+   "id": "open-target",
+   "type": "region",
+   "start": 15.243,
+   "end": 18.825,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     46,
+     33.6
+    ],
+    "widthKm": 1100
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      46,
+      33.6
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 0.1,
+     "center": [
+      50,
+      34
+     ],
+     "widthKm": 650
+    },
+    {
+     "t": 3.58,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "T-03:10",
+   "clockLabel": "TO IMPACT",
+   "clockRate": 54,
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "One target: a mountain in Iran",
+     "kind": "target",
+     "t": 0.49,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 2.0
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       45.0,
+       33.5
+      ],
+      [
+       52.6,
+       34.3
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 3.28,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Jericho II",
+     "t": 0.1,
+     "wake": true
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 25,
+     "color": "#FF3B3B",
+     "t": 0.6,
+     "dashed": true
+    }
+   ]
+  },
+  {
+   "id": "open-test",
+   "type": "region",
+   "start": 18.825,
+   "end": 23.858,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     49,
+     33.8
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      49,
+      33.8
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 5.03,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "HOUR 00",
+   "clockLabel": "THE FIRST TEST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Iran's first nuclear test (simulated)",
+     "kind": "target",
+     "t": 2.09,
+     "color": "#F2B01E",
+     "size": 7
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 20,
+     "color": "#F2B01E",
+     "label": "Contained",
+     "t": 3.12,
+     "dashed": true
+    }
+   ]
+  },
+  {
+   "id": "open-raid",
+   "type": "region",
+   "start": 23.858,
+   "end": 28.29,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     42,
+     32.5
+    ],
+    "widthKm": 2000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      42,
+      32.5
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 4.43,
+     "center": [
+      48,
+      33.5
+     ],
+     "widthKm": 1300
+    }
+   ],
+   "clock": "HOUR 40",
+   "clockLabel": "THE RAID",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.94,
+      31.21
+     ],
+     "label": "Nevatim",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#3ED6C8",
+     "size": 5
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Tunnel entrances",
+     "kind": "target",
+     "t": 2.85,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       34.94,
+       31.21
+      ],
+      [
+       52.6,
+       34.3
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 4.23,
+     "kind": "ally",
+     "color": "#3ED6C8",
+     "label": "Israeli raid",
+     "t": 0.2,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "open-fire",
+   "type": "region",
+   "start": 28.29,
+   "end": 33.761,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     45,
+     33.5
+    ],
+    "widthKm": 2000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      45,
+      33.5
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 0.1,
+     "center": [
+      47.5,
+      33.5
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 5.47,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "HOUR 42",
+   "clockLabel": "IRAN FIRES BACK",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       47.0,
+       34.3
+      ],
+      [
+       34.94,
+       31.21
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 2.04,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iranian salvo",
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.94,
+      31.21
+     ],
+     "label": "Nevatim",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#3ED6C8",
+     "size": 5
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      53.2,
+      34.9
+     ],
+     "text": "The work under the rock goes on",
+     "color": "#F2B01E",
+     "t": 2.34
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 20,
+     "color": "#F2B01E",
+     "t": 2.14,
+     "dashed": true
+    }
+   ]
+  },
+  {
+   "id": "q-map",
+   "type": "region",
+   "start": 33.761,
+   "end": 39.413,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     49.5,
+     33.8
+    ],
+    "widthKm": 650
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      49.5,
+      33.8
+     ],
+     "widthKm": 650
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 5.65,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "One question",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FFFFFF",
+     "size": 7
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      52.7,
+      34.58
+     ],
+     "text": "Did the weapon reach what was buried?",
+     "color": "#FFD23F",
+     "t": 3.83
+    }
+   ]
+  },
+  {
+   "id": "q-globe",
+   "type": "globe",
+   "start": 39.413,
+   "end": 43.704,
+   "tag": "SIMULATION",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 31,
+     "lon": 48,
+     "scale": 1100
+    },
+    {
+     "t": 4.29,
+     "lat": 33.5,
+     "lon": 47,
+     "scale": 1700
+    }
+   ],
+   "sun": {
+    "lat": -15.27,
+    "lon": 168.63
+   },
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "The test mountain (simulated)",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.3
+    },
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow (real)",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 2.0
+    }
+   ]
+  },
+  {
+   "id": "c1-card",
+   "type": "chapter",
+   "start": 43.704,
+   "end": 47.2,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 01",
+   "title": "A mountain nobody can inspect"
+  },
+  {
+   "id": "c1-b2",
+   "type": "globe",
+   "start": 47.2,
+   "end": 54.569,
+   "tag": "REAL DATA",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 38,
+     "lon": -96,
+     "scale": 1000
+    },
+    {
+     "t": 0.1,
+     "lat": 40,
+     "lon": -40,
+     "scale": 800
+    },
+    {
+     "t": 7.37,
+     "lat": 36,
+     "lon": 20,
+     "scale": 900
+    }
+   ],
+   "sun": {
+    "lat": -15.27,
+    "lon": 168.63
+   },
+   "clock": "22 JUNE 2025",
+   "clockLabel": "ABOUT 02:00, IRAN TIME",
+   "clockRate": 0,
+   "source": "US Department of Defense briefing; Reuters",
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.06)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -93.55,
+      38.73
+     ],
+     "label": "Missouri: seven B-2 bombers",
+     "color": "#6EA8FF",
+     "kind": "base",
+     "t": 2.14
+    },
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Iran",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 4.0
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -93.55,
+      38.73
+     ],
+     "to": [
+      50.99,
+      34.88
+     ],
+     "t0": 2.14,
+     "t1": 7.87,
+     "color": "#6EA8FF",
+     "loft": 0.3
+    }
+   ],
+   "caption": "A round trip of 36 hours or more."
+  },
+  {
+   "id": "c1-bombs",
+   "type": "region",
+   "start": 54.569,
+   "end": 60.49,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     51.3,
+     34.0
+    ],
+    "widthKm": 1100
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      51.3,
+      34.0
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 0.1,
+     "center": [
+      51.3,
+      34.0
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 3.26,
+     "center": [
+      51.3,
+      34.0
+     ],
+     "widthKm": 602.268
+    },
+    {
+     "t": 5.92,
+     "center": [
+      51.3,
+      34.0
+     ],
+     "widthKm": 520
+    }
+   ],
+   "clock": "22 JUNE 2025",
+   "clockLabel": "THE STRIKE",
+   "clockRate": 0,
+   "source": "US Department of Defense briefing; Reuters",
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "caption": "Fourteen bombs of about 13.5 tonnes each.",
+   "cities": [
+    {
+     "at": [
+      51.3,
+      34.3
+     ],
+     "label": "14 bombs, two sites",
+     "kind": "target",
+     "t": 0.5,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      51.3,
+      34.3
+     ],
+     "km": 120,
+     "color": "#FF3B3B",
+     "t": 0.6,
+     "dashed": true
+    }
+   ]
+  },
+  {
+   "id": "c1-sites",
+   "type": "region",
+   "start": 60.49,
+   "end": 70.742,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     51.3,
+     34.3
+    ],
+    "widthKm": 520
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      51.3,
+      34.3
+     ],
+     "widthKm": 520
+    },
+    {
+     "t": 0.1,
+     "center": [
+      51.3,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 3.33,
+     "center": [
+      51.1341,
+      34.5212
+     ],
+     "widthKm": 500.0
+    },
+    {
+     "t": 5.94,
+     "center": [
+      51.0,
+      34.7
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 10.25,
+     "center": [
+      51.0,
+      34.8
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "",
+   "source": "IAEA; Institute for Science and International Security",
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 7
+    },
+    {
+     "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "target",
+     "t": 0.72,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 5.94,
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      51.0,
+      35.0
+     ],
+     "text": "Built into a mountain, 80 to 90 m deep (reported)",
+     "color": "#FFFFFF",
+     "t": 6.86
+    }
+   ]
+  },
+  {
+   "id": "c1-kind",
+   "type": "region",
+   "start": 70.742,
+   "end": 74.248,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     50.99,
+     34.88
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      50.99,
+      34.88
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 0.1,
+     "center": [
+      51.8,
+      34.6
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 3.51,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Test mountain (simulated, not Fordow)",
+     "kind": "target",
+     "t": 0.79,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      50.99,
+      34.88
+     ],
+     "to": [
+      52.6,
+      34.3
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 0.79,
+     "t1": 1.99
+    }
+   ],
+   "caption": "The kind of target at the end of the cold open."
+  },
+  {
+   "id": "c1-disputed",
+   "type": "region",
+   "start": 74.248,
+   "end": 85.194,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     50.99,
+     34.88
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      50.99,
+      34.88
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 0.1,
+     "center": [
+      50.99,
+      34.88
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 3.44,
+     "center": [
+      50.99,
+      34.88
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 5.64,
+     "center": [
+      50.9929,
+      34.8859
+     ],
+     "widthKm": 500.0
+    },
+    {
+     "t": 10.95,
+     "center": [
+      51.0,
+      34.9
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "",
+   "source": "IAEA statements, 2025",
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 7
+    },
+    {
+     "at": [
+      51.39,
+      35.69
+     ],
+     "label": "Tehran",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      51.0,
+      34.99
+     ],
+     "text": "Damage: disputed",
+     "color": "#FFD23F",
+     "t": 0.6
+    },
+    {
+     "at": [
+      51.0,
+      34.84
+     ],
+     "text": "IAEA: clear and significant damage",
+     "color": "#FFFFFF",
+     "t": 3.44
+    },
+    {
+     "at": [
+      51.25,
+      34.95
+     ],
+     "text": "Deep halls: may be partly intact",
+     "color": "#FF3B3B",
+     "t": 7.84
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "km": 15,
+     "color": "#FF3B3B",
+     "t": 7.84,
+     "dashed": true
+    }
+   ]
+  },
+  {
+   "id": "c1-dark",
+   "type": "region",
+   "start": 85.194,
+   "end": 89.521,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     51.4,
+     34.0
+    ],
+    "widthKm": 600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      51.4,
+      34.0
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 0.1,
+     "center": [
+      51.4,
+      33.7
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 4.33,
+     "center": [
+      51.5,
+      33.5
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "",
+   "source": "IAEA statements, 2025",
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "target",
+     "t": 0.9,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      51.68,
+      32.65
+     ],
+     "label": "Isfahan",
+     "kind": "target",
+     "t": 1.5,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      51.9,
+      34.4
+     ],
+     "text": "No inspector has seen inside",
+     "color": "#FFD23F",
+     "t": 1.21
+    }
+   ]
+  },
+  {
+   "id": "c1-440",
+   "type": "number",
+   "start": 89.521,
+   "end": 93.721,
+   "tag": "REAL DATA",
+   "value": "ABOUT 440 KG",
+   "countTo": 440,
+   "prefix": "ABOUT ",
+   "suffix": " KG",
+   "label": "of uranium enriched to 60 percent",
+   "sub": "below weapons grade",
+   "color": "#F2B01E",
+   "source": "IAEA reports, 2025"
+  },
+  {
+   "id": "c1-stale",
+   "type": "stamp",
+   "start": 93.721,
+   "end": 99.37,
+   "tag": "REAL DATA",
+   "text": "MORE THAN A YEAR STALE",
+   "line": "the last figure inspectors could check",
+   "color": "#F2B01E",
+   "source": "IAEA reports, 2025"
+  },
+  {
+   "id": "c1-ten",
+   "type": "number",
+   "start": 99.37,
+   "end": 105.196,
+   "tag": "REAL DATA",
+   "value": "UP TO 10",
+   "label": "bombs' worth, in principle",
+   "sub": "IAEA chief Rafael Grossi",
+   "color": "#FF3B3B",
+   "source": "IAEA; Reuters"
+  },
+  {
+   "id": "c1-notclaim",
+   "type": "stamp",
+   "start": 105.196,
+   "end": 108.601,
+   "tag": "REAL DATA",
+   "text": "NOT A CLAIM THAT IRAN HAS ONE",
+   "color": "#FFFFFF",
+   "source": "IAEA; Reuters"
+  },
+  {
+   "id": "c1-war",
+   "type": "region",
+   "start": 108.601,
+   "end": 116.072,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     44,
+     32
+    ],
+    "widthKm": 2800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      44,
+      32
+     ],
+     "widthKm": 2800
+    },
+    {
+     "t": 0.1,
+     "center": [
+      46,
+      32.5
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 7.47,
+     "center": [
+      47,
+      32.5
+     ],
+     "widthKm": 1800
+    }
+   ],
+   "clock": "FEB 2026",
+   "clockLabel": "A NEW WAR",
+   "clockRate": 0,
+   "source": "Reuters; Associated Press",
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    },
+    {
+     "text": "UNITED STATES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.8,
+      32.0
+     ],
+     "label": "Israel",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#3ED6C8",
+     "size": 5
+    },
+    {
+     "at": [
+      50.5,
+      33.0
+     ],
+     "label": "Iran struck again",
+     "kind": "target",
+     "t": 5.89,
+     "color": "#FF3B3B",
+     "size": 7
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      34.8,
+      32.0
+     ],
+     "to": [
+      50.5,
+      33.0
+     ],
+     "color": "#3ED6C8",
+     "dashed": true,
+     "t0": 5.49,
+     "t1": 8.49
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      48,
+      36.6
+     ],
+     "text": "The United States and Israel strike Iran",
+     "color": "#6EA8FF",
+     "t": 4.55
+    }
+   ]
+  },
+  {
+   "id": "c1-blockade",
+   "type": "region",
+   "start": 116.072,
+   "end": 124.479,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     54,
+     27.5
+    ],
+    "widthKm": 1700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      54,
+      27.5
+     ],
+     "widthKm": 1700
+    },
+    {
+     "t": 0.1,
+     "center": [
+      55,
+      26.8
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 3.65,
+     "center": [
+      45,
+      31
+     ],
+     "widthKm": 2300
+    },
+    {
+     "t": 8.41,
+     "center": [
+      40,
+      32
+     ],
+     "widthKm": 2600
+    }
+   ],
+   "clock": "",
+   "source": "Reuters; Associated Press",
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       50.0,
+       27.5
+      ],
+      [
+       57.5,
+       27.2
+      ],
+      [
+       58.0,
+       25.2
+      ],
+      [
+       56.0,
+       24.8
+      ],
+      [
+       51.0,
+       26.0
+      ]
+     ],
+     "label": "US blockade of Iranian ports",
+     "color": "#6EA8FF",
+     "t": 0.5,
+     "pulse": true
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       60.5,
+       23.5
+      ],
+      [
+       57.5,
+       25.8
+      ]
+     ],
+     "t0": 0.4,
+     "t1": 4.0,
+     "kind": "us",
+     "label": "US Navy",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      36.0,
+      35.2
+     ],
+     "text": "What has Israel done before?",
+     "color": "#FFD23F",
+     "t": 3.65
+    }
+   ]
+  },
+  {
+   "id": "c2-card",
+   "type": "chapter",
+   "start": 124.479,
+   "end": 127.98,
+   "tag": "REAL HISTORY",
+   "kicker": "CHAPTER 02",
+   "title": "How close, how fast"
+  },
+  {
+   "id": "c2-osirak",
+   "type": "region",
+   "start": 127.98,
+   "end": 140.48,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     39,
+     32
+    ],
+    "widthKm": 1900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      39,
+      32
+     ],
+     "widthKm": 1900
+    },
+    {
+     "t": 0.1,
+     "center": [
+      40,
+      32.4
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 8.08,
+     "center": [
+      43,
+      32.5
+     ],
+     "widthKm": 2500
+    },
+    {
+     "t": 12.5,
+     "center": [
+      43,
+      32.5
+     ],
+     "widthKm": 2300
+    }
+   ],
+   "clock": "7 JUNE 1981",
+   "clockLabel": "OSIRAK",
+   "clockRate": 0,
+   "source": "IAEA; Israeli government records",
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "368",
+     "color": "#FFFFFF",
+     "fill": "rgba(255,255,255,0.05)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.6,
+      30.8
+     ],
+     "label": "Israel",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#3ED6C8",
+     "size": 5
+    },
+    {
+     "at": [
+      44.4,
+      33.3
+     ],
+     "label": "Osirak reactor, near Baghdad",
+     "kind": "target",
+     "t": 5.41,
+     "color": "#FF3B3B",
+     "size": 7
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       34.6,
+       30.8
+      ],
+      [
+       44.4,
+       33.3
+      ]
+     ],
+     "t0": 1.0,
+     "t1": 5.76,
+     "kind": "ally",
+     "color": "#3ED6C8",
+     "label": "Eight F-16s",
+     "t": 1.0,
+     "wake": true
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      34.6,
+      30.8
+     ],
+     "km": 1600,
+     "color": "#F2B01E",
+     "label": "1,600 km",
+     "t": 2.73,
+     "dashed": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      50.0,
+      36.5
+     ],
+     "text": "Iran: about 1,600 km from Israel too",
+     "color": "#F2B01E",
+     "t": 8.08
+    }
+   ]
+  },
+  {
+   "id": "c2-syria",
+   "type": "region",
+   "start": 140.48,
+   "end": 154.072,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     37,
+     33
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      37,
+      33
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 0.1,
+     "center": [
+      40,
+      34.5
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 8.33,
+     "center": [
+      40.8,
+      35.7
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 13.59,
+     "center": [
+      38,
+      34
+     ],
+     "widthKm": 1300
+    }
+   ],
+   "clock": "5 SEPT 2007",
+   "clockLabel": "SYRIA",
+   "clockRate": 0,
+   "source": "IAEA; Israeli government statement, March 2018",
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "760",
+     "color": "#FFFFFF",
+     "fill": "rgba(255,255,255,0.05)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.9,
+      31.5
+     ],
+     "label": "Israel",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#3ED6C8",
+     "size": 5
+    },
+    {
+     "at": [
+      40.85,
+      35.7
+     ],
+     "label": "Secret reactor, half-built",
+     "kind": "target",
+     "t": 6.21,
+     "color": "#FF3B3B",
+     "size": 7
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       34.9,
+       31.5
+      ],
+      [
+       40.85,
+       35.7
+      ]
+     ],
+     "t0": 4.24,
+     "t1": 8.49,
+     "kind": "ally",
+     "color": "#3ED6C8",
+     "label": "Israeli jets",
+     "t": 4.24,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      36.5,
+      37.4
+     ],
+     "text": "Israel said nothing for 10+ years",
+     "color": "#FFD23F",
+     "t": 8.45
+    },
+    {
+     "at": [
+      36.5,
+      36.6
+     ],
+     "text": "Until March 2018",
+     "color": "#FFFFFF",
+     "t": 11.27
+    }
+   ]
+  },
+  {
+   "id": "c2-korea",
+   "type": "region",
+   "start": 154.072,
+   "end": 167.23,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     127,
+     39
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      127,
+      39
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 0.1,
+     "center": [
+      129.08,
+      41.28
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 2.85,
+     "center": [
+      129.08,
+      41.28
+     ],
+     "widthKm": 625.17
+    },
+    {
+     "t": 7.45,
+     "center": [
+      129.08,
+      41.28
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 13.16,
+     "center": [
+      129.08,
+      41.28
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "9 OCT 2006",
+   "clockLabel": "NORTH KOREA",
+   "clockRate": 0,
+   "source": "US Director of National Intelligence; CTBTO",
+   "highlight": [
+    {
+     "iso": "408",
+     "color": "#FF3B3B",
+     "fill": "rgba(255,59,59,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      129.08,
+      41.28
+     ],
+     "label": "First nuclear test",
+     "kind": "target",
+     "t": 5.6,
+     "color": "#FF3B3B",
+     "size": 7
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      130.4,
+      42.4
+     ],
+     "text": "Tiny: under 1 kt (US estimate)",
+     "color": "#FFD23F",
+     "t": 8.93
+    }
+   ]
+  },
+  {
+   "id": "c2-scale",
+   "type": "bars",
+   "start": 167.23,
+   "end": 173.32,
+   "tag": "REAL HISTORY",
+   "title": "The scale we use: one kiloton",
+   "sub": "kilotons · North Korea 2006, published estimates",
+   "source": "US Director of National Intelligence; Arms Control Association; simulation choice (ours)",
+   "bars": [
+    {
+     "label": "US intelligence chief: under",
+     "value": 1,
+     "display": "under 1 kt",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "Other estimates, low",
+     "value": 0.5,
+     "display": "0.5 kt",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "Other estimates, high",
+     "value": 2,
+     "display": "2 kt",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "Our simulated test",
+     "value": 1,
+     "display": "1 kt",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "c2-how",
+   "type": "region",
+   "start": 173.32,
+   "end": 183.882,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     53,
+     32.5
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      53,
+      32.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 0.1,
+     "center": [
+      53,
+      33
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 10.56,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "",
+   "source": "One published estimate (research note A7)",
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      51.4,
+      33.0
+     ],
+     "label": "How fast?",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FFFFFF",
+     "size": 6
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      49.2,
+      35.2
+     ],
+     "text": "Weeks: enrichment",
+     "color": "#F2B01E",
+     "t": 4.25
+    },
+    {
+     "at": [
+      49.2,
+      34.6
+     ],
+     "text": "Months: a crude device",
+     "color": "#F2B01E",
+     "t": 5.65
+    },
+    {
+     "at": [
+      49.2,
+      34.0
+     ],
+     "text": "A year or more: a missile warhead",
+     "color": "#FF3B3B",
+     "t": 8.11
+    }
+   ]
+  },
+  {
+   "id": "c2-four",
+   "type": "timeline",
+   "start": 183.882,
+   "end": 189.815,
+   "tag": "SIMULATION",
+   "title": "The first four days",
+   "sub": "hours after the test · schematic",
+   "total": 96,
+   "unit": "h",
+   "segments": [
+    {
+     "from": 0,
+     "to": 40,
+     "label": "Waiting",
+     "color": "#F2B01E"
+    },
+    {
+     "from": 40,
+     "to": 42,
+     "label": "Raid",
+     "color": "#3ED6C8"
+    },
+    {
+     "from": 42,
+     "to": 96,
+     "label": "Digging goes on",
+     "color": "#F2B01E"
+    },
+    {
+     "from": 95,
+     "to": 96,
+     "label": "Jericho",
+     "color": "#FF3B3B"
+    }
+   ],
+   "cursorTo": 96
+  },
+  {
+   "id": "c3-card",
+   "type": "chapter",
+   "start": 189.815,
+   "end": 193.31,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 03",
+   "title": "The test"
+  },
+  {
+   "id": "c3-npt",
+   "type": "region",
+   "start": 193.31,
+   "end": 204.25,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     53,
+     33
+    ],
+    "widthKm": 2200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      53,
+      33
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 0.1,
+     "center": [
+      53,
+      33.5
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 5.81,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 10.94,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "MINUTE ZERO",
+   "clockLabel": "OUR ASSUMPTION",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "364",
+     "text": "IRAN LEAVES THE NPT",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "One deep test: 1 kt (simulated)",
+     "kind": "target",
+     "t": 4.62,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      57.5,
+      29.6
+     ],
+     "text": "Three months' notice (treaty rule)",
+     "color": "#FFFFFF",
+     "t": 2.5
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 30,
+     "color": "#F2B01E",
+     "dashed": true,
+     "t": 5.66
+    }
+   ]
+  },
+  {
+   "id": "c3-invent",
+   "type": "region",
+   "start": 204.25,
+   "end": 210.519,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     52.6,
+     34.3
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 6.27,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "MINUTE ZERO",
+   "clockLabel": "OUR ASSUMPTION",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Invented site",
+     "kind": "target",
+     "t": 0.82,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow (real): not this",
+     "kind": "dot",
+     "t": 2.34,
+     "color": "#F2B01E"
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      52.9,
+      34.08
+     ],
+     "text": "Not any real place",
+     "color": "#FFD23F",
+     "t": 4.0
+    }
+   ]
+  },
+  {
+   "id": "c3-zero",
+   "type": "region",
+   "start": 210.519,
+   "end": 230.271,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     52.6,
+     34.3
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 7.32,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 9.74,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 13.06,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 19.75,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "MINUTE ZERO",
+   "clockRate": 1,
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "The test",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      52.9,
+      34.45
+     ],
+     "text": "Every clock counts from here",
+     "color": "#FFFFFF",
+     "t": 2.43
+    },
+    {
+     "at": [
+      52.9,
+      34.33
+     ],
+     "text": "No calendar date",
+     "color": "#FFD23F",
+     "t": 5.67
+    },
+    {
+     "at": [
+      52.9,
+      34.2
+     ],
+     "text": "Test assumed contained",
+     "color": "#3ED6C8",
+     "t": 7.62
+    },
+    {
+     "at": [
+      52.7,
+      34.52
+     ],
+     "text": "No fireball",
+     "color": "#FFFFFF",
+     "t": 11.77
+    },
+    {
+     "at": [
+      52.7,
+      34.42
+     ],
+     "text": "No fallout",
+     "color": "#FFFFFF",
+     "t": 13.06
+    },
+    {
+     "at": [
+      52.7,
+      34.12
+     ],
+     "text": "No ring numbers",
+     "color": "#FFFFFF",
+     "t": 14.15
+    },
+    {
+     "at": [
+      52.7,
+      34.02
+     ],
+     "text": "A deep test is not a surface burst",
+     "color": "#FFD23F",
+     "t": 15.56
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 20,
+     "color": "#3ED6C8",
+     "dashed": true,
+     "t": 7.62
+    }
+   ]
+  },
+  {
+   "id": "c3-game24",
+   "type": "region",
+   "start": 230.271,
+   "end": 244.201,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     43,
+     32
+    ],
+    "widthKm": 2600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      43,
+      32
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 0.1,
+     "center": [
+      42,
+      32
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 3.28,
+     "center": [
+      43.6848,
+      32.4212
+     ],
+     "widthKm": 2073.642
+    },
+    {
+     "t": 7.65,
+     "center": [
+      46,
+      33
+     ],
+     "widthKm": 1900
+    },
+    {
+     "t": 13.93,
+     "center": [
+      46,
+      33
+     ],
+     "widthKm": 1700
+    }
+   ],
+   "clock": "2024",
+   "clockLabel": "WAR GAME",
+   "clockRate": 0,
+   "source": "Bulletin of the Atomic Scientists, 2024",
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.9,
+      31.5
+     ],
+     "label": "2024 war game, as reported",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#3ED6C8",
+     "size": 5
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Warhead work continues",
+     "kind": "target",
+     "t": 9.12,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       34.9,
+       31.5
+      ],
+      [
+       52.6,
+       34.3
+      ]
+     ],
+     "t0": 6.15,
+     "t1": 9.65,
+     "kind": "ally",
+     "color": "#3ED6C8",
+     "label": "Air strikes",
+     "t": 6.15,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      47.0,
+      36.6
+     ],
+     "text": "Israel escalates to nuclear weapons",
+     "color": "#FF3B3B",
+     "t": 11.26
+    }
+   ]
+  },
+  {
+   "id": "c3-game12",
+   "type": "region",
+   "start": 244.201,
+   "end": 255.008,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     42,
+     29
+    ],
+    "widthKm": 3200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      42,
+      29
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 0.1,
+     "center": [
+      44,
+      28.5
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 10.81,
+     "center": [
+      46,
+      27
+     ],
+     "widthKm": 2900
+    }
+   ],
+   "clock": "2012",
+   "clockLabel": "ISRAELI EXERCISE",
+   "clockRate": 0,
+   "source": "Reuters; Israeli press, 2012 reports",
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "682",
+     "color": "#FFFFFF",
+     "fill": "rgba(255,255,255,0.05)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.9,
+      31.5
+     ],
+     "label": "2012 exercise, as reported",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#3ED6C8",
+     "size": 5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      53.5,
+      34.8
+     ],
+     "text": "Iran: a test as a bargaining chip",
+     "color": "#F2B01E",
+     "t": 4.62
+    },
+    {
+     "at": [
+      44.5,
+      24.4
+     ],
+     "text": "Saudi Arabia: toward its own bomb",
+     "color": "#FFFFFF",
+     "t": 7.59
+    }
+   ]
+  },
+  {
+   "id": "c3-demo",
+   "type": "region",
+   "start": 255.008,
+   "end": 266.061,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     42,
+     32
+    ],
+    "widthKm": 2400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      42,
+      32
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52,
+      32.5
+     ],
+     "widthKm": 1900
+    },
+    {
+     "t": 4.7,
+     "center": [
+      57,
+      31.5
+     ],
+     "widthKm": 1700
+    },
+    {
+     "t": 8.34,
+     "center": [
+      49,
+      33
+     ],
+     "widthKm": 1900
+    },
+    {
+     "t": 11.05,
+     "center": [
+      49,
+      33
+     ],
+     "widthKm": 1800
+    }
+   ],
+   "clock": "2024",
+   "clockLabel": "WAR GAME",
+   "clockRate": 0,
+   "source": "Bulletin of the Atomic Scientists, 2024",
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.9,
+      31.5
+     ],
+     "label": "Israel",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#3ED6C8",
+     "size": 5
+    },
+    {
+     "at": [
+      59.0,
+      31.0
+     ],
+     "label": "Remote part of Iran",
+     "kind": "target",
+     "t": 6.3,
+     "color": "#FF3B3B",
+     "size": 7
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       34.9,
+       31.5
+      ],
+      [
+       59.0,
+       31.0
+      ]
+     ],
+     "t0": 3.7,
+     "t1": 6.7,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Non-lethal demonstration",
+     "t": 3.7,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      49.0,
+      35.8
+     ],
+     "text": "Then 25 targets struck",
+     "color": "#FFD23F",
+     "t": 8.72
+    }
+   ]
+  },
+  {
+   "id": "c3-pact",
+   "type": "globe",
+   "start": 266.061,
+   "end": 273.024,
+   "tag": "REAL DATA",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 35,
+     "lon": -10,
+     "scale": 700
+    },
+    {
+     "t": 0.1,
+     "lat": 38,
+     "lon": -40,
+     "scale": 800
+    },
+    {
+     "t": 6.96,
+     "lat": 33,
+     "lon": 30,
+     "scale": 1100
+    }
+   ],
+   "sun": {
+    "lat": -15.27,
+    "lon": 168.63
+   },
+   "clock": "2012",
+   "clockLabel": "ISRAELI EXERCISE",
+   "clockRate": 0,
+   "source": "Reuters; Israeli press, 2012 reports",
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.06)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "Defence pact with the US, weighed",
+     "color": "#6EA8FF",
+     "kind": "dot",
+     "t": 2.33
+    },
+    {
+     "at": [
+      34.8,
+      32.0
+     ],
+     "label": "Strike option kept",
+     "color": "#3ED6C8",
+     "kind": "dot",
+     "t": 4.59
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      34.8,
+      32.0
+     ],
+     "to": [
+      -77.04,
+      38.9
+     ],
+     "t0": 1.87,
+     "t1": 4.87,
+     "color": "#6EA8FF",
+     "loft": 0.2
+    }
+   ]
+  },
+  {
+   "id": "c3-ours",
+   "type": "bars",
+   "start": 273.024,
+   "end": 277.902,
+   "tag": "SIMULATION",
+   "title": "Our version is far smaller",
+   "sub": "targets struck · 2024 game vs this simulation",
+   "source": "Bulletin of the Atomic Scientists, 2024; our scenario",
+   "bars": [
+    {
+     "label": "2024 war game",
+     "value": 25,
+     "display": "25 targets",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "Our simulation",
+     "value": 1,
+     "display": "one site",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "c3-hours",
+   "type": "region",
+   "start": 277.902,
+   "end": 288.215,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     42,
+     32.5
+    ],
+    "widthKm": 2500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      42,
+      32.5
+     ],
+     "widthKm": 2500
+    },
+    {
+     "t": 0.1,
+     "center": [
+      47,
+      33.2
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 6.03,
+     "center": [
+      40,
+      32.5
+     ],
+     "widthKm": 2800
+    },
+    {
+     "t": 10.31,
+     "center": [
+      45,
+      33
+     ],
+     "widthKm": 2200
+    }
+   ],
+   "clock": "HOUR 00",
+   "clockLabel": "THE TEST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "The mountain",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      34.94,
+      31.21
+     ],
+     "label": "Nevatim",
+     "kind": "base",
+     "t": 0.15,
+     "color": "#3ED6C8",
+     "size": 5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      41.0,
+      36.5
+     ],
+     "text": "We follow the 2024 game: our choice",
+     "color": "#FFD23F",
+     "t": 2.25
+    },
+    {
+     "at": [
+      41.0,
+      28.2
+     ],
+     "text": "Israel has forty hours",
+     "color": "#FFFFFF",
+     "t": 6.03
+    },
+    {
+     "at": [
+      50.0,
+      29.5
+     ],
+     "text": "And one problem",
+     "color": "#FF3B3B",
+     "t": 7.63
+    }
+   ]
+  },
+  {
+   "id": "c4-card",
+   "type": "chapter",
+   "start": 288.215,
+   "end": 291.71,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 04",
+   "title": "Hour forty to day four"
+  },
+  {
+   "id": "c4-raid",
+   "type": "region",
+   "start": 291.71,
+   "end": 310.823,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     37,
+     31.8
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      37,
+      31.8
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 0.1,
+     "center": [
+      42,
+      32.5
+     ],
+     "widthKm": 1900
+    },
+    {
+     "t": 8.57,
+     "center": [
+      44.941,
+      32.5
+     ],
+     "widthKm": 2120.573
+    },
+    {
+     "t": 11.62,
+     "center": [
+      46,
+      32.5
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 19.11,
+     "center": [
+      47.5,
+      33
+     ],
+     "widthKm": 2000
+    }
+   ],
+   "clock": "HOUR 40",
+   "clockLabel": "THE RAID",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.94,
+      31.21
+     ],
+     "label": "Nevatim air base",
+     "kind": "base",
+     "t": 1.78,
+     "color": "#3ED6C8",
+     "size": 6
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Test mountain: 1,684 km, 112 min",
+     "kind": "target",
+     "t": 5.52,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      51.68,
+      32.65
+     ],
+     "label": "Isfahan tunnels: 1,586 km, 106 min",
+     "kind": "target",
+     "t": 15.16,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      34.94,
+      31.21
+     ],
+     "to": [
+      52.6,
+      34.3
+     ],
+     "color": "#3ED6C8",
+     "dashed": true,
+     "t0": 4.55,
+     "t1": 7.05
+    },
+    {
+     "from": [
+      34.94,
+      31.21
+     ],
+     "to": [
+      51.68,
+      32.65
+     ],
+     "color": "#3ED6C8",
+     "dashed": true,
+     "t0": 11.62,
+     "t1": 14.12
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       34.94,
+       31.21
+      ],
+      [
+       52.6,
+       34.3
+      ]
+     ],
+     "t0": 0.4,
+     "t1": 15.12,
+     "kind": "ally",
+     "color": "#3ED6C8",
+     "label": "F-15I",
+     "t": 0.4,
+     "wake": true
+    },
+    {
+     "path": [
+      [
+       34.94,
+       31.21
+      ],
+      [
+       51.68,
+       32.65
+      ]
+     ],
+     "t0": 11.62,
+     "t1": 16.12,
+     "kind": "ally",
+     "color": "#3ED6C8",
+     "label": "F-15I",
+     "t": 11.62,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "c4-bombs",
+   "type": "globe",
+   "start": 310.823,
+   "end": 321.251,
+   "tag": "SIMULATION",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 33,
+     "lon": 35,
+     "scale": 900
+    },
+    {
+     "t": 0.1,
+     "lat": 40,
+     "lon": -10,
+     "scale": 650
+    },
+    {
+     "t": 3.27,
+     "lat": 38.952,
+     "lon": -25.719,
+     "scale": 650.0
+    },
+    {
+     "t": 6.15,
+     "lat": 38,
+     "lon": -40,
+     "scale": 650
+    },
+    {
+     "t": 10.43,
+     "lat": 36,
+     "lon": 15,
+     "scale": 800
+    }
+   ],
+   "sun": {
+    "lat": -15.27,
+    "lon": 168.63
+   },
+   "clock": "HOUR 40",
+   "clockLabel": "WHAT ISRAEL HAS",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.06)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      34.94,
+      31.21
+     ],
+     "label": "Israel: bunker busters",
+     "color": "#3ED6C8",
+     "kind": "base",
+     "t": 0.4
+    },
+    {
+     "at": [
+      -93.55,
+      38.73
+     ],
+     "label": "US: 13.5 t bomb and B-2",
+     "color": "#6EA8FF",
+     "kind": "base",
+     "t": 6.15
+    },
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow",
+     "color": "#F2B01E",
+     "kind": "target",
+     "t": 7.21
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -93.55,
+      38.73
+     ],
+     "to": [
+      50.99,
+      34.88
+     ],
+     "t0": 6.15,
+     "t1": 10.15,
+     "color": "#6EA8FF",
+     "loft": 0.3
+    }
+   ],
+   "caption": "Israel does not own that bomb, or the B-2 that carries it."
+  },
+  {
+   "id": "c4-entrances",
+   "type": "region",
+   "start": 321.251,
+   "end": 337.239,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     51.68,
+     32.65
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      51.68,
+      32.65
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 0.1,
+     "center": [
+      51.68,
+      32.65
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 6.1,
+     "center": [
+      51.68,
+      32.65
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 8.69,
+     "center": [
+      51.68,
+      32.65
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 9.59,
+     "center": [
+      52.2,
+      33.6
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 15.99,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "",
+   "source": "IAEA; Institute for Science and International Security",
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      51.9,
+      32.9
+     ],
+     "text": "Storage tunnels: too deep for even that bomb",
+     "color": "#FFFFFF",
+     "t": 2.94
+    },
+    {
+     "at": [
+      51.9,
+      32.45
+     ],
+     "text": "So the strikes went for the entrances",
+     "color": "#FF3B3B",
+     "t": 6.4
+    },
+    {
+     "at": [
+      52.75,
+      34.45
+     ],
+     "text": "Israel's aim: the entrances",
+     "color": "#3ED6C8",
+     "t": 9.69
+    },
+    {
+     "at": [
+      52.75,
+      34.12
+     ],
+     "text": "Not the halls below",
+     "color": "#FF3B3B",
+     "t": 14.18
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      51.68,
+      32.65
+     ],
+     "label": "Isfahan, 2025",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 7
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Our site",
+     "kind": "target",
+     "t": 9.59,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-salvo",
+   "type": "region",
+   "start": 337.239,
+   "end": 350.958,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     44,
+     32.8
+    ],
+    "widthKm": 2200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      44,
+      32.8
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 0.1,
+     "center": [
+      44,
+      33
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 9.25,
+     "center": [
+      41,
+      32.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 13.72,
+     "center": [
+      38,
+      32
+     ],
+     "widthKm": 1100
+    }
+   ],
+   "clock": "HOUR 42",
+   "clockLabel": "THE RAIDS LAND",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Raid lands",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      51.68,
+      32.65
+     ],
+     "label": "Raid lands",
+     "kind": "target",
+     "t": 0.9,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      34.94,
+      31.21
+     ],
+     "label": "Nevatim",
+     "kind": "base",
+     "t": 3.77,
+     "color": "#3ED6C8",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       47.0,
+       34.3
+      ],
+      [
+       34.94,
+       31.21
+      ]
+     ],
+     "t0": 4.98,
+     "t1": 12.95,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "One missile = a salvo",
+     "t": 4.98,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      47.0,
+      35.9
+     ],
+     "text": "Iran fires back",
+     "color": "#FFD23F",
+     "t": 3.47
+    },
+    {
+     "at": [
+      41.0,
+      29.0
+     ],
+     "text": "About 1,200 km, 6.5 minutes",
+     "color": "#FFFFFF",
+     "t": 9.25
+    }
+   ]
+  },
+  {
+   "id": "c4-550",
+   "type": "number",
+   "start": 350.958,
+   "end": 356.397,
+   "tag": "REAL DATA",
+   "value": "ABOUT 550",
+   "countTo": 550,
+   "prefix": "ABOUT ",
+   "label": "Iranian missiles, June 2025",
+   "color": "#FF3B3B",
+   "source": "Israeli military statements; Reuters"
+  },
+  {
+   "id": "c4-nine",
+   "type": "isotype",
+   "start": 356.397,
+   "end": 361.248,
+   "tag": "REAL DATA",
+   "headline": "ABOUT NINE IN TEN INTERCEPTED",
+   "label": "Iranian missiles, June 2025",
+   "total": 10,
+   "filled": 9,
+   "per": "by Israel's count",
+   "color": "#3ED6C8",
+   "source": "Israeli military statements; Reuters"
+  },
+  {
+   "id": "c4-digging",
+   "type": "region",
+   "start": 361.248,
+   "end": 373.552,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     47,
+     33.5
+    ],
+    "widthKm": 1400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      47,
+      33.5
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 6.3,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 12.3,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "HOUR 42 TO DAY 4",
+   "clockLabel": "MORE THAN TWO DAYS",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Entrances hit, work goes on",
+     "kind": "target",
+     "t": 3.94,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       52.3,
+       34.1
+      ],
+      [
+       52.9,
+       34.1
+      ],
+      [
+       52.9,
+       34.5
+      ],
+      [
+       52.3,
+       34.5
+      ]
+     ],
+     "label": "The digging goes on",
+     "color": "#F2B01E",
+     "t": 8.72,
+     "pulse": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      51.5,
+      35.3
+     ],
+     "text": "As in the 2024 game",
+     "color": "#FFFFFF",
+     "t": 5.78
+    },
+    {
+     "at": [
+      53.7,
+      33.7
+     ],
+     "text": "And so does the warhead",
+     "color": "#FF3B3B",
+     "t": 10.92
+    }
+   ]
+  },
+  {
+   "id": "c4-cabinet",
+   "type": "region",
+   "start": 373.552,
+   "end": 381.559,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     35.21,
+     31.77
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      35.21,
+      31.77
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 0.1,
+     "center": [
+      38,
+      32.5
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 6.42,
+     "center": [
+      47,
+      33.3
+     ],
+     "widthKm": 1700
+    },
+    {
+     "t": 8.01,
+     "center": [
+      49,
+      33.4
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "clock": "DAY 4",
+   "clockLabel": "OUR SCENARIO",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      35.21,
+      31.77
+     ],
+     "label": "Israel's cabinet decides",
+     "kind": "base",
+     "t": 3.08,
+     "color": "#3ED6C8",
+     "size": 7
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "A buried target",
+     "kind": "target",
+     "t": 6.42,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      36.5,
+      33.9
+     ],
+     "text": "Only a nuclear weapon addresses it",
+     "color": "#FFD23F",
+     "t": 4.9
+    }
+   ]
+  },
+  {
+   "id": "c4-jericho",
+   "type": "region",
+   "start": 381.559,
+   "end": 401.256,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     38,
+     32
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      38,
+      32
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 0.1,
+     "center": [
+      40,
+      32.5
+     ],
+     "widthKm": 1900
+    },
+    {
+     "t": 6.24,
+     "center": [
+      43,
+      33
+     ],
+     "widthKm": 2500
+    },
+    {
+     "t": 10.93,
+     "center": [
+      45,
+      33.5
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 19.7,
+     "center": [
+      47,
+      33.3
+     ],
+     "widthKm": 2100
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "MINUTES AFTER LAUNCH",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.9,
+      31.7
+     ],
+     "label": "Jericho II battery (simulated)",
+     "kind": "base",
+     "t": 0.33,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Test mountain",
+     "kind": "target",
+     "t": 6.24,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      34.9,
+      31.7
+     ],
+     "km": 1500,
+     "color": "#F2B01E",
+     "label": "1,500 km or more",
+     "dashed": true,
+     "t": 3.47
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       34.9,
+       31.7
+      ],
+      [
+       52.6,
+       34.3
+      ]
+     ],
+     "t0": 6.24,
+     "t1": 10.73,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Jericho II",
+     "t": 6.24,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      41.0,
+      36.3
+     ],
+     "text": "1,670 km in eight minutes",
+     "color": "#FFFFFF",
+     "t": 6.59
+    },
+    {
+     "at": [
+      44.0,
+      30.6
+     ],
+     "text": "Israel has never confirmed its arsenal",
+     "color": "#3ED6C8",
+     "t": 11.59
+    },
+    {
+     "at": [
+      47.0,
+      30.0
+     ],
+     "text": "10 kt: entirely our assumption",
+     "color": "#FF3B3B",
+     "t": 15.43
+    }
+   ]
+  },
+  {
+   "id": "c4-clock",
+   "type": "region",
+   "start": 401.256,
+   "end": 409.417,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     38,
+     32
+    ],
+    "widthKm": 2000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      38,
+      32
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 0.1,
+     "center": [
+      44,
+      33
+     ],
+     "widthKm": 2300
+    },
+    {
+     "t": 8.16,
+     "center": [
+      48,
+      33.3
+     ],
+     "widthKm": 1700
+    }
+   ],
+   "clock": "HOUR 96",
+   "clockLabel": "THE LAUNCH",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.9,
+      31.7
+     ],
+     "label": "Launch: hour 96",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Test mountain",
+     "kind": "target",
+     "t": 1.2,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       34.9,
+       31.7
+      ],
+      [
+       52.6,
+       34.3
+      ]
+     ],
+     "t0": 3.02,
+     "t1": 7.86,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Jericho II",
+     "t": 3.02,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      41.0,
+      36.3
+     ],
+     "text": "96 hours after the test",
+     "color": "#FFFFFF",
+     "t": 0.63
+    },
+    {
+     "at": [
+      44.5,
+      29.5
+     ],
+     "text": "Flight: eight minutes",
+     "color": "#FFFFFF",
+     "t": 3.89
+    },
+    {
+     "at": [
+      41.0,
+      28.4
+     ],
+     "text": "The clock from the cold open",
+     "color": "#FFD23F",
+     "t": 6.05
+    }
+   ]
+  },
+  {
+   "id": "c4-eleven",
+   "type": "bars",
+   "start": 409.417,
+   "end": 415.057,
+   "tag": "SIMULATION",
+   "title": "Two nuclear events, eleven kilotons together",
+   "sub": "kilotons · no other nuclear weapon is used",
+   "source": "Scenario engine",
+   "bars": [
+    {
+     "label": "Test, hour 0",
+     "value": 1,
+     "display": "1 kt",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "Jericho, hour 96",
+     "value": 10,
+     "display": "10 kt",
+     "color": "#FF3B3B"
+    },
+    {
+     "label": "Total",
+     "value": 11,
+     "display": "11 kt",
+     "color": "#FFFFFF"
+    }
+   ]
+  },
+  {
+   "id": "c4-what",
+   "type": "region",
+   "start": 415.057,
+   "end": 418.783,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     49,
+     33.5
+    ],
+    "widthKm": 700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      49,
+      33.5
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 3.73,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "T+00:07",
+   "clockLabel": "AFTER LAUNCH",
+   "clockRate": 1,
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "What does ten kilotons do to a mountain?",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ]
+  },
+  {
+   "id": "c5-card",
+   "type": "chapter",
+   "start": 418.783,
+   "end": 421.38,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 05",
+   "title": "One warhead, ring by ring"
+  },
+  {
+   "id": "h-flash",
+   "type": "region",
+   "start": 421.38300000000004,
+   "end": 431.368,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     52.6,
+     34.3
+    ],
+    "widthKm": 150
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.62,
+      34.31
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 7.33,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 9.98,
+     "center": [
+      52.6,
+      34.28
+     ],
+     "widthKm": 150
+    }
+   ],
+   "burst": {
+    "at": [
+     52.6,
+     34.3
+    ],
+    "t": 0.1,
+    "km": 3.0,
+    "fade": 8
+   },
+   "clock": "T+08:00",
+   "clockLabel": "IMPACT · T+96 H",
+   "clockRate": 0,
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Ground zero (simulated)",
+     "kind": "target",
+     "t": 0.5,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      52.62,
+      34.37
+     ],
+     "text": "Ground burst: our choice",
+     "color": "#FFFFFF",
+     "t": 0.27
+    },
+    {
+     "at": [
+      52.62,
+      34.24
+     ],
+     "text": "The engine offers air or ground only",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 4.13
+    },
+    {
+     "at": [
+      52.62,
+      34.31
+     ],
+     "text": "Every number here is the engine's",
+     "color": "#FFD23F",
+     "t": 7.53
+    }
+   ],
+   "caption": "A ground burst lifts earth into the fireball."
+  },
+  {
+   "id": "h-fireball",
+   "type": "region",
+   "start": 431.368,
+   "end": 450.824,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     52.6,
+     34.3
+    ],
+    "widthKm": 150
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.61,
+      34.31
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.31
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 19.46,
+     "center": [
+      52.6,
+      34.29
+     ],
+     "widthKm": 150
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 191 m radius",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 238 m",
+     "color": "#FF7A1A"
+    }
+   ],
+   "clock": "T+08:00",
+   "clockLabel": "IMPACT · T+96 H",
+   "clockRate": 0,
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 0.191,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": 5.84
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 0.238,
+     "color": "#FF7A1A",
+     "label": "20 psi",
+     "t": 12.7
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Earth lifted into the fireball",
+     "kind": "target",
+     "t": 0.9,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      52.62,
+      34.37
+     ],
+     "text": "The earth comes back down as fallout",
+     "color": "#F2B01E",
+     "t": 4.82
+    },
+    {
+     "at": [
+      52.62,
+      34.24
+     ],
+     "text": "About 380 m across",
+     "color": "#FFFFFF",
+     "t": 9.3
+    },
+    {
+     "at": [
+      52.62,
+      34.42
+     ],
+     "text": "20 psi: 240 m",
+     "color": "#FF7A1A",
+     "t": 16.36
+    }
+   ]
+  },
+  {
+   "id": "h-5psi",
+   "type": "region",
+   "start": 450.824,
+   "end": 466.657,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     52.6,
+     34.3
+    ],
+    "widthKm": 150
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.61,
+      34.31
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.29
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 15.83,
+     "center": [
+      52.59,
+      34.3
+     ],
+     "widthKm": 150
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 191 m radius",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 238 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 1.17 km",
+     "color": "#FF3B3B"
+    }
+   ],
+   "clock": "T+08:00",
+   "clockLabel": "IMPACT · T+96 H",
+   "clockRate": 0,
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 0.191,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": -30
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 0.238,
+     "color": "#FF7A1A",
+     "label": "20 psi",
+     "t": -30
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 1.167,
+     "color": "#FF3B3B",
+     "label": "5 psi",
+     "t": 0.1
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      52.64,
+      34.38
+     ],
+     "text": "5 psi: 1.17 km",
+     "color": "#FF3B3B",
+     "t": 1.31
+    },
+    {
+     "at": [
+      52.64,
+      34.25
+     ],
+     "text": "About 4.3 km2 inside",
+     "color": "#FFFFFF",
+     "t": 3.71
+    },
+    {
+     "at": [
+      52.64,
+      34.2
+     ],
+     "text": "Flat ground: most buildings flattened",
+     "color": "rgba(236,239,242,0.95)",
+     "t": 6.99
+    },
+    {
+     "at": [
+      52.64,
+      34.43
+     ],
+     "text": "This is a mountain: rock changes it",
+     "color": "#FFD23F",
+     "t": 10.63
+    },
+    {
+     "at": [
+      52.64,
+      34.16
+     ],
+     "text": "No number for the tunnels",
+     "color": "#FFD23F",
+     "t": 14.35
+    }
+   ]
+  },
+  {
+   "id": "h-burns",
+   "type": "region",
+   "start": 466.657,
+   "end": 482.265,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     52.6,
+     34.3
+    ],
+    "widthKm": 150
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.31
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 220
+    },
+    {
+     "t": 15.61,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 300
+    }
+   ],
+   "legend": [
+    {
+     "text": "Fireball 191 m radius",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 238 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 1.17 km",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "Third-degree burns 1.6 km",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "Broken windows 3.2 km",
+     "color": "#3ED6C8"
+    }
+   ],
+   "clock": "T+08:00",
+   "clockLabel": "IMPACT · T+96 H",
+   "clockRate": 0,
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 0.191,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": -30
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 0.238,
+     "color": "#FF7A1A",
+     "label": "20 psi",
+     "t": -30
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 1.167,
+     "color": "#FF3B3B",
+     "label": "5 psi",
+     "t": -30
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 1.617,
+     "color": "#F2B01E",
+     "label": "Burns",
+     "t": 0.1
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 3.159,
+     "color": "#3ED6C8",
+     "label": "1 psi",
+     "t": 4.78
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      52.64,
+      34.38
+     ],
+     "text": "Burns: 1.6 km",
+     "color": "#F2B01E",
+     "t": 0.25
+    },
+    {
+     "at": [
+      52.64,
+      34.25
+     ],
+     "text": "Windows: 3.2 km",
+     "color": "#3ED6C8",
+     "t": 4.78
+    },
+    {
+     "at": [
+      52.64,
+      34.43
+     ],
+     "text": "Thinly populated country (our choice)",
+     "color": "#FFFFFF",
+     "t": 9.17
+    },
+    {
+     "at": [
+      52.64,
+      34.2
+     ],
+     "text": "No town inside these rings",
+     "color": "#FFD23F",
+     "t": 12.35
+    }
+   ]
+  },
+  {
+   "id": "w-plume",
+   "type": "region",
+   "start": 482.265,
+   "end": 500.897,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     52.6,
+     34.3
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.8,
+      34.4
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 0.1,
+     "center": [
+      53.5,
+      34.6
+     ],
+     "widthKm": 800
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.5,
+      34.6
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 15.43,
+     "center": [
+      52.0863,
+      34.6
+     ],
+     "widthKm": 900.0
+    },
+    {
+     "t": 18.63,
+     "center": [
+      52,
+      34.6
+     ],
+     "widthKm": 900
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "source": "Scenario engine; wind is our assumption",
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Ground zero",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 10.53,
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 11.35,
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      51.39,
+      35.69
+     ],
+     "label": "Tehran",
+     "kind": "dot",
+     "t": 12.23,
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      50.3,
+      34.0
+     ],
+     "to": [
+      52.3,
+      34.25
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "label": "Wind from the west (assumed)",
+     "t0": 1.49,
+     "t1": 3.49
+    }
+   ],
+   "plume": {
+    "at": [
+     52.6,
+     34.3
+    ],
+    "bearing": 70,
+    "lengthKm": 120,
+    "widthKm": 18,
+    "t0": 6.41,
+    "t1": 11.41,
+    "color": "#F2B01E",
+    "label": "Direction only: no dose, no distance"
+   },
+   "labels": [
+    {
+     "at": [
+      54.4,
+      35.3
+     ],
+     "text": "Away from the cities",
+     "color": "#F2B01E",
+     "t": 9.96
+    }
+   ]
+  },
+  {
+   "id": "d-halls",
+   "type": "region",
+   "start": 500.897,
+   "end": 508.63,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     52.6,
+     34.3
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 3.53,
+     "center": [
+      51.5,
+      33.8
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 7.73,
+     "center": [
+      51.8,
+      33.7
+     ],
+     "widthKm": 700
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Did it destroy the deep halls?",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow: 80 to 90 m (reported)",
+     "kind": "dot",
+     "t": 4.33,
+     "color": "#F2B01E"
+    },
+    {
+     "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "dot",
+     "t": 8.93,
+     "color": "#F2B01E"
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      53.0,
+      34.6
+     ],
+     "text": "We do not know",
+     "color": "#FFD23F",
+     "t": 2.77
+    }
+   ]
+  },
+  {
+   "id": "d-bars",
+   "type": "bars",
+   "start": 508.63,
+   "end": 516.086,
+   "tag": "REAL DATA",
+   "title": "Pickaxe Mountain, near Natanz: how deep?",
+   "sub": "metres · two published estimates differ",
+   "source": "Institute for Science and International Security; Reuters",
+   "bars": [
+    {
+     "label": "One estimate",
+     "value": 100,
+     "display": "80 to 100 m",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "Another repeats",
+     "value": 600,
+     "display": "up to 600 m",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "d-model",
+   "type": "region",
+   "start": 516.086,
+   "end": 522.936,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     52.6,
+     34.3
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 6.85,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Penetration: estimates differ too",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      52.7,
+      34.45
+     ],
+     "text": "No published model covers this site",
+     "color": "#FFD23F",
+     "t": 2.74
+    }
+   ]
+  },
+  {
+   "id": "c6-card",
+   "type": "chapter",
+   "start": 522.936,
+   "end": 526.44,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 06",
+   "title": "The day after"
+  },
+  {
+   "id": "e-dark",
+   "type": "region",
+   "start": 526.44,
+   "end": 541.904,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     52.6,
+     34.3
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 4.5,
+     "center": [
+      51.5,
+      33.9
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 9.55,
+     "center": [
+      51.5,
+      33.6
+     ],
+     "widthKm": 520
+    },
+    {
+     "t": 15.46,
+     "center": [
+      51.5,
+      33.5
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "THE FIRST CHANGE",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       52.2,
+       34.0
+      ],
+      [
+       53.0,
+       34.0
+      ],
+      [
+       53.0,
+       34.6
+      ],
+      [
+       52.2,
+       34.6
+      ]
+     ],
+     "label": "Dark: nobody can see in",
+     "color": "#8A8F98",
+     "t": 2.97,
+     "pulse": true
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow",
+     "kind": "target",
+     "t": 8.47,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "target",
+     "t": 9.55,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      51.68,
+      32.65
+     ],
+     "label": "Isfahan",
+     "kind": "target",
+     "t": 10.45,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      52.0,
+      35.4
+     ],
+     "text": "Since June 2025: no inspector inside",
+     "color": "#FFD23F",
+     "t": 4.5
+    },
+    {
+     "at": [
+      52.0,
+      32.0
+     ],
+     "text": "Stockpile figure: more than a year stale",
+     "color": "#FFFFFF",
+     "t": 11.91
+    }
+   ]
+  },
+  {
+   "id": "f-plume",
+   "type": "region",
+   "start": 541.904,
+   "end": 557.904,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     52.6,
+     34.3
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 7.01,
+     "center": [
+      54.5,
+      34.6
+     ],
+     "widthKm": 800
+    },
+    {
+     "t": 11.24,
+     "center": [
+      53.5,
+      34.6
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 16.0,
+     "center": [
+      52.5,
+      34.2
+     ],
+     "widthKm": 1300
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "THE SECOND CHANGE",
+   "clockRate": 0,
+   "source": "Scenario engine; wind is our assumption",
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Did the weapon reach the halls?",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 10.05,
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 9.37,
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "plume": {
+    "at": [
+     52.6,
+     34.3
+    ],
+    "bearing": 70,
+    "lengthKm": 120,
+    "widthKm": 18,
+    "t0": 4.79,
+    "t1": 9.79,
+    "color": "#F2B01E",
+    "label": "Drifting east: no dose"
+   },
+   "labels": [
+    {
+     "at": [
+      55.3,
+      35.4
+     ],
+     "text": "Dasht-e Kavir desert",
+     "color": "#FFFFFF",
+     "t": 7.01
+    },
+    {
+     "at": [
+      51.0,
+      35.2
+     ],
+     "text": "Thinning away from the cities",
+     "color": "#F2B01E",
+     "t": 8.97
+    }
+   ]
+  },
+  {
+   "id": "g-iaea",
+   "type": "region",
+   "start": 557.904,
+   "end": 567.521,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     51.4,
+     34.0
+    ],
+    "widthKm": 600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      51.4,
+      34.0
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 0.1,
+     "center": [
+      50.99,
+      34.88
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 3.59,
+     "center": [
+      51.5177,
+      34.5247
+     ],
+     "widthKm": 500.0
+    },
+    {
+     "t": 6.78,
+     "center": [
+      52.0,
+      34.2
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 9.62,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "",
+   "source": "IAEA statements, 2025",
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Real sites: deep halls may be partly intact",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#F2B01E",
+     "size": 7
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Our site",
+     "kind": "target",
+     "t": 6.78,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      52.8,
+      34.6
+     ],
+     "text": "Nothing in our simulation updates it",
+     "color": "#FFD23F",
+     "t": 6.78
+    }
+   ]
+  },
+  {
+   "id": "i-tracks",
+   "type": "region",
+   "start": 567.521,
+   "end": 585.201,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     44,
+     33
+    ],
+    "widthKm": 2400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      44,
+      33
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 0.1,
+     "center": [
+      43,
+      32.5
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 5.74,
+     "center": [
+      37,
+      31.8
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 12.83,
+     "center": [
+      36.5,
+      32.0
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 17.68,
+     "center": [
+      36.5,
+      31.9
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "THE THIRD CHANGE",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.78,
+      32.08
+     ],
+     "label": "Tel Aviv",
+     "kind": "dot",
+     "t": 6.24,
+     "color": "#3ED6C8"
+    },
+    {
+     "at": [
+      34.94,
+      31.21
+     ],
+     "label": "Nevatim",
+     "kind": "base",
+     "t": 6.94,
+     "color": "#3ED6C8",
+     "size": 5
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       47,
+       34.3
+      ],
+      [
+       34.94,
+       31.21
+      ]
+     ],
+     "t0": 3.63,
+     "t1": 6.71,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iranian missiles",
+     "t": 3.63,
+     "wake": true
+    },
+    {
+     "path": [
+      [
+       47.5,
+       35.0
+      ],
+      [
+       34.78,
+       32.08
+      ]
+     ],
+     "t0": 4.03,
+     "t1": 7.11,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "t": 4.03,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      41.5,
+      35.4
+     ],
+     "text": "Change 3: the missile tracks",
+     "color": "#FFD23F",
+     "t": 2.05
+    },
+    {
+     "at": [
+      41.5,
+      30.0
+     ],
+     "text": "June 2025, by Israel's count",
+     "color": "#FFFFFF",
+     "t": 7.95
+    },
+    {
+     "at": [
+      38.5,
+      29.8
+     ],
+     "text": "About 9 in 10 intercepted",
+     "color": "#3ED6C8",
+     "t": 9.75
+    },
+    {
+     "at": [
+      38.5,
+      29.0
+     ],
+     "text": "31+ hit populated areas or key sites",
+     "color": "#FF3B3B",
+     "t": 13.27
+    }
+   ]
+  },
+  {
+   "id": "j-water",
+   "type": "region",
+   "start": 585.201,
+   "end": 602.153,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     51,
+     31
+    ],
+    "widthKm": 1600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      51,
+      31
+     ],
+     "widthKm": 1600
+    },
+    {
+     "t": 0.1,
+     "center": [
+      53,
+      29
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 5.15,
+     "center": [
+      55,
+      27
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 8.59,
+     "center": [
+      56.5,
+      26.5
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 12.13,
+     "center": [
+      54,
+      27.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 16.95,
+     "center": [
+      54,
+      27.5
+     ],
+     "widthKm": 1700
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "THE FOURTH CHANGE",
+   "clockRate": 0,
+   "source": "Reuters; Associated Press",
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       50.0,
+       27.5
+      ],
+      [
+       57.5,
+       27.2
+      ],
+      [
+       58.0,
+       25.2
+      ],
+      [
+       56.0,
+       24.8
+      ],
+      [
+       51.0,
+       26.0
+      ]
+     ],
+     "label": "US blockade of Iranian ports",
+     "color": "#6EA8FF",
+     "t": 5.83,
+     "pulse": true
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       60.5,
+       23.5
+      ],
+      [
+       57.5,
+       25.8
+      ]
+     ],
+     "t0": 5.15,
+     "t1": 9.15,
+     "kind": "us",
+     "label": "US Navy",
+     "t": 5.15
+    },
+    {
+     "path": [
+      [
+       50.5,
+       28.8
+      ],
+      [
+       54.5,
+       26.8
+      ],
+      [
+       56.3,
+       26.4
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 9.0,
+     "kind": "tanker",
+     "label": "Tanker",
+     "t": 0.4
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      56.5,
+      26.5
+     ],
+     "label": "Strait of Hormuz (contested)",
+     "kind": "target",
+     "t": 8.59,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      48.5,
+      31.0
+     ],
+     "text": "What is buried? What is left?",
+     "color": "#FFD23F",
+     "t": 0.4
+    },
+    {
+     "at": [
+      53.0,
+      30.1
+     ],
+     "text": "Nuclear strike and shipping: no study",
+     "color": "#FFFFFF",
+     "t": 14.58
+    }
+   ]
+  },
+  {
+   "id": "k-treaty",
+   "type": "region",
+   "start": 602.153,
+   "end": 618.714,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     44,
+     31
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      44,
+      31
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 0.1,
+     "center": [
+      46,
+      31
+     ],
+     "widthKm": 2700
+    },
+    {
+     "t": 9.67,
+     "center": [
+      53,
+      32.5
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 12.2,
+     "center": [
+      48,
+      27
+     ],
+     "widthKm": 2700
+    },
+    {
+     "t": 16.56,
+     "center": [
+      46,
+      26
+     ],
+     "widthKm": 2600
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "THE TREATY MAP",
+   "clockRate": 0,
+   "source": "UN Treaty Collection; Reuters",
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "ISRAEL",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.9,
+      31.7
+     ],
+     "label": "Israel: never joined the NPT",
+     "kind": "base",
+     "t": 2.67,
+     "color": "#3ED6C8",
+     "size": 6
+    },
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Iran: left it (simulation)",
+     "kind": "target",
+     "t": 9.96,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      53.0,
+      36.9
+     ],
+     "text": "Real life: exit bills in parliament",
+     "color": "#F2B01E",
+     "t": 7.44
+    },
+    {
+     "at": [
+      47.0,
+      22.8
+     ],
+     "text": "Saudi Arabia: toward its own bomb (2012 game)",
+     "color": "#FFFFFF",
+     "t": 14.58
+    }
+   ]
+  },
+  {
+   "id": "m-qatar",
+   "type": "region",
+   "start": 618.714,
+   "end": 631.888,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     48,
+     30
+    ],
+    "widthKm": 2400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      48,
+      30
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 0.1,
+     "center": [
+      48,
+      29
+     ],
+     "widthKm": 1900
+    },
+    {
+     "t": 5.49,
+     "center": [
+      48,
+      28
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 8.61,
+     "center": [
+      52.0,
+      33.0
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 10.41,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 13.17,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "ONE CHANNEL OPEN",
+   "clockRate": 0,
+   "source": "Reuters; Associated Press",
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "Iran",
+     "kind": "dot",
+     "t": 0.3,
+     "color": "#F2B01E"
+    },
+    {
+     "at": [
+      51.53,
+      25.29
+     ],
+     "label": "Qatar: the real go-between today",
+     "kind": "target",
+     "t": 5.49,
+     "color": "#3ED6C8",
+     "size": 7
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      51.53,
+      25.29
+     ],
+     "to": [
+      52.6,
+      34.3
+     ],
+     "color": "#3ED6C8",
+     "dashed": true,
+     "t0": 3.9,
+     "t1": 5.9
+    },
+    {
+     "from": [
+      51.53,
+      25.29
+     ],
+     "to": [
+      35.2,
+      31.8
+     ],
+     "color": "#3ED6C8",
+     "dashed": true,
+     "t0": 5.49,
+     "t1": 7.99
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      47.0,
+      34.8
+     ],
+     "text": "Who asks the question?",
+     "color": "#FFD23F",
+     "t": 0.3
+    },
+    {
+     "at": [
+      52.8,
+      34.6
+     ],
+     "text": "The mountain is still there",
+     "color": "#FF3B3B",
+     "t": 8.91
+    },
+    {
+     "at": [
+      52.8,
+      34.3
+     ],
+     "text": "And so is the question",
+     "color": "#FFD23F",
+     "t": 11.38
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "type": "endslate",
+   "start": 631.888,
+   "end": 649.18,
+   "tag": "",
+   "title": "Next scenario",
+   "line": "One 10-kiloton nuke at sea, and a US carrier strike group."
+  }
+ ],
+ "narration": "episodes/006-iran-tests-bomb-israel-answers/narration.wav"
+}
