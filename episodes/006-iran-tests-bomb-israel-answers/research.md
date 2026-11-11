@@ -61,14 +61,53 @@ Compiled 2026-11-11. Every claim the script uses is listed with its sources. Two
 
 ## C. Simulation assumptions (SIMULATION tag, stated as assumptions in the script)
 
-To be written by the scenario designer. The following are research-desk suggestions only, clearly not facts:
+Decided 2026-11-11 by the scenario designer. Numbers come from `scenario.computed.json` (studio/scenario.py). Everything below is a simulation choice, not a prediction. It has not happened. Iran has not tested a weapon (A4), and Israel has not used one.
 
-- Suggestion: run on day numbers only ("Day 1", "hour 48"), no calendar date, no named living leaders; the news (framing check) already has a real US-Iran war and Israeli lobbying for new strikes, so make the "it has not happened" line explicit.
-- Suggestion, the test: a single underground test at a simulated deep site; a first test is usually small, so a yield of about 1 kt or less (North Korea 2006, A23) is more defensible than a 10 kt figure; a ground or deep underground burst means little blast at the surface; the engine decides effects. Possible site type: Fordow-type mountain (A9) or Pickaxe-type (A12), but state that the simulation chooses the site and that the real contents of Pickaxe are unknown.
-- Suggestion, the 48 hours: use the published logic of A24 and A25: the 2012 INSS game found no immediate war; the NPEC 2024 game found conventional strikes could fail and Israeli escalation could follow. Show both outcomes as published, not as our prediction. Note: a test is also a "demonstration", and detection by seismic networks is a real thing, but our pass did not find a published source on how fast it would be detected, so say nothing precise.
-- Suggestion, Israel's answer: Israel cannot carry the GBU-57 or the B-2 (A10), so an Israeli answer on a buried site is either conventional bunker busters on tunnel entrances (as the US did at Isfahan, A13), a joint US strike, or an Israeli nuclear or low-yield option, which is the most escalatory and the one the NPEC game turned to (A24). The hero strike is for the designer to choose, with distances in A20 (about 1,600 km; the engine computes flight times). If the designer picks a nuclear answer, label it a worst case drawn from the 2024 game, and keep it to one or two strikes.
-- Suggestion, day after: Hormuz and the US blockade are real news facts (A2); the simulation's regional escalation should be shown as simulation only. No casualty total unless a published study supplies it; none was found for this scenario.
-- Suggestion, framing: the 2025 Midnight Hammer facts (A11) and the 2026 war (A1) are the background; the first test is the simulation's trigger.
+### Framing and clock
+- The real 2026 war and the real ceasefire politics (A1, A2, A3, A17) are the REAL DATA background. The simulation starts from them but runs on its own clock: "minute zero" is the test, then "hour forty", "hour forty-two", "day four". No calendar date appears on screen or in speech. The engine clock (2027-02-09 01:00 UTC, 04:30 in Iran) is only for sun position: it is dark over Iran at the test and at the hero strike, which falls at the same hour on day four.
+- No named living leaders, no casualty totals. No published study of this scenario was found (research.md A24 and A25 are games, not casualty studies). The script must say the war games disagree and show both outcomes.
+
+### Escalation logic
+1. Minute zero, the trigger: one underground test, 1 kt, at an invented deep site in a Fordow-type mountain in central Iran (34.3 N, 52.6 E, location simulated; Fordow itself is about 35.0 N, 51.0 E and Pickaxe is near Natanz, A9, A12, so the site is neither). Yield follows the small first-test range of North Korea 2006: US DNI under 1 kt, other estimates 0.48 to 2 kt (A23). We chose 1 kt. Real enrichment gap: "weeks of enrichment, months to a crude device, a year or more for a missile warhead, by one published estimate" (A7); the simulation simply assumes a crude device was done first. The path (NPT exit under Article X, A15, then a test) is the simulation's.
+2. Hours 0 to 40, the decision: the INSS game of 2012 found no immediate war, with Iran using the test as a bargaining chip and Saudi Arabia moving toward its own bomb (A25, dated 2012). The 2024 NPEC game found conventional strikes could fail and Israel then escalated (A24). We show both outcomes as published and follow the second. That is our choice, not a forecast. The script must not say how fast a test would be detected (no source found).
+3. Hour 40, the conventional answer: Israeli F-15I aircraft from Nevatim (31.21 N, 34.94 E, A20) hit the tunnel entrances of the test site (1,684 km, about 112 minutes by engine) and of the Isfahan complex (1,586 km, about 106 minutes). Israel lacks the GBU-57 and the B-2 (A10); the GBU-28 and BLU-109 cannot reach deep halls, so entrances are the target, as the US did at Isfahan in 2025 (A13, A14). Flight times for aircraft are the engine's, by its bomber rule.
+4. Hour 42, Iran's answer: one conventional ballistic missile stands for a salvo from a simulated site in western Iran (34.3 N, 47.0 E), 1,178 km to Nevatim, about 6.5 minutes. The June 2025 numbers are the pattern: about 550 missiles, about 90 percent intercepted, 28 killed in Israel (A21). The script may cite the 2025 figures as real history, never as a figure for this scenario.
+5. Day four, the worst case (hero): after the entrance raids fail to stop the work, one Israeli Jericho II (range 1,500 km or more, A19) with a low-yield warhead flies from a simulated site in central Israel (31.7 N, 34.9 E): 1,673 km, about 8 minutes by the engine's irbm rule. Labelled a worst case drawn from the NPEC game (A24), where Israel used a non-lethal demonstration and then a large strike. Our version is a single weapon on the buried site. Israel does not confirm that it has nuclear weapons (A18); the 10 kt yield is entirely our assumption, not a known Israeli yield. Consequence for the narration: one engine number, a ground burst, because only a surface or near-surface burst addresses a buried target.
+
+### Strike groups (scenario.json ids)
+| id | what | engine |
+|---|---|---|
+| test-mountain | 1 kt contained underground test | 1 kt; shown on a map, not ring by ring |
+| idf-site-conventional, idf-isfahan-conventional | Israeli bunker-buster raid, hour 40 | conventional; 112 and 106 min flight |
+| iran-salvo-nevatim | Iranian missile salvo, hour 42 | conventional; 6.5 min flight |
+| jericho-mountain | HERO, day four, 10 kt ground burst | 8 min flight |
+
+### Test caveat for the script
+The engine only has air and ground bursts, so the test is labelled ground, and its surface rings (5 psi 0.54 km, fallout) are NOT used: a deep contained test is not a surface burst. The script says "a deep underground test, assumed contained". Do not say how deep, nor claim seismic magnitude (USGS 4.3 for North Korea 2006, A23, is a comparison only). The engine's totals (two warheads, 0.01 Mt) include the test row; the script should say "two nuclear events, eleven kilotons together", and say that no other weapon is used.
+
+### Hero target, ring by ring (the signature chapter)
+One 10 kt ground burst on the simulated mountain site. Because there is no city file for it, the close-up is a region shot at the site (no city JSON). Engine numbers, ground burst, 10 kt:
+- Fireball radius 0.19 km (about 380 m across).
+- 20 psi ring 0.24 km.
+- 5 psi ring 1.17 km (area about 4.3 square km): "would flatten most buildings on flat ground", but this is a mountain and rock changes the result; say so, no number for tunnels.
+- Third-degree burns 1.62 km.
+- 1 psi ring 3.16 km (windows).
+- Fallout: heavy local fallout, as a ground burst. Direction: from the west, a simulation assumption (the prevailing flow at this latitude is generally from the west, but this is our wind, not a forecast), so the plume runs east and north-east into the Dasht-e Kavir desert, away from Qom, Kashan and Tehran. The script must not give a dose, a distance in kilometres for the plume, or a count of people affected: the engine gives none and no published model for this site exists. It may say "more than a ring on the map: fallout travels downwind" and show the plume as an illustration.
+- Whether the weapon destroys the deep halls is unknowable: penetration and depth estimates differ (A9, A10, A12). The script must say "we do not know".
+
+### Day after (simulation only, no casualty numbers)
+- Fallout drifts east over thinly populated desert by our wind assumption; the rest depends on weather and on the weapon, which we do not model.
+- First use of a nuclear weapon since 1945 is a different category from the 2025 and 2026 strikes: the sequence of response is the simulation's. Stated options, not predictions: Iran answers with missiles at Israeli air bases and the Gulf, as in 2025 (A21), with the same real caveat that interception rates in 2025 were about 90 percent; the US blockade and Hormuz (A2) become the pressure points; Qatar's mediation (A2) is one channel; the NPT, which Israel is not party to (A15), is already strained.
+- What stops working, in the simulation, from published real data only: the IAEA has not been able to verify the stockpile since 2025 (A5, A28), so no one outside Iran would know what was left; this is a real data point for the fear of "unknown material". Keep other consequences (shipping, insurance, flights) as qualitative questions, not numbers.
+- The episode ends on the day four plume and the open question at the end of the aftermath, not on history. Next episode on the end slate: One 10-kiloton nuke at sea: what a US carrier strike group faces (no date). Note the script must not suggest 006 and the next episode are connected events.
+
+### What the script must not claim
+- That Iran has, or will, test a bomb; the real status is A4.
+- Any death toll, injured count, or population-under-the-rings figure.
+- That Israel would use a nuclear weapon, or has a 10 kt weapon; that the Jericho II carries any particular warhead.
+- That the GBU-57 cannot reach Fordow or that Fordow is a given depth: both are estimates (A9, A10). The facts we use are that Israel lacks the GBU-57 and B-2 (A10) and Fordow reportedly lies about 80 to 90 m underground (A9).
+- The test site as a real place, or that Pickaxe Mountain holds weapons work (A12).
+- Calendar dates for the simulation.
 
 ## D. Figures the script must NOT use
 
