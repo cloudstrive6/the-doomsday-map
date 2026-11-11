@@ -44,7 +44,12 @@
       "stage": "visual_approved",
       "note": "visual-screener PASS",
       "at": "2026-11-11T06:00:11+00:00"
+    },
+    {
+      "stage": "packaged",
+      "note": "gates passed; shorts partly imperfect, see decisions.md",
+      "at": "2026-11-11T06:13:30+00:00"
     }
   ],
-  "stage": "visual_approved"
+  "stage": "packaged"
 }

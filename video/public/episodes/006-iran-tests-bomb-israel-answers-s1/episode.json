@@ -94,13 +94,38 @@
    "start": 31.46,
    "end": 33.29,
    "text": "rock has not stopped."
+  },
+  {
+   "start": 33.767,
+   "end": 36.175,
+   "text": "One question hangs over the map."
+  },
+  {
+   "start": 36.175,
+   "end": 37.26,
+   "text": "Did the weapon reach"
+  },
+  {
+   "start": 37.26,
+   "end": 38.97,
+   "text": "what was buried inside?"
+  },
+  {
+   "start": 39.563,
+   "end": 41.02,
+   "text": "This film answers it as"
+  },
+  {
+   "start": 41.02,
+   "end": 42.8,
+   "text": "far as published data go."
   }
  ],
  "slug": "006-iran-tests-bomb-israel-answers-s1",
  "fps": 60,
  "width": 1080,
  "height": 1920,
- "durationSeconds": 33.5,
+ "durationSeconds": 42.8,
  "shots": [
   {
    "id": "open-run",
@@ -740,7 +765,7 @@
    "id": "open-fire",
    "type": "region",
    "start": 28.29,
-   "end": 33.5,
+   "end": 33.761,
    "tag": "SIMULATION",
    "view": {
     "center": [
@@ -909,6 +934,173 @@
      "color": "#F2B01E",
      "t": 2.14,
      "dashed": true
+    }
+   ]
+  },
+  {
+   "id": "q-map",
+   "type": "region",
+   "start": 33.761,
+   "end": 39.413,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     49.5,
+     33.8
+    ],
+    "widthKm": 650
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      49.5,
+      33.8
+     ],
+     "widthKm": 650
+    },
+    {
+     "t": 0.1,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 5.65,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "One question",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FFFFFF",
+     "size": 7
+    },
+    {
+     "at": [
+      50.88,
+      34.64
+     ],
+     "label": "Qom",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.44,
+      33.98
+     ],
+     "label": "Kashan",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      51.73,
+      33.72
+     ],
+     "label": "Natanz",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      52.7,
+      34.58
+     ],
+     "text": "Did the weapon reach what was buried?",
+     "color": "#FFD23F",
+     "t": 3.83
+    }
+   ]
+  },
+  {
+   "id": "q-globe",
+   "type": "globe",
+   "start": 39.413,
+   "end": 42.8,
+   "tag": "SIMULATION",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 31,
+     "lon": 48,
+     "scale": 1100
+    },
+    {
+     "t": 4.29,
+     "lat": 33.5,
+     "lon": 47,
+     "scale": 1700
+    }
+   ],
+   "sun": {
+    "lat": -15.27,
+    "lon": 168.63
+   },
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "364",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "label": "The test mountain (simulated)",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.3
+    },
+    {
+     "at": [
+      50.99,
+      34.88
+     ],
+     "label": "Fordow (real)",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 2.0
     }
    ]
   }

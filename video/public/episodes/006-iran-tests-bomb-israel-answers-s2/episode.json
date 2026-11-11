@@ -1,103 +1,43 @@
 {
  "subtitles": [
   {
-   "start": 0.002,
-   "end": 2.578,
-   "text": "Day 4. In our scenario,"
-  },
-  {
-   "start": 2.751,
-   "end": 5.048,
-   "text": "Israel's cabinet decides that only a"
-  },
-  {
-   "start": 5.048,
-   "end": 7.758,
-   "text": "nuclear weapon addresses a buried target."
-  },
-  {
-   "start": 8.157,
-   "end": 10.364,
-   "text": "One Jericho Two missile,"
-  },
-  {
-   "start": 10.364,
-   "end": 11.628,
-   "text": "a reported range of"
-  },
-  {
-   "start": 11.628,
-   "end": 14.138,
-   "text": "1500 km or more,"
-  },
-  {
-   "start": 14.394,
-   "end": 17.048,
-   "text": "flies sixteen hundred and seventy kilometres"
-  },
-  {
-   "start": 17.048,
-   "end": 18.358,
-   "text": "in 8 minutes."
-  },
-  {
-   "start": 19.088,
-   "end": 20.648,
-   "text": "Israel has never confirmed"
-  },
-  {
-   "start": 20.648,
-   "end": 22.458,
-   "text": "it has nuclear weapons;"
-  },
-  {
-   "start": 23.492,
-   "end": 25.128,
-   "text": "the ten-kiloton yield is"
-  },
-  {
-   "start": 25.128,
-   "end": 27.098,
-   "text": "entirely our assumption."
-  },
-  {
-   "start": 27.732,
-   "end": 28.488,
+   "start": 19.724,
+   "end": 20.48,
    "text": "The launch comes"
   },
   {
-   "start": 28.488,
-   "end": 30.874,
+   "start": 20.48,
+   "end": 22.866,
    "text": "96 hours after the test,"
   },
   {
-   "start": 30.874,
-   "end": 32.898,
+   "start": 22.866,
+   "end": 24.89,
    "text": "and the flight takes 8 minutes."
   },
   {
-   "start": 33.279,
-   "end": 34.208,
+   "start": 25.271,
+   "end": 26.2,
    "text": "That is the clock"
   },
   {
-   "start": 34.208,
-   "end": 35.558,
+   "start": 26.2,
+   "end": 27.55,
    "text": "from the cold open."
   },
   {
-   "start": 35.866,
-   "end": 37.886,
+   "start": 27.858,
+   "end": 29.878,
    "text": "No other nuclear weapon is used."
   },
   {
-   "start": 37.886,
-   "end": 39.411,
+   "start": 29.878,
+   "end": 31.403,
    "text": "Two nuclear events,"
   },
   {
-   "start": 39.411,
-   "end": 41.138,
+   "start": 31.403,
+   "end": 33.13,
    "text": "11 kilotons together."
   }
  ],
@@ -105,129 +45,13 @@
  "fps": 60,
  "width": 1080,
  "height": 1920,
- "durationSeconds": 41.248,
+ "durationSeconds": 33.24,
  "shots": [
-  {
-   "id": "c4-cabinet",
-   "type": "region",
-   "start": 0.0,
-   "end": 8.007,
-   "tag": "SIMULATION",
-   "view": {
-    "center": [
-     35.4,
-     31.8
-    ],
-    "widthKm": 500
-   },
-   "camera": [
-    {
-     "t": 0,
-     "center": [
-      35.4,
-      31.8
-     ],
-     "widthKm": 500
-    },
-    {
-     "t": 0.1,
-     "center": [
-      35.6,
-      32.0
-     ],
-     "widthKm": 600
-    },
-    {
-     "t": 5.82,
-     "center": [
-      41,
-      32.4
-     ],
-     "widthKm": 1300
-    },
-    {
-     "t": 7.62,
-     "center": [
-      47,
-      33.3
-     ],
-     "widthKm": 1700
-    },
-    {
-     "t": 8.01,
-     "center": [
-      49,
-      33.4
-     ],
-     "widthKm": 1500
-    }
-   ],
-   "clock": "DAY 4",
-   "clockLabel": "OUR SCENARIO",
-   "clockRate": 0,
-   "highlight": [
-    {
-     "iso": "376",
-     "color": "#3ED6C8",
-     "fill": "rgba(62,214,200,0.12)"
-    },
-    {
-     "iso": "364",
-     "color": "#F2B01E",
-     "fill": "rgba(242,176,30,0.07)"
-    }
-   ],
-   "legend": [
-    {
-     "text": "IRAN",
-     "color": "#F2B01E"
-    },
-    {
-     "text": "ISRAEL",
-     "color": "#3ED6C8"
-    }
-   ],
-   "cities": [
-    {
-     "at": [
-      35.21,
-      31.77
-     ],
-     "label": "Israel's cabinet decides",
-     "kind": "base",
-     "t": 3.08,
-     "color": "#3ED6C8",
-     "size": 7
-    },
-    {
-     "at": [
-      52.6,
-      34.3
-     ],
-     "label": "A buried target",
-     "kind": "target",
-     "t": 6.42,
-     "color": "#FF3B3B",
-     "size": 6
-    }
-   ],
-   "labels": [
-    {
-     "at": [
-      35.7,
-      31.2
-     ],
-     "text": "Only a nuclear weapon addresses it",
-     "color": "#FFD23F",
-     "t": 4.9
-    }
-   ]
-  },
   {
    "id": "c4-jericho",
    "type": "region",
-   "start": 8.007,
-   "end": 27.704,
+   "start": 0.0,
+   "end": 19.696,
    "tag": "SIMULATION",
    "view": {
     "center": [
@@ -394,8 +218,8 @@
   {
    "id": "c4-clock",
    "type": "region",
-   "start": 27.704,
-   "end": 41.248,
+   "start": 19.696,
+   "end": 33.24,
    "tag": "SIMULATION",
    "view": {
     "center": [

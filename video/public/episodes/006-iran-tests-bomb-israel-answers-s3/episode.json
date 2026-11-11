@@ -1,108 +1,143 @@
 {
  "subtitles": [
   {
-   "start": 0.014,
-   "end": 1.052,
+   "start": 0.465,
+   "end": 1.697,
+   "text": "In our simulation,"
+  },
+  {
+   "start": 1.697,
+   "end": 3.017,
+   "text": "the warhead bursts on the"
+  },
+  {
+   "start": 3.017,
+   "end": 4.247,
+   "text": "ground at the mountain."
+  },
+  {
+   "start": 4.869,
+   "end": 6.547,
+   "text": "We choose a ground burst;"
+  },
+  {
+   "start": 6.789,
+   "end": 7.957,
+   "text": "the engine offers only"
+  },
+  {
+   "start": 7.957,
+   "end": 9.667,
+   "text": "air and ground bursts."
+  },
+  {
+   "start": 10.085,
+   "end": 12.047,
+   "text": "Every number here is the engine's."
+  },
+  {
+   "start": 12.599,
+   "end": 13.637,
    "text": "A burst on the ground"
   },
   {
-   "start": 1.052,
-   "end": 3.342,
+   "start": 13.637,
+   "end": 15.927,
    "text": "lifts earth into the fireball,"
   },
   {
-   "start": 3.517,
-   "end": 4.272,
+   "start": 16.102,
+   "end": 16.857,
    "text": "and that earth comes"
   },
   {
-   "start": 4.272,
-   "end": 5.906,
+   "start": 16.857,
+   "end": 18.491,
    "text": "back down as fallout."
   },
   {
-   "start": 5.906,
-   "end": 6.972,
+   "start": 18.491,
+   "end": 19.557,
    "text": "The fireball is"
   },
   {
-   "start": 6.972,
-   "end": 8.212,
+   "start": 19.557,
+   "end": 20.797,
    "text": "190 m"
   },
   {
-   "start": 8.212,
-   "end": 9.262,
+   "start": 20.797,
+   "end": 21.847,
    "text": "in radius,"
   },
   {
-   "start": 9.447,
-   "end": 11.982,
+   "start": 22.032,
+   "end": 24.567,
    "text": "about 380 m across."
   },
   {
-   "start": 12.792,
-   "end": 14.852,
+   "start": 25.377,
+   "end": 27.437,
    "text": "20 pounds per square inch"
   },
   {
-   "start": 14.852,
-   "end": 16.512,
+   "start": 27.437,
+   "end": 29.097,
    "text": "of overpressure reaches"
   },
   {
-   "start": 16.512,
-   "end": 19.256,
+   "start": 29.097,
+   "end": 31.841,
    "text": "240 m."
   },
   {
-   "start": 19.737,
-   "end": 20.912,
+   "start": 32.322,
+   "end": 33.497,
    "text": "5 psi reaches"
   },
   {
-   "start": 20.912,
-   "end": 23.205,
+   "start": 33.497,
+   "end": 35.79,
    "text": "1.17 km,"
   },
   {
-   "start": 23.205,
-   "end": 24.192,
+   "start": 35.79,
+   "end": 36.777,
    "text": "an area of about"
   },
   {
-   "start": 24.192,
-   "end": 26.282,
+   "start": 36.777,
+   "end": 38.867,
    "text": "4.3 square kilometres."
   },
   {
-   "start": 26.48,
-   "end": 27.592,
+   "start": 39.065,
+   "end": 40.177,
    "text": "On flat ground that"
   },
   {
-   "start": 27.592,
-   "end": 29.302,
+   "start": 40.177,
+   "end": 41.887,
    "text": "flattens most buildings."
   },
   {
-   "start": 29.595,
-   "end": 30.532,
+   "start": 42.18,
+   "end": 43.117,
    "text": "This is a mountain,"
   },
   {
-   "start": 30.532,
-   "end": 32.642,
+   "start": 43.117,
+   "end": 45.227,
    "text": "and rock changes the result:"
   },
   {
-   "start": 32.844,
-   "end": 33.672,
+   "start": 45.429,
+   "end": 46.257,
    "text": "we give no number"
   },
   {
-   "start": 33.672,
-   "end": 34.682,
+   "start": 46.257,
+   "end": 47.267,
    "text": "for the tunnels."
   }
  ],
@@ -110,13 +145,114 @@
  "fps": 60,
  "width": 1080,
  "height": 1920,
- "durationSeconds": 34.932,
+ "durationSeconds": 47.324,
  "shots": [
+  {
+   "id": "h-flash",
+   "type": "city",
+   "start": 0.0,
+   "end": 12.585,
+   "tag": "SIMULATION",
+   "city": "iran-site",
+   "view": {
+    "center": [
+     52.6,
+     34.3
+    ],
+    "widthKm": 4.0
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 4.0
+    },
+    {
+     "t": 3.33,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 3.52
+    },
+    {
+     "t": 6.66,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 3.04
+    },
+    {
+     "t": 9.98,
+     "center": [
+      52.6,
+      34.3
+     ],
+     "widthKm": 2.56
+    }
+   ],
+   "gz": [
+    52.6,
+    34.3
+   ],
+   "clock": "T+08:00",
+   "clockLabel": "IMPACT · T+96 H",
+   "clockRate": 0,
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "flashT": 0.1,
+   "rings": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 0.191,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": 0.6
+    }
+   ],
+   "legend": [],
+   "labels": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "text": "Simulated location",
+     "color": "#FFFFFF",
+     "t": 0.5
+    },
+    {
+     "at": [
+      52.6,
+      34.303999999999995
+     ],
+     "text": "Ground burst: our choice",
+     "color": "#FFFFFF",
+     "t": 0.27
+    },
+    {
+     "at": [
+      52.6,
+      34.296
+     ],
+     "text": "Every number here is the engine's",
+     "color": "#FFD23F",
+     "t": 7.33
+    }
+   ],
+   "caption": "A ground burst lifts earth into the fireball. The engine offers air or ground only."
+  },
   {
    "id": "h-fireball",
    "type": "city",
-   "start": 0.0,
-   "end": 19.456,
+   "start": 12.585,
+   "end": 32.041,
    "tag": "SIMULATION",
    "city": "iran-site",
    "view": {
@@ -240,8 +376,8 @@
   {
    "id": "h-5psi",
    "type": "city",
-   "start": 19.456,
-   "end": 34.932,
+   "start": 32.041,
+   "end": 47.324,
    "tag": "SIMULATION",
    "city": "iran-site",
    "view": {

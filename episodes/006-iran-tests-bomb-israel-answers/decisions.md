@@ -12,3 +12,11 @@ window p29-p31 (flash at 2.7 s after start; starts on the chapter card), s3 REAL
 
 ## Thumbnail review (2026-11-11)
 Round 1 FAIL (B too dim, A glow 16%, A text repeated 005 pattern). Round 2 PASS: A 19, C 17, B 16; A already first. A text now "ONE MOUNTAIN / TEN KILOTONS".
+
+## Showrunner summary, 2026-11-11
+- Rounds: script fact-screen 3 (PASS on 3), visual 3 (PASS on 3), thumbnails 2 (PASS), Shorts visual 1 FAIL then one packager fix round, not re-screened.
+- `pace:` lines left: 0. validate.txt: ok. Narration 10.7 min, 1,457 words.
+- Thumbnail checklist score of A: 19/20. Title: "What If Iran Tests a Nuke? Israel's 4-Day Answer" (lint 98); top three titles above.
+- Risks: a real US/Israel-Iran conflict is ongoing, so re-check news on upload day (blockade claim true as of 2026-11-08). Scenario t0 (2027-02-09) is only for sky position and is never spoken.
+- Open Shorts issues (screener FAIL on Shorts, only partly fixed): only s1 has a flash near the start (about 4 s, not 3 s); s3 opens on the chapter-card paragraph (p29) to start on a paragraph, 47 s; label overlaps in s1 (QOM/KASHAN), s2 (FLIGHT over TWO EVENTS), s3 (ring labels) come from shotlist label offsets and were not reworked.
+- Hard craft rules: Shorts 19/22 (flash in first 3 s), ring shots at 150 km minimum view (fixed with a city file for the invented site), 1,457 words near the floor.
