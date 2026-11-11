@@ -64,8 +64,8 @@
       "yield_kt": 0,
       "burst": "conventional",
       "warheads": 1,
-      "launch_offset_min": 2500,
-      "notes": "Hour 42, retaliation for the raid, in the pattern of June 2025 (A21: about 550 missiles, about 90 percent intercepted). One missile stands for a salvo."
+      "launch_offset_min": 2513,
+      "notes": "Hour 42, fired as the raids land (after Isfahan 2505.7 and test site 2512.3 min), retaliation, in the pattern of June 2025 (A21: about 550 missiles, about 90 percent intercepted). One missile stands for a salvo."
     },
     {
       "id": "jericho-mountain",
@@ -81,7 +81,7 @@
       "burst": "ground",
       "warheads": 1,
       "launch_offset_min": 5760,
-      "notes": "Day 4, HERO. Worst case drawn from the NPEC 2024 game, where Israel used nuclear weapons after conventional strikes failed (A24). Israel never confirms its arsenal (A18); Jericho II range 1,500 km or more (A19). 10 kt is a simulation choice, not a known Israeli yield. Ground burst, the only way a nuclear weapon addresses a buried target. Burst is one weapon, one site, in a thinly populated area (a choice)."
+      "notes": "Day 4, HERO. Worst case drawn from the NPEC 2024 game, where Israel used nuclear weapons after conventional strikes failed (A24). Israel never confirms its arsenal (A18); Jericho II range 1,500 km or more (A19). 10 kt is a simulation choice, not a known Israeli yield. Ground burst is a simulation choice (the engine offers air or ground only). Burst is one weapon, one site, in a thinly populated area (a choice)."
     }
   ]
 }
