@@ -25,7 +25,7 @@ Subscribers: 6 (target 50 by 2026-12-10)
 
 | Episode | Video | Days | Status | views | ctr | impressions | hold | avp | avd |
 |---|---|---|---|---|---|---|---|---|---|
-| 001 | fWvrsNHlIak | 7 | measured | 48 | 2.5% | 1,409 | 45.5% | 27% | 200 |
+| 001 | fWvrsNHlIak | 7 | measured | 49 | 2.5% | 1,422 | 45.5% | 27% | 200 |
 | 001 | fWvrsNHlIak | 28 | due 2026-12-03 | - | - | - | - | - | - |
 | 002 | asHo8qWpZDg | 7 | due 2026-11-13 | - | - | - | - | - | - |
 | 002 | asHo8qWpZDg | 28 | due 2026-12-04 | - | - | - | - | - | - |
@@ -35,14 +35,16 @@ Subscribers: 6 (target 50 by 2026-12-10)
 | 004 | lufMFIv5AeY | 28 | due 2026-12-09 | - | - | - | - | - | - |
 | 005 | u1EWhaWRoyc | 7 | due 2026-11-19 | - | - | - | - | - | - |
 | 005 | u1EWhaWRoyc | 28 | due 2026-12-10 | - | - | - | - | - | - |
+| 006 | DK6UC3_BT6Q | 7 | due 2026-11-20 | - | - | - | - | - | - |
+| 006 | DK6UC3_BT6Q | 28 | due 2026-12-11 | - | - | - | - | - | - |
 
 ## Shorts
 
 | Episode | Video | Days | Status | views | avp | avd |
 |---|---|---|---|---|---|---|
-| 001 | l8W1p2lfHCw | 7 | measured | 101 | 115% | 61 |
+| 001 | l8W1p2lfHCw | 7 | measured | 101 | 293% | 158 |
 | 001 | l8W1p2lfHCw | 28 | due 2026-12-03 | - | - | - |
-| 001 | QK55Sko_aw4 | 7 | measured | 127 | 79% | 44 |
+| 001 | QK55Sko_aw4 | 7 | measured | 127 | 82% | 45 |
 | 001 | QK55Sko_aw4 | 28 | due 2026-12-03 | - | - | - |
 | 001 | ZjCRJ3VsOu0 | 7 | due 2026-11-13 | - | - | - |
 | 001 | ZjCRJ3VsOu0 | 28 | due 2026-12-04 | - | - | - |
@@ -70,3 +72,9 @@ Subscribers: 6 (target 50 by 2026-12-10)
 | 005 | 77M-y-VaweA | 28 | due 2026-12-10 | - | - | - |
 | 005 | CswtYFhvZkE | 7 | due 2026-11-20 | - | - | - |
 | 005 | CswtYFhvZkE | 28 | due 2026-12-11 | - | - | - |
+| 006 | huHH9VFS5aI | 7 | due 2026-11-20 | - | - | - |
+| 006 | huHH9VFS5aI | 28 | due 2026-12-11 | - | - | - |
+| 006 | K67FRJT0Za4 | 7 | due 2026-11-20 | - | - | - |
+| 006 | K67FRJT0Za4 | 28 | due 2026-12-11 | - | - | - |
+| 006 | rVHj7z8O65Q | 7 | due 2026-11-21 | - | - | - |
+| 006 | rVHj7z8O65Q | 28 | due 2026-12-12 | - | - | - |
