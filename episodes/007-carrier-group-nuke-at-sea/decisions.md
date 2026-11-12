@@ -13,3 +13,16 @@
 - Shorts: s1 0.0 to 41.8 (cold-open flash at 3.9 s), s2 325.7 to 357.6 (burst-lit shot, the light then the wave), s3 388.7 to 427.5 (rings; different from s1/s2).
 
 2026-11-12 thumbnail review: original A (carrier, no flash) failed glow 12% and brightness 105 and was not clickable. Swapped ids so the missile launch (glow 20.8%, brightness 118) is A. B (carrier) and C (sailor) still weak on glow; left as Test and compare candidates.
+
+## Packager, Shorts rework (2026-11-12, after visual_review FAIL)
+- s1 301.85 to 337.5 (shot m-k start, the engine rejects 299.1 as mid-shot; flash on the first frames, ends on the blast-wave line), s2 543.0 to 587.4 (p44 to p46, the day after: dispersal-free fallout line; opens on a shot start, no chapter card), s3 404.7 to 446.6 (p34 to p36; rings drawn on frame 0, ends on where the carrier sits).
+- The m-l burst echo was not used: the new s2 no longer contains p28, and moving a flash into a-d would contradict the long video. Two strike windows (s1, s3); s2 is the aftermath type.
+- Finding 5 (engine "FULL SIMULATION ON THE CHANNEL" pill printed over the clock in the last 3 s) is engine layout, not shorts.json: left for the engine owner.
+
+## Showrunner summary (2026-11-12)
+- Rounds: research 1; script 4 fact-screen rounds (round 4 after lengthening 9.4 to 10.6 min); visual 2; thumbnail 1 (A swapped to the missile-launch variant, checklist 17/20); Shorts screen 1 plus one fix pass.
+- `pace:` lines left: 0. `retention:` lines: 0.
+- Top titles: "What If 1 Nuke Hit a US Carrier Group at Sea?" (88), "What If 1 Nuke Went Off Beside a US Carrier Group?" (88), "What If a Sub Nuked a US Carrier Group? 20 Minutes" (84).
+- Risks: research had only 11 of 30 A rows two-sourced, so single-source facts were softened; sparse open-ocean frames (legible, not P0); Short s1 starts about 0.5 s into "The warhead detonates" (engine snaps to shot boundary); Short s2 is an aftermath window, not a strike; "FULL SIMULATION" pill overlaps the clock in the last 3 s of Shorts (engine layout, unfixed); B and C thumbnails are weak (only A uploads).
+- Engine change: optional `until` on region labels (video/src/scene.ts, RegionMap.tsx).
+- Hard craft rules: no sea model in the engine (rule 12 and 13 visuals), 75 shots to keep a new arrival every 4 s.

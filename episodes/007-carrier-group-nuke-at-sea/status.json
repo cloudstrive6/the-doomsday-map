@@ -59,7 +59,12 @@
       "stage": "visual_approved",
       "note": "round 2",
       "at": "2026-11-12T14:42:17+00:00"
+    },
+    {
+      "stage": "packaged",
+      "note": "all gates passed",
+      "at": "2026-11-12T14:49:22+00:00"
     }
   ],
-  "stage": "visual_approved"
+  "stage": "packaged"
 }

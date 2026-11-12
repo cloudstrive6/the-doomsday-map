@@ -1,0 +1,975 @@
+{
+ "subtitles": [
+  {
+   "start": 7.279,
+   "end": 8.81,
+   "text": "For a moment the sea"
+  },
+  {
+   "start": 8.81,
+   "end": 10.32,
+   "text": "is lit from above."
+  },
+  {
+   "start": 10.721,
+   "end": 12.33,
+   "text": "The destroyers closest to the"
+  },
+  {
+   "start": 12.33,
+   "end": 14.809,
+   "text": "centre are inside the fireball"
+  },
+  {
+   "start": 14.809,
+   "end": 16.32,
+   "text": "and the heaviest rings,"
+  },
+  {
+   "start": 16.565,
+   "end": 18.31,
+   "text": "and in our simulation they"
+  },
+  {
+   "start": 18.31,
+   "end": 20.08,
+   "text": "are lost or crippled."
+  },
+  {
+   "start": 20.24,
+   "end": 21.35,
+   "text": "The ships at the edge"
+  },
+  {
+   "start": 21.35,
+   "end": 23.32,
+   "text": "are shaken and still moving."
+  },
+  {
+   "start": 23.833,
+   "end": 24.67,
+   "text": "The first thing aboard"
+  },
+  {
+   "start": 24.67,
+   "end": 26.3,
+   "text": "the carrier is light."
+  },
+  {
+   "start": 26.764,
+   "end": 27.633,
+   "text": "At night,"
+  },
+  {
+   "start": 27.633,
+   "end": 29.835,
+   "text": "the whole horizon turns white,"
+  },
+  {
+   "start": 29.835,
+   "end": 31.823,
+   "text": "and the sea itself glows."
+  },
+  {
+   "start": 31.823,
+   "end": 34.017,
+   "text": "The blast wave arrives afterward,"
+  },
+  {
+   "start": 34.017,
+   "end": 35.65,
+   "text": "because it travels slower than light."
+  }
+ ],
+ "slug": "007-carrier-group-nuke-at-sea-s1",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 35.65,
+ "shots": [
+  {
+   "id": "m-k",
+   "type": "region",
+   "start": 0.0,
+   "end": 16.415,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     155.0,
+     24.0
+    ],
+    "widthKm": 20
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      155.0,
+      24.0
+     ],
+     "widthKm": 20
+    },
+    {
+     "t": 2.2,
+     "center": [
+      155.00787,
+      24.0
+     ],
+     "widthKm": 15
+    },
+    {
+     "t": 6.77,
+     "center": [
+      155.00787,
+      23.99638
+     ],
+     "widthKm": 13
+    },
+    {
+     "t": 10.64,
+     "center": [
+      155.00983,
+      24.0
+     ],
+     "widthKm": 15
+    },
+    {
+     "t": 12.64,
+     "center": [
+      155.0,
+      24.0
+     ],
+     "widthKm": 4
+    },
+    {
+     "t": 16.41,
+     "center": [
+      155.0,
+      24.0
+     ],
+     "widthKm": 3.2
+    }
+   ],
+   "clock": "T+20:06",
+   "clockLabel": "THE BURST",
+   "clockRate": 0,
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "burst": {
+    "at": [
+     155.0,
+     24.0
+    ],
+    "t": 0.1,
+    "km": 1.6,
+    "fade": 7
+   },
+   "ships": [
+    {
+     "path": [
+      [
+       154.99961,
+       24.0
+      ],
+      [
+       155.0,
+       24.0
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.77,
+     "kind": "us",
+     "color": "#8A8F98",
+     "size": 12,
+     "t": 0,
+     "wake": false
+    },
+    {
+     "path": [
+      [
+       155.01701,
+       23.98399
+      ],
+      [
+       155.0174,
+       23.98399
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.77,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 19,
+     "t": 0,
+     "wake": false
+    },
+    {
+     "path": [
+      [
+       154.99076,
+       24.00995
+      ],
+      [
+       154.99115,
+       24.00995
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.77,
+     "kind": "us",
+     "color": "#8A8F98",
+     "size": 12,
+     "t": 0,
+     "wake": false
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 1.459,
+     "color": "#FF3B3B",
+     "t": 0.8,
+     "label": "5 psi"
+    },
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 1.459,
+     "color": "#FF3B3B",
+     "t": 14.88,
+     "label": "5 psi"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      155.0,
+      24.0199
+     ],
+     "text": "Air burst over the lead destroyer",
+     "color": "#FF3B3B",
+     "t": 1.4,
+     "until": 6.4
+    },
+    {
+     "at": [
+      154.97837,
+      24.0199
+     ],
+     "text": "The sea is lit from above",
+     "color": "#FFD23F",
+     "t": 8.9,
+     "until": 11.04
+    },
+    {
+     "at": [
+      155.00885,
+      24.00814
+     ],
+     "text": "Closest to the centre",
+     "color": "#FFFFFF",
+     "t": 11.04,
+     "until": 13.7
+    },
+    {
+     "at": [
+      155.0,
+      23.99729
+     ],
+     "text": "Fireball: 150 m radius",
+     "color": "#FFFFFF",
+     "t": 13.7
+    },
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "text": "Lead destroyer",
+     "color": "#FFFFFF",
+     "t": 10.64
+    },
+    {
+     "at": [
+      154.99115,
+      24.00995
+     ],
+     "text": "Destroyer",
+     "color": "#FFFFFF",
+     "t": 10.64
+    }
+   ],
+   "caption": "About ten past one, local time.",
+   "zones": [
+    {
+     "points": [
+      [
+       155.0015,
+       24.0
+      ],
+      [
+       155.00148,
+       24.00024
+      ],
+      [
+       155.00141,
+       24.00047
+      ],
+      [
+       155.0013,
+       24.00069
+      ],
+      [
+       155.00115,
+       24.00089
+      ],
+      [
+       155.00097,
+       24.00106
+      ],
+      [
+       155.00075,
+       24.0012
+      ],
+      [
+       155.00051,
+       24.0013
+      ],
+      [
+       155.00026,
+       24.00136
+      ],
+      [
+       155.0,
+       24.00138
+      ],
+      [
+       154.99974,
+       24.00136
+      ],
+      [
+       154.99949,
+       24.0013
+      ],
+      [
+       154.99925,
+       24.0012
+      ],
+      [
+       154.99903,
+       24.00106
+      ],
+      [
+       154.99885,
+       24.00089
+      ],
+      [
+       154.9987,
+       24.00069
+      ],
+      [
+       154.99859,
+       24.00047
+      ],
+      [
+       154.99852,
+       24.00024
+      ],
+      [
+       154.9985,
+       24.0
+      ],
+      [
+       154.99852,
+       23.99976
+      ],
+      [
+       154.99859,
+       23.99953
+      ],
+      [
+       154.9987,
+       23.99931
+      ],
+      [
+       154.99885,
+       23.99911
+      ],
+      [
+       154.99903,
+       23.99894
+      ],
+      [
+       154.99925,
+       23.9988
+      ],
+      [
+       154.99949,
+       23.9987
+      ],
+      [
+       154.99974,
+       23.99864
+      ],
+      [
+       155.0,
+       23.99862
+      ],
+      [
+       155.00026,
+       23.99864
+      ],
+      [
+       155.00051,
+       23.9987
+      ],
+      [
+       155.00075,
+       23.9988
+      ],
+      [
+       155.00097,
+       23.99894
+      ],
+      [
+       155.00115,
+       23.99911
+      ],
+      [
+       155.0013,
+       23.99931
+      ],
+      [
+       155.00141,
+       23.99953
+      ],
+      [
+       155.00148,
+       23.99976
+      ]
+     ],
+     "color": "#FFFFFF",
+     "t": 13.7
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "DAMAGED ESCORTS",
+     "color": "#8A8F98"
+    }
+   ]
+  },
+  {
+   "id": "m-h",
+   "type": "region",
+   "start": 16.415,
+   "end": 23.831,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     155.0,
+     24.0
+    ],
+    "widthKm": 4
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      155.0,
+      24.0
+     ],
+     "widthKm": 4
+    },
+    {
+     "t": 1.8,
+     "center": [
+      155.0,
+      24.0
+     ],
+     "widthKm": 6
+    },
+    {
+     "t": 3.87,
+     "center": [
+      155.0,
+      24.0
+     ],
+     "widthKm": 8
+    },
+    {
+     "t": 5.87,
+     "center": [
+      155.0,
+      24.0
+     ],
+     "widthKm": 22
+    },
+    {
+     "t": 7.42,
+     "center": [
+      155.0,
+      24.0
+     ],
+     "widthKm": 32
+    }
+   ],
+   "clock": "T+20:30",
+   "clockLabel": "THE BURST",
+   "clockRate": 0,
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "ships": [
+    {
+     "path": [
+      [
+       154.99961,
+       24.0
+      ],
+      [
+       155.0,
+       24.0
+      ]
+     ],
+     "t0": 0,
+     "t1": 3.87,
+     "kind": "us",
+     "color": "#8A8F98",
+     "size": 12,
+     "t": 0,
+     "wake": false,
+     "label": "Lost or crippled"
+    },
+    {
+     "path": [
+      [
+       154.99076,
+       24.00995
+      ],
+      [
+       154.99115,
+       24.00995
+      ]
+     ],
+     "t0": 0,
+     "t1": 3.87,
+     "kind": "us",
+     "color": "#8A8F98",
+     "size": 12,
+     "t": 0,
+     "wake": false,
+     "label": "Lost or crippled"
+    },
+    {
+     "path": [
+      [
+       155.01701,
+       23.98399
+      ],
+      [
+       155.0174,
+       23.98399
+      ]
+     ],
+     "t0": 0,
+     "t1": 3.87,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 19,
+     "t": 0,
+     "wake": false
+    },
+    {
+     "path": [
+      [
+       155.0174,
+       23.98399
+      ],
+      [
+       155.04525,
+       23.95838
+      ]
+     ],
+     "t0": 5.45,
+     "t1": 7.37,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 19,
+     "t": 3.87,
+     "wake": true
+    },
+    {
+     "path": [
+      [
+       154.96853,
+       23.98734
+      ],
+      [
+       154.91819,
+       23.96708
+      ]
+     ],
+     "t0": 5.45,
+     "t1": 7.37,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 12,
+     "t": 3.87,
+     "wake": true,
+     "label": "Destroyer"
+    },
+    {
+     "path": [
+      [
+       155.0236,
+       24.03618
+      ],
+      [
+       155.06136,
+       24.09406
+      ]
+     ],
+     "t0": 5.45,
+     "t1": 7.37,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 12,
+     "t": 3.87,
+     "wake": true,
+     "label": "Destroyer"
+    },
+    {
+     "path": [
+      [
+       154.99017,
+       23.96744
+      ],
+      [
+       154.97443,
+       23.91535
+      ]
+     ],
+     "t0": 5.45,
+     "t1": 7.37,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 14,
+     "t": 3.87,
+     "wake": true
+    },
+    {
+     "path": [
+      [
+       155.04425,
+       23.97287
+      ],
+      [
+       155.11504,
+       23.92946
+      ]
+     ],
+     "t0": 5.45,
+     "t1": 7.37,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 13,
+     "t": 3.87,
+     "wake": true,
+     "label": "Supply ship"
+    },
+    {
+     "path": [
+      [
+       155.059,
+       24.02261
+      ],
+      [
+       155.15339,
+       24.05879
+      ]
+     ],
+     "t0": 5.45,
+     "t1": 7.37,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 9,
+     "t": 3.87,
+     "wake": true
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 0.153,
+     "color": "#FFFFFF",
+     "t": -30,
+     "label": "Fireball"
+    },
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 1.459,
+     "color": "#FF3B3B",
+     "t": -30,
+     "label": "5 psi"
+    },
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 3.949,
+     "color": "#3ED6C8",
+     "t": 3.87
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      154.98033,
+      24.02351
+     ],
+     "text": "Our assumption, not a record",
+     "color": "#FFD23F",
+     "t": 0.47,
+     "until": 4.95
+    },
+    {
+     "at": [
+      154.9115,
+      24.07687
+     ],
+     "text": "At the edge: shaken, still moving",
+     "color": "#FFD23F",
+     "t": 4.95
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "DAMAGED ESCORTS",
+     "color": "#8A8F98"
+    }
+   ]
+  },
+  {
+   "id": "m-l",
+   "type": "region",
+   "start": 23.831,
+   "end": 35.65,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     155.0174,
+     23.98399
+    ],
+    "widthKm": 13
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      155.0174,
+      23.98399
+     ],
+     "widthKm": 13
+    },
+    {
+     "t": 2.4,
+     "center": [
+      155.0174,
+      23.98399
+     ],
+     "widthKm": 9
+    },
+    {
+     "t": 5.0,
+     "center": [
+      155.0174,
+      23.98399
+     ],
+     "widthKm": 11
+    },
+    {
+     "t": 7.93,
+     "center": [
+      155.0174,
+      23.98399
+     ],
+     "widthKm": 13
+    },
+    {
+     "t": 10.13,
+     "center": [
+      155.0059,
+      23.99457
+     ],
+     "widthKm": 9
+    },
+    {
+     "t": 12.7,
+     "center": [
+      155.0059,
+      23.99457
+     ],
+     "widthKm": 8
+    },
+    {
+     "t": 16.05,
+     "center": [
+      155.0174,
+      23.98399
+     ],
+     "widthKm": 10
+    }
+   ],
+   "clock": "T+20:07",
+   "clockLabel": "ON THE CARRIER",
+   "clockRate": 0,
+   "source": "",
+   "ships": [
+    {
+     "path": [
+      [
+       155.01701,
+       23.98399
+      ],
+      [
+       155.0174,
+       23.98399
+      ]
+     ],
+     "t0": 0,
+     "t1": 7.93,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 19,
+     "t": 0,
+     "wake": false,
+     "label": "Carrier"
+    },
+    {
+     "path": [
+      [
+       154.99961,
+       24.0
+      ],
+      [
+       155.0,
+       24.0
+      ]
+     ],
+     "t0": 0,
+     "t1": 7.93,
+     "kind": "us",
+     "color": "#8A8F98",
+     "size": 12,
+     "t": 0,
+     "wake": false
+    }
+   ],
+   "burst": {
+    "at": [
+     155.0,
+     24.0
+    ],
+    "t": 4.59,
+    "km": 2.4,
+    "fade": 5
+   },
+   "labels": [
+    {
+     "at": [
+      155.0177,
+      23.99819
+     ],
+     "text": "First: light",
+     "color": "#FFFFFF",
+     "t": 1.53,
+     "until": 3.73
+    },
+    {
+     "at": [
+      155.0177,
+      23.96925
+     ],
+     "text": "At night: the horizon turns white",
+     "color": "#FFD23F",
+     "t": 3.73,
+     "until": 6.05
+    },
+    {
+     "at": [
+      154.9882,
+      23.96925
+     ],
+     "text": "The sea itself glows",
+     "color": "#FFFFFF",
+     "t": 6.05,
+     "until": 10.73
+    },
+    {
+     "at": [
+      154.98033,
+      24.02171
+     ],
+     "text": "Afterward: slower than light",
+     "color": "#FFD23F",
+     "t": 10.73,
+     "until": 14.23
+    },
+    {
+     "at": [
+      155.0177,
+      23.99638
+     ],
+     "text": "General quarters",
+     "color": "#FFD23F",
+     "t": 14.23
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 2.5,
+     "color": "#FF7A1A",
+     "t": 8.55,
+     "label": "Blast wave"
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "DAMAGED ESCORTS",
+     "color": "#8A8F98"
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "ONE 10 KT NUKE",
+  "OVER A CARRIER GROUP"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}
