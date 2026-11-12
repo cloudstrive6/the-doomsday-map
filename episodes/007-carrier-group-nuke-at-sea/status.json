@@ -19,7 +19,22 @@
       "stage": "scripted",
       "note": "script lengthened to 1400+ words",
       "at": "2026-11-12T13:55:50+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "fixed 7 review issues",
+      "at": "2026-11-12T13:57:16+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "round 2 fixes: cut unsourced spacing claim, removed real carriers at sea line",
+      "at": "2026-11-12T13:58:15+00:00"
+    },
+    {
+      "stage": "script_approved",
+      "note": "round 3",
+      "at": "2026-11-12T13:59:07+00:00"
     }
   ],
-  "stage": "scripted"
+  "stage": "script_approved"
 }

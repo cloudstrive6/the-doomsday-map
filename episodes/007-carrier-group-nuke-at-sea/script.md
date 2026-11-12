@@ -4,11 +4,11 @@ Episode 007. A labelled simulation of one nuclear burst beside a generic US carr
 
 ## Cold open [SIMULATION]
 
-Twelve fifty at night, open Pacific: a nuclear weapon bursts beside a US carrier strike group. [C]
+In the middle of the night, open Pacific: a nuclear weapon bursts beside a US carrier strike group. [C]
 
 This is a simulation built from published numbers, and it has not happened. [C]
 
-Twenty minutes earlier, a submarine fires one missile. It is a small weapon, ten kilotons, and it flies low over black water toward a ship that weighs a hundred thousand tons. [A1, C]
+Twenty minutes earlier, a submarine fires one missile. It is a small weapon, ten kilotons, and it flies low over black water toward a group of ships, one of them about a hundred thousand tons. [A1, C]
 
 The group is steaming in the dark, spread across the sea. Nobody on the bridge knows yet. The question is what one small bomb does to a ship that big, and how far the damage reaches. [C]
 
@@ -22,9 +22,9 @@ That is the question from the first minute: one burst, one group, and what the s
 
 A Nimitz-class carrier displaces about one hundred thousand tons and about five thousand people live aboard. Its air wing is sixty aircraft or more. [A1, A2, A3]
 
-It rarely sails alone. A strike group is the carrier plus three to five surface warships and a supply ship, perhaps a submarine. The ships spread across the sea so that one weapon cannot reach them all. [A4]
+It rarely sails alone. A strike group is the carrier plus three to five surface warships and a supply ship, perhaps a submarine. [A4]
 
-That spacing is why one weapon is a different problem for a group than for a single ship, and an old test shows the scale. [A4, A23]
+An old test shows the scale of what one burst does to ships. [A23]
 
 ## 02 How close it has come [REAL HISTORY]
 
@@ -32,7 +32,7 @@ July nineteen forty-six, Bikini. Operation Crossroads used about ninety target s
 
 Our simulation uses the same kind of miss. A burst that lands beside a ship, not on it. [A23, C]
 
-October nineteen sixty-two, near Cuba. A Soviet submarine, B-59, out of air and chased by a US carrier group, carried a ten-kiloton nuclear torpedo. Launch took three officers. One of them, Vasily Arkhipov, refused, and the boat surfaced. The Americans did not know the torpedo was aboard. [B5]
+October nineteen sixty-two, near Cuba. A Soviet submarine, B-59, chased by a US carrier group, carried a ten-kiloton nuclear torpedo. By one account, launch needed three officers, and one of them, Vasily Arkhipov, refused. The boat surfaced. The Americans did not know the torpedo was aboard. [B5]
 
 Ten kilotons is our yield too. [B5, A30]
 
@@ -44,13 +44,13 @@ So the group has no nuclear answer on its decks, and the weapon would arrive in 
 
 In our simulation, an unnamed attacker, with no country and no flag, fires one fictional anti-ship cruise missile from a submarine. The missile carries one ten-kiloton warhead. [C]
 
-Ten kilotons is our choice. No published source gives a yield for a modern anti-ship weapon, so we borrowed the size of the Swordfish test and of B-59's torpedo. [A30, B5, C]
+Ten kilotons is our choice. No published source gives a yield for a modern anti-ship weapon, so we borrowed the size of B-59's torpedo. [A30, B5, C]
 
 The target is a generic group: one carrier, a cruiser, three or four destroyers, a supply ship and a submarine, somewhere in the western Pacific. It is local night. [A4, C]
 
-No real ship is the target. Real carriers are at sea today, so ours has no name, no hull number and no place on any real calendar. [C]
+No real ship is the target, so ours has no name, no hull number and no place on any real calendar. [C]
 
-The burst is set over the lead destroyer of the screen. The carrier is two and a half kilometers away. Both are inputs, and the miss at Able is the reason we think they are fair. [A23, C]
+The burst is set over the lead destroyer of the screen. The carrier is two and a half kilometers away. Both are inputs. Able missed by about seven hundred meters; ours is a larger miss, our choice. [A23, C]
 
 The missile is not yet in the air. What does the group see, and when? [C]
 
@@ -80,15 +80,15 @@ At two hundred ninety-seven meters the blast reaches twenty pounds per square in
 
 The burn ring for exposed skin reaches one point six kilometers. Escorts inside these rings are the ones at risk of heavy damage. [C]
 
-Look at the scale. A destroyer is a dot inside a ring almost four kilometers wide, so the map draws the ships larger than they are and labels them that way. The rings are drawn exactly as the engine computes them. [C]
+Look at the scale. A destroyer is a dot inside a ring almost eight kilometers across, so the map draws the ships larger than they are and labels them that way. The rings are drawn exactly as the engine computes them. [C]
 
-The light blast ring, one pound per square inch, reaches three point nine kilometers. The carrier sits at two and a half, between the burn ring and the edge. The model says light blast and no third-degree burns on exposed skin. [C]
+The light blast ring, one pound per square inch, reaches three point nine kilometers. The carrier sits at two and a half, between the burn ring and the edge. The model puts it between one and five pounds per square inch, outside the burn ring. [C]
 
 Two limits. The engine draws these rings for land, with no model of a ship, a wave or a hardened hull, and it does not model burst height. So we do not say the carrier survives, and we do not say it sinks. [C]
 
 And this is not Baker. Baker was shallow, underwater and twenty-three kilotons in a lagoon, so its water column does not apply to an air burst. [A24, C]
 
-Count inward from the edge: three point nine kilometers, one point six, one point five, three hundred meters. Every ship in the group sits somewhere on that target, and only the distance decides what it feels. [C]
+Count inward from the edge: three point nine kilometers, one point six, one point five, three hundred meters. Every ship near the burst sits somewhere on that target, and distance decides what it feels. [C]
 
 What does the group do when the light fades? [C]
 
@@ -108,7 +108,7 @@ No published study gives a death toll for a burst like this, so we give none. [C
 
 Far from the group, the world sees a dark gap on a screen and does not know who fired. On the bridge, someone has to decide what the group does next, with no weapon on the decks to answer and no name to answer. [A7, C]
 
-The sea is quiet again by morning. The ships are still there, and the question is not. [C]
+The sea is quiet again by morning. [C]
 
 ## End slate
 
