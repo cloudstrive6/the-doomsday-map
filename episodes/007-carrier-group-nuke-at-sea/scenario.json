@@ -1,0 +1,12 @@
+{
+  "slug": "007-carrier-group-nuke-at-sea",
+  "title": "One 10-kiloton nuclear burst at sea, and a carrier strike group (simulation)",
+  "t0_utc": "2027-02-10T14:30:00Z",
+  "strikes": [
+    {"id": "sea-burst", "launch_name": "Unidentified attacker's submarine, open Pacific (location simulated)", "launch_lat": 24.0, "launch_lon": 152.2,
+     "target_name": "Generic US carrier strike group, open Pacific (location simulated)", "target_lat": 24.0, "target_lon": 155.0,
+     "weapon": "Fictional submarine-launched anti-ship cruise missile (nuclear)", "weapon_class": "cruise",
+     "yield_kt": 10, "burst": "air", "warheads": 1, "launch_offset_min": 0,
+     "notes": "Design choices, not facts: no published source gives a yield for a modern anti-ship weapon (D3); 10 kt matches the Swordfish nuclear ASROC (A30, B4) and the Soviet B-59 torpedo (B5). Air burst because Wigwam (A28) and Baker (A24) were underwater, and Able (A23) was an air burst at about 23 kt. Air burst height is not modelled by the engine (ring radii assume the optimum height). Burst over the escort screen's lead destroyer (input); carrier placed 2.5 km away inside the 1 psi ring (input). 14:30 UTC is about 00:30 local at 155 E: night."}
+  ]
+}

@@ -60,18 +60,54 @@ Rows A1 to A30 are usable as marked (30 rows).
 | B8 | 2010 to 2013: the 2010 Nuclear Posture Review called the nuclear Tomahawk redundant; the Navy completed its retirement by 2013 (SECNAVINST 8120.1A of 2013-02-15 no longer mentions it). | https://fas.org/blogs/security/2013/03/tomahawk/ ; https://www.everycrsreport.com/files/2026-01-08_IF12084_03ef999f9e94e8d14eb018c17c187dffbe009e02.html |
 | B9 | 2018 to 2026: the 2018 Nuclear Posture Review proposed SLCM-N; the 2022 Biden review called it unnecessary; Congress kept funding it; the FY2026 defense bill asks for limited deployment by September 2032. | https://www.everycrsreport.com/files/2026-01-08_IF12084_03ef999f9e94e8d14eb018c17c187dffbe009e02.html SINGLE-SOURCE. |
 
-## C. Simulation assumptions
+## C. Simulation assumptions (SIMULATION tag, stated as assumptions in the script)
 
-To be written by the scenario designer. Do not treat the following as decided.
+Decided 2026-11-12 by the scenario designer. Every blast, burn and fallout number below is copied from `scenario.computed.json` (studio/scenario.py, Glasstone and Dolan scaling calibrated to NUKEMAP). Nothing here is a forecast; no calendar date appears on screen.
 
-Suggestions only (not facts, label SIMULATION on screen):
+**Escalation logic.** Deliberately minimal: the episode is about one weapon, not a war. An unnamed, fictional attacker, with no country and no flag, fires one nuclear anti-ship cruise missile from a submarine at a generic US carrier strike group in open ocean. Why this shape:
+- Cold War doctrine put nuclear weapons aboard ships and aimed them at carrier groups (A8 to A11); the US took its own off surface ships by 1992 (A7, B7), so the story is the reverse of the old one: the group has no nuclear weapon to answer with from its decks.
+- The nearest real brushes were at sea: B-59 with a 10 kt torpedo (B5) and the Belknap fire (B6). The 10 kt size matches the Swordfish nuclear ASROC (A30, B4) and B-59.
+- No attacker, no country and no hull is named (D11, S6). The weapon is "a fictional submarine-launched anti-ship cruise missile", because no published source gives a sure yield for any modern anti-ship weapon (D3).
+- The simulation stops on the aftermath at sea and the decision on the bridge, not on retaliation. It does not choose a response.
 
-- S1. Hero strike: one 10 kt burst, air or surface burst over open water near, not on, a generic carrier strike group; the designer chooses burst height and range and the engine supplies every ring.
-- S2. Use a generic strike group (one carrier, a cruiser or two, three to four destroyers, a supply ship, an attack submarine) per A4, and a Pacific ocean setting that is not tied to a real hull, real deployment or real date. Avoid the Theodore Roosevelt, Washington and Bush areas named in A6.
-- S3. Attacker unspecified or clearly fictional. The delivery, say a Cold War-style anti-ship missile or a submarine-launched weapon, is a design choice; no published source gives a sure nuclear yield for a modern one (see D3).
-- S4. Compare against the Baker, Wigwam and Swordfish history (B2 to B4) in the text, with the explicit note that Baker was a shallow underwater burst and 23 kt, and a 10 kt open-water air burst is a different case.
-- S5. The decision aboard and the day after at sea (rescue, reactors shut down, the group dispersing) are simulation choices; do not state a casualty count unless a published study supplies one (none found).
-- S6. Do not write "Operation" names or hull numbers.
+**Strike (one row, `sea-burst`).**
+- t0 (first launch) 2027-02-10 14:30 UTC, about 00:30 local at the burst point: night, so the flash lights the sea. Engine sun point: 14.78 S, 33.86 W (the sun is on the other side of the Earth). Not a real upcoming event date; the script says "minute zero" and never states the date.
+- Launch point (simulated, 24.0 N, 152.2 E) and burst point (simulated, 24.0 N, 155.0 E) are open Pacific, away from the carrier areas in A6. Engine: distance 284.4 km, bearing 89.4 degrees, cruise class about Mach 0.7, flight 20.1 minutes, impact at minute 20.1.
+- Yield 10 kt, air burst (input). The air burst is a choice: Baker (A24) and Wigwam (A28) were underwater, Able (A23) was an air burst at about 23 kt, so a 10 kt air burst is a different case from the underwater tests, and the script must say Baker was shallow, underwater and 23 kt. The engine does not model burst height; its rings assume the height that maximises the 5 psi ring.
+- Group layout (inputs, not sourced): one carrier, a cruiser, three to four destroyers, a supply ship, an attack submarine (A4), generic. The burst is over the lead destroyer of the escort screen; the carrier is 2.5 km away (a design choice, comparable to Able missing its aim point by about 650 to 700 m, A23). That puts the carrier outside the 5 psi and burn rings and inside the 1 psi ring.
+
+**Hero strike: the one-warhead, ring-by-ring close-up, at sea.** Engine numbers for 10 kt air burst:
+
+| Ring | Engine value |
+|---|---|
+| Fireball radius | 0.153 km (about 300 m across) |
+| 20 psi (heavy blast) | 0.297 km |
+| 5 psi (moderate blast) | 1.459 km |
+| Third-degree burns, exposed skin | 1.617 km |
+| 1 psi (light blast) | 3.949 km |
+| 5 psi ring area | 6.7 km2 |
+| Fallout | "little local fallout" for an air burst |
+
+Reading the rings at sea (all inputs plus engine radii, no hand-typed numbers): the lead destroyer is at the centre, inside the fireball. Escorts within the 5 psi and burn rings are the ones at risk of heavy damage. The carrier, at 2.5 km, sits between the burn ring (1.617 km) and the 1 psi ring (3.949 km), so the model says light blast, not heavy blast or third-degree burns on exposed skin. The ring colours are land-damage categories. There is no open source on how a modern warship, with hardening (A5 gives only the wash-down system), responds; the script must say so and must not say the carrier "survives" or "sinks".
+
+**Engine limits for ships at sea (the director and script must respect these).**
+1. The engine has no sea model: no water-surface effects, no ship hardness, no wave or base-surge model, no ship damage states, no thermal-versus-ship interaction. Its rings are radii on a flat map.
+2. The `burst` field takes only air, ground or conventional. "Ground" gives heavy local fallout and a 0.8 blast factor, which is a land surface burst; do not use it for sea, and do not claim a sea surface burst's fallout from it. The air burst is the only honest choice.
+3. Underwater effects (Baker's water column, base surge, 94 ft wave, A24 to A26) are real history only. They are not engine output and must not be applied to this 10 kt air burst.
+4. Fallout: engine says "little local fallout"; it gives no plume, no wind and no dose rate. For a low-altitude burst over sea, spray and seawater activation are not modelled. The script may say "little local fallout in the model" and cite Wigwam (A29) for ships downwind staying within dose limits only as history; any plume direction on screen is a simulation choice.
+5. No moving ship positions in the engine: the strike group's layout and the ship tracks are director inputs. Ring sizes must be drawn to scale from the computed radii; ship icons at their true separation are tiny (a destroyer is a dot in a 3.9 km ring), so the shot may exaggerate icon size but must label it.
+6. The region shot (`ships` with `sunkAt`) can show chevrons and a sinking at a chosen time; any `sunkAt` is a simulation choice, not an engine output. Do not sink the carrier with no source; at most show escorts inside the 5 psi ring as "lost or crippled" only if the script labels it an assumption.
+7. City shots need a city JSON; there is none for open sea, so the hero close-up is a region shot at sea (about 15 to 20 km wide for the rings, with the carrier and escorts as icons) with `rings`, `burst` and the night sun.
+
+**The day after (SIMULATION, assumptions; nothing is a published outcome).**
+- First minutes: the flash and the pressure wave reach ships at different times; the group goes to general quarters, aircraft aloft are the main surviving strike force. These are choices.
+- Radiation at sea: the model says little local fallout. History offers two anchors only, Wigwam's ships staying within dose limits (A29, single-source, soften) and Crossroads Able, where most ships could be reboarded within a day (A23). The script may say "history suggests radioactivity from an air burst is a smaller problem than the blast and fire", as one estimate, not as a prediction.
+- Wash-down (A5) is the real feature the crew would turn on; the script may say the carrier has one, not that it works here.
+- The group disperses (a doctrine choice, unsourced) and a rescue and medical effort follows; the script does not count casualties. The carrier's reactors are a plausible concern but no source gives their response, so the script says only that they would be shut down and checked (assumption).
+- What stops working, as assumptions: radio and radar near the burst (electromagnetic pulse is not modelled by the engine and is not claimed); the air wing's ability to land. Anything more specific is cut.
+- Last scene: the group's remaining ships, the decision on the bridge and a world not knowing who fired. No death toll, no named ship, no named person, no response chosen.
+
+**What the script must not claim.** Death tolls or casualty numbers for the group (D11); that the carrier sank or survived; that a real navy or country has such a weapon (D3, A20, D4); that the US Navy has no nuclear weapons at sea (D5, say "no tactical weapons on surface ships since 1992"); that Baker's effects apply to an air burst; that any step is a prediction; any hull number, operation name or real date.
 
 ## D. Figures the script must NOT use
 
