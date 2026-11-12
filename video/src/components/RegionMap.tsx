@@ -9,7 +9,7 @@ import usStates from 'us-atlas/states-10m.json';
 import type {Ship, LonLat, RegionShot, RegionView} from '../scene';
 import {C, MONO, clamp01, ease, easeOut, lerp} from '../theme';
 import {getBase} from './baseCache';
-import {SafeLabel} from './SafeLabel';
+import {SafeLabel, useReserve} from './SafeLabel';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const topo = world50 as any;
@@ -184,6 +184,14 @@ function shipAt(sh: Ship, t: number, pt: (ll: LonLat) => [number, number] | null
 
 export const RegionMap: React.FC<{shot: RegionShot; t: number}> = ({shot, t}) => {
   const {width: W, height: H} = useVideoConfig();
+  const reserve = useReserve();
+  if (shot.legend?.length) {
+    const fs = H > W ? 34 : 22;
+    const lw = Math.max(...shot.legend.map((l) => l.text.length)) * (fs * 0.6 + 1.5) + 16 + 12 + 34;
+    const lh = shot.legend.length * (fs * 1.25 + 8) + 26;
+    const bottom = shot.caption ? 150 : 76;
+    reserve('legend', 40, H - bottom - lh - 8, 48 + lw + 8, H - bottom + 8);
+  }
   const dur = shot.end - shot.start;
   const view = viewAt(shot.view, shot.zoomTo, t, dur, shot.camera);
   const proj = useMemo(() => makeProjection(view, W, H), [view.center[0], view.center[1], view.widthKm, W, H]);

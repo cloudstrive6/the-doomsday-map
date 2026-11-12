@@ -50,6 +50,18 @@ function place(frame: string, id: string, left: number, top: number, w: number, 
   return best;
 }
 
+// A fixed panel (the legend chip) claims its area before the labels are placed, so labels move out of its way (006
+// shipped "GHT: EIGHT MINUTES" under the IRAN/ISRAEL legend, 2026-11-13). Call it in the map component's body: the
+// parent renders before its labels, so the area is reserved first in every frame.
+export function useReserve(): (id: string, l: number, t: number, r: number, b: number) => void {
+  const frame = `${useContext(LabelScope)}|${useCurrentFrame()}`;
+  return (id, l, t, r, b) => {
+    if (frame !== placedFrame) { placedFrame = frame; placed = []; }
+    placed = placed.filter((p) => p.id !== id);
+    placed.push({id, l, t, r, b, w: r - l, h: b - t, top0: t});
+  };
+}
+
 export const SafeLabel: React.FC<{
   x: number; y: number; text: string; color?: string; a?: number; size?: number; floor?: number;
   align?: 'left' | 'center' | 'right'; dx?: number; dy?: number; plate?: boolean; caption?: boolean; weight?: number;
