@@ -1,133 +1,133 @@
 {
  "subtitles": [
   {
-   "start": 0.55,
-   "end": 2.374,
+   "start": 0.0,
+   "end": 2.175,
    "text": "A rescue and medical effort"
   },
   {
-   "start": 2.374,
-   "end": 3.994,
+   "start": 2.175,
+   "end": 4.27,
    "text": "begins from the ships that"
   },
   {
-   "start": 3.994,
-   "end": 5.124,
+   "start": 4.27,
+   "end": 5.559,
    "text": "can still steam."
   },
   {
-   "start": 5.916,
-   "end": 7.584,
+   "start": 5.559,
+   "end": 7.412,
    "text": "We do not count anyone,"
   },
   {
-   "start": 7.866,
-   "end": 8.854,
+   "start": 7.412,
+   "end": 8.782,
    "text": "and we do not say"
   },
   {
-   "start": 8.854,
-   "end": 10.644,
+   "start": 8.782,
+   "end": 10.635,
    "text": "how many ships that is."
   },
   {
-   "start": 11.605,
-   "end": 12.874,
+   "start": 11.185,
+   "end": 12.757,
    "text": "The carrier turns on"
   },
   {
-   "start": 12.874,
-   "end": 15.096,
+   "start": 12.757,
+   "end": 15.115,
    "text": "its counter-measure wash-down,"
   },
   {
-   "start": 15.096,
-   "end": 16.854,
+   "start": 15.115,
+   "end": 17.394,
    "text": "the pipes that spray seawater"
   },
   {
-   "start": 16.854,
-   "end": 18.444,
+   "start": 17.394,
+   "end": 18.887,
    "text": "over deck and hull."
   },
   {
-   "start": 19.406,
-   "end": 20.714,
+   "start": 18.887,
+   "end": 20.538,
    "text": "The Navy built it for"
   },
   {
-   "start": 20.714,
-   "end": 23.404,
+   "start": 20.538,
+   "end": 22.974,
    "text": "fires and radiological threats,"
   },
   {
-   "start": 23.762,
-   "end": 25.054,
+   "start": 22.974,
+   "end": 24.782,
    "text": "and nobody knows how it"
   },
   {
-   "start": 25.054,
-   "end": 26.784,
+   "start": 24.782,
+   "end": 26.747,
    "text": "would work after a burst."
   },
   {
-   "start": 27.298,
-   "end": 29.184,
+   "start": 27.297,
+   "end": 29.484,
    "text": "The fallout map is nearly empty."
   },
   {
-   "start": 29.442,
-   "end": 30.694,
+   "start": 29.484,
+   "end": 31.398,
    "text": "The model gives little local"
   },
   {
-   "start": 30.694,
-   "end": 32.324,
+   "start": 31.398,
+   "end": 33.106,
    "text": "fallout for an air burst."
   },
   {
-   "start": 32.652,
-   "end": 33.538,
+   "start": 33.106,
+   "end": 33.653,
    "text": "At Able,"
   },
   {
-   "start": 33.538,
-   "end": 34.374,
+   "start": 33.653,
+   "end": 34.952,
    "text": "most ships could be"
   },
   {
-   "start": 34.374,
-   "end": 36.044,
+   "start": 34.952,
+   "end": 36.524,
    "text": "reboarded within a day,"
   },
   {
-   "start": 36.282,
-   "end": 37.464,
+   "start": 36.524,
+   "end": 37.48,
    "text": "and at Wigwam,"
   },
   {
-   "start": 37.464,
-   "end": 38.539,
+   "start": 37.48,
+   "end": 38.506,
    "text": "by one account,"
   },
   {
-   "start": 38.539,
-   "end": 39.834,
+   "start": 38.506,
+   "end": 40.214,
    "text": "the ships downwind stayed"
   },
   {
-   "start": 39.834,
-   "end": 41.244,
+   "start": 40.214,
+   "end": 41.65,
    "text": "under the dose limit."
   },
   {
-   "start": 41.724,
-   "end": 42.964,
+   "start": 41.65,
+   "end": 43.29,
    "text": "Those are two histories,"
   },
   {
-   "start": 43.259,
-   "end": 44.374,
+   "start": 43.29,
+   "end": 44.315,
    "text": "not a forecast."
   }
  ],
@@ -168,7 +168,7 @@
      "widthKm": 45
     },
     {
-     "t": 5.77,
+     "t": 4.94,
      "center": [
       155.0,
       24.0
@@ -176,7 +176,7 @@
      "widthKm": 36
     },
     {
-     "t": 8.17,
+     "t": 7.34,
      "center": [
       155.0,
       24.0
@@ -207,7 +207,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 5.77,
+     "t1": 4.94,
      "kind": "us",
      "color": "#8A8F98",
      "size": 12,
@@ -226,7 +226,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 5.77,
+     "t1": 4.94,
      "kind": "us",
      "color": "#8A8F98",
      "size": 12,
@@ -244,8 +244,8 @@
        23.98101
       ]
      ],
-     "t0": 2.2240000000000464,
-     "t1": 6.77,
+     "t0": 1.899000000000001,
+     "t1": 5.94,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 12,
@@ -264,8 +264,8 @@
        24.05426
       ]
      ],
-     "t0": 2.2240000000000464,
-     "t1": 6.77,
+     "t0": 1.899000000000001,
+     "t1": 5.94,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 12,
@@ -283,8 +283,8 @@
        23.95116
       ]
      ],
-     "t0": 2.2240000000000464,
-     "t1": 6.77,
+     "t0": 1.899000000000001,
+     "t1": 5.94,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 12,
@@ -302,12 +302,12 @@
        23.98734
       ]
      ],
-     "t0": 5.77,
+     "t0": 4.94,
      "t1": 11.19,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 12,
-     "t": 5.77,
+     "t": 4.94,
      "wake": false
     },
     {
@@ -321,12 +321,12 @@
        24.03618
       ]
      ],
-     "t0": 5.77,
+     "t0": 4.94,
      "t1": 11.19,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 12,
-     "t": 5.77,
+     "t": 4.94,
      "wake": false
     },
     {
@@ -340,12 +340,12 @@
        23.96744
       ]
      ],
-     "t0": 5.77,
+     "t0": 4.94,
      "t1": 11.19,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 14,
-     "t": 5.77,
+     "t": 4.94,
      "wake": false
     }
    ],
@@ -357,8 +357,8 @@
      ],
      "text": "Rescue and medical effort begins",
      "color": "#FFD23F",
-     "t": 0.52,
-     "until": 4.28
+     "t": 0.38,
+     "until": 4.56
     },
     {
      "at": [
@@ -367,8 +367,8 @@
      ],
      "text": "From ships that can still steam",
      "color": "#FFFFFF",
-     "t": 4.28,
-     "until": 6.25
+     "t": 4.56,
+     "until": 6.36
     },
     {
      "at": [
@@ -377,8 +377,8 @@
      ],
      "text": "No count of anyone",
      "color": "#FFD23F",
-     "t": 6.25,
-     "until": 9.03
+     "t": 6.08,
+     "until": 9.12
     },
     {
      "at": [
@@ -387,7 +387,7 @@
      ],
      "text": "No count of ships",
      "color": "#FFFFFF",
-     "t": 9.03
+     "t": 9.12
     }
    ],
    "rings": [
@@ -452,7 +452,7 @@
      "widthKm": 6
     },
     {
-     "t": 3.76,
+     "t": 3.11,
      "center": [
       155.0174,
       23.98399
@@ -460,7 +460,7 @@
      "widthKm": 5
     },
     {
-     "t": 8.07,
+     "t": 7.11,
      "center": [
       155.0174,
       23.98399
@@ -468,7 +468,7 @@
      "widthKm": 4.4
     },
     {
-     "t": 12.43,
+     "t": 11.11,
      "center": [
       155.0174,
       23.98399
@@ -499,7 +499,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 3.76,
+     "t1": 3.11,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 46,
@@ -969,7 +969,7 @@
       ]
      ],
      "color": "#3ED6C8",
-     "t": 8.07
+     "t": 7.11
     },
     {
      "points": [
@@ -1119,7 +1119,7 @@
       ]
      ],
      "color": "#3ED6C8",
-     "t": 12.43
+     "t": 11.11
     }
    ],
    "labels": [
@@ -1130,7 +1130,7 @@
      ],
      "text": "Counter-measure wash-down: on",
      "color": "#FFD23F",
-     "t": 1.74,
+     "t": 2.22,
      "until": 4.44
     },
     {
@@ -1141,7 +1141,7 @@
      "text": "Seawater over deck and hull",
      "color": "#3ED6C8",
      "t": 4.44,
-     "until": 9.38
+     "until": 9.33
     },
     {
      "at": [
@@ -1150,8 +1150,8 @@
      ],
      "text": "Built for fires",
      "color": "#FFFFFF",
-     "t": 9.38,
-     "until": 11.18
+     "t": 9.33,
+     "until": 11.13
     },
     {
      "at": [
@@ -1161,7 +1161,7 @@
      "text": "And radiological threats",
      "color": "#FFFFFF",
      "t": 10.22,
-     "until": 12.56
+     "until": 12.02
     },
     {
      "at": [
@@ -1170,7 +1170,7 @@
      ],
      "text": "Nobody knows how it would work after a burst",
      "color": "#FFD23F",
-     "t": 12.56
+     "t": 11.55
     }
    ]
   },
@@ -1178,7 +1178,7 @@
    "id": "fo-empty",
    "type": "region",
    "start": 27.297,
-   "end": 32.502,
+   "end": 33.09,
    "tag": "SIMULATION",
    "view": {
     "center": [
@@ -1205,7 +1205,7 @@
      "widthKm": 26
     },
     {
-     "t": 5.21,
+     "t": 5.79,
      "center": [
       155.0,
       24.0
@@ -1228,7 +1228,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 5.21,
+     "t1": 5.79,
      "kind": "us",
      "color": "#8A8F98",
      "size": 12,
@@ -1247,7 +1247,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 5.21,
+     "t1": 5.79,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 19,
@@ -1266,7 +1266,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 5.21,
+     "t1": 5.79,
      "kind": "us",
      "color": "#8A8F98",
      "size": 12,
@@ -1285,7 +1285,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 5.21,
+     "t1": 5.79,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 12,
@@ -1304,7 +1304,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 5.21,
+     "t1": 5.79,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 14,
@@ -1320,8 +1320,8 @@
      ],
      "text": "The fallout map is nearly empty",
      "color": "#FFD23F",
-     "t": 0.85,
-     "until": 2.65
+     "t": 1.81,
+     "until": 3.61
     },
     {
      "at": [
@@ -1330,7 +1330,7 @@
      ],
      "text": "Little local fallout from an air burst",
      "color": "#FFFFFF",
-     "t": 2.55
+     "t": 3.26
     }
    ],
    "rings": [
@@ -1375,8 +1375,8 @@
   {
    "id": "fo-a",
    "type": "region",
-   "start": 32.502,
-   "end": 41.574,
+   "start": 33.09,
+   "end": 41.78,
    "tag": "REAL HISTORY",
    "view": {
     "center": [
@@ -1395,7 +1395,7 @@
      "widthKm": 26
     },
     {
-     "t": 3.63,
+     "t": 3.62,
      "center": [
       165.45,
       11.55
@@ -1403,7 +1403,7 @@
      "widthKm": 20
     },
     {
-     "t": 6.23,
+     "t": 6.22,
      "center": [
       -125.9705,
       29.0
@@ -1411,7 +1411,7 @@
      "widthKm": 28
     },
     {
-     "t": 9.07,
+     "t": 8.69,
      "center": [
       -125.96067,
       29.0
@@ -1431,8 +1431,8 @@
      ],
      "text": "Able: most ships reboarded within a day",
      "color": "#FFD23F",
-     "t": 1.72,
-     "until": 6.72
+     "t": 2.17,
+     "until": 7.17
     },
     {
      "at": [
@@ -1441,7 +1441,7 @@
      ],
      "text": "Downwind ships: under the dose limit (one account)",
      "color": "#FFD23F",
-     "t": 7.88
+     "t": 8.33
     }
    ],
    "cities": [
@@ -1463,7 +1463,7 @@
      ],
      "label": "Wigwam",
      "kind": "target",
-     "t": 3.73,
+     "t": 3.72,
      "color": "#FF3B3B",
      "size": 6
     }
@@ -1480,12 +1480,12 @@
        29.01628
       ]
      ],
-     "t0": 3.63,
-     "t1": 11.63,
+     "t0": 3.62,
+     "t1": 11.62,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 11,
-     "t": 6.28,
+     "t": 6.52,
      "wake": false,
      "label": "Shielded ship"
     }
@@ -1494,7 +1494,7 @@
   {
    "id": "fo-two",
    "type": "region",
-   "start": 41.574,
+   "start": 41.78,
    "end": 44.374,
    "tag": "SIMULATION",
    "view": {
@@ -1514,7 +1514,7 @@
      "widthKm": 26
     },
     {
-     "t": 3.29,
+     "t": 3.08,
      "center": [
       155.0,
       24.0
@@ -1537,7 +1537,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 3.29,
+     "t1": 3.08,
      "kind": "us",
      "color": "#8A8F98",
      "size": 12,
@@ -1556,7 +1556,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 3.29,
+     "t1": 3.08,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 19,
@@ -1575,7 +1575,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 3.29,
+     "t1": 3.08,
      "kind": "us",
      "color": "#8A8F98",
      "size": 12,
@@ -1591,8 +1591,7 @@
      ],
      "text": "Two histories",
      "color": "#FFFFFF",
-     "t": 0.43,
-     "until": 2.23
+     "t": 1.09
     },
     {
      "at": [
@@ -1601,7 +1600,7 @@
      ],
      "text": "Not a forecast",
      "color": "#FFD23F",
-     "t": 1.77
+     "t": 2.17
     }
    ],
    "rings": [

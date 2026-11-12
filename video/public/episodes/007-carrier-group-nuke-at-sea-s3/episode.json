@@ -1,112 +1,112 @@
 {
  "subtitles": [
   {
-   "start": 0.631,
-   "end": 2.275,
+   "start": 0.0,
+   "end": 2.132,
    "text": "The burn ring for exposed skin"
   },
   {
-   "start": 2.275,
-   "end": 4.565,
+   "start": 2.132,
+   "end": 4.477,
    "text": "reaches 1.6 km."
   },
   {
-   "start": 5.054,
-   "end": 6.955,
+   "start": 4.477,
+   "end": 6.893,
    "text": "Escorts inside these rings are the"
   },
   {
-   "start": 6.955,
-   "end": 8.865,
+   "start": 6.893,
+   "end": 8.954,
    "text": "ones at risk of heavy damage."
   },
   {
-   "start": 9.519,
-   "end": 10.425,
+   "start": 9.504,
+   "end": 10.642,
    "text": "Look at the scale."
   },
   {
-   "start": 10.59,
-   "end": 12.175,
+   "start": 10.642,
+   "end": 12.348,
    "text": "A destroyer is a dot inside"
   },
   {
-   "start": 12.175,
-   "end": 14.885,
+   "start": 12.348,
+   "end": 14.75,
    "text": "a ring almost 8 km across,"
   },
   {
-   "start": 15.188,
-   "end": 16.255,
+   "start": 14.75,
+   "end": 16.015,
    "text": "so the map draws the"
   },
   {
-   "start": 16.255,
-   "end": 17.635,
+   "start": 16.015,
+   "end": 17.658,
    "text": "ships larger than they are"
   },
   {
-   "start": 17.635,
-   "end": 19.345,
+   "start": 17.658,
+   "end": 19.238,
    "text": "and labels them that way."
   },
   {
-   "start": 19.345,
-   "end": 20.735,
+   "start": 19.238,
+   "end": 20.945,
    "text": "The rings are drawn exactly"
   },
   {
-   "start": 20.735,
-   "end": 22.885,
+   "start": 20.945,
+   "end": 22.715,
    "text": "as the engine computes them."
   },
   {
-   "start": 23.742,
-   "end": 25.321,
+   "start": 23.265,
+   "end": 24.937,
    "text": "The light blast ring,"
   },
   {
-   "start": 25.321,
-   "end": 27.343,
+   "start": 24.937,
+   "end": 27.007,
    "text": "one pound per square inch,"
   },
   {
-   "start": 27.343,
-   "end": 29.705,
+   "start": 27.007,
+   "end": 29.873,
    "text": "reaches 3.9 km."
   },
   {
-   "start": 30.398,
-   "end": 31.635,
+   "start": 29.873,
+   "end": 31.386,
    "text": "The carrier sits at"
   },
   {
-   "start": 31.635,
-   "end": 32.725,
+   "start": 31.386,
+   "end": 32.58,
    "text": "two and a half,"
   },
   {
-   "start": 32.969,
-   "end": 33.975,
+   "start": 32.58,
+   "end": 34.252,
    "text": "between the burn ring"
   },
   {
-   "start": 33.975,
-   "end": 35.065,
+   "start": 34.252,
+   "end": 35.287,
    "text": "and the edge."
   },
   {
-   "start": 35.845,
-   "end": 37.715,
+   "start": 35.287,
+   "end": 37.596,
    "text": "The model puts it between one"
   },
   {
-   "start": 37.715,
-   "end": 40.265,
+   "start": 37.596,
+   "end": 40.143,
    "text": "and five pounds per square inch,"
   },
   {
-   "start": 40.551,
+   "start": 40.143,
    "end": 41.895,
    "text": "outside the burn ring."
   }
@@ -148,7 +148,7 @@
      "widthKm": 6.0
     },
     {
-     "t": 4.9,
+     "t": 4.28,
      "center": [
       155.0,
       24.0
@@ -206,7 +206,7 @@
      ],
      "km": 1.617,
      "color": "#F2B01E",
-     "t": 2.12,
+     "t": 2.34,
      "label": "Burns"
     }
    ],
@@ -241,7 +241,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 4.9,
+     "t1": 4.28,
      "kind": "us",
      "color": "#8A8F98",
      "size": 12,
@@ -260,7 +260,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 4.9,
+     "t1": 4.28,
      "kind": "us",
      "color": "#8A8F98",
      "size": 12,
@@ -278,12 +278,12 @@
        23.98734
       ]
      ],
-     "t0": 4.9,
+     "t0": 4.28,
      "t1": 9.5,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 12,
-     "t": 4.9,
+     "t": 4.28,
      "wake": false,
      "label": "Escort"
     },
@@ -298,12 +298,12 @@
        23.96744
       ]
      ],
-     "t0": 4.9,
+     "t0": 4.28,
      "t1": 9.5,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 14,
-     "t": 4.9,
+     "t": 4.28,
      "wake": false,
      "label": "Escort"
     }
@@ -316,8 +316,8 @@
      ],
      "text": "Exposed skin: 1.6 km",
      "color": "#FFD23F",
-     "t": 1.29,
-     "until": 6.29
+     "t": 1.56,
+     "until": 6.56
     },
     {
      "at": [
@@ -326,7 +326,7 @@
      ],
      "text": "Escorts inside: at risk of heavy damage",
      "color": "#FF3B3B",
-     "t": 7.26
+     "t": 7.39
     },
     {
      "at": [
@@ -335,7 +335,7 @@
      ],
      "text": "Escort",
      "color": "#FFFFFF",
-     "t": 4.9
+     "t": 4.28
     }
    ]
   },
@@ -343,7 +343,7 @@
    "id": "r-e",
    "type": "region",
    "start": 9.504,
-   "end": 19.195,
+   "end": 19.492,
    "tag": "SIMULATION",
    "view": {
     "center": [
@@ -370,7 +370,7 @@
      "widthKm": 12
     },
     {
-     "t": 5.53,
+     "t": 5.15,
      "center": [
       155.0,
       24.0
@@ -378,7 +378,7 @@
      "widthKm": 14
     },
     {
-     "t": 9.69,
+     "t": 9.98,
      "center": [
       155.0,
       24.0
@@ -481,7 +481,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 5.53,
+     "t1": 5.15,
      "kind": "us",
      "color": "#8A8F98",
      "size": 12,
@@ -500,12 +500,12 @@
        23.98399
       ]
      ],
-     "t0": 5.53,
-     "t1": 9.69,
+     "t0": 5.15,
+     "t1": 9.98,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 19,
-     "t": 5.53,
+     "t": 5.15,
      "wake": false
     },
     {
@@ -519,12 +519,12 @@
        24.00995
       ]
      ],
-     "t0": 5.53,
-     "t1": 9.69,
+     "t0": 5.15,
+     "t1": 9.98,
      "kind": "us",
      "color": "#8A8F98",
      "size": 12,
-     "t": 5.53,
+     "t": 5.15,
      "wake": false
     },
     {
@@ -538,12 +538,12 @@
        23.98734
       ]
      ],
-     "t0": 5.53,
-     "t1": 9.69,
+     "t0": 5.15,
+     "t1": 9.98,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 12,
-     "t": 5.53,
+     "t": 5.15,
      "wake": false
     },
     {
@@ -557,12 +557,12 @@
        23.96744
       ]
      ],
-     "t0": 5.53,
-     "t1": 9.69,
+     "t0": 5.15,
+     "t1": 9.98,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 14,
-     "t": 5.53,
+     "t": 5.15,
      "wake": false
     }
    ],
@@ -575,7 +575,7 @@
      "text": "Look at the scale",
      "color": "#FFD23F",
      "t": 0.3,
-     "until": 3.5
+     "until": 4.19
     },
     {
      "at": [
@@ -584,8 +584,8 @@
      ],
      "text": "Ring: almost 8 km across",
      "color": "#FFFFFF",
-     "t": 3.5,
-     "until": 6.86
+     "t": 4.19,
+     "until": 7.08
     },
     {
      "at": [
@@ -594,15 +594,15 @@
      ],
      "text": "Ships drawn larger than they are",
      "color": "#FFD23F",
-     "t": 6.86
+     "t": 7.08
     }
    ]
   },
   {
    "id": "r-f",
    "type": "region",
-   "start": 19.195,
-   "end": 30.248,
+   "start": 19.492,
+   "end": 29.117,
    "tag": "SIMULATION",
    "view": {
     "center": [
@@ -621,7 +621,7 @@
      "widthKm": 10
     },
     {
-     "t": 4.07,
+     "t": 3.77,
      "center": [
       155.0,
       24.0
@@ -629,7 +629,7 @@
      "widthKm": 12
     },
     {
-     "t": 7.07,
+     "t": 6.77,
      "center": [
       155.0,
       24.0
@@ -637,7 +637,7 @@
      "widthKm": 11
     },
     {
-     "t": 11.05,
+     "t": 9.62,
      "center": [
       155.0,
       24.0
@@ -707,7 +707,7 @@
      ],
      "km": 3.949,
      "color": "#3ED6C8",
-     "t": 5.98,
+     "t": 5.44,
      "label": "1 psi"
     }
    ],
@@ -746,7 +746,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 4.07,
+     "t1": 3.77,
      "kind": "us",
      "color": "#8A8F98",
      "size": 12,
@@ -765,7 +765,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 4.07,
+     "t1": 3.77,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 19,
@@ -784,7 +784,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 4.07,
+     "t1": 3.77,
      "kind": "us",
      "color": "#8A8F98",
      "size": 12,
@@ -803,7 +803,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 4.07,
+     "t1": 3.77,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 12,
@@ -822,7 +822,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 4.07,
+     "t1": 3.77,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 14,
@@ -838,8 +838,8 @@
      ],
      "text": "Rings: exactly as the engine computes",
      "color": "#FFFFFF",
-     "t": 0.95,
-     "until": 4.55
+     "t": 1.29,
+     "until": 4.19
     },
     {
      "at": [
@@ -848,8 +848,8 @@
      ],
      "text": "Light blast: 1 psi",
      "color": "#FFD23F",
-     "t": 4.55,
-     "until": 8.41
+     "t": 4.19,
+     "until": 7.95
     },
     {
      "at": [
@@ -858,14 +858,14 @@
      ],
      "text": "Reaches 3.9 km",
      "color": "#FFFFFF",
-     "t": 8.41
+     "t": 7.95
     }
    ]
   },
   {
    "id": "r-g",
    "type": "region",
-   "start": 30.248,
+   "start": 29.117,
    "end": 41.895,
    "tag": "SIMULATION",
    "view": {
@@ -893,7 +893,7 @@
      "widthKm": 7
     },
     {
-     "t": 5.45,
+     "t": 6.27,
      "center": [
       155.00885,
       23.99186
@@ -901,7 +901,7 @@
      "widthKm": 6.5
     },
     {
-     "t": 7.65,
+     "t": 8.47,
      "center": [
       155.00885,
       23.99186
@@ -909,7 +909,7 @@
      "widthKm": 9
     },
     {
-     "t": 12.38,
+     "t": 13.51,
      "center": [
       155.00885,
       23.99186
@@ -1008,7 +1008,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 5.45,
+     "t1": 6.27,
      "kind": "us",
      "color": "#8A8F98",
      "size": 12,
@@ -1027,7 +1027,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 5.45,
+     "t1": 6.27,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 19,
@@ -1048,8 +1048,8 @@
      ],
      "color": "#FFD23F",
      "label": "2.5 km",
-     "t0": 1.24,
-     "t1": 2.44
+     "t0": 1.67,
+     "t1": 2.87
     }
    ],
    "labels": [
@@ -1060,8 +1060,8 @@
      ],
      "text": "Between the burn ring and the edge",
      "color": "#FFFFFF",
-     "t": 2.57,
-     "until": 5.55
+     "t": 3.34,
+     "until": 6.69
     },
     {
      "at": [
@@ -1070,8 +1070,8 @@
      ],
      "text": "Model: between 1 and 5 psi",
      "color": "#FFD23F",
-     "t": 5.55,
-     "until": 10.16
+     "t": 6.69,
+     "until": 11.29
     },
     {
      "at": [
@@ -1080,7 +1080,7 @@
      ],
      "text": "Outside the burn ring",
      "color": "#FFFFFF",
-     "t": 10.16
+     "t": 11.29
     }
    ]
   }

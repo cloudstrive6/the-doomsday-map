@@ -1,83 +1,83 @@
 {
  "subtitles": [
   {
-   "start": 7.279,
-   "end": 8.81,
+   "start": 7.607,
+   "end": 9.136,
    "text": "For a moment the sea"
   },
   {
-   "start": 8.81,
-   "end": 10.32,
+   "start": 9.136,
+   "end": 10.512,
    "text": "is lit from above."
   },
   {
-   "start": 10.721,
-   "end": 12.33,
+   "start": 10.512,
+   "end": 12.729,
    "text": "The destroyers closest to the"
   },
   {
-   "start": 12.33,
-   "end": 14.809,
+   "start": 12.729,
+   "end": 15.023,
    "text": "centre are inside the fireball"
   },
   {
-   "start": 14.809,
-   "end": 16.32,
+   "start": 15.023,
+   "end": 16.781,
    "text": "and the heaviest rings,"
   },
   {
-   "start": 16.565,
-   "end": 18.31,
+   "start": 16.781,
+   "end": 18.769,
    "text": "and in our simulation they"
   },
   {
-   "start": 18.31,
-   "end": 20.08,
+   "start": 18.769,
+   "end": 20.375,
    "text": "are lost or crippled."
   },
   {
-   "start": 20.24,
-   "end": 21.35,
+   "start": 20.375,
+   "end": 21.98,
    "text": "The ships at the edge"
   },
   {
-   "start": 21.35,
-   "end": 23.32,
+   "start": 21.98,
+   "end": 24.121,
    "text": "are shaken and still moving."
   },
   {
-   "start": 23.833,
-   "end": 24.67,
+   "start": 24.671,
+   "end": 26.14,
    "text": "The first thing aboard"
   },
   {
-   "start": 24.67,
-   "end": 26.3,
+   "start": 26.14,
+   "end": 27.542,
    "text": "the carrier is light."
   },
   {
-   "start": 26.764,
-   "end": 27.633,
+   "start": 27.542,
+   "end": 28.143,
    "text": "At night,"
   },
   {
-   "start": 27.633,
-   "end": 29.835,
+   "start": 28.143,
+   "end": 30.146,
    "text": "the whole horizon turns white,"
   },
   {
-   "start": 29.835,
-   "end": 31.823,
+   "start": 30.146,
+   "end": 31.816,
    "text": "and the sea itself glows."
   },
   {
-   "start": 31.823,
-   "end": 34.017,
+   "start": 31.816,
+   "end": 34.019,
    "text": "The blast wave arrives afterward,"
   },
   {
-   "start": 34.017,
-   "end": 35.65,
+   "start": 34.019,
+   "end": 36.49,
    "text": "because it travels slower than light."
   }
  ],
@@ -85,13 +85,13 @@
  "fps": 60,
  "width": 1080,
  "height": 1920,
- "durationSeconds": 35.65,
+ "durationSeconds": 36.49,
  "shots": [
   {
    "id": "m-k",
    "type": "region",
    "start": 0.0,
-   "end": 16.415,
+   "end": 16.65,
    "tag": "SIMULATION",
    "view": {
     "center": [
@@ -118,7 +118,15 @@
      "widthKm": 15
     },
     {
-     "t": 6.77,
+     "t": 4.9,
+     "center": [
+      155.0079,
+      23.9982
+     ],
+     "widthKm": 14.002
+    },
+    {
+     "t": 7.61,
      "center": [
       155.00787,
       23.99638
@@ -126,7 +134,7 @@
      "widthKm": 13
     },
     {
-     "t": 10.64,
+     "t": 11.54,
      "center": [
       155.00983,
       24.0
@@ -134,7 +142,7 @@
      "widthKm": 15
     },
     {
-     "t": 12.64,
+     "t": 13.54,
      "center": [
       155.0,
       24.0
@@ -142,7 +150,7 @@
      "widthKm": 4
     },
     {
-     "t": 16.41,
+     "t": 16.65,
      "center": [
       155.0,
       24.0
@@ -176,7 +184,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 6.77,
+     "t1": 7.61,
      "kind": "us",
      "color": "#8A8F98",
      "size": 12,
@@ -195,7 +203,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 6.77,
+     "t1": 7.61,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 19,
@@ -214,7 +222,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 6.77,
+     "t1": 7.61,
      "kind": "us",
      "color": "#8A8F98",
      "size": 12,
@@ -240,7 +248,7 @@
      ],
      "km": 1.459,
      "color": "#FF3B3B",
-     "t": 14.88,
+     "t": 15.87,
      "label": "5 psi"
     }
    ],
@@ -262,8 +270,8 @@
      ],
      "text": "The sea is lit from above",
      "color": "#FFD23F",
-     "t": 8.9,
-     "until": 11.04
+     "t": 9.97,
+     "until": 11.94
     },
     {
      "at": [
@@ -272,8 +280,8 @@
      ],
      "text": "Closest to the centre",
      "color": "#FFFFFF",
-     "t": 11.04,
-     "until": 13.7
+     "t": 11.94,
+     "until": 14.69
     },
     {
      "at": [
@@ -282,7 +290,7 @@
      ],
      "text": "Fireball: 150 m radius",
      "color": "#FFFFFF",
-     "t": 13.7
+     "t": 14.69
     },
     {
      "at": [
@@ -291,7 +299,7 @@
      ],
      "text": "Lead destroyer",
      "color": "#FFFFFF",
-     "t": 10.64
+     "t": 11.54
     },
     {
      "at": [
@@ -300,7 +308,7 @@
      ],
      "text": "Destroyer",
      "color": "#FFFFFF",
-     "t": 10.64
+     "t": 11.54
     }
    ],
    "caption": "About ten past one, local time.",
@@ -453,7 +461,7 @@
       ]
      ],
      "color": "#FFFFFF",
-     "t": 13.7
+     "t": 14.69
     }
    ],
    "legend": [
@@ -470,8 +478,8 @@
   {
    "id": "m-h",
    "type": "region",
-   "start": 16.415,
-   "end": 23.831,
+   "start": 16.65,
+   "end": 24.671,
    "tag": "SIMULATION",
    "view": {
     "center": [
@@ -498,7 +506,7 @@
      "widthKm": 6
     },
     {
-     "t": 3.87,
+     "t": 3.93,
      "center": [
       155.0,
       24.0
@@ -506,7 +514,7 @@
      "widthKm": 8
     },
     {
-     "t": 5.87,
+     "t": 5.93,
      "center": [
       155.0,
       24.0
@@ -514,7 +522,7 @@
      "widthKm": 22
     },
     {
-     "t": 7.42,
+     "t": 8.02,
      "center": [
       155.0,
       24.0
@@ -539,7 +547,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 3.87,
+     "t1": 3.93,
      "kind": "us",
      "color": "#8A8F98",
      "size": 12,
@@ -559,7 +567,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 3.87,
+     "t1": 3.93,
      "kind": "us",
      "color": "#8A8F98",
      "size": 12,
@@ -579,7 +587,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 3.87,
+     "t1": 3.93,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 19,
@@ -597,12 +605,12 @@
        23.95838
       ]
      ],
-     "t0": 5.45,
-     "t1": 7.37,
+     "t0": 6.58,
+     "t1": 7.43,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 19,
-     "t": 3.87,
+     "t": 3.93,
      "wake": true
     },
     {
@@ -616,12 +624,12 @@
        23.96708
       ]
      ],
-     "t0": 5.45,
-     "t1": 7.37,
+     "t0": 6.58,
+     "t1": 7.43,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 12,
-     "t": 3.87,
+     "t": 3.93,
      "wake": true,
      "label": "Destroyer"
     },
@@ -636,12 +644,12 @@
        24.09406
       ]
      ],
-     "t0": 5.45,
-     "t1": 7.37,
+     "t0": 6.58,
+     "t1": 7.43,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 12,
-     "t": 3.87,
+     "t": 3.93,
      "wake": true,
      "label": "Destroyer"
     },
@@ -656,12 +664,12 @@
        23.91535
       ]
      ],
-     "t0": 5.45,
-     "t1": 7.37,
+     "t0": 6.58,
+     "t1": 7.43,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 14,
-     "t": 3.87,
+     "t": 3.93,
      "wake": true
     },
     {
@@ -675,12 +683,12 @@
        23.92946
       ]
      ],
-     "t0": 5.45,
-     "t1": 7.37,
+     "t0": 6.58,
+     "t1": 7.43,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 13,
-     "t": 3.87,
+     "t": 3.93,
      "wake": true,
      "label": "Supply ship"
     },
@@ -695,12 +703,12 @@
        24.05879
       ]
      ],
-     "t0": 5.45,
-     "t1": 7.37,
+     "t0": 6.58,
+     "t1": 7.43,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 9,
-     "t": 3.87,
+     "t": 3.93,
      "wake": true
     }
    ],
@@ -732,7 +740,7 @@
      ],
      "km": 3.949,
      "color": "#3ED6C8",
-     "t": 3.87
+     "t": 3.93
     }
    ],
    "labels": [
@@ -743,8 +751,8 @@
      ],
      "text": "Our assumption, not a record",
      "color": "#FFD23F",
-     "t": 0.47,
-     "until": 4.95
+     "t": 1.18,
+     "until": 5.9
     },
     {
      "at": [
@@ -753,7 +761,7 @@
      ],
      "text": "At the edge: shaken, still moving",
      "color": "#FFD23F",
-     "t": 4.95
+     "t": 5.9
     }
    ],
    "legend": [
@@ -770,8 +778,8 @@
   {
    "id": "m-l",
    "type": "region",
-   "start": 23.831,
-   "end": 35.65,
+   "start": 24.671,
+   "end": 36.49,
    "tag": "SIMULATION",
    "view": {
     "center": [
@@ -806,7 +814,7 @@
      "widthKm": 11
     },
     {
-     "t": 7.93,
+     "t": 8.23,
      "center": [
       155.0174,
       23.98399
@@ -814,7 +822,7 @@
      "widthKm": 13
     },
     {
-     "t": 10.13,
+     "t": 10.43,
      "center": [
       155.0059,
       23.99457
@@ -830,7 +838,7 @@
      "widthKm": 8
     },
     {
-     "t": 16.05,
+     "t": 16.04,
      "center": [
       155.0174,
       23.98399
@@ -855,7 +863,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 7.93,
+     "t1": 8.23,
      "kind": "us",
      "color": "#6EA8FF",
      "size": 19,
@@ -875,7 +883,7 @@
       ]
      ],
      "t0": 0,
-     "t1": 7.93,
+     "t1": 8.23,
      "kind": "us",
      "color": "#8A8F98",
      "size": 12,
@@ -888,7 +896,7 @@
      155.0,
      24.0
     ],
-    "t": 4.59,
+    "t": 5.09,
     "km": 2.4,
     "fade": 5
    },
@@ -900,8 +908,8 @@
      ],
      "text": "First: light",
      "color": "#FFFFFF",
-     "t": 1.53,
-     "until": 3.73
+     "t": 2.74,
+     "until": 4.54
     },
     {
      "at": [
@@ -910,8 +918,8 @@
      ],
      "text": "At night: the horizon turns white",
      "color": "#FFD23F",
-     "t": 3.73,
-     "until": 6.05
+     "t": 4.31,
+     "until": 6.66
     },
     {
      "at": [
@@ -920,8 +928,8 @@
      ],
      "text": "The sea itself glows",
      "color": "#FFFFFF",
-     "t": 6.05,
-     "until": 10.73
+     "t": 6.66,
+     "until": 10.97
     },
     {
      "at": [
@@ -930,8 +938,8 @@
      ],
      "text": "Afterward: slower than light",
      "color": "#FFD23F",
-     "t": 10.73,
-     "until": 14.23
+     "t": 10.97,
+     "until": 14.7
     },
     {
      "at": [
@@ -940,7 +948,7 @@
      ],
      "text": "General quarters",
      "color": "#FFD23F",
-     "t": 14.23
+     "t": 14.7
     }
    ],
    "rings": [
@@ -951,7 +959,7 @@
      ],
      "km": 2.5,
      "color": "#FF7A1A",
-     "t": 8.55,
+     "t": 9.01,
      "label": "Blast wave"
     }
    ],
