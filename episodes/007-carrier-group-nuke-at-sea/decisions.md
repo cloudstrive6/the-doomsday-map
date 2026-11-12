@@ -11,3 +11,5 @@
 - Search queries: "what if a nuke hit a carrier group", "nuclear bomb at sea", "aircraft carrier nuclear attack".
 - Thumbnails: A weapon / dawn-gold (previous A: map/map in 006, skyline-strike/fire-night in 005), B launch / fire-night, C witness / daylight. thumbcheck ok. Variants have different text; none shares words with the title.
 - Shorts: s1 0.0 to 41.8 (cold-open flash at 3.9 s), s2 325.7 to 357.6 (burst-lit shot, the light then the wave), s3 388.7 to 427.5 (rings; different from s1/s2).
+
+2026-11-12 thumbnail review: original A (carrier, no flash) failed glow 12% and brightness 105 and was not clickable. Swapped ids so the missile launch (glow 20.8%, brightness 118) is A. B (carrier) and C (sailor) still weak on glow; left as Test and compare candidates.
