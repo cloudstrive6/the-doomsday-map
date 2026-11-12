@@ -1,43 +1,43 @@
 {
  "subtitles": [
   {
-   "start": 19.724,
-   "end": 20.48,
+   "start": 19.156,
+   "end": 20.179,
    "text": "The launch comes"
   },
   {
-   "start": 20.48,
-   "end": 22.866,
+   "start": 20.179,
+   "end": 22.226,
    "text": "96 hours after the test,"
   },
   {
-   "start": 22.866,
-   "end": 24.89,
+   "start": 22.226,
+   "end": 24.465,
    "text": "and the flight takes 8 minutes."
   },
   {
-   "start": 25.271,
-   "end": 26.2,
+   "start": 24.465,
+   "end": 25.552,
    "text": "That is the clock"
   },
   {
-   "start": 26.2,
-   "end": 27.55,
+   "start": 25.552,
+   "end": 26.767,
    "text": "from the cold open."
   },
   {
-   "start": 27.858,
-   "end": 29.878,
+   "start": 27.317,
+   "end": 29.46,
    "text": "No other nuclear weapon is used."
   },
   {
-   "start": 29.878,
-   "end": 31.403,
+   "start": 29.46,
+   "end": 30.733,
    "text": "Two nuclear events,"
   },
   {
-   "start": 31.403,
-   "end": 33.13,
+   "start": 30.733,
+   "end": 32.407,
    "text": "11 kilotons together."
   }
  ],
@@ -45,13 +45,13 @@
  "fps": 60,
  "width": 1080,
  "height": 1920,
- "durationSeconds": 33.24,
+ "durationSeconds": 32.7,
  "shots": [
   {
    "id": "c4-jericho",
    "type": "region",
    "start": 0.0,
-   "end": 19.696,
+   "end": 19.156,
    "tag": "SIMULATION",
    "view": {
     "center": [
@@ -78,7 +78,7 @@
      "widthKm": 1900
     },
     {
-     "t": 6.24,
+     "t": 6.54,
      "center": [
       43,
       29.5
@@ -86,7 +86,7 @@
      "widthKm": 2500
     },
     {
-     "t": 10.93,
+     "t": 11.06,
      "center": [
       45,
       29.5
@@ -94,7 +94,7 @@
      "widthKm": 2400
     },
     {
-     "t": 19.7,
+     "t": 19.16,
      "center": [
       47,
       30
@@ -135,7 +135,7 @@
      ],
      "label": "Jericho II battery (simulated)",
      "kind": "base",
-     "t": 0.33,
+     "t": 0.5,
      "color": "#FF3B3B",
      "size": 6
     },
@@ -146,7 +146,7 @@
      ],
      "label": "Test mountain",
      "kind": "target",
-     "t": 6.24,
+     "t": 6.54,
      "color": "#FF3B3B",
      "size": 6
     }
@@ -161,7 +161,7 @@
      "color": "#F2B01E",
      "label": "1,500 km or more",
      "dashed": true,
-     "t": 3.47
+     "t": 4.02
     }
    ],
    "ships": [
@@ -176,12 +176,12 @@
        34.3
       ]
      ],
-     "t0": 6.24,
-     "t1": 10.73,
+     "t0": 6.54,
+     "t1": 10.86,
      "kind": "pla",
      "color": "#FF3B3B",
      "label": "Jericho II",
-     "t": 6.24,
+     "t": 6.54,
      "wake": true
     }
    ],
@@ -193,7 +193,7 @@
      ],
      "text": "1,670 km in eight minutes",
      "color": "#FFFFFF",
-     "t": 6.59
+     "t": 7.04
     },
     {
      "at": [
@@ -202,7 +202,7 @@
      ],
      "text": "Israel has never confirmed its arsenal",
      "color": "#3ED6C8",
-     "t": 11.59
+     "t": 12.07
     },
     {
      "at": [
@@ -211,15 +211,15 @@
      ],
      "text": "10 kt: entirely our assumption",
      "color": "#FF3B3B",
-     "t": 15.43
+     "t": 15.59
     }
    ]
   },
   {
    "id": "c4-clock",
    "type": "region",
-   "start": 19.696,
-   "end": 33.24,
+   "start": 19.156,
+   "end": 32.7,
    "tag": "SIMULATION",
    "view": {
     "center": [
@@ -246,7 +246,7 @@
      "widthKm": 2300
     },
     {
-     "t": 8.01,
+     "t": 8.16,
      "center": [
       47,
       33
@@ -323,12 +323,12 @@
        34.3
       ]
      ],
-     "t0": 3.02,
+     "t0": 2.77,
      "t1": 7.86,
      "kind": "pla",
      "color": "#FF3B3B",
      "label": "Jericho II",
-     "t": 3.02,
+     "t": 2.77,
      "wake": true
     }
    ],
@@ -340,7 +340,7 @@
      ],
      "text": "96 hours after the test",
      "color": "#FFFFFF",
-     "t": 0.63
+     "t": 1.04
     },
     {
      "at": [
@@ -349,7 +349,7 @@
      ],
      "text": "Flight: eight minutes",
      "color": "#FFFFFF",
-     "t": 3.89
+     "t": 4.15
     },
     {
      "at": [
@@ -358,7 +358,7 @@
      ],
      "text": "The clock from the cold open",
      "color": "#FFD23F",
-     "t": 6.05
+     "t": 5.88
     },
     {
      "at": [
@@ -367,7 +367,7 @@
      ],
      "text": "No other nuclear weapon is used",
      "color": "#FFFFFF",
-     "t": 8.01
+     "t": 8.16
     },
     {
      "at": [
@@ -376,7 +376,7 @@
      ],
      "text": "Two events: 11 kt together",
      "color": "#FF3B3B",
-     "t": 10.03
+     "t": 10.71
     }
    ]
   }
