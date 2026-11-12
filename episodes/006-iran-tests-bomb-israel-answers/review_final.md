@@ -1,24 +1,23 @@
 FAIL
 
-P0: `qc.json` `ok: false` with three frozen stretches (frozen 7.0s at 60.5s, frozen 4.0s at 163.2s, frozen 4.0s at 361.3s). None is a chapter dip or the end slate, so QC blocks the episode.
-
 | Criterion | Score | Evidence |
 |---|---|---|
-| Hook and opening (0 to 90 s) | 3 | sheet_00 tile 001 (open-flash, 4.2 to 9.9 s): the flash on "GROUND ZERO (SIMULATION)" arrives inside 8 s with the SIMULATION tag and the caption "Simulation: it has not happened". Tile 006 (28.3 to 33.8 s) and tile 007 (33.8 to 39.4 s) are near-empty dark frames with a few labels, and the QC frozen stretch at 60.5 s (7 s) falls on c1-bombs/c1-sites inside the first 90 s. |
-| Story pacing | 3 | The simulated burst comes at 421 s (7:01, c5 h-flash), well past the 4:30 bar. The ending is the simulation aftermath (c6 e-dark, f-plume and so on, sheet_05), which is correct. Chapters 1 to 3 run 43 s to 288 s of real history before the trigger. |
-| Map readability | 3 | sheet_04 tile 053 (h-fireball): plated labels are legible and clear of the tag and clock. sheet_00 tile 000: the Iran border line runs through the red "T-00:01" clock at the top right. sheet_00 tile 002: the "JERICHO BATTERY" label overlaps the Iran fill. |
-| Subject and fidelity | 3 | sheet_04 tile 054 and tile 056: ring maps are centred on ground zero and sized well. sheet_00 tiles 004 to 007: the subject is a tiny dot on a dark empty map. Tile 011 shows a large red circle with small labels. |
-| Motion and pacing | 2 | `near_still` is 310.3 s, a share of 0.478, against about 30% for 005. 19 stretches are over 4 s, including 26.3 s at 482.3 s and 25.1 s at 526.8 s. Three frozen stretches in `qc.json`. `shotlist_checks` is empty, so no `pace:` lines (count 0), but the stills data contradicts it. |
-| Packaging | 4 | The title "What If Iran Tests a Nuke? Israel's 4-Day Answer" is a hypothetical. thumb_a.png says "ONE MOUNTAIN / TEN KILOTONS / NO INSPECTORS" in large, readable text, and shares no words with the title. |
-| Accuracy and labelling | 4 | The description says "This is a simulation. It has not happened. It is not a forecast". The tags are SIMULATION on tiles 001 to 008 and REAL DATA on tiles 009 to 011. Choices are flagged in the video: "10 KT: ENTIRELY OUR ASSUMPTION", "GROUND BURST: OUR CHOICE". |
-| **Mean** | **3.14** | |
+| Hook and opening (0 to 90 s) | 3 | sheet_00 tile 001 (open-flash, 4.0 to 9.9 s): flash on the test mountain at about 4 s, a payoff inside 8 s; tiles 002 to 006 arrive every 4 to 6 s. But the banner text is clipped (see P0 1), and `near_still.over_4s` lists 33.8 s (5.1 s) and 56.0 s (4.4 s). |
+| Story pacing | 3 | shots.txt: the opening shows the strike, then chapter 1 "A mountain nobody can inspect" (tile 009, 43.7 s) starts the real-data run. `near_still` 61.1 s for 28.4 s, 195.1 s for 28.8 s and 526.8 s for 40.7 s are long sagging stretches. |
+| Map readability | 2 | sheet_00 tile 000: the clock "T-00:0?" is clipped at the top-right edge. Tile 003: the label "ONE TARGET: A MOUNTAIN IN IRAN" runs to the right edge. Tile 002: the long red label "JERICHO BATTERY, CENTRAL ISRAEL (SIMULATED)" is overprinted on the glowing Israel coast. |
+| Subject and fidelity | 2 | long_01_61s.png and sheet_01 tile 012 (c1-sites, 61 to 69 s): the frame is an empty dark grey field with only the REAL DATA tag, a "50 KM" scale and the source line. No subject is visible. |
+| Motion and pacing | 2 | `qc.json` near_still share is 0.395 (257 s), with 16 stretches over 4 s. 2 `pace:` lines: c1-disputed (4.7 s from 77.4 s) and c2-scale (6.5 s from 166.8 s). |
+| Packaging | 4 | metadata.json: the title "What If Iran Tests a Nuke? Israel's 4-Day Answer" is hypothetical and names who and where. The description carries "This is a simulation. It has not happened. It is not a forecast". It has no em-dashes (0 found). I did not score the thumbnail in detail. |
+| Accuracy and labelling | 3 | The SIMULATION tag is present on the opening tiles, and tiles 010 to 011 carry REAL DATA. The simulation caption on tile 001 ("A 10-kiloton ground burst on a mountain. Simulation: it has not happened.") is good. The banner defect undercuts the labelling. |
 
-Reported numbers: `near_still` 310.3 s (47.8% of runtime), `pace:` lines 0 (`shotlist_checks` is empty).
+Mean: 2.7
+
+near_still: 0.395 (257.0 s). `pace:` lines: 2.
 
 Findings:
-1. P0: QC fails on three frozen stretches (60.5 s for 7.0 s, 163.2 s for 4.0 s, 361.3 s for 4.0 s). Add camera moves or split those shots: c1-bombs (54.6 to 60.5 s), c1-sites (60.5 to 70.7 s), c2-korea (154.1 to 167.2 s) and c4-nine (356.4 to 361.2 s).
-2. Near-still share of 47.8% is far above 005 (30%). The longest stretches are 482.3 s (26.3 s, w-plume), 526.8 s (25.1 s, e-dark) and 70.8 s (18.7 s, c1-sites). Each needs a new element every 6 s or less.
-3. sheet_00 tile 000: the Iran border line crosses the "T-00:01" clock at the top right. Re-frame the opening region shot so the clock stays clear.
-4. The simulated trigger lands at 7:01, well past the 4:30 pacing bar. The real-history chapters 1 to 3 should be tightened, or the trigger moved earlier.
-5. `shotlist_checks` is empty, so the banner and end-slate checks were not reported. The "SIMULATION · NOT REAL EVENTS" banner was not seen in the sampled tiles (tiles 000 and 001 carry the tag only). Confirm it exists in `episode.json`.
-6. Metadata is clean: no em-dashes found, the disclaimer is present, and the title is framed as a hypothetical.
+1. P0: the banner text is cut off. sheet_00 tile 001 (open-flash, 6.6 s) reads "IMULATION · NOT REAL EVEN". The first and last letters are lost, so the required "SIMULATION · NOT REAL EVENTS" banner is not legible. Fix the banner width or clamp it inside the frame.
+2. P0: QC failed. `qc.json` has `ok: false` with the issue "frozen 6.0s at 61.0s". That is the c1-sites region shot, which renders as an empty dark frame (long_01_61s.png). The city or region tiles or data did not load, or the camera sits over empty space. Fix that shot (or its map data) and re-render.
+3. P0: the clock is cut off at the frame edge. sheet_00 tile 000 (open-run, 2.7 s) shows "T-00:0" with its last digits hidden at the top-right, partly outside the frame.
+4. The label "ONE TARGET: A MOUNTAIN IN IRAN" (tile 003) and the Israel label (tile 002) sit very close to or overlap the edge or other elements. Move the labels inward.
+5. Long still stretches in `near_still` need arrivals or camera keys: 61.1 s (28.4 s), 173.3 s (16.2 s), 195.1 s (28.8 s), 323.0 s (14.2 s), 361.3 s (12.3 s), 482.3 s (27.3 s), 526.8 s (40.7 s). Some are chapter text or number cards, but the share (39.5%) is well above the 005 baseline of about 30%.
+6. Not every sheet, Short frame and thumbnail was inspected in detail (I looked at sheet_00 and long_01 only). The three P0s above are enough for FAIL. Re-run the full review after the fixes.
