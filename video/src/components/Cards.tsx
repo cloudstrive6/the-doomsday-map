@@ -64,7 +64,7 @@ export const Chrome: React.FC<{tag?: Tag; clock?: string; clockLabel?: string; c
         </div>
       ) : null}
       {clock ? (
-        <div style={{position: 'absolute', right: 40 * s, top: vertical ? 410 : 30 * s, textAlign: 'right'}}>
+        <div style={{position: 'absolute', right: 40 * s, top: vertical ? 410 : 30 * s, textAlign: 'right', background: 'rgba(8,10,14,0.62)', padding: `${4 * s}px ${10 * s}px`}}>
           {clockLabel ? <div style={{fontFamily: MONO, fontSize: 13 * s, letterSpacing: 3, color: C.dim}}>{clockLabel}</div> : null}
           <div style={{fontFamily: MONO, fontSize: 34 * s, fontWeight: 600, color: clock.startsWith('T') ? C.red : C.text, letterSpacing: 2, textShadow: '0 0 12px rgba(0,0,0,0.8)'}}>{clock}</div>
         </div>
@@ -96,7 +96,9 @@ export const Banner: React.FC<{banner: BannerT; t: number; dur: number}> = ({ban
   return (
     <AbsoluteFill style={{pointerEvents: 'none'}}>
       <div style={{position: 'absolute', left: 0, right: 0, top: vertical ? 560 : 34, display: 'flex', justifyContent: 'center'}}>
-        <div style={{position: 'relative', overflow: 'hidden', clipPath: `inset(0 ${50 * (1 - open)}% 0 ${50 * (1 - open)}%)`,
+        {/* fades in and out (2026-11-13): the old centre wipe cut letters off, and a review frame taken mid-wipe read
+            "IMULATION · NOT REAL EVEN" and failed the episode */}
+        <div style={{position: 'relative', overflow: 'hidden', opacity: open, transform: `scale(${0.96 + 0.04 * open})`,
           background: 'rgba(8,10,14,0.82)', border: `1px solid ${C.red}AA`, borderLeft: `4px solid ${C.red}`, borderRight: `4px solid ${C.red}`,
           padding: `${10 * s}px ${30 * s}px ${banner.line ? 10 * s : 12 * s}px`, textAlign: 'center', boxShadow: `0 0 30px ${C.red}33`}}>
           <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 14 * s}}>

@@ -2,7 +2,7 @@
 // with highlighted countries, labelled cities, range rings, great-circle lines, a wind-driven plume and a scale bar.
 import React, {useLayoutEffect, useMemo, useRef} from 'react';
 import {AbsoluteFill, useVideoConfig} from 'remotion';
-import {geoAzimuthalEquidistant, geoCircle, geoGraticule10, geoInterpolate, geoPath, geoCentroid} from 'd3-geo';
+import {geoAzimuthalEquidistant, geoCircle, geoGraticule, geoGraticule10, geoInterpolate, geoPath, geoCentroid} from 'd3-geo';
 import {feature, mesh} from 'topojson-client';
 import world50 from 'world-atlas/countries-50m.json';
 import usStates from 'us-atlas/states-10m.json';
@@ -33,7 +33,7 @@ function paintRegionBase(shot: RegionShot, base: RegionView, W: number, H: numbe
 // Bright theme (2026-11-12) for map thumbnails: real coastlines and borders on a blue sea and sand land, so a "map"
 // thumbnail is accurate (an AI-drawn map put Iran's mountain in the Hindu Kush) and bright enough for the feed.
 export const MAP_THEMES = {
-  dark: {sea: C.bg, grat: 'rgba(140,180,200,0.07)', land: C.land, states: 'rgba(150,185,200,0.28)', coast: 'rgba(170,215,225,0.5)', border: C.border, hiAlpha: '33'},
+  dark: {sea: C.bg, grat: 'rgba(140,180,200,0.13)', land: C.land, states: 'rgba(150,185,200,0.28)', coast: 'rgba(170,215,225,0.5)', border: C.border, hiAlpha: '33'},
   bright: {sea: '#2C6CA8', grat: 'rgba(255,255,255,0.10)', land: '#E6DBBF', states: 'rgba(90,80,60,0.35)', coast: 'rgba(16,36,56,0.65)', border: 'rgba(80,66,50,0.7)', hiAlpha: '66'},
 };
 function paintRegion(shot: RegionShot, base: RegionView, W: number, H: number): HTMLCanvasElement {
@@ -45,7 +45,6 @@ function paintRegion(shot: RegionShot, base: RegionView, W: number, H: number): 
   const proj = makeProjection(base, bw, bh);
   const path = geoPath(proj, ctx);
   ctx.fillStyle = T.sea; ctx.fillRect(0, 0, bw, bh);
-  ctx.beginPath(); path(GRAT); ctx.strokeStyle = T.grat; ctx.lineWidth = SUPER; ctx.stroke();
   const hiMap = new Map((shot.highlight ?? []).map((h) => [h.iso, h]));
   for (const c of COUNTRIES) {
     // every country is drawn: a centroid test drops large countries (the US, Russia) when zoomed into one corner
@@ -53,6 +52,12 @@ function paintRegion(shot: RegionShot, base: RegionView, W: number, H: number): 
     ctx.beginPath(); path(c); ctx.fillStyle = T.land; ctx.fill();
     if (h) { ctx.fillStyle = h.fill ?? h.color + T.hiAlpha; ctx.fill(); }   // tint over land, not over the sea colour
   }
+  // HUD grid over land and sea, finer when zoomed in (2026-11-13): inland views have no coast or border in frame, so an
+  // empty map showed nothing moving and failed the freeze check (006 c1-sites, central Iran at 500 km). It moves with
+  // the camera. (Until then the grid was painted under the land and only showed at sea.)
+  const step = base.widthKm < 1100 ? 1 : base.widthKm < 2600 ? 2 : base.widthKm < 6000 ? 5 : 10;
+  ctx.beginPath(); path(step === 10 ? GRAT : geoGraticule().step([step, step])()); ctx.strokeStyle = T.grat;
+  ctx.lineWidth = SUPER; ctx.stroke();
   const c0 = base.center;
   if (base.widthKm < 8000 && c0[0] < -60 && c0[0] > -170 && c0[1] > 22 && c0[1] < 72) {
     ctx.beginPath(); path(STATE_BORDERS); ctx.strokeStyle = T.states; ctx.lineWidth = 0.9 * SUPER; ctx.stroke();
