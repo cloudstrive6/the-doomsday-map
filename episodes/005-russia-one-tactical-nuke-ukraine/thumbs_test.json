@@ -1,0 +1,94 @@
+[
+ {
+  "id": "d",
+  "variant": "map",
+  "concept": "map",
+  "palette": "map",
+  "line1": "144 KM",
+  "line2": "NO WARNING",
+  "tag": "",
+  "align": "left",
+  "region": {
+   "theme": "bright",
+   "t": 30,
+   "view": {
+    "center": [
+     35.9,
+     49.95
+    ],
+    "widthKm": 480
+   },
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#0E8F82",
+     "fill": "rgba(20,170,150,0.5)"
+    },
+    {
+     "iso": "643",
+     "color": "#C98A00",
+     "fill": "rgba(242,176,30,0.55)"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      36.6,
+      50.55
+     ],
+     "to": [
+      37.824,
+      49.517
+     ],
+     "color": "#E01E1E",
+     "t0": 0,
+     "t1": 1,
+     "width": 9
+    }
+   ],
+   "burst": {
+    "at": [
+     37.824,
+     49.517
+    ],
+    "t": 27.4,
+    "km": 14,
+    "fade": 30
+   },
+   "cities": [
+    {
+     "at": [
+      36.6,
+      50.55
+     ],
+     "color": "#E01E1E",
+     "kind": "base",
+     "size": 8
+    },
+    {
+     "at": [
+      36.23,
+      49.99
+     ],
+     "label": "KHARKIV",
+     "color": "#FFFFFF",
+     "kind": "dot",
+     "size": 6
+    }
+   ],
+   "labels": []
+  }
+ },
+ {
+  "id": "e",
+  "variant": "image",
+  "concept": "witness",
+  "palette": "ash",
+  "line1": "81-YEAR RULE",
+  "line2": "BROKEN",
+  "tag": "",
+  "align": "right",
+  "image_prompt": "A cold grey winter morning on flat open farmland in eastern Ukraine. In the left half of the frame, mid-distance above the bare frozen fields, a nuclear airburst: a brilliant orange and white fireball hanging high in the air, clearly separated from the ground, with a thin column of brown dust rising from the fields toward it, lighting the low grey clouds orange. No ring, no halo, no circle around the fireball. In the lower left foreground one soldier in a winter coat and helmet, seen from behind, stands in a shallow earth trench, looking at it. No road, no car, no vehicles, no text, no letters, no badges anywhere. The upper right is plain overcast grey sky.",
+  "image": "thumbs/005-e.jpg"
+ }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "id": "d",
+  "variant": "image",
+  "concept": "daylight-flash",
+  "palette": "daylight",
+  "line1": "9.8 KM",
+  "line2": "SKIN BURNS",
+  "tag": "BEFORE THE BLAST",
+  "align": "left",
+  "image_prompt": "Broad daylight on a clear weekday morning in a Chicago neighbourhood several kilometres from downtown: a long straight street of three-storey brick buildings runs away from the camera, the steel elevated train tracks running along the right side of the street with a commuter train standing on them, and a white delivery truck parked at the kerb with its back doors open. At the far end of the street, on the right third of the frame and high above the rooftops, a blinding white-hot nuclear fireball has just appeared in the air, brighter than the sun, washing the street, the brick and the steel in harsh white light and throwing long hard shadows toward the camera. No mushroom cloud yet, no fire, no people. The upper left third of the frame is plain clear pale-blue sky.",
+  "image": "thumbs/004-d.jpg"
+ },
+ {
+  "id": "e",
+  "variant": "image",
+  "concept": "aftermath",
+  "palette": "ash",
+  "line1": "2,000 BURN BEDS",
+  "line2": "NATIONWIDE",
+  "tag": "",
+  "align": "right",
+  "image_prompt": "The second morning after, a high aerial view looking south along the Chicago lakeshore under a pale overcast ash-grey sky. The left third of the frame is the flat, light grey water of Lake Michigan; the rest is the flattened city: a wide flat field of pale grey rubble and broken concrete, no high-rise standing anywhere in the frame, only bent steel stumps and low broken walls. In the centre of the frame, on land, two blocks inland from the shoreline and nowhere on the water, a large burning city block with bright orange flames; from it a tall, thick dark smoke column rises about a third of the frame height, then bends left and streams out over the lake. No stripes or bands on the water. No people, no vehicles moving. The upper right of the frame is plain pale grey sky above the city.",
+  "image": "thumbs/004-e.jpg"
+ }
+]

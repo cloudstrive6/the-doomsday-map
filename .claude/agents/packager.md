@@ -32,7 +32,7 @@ and the reference packages of episode 002: `metadata.json`, `thumbs.json`, `shor
    | skyline-strike | a recognisable landmark of the target, the blast behind or above it | fire-night, daylight |
    | daylight-flash | the white-hot flash or rising cloud seen in broad daylight from a street, a road or a beach | daylight |
    | orbit | the Earth or the region from orbit with trails and impacts | fire-night, dawn-gold |
-   | map | a bright 3D relief map of the region with strike arcs, rings or a blockade line (check the coastline) | map |
+   | map | a bright 3D relief map of the region with strike arcs, rings or a blockade line (check the coastline; the engine has no lakes yet, so no Great Lakes maps; no map labels that repeat title words) | map |
    | launch | the launcher, silo, submarine or salvo at the moment of launch | fire-night, dawn-gold, ash |
    | weapon | a close hero shot of the named weapon or platform (the missile, the carrier, the bomber) | daylight, dawn-gold, radar-green |
    | witness | one small figure seen from behind (never a face) watching it happen from a hill, a roof or a car | daylight, dawn-gold, fire-night |
@@ -49,6 +49,12 @@ and the reference packages of episode 002: `metadata.json`, `thumbs.json`, `shor
      single city strike suits skyline-strike or witness; a launch decision suits control-room; a war's day after suits
      aftermath. The niche is full of mushroom clouds; the top outliers stand out with a map with arrows, a weapon
      close-up, a salvo, a lone witness or daylight.
+   - Lessons from the 003 to 005 test set (2026-11-13, five of six failed the first review): the image model draws
+     its own geography and counts (it put the tracks over Mexico and drew 7 for 6), so screens show no land and the
+     text claims no count the picture must match; it ignores "nose below the middle" so keep text short and away
+     from the subject; smoke drifts left unless the layout puts the lake on the left; a distant flash with no cloud
+     reads as the sun; ask for "no ring, no halo" around a fireball; dark rooms fail the brightness gate, so ask
+     for the screen to light the whole room.
    - The prompt describes only the scene: subject, place, light, where the subject sits (the side away from the text).
      It must match the video: right coast, right number of missiles where the text gives one, right kind of weapon. The
      palette text and the frame rules (no text, no faces) are added automatically from `palette`.

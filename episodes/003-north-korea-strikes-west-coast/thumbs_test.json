@@ -1,0 +1,26 @@
+[
+ {
+  "id": "d",
+  "variant": "image",
+  "concept": "control-room",
+  "palette": "radar-green",
+  "line1": "INBOUND",
+  "line2": "CITY ASLEEP",
+  "tag": "",
+  "align": "right",
+  "image_prompt": "Inside a missile-defence command room in Alaska. A huge wall screen fills the left two thirds of the frame from top to bottom and glows brilliant, bright emerald green, lighting the whole room: a radar display with a fine glowing grid and range circles, with no land masses, no coastlines, no letters and no numbers; six thick, blazing white-green curved tracks rise from the lower left of the screen and converge on one blinding bright point at its upper right, with a bright halo around it. In the bottom left foreground, the head and shoulders of one seated duty officer in silhouette, seen from behind, strongly rim-lit by the screen. Consoles below the screen glowing bright green and cyan. The right third of the room is a plain teal wall washed in green light.",
+  "image": "thumbs/003-d.jpg"
+ },
+ {
+  "id": "e",
+  "variant": "image",
+  "concept": "weapon",
+  "palette": "fire-night",
+  "line1": "44 SHOTS",
+  "line2": "COIN FLIP",
+  "tag": "IN SCRIPTED TESTS",
+  "align": "left",
+  "image_prompt": "Night in a snowy forest clearing in Alaska. A slim three-stage missile-defence interceptor rocket launches straight up out of a flat round concrete silo hatch set flush with the snow, a blinding white and orange exhaust flame and billowing glowing steam lighting the snow and the dark pine trees. The whole interceptor, nose included, sits in the right half and the lower two thirds of the frame, its nose below the vertical middle of the frame. No dish, no tank, no building, no people. Deep blue night sky in the upper left.",
+  "image": "thumbs/003-e.jpg"
+ }
+]
