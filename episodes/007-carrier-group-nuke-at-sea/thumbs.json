@@ -1,0 +1,38 @@
+[
+ {
+  "id": "a",
+  "variant": "image",
+  "concept": "weapon",
+  "palette": "dawn-gold",
+  "line1": "10 KT",
+  "line2": "100,000 TONS",
+  "tag": "NO ANSWER ABOARD",
+  "align": "right",
+  "image_prompt": "Bright low-angle golden-hour photo of a huge grey US Nimitz-class aircraft carrier at sea seen from the front quarter, its angled flight deck with parked jets filling the left half of the frame, a few smaller grey escort warships behind it; on the far horizon a small distant white-orange nuclear flash glows. Warm glowing orange and blue sky, calm sea. The right half of the frame is open sea and sky. No people, no faces.",
+  "image": "thumbs/007-a.jpg"
+ },
+ {
+  "id": "b",
+  "variant": "image",
+  "concept": "launch",
+  "palette": "fire-night",
+  "line1": "ONE MISSILE",
+  "line2": "20 MINUTES",
+  "tag": "NO WARNING",
+  "align": "left",
+  "image_prompt": "Bright photo of a missile bursting up out of the ocean surface at dusk in a huge column of white spray and a blinding orange and yellow rocket flame, climbing diagonally toward the upper right, the glow lighting the waves and the low clouds orange; a grey submarine fin is just visible in the water at the bottom right. Luminous orange and blue sky. The left side of the frame is clear glowing sky and open sea. No people, no faces.",
+  "image": "thumbs/007-b.jpg"
+ },
+ {
+  "id": "c",
+  "variant": "image",
+  "concept": "witness",
+  "palette": "daylight",
+  "line1": "THE LIGHT",
+  "line2": "COMES FIRST",
+  "tag": "THEN THE WAVE",
+  "align": "left",
+  "image_prompt": "Bright daylight-style photo from the flight deck of an aircraft carrier at night-to-dawn: one small sailor in a dark flight-deck jersey seen from behind at the bottom right edge, looking out over the sea where a blinding white-orange nuclear flash and a small rising fireball on the far horizon turns the whole sky and the sea bright white and orange. Grey escort warships silhouetted in front of the flash. The left side of the frame is clear glowing sky. No face visible.",
+  "image": "thumbs/007-c.jpg"
+ }
+]

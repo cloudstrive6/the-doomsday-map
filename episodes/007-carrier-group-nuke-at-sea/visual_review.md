@@ -1,23 +1,22 @@
-FAIL
+PASS
 
-Checked: build/validate.txt (contains only "ok": no `retention:` or `pace:` lines), contact.png and the stills f06540, f14928, f21468, f24288, f34188, f36288, f37920. End slate: last word "only." ends 634.40 s, endslate shot runs 630.155 to 644.4 s, so it is 10.0 s after the last word; music plan's last segment runs to 644.4. Banner 3.57 to 6.57 s (3.0 s) is within range. Corner tags are present and correct (REAL HISTORY on the chapter and bars cards, SIMULATION on the map shots). The end slate's half-empty layout is correct. Only 12 stills were supplied for a 75-shot episode, so coverage is thin and I judge by the worst frames shown.
+Round 2. Checked build/validate.txt ("ok": no `retention:` or `pace:` lines), contact.png (119 frames) and the stills f00060, f00300, f00540, f01032, f01500, f05100, f13128, f30768, f34914, f36000, f37572. Round-1 fixes confirmed on the frames that replaced the old worst ones.
 
-The director's two known issues are P0, not polish. The label stacks and the plain dark frames are what make the simulation chapters unreadable on a phone. Details below.
+Round-1 items:
+1. Label stack over the carrier: fixed. f36000 shows one yellow label ("AIR WING: NOWHERE SAFE TO LAND?") above the ships, "CARRIER" beside its icon, none overlapping, with a legend (US GROUP, DAMAGED ESCORTS, AIRCRAFT) and trails on the aircraft.
+2. Unlabelled ships and no legend: fixed. f36000, f37572 and f01500 carry legends that name the colours (blue US group, grey damaged escorts, white aircraft).
+3. Floating disclaimer labels: fixed. f37572 shows two labels, "CARRIER" at its icon and "NO NAME TO ANSWER". f01032 shows only "SUBMARINE (SIMULATED)" and "STRIKE GROUP" at the target; they touch but both read.
+4. Near-empty aircraft frame: improved. f36000 has trails, a dashed zone and a legend.
+5. Plain dark ocean: now carries range rings (f37572, f30768, f00540).
+6. Fireball ring: f30768 legend lists the fireball and 20 PSI radii.
+7. Attribution: f30768 the "Effects: ..." line and the scale bar still touch at the bottom edge. Minor, legible, not blocking.
 
-1. f34188 (carrier wash-down zone, SIMULATION): the label "SEAWATER OVER DECK AND HULL" is printed straight across the carrier icon, so the subject of the narration is hidden behind text. "COUNTER-MEASURE WASH-DOWN: ON" sits on the dashed zone border. "NOBODY KNOWS HOW IT WOULD WORK AFTER A BURST", "BUILT FOR FIRES" and "COUNTER-MEASURE WASH-DOWN: ON" are stacked on top of each other and touch. The three loose fragments "NOBODY KNOWS...", "BUILT FOR FIRES" and "AND RADIOLOGICAL THREATS" are caption sentences, not map labels, and "AND RADIOLOGICAL THREATS" floats alone at the bottom attached to nothing. The carrier itself is a tiny, nearly invisible sliver under the text. Fix: in the merged shot that holds this stack, stage the labels one at a time with `at`/`from` times (one caption at a time, none sharing a position), anchor "CARRIER" and the zone label to the zone with an offset that clears the icon, and move the caption sentences into the subtitle band or a single `line` instead of scattered labels. Enlarge the carrier icon and tighten `widthKm` so the zone fills the frame.
+Retention and banner: f00060 (cold open on a globe, SIMULATION tag, T+19:20 clock, labels JAPAN, IWO JIMA, SUBMARINE (SIMULATED)), f00300 (banner "SIMULATION · NOT REAL EVENTS" over the moving flash, clear of tag and clock, caption "Simulation: it has not happened."). No static disclaimer card. Corner tags present and right: REAL DATA on f05100, REAL HISTORY on f13128, SIMULATION on map shots. Chapter cards (THE TRIGGER, MINUTE BY MINUTE, THE DAY AFTER) and the end slate keep their layout.
 
-2. f36288 (EMP/radio shot, SIMULATION): seven labels over a near-uniform dark grey field. The four small ship icons (two grey, one white, two blue) have no label and no legend, so the frame does not show who is against whom. "EMP: NOT MODELLED", "WE CLAIM NONE", "AN ASSUMPTION" and "REACTORS: SHUT DOWN AND CHECKED" point at nothing and sit at the frame corners. "RADIO AND RADAR: MAY FAIL" abuts the CARRIER label and icon. This is a late long merged shot with about five labels piled on. Fix: split the shot at the sentence boundaries, show at most two labels at a time, tie each to a ship, and add a `legend` (carrier group, escort, aircraft) so the colours mean something.
+Non-blocking notes for the director if there is another pass:
+- f05100 (REAL DATA, Nimitz class): a dark field with one icon and two labels. Sparse but legible and the subject is visible.
+- f01500 (T-02:01): the group sits in the right third with the left half empty. Legible. Recentre the camera if time allows.
+- f34914 (Able, 1 July 1946): dark field, WIGWAM marker and a very dim SHIELDED SHIP icon; label readable.
+- f13128 and similar: "OUR SIZE: THE SAME" on the globe is readable, no overlap.
 
-3. f14928 (burst-point and lead destroyer, SIMULATION): "BURST POINT" and "LEAD DESTROYER" are crowded onto the burst marker and the yellow line. "BOTH ARE INPUTS", "THE SCREEN'S LEAD SHIP", "NO HULL NUMBER" and "NO NAME" float in empty space nowhere near any ship ("NO HULL NUMBER" and "NO NAME" are about 400 px from the carrier). Six of the eight labels are disclaimers with no anchor. Fix: attach "NO HULL NUMBER / NO NAME" to the carrier label as one two-line label, and show "NO REAL SHIP IS THE TARGET" as a single line. Drop "BOTH ARE INPUTS" or time it to the spoken word.
-
-4. f21468 (aircraft aloft, T+20:12): near-empty dark field with a few tiny arrow icons and two floating labels. This is the "dark field with one marker" case. "AIRCRAFT ICONS ENLARGED" says the icons are not to scale, and the aircraft are still barely visible. Fix: widen the view or give the aircraft trails and a `highlight`, and keep the legend box clear of "AIR WING: 60 AIRCRAFT OR MORE" at the bottom.
-
-5. f34188 and f36288 (plain dark ocean frames): both are bare dark ocean with one or two tiny icons. There is no coast, no ring and no scale feature to carry them. Fix for the director: add range rings around the carrier (for example the 20 PSI and 5 PSI rings used in f24288) or a `highlight`, and use a `camera` key so the move is visible.
-
-6. f24288 (burst rings, T+20:06): no blocking defect. The rings are readable and the legend and clock are clear of the tag. Minor: the "FIREBALL" label sits above the 20 PSI ring rather than on the 153 m circle, which is not drawn. Fix: draw the fireball ring or move the label to the centre.
-
-7. Source attribution lines (f34188 "Wikipedia (Nimitz-class carrier)", f24288) sit under the scale line at about 6 px contrast. That is acceptable, but on f34188 the scale bar runs across the attribution. Fix: nudge the attribution below or clear of the 10 KM bar.
-
-Not findings: f06540 chapter card (about 3.5 s, tag present), f37920 end slate (layout kept, 10 s).
-
-Fixes go to the director (shotlist.py, label timing and anchors on the long merged region shots, and the missing legends). Re-render stills for the label-heavy shots and for the first 90 s, and supply a wider set of stills (one per shot) for round 2. Stage not advanced.
+No P0 found. Stage advanced to visual_approved.
