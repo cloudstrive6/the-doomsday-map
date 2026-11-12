@@ -324,8 +324,8 @@ export const RegionMap: React.FC<{shot: RegionShot; t: number}> = ({shot, t}) =>
       })}
       {(shot.labels ?? []).map((l, i) => {
         const p = pt(l.at);
-        if (!p) return null;
-        return <SafeLabel key={`t${i}`} x={p[0]} y={p[1]} text={l.text} color={l.color ?? C.dim} caption={cap} align="center" dy={26} a={l.t === undefined ? 1 : t < l.t ? 0 : ease(clamp01((t - l.t) / 0.4))} />;
+        if (!p || (l.until !== undefined && t > l.until + 0.3)) return null;
+        return <SafeLabel key={`t${i}`} x={p[0]} y={p[1]} text={l.text} color={l.color ?? C.dim} caption={cap} align="center" dy={26} a={(l.t === undefined ? 1 : t < l.t ? 0 : ease(clamp01((t - l.t) / 0.4))) * (l.until === undefined ? 1 : 1 - clamp01((t - l.until) / 0.3))} />;
       })}
       {(shot.countryLabels ?? []).map((cl, i) => {
         const c = COUNTRIES.find((x) => String(x.id) === cl.iso);

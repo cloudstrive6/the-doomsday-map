@@ -48,7 +48,7 @@ export interface RegionShot extends ShotBase {
   lines?: { from: LonLat; to: LonLat; label?: string; color?: string; dashed?: boolean; t0?: number; t1?: number; width?: number }[];
   theme?: 'dark' | 'bright';  // bright: blue sea and sand land (map thumbnails)
   plume?: { at: LonLat; bearing: number; lengthKm: number; widthKm: number; t0: number; t1: number; color?: string; label?: string };
-  labels?: { at: LonLat; text: string; color?: string; t?: number }[];
+  labels?: { at: LonLat; text: string; color?: string; t?: number; until?: number }[];  // until: shot-local second the label fades out (stages labels one at a time)
   scaleBar?: boolean;
   countryLabels?: { iso: string; text: string; color?: string; size?: number }[];
   zones?: Zone[];            // declared areas (closure zones, exclusion zones), drawn as shaded polygons

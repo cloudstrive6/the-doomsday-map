@@ -322,7 +322,13 @@
      "t": 1.2
     }
    ],
-   "caption": "Simulation: it has not happened."
+   "caption": "Simulation: it has not happened.",
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    }
+   ]
   },
   {
    "id": "open-b",
@@ -493,7 +499,14 @@
      ],
      "text": "Ships and glow: enlarged",
      "color": "#FFD23F",
-     "t": 1.85
+     "t": 1.85,
+     "until": 3.65
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
     }
    ]
   },
@@ -660,7 +673,8 @@
      ],
      "text": "A small weapon: 10 kt",
      "color": "#FFD23F",
-     "t": 0.1
+     "t": 0.1,
+     "until": 3.44
     },
     {
      "at": [
@@ -670,6 +684,12 @@
      "text": "Low over black water",
      "color": "#FFFFFF",
      "t": 3.44
+    }
+   ],
+   "legend": [
+    {
+     "text": "MISSILE",
+     "color": "#FF3B3B"
     }
    ]
   },
@@ -880,6 +900,12 @@
      "color": "#FFFFFF",
      "t": 0.46
     }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    }
    ]
   },
   {
@@ -1082,6 +1108,10 @@
     {
      "text": "US GROUP (ENLARGED ICONS)",
      "color": "#6EA8FF"
+    },
+    {
+     "text": "RANGE RINGS FROM BURST POINT",
+     "color": "#8A8F98"
     }
    ],
    "labels": [
@@ -1092,7 +1122,8 @@
      ],
      "text": "Steaming in the dark",
      "color": "#FFFFFF",
-     "t": 0.51
+     "t": 0.51,
+     "until": 2.31
     },
     {
      "at": [
@@ -1101,7 +1132,8 @@
      ],
      "text": "Spread across the sea",
      "color": "#FFFFFF",
-     "t": 1.65
+     "t": 1.65,
+     "until": 4.65
     },
     {
      "at": [
@@ -1120,6 +1152,30 @@
      "text": "Carrier",
      "color": "#FFFFFF",
      "t": 3.61
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 5,
+     "color": "#8A8F98",
+     "dashed": true,
+     "t": 0.2,
+     "label": "5 km"
+    },
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 10,
+     "color": "#8A8F98",
+     "dashed": true,
+     "t": 0.2,
+     "label": "10 km"
     }
    ]
   },
@@ -1272,7 +1328,8 @@
      ],
      "text": "What does one small bomb do to a ship that big?",
      "color": "#FFD23F",
-     "t": 1.72
+     "t": 1.72,
+     "until": 5.0
     },
     {
      "at": [
@@ -1282,6 +1339,12 @@
      "text": "How far does the damage reach?",
      "color": "#FFFFFF",
      "t": 5.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
     }
    ]
   },
@@ -2191,7 +2254,8 @@
      ],
      "text": "One burst",
      "color": "#FF3B3B",
-     "t": 3.09
+     "t": 3.09,
+     "until": 4.89
     },
     {
      "at": [
@@ -2200,7 +2264,8 @@
      ],
      "text": "One group",
      "color": "#6EA8FF",
-     "t": 4.01
+     "t": 4.01,
+     "until": 5.81
     },
     {
      "at": [
@@ -2210,6 +2275,12 @@
      "text": "What does the sea do with it?",
      "color": "#FFD23F",
      "t": 4.87
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
     }
    ]
   },
@@ -2494,7 +2565,8 @@
      ],
      "text": "About 5,000 people aboard",
      "color": "#FFD23F",
-     "t": 0.2
+     "t": 0.2,
+     "until": 3.7
     },
     {
      "at": [
@@ -2731,7 +2803,8 @@
      ],
      "text": "Rarely alone",
      "color": "#FFD23F",
-     "t": 0.89
+     "t": 0.89,
+     "until": 5.89
     }
    ],
    "legend": [
@@ -2933,7 +3006,8 @@
      ],
      "text": "Operation Crossroads",
      "color": "#FFFFFF",
-     "t": 1.14
+     "t": 1.14,
+     "until": 6.14
     },
     {
      "at": [
@@ -3625,7 +3699,31 @@
      ],
      "text": "The same kind of miss",
      "color": "#FFD23F",
-     "t": 3.21
+     "t": 3.21,
+     "until": 8.21
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 2,
+     "color": "#8A8F98",
+     "dashed": true,
+     "t": 0.2,
+     "label": "2 km"
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RANGE RINGS FROM BURST POINT",
+     "color": "#8A8F98"
     }
    ]
   },
@@ -3850,7 +3948,8 @@
      ],
      "text": "Nuclear torpedo: 10 kt",
      "color": "#FFD23F",
-     "t": 0.64
+     "t": 0.64,
+     "until": 4.51
     },
     {
      "at": [
@@ -3859,7 +3958,8 @@
      ],
      "text": "Launch needed three officers",
      "color": "#FFFFFF",
-     "t": 4.51
+     "t": 4.51,
+     "until": 7.31
     },
     {
      "at": [
@@ -3868,7 +3968,8 @@
      ],
      "text": "Vasily Arkhipov: refused",
      "color": "#FFD23F",
-     "t": 7.31
+     "t": 7.31,
+     "until": 10.3
     },
     {
      "at": [
@@ -3877,7 +3978,8 @@
      ],
      "text": "The boat surfaced",
      "color": "#FFD23F",
-     "t": 10.3
+     "t": 10.3,
+     "until": 13.3
     },
     {
      "at": [
@@ -4320,7 +4422,8 @@
      ],
      "text": "No nuclear answer on its decks",
      "color": "#FFD23F",
-     "t": 1.12
+     "t": 1.12,
+     "until": 5.72
     },
     {
      "at": [
@@ -4329,7 +4432,8 @@
      ],
      "text": "Launch: 284 km away",
      "color": "#FFFFFF",
-     "t": 5.72
+     "t": 5.72,
+     "until": 7.52
     },
     {
      "at": [
@@ -4355,6 +4459,16 @@
      "dashed": true,
      "t0": 6.95,
      "t1": 8.75
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "MISSILE",
+     "color": "#FF3B3B"
     }
    ]
   },
@@ -4494,7 +4608,8 @@
      ],
      "text": "No country. No flag.",
      "color": "#FFD23F",
-     "t": 0.52
+     "t": 0.52,
+     "until": 3.18
     },
     {
      "at": [
@@ -4503,7 +4618,8 @@
      ],
      "text": "One missile",
      "color": "#FFFFFF",
-     "t": 3.18
+     "t": 3.18,
+     "until": 8.18
     }
    ],
    "ships": [
@@ -4575,6 +4691,16 @@
      "color": "#FF3B3B",
      "t": 9.3,
      "dashed": true
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "MISSILE",
+     "color": "#FF3B3B"
     }
    ]
   },
@@ -4675,7 +4801,8 @@
      ],
      "text": "10 kt: our choice",
      "color": "#FFD23F",
-     "t": 1.58
+     "t": 1.58,
+     "until": 3.38
     },
     {
      "at": [
@@ -4710,6 +4837,12 @@
      "t": 2.94,
      "color": "#6EA8FF",
      "size": 6
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
     }
    ]
   },
@@ -4823,6 +4956,10 @@
     {
      "text": "GENERIC GROUP (ENLARGED ICONS)",
      "color": "#6EA8FF"
+    },
+    {
+     "text": "RANGE RINGS FROM BURST POINT",
+     "color": "#8A8F98"
     }
    ],
    "ships": [
@@ -4982,6 +5119,19 @@
      "t": 7.11,
      "wake": false,
      "label": "Submarine"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 10,
+     "color": "#8A8F98",
+     "dashed": true,
+     "t": 0.2,
+     "label": "10 km"
     }
    ]
   },
@@ -5177,34 +5327,28 @@
      ],
      "text": "No real ship is the target",
      "color": "#FFD23F",
-     "t": 0.1
+     "t": 0.1,
+     "until": 2.69
     },
     {
      "at": [
-      155.03441,
-      23.97649
+      155.0177,
+      24.01628
      ],
-     "text": "No name",
+     "text": "No name, no hull number",
      "color": "#FFFFFF",
-     "t": 2.69
+     "t": 2.69,
+     "until": 4.79
     },
     {
      "at": [
-      155.03441,
-      23.96744
-     ],
-     "text": "No hull number",
-     "color": "#FFFFFF",
-     "t": 3.45
-    },
-    {
-     "at": [
-      155.03441,
-      23.9584
+      155.0177,
+      24.01628
      ],
      "text": "No real date",
      "color": "#FFFFFF",
-     "t": 4.79
+     "t": 4.79,
+     "until": 9.79
     },
     {
      "at": [
@@ -5217,30 +5361,22 @@
     },
     {
      "at": [
-      155.01573,
-      24.01809
+      155.0177,
+      24.01447
      ],
-     "text": "The screen's lead ship",
+     "text": "Lead destroyer: the screen's lead ship",
      "color": "#FFFFFF",
-     "t": 10.29
+     "t": 10.29,
+     "until": 14.99
     },
     {
      "at": [
-      154.99017,
-      24.01809
+      155.00885,
+      24.00543
      ],
      "text": "Both are inputs",
      "color": "#FFD23F",
      "t": 14.99
-    },
-    {
-     "at": [
-      155.0,
-      24.0
-     ],
-     "text": "Lead destroyer",
-     "color": "#FFFFFF",
-     "t": 7.27
     },
     {
      "at": [
@@ -5292,6 +5428,40 @@
      "color": "#FFD23F",
      "t0": -15.38,
      "t1": -14.38
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 2,
+     "color": "#8A8F98",
+     "dashed": true,
+     "t": 0.2,
+     "label": "2 km"
+    },
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 5,
+     "color": "#8A8F98",
+     "dashed": true,
+     "t": 0.2,
+     "label": "5 km"
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RANGE RINGS FROM BURST POINT",
+     "color": "#8A8F98"
     }
    ]
   },
@@ -5413,7 +5583,8 @@
      ],
      "text": "Able missed by about 700 m",
      "color": "#F2B01E",
-     "t": 0.2
+     "t": 0.2,
+     "until": 5.2
     },
     {
      "at": [
@@ -5439,6 +5610,12 @@
      "label": "Ours: 2.5 km",
      "t0": 3.74,
      "t1": 4.74
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
     }
    ]
   },
@@ -5633,7 +5810,8 @@
      ],
      "text": "Low altitude",
      "color": "#FFFFFF",
-     "t": 0.88
+     "t": 0.88,
+     "until": 3.2
     },
     {
      "at": [
@@ -5643,6 +5821,12 @@
      "text": "A little under the speed of sound",
      "color": "#FFD23F",
      "t": 3.2
+    }
+   ],
+   "legend": [
+    {
+     "text": "MISSILE",
+     "color": "#FF3B3B"
     }
    ]
   },
@@ -5906,7 +6090,8 @@
      ],
      "text": "A wide dark sea",
      "color": "#FFFFFF",
-     "t": 8.62
+     "t": 8.62,
+     "until": 12.0
     },
     {
      "at": [
@@ -5922,6 +6107,10 @@
     {
      "text": "SEVEN OR EIGHT HULLS (ICONS ENLARGED)",
      "color": "#6EA8FF"
+    },
+    {
+     "text": "MISSILE",
+     "color": "#FF3B3B"
     }
    ]
   },
@@ -6171,7 +6360,8 @@
      ],
      "text": "Due east",
      "color": "#FFFFFF",
-     "t": 2.28
+     "t": 2.28,
+     "until": 4.08
     },
     {
      "at": [
@@ -6180,7 +6370,8 @@
      ],
      "text": "Across open water",
      "color": "#FFFFFF",
-     "t": 3.74
+     "t": 3.74,
+     "until": 6.88
     },
     {
      "at": [
@@ -6189,7 +6380,8 @@
      ],
      "text": "Flight: 20 minutes",
      "color": "#FFD23F",
-     "t": 6.88
+     "t": 6.88,
+     "until": 9.1
     },
     {
      "at": [
@@ -6198,7 +6390,8 @@
      ],
      "text": "Assumed: unseen, unstopped",
      "color": "#FFD23F",
-     "t": 9.1
+     "t": 9.1,
+     "until": 14.06
     },
     {
      "at": [
@@ -6208,6 +6401,16 @@
      "text": "Minute twenty point one",
      "color": "#FFD23F",
      "t": 14.06
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "MISSILE",
+     "color": "#FF3B3B"
     }
    ]
   },
@@ -6362,16 +6565,6 @@
       155.0,
       24.0
      ],
-     "km": 0.153,
-     "color": "#FFFFFF",
-     "t": 13.7,
-     "label": "Fireball"
-    },
-    {
-     "at": [
-      155.0,
-      24.0
-     ],
      "km": 1.459,
      "color": "#FF3B3B",
      "t": 14.88,
@@ -6386,7 +6579,8 @@
      ],
      "text": "Air burst over the lead destroyer",
      "color": "#FF3B3B",
-     "t": 1.4
+     "t": 1.4,
+     "until": 6.4
     },
     {
      "at": [
@@ -6395,7 +6589,8 @@
      ],
      "text": "The sea is lit from above",
      "color": "#FFD23F",
-     "t": 8.9
+     "t": 8.9,
+     "until": 11.04
     },
     {
      "at": [
@@ -6404,7 +6599,17 @@
      ],
      "text": "Closest to the centre",
      "color": "#FFFFFF",
-     "t": 11.04
+     "t": 11.04,
+     "until": 13.7
+    },
+    {
+     "at": [
+      155.0,
+      23.99729
+     ],
+     "text": "Fireball: 150 m radius",
+     "color": "#FFFFFF",
+     "t": 13.7
     },
     {
      "at": [
@@ -6425,7 +6630,169 @@
      "t": 10.64
     }
    ],
-   "caption": "About ten past one, local time."
+   "caption": "About ten past one, local time.",
+   "zones": [
+    {
+     "points": [
+      [
+       155.0015,
+       24.0
+      ],
+      [
+       155.00148,
+       24.00024
+      ],
+      [
+       155.00141,
+       24.00047
+      ],
+      [
+       155.0013,
+       24.00069
+      ],
+      [
+       155.00115,
+       24.00089
+      ],
+      [
+       155.00097,
+       24.00106
+      ],
+      [
+       155.00075,
+       24.0012
+      ],
+      [
+       155.00051,
+       24.0013
+      ],
+      [
+       155.00026,
+       24.00136
+      ],
+      [
+       155.0,
+       24.00138
+      ],
+      [
+       154.99974,
+       24.00136
+      ],
+      [
+       154.99949,
+       24.0013
+      ],
+      [
+       154.99925,
+       24.0012
+      ],
+      [
+       154.99903,
+       24.00106
+      ],
+      [
+       154.99885,
+       24.00089
+      ],
+      [
+       154.9987,
+       24.00069
+      ],
+      [
+       154.99859,
+       24.00047
+      ],
+      [
+       154.99852,
+       24.00024
+      ],
+      [
+       154.9985,
+       24.0
+      ],
+      [
+       154.99852,
+       23.99976
+      ],
+      [
+       154.99859,
+       23.99953
+      ],
+      [
+       154.9987,
+       23.99931
+      ],
+      [
+       154.99885,
+       23.99911
+      ],
+      [
+       154.99903,
+       23.99894
+      ],
+      [
+       154.99925,
+       23.9988
+      ],
+      [
+       154.99949,
+       23.9987
+      ],
+      [
+       154.99974,
+       23.99864
+      ],
+      [
+       155.0,
+       23.99862
+      ],
+      [
+       155.00026,
+       23.99864
+      ],
+      [
+       155.00051,
+       23.9987
+      ],
+      [
+       155.00075,
+       23.9988
+      ],
+      [
+       155.00097,
+       23.99894
+      ],
+      [
+       155.00115,
+       23.99911
+      ],
+      [
+       155.0013,
+       23.99931
+      ],
+      [
+       155.00141,
+       23.99953
+      ],
+      [
+       155.00148,
+       23.99976
+      ]
+     ],
+     "color": "#FFFFFF",
+     "t": 13.7
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "DAMAGED ESCORTS",
+     "color": "#8A8F98"
+    }
+   ]
   },
   {
    "id": "m-h",
@@ -6703,7 +7070,8 @@
      ],
      "text": "Our assumption, not a record",
      "color": "#FFD23F",
-     "t": 0.47
+     "t": 0.47,
+     "until": 4.95
     },
     {
      "at": [
@@ -6713,6 +7081,16 @@
      "text": "At the edge: shaken, still moving",
      "color": "#FFD23F",
      "t": 4.95
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "DAMAGED ESCORTS",
+     "color": "#8A8F98"
     }
    ]
   },
@@ -6849,7 +7227,8 @@
      ],
      "text": "First: light",
      "color": "#FFFFFF",
-     "t": 1.53
+     "t": 1.53,
+     "until": 3.73
     },
     {
      "at": [
@@ -6858,7 +7237,8 @@
      ],
      "text": "At night: the horizon turns white",
      "color": "#FFD23F",
-     "t": 3.73
+     "t": 3.73,
+     "until": 6.05
     },
     {
      "at": [
@@ -6867,7 +7247,8 @@
      ],
      "text": "The sea itself glows",
      "color": "#FFFFFF",
-     "t": 6.05
+     "t": 6.05,
+     "until": 10.73
     },
     {
      "at": [
@@ -6876,7 +7257,8 @@
      ],
      "text": "Afterward: slower than light",
      "color": "#FFD23F",
-     "t": 10.73
+     "t": 10.73,
+     "until": 14.23
     },
     {
      "at": [
@@ -6898,6 +7280,16 @@
      "color": "#FF7A1A",
      "t": 8.55,
      "label": "Blast wave"
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "DAMAGED ESCORTS",
+     "color": "#8A8F98"
     }
    ]
   },
@@ -7038,7 +7430,7 @@
      "t1": 6.1,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 12,
      "t": 0.1,
      "wake": true
     },
@@ -7057,7 +7449,7 @@
      "t1": 6.25,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 12,
      "t": 0.25,
      "wake": true
     },
@@ -7076,7 +7468,7 @@
      "t1": 6.4,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 12,
      "t": 0.4,
      "wake": true
     },
@@ -7095,7 +7487,7 @@
      "t1": 6.55,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 12,
      "t": 0.5499999999999999,
      "wake": true
     },
@@ -7114,7 +7506,7 @@
      "t1": 6.7,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 12,
      "t": 0.7,
      "wake": true
     },
@@ -7133,7 +7525,7 @@
      "t1": 10.35,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 12,
      "t": 4.35,
      "wake": true
     },
@@ -7152,7 +7544,7 @@
      "t1": 10.5,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 12,
      "t": 4.5,
      "wake": true
     },
@@ -7171,7 +7563,7 @@
      "t1": 10.65,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 12,
      "t": 4.65,
      "wake": true
     },
@@ -7190,7 +7582,7 @@
      "t1": 10.8,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 12,
      "t": 4.8,
      "wake": true
     },
@@ -7209,7 +7601,7 @@
      "t1": 10.95,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 12,
      "t": 4.95,
      "wake": true
     },
@@ -7228,7 +7620,7 @@
      "t1": 11.1,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 12,
      "t": 5.1,
      "wake": true
     },
@@ -7247,7 +7639,7 @@
      "t1": 11.25,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 12,
      "t": 5.25,
      "wake": true
     },
@@ -7266,7 +7658,7 @@
      "t1": 15.43,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 12,
      "t": 9.43,
      "wake": true
     },
@@ -7285,7 +7677,7 @@
      "t1": 15.58,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 12,
      "t": 9.58,
      "wake": true
     },
@@ -7304,7 +7696,7 @@
      "t1": 15.73,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 12,
      "t": 9.73,
      "wake": true
     },
@@ -7323,7 +7715,7 @@
      "t1": 15.88,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 12,
      "t": 9.88,
      "wake": true
     },
@@ -7342,7 +7734,7 @@
      "t1": 16.03,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 12,
      "t": 10.03,
      "wake": true
     },
@@ -7361,7 +7753,7 @@
      "t1": 19.16,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 12,
      "t": 13.16,
      "wake": true
     },
@@ -7380,7 +7772,7 @@
      "t1": 19.31,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 12,
      "t": 13.31,
      "wake": true
     },
@@ -7399,7 +7791,7 @@
      "t1": 19.46,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 12,
      "t": 13.46,
      "wake": true
     },
@@ -7418,7 +7810,7 @@
      "t1": 19.61,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 12,
      "t": 13.61,
      "wake": true
     }
@@ -7431,7 +7823,8 @@
      ],
      "text": "Aircraft already aloft",
      "color": "#FFFFFF",
-     "t": 0.2
+     "t": 0.2,
+     "until": 2.02
     },
     {
      "at": [
@@ -7440,7 +7833,8 @@
      ],
      "text": "The main striking force left",
      "color": "#FFD23F",
-     "t": 2.02
+     "t": 2.02,
+     "until": 5.42
     },
     {
      "at": [
@@ -7449,7 +7843,8 @@
      ],
      "text": "Air wing: 60 aircraft or more",
      "color": "#FFFFFF",
-     "t": 5.42
+     "t": 5.42,
+     "until": 7.22
     },
     {
      "at": [
@@ -7458,7 +7853,8 @@
      ],
      "text": "40 or more strike fighters",
      "color": "#FFD23F",
-     "t": 7.04
+     "t": 7.04,
+     "until": 11.17
     },
     {
      "at": [
@@ -7467,7 +7863,8 @@
      ],
      "text": "In the air now: the group's reach",
      "color": "#FFD23F",
-     "t": 11.17
+     "t": 11.17,
+     "until": 13.62
     },
     {
      "at": [
@@ -7483,6 +7880,38 @@
     {
      "text": "AIRCRAFT ICONS ENLARGED",
      "color": "#FFFFFF"
+    },
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "DAMAGED ESCORTS",
+     "color": "#8A8F98"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 10,
+     "color": "#8A8F98",
+     "dashed": true,
+     "t": 0.2,
+     "label": "10 km"
+    },
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 20,
+     "color": "#8A8F98",
+     "dashed": true,
+     "t": 0.2,
+     "label": "20 km"
     }
    ]
   },
@@ -7593,7 +8022,7 @@
      "t1": 10.48,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 11,
      "t": 2.58,
      "wake": true
     },
@@ -7616,7 +8045,7 @@
      "t1": 10.48,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 11,
      "t": 2.78,
      "wake": true
     },
@@ -7639,7 +8068,7 @@
      "t1": 10.48,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 11,
      "t": 2.98,
      "wake": true
     },
@@ -7662,7 +8091,7 @@
      "t1": 10.48,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 11,
      "t": 3.18,
      "wake": true
     },
@@ -7685,7 +8114,7 @@
      "t1": 13.8,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 11,
      "t": 5.9,
      "wake": true
     },
@@ -7708,7 +8137,7 @@
      "t1": 13.8,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 11,
      "t": 6.1,
      "wake": true
     },
@@ -7731,7 +8160,7 @@
      "t1": 13.8,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 11,
      "t": 6.3,
      "wake": true
     },
@@ -7754,7 +8183,7 @@
      "t1": 13.8,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 11,
      "t": 6.5,
      "wake": true
     }
@@ -7767,7 +8196,8 @@
      ],
      "text": "The problem is simple",
      "color": "#FFD23F",
-     "t": 0.97
+     "t": 0.97,
+     "until": 3.79
     },
     {
      "at": [
@@ -7776,7 +8206,8 @@
      ],
      "text": "Airborne: they need somewhere to land",
      "color": "#FFD23F",
-     "t": 3.79
+     "t": 3.79,
+     "until": 8.79
     }
    ],
    "zones": [
@@ -7803,6 +8234,33 @@
      "color": "#8A8F98",
      "t": 6.03,
      "pulse": true
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 5,
+     "color": "#8A8F98",
+     "dashed": true,
+     "t": 0.2,
+     "label": "5 km"
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "AIRCRAFT (ENLARGED)",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "RANGE RINGS FROM BURST POINT",
+     "color": "#8A8F98"
     }
    ]
   },
@@ -8031,7 +8489,8 @@
      ],
      "text": "How much reaches the carrier?",
      "color": "#FFD23F",
-     "t": 0.3
+     "t": 0.3,
+     "until": 5.3
     }
    ]
   },
@@ -8459,7 +8918,8 @@
      ],
      "text": "Radius: 150 m",
      "color": "#FFFFFF",
-     "t": 0.77
+     "t": 0.77,
+     "until": 2.57
     },
     {
      "at": [
@@ -8468,13 +8928,35 @@
      ],
      "text": "About 300 m across",
      "color": "#FFD23F",
-     "t": 2.47
+     "t": 2.47,
+     "until": 7.47
     }
    ],
    "legend": [
     {
      "text": "Fireball 153 m radius",
      "color": "#FFFFFF"
+    },
+    {
+     "text": "DAMAGED ESCORTS",
+     "color": "#8A8F98"
+    },
+    {
+     "text": "RANGE RINGS FROM BURST POINT",
+     "color": "#8A8F98"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 1,
+     "color": "#8A8F98",
+     "dashed": true,
+     "t": 0.2,
+     "label": "1 km"
     }
    ]
   },
@@ -8630,7 +9112,8 @@
      ],
      "text": "Heavy blast: 20 psi",
      "color": "#FFD23F",
-     "t": 5.4
+     "t": 5.4,
+     "until": 9.61
     },
     {
      "at": [
@@ -8639,7 +9122,8 @@
      ],
      "text": "Falls to 5 psi",
      "color": "#FFD23F",
-     "t": 9.61
+     "t": 9.61,
+     "until": 12.41
     },
     {
      "at": [
@@ -8851,7 +9335,8 @@
      ],
      "text": "Exposed skin: 1.6 km",
      "color": "#FFD23F",
-     "t": 1.29
+     "t": 1.29,
+     "until": 6.29
     },
     {
      "at": [
@@ -9108,7 +9593,8 @@
      ],
      "text": "Look at the scale",
      "color": "#FFD23F",
-     "t": 0.3
+     "t": 0.3,
+     "until": 3.5
     },
     {
      "at": [
@@ -9117,7 +9603,8 @@
      ],
      "text": "Ring: almost 8 km across",
      "color": "#FFFFFF",
-     "t": 3.5
+     "t": 3.5,
+     "until": 6.86
     },
     {
      "at": [
@@ -9370,7 +9857,8 @@
      ],
      "text": "Rings: exactly as the engine computes",
      "color": "#FFFFFF",
-     "t": 0.95
+     "t": 0.95,
+     "until": 4.55
     },
     {
      "at": [
@@ -9379,7 +9867,8 @@
      ],
      "text": "Light blast: 1 psi",
      "color": "#FFD23F",
-     "t": 4.55
+     "t": 4.55,
+     "until": 8.41
     },
     {
      "at": [
@@ -9590,7 +10079,8 @@
      ],
      "text": "Between the burn ring and the edge",
      "color": "#FFFFFF",
-     "t": 2.57
+     "t": 2.57,
+     "until": 5.55
     },
     {
      "at": [
@@ -9599,7 +10089,8 @@
      ],
      "text": "Model: between 1 and 5 psi",
      "color": "#FFD23F",
-     "t": 5.55
+     "t": 5.55,
+     "until": 10.16
     },
     {
      "at": [
@@ -9801,7 +10292,8 @@
      ],
      "text": "Two limits",
      "color": "#FFD23F",
-     "t": 0.2
+     "t": 0.2,
+     "until": 2.72
     },
     {
      "at": [
@@ -9810,7 +10302,8 @@
      ],
      "text": "Limit 1: rings drawn for land",
      "color": "#FFFFFF",
-     "t": 2.72
+     "t": 2.72,
+     "until": 4.56
     },
     {
      "at": [
@@ -9819,7 +10312,8 @@
      ],
      "text": "No model of a ship",
      "color": "#FFFFFF",
-     "t": 4.56
+     "t": 4.56,
+     "until": 6.36
     },
     {
      "at": [
@@ -9828,7 +10322,8 @@
      ],
      "text": "No wave, no hardened hull",
      "color": "#FFFFFF",
-     "t": 5.24
+     "t": 5.24,
+     "until": 8.7
     },
     {
      "at": [
@@ -9837,7 +10332,8 @@
      ],
      "text": "Limit 2: no burst height",
      "color": "#FFD23F",
-     "t": 8.7
+     "t": 8.7,
+     "until": 11.2
     },
     {
      "at": [
@@ -9846,7 +10342,8 @@
      ],
      "text": "We do not say it survives",
      "color": "#FFD23F",
-     "t": 11.2
+     "t": 11.2,
+     "until": 13.52
     },
     {
      "at": [
@@ -10157,7 +10654,8 @@
      ],
      "text": "Able: the closest real guide",
      "color": "#FFD23F",
-     "t": 1.07
+     "t": 1.07,
+     "until": 3.47
     },
     {
      "at": [
@@ -10166,7 +10664,8 @@
      ],
      "text": "Not a match",
      "color": "#FFFFFF",
-     "t": 3.47
+     "t": 3.47,
+     "until": 5.73
     },
     {
      "at": [
@@ -10175,7 +10674,8 @@
      ],
      "text": "23 kt: more than twice ours",
      "color": "#F2B01E",
-     "t": 5.73
+     "t": 5.73,
+     "until": 10.73
     },
     {
      "at": [
@@ -10395,7 +10895,8 @@
      ],
      "text": "Ours: 10 kt over a group at sea",
      "color": "#FFD23F",
-     "t": 0.2
+     "t": 0.2,
+     "until": 4.63
     },
     {
      "at": [
@@ -10404,7 +10905,8 @@
      ],
      "text": "Able sets a scale",
      "color": "#FFFFFF",
-     "t": 4.63
+     "t": 4.63,
+     "until": 6.43
     },
     {
      "at": [
@@ -10414,6 +10916,16 @@
      "text": "Not a forecast",
      "color": "#FFD23F",
      "t": 5.85
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "DAMAGED ESCORTS",
+     "color": "#8A8F98"
     }
    ]
   },
@@ -10616,7 +11128,8 @@
      ],
      "text": "The Navy's habit: keep distance",
      "color": "#FFD23F",
-     "t": 2.38
+     "t": 2.38,
+     "until": 4.38
     },
     {
      "at": [
@@ -10625,7 +11138,8 @@
      ],
      "text": "At Wigwam, most ships kept 8 km away",
      "color": "#FFD23F",
-     "t": 4.38
+     "t": 4.38,
+     "until": 9.38
     }
    ],
    "lines": [
@@ -10656,6 +11170,16 @@
      "label": "Our outer ring: 7.9 km across",
      "t0": 9.98,
      "t1": 10.98
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "DAMAGED ESCORTS",
+     "color": "#8A8F98"
     }
    ]
   },
@@ -10731,7 +11255,8 @@
      ],
      "text": "Not Baker",
      "color": "#FFD23F",
-     "t": 1.13
+     "t": 1.13,
+     "until": 2.93
     },
     {
      "at": [
@@ -10740,7 +11265,8 @@
      ],
      "text": "Shallow: underwater",
      "color": "#FFFFFF",
-     "t": 2.73
+     "t": 2.73,
+     "until": 4.53
     },
     {
      "at": [
@@ -10863,7 +11389,18 @@
      ],
      "text": "No water column",
      "color": "#FFFFFF",
-     "t": 0.38
+     "t": 0.38,
+     "until": 2.3
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "DAMAGED ESCORTS",
+     "color": "#8A8F98"
     }
    ]
   },
@@ -11049,7 +11586,8 @@
      ],
      "text": "3.9 km",
      "color": "#3ED6C8",
-     "t": 2.93
+     "t": 2.93,
+     "until": 4.73
     },
     {
      "at": [
@@ -11058,7 +11596,8 @@
      ],
      "text": "1.6 km",
      "color": "#F2B01E",
-     "t": 4.04
+     "t": 4.04,
+     "until": 5.84
     },
     {
      "at": [
@@ -11366,7 +11905,8 @@
      ],
      "text": "Every ship sits somewhere on this target",
      "color": "#FFFFFF",
-     "t": 1.44
+     "t": 1.44,
+     "until": 3.76
     },
     {
      "at": [
@@ -11375,7 +11915,8 @@
      ],
      "text": "Distance decides what it feels",
      "color": "#FFD23F",
-     "t": 3.76
+     "t": 3.76,
+     "until": 7.34
     },
     {
      "at": [
@@ -11852,7 +12393,8 @@
      ],
      "text": "What does one small bomb do to a ship that big?",
      "color": "#FFD23F",
-     "t": 0.1
+     "t": 0.1,
+     "until": 5.1
     },
     {
      "at": [
@@ -11861,7 +12403,8 @@
      ],
      "text": "The group stops being a group",
      "color": "#FFD23F",
-     "t": 5.1
+     "t": 5.1,
+     "until": 6.9
     },
     {
      "at": [
@@ -11870,7 +12413,8 @@
      ],
      "text": "The ships turn outward",
      "color": "#FFFFFF",
-     "t": 6.38
+     "t": 6.38,
+     "until": 8.82
     },
     {
      "at": [
@@ -11879,7 +12423,8 @@
      ],
      "text": "A dispersal we chose",
      "color": "#FFD23F",
-     "t": 8.82
+     "t": 8.82,
+     "until": 11.36
     },
     {
      "at": [
@@ -11895,6 +12440,10 @@
     {
      "text": "ICONS ENLARGED",
      "color": "#6EA8FF"
+    },
+    {
+     "text": "DAMAGED ESCORTS",
+     "color": "#8A8F98"
     }
    ]
   },
@@ -12118,7 +12667,8 @@
      ],
      "text": "Rescue and medical effort begins",
      "color": "#FFD23F",
-     "t": 0.52
+     "t": 0.52,
+     "until": 4.28
     },
     {
      "at": [
@@ -12127,7 +12677,8 @@
      ],
      "text": "From ships that can still steam",
      "color": "#FFFFFF",
-     "t": 4.28
+     "t": 4.28,
+     "until": 6.25
     },
     {
      "at": [
@@ -12136,7 +12687,8 @@
      ],
      "text": "No count of anyone",
      "color": "#FFD23F",
-     "t": 6.25
+     "t": 6.25,
+     "until": 9.03
     },
     {
      "at": [
@@ -12146,6 +12698,44 @@
      "text": "No count of ships",
      "color": "#FFFFFF",
      "t": 9.03
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 10,
+     "color": "#8A8F98",
+     "dashed": true,
+     "t": 0.2,
+     "label": "10 km"
+    },
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 20,
+     "color": "#8A8F98",
+     "dashed": true,
+     "t": 0.2,
+     "label": "20 km"
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "DAMAGED ESCORTS",
+     "color": "#8A8F98"
+    },
+    {
+     "text": "RANGE RINGS FROM BURST POINT",
+     "color": "#8A8F98"
     }
    ]
   },
@@ -12160,7 +12750,7 @@
      155.0174,
      23.98399
     ],
-    "widthKm": 9
+    "widthKm": 6
    },
    "camera": [
     {
@@ -12169,7 +12759,7 @@
       155.0174,
       23.98399
      ],
-     "widthKm": 9
+     "widthKm": 6
     },
     {
      "t": 3.76,
@@ -12177,7 +12767,7 @@
       155.0174,
       23.98399
      ],
-     "widthKm": 6
+     "widthKm": 5
     },
     {
      "t": 8.07,
@@ -12185,7 +12775,7 @@
       155.0174,
       23.98399
      ],
-     "widthKm": 5
+     "widthKm": 4.4
     },
     {
      "t": 12.43,
@@ -12193,7 +12783,7 @@
       155.0174,
       23.98399
      ],
-     "widthKm": 7
+     "widthKm": 6
     },
     {
      "t": 16.11,
@@ -12201,7 +12791,7 @@
       155.0174,
       23.98399
      ],
-     "widthKm": 10
+     "widthKm": 8
     }
    ],
    "clock": "",
@@ -12222,74 +12812,675 @@
      "t1": 3.76,
      "kind": "us",
      "color": "#6EA8FF",
-     "size": 19,
+     "size": 46,
      "t": 0,
      "wake": false,
      "label": "Carrier"
     }
    ],
-   "labels": [
+   "legend": [
     {
-     "at": [
-      155.0236,
-      23.99096
-     ],
-     "text": "Counter-measure wash-down: on",
-     "color": "#FFD23F",
-     "t": 1.74
+     "text": "CARRIER (ICON ENLARGED)",
+     "color": "#6EA8FF"
     },
     {
-     "at": [
-      155.0236,
-      23.99276
-     ],
-     "text": "Built for fires",
-     "color": "#FFFFFF",
-     "t": 9.38
-    },
-    {
-     "at": [
-      155.0236,
-      23.97468
-     ],
-     "text": "And radiological threats",
-     "color": "#FFFFFF",
-     "t": 10.22
-    },
-    {
-     "at": [
-      155.02557,
-      23.99276
-     ],
-     "text": "Nobody knows how it would work after a burst",
-     "color": "#FFD23F",
-     "t": 12.56
+     "text": "WASH-DOWN SPRAY AREA",
+     "color": "#3ED6C8"
     }
    ],
+   "scaleBar": false,
    "zones": [
     {
      "points": [
       [
-       155.0059,
-       23.97829
+       155.02153,
+       23.98399
       ],
       [
-       155.02852,
-       23.97829
+       155.02147,
+       23.98465
       ],
       [
-       155.02852,
-       23.99005
+       155.02128,
+       23.98529
       ],
       [
-       155.0059,
-       23.99005
+       155.02098,
+       23.98589
+      ],
+      [
+       155.02056,
+       23.98643
+      ],
+      [
+       155.02005,
+       23.9869
+      ],
+      [
+       155.01946,
+       23.98728
+      ],
+      [
+       155.01881,
+       23.98756
+      ],
+      [
+       155.01812,
+       23.98773
+      ],
+      [
+       155.0174,
+       23.98779
+      ],
+      [
+       155.01668,
+       23.98773
+      ],
+      [
+       155.01599,
+       23.98756
+      ],
+      [
+       155.01534,
+       23.98728
+      ],
+      [
+       155.01475,
+       23.9869
+      ],
+      [
+       155.01424,
+       23.98643
+      ],
+      [
+       155.01382,
+       23.98589
+      ],
+      [
+       155.01352,
+       23.98529
+      ],
+      [
+       155.01333,
+       23.98465
+      ],
+      [
+       155.01327,
+       23.98399
+      ],
+      [
+       155.01333,
+       23.98333
+      ],
+      [
+       155.01352,
+       23.98269
+      ],
+      [
+       155.01382,
+       23.98209
+      ],
+      [
+       155.01424,
+       23.98155
+      ],
+      [
+       155.01475,
+       23.98108
+      ],
+      [
+       155.01534,
+       23.9807
+      ],
+      [
+       155.01599,
+       23.98042
+      ],
+      [
+       155.01668,
+       23.98025
+      ],
+      [
+       155.0174,
+       23.98019
+      ],
+      [
+       155.01812,
+       23.98025
+      ],
+      [
+       155.01881,
+       23.98042
+      ],
+      [
+       155.01946,
+       23.9807
+      ],
+      [
+       155.02005,
+       23.98108
+      ],
+      [
+       155.02056,
+       23.98155
+      ],
+      [
+       155.02098,
+       23.98209
+      ],
+      [
+       155.02128,
+       23.98269
+      ],
+      [
+       155.02147,
+       23.98333
       ]
      ],
-     "label": "Seawater over deck and hull",
+     "color": "#3ED6C8",
+     "t": 0
+    },
+    {
+     "points": [
+      [
+       155.02153,
+       23.98399
+      ],
+      [
+       155.02147,
+       23.98465
+      ],
+      [
+       155.02128,
+       23.98529
+      ],
+      [
+       155.02098,
+       23.98589
+      ],
+      [
+       155.02056,
+       23.98643
+      ],
+      [
+       155.02005,
+       23.9869
+      ],
+      [
+       155.01946,
+       23.98728
+      ],
+      [
+       155.01881,
+       23.98756
+      ],
+      [
+       155.01812,
+       23.98773
+      ],
+      [
+       155.0174,
+       23.98779
+      ],
+      [
+       155.01668,
+       23.98773
+      ],
+      [
+       155.01599,
+       23.98756
+      ],
+      [
+       155.01534,
+       23.98728
+      ],
+      [
+       155.01475,
+       23.9869
+      ],
+      [
+       155.01424,
+       23.98643
+      ],
+      [
+       155.01382,
+       23.98589
+      ],
+      [
+       155.01352,
+       23.98529
+      ],
+      [
+       155.01333,
+       23.98465
+      ],
+      [
+       155.01327,
+       23.98399
+      ],
+      [
+       155.01333,
+       23.98333
+      ],
+      [
+       155.01352,
+       23.98269
+      ],
+      [
+       155.01382,
+       23.98209
+      ],
+      [
+       155.01424,
+       23.98155
+      ],
+      [
+       155.01475,
+       23.98108
+      ],
+      [
+       155.01534,
+       23.9807
+      ],
+      [
+       155.01599,
+       23.98042
+      ],
+      [
+       155.01668,
+       23.98025
+      ],
+      [
+       155.0174,
+       23.98019
+      ],
+      [
+       155.01812,
+       23.98025
+      ],
+      [
+       155.01881,
+       23.98042
+      ],
+      [
+       155.01946,
+       23.9807
+      ],
+      [
+       155.02005,
+       23.98108
+      ],
+      [
+       155.02056,
+       23.98155
+      ],
+      [
+       155.02098,
+       23.98209
+      ],
+      [
+       155.02128,
+       23.98269
+      ],
+      [
+       155.02147,
+       23.98333
+      ]
+     ],
      "color": "#3ED6C8",
      "t": 4.44,
      "pulse": true
+    },
+    {
+     "points": [
+      [
+       155.02153,
+       23.98399
+      ],
+      [
+       155.02147,
+       23.98465
+      ],
+      [
+       155.02128,
+       23.98529
+      ],
+      [
+       155.02098,
+       23.98589
+      ],
+      [
+       155.02056,
+       23.98643
+      ],
+      [
+       155.02005,
+       23.9869
+      ],
+      [
+       155.01946,
+       23.98728
+      ],
+      [
+       155.01881,
+       23.98756
+      ],
+      [
+       155.01812,
+       23.98773
+      ],
+      [
+       155.0174,
+       23.98779
+      ],
+      [
+       155.01668,
+       23.98773
+      ],
+      [
+       155.01599,
+       23.98756
+      ],
+      [
+       155.01534,
+       23.98728
+      ],
+      [
+       155.01475,
+       23.9869
+      ],
+      [
+       155.01424,
+       23.98643
+      ],
+      [
+       155.01382,
+       23.98589
+      ],
+      [
+       155.01352,
+       23.98529
+      ],
+      [
+       155.01333,
+       23.98465
+      ],
+      [
+       155.01327,
+       23.98399
+      ],
+      [
+       155.01333,
+       23.98333
+      ],
+      [
+       155.01352,
+       23.98269
+      ],
+      [
+       155.01382,
+       23.98209
+      ],
+      [
+       155.01424,
+       23.98155
+      ],
+      [
+       155.01475,
+       23.98108
+      ],
+      [
+       155.01534,
+       23.9807
+      ],
+      [
+       155.01599,
+       23.98042
+      ],
+      [
+       155.01668,
+       23.98025
+      ],
+      [
+       155.0174,
+       23.98019
+      ],
+      [
+       155.01812,
+       23.98025
+      ],
+      [
+       155.01881,
+       23.98042
+      ],
+      [
+       155.01946,
+       23.9807
+      ],
+      [
+       155.02005,
+       23.98108
+      ],
+      [
+       155.02056,
+       23.98155
+      ],
+      [
+       155.02098,
+       23.98209
+      ],
+      [
+       155.02128,
+       23.98269
+      ],
+      [
+       155.02147,
+       23.98333
+      ]
+     ],
+     "color": "#3ED6C8",
+     "t": 8.07
+    },
+    {
+     "points": [
+      [
+       155.02153,
+       23.98399
+      ],
+      [
+       155.02147,
+       23.98465
+      ],
+      [
+       155.02128,
+       23.98529
+      ],
+      [
+       155.02098,
+       23.98589
+      ],
+      [
+       155.02056,
+       23.98643
+      ],
+      [
+       155.02005,
+       23.9869
+      ],
+      [
+       155.01946,
+       23.98728
+      ],
+      [
+       155.01881,
+       23.98756
+      ],
+      [
+       155.01812,
+       23.98773
+      ],
+      [
+       155.0174,
+       23.98779
+      ],
+      [
+       155.01668,
+       23.98773
+      ],
+      [
+       155.01599,
+       23.98756
+      ],
+      [
+       155.01534,
+       23.98728
+      ],
+      [
+       155.01475,
+       23.9869
+      ],
+      [
+       155.01424,
+       23.98643
+      ],
+      [
+       155.01382,
+       23.98589
+      ],
+      [
+       155.01352,
+       23.98529
+      ],
+      [
+       155.01333,
+       23.98465
+      ],
+      [
+       155.01327,
+       23.98399
+      ],
+      [
+       155.01333,
+       23.98333
+      ],
+      [
+       155.01352,
+       23.98269
+      ],
+      [
+       155.01382,
+       23.98209
+      ],
+      [
+       155.01424,
+       23.98155
+      ],
+      [
+       155.01475,
+       23.98108
+      ],
+      [
+       155.01534,
+       23.9807
+      ],
+      [
+       155.01599,
+       23.98042
+      ],
+      [
+       155.01668,
+       23.98025
+      ],
+      [
+       155.0174,
+       23.98019
+      ],
+      [
+       155.01812,
+       23.98025
+      ],
+      [
+       155.01881,
+       23.98042
+      ],
+      [
+       155.01946,
+       23.9807
+      ],
+      [
+       155.02005,
+       23.98108
+      ],
+      [
+       155.02056,
+       23.98155
+      ],
+      [
+       155.02098,
+       23.98209
+      ],
+      [
+       155.02128,
+       23.98269
+      ],
+      [
+       155.02147,
+       23.98333
+      ]
+     ],
+     "color": "#3ED6C8",
+     "t": 12.43
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      155.0174,
+      23.99593
+     ],
+     "text": "Counter-measure wash-down: on",
+     "color": "#FFD23F",
+     "t": 1.74,
+     "until": 4.44
+    },
+    {
+     "at": [
+      155.0174,
+      23.99593
+     ],
+     "text": "Seawater over deck and hull",
+     "color": "#3ED6C8",
+     "t": 4.44,
+     "until": 9.38
+    },
+    {
+     "at": [
+      155.0174,
+      23.99593
+     ],
+     "text": "Built for fires",
+     "color": "#FFFFFF",
+     "t": 9.38,
+     "until": 11.18
+    },
+    {
+     "at": [
+      155.0174,
+      23.99593
+     ],
+     "text": "And radiological threats",
+     "color": "#FFFFFF",
+     "t": 10.22,
+     "until": 12.56
+    },
+    {
+     "at": [
+      155.0174,
+      23.99593
+     ],
+     "text": "Nobody knows how it would work after a burst",
+     "color": "#FFD23F",
+     "t": 12.56
     }
    ]
   },
@@ -12439,7 +13630,8 @@
      ],
      "text": "The fallout map is nearly empty",
      "color": "#FFD23F",
-     "t": 0.85
+     "t": 0.85,
+     "until": 2.65
     },
     {
      "at": [
@@ -12449,6 +13641,44 @@
      "text": "Little local fallout from an air burst",
      "color": "#FFFFFF",
      "t": 2.55
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 5,
+     "color": "#8A8F98",
+     "dashed": true,
+     "t": 0.2,
+     "label": "5 km"
+    },
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 10,
+     "color": "#8A8F98",
+     "dashed": true,
+     "t": 0.2,
+     "label": "10 km"
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "DAMAGED ESCORTS",
+     "color": "#8A8F98"
+    },
+    {
+     "text": "RANGE RINGS FROM BURST POINT",
+     "color": "#8A8F98"
     }
    ]
   },
@@ -12511,7 +13741,8 @@
      ],
      "text": "Able: most ships reboarded within a day",
      "color": "#FFD23F",
-     "t": 1.72
+     "t": 1.72,
+     "until": 6.72
     },
     {
      "at": [
@@ -12670,7 +13901,8 @@
      ],
      "text": "Two histories",
      "color": "#FFFFFF",
-     "t": 0.43
+     "t": 0.43,
+     "until": 2.23
     },
     {
      "at": [
@@ -12680,6 +13912,44 @@
      "text": "Not a forecast",
      "color": "#FFD23F",
      "t": 1.77
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 5,
+     "color": "#8A8F98",
+     "dashed": true,
+     "t": 0.2,
+     "label": "5 km"
+    },
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 10,
+     "color": "#8A8F98",
+     "dashed": true,
+     "t": 0.2,
+     "label": "10 km"
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "DAMAGED ESCORTS",
+     "color": "#8A8F98"
+    },
+    {
+     "text": "RANGE RINGS FROM BURST POINT",
+     "color": "#8A8F98"
     }
    ]
   },
@@ -12834,7 +14104,7 @@
      "t1": 16.06,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 11,
      "t": 8.16,
      "wake": true
     },
@@ -12857,7 +14127,7 @@
      "t1": 16.06,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 11,
      "t": 8.36,
      "wake": true
     },
@@ -12880,7 +14150,7 @@
      "t1": 16.06,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 11,
      "t": 8.56,
      "wake": true
     },
@@ -12903,7 +14173,7 @@
      "t1": 16.06,
      "kind": "ally",
      "color": "#FFFFFF",
-     "size": 7,
+     "size": 11,
      "t": 8.76,
      "wake": true
     },
@@ -12930,44 +14200,48 @@
    "labels": [
     {
      "at": [
-      155.02262,
-      23.99276
+      155.0174,
+      23.99819
      ],
-     "text": "Reactors: shut down and checked",
+     "text": "Reactors: shut down and checked (assumed)",
      "color": "#FFD23F",
-     "t": 1.5
+     "t": 1.5,
+     "until": 5.56
     },
     {
      "at": [
-      155.02262,
-      23.97558
+      155.00983,
+      24.0199
      ],
-     "text": "An assumption",
+     "text": "Radio and radar: may fail",
      "color": "#FFFFFF",
-     "t": 3.38
+     "t": 5.56,
+     "until": 9.34
     },
     {
      "at": [
-      155.0236,
-      23.92765
+      155.0174,
+      24.01628
      ],
      "text": "Air wing: nowhere safe to land?",
      "color": "#FFD23F",
-     "t": 9.34
+     "t": 9.34,
+     "until": 14.02
     },
     {
      "at": [
-      154.95084,
-      24.04341
+      154.96067,
+      24.03979
      ],
      "text": "EMP: not modelled",
      "color": "#FFFFFF",
-     "t": 14.02
+     "t": 14.02,
+     "until": 15.96
     },
     {
      "at": [
-      154.95084,
-      23.95659
+      154.96067,
+      24.03979
      ],
      "text": "We claim none",
      "color": "#FFD23F",
@@ -12994,10 +14268,36 @@
        24.03618
       ]
      ],
-     "label": "Radio and radar: may fail",
      "color": "#8A8F98",
      "t": 5.56,
      "pulse": true
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 5,
+     "color": "#8A8F98",
+     "dashed": true,
+     "t": 0.2,
+     "label": "5 km"
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "DAMAGED ESCORTS",
+     "color": "#8A8F98"
+    },
+    {
+     "text": "AIRCRAFT (ENLARGED)",
+     "color": "#FFFFFF"
     }
    ]
   },
@@ -13128,7 +14428,8 @@
      ],
      "text": "No published death toll",
      "color": "#FFD23F",
-     "t": 1.23
+     "t": 1.23,
+     "until": 3.81
     },
     {
      "at": [
@@ -13138,6 +14439,44 @@
      "text": "So we give none",
      "color": "#FFFFFF",
      "t": 3.81
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 5,
+     "color": "#8A8F98",
+     "dashed": true,
+     "t": 0.2,
+     "label": "5 km"
+    },
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 10,
+     "color": "#8A8F98",
+     "dashed": true,
+     "t": 0.2,
+     "label": "10 km"
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "DAMAGED ESCORTS",
+     "color": "#8A8F98"
+    },
+    {
+     "text": "RANGE RINGS FROM BURST POINT",
+     "color": "#8A8F98"
     }
    ]
   },
@@ -13386,7 +14725,8 @@
      ],
      "text": "On the bridge: someone must decide",
      "color": "#FFD23F",
-     "t": 2.16
+     "t": 2.16,
+     "until": 5.2
     },
     {
      "at": [
@@ -13395,7 +14735,8 @@
      ],
      "text": "No weapon on the decks to answer",
      "color": "#FFFFFF",
-     "t": 5.2
+     "t": 5.2,
+     "until": 7.28
     },
     {
      "at": [
@@ -13404,7 +14745,8 @@
      ],
      "text": "No name to answer",
      "color": "#FFD23F",
-     "t": 7.28
+     "t": 7.28,
+     "until": 9.75
     },
     {
      "at": [
@@ -13414,6 +14756,33 @@
      "text": "The sea is quiet again",
      "color": "#FFFFFF",
      "t": 9.75
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      155.0,
+      24.0
+     ],
+     "km": 10,
+     "color": "#8A8F98",
+     "dashed": true,
+     "t": 0.2,
+     "label": "10 km"
+    }
+   ],
+   "legend": [
+    {
+     "text": "US GROUP (ICONS ENLARGED)",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "DAMAGED ESCORTS",
+     "color": "#8A8F98"
+    },
+    {
+     "text": "RANGE RINGS FROM BURST POINT",
+     "color": "#8A8F98"
     }
    ]
   },

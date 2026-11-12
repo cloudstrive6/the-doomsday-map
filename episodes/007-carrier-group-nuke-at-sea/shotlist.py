@@ -391,16 +391,16 @@ a = S("p20")
 reg("t-noname", a, W("p20", "so"), [("s", CVP, 14), ("e", CVP, 10)], clock="", source="", ships=fleet(a, W("p20", "so"), ["CV", "DD1"], labels={}),
     labels=[lab(a, K(1.8, -0.4), "No real ship is the target", W("p20", "real"), YELLOW)])
 reg("t-hull", W("p20", "so"), S("p21"), [("s", CVP, 10), (2.4, CVP, 13), ("e", CVP, 15)], clock="", source="", ships=fleet(W("p20", "so"), S("p21"), ["CV"], labels={"CV": "Carrier"}),
-    labels=[lk(W("p20", "so"), 3.5, -2.6, "No name", W("p20", "name"), WHITE), lk(W("p20", "so"), 3.5, -3.6, "No hull number", W("p20", "hull"), WHITE), lk(W("p20", "so"), 3.5, -4.6, "No real date", W("p20", "place"), WHITE)])
+    labels=[lk(W("p20", "so"), 1.8, 1.8, "No name, no hull number", W("p20", "name"), WHITE), lk(W("p20", "so"), 1.8, 1.8, "No real date", W("p20", "place"), WHITE)])
 a = S("p21")
 tCa, tIn, tAb, tOu = W("p21", "carrier"), W("p21", "both"), W("p21", "able"), W("p21", "ours")
-reg("t-lead", a, tCa, [("s", B, 12), (2.2, B, 9), ("e", B, 8)], clock="", source="", ships=fleet(a, tCa, ["DD1"], labels={"DD1": "Lead destroyer"}),
-    cities=[city(a, B, "Burst point", W("p21", "burst"), RED, "target", 6)], labels=[lk(a, 1.6, 2.0, "The screen's lead ship", W("p21", "screen"), WHITE)])
+reg("t-lead", a, tCa, [("s", B, 12), (2.2, B, 9), ("e", B, 8)], clock="", source="", ships=fleet(a, tCa, ["DD1"], labels={}),
+    cities=[city(a, B, "Burst point", W("p21", "burst"), RED, "target", 6)], labels=[lk(a, 1.8, 1.6, "Lead destroyer: the screen's lead ship", W("p21", "screen"), WHITE)])
 reg("t-25", tCa, tIn, [("s", K(0.9, -0.9), 9), (2.2, K(0.9, -0.9), 7.5), ("e", K(0.9, -0.9), 6.5)], clock="", source="", ships=fleet(tCa, tIn, ["DD1", "CV"], labels={"CV": "Carrier"}),
     lines=[{"from": B, "to": CVP, "color": YELLOW, "label": "2.5 km", "t0": rel(tCa, W("p21", "kilometers")) , "t1": rel(tCa, W("p21", "kilometers")) + 1.0}])
 reg("t-inputs", tIn, tAb, [("s", K(0.9, -0.9), 7), (2.0, K(0.9, -0.9), 9), ("e", K(0.9, -0.9), 11)], clock="", source="", ships=fleet(tIn, tAb, ["DD1", "CV"], labels={}),
     lines=[{"from": B, "to": CVP, "color": YELLOW, "t0": -30, "t1": -29}],
-    labels=[lk(tIn, -1.0, 2.0, "Both are inputs", W("p21", "inputs"), YELLOW)])
+    labels=[lk(tIn, 0.9, 0.6, "Both are inputs", W("p21", "inputs"), YELLOW)])
 reg("t-able", tAb, tOu, [("s", K(0.5, -0.5), 8), (2.0, K(0.5, -0.5), 6), ("e", K(0.5, -0.5), 5)], clock="", source="", ships=fleet(tAb, tOu, ["DD1", "CV"], labels={}),
     rings=[{"at": B, "km": 0.7, "color": AMBER, "dashed": True, "t": rel(tAb, W("p21", "seven")), "label": "Able's miss: 700 m"}],
     labels=[lk(tAb, -1.3, 1.6, "Able missed by about 700 m", tAb + 0.2, AMBER)])
@@ -468,8 +468,8 @@ reg("m-light", a, tDes, [("s", K(1, 0), 13), ("e", K(1, 0), 15)], clock="T+20:07
     burst={"at": B, "t": -2.0, "km": 1.6, "fade": 7}, ships=postfleet(a, tDes, ["DD1", "CV", "DD2"], labels={}), rings=[ring(2, -30)],
     labels=[lk(a, -2.2, 2.2, "The sea is lit from above", W("p27", "lit"), YELLOW)])
 reg("m-inside", tDes, tAnd2, [("s", K(0, 0), 5), (2.0, K(0, 0), 4), ("e", K(0, 0), 3.2)], clock="T+20:08", clockLabel="THE BURST", clockRate=0, source=ENG,
-    ships=postfleet(tDes, tAnd2, ["DD1", "DD2"], labels={"DD1": "Lead destroyer", "DD2": "Destroyer"}), rings=[ring(0, rel(tDes, W("p27", "fireball")), True), ring(2, rel(tDes, W("p27", "heaviest")), True)],
-    labels=[lk(tDes, 0.9, 0.9, "Closest to the centre", tDes + 0.4, WHITE)])
+    ships=postfleet(tDes, tAnd2, ["DD1", "DD2"], labels={"DD1": "Lead destroyer", "DD2": "Destroyer"}), rings=[ring(2, rel(tDes, W("p27", "heaviest")), True)], zones=[disc(FX["fireball_km"], rel(tDes, W("p27", "fireball")), None, WHITE)],
+    labels=[lk(tDes, 0.9, 0.9, "Closest to the centre", tDes + 0.4, WHITE), lk(tDes, 0.0, -0.3, "Fireball: 150 m radius", W("p27", "fireball"), WHITE)])
 reg("m-lost", tAnd2, tShips, [("s", K(0, 0), 4), (1.8, K(0, 0), 6), ("e", K(0, 0), 8)], clock="T+20:30", clockLabel="THE BURST", clockRate=0, source=ENG,
     ships=postfleet(tAnd2, tShips, ["DD1", "DD2", "CV"], labels={"DD1": "Lost or crippled", "DD2": "Lost or crippled"}), rings=[ring(0, -30), ring(2, -30)],
     labels=[lk(tAnd2, -2.0, 2.6, "Our assumption, not a record", W("p27", "simulation"), YELLOW)])
@@ -488,7 +488,7 @@ reg("m-blastwave", tBl, S("p29"), [("s", K(0.6, -0.6), 11), (2.2, K(0.6, -0.6), 
     labels=[lk(tBl, -2.0, 2.4, "Afterward: slower than light", W("p28", "slower"), YELLOW)])
 a = S("p29")
 tGq, tAir2, tWing, tSo, tThese = W("p29", "goes"), W("p29", "and"), W("p29", "a"), W("p29", "so"), W("p29", "these")
-AC = lambda a, n, t0: [{"path": [K(1.77 + 0.3 * i, -1.77 + 0.4), K(1.77 + 12 * math.cos(0.5 + i * 0.9), -1.77 + 12 * math.sin(0.5 + i * 0.9))], "t0": rel(a, t0) + 0.15 * i, "t1": rel(a, t0) + 0.15 * i + 6.0, "kind": "ally", "color": WHITE, "size": 7, "t": rel(a, t0) + 0.15 * i, "wake": True} for i in range(n)]
+AC = lambda a, n, t0: [{"path": [K(1.77 + 0.3 * i, -1.77 + 0.4), K(1.77 + 12 * math.cos(0.5 + i * 0.9), -1.77 + 12 * math.sin(0.5 + i * 0.9))], "t0": rel(a, t0) + 0.15 * i, "t1": rel(a, t0) + 0.15 * i + 6.0, "kind": "ally", "color": WHITE, "size": 12, "t": rel(a, t0) + 0.15 * i, "wake": True} for i in range(n)]
 reg("a-quarters", a, tAir2, [("s", CVP, 14), ("e", CVP, 10)], clock="T+20:10", clockLabel="GENERAL QUARTERS", clockRate=0, source="", ships=postfleet(a, tAir2, ["CV", "DD1"], labels={"CV": "Carrier"}),
     labels=[lab(a, K(1.8, -0.4), "General quarters", tGq, YELLOW)])
 reg("a-aloft", tAir2, tWing, [("s", CVP, 14), (2.0, CVP, 30), ("e", CVP, 44)], clock="T+20:12", clockLabel="AIRCRAFT ALOFT", clockRate=0, source="",
@@ -505,7 +505,7 @@ a = S("p30")
 tAirb, tAnd3 = W("p30", "aircraft"), W("p30", "and")
 reg("f-deck", a, tAirb, [("s", CVP, 7), ("e", CVP, 9)], clock="T+20:20", clockLabel="THE FLIGHT DECK", clockRate=0, source="", ships=postfleet(a, tAirb, ["CV"], labels={"CV": "Carrier"}),
     labels=[lab(a, K(2.4, -0.7), "The problem is simple", W("p30", "problem"), YELLOW)])
-CIRC = lambda t0, n, r: [{"path": [K(1.77 + r * math.cos(i * 2.1), -1.77 + r * math.sin(i * 2.1)), K(1.77 + r * math.cos(i * 2.1 + 2.5), -1.77 + r * math.sin(i * 2.1 + 2.5)), K(1.77 + r * math.cos(i * 2.1 + 5.0), -1.77 + r * math.sin(i * 2.1 + 5.0))], "t0": 0, "t1": 8, "kind": "ally", "color": WHITE, "size": 7, "t": rel(t0, t0) + 0.2 * i, "wake": True} for i in range(n)]
+CIRC = lambda t0, n, r: [{"path": [K(1.77 + r * math.cos(i * 2.1), -1.77 + r * math.sin(i * 2.1)), K(1.77 + r * math.cos(i * 2.1 + 2.5), -1.77 + r * math.sin(i * 2.1 + 2.5)), K(1.77 + r * math.cos(i * 2.1 + 5.0), -1.77 + r * math.sin(i * 2.1 + 5.0))], "t0": 0, "t1": 8, "kind": "ally", "color": WHITE, "size": 11, "t": rel(t0, t0) + 0.2 * i, "wake": True} for i in range(n)]
 reg("f-land", tAirb, tAnd3, [("s", CVP, 9), (1.6, CVP, 14), ("e", CVP, 18)], clock="T+20:30", clockLabel="THE FLIGHT DECK", clockRate=0, source="", ships=postfleet(tAirb, tAnd3, ["CV"], labels={}) + CIRC(tAirb, 4, 2.5),
     labels=[lab(tAirb, K(2.4, -4.8), "Airborne: they need somewhere to land", W("p30", "need"), YELLOW)])
 reg("f-radar", tAnd3, S("p31"), [("s", CVP, 18), (2.0, CVP, 24), ("e", CVP, 30)], clock="T+21:00", clockLabel="RADAR", clockRate=0, source="", ships=postfleet(tAnd3, S("p31"), ["CV"], labels={}) + CIRC(tAnd3, 4, 3.5),
@@ -635,14 +635,18 @@ reg("rs-count", tWe, S("p45"), [("s", B, 36), (2.4, B, 50), ("e", B, 70)], clock
     labels=[lk(tWe, -8, 8, "No count of anyone", W("p44", "count"), YELLOW), lk(tWe, -8, 5.5, "No count of ships", W("p44", "many"), WHITE)])
 a = S("p45")
 tPi, tNa = W("p45", "the", 2), W("p45", "the", 3)
-reg("ww-on", a, tPi, [("s", CVP, 9), ("e", CVP, 6)], clock="", source="Wikipedia (Nimitz-class carrier)", ships=postfleet(a, tPi, ["CV"], labels={"CV": "Carrier"}),
-    labels=[lab(a, K(2.4, -1.0), "Counter-measure wash-down: on", W("p45", "counter-measure"), YELLOW)])
-reg("ww-pipes", tPi, tNa, [("s", CVP, 6), ("e", CVP, 5)], clock="", source="Wikipedia (Nimitz-class carrier)", ships=postfleet(tPi, tNa, ["CV"], labels={}),
-    zones=[{"points": [K(0.6, -2.4), K(2.9, -2.4), K(2.9, -1.1), K(0.6, -1.1)], "label": "Seawater over deck and hull", "color": TEAL, "t": rel(tPi, W("p45", "spray")), "pulse": True}])
-reg("ww-fires", tNa, W("p45", "and", 3), [("s", CVP, 5), ("e", CVP, 7)], clock="", source="Wikipedia (Nimitz-class carrier)", ships=postfleet(tNa, W("p45", "and", 3), ["CV"], labels={}),
-    labels=[lab(tNa, K(2.4, -0.8), "Built for fires", W("p45", "fires"), WHITE), lab(tNa, K(2.4, -2.8), "And radiological threats", W("p45", "radiological"), WHITE)])
-reg("ww-unknown", W("p45", "and", 3), S("p46"), [("s", CVP, 7), ("e", CVP, 10)], clock="", source="", ships=postfleet(W("p45", "and", 3), S("p46"), ["CV"], labels={}),
-    labels=[lab(W("p45", "and", 3), K(2.6, -0.8), "Nobody knows how it would work after a burst", W("p45", "nobody"), YELLOW)])
+WWH = lambda a, b, lab_=None: [hull(a, b, "CV", label=bool(lab_), lab_text=lab_, size=46)]
+WWA = K(1.77, -0.45)   # staging anchor 1.3 km north of the carrier: every wash-down line prints here, one at a time, clear of the icon
+WZ = disc(0.42, 0, None, TEAL, at=CVP)
+WLEG = [{"text": "CARRIER (ICON ENLARGED)", "color": BLUE}, {"text": "WASH-DOWN SPRAY AREA", "color": TEAL}]
+reg("ww-on", a, tPi, [("s", CVP, 6), ("e", CVP, 5)], clock="", source="Wikipedia (Nimitz-class carrier)", ships=WWH(a, tPi, "Carrier"), legend=WLEG, scaleBar=False, zones=[dict(WZ, t=0)],
+    labels=[lab(a, WWA, "Counter-measure wash-down: on", W("p45", "counter-measure"), YELLOW)])
+reg("ww-pipes", tPi, tNa, [("s", CVP, 5), ("e", CVP, 4.4)], clock="", source="Wikipedia (Nimitz-class carrier)", ships=WWH(tPi, tNa), legend=WLEG, scaleBar=False,
+    zones=[dict(WZ, t=rel(tPi, W("p45", "spray")), pulse=True)], labels=[lab(tPi, WWA, "Seawater over deck and hull", W("p45", "spray"), TEAL)])
+reg("ww-fires", tNa, W("p45", "and", 3), [("s", CVP, 4.4), ("e", CVP, 6)], clock="", source="Wikipedia (Nimitz-class carrier)", ships=WWH(tNa, W("p45", "and", 3)), legend=WLEG, scaleBar=False,
+    zones=[dict(WZ, t=0)], labels=[lab(tNa, WWA, "Built for fires", W("p45", "fires"), WHITE), lab(tNa, WWA, "And radiological threats", W("p45", "radiological"), WHITE)])
+reg("ww-unknown", W("p45", "and", 3), S("p46"), [("s", CVP, 6), ("e", CVP, 8)], clock="", source="", ships=WWH(W("p45", "and", 3), S("p46")), legend=WLEG, scaleBar=False,
+    zones=[dict(WZ, t=0)], labels=[lab(W("p45", "and", 3), WWA, "Nobody knows how it would work after a burst", W("p45", "nobody"), YELLOW)])
 a = S("p46")
 tAtA, tAnd6, tTho = W("p46", "at"), W("p46", "and"), W("p46", "those")
 reg("fo-empty", a, tAtA, [("s", B, 16), (2.6, B, 26), ("e", B, 40)], clock="", source="Scenario engine", ships=postfleet(a, tAtA, ["DD1", "CV", "DD2", "DD3", "CG"], labels={}),
@@ -657,14 +661,17 @@ reg("fo-two", tTho, S("p47"), [("s", B, 26), ("e", B, 18)], clock="", source="",
     labels=[lk(tTho, -5, 4.8, "Two histories", W("p46", "histories"), WHITE), lk(tTho, -5, -4.8, "Not a forecast", W("p46", "forecast"), YELLOW)])
 a = S("p47")
 tRa, tAnd7, tThe4 = W("p47", "radio"), W("p47", "and", 3), W("p47", "the", 4)
+XA = K(1.77, -0.2)    # staging anchor north of the carrier
+XL = [{"text": "CARRIER", "color": BLUE}, {"text": "DAMAGED ESCORTS", "color": GREY}, {"text": "AIRCRAFT", "color": WHITE}]
 reg("x-react", a, tRa, [("s", CVP, 8), ("e", CVP, 6)], clock="", source="", ships=postfleet(a, tRa, ["CV"], labels={"CV": "Carrier"}),
-    labels=[lab(a, K(2.3, -0.8), "Reactors: shut down and checked", W("p47", "shut"), YELLOW), lab(a, K(2.3, -2.7), "An assumption", W("p47", "assumption"), WHITE)])
+    labels=[lab(a, XA, "Reactors: shut down and checked (assumed)", W("p47", "shut"), YELLOW)])
 reg("x-radio", tRa, tAnd7, [("s", CVP, 6), ("e", CVP, 15)], clock="", source="", ships=postfleet(tRa, tAnd7, ["CV", "DD1", "DD2"], labels={}),
-    zones=[{"points": [K(-5, -7), K(7, -7), K(7, 4), K(-5, 4)], "label": "Radio and radar: may fail", "color": GREY, "t": rel(tRa, W("p47", "radar")), "pulse": True}])
+    zones=[{"points": [K(-5, -7), K(7, -7), K(7, 4), K(-5, 4)], "color": GREY, "t": rel(tRa, W("p47", "radar")), "pulse": True}],
+    labels=[lab(tRa, K(1.0, 2.2), "Radio and radar: may fail", W("p47", "radar"), GREY if False else WHITE)])
 reg("x-wing", tAnd7, tThe4, [("s", CVP, 15), (1.8, CVP, 20), ("e", CVP, 26)], clock="", source="", ships=postfleet(tAnd7, tThe4, ["CV"], labels={}) + CIRC(tAnd7, 4, 4.0),
-    labels=[lab(tAnd7, K(2.4, -8.0), "Air wing: nowhere safe to land?", W("p47", "nowhere"), YELLOW)])
+    labels=[lab(tAnd7, K(1.77, 1.8), "Air wing: nowhere safe to land?", W("p47", "nowhere"), YELLOW)])
 reg("x-emp", tThe4, S("p48"), [("s", B, 26), (2.6, B, 20), ("e", B, 16)], clock="", source="Scenario engine", ships=postfleet(tThe4, S("p48"), ["DD1", "CV", "DD2", "DD3"], labels={}),
-    labels=[lk(tThe4, -5.0, 4.8, "EMP: not modelled", W("p47", "electromagnetic"), WHITE), lk(tThe4, -5.0, -4.8, "We claim none", W("p47", "claim"), YELLOW)])
+    labels=[lk(tThe4, -4.0, 4.4, "EMP: not modelled", W("p47", "electromagnetic"), WHITE), lk(tThe4, -4.0, 4.4, "We claim none", W("p47", "claim"), YELLOW)])
 a = S("p48")
 reg("nt", a, S("p49"), [("s", B, 16), (2.6, B, 20), ("e", B, 24)], clock="", source="", ships=postfleet(a, S("p49"), ["DD1", "CV", "DD2", "DD3"], labels={}),
     labels=[lk(a, -5.2, 5.2, "No published death toll", W("p48", "death"), YELLOW), lk(a, -5.2, -5.2, "So we give none", W("p48", "give"), WHITE)])
@@ -714,7 +721,7 @@ def merge(newid, ids):
             ex = next((e for e in first.get("ships", []) if it.get("_id") and e.get("_id") == it["_id"]), None)
             if ex is not None:
                 if it.get("label") and not ex.get("label"):
-                    first.setdefault("labels", []).append({"at": it["path"][-1], "text": it["label"], "color": WHITE, "t": round((it.get("t") or 0) + off, 2)})
+                    first.setdefault("labels", []).append({"at": it["path"][-1], "text": it["label"], "color": WHITE, "t": round((it.get("t") or 0) + off, 2), "_keep": True})
                 continue
             _sh(it, off, "t", "t0", "t1", "sunkAt")
             first.setdefault("ships", []).append(it)
@@ -771,6 +778,57 @@ for m in MERGES2:
     merge(*m)
 for m in MERGES:
     merge(*m)
+
+# ------------------------------------------------------------------ review round 1: staged labels, range rings, legends
+def _km(p, q):
+    return math.hypot((p[0] - q[0]) * KX, (p[1] - q[1]) * KY)
+
+
+def stage_labels(s):
+    """free labels print one at a time: each fades when the next arrives (or after 5 s); ship-derived labels stay"""
+    ls = sorted([l for l in s.get("labels", []) if not l.get("_keep")], key=lambda l: l.get("t", 0))
+    dur = round(s["end"] - s["start"], 2)
+    for i, l in enumerate(ls):
+        t = l.get("t", 0)
+        nxt = ls[i + 1].get("t", 0) if i + 1 < len(ls) else None
+        u = min(nxt if nxt is not None else t + 6.0, t + 5.0)
+        u = max(u, t + 1.8)
+        if u < dur - 0.4:
+            l["until"] = round(u, 2)
+
+
+def add_rings_legend(s):
+    if s["type"] != "region" or s.get("tag") != "SIMULATION":
+        return
+    ww = s["id"].startswith("ww")
+    cam = s["camera"]
+    ws = [k["widthKm"] for k in cam]
+    near = all(_km(k["center"], B) < 8 for k in cam)
+    if near and max(ws) <= 120 and not ww and not s.get("rings") and not s.get("highlight") and not s.get("burst"):
+        w = sum(ws) / len(ws)
+        pick = [r for r in (1, 2, 5, 10, 20, 40) if 0.15 * w <= r <= 0.5 * w][:2] or [min((1, 2, 5, 10, 20, 40), key=lambda r: abs(r - 0.3 * w))]
+        for r in pick:
+            s.setdefault("rings", []).append({"at": B, "km": r, "color": "#8A8F98", "dashed": True, "t": 0.2, "label": f"{r:g} km"})
+        s["_rr"] = True
+    if s.get("ships"):
+        leg = list(s.get("legend") or [])
+        if len(leg) < 3:
+            cols = {sh.get("color") for sh in s["ships"]}
+            have = {e.get("color") for e in leg}
+            for col, txt in ((BLUE, "US GROUP (ICONS ENLARGED)"), (GREY, "DAMAGED ESCORTS"), (WHITE, "AIRCRAFT (ENLARGED)"), (RED, "MISSILE")):
+                if col in cols and col not in have and len(leg) < 3 and not (col == BLUE and any("GROUP" in e["text"] or "CARRIER" in e["text"] for e in leg)):
+                    leg.append({"text": txt, "color": col})
+            if s.get("_rr") and len(leg) < 3:
+                leg.append({"text": "RANGE RINGS FROM BURST POINT", "color": "#8A8F98"})
+            if leg:
+                s["legend"] = leg
+
+
+for s_ in shots:
+    if s_["type"] == "region":
+        stage_labels(s_)
+        add_rings_legend(s_)
+        s_.pop("_rr", None)
 
 # ------------------------------------------------------------------ pace: put interpolated camera keys where nothing new arrives
 def arrivals():
@@ -852,9 +910,12 @@ episode = {"slug": EP.name, "fps": 60, "width": 1920, "height": 1080, "durationS
            "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated.",
            "shots": shots}
 for s in shots:
+    for l_ in s.get("labels", []):
+        l_.pop("_keep", None)
     for key in ("markers", "cities", "ships"):
         for m in s.get(key, []):
             m.pop("_id", None)
+            m.pop("_keep", None)
             if m.get("label") in (None, ""):
                 m.pop("label", None)
 (EP / "episode.json").write_text(json.dumps(episode, indent=1, ensure_ascii=False), encoding="utf-8")
