@@ -1,23 +1,23 @@
 FAIL
 
+QC: ok, no issues; loudness -14.0 LUFS, TP -1.5. Banner present. `near_still` = 0.389 of runtime (253.6 s, 15 stretches over 4 s). `pace:` lines = 2 (77.4 s c1-disputed 4.7 s; 166.8 s c2-scale 6.5 s).
+
 | Criterion | Score | Evidence |
 |---|---|---|
-| Hook and opening (0 to 90 s) | 3 | sheet_00 tile 001 (open-flash, 4.0 to 9.9 s): flash on the test mountain at about 4 s, a payoff inside 8 s; tiles 002 to 006 arrive every 4 to 6 s. But the banner text is clipped (see P0 1), and `near_still.over_4s` lists 33.8 s (5.1 s) and 56.0 s (4.4 s). |
-| Story pacing | 3 | shots.txt: the opening shows the strike, then chapter 1 "A mountain nobody can inspect" (tile 009, 43.7 s) starts the real-data run. `near_still` 61.1 s for 28.4 s, 195.1 s for 28.8 s and 526.8 s for 40.7 s are long sagging stretches. |
-| Map readability | 2 | sheet_00 tile 000: the clock "T-00:0?" is clipped at the top-right edge. Tile 003: the label "ONE TARGET: A MOUNTAIN IN IRAN" runs to the right edge. Tile 002: the long red label "JERICHO BATTERY, CENTRAL ISRAEL (SIMULATED)" is overprinted on the glowing Israel coast. |
-| Subject and fidelity | 2 | long_01_61s.png and sheet_01 tile 012 (c1-sites, 61 to 69 s): the frame is an empty dark grey field with only the REAL DATA tag, a "50 KM" scale and the source line. No subject is visible. |
-| Motion and pacing | 2 | `qc.json` near_still share is 0.395 (257 s), with 16 stretches over 4 s. 2 `pace:` lines: c1-disputed (4.7 s from 77.4 s) and c2-scale (6.5 s from 166.8 s). |
-| Packaging | 4 | metadata.json: the title "What If Iran Tests a Nuke? Israel's 4-Day Answer" is hypothetical and names who and where. The description carries "This is a simulation. It has not happened. It is not a forecast". It has no em-dashes (0 found). I did not score the thumbnail in detail. |
-| Accuracy and labelling | 3 | The SIMULATION tag is present on the opening tiles, and tiles 010 to 011 carry REAL DATA. The simulation caption on tile 001 ("A 10-kiloton ground burst on a mountain. Simulation: it has not happened.") is good. The banner defect undercuts the labelling. |
+| Hook and opening | 3 | sheet_00 tile 001 (4.0 to 9.9 s): flash with banner "SIMULATION · NOT REAL EVENTS" over moving footage, inside 8 s; but it lands on a flat dark-grey empty map with one label (no recognisable place). Tiles 000 to 006 each arrive every 4 to 6 s; tile 006 (open-fire) holds 5.7 s and tile 007 holds 5.1 s. |
+| Story pacing | 4 | Trigger (launch/flash) is the cold open; simulation chapters 03 to 06 (tiles 028 to 069) end on "THE DAY AFTER" / "THE MOUNTAIN IS STILL THERE" (sheet_05 tile 065 "AND SO IS THE QUESTION"). Chapters 01 to 03 (about 44 to 288 s) are long context before the simulation proper. |
+| Map readability | 2 | P0 below (shot 050). Large empty inland frames: long_04_183s.png shows only QOM, KASHAN, NATANZ, "HOW FAST?" on flat grey grid; long_00_20s.png same. Labels on sheet_03 tile 6 and sheet_04 tile 2 sit near the edges. Labels otherwise plated and clear of tag and clock. |
+| Subject and fidelity | 3 | City shots (sheet_04 tiles 6 to 9: long_10_427s.png fireball 0.191 km with rings) fill the frame well. Region shots show tiny dots on grey (sheet_01 tiles 1 to 4, sheet_05 tiles 3 to 5) with no terrain, so the subject is small. |
+| Motion and pacing | 3 | near_still 38.9%; stretches of 28.4 s (61.1 s), 27.3 s (482.3 s), 25.9 s (201.7 s), 25.4 s (526.8 s). Flash has glow and banner but lands on an empty frame. |
+| Packaging | 4 | Title "What If Iran Tests a Nuke? Israel's 4-Day Answer" is hypothetical, names who and where. thumb_a.png: "1,670 KM / ONE WARHEAD", readable small, clear map; shares no words with the title. |
+| Accuracy and labelling | 4 | SIMULATION tag on all simulation shots; "(SIMULATED)", "OUR CHOICE", "10 KT: ENTIRELY OUR ASSUMPTION", "NO OTHER REAL PLACE" labels (sheet_00 tile 001, sheet_02 tile 7, sheet_04 tile 2). Description states "It has not happened". No em-dashes in metadata.json. |
 
-Mean: 2.7
+Mean: 3.3
 
-near_still: 0.395 (257.0 s). `pace:` lines: 2.
-
-Findings:
-1. P0: the banner text is cut off. sheet_00 tile 001 (open-flash, 6.6 s) reads "IMULATION · NOT REAL EVEN". The first and last letters are lost, so the required "SIMULATION · NOT REAL EVENTS" banner is not legible. Fix the banner width or clamp it inside the frame.
-2. P0: QC failed. `qc.json` has `ok: false` with the issue "frozen 6.0s at 61.0s". That is the c1-sites region shot, which renders as an empty dark frame (long_01_61s.png). The city or region tiles or data did not load, or the camera sits over empty space. Fix that shot (or its map data) and re-render.
-3. P0: the clock is cut off at the frame edge. sheet_00 tile 000 (open-run, 2.7 s) shows "T-00:0" with its last digits hidden at the top-right, partly outside the frame.
-4. The label "ONE TARGET: A MOUNTAIN IN IRAN" (tile 003) and the Israel label (tile 002) sit very close to or overlap the edge or other elements. Move the labels inward.
-5. Long still stretches in `near_still` need arrivals or camera keys: 61.1 s (28.4 s), 173.3 s (16.2 s), 195.1 s (28.8 s), 323.0 s (14.2 s), 361.3 s (12.3 s), 482.3 s (27.3 s), 526.8 s (40.7 s). Some are chapter text or number cards, but the share (39.5%) is well above the 005 baseline of about 30%.
-6. Not every sheet, Short frame and thumbnail was inspected in detail (I looked at sheet_00 and long_01 only). The three P0s above are enough for FAIL. Re-run the full review after the fixes.
+Findings
+1. P0: text cut off by the legend. Shot c4-clock (tile 050, sheet_04 pos 3, shots/050.png, frame 414.9 s): the label "FLIGHT: EIGHT MINUTES" is overprinted by the IRAN/ISRAEL legend plate and reads "GHT: EIGHT MINUTES". Fix by moving the label or the legend (label clamp must avoid the legend), and re-render.
+2. Empty inland maps persist despite the HUD grid fix: about 39% near-still, four stretches over 25 s (61.1, 201.7, 482.3, 526.8 s). Add terrain, camera keys, rings or markers; the flash at 4.0 to 9.9 s also lands on a blank map and should show the real mountain, borders or terrain.
+3. Two `pace:` warnings: 77.4 s (c1-disputed, 4.7 s) and 166.8 s (c2-scale, 6.5 s).
+4. Chapters 01 to 03 hold the viewer in history and context until about 4:48 (288 s) before the simulation resumes; consider trimming.
+5. Shorts: subtitles present and inside the safe area, SIMULATION tag present (s1_silent_1, s2_silent_2, s3_silent_1); s1 label "(SIMULATED)" sits close to the left edge but inside.
+6. Title and description are true and hypothetical; disclaimer present; end slate half-empty by design.
