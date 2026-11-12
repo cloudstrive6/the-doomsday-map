@@ -1,4 +1,4 @@
-# Scorecard (2026-11-11, latest snapshot 2026-11-11)
+# Scorecard (2026-11-12, latest snapshot 2026-11-12)
 
 Built by `python -m studio scorecard` from data/analytics/. Targets judged on the median of episodes 004 onward; earlier episodes are the baseline. Small samples: read as tests, not proof.
 
@@ -25,7 +25,7 @@ Subscribers: 6 (target 50 by 2026-12-10)
 
 | Episode | Video | Days | Status | views | ctr | impressions | hold | avp | avd |
 |---|---|---|---|---|---|---|---|---|---|
-| 001 | fWvrsNHlIak | 7 | due 2026-11-12 | - | - | - | - | - | - |
+| 001 | fWvrsNHlIak | 7 | measured | 48 | 2.5% | 1,409 | 45.5% | 27% | 200 |
 | 001 | fWvrsNHlIak | 28 | due 2026-12-03 | - | - | - | - | - | - |
 | 002 | asHo8qWpZDg | 7 | due 2026-11-13 | - | - | - | - | - | - |
 | 002 | asHo8qWpZDg | 28 | due 2026-12-04 | - | - | - | - | - | - |
@@ -40,9 +40,9 @@ Subscribers: 6 (target 50 by 2026-12-10)
 
 | Episode | Video | Days | Status | views | avp | avd |
 |---|---|---|---|---|---|---|
-| 001 | l8W1p2lfHCw | 7 | due 2026-11-12 | - | - | - |
+| 001 | l8W1p2lfHCw | 7 | measured | 101 | 115% | 61 |
 | 001 | l8W1p2lfHCw | 28 | due 2026-12-03 | - | - | - |
-| 001 | QK55Sko_aw4 | 7 | due 2026-11-12 | - | - | - |
+| 001 | QK55Sko_aw4 | 7 | measured | 127 | 79% | 44 |
 | 001 | QK55Sko_aw4 | 28 | due 2026-12-03 | - | - | - |
 | 001 | ZjCRJ3VsOu0 | 7 | due 2026-11-13 | - | - | - |
 | 001 | ZjCRJ3VsOu0 | 28 | due 2026-12-04 | - | - | - |

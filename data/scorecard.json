@@ -1,6 +1,6 @@
 {
-  "built": "2026-11-11",
-  "latest_snapshot": "2026-11-11",
+  "built": "2026-11-12",
+  "latest_snapshot": "2026-11-12",
   "subscribers": 6,
   "subs_target": [
     50,
@@ -102,8 +102,15 @@
       "publish_at": "2026-11-05T00:00:00Z",
       "horizon": 7,
       "due": "2026-11-12",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-12",
+      "status": "measured",
+      "views": 48,
+      "avp": 26.72,
+      "avd": 200,
+      "hold": 0.455,
+      "subs": 1,
+      "ctr": 0.0248,
+      "impressions": 1409
     },
     {
       "episode": "001-russia-first-strike-america",
@@ -126,8 +133,15 @@
       "publish_at": "2026-11-05T14:00:00Z",
       "horizon": 7,
       "due": "2026-11-12",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-12",
+      "status": "measured",
+      "views": 101,
+      "avp": 114.62,
+      "avd": 61,
+      "hold": 1.463,
+      "subs": 0,
+      "ctr": 0.0556,
+      "impressions": 18
     },
     {
       "episode": "001-russia-first-strike-america",
@@ -150,8 +164,15 @@
       "publish_at": "2026-11-05T19:00:00Z",
       "horizon": 7,
       "due": "2026-11-12",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-12",
+      "status": "measured",
+      "views": 127,
+      "avp": 78.59,
+      "avd": 44,
+      "hold": 1.283,
+      "subs": 0,
+      "ctr": 0.0263,
+      "impressions": 38
     },
     {
       "episode": "001-russia-first-strike-america",
