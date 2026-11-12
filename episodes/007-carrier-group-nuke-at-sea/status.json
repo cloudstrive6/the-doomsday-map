@@ -9,7 +9,17 @@
       "stage": "researched",
       "note": "30 A, 9 B items",
       "at": "2026-11-12T13:53:32+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "script written",
+      "at": "2026-11-12T13:55:34+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "script lengthened to 1400+ words",
+      "at": "2026-11-12T13:55:50+00:00"
     }
   ],
-  "stage": "researched"
+  "stage": "scripted"
 }
