@@ -60,6 +60,9 @@ Packaging
 15. Title names who and where; thumbnail gives the number and the stake; no shared words (lint with `title.py`).
 16. Thumbnail: four words over two lines, a tag of three words or none; one bright subject a third of the frame.
 17. The best-scored variant is `a` (the only one uploaded automatically); do not reuse the last two episodes' pattern.
+17a. Three concepts from the library (packager.md), at least two palettes; A never repeats the previous two episodes'
+     A concept or the previous A's palette (001 to 005 were all one mushroom cloud). A map concept is drawn by our own
+     engine (`variant: map`, `region.theme: bright`), never by the image model (it put Iran's mountain in the Hindu Kush).
 18. Description line 1 is the search question in the viewer's words.
 
 Shorts

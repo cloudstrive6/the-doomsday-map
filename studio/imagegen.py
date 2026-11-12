@@ -22,20 +22,32 @@ from .config import ROOT
 MODEL = os.environ.get("GEMINI_IMAGE_MODEL", "gemini-2.5-flash-image")
 URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 
-# Appended to every prompt: what the niche's 100k+ view thumbnails share (see studio/thumbcheck.py).
-STYLE = ("Photorealistic, cinematic, 16:9 landscape. Bright and vivid: intense orange and yellow fire light against a "
-         "deep blue night, high saturation and contrast, the main subject large and glowing, filling at least a third "
-         "of the frame. Leave clear, darker sky in the upper {side} third for a headline. No text, no letters, no "
+# Appended to every prompt. Until 2026-11-12 one style ("orange fire against a deep blue night, the subject large and
+# glowing") went on every image, and with fixed a/b/c roles every episode got the same mushroom cloud over a dusk
+# skyline. Now each variant names a `palette` (packager.md, concept library) and only the frame rules are shared.
+STYLE = ("Photorealistic, cinematic, 16:9 landscape, high contrast, one clear subject large in the frame. "
+         "{palette} Leave a clear, simple area in the upper {side} third for a headline. No text, no letters, no "
          "logos, no flags, no watermark, no people's faces.")
+PALETTES = {
+    "fire-night": "Intense orange and yellow fire light against a deep blue night, high saturation.",
+    "daylight": "Bright midday daylight, clear pale-blue sky, crisp white and grey tones, the event white-hot and "
+                "blinding against the blue; no night, no orange sunset.",
+    "red-alert": "Deep red emergency lighting in near darkness, glowing red and amber screens and lamps, strong rim light.",
+    "radar-green": "Dark scene lit by glowing green and cyan screens and instruments, cool tones, sharp highlights.",
+    "ash": "Overcast ash-grey sky and muted desaturated tones, with one vivid red or orange accent on the subject.",
+    "dawn-gold": "Soft golden sunrise light, pink and teal sky, warm highlights, calm before the event.",
+    "map": "A bright stylised 3D relief map seen from high above: vivid blue sea, light beige and green land, sharp "
+           "coastlines, glowing red strike arcs and markers; clean, like a high-end infographic.",
+}
 
 
-def image(prompt: str, out: Path, side: str = "left") -> Path:
+def image(prompt: str, out: Path, side: str = "left", palette: str = "fire-night") -> Path:
     from .config import load_dotenv
     load_dotenv()
     key = (os.environ.get("GEMINI_API_KEY") or "").replace("﻿", "").strip()
     if not key:
         raise SystemExit("GEMINI_API_KEY is not set")
-    body = {"contents": [{"parts": [{"text": f"{prompt.strip()} {STYLE.format(side=side)}"}]}],
+    body = {"contents": [{"parts": [{"text": f"{prompt.strip()} {STYLE.format(side=side, palette=PALETTES.get(palette, PALETTES['fire-night']))}"}]}],
             "generationConfig": {"responseModalities": ["IMAGE"], "imageConfig": {"aspectRatio": "16:9"}}}
     req = urllib.request.Request(URL.format(model=MODEL), data=json.dumps(body).encode(),
                                  headers={"Content-Type": "application/json", "x-goog-api-key": key})
@@ -80,7 +92,7 @@ def generate(ep: Path, force: bool = False) -> list[str]:
         rel = th.get("image") if str(th.get("image", "")).startswith("thumbs/") else f"thumbs/{ep.name[:3]}-{th['id']}.jpg"
         out = ROOT / "video" / "public" / rel
         if force or not out.exists():
-            image(prompt, out, side="right" if th.get("align") == "right" else "left")
+            image(prompt, out, side="right" if th.get("align") == "right" else "left", palette=th.get("palette", "fire-night"))
             made.append(rel)
             print("generated", out)
         th["variant"], th["image"] = "image", rel

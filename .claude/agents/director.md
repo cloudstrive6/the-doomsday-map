@@ -33,6 +33,10 @@ Opening (where 001 and 002 lost half their viewers, and 004 and 005 still lost a
 Engine tools (from 2026-11-11; see `video/src/scene.ts`):
 - Cuts: shots now cut straight to each other; only chapter cards and the end slate dip through black. Set
   `"transition": "dip"` on a shot only for a deliberate pause, `"cut"` to force a hard cut into a chapter card.
+- Holds are not arrivals (2026-11-12): 006 padded long shots with keys that repeat the same view to clear the pace
+  check, the holds froze on screen and QC blocked the episode. The pace check now counts a key only when the camera
+  moves (width 8% or more, or the centre 5% of the width), and keyed shots always drift gently. Never add a key that
+  repeats the previous view, and never a first leg under 0.25 s (a snap zoom: it is dropped).
 - Camera keys: a region or city shot can carry `"camera": [{"t": 0, "center": [lon, lat], "widthKm": 1700}, {"t": 4,
   ...}, ...]` (shot-local seconds) for a pull-out, a hold and a pan in one shot. Each key is an arrival for the pace
   check, so long map shots after 90 s use keys every 4 to 6 s instead of one slow zoom.

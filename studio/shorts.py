@@ -49,9 +49,33 @@ def shot_list(ep: Path, spec: dict) -> dict:
             "attribution": src.get("attribution")}
 
 
+def snap_start(ep: Path, spec: dict, slack: float = 2.0) -> bool:
+    """Move a window start that falls inside a shot to that shot's start (or end) when it is within `slack` seconds.
+    A retried run re-narrates (narration/ is not in git), the timing shifts by a fraction of a second, and a start
+    that was on a shot boundary lands inside a shot: 006 failed every retry on 2026-11-12 with "window starts inside
+    shot c4-cabinet". Returns True when the start moved (shorts.json is then saved, so mux and subtitles agree)."""
+    a = spec["start"]
+    src = json.loads((ep / "episode.json").read_text(encoding="utf-8"))
+    for s in src["shots"]:
+        if s["type"] in ("chapter", "endslate") or not (s["start"] < a - 0.05 < s["end"]):
+            continue
+        if a - s["start"] <= slack:
+            spec["start"] = round(s["start"], 3)
+        elif s["end"] - a <= slack:
+            spec["start"] = round(s["end"], 3)
+        else:
+            return False
+        print(f"{spec['id']}: start moved from {a} to {spec['start']} (shot boundary of {s['id']})")
+        return True
+    return False
+
+
 def stage(ep: Path) -> list[Path]:
     out = []
-    for spec in specs(ep):
+    all_specs = specs(ep)
+    if any([snap_start(ep, sp) for sp in all_specs]):
+        (ep / "shorts.json").write_text(json.dumps(all_specs, indent=2, ensure_ascii=False), encoding="utf-8")
+    for spec in all_specs:
         d = shot_list(ep, spec)
         dest = VIDEO / "public" / "episodes" / d["slug"] / "episode.json"
         dest.parent.mkdir(parents=True, exist_ok=True)

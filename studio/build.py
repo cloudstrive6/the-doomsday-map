@@ -9,6 +9,7 @@ Files per episode:
 from __future__ import annotations
 
 import json
+import math
 import shutil
 import subprocess
 from pathlib import Path
@@ -124,6 +125,29 @@ PACE_GAP = 6.0                    # and at least every 6 s after that
 _ITEM_TIMES = ("t", "t0")
 
 
+def _moving_keys(keys: list[dict]) -> list[dict]:
+    """Camera keys that move the camera: a key that holds the previous view is not "something new" (006 padded its
+    shots with holding keys to clear this check, and the holds froze on screen, 2026-11-12). A key counts when the
+    width or globe scale changes by 8% or more, or the centre moves by 5% of the view width (globe: 2 degrees)."""
+    out, prev = [], None
+    for key in sorted((k for k in keys if isinstance(k, dict) and isinstance(k.get("t"), (int, float))), key=lambda k: k["t"]):
+        if prev is None:
+            prev = key
+            continue
+        if "widthKm" in key:
+            w0, w1 = prev.get("widthKm") or 1, key.get("widthKm") or 1
+            (x0, y0), (x1, y1) = prev.get("center", [0, 0]), key.get("center", [0, 0])
+            moved_km = ((x1 - x0) * 111.2 * math.cos(math.radians(y0))) ** 2 + ((y1 - y0) * 111.2) ** 2
+            moving = abs(w1 / w0 - 1) >= 0.08 or moved_km ** 0.5 >= 0.05 * min(w0, w1)
+        else:
+            s0, s1 = prev.get("scale") or 1, key.get("scale") or 1
+            moving = abs(s1 / s0 - 1) >= 0.08 or abs(key.get("lat", 0) - prev.get("lat", 0)) + abs(key.get("lon", 0) - prev.get("lon", 0)) >= 2
+        if moving:
+            out.append(key)
+        prev = key
+    return out
+
+
 def arrivals(shot: dict) -> list[float]:
     """Every moment something new appears: shot starts, and each timed item inside a shot (labels, cities, rings,
     arcs, lines, ships, zones, markers, flashes, plumes, camera keys). Item times are relative to the shot start."""
@@ -132,6 +156,9 @@ def arrivals(shot: dict) -> list[float]:
         st = s["start"]
         out.append(st)
         for k, v in s.items():
+            if k == "camera" and isinstance(v, list):
+                out += [st + key["t"] for key in _moving_keys(v)]
+                continue
             if isinstance(v, list):
                 for it in v:
                     if isinstance(it, dict):

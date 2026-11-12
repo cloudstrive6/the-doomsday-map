@@ -45,11 +45,12 @@ export interface RegionShot extends ShotBase {
   highlight?: { iso: string; color: string; fill?: string }[];
   cities?: Marker[];
   rings?: { at: LonLat; km: number; label?: string; color?: string; t?: number; dashed?: boolean }[];
-  lines?: { from: LonLat; to: LonLat; label?: string; color?: string; dashed?: boolean; t0?: number; t1?: number }[];
+  lines?: { from: LonLat; to: LonLat; label?: string; color?: string; dashed?: boolean; t0?: number; t1?: number; width?: number }[];
+  theme?: 'dark' | 'bright';  // bright: blue sea and sand land (map thumbnails)
   plume?: { at: LonLat; bearing: number; lengthKm: number; widthKm: number; t0: number; t1: number; color?: string; label?: string };
   labels?: { at: LonLat; text: string; color?: string; t?: number }[];
   scaleBar?: boolean;
-  countryLabels?: { iso: string; text: string; color?: string }[];
+  countryLabels?: { iso: string; text: string; color?: string; size?: number }[];
   zones?: Zone[];            // declared areas (closure zones, exclusion zones), drawn as shaded polygons
   ships?: Ship[];            // vessels moving along a path, drawn as chevrons pointing along their heading
   burst?: { at: LonLat; t: number; km: number; fade?: number };  // fade: seconds the fireball glow takes to die away (default 7)  // nuclear detonation: full-frame white flash, then a glowing fireball of radius km

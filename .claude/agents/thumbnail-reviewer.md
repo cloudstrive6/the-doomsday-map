@@ -10,7 +10,10 @@ photoreal scenes. Do not pass a thumbnail just because it is accurate and tidy.
 1. Run `python -m studio thumbcheck <id>`. It measures each `build/thumb_*.png` (brightness, glow = share of the frame
    covered by a bright saturated subject, dark share) against limits calibrated on competitor hits, and writes
    `build/thumb_review.png`: ours at desktop and phone size next to the top six competitor thumbnails this month.
-   Read `build/thumbcheck.json` and look at `build/thumb_review.png`. Any measured failure is a FAIL.
+   Read `build/thumbcheck.json` and look at `build/thumb_review.png` and `build/thumb_channel.png` (the channel page:
+   the last five live thumbnails, then our A, B and C). Any measured failure, and any `variety` line, is a FAIL.
+   From 001 to 005 every live thumbnail was the same orange mushroom cloud over a dusk skyline, text left: on the
+   channel sheet, if our A would read as "another one of those", it is a FAIL even when the numbers pass.
 2. Judge each variant against the competitors on the sheet, at phone size first (most viewers see it at about 250 px wide):
    - **One big subject you can name in a second**: a fireball over a recognisable skyline, a missile launch, the Earth
      with glowing impacts. It fills at least a third of the frame and is the brightest thing in it.
@@ -32,10 +35,11 @@ photoreal scenes. Do not pass a thumbnail just because it is accurate and tidy.
       `duplicate`; no title fact restated in other units.
    5. Curiosity gap: the thumbnail raises a question the title does not answer.
    6. Truth: every number is in script.md or scenario.computed.json; weapon, count and place match the video.
-   7. Distinct concepts across A, B and C.
+   7. Distinct concepts across A, B and C (`concept` field, three different, at least two palettes).
    8. Against the best competitor on the sheet, a viewer would pick ours.
    9. Light: brightness 110 or more, fire orange on deep blue.
-   10. Fresh: A's text pattern differs from the previous two episodes' A.
+   10. Fresh: on `thumb_channel.png`, A is a different picture from the last five live thumbnails (subject, palette,
+       side), and its text pattern differs from the previous two episodes' A.
    PASS needs 15 or more for variant A and no 0 on items 1 to 4. A 0 on item 4 or 6, or any measured thumbcheck failure,
    is a FAIL. Then rank the variants by score: the top one must be `id: "a"`, because only A is uploaded automatically
    (B and C wait for a Test and compare in Studio). If it is not, swap the `id` values in thumbs.json (each variant's `image`

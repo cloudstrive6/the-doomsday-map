@@ -30,27 +30,35 @@ const SUPER = 2;
 function paintRegionBase(shot: RegionShot, base: RegionView, W: number, H: number, key: string): HTMLCanvasElement {
   return getBase('region|' + key, () => paintRegion(shot, base, W, H));
 }
+// Bright theme (2026-11-12) for map thumbnails: real coastlines and borders on a blue sea and sand land, so a "map"
+// thumbnail is accurate (an AI-drawn map put Iran's mountain in the Hindu Kush) and bright enough for the feed.
+export const MAP_THEMES = {
+  dark: {sea: C.bg, grat: 'rgba(140,180,200,0.07)', land: C.land, states: 'rgba(150,185,200,0.28)', coast: 'rgba(170,215,225,0.5)', border: C.border, hiAlpha: '33'},
+  bright: {sea: '#2C6CA8', grat: 'rgba(255,255,255,0.10)', land: '#E6DBBF', states: 'rgba(90,80,60,0.35)', coast: 'rgba(16,36,56,0.65)', border: 'rgba(80,66,50,0.7)', hiAlpha: '66'},
+};
 function paintRegion(shot: RegionShot, base: RegionView, W: number, H: number): HTMLCanvasElement {
+  const T = MAP_THEMES[shot.theme ?? 'dark'];
   const bw = W * SUPER, bh = H * SUPER;
   const cv = document.createElement('canvas');
   cv.width = bw; cv.height = bh;
   const ctx = cv.getContext('2d', {willReadFrequently: true})!;
   const proj = makeProjection(base, bw, bh);
   const path = geoPath(proj, ctx);
-  ctx.fillStyle = C.bg; ctx.fillRect(0, 0, bw, bh);
-  ctx.beginPath(); path(GRAT); ctx.strokeStyle = 'rgba(140,180,200,0.07)'; ctx.lineWidth = SUPER; ctx.stroke();
+  ctx.fillStyle = T.sea; ctx.fillRect(0, 0, bw, bh);
+  ctx.beginPath(); path(GRAT); ctx.strokeStyle = T.grat; ctx.lineWidth = SUPER; ctx.stroke();
   const hiMap = new Map((shot.highlight ?? []).map((h) => [h.iso, h]));
   for (const c of COUNTRIES) {
     // every country is drawn: a centroid test drops large countries (the US, Russia) when zoomed into one corner
     const h = hiMap.get(String(c.id));
-    ctx.beginPath(); path(c); ctx.fillStyle = h ? (h.fill ?? h.color + '33') : C.land; ctx.fill();
+    ctx.beginPath(); path(c); ctx.fillStyle = T.land; ctx.fill();
+    if (h) { ctx.fillStyle = h.fill ?? h.color + T.hiAlpha; ctx.fill(); }   // tint over land, not over the sea colour
   }
   const c0 = base.center;
   if (base.widthKm < 8000 && c0[0] < -60 && c0[0] > -170 && c0[1] > 22 && c0[1] < 72) {
-    ctx.beginPath(); path(STATE_BORDERS); ctx.strokeStyle = 'rgba(150,185,200,0.28)'; ctx.lineWidth = 0.9 * SUPER; ctx.stroke();
+    ctx.beginPath(); path(STATE_BORDERS); ctx.strokeStyle = T.states; ctx.lineWidth = 0.9 * SUPER; ctx.stroke();
   }
-  ctx.beginPath(); path(COAST); ctx.strokeStyle = 'rgba(170,215,225,0.5)'; ctx.lineWidth = 1.3 * SUPER; ctx.stroke();
-  ctx.beginPath(); path(BORDERS); ctx.strokeStyle = C.border; ctx.lineWidth = 1 * SUPER; ctx.stroke();
+  ctx.beginPath(); path(COAST); ctx.strokeStyle = T.coast; ctx.lineWidth = 1.3 * SUPER; ctx.stroke();
+  ctx.beginPath(); path(BORDERS); ctx.strokeStyle = T.border; ctx.lineWidth = 1 * SUPER; ctx.stroke();
   for (const h of shot.highlight ?? []) {
     const c = COUNTRIES.find((x) => String(x.id) === h.iso);
     if (!c) continue;
@@ -67,15 +75,26 @@ const mix = (a: RegionView, b: RegionView, u: number): RegionView =>
 // a hold, a pan to the next place) instead of one view-to-zoomTo ease. Each leg eases; before the first key the view
 // holds at it, after the last key it keeps a slow push so the shot never freezes.
 export type CamKey = RegionView & {t: number};
+// 2026-11-12: 006 failed QC with 4 to 7 s freezes: the director padded shots with keys that hold one view (to clear the
+// pace check), and a hold between identical keys stood perfectly still. Keyed shots now always carry the same gentle
+// push the automatic drift gives unkeyed shots (1.4% a second, at most 20%), on top of the keyed moves; and a first leg
+// shorter than 0.25 s (a snap zoom that reads as a jump) is dropped, so the shot opens on the second key.
+const PUSH = 0.014;
 export function viewAt(a: RegionView, b: RegionView | undefined, t: number, dur: number, keys?: CamKey[]): RegionView {
   if (keys && keys.length >= 2) {
-    const k = [...keys].sort((x, y) => x.t - y.t);
-    if (t <= k[0].t) return k[0];
+    let k = [...keys].sort((x, y) => x.t - y.t);
+    while (k.length > 2 && k[1].t - k[0].t < 0.25) k = [{...k[1], t: k[0].t}, ...k.slice(2)];
+    const push = Math.max(0.8, 1 - PUSH * t);
+    // and a slow eastward pan (0.5% of the view width a second) that keeps going after the push reaches its cap
+    const at = (v: RegionView): RegionView => {
+      const km = v.widthKm * 0.005 * t;
+      return {center: [v.center[0] + km / (111.2 * Math.max(0.2, Math.cos(v.center[1] * D2R))), v.center[1]], widthKm: v.widthKm * push};
+    };
+    if (t <= k[0].t) return at(k[0]);
     for (let i = 1; i < k.length; i++) {
-      if (t <= k[i].t) return mix(k[i - 1], k[i], ease(clamp01((t - k[i - 1].t) / Math.max(0.01, k[i].t - k[i - 1].t))));
+      if (t <= k[i].t) return at(mix(k[i - 1], k[i], ease(clamp01((t - k[i - 1].t) / Math.max(0.01, k[i].t - k[i - 1].t)))));
     }
-    const last = k[k.length - 1];
-    return {center: last.center, widthKm: last.widthKm * Math.max(0.85, 1 - 0.012 * (t - last.t))};
+    return at(k[k.length - 1]);
   }
   if (!b) return a;
   return mix(a, b, ease(clamp01(t / Math.max(0.01, dur))));
@@ -181,7 +200,7 @@ export const RegionMap: React.FC<{shot: RegionShot; t: number}> = ({shot, t}) =>
     const pb = makeProjection(baseView, W * SUPER, H * SUPER);
     const q = pb(view.center) as [number, number];
     const k = baseView.widthKm / (SUPER * view.widthKm);
-    ctx.fillStyle = C.bg; ctx.fillRect(0, 0, W, H);
+    ctx.fillStyle = MAP_THEMES[shot.theme ?? 'dark'].sea; ctx.fillRect(0, 0, W, H);
     ctx.imageSmoothingEnabled = true; ctx.imageSmoothingQuality = 'high';
     ctx.drawImage(base, W / 2 - q[0] * k, H / 2 - q[1] * k, W * SUPER * k, H * SUPER * k);
     const r = baseView.widthKm / (1.6 * view.widthKm);   // 1 to 2 inside an octave; the switch to the finer base is at 2
@@ -197,7 +216,7 @@ export const RegionMap: React.FC<{shot: RegionShot; t: number}> = ({shot, t}) =>
     }
   }, [shot, baseView, baseKey, view.center[0], view.center[1], view.widthKm, W, H]);
   return (
-    <AbsoluteFill style={{background: C.bg}}>
+    <AbsoluteFill style={{background: MAP_THEMES[shot.theme ?? 'dark'].sea}}>
       <canvas ref={ref} width={W} height={H} style={{position: 'absolute', inset: 0, width: '100%', height: '100%'}} />
       <svg width={W} height={H} style={{position: 'absolute', inset: 0}}>
         <defs>
@@ -226,7 +245,7 @@ export const RegionMap: React.FC<{shot: RegionShot; t: number}> = ({shot, t}) =>
           if (k <= 0) return null;
           const interp = geoInterpolate(l.from, l.to);
           const coords = Array.from({length: 65}, (_, j) => interp((j / 64) * k));
-          return <path key={i} d={path({type: 'LineString', coordinates: coords}) ?? ''} fill="none" stroke={l.color ?? C.teal} strokeWidth={2} strokeDasharray={l.dashed ? '10 8' : undefined} filter="url(#glow)" />;
+          return <path key={i} d={path({type: 'LineString', coordinates: coords}) ?? ''} fill="none" stroke={l.color ?? C.teal} strokeWidth={l.width ?? 2} strokeDasharray={l.dashed ? '10 8' : undefined} filter="url(#glow)" />;
         })}
         {shot.plume && t >= shot.plume.t0 ? (() => {
           const k = easeOut(clamp01((t - shot.plume.t0) / Math.max(0.1, shot.plume.t1 - shot.plume.t0)));
@@ -299,7 +318,7 @@ export const RegionMap: React.FC<{shot: RegionShot; t: number}> = ({shot, t}) =>
         const c = COUNTRIES.find((x) => String(x.id) === cl.iso);
         if (!c) return null;
         const p = pt(geoCentroid(c));
-        return p ? <SafeLabel key={`c${i}`} x={p[0]} y={p[1]} text={cl.text} color={cl.color ?? 'rgba(236,239,242,0.55)'} caption={cap} size={34} align="center" dy={0} plate={false} weight={600} /> : null;
+        return p ? <SafeLabel key={`c${i}`} x={p[0]} y={p[1]} text={cl.text} color={cl.color ?? 'rgba(236,239,242,0.55)'} caption={cap} size={cl.size ?? 34} align="center" dy={0} plate={false} weight={700} /> : null;
       })}
       {shot.plume?.label && t > shot.plume.t0 + 0.6 ? (() => {
         const p = pt(destination(shot.plume!.at, shot.plume!.bearing, shot.plume!.lengthKm * 0.55));

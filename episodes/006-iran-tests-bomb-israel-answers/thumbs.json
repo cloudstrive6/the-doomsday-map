@@ -1,23 +1,98 @@
 [
  {
   "id": "a",
-  "variant": "image",
-  "line1": "ONE MOUNTAIN",
-  "line2": "TEN KILOTONS",
-  "tag": "NO INSPECTORS",
+  "variant": "map",
+  "concept": "map",
+  "palette": "map",
+  "line1": "1,670 KM",
+  "line2": "ONE WARHEAD",
+  "tag": "",
   "align": "left",
-  "image_prompt": "Vivid photoreal scene: a huge blazing orange and yellow nuclear fireball and mushroom cloud erupting from the summit of a rugged mountain on the right two thirds of the frame, the whole sky behind it glowing deep blue turning to bright orange near the horizon, slopes lit fiery orange by the blast, saturated colors, bright, no empty black areas; empty plain in the foreground, no buildings, no people.",
-  "image": "thumbs/006-a.jpg"
+  "region": {
+   "theme": "bright",
+   "t": 30,
+   "view": {
+    "center": [
+     44.8,
+     35.9
+    ],
+    "widthKm": 2700
+   },
+   "highlight": [
+    {
+     "iso": "376",
+     "color": "#0E8F82",
+     "fill": "rgba(20,170,150,0.9)"
+    },
+    {
+     "iso": "364",
+     "color": "#C98A00",
+     "fill": "rgba(242,176,30,0.55)"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      34.9,
+      31.7
+     ],
+     "to": [
+      52.6,
+      34.3
+     ],
+     "color": "#E01E1E",
+     "t0": 0,
+     "t1": 1,
+     "width": 9
+    }
+   ],
+   "burst": {
+    "at": [
+     52.6,
+     34.3
+    ],
+    "t": 27.4,
+    "km": 70,
+    "fade": 9
+   },
+   "countryLabels": [
+    {
+     "iso": "376",
+     "text": "ISRAEL",
+     "color": "#FFFFFF",
+     "size": 60
+    },
+    {
+     "iso": "364",
+     "text": "IRAN",
+     "color": "#FFFFFF",
+     "size": 72
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      52.6,
+      34.3
+     ],
+     "km": 110,
+     "color": "#E01E1E",
+     "dashed": false
+    }
+   ]
+  }
  },
  {
   "id": "b",
   "variant": "image",
-  "line1": "1,670 KM",
-  "line2": "ONE JERICHO",
-  "tag": "ONE WARHEAD",
+  "concept": "witness",
+  "palette": "fire-night",
+  "line1": "ONE MOUNTAIN",
+  "line2": "TEN KILOTONS",
+  "tag": "DAY 4",
   "align": "left",
-  "image_prompt": "Bright saturated view from low orbit of the Middle East by night, deep blue atmosphere and bright sunrise glow along the curved horizon, Earth lit in vivid blue, golden city lights across the coast; a thick glowing orange and yellow missile trail arcs from the left (Israel) toward the right (central Iran) and ends in a very large blazing orange and yellow nuclear fireball with a shock ring on the right; bright, luminous, no large black areas, text-free upper left sky.",
-  "image": "thumbs/006-b.jpg"
+  "image_prompt": "Pre-dawn darkness over a wide desert valley in central Iran. A lone small figure seen from behind, a dark silhouette, stands on a rocky ridge in the bottom right corner. Across the valley, at the foot of a large bare mountain on the right, a low hemispherical nuclear ground-burst fireball hugs the mountain slope, white-hot at its core, throwing a wall of dust and rock outward along the ground, lighting the mountain and the valley floor orange. The fireball is low and wide on the ground, not a mushroom cloud high in the sky. No face visible.",
+  "image": "thumbs/006-witness2.jpg"
  },
  {
   "id": "c",
@@ -27,6 +102,8 @@
   "tag": "THEN THE SALVO",
   "align": "left",
   "image_prompt": "Bright golden-hour photo of two twin-engine fighter jets in afterburner taking off at sunset, large and close, filling the right half of the frame, climbing steeply toward the upper right with huge bright orange afterburner flames, large bombs under the wings; the left side is clear glowing orange and blue sky; warm sunset light, runway below; no people, no faces.",
-  "image": "thumbs/006-c.jpg"
+  "image": "thumbs/006-c.jpg",
+  "concept": "launch",
+  "palette": "dawn-gold"
  }
 ]

@@ -41,7 +41,10 @@ export const Thumbnail: React.FC<ThumbProps> = (p) => {
     return (
       <AbsoluteFill style={{background: '#05070A'}}>
         <RegionMap shot={{id: 'thumb', type: 'region', start: 0, end: 60, scaleBar: false, ...shot} as RegionShot} t={t} />
-        <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(5,7,10,0.92) 0%, rgba(5,7,10,0.55) 38%, rgba(5,7,10,0) 58%)'}} />
+        {shot.theme === 'bright'
+          // a bright map keeps its colour: shade only behind the headline, like the photo variant
+          ? <AbsoluteFill style={{background: `linear-gradient(${right ? 250 : 110}deg, rgba(5,7,10,0.38) 0%, rgba(5,7,10,0.12) 26%, rgba(5,7,10,0) 40%)`}} />
+          : <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(5,7,10,0.92) 0%, rgba(5,7,10,0.55) 38%, rgba(5,7,10,0) 58%)'}} />}
         <div style={{position: 'absolute', [right ? 'right' : 'left']: 50, top: 40}}>
           <Headline p={p} align={right ? 'right' : 'left'} size={138} />
         </div>
