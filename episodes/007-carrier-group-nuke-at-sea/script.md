@@ -4,11 +4,11 @@ Episode 007. A labelled simulation of one nuclear burst beside a generic US carr
 
 ## Cold open [SIMULATION]
 
-In the middle of the night, open Pacific: a nuclear weapon bursts beside a US carrier strike group. [C]
+Ten past one in the morning, open Pacific: a nuclear weapon bursts beside a US carrier strike group. [C]
 
 This is a simulation built from published numbers, and it has not happened. [C]
 
-Twenty minutes earlier, a submarine fires one missile. It is a small weapon, ten kilotons, and it flies low over black water toward a group of ships, one of them about a hundred thousand tons. [A1, C]
+Twenty minutes earlier, at ten to one, a submarine fires one missile. It is a small weapon, ten kilotons, and it flies low over black water toward a group of ships, one of them about a hundred thousand tons. [A1, C]
 
 The group is steaming in the dark, spread across the sea. Nobody on the bridge knows yet. The question is what one small bomb does to a ship that big, and how far the damage reaches. [C]
 
@@ -58,15 +58,17 @@ The missile is not yet in the air. What does the group see, and when? [C]
 
 Minute zero. The submarine launches. The missile settles to a low altitude and flies a little under the speed of sound. [C]
 
-The path is two hundred eighty-four kilometers. At that speed the flight takes twenty minutes. We assume the missile stays unseen long enough that nothing stops it. [C]
+The target is one carrier, one cruiser, three or four destroyers, a supply ship and a submarine, seven or eight hulls on a wide dark sea. The missile does not need to find them all. [A4, C]
 
-Minute twenty point one. The warhead detonates in the air over the lead destroyer. [C]
+The path is two hundred eighty-four kilometers, due east across open water. At that speed the flight takes twenty minutes. We assume the missile stays unseen long enough that nothing stops it. [C]
+
+Minute twenty point one. The warhead detonates in the air over the lead destroyer. The clock on the bridge reads about ten past one. [C]
 
 For a moment the sea is lit from above. The destroyers closest to the centre are inside the fireball and the heaviest rings, and in our simulation they are lost or crippled. The ships at the edge are shaken and still moving. [C]
 
 The first thing aboard the carrier is light. At night, the whole horizon turns white, and the sea itself glows. The blast wave arrives afterward, because it travels slower than light. [C]
 
-In the first seconds, the group goes to general quarters, and the aircraft already aloft are the main striking force left. These are our choices, not a record. [C]
+In the first seconds, the group goes to general quarters, and the aircraft already aloft are the main striking force left. A carrier air wing is sixty aircraft or more, forty or more of them strike fighters, so what is in the air at that minute is the group's reach. These are our choices, not a record. [A3, C]
 
 On the flight deck, the problem is simple. Aircraft that are airborne need somewhere to land, and the radar that guides them may be blind for a while. We assume it is. [C]
 
@@ -74,7 +76,7 @@ How much of that reaches the carrier? The answer depends on distance, ring by ri
 
 ## 05 One warhead, ring by ring [SIMULATION]
 
-Start at the centre. The fireball is about one hundred fifty meters in radius, and the lead destroyer is inside it. [C]
+Start at the centre. The fireball is about one hundred fifty meters in radius, so about three hundred meters across, roughly the length of a Nimitz-class carrier. The lead destroyer is inside it. [A1, C]
 
 At two hundred ninety-seven meters the blast reaches twenty pounds per square inch, heavy blast. At one point four six kilometers it falls to five pounds. That ring covers six point seven square kilometers. [C]
 
@@ -85,6 +87,10 @@ Look at the scale. A destroyer is a dot inside a ring almost eight kilometers ac
 The light blast ring, one pound per square inch, reaches three point nine kilometers. The carrier sits at two and a half, between the burn ring and the edge. The model puts it between one and five pounds per square inch, outside the burn ring. [C]
 
 Two limits. The engine draws these rings for land, with no model of a ship, a wave or a hardened hull, and it does not model burst height. So we do not say the carrier survives, and we do not say it sinks. [C]
+
+Able is the closest real guide, and it is not a match. Its bomb was twenty-three kilotons, more than twice ours, over about ninety anchored target ships, and five sank. Ours is ten kilotons over a group at sea, so Able sets a scale, not a forecast. [A22, A23, C]
+
+The Navy's own habit shows the same respect for distance. At Wigwam most ships stood five miles upwind, about eight kilometers, which is roughly the width of our outer ring. [A29, C]
 
 And this is not Baker. Baker was shallow, underwater and twenty-three kilotons in a lagoon, so its water column does not apply to an air burst. [A24, C]
 
@@ -98,7 +104,7 @@ Back to the first question: what does one small bomb do to a ship that big? On t
 
 A rescue and medical effort begins from the ships that can still steam. We do not count anyone, and we do not say how many ships that is. [C]
 
-The carrier turns on its counter-measure wash-down, the pipes that spray seawater over deck and hull. The Navy built it for fires and fallout, and nobody knows how it would work after a burst. [A5, C]
+The carrier turns on its counter-measure wash-down, the pipes that spray seawater over deck and hull. The Navy built it for fires and radiological threats, and nobody knows how it would work after a burst. [A5, C]
 
 The fallout map is nearly empty. The model gives little local fallout for an air burst. At Able, most ships could be reboarded within a day, and at Wigwam, by one account, the ships downwind stayed under the dose limit. Those are two histories, not a forecast. [A23, A29, C]
 

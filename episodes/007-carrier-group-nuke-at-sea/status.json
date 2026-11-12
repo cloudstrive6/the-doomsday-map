@@ -34,6 +34,16 @@
       "stage": "script_approved",
       "note": "round 3",
       "at": "2026-11-12T13:59:07+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "expanded sim chapters, cold open tightened",
+      "at": "2026-11-12T14:04:30+00:00"
+    },
+    {
+      "stage": "script_approved",
+      "note": "round 4",
+      "at": "2026-11-12T14:05:23+00:00"
     }
   ],
   "stage": "script_approved"
