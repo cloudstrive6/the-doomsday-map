@@ -1,10 +1,10 @@
 {
  "date": "2026-11-13",
  "channel": {
-  "viewCount": "4812",
+  "viewCount": "5261",
   "subscriberCount": "7",
   "hiddenSubscriberCount": false,
-  "videoCount": "21"
+  "videoCount": "23"
  },
  "videos": [
   {
@@ -19,7 +19,7 @@
    "shares": 0,
    "title": "What One 10-Kiloton Nuke Would Do to a US Carrier Group #shorts",
    "published": "2026-11-06T19:00:07Z",
-   "lifetime_views": 1203,
+   "lifetime_views": 1204,
    "retention_curve": [
     [
      0.01,
@@ -125,102 +125,102 @@
   },
   {
    "video": "NxaU3CIMJ2A",
-   "views": 1073,
-   "estimatedMinutesWatched": 312,
+   "views": 1092,
+   "estimatedMinutesWatched": 317,
    "averageViewDuration": 33,
-   "averageViewPercentage": 88.09,
+   "averageViewPercentage": 87.99,
    "subscribersGained": 1,
    "likes": 9,
    "comments": 1,
    "shares": 0,
    "title": "Simulation: Can the US Stop 4 North Korean Warheads in Space? #shorts",
    "published": "2026-11-11T00:00:17Z",
-   "lifetime_views": 1096,
+   "lifetime_views": 1098,
    "retention_curve": [
     [
      0.01,
-     1.615,
+     1.616,
      0.634
     ],
     [
      0.06,
-     1.514,
-     0.537
+     1.513,
+     0.536
     ],
     [
      0.11,
-     1.42,
-     0.516
+     1.418,
+     0.515
     ],
     [
      0.16,
-     1.25,
+     1.248,
      0.51
     ],
     [
      0.21,
      1.134,
-     0.509
+     0.508
     ],
     [
      0.26,
-     1.057,
+     1.054,
      0.511
     ],
     [
      0.31,
-     0.967,
+     0.966,
      0.514
     ],
     [
      0.36,
-     0.884,
-     0.518
+     0.882,
+     0.517
     ],
     [
      0.41,
-     0.853,
-     0.523
+     0.85,
+     0.522
     ],
     [
      0.46,
-     0.805,
-     0.534
+     0.802,
+     0.533
     ],
     [
      0.51,
-     0.764,
+     0.763,
      0.556
     ],
     [
      0.56,
-     0.733,
+     0.732,
      0.602
     ],
     [
      0.61,
-     0.722,
-     0.683
+     0.721,
+     0.684
     ],
     [
      0.66,
-     0.713,
-     0.783
+     0.712,
+     0.784
     ],
     [
      0.71,
-     0.7,
-     0.858
+     0.699,
+     0.859
     ],
     [
      0.76,
      0.683,
-     0.902
+     0.903
     ],
     [
      0.81,
-     0.68,
-     0.926
+     0.679,
+     0.927
     ],
     [
      0.86,
@@ -230,7 +230,7 @@
     [
      0.91,
      0.656,
-     0.947
+     0.948
     ],
     [
      0.96,
@@ -241,232 +241,232 @@
   },
   {
    "video": "LT_46ntdORs",
-   "views": 837,
-   "estimatedMinutesWatched": 355,
-   "averageViewDuration": 42,
-   "averageViewPercentage": 70.83,
+   "views": 954,
+   "estimatedMinutesWatched": 398,
+   "averageViewDuration": 41,
+   "averageViewPercentage": 69.76,
    "subscribersGained": 1,
    "likes": 7,
    "comments": 0,
    "shares": 0,
    "title": "America Has 44 Missile Interceptors. Would They Stop North Korea? #shorts",
    "published": "2026-11-10T14:00:36Z",
-   "lifetime_views": 955,
+   "lifetime_views": 956,
    "retention_curve": [
     [
      0.01,
-     1.423,
-     0.654
+     1.417,
+     0.655
     ],
     [
      0.06,
-     1.323,
-     0.527
+     1.318,
+     0.529
     ],
     [
      0.11,
-     1.087,
+     1.079,
      0.519
     ],
     [
      0.16,
-     0.919,
-     0.525
+     0.911,
+     0.523
     ],
     [
      0.21,
-     0.848,
-     0.537
+     0.839,
+     0.534
     ],
     [
      0.26,
-     0.78,
+     0.776,
      0.548
     ],
     [
      0.31,
-     0.748,
-     0.563
+     0.744,
+     0.562
     ],
     [
      0.36,
-     0.736,
-     0.572
+     0.726,
+     0.569
     ],
     [
      0.41,
-     0.724,
-     0.572
+     0.714,
+     0.567
     ],
     [
      0.46,
-     0.685,
-     0.565
+     0.671,
+     0.56
     ],
     [
      0.51,
-     0.626,
-     0.564
+     0.614,
+     0.559
     ],
     [
      0.56,
-     0.612,
-     0.587
+     0.596,
+     0.583
     ],
     [
      0.61,
-     0.589,
+     0.574,
      0.644
     ],
     [
      0.66,
-     0.575,
-     0.708
+     0.56,
+     0.714
     ],
     [
      0.71,
-     0.561,
-     0.752
+     0.547,
+     0.765
     ],
     [
      0.76,
-     0.547,
-     0.78
+     0.533,
+     0.799
     ],
     [
      0.81,
-     0.518,
-     0.811
+     0.508,
+     0.833
     ],
     [
      0.86,
-     0.502,
-     0.821
+     0.494,
+     0.841
     ],
     [
      0.91,
-     0.49,
-     0.815
+     0.481,
+     0.836
     ],
     [
      0.96,
-     0.465,
-     0.807
+     0.46,
+     0.827
     ]
    ]
   },
   {
    "video": "XUJI3lSDD0M",
-   "views": 522,
-   "estimatedMinutesWatched": 181,
-   "averageViewDuration": 46,
-   "averageViewPercentage": 91.2,
+   "views": 576,
+   "estimatedMinutesWatched": 200,
+   "averageViewDuration": 45,
+   "averageViewPercentage": 88.84,
    "subscribersGained": 0,
-   "likes": 4,
+   "likes": 7,
    "comments": 4,
    "shares": 5,
    "title": "Simulation: One North Korean Nuke Over Seattle, Ring by Ring #shorts",
    "published": "2026-11-10T19:00:17Z",
-   "lifetime_views": 577,
+   "lifetime_views": 580,
    "retention_curve": [
     [
      0.01,
-     1.684,
-     0.678
+     1.66,
+     0.673
     ],
     [
      0.06,
-     1.447,
-     0.607
-    ],
-    [
-     0.11,
-     1.254,
+     1.436,
      0.596
     ],
     [
+     0.11,
+     1.239,
+     0.584
+    ],
+    [
      0.16,
-     1.136,
-     0.595
+     1.1,
+     0.584
     ],
     [
      0.21,
-     1.04,
-     0.604
+     1.004,
+     0.595
     ],
     [
      0.26,
-     0.983,
-     0.619
+     0.954,
+     0.612
     ],
     [
      0.31,
-     0.947,
-     0.642
+     0.923,
+     0.638
     ],
     [
      0.36,
-     0.921,
-     0.674
+     0.9,
+     0.673
     ],
     [
      0.41,
-     0.899,
+     0.876,
      0.708
     ],
     [
      0.46,
-     0.877,
-     0.742
+     0.857,
+     0.739
     ],
     [
      0.51,
-     0.851,
-     0.775
+     0.834,
+     0.769
     ],
     [
      0.56,
-     0.838,
-     0.807
+     0.815,
+     0.798
     ],
     [
      0.61,
-     0.811,
-     0.838
+     0.792,
+     0.826
     ],
     [
      0.66,
-     0.798,
-     0.87
+     0.776,
+     0.857
     ],
     [
      0.71,
-     0.776,
-     0.901
+     0.753,
+     0.892
     ],
     [
      0.76,
-     0.754,
-     0.925
+     0.73,
+     0.919
     ],
     [
      0.81,
-     0.733,
-     0.937
+     0.707,
+     0.934
     ],
     [
      0.86,
-     0.711,
-     0.944
+     0.687,
+     0.942
     ],
     [
      0.91,
-     0.706,
-     0.947
+     0.683,
+     0.946
     ],
     [
      0.96,
-     0.693,
+     0.668,
      0.946
     ]
    ]
@@ -588,6 +588,122 @@
    ]
   },
   {
+   "video": "Km51s_0dCMI",
+   "views": 181,
+   "estimatedMinutesWatched": 48,
+   "averageViewDuration": 36,
+   "averageViewPercentage": 64.42,
+   "subscribersGained": 0,
+   "likes": 3,
+   "comments": 0,
+   "shares": 0,
+   "title": "How Big Is 800 Kilotons? 53 Hiroshimas, and Still Small #shorts",
+   "published": "2026-11-11T19:00:25Z",
+   "lifetime_views": 184,
+   "retention_curve": [
+    [
+     0.01,
+     1.395,
+     0.647
+    ],
+    [
+     0.06,
+     1.276,
+     0.521
+    ],
+    [
+     0.11,
+     1.066,
+     0.488
+    ],
+    [
+     0.16,
+     0.921,
+     0.472
+    ],
+    [
+     0.21,
+     0.789,
+     0.463
+    ],
+    [
+     0.26,
+     0.75,
+     0.471
+    ],
+    [
+     0.31,
+     0.697,
+     0.483
+    ],
+    [
+     0.36,
+     0.658,
+     0.496
+    ],
+    [
+     0.41,
+     0.658,
+     0.506
+    ],
+    [
+     0.46,
+     0.645,
+     0.514
+    ],
+    [
+     0.51,
+     0.605,
+     0.526
+    ],
+    [
+     0.56,
+     0.539,
+     0.552
+    ],
+    [
+     0.61,
+     0.474,
+     0.612
+    ],
+    [
+     0.66,
+     0.434,
+     0.707
+    ],
+    [
+     0.71,
+     0.434,
+     0.818
+    ],
+    [
+     0.76,
+     0.434,
+     0.888
+    ],
+    [
+     0.81,
+     0.434,
+     0.907
+    ],
+    [
+     0.86,
+     0.434,
+     0.909
+    ],
+    [
+     0.91,
+     0.434,
+     0.907
+    ],
+    [
+     0.96,
+     0.408,
+     0.913
+    ]
+   ]
+  },
+  {
    "video": "QK55Sko_aw4",
    "views": 127,
    "estimatedMinutesWatched": 42,
@@ -599,7 +715,7 @@
    "shares": 0,
    "title": "What One 800 Kiloton Warhead Would Do to Omaha #shorts",
    "published": "2026-11-05T19:00:23Z",
-   "lifetime_views": 127,
+   "lifetime_views": 129,
    "retention_curve": [
     [
      0.01,
@@ -937,7 +1053,7 @@
   },
   {
    "video": "fWvrsNHlIak",
-   "views": 48,
+   "views": 49,
    "estimatedMinutesWatched": 146,
    "averageViewDuration": 200,
    "averageViewPercentage": 26.72,
@@ -1053,119 +1169,45 @@
   },
   {
    "video": "asHo8qWpZDg",
-   "views": 45,
-   "estimatedMinutesWatched": 169,
-   "averageViewDuration": 261,
-   "averageViewPercentage": 38.68,
+   "views": 47,
+   "estimatedMinutesWatched": 181,
+   "averageViewDuration": 271,
+   "averageViewPercentage": 40.21,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "title": "China Blockades Taiwan... and the First Nuke Since 1945 Is Fired",
    "published": "2026-11-06T00:00:07Z",
-   "lifetime_views": 47,
-   "retention_curve": [
-    [
-     0.01,
-     0.949,
-     0.339
-    ],
-    [
-     0.06,
-     0.846,
-     0.547
-    ],
-    [
-     0.11,
-     0.513,
-     0.389
-    ],
-    [
-     0.16,
-     0.487,
-     0.282
-    ],
-    [
-     0.21,
-     0.41,
-     0.264
-    ],
-    [
-     0.26,
-     0.41,
-     0.315
-    ],
-    [
-     0.31,
-     0.359,
-     0.447
-    ],
-    [
-     0.36,
-     0.385,
-     0.73
-    ],
-    [
-     0.41,
-     0.436,
-     0.811
-    ],
-    [
-     0.46,
-     0.359,
-     0.503
-    ],
-    [
-     0.51,
-     0.359,
-     0.458
-    ],
-    [
-     0.56,
-     0.359,
-     0.435
-    ],
-    [
-     0.61,
-     0.359,
-     0.415
-    ],
-    [
-     0.66,
-     0.359,
-     0.377
-    ],
-    [
-     0.71,
-     0.359,
-     0.275
-    ],
-    [
-     0.76,
-     0.359,
-     0.382
-    ],
-    [
-     0.81,
-     0.308,
-     0.482
-    ],
-    [
-     0.86,
-     0.256,
-     0.321
-    ],
-    [
-     0.91,
-     0.282,
-     0.309
-    ],
-    [
-     0.96,
-     0.282,
-     0.248
-    ]
-   ]
+   "lifetime_views": 47
+  },
+  {
+   "video": "Qe5PtpijICA",
+   "views": 46,
+   "estimatedMinutesWatched": 7,
+   "averageViewDuration": 23,
+   "averageViewPercentage": 56.220000000000006,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "What One 800-Kiloton Nuke Does to Chicago, Ring by Ring #shorts",
+   "published": "2026-11-11T14:00:38Z",
+   "lifetime_views": 53
+  },
+  {
+   "video": "Xh-d91arwTU",
+   "views": 38,
+   "estimatedMinutesWatched": 5,
+   "averageViewDuration": 22,
+   "averageViewPercentage": 63.96000000000001,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "Two Nuclear False Alarms: Petrov in 1983, Norway in 1995 #shorts",
+   "published": "2026-11-12T00:00:31Z",
+   "lifetime_views": 47
   },
   {
    "video": "ZjCRJ3VsOu0",
@@ -1182,32 +1224,46 @@
    "lifetime_views": 37
   },
   {
-   "video": "up8u4934iUM",
-   "views": 4,
-   "estimatedMinutesWatched": 6,
-   "averageViewDuration": 135,
-   "averageViewPercentage": 18.5,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "title": "North Korea Nukes Seattle: A 26 Minute Simulation",
-   "published": "2026-11-10T00:00:18Z",
-   "lifetime_views": 7
-  },
-  {
    "video": "lufMFIv5AeY",
-   "views": 2,
-   "estimatedMinutesWatched": 11,
-   "averageViewDuration": 674,
-   "averageViewPercentage": 99.88,
+   "views": 6,
+   "estimatedMinutesWatched": 23,
+   "averageViewDuration": 463,
+   "averageViewPercentage": 68.68,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "title": "What One Nuke Would Do to Chicago, Street by Street",
    "published": "2026-11-11T00:00:27Z",
+   "lifetime_views": 14
+  },
+  {
+   "video": "up8u4934iUM",
+   "views": 6,
+   "estimatedMinutesWatched": 11,
+   "averageViewDuration": 140,
+   "averageViewPercentage": 19.21,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "North Korea Nukes Seattle: A 26 Minute Simulation",
+   "published": "2026-11-10T00:00:18Z",
    "lifetime_views": 8
+  },
+  {
+   "video": "u1EWhaWRoyc",
+   "views": 1,
+   "estimatedMinutesWatched": 0,
+   "averageViewDuration": 32,
+   "averageViewPercentage": 4.76,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "What If Russia Nuked Ukraine? The First 7 Days",
+   "published": "2026-11-12T00:00:11Z",
+   "lifetime_views": 5
   }
  ],
  "errors": [],
@@ -1220,13 +1276,18 @@
   "rows": [
    [
     "SHORTS",
-    4096,
-    1451
+    4508,
+    1566
    ],
    [
     "YT_SEARCH",
-    80,
-    58
+    102,
+    76
+   ],
+   [
+    "YT_OTHER_PAGE",
+    83,
+    53
    ],
    [
     "RELATED_VIDEO",
@@ -1234,14 +1295,9 @@
     235
    ],
    [
-    "YT_OTHER_PAGE",
-    64,
-    46
-   ],
-   [
     "YT_CHANNEL",
-    34,
-    157
+    43,
+    161
    ],
    [
     "NO_LINK_OTHER",
@@ -1250,8 +1306,13 @@
    ],
    [
     "SUBSCRIBER",
+    3,
+    1
+   ],
+   [
+    "EXT_URL",
     2,
-    0
+    11
    ],
    [
     "NOTIFICATION",
@@ -1278,19 +1339,19 @@
   "rows": [
    [
     "US",
-    2247
+    2509
    ],
    [
     "JP",
     153
    ],
    [
-    "PH",
-    121
+    "RU",
+    136
    ],
    [
-    "RU",
-    114
+    "PH",
+    121
    ],
    [
     "IN",

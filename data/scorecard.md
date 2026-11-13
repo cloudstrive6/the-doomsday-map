@@ -27,7 +27,7 @@ Subscribers: 7 (target 50 by 2026-12-10)
 |---|---|---|---|---|---|---|---|---|---|
 | 001 | fWvrsNHlIak | 7 | measured | 49 | 2.5% | 1,422 | 45.5% | 27% | 200 |
 | 001 | fWvrsNHlIak | 28 | due 2026-12-03 | - | - | - | - | - | - |
-| 002 | asHo8qWpZDg | 7 | measured | 47 | 5.5% | 489 | 51.3% | 39% | 261 |
+| 002 | asHo8qWpZDg | 7 | measured | 47 | 5.5% | 489 | - | 40% | 271 |
 | 002 | asHo8qWpZDg | 28 | due 2026-12-04 | - | - | - | - | - | - |
 | 003 | up8u4934iUM | 7 | due 2026-11-17 | - | - | - | - | - | - |
 | 003 | up8u4934iUM | 28 | due 2026-12-08 | - | - | - | - | - | - |
@@ -50,7 +50,7 @@ Subscribers: 7 (target 50 by 2026-12-10)
 | 001 | ZjCRJ3VsOu0 | 28 | due 2026-12-04 | - | - | - |
 | 002 | Bw7RPbexCTA | 7 | measured | 267 | 90% | 32 |
 | 002 | Bw7RPbexCTA | 28 | due 2026-12-04 | - | - | - |
-| 002 | hK24hiHogvs | 7 | measured | 1,203 | 88% | 53 |
+| 002 | hK24hiHogvs | 7 | measured | 1,204 | 88% | 53 |
 | 002 | hK24hiHogvs | 28 | due 2026-12-04 | - | - | - |
 | 002 | 9JvUOVsxthA | 7 | due 2026-11-14 | - | - | - |
 | 002 | 9JvUOVsxthA | 28 | due 2026-12-05 | - | - | - |
