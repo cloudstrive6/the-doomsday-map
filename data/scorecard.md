@@ -1,8 +1,8 @@
-# Scorecard (2026-11-12, latest snapshot 2026-11-12)
+# Scorecard (2026-11-13, latest snapshot 2026-11-13)
 
 Built by `python -m studio scorecard` from data/analytics/. Targets judged on the median of episodes 004 onward; earlier episodes are the baseline. Small samples: read as tests, not proof.
 
-Subscribers: 6 (target 50 by 2026-12-10)
+Subscribers: 7 (target 50 by 2026-12-10)
 
 ## Targets
 
@@ -27,7 +27,7 @@ Subscribers: 6 (target 50 by 2026-12-10)
 |---|---|---|---|---|---|---|---|---|---|
 | 001 | fWvrsNHlIak | 7 | measured | 49 | 2.5% | 1,422 | 45.5% | 27% | 200 |
 | 001 | fWvrsNHlIak | 28 | due 2026-12-03 | - | - | - | - | - | - |
-| 002 | asHo8qWpZDg | 7 | due 2026-11-13 | - | - | - | - | - | - |
+| 002 | asHo8qWpZDg | 7 | measured | 47 | 5.5% | 489 | 51.3% | 39% | 261 |
 | 002 | asHo8qWpZDg | 28 | due 2026-12-04 | - | - | - | - | - | - |
 | 003 | up8u4934iUM | 7 | due 2026-11-17 | - | - | - | - | - | - |
 | 003 | up8u4934iUM | 28 | due 2026-12-08 | - | - | - | - | - | - |
@@ -46,11 +46,11 @@ Subscribers: 6 (target 50 by 2026-12-10)
 | 001 | l8W1p2lfHCw | 28 | due 2026-12-03 | - | - | - |
 | 001 | QK55Sko_aw4 | 7 | measured | 127 | 82% | 45 |
 | 001 | QK55Sko_aw4 | 28 | due 2026-12-03 | - | - | - |
-| 001 | ZjCRJ3VsOu0 | 7 | due 2026-11-13 | - | - | - |
+| 001 | ZjCRJ3VsOu0 | 7 | measured | 37 | 51% | 28 |
 | 001 | ZjCRJ3VsOu0 | 28 | due 2026-12-04 | - | - | - |
-| 002 | Bw7RPbexCTA | 7 | due 2026-11-13 | - | - | - |
+| 002 | Bw7RPbexCTA | 7 | measured | 267 | 90% | 32 |
 | 002 | Bw7RPbexCTA | 28 | due 2026-12-04 | - | - | - |
-| 002 | hK24hiHogvs | 7 | due 2026-11-13 | - | - | - |
+| 002 | hK24hiHogvs | 7 | measured | 1,203 | 88% | 53 |
 | 002 | hK24hiHogvs | 28 | due 2026-12-04 | - | - | - |
 | 002 | 9JvUOVsxthA | 7 | due 2026-11-14 | - | - | - |
 | 002 | 9JvUOVsxthA | 28 | due 2026-12-05 | - | - | - |

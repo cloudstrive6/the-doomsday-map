@@ -1,7 +1,7 @@
 {
-  "built": "2026-11-12",
-  "latest_snapshot": "2026-11-12",
-  "subscribers": 6,
+  "built": "2026-11-13",
+  "latest_snapshot": "2026-11-13",
+  "subscribers": 7,
   "subs_target": [
     50,
     "2026-12-10"
@@ -195,8 +195,15 @@
       "publish_at": "2026-11-06T00:00:00Z",
       "horizon": 7,
       "due": "2026-11-13",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-13",
+      "status": "measured",
+      "views": 37,
+      "avp": 50.68,
+      "avd": 28,
+      "hold": null,
+      "subs": 0,
+      "ctr": 0.0,
+      "impressions": 34
     },
     {
       "episode": "001-russia-first-strike-america",
@@ -219,8 +226,15 @@
       "publish_at": "2026-11-06T00:00:00Z",
       "horizon": 7,
       "due": "2026-11-13",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-13",
+      "status": "measured",
+      "views": 47,
+      "avp": 38.68,
+      "avd": 261,
+      "hold": 0.513,
+      "subs": 0,
+      "ctr": 0.0552,
+      "impressions": 489
     },
     {
       "episode": "002-china-blockades-taiwan",
@@ -243,8 +257,15 @@
       "publish_at": "2026-11-06T14:00:00Z",
       "horizon": 7,
       "due": "2026-11-13",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-13",
+      "status": "measured",
+      "views": 267,
+      "avp": 90.41,
+      "avd": 32,
+      "hold": 1.518,
+      "subs": 1,
+      "ctr": 0.0,
+      "impressions": 15
     },
     {
       "episode": "002-china-blockades-taiwan",
@@ -267,8 +288,15 @@
       "publish_at": "2026-11-06T19:00:00Z",
       "horizon": 7,
       "due": "2026-11-13",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-13",
+      "status": "measured",
+      "views": 1203,
+      "avp": 88.25,
+      "avd": 53,
+      "hold": 1.304,
+      "subs": 1,
+      "ctr": 0.0187,
+      "impressions": 160
     },
     {
       "episode": "002-china-blockades-taiwan",
