@@ -1,7 +1,7 @@
 {
-  "built": "2026-11-13",
-  "latest_snapshot": "2026-11-13",
-  "subscribers": 7,
+  "built": "2026-11-14",
+  "latest_snapshot": "2026-11-14",
+  "subscribers": 8,
   "subs_target": [
     50,
     "2026-12-10"
@@ -319,8 +319,15 @@
       "publish_at": "2026-11-07T00:00:00Z",
       "horizon": 7,
       "due": "2026-11-14",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-14",
+      "status": "measured",
+      "views": 84,
+      "avp": 43.49,
+      "avd": 18,
+      "hold": 1.118,
+      "subs": 0,
+      "ctr": 0.0357,
+      "impressions": 28
     },
     {
       "episode": "002-china-blockades-taiwan",

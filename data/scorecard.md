@@ -1,8 +1,8 @@
-# Scorecard (2026-11-13, latest snapshot 2026-11-13)
+# Scorecard (2026-11-14, latest snapshot 2026-11-14)
 
 Built by `python -m studio scorecard` from data/analytics/. Targets judged on the median of episodes 004 onward; earlier episodes are the baseline. Small samples: read as tests, not proof.
 
-Subscribers: 7 (target 50 by 2026-12-10)
+Subscribers: 8 (target 50 by 2026-12-10)
 
 ## Targets
 
@@ -52,7 +52,7 @@ Subscribers: 7 (target 50 by 2026-12-10)
 | 002 | Bw7RPbexCTA | 28 | due 2026-12-04 | - | - | - |
 | 002 | hK24hiHogvs | 7 | measured | 1,204 | 88% | 53 |
 | 002 | hK24hiHogvs | 28 | due 2026-12-04 | - | - | - |
-| 002 | 9JvUOVsxthA | 7 | due 2026-11-14 | - | - | - |
+| 002 | 9JvUOVsxthA | 7 | measured | 84 | 43% | 18 |
 | 002 | 9JvUOVsxthA | 28 | due 2026-12-05 | - | - | - |
 | 003 | LT_46ntdORs | 7 | due 2026-11-17 | - | - | - |
 | 003 | LT_46ntdORs | 28 | due 2026-12-08 | - | - | - |
