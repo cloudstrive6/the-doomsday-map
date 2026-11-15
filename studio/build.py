@@ -67,6 +67,7 @@ def validate(ep: Path) -> list[str]:
         last_word = t["total_seconds"]
         if words_p.exists():
             ws = json.loads(words_p.read_text(encoding="utf-8"))
+            ws = [w for w in ws if not str(w.get("word", "")).startswith("[")]  # bracketed source refs are not spoken
             if ws:
                 last_word = ws[-1]["end"]
         tail = total - last_word

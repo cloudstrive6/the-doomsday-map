@@ -29,7 +29,32 @@
       "stage": "script_approved",
       "note": "round 3",
       "at": "2026-11-15T22:10:39+00:00"
+    },
+    {
+      "stage": "narrated",
+      "note": "1479 words, 11.4 min",
+      "at": "2026-11-15T22:15:17+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "165 shots, 692.9 s, 0 pace lines, 0 retention lines",
+      "at": "2026-11-15T22:30:13+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "round 2: 165 shots, 691.1 s, 0 pace, 0 retention",
+      "at": "2026-11-15T22:33:34+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "round 3: 165 shots, 691.1 s, 0 pace, 0 retention",
+      "at": "2026-11-15T22:38:56+00:00"
+    },
+    {
+      "stage": "visual_approved",
+      "note": "round 3",
+      "at": "2026-11-15T22:39:25+00:00"
     }
   ],
-  "stage": "script_approved"
+  "stage": "visual_approved"
 }
