@@ -69,7 +69,12 @@
       "stage": "rendered",
       "note": "https://github.com/cloudstrive6/the-doomsday-map/actions/runs/43230588450",
       "at": "2026-11-12T15:09:09+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "held back 1 of 2: the director fixes every finding in review_final.md and qc.json, then the visual screener re-checks first hold was the 2026-11-12 run 43230588450 (gate closed); recorded 2026-11-16 by Claude",
+      "at": "2026-11-15T21:30:24+00:00"
     }
   ],
-  "stage": "rendered"
+  "stage": "shotlisted"
 }

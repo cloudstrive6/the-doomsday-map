@@ -16,7 +16,11 @@ from .config import ROOT, episode_dir, load_config
 
 VIDEO = ROOT / "video"
 STAGES = ["idea", "researched", "scripted", "script_approved", "narrated", "shotlisted", "visual_approved",
-          "packaged", "rendered", "qc_passed", "uploaded"]
+          "packaged", "rendered", "qc_passed", "uploaded", "dropped"]
+# Stages that end an episode's life: it is no longer in production. "dropped" = held back by QC or the final
+# screener too many times (see hold()); the showrunner then starts the next idea instead of looping on it.
+DONE = ("uploaded", "dropped")
+MAX_HOLDS = 2
 NY = "America/New_York"
 
 
@@ -44,7 +48,26 @@ def set_stage(ep: Path, stage: str, note: str = "") -> None:
 
 def in_progress() -> list[Path]:
     return [d for d in sorted((ROOT / "episodes").iterdir())
-            if d.is_dir() and (d / "status.json").exists() and get_stage(d) != "uploaded"]
+            if d.is_dir() and (d / "status.json").exists() and get_stage(d) not in DONE]
+
+
+def hold(ep: Path, run_url: str = "") -> str:
+    """The final gate closed after a render. Send the episode back to the director with the QC and final-screener
+    findings (stage shotlisted), or drop it after MAX_HOLDS holds. Before 2026-11-16 a held episode stayed at
+    "rendered", the showrunner handed it straight back to CI, and 007 looped for four days without a fix."""
+    p = ep / "status.json"
+    d = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {"history": []}
+    hist = d.get("history", [])
+    last_drop = max((i for i, h in enumerate(hist) if h.get("stage") == "dropped"), default=-1)
+    # count only holds since the last drop, so an episode revived by hand gets a fresh start
+    holds = sum(1 for h in hist[last_drop + 1:] if str(h.get("note", "")).startswith("held back"))
+    n = holds + 1
+    if n >= MAX_HOLDS:
+        set_stage(ep, "dropped", f"held back {n} of {MAX_HOLDS}: dropped, the next idea starts {run_url}".strip())
+        return "dropped"
+    set_stage(ep, "shotlisted", f"held back {n} of {MAX_HOLDS}: the director fixes every finding in review_final.md "
+                                f"and qc.json, then the visual screener re-checks {run_url}".strip())
+    return "shotlisted"
 
 
 # ------------------------------------------------------------------ schedule
@@ -89,6 +112,7 @@ def shotlist(ep: Path) -> list[str]:
     """Run the episode's shotlist.py, stage episode.json (+ narration) for Remotion and stage the Shorts."""
     from .build import stage as stage_episode, validate
     subprocess.run([sys.executable, str(ep / "shotlist.py")], check=True, cwd=ROOT)
+    snap_boundaries(ep)
     stage_episode(ep)
     if (ep / "shorts.json").exists():
         from .shorts import stage as stage_shorts
@@ -100,6 +124,26 @@ def shotlist(ep: Path) -> list[str]:
     (ep / "build").mkdir(exist_ok=True)
     (ep / "build" / "validate.txt").write_text("".join(f"{i}\n" for i in issues) or "ok\n", encoding="utf-8")
     return issues
+
+
+def snap_boundaries(ep: Path, tol: float = 0.05) -> int:
+    """Close rounding gaps and overlaps of up to `tol` seconds between consecutive shots by moving the later shot's
+    start to the earlier shot's end. A shot list that ends one shot at an unrounded time (301.014) and starts the next
+    at a rounded one (301.01) otherwise fails the overlap check and stops the whole run (007, 2026-11-12 to 11-15).
+    Real overlaps and gaps (over `tol`) are left for validate() to report."""
+    p = ep / "episode.json"
+    d = json.loads(p.read_text(encoding="utf-8"))
+    shots = sorted(d.get("shots", []), key=lambda s: s["start"])
+    moved = 0
+    for prev, cur in zip(shots, shots[1:]):
+        delta = cur["start"] - prev["end"]
+        if delta != 0 and abs(delta) <= tol and prev["end"] < cur["end"]:
+            cur["start"] = prev["end"]
+            moved += 1
+    if moved:
+        p.write_text(json.dumps(d, indent=1, ensure_ascii=False), encoding="utf-8")
+        print(f"snapped {moved} shot boundary(ies) within {tol} s")
+    return moved
 
 
 def stills(ep: Path, times: list[str]) -> Path:

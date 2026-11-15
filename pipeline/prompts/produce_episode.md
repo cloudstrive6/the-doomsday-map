@@ -10,9 +10,21 @@ Read `CLAUDE.md` first, then `pipeline/craft.md` (the team line-up, the targets 
 `git add -A episodes data video/public && git commit -m "<id>: <step>" || true` (the workflow pushes).
 
 ## 0. Pick up or start
-- `python -m studio status`. If an episode has `status.json` at stage `packaged` or later but not `uploaded`, write
-  its id to `.current_episode` and end your turn (CI renders and uploads it).
+- `python -m studio status` (it prints each episode's stage). Ignore episodes at stage `uploaded` or `dropped`.
+- **Held back by the final gate (check this first):** if an episode's newest `status.json` history note starts with
+  "held back", its last render failed QC or the final screener. Resume at step 5 with the director, whose brief must
+  include `episodes/<id>/review_final.md` and `episodes/<id>/qc.json`: fix every P0 finding (frozen stretches,
+  near-still share, subject scale, long holds) in shotlist.py, not only the ones the stills show. The visual screener
+  checks those findings by number before PASS. If it still FAILs after 3 rounds, run
+  `python -m studio stage <id> dropped --note "held back: visual screener failed 3 rounds"`, notify, and start the
+  next idea below in the same run. Otherwise re-package only what changed (`python -m studio package <id>` if
+  metadata or thumbnails changed) and continue from step 7. A second hold at the gate drops the episode automatically.
+- If an episode is at stage `packaged`, `rendered` or `qc_passed`, write its id to `.current_episode` and end your
+  turn (CI renders and uploads it).
 - If an episode has `status.json` at an earlier stage, RESUME it from that stage.
+- `narration/` is not in git. If `episodes/<id>/narration/timing.json` is missing when you resume, run
+  `python -m studio narrate <id>` and `python -m studio align <id>` before any shot-list work (the TTS cache keeps the
+  audio the same).
 - Otherwise start a new one: take the first `backlog` idea in `data/ideas.md` (unless the newest
   `data/insights/*.md` recommends otherwise), run `python -m studio new <slug>`, write `brief.md` (topic, angle, why
   now, the hook moment, the hero strike, the thumbnail number, the next episode for the end slate: the next `backlog`

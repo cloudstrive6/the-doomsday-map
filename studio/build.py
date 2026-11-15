@@ -233,6 +233,8 @@ def render_local(episode_json: Path, out: Path, concurrency: int | None = None):
 
 
 def build(ep: Path, chunks: int = 8, local: bool = False):
+    from .pipeline import snap_boundaries
+    snap_boundaries(ep)
     staged = stage(ep)
     issues = validate(ep)
     for i in issues:

@@ -44,7 +44,8 @@ def test_end_slate_tail_and_music_to_the_end(tmp_path):
     ep = {"durationSeconds": 100 + SLATE_TAIL, "shots": shots, "banner": {"start": 5, "end": 8},
           "musicPlan": [{"src": "bed.mp3", "from": 0, "to": 100 + SLATE_TAIL}]}
     (tmp_path / "episode.json").write_text(json.dumps(ep))
-    assert validate(tmp_path) == []
+    # pace lines (nothing new on screen for 4 s, added 2026-11-10) are a separate check; this test is about the slate
+    assert [i for i in validate(tmp_path) if not i.startswith("pace:")] == []
     ep["durationSeconds"] = 115
     ep["shots"][-1]["end"] = 115
     (tmp_path / "episode.json").write_text(json.dumps(ep))

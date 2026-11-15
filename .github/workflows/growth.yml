@@ -56,4 +56,4 @@ jobs:
         if: always()
         run: |
           git add -A data .claude CLAUDE.md || true
-          (git commit -m "growth review $(date -u +%F)" || true) && git pull --rebase -X theirs && git push
+          (git commit -m "growth review $(date -u +%F)" || true) && git pull --rebase --autostash -X theirs && git push

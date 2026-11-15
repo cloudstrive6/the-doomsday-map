@@ -29,7 +29,8 @@ def cmd_status(a):
             meta = d / "metadata.json"
             m = json.loads(meta.read_text(encoding="utf-8")) if meta.exists() else {}
             have = [f for f in ("research.md", "scenario.json", "script.md", "narration/timing.json", "episode.json", "build/final.mp4") if (d / f).exists()]
-            print(f"{d.name:40} {m.get('youtube_id') or '-':14} {', '.join(have)}")
+            from .pipeline import get_stage
+            print(f"{d.name:40} {get_stage(d):16} {m.get('youtube_id') or '-':14} {', '.join(have)}")
 
 
 def cmd_scenario(a):
@@ -171,6 +172,11 @@ def cmd_gate(a):
         raise SystemExit(1)
 
 
+def cmd_hold(a):
+    from .pipeline import hold
+    print(hold(episode_dir(a.episode), a.note or ""))
+
+
 def cmd_upload_all(a):
     from .pipeline import upload_all
     print(json.dumps(upload_all(episode_dir(a.episode)), indent=1, default=str))
@@ -205,6 +211,7 @@ def main(argv=None):
     s = sub.add_parser("finish"); s.add_argument("episode"); s.add_argument("--strict", action="store_true"); s.set_defaults(fn=cmd_finish)
     s = sub.add_parser("review-frames"); s.add_argument("episode"); s.set_defaults(fn=cmd_review_frames)
     s = sub.add_parser("gate"); s.add_argument("episode"); s.set_defaults(fn=cmd_gate)
+    s = sub.add_parser("hold"); s.add_argument("episode"); s.add_argument("--note"); s.set_defaults(fn=cmd_hold)
     s = sub.add_parser("upload-all"); s.add_argument("episode"); s.set_defaults(fn=cmd_upload_all)
     s = sub.add_parser("auth-meta"); s.set_defaults(fn=cmd_auth_meta)
     s = sub.add_parser("social"); s.add_argument("action", choices=["release", "publish-due"]); s.add_argument("episode", nargs="?"); s.add_argument("--dry-run", action="store_true"); s.set_defaults(fn=cmd_social)

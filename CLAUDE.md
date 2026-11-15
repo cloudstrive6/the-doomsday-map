@@ -47,7 +47,9 @@ skills in `.claude/skills/` each agent uses).
 | `status.json` | `python -m studio stage` | current stage and history |
 
 Stages, in order: idea, researched, scripted, script_approved, narrated, shotlisted, visual_approved, packaged,
-rendered, qc_passed, uploaded.
+rendered, qc_passed, uploaded. `dropped` ends an episode that the final gate (QC plus the final screener) held back
+twice, or whose held-back fix failed the visual screener three rounds (`python -m studio hold`, from 2026-11-16).
+A first hold sends it back to `shotlisted` for the director with review_final.md and qc.json.
 
 ## Engine commands (run from this folder)
 

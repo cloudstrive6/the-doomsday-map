@@ -123,7 +123,7 @@ jobs:
         if: always()
         run: |
           git add -A episodes data video/public .claude CLAUDE.md || true
-          (git commit -m "$(cat .current_episode 2>/dev/null || echo episode): created" || true) && git pull --rebase -X theirs && git push
+          (git commit -m "$(cat .current_episode 2>/dev/null || echo episode): created" || true) && git pull --rebase --autostash -X theirs && git push
       - uses: actions/cache/save@v4
         if: always()
         with:
@@ -211,6 +211,7 @@ jobs:
           pattern: video-${{ env.EP }}-s*-Short
           path: dl/shorts
       - name: Join, mix and QC
+        id: join
         run: |
           mkdir -p "episodes/$EP/build/shorts"
           mv dl/long/*.mp4 "episodes/$EP/build/video_silent.mp4"
@@ -220,17 +221,27 @@ jobs:
           python -m studio stage "$EP" rendered --note "$RUN_URL"
       - name: Final screener
         run: |
+          rm -f "episodes/$EP/review_final.md"   # never let the gate read a verdict from an earlier render
           echo "$EP" > .current_episode
           bash pipeline/claude_run.sh claude_review.jsonl 120 "$(cat pipeline/prompts/review_final.md)"
       - name: Gate
         id: gate
+        # Runs even if the final screener crashed (no review_final.md = a closed gate = a hold), so the episode can
+        # never sit at "rendered" and be handed back to CI forever.
+        if: ${{ !cancelled() && steps.join.outcome == 'success' }}
         run: |
           if python -m studio gate "$EP"; then
             python -m studio stage "$EP" qc_passed
             echo "open=true" >> "$GITHUB_OUTPUT"
           else
             echo "open=false" >> "$GITHUB_OUTPUT"
-            python -m studio notify "Doomsday Map: $EP held back by QC or the final screener. Not uploaded. See episodes/$EP/review_final.md and qc.json. $RUN_URL"
+            # Send it back to the director with the findings, or drop it after two holds (studio/pipeline.py hold()).
+            NEXT=$(python -m studio hold "$EP" --note "$RUN_URL" | tail -1)
+            if [ "$NEXT" = "dropped" ]; then
+              python -m studio notify "Doomsday Map: $EP held back again by QC or the final screener and dropped; the next run starts the next idea. See episodes/$EP/review_final.md and qc.json. $RUN_URL"
+            else
+              python -m studio notify "Doomsday Map: $EP held back by QC or the final screener. Not uploaded; the next run sends it back to the director with the findings. See episodes/$EP/review_final.md and qc.json. $RUN_URL"
+            fi
           fi
       - name: Upload and schedule (long video and Shorts)
         if: ${{ steps.gate.outputs.open == 'true' && !inputs.skip_upload }}
@@ -241,4 +252,4 @@ jobs:
         if: always()
         run: |
           git add -A episodes data || true
-          (git commit -m "$EP: finished" || true) && git pull --rebase -X theirs && git push
+          (git commit -m "$EP: finished" || true) && git pull --rebase --autostash -X theirs && git push

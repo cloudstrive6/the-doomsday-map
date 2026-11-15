@@ -134,13 +134,13 @@ def next_publish_slot(taken: list[str] | None = None) -> dt.datetime:
 
 def queue_status() -> dict:
     """How many episodes are scheduled but not yet public, and whether production should make another."""
-    from .pipeline import get_stage
+    from .pipeline import DONE, get_stage
     cfg = load_config()["schedule"]
     now = dt.datetime.now(dt.timezone.utc)
     taken = taken_slots()
     queued = sum(1 for t in taken if _parse_utc(t) > now)
     in_progress = [d.name for d in sorted((ROOT / "episodes").iterdir())
-                   if d.is_dir() and (d / "status.json").exists() and get_stage(d) != "uploaded"]
+                   if d.is_dir() and (d / "status.json").exists() and get_stage(d) not in DONE]
     launch = in_launch_phase(len(taken))
     target = int(cfg["launch"]["queue_target"]) if launch else int(cfg.get("episodes_ahead", 1))
     return {"uploaded_total": len(taken), "queued": queued, "target": target, "phase": "launch" if launch else "weekly",
