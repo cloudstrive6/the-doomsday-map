@@ -1,0 +1,38 @@
+[
+ {
+  "id": "a",
+  "variant": "image",
+  "concept": "orbit",
+  "palette": "fire-blue",
+  "line1": "375 WARHEADS",
+  "line2": "ONE HOUR",
+  "tag": "",
+  "align": "right",
+  "image_prompt": "Dramatic view from low orbit of Earth at night over North America and the Atlantic, deep blue night sky and ocean, city lights glowing gold: enormous bright orange and yellow fireballs and mushroom clouds blooming across the United States, each lit like a sun and lighting the clouds around it, dozens of thick glowing yellow-orange missile trails arcing across the Atlantic and the pole. The fire is the brightest, largest thing in the frame and fills the lower two thirds. The upper right is clear deep blue sky. No ring, no halo, no people, no faces, no text.",
+  "image": "thumbs/008-a.jpg"
+ },
+ {
+  "id": "b",
+  "variant": "image",
+  "concept": "launch",
+  "palette": "dusk-fire",
+  "line1": "ONE MISSILE",
+  "line2": "THEN 375",
+  "tag": "",
+  "align": "left",
+  "image_prompt": "Very bright photo of a massive salvo of intercontinental ballistic missiles lifting off from snowy silo fields at dusk, a dozen blazing orange-yellow exhaust plumes and thick white smoke trails climbing into a deep blue twilight sky, huge fire glow lighting the snow orange. The missiles and fire fill the lower right two thirds of the frame; the upper left is clear deep blue sky. Bottom-right corner is dark snow. No people, no faces, no text.",
+  "image": "thumbs/008-b.jpg"
+ },
+ {
+  "id": "c",
+  "variant": "image",
+  "concept": "control-room",
+  "palette": "red-alert",
+  "line1": "10 MINUTES",
+  "line2": "THEN FIRE",
+  "tag": "",
+  "align": "left",
+  "image_prompt": "Very bright photo of a command bunker flooded with intense red and orange light: a huge glowing orange-red screen of abstract blank lines, no land or map, lights the entire room so every console, wall and floor is clearly visible in vivid red-orange tones, bright highlights on the consoles; on the right side of the frame in sharp focus a metal launch key in a console with a glowing red button, large and close. The left half of the frame is a smooth bright orange-red lit wall. No people, no faces, no text.",
+  "image": "thumbs/008-c.jpg"
+ }
+]
