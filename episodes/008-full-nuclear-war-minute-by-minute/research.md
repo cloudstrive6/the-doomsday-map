@@ -55,18 +55,70 @@ Compiled 2026-11-15. Every claim the script uses is listed with its sources. Two
 
 ## C. Simulation assumptions (SIMULATION tag, stated as assumptions in the script)
 
-To be written by the scenario designer. Numbers come from `scenario.computed.json` (studio/scenario.py), never typed by hand.
+Decided by the scenario designer, 2026-11-15. Every number below is from `scenario.computed.json` (studio/scenario.py) unless it carries a source row. The simulation is a scenario, not a forecast; it has not happened.
 
-Research desk SUGGESTIONS only (not decisions):
+### C1. Escalation logic and why
 
-- Frame it as one conflict that escalates, not a bolt from the blue: a Baltic or Kaliningrad crisis is the most plausible real trigger given A22 and the Plan A precedent (A27), but the brief's next episode is a Baltic one, so consider a deliberately unnamed trigger ("a crisis in Europe") to avoid overlap and any link to the real 2026-09-30 note. No calendar date; use "minute zero" and "day one".
-- Clock: minute 0 is the first launch detection. Use flight times from the engine: land-based ICBMs roughly 25 to 30 minutes between the two homelands (A12), coastal submarine missiles from about 10 to 15 minutes. Suggest the first flashes on submarine-launched missiles and any Europe-based weapons, then the ICBM waves at about minute 25 to 30, which supports a "30 MINUTES" thumbnail number (brief) if the engine confirms it.
-- Decision window: show a warning to launch order inside about 10 minutes (A14) as "by one former launch officer's estimate", and show that launch-on-warning means missiles may already be in the air before the first warhead lands (A13).
-- Targets in a counterforce-first sequence (silos at Minot, Malmstrom and F.E. Warren; Russian ICBM fields and submarine bases), then command centres, then cities, following the Plan A order of phases (A27). The designer chooses real targets and yields; the engine supplies all blast, burn and fallout numbers. Avoid inventing a count of warheads that exceeds the deployed figures in A5 and A6 (about 1,800 and about 1,700 deployed strategic); say "about" and mark that stored warheads are not counted.
-- Hero strike: an ICBM field or a submarine base is the cleanest, because a silo field has few residents; the engine will give rings. No death toll for any simulated strike unless a published study supplies it: Plan A's "more than 90 million dead and injured in the first few hours" (A27) may be quoted as "one Princeton study's estimate" and not as ours.
-- Day after: the soot study (A28) is the only published source for global effects; present as "one model's estimate", dated 2022, with the 150 Tg and 4,400 weapon assumptions stated. Keep the last chapter on the simulated aftermath, not on the history of the studies.
-- Weapons not to simulate as fact: Sarmat or Poseidon as operational (A10, A11); a Burevestnik strike. Say "if fielded" if shown.
-- A visible honesty line once per simulation chapter that this is a model and that it has not happened.
+- Model: Princeton Plan A (A27) is the published backbone: a crisis in Europe, tactical use, then strikes on each side's nuclear forces, then population centres from the submarines. We follow that order, compressed into the first hour and shrunk to a representative selection. The script must say "a selection of the first hour, not the whole war": the engine's 375 warheads are a fraction of the about 1,800 deployed Russian and about 1,700 deployed US warheads (A5, A6), and stored warheads and bombers are not counted.
+- Trigger: deliberately unnamed ("a crisis in Europe that has already turned nuclear"), so there is no overlap with the next episode (Baltic) and no link to the real 2026-09-30 non-paper (A22). No calendar date is spoken: use "minute zero". The engine needs a date for the sun: `t0_utc` 2026-12-08T14:00Z, a plain date with no known event (it is 09:00 in Washington, 17:00 in Moscow). Do not say it aloud.
+- Minute zero is the first nuclear launch of the war: one low-yield Russian missile at a NATO air base in Germany (Plan A opens with tactical use, A27). The 10 kt yield is an assumption of the low-yield class; no source row covers Iskander warheads, so the script says "low-yield".
+- Minute 5: Russia launches its counterforce wave (silo fields, command, bombers, radars, submarine bases): the logic of a first strike on forces before they can be used (001 research, A27 phase three). Land missiles and submarine missiles leave together, so the submarine warheads land first.
+- Minute 14: the US launches its Minuteman III force on warning (A13), about nine minutes after the first Russian launch is detected, inside Blair's "at most about 10 minutes" (A14). The script says "by one former launch officer's estimate". Result: the US silos are being hit at minutes 29.6 to 36.1 while the American missiles are already in the air, flying until minutes 38.6 to 43.1. Silos are largely empty when struck; the point of the scene is that the warheads still land.
+- Minute 16: US Trident missiles go at Russian command, the Northern Fleet, Plesetsk and the Pacific Fleet base.
+- Minute 40: the last phase, from the remaining submarines, hits population centres (Plan A's final phase: up to 10 missiles per city, A27). We use 8 warheads per city; that count is a simulation choice, not Plan A's.
+- No missile defence is modelled and none is claimed (A30). No bombers beyond the two bomber-base targets, no Poseidon, no Sarmat (not yet on duty, A10, A11).
+
+### C2. Strike groups (engine output; times are minutes from the first launch)
+
+| Group | Launch offset | Flight (min) | Impact (min) | Weapon, yield, burst |
+|---|---|---|---|---|
+| Opening, Ramstein (Germany) | 0 | 8.7 | 8.7 | Iskander-M class, 10 kt air, 1 warhead (assumed low-yield) |
+| Russian SLBM, radars (Cape Cod, Beale) | 5 | 10.7 to 11.4 | 15.7 to 16.4 | Bulava, 100 kt air, 2 warheads each |
+| Russian SLBM, Bangor (HERO) | 5 | 10.8 | 15.8 | Bulava, 100 kt ground, 4 warheads |
+| Russian SLBM, Washington and the Pentagon | 5 | 12.2 | 17.2 | Bulava, 100 kt air, 6 warheads |
+| Russian SLBM, Kings Bay | 5 | 14.0 | 19.0 | Bulava, 100 kt ground, 4 warheads |
+| US SLBM, Russian bases and command (Severomorsk, Vilyuchinsk, Plesetsk, Moscow) | 16 | 8.6 to 11.8 | 24.6 to 27.8 | Trident II D5, 90 kt, 4 to 8 warheads each |
+| Russian ICBM, Minot, Malmstrom, Warren silo fields | 5 | 24.6, 26.2, 28.2 | 29.6, 31.2, 33.2 | RS-24 Yars, 200 kt ground, 60 warheads each |
+| Russian ICBM, Peterson and Cheyenne Mountain, Offutt, Whiteman, Barksdale | 5 | 27.1 to 31.1 | 32.1 to 36.1 | Yars 200 kt (air at bomber bases), SS-18 Mod 5 750 kt ground at Offutt |
+| US ICBM on warning at the Russian divisions (Kozelsk, Uzhur, Novosibirsk, Teykovo, Tatishchevo, Dombarovsky) | 14 | 24.6 to 29.1 | 38.6 to 43.1 | Minuteman III, 300 kt ground, 15 to 20 warheads each |
+| Population-centre phase (New York, Los Angeles, Saint Petersburg, Moscow) | 40 | 11.4, 12.6, 10.1, 11.8 | 50.1 to 52.6 | Bulava 100 kt or Trident 90 kt air, 8 warheads each |
+
+Totals from the engine: 27 strikes, 375 warheads (Russian side 225, US side 150), about 79.1 megatons in all, first impact at minute 8.7, last at 52.6 (the first hour). Thumbnail and script: "about thirty minutes" for land missiles (24.6 to 31.1 min by our engine, consistent with A12), "about ten to fourteen minutes" for submarine missiles from our simulated launch points (A12 says 10 to 15). Submarine launch points are "(location simulated)".
+
+Yield sources (add these rows to A before the script cites yields):
+- Bulava about 100 kt per warhead: the Bulletin table and NTI both list 100 kt; other estimates run to 150 kt (001 A3). Chosen: 100 kt.
+- RS-24 Yars: sources disagree, 100 kt (Bulletin table, NTI), 200 kt (Johnston's Archive, a 2024 Sputnik summary); 001 used 300 kt. Chosen 200 kt as the middle; say "a few hundred kilotons".
+- SS-18 Mod 5: 10 warheads of 550 to 750 kt (NTI; Johnston's Archive gives 750 kt). Chosen 750 kt. https://www.nti.org/analysis/articles/russian-ballistic-cruise-missile-models/ and https://johnstonsarchive.net/nuclear/stratnuk-3.html
+- Minuteman III W87 about 300 kt, W78 about 335 kt (001 A5: Wikipedia W78 and W87; Nuclear Weapon Archive). Chosen 300 kt.
+- Trident II D5 with W76-1 about 90 kt (Wikipedia W76 read 2026-11-15; the W76-0 was 100 kt). Chosen 90 kt. Single-source in substance; say "roughly a hundred kilotons".
+
+### C3. Hero strike: Naval Base Kitsap, Bangor, Washington (the "one warhead, ring by ring" chapter)
+
+- Why: a real strategic target with a clear military logic (8 Ohio-class boats are based here, A9), on Puget Sound, and not the Offutt close-up already used in 001. Hit at minute 15.8 by Bulava warheads, 4 in the strike group, 100 kt ground burst (ground, because the target is hardened and the submarines and pier are the point).
+- City file: `video/public/city/bangor.json` (fetched 2026-11-15, 30 km wide, centred on the base). `seattle.json` has Bangor only at its western edge; do not use it for the close-up. Seattle is about 30 km east of the base, outside the rings below.
+- Engine numbers for one 100 kt ground burst: fireball radius 0.48 km; 20 psi 0.51 km; 5 psi 2.51 km (area 19.9 km2); third-degree burns 4.16 km; 1 psi 6.81 km; fallout: heavy local. (The surface-burst blast rings are 0.8 of an airburst's, per the engine.)
+- Fallout: the engine gives a category, not a plume. Direction is our choice: in December the prevailing wind is from the west, so the plume runs east across the Kitsap Peninsula and Puget Sound toward Seattle and the Cascades. Say "downwind, to the east", no distances or doses.
+- The script must not state: a death toll for Bangor or the Puget Sound; that Seattle is hit (it is not a target in this scenario); that the base would be destroyed ("the rings describe blast and heat on land").
+
+### C4. The day after (what published models support)
+
+- Direct effects: Plan A's headline is more than 90 million dead and injured in the first few hours (34 million dead, 57 million injured), direct effects only (A27). It belongs to Plan A's larger war, not to our 375-warhead selection; the script says "one Princeton study of a larger war" and never presents it as our result.
+- Fallout: ground bursts at the silo fields (heavy local fallout) in the plains states; with the December westerlies it drifts east. The engine gives the category only.
+- What stops working (supported only as general statements; the researcher adds rows before the script uses any): the warning radars and command nodes are the first targets, the grid and communications near the strikes, and medical care near the rings. Where no source row exists, the script describes what the rings mean (blast and heat on land), not a system-wide failure.
+- Soot and climate, checked 2026-11-15:
+  - Coupe, Bardeen, Robock, Toon, J. Geophys. Res. Atmospheres 124 (2019), DOI 10.1029/2019JD030509: a US and Russia war with 150 Tg of soot injected; the abstract (Wiley, Semantic Scholar) says the newer WACCM4 model gave larger temperature and precipitation drops than the older GISS ModelE in the first few years, and that the aerosols clear faster without shrinking the response. Verified from the abstract.
+  - The degree figure: the paper's PDF could not be read here. The author's draft page (https://cat5.envsci.rutgers.edu/~jlc449/150Tg/JGR/WACCMvModelE150Tg_DRAFT_old/WACCMvModelE150Tg_DRAFT.html, a DRAFT, not the published text) gives a peak global cooling of 9.5 K (WACCM4) and 8.5 K (ModelE) in years 2 to 5 and peak precipitation reductions of 58 percent and 47 percent; Eos (2019-09-27, https://eos.org/articles/nuclear-winter-may-bring-a-decade-of-destruction) says "almost 10°C" below normal after two or three years, soot lasting up to a decade, and cites 180 Tg emitted. The Wiley abstract snippet gives about 10 percent less precipitation over years 2 to 8 (a different metric). Verdict: usable only as "one model, close to ten degrees Celsius of global cooling at its worst in the second or third year, for a 150 Tg war"; never as a forecast; the earlier "5 K" figure in A29 is NOT supported and must not be used; "58 F" in CBS's wording is not used.
+  - Our scenario does not produce 150 Tg. 375 warheads is far below the 4,400-weapon war of Xia et al. (Nature Food, 2022-08-15; A28: about 150 Tg, about 5 billion famine deaths in one model, week-long war, no adaptation). The script frames the day after as "if the war did not stop here": the models describe a far larger exchange; ours is the opening.
+  - Smaller-exchange figures were not checked; do not use any.
+
+### C5. What the script must not claim
+
+- A death toll for any strike or for the war (only Plan A's, as "one study's estimate", with "dead and injured" and "direct effects only").
+- That the war would unfold this way, that the 14-minute decision is typical, or that any named missile hits any named target (these are simulation choices).
+- That Sarmat is deployed, that Poseidon exists operationally, or any missile-defence interception rate.
+- The Iskander and B61 yields as facts; the Yars yield as one number (sources span 100 to 300 kt).
+- Fallout distances or doses (the engine gives none).
+- "Seattle is destroyed" or any city-level toll in the population-centre phase.
 
 ## D. Figures the script must NOT use
 
