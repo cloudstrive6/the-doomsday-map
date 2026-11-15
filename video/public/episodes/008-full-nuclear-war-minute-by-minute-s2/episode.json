@@ -1,0 +1,1160 @@
+{
+ "subtitles": [
+  {
+   "start": 0.002,
+   "end": 1.306,
+   "text": "Minute 17."
+  },
+  {
+   "start": 1.832,
+   "end": 2.996,
+   "text": "Six warheads go to"
+  },
+  {
+   "start": 2.996,
+   "end": 4.746,
+   "text": "Washington and the Pentagon."
+  },
+  {
+   "start": 5.3,
+   "end": 7.368,
+   "text": "The base at Kings Bay, Georgia,"
+  },
+  {
+   "start": 7.368,
+   "end": 9.816,
+   "text": "home to six Ohio-class submarines,"
+  },
+  {
+   "start": 9.816,
+   "end": 11.386,
+   "text": "follows at minute 19."
+  },
+  {
+   "start": 11.831,
+   "end": 14.326,
+   "text": "Minutes 25 to 28."
+  },
+  {
+   "start": 14.904,
+   "end": 17.646,
+   "text": "The Northern Fleet base near Murmansk,"
+  },
+  {
+   "start": 17.803,
+   "end": 20.6,
+   "text": "the Pacific Fleet base at Vilyuchinsk,"
+  },
+  {
+   "start": 20.6,
+   "end": 23.666,
+   "text": "Plesetsk, Moscow's command centres."
+  },
+  {
+   "start": 24.564,
+   "end": 27.426,
+   "text": "Minutes 29 to 36."
+  },
+  {
+   "start": 28.305,
+   "end": 30.796,
+   "text": "The Russian land missiles arrive after"
+  },
+  {
+   "start": 30.796,
+   "end": 33.316,
+   "text": "about 30 minutes in flight."
+  },
+  {
+   "start": 34.34,
+   "end": 33.316,
+   "text": "Minuteman is the force a"
+  },
+  {
+   "start": 36.336,
+   "end": 33.316,
+   "text": "first strike tries to catch"
+  },
+  {
+   "start": 38.076,
+   "end": 33.316,
+   "text": "before it leaves,"
+  },
+  {
+   "start": 39.612,
+   "end": 33.316,
+   "text": "which is why the"
+  },
+  {
+   "start": 40.356,
+   "end": 33.316,
+   "text": "silo fields come early."
+  },
+  {
+   "start": 42.817,
+   "end": 33.316,
+   "text": "The three silo-field strikes"
+  },
+  {
+   "start": 44.676,
+   "end": 33.316,
+   "text": "carry 60 warheads each,"
+  },
+  {
+   "start": 47.4,
+   "end": 33.316,
+   "text": "of roughly 100"
+  },
+  {
+   "start": 48.456,
+   "end": 33.316,
+   "text": "to 300 kilotons."
+  },
+  {
+   "start": 51.053,
+   "end": 33.316,
+   "text": "They hit Minot,"
+  },
+  {
+   "start": 52.459,
+   "end": 33.316,
+   "text": "Malmstrom and Warren, Cheyenne Mountain,"
+  },
+  {
+   "start": 55.796,
+   "end": 33.316,
+   "text": "Offutt and the bomber bases."
+  },
+  {
+   "start": 58.192,
+   "end": 33.316,
+   "text": "The strike on Offutt"
+  },
+  {
+   "start": 59.356,
+   "end": 33.316,
+   "text": "uses larger warheads,"
+  },
+  {
+   "start": 61.606,
+   "end": 33.316,
+   "text": "up to about"
+  },
+  {
+   "start": 62.216,
+   "end": 33.316,
+   "text": "750 kilotons."
+  },
+  {
+   "start": 64.527,
+   "end": 33.316,
+   "text": "By now the American land missiles"
+  },
+  {
+   "start": 66.676,
+   "end": 33.316,
+   "text": "are already in the air."
+  },
+  {
+   "start": 68.869,
+   "end": 33.316,
+   "text": "The warheads land on silos"
+  },
+  {
+   "start": 70.716,
+   "end": 33.316,
+   "text": "that are mostly empty,"
+  },
+  {
+   "start": 72.669,
+   "end": 33.316,
+   "text": "and they still land."
+  }
+ ],
+ "slug": "008-full-nuclear-war-minute-by-minute-s2",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 33.316,
+ "shots": [
+  {
+   "id": "c4-m17a",
+   "type": "globe",
+   "start": 0.0,
+   "end": 2.446,
+   "camera": [
+    {
+     "t": 0,
+     "lat": 36.0,
+     "lon": -60,
+     "scale": 1500
+    },
+    {
+     "t": 2.45,
+     "lat": 38.0,
+     "lon": -72,
+     "scale": 2300
+    }
+   ],
+   "sun": {
+    "lat": -22.91,
+    "lon": -31.76
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -40.0,
+      40.0
+     ],
+     "color": "#F2B01E",
+     "kind": "ring",
+     "t": 0.4,
+     "label": "Warheads inbound",
+     "size": 6
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -40.0,
+      40.0
+     ],
+     "to": [
+      -77.06,
+      38.87
+     ],
+     "t0": -81.91,
+     "t1": 2.85,
+     "color": "#F2B01E",
+     "loft": 0.12
+    }
+   ],
+   "clock": "T+17:00",
+   "clockLabel": "MINUTE SEVENTEEN",
+   "clockRate": 5,
+   "tag": "SIMULATION"
+  },
+  {
+   "id": "c4-dc",
+   "type": "region",
+   "start": 2.446,
+   "end": 5.05,
+   "view": {
+    "center": [
+     -77.0,
+     38.9
+    ],
+    "widthKm": 420
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0,
+      38.9
+     ],
+     "widthKm": 420
+    },
+    {
+     "t": 2.0,
+     "center": [
+      -77.0,
+      39.0
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 2.6,
+     "center": [
+      -76.9,
+      39.0
+     ],
+     "widthKm": 210
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -77.06,
+      38.87
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 1.2,
+     "label": "Washington, DC",
+     "size": 7
+    },
+    {
+     "at": [
+      -77.06,
+      38.87
+     ],
+     "color": "#FFFFFF",
+     "kind": "ring",
+     "t": 1.02,
+     "label": "The Pentagon: 6 warheads",
+     "size": 6
+    },
+    {
+     "at": [
+      -76.61,
+      39.29
+     ],
+     "color": "#FFFFFF",
+     "kind": "dot",
+     "t": 1.5,
+     "label": "Baltimore"
+    }
+   ],
+   "labels": [],
+   "rings": [],
+   "burst": {
+    "at": [
+     -77.06,
+     38.87
+    ],
+    "t": 0.5,
+    "km": 12,
+    "fade": 6
+   },
+   "clock": "T+17:12",
+   "clockLabel": "WASHINGTON",
+   "clockRate": 5,
+   "tag": "SIMULATION"
+  },
+  {
+   "id": "c4-kb",
+   "type": "globe",
+   "start": 5.05,
+   "end": 9.466,
+   "camera": [
+    {
+     "t": 0,
+     "lat": 33.0,
+     "lon": -90,
+     "scale": 3500
+    },
+    {
+     "t": 2.0,
+     "lat": 31.5,
+     "lon": -84,
+     "scale": 4500
+    },
+    {
+     "t": 4.42,
+     "lat": 31.0,
+     "lon": -81.5,
+     "scale": 5500
+    }
+   ],
+   "sun": {
+    "lat": -22.91,
+    "lon": -31.76
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -81.52,
+      30.8
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.44,
+     "label": "Kings Bay, Georgia",
+     "size": 6
+    },
+    {
+     "at": [
+      -81.2,
+      31.5
+     ],
+     "color": "#6EA8FF",
+     "kind": "sub",
+     "t": 2.27,
+     "label": "6 Ohio-class submarines",
+     "size": 5
+    }
+   ],
+   "clock": "T+18:00",
+   "clockLabel": "KINGS BAY",
+   "clockRate": 5,
+   "tag": "SIMULATION"
+  },
+  {
+   "id": "c4-kb-hit",
+   "type": "globe",
+   "start": 9.466,
+   "end": 11.688,
+   "camera": [
+    {
+     "t": 0,
+     "lat": 31.0,
+     "lon": -81.5,
+     "scale": 5500
+    },
+    {
+     "t": 2.22,
+     "lat": 32.0,
+     "lon": -79.0,
+     "scale": 3800
+    }
+   ],
+   "sun": {
+    "lat": -22.91,
+    "lon": -31.76
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -81.52,
+      30.8
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.1,
+     "label": "Kings Bay, minute 19",
+     "size": 6
+    },
+    {
+     "at": [
+      -81.09,
+      32.08
+     ],
+     "color": "#FFFFFF",
+     "kind": "dot",
+     "t": 0.9,
+     "label": "Savannah"
+    }
+   ],
+   "flashes": [
+    {
+     "at": [
+      -81.52,
+      30.8
+     ],
+     "t": 0.1,
+     "radius": 80,
+     "hold": 3
+    }
+   ],
+   "clock": "T+19:00",
+   "clockLabel": "MINUTE NINETEEN",
+   "clockRate": 5,
+   "tag": "SIMULATION"
+  },
+  {
+   "id": "c4-m25",
+   "type": "globe",
+   "start": 11.688,
+   "end": 14.706,
+   "camera": [
+    {
+     "t": 0,
+     "lat": 62.0,
+     "lon": 0,
+     "scale": 760
+    },
+    {
+     "t": 3.02,
+     "lat": 66.0,
+     "lon": 30,
+     "scale": 1100
+    }
+   ],
+   "sun": {
+    "lat": -22.91,
+    "lon": -31.76
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -15.0,
+      72.0
+     ],
+     "color": "#6EA8FF",
+     "kind": "sub",
+     "t": 0.3,
+     "label": "US submarines",
+     "size": 5
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -15.0,
+      72.0
+     ],
+     "to": [
+      33.3,
+      69.25
+     ],
+     "t0": -21.06,
+     "t1": 4.68,
+     "color": "#6EA8FF",
+     "loft": 0.12
+    },
+    {
+     "from": [
+      -175.0,
+      44.0
+     ],
+     "to": [
+      158.4,
+      52.93
+     ],
+     "t0": -21.06,
+     "t1": 7.36,
+     "color": "#6EA8FF",
+     "loft": 0.12
+    },
+    {
+     "from": [
+      -15.0,
+      72.0
+     ],
+     "to": [
+      40.3,
+      62.7
+     ],
+     "t0": -21.06,
+     "t1": 8.76,
+     "color": "#6EA8FF",
+     "loft": 0.12
+    },
+    {
+     "from": [
+      -15.0,
+      72.0
+     ],
+     "to": [
+      37.62,
+      55.75
+     ],
+     "t0": -21.06,
+     "t1": 9.87,
+     "color": "#6EA8FF",
+     "loft": 0.12
+    }
+   ],
+   "clock": "T+25:00",
+   "clockLabel": "MINUTES TWENTY-FIVE TO TWENTY-EIGHT",
+   "clockRate": 3,
+   "tag": "SIMULATION"
+  },
+  {
+   "id": "c4-sever",
+   "type": "globe",
+   "start": 14.706,
+   "end": 17.576,
+   "camera": [
+    {
+     "t": 0,
+     "lat": 67.0,
+     "lon": 25,
+     "scale": 2600
+    },
+    {
+     "t": 2.87,
+     "lat": 69.2,
+     "lon": 33.3,
+     "scale": 4300
+    }
+   ],
+   "sun": {
+    "lat": -22.91,
+    "lon": -31.76
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      33.3,
+      69.25
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.2,
+     "label": "Northern Fleet base, Murmansk",
+     "size": 6
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -15.0,
+      72.0
+     ],
+     "to": [
+      33.3,
+      69.25
+     ],
+     "t0": -24.08,
+     "t1": 1.66,
+     "color": "#6EA8FF",
+     "loft": 0.12
+    }
+   ],
+   "flashes": [
+    {
+     "at": [
+      33.3,
+      69.25
+     ],
+     "t": 1.71,
+     "radius": 70,
+     "hold": 3
+    }
+   ],
+   "clock": "T+25:00",
+   "clockLabel": "SIMULATION CLOCK",
+   "clockRate": 3,
+   "tag": "SIMULATION"
+  },
+  {
+   "id": "c4-vilyu",
+   "type": "globe",
+   "start": 17.576,
+   "end": 20.25,
+   "camera": [
+    {
+     "t": 0,
+     "lat": 56.0,
+     "lon": 150,
+     "scale": 2800
+    },
+    {
+     "t": 2.67,
+     "lat": 53.0,
+     "lon": 158.4,
+     "scale": 4500
+    }
+   ],
+   "sun": {
+    "lat": -22.91,
+    "lon": -31.76
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      158.4,
+      52.93
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.15,
+     "label": "Pacific Fleet base, Vilyuchinsk",
+     "size": 6
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -175.0,
+      44.0
+     ],
+     "to": [
+      158.4,
+      52.93
+     ],
+     "t0": -26.95,
+     "t1": 1.47,
+     "color": "#6EA8FF",
+     "loft": 0.12
+    }
+   ],
+   "flashes": [
+    {
+     "at": [
+      158.4,
+      52.93
+     ],
+     "t": 1.52,
+     "radius": 70,
+     "hold": 3
+    }
+   ],
+   "clock": "T+25:42",
+   "clockLabel": "SIMULATION CLOCK",
+   "clockRate": 3,
+   "tag": "SIMULATION"
+  },
+  {
+   "id": "c4-plesetsk",
+   "type": "globe",
+   "start": 20.25,
+   "end": 24.216,
+   "camera": [
+    {
+     "t": 0,
+     "lat": 60.0,
+     "lon": 36,
+     "scale": 2100
+    },
+    {
+     "t": 1.5,
+     "lat": 58.5,
+     "lon": 38,
+     "scale": 2900
+    },
+    {
+     "t": 3.97,
+     "lat": 57.0,
+     "lon": 38,
+     "scale": 3600
+    }
+   ],
+   "sun": {
+    "lat": -22.91,
+    "lon": -31.76
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      40.3,
+      62.7
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.2,
+     "label": "Plesetsk",
+     "size": 6
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 1.31,
+     "label": "Moscow command centres",
+     "size": 6
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -15.0,
+      72.0
+     ],
+     "to": [
+      40.3,
+      62.7
+     ],
+     "t0": -29.62,
+     "t1": 0.2,
+     "color": "#6EA8FF",
+     "loft": 0.12
+    },
+    {
+     "from": [
+      -15.0,
+      72.0
+     ],
+     "to": [
+      37.62,
+      55.75
+     ],
+     "t0": -29.62,
+     "t1": 1.31,
+     "color": "#6EA8FF",
+     "loft": 0.12
+    }
+   ],
+   "flashes": [
+    {
+     "at": [
+      40.3,
+      62.7
+     ],
+     "t": 0.25,
+     "radius": 60
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "t": 1.36,
+     "radius": 60
+    }
+   ],
+   "clock": "T+26:24",
+   "clockLabel": "SIMULATION CLOCK",
+   "clockRate": 3,
+   "tag": "SIMULATION"
+  },
+  {
+   "id": "c4-m29",
+   "type": "globe",
+   "start": 24.216,
+   "end": 28.055,
+   "camera": [
+    {
+     "t": 0,
+     "lat": 55.0,
+     "lon": 30,
+     "scale": 700
+    },
+    {
+     "t": 3.84,
+     "lat": 56.0,
+     "lon": -30,
+     "scale": 760
+    }
+   ],
+   "sun": {
+    "lat": -22.91,
+    "lon": -31.76
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      60.0,
+      56.0
+     ],
+     "color": "#F2B01E",
+     "kind": "ring",
+     "t": 0.8,
+     "label": "Russian land missiles",
+     "size": 6
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      35.78,
+      54.03
+     ],
+     "to": [
+      -101.36,
+      48.42
+     ],
+     "t0": -106.13,
+     "t1": 27.11,
+     "color": "#F2B01E",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      82.9,
+      55.0
+     ],
+     "to": [
+      -111.19,
+      47.5
+     ],
+     "t0": -106.13,
+     "t1": 28.09,
+     "color": "#F2B01E",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      40.55,
+      56.85
+     ],
+     "to": [
+      -104.85,
+      38.74
+     ],
+     "t0": -106.13,
+     "t1": 29.83,
+     "color": "#F2B01E",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      45.58,
+      51.67
+     ],
+     "to": [
+      -104.87,
+      41.15
+     ],
+     "t0": -106.13,
+     "t1": 28.87,
+     "color": "#F2B01E",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      59.84,
+      51.09
+     ],
+     "to": [
+      -95.9145,
+      41.1183
+     ],
+     "t0": -106.13,
+     "t1": 31.43,
+     "color": "#F2B01E",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      104.3,
+      52.3
+     ],
+     "to": [
+      -93.55,
+      38.73
+     ],
+     "t0": -106.13,
+     "t1": 32.17,
+     "color": "#F2B01E",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      104.3,
+      52.3
+     ],
+     "to": [
+      -93.66,
+      32.5
+     ],
+     "t0": -106.13,
+     "t1": 32.17,
+     "color": "#F2B01E",
+     "loft": 0.2
+    }
+   ],
+   "clock": "T+29:00",
+   "clockLabel": "MINUTES TWENTY-NINE TO THIRTY-SIX",
+   "clockRate": 5,
+   "tag": "SIMULATION"
+  },
+  {
+   "id": "c4-30min",
+   "type": "globe",
+   "start": 28.055,
+   "end": 33.316,
+   "camera": [
+    {
+     "t": 0,
+     "lat": 58.0,
+     "lon": -20,
+     "scale": 820
+    },
+    {
+     "t": 2.2,
+     "lat": 52.0,
+     "lon": -50,
+     "scale": 900
+    },
+    {
+     "t": 5.94,
+     "lat": 48.0,
+     "lon": -80,
+     "scale": 1100
+    }
+   ],
+   "sun": {
+    "lat": -22.91,
+    "lon": -31.76
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -60.0,
+      56.0
+     ],
+     "color": "#F2B01E",
+     "kind": "ring",
+     "t": 1.87,
+     "label": "About 30 minutes in flight",
+     "size": 6
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      35.78,
+      54.03
+     ],
+     "to": [
+      -101.36,
+      48.42
+     ],
+     "t0": -109.97,
+     "t1": 23.27,
+     "color": "#F2B01E",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      82.9,
+      55.0
+     ],
+     "to": [
+      -111.19,
+      47.5
+     ],
+     "t0": -109.97,
+     "t1": 24.25,
+     "color": "#F2B01E",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      40.55,
+      56.85
+     ],
+     "to": [
+      -104.85,
+      38.74
+     ],
+     "t0": -109.97,
+     "t1": 25.99,
+     "color": "#F2B01E",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      45.58,
+      51.67
+     ],
+     "to": [
+      -104.87,
+      41.15
+     ],
+     "t0": -109.97,
+     "t1": 25.03,
+     "color": "#F2B01E",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      59.84,
+      51.09
+     ],
+     "to": [
+      -95.9145,
+      41.1183
+     ],
+     "t0": -109.97,
+     "t1": 27.59,
+     "color": "#F2B01E",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      104.3,
+      52.3
+     ],
+     "to": [
+      -93.55,
+      38.73
+     ],
+     "t0": -109.97,
+     "t1": 28.33,
+     "color": "#F2B01E",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      104.3,
+      52.3
+     ],
+     "to": [
+      -93.66,
+      32.5
+     ],
+     "t0": -109.97,
+     "t1": 28.33,
+     "color": "#F2B01E",
+     "loft": 0.2
+    }
+   ],
+   "clock": "T+29:30",
+   "clockLabel": "SIMULATION CLOCK",
+   "clockRate": 5,
+   "tag": "SIMULATION"
+  }
+ ],
+ "shortTitle": [
+  "SIX WARHEADS",
+  "ON WASHINGTON"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

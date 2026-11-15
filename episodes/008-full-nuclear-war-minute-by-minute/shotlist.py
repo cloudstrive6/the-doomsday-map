@@ -244,7 +244,7 @@ G("p04-one", W("p04", "How") - 0.1, [("s", 52.0, 14, 2300), ("e", 51.5, 14, 2900
   marks=[M(W("p04", "missile") - 0.4, KALININGRAD, "Kaliningrad (launch simulated)", AMBER, "base", 5), M(W("p04", "missile") + 0.3, RAMSTEIN, "Ramstein Air Base", RED, "target", 6)],
   arcs=[{"from": KALININGRAD, "to": RAMSTEIN, "t0": round(W("p04", "one") - CUR, 2), "t1": 5.4, "color": AMBER, "loft": 0.1}], **clk(0.0, 90, "MINUTE ZERO"))
 G("p04-pull", S("p05"), [("s", 50.5, 14, 2400), ("e", 42.0, -30, 650)],
-  marks=[M(W("p04", "become"), BANGOR, "Bangor", RED, "target", 6), M(W("p04", "this") + 0.2, BEALE, "Beale", RED, "target", 5)], **clk(53.0, 0, "UNDER AN HOUR"))
+  marks=[M(W("p04", "become"), BANGOR, None, RED, "target", 6), M(W("p04", "this") + 0.2, BEALE, None, RED, "target", 5)], **clk(53.0, 0, "UNDER AN HOUR"))
 
 # ================================================================== Chapter 01 [REAL DATA]
 chapter("c1-card", 1, "The real forces")

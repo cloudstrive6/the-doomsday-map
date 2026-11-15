@@ -1,0 +1,1787 @@
+{
+ "subtitles": [
+  {
+   "start": 0.527,
+   "end": 2.445,
+   "text": "Minutes 39 to 43."
+  },
+  {
+   "start": 3.075,
+   "end": 4.415,
+   "text": "The American missiles arrive"
+  },
+  {
+   "start": 4.415,
+   "end": 6.225,
+   "text": "at Russian missile divisions:"
+  },
+  {
+   "start": 6.407,
+   "end": 14.525,
+   "text": "Kozelsk, Teykovo, Tatishchevo, Novosibirsk, Uzhur, Dombarovsky."
+  },
+  {
+   "start": 15.366,
+   "end": 16.365,
+   "text": "Minute 40."
+  },
+  {
+   "start": 16.873,
+   "end": 19.524,
+   "text": "The last submarines fire at cities,"
+  },
+  {
+   "start": 19.524,
+   "end": 20.515,
+   "text": "the final phase in"
+  },
+  {
+   "start": 20.515,
+   "end": 21.825,
+   "text": "Plan A as well."
+  },
+  {
+   "start": 22.434,
+   "end": 24.33,
+   "text": "New York, Los Angeles,"
+  },
+  {
+   "start": 24.33,
+   "end": 25.915,
+   "text": "Saint Petersburg and Moscow"
+  },
+  {
+   "start": 25.915,
+   "end": 27.895,
+   "text": "take eight warheads each,"
+  },
+  {
+   "start": 27.895,
+   "end": 29.065,
+   "text": "a count we chose."
+  },
+  {
+   "start": 29.391,
+   "end": 30.415,
+   "text": "The last impact is"
+  },
+  {
+   "start": 30.415,
+   "end": 31.685,
+   "text": "at minute 53."
+  },
+  {
+   "start": 32.636,
+   "end": 33.655,
+   "text": "In all,"
+  },
+  {
+   "start": 33.655,
+   "end": 36.775,
+   "text": "the engine counts 27 strikes and"
+  },
+  {
+   "start": 36.775,
+   "end": 39.645,
+   "text": "375 warheads,"
+  },
+  {
+   "start": 39.851,
+   "end": 42.296,
+   "text": "about 79 megatons,"
+  },
+  {
+   "start": 42.296,
+   "end": 44.065,
+   "text": "in 53 minutes."
+  },
+  {
+   "start": 44.562,
+   "end": 45.515,
+   "text": "That is the whole"
+  },
+  {
+   "start": 45.515,
+   "end": 46.745,
+   "text": "of our hour."
+  }
+ ],
+ "slug": "008-full-nuclear-war-minute-by-minute-s3",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 46.775,
+ "shots": [
+  {
+   "id": "c4-m39",
+   "type": "globe",
+   "start": 0.0,
+   "end": 5.957,
+   "camera": [
+    {
+     "t": 0,
+     "lat": 52.0,
+     "lon": 20,
+     "scale": 1300
+    },
+    {
+     "t": 5.96,
+     "lat": 55.0,
+     "lon": 40,
+     "scale": 1800
+    }
+   ],
+   "sun": {
+    "lat": -22.91,
+    "lon": -31.76
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -60.0,
+      52.0
+     ],
+     "color": "#6EA8FF",
+     "kind": "ring",
+     "t": 3.23,
+     "label": "American missiles inbound",
+     "size": 6
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "color": "#FFFFFF",
+     "kind": "dot",
+     "t": 5.02,
+     "label": "Moscow",
+     "size": 5
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -101.36,
+      48.42
+     ],
+     "to": [
+      35.78,
+      54.03
+     ],
+     "t0": -121.98,
+     "t1": 6.26,
+     "color": "#6EA8FF",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      -101.36,
+      48.42
+     ],
+     "to": [
+      89.83,
+      55.32
+     ],
+     "t0": -121.98,
+     "t1": 12.08,
+     "color": "#6EA8FF",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      -111.19,
+      47.5
+     ],
+     "to": [
+      82.9,
+      55.0
+     ],
+     "t0": -121.98,
+     "t1": 10.64,
+     "color": "#6EA8FF",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      -104.87,
+      41.15
+     ],
+     "to": [
+      40.55,
+      56.85
+     ],
+     "t0": -121.98,
+     "t1": 7.61,
+     "color": "#6EA8FF",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      -111.19,
+      47.5
+     ],
+     "to": [
+      45.58,
+      51.67
+     ],
+     "t0": -121.98,
+     "t1": 9.0,
+     "color": "#6EA8FF",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      -104.87,
+      41.15
+     ],
+     "to": [
+      59.84,
+      51.09
+     ],
+     "t0": -121.98,
+     "t1": 13.13,
+     "color": "#6EA8FF",
+     "loft": 0.2
+    }
+   ],
+   "clock": "T+39:00",
+   "clockLabel": "MINUTES THIRTY-NINE TO FORTY-THREE",
+   "clockRate": 4,
+   "tag": "SIMULATION"
+  },
+  {
+   "id": "c4-west",
+   "type": "globe",
+   "start": 5.957,
+   "end": 10.391,
+   "camera": [
+    {
+     "t": 0,
+     "lat": 56.0,
+     "lon": 36,
+     "scale": 2900
+    },
+    {
+     "t": 4.43,
+     "lat": 54.0,
+     "lon": 44,
+     "scale": 3100
+    }
+   ],
+   "sun": {
+    "lat": -22.91,
+    "lon": -31.76
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      35.78,
+      54.03
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.3,
+     "label": "Kozelsk",
+     "size": 6
+    },
+    {
+     "at": [
+      40.55,
+      56.85
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 1.65,
+     "label": "Teykovo",
+     "size": 6
+    },
+    {
+     "at": [
+      45.58,
+      51.67
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 3.04,
+     "label": "Tatishchevo",
+     "size": 6
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -101.36,
+      48.42
+     ],
+     "to": [
+      35.78,
+      54.03
+     ],
+     "t0": -127.93,
+     "t1": 0.3,
+     "color": "#6EA8FF",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      -104.87,
+      41.15
+     ],
+     "to": [
+      40.55,
+      56.85
+     ],
+     "t0": -127.93,
+     "t1": 1.65,
+     "color": "#6EA8FF",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      -111.19,
+      47.5
+     ],
+     "to": [
+      45.58,
+      51.67
+     ],
+     "t0": -127.93,
+     "t1": 3.04,
+     "color": "#6EA8FF",
+     "loft": 0.2
+    }
+   ],
+   "flashes": [
+    {
+     "at": [
+      35.78,
+      54.03
+     ],
+     "t": 0.35,
+     "radius": 60
+    },
+    {
+     "at": [
+      40.55,
+      56.85
+     ],
+     "t": 1.7,
+     "radius": 60
+    },
+    {
+     "at": [
+      45.58,
+      51.67
+     ],
+     "t": 3.09,
+     "radius": 60
+    }
+   ],
+   "clock": "T+40:30",
+   "clockLabel": "WESTERN RUSSIA",
+   "clockRate": 4,
+   "tag": "SIMULATION"
+  },
+  {
+   "id": "c4-east",
+   "type": "globe",
+   "start": 10.391,
+   "end": 12.879,
+   "camera": [
+    {
+     "t": 0,
+     "lat": 56.0,
+     "lon": 72,
+     "scale": 2500
+    },
+    {
+     "t": 2.49,
+     "lat": 55.0,
+     "lon": 88,
+     "scale": 3300
+    }
+   ],
+   "sun": {
+    "lat": -22.91,
+    "lon": -31.76
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      82.9,
+      55.0
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.25,
+     "label": "Novosibirsk",
+     "size": 6
+    },
+    {
+     "at": [
+      89.83,
+      55.32
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 1.69,
+     "label": "Uzhur",
+     "size": 6
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -101.36,
+      48.42
+     ],
+     "to": [
+      89.83,
+      55.32
+     ],
+     "t0": -132.37,
+     "t1": 1.69,
+     "color": "#6EA8FF",
+     "loft": 0.2
+    },
+    {
+     "from": [
+      -111.19,
+      47.5
+     ],
+     "to": [
+      82.9,
+      55.0
+     ],
+     "t0": -132.37,
+     "t1": 0.25,
+     "color": "#6EA8FF",
+     "loft": 0.2
+    }
+   ],
+   "flashes": [
+    {
+     "at": [
+      82.9,
+      55.0
+     ],
+     "t": 0.3,
+     "radius": 60
+    },
+    {
+     "at": [
+      89.83,
+      55.32
+     ],
+     "t": 1.74,
+     "radius": 60
+    }
+   ],
+   "clock": "T+40:12",
+   "clockLabel": "SIBERIA",
+   "clockRate": 4,
+   "tag": "SIMULATION"
+  },
+  {
+   "id": "c4-ural",
+   "type": "globe",
+   "start": 12.879,
+   "end": 15.104,
+   "camera": [
+    {
+     "t": 0,
+     "lat": 52.0,
+     "lon": 62,
+     "scale": 3600
+    },
+    {
+     "t": 2.22,
+     "lat": 51.1,
+     "lon": 59.8,
+     "scale": 5200
+    }
+   ],
+   "sun": {
+    "lat": -22.91,
+    "lon": -31.76
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      59.84,
+      51.09
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.25,
+     "label": "Dombarovsky",
+     "size": 6
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -104.87,
+      41.15
+     ],
+     "to": [
+      59.84,
+      51.09
+     ],
+     "t0": -134.85,
+     "t1": 0.25,
+     "color": "#6EA8FF",
+     "loft": 0.2
+    }
+   ],
+   "flashes": [
+    {
+     "at": [
+      59.84,
+      51.09
+     ],
+     "t": 0.3,
+     "radius": 70
+    }
+   ],
+   "clock": "T+43:06",
+   "clockLabel": "THE URALS",
+   "clockRate": 4,
+   "tag": "SIMULATION"
+  },
+  {
+   "id": "c4-m40",
+   "type": "globe",
+   "start": 15.104,
+   "end": 18.345,
+   "camera": [
+    {
+     "t": 0,
+     "lat": 45.0,
+     "lon": -40,
+     "scale": 700
+    },
+    {
+     "t": 3.24,
+     "lat": 48.0,
+     "lon": 0,
+     "scale": 760
+    }
+   ],
+   "sun": {
+    "lat": -22.91,
+    "lon": -31.76
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -40.0,
+      40.0
+     ],
+     "color": "#F2B01E",
+     "kind": "sub",
+     "t": 1.84,
+     "label": "Last submarines",
+     "size": 5
+    },
+    {
+     "at": [
+      -15.0,
+      72.0
+     ],
+     "color": "#6EA8FF",
+     "kind": "sub",
+     "t": 2.14,
+     "label": "Last submarines",
+     "size": 5
+    },
+    {
+     "at": [
+      -155.0,
+      42.0
+     ],
+     "color": "#F2B01E",
+     "kind": "sub",
+     "t": 2.44,
+     "label": "Last submarines",
+     "size": 5
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -15.0,
+      72.0
+     ],
+     "to": [
+      30.33,
+      59.93
+     ],
+     "t0": 2.78,
+     "t1": 9.3,
+     "color": "#6EA8FF",
+     "loft": 0.12
+    },
+    {
+     "from": [
+      -40.0,
+      40.0
+     ],
+     "to": [
+      -74.0,
+      40.71
+     ],
+     "t0": 2.78,
+     "t1": 7.32,
+     "color": "#F2B01E",
+     "loft": 0.12
+    },
+    {
+     "from": [
+      -15.0,
+      72.0
+     ],
+     "to": [
+      37.62,
+      55.75
+     ],
+     "t0": 2.78,
+     "t1": 10.1,
+     "color": "#6EA8FF",
+     "loft": 0.12
+    },
+    {
+     "from": [
+      -155.0,
+      42.0
+     ],
+     "to": [
+      -118.24,
+      34.05
+     ],
+     "t0": 2.78,
+     "t1": 8.14,
+     "color": "#F2B01E",
+     "loft": 0.12
+    }
+   ],
+   "clock": "T+40:00",
+   "clockLabel": "MINUTE FORTY",
+   "clockRate": 5,
+   "tag": "SIMULATION"
+  },
+  {
+   "id": "c4-planA",
+   "type": "globe",
+   "start": 18.345,
+   "end": 22.084,
+   "camera": [
+    {
+     "t": 0,
+     "lat": 50.0,
+     "lon": -20,
+     "scale": 700
+    },
+    {
+     "t": 1.8,
+     "lat": 52.0,
+     "lon": -5,
+     "scale": 780
+    },
+    {
+     "t": 3.74,
+     "lat": 54.0,
+     "lon": 10,
+     "scale": 880
+    }
+   ],
+   "sun": {
+    "lat": -22.91,
+    "lon": -31.76
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -10.0,
+      58.0
+     ],
+     "color": "#FFD23F",
+     "kind": "ring",
+     "t": 1.02,
+     "label": "Plan A, last phase: cities",
+     "size": 6
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -15.0,
+      72.0
+     ],
+     "to": [
+      30.33,
+      59.93
+     ],
+     "t0": -0.46,
+     "t1": 6.06,
+     "color": "#6EA8FF",
+     "loft": 0.12
+    },
+    {
+     "from": [
+      -40.0,
+      40.0
+     ],
+     "to": [
+      -74.0,
+      40.71
+     ],
+     "t0": -0.46,
+     "t1": 4.08,
+     "color": "#F2B01E",
+     "loft": 0.12
+    },
+    {
+     "from": [
+      -15.0,
+      72.0
+     ],
+     "to": [
+      37.62,
+      55.75
+     ],
+     "t0": -0.46,
+     "t1": 6.86,
+     "color": "#6EA8FF",
+     "loft": 0.12
+    },
+    {
+     "from": [
+      -155.0,
+      42.0
+     ],
+     "to": [
+      -118.24,
+      34.05
+     ],
+     "t0": -0.46,
+     "t1": 4.9,
+     "color": "#F2B01E",
+     "loft": 0.12
+    }
+   ],
+   "clock": "T+43:00",
+   "clockLabel": "SIMULATION CLOCK",
+   "clockRate": 5,
+   "tag": "SIMULATION"
+  },
+  {
+   "id": "c4-cities",
+   "type": "globe",
+   "start": 22.084,
+   "end": 25.885,
+   "camera": [
+    {
+     "t": 0,
+     "lat": 54.0,
+     "lon": -40,
+     "scale": 640
+    },
+    {
+     "t": 2.0,
+     "lat": 50.0,
+     "lon": -5,
+     "scale": 700
+    },
+    {
+     "t": 3.8,
+     "lat": 53.0,
+     "lon": 28,
+     "scale": 760
+    }
+   ],
+   "sun": {
+    "lat": -22.91,
+    "lon": -31.76
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -74.0,
+      40.71
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.34,
+     "label": "New York",
+     "size": 6
+    },
+    {
+     "at": [
+      -118.24,
+      34.05
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 1.16,
+     "label": "Los Angeles",
+     "size": 6
+    },
+    {
+     "at": [
+      30.33,
+      59.93
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 2.32,
+     "label": "Saint Petersburg",
+     "size": 6
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 3.12,
+     "label": "Moscow",
+     "size": 6
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -15.0,
+      72.0
+     ],
+     "to": [
+      30.33,
+      59.93
+     ],
+     "t0": -4.2,
+     "t1": 2.32,
+     "color": "#6EA8FF",
+     "loft": 0.12
+    },
+    {
+     "from": [
+      -40.0,
+      40.0
+     ],
+     "to": [
+      -74.0,
+      40.71
+     ],
+     "t0": -4.2,
+     "t1": 0.34,
+     "color": "#F2B01E",
+     "loft": 0.12
+    },
+    {
+     "from": [
+      -15.0,
+      72.0
+     ],
+     "to": [
+      37.62,
+      55.75
+     ],
+     "t0": -4.2,
+     "t1": 3.12,
+     "color": "#6EA8FF",
+     "loft": 0.12
+    },
+    {
+     "from": [
+      -155.0,
+      42.0
+     ],
+     "to": [
+      -118.24,
+      34.05
+     ],
+     "t0": -4.2,
+     "t1": 1.16,
+     "color": "#F2B01E",
+     "loft": 0.12
+    }
+   ],
+   "flashes": [
+    {
+     "at": [
+      -74.0,
+      40.71
+     ],
+     "t": 0.39,
+     "radius": 34
+    },
+    {
+     "at": [
+      -118.24,
+      34.05
+     ],
+     "t": 1.21,
+     "radius": 34
+    },
+    {
+     "at": [
+      30.33,
+      59.93
+     ],
+     "t": 2.3699999999999997,
+     "radius": 34
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "t": 3.17,
+     "radius": 34
+    }
+   ],
+   "clock": "T+50:06",
+   "clockLabel": "THE CITIES",
+   "clockRate": 6,
+   "tag": "SIMULATION"
+  },
+  {
+   "id": "c4-eight",
+   "type": "globe",
+   "start": 25.885,
+   "end": 29.175,
+   "camera": [
+    {
+     "t": 0,
+     "lat": 42.0,
+     "lon": -95,
+     "scale": 1100
+    },
+    {
+     "t": 3.29,
+     "lat": 52.0,
+     "lon": -10,
+     "scale": 800
+    }
+   ],
+   "sun": {
+    "lat": -22.91,
+    "lon": -31.76
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -74.0,
+      40.71
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.4,
+     "label": "8 warheads",
+     "size": 6
+    },
+    {
+     "at": [
+      -118.24,
+      34.05
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.8,
+     "label": "8 warheads",
+     "size": 6
+    },
+    {
+     "at": [
+      10.0,
+      62.0
+     ],
+     "color": "#FFD23F",
+     "kind": "ring",
+     "t": 1.52,
+     "label": "8 each: a count we chose",
+     "size": 6
+    }
+   ],
+   "caption": "Eight warheads each: a count we chose",
+   "clock": "T+52:00",
+   "clockLabel": "SIMULATION CLOCK",
+   "clockRate": 5,
+   "tag": "SIMULATION"
+  },
+  {
+   "id": "c4-last",
+   "type": "globe",
+   "start": 29.175,
+   "end": 32.224,
+   "camera": [
+    {
+     "t": 0,
+     "lat": 36.0,
+     "lon": -128,
+     "scale": 2000
+    },
+    {
+     "t": 3.05,
+     "lat": 36.0,
+     "lon": -116,
+     "scale": 3200
+    }
+   ],
+   "sun": {
+    "lat": -22.91,
+    "lon": -31.76
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -118.24,
+      34.05
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.0,
+     "label": "Last impact: Los Angeles",
+     "size": 6
+    }
+   ],
+   "flashes": [
+    {
+     "at": [
+      -118.24,
+      34.05
+     ],
+     "t": 0.3,
+     "radius": 60,
+     "hold": 3
+    }
+   ],
+   "clock": "T+52:24",
+   "clockLabel": "MINUTE FIFTY-THREE",
+   "clockRate": 3,
+   "tag": "SIMULATION"
+  },
+  {
+   "id": "c4-27",
+   "type": "globe",
+   "start": 32.224,
+   "end": 36.325,
+   "camera": [
+    {
+     "t": 0,
+     "lat": 52.0,
+     "lon": -25,
+     "scale": 640
+    },
+    {
+     "t": 4.1,
+     "lat": 52.0,
+     "lon": 20,
+     "scale": 740
+    }
+   ],
+   "sun": {
+    "lat": -22.91,
+    "lon": -31.76
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 2.38,
+     "size": 5
+    },
+    {
+     "at": [
+      -70.54,
+      41.75
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 2.45,
+     "size": 5
+    },
+    {
+     "at": [
+      -122.72,
+      47.72
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 2.52,
+     "size": 5
+    },
+    {
+     "at": [
+      -121.44,
+      39.14
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 2.59,
+     "size": 5
+    },
+    {
+     "at": [
+      -77.06,
+      38.87
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 2.66,
+     "size": 5
+    },
+    {
+     "at": [
+      -81.52,
+      30.8
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 2.73,
+     "size": 5
+    },
+    {
+     "at": [
+      33.3,
+      69.25
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 2.8,
+     "size": 5
+    },
+    {
+     "at": [
+      158.4,
+      52.93
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 2.87,
+     "size": 5
+    },
+    {
+     "at": [
+      40.3,
+      62.7
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 2.94,
+     "size": 5
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 3.01,
+     "size": 5
+    },
+    {
+     "at": [
+      -101.36,
+      48.42
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 3.08,
+     "size": 5
+    },
+    {
+     "at": [
+      -111.19,
+      47.5
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 3.15,
+     "size": 5
+    },
+    {
+     "at": [
+      -104.85,
+      38.74
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 3.22,
+     "size": 5
+    },
+    {
+     "at": [
+      -104.87,
+      41.15
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 3.29,
+     "size": 5
+    },
+    {
+     "at": [
+      -95.9145,
+      41.1183
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 3.36,
+     "size": 5
+    },
+    {
+     "at": [
+      -93.55,
+      38.73
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 3.43,
+     "size": 5
+    },
+    {
+     "at": [
+      -93.66,
+      32.5
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 3.5,
+     "size": 5
+    },
+    {
+     "at": [
+      35.78,
+      54.03
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 3.57,
+     "size": 5
+    },
+    {
+     "at": [
+      89.83,
+      55.32
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 3.64,
+     "size": 5
+    },
+    {
+     "at": [
+      82.9,
+      55.0
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 3.71,
+     "size": 5
+    },
+    {
+     "at": [
+      40.55,
+      56.85
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 3.78,
+     "size": 5
+    },
+    {
+     "at": [
+      45.58,
+      51.67
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 3.85,
+     "size": 5
+    },
+    {
+     "at": [
+      59.84,
+      51.09
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 3.92,
+     "size": 5
+    },
+    {
+     "at": [
+      30.33,
+      59.93
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 3.99,
+     "size": 5
+    },
+    {
+     "at": [
+      -74.0,
+      40.71
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 4.06,
+     "size": 5
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 4.13,
+     "size": 5
+    },
+    {
+     "at": [
+      -118.24,
+      34.05
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 4.2,
+     "size": 5
+    }
+   ],
+   "caption": "27 strikes",
+   "clock": "T+53:00",
+   "clockLabel": "THE WHOLE HOUR",
+   "clockRate": 0,
+   "tag": "SIMULATION"
+  },
+  {
+   "id": "c4-375",
+   "start": 36.325,
+   "end": 39.401,
+   "type": "number",
+   "value": "375 WARHEADS",
+   "countTo": 375,
+   "suffix": " WARHEADS",
+   "label": "in the simulation's 27 strikes",
+   "sub": "a selection of the first hour",
+   "color": "#FF3B3B",
+   "source": "Scenario engine",
+   "tag": "SIMULATION"
+  },
+  {
+   "id": "c4-79",
+   "type": "globe",
+   "start": 39.401,
+   "end": 44.012,
+   "camera": [
+    {
+     "t": 0,
+     "lat": 54.0,
+     "lon": -50,
+     "scale": 640
+    },
+    {
+     "t": 4.61,
+     "lat": 52.0,
+     "lon": 10,
+     "scale": 740
+    }
+   ],
+   "sun": {
+    "lat": -22.91,
+    "lon": -31.76
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "flashes": [
+    {
+     "at": [
+      -70.54,
+      41.75
+     ],
+     "t": 1.22,
+     "radius": 30
+    },
+    {
+     "at": [
+      -122.72,
+      47.72
+     ],
+     "t": 1.23,
+     "radius": 30
+    },
+    {
+     "at": [
+      -121.44,
+      39.14
+     ],
+     "t": 1.27,
+     "radius": 30
+    },
+    {
+     "at": [
+      -77.06,
+      38.87
+     ],
+     "t": 1.33,
+     "radius": 30
+    },
+    {
+     "at": [
+      -81.52,
+      30.8
+     ],
+     "t": 1.45,
+     "radius": 30
+    },
+    {
+     "at": [
+      33.3,
+      69.25
+     ],
+     "t": 1.83,
+     "radius": 30
+    },
+    {
+     "at": [
+      158.4,
+      52.93
+     ],
+     "t": 1.91,
+     "radius": 30
+    },
+    {
+     "at": [
+      40.3,
+      62.7
+     ],
+     "t": 1.96,
+     "radius": 30
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "t": 2.05,
+     "radius": 30
+    },
+    {
+     "at": [
+      -101.36,
+      48.42
+     ],
+     "t": 2.18,
+     "radius": 30
+    },
+    {
+     "at": [
+      -111.19,
+      47.5
+     ],
+     "t": 2.29,
+     "radius": 30
+    },
+    {
+     "at": [
+      -104.85,
+      38.74
+     ],
+     "t": 2.35,
+     "radius": 30
+    },
+    {
+     "at": [
+      -104.87,
+      41.15
+     ],
+     "t": 2.42,
+     "radius": 30
+    },
+    {
+     "at": [
+      -95.9145,
+      41.1183
+     ],
+     "t": 2.46,
+     "radius": 30
+    },
+    {
+     "at": [
+      -93.55,
+      38.73
+     ],
+     "t": 2.5,
+     "radius": 30
+    },
+    {
+     "at": [
+      -93.66,
+      32.5
+     ],
+     "t": 2.62,
+     "radius": 30
+    },
+    {
+     "at": [
+      35.78,
+      54.03
+     ],
+     "t": 2.79,
+     "radius": 30
+    },
+    {
+     "at": [
+      89.83,
+      55.32
+     ],
+     "t": 2.88,
+     "radius": 30
+    },
+    {
+     "at": [
+      82.9,
+      55.0
+     ],
+     "t": 2.9,
+     "radius": 30
+    },
+    {
+     "at": [
+      40.55,
+      56.85
+     ],
+     "t": 2.92,
+     "radius": 30
+    },
+    {
+     "at": [
+      45.58,
+      51.67
+     ],
+     "t": 2.94,
+     "radius": 30
+    },
+    {
+     "at": [
+      59.84,
+      51.09
+     ],
+     "t": 3.1,
+     "radius": 30
+    },
+    {
+     "at": [
+      30.33,
+      59.93
+     ],
+     "t": 3.58,
+     "radius": 30
+    },
+    {
+     "at": [
+      -74.0,
+      40.71
+     ],
+     "t": 3.67,
+     "radius": 30
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "t": 3.7,
+     "radius": 30
+    },
+    {
+     "at": [
+      -118.24,
+      34.05
+     ],
+     "t": 3.75,
+     "radius": 30
+    }
+   ],
+   "caption": "About 79 megatons in 53 minutes",
+   "clock": "T+00:00",
+   "clockLabel": "THE WHOLE HOUR",
+   "clockRate": 800,
+   "tag": "SIMULATION"
+  },
+  {
+   "id": "c4-hour",
+   "type": "globe",
+   "start": 44.012,
+   "end": 46.775,
+   "camera": [
+    {
+     "t": 0,
+     "lat": 50.0,
+     "lon": -10,
+     "scale": 700
+    },
+    {
+     "t": 3.32,
+     "lat": 46.0,
+     "lon": -60,
+     "scale": 640
+    }
+   ],
+   "sun": {
+    "lat": -22.91,
+    "lon": -31.76
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.0,
+     "size": 5
+    }
+   ],
+   "caption": "That is the whole of our hour.",
+   "clock": "T+53:00",
+   "clockLabel": "MINUTE FIFTY-THREE",
+   "clockRate": 0,
+   "tag": "SIMULATION"
+  }
+ ],
+ "shortTitle": [
+  "8 WARHEADS EACH",
+  "ON FOUR CITIES"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

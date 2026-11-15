@@ -54,7 +54,17 @@
       "stage": "visual_approved",
       "note": "round 3",
       "at": "2026-11-15T22:39:25+00:00"
+    },
+    {
+      "stage": "packaged",
+      "note": "metadata, thumbs (orbit/map/control-room), shorts",
+      "at": "2026-11-15T22:42:28+00:00"
+    },
+    {
+      "stage": "packaged",
+      "note": "all gates passed",
+      "at": "2026-11-15T22:47:27+00:00"
     }
   ],
-  "stage": "visual_approved"
+  "stage": "packaged"
 }

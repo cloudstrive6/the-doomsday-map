@@ -1137,7 +1137,6 @@
      "color": "#FF3B3B",
      "kind": "target",
      "t": 1.03,
-     "label": "Bangor",
      "size": 6
     },
     {
@@ -1148,7 +1147,6 @@
      "color": "#FF3B3B",
      "kind": "target",
      "t": 1.63,
-     "label": "Beale",
      "size": 5
     }
    ],
