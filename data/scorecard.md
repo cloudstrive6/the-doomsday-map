@@ -1,4 +1,4 @@
-# Scorecard (2026-11-14, latest snapshot 2026-11-14)
+# Scorecard (2026-11-15, latest snapshot 2026-11-15)
 
 Built by `python -m studio scorecard` from data/analytics/. Targets judged on the median of episodes 004 onward; earlier episodes are the baseline. Small samples: read as tests, not proof.
 
