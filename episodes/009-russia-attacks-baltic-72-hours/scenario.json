@@ -1,0 +1,31 @@
+{
+  "slug": "009-russia-attacks-baltic-72-hours",
+  "title": "Russia attacks the Baltic: the first 72 hours, and the nuclear threshold",
+  "t0_utc": "2027-03-09T01:40:00Z",
+  "strikes": [
+    {"id": "isk-rukla", "launch_name": "Iskander-M brigade, Kaliningrad Oblast (location simulated)", "launch_lat": 54.6, "launch_lon": 21.8,
+     "target_name": "Rukla, Lithuania (NATO battlegroup base)", "target_lat": 55.0, "target_lon": 24.2, "weapon": "Iskander-M (conventional)", "weapon_class": "srbm",
+     "yield_kt": 0, "burst": "conventional", "warheads": 1, "launch_offset_min": -3480,
+     "notes": "Hour 3. Conventional, simulation choice. Iskander is dual-capable, about 350 km range (A13); Rukla hosts the German-led battlegroup (A20)."},
+    {"id": "isk-siauliai-conv", "launch_name": "Iskander-M brigade, Kaliningrad Oblast (location simulated)", "launch_lat": 54.6, "launch_lon": 21.8,
+     "target_name": "Siauliai Air Base, Lithuania", "target_lat": 55.894, "target_lon": 23.395, "weapon": "Iskander-M (conventional)", "weapon_class": "srbm",
+     "yield_kt": 0, "burst": "conventional", "warheads": 1, "launch_offset_min": -3480,
+     "notes": "Hour 3. Conventional strike to blind NATO air policing; the base is the NATO Baltic Air Policing site (A32 context). Simulation choice."},
+    {"id": "kalibr-amari", "launch_name": "Baltic Fleet corvette, Baltic Sea (location simulated)", "launch_lat": 55.2, "launch_lon": 19.0,
+     "target_name": "Amari Air Base, Estonia", "target_lat": 59.26, "target_lon": 24.21, "weapon": "Kalibr (conventional)", "weapon_class": "cruise",
+     "yield_kt": 0, "burst": "conventional", "warheads": 1, "launch_offset_min": -3300,
+     "notes": "Hour 6. Missile-armed corvettes of the Baltic Fleet (A12, dated). Simulation choice."},
+    {"id": "isk-tallinn-gap", "launch_name": "Iskander-M battery, Pskov region (location simulated)", "launch_lat": 57.8, "launch_lon": 28.3,
+     "target_name": "Tapa Army Base, Estonia", "target_lat": 59.26, "target_lon": 25.96, "weapon": "Iskander-M (conventional)", "weapon_class": "srbm",
+     "yield_kt": 0, "burst": "conventional", "warheads": 1, "launch_offset_min": -3000,
+     "notes": "Hour 11. Conventional, NATO battlegroup base in Estonia. Simulation choice; base location is public."},
+    {"id": "isk-orzysz", "launch_name": "Iskander-M brigade, Kaliningrad Oblast (location simulated)", "launch_lat": 54.6, "launch_lon": 21.8,
+     "target_name": "Orzysz training area, Poland (Gallant Boar 2026 site)", "target_lat": 53.81, "target_lon": 21.95, "weapon": "Iskander-M (conventional)", "weapon_class": "srbm",
+     "yield_kt": 0, "burst": "conventional", "warheads": 1, "launch_offset_min": -1800,
+     "notes": "Hour 31. Conventional strike on the Polish side of the Suwalki approach; Orzysz hosted Gallant Boar 2026 (A29). Simulation choice."},
+    {"id": "isk-nuke-siauliai", "launch_name": "Iskander-M brigade, Kaliningrad Oblast (location simulated)", "launch_lat": 54.6, "launch_lon": 21.8,
+     "target_name": "Siauliai Air Base, Lithuania", "target_lat": 55.894, "target_lon": 23.395, "weapon": "Iskander-M (nuclear, low-yield)", "weapon_class": "srbm",
+     "yield_kt": 10, "burst": "air", "warheads": 1, "launch_offset_min": 0,
+     "notes": "Hour 61 (t0). Iskander is dual-capable (A13); no open source gives its warhead yield (research.md flag), so 10 kt is a SIMULATION CHOICE, about half of Nagasaki's 21 kt (ep 002 B8). Airburst."}
+  ]
+}
