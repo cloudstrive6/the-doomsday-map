@@ -9,7 +9,27 @@
       "stage": "researched",
       "note": "30 A, 9 B items",
       "at": "2026-11-15T21:57:48+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "script.md drafted, about 1,450 words, payoff-first open, day after as last chapter, end slate names Baltic episode",
+      "at": "2026-11-15T22:03:36+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "round 2 fixes: timings, 53 minutes, Coupe degree cut, closing line",
+      "at": "2026-11-15T22:05:47+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "round 3 fixes",
+      "at": "2026-11-15T22:08:17+00:00"
+    },
+    {
+      "stage": "script_approved",
+      "note": "round 3",
+      "at": "2026-11-15T22:10:39+00:00"
     }
   ],
-  "stage": "researched"
+  "stage": "script_approved"
 }
