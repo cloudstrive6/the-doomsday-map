@@ -245,7 +245,7 @@ export const RegionMap: React.FC<{shot: RegionShot; t: number}> = ({shot, t}) =>
           const d = 'M' + ps.map((q) => `${q[0].toFixed(1)},${q[1].toFixed(1)}`).join('L') + 'Z';
           const col = z.color ?? C.red;
           const pulse = z.pulse ? 0.75 + 0.25 * Math.sin(t * 3) : 1;
-          return <path key={`z${i}`} d={d} fill={col} fillOpacity={0.16 * k * pulse} stroke={col} strokeOpacity={0.9 * k} strokeWidth={1.8} strokeDasharray="7 5" />;
+          return <path key={`z${i}`} d={d} fill={col} fillOpacity={(z.fillOpacity ?? 0.16) * k * pulse} stroke={col} strokeOpacity={0.9 * k} strokeWidth={z.strokeWidth ?? 1.8} strokeDasharray={z.solid ? undefined : '7 5'} />;
         })}
         {(shot.rings ?? []).map((r, i) => {
           const k = r.t === undefined ? 1 : easeOut(clamp01((t - r.t) / 0.9));

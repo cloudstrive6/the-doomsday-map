@@ -74,7 +74,27 @@
       "stage": "shotlisted",
       "note": "held back 1 of 2: the director fixes every finding in review_final.md and qc.json, then the visual screener re-checks first hold was the 2026-11-12 run 43230588450 (gate closed); recorded 2026-11-16 by Claude",
       "at": "2026-11-15T21:30:24+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "133 shots, 644.4 s; merges removed, larger icons, tighter views, 0 pace/retention lines",
+      "at": "2026-11-15T21:42:09+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "155 shots, 644.4 s; round 2: long shots split, Crossroads filled, scale bar off under credits",
+      "at": "2026-11-15T21:46:12+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "158 shots, 644.4 s; round 3 fixes; pace lines: 0",
+      "at": "2026-11-15T21:49:50+00:00"
+    },
+    {
+      "stage": "dropped",
+      "note": "held back: visual screener failed 3 rounds",
+      "at": "2026-11-15T21:51:42+00:00"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "dropped"
 }

@@ -56,7 +56,7 @@ export interface RegionShot extends ShotBase {
   burst?: { at: LonLat; t: number; km: number; fade?: number };  // fade: seconds the fireball glow takes to die away (default 7)  // nuclear detonation: full-frame white flash, then a glowing fireball of radius km
 }
 
-export interface Zone { points: LonLat[]; label?: string; color?: string; t?: number; pulse?: boolean }
+export interface Zone { points: LonLat[]; label?: string; color?: string; t?: number; pulse?: boolean; fillOpacity?: number; strokeWidth?: number; solid?: boolean }
 export type ShipKind = 'pla' | 'coastguard' | 'us' | 'ally' | 'cargo' | 'tanker';
 export interface Ship {
   path: LonLat[];            // positions over [t0, t1] (shot-local seconds); the ship holds at the last point

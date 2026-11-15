@@ -55,9 +55,9 @@ HL_CUBA = {"iso": CUBA_ISO, "color": WHITE, "fill": "rgba(255,255,255,0.05)"}
 
 # the generic group, offsets in km from the burst point (lead destroyer at the centre; carrier 2.5 km away)
 FLEET = {
-    "DD1": ((0.0, 0.0), 12, "Lead destroyer"), "CV": ((1.77, -1.77), 19, "Carrier"), "DD2": ((-0.9, 1.1), 12, "Destroyer"),
-    "DD3": ((-3.2, -1.4), 12, "Destroyer"), "DD4": ((2.4, 4.0), 12, "Destroyer"), "CG": ((-1.0, -3.6), 14, "Cruiser"),
-    "AO": ((4.5, -3.0), 13, "Supply ship"), "SSN": ((6.0, 2.5), 9, "Submarine"),
+    "DD1": ((0.0, 0.0), 17, "Lead destroyer"), "CV": ((1.77, -1.77), 27, "Carrier"), "DD2": ((-0.9, 1.1), 17, "Destroyer"),
+    "DD3": ((-3.2, -1.4), 17, "Destroyer"), "DD4": ((2.4, 4.0), 17, "Destroyer"), "CG": ((-1.0, -3.6), 20, "Cruiser"),
+    "AO": ((4.5, -3.0), 18, "Supply ship"), "SSN": ((6.0, 2.5), 13, "Submarine"),
 }
 FPOS = {k: K(*v[0]) for k, v in FLEET.items()}
 
@@ -91,7 +91,7 @@ def lk(a, dx, dy, text, t, color=WHITE):
 
 
 def missile(a, path, t0, t1, label="Missile", color=RED, t_on=None):
-    return {"path": path, "t0": rel(a, t0), "t1": rel(a, t1), "kind": "pla", "color": color, "label": label, "t": rel(a, t0 if t_on is None else t_on), "wake": True}
+    return {"path": path, "t0": rel(a, t0), "t1": rel(a, t1), "kind": "pla", "color": color, "label": label, "size": 20, "t": rel(a, t0 if t_on is None else t_on), "wake": True}
 
 
 def hull(a, b, nm, t=None, label=True, drift=(0.0, 0.0), sunk=None, size=None, lab_text=None):
@@ -199,17 +199,20 @@ reg("open-flash", tF, tS2, [("s", B, 20), (2.0, K(1.0, 0), 16), ("e", K(1.0, -0.
     rings=[ring(2, 0.7, True)], labels=[lk(tF, 0.0, 1.9, "Burst over the lead destroyer", tF + 1.2, RED)],
     caption="Simulation: it has not happened.")
 tp3c = W("p03", "one", 2)
-reg("open-b", tS2, S("p03"), [("s", K(1.0, -0.6), 13), (2.8, K(0.6, -0.4), 17), ("e", K(0.3, -0.2), 21)], clock="01:10", clockLabel="LOCAL TIME · NIGHT", clockRate=0,
+reg("open-b", tS2, S("p03"), [("s", K(1.0, -0.6), 13), (1.9, K(0.6, -0.4), 17), (3.8, K(-0.4, 0.3), 14), ("e", K(0.3, -0.2), 21)], clock="01:10", clockLabel="LOCAL TIME · NIGHT", clockRate=0,
     burst={"at": B, "t": -3.0, "km": 1.6, "fade": 7}, ships=fleet(tS2, S("p03"), ["DD1", "CV", "DD2", "DD3"], labels={"CV": "Carrier, 2.5 km away"}),
     rings=[ring(2, -30), ring(4, 0.4, True)], labels=[lk(tS2, -2.6, 3.0, "Ring sizes: engine", W("p02", "published") , WHITE), lk(tS2, -2.6, -3.9, "Ships and glow: enlarged", W("p02", "from"), YELLOW)])
 p3a, p3b = W("p03", "It", 1), W("p03", "toward")
-glob("open-launch", S("p03"), p3a, [("s", 24, 148, 1700), ("e", 24, 152, 2300)], clock="T-20:00", clockLabel="TO BURST", clockRate=70,
+glob("open-launch", S("p03"), p3a, [("s", 24, 148, 1700), (2.0, 24.5, 150, 1300), (3.8, 24, 152, 1000), ("e", 24, 153, 1500)], clock="T-20:00", clockLabel="TO BURST", clockRate=70,
      markers=[{"at": SUBP, "label": "Submarine (simulated)", "color": RED, "kind": "sub", "size": 5, "t": rel(S("p03"), W("p03", "submarine"))}, {"at": B, "label": "Strike group", "color": BLUE, "kind": "target", "size": 6, "t": rel(S("p03"), W("p03", "ten"))}],
      arcs=[{"from": SUBP, "to": B, "t0": rel(S("p03"), W("p03", "fires")), "t1": rel(S("p03"), W("p03", "It")) + 2.0, "color": RED, "loft": 0.15}], caption="Ten to one, local time. One missile.")
-reg("open-flight", p3a, p3b, [("s", [153.2, 24.1], 700), (2.0, [153.6, 24.1], 480), ("e", [154.4, 24.05], 330)], clock="T-14:40", clockLabel="TO BURST", clockRate=70,
-    cities=[city(p3a, SUBP, "Launch point", p3a + 0.1, RED, "sub", 5), city(p3a, MARCUS, "Minami-Torishima (Japan)", p3a + 1.0, WHITE, "dot")],
-    ships=[missile(p3a, [SUBP, B], p3a, p3b + 3.5, "Missile: 10 kt warhead", t_on=p3a)],
-    labels=[lab(p3a, [153.0, 24.6], "A small weapon: 10 kt", W("p03", "ten"), YELLOW), lab(p3a, [154.0, 23.6], "Low over black water", W("p03", "low"), WHITE)])
+reg("open-flight", p3a, p3b, [("s", [153.2, 24.1], 520), (2.0, [153.7, 24.1], 360), ("e", [154.4, 24.05], 260)], clock="T-14:40", clockLabel="TO BURST", clockRate=70,
+    cities=[city(p3a, SUBP, "", p3a + 0.1, RED, "sub", 5), city(p3a, MARCUS, "", p3a + 1.0, WHITE, "target", 7), city(p3a, B, "Strike group", p3a + 1.4, BLUE, "target", 6)],
+    rings=[{"at": MARCUS, "km": 40, "color": WHITE, "t": 0.5}, {"at": B, "km": 40, "color": BLUE, "t": 1.0, "dashed": True}],
+    zones=[dict(disc(6, 0.3, None, "#D9C27A", MARCUS), fillOpacity=0.8, strokeWidth=3, solid=True)],
+    countryLabels=[],
+    ships=[dict(missile(p3a, [SUBP, B], p3a, p3b + 3.5, "Missile: 10 kt warhead", t_on=p3a), size=38)],
+    labels=[lab(p3a, K(-6.0, 34.0, SUBP), "Launch point (submarine)", p3a + 0.1, RED), lab(p3a, K(-4.0, -52.0, MARCUS), "MINAMI-TORISHIMA (JAPAN)", p3a + 0.8, YELLOW), lab(p3a, K(0, 55.0, B), "A small weapon: 10 kt", W("p03", "ten"), YELLOW), lab(p3a, K(20, -55.0, B), "Low over black water", W("p03", "low"), WHITE)])
 reg("open-group", p3b, S("p04"), [("s", [154.5, 24.05], 90), (2.0, K(-1.0, 0.0), 40), ("e", K(0, 0), 26)], clock="T-03:20", clockLabel="TO BURST", clockRate=70,
     ships=fleet(p3b, S("p04"), drift=(0.0, 0.7), times={"DD1": p3b + 0.2, "CV": W("p03", "one", 2), "DD2": p3b + 0.4, "DD3": p3b + 0.6, "DD4": p3b + 0.8, "CG": p3b + 1.0, "AO": p3b + 1.2, "SSN": p3b + 1.4}, labels={"CV": "Carrier: about 100,000 t"}),
     labels=[lk(p3b, -4.0, 5.0, "A group of ships", W("p03", "group"), WHITE)])
@@ -217,7 +220,7 @@ reg("open-group", p3b, S("p04"), [("s", [154.5, 24.05], 90), (2.0, K(-1.0, 0.0),
 a = S("p04")
 tNo = W("p04", "nobody")
 tQ = W("p04", "question")
-reg("open-dark", a, tNo, [("s", K(0, 0), 28), ("e", K(0, 0), 36)], clock="T-01:40", clockLabel="TO BURST", clockRate=7,
+reg("open-dark", a, tNo, [("s", K(0, 0), 20), ("e", K(0, 0), 26)], clock="T-01:40", clockLabel="TO BURST", clockRate=7,
     ships=fleet(a, tNo, drift=(0.0, 0.5), labels={}), legend=[{"text": "US GROUP (ENLARGED ICONS)", "color": BLUE}],
     labels=[lk(a, -5.0, 6.5, "Steaming in the dark", W("p04", "steaming"), WHITE), lk(a, 4.5, 6.5, "Spread across the sea", W("p04", "spread"), WHITE)])
 reg("open-bridge", tNo, tQ, [("s", K(1.8, -1.8), 16), ("e", K(1.8, -1.8), 11)], clock="T-00:55", clockLabel="TO BURST", clockRate=7,
@@ -242,7 +245,7 @@ reg("w-cable", tHung, tThirty, [("s", WIGWAM, 160), (3.0, WIGWAM, 60), ("e", WIG
 fl = [K(dx, dy, WIGWAM) for dx, dy in [(-8, 4), (-7, -3), (-9, 0), (-6, 6), (-10, -5), (-5, -6), (-9, 7), (-7, 1)]]
 reg("w-ships", tThirty, tIt, [("s", WIGWAM, 30), (2.0, WIGWAM, 36), ("e", WIGWAM, 44)], tag="REAL DATA", clock="14 MAY 1955", clockLabel="WIGWAM", clockRate=0, source=SRC_W,
     cities=[city(tThirty, WIGWAM, "Wigwam", tThirty + 0.1, RED, "target", 6)],
-    ships=[{"path": [p, [p[0] + 0.01, p[1]]], "t0": 0, "t1": 8, "kind": "us", "color": BLUE, "size": 11, "t": rel(tThirty, tThirty + 0.2 + 0.25 * i), "wake": False, "label": ("30 ships" if i == 0 else "")} for i, p in enumerate(fl)],
+    ships=[{"path": [p, [p[0] + 0.01, p[1]]], "t0": 0, "t1": 8, "kind": "us", "color": BLUE, "size": 17, "t": rel(tThirty, tThirty + 0.2 + 0.25 * i), "wake": False, "label": ("30 ships" if i == 0 else "")} for i, p in enumerate(fl)],
     labels=[lab(tThirty, K(5.0, 7.0, WIGWAM), "About 6,800 people", W("p05", "sixty-eight"), YELLOW)], caption="Thirty ships. Icons enlarged.")
 glob("w-only", tIt, S("p06"), [("s", 30, -132, 1000), (3.0, 30, -124, 1200), ("e", 30, -118, 1500)], tag="REAL DATA", clock="14 MAY 1955", clockLabel="WIGWAM", clockRate=0, source=SRC_W, highlight=[HL_US],
      markers=[{"at": WIGWAM, "label": "Wigwam, 1955", "color": RED, "kind": "target", "size": 6, "t": 0.2}, {"at": SANDIEGO, "label": "San Diego", "color": BLUE, "kind": "base", "size": 5, "t": 1.4}, {"at": [-125.0, 38.0], "label": "The only test fired in deep water", "color": YELLOW, "kind": "dot", "t": rel(tIt, W("p05", "only"))}],
@@ -252,12 +255,12 @@ tDw = W("p06", "two")
 reg("w-upwind", a, tDw, [("s", WIGWAM, 26), (2.5, WIGWAM, 22), ("e", WIGWAM, 19)], tag="REAL DATA", clock="14 MAY 1955", clockLabel="WIGWAM", clockRate=0, source=SRC_W,
     cities=[city(a, WIGWAM, "Ground zero", a + 0.1, RED, "target", 6)],
     rings=[{"at": WIGWAM, "km": 8, "color": WHITE, "dashed": True, "t": rel(a, W("p06", "five")), "label": "5 miles = 8 km"}],
-    ships=[{"path": [K(-6.2, 4.6, WIGWAM), K(-6.1, 4.6, WIGWAM)], "t0": 0, "t1": 5, "kind": "us", "color": BLUE, "size": 11, "t": rel(a, W("p06", "ships")), "wake": False, "label": "Most ships: upwind"},
-           {"path": [K(-7.0, -1.6, WIGWAM), K(-6.9, -1.6, WIGWAM)], "t0": 0, "t1": 5, "kind": "us", "color": BLUE, "size": 11, "t": rel(a, W("p06", "ships")) + 0.2, "wake": False}])
+    ships=[{"path": [K(-6.2, 4.6, WIGWAM), K(-6.1, 4.6, WIGWAM)], "t0": 0, "t1": 5, "kind": "us", "color": BLUE, "size": 17, "t": rel(a, W("p06", "ships")), "wake": False, "label": "Most ships: upwind"},
+           {"path": [K(-7.0, -1.6, WIGWAM), K(-6.9, -1.6, WIGWAM)], "t0": 0, "t1": 5, "kind": "us", "color": BLUE, "size": 17, "t": rel(a, W("p06", "ships")) + 0.2, "wake": False}])
 reg("w-downwind", tDw, S("p07"), [("s", WIGWAM, 22), (3.0, K(2, 0, WIGWAM), 26), ("e", K(3, 0, WIGWAM), 30)], tag="REAL DATA", clock="14 MAY 1955", clockLabel="WIGWAM", clockRate=0, source=SRC_W,
     rings=[{"at": WIGWAM, "km": 8, "color": WHITE, "dashed": True, "t": -30}], cities=[city(tDw, WIGWAM, "Ground zero", tDw + 0.1, RED, "target", 6)],
-    ships=[{"path": [K(7.9, 1.8, WIGWAM), K(8.0, 1.8, WIGWAM)], "t0": 0, "t1": 8, "kind": "us", "color": BLUE, "size": 11, "t": rel(tDw, W("p06", "heavily")), "wake": False, "label": "Shielded ship"},
-           {"path": [K(7.7, -2.2, WIGWAM), K(7.8, -2.2, WIGWAM)], "t0": 0, "t1": 8, "kind": "us", "color": BLUE, "size": 11, "t": rel(tDw, W("p06", "heavily")) + 0.4, "wake": False, "label": "Shielded ship"}],
+    ships=[{"path": [K(7.9, 1.8, WIGWAM), K(8.0, 1.8, WIGWAM)], "t0": 0, "t1": 8, "kind": "us", "color": BLUE, "size": 17, "t": rel(tDw, W("p06", "heavily")), "wake": False, "label": "Shielded ship"},
+           {"path": [K(7.7, -2.2, WIGWAM), K(7.8, -2.2, WIGWAM)], "t0": 0, "t1": 8, "kind": "us", "color": BLUE, "size": 17, "t": rel(tDw, W("p06", "heavily")) + 0.4, "wake": False, "label": "Shielded ship"}],
     plume={"at": WIGWAM, "bearing": 90, "lengthKm": 10, "widthKm": 4, "t0": rel(tDw, W("p06", "base")), "t1": rel(tDw, W("p06", "base")) + 2.5, "color": AMBER, "label": "Base surge"},
     labels=[lab(tDw, K(1.5, 7.5, WIGWAM), "By one account: under the dose limit", W("p06", "limit"), YELLOW)])
 a = S("p07")
@@ -272,14 +275,14 @@ reg("cv-tons", a, tFive, [("s", CVP, 9), (2.0, CVP, 7), ("e", CVP, 6)], tag="REA
 reg("cv-people", tFive, tAir, [("s", CVP, 6), (1.5, CVP, 8), ("e", CVP, 10)], tag="REAL DATA", clock="", source="US Navy fact file; Congressional Research Service",
     ships=fleet(tFive, tAir, ["CV"], labels={}), labels=[lab(tFive, K(1.77, -0.9), "About 5,000 people aboard", W("p08", "five") + 0.2, YELLOW)])
 reg("cv-wing", tAir, S("p09"), [("s", CVP, 10), (1.6, CVP, 13), ("e", CVP, 17)], tag="REAL DATA", clock="", source="US Navy fact file; Congressional Research Service",
-    ships=fleet(tAir, S("p09"), ["CV"], labels={}) + [{"path": [K(1.77 + 0.4 * i, -1.77 + 0.5, ), K(1.77 + 0.4 * i + 0.4, -1.77 + 1.4)], "t0": 0, "t1": 8, "kind": "ally", "color": WHITE, "size": 7, "t": rel(tAir, W("p08", "sixty")) + 0.12 * i, "wake": False} for i in range(6)],
+    ships=fleet(tAir, S("p09"), ["CV"], labels={}) + [{"path": [K(1.77 + 0.4 * i, -1.77 + 0.5, ), K(1.77 + 0.4 * i + 0.4, -1.77 + 1.4)], "t0": 0, "t1": 8, "kind": "ally", "color": WHITE, "size": 13, "t": rel(tAir, W("p08", "sixty")) + 0.12 * i, "wake": False} for i in range(6)],
     labels=[lab(tAir, K(3.4, -2.6), "Air wing: 60 aircraft or more", W("p08", "sixty"), YELLOW)])
 a = S("p09")
 tG = W("p09", "a", 2)
-reg("grp-ships", a, tG, [("s", K(0, 0), 26), (2.0, K(0, 0), 20), ("e", K(0, 0), 24)], tag="REAL DATA", clock="", source="Congressional Research Service; US Navy",
+reg("grp-ships", a, tG, [("s", K(0, 0), 18), (2.0, K(0, 0), 14), ("e", K(0, 0), 17)], tag="REAL DATA", clock="", source="Congressional Research Service; US Navy",
     ships=fleet(a, tG, ["CV", "DD1", "DD2"], times={"CV": a, "DD1": W("p09", "three"), "DD2": W("p09", "three") + 0.3}, labels={"CV": "Carrier", "DD1": "Warship"}),
     labels=[lk(a, -4.0, 5.0, "Rarely alone", W("p09", "alone"), YELLOW)])
-reg("grp-support", tG, S("p10"), [("s", K(0, 0), 24), (2.0, K(1.0, 0), 28), ("e", K(1.0, 0), 33)], tag="REAL DATA", clock="", source="Congressional Research Service; US Navy",
+reg("grp-support", tG, S("p10"), [("s", K(0, 0), 17), (2.0, K(1.0, 0), 20), ("e", K(1.0, 0), 23)], tag="REAL DATA", clock="", source="Congressional Research Service; US Navy",
     ships=fleet(tG, S("p10"), times={"AO": W("p09", "supply"), "SSN": W("p09", "submarine"), "CG": W("p09", "warships") , "DD3": W("p09", "warships"), "DD4": W("p09", "warships") + 0.3, "DD1": tG - 5, "CV": tG - 5, "DD2": tG - 5}, labels={"AO": "Supply ship", "SSN": "Submarine (perhaps)", "CG": "Cruiser"}),
     legend=[{"text": "US GROUP (ENLARGED ICONS)", "color": BLUE}])
 glob("old-test", S("p10"), S("p11"), [("s", 20, 175, 1500), ("e", 14, 168, 2300)], tag="REAL HISTORY", clock="", source="",
@@ -291,25 +294,43 @@ a = chapter("c2-card", S("p11"), 3.5, "CHAPTER 02", "How close it has come", "RE
 SRC_C = "Atomic Archive; Operation Crossroads records"
 tOp, tAble, tMiss, tFive2 = W("p11", "operation"), W("p11", "first"), W("p11", "missed"), W("p11", "five")
 LAG = [165.45, 11.55]
+AIM, DET = K(0, 0, LAG), K(0.7, 0.0, LAG)
+LAGOON = [K(19 * math.cos(math.radians(d)), 13 * math.sin(math.radians(d)), LAG) for d in range(0, 360, 10)]
+LZ = {"points": LAGOON, "color": "#8FA3B8", "fillOpacity": 0.55, "strokeWidth": 3, "solid": True}
+# about 90 ships on a staggered lattice inside the lagoon polygon, nearest the aim point first (the five that sank)
+GRID = sorted([(round(dx, 2), round(dy, 2)) for r_, dy in enumerate([y * 2.4 for y in range(-5, 6)]) for dx in [x * 2.8 + (1.4 if r_ % 2 else 0) for x in range(-7, 7)]
+               if (dx / 17.0) ** 2 + (dy / 11.0) ** 2 <= 1 and math.hypot(dx, dy) > 1.2], key=lambda q: math.hypot(*q))
+print("lagoon ships:", len(GRID))
+
+
+def tgt(a, t_on, sizes=30, sunk=None, grid=None, wake=False):
+    out = []
+    for i, (dx, dy) in enumerate(grid or GRID):
+        d = {"path": [K(dx, dy, LAG), K(dx + 0.05, dy, LAG)], "t0": 0, "t1": 8, "kind": "ally", "color": WHITE, "size": sizes, "t": rel(a, t_on) + 0.04 * i, "wake": False}
+        if sunk and i < 5:
+            d["sunkAt"] = rel(a, sunk) + 0.35 * i
+        out.append(d)
+    return out
 reg("bk-atoll", a, tOp, [("s", [166.0, 12.5], 1500), (2.0, [165.6, 11.8], 700), ("e", BIKINI, 330)], tag="REAL HISTORY", clock="JULY 1946", clockLabel="BIKINI", clockRate=0, source=SRC_C,
     cities=[city(a, BIKINI, "Bikini Atoll", W("p11", "bikini"), RED, "target", 7), city(a, [162.35, 11.35], "Kwajalein area", a + 0.3, WHITE, "dot")])
-reg("bk-ships", tOp, tAble, [("s", LAG, 40), (2.5, LAG, 25), ("e", LAG, 18)], tag="REAL HISTORY", clock="JULY 1946", clockLabel="OPERATION CROSSROADS", clockRate=0, source=SRC_C,
-    ships=[{"path": [K(dx, dy, LAG), K(dx + 0.05, dy, LAG)], "t0": 0, "t1": 8, "kind": "ally", "color": WHITE, "size": 9, "t": rel(tOp, W("p11", "used")) + 0.18 * i, "wake": False, "label": ("About 90 target ships" if i == 0 else "")}
-           for i, (dx, dy) in enumerate([(-6, 3), (-4, 1), (-2, 4), (0, 2), (2, 5), (4, 3), (6, 1), (-5, -2), (-2, -3), (1, -1), (3, -4), (6, -2)])],
-    labels=[lab(tOp, K(-2, 7, LAG), "Operation Crossroads", tOp + 0.3, WHITE)], caption="Target ships anchored in the lagoon. Icons enlarged.")
-AIM, DET = K(0, 0, LAG), K(0.7, 0.0, LAG)
-reg("bk-able", tAble, tMiss, [("s", LAG, 14), (2.0, LAG, 10), ("e", K(0.35, 0, LAG), 8)], tag="REAL HISTORY", clock="1 JULY 1946", clockLabel="ABLE", clockRate=0, source=SRC_C,
+reg("bk-ships", tOp, tAble, [("s", LAG, 76), (2.5, LAG, 66), ("e", LAG, 58)], tag="REAL HISTORY", clock="JULY 1946", clockLabel="OPERATION CROSSROADS", clockRate=0, source=SRC_C,
+    zones=[dict(LZ, t=0.1)], cities=[city(tOp, LAG, "Bikini lagoon", tOp + 0.3, RED, "target", 6)],
+    ships=tgt(tOp, W("p11", "used")),
+    labels=[lab(tOp, K(0, 12.6, LAG), "About 90 target ships", W("p11", "used"), YELLOW), lab(tOp, K(0, -12.6, LAG), "Operation Crossroads", tOp + 0.3, WHITE)], caption="Target ships anchored in the lagoon. Icons enlarged.")
+CROWD = [(dx, dy) for dx, dy in GRID if abs(dx) <= 6 and abs(dy) <= 2.1]
+reg("bk-able", tAble, tMiss, [("s", LAG, 16), (2.0, LAG, 12), ("e", K(0.35, 0, LAG), 9)], tag="REAL HISTORY", clock="1 JULY 1946", clockLabel="ABLE", clockRate=0, source=SRC_C,
+    zones=[dict(LZ, t=0.1)],
     cities=[city(tAble, AIM, "Aim point", tAble + 0.3, WHITE, "target", 6)],
-    ships=[{"path": [AIM, [AIM[0] + 0.004, AIM[1]]], "t0": 0, "t1": 8, "kind": "ally", "color": WHITE, "size": 11, "t": 0, "wake": False, "label": "Target ship"}],
-    labels=[lab(tAble, K(-3.0, 3.0, LAG), "Able: 23 kt air burst", W("p11", "twenty-three-kiloton"), YELLOW)])
-reg("bk-miss", tMiss, tFive2, [("s", K(0.35, 0, LAG), 8), (2.0, K(0.35, 0, LAG), 5.5), ("e", K(0.35, 0, LAG), 4.2)], tag="REAL HISTORY", clock="1 JULY 1946", clockLabel="ABLE", clockRate=0, source=SRC_C,
-    ships=[{"path": [AIM, [AIM[0] + 0.004, AIM[1]]], "t0": 0, "t1": 8, "kind": "ally", "color": WHITE, "size": 11, "t": 0, "wake": False}],
+    ships=tgt(tAble, tAble, 30, grid=CROWD) + [{"path": [AIM, [AIM[0] + 0.004, AIM[1]]], "t0": 0, "t1": 8, "kind": "ally", "color": WHITE, "size": 36, "t": 0, "wake": False, "label": "Target ship"}],
+    labels=[lab(tAble, K(-3.0, 3.6, LAG), "Able: 23 kt air burst", W("p11", "twenty-three-kiloton"), YELLOW)])
+reg("bk-miss", tMiss, tFive2, [("s", K(0.35, 0, LAG), 9), (2.0, K(0.35, 0, LAG), 6.5), ("e", K(0.35, 0, LAG), 5)], tag="REAL HISTORY", clock="1 JULY 1946", clockLabel="ABLE", clockRate=0, source=SRC_C,
+    ships=tgt(tMiss, tMiss, 30, grid=CROWD) + [{"path": [AIM, [AIM[0] + 0.004, AIM[1]]], "t0": 0, "t1": 8, "kind": "ally", "color": WHITE, "size": 36, "t": 0, "wake": False}],
     cities=[city(tMiss, AIM, "Aim point", tMiss - 1, WHITE, "target", 6), city(tMiss, DET, "Burst", tMiss + 1.0, RED, "target", 6)],
     lines=[{"from": AIM, "to": DET, "color": YELLOW, "label": "Missed by about 700 m", "t0": rel(tMiss, W("p11", "roughly")), "t1": rel(tMiss, W("p11", "roughly")) + 1.5}])
-reg("bk-sank", tFive2, S("p12"), [("s", LAG, 18), (2.0, LAG, 14), ("e", LAG, 12)], tag="REAL HISTORY", clock="1 JULY 1946", clockLabel="ABLE", clockRate=0, source=SRC_C,
-    ships=[{"path": [K(dx, dy, LAG), K(dx + 0.05, dy, LAG)], "t0": 0, "t1": 8, "kind": "ally", "color": WHITE, "size": 10, "t": 0, "wake": False, **({"sunkAt": rel(tFive2, tFive2 + 1.3 + 0.35 * i)} if i < 5 else {})}
-           for i, (dx, dy) in enumerate([(-2, 1), (0.5, 1.5), (1.5, -0.5), (-1, -1.5), (2.5, 1.0), (-4, 2), (4, -2), (-3, -3), (5, 2)])],
-    labels=[lab(tFive2, K(-3, 4.8, LAG), "Five ships sank", W("p11", "sank"), RED)])
+reg("bk-sank", tFive2, S("p12"), [("s", LAG, 52), (2.0, LAG, 44), ("e", LAG, 36)], tag="REAL HISTORY", clock="1 JULY 1946", clockLabel="ABLE", clockRate=0, source=SRC_C,
+    zones=[dict(LZ, t=0.1)],
+    ships=tgt(tFive2, tFive2 - 5, 30, sunk=tFive2 + 1.3),
+    labels=[lab(tFive2, K(-3, 8.0, LAG), "Five ships sank", W("p11", "sank"), RED)])
 a = S("p12")
 reg("miss-ours", a, S("p13"), [("s", K(0.5, -0.6), 12), (2.5, K(0.9, -0.9), 9), ("e", K(0.9, -0.9), 7.5)], clock="", source="",
     ships=fleet(a, S("p13"), ["DD1", "CV"], labels={"CV": "Carrier"}),
@@ -323,7 +344,7 @@ tTor, tArk, tSurf, tAmer = W("p13", "ten-kiloton"), W("p13", "launch"), W("p13",
 reg("b59-map", a, tTor, [("s", [-74.0, 23.0], 2400), (3.0, [-73.5, 23.2], 1700), ("e", [-73.0, 23.0], 1200)], tag="REAL HISTORY", clock="OCTOBER 1962", clockLabel="NEAR CUBA", clockRate=0, source=SRC_B, highlight=[HL_CUBA],
     countryLabels=[{"iso": CUBA_ISO, "text": "CUBA", "color": WHITE}],
     cities=[city(a, CUBA_SEA, "B-59, Soviet submarine", W("p13", "b-59"), RED, "sub", 6)],
-    ships=[{"path": [K(-60, -45, CUBA_SEA), K(-8, -6, CUBA_SEA)], "t0": W("p13", "chased") - a - 0.5, "t1": rel(a, tTor) + 1.0, "kind": "us", "color": BLUE, "size": 14, "t": W("p13", "chased") - a - 0.5, "label": "US carrier group", "wake": True}])
+    ships=[{"path": [K(-60, -45, CUBA_SEA), K(-8, -6, CUBA_SEA)], "t0": W("p13", "chased") - a - 0.5, "t1": rel(a, tTor) + 1.0, "kind": "us", "color": BLUE, "size": 20, "t": W("p13", "chased") - a - 0.5, "label": "US carrier group", "wake": True}])
 reg("b59-torpedo", tTor, tArk, [("s", CUBA_SEA, 90), (2.0, CUBA_SEA, 40), ("e", CUBA_SEA, 22)], tag="REAL HISTORY", clock="27 OCT 1962", clockLabel="B-59", clockRate=0, source=SRC_B,
     cities=[city(tTor, CUBA_SEA, "B-59", tTor + 0.1, RED, "sub", 6)], rings=[{"at": CUBA_SEA, "km": 3.9, "color": RED, "dashed": True, "t": rel(tTor, W("p13", "torpedo")), "label": "10 kt torpedo"}],
     labels=[lab(tTor, K(2, 3, CUBA_SEA), "Nuclear torpedo: 10 kt", W("p13", "nuclear"), YELLOW)])
@@ -334,7 +355,7 @@ reg("b59-surface", tSurf, tAmer, [("s", CUBA_SEA, 14), (2.0, K(0, 2, CUBA_SEA), 
     ships=[{"path": [K(0, -1, CUBA_SEA), K(0, 2, CUBA_SEA)], "t0": 0, "t1": 2.0, "kind": "pla", "color": RED, "size": 12, "t": 0, "wake": True, "label": "B-59 surfaces"}],
     labels=[lab(tSurf, K(-5, -3, CUBA_SEA), "The boat surfaced", W("p13", "surfaced"), YELLOW)])
 reg("b59-unknown", tAmer, S("p14"), [("s", K(0, 1.5, CUBA_SEA), 20), (2.2, K(8, 1.0, CUBA_SEA), 40), ("e", K(10, 0, CUBA_SEA), 60)], tag="REAL HISTORY", clock="27 OCT 1962", clockLabel="B-59", clockRate=0, source=SRC_B,
-    ships=[{"path": [K(0, 2, CUBA_SEA), K(0.1, 2, CUBA_SEA)], "t0": 0, "t1": 8, "kind": "pla", "color": RED, "size": 12, "t": 0, "wake": False}, {"path": [K(14, -3, CUBA_SEA), K(8, -1.5, CUBA_SEA)], "t0": 0, "t1": 6, "kind": "us", "color": BLUE, "size": 14, "t": 0, "wake": True, "label": "US group"}],
+    ships=[{"path": [K(0, 2, CUBA_SEA), K(0.1, 2, CUBA_SEA)], "t0": 0, "t1": 8, "kind": "pla", "color": RED, "size": 12, "t": 0, "wake": False}, {"path": [K(14, -3, CUBA_SEA), K(8, -1.5, CUBA_SEA)], "t0": 0, "t1": 6, "kind": "us", "color": BLUE, "size": 20, "t": 0, "wake": True, "label": "US group"}],
     labels=[lab(tAmer, K(-8, 6, CUBA_SEA), "The US did not know the torpedo was aboard", W("p13", "torpedo", 2), YELLOW)])
 a = S("p14")
 add(id="yields", type="bars", start=a, end=S("p15"), tag="REAL HISTORY", title="Ten kilotons is our yield too", sub="kilotons · published figures and our choice", source="Nuclear Weapon Archive; National Security Archive; our scenario",
@@ -382,7 +403,7 @@ glob("t-b59", tBor, S("p19"), [("s", 22, -100, 900), ("e", 24, 150, 1300)], tag=
      arcs=[{"from": CUBA_SEA, "to": B, "t0": 0.4, "t1": 3.6, "color": AMBER, "loft": 0.3}])
 a = S("p19")
 tCr, tWest = W("p19", "a", 2), W("p19", "somewhere")
-reg("t-group", a, tWest, [("s", K(0, 0), 30), (2.5, K(1.0, 0), 38), ("e", K(1.0, 0), 44)], clock="", source="", legend=[{"text": "GENERIC GROUP (ENLARGED ICONS)", "color": BLUE}],
+reg("t-group", a, tWest, [("s", K(0, 0), 20), (2.5, K(1.0, 0), 25), ("e", K(1.0, 0), 29)], clock="", source="", legend=[{"text": "GENERIC GROUP (ENLARGED ICONS)", "color": BLUE}],
     ships=fleet(a, tWest, times={"CV": a, "CG": W("p19", "cruiser"), "DD1": W("p19", "three"), "DD2": W("p19", "three") + 0.3, "DD3": W("p19", "four"), "DD4": W("p19", "four") + 0.3, "AO": W("p19", "supply"), "SSN": W("p19", "submarine")},
                labels={"CV": "Carrier", "CG": "Cruiser", "DD1": "Destroyer", "AO": "Supply ship", "SSN": "Submarine"}))
 glob("t-night", tWest, S("p20"), [("s", 22, 140, 1000), (2.5, 24, 150, 1500), ("e", 24, 155, 2200)], clock="01:10", clockLabel="LOCAL · NIGHT", clockRate=0,
@@ -440,7 +461,7 @@ reg("m-launch", a, S("p24"), [("s", [152.6, 24.0], 90), (1.6, [153.4, 24.1], 500
     labels=[lab(a, [153.4, 24.7], "Low altitude", tSet + 0.5, WHITE), lab(a, [154.6, 23.4], "A little under the speed of sound", tUnd, YELLOW)])
 a = S("p24")
 tSv, tMs = W("p24", "seven"), W("p24", "the", 2)
-reg("m-hulls", a, tSv, [("s", K(0, 0), 30), (2.5, K(1.0, 0), 38), ("e", K(1.0, 0), 44)], clock=tclk(a), clockLabel="MINUTE ZERO", clockRate=RATE,
+reg("m-hulls", a, tSv, [("s", K(0, 0), 20), (2.5, K(1.0, 0), 25), ("e", K(1.0, 0), 29)], clock=tclk(a), clockLabel="MINUTE ZERO", clockRate=RATE,
     ships=fleet(a, tSv, drift=(0.0, 0.6), times={"CV": a, "CG": W("p24", "cruiser"), "DD1": W("p24", "three"), "DD2": W("p24", "three") + 0.3, "DD3": W("p24", "destroyers"), "DD4": W("p24", "destroyers") + 0.3, "AO": W("p24", "supply"), "SSN": W("p24", "submarine")},
                labels={"CV": "Carrier", "CG": "Cruiser", "DD1": "Destroyer", "AO": "Supply ship", "SSN": "Submarine"}))
 reg("m-sea", tSv, tMs, [("s", K(0, 0), 60), (2.4, K(0, 0), 120), ("e", K(0, 0), 200)], clock=tclk(tSv), clockLabel="MINUTE ZERO", clockRate=RATE,
@@ -488,7 +509,7 @@ reg("m-blastwave", tBl, S("p29"), [("s", K(0.6, -0.6), 11), (2.2, K(0.6, -0.6), 
     labels=[lk(tBl, -2.0, 2.4, "Afterward: slower than light", W("p28", "slower"), YELLOW)])
 a = S("p29")
 tGq, tAir2, tWing, tSo, tThese = W("p29", "goes"), W("p29", "and"), W("p29", "a"), W("p29", "so"), W("p29", "these")
-AC = lambda a, n, t0: [{"path": [K(1.77 + 0.3 * i, -1.77 + 0.4), K(1.77 + 12 * math.cos(0.5 + i * 0.9), -1.77 + 12 * math.sin(0.5 + i * 0.9))], "t0": rel(a, t0) + 0.15 * i, "t1": rel(a, t0) + 0.15 * i + 6.0, "kind": "ally", "color": WHITE, "size": 12, "t": rel(a, t0) + 0.15 * i, "wake": True} for i in range(n)]
+AC = lambda a, n, t0: [{"path": [K(1.77 + 0.3 * i, -1.77 + 0.4), K(1.77 + 12 * math.cos(0.5 + i * 0.9), -1.77 + 12 * math.sin(0.5 + i * 0.9))], "t0": rel(a, t0) + 0.15 * i, "t1": rel(a, t0) + 0.15 * i + 6.0, "kind": "ally", "color": WHITE, "size": 18, "t": rel(a, t0) + 0.15 * i, "wake": True} for i in range(n)]
 reg("a-quarters", a, tAir2, [("s", CVP, 14), ("e", CVP, 10)], clock="T+20:10", clockLabel="GENERAL QUARTERS", clockRate=0, source="", ships=postfleet(a, tAir2, ["CV", "DD1"], labels={"CV": "Carrier"}),
     labels=[lab(a, K(1.8, -0.4), "General quarters", tGq, YELLOW)])
 reg("a-aloft", tAir2, tWing, [("s", CVP, 14), (2.0, CVP, 30), ("e", CVP, 44)], clock="T+20:12", clockLabel="AIRCRAFT ALOFT", clockRate=0, source="",
@@ -505,7 +526,7 @@ a = S("p30")
 tAirb, tAnd3 = W("p30", "aircraft"), W("p30", "and")
 reg("f-deck", a, tAirb, [("s", CVP, 7), ("e", CVP, 9)], clock="T+20:20", clockLabel="THE FLIGHT DECK", clockRate=0, source="", ships=postfleet(a, tAirb, ["CV"], labels={"CV": "Carrier"}),
     labels=[lab(a, K(2.4, -0.7), "The problem is simple", W("p30", "problem"), YELLOW)])
-CIRC = lambda t0, n, r: [{"path": [K(1.77 + r * math.cos(i * 2.1), -1.77 + r * math.sin(i * 2.1)), K(1.77 + r * math.cos(i * 2.1 + 2.5), -1.77 + r * math.sin(i * 2.1 + 2.5)), K(1.77 + r * math.cos(i * 2.1 + 5.0), -1.77 + r * math.sin(i * 2.1 + 5.0))], "t0": 0, "t1": 8, "kind": "ally", "color": WHITE, "size": 11, "t": rel(t0, t0) + 0.2 * i, "wake": True} for i in range(n)]
+CIRC = lambda t0, n, r: [{"path": [K(1.77 + r * math.cos(i * 2.1), -1.77 + r * math.sin(i * 2.1)), K(1.77 + r * math.cos(i * 2.1 + 2.5), -1.77 + r * math.sin(i * 2.1 + 2.5)), K(1.77 + r * math.cos(i * 2.1 + 5.0), -1.77 + r * math.sin(i * 2.1 + 5.0))], "t0": 0, "t1": 8, "kind": "ally", "color": WHITE, "size": 17, "t": rel(t0, t0) + 0.2 * i, "wake": True} for i in range(n)]
 reg("f-land", tAirb, tAnd3, [("s", CVP, 9), (1.6, CVP, 14), ("e", CVP, 18)], clock="T+20:30", clockLabel="THE FLIGHT DECK", clockRate=0, source="", ships=postfleet(tAirb, tAnd3, ["CV"], labels={}) + CIRC(tAirb, 4, 2.5),
     labels=[lab(tAirb, K(2.4, -4.8), "Airborne: they need somewhere to land", W("p30", "need"), YELLOW)])
 reg("f-radar", tAnd3, S("p31"), [("s", CVP, 18), (2.0, CVP, 24), ("e", CVP, 30)], clock="T+21:00", clockLabel="RADAR", clockRate=0, source="", ships=postfleet(tAnd3, S("p31"), ["CV"], labels={}) + CIRC(tAnd3, 4, 3.5),
@@ -569,11 +590,11 @@ reg("l-neither", tSo3, S("p38"), [("s", B, 16), (2.8, B, 12), ("e", B, 10)], **H
     labels=[lk(tSo3, -5.0, 6.0, "We do not say it survives", W("p37", "survives"), YELLOW), lk(tSo3, -5.0, -6.0, "We do not say it sinks", W("p37", "sinks"), YELLOW)])
 a = S("p38")
 tIts, tOv, tOurs, tSoA = W("p38", "its"), W("p38", "over"), W("p38", "ours", 2), W("p38", "so")
-reg("ab-guide", a, tOurs, [("s", [165.5, 11.6], 90), (2.4, LAG, 30), (tIts + 1.0, LAG, 22), ("e", LAG, 14)], tag="REAL HISTORY", clock="1 JULY 1946", clockLabel="ABLE", clockRate=0, source=SRC_C,
-    cities=[city(a, BIKINI, "Bikini lagoon", a + 0.2, RED, "target", 6)],
-    ships=[{"path": [K(dx, dy, LAG), K(dx + 0.05, dy, LAG)], "t0": 0, "t1": 8, "kind": "ally", "color": WHITE, "size": 9, "t": rel(a, tOv), "wake": False, "label": ("About 90 anchored ships" if i == 0 else ""), **({"sunkAt": rel(a, W("p38", "sank")) + 0.2 * i} if i < 5 else {})}
-           for i, (dx, dy) in enumerate([(-2, 1), (0.5, 1.5), (1.5, -0.5), (-1, -1.5), (2.5, 1.0), (-4, 2), (4, -2), (-3, -3), (5, 2), (-6, 0), (6, -4)])],
-    labels=[lab(a, [165.5, 12.6], "Able: the closest real guide", W("p38", "closest"), YELLOW), lab(a, [165.5, 10.6], "Not a match", W("p38", "not"), WHITE), lab(a, K(5, 7, LAG), "23 kt: more than twice ours", W("p38", "twenty-three"), AMBER), lab(a, K(-6, -7, LAG), "Five sank", W("p38", "five"), RED)], caption="Able: 23 kt. Ours: 10 kt.")
+reg("ab-guide", a, tOurs, [("s", [165.5, 11.6], 160), (2.4, LAG, 78), (5.0, LAG, 68), (7.8, K(2, 0, LAG), 62), (10.4, K(-1, 0, LAG), 66), ("e", LAG, 58)], tag="REAL HISTORY", clock="1 JULY 1946", clockLabel="ABLE", clockRate=0, source=SRC_C,
+    cities=[city(a, LAG, "Bikini lagoon", a + 0.2, RED, "target", 6)],
+    zones=[dict(LZ, t=2.0)],
+    ships=[dict(sh, **({"sunkAt": rel(a, W("p38", "sank")) + 0.2 * i} if i < 5 else {})) for i, sh in enumerate(tgt(a, a + 2.5, 28))],
+    labels=[lab(a, K(0, 12.6, LAG), "About 90 anchored ships", a + 3.0, WHITE), lab(a, [165.5, 12.6], "Able: the closest real guide", W("p38", "closest"), YELLOW), lab(a, [165.5, 10.6], "Not a match", W("p38", "not"), WHITE), lab(a, K(-9, 9, LAG), "23 kt: more than twice ours", W("p38", "twenty-three"), AMBER), lab(a, K(-9, -9, LAG), "Five sank", W("p38", "five"), RED)], caption="Able: 23 kt. Ours: 10 kt.")
 reg("ab-ours", tOurs, tSoA, [("s", K(0.6, -0.5), 20), (2.0, K(0.6, -0.5), 15), ("e", K(0.6, -0.5), 12)], clock="", source="", ships=postfleet(tOurs, tSoA, ["DD1", "CV", "DD2", "DD3", "CG"], labels={}), rings=prior(5),
     labels=[lk(tOurs, -4.0, 5.2, "Ours: 10 kt over a group at sea", tOurs + 0.2, YELLOW)])
 reg("ab-scale", tSoA, S("p39"), [("s", K(0.6, -0.5), 12), ("e", K(0.6, -0.5), 17)], clock="", source="", ships=postfleet(tSoA, S("p39"), ["DD1", "CV", "DD2", "DD3", "CG"], labels={}), rings=prior(5),
@@ -649,13 +670,13 @@ reg("ww-unknown", W("p45", "and", 3), S("p46"), [("s", CVP, 6), ("e", CVP, 8)], 
     zones=[dict(WZ, t=0)], labels=[lab(W("p45", "and", 3), WWA, "Nobody knows how it would work after a burst", W("p45", "nobody"), YELLOW)])
 a = S("p46")
 tAtA, tAnd6, tTho = W("p46", "at"), W("p46", "and"), W("p46", "those")
-reg("fo-empty", a, tAtA, [("s", B, 16), (2.6, B, 26), ("e", B, 40)], clock="", source="Scenario engine", ships=postfleet(a, tAtA, ["DD1", "CV", "DD2", "DD3", "CG"], labels={}),
+reg("fo-empty", a, tAtA, [("s", B, 14), (2.6, B, 20), ("e", B, 28)], clock="", source="Scenario engine", ships=postfleet(a, tAtA, ["DD1", "CV", "DD2", "DD3", "CG"], labels={}),
     labels=[lk(a, -7, 7, "The fallout map is nearly empty", W("p46", "empty"), YELLOW), lk(a, -7, -7, "Little local fallout from an air burst", W("p46", "little"), WHITE)])
 reg("fo-able", tAtA, tAnd6, [("s", LAG, 26), ("e", LAG, 20)], tag="REAL HISTORY", clock="1 JULY 1946", clockLabel="ABLE", clockRate=0, source=SRC_C,
     labels=[lab(tAtA, K(-5, 4, LAG), "Able: most ships reboarded within a day", W("p46", "reboarded"), YELLOW)], cities=[city(tAtA, BIKINI, "Bikini lagoon", tAtA + 0.2, RED, "target", 6)])
 reg("fo-wig", tAnd6, tTho, [("s", WIGWAM, 22), (2.6, K(3, 0, WIGWAM), 28), ("e", K(4, 0, WIGWAM), 34)], tag="REAL HISTORY", clock="14 MAY 1955", clockLabel="WIGWAM", clockRate=0, source=SRC_W,
     cities=[city(tAnd6, WIGWAM, "Wigwam", tAnd6 + 0.1, RED, "target", 6)],
-    ships=[{"path": [K(7.9, 1.8, WIGWAM), K(8.0, 1.8, WIGWAM)], "t0": 0, "t1": 8, "kind": "us", "color": BLUE, "size": 11, "t": rel(tAnd6, W("p46", "downwind")), "wake": False, "label": "Shielded ship"}],
+    ships=[{"path": [K(7.9, 1.8, WIGWAM), K(8.0, 1.8, WIGWAM)], "t0": 0, "t1": 8, "kind": "us", "color": BLUE, "size": 17, "t": rel(tAnd6, W("p46", "downwind")), "wake": False, "label": "Shielded ship"}],
     labels=[lab(tAnd6, K(0, 6.5, WIGWAM), "Downwind ships: under the dose limit (one account)", W("p46", "limit"), YELLOW)])
 reg("fo-two", tTho, S("p47"), [("s", B, 26), ("e", B, 18)], clock="", source="", ships=postfleet(tTho, S("p47"), ["DD1", "CV", "DD2"], labels={}),
     labels=[lk(tTho, -5, 4.8, "Two histories", W("p46", "histories"), WHITE), lk(tTho, -5, -4.8, "Not a forecast", W("p46", "forecast"), YELLOW)])
@@ -774,10 +795,14 @@ MERGES2 = [
     ("r-g", ["r-cv25", "r-model"]), ("l-a", ["l-land", "l-model"]), ("ab-a", ["ab-ours", "ab-scale"]), ("wg-a", ["wg-habit", "wg-eight"]), ("ct-a", ["ct-edge", "ct-in"]),
     ("d-a", ["d-q", "d-spread"]), ("rs-a", ["rs-steam", "rs-count"]), ("ww-a", ["ww-on", "ww-pipes"]), ("ww-b", ["ww-fires", "ww-unknown"]), ("fo-a", ["fo-able", "fo-wig"]), ("x-a", ["x-react", "x-radio"]), ("x-b", ["x-wing", "x-emp"]), ("g-b", ["g-bridge", "g-answer"]),
 ]
-for m in MERGES2:
-    merge(*m)
-for m in MERGES:
-    merge(*m)
+# 2026-11-16 (held back by QC): merged shots became 10 to 35 s near-still stretches; the sub-shots stay separate now
+# (each has its own camera and arrivals). Only merge when MERGE is set.
+MERGE = False
+if MERGE:
+    for m in MERGES2:
+        merge(*m)
+    for m in MERGES:
+        merge(*m)
 
 # ------------------------------------------------------------------ review round 1: staged labels, range rings, legends
 def _km(p, q):
@@ -823,6 +848,83 @@ def add_rings_legend(s):
             if leg:
                 s["legend"] = leg
 
+
+
+# ------------------------------------------------------------------ split long shots at spoken words (round 2): each piece is a cut with something new
+import copy as _copy
+CUTS = {
+    "open-b": [10.4], "open-launch": [16.1], "open-flight": [21.9], "open-group": [26.0], "open-question": [38.0, 39.7],
+    "w-only": [60.0], "w-downwind": [69.0, 71.2], "q1": [76.9, 79.02], "w-cable": [50.96], "cv-tons": [83.5], "grp-ships": [94.3], "cw": [167.4, 172.8],
+    "m-p25": [288.5, 290.9, 293.6, 296.6, 299.0], "ab-guide": [465.4, 467.4, 471.4, 473.8],
+}
+
+
+def _ip(keys, t, fields):
+    ks = sorted(keys, key=lambda k: k["t"])
+    if t <= ks[0]["t"]:
+        return {f: ks[0][f] for f in fields}
+    for k0, k1 in zip(ks, ks[1:]):
+        if t <= k1["t"]:
+            f = (t - k0["t"]) / max(k1["t"] - k0["t"], 1e-6)
+            return {fl: ([round(k0[fl][0] + (k1[fl][0] - k0[fl][0]) * f, 5), round(k0[fl][1] + (k1[fl][1] - k0[fl][1]) * f, 5)] if isinstance(k0[fl], list) else round(k0[fl] + (k1[fl] - k0[fl]) * f, 3)) for fl in fields}
+    return {f: ks[-1][f] for f in fields}
+
+
+def _shift(o, off):
+    if isinstance(o, dict):
+        for k, v in list(o.items()):
+            if k in ("t", "t0", "t1", "sunkAt", "until", "flashT") and isinstance(v, (int, float)):
+                o[k] = round(v - off, 3)
+            elif isinstance(v, (list, dict)) and k not in ("camera", "path", "center", "points", "at", "from", "to"):
+                _shift(v, off)
+    elif isinstance(o, list):
+        for it in o:
+            _shift(it, off)
+
+
+def _clock(c, off, rate):
+    if not c or not rate or c[:2] not in ("T+", "T-"):
+        return c
+    sg = 1 if c[1] == "+" else -1
+    sec = int(c[2:4]) * 60 + int(c[5:7]) + sg * off * rate
+    sec = max(0, int(round(sec)))
+    return f"T{c[1]}{sec // 60:02d}:{sec % 60:02d}"
+
+
+def split_shots():
+    global shots
+    out = []
+    for s in shots:
+        cuts = CUTS.get(s["id"])
+        if not cuts:
+            out.append(s)
+            continue
+        bounds = [s["start"]] + [c for c in cuts if s["start"] + 0.8 < c < s["end"] - 0.8] + [s["end"]]
+        fields = ["center", "widthKm"] if s["type"] == "region" else ["lat", "lon", "scale"]
+        for n, (a, b) in enumerate(zip(bounds, bounds[1:])):
+            p = _copy.deepcopy(s)
+            off = a - s["start"]
+            p["start"], p["end"] = a, b
+            if n:
+                p["id"] = f"{s['id']}-{n + 1}"
+            keys = [{"t": 0.0, **_ip(s["camera"], off, fields)}] + [{**k, "t": round(k["t"] - off, 2)} for k in s["camera"] if off + 0.3 < k["t"] < off + (b - a) - 0.3] + [{"t": round(b - a, 2), **_ip(s["camera"], b - s["start"], fields)}]
+            p["camera"] = keys
+            if s["type"] == "region":
+                p["view"] = {"center": keys[0]["center"], "widthKm": keys[0]["widthKm"]}
+            cam_ = p.pop("camera")
+            _shift(p, off)
+            p["camera"] = cam_
+            if p.get("clock"):
+                p["clock"] = _clock(p["clock"], off, p.get("clockRate"))
+            out.append(p)
+    shots = out
+
+
+split_shots()
+
+for s_ in shots:
+    if s_["type"] == "region" and (s_.get("caption") or s_.get("source")):
+        s_["scaleBar"] = False
 
 for s_ in shots:
     if s_["type"] == "region":
