@@ -1,0 +1,694 @@
+{
+ "subtitles": [
+  {
+   "start": 0.033,
+   "end": 1.469,
+   "text": "Six weeks earlier,"
+  },
+  {
+   "start": 1.699,
+   "end": 3.059,
+   "text": "Russia sent NATO states"
+  },
+  {
+   "start": 3.059,
+   "end": 4.669,
+   "text": "a diplomatic note."
+  },
+  {
+   "start": 4.853,
+   "end": 6.259,
+   "text": "It said Russia was ready"
+  },
+  {
+   "start": 6.259,
+   "end": 8.675,
+   "text": "to use its entire arsenal,"
+  },
+  {
+   "start": 8.675,
+   "end": 10.549,
+   "text": "including nuclear weapons,"
+  },
+  {
+   "start": 10.707,
+   "end": 11.719,
+   "text": "if NATO tried to"
+  },
+  {
+   "start": 11.719,
+   "end": 13.289,
+   "text": "cut off Kaliningrad."
+  },
+  {
+   "start": 13.693,
+   "end": 16.129,
+   "text": "NATO's secretary-general answered:"
+  },
+  {
+   "start": 16.628,
+   "end": 18.569,
+   "text": "stop the nuclear threats."
+  },
+  {
+   "start": 19.055,
+   "end": 20.779,
+   "text": "Kaliningrad is Russian land"
+  },
+  {
+   "start": 20.779,
+   "end": 22.019,
+   "text": "on the Baltic coast,"
+  },
+  {
+   "start": 22.019,
+   "end": 23.549,
+   "text": "about 1 million people,"
+  },
+  {
+   "start": 23.749,
+   "end": 26.129,
+   "text": "wedged between Poland and Lithuania."
+  },
+  {
+   "start": 26.622,
+   "end": 28.531,
+   "text": "It holds the Baltic Fleet"
+  },
+  {
+   "start": 28.531,
+   "end": 31.209,
+   "text": "and nuclear-capable Iskander missiles."
+  }
+ ],
+ "slug": "009-russia-attacks-baltic-72-hours-s3",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 31.319,
+ "shots": [
+  {
+   "id": "c1-note",
+   "type": "region",
+   "start": 0.0,
+   "end": 4.703,
+   "tag": "REAL DATA",
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      21.2,
+      54.9
+     ],
+     "widthKm": 520
+    },
+    {
+     "t": 3.09,
+     "center": [
+      22.5,
+      55.0
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 4.7,
+     "center": [
+      24.0,
+      54.8
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "clock": "6 WEEKS EARLIER",
+   "clockLabel": "THE NOTE",
+   "clockRate": 0,
+   "source": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "caption": "A diplomatic note, six weeks before the alerts.",
+   "view": {
+    "center": [
+     21.2,
+     54.9
+    ],
+    "widthKm": 520
+   },
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 7
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      23.6,
+      56.2
+     ],
+     "text": "Russia's note to NATO states",
+     "color": "#FFD23F",
+     "t": 1.81
+    }
+   ]
+  },
+  {
+   "id": "c1-arsenal",
+   "type": "region",
+   "start": 4.703,
+   "end": 13.543,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     22.0,
+     55.0
+    ],
+    "widthKm": 700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      22.0,
+      55.0
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 3.82,
+     "center": [
+      21.5,
+      54.9
+     ],
+     "widthKm": 450
+    },
+    {
+     "t": 8.84,
+     "center": [
+      21.0,
+      54.8
+     ],
+     "widthKm": 330
+    }
+   ],
+   "clock": "6 WEEKS EARLIER",
+   "clockLabel": "THE NOTE",
+   "clockRate": 0,
+   "source": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 7
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       19.6,
+       54.4
+      ],
+      [
+       22.8,
+       54.4
+      ],
+      [
+       22.8,
+       55.2
+      ],
+      [
+       19.6,
+       55.2
+      ]
+     ],
+     "label": "If NATO cuts it off",
+     "color": "#F2B01E",
+     "t": 6.87,
+     "pulse": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      24.2,
+      56.2
+     ],
+     "text": "Ready to use the entire arsenal",
+     "color": "#FF3B3B",
+     "t": 2.17
+    },
+    {
+     "at": [
+      24.2,
+      55.7
+     ],
+     "text": "including nuclear weapons",
+     "color": "#FF3B3B",
+     "t": 4.27
+    }
+   ]
+  },
+  {
+   "id": "c1-answer",
+   "type": "region",
+   "start": 13.543,
+   "end": 19.024,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     14,
+     52
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      14,
+      52
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 2.94,
+     "center": [
+      10,
+      52.5
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 5.48,
+     "center": [
+      12,
+      53
+     ],
+     "widthKm": 2800
+    }
+   ],
+   "clock": "6 WEEKS EARLIER",
+   "clockLabel": "THE ANSWER",
+   "clockRate": 0,
+   "source": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "NATO, Brussels",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#F2B01E",
+     "size": 5
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      4.35,
+      50.85
+     ],
+     "to": [
+      37.62,
+      55.75
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 1.55,
+     "t1": 4.05
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      14.0,
+      57.5
+     ],
+     "text": "NATO chief: stop the nuclear threats",
+     "color": "#6EA8FF",
+     "t": 2.94
+    }
+   ]
+  },
+  {
+   "id": "c1-kal",
+   "type": "region",
+   "start": 19.024,
+   "end": 26.472,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     21.0,
+     54.9
+    ],
+    "widthKm": 380
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      21.0,
+      54.9
+     ],
+     "widthKm": 380
+    },
+    {
+     "t": 7.45,
+     "center": [
+      21.3,
+      54.9
+     ],
+     "widthKm": 600
+    }
+   ],
+   "clock": "",
+   "source": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Kaliningrad: about 1 million people",
+     "kind": "target",
+     "t": 3.14,
+     "color": "#F2B01E",
+     "size": 7
+    },
+    {
+     "at": [
+      19.9,
+      54.65
+     ],
+     "label": "Baltic Fleet, Baltiysk",
+     "kind": "base",
+     "t": 1.91,
+     "color": "#F2B01E",
+     "size": 5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      22.9,
+      54.15
+     ],
+     "text": "Wedged between Poland and Lithuania",
+     "color": "#FFFFFF",
+     "t": 4.58
+    }
+   ]
+  },
+  {
+   "id": "c1-iskander",
+   "type": "region",
+   "start": 26.472,
+   "end": 31.319,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     21.5,
+     54.9
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      21.5,
+      54.9
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 2.06,
+     "center": [
+      21.5,
+      54.9
+     ],
+     "widthKm": 340
+    },
+    {
+     "t": 5.08,
+     "center": [
+      22.2,
+      54.9
+     ],
+     "widthKm": 560
+    }
+   ],
+   "clock": "",
+   "source": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      19.9,
+      54.65
+     ],
+     "label": "Baltic Fleet",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      21.6,
+      54.55
+     ],
+     "label": "Iskander missiles",
+     "kind": "base",
+     "t": 2.06,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      21.6,
+      54.55
+     ],
+     "km": 175,
+     "color": "#FF3B3B",
+     "label": "",
+     "t": 2.06,
+     "dashed": true
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "ENTIRE ARSENAL",
+  "OVER KALININGRAD"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

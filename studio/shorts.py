@@ -33,6 +33,11 @@ def shot_list(ep: Path, spec: dict) -> dict:
         if s["start"] < a - 0.05:
             raise SystemExit(f"{spec['id']}: window starts inside shot {s['id']}; move the start to a shot boundary")
         s["start"], s["end"] = round(s["start"] - a, 3), round(min(s["end"], b) - a, 3)
+        for k, v in (s.pop("short", None) or {}).items():   # per-shot overrides for the vertical cut (None removes a key)
+            if v is None:
+                s.pop(k, None)
+            else:
+                s[k] = v
         if s["type"] == "city":
             s["view"]["widthKm"] = round(s["view"]["widthKm"] * CITY_ZOOM, 2)
             if s.get("zoomTo"):

@@ -1,0 +1,819 @@
+{
+ "subtitles": [
+  {
+   "start": 0.014,
+   "end": 1.902,
+   "text": "The centre of Siauliai is about"
+  },
+  {
+   "start": 1.902,
+   "end": 4.332,
+   "text": "7 km from the base,"
+  },
+  {
+   "start": 4.528,
+   "end": 6.072,
+   "text": "outside the last ring,"
+  },
+  {
+   "start": 6.323,
+   "end": 7.542,
+   "text": "but the nearest streets and"
+  },
+  {
+   "start": 7.542,
+   "end": 9.325,
+   "text": "suburbs are inside it."
+  },
+  {
+   "start": 9.325,
+   "end": 10.442,
+   "text": "The burst is high,"
+  },
+  {
+   "start": 10.442,
+   "end": 11.722,
+   "text": "so the engine finds"
+  },
+  {
+   "start": 11.722,
+   "end": 13.452,
+   "text": "little local fallout."
+  },
+  {
+   "start": 14.052,
+   "end": 15.892,
+   "text": "For the base itself,"
+  },
+  {
+   "start": 16.185,
+   "end": 17.992,
+   "text": "that is the whole story,"
+  },
+  {
+   "start": 18.168,
+   "end": 19.292,
+   "text": "in about a second."
+  },
+  {
+   "start": 19.445,
+   "end": 20.604,
+   "text": "For everyone else,"
+  },
+  {
+   "start": 20.604,
+   "end": 22.532,
+   "text": "the story begins after it."
+  },
+  {
+   "start": 23.332,
+   "end": 25.152,
+   "text": "First, the airfield."
+  },
+  {
+   "start": 25.735,
+   "end": 27.972,
+   "text": "Why did Moscow fire it?"
+  },
+  {
+   "start": 28.2,
+   "end": 29.601,
+   "text": "In this simulation,"
+  },
+  {
+   "start": 29.601,
+   "end": 30.832,
+   "text": "to stop the fight,"
+  },
+  {
+   "start": 31.0,
+   "end": 32.247,
+   "text": "aimed at a base,"
+  },
+  {
+   "start": 32.247,
+   "end": 33.132,
+   "text": "not a city."
+  },
+  {
+   "start": 33.315,
+   "end": 34.452,
+   "text": "At first light,"
+  },
+  {
+   "start": 35.008,
+   "end": 36.162,
+   "text": "the airfield is a dark"
+  },
+  {
+   "start": 36.162,
+   "end": 37.532,
+   "text": "gap on the map,"
+  },
+  {
+   "start": 38.048,
+   "end": 40.192,
+   "text": "and the base's jets go quiet."
+  }
+ ],
+ "slug": "009-russia-attacks-baltic-72-hours-s2",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 40.282,
+ "shots": [
+  {
+   "id": "h-town",
+   "type": "city",
+   "start": 0.0,
+   "end": 6.173,
+   "tag": "SIMULATION",
+   "city": "siauliai",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 13.6
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 13.6
+    },
+    {
+     "t": 3.0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 12.0
+    },
+    {
+     "t": 6.17,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 11.2
+    }
+   ],
+   "gz": [
+    23.395,
+    55.894
+   ],
+   "clock": "T+03:06",
+   "clockLabel": "IMPACT · HOUR 61",
+   "clockRate": 0,
+   "source": "",
+   "legend": [],
+   "rings": [
+    {
+     "km": 0.153,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": 0.5
+    },
+    {
+     "km": 0.297,
+     "color": "#FF7A1A",
+     "label": "20 psi",
+     "t": 0.95
+    },
+    {
+     "km": 1.459,
+     "color": "#FF3B3B",
+     "label": "5 psi",
+     "t": 1.4
+    },
+    {
+     "km": 1.617,
+     "color": "#F2B01E",
+     "label": "Burns",
+     "t": 1.85
+    },
+    {
+     "km": 3.949,
+     "color": "#3ED6C8",
+     "label": "1 psi",
+     "t": 2.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      23.345,
+      55.906
+     ],
+     "text": "SIAULIAI AIR BASE (GROUND ZERO)",
+     "color": "#FFFFFF",
+     "t": 0.2
+    },
+    {
+     "at": [
+      23.316,
+      55.934
+     ],
+     "text": "Siauliai city centre",
+     "color": "#FFFFFF",
+     "t": 0.1
+    }
+   ],
+   "flashT": 0.1
+  },
+  {
+   "id": "h-streets",
+   "type": "city",
+   "start": 6.173,
+   "end": 9.272,
+   "tag": "SIMULATION",
+   "city": "siauliai",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 8.8
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 8.8
+    },
+    {
+     "t": 3.1,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 7.2
+    }
+   ],
+   "gz": [
+    23.395,
+    55.894
+   ],
+   "clock": "T+03:06",
+   "clockLabel": "IMPACT · HOUR 61",
+   "clockRate": 0,
+   "source": "",
+   "legend": [],
+   "rings": [
+    {
+     "km": 0.153,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": -30
+    },
+    {
+     "km": 0.297,
+     "color": "#FF7A1A",
+     "label": "20 psi",
+     "t": -30
+    },
+    {
+     "km": 1.459,
+     "color": "#FF3B3B",
+     "label": "5 psi",
+     "t": -30
+    },
+    {
+     "km": 1.617,
+     "color": "#F2B01E",
+     "label": "Burns",
+     "t": -30
+    },
+    {
+     "km": 3.949,
+     "color": "#3ED6C8",
+     "label": "1 psi",
+     "t": -30
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      23.35,
+      55.864
+     ],
+     "text": "Nearest streets: inside 1 psi",
+     "color": "#FFD23F",
+     "t": 0.28
+    }
+   ]
+  },
+  {
+   "id": "h-fallout",
+   "type": "city",
+   "start": 9.272,
+   "end": 13.984,
+   "tag": "SIMULATION",
+   "city": "siauliai",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 7.2
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 7.2
+    },
+    {
+     "t": 4.71,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 11.2
+    }
+   ],
+   "gz": [
+    23.395,
+    55.894
+   ],
+   "clock": "T+03:06",
+   "clockLabel": "IMPACT · HOUR 61",
+   "clockRate": 0,
+   "source": "",
+   "legend": [],
+   "rings": [
+    {
+     "km": 0.153,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": -30
+    },
+    {
+     "km": 0.297,
+     "color": "#FF7A1A",
+     "label": "20 psi",
+     "t": -30
+    },
+    {
+     "km": 1.459,
+     "color": "#FF3B3B",
+     "label": "5 psi",
+     "t": -30
+    },
+    {
+     "km": 1.617,
+     "color": "#F2B01E",
+     "label": "Burns",
+     "t": -30
+    },
+    {
+     "km": 3.949,
+     "color": "#3ED6C8",
+     "label": "1 psi",
+     "t": -30
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      23.395,
+      55.939
+     ],
+     "text": "High burst: little local fallout",
+     "color": "#3ED6C8",
+     "t": 2.3
+    }
+   ]
+  },
+  {
+   "id": "h-second",
+   "type": "region",
+   "start": 13.984,
+   "end": 19.295,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.4,
+     55.9
+    ],
+    "widthKm": 150
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.4,
+      55.9
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 5.31,
+     "center": [
+      23.4,
+      55.9
+     ],
+     "widthKm": 320
+    }
+   ],
+   "clock": "T+03:07",
+   "clockLabel": "ABOUT ONE SECOND",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "source": "Scenario engine",
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Base: the whole story",
+     "kind": "target",
+     "t": 0.39,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      23.316,
+      55.934
+     ],
+     "label": "Siauliai",
+     "kind": "dot",
+     "t": 0.5
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "km": 3.949,
+     "color": "#3ED6C8",
+     "t": 0.5,
+     "label": "1 psi"
+    },
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "km": 1.459,
+     "color": "#FF3B3B",
+     "t": 1.1,
+     "label": "5 psi"
+    }
+   ]
+  },
+  {
+   "id": "h-after",
+   "type": "region",
+   "start": 19.295,
+   "end": 23.31,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.4,
+     55.9
+    ],
+    "widthKm": 320
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.4,
+      55.9
+     ],
+     "widthKm": 320
+    },
+    {
+     "t": 4.01,
+     "center": [
+      24.0,
+      56.0
+     ],
+     "widthKm": 900
+    }
+   ],
+   "clock": "T+03:07",
+   "clockLabel": "THEN THE REST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai Air Base",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "label": "Vilnius",
+     "kind": "dot",
+     "t": 0.16
+    },
+    {
+     "at": [
+      23.9,
+      54.9
+     ],
+     "label": "Kaunas",
+     "kind": "dot",
+     "t": 1.0
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      26.5,
+      56.9
+     ],
+     "text": "For everyone else: after",
+     "color": "#FFD23F",
+     "t": 1.54
+    }
+   ]
+  },
+  {
+   "id": "d1-base",
+   "type": "region",
+   "start": 26.312,
+   "end": 31.092,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.4,
+     55.9
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.4,
+      55.9
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 3.22,
+     "center": [
+      23.5,
+      55.8
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 4.78,
+     "center": [
+      23.4,
+      55.9
+     ],
+     "widthKm": 380
+    }
+   ],
+   "clockLabel": "FIRST CHANGE: THE AIRFIELD",
+   "clock": "DAY 1",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai Air Base",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      23.316,
+      55.934
+     ],
+     "label": "Siauliai",
+     "kind": "dot",
+     "t": 0.8
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      25.0,
+      56.4
+     ],
+     "text": "Aimed at a base, not a city",
+     "color": "#FFD23F",
+     "t": 5.04
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ]
+  },
+  {
+   "id": "d1-dark",
+   "type": "region",
+   "start": 31.092,
+   "end": 40.282,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 4.56,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 247.531
+    },
+    {
+     "t": 9.56,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 190
+    }
+   ],
+   "clockLabel": "FIRST LIGHT",
+   "clock": "DAY 1",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Dark gap on the map",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      23.316,
+      55.934
+     ],
+     "label": "Siauliai",
+     "kind": "dot",
+     "t": 1.0
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       23.33,
+       55.87
+      ],
+      [
+       23.46,
+       55.87
+      ],
+      [
+       23.46,
+       55.92
+      ],
+      [
+       23.33,
+       55.92
+      ]
+     ],
+     "label": "Jets go quiet",
+     "color": "#8A8F98",
+     "t": 8.12,
+     "pulse": true
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "ONE 10 KT NUKE",
+  "NEXT TO SIAULIAI"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

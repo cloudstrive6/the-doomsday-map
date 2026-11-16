@@ -1,0 +1,1002 @@
+{
+ "subtitles": [
+  {
+   "start": 0.0,
+   "end": 3.37,
+   "text": "3:43 in the morning, Lithuania:"
+  },
+  {
+   "start": 3.571,
+   "end": 5.2,
+   "text": "the first nuclear weapon used"
+  },
+  {
+   "start": 5.2,
+   "end": 7.15,
+   "text": "in war since Nagasaki."
+  },
+  {
+   "start": 7.725,
+   "end": 9.26,
+   "text": "This is a simulation"
+  },
+  {
+   "start": 9.26,
+   "end": 11.39,
+   "text": "built from published numbers,"
+  },
+  {
+   "start": 11.752,
+   "end": 13.11,
+   "text": "and it has not happened."
+  },
+  {
+   "start": 13.786,
+   "end": 15.178,
+   "text": "3 minutes earlier,"
+  },
+  {
+   "start": 15.178,
+   "end": 16.485,
+   "text": "a radar in the Baltic"
+  },
+  {
+   "start": 16.485,
+   "end": 18.1,
+   "text": "picks up a ballistic missile"
+  },
+  {
+   "start": 18.1,
+   "end": 20.17,
+   "text": "climbing out of Kaliningrad."
+  },
+  {
+   "start": 20.48,
+   "end": 21.849,
+   "text": "It is one missile,"
+  },
+  {
+   "start": 21.849,
+   "end": 23.55,
+   "text": "aimed at one air base."
+  },
+  {
+   "start": 23.868,
+   "end": 25.0,
+   "text": "Nobody on the ground can"
+  },
+  {
+   "start": 25.0,
+   "end": 27.02,
+   "text": "tell whether the warhead is"
+  },
+  {
+   "start": 27.02,
+   "end": 28.81,
+   "text": "conventional or nuclear."
+  },
+  {
+   "start": 29.818,
+   "end": 31.0,
+   "text": "It is the sixty-first"
+  },
+  {
+   "start": 31.0,
+   "end": 31.95,
+   "text": "hour of the war."
+  },
+  {
+   "start": 32.41,
+   "end": 31.95,
+   "text": "Why would Moscow fire it,"
+  },
+  {
+   "start": 34.631,
+   "end": 31.95,
+   "text": "and what does the world"
+  },
+  {
+   "start": 35.6,
+   "end": 31.95,
+   "text": "do in the hour after?"
+  }
+ ],
+ "slug": "009-russia-attacks-baltic-72-hours-s1",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 31.95,
+ "shots": [
+  {
+   "id": "open-run",
+   "type": "region",
+   "start": 0.0,
+   "end": 2.0,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.0,
+     55.5
+    ],
+    "widthKm": 560
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.0,
+      55.5
+     ],
+     "widthKm": 560
+    },
+    {
+     "t": 2.0,
+     "center": [
+      23.2,
+      55.55
+     ],
+     "widthKm": 420
+    }
+   ],
+   "clock": "T-03:00",
+   "clockLabel": "TO IMPACT",
+   "clockRate": 90,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai Air Base",
+     "kind": "target",
+     "t": 0.15,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      21.8,
+      54.6
+     ],
+     "label": "Kaliningrad (launch, simulated)",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "label": "Vilnius",
+     "kind": "dot",
+     "t": 0.4
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      21.8,
+      54.6
+     ],
+     "to": [
+      23.395,
+      55.894
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.1,
+     "t1": 1.9
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       21.8,
+       54.6
+      ],
+      [
+       23.395,
+       55.894
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 1.95,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander-M",
+     "t": 0.1,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "open-flash",
+   "type": "city",
+   "start": 2.0,
+   "end": 7.712,
+   "tag": "SIMULATION",
+   "clock": "03:43",
+   "clockLabel": "SIAULIAI, LITHUANIA · LOCAL",
+   "clockRate": 0,
+   "city": "siauliai",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 4.0
+   },
+   "gz": [
+    23.395,
+    55.894
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 4.0
+    },
+    {
+     "t": 2.6,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 3.04
+    },
+    {
+     "t": 5.4,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 2.4
+    }
+   ],
+   "flashT": 0.1,
+   "rings": [
+    {
+     "km": 0.153,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.6
+    },
+    {
+     "km": 1.459,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 2.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      23.395,
+      55.897999999999996
+     ],
+     "text": "Siauliai Air Base",
+     "color": "#FFFFFF",
+     "t": 0.9
+    },
+    {
+     "at": [
+      23.395,
+      55.882
+     ],
+     "text": "10 kt airburst (our choice)",
+     "color": "#FFD23F",
+     "t": 2.0
+    }
+   ],
+   "legend": [],
+   "caption": "The first nuclear weapon used in war since 1945. Simulation: it has not happened."
+  },
+  {
+   "id": "open-sim",
+   "type": "region",
+   "start": 7.712,
+   "end": 13.353,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.5,
+     56.3
+    ],
+    "widthKm": 1150
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.5,
+      56.3
+     ],
+     "widthKm": 1150
+    },
+    {
+     "t": 2.16,
+     "center": [
+      24.0,
+      56.5
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 5.64,
+     "center": [
+      24.0,
+      56.4
+     ],
+     "widthKm": 700
+    }
+   ],
+   "clock": "HOUR 61",
+   "clockLabel": "OF THE WAR",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "428",
+     "text": "LATVIA",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "233",
+     "text": "ESTONIA",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E",
+     "size": 30
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai Air Base",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      21.8,
+      54.6
+     ],
+     "label": "Kaliningrad",
+     "kind": "base",
+     "t": 0.7,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      24.11,
+      56.95
+     ],
+     "label": "Riga",
+     "kind": "dot",
+     "t": 1.4
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "label": "Vilnius",
+     "kind": "dot",
+     "t": 2.68
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      26.2,
+      57.9
+     ],
+     "text": "A simulation: not a prediction",
+     "color": "#FFD23F",
+     "t": 0.7
+    },
+    {
+     "at": [
+      27.3,
+      55.0
+     ],
+     "text": "It has not happened",
+     "color": "#FF3B3B",
+     "t": 4.3
+    }
+   ]
+  },
+  {
+   "id": "open-radar",
+   "type": "region",
+   "start": 13.353,
+   "end": 20.33,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     22.0,
+     56.6
+    ],
+    "widthKm": 1100
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      22.0,
+      56.6
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 4.6,
+     "center": [
+      22.6,
+      55.6
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 6.98,
+     "center": [
+      22.5,
+      55.5
+     ],
+     "widthKm": 520
+    }
+   ],
+   "clock": "T-03:00",
+   "clockLabel": "TO IMPACT",
+   "clockRate": 30,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.5,
+      57.0
+     ],
+     "label": "Radar track (simulated)",
+     "kind": "dot",
+     "t": 1.8,
+     "color": "#FFD23F",
+     "size": 5
+    },
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "kind": "base",
+     "t": 5.46,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai Air Base",
+     "kind": "target",
+     "t": 2.98,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       21.8,
+       54.6
+      ],
+      [
+       23.395,
+       55.894
+      ]
+     ],
+     "t0": 4.6,
+     "t1": 11.37,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Ballistic missile",
+     "t": 3.62,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      23.9,
+      55.3
+     ],
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      20.6,
+      53.55
+     ],
+     "text": "POLAND",
+     "color": "#6EA8FF",
+     "t": 0.3
+    }
+   ]
+  },
+  {
+   "id": "open-one",
+   "type": "region",
+   "start": 20.33,
+   "end": 23.718,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     22.8,
+     55.4
+    ],
+    "widthKm": 420
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      22.8,
+      55.4
+     ],
+     "widthKm": 420
+    },
+    {
+     "t": 3.39,
+     "center": [
+      23.1,
+      55.6
+     ],
+     "widthKm": 330
+    }
+   ],
+   "clock": "T-01:30",
+   "clockLabel": "TO IMPACT",
+   "clockRate": 30,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "One air base",
+     "kind": "target",
+     "t": 2.08,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      21.8,
+      54.6
+     ],
+     "label": "Iskander brigade (simulated)",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#F2B01E",
+     "size": 5
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       22.2,
+       55.05
+      ],
+      [
+       23.395,
+       55.894
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 4.29,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "One missile",
+     "t": 0.1,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      21.8,
+      54.6
+     ],
+     "to": [
+      23.395,
+      55.894
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.1,
+     "t1": 2.0
+    }
+   ]
+  },
+  {
+   "id": "open-which",
+   "type": "region",
+   "start": 23.718,
+   "end": 29.353,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.2,
+     55.7
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.2,
+      55.7
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 5.64,
+     "center": [
+      23.4,
+      55.9
+     ],
+     "widthKm": 190
+    }
+   ],
+   "clock": "T-00:30",
+   "clockLabel": "TO IMPACT",
+   "clockRate": 12,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai Air Base",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      23.316,
+      55.934
+     ],
+     "label": "Siauliai (city)",
+     "kind": "dot",
+     "t": 0.57,
+     "color": "#FFFFFF"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       22.9,
+       55.6
+      ],
+      [
+       23.395,
+       55.894
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 5.34,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      24.15,
+      56.05
+     ],
+     "text": "Conventional?",
+     "color": "#FFD23F",
+     "t": 3.15
+    },
+    {
+     "at": [
+      24.15,
+      55.75
+     ],
+     "text": "Or nuclear?",
+     "color": "#FF3B3B",
+     "t": 4.17
+    }
+   ]
+  },
+  {
+   "id": "open-h61",
+   "type": "region",
+   "start": 29.353,
+   "end": 31.95,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.4,
+     55.9
+    ],
+    "widthKm": 150
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.4,
+      55.9
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 3.8,
+     "center": [
+      23.4,
+      55.9
+     ],
+     "widthKm": 360
+    }
+   ],
+   "clock": "HOUR 61",
+   "clockLabel": "OF A SIMULATED WAR",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "burst": {
+    "at": [
+     23.395,
+     55.894
+    ],
+    "t": 0.1,
+    "km": 6,
+    "fade": 4
+   },
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai Air Base",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      23.316,
+      55.934
+     ],
+     "label": "Siauliai",
+     "kind": "dot",
+     "t": 1.2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      24.0,
+      55.35
+     ],
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "t": 0.3
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "A RUSSIAN NUKE",
+  "ON LITHUANIA"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}
