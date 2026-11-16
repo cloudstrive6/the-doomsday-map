@@ -64,3 +64,19 @@ Non-blocking:
 5. s1 f00018: SIAULIAI AIR BASE label is still faint at 0.3 s (fade-in) and KALININGRAD (LAUNCH, SIMULATED) runs over the missile line. Subject is on screen; leave.
 
 Verdict: FAIL on s1 (findings 1 and 2) and s2 (finding 3); s3 passes. Director: three label fixes in shotlist.py, then re-render s1 at 8, 12, 15 and 20 s and s2 at 0.3 and 2.5 s. Not staged.
+
+## Shorts round 3
+
+PASS
+
+Checked fresh renders: s1 at 8, 12, 15, 20, 30.5 s and s2 at 0.3, 2.5, 39.5 s; long video validate.txt is `ok` (no retention: or pace: lines), and the pill change only touches the Shorts.
+
+Confirmed fixed:
+1. s1 f00480 (8 s) and f00720 (12 s): the overlapping ESTONIA/LITHUANIA/RIGA labels are gone. At 12 s LATVIA sits in Latvia, LITHUANIA in Lithuania (y 1070), SIAULIAI AIR BASE dot inside Lithuania, KALININGRAD on its sliver; no text overlaps. At 8 s the map carries no country labels (Baltic outlines, legend, "This is a simulation" caption only), which is readable but unlabelled.
+2. s1 f00900 (15 s) and f01200 (20 s): POLAND label removed; LITHUANIA is on Lithuania, and at 20 s SIAULIAI AIR BASE, RADAR TRACK, BALLISTIC MISSILE and KALININGRAD are plated, inside the frame (right-most end x 945) and not overlapping.
+3. s2 f00018 (0.3 s) and f00150 (2.5 s): the "SIAULIAI CITY CENTRE" plate is gone; the basemap "SIAULIAI" is whole (x 118 to 345) and crossed by nothing of ours. Rings, FIREBALL, 20 PSI and 5 PSI labels at 2.5 s are stacked, no overlap.
+4. Pill: s1 f01830 and s2 f02370 show "FULL SIMULATION ON THE CHANNEL" at y 540 to 590, clear of the clock plate (ends y 503).
+
+Nits, not blocking: s2 f00018 "SIAULIAI AIR BASE (GROUND ZERO)" is faint light-on-light on the flash-lit map at 0.3 s (fade-in; solid by 2.5 s) and runs to x 1010; s1 f01830 SIAULIAI AIR BASE label ends x 980 over the ring edge.
+
+Verdict: PASS. Rule 19 is met by s1 and s2; s3 passed in round 2 and is unchanged.

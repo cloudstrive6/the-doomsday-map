@@ -49,6 +49,11 @@
       "stage": "visual_approved",
       "note": "visual review PASS, 4 non-blocking fixes",
       "at": "2026-11-16T00:13:55+00:00"
+    },
+    {
+      "stage": "visual_approved",
+      "note": "shorts passed",
+      "at": "2026-11-16T00:30:35+00:00"
     }
   ],
   "stage": "visual_approved"
