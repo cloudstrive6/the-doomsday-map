@@ -1,0 +1,38 @@
+[
+ {
+  "id": "a",
+  "variant": "image",
+  "concept": "weapon",
+  "palette": "dawn-gold",
+  "line1": "3 MINUTES",
+  "line2": "WHICH WARHEAD?",
+  "tag": "",
+  "align": "left",
+  "image_prompt": "Bright low-angle photo at sunrise of a Russian Iskander-M mobile missile launcher, a large green eight-wheeled truck with its single grey ballistic missile raised on the launcher at a steep angle, parked on a flat misty Baltic meadow edged by dark pine forest, golden sunrise light lighting the missile nose and the mist, luminous orange and blue sky. The launcher and missile fill the right two thirds of the frame; the left third is clear glowing sky and mist. No people, no faces, no text.",
+  "image": "thumbs/009-a.jpg"
+ },
+ {
+  "id": "b",
+  "variant": "image",
+  "concept": "witness",
+  "palette": "daylight",
+  "line1": "10 KILOTONS",
+  "line2": "HALF NAGASAKI",
+  "tag": "SIRENS ONLY",
+  "align": "left",
+  "image_prompt": "Bright daylight photo of one small figure seen from behind on a grassy hill at the bottom right edge of the frame, watching a small European town with red roofs and a church spire in the distance, beyond which, far to the right edge of the frame, a blinding white-orange nuclear flash and a rising white-orange fireball with a young mushroom cloud lights the whole sky and the fields bright. Fighter jets small on a runway in front of the flash. The fireball sits in the right third of the frame only; the left 60 percent of the frame is clear bright sky and open field. No face visible, no ring, no halo, no text.",
+  "image": "thumbs/009-b.jpg"
+ },
+ {
+  "id": "c",
+  "variant": "image",
+  "concept": "aftermath",
+  "palette": "ash",
+  "line1": "THE DECISION",
+  "line2": "STILL OPEN",
+  "tag": "",
+  "align": "right",
+  "image_prompt": "Very bright high-key overexposed photo of a military airfield the morning after, seen from above in hazy white daylight: a long pale concrete runway with a wide blackened scorched patch, collapsed pale hangars and a few wrecked grey jets, thin white ash smoke drifting over pale green farmland, luminous bright white-grey sky filling the upper third. The runway and damage fill the left two thirds of the frame; the upper right is clear bright pale sky. No people, no faces, no text.",
+  "image": "thumbs/009-c.jpg"
+ }
+]
