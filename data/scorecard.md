@@ -1,4 +1,4 @@
-# Scorecard (2026-11-15, latest snapshot 2026-11-15)
+# Scorecard (2026-11-16, latest snapshot 2026-11-16)
 
 Built by `python -m studio scorecard` from data/analytics/. Targets judged on the median of episodes 004 onward; earlier episodes are the baseline. Small samples: read as tests, not proof.
 
@@ -37,6 +37,8 @@ Subscribers: 8 (target 50 by 2026-12-10)
 | 005 | u1EWhaWRoyc | 28 | due 2026-12-10 | - | - | - | - | - | - |
 | 006 | DK6UC3_BT6Q | 7 | due 2026-11-20 | - | - | - | - | - | - |
 | 006 | DK6UC3_BT6Q | 28 | due 2026-12-11 | - | - | - | - | - | - |
+| 008 | -jPUfuzQF4g | 7 | due 2026-11-24 | - | - | - | - | - | - |
+| 008 | -jPUfuzQF4g | 28 | due 2026-12-15 | - | - | - | - | - | - |
 
 ## Shorts
 
@@ -78,3 +80,9 @@ Subscribers: 8 (target 50 by 2026-12-10)
 | 006 | K67FRJT0Za4 | 28 | due 2026-12-11 | - | - | - |
 | 006 | rVHj7z8O65Q | 7 | due 2026-11-21 | - | - | - |
 | 006 | rVHj7z8O65Q | 28 | due 2026-12-12 | - | - | - |
+| 008 | IiMf6VMQD6M | 7 | due 2026-11-24 | - | - | - |
+| 008 | IiMf6VMQD6M | 28 | due 2026-12-15 | - | - | - |
+| 008 | iqCileJm1CI | 7 | due 2026-11-24 | - | - | - |
+| 008 | iqCileJm1CI | 28 | due 2026-12-15 | - | - | - |
+| 008 | zVxmXn8OHp0 | 7 | due 2026-11-25 | - | - | - |
+| 008 | zVxmXn8OHp0 | 28 | due 2026-12-16 | - | - | - |

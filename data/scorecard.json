@@ -1,6 +1,6 @@
 {
-  "built": "2026-11-15",
-  "latest_snapshot": "2026-11-15",
+  "built": "2026-11-16",
+  "latest_snapshot": "2026-11-16",
   "subscribers": 8,
   "subs_target": [
     50,
@@ -722,6 +722,102 @@
       "publish_at": "2026-11-14T00:00:00Z",
       "horizon": 28,
       "due": "2026-12-12",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "008-full-nuclear-war-minute-by-minute",
+      "num": 8,
+      "kind": "long",
+      "id": "-jPUfuzQF4g",
+      "title": "What If America and Russia Nuked Each Other? 27 Strikes",
+      "publish_at": "2026-11-17T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-11-24",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "008-full-nuclear-war-minute-by-minute",
+      "num": 8,
+      "kind": "long",
+      "id": "-jPUfuzQF4g",
+      "title": "What If America and Russia Nuked Each Other? 27 Strikes",
+      "publish_at": "2026-11-17T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-15",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "008-full-nuclear-war-minute-by-minute",
+      "num": 8,
+      "kind": "short",
+      "id": "IiMf6VMQD6M",
+      "title": "What If US and Russia Nuked Each Other? 53 Minutes #shorts",
+      "publish_at": "2026-11-17T14:00:00Z",
+      "horizon": 7,
+      "due": "2026-11-24",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "008-full-nuclear-war-minute-by-minute",
+      "num": 8,
+      "kind": "short",
+      "id": "IiMf6VMQD6M",
+      "title": "What If US and Russia Nuked Each Other? 53 Minutes #shorts",
+      "publish_at": "2026-11-17T14:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-15",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "008-full-nuclear-war-minute-by-minute",
+      "num": 8,
+      "kind": "short",
+      "id": "iqCileJm1CI",
+      "title": "Nukes Hit Washington at Minute 17: Simulated #shorts",
+      "publish_at": "2026-11-17T19:00:00Z",
+      "horizon": 7,
+      "due": "2026-11-24",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "008-full-nuclear-war-minute-by-minute",
+      "num": 8,
+      "kind": "short",
+      "id": "iqCileJm1CI",
+      "title": "Nukes Hit Washington at Minute 17: Simulated #shorts",
+      "publish_at": "2026-11-17T19:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-15",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "008-full-nuclear-war-minute-by-minute",
+      "num": 8,
+      "kind": "short",
+      "id": "zVxmXn8OHp0",
+      "title": "Nuke War Minute 40: 4 Cities, 27 Strikes in 53 Minutes #shorts",
+      "publish_at": "2026-11-18T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-11-25",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "008-full-nuclear-war-minute-by-minute",
+      "num": 8,
+      "kind": "short",
+      "id": "zVxmXn8OHp0",
+      "title": "Nuke War Minute 40: 4 Cities, 27 Strikes in 53 Minutes #shorts",
+      "publish_at": "2026-11-18T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-16",
       "snapshot": null,
       "status": "pending"
     }
