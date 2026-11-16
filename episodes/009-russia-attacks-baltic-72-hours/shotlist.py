@@ -256,8 +256,8 @@ a = chapter("c2-card", S("p13"), 3.5, "CHAPTER 02", "How close it has come", "RE
 tRu, tAm = W("p13", "Russia"), W("p13", "A")
 reg("c2-crimea", a, tRu, [("s", [34.0, 45.4], 900), (W("p13", "took"), [34.2, 45.2], 600), ("e", [34.4, 45.4], 450)], tag="REAL HISTORY", clock="FEB 2014", clockLabel="CRIMEA", clockRate=0, source="Reuters; BBC",
     highlight=[HLU, HLR], countryLabels=[CL(UA, "UKRAINE", TEAL, 30), CL(RU, "RUSSIA", AMBER, 30)], legend=[{"text": "UKRAINE", "color": TEAL}, {"text": "RUSSIA", "color": AMBER}],
-    cities=[city(a, [34.1, 44.95], "Simferopol, Crimea", W("p13", "Crimea"), RED, "target", 7), city(a, [33.5, 44.6], "Sevastopol", a + 0.5, WHITE)],
-    labels=[lab(a, [31.9, 46.5], "Soldiers with no insignia", W("p13", "insignia"), YELLOW)])
+    cities=[city(a, [34.1, 44.95], "Simferopol, Crimea", W("p13", "Crimea"), WHITE, "dot", 7), city(a, [33.5, 44.6], "Sevastopol", a + 0.5, WHITE)],
+    labels=[lab(a, [33.7, 46.1], "Soldiers with no insignia", W("p13", "insignia"), YELLOW)])
 reg("c2-denied", tRu, tAm, [("s", [36.0, 47.0], 1500), (W("p13", "admitted"), [36, 49], 1300), ("e", [30, 52], 1900)], tag="REAL HISTORY", clock="FEB 2014", clockLabel="CRIMEA", clockRate=0, source="Reuters; BBC",
     highlight=[HLU, HLR], countryLabels=[CL(UA, "UKRAINE", TEAL), CL(RU, "RUSSIA", AMBER)],
     cities=[city(tRu, MOSCOW, "Moscow", tRu + 0.2, AMBER, "base", 5), city(tRu, CRIMEA, "Crimea", tRu + 0.4, RED, "target", 6)],
@@ -338,8 +338,10 @@ reg("c3-two", a, tOne, [("s", [23.0, 55.4], 520), (W("p19", "leave"), [23.0, 55.
     countryLabels=[CL(LT, "LITHUANIA", BLUE, 30)],
     cities=[city(a, KALCITY, "Kaliningrad area", W("p19", "Kaliningrad"), AMBER, "base", 5), city(a, RUKLA, "Rukla", tOne, RED, "target", 6), city(a, SIA, "Siauliai", tThe, RED, "target", 6)],
     ships=[missile(a, [LAUNCH, RUKLA], W("p19", "leave"), tOne + 2.4, label="Iskander (conv.)", t_on=W("p19", "leave")), missile(a, [LAUNCH, SIA], W("p19", "leave"), tOne + 2.6, label="", t_on=W("p19", "leave"))])
-reg("c3-rukla", tOne, tThe, [("s", [24.0, 55.2], 350), ("e", [24.2, 55.0], 190)], **CH3b,
-    cities=[city(tOne, RUKLA, "Rukla: German-led battlegroup", W("p19", "hits"), BLUE, "base", 7), city(tOne, VILNIUS, "Vilnius", tOne + 0.4), city(tOne, KAUNAS, "Kaunas", tOne + 0.8)],
+reg("c3-rukla", tOne, tThe, [("s", [22.9, 55.1], 460), ("e", [24.2, 55.0], 190)], **CH3b,
+    countryLabels=[CL(LT, "LITHUANIA", BLUE, 30)],
+    ships=[missile(tOne, [LAUNCH, RUKLA], tOne + 0.3, W("p19", "hits"), label="Iskander (conv.)", t_on=tOne + 0.3)],
+    cities=[city(tOne, KALCITY, "Kaliningrad area", tOne + 0.1, AMBER, "base", 5), city(tOne, RUKLA, "Rukla: German-led battlegroup", W("p19", "hits"), BLUE, "base", 7), city(tOne, VILNIUS, "Vilnius", tOne + 0.4), city(tOne, KAUNAS, "Kaunas", tOne + 0.8)],
     rings=[{"at": RUKLA, "km": 8, "color": RED, "t": rel(tOne, W("p19", "hits")), "dashed": True}])
 reg("c3-siauliai", tThe, tFl, [("s", [23.4, 55.9], 330), ("e", [23.4, 55.9], 190)], **CH3b,
     cities=[city(tThe, SIA, "Siauliai Air Base", tThe + 0.3, BLUE, "base", 7), city(tThe, SIAULIAI_C, "Siauliai", tThe + 1.0)],
@@ -550,7 +552,7 @@ reg("d3-wind", a, tSo2, [("s", [22.0, 56.0], 400), (W("p40", "westerly"), [23.0,
     lines=[line(a, [21.4, 56.3], [22.7, 56.0], W("p40", "westerly"), W("p40", "westerly") + 2.0, WHITE, label="Light westerly wind (our choice)")])
 reg("d3-plume", tSo2, tAn, [("s", [24.0, 55.9], 500), ("e", [25.5, 55.9], 800)], clockLabel="THIRD CHANGE: THE DUST", **CH6, source="Scenario engine; wind is our assumption",
     cities=[city(tSo2, SIA, "Burst point", tSo2 + 0.2, RED, "target", 6), city(tSo2, [26.4, 55.9], "Lithuanian farmland", W("p40", "farmland"), WHITE, "dot")],
-    plume=PL_(rel(tSo2, W("p40", "drifts"))), labels=[lab(tSo2, [27.0, 56.6], "A thin drift, east", W("p40", "thin"), AMBER)])
+    plume=PL_(0.6), labels=[lab(tSo2, [27.0, 56.6], "A thin drift, east", W("p40", "thin"), AMBER)])
 reg("d3-ill", tAn, S("p41"), [("s", [25.5, 55.9], 800), ("e", [26.0, 56.0], 1200)], clockLabel="NO DISTANCE, NO DOSE", **CH6, source="Scenario engine; wind is our assumption",
     cities=[city(tAn, SIA, "Burst point", tAn + 0.2, RED, "target", 6)], plume=PL_(0.3),
     labels=[lab(tAn, [27.8, 56.7], "The engine gives no distance", W("p40", "distance"), YELLOW), lab(tAn, [27.8, 56.2], "and no dose", W("p40", "dose"), YELLOW)])
@@ -602,8 +604,9 @@ glob("d8-ladder", a, tIn4, [("s", 50, 25, 900), ("e", 48, 15, 1300)], clock="", 
 glob("d8-plana", tIn4, tIn5, [("s", 48, 15, 1300), ("e", 45, -20, 800)], clock="", source="Princeton, Science and Global Security: Plan A (2019)", highlight=[HLR, {"iso": US, "color": BLUE, "fill": "rgba(110,168,255,0.06)"}] + HLB,
      markers=[{"at": SIA, "label": "A war that begins in Europe", "color": RED, "kind": "target", "t": 0.3}, {"at": [-77.04, 38.9], "label": "Strategic strikes", "color": BLUE, "kind": "dot", "t": rel(tIn4, W("p45", "strategic"))}],
      arcs=[{"from": SIA, "to": [-77.04, 38.9], "t0": rel(tIn4, W("p45", "tactical")), "t1": rel(tIn4, W("p45", "tactical")) + 3.5, "color": RED, "loft": 0.3}], caption="Princeton Plan A: a model, not this simulation.")
-reg("d8-small", tIn5, S("p46"), [("s", [24.0, 56.0], 1800), ("e", [23.4, 55.9], 500)], clock="", source="Princeton, Science and Global Security: Plan A (2019)", highlight=HLB + [HLR, HLP],
-    cities=[city(tIn5, SIA, "The tactical phase: a small fraction", W("p45", "small"), RED, "target", 6)])
+reg("d8-small", tIn5, S("p46"), [("s", [23.0, 55.6], 900), ("e", [23.4, 55.9], 500)], clock="", source="Princeton, Science and Global Security: Plan A (2019)", highlight=HLB + [HLR, HLP],
+    countryLabels=[CL(LT, "LITHUANIA", BLUE, 30), CL(LV, "LATVIA", BLUE, 30)],
+    cities=[city(tIn5, KALCITY, "Kaliningrad", tIn5 + 0.3, AMBER, "base", 5), city(tIn5, SIA, "The tactical phase: a small fraction", W("p45", "small"), RED, "target", 6)])
 a = S("p46")
 reg("z-quiet", a, S("p47"), [("s", [23.4, 55.9], 420), ("e", [23.4, 55.9], 260)], clock="DAWN", clockLabel="DAY 1", clockRate=0, highlight=HLB, countryLabels=[CL(LT, "LITHUANIA", BLUE, 30)],
     cities=[city(a, SIA, "Quiet at dawn", W("p46", "quiet"), RED, "target", 7), city(a, SIAULIAI_C, "Siauliai", a + 0.4)], labels=[lab(a, [24.5, 56.3], "The decision is still open", W("p46", "open"), YELLOW)])

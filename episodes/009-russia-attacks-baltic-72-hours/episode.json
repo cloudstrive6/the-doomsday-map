@@ -3043,9 +3043,9 @@
       44.95
      ],
      "label": "Simferopol, Crimea",
-     "kind": "target",
+     "kind": "dot",
      "t": 1.5,
-     "color": "#FF3B3B",
+     "color": "#FFFFFF",
      "size": 7
     },
     {
@@ -3062,8 +3062,8 @@
    "labels": [
     {
      "at": [
-      31.9,
-      46.5
+      33.7,
+      46.1
      ],
      "text": "Soldiers with no insignia",
      "color": "#FFD23F",
@@ -5314,19 +5314,19 @@
    "tag": "SIMULATION",
    "view": {
     "center": [
-     24.0,
-     55.2
+     22.9,
+     55.1
     ],
-    "widthKm": 350
+    "widthKm": 460
    },
    "camera": [
     {
      "t": 0,
      "center": [
-      24.0,
-      55.2
+      22.9,
+      55.1
      ],
-     "widthKm": 350
+     "widthKm": 460
     },
     {
      "t": 4.27,
@@ -5377,7 +5377,47 @@
      "color": "#6EA8FF"
     }
    ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       21.8,
+       54.6
+      ],
+      [
+       24.2,
+       55.0
+      ]
+     ],
+     "t0": 0.3,
+     "t1": 0.25,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander (conv.)",
+     "t": 0.3,
+     "wake": true
+    }
+   ],
    "cities": [
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Kaliningrad area",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#F2B01E",
+     "size": 5
+    },
     {
      "at": [
       24.2,
@@ -10553,6 +10593,14 @@
      "widthKm": 500
     },
     {
+     "t": 3.46,
+     "center": [
+      24.6595,
+      55.9
+     ],
+     "widthKm": 631.893
+    },
+    {
      "t": 7.87,
      "center": [
       25.5,
@@ -10596,8 +10644,8 @@
     "bearing": 90,
     "lengthKm": 90,
     "widthKm": 16,
-    "t0": 4.42,
-    "t1": 9.42,
+    "t0": 0.6,
+    "t1": 5.6,
     "color": "#F2B01E",
     "label": "Illustrative only"
    },
@@ -11818,19 +11866,19 @@
    "tag": "SIMULATION",
    "view": {
     "center": [
-     24.0,
-     56.0
+     23.0,
+     55.6
     ],
-    "widthKm": 1800
+    "widthKm": 900
    },
    "camera": [
     {
      "t": 0,
      "center": [
-      24.0,
-      56.0
+      23.0,
+      55.6
      ],
-     "widthKm": 1800
+     "widthKm": 900
     },
     {
      "t": 11.13,
@@ -11870,7 +11918,32 @@
      "fill": "rgba(110,168,255,0.07)"
     }
    ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "428",
+     "text": "LATVIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
    "cities": [
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 5
+    },
     {
      "at": [
       23.395,
