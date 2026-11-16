@@ -1,7 +1,7 @@
 {
  "date": "2026-11-16",
  "channel": {
-  "viewCount": "6872",
+  "viewCount": "6903",
   "subscriberCount": "8",
   "hiddenSubscriberCount": false,
   "videoCount": "24"
@@ -9,7 +9,7 @@
  "videos": [
   {
    "video": "hK24hiHogvs",
-   "views": 1207,
+   "views": 1208,
    "estimatedMinutesWatched": 566,
    "averageViewDuration": 53,
    "averageViewPercentage": 87.97,
@@ -19,7 +19,7 @@
    "shares": 0,
    "title": "What One 10-Kiloton Nuke Would Do to a US Carrier Group #shorts",
    "published": "2026-11-06T19:00:07Z",
-   "lifetime_views": 1206,
+   "lifetime_views": 1208,
    "retention_curve": [
     [
      0.01,
@@ -240,11 +240,127 @@
    ]
   },
   {
+   "video": "CswtYFhvZkE",
+   "views": 1056,
+   "estimatedMinutesWatched": 373,
+   "averageViewDuration": 39,
+   "averageViewPercentage": 72.3,
+   "subscribersGained": 2,
+   "likes": 10,
+   "comments": 0,
+   "shares": 0,
+   "title": "Putin's \"Not a Bluff\" and the Secret Calls That Followed in 2022 #shorts",
+   "published": "2026-11-13T00:00:30Z",
+   "lifetime_views": 1051,
+   "retention_curve": [
+    [
+     0.01,
+     1.442,
+     0.674
+    ],
+    [
+     0.06,
+     1.393,
+     0.588
+    ],
+    [
+     0.11,
+     1.273,
+     0.565
+    ],
+    [
+     0.16,
+     1.091,
+     0.543
+    ],
+    [
+     0.21,
+     0.991,
+     0.523
+    ],
+    [
+     0.26,
+     0.902,
+     0.506
+    ],
+    [
+     0.31,
+     0.819,
+     0.494
+    ],
+    [
+     0.36,
+     0.743,
+     0.492
+    ],
+    [
+     0.41,
+     0.68,
+     0.499
+    ],
+    [
+     0.46,
+     0.632,
+     0.513
+    ],
+    [
+     0.51,
+     0.602,
+     0.536
+    ],
+    [
+     0.56,
+     0.581,
+     0.583
+    ],
+    [
+     0.61,
+     0.549,
+     0.661
+    ],
+    [
+     0.66,
+     0.542,
+     0.754
+    ],
+    [
+     0.71,
+     0.522,
+     0.837
+    ],
+    [
+     0.76,
+     0.517,
+     0.893
+    ],
+    [
+     0.81,
+     0.501,
+     0.915
+    ],
+    [
+     0.86,
+     0.485,
+     0.92
+    ],
+    [
+     0.91,
+     0.46,
+     0.921
+    ],
+    [
+     0.96,
+     0.442,
+     0.926
+    ]
+   ]
+  },
+  {
    "video": "LT_46ntdORs",
-   "views": 956,
+   "views": 957,
    "estimatedMinutesWatched": 398,
    "averageViewDuration": 41,
-   "averageViewPercentage": 69.76,
+   "averageViewPercentage": 69.71,
    "subscribersGained": 1,
    "likes": 7,
    "comments": 0,
@@ -255,7 +371,7 @@
    "retention_curve": [
     [
      0.01,
-     1.417,
+     1.416,
      0.655
     ],
     [
@@ -280,194 +396,78 @@
     ],
     [
      0.26,
-     0.776,
+     0.777,
      0.548
     ],
     [
      0.31,
-     0.744,
-     0.562
+     0.745,
+     0.561
     ],
     [
      0.36,
-     0.726,
+     0.727,
      0.569
     ],
     [
      0.41,
      0.714,
-     0.567
+     0.566
     ],
     [
      0.46,
-     0.671,
-     0.56
+     0.67,
+     0.558
     ],
     [
      0.51,
-     0.614,
-     0.559
+     0.613,
+     0.558
     ],
     [
      0.56,
-     0.596,
-     0.583
+     0.595,
+     0.582
     ],
     [
      0.61,
-     0.574,
-     0.644
+     0.573,
+     0.643
     ],
     [
      0.66,
-     0.56,
-     0.714
+     0.559,
+     0.713
     ],
     [
      0.71,
-     0.547,
-     0.765
+     0.546,
+     0.764
     ],
     [
      0.76,
-     0.533,
+     0.532,
      0.799
     ],
     [
      0.81,
-     0.508,
+     0.507,
      0.833
     ],
     [
      0.86,
-     0.494,
+     0.493,
      0.841
     ],
     [
      0.91,
-     0.481,
+     0.48,
      0.836
     ],
     [
      0.96,
-     0.46,
+     0.459,
      0.827
-    ]
-   ]
-  },
-  {
-   "video": "CswtYFhvZkE",
-   "views": 950,
-   "estimatedMinutesWatched": 342,
-   "averageViewDuration": 39,
-   "averageViewPercentage": 73.46,
-   "subscribersGained": 2,
-   "likes": 10,
-   "comments": 0,
-   "shares": 0,
-   "title": "Putin's \"Not a Bluff\" and the Secret Calls That Followed in 2022 #shorts",
-   "published": "2026-11-13T00:00:30Z",
-   "lifetime_views": 1054,
-   "retention_curve": [
-    [
-     0.01,
-     1.459,
-     0.674
-    ],
-    [
-     0.06,
-     1.406,
-     0.59
-    ],
-    [
-     0.11,
-     1.285,
-     0.568
-    ],
-    [
-     0.16,
-     1.098,
-     0.547
-    ],
-    [
-     0.21,
-     1.004,
-     0.53
-    ],
-    [
-     0.26,
-     0.915,
-     0.513
-    ],
-    [
-     0.31,
-     0.831,
-     0.501
-    ],
-    [
-     0.36,
-     0.748,
-     0.498
-    ],
-    [
-     0.41,
-     0.689,
-     0.505
-    ],
-    [
-     0.46,
-     0.64,
-     0.517
-    ],
-    [
-     0.51,
-     0.61,
-     0.542
-    ],
-    [
-     0.56,
-     0.589,
-     0.59
-    ],
-    [
-     0.61,
-     0.559,
-     0.669
-    ],
-    [
-     0.66,
-     0.551,
-     0.763
-    ],
-    [
-     0.71,
-     0.531,
-     0.846
-    ],
-    [
-     0.76,
-     0.526,
-     0.901
-    ],
-    [
-     0.81,
-     0.508,
-     0.923
-    ],
-    [
-     0.86,
-     0.494,
-     0.928
-    ],
-    [
-     0.91,
-     0.472,
-     0.929
-    ],
-    [
-     0.96,
-     0.457,
-     0.933
     ]
    ]
   },
@@ -588,118 +588,234 @@
    ]
   },
   {
+   "video": "huHH9VFS5aI",
+   "views": 416,
+   "estimatedMinutesWatched": 122,
+   "averageViewDuration": 33,
+   "averageViewPercentage": 76.97,
+   "subscribersGained": 0,
+   "likes": 5,
+   "comments": 0,
+   "shares": 0,
+   "title": "What If Israel Nuked an Iranian Mountain Site? #shorts",
+   "published": "2026-11-13T14:00:06Z",
+   "lifetime_views": 425,
+   "retention_curve": [
+    [
+     0.01,
+     1.452,
+     0.658
+    ],
+    [
+     0.06,
+     1.35,
+     0.561
+    ],
+    [
+     0.11,
+     1.258,
+     0.536
+    ],
+    [
+     0.16,
+     1.152,
+     0.52
+    ],
+    [
+     0.21,
+     1.009,
+     0.508
+    ],
+    [
+     0.26,
+     0.866,
+     0.499
+    ],
+    [
+     0.31,
+     0.82,
+     0.496
+    ],
+    [
+     0.36,
+     0.751,
+     0.501
+    ],
+    [
+     0.41,
+     0.733,
+     0.517
+    ],
+    [
+     0.46,
+     0.714,
+     0.54
+    ],
+    [
+     0.51,
+     0.682,
+     0.574
+    ],
+    [
+     0.56,
+     0.664,
+     0.624
+    ],
+    [
+     0.61,
+     0.636,
+     0.688
+    ],
+    [
+     0.66,
+     0.608,
+     0.756
+    ],
+    [
+     0.71,
+     0.59,
+     0.807
+    ],
+    [
+     0.76,
+     0.581,
+     0.835
+    ],
+    [
+     0.81,
+     0.567,
+     0.848
+    ],
+    [
+     0.86,
+     0.548,
+     0.852
+    ],
+    [
+     0.91,
+     0.525,
+     0.854
+    ],
+    [
+     0.96,
+     0.488,
+     0.874
+    ]
+   ]
+  },
+  {
    "video": "rVHj7z8O65Q",
-   "views": 381,
-   "estimatedMinutesWatched": 183,
-   "averageViewDuration": 59,
-   "averageViewPercentage": 124.00999999999999,
+   "views": 405,
+   "estimatedMinutesWatched": 186,
+   "averageViewDuration": 57,
+   "averageViewPercentage": 119.19,
    "subscribersGained": 0,
    "likes": 3,
    "comments": 0,
    "shares": 0,
    "title": "What a 10-Kiloton Nuke Does to a Mountain in Iran #shorts",
    "published": "2026-11-14T00:00:40Z",
-   "lifetime_views": 417,
+   "lifetime_views": 419,
    "retention_curve": [
     [
      0.01,
-     1.989,
-     0.634
+     1.942,
+     0.633
     ],
     [
      0.06,
-     1.883,
-     0.514
+     1.842,
+     0.511
     ],
     [
      0.11,
-     1.789,
-     0.504
-    ],
-    [
-     0.16,
-     1.606,
+     1.732,
      0.501
     ],
     [
+     0.16,
+     1.547,
+     0.5
+    ],
+    [
      0.21,
-     1.422,
+     1.374,
      0.5
     ],
     [
      0.26,
-     1.333,
+     1.279,
      0.5
     ],
     [
      0.31,
-     1.289,
-     0.501
+     1.237,
+     0.5
     ],
     [
      0.36,
-     1.228,
-     0.505
+     1.179,
+     0.503
     ],
     [
      0.41,
-     1.217,
-     0.51
+     1.163,
+     0.509
     ],
     [
      0.46,
-     1.194,
+     1.142,
      0.516
     ],
     [
      0.51,
-     1.167,
-     0.524
+     1.116,
+     0.523
     ],
     [
      0.56,
-     1.156,
-     0.535
+     1.105,
+     0.536
     ],
     [
      0.61,
-     1.133,
-     0.555
+     1.084,
+     0.556
     ],
     [
      0.66,
-     1.094,
-     0.591
+     1.047,
+     0.593
     ],
     [
      0.71,
-     1.067,
-     0.657
+     1.021,
+     0.659
     ],
     [
      0.76,
-     1.033,
+     0.99,
      0.74
     ],
     [
      0.81,
-     1.033,
-     0.803
+     0.99,
+     0.801
     ],
     [
      0.86,
-     1.011,
-     0.844
+     0.968,
+     0.84
     ],
     [
      0.91,
-     1.011,
-     0.871
+     0.963,
+     0.866
     ],
     [
      0.96,
-     1,
-     0.887
+     0.953,
+     0.881
     ]
    ]
   },
@@ -816,122 +932,6 @@
      0.96,
      0.661,
      0.951
-    ]
-   ]
-  },
-  {
-   "video": "huHH9VFS5aI",
-   "views": 253,
-   "estimatedMinutesWatched": 79,
-   "averageViewDuration": 35,
-   "averageViewPercentage": 81.46,
-   "subscribersGained": 0,
-   "likes": 3,
-   "comments": 0,
-   "shares": 0,
-   "title": "What If Israel Nuked an Iranian Mountain Site? #shorts",
-   "published": "2026-11-13T14:00:06Z",
-   "lifetime_views": 425,
-   "retention_curve": [
-    [
-     0.01,
-     1.508,
-     0.666
-    ],
-    [
-     0.06,
-     1.41,
-     0.581
-    ],
-    [
-     0.11,
-     1.321,
-     0.561
-    ],
-    [
-     0.16,
-     1.216,
-     0.549
-    ],
-    [
-     0.21,
-     1.06,
-     0.54
-    ],
-    [
-     0.26,
-     0.918,
-     0.534
-    ],
-    [
-     0.31,
-     0.873,
-     0.532
-    ],
-    [
-     0.36,
-     0.791,
-     0.54
-    ],
-    [
-     0.41,
-     0.769,
-     0.556
-    ],
-    [
-     0.46,
-     0.754,
-     0.58
-    ],
-    [
-     0.51,
-     0.724,
-     0.612
-    ],
-    [
-     0.56,
-     0.709,
-     0.66
-    ],
-    [
-     0.61,
-     0.679,
-     0.724
-    ],
-    [
-     0.66,
-     0.657,
-     0.787
-    ],
-    [
-     0.71,
-     0.642,
-     0.833
-    ],
-    [
-     0.76,
-     0.627,
-     0.858
-    ],
-    [
-     0.81,
-     0.605,
-     0.87
-    ],
-    [
-     0.86,
-     0.582,
-     0.876
-    ],
-    [
-     0.91,
-     0.567,
-     0.881
-    ],
-    [
-     0.96,
-     0.522,
-     0.898
     ]
    ]
   },
@@ -1196,6 +1196,20 @@
    "lifetime_views": 84
   },
   {
+   "video": "K67FRJT0Za4",
+   "views": 67,
+   "estimatedMinutesWatched": 12,
+   "averageViewDuration": 23,
+   "averageViewPercentage": 70.7,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "Why Israel Might Nuke Iran's Buried Site: A Simulation #shorts",
+   "published": "2026-11-13T19:00:38Z",
+   "lifetime_views": 72
+  },
+  {
    "video": "Qe5PtpijICA",
    "views": 55,
    "estimatedMinutesWatched": 8,
@@ -1252,20 +1266,6 @@
    "lifetime_views": 47
   },
   {
-   "video": "K67FRJT0Za4",
-   "views": 47,
-   "estimatedMinutesWatched": 8,
-   "averageViewDuration": 24,
-   "averageViewPercentage": 73.16,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "title": "Why Israel Might Nuke Iran's Buried Site: A Simulation #shorts",
-   "published": "2026-11-13T19:00:38Z",
-   "lifetime_views": 72
-  },
-  {
    "video": "ZjCRJ3VsOu0",
    "views": 37,
    "estimatedMinutesWatched": 6,
@@ -1281,17 +1281,17 @@
   },
   {
    "video": "lufMFIv5AeY",
-   "views": 22,
-   "estimatedMinutesWatched": 71,
-   "averageViewDuration": 358,
-   "averageViewPercentage": 53.1,
+   "views": 31,
+   "estimatedMinutesWatched": 98,
+   "averageViewDuration": 367,
+   "averageViewPercentage": 54.44,
    "subscribersGained": 0,
    "likes": 0,
-   "comments": 0,
+   "comments": 1,
    "shares": 0,
    "title": "What One Nuke Would Do to Chicago, Street by Street",
    "published": "2026-11-11T00:00:27Z",
-   "lifetime_views": 33
+   "lifetime_views": 43
   },
   {
    "video": "GJ4KihR5Uzw",
@@ -1309,17 +1309,17 @@
   },
   {
    "video": "DK6UC3_BT6Q",
-   "views": 14,
-   "estimatedMinutesWatched": 10,
-   "averageViewDuration": 203,
-   "averageViewPercentage": 31.22,
+   "views": 17,
+   "estimatedMinutesWatched": 11,
+   "averageViewDuration": 155,
+   "averageViewPercentage": 23.86,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "title": "What If Iran Tests a Nuke? Israel's 4-Day Answer",
    "published": "2026-11-13T00:00:06Z",
-   "lifetime_views": 19
+   "lifetime_views": 20
   },
   {
    "video": "up8u4934iUM",
@@ -1333,11 +1333,11 @@
    "shares": 0,
    "title": "North Korea Nukes Seattle: A 26 Minute Simulation",
    "published": "2026-11-10T00:00:18Z",
-   "lifetime_views": 8
+   "lifetime_views": 9
   },
   {
    "video": "u1EWhaWRoyc",
-   "views": 6,
+   "views": 7,
    "estimatedMinutesWatched": 3,
    "averageViewDuration": 54,
    "averageViewPercentage": 7.9399999999999995,
@@ -1351,10 +1351,10 @@
   },
   {
    "video": "77M-y-VaweA",
-   "views": 6,
+   "views": 7,
    "estimatedMinutesWatched": 1,
-   "averageViewDuration": 22,
-   "averageViewPercentage": 42.2,
+   "averageViewDuration": 17,
+   "averageViewPercentage": 32.05,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
@@ -1374,23 +1374,23 @@
   "rows": [
    [
     "SHORTS",
-    6142,
-    2175
+    6437,
+    2253
    ],
    [
     "YT_SEARCH",
-    174,
-    141
+    198,
+    159
    ],
    [
     "YT_OTHER_PAGE",
-    103,
-    63
+    109,
+    65
    ],
    [
     "RELATED_VIDEO",
-    67,
-    235
+    68,
+    247
    ],
    [
     "YT_CHANNEL",
@@ -1399,7 +1399,7 @@
    ],
    [
     "SUBSCRIBER",
-    9,
+    12,
     2
    ],
    [
@@ -1437,7 +1437,7 @@
   "rows": [
    [
     "US",
-    3203
+    3240
    ],
    [
     "RU",
@@ -1452,6 +1452,10 @@
     153
    ],
    [
+    "PH",
+    145
+   ],
+   [
     "GB",
     137
    ],
@@ -1464,12 +1468,8 @@
     125
    ],
    [
-    "PH",
-    121
-   ],
-   [
     "ID",
-    70
+    100
    ],
    [
     "UA",
@@ -1477,7 +1477,7 @@
    ],
    [
     "AU",
-    48
+    61
    ],
    [
     "PL",
@@ -1507,10 +1507,10 @@
  },
  "reach": {
   "job": "22cbe519-176f-4a0c-9484-ef5f01850ea5",
-  "days": 39,
+  "days": 40,
   "videos": {
    "fWvrsNHlIak": {
-    "impressions": 1465,
+    "impressions": 1467,
     "clicks": 35,
     "ctr": 0.0239
    },
@@ -1520,12 +1520,12 @@
     "ctr": 0.0
    },
    "9JvUOVsxthA": {
-    "impressions": 34,
+    "impressions": 39,
     "clicks": 1,
-    "ctr": 0.0294
+    "ctr": 0.0256
    },
    "Bw7RPbexCTA": {
-    "impressions": 27,
+    "impressions": 29,
     "clicks": 0,
     "ctr": 0.0
    },
@@ -1540,14 +1540,14 @@
     "ctr": 0.0395
    },
    "ZjCRJ3VsOu0": {
-    "impressions": 55,
+    "impressions": 56,
     "clicks": 0,
     "ctr": 0.0
    },
    "asHo8qWpZDg": {
-    "impressions": 523,
+    "impressions": 524,
     "clicks": 30,
-    "ctr": 0.0574
+    "ctr": 0.0573
    },
    "dpxhxTSJoec": {
     "impressions": 1,
@@ -1555,9 +1555,9 @@
     "ctr": 0.0
    },
    "hK24hiHogvs": {
-    "impressions": 189,
+    "impressions": 194,
     "clicks": 5,
-    "ctr": 0.0265
+    "ctr": 0.0258
    },
    "kOTfAUeBpRA": {
     "impressions": 1,
@@ -1565,9 +1565,9 @@
     "ctr": 0.0
    },
    "l8W1p2lfHCw": {
-    "impressions": 28,
+    "impressions": 29,
     "clicks": 1,
-    "ctr": 0.0357
+    "ctr": 0.0345
    },
    "mcIl2VZevA8": {
     "impressions": 1,
@@ -1575,44 +1575,44 @@
     "ctr": 0.0
    },
    "LT_46ntdORs": {
-    "impressions": 54,
+    "impressions": 57,
     "clicks": 1,
-    "ctr": 0.0185
+    "ctr": 0.0175
    },
    "NxaU3CIMJ2A": {
-    "impressions": 83,
+    "impressions": 86,
     "clicks": 4,
-    "ctr": 0.0482
+    "ctr": 0.0465
    },
    "XUJI3lSDD0M": {
-    "impressions": 82,
+    "impressions": 87,
     "clicks": 5,
-    "ctr": 0.061
+    "ctr": 0.0575
    },
    "77M-y-VaweA": {
-    "impressions": 45,
+    "impressions": 53,
     "clicks": 1,
-    "ctr": 0.0222
+    "ctr": 0.0189
    },
    "CswtYFhvZkE": {
-    "impressions": 22,
+    "impressions": 26,
     "clicks": 1,
-    "ctr": 0.0455
+    "ctr": 0.0385
    },
    "GJ4KihR5Uzw": {
-    "impressions": 56,
+    "impressions": 62,
     "clicks": 0,
     "ctr": 0.0
    },
    "Km51s_0dCMI": {
-    "impressions": 46,
+    "impressions": 51,
     "clicks": 0,
     "ctr": 0.0
    },
    "Qe5PtpijICA": {
-    "impressions": 112,
+    "impressions": 114,
     "clicks": 2,
-    "ctr": 0.0179
+    "ctr": 0.0175
    },
    "Xh-d91arwTU": {
     "impressions": 22,
@@ -1620,39 +1620,39 @@
     "ctr": 0.0
    },
    "lufMFIv5AeY": {
-    "impressions": 76,
-    "clicks": 7,
-    "ctr": 0.0921
+    "impressions": 141,
+    "clicks": 11,
+    "ctr": 0.078
    },
    "up8u4934iUM": {
-    "impressions": 37,
+    "impressions": 45,
     "clicks": 3,
-    "ctr": 0.0811
+    "ctr": 0.0667
    },
    "u1EWhaWRoyc": {
-    "impressions": 33,
+    "impressions": 41,
     "clicks": 2,
-    "ctr": 0.0606
+    "ctr": 0.0488
    },
    "DK6UC3_BT6Q": {
-    "impressions": 67,
-    "clicks": 3,
-    "ctr": 0.0448
+    "impressions": 77,
+    "clicks": 4,
+    "ctr": 0.0519
    },
    "K67FRJT0Za4": {
-    "impressions": 31,
+    "impressions": 70,
     "clicks": 2,
-    "ctr": 0.0645
+    "ctr": 0.0286
    },
    "huHH9VFS5aI": {
-    "impressions": 19,
+    "impressions": 45,
     "clicks": 0,
     "ctr": 0.0
    },
    "rVHj7z8O65Q": {
-    "impressions": 7,
-    "clicks": 0,
-    "ctr": 0.0
+    "impressions": 29,
+    "clicks": 2,
+    "ctr": 0.069
    }
   }
  }
