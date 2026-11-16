@@ -820,6 +820,102 @@
       "due": "2026-12-16",
       "snapshot": null,
       "status": "pending"
+    },
+    {
+      "episode": "009-russia-attacks-baltic-72-hours",
+      "num": 9,
+      "kind": "long",
+      "id": "32-u8DqpnJo",
+      "title": "What If Russia Nuked Lithuania? The First 61 Hours",
+      "publish_at": "2026-11-18T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-11-25",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "009-russia-attacks-baltic-72-hours",
+      "num": 9,
+      "kind": "long",
+      "id": "32-u8DqpnJo",
+      "title": "What If Russia Nuked Lithuania? The First 61 Hours",
+      "publish_at": "2026-11-18T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-16",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "009-russia-attacks-baltic-72-hours",
+      "num": 9,
+      "kind": "short",
+      "id": "UVwaVWWRXIE",
+      "title": "What If Russia Nuked Lithuania at Hour 61? #shorts",
+      "publish_at": "2026-11-18T14:00:00Z",
+      "horizon": 7,
+      "due": "2026-11-25",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "009-russia-attacks-baltic-72-hours",
+      "num": 9,
+      "kind": "short",
+      "id": "UVwaVWWRXIE",
+      "title": "What If Russia Nuked Lithuania at Hour 61? #shorts",
+      "publish_at": "2026-11-18T14:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-16",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "009-russia-attacks-baltic-72-hours",
+      "num": 9,
+      "kind": "short",
+      "id": "d70ycdBnvsE",
+      "title": "What One Nuke Would Do to a Lithuanian Air Base #shorts",
+      "publish_at": "2026-11-18T19:00:00Z",
+      "horizon": 7,
+      "due": "2026-11-25",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "009-russia-attacks-baltic-72-hours",
+      "num": 9,
+      "kind": "short",
+      "id": "d70ycdBnvsE",
+      "title": "What One Nuke Would Do to a Lithuanian Air Base #shorts",
+      "publish_at": "2026-11-18T19:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-16",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "009-russia-attacks-baltic-72-hours",
+      "num": 9,
+      "kind": "short",
+      "id": "RJ7F0uSC1Xg",
+      "title": "What If NATO Cut Off Kaliningrad? Russia's Nuclear Warning #shorts",
+      "publish_at": "2026-11-19T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-11-26",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "009-russia-attacks-baltic-72-hours",
+      "num": 9,
+      "kind": "short",
+      "id": "RJ7F0uSC1Xg",
+      "title": "What If NATO Cut Off Kaliningrad? Russia's Nuclear Warning #shorts",
+      "publish_at": "2026-11-19T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-17",
+      "snapshot": null,
+      "status": "pending"
     }
   ]
 }
