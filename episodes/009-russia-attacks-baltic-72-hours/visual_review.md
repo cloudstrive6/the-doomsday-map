@@ -38,3 +38,29 @@ Non-blocking:
 Thumbnails (build/thumb_a.png, thumb_b.png, thumb_c.png, thumb_review.png, thumbcheck.json ok: true, no issues): PASS. At phone size (about 246 px in the review sheet) each headline is readable. A: "3 MINUTES / WHICH WARHEAD?" four words, number first, Iskander launcher at sunrise, a promise the video keeps (flight time and the unknown warhead). B: "10 KILOTONS / HALF NAGASAKI" four words plus a "SIRENS ONLY" tag of two words, a bright cloud over a town, number first. C: "THE DECISION / STILL OPEN" has no number (rule 15 and 16 want the number first); it is the non-uploaded variant, so it is a nit: change to "10 KT / ON THE AIRFIELD" or similar if a refresh is cheap. Variants are three distinct concepts and A is the best scorer.
 
 Verdict: FAIL on Shorts until findings 1, 2, 3, 5 are fixed (packager for the windows in shorts.json, director for the label anchors, burst and ordering in shotlist.py). Re-render the Short stills at 0.3 s, 2.5 s and the last frame to confirm.
+
+## Shorts round 2
+
+FAIL
+
+Checked: fresh renders of s1 (0.3, 2.5, 8, 10.5, 12, 14, 15, 16.5, 20, 30.5, 31.8 s), s2 (0.3, 1, 2.5, 15, 39, 40.2 s), s3 (0.3, 2.5, 15, 30, 31.2 s) and the long video at 29, 29.5, 30.2 s (scratch copies in /tmp/r2). Findings 1, 3, 4, 5 are fixed; finding 2 is not, and the fix exposed a new wrong-place frame in s1.
+
+Verified fixed:
+- Finding 1 (s1 end): f01830 (30.5 s) shows the fireball glow and ring on SIAULIAI AIR BASE with the pill in the last 3 s; the stamp card is gone. f01908 (31.8 s) is the same airfield on a dimmer map with "hour of the war." and a faint ember, so the glow has mostly faded by the last frame. Accepted as a payoff, not a strong one: hold the flash 0.5 s longer or end at about 31.0 s.
+- Long video 29.5 s: f01770 is a full white-out with only the SIMULATION tag and "HOUR 61" clock (deliberate flash); 29 s shows the missile at T-00:00 and 30.2 s shows the fireball with the air base label. The second flash is in and readable.
+- Finding 3 (s2 open): f00018 (0.3 s) shows the flash-lit pale map, a small spark at ground zero inside the ring and "SIAULIAI AIR BASE (GROUND ZERO)"; f00060 (1 s) has the glow; f00150 (2.5 s) has fireball, 20 psi and 5 psi rings. The strike is the subject now. Rule 19 is met by s1 and s2.
+- Finding 4 (s2 legend): the legend box is gone. Labels: "SIAULIAI AIR BASE (GROUND ZERO)" ends x about 1030 at 0.3 s and "FIREBALL . 0.153 KM" ends x about 1030 at 2.5 s (y 680 to 830). Judged acceptable: they are plated, 50 px inside the frame, and sit above y 1000 where YouTube's right-hand button rail starts. Nit: keep them in the upper half.
+- Finding 5 (s3 open): f00018 (0.3 s) opens on Kaliningrad (amber outline, marker and "KALININGRAD" label, though the label is near-invisible dark on dark at 0.3 s); f00150 (2.5 s) shows "RUSSIA'S NOTE TO NATO STATES" and the Kaliningrad label; f01872 (31.2 s) ends on Kaliningrad, Baltic Fleet, ISKANDER MISSILES, dashed ring. Title and subject now match. s3 passes.
+
+Blocking findings:
+
+1. s1 f00480 (8 s) and f00720 (12 s), "HOUR 61" region view: the LITHUANIA label sits at y 630 to 645 over Estonia and the Gulf of Finland side, printed over the ESTONIA label ("LITHUANIA" and "ESTONIA" overlap at x 540 to 700). Lithuania is the shape at y 1000 to 1200 (the SIAULIAI AIR BASE dot at y 1050 is inside it). Wrong place and text on text, both FAIL. RIGA also overlaps LATVIA at 12 s (y 835 to 890). Fix: in shotlist.py `open-sim` (line 149 to 152) add `short={"countryLabels": None, "labels": [lab(a, [24.0, 55.35], "LITHUANIA", a + 0.3, BLUE), lab(a, [24.9, 56.8], "LATVIA", a + 0.3, BLUE)]}` as done for `open-radar` and `open-h61`, and drop ESTONIA and the Riga city for the vertical cut.
+2. s1 f00900 (15 s, "3 minutes earlier," T-02:10 view) and f01200 (20 s, T-00:00): LITHUANIA is now correct, but POLAND sits at y 1068 north of the Kaliningrad coast line, on the Baltic Sea at 15 s (x 340 to 500, left of LITHUANIA) and over the Kaliningrad sliver edge at 20 s (x 130 to 280); Poland is the large area below y 1210. Still a wrong place. Fix: delete the POLAND label from the s1 `short` labels of `open-radar` (line 159); the legend already says NATO and Poland is not the subject.
+3. s2 f00018 (0.3 s) and f00150 (2.5 s): the basemap label "SIAULIAI" (with the Lithuanian S-caron) is printed under and crossed by our "SIAULIAI CITY CENTRE" plate at 0.3 s, and at 2.5 s it is clipped at the left frame edge ("SIAU" cut at x 0) and overlapped by the plate. Clipped and overlapping text is a FAIL. Fix: in the s2 first city shot move the city-centre label so its plate sits right of its dot over open fill (or drop it for the Short, the caption says the centre is 7 km away), and nudge the first camera key about 0.01 degrees east so the basemap label is not cut by the edge.
+
+Non-blocking:
+
+4. s1 f01830 and s2 f02412 (last 3 s): the "FULL SIMULATION ON THE CHANNEL" pill (y 487 to 537) overlaps the bottom of the clock plate (y 410 to 503, "HOUR 61" and "DAY 1"); the text itself is not covered. Move the pill to y 530 or lower.
+5. s1 f00018: SIAULIAI AIR BASE label is still faint at 0.3 s (fade-in) and KALININGRAD (LAUNCH, SIMULATED) runs over the missile line. Subject is on screen; leave.
+
+Verdict: FAIL on s1 (findings 1 and 2) and s2 (finding 3); s3 passes. Director: three label fixes in shotlist.py, then re-render s1 at 8, 12, 15 and 20 s and s2 at 0.3 and 2.5 s. Not staged.

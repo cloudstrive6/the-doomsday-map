@@ -349,7 +349,7 @@
      "t": 0,
      "center": [
       23.5,
-      56.3
+      56.0
      ],
      "widthKm": 1150
     },
@@ -357,15 +357,15 @@
      "t": 2.16,
      "center": [
       24.0,
-      56.5
+      56.1
      ],
      "widthKm": 900
     },
     {
-     "t": 5.64,
+     "t": 5.34,
      "center": [
       24.0,
-      56.4
+      56.0
      ],
      "widthKm": 700
     }
@@ -400,29 +400,6 @@
      "fill": "rgba(110,168,255,0.07)"
     }
    ],
-   "countryLabels": [
-    {
-     "iso": "440",
-     "text": "LITHUANIA",
-     "color": "#6EA8FF"
-    },
-    {
-     "iso": "428",
-     "text": "LATVIA",
-     "color": "#6EA8FF"
-    },
-    {
-     "iso": "233",
-     "text": "ESTONIA",
-     "color": "#6EA8FF"
-    },
-    {
-     "iso": "643",
-     "text": "RUSSIA",
-     "color": "#F2B01E",
-     "size": 30
-    }
-   ],
    "legend": [
     {
      "text": "RUSSIA, BELARUS",
@@ -455,44 +432,26 @@
      "t": 0.7,
      "color": "#F2B01E",
      "size": 5
-    },
-    {
-     "at": [
-      24.11,
-      56.95
-     ],
-     "label": "Riga",
-     "kind": "dot",
-     "t": 1.4
-    },
-    {
-     "at": [
-      25.28,
-      54.69
-     ],
-     "label": "Vilnius",
-     "kind": "dot",
-     "t": 2.68
     }
    ],
    "labels": [
     {
      "at": [
-      26.2,
-      57.9
+      24.4,
+      55.3
      ],
-     "text": "A simulation: not a prediction",
-     "color": "#FFD23F",
-     "t": 0.7
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "t": 0.3
     },
     {
      "at": [
-      27.3,
-      55.0
+      25.0,
+      57.2
      ],
-     "text": "It has not happened",
-     "color": "#FF3B3B",
-     "t": 4.3
+     "text": "LATVIA",
+     "color": "#6EA8FF",
+     "t": 0.3
     }
    ]
   },
@@ -638,15 +597,6 @@
       55.3
      ],
      "text": "LITHUANIA",
-     "color": "#6EA8FF",
-     "t": 0.3
-    },
-    {
-     "at": [
-      20.6,
-      53.55
-     ],
-     "text": "POLAND",
      "color": "#6EA8FF",
      "t": 0.3
     }

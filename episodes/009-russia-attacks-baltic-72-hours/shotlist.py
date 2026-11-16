@@ -149,14 +149,16 @@ a = S("p02")
 reg("open-sim", a, S("p03"), [("s", [23.5, 56.3], 1150), (W("p02", "published"), [24.0, 56.5], 900), ("e", [24.0, 56.4], 700)], clock="HOUR 61", clockLabel="OF THE WAR", clockRate=0,
     highlight=HLB + [HLR, HLP], countryLabels=[CL(LT, "LITHUANIA"), CL(LV, "LATVIA"), CL(EE, "ESTONIA"), CL(RU, "RUSSIA", AMBER, 30)], legend=LEG,
     cities=[city(a, SIA, "Siauliai Air Base", a + 0.3, RED, "target", 6), city(a, LAUNCH, "Kaliningrad", W("p02", "simulation"), AMBER, "base", 5), city(a, RIGA, "Riga", W("p02", "built")), city(a, VILNIUS, "Vilnius", W("p02", "numbers"))],
-    labels=[lab(a, [26.2, 57.9], "A simulation: not a prediction", W("p02", "simulation"), YELLOW), lab(a, [27.3, 55.0], "It has not happened", W("p02", "not"), RED)])
+    labels=[lab(a, [26.2, 57.9], "A simulation: not a prediction", W("p02", "simulation"), YELLOW), lab(a, [27.3, 55.0], "It has not happened", W("p02", "not"), RED)],
+    short={"countryLabels": None, "camera": [{"t": 0, "center": [23.5, 56.0], "widthKm": 1150}, {"t": round(W("p02", "published") - a, 2), "center": [24.0, 56.1], "widthKm": 900}, {"t": round(S("p03") - a - 0.3, 2), "center": [24.0, 56.0], "widthKm": 700}], "cities": [city(a, SIA, "Siauliai Air Base", a + 0.3, RED, "target", 6), city(a, LAUNCH, "Kaliningrad", W("p02", "simulation"), AMBER, "base", 5)],
+           "labels": [lab(a, [24.4, 55.3], "LITHUANIA", a + 0.3, BLUE), lab(a, [25.0, 57.2], "LATVIA", a + 0.3, BLUE)]})
 a = S("p03")
 tIt, tNo = W("p03", "It"), W("p03", "Nobody")
 reg("open-radar", a, tIt, [("s", [22.0, 56.6], 1100), (W("p03", "climbing"), [22.6, 55.6], 700), ("e", [22.5, 55.5], 520)], clock="T-03:00", clockLabel="TO IMPACT", clockRate=30,
     highlight=HLB + [HLR, HLP], countryLabels=[CL(LT, "LITHUANIA"), CL(PL, "POLAND"), CL(RU, "RUSSIA", AMBER, 30)], legend=LEG,
     cities=[city(a, [21.5, 57.0], "Radar track (simulated)", W("p03", "radar"), YELLOW, "dot", 5), city(a, KALCITY, "Kaliningrad", W("p03", "Kaliningrad"), AMBER, "base", 6), city(a, SIA, "Siauliai Air Base", W("p03", "picks"), RED, "target", 6)],
     ships=[missile(a, [LAUNCH, SIA], W("p03", "climbing"), tNo + 1.0, label="Ballistic missile", t_on=W("p03", "ballistic"))],
-    short={"countryLabels": None, "labels": [lab(a, [23.9, 55.3], "LITHUANIA", a + 0.3, BLUE), lab(a, [20.6, 53.55], "POLAND", a + 0.3, BLUE)]})
+    short={"countryLabels": None, "labels": [lab(a, [23.9, 55.3], "LITHUANIA", a + 0.3, BLUE)]})
 reg("open-one", tIt, tNo, [("s", [22.8, 55.4], 420), ("e", [23.1, 55.6], 330)], clock="T-01:30", clockLabel="TO IMPACT", clockRate=30,
     highlight=HLB + [HLR], countryLabels=[CL(LT, "LITHUANIA")],
     cities=[city(tIt, SIA, "One air base", W("p03", "air"), RED, "target", 7), city(tIt, LAUNCH, "Iskander brigade (simulated)", tIt + 0.1, AMBER, "base", 5)],
@@ -487,6 +489,9 @@ def prior(n):
     return [dict(ring_at(i, -30)) for i in range(n)]
 
 
+SC = [SIA[0] - 0.02, SIA[1]]
+
+
 def cty(sid, a, b, w0, w1, mid=None, **kw):
     keys = [{"t": 0, "center": SIA, "widthKm": w0}]
     if mid:
@@ -528,9 +533,9 @@ tBu, tFa = W("p36", "but"), W("p36", "burst")
 cty("h-town", a, tBu, 12.0, 11.0, legend=LEGEND, source="", rings=prior(5),
     labels=[{"at": SIAULIAI_C, "text": "Siauliai city centre", "color": WHITE, "t": rel(a, W("p36", "centre"))}],
     short={"flashT": 0.1, "legend": [], "rings": [ring_at(i, round(0.5 + 0.45 * i, 2)) for i in range(5)],
-           "camera": [{"t": 0, "center": SIA, "widthKm": 17.0}, {"t": 3.0, "center": SIA, "widthKm": 15.0}, {"t": round(tBu - a, 2), "center": SIA, "widthKm": 14.0}],
-           "view": {"center": SIA, "widthKm": 17.0},
-           "labels": [{"at": [SIA[0] - 0.05, SIA[1] + 0.012], "text": "SIAULIAI AIR BASE (GROUND ZERO)", "color": WHITE, "t": 0.2}, {"at": SIAULIAI_C, "text": "Siauliai city centre", "color": WHITE, "t": rel(a, W("p36", "centre"))}]})
+           "camera": [{"t": 0, "center": SC, "widthKm": 17.0}, {"t": 3.0, "center": SC, "widthKm": 15.0}, {"t": round(tBu - a, 2), "center": SC, "widthKm": 14.0}],
+           "view": {"center": SC, "widthKm": 17.0},
+           "labels": [{"at": [SIA[0] - 0.05, SIA[1] + 0.012], "text": "SIAULIAI AIR BASE (GROUND ZERO)", "color": WHITE, "t": 0.2}]})
 cty("h-streets", tBu, tFa, 11.0, 9.0, legend=LEGEND, source="", rings=prior(5), labels=[{"at": at(-0.03, -0.045), "text": "Nearest streets: inside 1 psi", "color": YELLOW, "t": rel(tBu, W("p36", "nearest"))}], short={"legend": []})
 cty("h-fallout", tFa, S("p37"), 9.0, 14.0, legend=LEGEND, source="", rings=prior(5), labels=[{"at": at(0.045, 0.0), "text": "High burst: little local fallout", "color": TEAL, "t": rel(tFa, W("p36", "little"))}], short={"legend": []})
 a = S("p37")

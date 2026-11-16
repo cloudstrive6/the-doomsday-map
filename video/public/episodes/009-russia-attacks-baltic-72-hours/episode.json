@@ -506,7 +506,80 @@
      "color": "#FF3B3B",
      "t": 4.3
     }
-   ]
+   ],
+   "short": {
+    "countryLabels": null,
+    "camera": [
+     {
+      "t": 0,
+      "center": [
+       23.5,
+       56.0
+      ],
+      "widthKm": 1150
+     },
+     {
+      "t": 2.16,
+      "center": [
+       24.0,
+       56.1
+      ],
+      "widthKm": 900
+     },
+     {
+      "t": 5.34,
+      "center": [
+       24.0,
+       56.0
+      ],
+      "widthKm": 700
+     }
+    ],
+    "cities": [
+     {
+      "at": [
+       23.395,
+       55.894
+      ],
+      "label": "Siauliai Air Base",
+      "kind": "target",
+      "t": 0.3,
+      "color": "#FF3B3B",
+      "size": 6
+     },
+     {
+      "at": [
+       21.8,
+       54.6
+      ],
+      "label": "Kaliningrad",
+      "kind": "base",
+      "t": 0.7,
+      "color": "#F2B01E",
+      "size": 5
+     }
+    ],
+    "labels": [
+     {
+      "at": [
+       24.4,
+       55.3
+      ],
+      "text": "LITHUANIA",
+      "color": "#6EA8FF",
+      "t": 0.3
+     },
+     {
+      "at": [
+       25.0,
+       57.2
+      ],
+      "text": "LATVIA",
+      "color": "#6EA8FF",
+      "t": 0.3
+     }
+    ]
+   }
   },
   {
    "id": "open-radar",
@@ -670,15 +743,6 @@
        55.3
       ],
       "text": "LITHUANIA",
-      "color": "#6EA8FF",
-      "t": 0.3
-     },
-     {
-      "at": [
-       20.6,
-       53.55
-      ],
-      "text": "POLAND",
       "color": "#6EA8FF",
       "t": 0.3
      }
@@ -9862,7 +9926,7 @@
      {
       "t": 0,
       "center": [
-       23.395,
+       23.375,
        55.894
       ],
       "widthKm": 17.0
@@ -9870,7 +9934,7 @@
      {
       "t": 3.0,
       "center": [
-       23.395,
+       23.375,
        55.894
       ],
       "widthKm": 15.0
@@ -9878,7 +9942,7 @@
      {
       "t": 6.17,
       "center": [
-       23.395,
+       23.375,
        55.894
       ],
       "widthKm": 14.0
@@ -9886,7 +9950,7 @@
     ],
     "view": {
      "center": [
-      23.395,
+      23.375,
       55.894
      ],
      "widthKm": 17.0
@@ -9900,15 +9964,6 @@
       "text": "SIAULIAI AIR BASE (GROUND ZERO)",
       "color": "#FFFFFF",
       "t": 0.2
-     },
-     {
-      "at": [
-       23.316,
-       55.934
-      ],
-      "text": "Siauliai city centre",
-      "color": "#FFFFFF",
-      "t": 0.1
      }
     ]
    }

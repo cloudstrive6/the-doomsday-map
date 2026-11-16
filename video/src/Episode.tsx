@@ -156,7 +156,7 @@ const ShortTitle: React.FC<{lines: [string, string]; bridge?: string}> = ({lines
       </div>
       {b > 0 ? (
         // its own pill under the tag and clock row, so the band never grows over the SIMULATION tag
-        <div style={{position: 'absolute', left: 0, right: 0, top: 486, display: 'flex', justifyContent: 'center', pointerEvents: 'none', opacity: b}}>
+        <div style={{position: 'absolute', left: 0, right: 0, top: 540, display: 'flex', justifyContent: 'center', pointerEvents: 'none', opacity: b}}>
           <div style={{fontFamily: MONO, fontWeight: 600, fontSize: 30, letterSpacing: 3, color: C.white, background: 'rgba(184,30,30,0.92)', padding: '6px 16px'}}>{bridge}</div>
         </div>
       ) : null}

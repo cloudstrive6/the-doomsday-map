@@ -131,7 +131,7 @@
    "city": "siauliai",
    "view": {
     "center": [
-     23.395,
+     23.375,
      55.894
     ],
     "widthKm": 13.6
@@ -140,7 +140,7 @@
     {
      "t": 0,
      "center": [
-      23.395,
+      23.375,
       55.894
      ],
      "widthKm": 13.6
@@ -148,7 +148,7 @@
     {
      "t": 3.0,
      "center": [
-      23.395,
+      23.375,
       55.894
      ],
      "widthKm": 12.0
@@ -156,7 +156,7 @@
     {
      "t": 6.17,
      "center": [
-      23.395,
+      23.375,
       55.894
      ],
      "widthKm": 11.2
@@ -212,15 +212,6 @@
      "text": "SIAULIAI AIR BASE (GROUND ZERO)",
      "color": "#FFFFFF",
      "t": 0.2
-    },
-    {
-     "at": [
-      23.316,
-      55.934
-     ],
-     "text": "Siauliai city centre",
-     "color": "#FFFFFF",
-     "t": 0.1
     }
    ],
    "flashT": 0.1
