@@ -1,0 +1,11990 @@
+{
+ "slug": "009-russia-attacks-baltic-72-hours",
+ "fps": 60,
+ "width": 1920,
+ "height": 1080,
+ "durationSeconds": 666.06,
+ "banner": {
+  "start": 1.8,
+  "end": 4.8
+ },
+ "musicPlan": [
+  {
+   "src": "bed_tense.mp3",
+   "from": 0,
+   "to": 39.343,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  },
+  {
+   "src": "bed.mp3",
+   "from": 37.343,
+   "to": 213.463,
+   "loop": [
+    2,
+    174
+   ],
+   "gain_db": -17
+  },
+  {
+   "src": "bed_tense.mp3",
+   "from": 211.463,
+   "to": 666.06,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  }
+ ],
+ "sfxPlan": [
+  {
+   "src": "impact.mp3",
+   "t": 38.493,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 135.798,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 212.613,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 288.405,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 417.518,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 498.078,
+   "gain_db": -9
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 28.953000000000003,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 229.072,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 282.27700000000004,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 567.211,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 603.8340000000001,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 609.264,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 612.996,
+   "gain_db": -14
+  },
+  {
+   "src": "boom.mp3",
+   "t": 2.1,
+   "gain_db": -4
+  },
+  {
+   "src": "boom.mp3",
+   "t": 419.87,
+   "gain_db": -4
+  }
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated.",
+ "shots": [
+  {
+   "id": "open-run",
+   "type": "region",
+   "start": 0,
+   "end": 2.0,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.0,
+     55.5
+    ],
+    "widthKm": 560
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.0,
+      55.5
+     ],
+     "widthKm": 560
+    },
+    {
+     "t": 2.0,
+     "center": [
+      23.2,
+      55.55
+     ],
+     "widthKm": 420
+    }
+   ],
+   "clock": "T-03:00",
+   "clockLabel": "TO IMPACT",
+   "clockRate": 90,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai Air Base",
+     "kind": "target",
+     "t": 0.15,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      21.8,
+      54.6
+     ],
+     "label": "Kaliningrad (launch, simulated)",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "label": "Vilnius",
+     "kind": "dot",
+     "t": 0.4
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      21.8,
+      54.6
+     ],
+     "to": [
+      23.395,
+      55.894
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.1,
+     "t1": 1.9
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       21.8,
+       54.6
+      ],
+      [
+       23.395,
+       55.894
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 1.95,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander-M",
+     "t": 0.1,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "open-flash",
+   "type": "city",
+   "start": 2.0,
+   "end": 7.712,
+   "tag": "SIMULATION",
+   "clock": "03:43",
+   "clockLabel": "SIAULIAI, LITHUANIA · LOCAL",
+   "clockRate": 0,
+   "city": "siauliai",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 5.0
+   },
+   "gz": [
+    23.395,
+    55.894
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 5.0
+    },
+    {
+     "t": 2.6,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 3.8
+    },
+    {
+     "t": 5.4,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 3.0
+    }
+   ],
+   "flashT": 0.1,
+   "rings": [
+    {
+     "km": 0.153,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.6
+    },
+    {
+     "km": 1.459,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 2.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      23.395,
+      55.897999999999996
+     ],
+     "text": "Siauliai Air Base",
+     "color": "#FFFFFF",
+     "t": 0.9
+    },
+    {
+     "at": [
+      23.395,
+      55.882
+     ],
+     "text": "10 kt airburst (our choice)",
+     "color": "#FFD23F",
+     "t": 2.0
+    }
+   ],
+   "legend": [],
+   "caption": "The first nuclear weapon used in war since 1945. Simulation: it has not happened."
+  },
+  {
+   "id": "open-sim",
+   "type": "region",
+   "start": 7.712,
+   "end": 13.353,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.5,
+     56.3
+    ],
+    "widthKm": 1150
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.5,
+      56.3
+     ],
+     "widthKm": 1150
+    },
+    {
+     "t": 2.16,
+     "center": [
+      24.0,
+      56.5
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 5.64,
+     "center": [
+      24.0,
+      56.4
+     ],
+     "widthKm": 700
+    }
+   ],
+   "clock": "HOUR 61",
+   "clockLabel": "OF THE WAR",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "428",
+     "text": "LATVIA",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "233",
+     "text": "ESTONIA",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E",
+     "size": 30
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai Air Base",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      21.8,
+      54.6
+     ],
+     "label": "Kaliningrad",
+     "kind": "base",
+     "t": 0.7,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      24.11,
+      56.95
+     ],
+     "label": "Riga",
+     "kind": "dot",
+     "t": 1.4
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "label": "Vilnius",
+     "kind": "dot",
+     "t": 2.68
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      26.2,
+      57.9
+     ],
+     "text": "A simulation: not a prediction",
+     "color": "#FFD23F",
+     "t": 0.7
+    },
+    {
+     "at": [
+      27.3,
+      55.0
+     ],
+     "text": "It has not happened",
+     "color": "#FF3B3B",
+     "t": 4.3
+    }
+   ]
+  },
+  {
+   "id": "open-radar",
+   "type": "region",
+   "start": 13.353,
+   "end": 20.33,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     22.0,
+     56.6
+    ],
+    "widthKm": 1100
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      22.0,
+      56.6
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 4.6,
+     "center": [
+      22.6,
+      55.6
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 6.98,
+     "center": [
+      22.5,
+      55.5
+     ],
+     "widthKm": 520
+    }
+   ],
+   "clock": "T-03:00",
+   "clockLabel": "TO IMPACT",
+   "clockRate": 30,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E",
+     "size": 30
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.5,
+      57.0
+     ],
+     "label": "Radar track (simulated)",
+     "kind": "dot",
+     "t": 1.8,
+     "color": "#FFD23F",
+     "size": 5
+    },
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "kind": "base",
+     "t": 5.46,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai Air Base",
+     "kind": "target",
+     "t": 2.98,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       21.8,
+       54.6
+      ],
+      [
+       23.395,
+       55.894
+      ]
+     ],
+     "t0": 4.6,
+     "t1": 11.37,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Ballistic missile",
+     "t": 3.62,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "open-one",
+   "type": "region",
+   "start": 20.33,
+   "end": 23.718,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     22.8,
+     55.4
+    ],
+    "widthKm": 420
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      22.8,
+      55.4
+     ],
+     "widthKm": 420
+    },
+    {
+     "t": 3.39,
+     "center": [
+      23.1,
+      55.6
+     ],
+     "widthKm": 330
+    }
+   ],
+   "clock": "T-01:30",
+   "clockLabel": "TO IMPACT",
+   "clockRate": 30,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "One air base",
+     "kind": "target",
+     "t": 2.08,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      21.8,
+      54.6
+     ],
+     "label": "Iskander brigade (simulated)",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#F2B01E",
+     "size": 5
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       22.2,
+       55.05
+      ],
+      [
+       23.395,
+       55.894
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 4.29,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "One missile",
+     "t": 0.1,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      21.8,
+      54.6
+     ],
+     "to": [
+      23.395,
+      55.894
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.1,
+     "t1": 2.0
+    }
+   ]
+  },
+  {
+   "id": "open-which",
+   "type": "region",
+   "start": 23.718,
+   "end": 29.353,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.2,
+     55.7
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.2,
+      55.7
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 5.64,
+     "center": [
+      23.4,
+      55.9
+     ],
+     "widthKm": 190
+    }
+   ],
+   "clock": "T-00:30",
+   "clockLabel": "TO IMPACT",
+   "clockRate": 12,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai Air Base",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      23.316,
+      55.934
+     ],
+     "label": "Siauliai (city)",
+     "kind": "dot",
+     "t": 0.57,
+     "color": "#FFFFFF"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       22.9,
+       55.6
+      ],
+      [
+       23.395,
+       55.894
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 5.34,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      24.15,
+      56.05
+     ],
+     "text": "Conventional?",
+     "color": "#FFD23F",
+     "t": 3.15
+    },
+    {
+     "at": [
+      24.15,
+      55.75
+     ],
+     "text": "Or nuclear?",
+     "color": "#FF3B3B",
+     "t": 4.17
+    }
+   ]
+  },
+  {
+   "id": "open-h61",
+   "type": "stamp",
+   "start": 29.353,
+   "end": 33.153,
+   "tag": "SIMULATION",
+   "text": "HOUR 61",
+   "line": "of a simulated war",
+   "color": "#FF3B3B"
+  },
+  {
+   "id": "open-why",
+   "type": "globe",
+   "start": 33.153,
+   "end": 38.343,
+   "tag": "SIMULATION",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 52,
+     "lon": 22,
+     "scale": 1500
+    },
+    {
+     "t": 2.0,
+     "lat": 50,
+     "lon": 18,
+     "scale": 1050
+    },
+    {
+     "t": 5.19,
+     "lat": 50,
+     "lon": 12,
+     "scale": 800
+    }
+   ],
+   "sun": {
+    "lat": -5.27,
+    "lon": 157.82
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.10)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "clock": "HOUR 61",
+   "clockLabel": "OF THE WAR",
+   "clockRate": 0,
+   "markers": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Why would Moscow fire it?",
+     "color": "#F2B01E",
+     "kind": "base",
+     "size": 5,
+     "t": 0.1
+    },
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Lithuania",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.3
+    },
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "Brussels, the world",
+     "color": "#6EA8FF",
+     "kind": "dot",
+     "t": 2.0
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      37.62,
+      55.75
+     ],
+     "to": [
+      23.395,
+      55.894
+     ],
+     "t0": 0.1,
+     "t1": 2.6,
+     "color": "#FF3B3B",
+     "loft": 0.15
+    }
+   ]
+  },
+  {
+   "id": "c1-card",
+   "type": "chapter",
+   "start": 38.343,
+   "end": 41.84,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 01",
+   "title": "A night of sirens"
+  },
+  {
+   "id": "c1-alerts",
+   "type": "region",
+   "start": 41.84,
+   "end": 47.288,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     24.5,
+     57.0
+    ],
+    "widthKm": 1000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24.5,
+      57.0
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 1.71,
+     "center": [
+      24.5,
+      57.3
+     ],
+     "widthKm": 800
+    },
+    {
+     "t": 5.45,
+     "center": [
+      24.6,
+      57.6
+     ],
+     "widthKm": 650
+    }
+   ],
+   "source": "Reuters; Associated Press, 11 November 2026",
+   "clock": "11 NOV 2026",
+   "clockLabel": "NIGHT OF THE ALERTS",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "428",
+     "text": "LATVIA",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "233",
+     "text": "ESTONIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "label": "Vilnius",
+     "kind": "target",
+     "t": 0.81,
+     "color": "#FFD23F",
+     "size": 6
+    },
+    {
+     "at": [
+      24.11,
+      56.95
+     ],
+     "label": "Riga",
+     "kind": "target",
+     "t": 1.71,
+     "color": "#FFD23F",
+     "size": 6
+    },
+    {
+     "at": [
+      24.75,
+      59.44
+     ],
+     "label": "Tallinn",
+     "kind": "target",
+     "t": 2.39,
+     "color": "#FFD23F",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      22.0,
+      58.7
+     ],
+     "text": "Drone alerts: shelter",
+     "color": "#FF3B3B",
+     "t": 3.4
+    }
+   ]
+  },
+  {
+   "id": "c1-nato",
+   "type": "region",
+   "start": 47.288,
+   "end": 50.79,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     20.0,
+     56.0
+    ],
+    "widthKm": 1300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      20.0,
+      56.0
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 3.5,
+     "center": [
+      22.5,
+      55.6
+     ],
+     "widthKm": 750
+    }
+   ],
+   "source": "Reuters; Associated Press, 11 November 2026",
+   "clock": "11 NOV 2026",
+   "clockLabel": "NIGHT OF THE ALERTS",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.1,
+      56.5
+     ],
+     "label": "NATO air defence jets",
+     "kind": "base",
+     "t": 0.65,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai",
+     "kind": "base",
+     "t": 2.2,
+     "color": "#6EA8FF",
+     "size": 5
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       21.0,
+       56.4
+      ],
+      [
+       24.0,
+       55.6
+      ]
+     ],
+     "t0": 0.4,
+     "t1": 3.5,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "label": "Jets scrambled",
+     "t": 0.3,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "c1-kaunas",
+   "type": "region",
+   "start": 50.79,
+   "end": 55.969,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     23.9,
+     54.9
+    ],
+    "widthKm": 330
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.9,
+      54.9
+     ],
+     "widthKm": 330
+    },
+    {
+     "t": 3.32,
+     "center": [
+      23.9,
+      54.9
+     ],
+     "widthKm": 240.27
+    },
+    {
+     "t": 5.18,
+     "center": [
+      23.9,
+      54.9
+     ],
+     "widthKm": 190
+    }
+   ],
+   "source": "Reuters; Associated Press, 11 November 2026",
+   "clock": "11 NOV 2026",
+   "clockLabel": "NIGHT OF THE ALERTS",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.9,
+      54.9
+     ],
+     "label": "Kaunas, second-largest city",
+     "kind": "target",
+     "t": 1.46,
+     "color": "#FFD23F",
+     "size": 7
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "label": "Vilnius",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      23.9,
+      54.9
+     ],
+     "km": 40,
+     "color": "#FFD23F",
+     "t": 0.66,
+     "dashed": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      24.9,
+      55.25
+     ],
+     "text": "Lithuania's warning",
+     "color": "#FFD23F",
+     "t": 0.66
+    }
+   ]
+  },
+  {
+   "id": "c1-clear",
+   "type": "region",
+   "start": 55.969,
+   "end": 61.328,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     24.4,
+     55.9
+    ],
+    "widthKm": 1100
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24.4,
+      55.9
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 2.84,
+     "center": [
+      24.4,
+      56.4
+     ],
+     "widthKm": 850
+    },
+    {
+     "t": 5.36,
+     "center": [
+      24.4,
+      56.6
+     ],
+     "widthKm": 1300
+    }
+   ],
+   "source": "Reuters; Associated Press, 11 November 2026",
+   "clock": "11 NOV 2026",
+   "clockLabel": "NIGHT OF THE ALERTS",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "428",
+     "text": "LATVIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      24.2,
+      55.0
+     ],
+     "text": "Alerts withdrawn: same day",
+     "color": "#3ED6C8",
+     "t": 0.3
+    },
+    {
+     "at": [
+      24.2,
+      54.55
+     ],
+     "text": "No injuries reported",
+     "color": "#FFFFFF",
+     "t": 2.84
+    }
+   ]
+  },
+  {
+   "id": "c1-strays",
+   "type": "region",
+   "start": 61.328,
+   "end": 67.41,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     30,
+     53.5
+    ],
+    "widthKm": 1700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      30,
+      53.5
+     ],
+     "widthKm": 1700
+    },
+    {
+     "t": 2.96,
+     "center": [
+      28,
+      54.5
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 6.08,
+     "center": [
+      26.5,
+      55.0
+     ],
+     "widthKm": 1000
+    }
+   ],
+   "source": "Reuters; Associated Press, 11 November 2026",
+   "clock": "11 NOV 2026",
+   "clockLabel": "NIGHT OF THE ALERTS",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.10)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "804",
+     "text": "UKRAINE",
+     "color": "#3ED6C8",
+     "size": 30
+    },
+    {
+     "iso": "112",
+     "text": "BELARUS",
+     "color": "#F2B01E",
+     "size": 30
+    },
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       32.5,
+       51.0
+      ],
+      [
+       29.5,
+       53.0
+      ],
+      [
+       24.5,
+       55.4
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 6.08,
+     "kind": "pla",
+     "color": "#FFD23F",
+     "label": "Stray drone",
+     "t": 0.3,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      34.0,
+      53.8
+     ],
+     "text": "Strays from the Ukraine war",
+     "color": "#3ED6C8",
+     "t": 0.62
+    },
+    {
+     "at": [
+      29.5,
+      51.9
+     ],
+     "text": "Pushed off course: jamming",
+     "color": "#FFD23F",
+     "t": 4.96
+    }
+   ]
+  },
+  {
+   "id": "c1-thin",
+   "type": "region",
+   "start": 67.41,
+   "end": 73.296,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     32,
+     53
+    ],
+    "widthKm": 2000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      32,
+      53
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 1.76,
+     "center": [
+      28,
+      55
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 5.89,
+     "center": [
+      25,
+      55.5
+     ],
+     "widthKm": 700
+    }
+   ],
+   "source": "Reuters; Associated Press, 11 November 2026",
+   "clock": "11 NOV 2026",
+   "clockLabel": "NIGHT OF THE ALERTS",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.10)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "804",
+     "text": "UKRAINE",
+     "color": "#3ED6C8",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      30.52,
+      50.45
+     ],
+     "label": "Kyiv",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#3ED6C8",
+     "size": 5
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      37.62,
+      55.75
+     ],
+     "to": [
+      30.52,
+      50.45
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 0.3,
+     "t1": 1.8,
+     "label": "Moscow blames Kyiv"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      26.0,
+      56.8
+     ],
+     "text": "Not an attack",
+     "color": "#3ED6C8",
+     "t": 1.76
+    },
+    {
+     "at": [
+      26.0,
+      56.3
+     ],
+     "text": "But a thin line",
+     "color": "#FF3B3B",
+     "t": 3.96
+    }
+   ]
+  },
+  {
+   "id": "c1-cross",
+   "type": "region",
+   "start": 73.296,
+   "end": 79.119,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.5,
+     56.0
+    ],
+    "widthKm": 1200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.5,
+      56.0
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 1.89,
+     "center": [
+      23.0,
+      55.3
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 5.82,
+     "center": [
+      22.8,
+      55.2
+     ],
+     "widthKm": 420
+    }
+   ],
+   "clock": "HOUR 3",
+   "clockLabel": "THE LINE IS CROSSED",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      24.2,
+      55.0
+     ],
+     "label": "Rukla",
+     "kind": "target",
+     "t": 2.77,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai",
+     "kind": "target",
+     "t": 2.97,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      26.2,
+      56.7
+     ],
+     "text": "Our simulation crosses it",
+     "color": "#FFD23F",
+     "t": 1.89
+    }
+   ]
+  },
+  {
+   "id": "c1-tl",
+   "type": "timeline",
+   "start": 79.119,
+   "end": 83.081,
+   "tag": "SIMULATION",
+   "title": "The simulated war",
+   "sub": "hour 3: first strikes · hour 61: one missile, one question",
+   "total": 61,
+   "unit": "hours",
+   "segments": [
+    {
+     "from": 0,
+     "to": 3,
+     "label": "Hour 3",
+     "color": "#FF3B3B"
+    },
+    {
+     "from": 3,
+     "to": 61,
+     "label": "58 hours of war",
+     "color": "#F2B01E"
+    }
+   ],
+   "highlight": {
+    "from": 59,
+    "to": 61,
+    "label": "Hour 61"
+   },
+   "cursorTo": 61
+  },
+  {
+   "id": "c1-note",
+   "type": "globe",
+   "start": 83.081,
+   "end": 87.784,
+   "tag": "REAL DATA",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 52,
+     "lon": 32,
+     "scale": 1200
+    },
+    {
+     "t": 3.09,
+     "lat": 54,
+     "lon": 28,
+     "scale": 1500
+    },
+    {
+     "t": 4.7,
+     "lat": 54,
+     "lon": 24,
+     "scale": 1900
+    }
+   ],
+   "sun": {
+    "lat": -5.27,
+    "lon": 157.82
+   },
+   "clock": "6 WEEKS EARLIER",
+   "clockLabel": "THE NOTE",
+   "clockRate": 0,
+   "source": "Reuters, 29 and 30 September 2026",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Russia",
+     "color": "#F2B01E",
+     "kind": "base",
+     "size": 5,
+     "t": 0.3
+    },
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "NATO states",
+     "color": "#6EA8FF",
+     "kind": "dot",
+     "t": 2.19
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      37.62,
+      55.75
+     ],
+     "to": [
+      4.35,
+      50.85
+     ],
+     "t0": 1.81,
+     "t1": 5.2,
+     "color": "#F2B01E",
+     "loft": 0.2
+    }
+   ],
+   "caption": "A diplomatic note, six weeks before the alerts."
+  },
+  {
+   "id": "c1-arsenal",
+   "type": "region",
+   "start": 87.784,
+   "end": 96.624,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     22.0,
+     55.0
+    ],
+    "widthKm": 700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      22.0,
+      55.0
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 3.82,
+     "center": [
+      21.5,
+      54.9
+     ],
+     "widthKm": 450
+    },
+    {
+     "t": 8.84,
+     "center": [
+      21.0,
+      54.8
+     ],
+     "widthKm": 330
+    }
+   ],
+   "clock": "6 WEEKS EARLIER",
+   "clockLabel": "THE NOTE",
+   "clockRate": 0,
+   "source": "Reuters, 29 and 30 September 2026",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 7
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       19.6,
+       54.4
+      ],
+      [
+       22.8,
+       54.4
+      ],
+      [
+       22.8,
+       55.2
+      ],
+      [
+       19.6,
+       55.2
+      ]
+     ],
+     "label": "If NATO cuts it off",
+     "color": "#F2B01E",
+     "t": 6.87,
+     "pulse": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      24.2,
+      56.2
+     ],
+     "text": "Ready to use the entire arsenal",
+     "color": "#FF3B3B",
+     "t": 2.17
+    },
+    {
+     "at": [
+      24.2,
+      55.7
+     ],
+     "text": "including nuclear weapons",
+     "color": "#FF3B3B",
+     "t": 4.27
+    }
+   ]
+  },
+  {
+   "id": "c1-answer",
+   "type": "region",
+   "start": 96.624,
+   "end": 102.105,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     14,
+     52
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      14,
+      52
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 2.94,
+     "center": [
+      10,
+      52.5
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 5.48,
+     "center": [
+      12,
+      53
+     ],
+     "widthKm": 2800
+    }
+   ],
+   "clock": "6 WEEKS EARLIER",
+   "clockLabel": "THE ANSWER",
+   "clockRate": 0,
+   "source": "Reuters, 29 and 30 September 2026",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "NATO, Brussels",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#F2B01E",
+     "size": 5
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      4.35,
+      50.85
+     ],
+     "to": [
+      37.62,
+      55.75
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 1.55,
+     "t1": 4.05
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      14.0,
+      57.5
+     ],
+     "text": "NATO chief: stop the nuclear threats",
+     "color": "#6EA8FF",
+     "t": 2.94
+    }
+   ]
+  },
+  {
+   "id": "c1-kal",
+   "type": "region",
+   "start": 102.105,
+   "end": 109.553,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     21.0,
+     54.9
+    ],
+    "widthKm": 380
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      21.0,
+      54.9
+     ],
+     "widthKm": 380
+    },
+    {
+     "t": 7.45,
+     "center": [
+      21.3,
+      54.9
+     ],
+     "widthKm": 600
+    }
+   ],
+   "clock": "",
+   "source": "Reuters; Institute for the Study of War",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Kaliningrad: about 1 million people",
+     "kind": "target",
+     "t": 3.14,
+     "color": "#F2B01E",
+     "size": 7
+    },
+    {
+     "at": [
+      19.9,
+      54.65
+     ],
+     "label": "Baltic Fleet, Baltiysk",
+     "kind": "base",
+     "t": 1.91,
+     "color": "#F2B01E",
+     "size": 5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      22.9,
+      54.15
+     ],
+     "text": "Wedged between Poland and Lithuania",
+     "color": "#FFFFFF",
+     "t": 4.58
+    }
+   ]
+  },
+  {
+   "id": "c1-iskander",
+   "type": "region",
+   "start": 109.553,
+   "end": 114.633,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     21.5,
+     54.9
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      21.5,
+      54.9
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 2.06,
+     "center": [
+      21.5,
+      54.9
+     ],
+     "widthKm": 340
+    },
+    {
+     "t": 5.08,
+     "center": [
+      22.2,
+      54.9
+     ],
+     "widthKm": 560
+    }
+   ],
+   "clock": "",
+   "source": "Reuters; Institute for the Study of War",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      19.9,
+      54.65
+     ],
+     "label": "Baltic Fleet",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      21.6,
+      54.55
+     ],
+     "label": "Iskander missiles",
+     "kind": "base",
+     "t": 2.06,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      21.6,
+      54.55
+     ],
+     "km": 175,
+     "color": "#FF3B3B",
+     "label": "",
+     "t": 2.06,
+     "dashed": true
+    }
+   ]
+  },
+  {
+   "id": "c1-gap",
+   "type": "region",
+   "start": 114.633,
+   "end": 121.771,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     23.6,
+     54.5
+    ],
+    "widthKm": 380
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.6,
+      54.5
+     ],
+     "widthKm": 380
+    },
+    {
+     "t": 4.6,
+     "center": [
+      23.5,
+      54.2
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 7.14,
+     "center": [
+      23.4,
+      54.1
+     ],
+     "widthKm": 230
+    }
+   ],
+   "clock": "",
+   "source": "NATO; Center for European Policy Analysis",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "112",
+     "text": "BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF"
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       22.8,
+       54.35
+      ],
+      [
+       23.8,
+       53.75
+      ],
+      [
+       23.9,
+       54.2
+      ],
+      [
+       23.0,
+       54.45
+      ]
+     ],
+     "label": "Suwalki Gap, about 65 km",
+     "color": "#FFD23F",
+     "t": 2.98,
+     "pulse": true
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      23.83,
+      53.68
+     ],
+     "label": "Belarus",
+     "kind": "dot",
+     "t": 0.5,
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c1-rail",
+   "type": "region",
+   "start": 121.771,
+   "end": 130.578,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     23.4,
+     54.4
+    ],
+    "widthKm": 420
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.4,
+      54.4
+     ],
+     "widthKm": 420
+    },
+    {
+     "t": 5.2,
+     "center": [
+      23.3,
+      54.0
+     ],
+     "widthKm": 480
+    },
+    {
+     "t": 8.81,
+     "center": [
+      23.5,
+      54.3
+     ],
+     "widthKm": 700
+    }
+   ],
+   "clock": "",
+   "source": "NATO; Center for European Policy Analysis",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      21.0,
+      52.2
+     ],
+     "to": [
+      23.6,
+      54.1
+     ],
+     "color": "#3ED6C8",
+     "dashed": false,
+     "t0": 0.3,
+     "t1": 2.2
+    },
+    {
+     "from": [
+      23.6,
+      54.1
+     ],
+     "to": [
+      23.9,
+      54.9
+     ],
+     "color": "#3ED6C8",
+     "dashed": false,
+     "t0": 1.8,
+     "t1": 3.2
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "label": "Poland",
+     "kind": "dot",
+     "t": 0.3,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      23.9,
+      54.9
+     ],
+     "label": "Kaunas",
+     "kind": "dot",
+     "t": 1.8,
+     "color": "#6EA8FF"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      25.2,
+      53.3
+     ],
+     "text": "One single-track railway",
+     "color": "#3ED6C8",
+     "t": 4.48
+    },
+    {
+     "at": [
+      25.2,
+      52.9
+     ],
+     "text": "Shortest land route to the Baltics",
+     "color": "#FFFFFF",
+     "t": 0.38
+    }
+   ]
+  },
+  {
+   "id": "c1-fast",
+   "type": "region",
+   "start": 130.578,
+   "end": 135.648,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     24,
+     56
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24,
+      56
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 1.33,
+     "center": [
+      24,
+      56
+     ],
+     "widthKm": 1250
+    },
+    {
+     "t": 5.07,
+     "center": [
+      23,
+      55.5
+     ],
+     "widthKm": 1700
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "428",
+     "text": "LATVIA",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      22.93,
+      54.1
+     ],
+     "label": "Suwalki Gap",
+     "kind": "target",
+     "t": 1.0,
+     "color": "#FFD23F",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      27.5,
+      57.8
+     ],
+     "text": "How fast can a crisis become a war?",
+     "color": "#FFD23F",
+     "t": 0.49
+    }
+   ]
+  },
+  {
+   "id": "c2-card",
+   "type": "chapter",
+   "start": 135.648,
+   "end": 139.15,
+   "tag": "REAL HISTORY",
+   "kicker": "CHAPTER 02",
+   "title": "How close it has come"
+  },
+  {
+   "id": "c2-crimea",
+   "type": "region",
+   "start": 139.15,
+   "end": 143.099,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     34.0,
+     45.4
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      34.0,
+      45.4
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 1.07,
+     "center": [
+      34.2,
+      45.2
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 3.95,
+     "center": [
+      34.4,
+      45.4
+     ],
+     "widthKm": 450
+    }
+   ],
+   "clock": "FEB 2014",
+   "clockLabel": "CRIMEA",
+   "clockRate": 0,
+   "source": "Reuters; BBC",
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.10)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "804",
+     "text": "UKRAINE",
+     "color": "#3ED6C8",
+     "size": 30
+    },
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E",
+     "size": 30
+    }
+   ],
+   "legend": [
+    {
+     "text": "UKRAINE",
+     "color": "#3ED6C8"
+    },
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.1,
+      44.95
+     ],
+     "label": "Simferopol, Crimea",
+     "kind": "target",
+     "t": 1.5,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      33.5,
+      44.6
+     ],
+     "label": "Sevastopol",
+     "kind": "dot",
+     "t": 0.5,
+     "color": "#FFFFFF"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      31.9,
+      46.5
+     ],
+     "text": "Soldiers with no insignia",
+     "color": "#FFD23F",
+     "t": 0.1
+    }
+   ]
+  },
+  {
+   "id": "c2-denied",
+   "type": "region",
+   "start": 143.099,
+   "end": 147.31,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     36.0,
+     47.0
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      36.0,
+      47.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 3.23,
+     "center": [
+      36,
+      49
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 4.21,
+     "center": [
+      30,
+      52
+     ],
+     "widthKm": 1900
+    }
+   ],
+   "clock": "FEB 2014",
+   "clockLabel": "CRIMEA",
+   "clockRate": 0,
+   "source": "Reuters; BBC",
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.10)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "804",
+     "text": "UKRAINE",
+     "color": "#3ED6C8"
+    },
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      34.1,
+      44.95
+     ],
+     "label": "Crimea",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      39.8,
+      49.0
+     ],
+     "text": "Russia denied it",
+     "color": "#F2B01E",
+     "t": 0.4
+    },
+    {
+     "at": [
+      39.8,
+      48.0
+     ],
+     "text": "Putin later admitted it",
+     "color": "#FF3B3B",
+     "t": 3.23
+    }
+   ]
+  },
+  {
+   "id": "c2-model",
+   "type": "region",
+   "start": 147.31,
+   "end": 151.928,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     26,
+     56
+    ],
+    "widthKm": 1600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      26,
+      56
+     ],
+     "widthKm": 1600
+    },
+    {
+     "t": 2.98,
+     "center": [
+      26,
+      57
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 4.62,
+     "center": [
+      27,
+      58.5
+     ],
+     "widthKm": 650
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E",
+     "size": 30
+    },
+    {
+     "iso": "428",
+     "text": "LATVIA",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "233",
+     "text": "ESTONIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      28.2,
+      59.38
+     ],
+     "label": "Narva border",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FFD23F",
+     "size": 6
+    },
+    {
+     "at": [
+      28.33,
+      57.82
+     ],
+     "label": "Pskov",
+     "kind": "dot",
+     "t": 1.0,
+     "color": "#F2B01E"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      29.4,
+      56.7
+     ],
+     "text": "Our hour zero: a deniable move",
+     "color": "#FF3B3B",
+     "t": 2.98
+    }
+   ]
+  },
+  {
+   "id": "c2-poland",
+   "type": "region",
+   "start": 151.928,
+   "end": 157.799,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     24,
+     52.5
+    ],
+    "widthKm": 1100
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24,
+      52.5
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 1.44,
+     "center": [
+      23,
+      52.5
+     ],
+     "widthKm": 800
+    },
+    {
+     "t": 5.87,
+     "center": [
+      22.5,
+      52.3
+     ],
+     "widthKm": 650
+    }
+   ],
+   "clock": "SEPT 2025",
+   "clockLabel": "DRONES OVER POLAND",
+   "clockRate": 0,
+   "source": "Reuters; NATO",
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.10)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "112",
+     "text": "BELARUS",
+     "color": "#F2B01E",
+     "size": 30
+    },
+    {
+     "iso": "804",
+     "text": "UKRAINE",
+     "color": "#3ED6C8",
+     "size": 30
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       27.5,
+       52.0
+      ],
+      [
+       24.5,
+       52.4
+      ],
+      [
+       21.8,
+       52.3
+      ]
+     ],
+     "t0": 1.0,
+     "t1": 5.87,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Drones",
+     "t": 0.8,
+     "wake": true
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "label": "Warsaw",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      26.5,
+      54.0
+     ],
+     "text": "About 20 Russian drones",
+     "color": "#FF3B3B",
+     "t": 1.44
+    }
+   ]
+  },
+  {
+   "id": "c2-zapad",
+   "type": "region",
+   "start": 157.799,
+   "end": 161.29,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     26,
+     54.5
+    ],
+    "widthKm": 1100
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      26,
+      54.5
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 3.49,
+     "center": [
+      28,
+      55
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "clock": "SEPT 2025",
+   "clockLabel": "ZAPAD EXERCISE",
+   "clockRate": 0,
+   "source": "Reuters; NATO",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "112",
+     "text": "BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E",
+     "size": 30
+    },
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       24.5,
+       55.0
+      ],
+      [
+       31.5,
+       55.0
+      ],
+      [
+       31.5,
+       52.0
+      ],
+      [
+       24.5,
+       52.0
+      ]
+     ],
+     "label": "Zapad: Russia and Belarus",
+     "color": "#F2B01E",
+     "t": 1.73,
+     "pulse": true
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      27.56,
+      53.9
+     ],
+     "label": "Minsk",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 5
+    }
+   ]
+  },
+  {
+   "id": "c2-estonia",
+   "type": "region",
+   "start": 161.29,
+   "end": 165.322,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     26,
+     59.0
+    ],
+    "widthKm": 700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      26,
+      59.0
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 4.03,
+     "center": [
+      25.5,
+      59.3
+     ],
+     "widthKm": 460
+    }
+   ],
+   "clock": "SEPT 2025",
+   "clockLabel": "JETS OVER ESTONIA",
+   "clockRate": 0,
+   "source": "Reuters; NATO",
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "233",
+     "text": "ESTONIA",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E",
+     "size": 30
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       26.6,
+       59.9
+      ],
+      [
+       25.2,
+       59.5
+      ],
+      [
+       24.4,
+       59.35
+      ]
+     ],
+     "t0": 0.3,
+     "t1": 4.03,
+     "kind": "pla",
+     "color": "#F2B01E",
+     "label": "3 Russian jets",
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      24.75,
+      59.44
+     ],
+     "label": "Tallinn",
+     "kind": "dot",
+     "t": 0.5,
+     "color": "#6EA8FF"
+    }
+   ]
+  },
+  {
+   "id": "c2-consult",
+   "type": "region",
+   "start": 165.322,
+   "end": 169.391,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     14,
+     54
+    ],
+    "widthKm": 2200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      14,
+      54
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 4.07,
+     "center": [
+      12,
+      54
+     ],
+     "widthKm": 2800
+    }
+   ],
+   "clock": "SEPT 2025",
+   "clockLabel": "NATO CONSULTATIONS",
+   "clockRate": 0,
+   "source": "NATO",
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "label": "Warsaw asks",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 5
+    },
+    {
+     "at": [
+      24.75,
+      59.44
+     ],
+     "label": "Tallinn asks",
+     "kind": "base",
+     "t": 0.63,
+     "color": "#6EA8FF",
+     "size": 5
+    },
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "NATO, Brussels",
+     "kind": "base",
+     "t": 0.9,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      21.01,
+      52.23
+     ],
+     "to": [
+      4.35,
+      50.85
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 0.4,
+     "t1": 2.0
+    },
+    {
+     "from": [
+      24.75,
+      59.44
+     ],
+     "to": [
+      4.35,
+      50.85
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 0.63,
+     "t1": 2.63
+    }
+   ]
+  },
+  {
+   "id": "c2-stop",
+   "type": "region",
+   "start": 169.391,
+   "end": 173.697,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     24,
+     55.8
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24,
+      55.8
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 2.26,
+     "center": [
+      24,
+      56.2
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 4.31,
+     "center": [
+      23.8,
+      56.0
+     ],
+     "widthKm": 600
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Where our simulation starts",
+     "kind": "target",
+     "t": 0.72,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 5
+    }
+   ]
+  },
+  {
+   "id": "c2-rocket",
+   "type": "region",
+   "start": 173.697,
+   "end": 180.293,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     20,
+     69
+    ],
+    "widthKm": 1700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      20,
+      69
+     ],
+     "widthKm": 1700
+    },
+    {
+     "t": 4.17,
+     "center": [
+      24,
+      70
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 6.6,
+     "center": [
+      26,
+      71
+     ],
+     "widthKm": 1300
+    }
+   ],
+   "clock": "JAN 1995",
+   "clockLabel": "NORWEGIAN ROCKET",
+   "clockRate": 0,
+   "source": "Arms Control Association; Reuters",
+   "highlight": [
+    {
+     "iso": "578",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "578",
+     "text": "NORWAY",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      16.0,
+      69.3
+     ],
+     "label": "Andoya, Norway",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      33.0,
+      69.0
+     ],
+     "label": "Russian radar",
+     "kind": "base",
+     "t": 3.13,
+     "color": "#F2B01E",
+     "size": 5
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       16.0,
+       69.3
+      ],
+      [
+       24.0,
+       74.5
+      ],
+      [
+       18.0,
+       79.0
+      ]
+     ],
+     "t0": 4.17,
+     "t1": 7.6,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "label": "Research rocket",
+     "t": 0.5,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "c2-sub",
+   "type": "region",
+   "start": 180.293,
+   "end": 185.03,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     30,
+     68
+    ],
+    "widthKm": 2200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      30,
+      68
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 4.74,
+     "center": [
+      37,
+      62
+     ],
+     "widthKm": 2600
+    }
+   ],
+   "clock": "JAN 1995",
+   "clockLabel": "THE ALERT",
+   "clockRate": 0,
+   "source": "Arms Control Association; Reuters",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      16.0,
+      69.3
+     ],
+     "label": "Andoya",
+     "kind": "dot",
+     "t": 0.4,
+     "color": "#6EA8FF"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      16.0,
+      69.3
+     ],
+     "to": [
+      37.62,
+      55.75
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.5,
+     "t1": 3.0
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      40.0,
+      68.5
+     ],
+     "text": "Looks like a US submarine missile",
+     "color": "#FF3B3B",
+     "t": 1.8
+    }
+   ]
+  },
+  {
+   "id": "c2-brief",
+   "type": "region",
+   "start": 185.03,
+   "end": 191.025,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     37.6,
+     55.7
+    ],
+    "widthKm": 700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      37.6,
+      55.7
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 2.18,
+     "center": [
+      37.6,
+      55.7
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 6.0,
+     "center": [
+      35,
+      60
+     ],
+     "widthKm": 2300
+    }
+   ],
+   "clock": "JAN 1995",
+   "clockLabel": "MINUTES TO DECIDE",
+   "clockRate": 0,
+   "source": "Arms Control Association; Reuters",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow: nuclear briefcase active",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 7
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "km": 60,
+     "color": "#F2B01E",
+     "t": 0.6,
+     "dashed": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      43.8,
+      57.4
+     ],
+     "text": "Within minutes: no threat",
+     "color": "#3ED6C8",
+     "t": 2.68
+    }
+   ]
+  },
+  {
+   "id": "c2-decide",
+   "type": "region",
+   "start": 191.025,
+   "end": 199.049,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     25,
+     56
+    ],
+    "widthKm": 2200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      25,
+      56
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 6.32,
+     "center": [
+      23.5,
+      55.8
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 8.02,
+     "center": [
+      23.4,
+      55.9
+     ],
+     "widthKm": 420
+    }
+   ],
+   "clock": "HOUR 61",
+   "clockLabel": "THE SAME PROBLEM",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Hour 61: what does it carry?",
+     "kind": "target",
+     "t": 3.82,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 5
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       21.8,
+       54.6
+      ],
+      [
+       23.395,
+       55.894
+      ]
+     ],
+     "t0": 1.0,
+     "t1": 7.62,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "t": 0.8,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "c2-pattern",
+   "type": "region",
+   "start": 199.049,
+   "end": 201.79,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     26,
+     54
+    ],
+    "widthKm": 4200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      26,
+      54
+     ],
+     "widthKm": 4200
+    },
+    {
+     "t": 2.74,
+     "center": [
+      22,
+      55
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.10)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      34.1,
+      44.95
+     ],
+     "label": "Crimea 2014",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      22.5,
+      52.3
+     ],
+     "label": "Poland 2025",
+     "kind": "target",
+     "t": 1.4,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      16.0,
+      69.3
+     ],
+     "label": "Norway 1995",
+     "kind": "target",
+     "t": 2.4,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c2-window",
+   "type": "region",
+   "start": 201.79,
+   "end": 208.24,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     24,
+     55.5
+    ],
+    "widthKm": 1800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24,
+      55.5
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 0.1,
+     "center": [
+      24,
+      55.5
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 6.45,
+     "center": [
+      24,
+      56.0
+     ],
+     "widthKm": 800
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "A small first move",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FFD23F",
+     "size": 6
+    },
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Then a short window",
+     "kind": "base",
+     "t": 2.18,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      27.0,
+      56.9
+     ],
+     "text": "Each side decides what the other meant",
+     "color": "#FFFFFF",
+     "t": 3.9
+    }
+   ]
+  },
+  {
+   "id": "c2-first",
+   "type": "region",
+   "start": 208.24,
+   "end": 212.463,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     24,
+     56
+    ],
+    "widthKm": 1000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24,
+      56
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 4.22,
+     "center": [
+      25,
+      56.5
+     ],
+     "widthKm": 1600
+    }
+   ],
+   "clock": "HOUR 0",
+   "clockLabel": "THE FIRST DAY",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E",
+     "size": 30
+    },
+    {
+     "iso": "112",
+     "text": "BELARUS",
+     "color": "#F2B01E",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 5
+    },
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "kind": "base",
+     "t": 0.6,
+     "color": "#F2B01E",
+     "size": 5
+    }
+   ]
+  },
+  {
+   "id": "c3-card",
+   "type": "chapter",
+   "start": 212.463,
+   "end": 215.96,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 03",
+   "title": "The trigger"
+  },
+  {
+   "id": "c3-hour0",
+   "type": "region",
+   "start": 215.96,
+   "end": 221.41,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     27,
+     58.5
+    ],
+    "widthKm": 600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      27,
+      58.5
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 2.77,
+     "center": [
+      27.5,
+      58.0
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 5.45,
+     "center": [
+      26,
+      57
+     ],
+     "widthKm": 1300
+    }
+   ],
+   "clock": "HOUR 0",
+   "clockLabel": "A DENIABLE MOVE",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "233",
+     "text": "ESTONIA",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "428",
+     "text": "LATVIA",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      28.2,
+      59.38
+     ],
+     "label": "Russian border, Narva",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      28.33,
+      57.82
+     ],
+     "label": "Pskov",
+     "kind": "dot",
+     "t": 0.8,
+     "color": "#F2B01E"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      30.0,
+      59.7
+     ],
+     "text": "Unmarked troops",
+     "color": "#FF3B3B",
+     "t": 1.33
+    },
+    {
+     "at": [
+      30.0,
+      59.2
+     ],
+     "text": "Pretext: protecting Russian speakers",
+     "color": "#FFD23F",
+     "t": 2.77
+    }
+   ]
+  },
+  {
+   "id": "c3-claim",
+   "type": "region",
+   "start": 221.41,
+   "end": 229.472,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23,
+     55.5
+    ],
+    "widthKm": 1400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23,
+      55.5
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 1.24,
+     "center": [
+      21.5,
+      55.0
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 8.06,
+     "center": [
+      21.0,
+      54.9
+     ],
+     "widthKm": 480
+    }
+   ],
+   "clock": "HOUR 0",
+   "clockLabel": "A DENIABLE MOVE",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       19.8,
+       54.3
+      ],
+      [
+       23.2,
+       54.3
+      ],
+      [
+       23.2,
+       55.4
+      ],
+      [
+       19.8,
+       55.4
+      ]
+     ],
+     "label": "Claim: NATO is sealing it off",
+     "color": "#F2B01E",
+     "t": 3.38,
+     "pulse": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      23.3,
+      56.3
+     ],
+     "text": "Jamming",
+     "color": "#FFD23F",
+     "t": 0.2
+    },
+    {
+     "at": [
+      23.3,
+      56.8
+     ],
+     "text": "The Kremlin denies everything",
+     "color": "#FFFFFF",
+     "t": 5.62
+    }
+   ]
+  },
+  {
+   "id": "c3-nopred",
+   "type": "stamp",
+   "start": 229.472,
+   "end": 231.626,
+   "tag": "SIMULATION",
+   "text": "NOT A PREDICTION",
+   "line": "choices, to follow the escalation",
+   "color": "#FFD23F"
+  },
+  {
+   "id": "c3-danish",
+   "type": "region",
+   "start": 231.626,
+   "end": 238.506,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     12,
+     56
+    ],
+    "widthKm": 1800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      12,
+      56
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 6.88,
+     "center": [
+      18,
+      57
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "208",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      12.57,
+      55.68
+     ],
+     "label": "Danish intelligence",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "NATO member: Lithuania",
+     "kind": "dot",
+     "t": 1.2,
+     "color": "#6EA8FF"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      14.5,
+      58.8
+     ],
+     "text": "Full invasion: highly unlikely",
+     "color": "#3ED6C8",
+     "t": 4.44
+    }
+   ]
+  },
+  {
+   "id": "c3-choices",
+   "type": "region",
+   "start": 238.506,
+   "end": 243.232,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     24,
+     56
+    ],
+    "widthKm": 1300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24,
+      56
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 4.73,
+     "center": [
+      23.5,
+      55.6
+     ],
+     "widthKm": 800
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Our choices",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FFD23F",
+     "size": 6
+    },
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "kind": "base",
+     "t": 0.6,
+     "color": "#F2B01E",
+     "size": 5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      26.5,
+      57.4
+     ],
+     "text": "To follow the escalation",
+     "color": "#FFFFFF",
+     "t": 3.04
+    }
+   ]
+  },
+  {
+   "id": "c3-two",
+   "type": "region",
+   "start": 243.232,
+   "end": 247.385,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.0,
+     55.4
+    ],
+    "widthKm": 520
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.0,
+      55.4
+     ],
+     "widthKm": 520
+    },
+    {
+     "t": 2.0,
+     "center": [
+      23.0,
+      55.4
+     ],
+     "widthKm": 380
+    },
+    {
+     "t": 4.15,
+     "center": [
+      23.0,
+      55.4
+     ],
+     "widthKm": 440
+    }
+   ],
+   "clock": "HOUR 3",
+   "clockLabel": "THE FIRST STRIKES",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Kaliningrad area",
+     "kind": "base",
+     "t": 2.62,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      24.2,
+      55.0
+     ],
+     "label": "Rukla",
+     "kind": "target",
+     "t": 4.15,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai",
+     "kind": "target",
+     "t": 8.43,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       21.8,
+       54.6
+      ],
+      [
+       24.2,
+       55.0
+      ]
+     ],
+     "t0": 2.0,
+     "t1": 6.55,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander (conv.)",
+     "t": 2.0,
+     "wake": true
+    },
+    {
+     "path": [
+      [
+       21.8,
+       54.6
+      ],
+      [
+       23.395,
+       55.894
+      ]
+     ],
+     "t0": 2.0,
+     "t1": 6.75,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "t": 2.0,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "c3-rukla",
+   "type": "region",
+   "start": 247.385,
+   "end": 251.659,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     24.0,
+     55.2
+    ],
+    "widthKm": 350
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24.0,
+      55.2
+     ],
+     "widthKm": 350
+    },
+    {
+     "t": 4.27,
+     "center": [
+      24.2,
+      55.0
+     ],
+     "widthKm": 190
+    }
+   ],
+   "clock": "HOUR 3",
+   "clockLabel": "THE FIRST STRIKES",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      24.2,
+      55.0
+     ],
+     "label": "Rukla: German-led battlegroup",
+     "kind": "base",
+     "t": 0.25,
+     "color": "#6EA8FF",
+     "size": 7
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "label": "Vilnius",
+     "kind": "dot",
+     "t": 0.4
+    },
+    {
+     "at": [
+      23.9,
+      54.9
+     ],
+     "label": "Kaunas",
+     "kind": "dot",
+     "t": 0.8
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      24.2,
+      55.0
+     ],
+     "km": 8,
+     "color": "#FF3B3B",
+     "t": 0.25,
+     "dashed": true
+    }
+   ]
+  },
+  {
+   "id": "c3-siauliai",
+   "type": "region",
+   "start": 251.659,
+   "end": 254.182,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.4,
+     55.9
+    ],
+    "widthKm": 330
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.4,
+      55.9
+     ],
+     "widthKm": 330
+    },
+    {
+     "t": 2.52,
+     "center": [
+      23.4,
+      55.9
+     ],
+     "widthKm": 190
+    }
+   ],
+   "clock": "HOUR 3",
+   "clockLabel": "THE FIRST STRIKES",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai Air Base",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 7
+    },
+    {
+     "at": [
+      23.316,
+      55.934
+     ],
+     "label": "Siauliai",
+     "kind": "dot",
+     "t": 1.0
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "km": 8,
+     "color": "#FF3B3B",
+     "t": 1.71,
+     "dashed": true
+    }
+   ]
+  },
+  {
+   "id": "c3-flight",
+   "type": "number",
+   "start": 254.182,
+   "end": 259.68,
+   "tag": "SIMULATION",
+   "value": "ABOUT 3 MINUTES",
+   "countTo": 3,
+   "prefix": "ABOUT ",
+   "suffix": " MINUTES",
+   "label": "flight time, Kaliningrad to Lithuania",
+   "sub": "conventional warheads, our choice",
+   "color": "#FF3B3B",
+   "source": "Scenario engine; flight times fitted to published ranges"
+  },
+  {
+   "id": "c3-why",
+   "type": "region",
+   "start": 259.68,
+   "end": 260.84,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.5,
+     55.6
+    ],
+    "widthKm": 380
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.5,
+      55.6
+     ],
+     "widthKm": 380
+    },
+    {
+     "t": 1.16,
+     "center": [
+      23.6,
+      55.5
+     ],
+     "widthKm": 300
+    }
+   ],
+   "clock": "HOUR 3",
+   "clockLabel": "THE FIRST STRIKES",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      24.2,
+      55.0
+     ],
+     "label": "Rukla",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai",
+     "kind": "target",
+     "t": 0.8,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      25.3,
+      56.1
+     ],
+     "text": "Why those two?",
+     "color": "#FFD23F",
+     "t": 0.4
+    }
+   ]
+  },
+  {
+   "id": "c3-army",
+   "type": "region",
+   "start": 260.84,
+   "end": 263.89,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     24.2,
+     55.0
+    ],
+    "widthKm": 260
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24.2,
+      55.0
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 3.05,
+     "center": [
+      24.2,
+      55.0
+     ],
+     "widthKm": 170
+    }
+   ],
+   "clock": "HOUR 3",
+   "clockLabel": "THE FIRST STRIKES",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      24.2,
+      55.0
+     ],
+     "label": "Rukla: the allied army",
+     "kind": "base",
+     "t": 0.33,
+     "color": "#6EA8FF",
+     "size": 7
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "label": "Vilnius",
+     "kind": "dot",
+     "t": 0.8
+    },
+    {
+     "at": [
+      23.9,
+      54.9
+     ],
+     "label": "Kaunas",
+     "kind": "dot",
+     "t": 1.2
+    }
+   ]
+  },
+  {
+   "id": "c3-air",
+   "type": "region",
+   "start": 263.89,
+   "end": 268.662,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 260
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 4.77,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 170
+    }
+   ],
+   "clock": "HOUR 3",
+   "clockLabel": "THE FIRST STRIKES",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai: NATO jets fly from here",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 7
+    },
+    {
+     "at": [
+      23.316,
+      55.934
+     ],
+     "label": "Siauliai",
+     "kind": "dot",
+     "t": 1.0
+    }
+   ]
+  },
+  {
+   "id": "c3-answer",
+   "type": "region",
+   "start": 268.662,
+   "end": 272.304,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.5,
+     55.6
+    ],
+    "widthKm": 400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.5,
+      55.6
+     ],
+     "widthKm": 400
+    },
+    {
+     "t": 3.64,
+     "center": [
+      23.4,
+      55.5
+     ],
+     "widthKm": 650
+    }
+   ],
+   "clock": "HOUR 3",
+   "clockLabel": "THE FIRST STRIKES",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      24.2,
+      55.0
+     ],
+     "label": "Rukla",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai",
+     "kind": "target",
+     "t": 0.5,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      25.4,
+      56.2
+     ],
+     "text": "Target: NATO's ability to answer",
+     "color": "#FFD23F",
+     "t": 1.87
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      24.2,
+      55.0
+     ],
+     "km": 60,
+     "color": "#6EA8FF",
+     "t": 1.87,
+     "dashed": true
+    },
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "km": 60,
+     "color": "#6EA8FF",
+     "t": 2.63,
+     "dashed": true
+    }
+   ]
+  },
+  {
+   "id": "c3-sites",
+   "type": "region",
+   "start": 272.304,
+   "end": 279.601,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     21.8,
+     54.8
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      21.8,
+      54.8
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 7.3,
+     "center": [
+      21.5,
+      54.9
+     ],
+     "widthKm": 380
+    }
+   ],
+   "clock": "HOUR 3",
+   "clockLabel": "THE FIRST STRIKES",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.8,
+      54.6
+     ],
+     "label": "Launch site: our choice",
+     "kind": "base",
+     "t": 2.71,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "kind": "dot",
+     "t": 0.3,
+     "color": "#F2B01E"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      24.0,
+      54.2
+     ],
+     "text": "No real garrison claimed",
+     "color": "#FFFFFF",
+     "t": 5.81
+    }
+   ]
+  },
+  {
+   "id": "c3-nato",
+   "type": "region",
+   "start": 279.601,
+   "end": 282.677,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     15,
+     54
+    ],
+    "widthKm": 3200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      15,
+      54
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 3.08,
+     "center": [
+      12,
+      53
+     ],
+     "widthKm": 3600
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "276",
+     "text": "GERMANY",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Hit once",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "NATO",
+     "kind": "base",
+     "t": 0.9,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      20.0,
+      59.5
+     ],
+     "text": "Will NATO call it an armed attack?",
+     "color": "#FFD23F",
+     "t": 1.53
+    }
+   ]
+  },
+  {
+   "id": "c3-art5",
+   "type": "stamp",
+   "start": 282.677,
+   "end": 288.255,
+   "tag": "SIMULATION",
+   "text": "ARTICLE FIVE",
+   "line": "an attack on one is an attack on all",
+   "color": "#6EA8FF"
+  },
+  {
+   "id": "c4-card",
+   "type": "chapter",
+   "start": 288.255,
+   "end": 291.75,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 04",
+   "title": "Hour by hour"
+  },
+  {
+   "id": "c4-kalibr",
+   "type": "region",
+   "start": 291.75,
+   "end": 297.689,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     22.5,
+     57.2
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      22.5,
+      57.2
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 2.26,
+     "center": [
+      22.8,
+      57.5
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 5.94,
+     "center": [
+      24.0,
+      58.2
+     ],
+     "widthKm": 700
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "HOUR 6 · KALIBR FLIGHT",
+   "clockRate": 180,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "428",
+     "text": "LATVIA",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "233",
+     "text": "ESTONIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      19.0,
+      55.2
+     ],
+     "label": "Baltic Fleet corvette (simulated)",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      24.21,
+      59.26
+     ],
+     "label": "Amari Air Base, Estonia",
+     "kind": "target",
+     "t": 3.66,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       19.0,
+       55.2
+      ],
+      [
+       24.21,
+       59.26
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 10.49,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Kalibr (conv.)",
+     "t": 0.1,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "c4-watch",
+   "type": "region",
+   "start": 297.689,
+   "end": 302.743,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     24.5,
+     58.5
+    ],
+    "widthKm": 600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24.5,
+      58.5
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 5.05,
+     "center": [
+      24.6,
+      59.0
+     ],
+     "widthKm": 380
+    }
+   ],
+   "clock": "T+25:00",
+   "clockLabel": "HOUR 6 · KALIBR FLIGHT",
+   "clockRate": 60,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "233",
+     "text": "ESTONIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      24.21,
+      59.26
+     ],
+     "label": "Amari Air Base",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      24.75,
+      59.44
+     ],
+     "label": "Tallinn",
+     "kind": "dot",
+     "t": 0.6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       22.9,
+       57.7
+      ],
+      [
+       24.21,
+       59.26
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 6.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Kalibr",
+     "t": 0.1,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      28.0,
+      58.0
+     ],
+     "text": "Time to watch it come",
+     "color": "#FFD23F",
+     "t": 0.5
+    }
+   ]
+  },
+  {
+   "id": "c4-tapa",
+   "type": "region",
+   "start": 302.743,
+   "end": 310.067,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     27.0,
+     58.6
+    ],
+    "widthKm": 650
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      27.0,
+      58.6
+     ],
+     "widthKm": 650
+    },
+    {
+     "t": 4.32,
+     "center": [
+      26.5,
+      59.0
+     ],
+     "widthKm": 520
+    },
+    {
+     "t": 7.32,
+     "center": [
+      26.2,
+      59.2
+     ],
+     "widthKm": 380
+    }
+   ],
+   "clock": "HOUR 11",
+   "clockLabel": "TAPA, ESTONIA",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "233",
+     "text": "ESTONIA",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      28.3,
+      57.8
+     ],
+     "label": "Pskov region (launch, simulated)",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      25.96,
+      59.26
+     ],
+     "label": "Tapa army base",
+     "kind": "target",
+     "t": 5.57,
+     "color": "#FF3B3B",
+     "size": 7
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       28.3,
+       57.8
+      ],
+      [
+       25.96,
+       59.26
+      ]
+     ],
+     "t0": 1.81,
+     "t1": 7.32,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander (conv.)",
+     "t": 1.81,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "c4-art5",
+   "type": "region",
+   "start": 310.067,
+   "end": 316.168,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     15,
+     55
+    ],
+    "widthKm": 2600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      15,
+      55
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 3.64,
+     "center": [
+      12,
+      52
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 6.1,
+     "center": [
+      10,
+      52
+     ],
+     "widthKm": 3400
+    }
+   ],
+   "clock": "HOUR 12",
+   "clockLabel": "ARTICLE FIVE",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "NATO invokes Article 5 (simulated)",
+     "kind": "target",
+     "t": 3.64,
+     "color": "#6EA8FF",
+     "size": 7
+    },
+    {
+     "at": [
+      25.96,
+      59.26
+     ],
+     "label": "Tapa",
+     "kind": "dot",
+     "t": 0.3,
+     "color": "#FF3B3B"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      4.35,
+      50.85
+     ],
+     "to": [
+      24.75,
+      59.44
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 3.64,
+     "t1": 5.64
+    },
+    {
+     "from": [
+      4.35,
+      50.85
+     ],
+     "to": [
+      23.395,
+      55.894
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 3.94,
+     "t1": 6.04
+    }
+   ]
+  },
+  {
+   "id": "c4-gap",
+   "type": "region",
+   "start": 316.168,
+   "end": 324.73,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.5,
+     54.4
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.5,
+      54.4
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 5.08,
+     "center": [
+      23.5,
+      54.2
+     ],
+     "widthKm": 360
+    },
+    {
+     "t": 8.56,
+     "center": [
+      23.4,
+      54.1
+     ],
+     "widthKm": 260
+    }
+   ],
+   "clock": "HOUR 12 TO 48",
+   "clockLabel": "CLOSING ON THE GAP",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "112",
+     "text": "BELARUS",
+     "color": "#F2B01E",
+     "size": 30
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       22.8,
+       54.35
+      ],
+      [
+       23.8,
+       53.75
+      ],
+      [
+       23.9,
+       54.2
+      ],
+      [
+       23.0,
+       54.45
+      ]
+     ],
+     "label": "Suwalki Gap",
+     "color": "#FFD23F",
+     "t": 0.4,
+     "pulse": true
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       20.8,
+       54.6
+      ],
+      [
+       22.9,
+       54.2
+      ]
+     ],
+     "t0": 1.2,
+     "t1": 8.56,
+     "kind": "pla",
+     "color": "#F2B01E",
+     "label": "Russian forces",
+     "t": 1.0,
+     "wake": true
+    },
+    {
+     "path": [
+      [
+       26.0,
+       53.5
+      ],
+      [
+       23.8,
+       54.0
+      ]
+     ],
+     "t0": 1.6,
+     "t1": 8.56,
+     "kind": "pla",
+     "color": "#F2B01E",
+     "label": "Belarusian forces",
+     "t": 1.4,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "c4-rail",
+   "type": "region",
+   "start": 324.73,
+   "end": 332.224,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     16,
+     53
+    ],
+    "widthKm": 1600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      16,
+      53
+     ],
+     "widthKm": 1600
+    },
+    {
+     "t": 4.66,
+     "center": [
+      20,
+      53.6
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 7.49,
+     "center": [
+      23,
+      54.4
+     ],
+     "widthKm": 800
+    }
+   ],
+   "clock": "HOUR 12 TO 48",
+   "clockLabel": "REINFORCEMENTS",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "276",
+     "text": "GERMANY",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      13.4,
+      52.52
+     ],
+     "label": "Germany, Netherlands",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 5
+    },
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "label": "Warsaw",
+     "kind": "dot",
+     "t": 0.6
+    },
+    {
+     "at": [
+      23.9,
+      54.9
+     ],
+     "label": "Kaunas",
+     "kind": "dot",
+     "t": 1.0
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       13.4,
+       52.52
+      ],
+      [
+       21.01,
+       52.23
+      ],
+      [
+       23.6,
+       54.1
+      ],
+      [
+       23.9,
+       54.9
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 6.99,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "label": "NATO reinforcements",
+     "t": 0.1,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      24.5,
+      52.2
+     ],
+     "text": "One rail line: the bottleneck",
+     "color": "#3ED6C8",
+     "t": 4.66
+    }
+   ]
+  },
+  {
+   "id": "c4-orzysz",
+   "type": "region",
+   "start": 332.224,
+   "end": 337.998,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     22.5,
+     54.4
+    ],
+    "widthKm": 480
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      22.5,
+      54.4
+     ],
+     "widthKm": 480
+    },
+    {
+     "t": 3.15,
+     "center": [
+      22.0,
+      54.0
+     ],
+     "widthKm": 340
+    },
+    {
+     "t": 5.77,
+     "center": [
+      21.9,
+      53.9
+     ],
+     "widthKm": 250
+    }
+   ],
+   "clock": "HOUR 31",
+   "clockLabel": "ORZYSZ, POLAND",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.8,
+      54.6
+     ],
+     "label": "Kaliningrad area",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      21.95,
+      53.81
+     ],
+     "label": "Orzysz training area",
+     "kind": "target",
+     "t": 3.15,
+     "color": "#FF3B3B",
+     "size": 7
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       21.8,
+       54.6
+      ],
+      [
+       21.95,
+       53.81
+      ]
+     ],
+     "t0": 2.05,
+     "t1": 5.77,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander (conv.)",
+     "t": 2.05,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "c4-boar",
+   "type": "region",
+   "start": 337.998,
+   "end": 346.32,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     22.0,
+     53.8
+    ],
+    "widthKm": 250
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      22.0,
+      53.8
+     ],
+     "widthKm": 250
+    },
+    {
+     "t": 5.15,
+     "center": [
+      22.0,
+      53.8
+     ],
+     "widthKm": 330.469
+    },
+    {
+     "t": 8.32,
+     "center": [
+      22.0,
+      53.8
+     ],
+     "widthKm": 380
+    }
+   ],
+   "clock": "HOUR 31",
+   "clockLabel": "ORZYSZ, POLAND",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.95,
+      53.81
+     ],
+     "label": "Orzysz",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      22.35,
+      53.83
+     ],
+     "label": "Elk",
+     "kind": "dot",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      23.0,
+      53.3
+     ],
+     "text": "Gallant Boar, June 2026 (one report)",
+     "color": "#FFD23F",
+     "t": 1.97
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      21.95,
+      53.81
+     ],
+     "km": 6,
+     "color": "#FF3B3B",
+     "t": 0.6,
+     "dashed": true
+    }
+   ]
+  },
+  {
+   "id": "c4-rand",
+   "type": "region",
+   "start": 346.32,
+   "end": 353.97,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     26.5,
+     57.5
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      26.5,
+      57.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 5.35,
+     "center": [
+      25.5,
+      58.0
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 7.65,
+     "center": [
+      24.8,
+      57.6
+     ],
+     "widthKm": 700
+    }
+   ],
+   "clock": "RAND, 2016",
+   "clockLabel": "WARGAMES",
+   "clockRate": 0,
+   "source": "RAND Corporation, 2016 wargames (as summarised)",
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "428",
+     "text": "LATVIA",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "233",
+     "text": "ESTONIA",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      24.75,
+      59.44
+     ],
+     "label": "Tallinn",
+     "kind": "target",
+     "t": 5.35,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      24.11,
+      56.95
+     ],
+     "label": "Riga",
+     "kind": "target",
+     "t": 6.39,
+     "color": "#FF3B3B",
+     "size": 7
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      28.33,
+      57.82
+     ],
+     "to": [
+      24.75,
+      59.44
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 4.67,
+     "t1": 6.67
+    },
+    {
+     "from": [
+      27.0,
+      55.5
+     ],
+     "to": [
+      24.11,
+      56.95
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 4.67,
+     "t1": 6.67
+    }
+   ]
+  },
+  {
+   "id": "c4-60h",
+   "type": "number",
+   "start": 353.97,
+   "end": 356.167,
+   "tag": "REAL DATA",
+   "value": "AT MOST 60 HOURS",
+   "countTo": 60,
+   "prefix": "AT MOST ",
+   "suffix": " HOURS",
+   "label": "RAND wargames, 2016: Russian forces at Tallinn or Riga",
+   "color": "#F2B01E",
+   "source": "RAND Corporation, 2016 wargames (as summarised)"
+  },
+  {
+   "id": "c4-weaker",
+   "type": "region",
+   "start": 356.167,
+   "end": 361.257,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     24.5,
+     57.5
+    ],
+    "widthKm": 1100
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24.5,
+      57.5
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 5.09,
+     "center": [
+      24.0,
+      56.5
+     ],
+     "widthKm": 800
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      24.11,
+      56.95
+     ],
+     "label": "Riga",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 5
+    },
+    {
+     "at": [
+      24.75,
+      59.44
+     ],
+     "label": "Tallinn",
+     "kind": "base",
+     "t": 0.6,
+     "color": "#6EA8FF",
+     "size": 5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      27.5,
+      56.0
+     ],
+     "text": "A weaker NATO posture",
+     "color": "#F2B01E",
+     "t": 1.02
+    },
+    {
+     "at": [
+      27.5,
+      55.5
+     ],
+     "text": "Not a prediction",
+     "color": "#FFD23F",
+     "t": 3.24
+    }
+   ]
+  },
+  {
+   "id": "c4-stall",
+   "type": "region",
+   "start": 361.257,
+   "end": 368.594,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     24.5,
+     56.5
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24.5,
+      56.5
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 3.11,
+     "center": [
+      23.5,
+      55.8
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 7.34,
+     "center": [
+      23.0,
+      55.5
+     ],
+     "widthKm": 1400
+    }
+   ],
+   "clock": "HOUR 55",
+   "clockLabel": "THE FIGHT STALLS",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      22.93,
+      54.1
+     ],
+     "label": "Suwalki Gap",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FFD23F",
+     "size": 6
+    },
+    {
+     "at": [
+      23.9,
+      54.9
+     ],
+     "label": "Kaunas",
+     "kind": "dot",
+     "t": 0.6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       15.0,
+       53.5
+      ],
+      [
+       19.0,
+       54.5
+      ],
+      [
+       22.93,
+       54.1
+      ]
+     ],
+     "t0": 2.82,
+     "t1": 7.34,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "label": "NATO aircraft",
+     "t": 2.82,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      26.8,
+      57.2
+     ],
+     "text": "The ground fight stalls",
+     "color": "#FFFFFF",
+     "t": 1.67
+    }
+   ]
+  },
+  {
+   "id": "c4-moscow",
+   "type": "region",
+   "start": 368.594,
+   "end": 371.64,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     37.6,
+     55.7
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      37.6,
+      55.7
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 3.05,
+     "center": [
+      33,
+      56
+     ],
+     "widthKm": 2200
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.10)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow decides",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 7
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "km": 80,
+     "color": "#F2B01E",
+     "t": 0.5,
+     "dashed": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      41.5,
+      58.4
+     ],
+     "text": "The war is turning against it",
+     "color": "#FF3B3B",
+     "t": 1.48
+    }
+   ]
+  },
+  {
+   "id": "c4-some",
+   "type": "region",
+   "start": 371.64,
+   "end": 377.624,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     30,
+     56
+    ],
+    "widthKm": 2400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      30,
+      56
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 5.98,
+     "center": [
+      26,
+      56
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "One limited use",
+     "kind": "target",
+     "t": 2.95,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      33.0,
+      59.4
+     ],
+     "text": "Some analysts: one use forces a deal",
+     "color": "#FFD23F",
+     "t": 4.45
+    }
+   ]
+  },
+  {
+   "id": "c4-others",
+   "type": "region",
+   "start": 377.624,
+   "end": 384.313,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     28,
+     57
+    ],
+    "widthKm": 2000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      28,
+      57
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 6.69,
+     "center": [
+      26,
+      56.5
+     ],
+     "widthKm": 1200
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Our choice, not a forecast",
+     "kind": "target",
+     "t": 3.83,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      33.0,
+      59.4
+     ],
+     "text": "Others: no such policy exists",
+     "color": "#3ED6C8",
+     "t": 0.61
+    }
+   ]
+  },
+  {
+   "id": "c4-h61",
+   "type": "region",
+   "start": 384.313,
+   "end": 391.687,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.0,
+     55.5
+    ],
+    "widthKm": 520
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.0,
+      55.5
+     ],
+     "widthKm": 520
+    },
+    {
+     "t": 3.56,
+     "center": [
+      23.0,
+      55.5
+     ],
+     "widthKm": 380
+    },
+    {
+     "t": 7.37,
+     "center": [
+      23.0,
+      55.6
+     ],
+     "widthKm": 440
+    }
+   ],
+   "clock": "HOUR 61",
+   "clockLabel": "ONE ISKANDER-M",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai Air Base",
+     "kind": "target",
+     "t": 5.52,
+     "color": "#FF3B3B",
+     "size": 7
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       21.8,
+       54.6
+      ],
+      [
+       23.395,
+       55.894
+      ]
+     ],
+     "t0": 3.56,
+     "t1": 9.37,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander-M, nuclear",
+     "t": 0.3,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "c4-base",
+   "type": "region",
+   "start": 391.687,
+   "end": 394.514,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 2.83,
+     "center": [
+      23.35,
+      55.9
+     ],
+     "widthKm": 190
+    }
+   ],
+   "clock": "HOUR 61",
+   "clockLabel": "THE AIM POINT",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Air base: the aim point",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      23.316,
+      55.934
+     ],
+     "label": "Siauliai (city)",
+     "kind": "dot",
+     "t": 2.06,
+     "color": "#FFFFFF"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      24.4,
+      56.4
+     ],
+     "text": "A base, not a city",
+     "color": "#FFD23F",
+     "t": 0.1
+    }
+   ]
+  },
+  {
+   "id": "c4-warn",
+   "type": "region",
+   "start": 394.514,
+   "end": 399.696,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.4,
+     55.6
+    ],
+    "widthKm": 450
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.4,
+      55.6
+     ],
+     "widthKm": 450
+    },
+    {
+     "t": 5.18,
+     "center": [
+      23.4,
+      55.8
+     ],
+     "widthKm": 300
+    }
+   ],
+   "clock": "T-03:10",
+   "clockLabel": "TO IMPACT",
+   "clockRate": 40,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai Air Base",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 7
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       22.3,
+       55.1
+      ],
+      [
+       23.395,
+       55.894
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 5.68,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      25.0,
+      56.4
+     ],
+     "text": "No warning but sirens and jets",
+     "color": "#FFD23F",
+     "t": 3.32
+    }
+   ]
+  },
+  {
+   "id": "c4-know",
+   "type": "region",
+   "start": 399.696,
+   "end": 404.625,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.0,
+     55.6
+    ],
+    "widthKm": 700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.0,
+      55.6
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 4.93,
+     "center": [
+      23.3,
+      55.8
+     ],
+     "widthKm": 400
+    }
+   ],
+   "clock": "T-00:40",
+   "clockLabel": "TO IMPACT",
+   "clockRate": 20,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "What does it carry?",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 7
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       22.6,
+       55.3
+      ],
+      [
+       23.395,
+       55.894
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 4.73,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Ballistic launch",
+     "t": 0.1,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      25.2,
+      56.6
+     ],
+     "text": "Defenders cannot know",
+     "color": "#FFFFFF",
+     "t": 2.75
+    }
+   ]
+  },
+  {
+   "id": "c4-noyield",
+   "type": "region",
+   "start": 404.625,
+   "end": 409.69,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     21.5,
+     54.9
+    ],
+    "widthKm": 600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      21.5,
+      54.9
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 5.06,
+     "center": [
+      22.0,
+      55.1
+     ],
+     "widthKm": 420
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.8,
+      54.6
+     ],
+     "label": "Iskander brigade (simulated)",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      24.4,
+      56.0
+     ],
+     "text": "No published Iskander yield",
+     "color": "#FFD23F",
+     "t": 0.61
+    }
+   ]
+  },
+  {
+   "id": "c4-10kt",
+   "type": "number",
+   "start": 409.69,
+   "end": 413.307,
+   "tag": "SIMULATION",
+   "value": "10 KILOTONS",
+   "countTo": 10,
+   "suffix": " KILOTONS",
+   "label": "our choice, not a published figure",
+   "sub": "about half of Nagasaki",
+   "color": "#FF3B3B",
+   "source": "Scenario engine; Nagasaki about 21 kt"
+  },
+  {
+   "id": "c4-teaser",
+   "type": "city",
+   "start": 413.307,
+   "end": 417.368,
+   "tag": "SIMULATION",
+   "clock": "HOUR 61",
+   "clockLabel": "SIAULIAI AIR BASE",
+   "clockRate": 0,
+   "city": "siauliai",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 9.0
+   },
+   "gz": [
+    23.395,
+    55.894
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 9.0
+    },
+    {
+     "t": 3.0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 5.0
+    }
+   ],
+   "rings": [],
+   "legend": [],
+   "labels": [
+    {
+     "at": [
+      23.395,
+      55.9
+     ],
+     "text": "Ten kilotons on one airfield?",
+     "color": "#FFD23F",
+     "t": 0.6
+    }
+   ]
+  },
+  {
+   "id": "c5-card",
+   "type": "chapter",
+   "start": 417.368,
+   "end": 419.77,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 05",
+   "title": "One warhead, ring by ring"
+  },
+  {
+   "id": "h-flash",
+   "type": "city",
+   "start": 419.77,
+   "end": 425.766,
+   "tag": "SIMULATION",
+   "city": "siauliai",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 4.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 4.0
+    },
+    {
+     "t": 3.0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 3.0
+    },
+    {
+     "t": 6.0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 2.4
+    }
+   ],
+   "gz": [
+    23.395,
+    55.894
+   ],
+   "clock": "T+03:06",
+   "clockLabel": "IMPACT · HOUR 61",
+   "clockRate": 0,
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "flashT": 0.1,
+   "rings": [
+    {
+     "km": 0.153,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": 0.6
+    }
+   ],
+   "legend": [],
+   "labels": [
+    {
+     "at": [
+      23.395,
+      55.898
+     ],
+     "text": "Siauliai Air Base: airburst",
+     "color": "#FFFFFF",
+     "t": 0.5
+    },
+    {
+     "at": [
+      23.395,
+      55.888
+     ],
+     "text": "Every number: the engine's",
+     "color": "#FFD23F",
+     "t": 1.86
+    },
+    {
+     "at": [
+      23.395,
+      55.882
+     ],
+     "text": "Every one is an estimate",
+     "color": "#FFD23F",
+     "t": 5.34
+    }
+   ],
+   "caption": "A 10-kiloton airburst. Our choice of yield and burst height."
+  },
+  {
+   "id": "h-airfield",
+   "type": "city",
+   "start": 425.766,
+   "end": 430.96,
+   "tag": "SIMULATION",
+   "city": "siauliai",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 2.4
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 2.4
+    },
+    {
+     "t": 5.19,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 2.0
+    }
+   ],
+   "gz": [
+    23.395,
+    55.894
+   ],
+   "clock": "T+03:06",
+   "clockLabel": "IMPACT · HOUR 61",
+   "clockRate": 0,
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "legend": [
+    {
+     "text": "Fireball 153 m radius",
+     "color": "#FFFFFF"
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.153,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": -30
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      23.395,
+      55.8985
+     ],
+     "text": "Runway and hangars",
+     "color": "#FFFFFF",
+     "t": 2.82
+    },
+    {
+     "at": [
+      23.395,
+      55.8895
+     ],
+     "text": "What the base protects",
+     "color": "#FFD23F",
+     "t": 1.26
+    }
+   ]
+  },
+  {
+   "id": "h-fireball",
+   "type": "city",
+   "start": 430.96,
+   "end": 437.601,
+   "tag": "SIMULATION",
+   "city": "siauliai",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 1.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 1.0
+    },
+    {
+     "t": 6.64,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 0.8
+    }
+   ],
+   "gz": [
+    23.395,
+    55.894
+   ],
+   "clock": "T+03:06",
+   "clockLabel": "IMPACT · HOUR 61",
+   "clockRate": 0,
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "legend": [
+    {
+     "text": "Fireball 153 m radius",
+     "color": "#FFFFFF"
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.153,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": 0.1
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      23.395,
+      55.8962
+     ],
+     "text": "About 300 m across",
+     "color": "#FFFFFF",
+     "t": 4.45
+    }
+   ]
+  },
+  {
+   "id": "h-gone",
+   "type": "city",
+   "start": 437.601,
+   "end": 441.416,
+   "tag": "SIMULATION",
+   "city": "siauliai",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 1.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 1.0
+    },
+    {
+     "t": 3.81,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 1.5
+    }
+   ],
+   "gz": [
+    23.395,
+    55.894
+   ],
+   "clock": "T+03:06",
+   "clockLabel": "IMPACT · HOUR 61",
+   "clockRate": 0,
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "legend": [
+    {
+     "text": "Fireball 153 m radius",
+     "color": "#FFFFFF"
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.153,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": -30
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      23.395,
+      55.8968
+     ],
+     "text": "Runways, hangars, aircraft: gone",
+     "color": "#FF3B3B",
+     "t": 0.71
+    }
+   ]
+  },
+  {
+   "id": "h-20psi",
+   "type": "city",
+   "start": 441.416,
+   "end": 449.297,
+   "tag": "SIMULATION",
+   "city": "siauliai",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 1.2
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 1.2
+    },
+    {
+     "t": 7.88,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 2.2
+    }
+   ],
+   "gz": [
+    23.395,
+    55.894
+   ],
+   "clock": "T+03:06",
+   "clockLabel": "IMPACT · HOUR 61",
+   "clockRate": 0,
+   "source": "Effects: Glasstone and Dolan scaling calibrated to NUKEMAP (scenario engine)",
+   "legend": [
+    {
+     "text": "Fireball 153 m radius",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 297 m",
+     "color": "#FF7A1A"
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.153,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": -30
+    },
+    {
+     "km": 0.297,
+     "color": "#FF7A1A",
+     "label": "20 psi",
+     "t": 0.3
+    }
+   ],
+   "caption": "Reinforced concrete fails."
+  },
+  {
+   "id": "h-5psi",
+   "type": "city",
+   "start": 449.297,
+   "end": 456.853,
+   "tag": "SIMULATION",
+   "city": "siauliai",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 2.2
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 2.2
+    },
+    {
+     "t": 7.56,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 4.0
+    }
+   ],
+   "gz": [
+    23.395,
+    55.894
+   ],
+   "clock": "T+03:06",
+   "clockLabel": "IMPACT · HOUR 61",
+   "clockRate": 0,
+   "source": "",
+   "legend": [
+    {
+     "text": "Fireball 153 m radius",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 297 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 1.46 km",
+     "color": "#FF3B3B"
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.153,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": -30
+    },
+    {
+     "km": 0.297,
+     "color": "#FF7A1A",
+     "label": "20 psi",
+     "t": -30
+    },
+    {
+     "km": 1.459,
+     "color": "#FF3B3B",
+     "label": "5 psi",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      23.395,
+      55.9065
+     ],
+     "text": "Most buildings flattened",
+     "color": "#FFFFFF",
+     "t": 6.41
+    }
+   ]
+  },
+  {
+   "id": "h-area",
+   "type": "city",
+   "start": 456.853,
+   "end": 460.873,
+   "tag": "SIMULATION",
+   "city": "siauliai",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 4.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 4.0
+    },
+    {
+     "t": 4.02,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 5.0
+    }
+   ],
+   "gz": [
+    23.395,
+    55.894
+   ],
+   "clock": "T+03:06",
+   "clockLabel": "IMPACT · HOUR 61",
+   "clockRate": 0,
+   "source": "",
+   "legend": [
+    {
+     "text": "Fireball 153 m radius",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 297 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 1.46 km",
+     "color": "#FF3B3B"
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.153,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": -30
+    },
+    {
+     "km": 0.297,
+     "color": "#FF7A1A",
+     "label": "20 psi",
+     "t": -30
+    },
+    {
+     "km": 1.459,
+     "color": "#FF3B3B",
+     "label": "5 psi",
+     "t": -30
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      23.395,
+      55.8815
+     ],
+     "text": "About 6.7 km2 inside the ring",
+     "color": "#FFD23F",
+     "t": 0.1
+    }
+   ]
+  },
+  {
+   "id": "h-burns",
+   "type": "city",
+   "start": 460.873,
+   "end": 467.241,
+   "tag": "SIMULATION",
+   "city": "siauliai",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 4.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 4.0
+    },
+    {
+     "t": 6.37,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 6.0
+    }
+   ],
+   "gz": [
+    23.395,
+    55.894
+   ],
+   "clock": "T+03:06",
+   "clockLabel": "IMPACT · HOUR 61",
+   "clockRate": 0,
+   "source": "",
+   "legend": [
+    {
+     "text": "Fireball 153 m radius",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 297 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 1.46 km",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "Third-degree burns 1.6 km",
+     "color": "#F2B01E"
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.153,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": -30
+    },
+    {
+     "km": 0.297,
+     "color": "#FF7A1A",
+     "label": "20 psi",
+     "t": -30
+    },
+    {
+     "km": 1.459,
+     "color": "#FF3B3B",
+     "label": "5 psi",
+     "t": -30
+    },
+    {
+     "km": 1.617,
+     "color": "#F2B01E",
+     "label": "Burns",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      23.395,
+      55.9165
+     ],
+     "text": "Third-degree burns, bare skin",
+     "color": "#FFFFFF",
+     "t": 3.94
+    }
+   ]
+  },
+  {
+   "id": "h-1psi",
+   "type": "city",
+   "start": 467.241,
+   "end": 474.618,
+   "tag": "SIMULATION",
+   "city": "siauliai",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 7.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 7.0
+    },
+    {
+     "t": 7.38,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 9.0
+    }
+   ],
+   "gz": [
+    23.395,
+    55.894
+   ],
+   "clock": "T+03:06",
+   "clockLabel": "IMPACT · HOUR 61",
+   "clockRate": 0,
+   "source": "",
+   "legend": [
+    {
+     "text": "Fireball 153 m radius",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 297 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 1.46 km",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "Third-degree burns 1.6 km",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "Broken windows 3.9 km",
+     "color": "#3ED6C8"
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.153,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": -30
+    },
+    {
+     "km": 0.297,
+     "color": "#FF7A1A",
+     "label": "20 psi",
+     "t": -30
+    },
+    {
+     "km": 1.459,
+     "color": "#FF3B3B",
+     "label": "5 psi",
+     "t": -30
+    },
+    {
+     "km": 1.617,
+     "color": "#F2B01E",
+     "label": "Burns",
+     "t": -30
+    },
+    {
+     "km": 3.949,
+     "color": "#3ED6C8",
+     "label": "1 psi",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      23.395,
+      55.93
+     ],
+     "text": "Windows shatter",
+     "color": "#FFFFFF",
+     "t": 5.39
+    }
+   ]
+  },
+  {
+   "id": "h-town",
+   "type": "city",
+   "start": 474.618,
+   "end": 480.791,
+   "tag": "SIMULATION",
+   "city": "siauliai",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 12.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 12.0
+    },
+    {
+     "t": 3.14,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 11.491
+    },
+    {
+     "t": 6.17,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 11.0
+    }
+   ],
+   "gz": [
+    23.395,
+    55.894
+   ],
+   "clock": "T+03:06",
+   "clockLabel": "IMPACT · HOUR 61",
+   "clockRate": 0,
+   "source": "",
+   "legend": [
+    {
+     "text": "Fireball 153 m radius",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 297 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 1.46 km",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "Third-degree burns 1.6 km",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "Broken windows 3.9 km",
+     "color": "#3ED6C8"
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.153,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": -30
+    },
+    {
+     "km": 0.297,
+     "color": "#FF7A1A",
+     "label": "20 psi",
+     "t": -30
+    },
+    {
+     "km": 1.459,
+     "color": "#FF3B3B",
+     "label": "5 psi",
+     "t": -30
+    },
+    {
+     "km": 1.617,
+     "color": "#F2B01E",
+     "label": "Burns",
+     "t": -30
+    },
+    {
+     "km": 3.949,
+     "color": "#3ED6C8",
+     "label": "1 psi",
+     "t": -30
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      23.316,
+      55.934
+     ],
+     "text": "Siauliai city centre",
+     "color": "#FFFFFF",
+     "t": 0.1
+    }
+   ]
+  },
+  {
+   "id": "h-streets",
+   "type": "city",
+   "start": 480.791,
+   "end": 483.89,
+   "tag": "SIMULATION",
+   "city": "siauliai",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 11.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 11.0
+    },
+    {
+     "t": 3.1,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 9.0
+    }
+   ],
+   "gz": [
+    23.395,
+    55.894
+   ],
+   "clock": "T+03:06",
+   "clockLabel": "IMPACT · HOUR 61",
+   "clockRate": 0,
+   "source": "",
+   "legend": [
+    {
+     "text": "Fireball 153 m radius",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 297 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 1.46 km",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "Third-degree burns 1.6 km",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "Broken windows 3.9 km",
+     "color": "#3ED6C8"
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.153,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": -30
+    },
+    {
+     "km": 0.297,
+     "color": "#FF7A1A",
+     "label": "20 psi",
+     "t": -30
+    },
+    {
+     "km": 1.459,
+     "color": "#FF3B3B",
+     "label": "5 psi",
+     "t": -30
+    },
+    {
+     "km": 1.617,
+     "color": "#F2B01E",
+     "label": "Burns",
+     "t": -30
+    },
+    {
+     "km": 3.949,
+     "color": "#3ED6C8",
+     "label": "1 psi",
+     "t": -30
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      23.35,
+      55.864
+     ],
+     "text": "Nearest streets: inside 1 psi",
+     "color": "#FFD23F",
+     "t": 0.28
+    }
+   ]
+  },
+  {
+   "id": "h-fallout",
+   "type": "city",
+   "start": 483.89,
+   "end": 488.602,
+   "tag": "SIMULATION",
+   "city": "siauliai",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 9.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 9.0
+    },
+    {
+     "t": 4.71,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 14.0
+    }
+   ],
+   "gz": [
+    23.395,
+    55.894
+   ],
+   "clock": "T+03:06",
+   "clockLabel": "IMPACT · HOUR 61",
+   "clockRate": 0,
+   "source": "",
+   "legend": [
+    {
+     "text": "Fireball 153 m radius",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "20 psi 297 m",
+     "color": "#FF7A1A"
+    },
+    {
+     "text": "5 psi 1.46 km",
+     "color": "#FF3B3B"
+    },
+    {
+     "text": "Third-degree burns 1.6 km",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "Broken windows 3.9 km",
+     "color": "#3ED6C8"
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.153,
+     "color": "#FFFFFF",
+     "label": "Fireball",
+     "t": -30
+    },
+    {
+     "km": 0.297,
+     "color": "#FF7A1A",
+     "label": "20 psi",
+     "t": -30
+    },
+    {
+     "km": 1.459,
+     "color": "#FF3B3B",
+     "label": "5 psi",
+     "t": -30
+    },
+    {
+     "km": 1.617,
+     "color": "#F2B01E",
+     "label": "Burns",
+     "t": -30
+    },
+    {
+     "km": 3.949,
+     "color": "#3ED6C8",
+     "label": "1 psi",
+     "t": -30
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      23.395,
+      55.939
+     ],
+     "text": "High burst: little local fallout",
+     "color": "#3ED6C8",
+     "t": 2.3
+    }
+   ]
+  },
+  {
+   "id": "h-second",
+   "type": "region",
+   "start": 488.602,
+   "end": 493.913,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.4,
+     55.9
+    ],
+    "widthKm": 150
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.4,
+      55.9
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 5.31,
+     "center": [
+      23.4,
+      55.9
+     ],
+     "widthKm": 320
+    }
+   ],
+   "clock": "T+03:07",
+   "clockLabel": "ABOUT ONE SECOND",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "source": "Scenario engine",
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Base: the whole story",
+     "kind": "target",
+     "t": 0.39,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      23.316,
+      55.934
+     ],
+     "label": "Siauliai",
+     "kind": "dot",
+     "t": 0.5
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "km": 3.949,
+     "color": "#3ED6C8",
+     "t": 0.5,
+     "label": "1 psi"
+    },
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "km": 1.459,
+     "color": "#FF3B3B",
+     "t": 1.1,
+     "label": "5 psi"
+    }
+   ]
+  },
+  {
+   "id": "h-after",
+   "type": "region",
+   "start": 493.913,
+   "end": 497.928,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.4,
+     55.9
+    ],
+    "widthKm": 320
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.4,
+      55.9
+     ],
+     "widthKm": 320
+    },
+    {
+     "t": 4.01,
+     "center": [
+      24.0,
+      56.0
+     ],
+     "widthKm": 900
+    }
+   ],
+   "clock": "T+03:07",
+   "clockLabel": "THEN THE REST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai Air Base",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "label": "Vilnius",
+     "kind": "dot",
+     "t": 0.16
+    },
+    {
+     "at": [
+      23.9,
+      54.9
+     ],
+     "label": "Kaunas",
+     "kind": "dot",
+     "t": 1.0
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      26.5,
+      56.9
+     ],
+     "text": "For everyone else: after",
+     "color": "#FFD23F",
+     "t": 1.54
+    }
+   ]
+  },
+  {
+   "id": "c6-card",
+   "type": "chapter",
+   "start": 497.928,
+   "end": 500.93,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 06",
+   "title": "The day after"
+  },
+  {
+   "id": "d1-base",
+   "type": "region",
+   "start": 500.93,
+   "end": 505.71,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.4,
+     55.9
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.4,
+      55.9
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 3.22,
+     "center": [
+      23.5,
+      55.8
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 4.78,
+     "center": [
+      23.4,
+      55.9
+     ],
+     "widthKm": 380
+    }
+   ],
+   "clockLabel": "FIRST CHANGE: THE AIRFIELD",
+   "clock": "DAY 1",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai Air Base",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      23.316,
+      55.934
+     ],
+     "label": "Siauliai",
+     "kind": "dot",
+     "t": 0.8
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      25.0,
+      56.4
+     ],
+     "text": "Aimed at a base, not a city",
+     "color": "#FFD23F",
+     "t": 5.04
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ]
+  },
+  {
+   "id": "d1-dark",
+   "type": "region",
+   "start": 505.71,
+   "end": 515.273,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.395,
+     55.894
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 4.56,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 247.531
+    },
+    {
+     "t": 9.56,
+     "center": [
+      23.395,
+      55.894
+     ],
+     "widthKm": 190
+    }
+   ],
+   "clockLabel": "FIRST LIGHT",
+   "clock": "DAY 1",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Dark gap on the map",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      23.316,
+      55.934
+     ],
+     "label": "Siauliai",
+     "kind": "dot",
+     "t": 1.0
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       23.33,
+       55.87
+      ],
+      [
+       23.46,
+       55.87
+      ],
+      [
+       23.46,
+       55.92
+      ],
+      [
+       23.33,
+       55.92
+      ]
+     ],
+     "label": "Jets go quiet",
+     "color": "#8A8F98",
+     "t": 8.12,
+     "pulse": true
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ]
+  },
+  {
+   "id": "d2-skies",
+   "type": "region",
+   "start": 515.273,
+   "end": 520.122,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     24.0,
+     57.5
+    ],
+    "widthKm": 1100
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24.0,
+      57.5
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 3.9,
+     "center": [
+      24.5,
+      58.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 4.85,
+     "center": [
+      24.5,
+      58.5
+     ],
+     "widthKm": 1700
+    }
+   ],
+   "clockLabel": "SECOND CHANGE: CLOSED SKIES",
+   "clock": "DAY 1",
+   "clockRate": 0,
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "428",
+     "text": "LATVIA",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "233",
+     "text": "ESTONIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       21.0,
+       54.0
+      ],
+      [
+       28.0,
+       54.0
+      ],
+      [
+       28.0,
+       59.8
+      ],
+      [
+       21.0,
+       59.8
+      ]
+     ],
+     "label": "Flights stop (simulated)",
+     "color": "#FF3B3B",
+     "t": 2.46,
+     "pulse": true
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ]
+  },
+  {
+   "id": "d2-finland",
+   "type": "region",
+   "start": 520.122,
+   "end": 529.425,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     26,
+     60.0
+    ],
+    "widthKm": 700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      26,
+      60.0
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 0.67,
+     "center": [
+      27,
+      60.0
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 4.99,
+     "center": [
+      27.0,
+      60.0
+     ],
+     "widthKm": 749.826
+    },
+    {
+     "t": 9.3,
+     "center": [
+      27,
+      60.0
+     ],
+     "widthKm": 600
+    }
+   ],
+   "clockLabel": "REAL, NOVEMBER 2026",
+   "clock": "DAY 1",
+   "clockRate": 0,
+   "source": "Reuters; Associated Press, November 2026",
+   "countryLabels": [
+    {
+     "iso": "246",
+     "text": "FINLAND",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "233",
+     "text": "ESTONIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      24.94,
+      60.17
+     ],
+     "label": "Helsinki",
+     "kind": "dot",
+     "t": 0.3
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       24.0,
+       59.6
+      ],
+      [
+       29.5,
+       59.6
+      ],
+      [
+       29.5,
+       60.3
+      ],
+      [
+       24.0,
+       60.3
+      ]
+     ],
+     "label": "Gulf of Finland: briefly restricted",
+     "color": "#FFD23F",
+     "t": 0.21,
+     "pulse": true
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ]
+  },
+  {
+   "id": "d3-wind",
+   "type": "region",
+   "start": 529.425,
+   "end": 535.237,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     22.0,
+     56.0
+    ],
+    "widthKm": 400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      22.0,
+      56.0
+     ],
+     "widthKm": 400
+    },
+    {
+     "t": 4.11,
+     "center": [
+      23.0,
+      56.0
+     ],
+     "widthKm": 550
+    },
+    {
+     "t": 5.81,
+     "center": [
+      23.6,
+      55.9
+     ],
+     "widthKm": 700
+    }
+   ],
+   "clockLabel": "THIRD CHANGE: THE DUST",
+   "clock": "DAY 1",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Burst point",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      23.316,
+      55.934
+     ],
+     "label": "Siauliai",
+     "kind": "dot",
+     "t": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      21.4,
+      56.3
+     ],
+     "to": [
+      22.7,
+      56.0
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 4.11,
+     "t1": 6.11,
+     "label": "Light westerly wind (our choice)"
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ]
+  },
+  {
+   "id": "d3-plume",
+   "type": "region",
+   "start": 535.237,
+   "end": 543.102,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     24.0,
+     55.9
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24.0,
+      55.9
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 7.87,
+     "center": [
+      25.5,
+      55.9
+     ],
+     "widthKm": 800
+    }
+   ],
+   "clockLabel": "THIRD CHANGE: THE DUST",
+   "clock": "DAY 1",
+   "clockRate": 0,
+   "source": "Scenario engine; wind is our assumption",
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Burst point",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      26.4,
+      55.9
+     ],
+     "label": "Lithuanian farmland",
+     "kind": "dot",
+     "t": 6.31,
+     "color": "#FFFFFF"
+    }
+   ],
+   "plume": {
+    "at": [
+     23.395,
+     55.894
+    ],
+    "bearing": 90,
+    "lengthKm": 90,
+    "widthKm": 16,
+    "t0": 4.42,
+    "t1": 9.42,
+    "color": "#F2B01E",
+    "label": "Illustrative only"
+   },
+   "labels": [
+    {
+     "at": [
+      27.0,
+      56.6
+     ],
+     "text": "A thin drift, east",
+     "color": "#F2B01E",
+     "t": 0.35
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ]
+  },
+  {
+   "id": "d3-ill",
+   "type": "region",
+   "start": 543.102,
+   "end": 550.633,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     25.5,
+     55.9
+    ],
+    "widthKm": 800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      25.5,
+      55.9
+     ],
+     "widthKm": 800
+    },
+    {
+     "t": 7.53,
+     "center": [
+      26.0,
+      56.0
+     ],
+     "widthKm": 1200
+    }
+   ],
+   "clockLabel": "NO DISTANCE, NO DOSE",
+   "clock": "DAY 1",
+   "clockRate": 0,
+   "source": "Scenario engine; wind is our assumption",
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Burst point",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "plume": {
+    "at": [
+     23.395,
+     55.894
+    ],
+    "bearing": 90,
+    "lengthKm": 90,
+    "widthKm": 16,
+    "t0": 0.3,
+    "t1": 5.3,
+    "color": "#F2B01E",
+    "label": "Illustrative only"
+   },
+   "labels": [
+    {
+     "at": [
+      27.8,
+      56.7
+     ],
+     "text": "The engine gives no distance",
+     "color": "#FFD23F",
+     "t": 4.45
+    },
+    {
+     "at": [
+      27.8,
+      56.2
+     ],
+     "text": "and no dose",
+     "color": "#FFD23F",
+     "t": 6.09
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ]
+  },
+  {
+   "id": "d4-treaty",
+   "type": "region",
+   "start": 550.633,
+   "end": 561.077,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     8,
+     51
+    ],
+    "widthKm": 1400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      8,
+      51
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 7.5,
+     "center": [
+      8,
+      51
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 10.44,
+     "center": [
+      6,
+      51
+     ],
+     "widthKm": 2300
+    }
+   ],
+   "clockLabel": "FOURTH CHANGE: BRUSSELS",
+   "clock": "DAY 1",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "NATO, Brussels",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 7
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "km": 120,
+     "color": "#6EA8FF",
+     "t": 4.28,
+     "dashed": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      11.0,
+      53.6
+     ],
+     "text": "Allies consult when threatened",
+     "color": "#6EA8FF",
+     "t": 4.28
+    },
+    {
+     "at": [
+      11.0,
+      52.9
+     ],
+     "text": "Article 5 allows armed force",
+     "color": "#FF3B3B",
+     "t": 7.88
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ]
+  },
+  {
+   "id": "d4-options",
+   "type": "region",
+   "start": 561.077,
+   "end": 567.611,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     4.35,
+     51.5
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      4.35,
+      51.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 6.53,
+     "center": [
+      4.35,
+      51.0
+     ],
+     "widthKm": 1000
+    }
+   ],
+   "clockLabel": "THREE OPTIONS",
+   "clock": "DAY 1",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "The table in Brussels",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 7
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      8.0,
+      53.2
+     ],
+     "text": "1. Reply in kind",
+     "color": "#FF3B3B",
+     "t": 2.51
+    },
+    {
+     "at": [
+      8.0,
+      52.6
+     ],
+     "text": "2. Reply conventionally",
+     "color": "#FF7A1A",
+     "t": 3.79
+    },
+    {
+     "at": [
+      8.0,
+      52.0
+     ],
+     "text": "3. Stop and talk",
+     "color": "#3ED6C8",
+     "t": 4.93
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ]
+  },
+  {
+   "id": "d4-nopick",
+   "type": "stamp",
+   "start": 567.611,
+   "end": 569.602,
+   "tag": "SIMULATION",
+   "text": "WE DO NOT PICK ONE",
+   "line": "the decision is still open",
+   "color": "#FFD23F"
+  },
+  {
+   "id": "d5-gap",
+   "type": "region",
+   "start": 569.602,
+   "end": 580.09,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.0,
+     54.4
+    ],
+    "widthKm": 600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.0,
+      54.4
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 6.45,
+     "center": [
+      23.3,
+      54.2
+     ],
+     "widthKm": 380
+    },
+    {
+     "t": 10.49,
+     "center": [
+      23.3,
+      54.2
+     ],
+     "widthKm": 300
+    }
+   ],
+   "clockLabel": "FIFTH CHANGE: THE BOTTLENECK",
+   "clock": "DAY 1",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       22.8,
+       54.35
+      ],
+      [
+       23.8,
+       53.75
+      ],
+      [
+       23.9,
+       54.2
+      ],
+      [
+       23.0,
+       54.45
+      ]
+     ],
+     "label": "Suwalki Gap",
+     "color": "#FFD23F",
+     "t": 0.4
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      21.0,
+      52.2
+     ],
+     "to": [
+      23.6,
+      54.1
+     ],
+     "color": "#3ED6C8",
+     "dashed": false,
+     "t0": 1.0,
+     "t1": 3.0
+    },
+    {
+     "from": [
+      23.6,
+      54.1
+     ],
+     "to": [
+      23.9,
+      54.9
+     ],
+     "color": "#3ED6C8",
+     "dashed": false,
+     "t0": 2.5,
+     "t1": 4.0
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      25.3,
+      53.3
+     ],
+     "text": "One single-track rail line",
+     "color": "#3ED6C8",
+     "t": 6.45
+    }
+   ]
+  },
+  {
+   "id": "d5-nowider",
+   "type": "region",
+   "start": 580.09,
+   "end": 582.752,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.3,
+     54.2
+    ],
+    "widthKm": 320
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.3,
+      54.2
+     ],
+     "widthKm": 320
+    },
+    {
+     "t": 2.66,
+     "center": [
+      23.3,
+      54.4
+     ],
+     "widthKm": 700
+    }
+   ],
+   "clockLabel": "THE STRIKE DOES NOT WIDEN IT",
+   "clock": "DAY 1",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Siauliai",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 5
+    },
+    {
+     "at": [
+      23.9,
+      54.9
+     ],
+     "label": "Kaunas",
+     "kind": "dot",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      25.4,
+      55.6
+     ],
+     "text": "Nothing widens it",
+     "color": "#FFD23F",
+     "t": 1.14
+    }
+   ]
+  },
+  {
+   "id": "d5-baltica",
+   "type": "region",
+   "start": 582.752,
+   "end": 587.226,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     24.0,
+     55.5
+    ],
+    "widthKm": 1200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24.0,
+      55.5
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 2.88,
+     "center": [
+      24.2,
+      56.5
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 4.47,
+     "center": [
+      24.2,
+      57.0
+     ],
+     "widthKm": 1100
+    }
+   ],
+   "clockLabel": "RAIL BALTICA",
+   "clock": "DAY 1",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "428",
+     "text": "LATVIA",
+     "color": "#6EA8FF",
+     "size": 30
+    },
+    {
+     "iso": "233",
+     "text": "ESTONIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      21.01,
+      52.23
+     ],
+     "to": [
+      23.9,
+      54.9
+     ],
+     "color": "#3ED6C8",
+     "dashed": true,
+     "t0": 0.3,
+     "t1": 2.0
+    },
+    {
+     "from": [
+      23.9,
+      54.9
+     ],
+     "to": [
+      24.11,
+      56.95
+     ],
+     "color": "#3ED6C8",
+     "dashed": true,
+     "t0": 1.5,
+     "t1": 3.0
+    },
+    {
+     "from": [
+      24.11,
+      56.95
+     ],
+     "to": [
+      24.75,
+      59.44
+     ],
+     "color": "#3ED6C8",
+     "dashed": true,
+     "t0": 2.5,
+     "t1": 4.0
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      24.11,
+      56.95
+     ],
+     "label": "Riga",
+     "kind": "dot",
+     "t": 1.5
+    },
+    {
+     "at": [
+      24.75,
+      59.44
+     ],
+     "label": "Tallinn",
+     "kind": "dot",
+     "t": 2.5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      27.0,
+      55.2
+     ],
+     "text": "Rail Baltica: still being built",
+     "color": "#3ED6C8",
+     "t": 2.88
+    }
+   ]
+  },
+  {
+   "id": "d6-cut",
+   "type": "region",
+   "start": 587.226,
+   "end": 596.719,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     10.5,
+     50.5
+    ],
+    "widthKm": 1100
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      10.5,
+      50.5
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 3.94,
+     "center": [
+      10.5,
+      50.5
+     ],
+     "widthKm": 1322.599
+    },
+    {
+     "t": 7.08,
+     "center": [
+      10.5,
+      50.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 9.49,
+     "center": [
+      10.5,
+      50.5
+     ],
+     "widthKm": 1900
+    }
+   ],
+   "clockLabel": "SIXTH CHANGE: THINNER HELP",
+   "clock": "DAY 1",
+   "clockRate": 0,
+   "source": "Pentagon announcement, 1 May 2026",
+   "highlight": [
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.12)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "276",
+     "text": "GERMANY",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      7.6,
+      49.44
+     ],
+     "label": "Ramstein area",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      13.4,
+      52.52
+     ],
+     "label": "Berlin",
+     "kind": "dot",
+     "t": 0.8
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      15.5,
+      53.4
+     ],
+     "text": "Up to 5,000 troops leave Germany",
+     "color": "#FFD23F",
+     "t": 7.08
+    }
+   ]
+  },
+  {
+   "id": "d6-80k",
+   "type": "number",
+   "start": 596.719,
+   "end": 600.422,
+   "tag": "REAL DATA",
+   "value": "ABOUT 80,000",
+   "countTo": 80000,
+   "prefix": "ABOUT ",
+   "label": "US troops left in Europe",
+   "sub": "after the cut: about 34,000 in Germany",
+   "color": "#6EA8FF",
+   "source": "Pentagon announcement, 1 May 2026; Stars and Stripes"
+  },
+  {
+   "id": "d6-ask",
+   "type": "region",
+   "start": 600.422,
+   "end": 604.234,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     14,
+     52
+    ],
+    "widthKm": 2800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      14,
+      52
+     ],
+     "widthKm": 2800
+    },
+    {
+     "t": 3.81,
+     "center": [
+      18,
+      53
+     ],
+     "widthKm": 2000
+    }
+   ],
+   "clockLabel": "ALLIES ASK",
+   "clock": "DAY 1",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "Allies ask what it means",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "After the strike",
+     "kind": "target",
+     "t": 1.2,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "d7-start",
+   "type": "stamp",
+   "start": 604.234,
+   "end": 609.664,
+   "tag": "REAL DATA",
+   "text": "NEW START EXPIRED",
+   "line": "5 February 2026",
+   "color": "#F2B01E",
+   "source": "CRS, 27 May 2026"
+  },
+  {
+   "id": "d7-noinsp",
+   "type": "stamp",
+   "start": 609.664,
+   "end": 613.396,
+   "tag": "REAL DATA",
+   "text": "NO INSPECTOR COUNTS THEM",
+   "line": "strategic warheads, either side",
+   "color": "#FFFFFF",
+   "source": "CRS, 27 May 2026"
+  },
+  {
+   "id": "d7-tactical",
+   "type": "stamp",
+   "start": 613.396,
+   "end": 616.59,
+   "tag": "REAL DATA",
+   "text": "TACTICAL WEAPONS: NEVER COVERED",
+   "color": "#FFFFFF",
+   "source": "CRS, 27 May 2026"
+  },
+  {
+   "id": "d7-low",
+   "type": "bars",
+   "start": 616.59,
+   "end": 620.83,
+   "tag": "REAL DATA",
+   "title": "Russia's tactical nuclear warheads",
+   "sub": "estimates only · no treaty counts them",
+   "source": "Federation of American Scientists; CRS, 2026",
+   "bars": [
+    {
+     "label": "Lower estimate",
+     "value": 1500,
+     "display": "about 1,500",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "Upper estimate",
+     "value": 0,
+     "display": "",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "d7-bars",
+   "type": "bars",
+   "start": 620.83,
+   "end": 623.987,
+   "tag": "REAL DATA",
+   "title": "Russia's tactical nuclear warheads",
+   "sub": "estimates only · no treaty counts them",
+   "source": "Federation of American Scientists; CRS, 2026",
+   "bars": [
+    {
+     "label": "Lower estimate",
+     "value": 1500,
+     "display": "about 1,500",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "Upper estimate",
+     "value": 2000,
+     "display": "about 2,000",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "d8-ladder",
+   "type": "globe",
+   "start": 623.987,
+   "end": 629.495,
+   "tag": "SIMULATION",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 50,
+     "lon": 25,
+     "scale": 900
+    },
+    {
+     "t": 5.51,
+     "lat": 48,
+     "lon": 15,
+     "scale": 1300
+    }
+   ],
+   "sun": {
+    "lat": -5.27,
+    "lon": 157.82
+   },
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Hour 61",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.3
+    },
+    {
+     "at": [
+      20.5,
+      54.71
+     ],
+     "label": "Where this leads?",
+     "color": "#FFD23F",
+     "kind": "dot",
+     "t": 4.06
+    }
+   ]
+  },
+  {
+   "id": "d8-plana",
+   "type": "globe",
+   "start": 629.495,
+   "end": 633.45,
+   "tag": "SIMULATION",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 48,
+     "lon": 15,
+     "scale": 1300
+    },
+    {
+     "t": 3.96,
+     "lat": 45,
+     "lon": -20,
+     "scale": 800
+    }
+   ],
+   "sun": {
+    "lat": -5.27,
+    "lon": 157.82
+   },
+   "clock": "",
+   "source": "Princeton, Science and Global Security: Plan A (2019)",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.06)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "A war that begins in Europe",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "Strategic strikes",
+     "color": "#6EA8FF",
+     "kind": "dot",
+     "t": 7.05
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      23.395,
+      55.894
+     ],
+     "to": [
+      -77.04,
+      38.9
+     ],
+     "t0": 5.39,
+     "t1": 8.89,
+     "color": "#FF3B3B",
+     "loft": 0.3
+    }
+   ],
+   "caption": "Princeton Plan A: a model, not this simulation."
+  },
+  {
+   "id": "d8-small",
+   "type": "region",
+   "start": 633.45,
+   "end": 644.579,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     24.0,
+     56.0
+    ],
+    "widthKm": 1800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24.0,
+      56.0
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 11.13,
+     "center": [
+      23.4,
+      55.9
+     ],
+     "widthKm": 500
+    }
+   ],
+   "clock": "",
+   "source": "Princeton, Science and Global Security: Plan A (2019)",
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "The tactical phase: a small fraction",
+     "kind": "target",
+     "t": 8.48,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "z-quiet",
+   "type": "region",
+   "start": 644.579,
+   "end": 649.649,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.4,
+     55.9
+    ],
+    "widthKm": 420
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.4,
+      55.9
+     ],
+     "widthKm": 420
+    },
+    {
+     "t": 5.07,
+     "center": [
+      23.4,
+      55.9
+     ],
+     "widthKm": 260
+    }
+   ],
+   "clock": "DAWN",
+   "clockLabel": "DAY 1",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.13)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF",
+     "size": 30
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      23.395,
+      55.894
+     ],
+     "label": "Quiet at dawn",
+     "kind": "target",
+     "t": 0.57,
+     "color": "#FF3B3B",
+     "size": 7
+    },
+    {
+     "at": [
+      23.316,
+      55.934
+     ],
+     "label": "Siauliai",
+     "kind": "dot",
+     "t": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      24.5,
+      56.3
+     ],
+     "text": "The decision is still open",
+     "color": "#FFD23F",
+     "t": 3.33
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "type": "endslate",
+   "start": 649.649,
+   "end": 666.06,
+   "tag": "",
+   "title": "Next scenario",
+   "line": "One Tsar Bomba-class warhead over New York."
+  }
+ ]
+}
