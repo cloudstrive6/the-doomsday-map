@@ -34,7 +34,12 @@
       "stage": "script_approved",
       "note": "",
       "at": "2026-11-15T23:56:35+00:00"
+    },
+    {
+      "stage": "narrated",
+      "note": "11.0 min, 1455 words",
+      "at": "2026-11-16T00:03:42+00:00"
     }
   ],
-  "stage": "script_approved"
+  "stage": "narrated"
 }
