@@ -190,7 +190,7 @@ def cmd_auth(a):
 
 def cmd_survival(a):
     from . import survival
-    {"narrate": survival.narrate, "build": survival.build, "sheet": survival.sheet,
+    {"narrate": survival.narrate, "build": survival.build, "sheet": survival.sheet, "mix": survival.mix,
      "render": lambda slug: survival.render(slug, a.concurrency)}[a.action](a.slug)
 
 
@@ -224,7 +224,7 @@ def main(argv=None):
     s = sub.add_parser("competitors"); s.set_defaults(fn=cmd_competitors)
     s = sub.add_parser("analytics"); s.add_argument("--days", type=int, default=28); s.set_defaults(fn=cmd_analytics)
     s = sub.add_parser("scorecard"); s.set_defaults(fn=cmd_scorecard)
-    s = sub.add_parser("survival"); s.add_argument("action", choices=["narrate", "build", "render", "sheet"]); s.add_argument("slug"); s.add_argument("--concurrency", type=int); s.set_defaults(fn=cmd_survival)
+    s = sub.add_parser("survival"); s.add_argument("action", choices=["narrate", "build", "render", "mix", "sheet"]); s.add_argument("slug"); s.add_argument("--concurrency", type=int); s.set_defaults(fn=cmd_survival)
     a = p.parse_args(argv)
     a.fn(a)
 

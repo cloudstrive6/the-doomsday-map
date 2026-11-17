@@ -205,13 +205,13 @@ const fmtNum = (v: number, d = 0) => v.toLocaleString('en-US', {minimumFractionD
 // ---- widgets -----------------------------------------------------------------------------------------------------
 const Gauge: React.FC<{from: number; to: number; k: number; labels: [string, string, string]}> = ({from, to, k, labels}) => {
   const v = from + (to - from) * easeInOut(k);
-  const W = 820, R = 330, cx = W / 2, cy = 380;
+  const W = 820, R = 330, cx = W / 2, cy = 420;
   const ang = (f: number) => Math.PI + f * Math.PI;
   const pt = (f: number, r: number) => [cx + Math.cos(ang(f)) * r, cy + Math.sin(ang(f)) * r];
   const arc = (a: number, b: number, r: number) => { const [x0, y0] = pt(a, r), [x1, y1] = pt(b, r); return `M${x0} ${y0} A${r} ${r} 0 0 1 ${x1} ${y1}`; };
   const [nx, ny] = pt(v, R - 40);
   return (
-    <svg width={W} height={450} viewBox={`0 0 ${W} 450`}>
+    <svg width={W} height={490} viewBox={`0 0 ${W} 490`}>
       <path d={arc(0, 0.27, R)} stroke={S.red} strokeWidth={34} fill="none" />
       <path d={arc(0.29, 0.49, R)} stroke="rgba(243,245,247,0.22)" strokeWidth={34} fill="none" />
       <path d={arc(0.51, 1, R)} stroke={S.cyan} strokeWidth={34} fill="none" />

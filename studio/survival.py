@@ -74,7 +74,8 @@ def narrate(slug: str) -> None:
     from .align import align
     from .narrate import narrate as _narrate
     d = short_dir(slug)
-    _narrate(d, gap=0.18, section_gap=0.35)
+    # Shorts run faster than the documentary voice (0.93 measured 127 wpm on the pilot; the reference reel is ~165)
+    _narrate(d, gap=0.12, section_gap=0.25, voice_override={"speaking_rate": 1.18})
     align(d)
 
 
@@ -125,14 +126,22 @@ def render(slug: str, concurrency: int | None = None) -> Path:
     if concurrency:
         cmd += ["--concurrency", str(concurrency)]
     subprocess.run(cmd, check=True, cwd=VIDEO)
+    return mix(slug)
+
+
+def mix(slug: str) -> Path:
+    """Narration (padded to the picture so the loop crossfade is not cut) over a quiet music bed, -14 LUFS."""
+    d = short_dir(slug)
+    silent = d / "build" / "silent.mp4"
     final = d / "build" / "final.mp4"
     music = VIDEO / "public" / "music" / "bed_tense.mp3"
     nar = d / "narration" / "narration.wav"
     if music.exists():
-        fc = "[2:a]volume=0.10,afade=t=in:d=1[m];[1:a][m]amix=inputs=2:duration=first:dropout_transition=0:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]"
+        fc = ("[1:a]apad[n];[2:a]volume=0.10,afade=t=in:d=1[m];[n][m]amix=inputs=2:duration=first:dropout_transition=0:normalize=0,"
+              "loudnorm=I=-14:TP=-1.5:LRA=11[a]")
         args = ["-i", str(silent), "-i", str(nar), "-stream_loop", "-1", "-i", str(music), "-filter_complex", fc, "-map", "0:v", "-map", "[a]"]
     else:
-        args = ["-i", str(silent), "-i", str(nar), "-map", "0:v", "-map", "1:a"]
+        args = ["-i", str(silent), "-i", str(nar), "-filter_complex", "[1:a]apad[a]", "-map", "0:v", "-map", "[a]"]
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *args, "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", str(final)], check=True)
     print("wrote", final)
     return final

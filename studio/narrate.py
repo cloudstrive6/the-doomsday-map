@@ -36,9 +36,9 @@ def parse_script(text: str) -> list[dict]:
     return units
 
 
-def narrate(ep: Path, gap: float = 0.55, section_gap: float = 1.0) -> Path:
+def narrate(ep: Path, gap: float = 0.55, section_gap: float = 1.0, voice_override: dict | None = None) -> Path:
     cfg = load_config()
-    voice = dict(cfg["voice"])
+    voice = {**cfg["voice"], **(voice_override or {})}
     units = parse_script((ep / "script.md").read_text(encoding="utf-8"))
     out = ep / "narration"
     out.mkdir(exist_ok=True)
