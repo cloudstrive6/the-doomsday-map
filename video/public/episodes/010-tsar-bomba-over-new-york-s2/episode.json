@@ -1,0 +1,530 @@
+{
+ "subtitles": [
+  {
+   "start": 0.097,
+   "end": 1.769,
+   "text": "At 11:32,"
+  },
+  {
+   "start": 2.189,
+   "end": 4.569,
+   "text": "the clock reads T plus zero."
+  },
+  {
+   "start": 5.123,
+   "end": 6.409,
+   "text": "At the real test,"
+  },
+  {
+   "start": 6.596,
+   "end": 8.479,
+   "text": "the bomber was about 40 km"
+  },
+  {
+   "start": 8.479,
+   "end": 10.549,
+   "text": "away when the bomb went off,"
+  },
+  {
+   "start": 10.745,
+   "end": 11.959,
+   "text": "and it was still pushed down"
+  },
+  {
+   "start": 11.959,
+   "end": 13.769,
+   "text": "by about 1000 m."
+  },
+  {
+   "start": 14.897,
+   "end": 16.449,
+   "text": "The light comes first."
+  },
+  {
+   "start": 16.907,
+   "end": 18.409,
+   "text": "In 1961,"
+  },
+  {
+   "start": 18.913,
+   "end": 20.299,
+   "text": "the flash was visible at"
+  },
+  {
+   "start": 20.299,
+   "end": 22.629,
+   "text": "about 1000 km,"
+  },
+  {
+   "start": 22.966,
+   "end": 24.369,
+   "text": "even through cloud."
+  },
+  {
+   "start": 25.099,
+   "end": 26.729,
+   "text": "Then the fireball."
+  },
+  {
+   "start": 27.264,
+   "end": 28.979,
+   "text": "In 1961 it touched"
+  },
+  {
+   "start": 28.979,
+   "end": 30.599,
+   "text": "the ground and swelled up"
+  },
+  {
+   "start": 30.599,
+   "end": 31.899,
+   "text": "to nearly the height of"
+  },
+  {
+   "start": 31.899,
+   "end": 33.729,
+   "text": "the aircraft that dropped it."
+  }
+ ],
+ "slug": "010-tsar-bomba-over-new-york-s2",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 33.729,
+ "shots": [
+  {
+   "id": "c4-tminus",
+   "type": "region",
+   "start": 0.0,
+   "end": 3.549,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -75.0778,
+     40.7437
+    ],
+    "widthKm": 400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -75.0778,
+      40.7437
+     ],
+     "widthKm": 400
+    },
+    {
+     "t": 3.55,
+     "center": [
+      -74.1061,
+      40.7165
+     ],
+     "widthKm": 220
+    }
+   ],
+   "clock": "T-00:04",
+   "clockLabel": "11:32 · SIMULATED",
+   "clockRate": 1,
+   "cities": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "Burst point",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -75.0778,
+       40.7437
+      ],
+      [
+       -74.0232,
+       40.7075
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 3.65,
+     "kind": "pla",
+     "color": "#FFFFFF",
+     "label": "Bomber",
+     "size": 1.8,
+     "t": 0.1,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -73.8928,
+      40.599
+     ],
+     "text": "T minus 4 seconds",
+     "color": "#FFD23F",
+     "t": 0.4
+    }
+   ]
+  },
+  {
+   "id": "c4-zero",
+   "type": "region",
+   "start": 3.549,
+   "end": 9.08,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 5.53,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 520
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "burst": {
+    "at": [
+     -74.0113,
+     40.7075
+    ],
+    "t": 0.1,
+    "km": 12,
+    "fade": 5
+   },
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 4.618,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.9,
+     "dashed": false
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -73.1818,
+      41.0693
+     ],
+     "text": "Clock reads T plus zero",
+     "color": "#FFD23F",
+     "t": 0.3
+    }
+   ]
+  },
+  {
+   "id": "c4-40km",
+   "type": "region",
+   "start": 9.08,
+   "end": 14.305,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 220
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 220
+    },
+    {
+     "t": 2.03,
+     "center": [
+      -74.1061,
+      40.7075
+     ],
+     "widthKm": 180
+    },
+    {
+     "t": 5.23,
+     "center": [
+      -74.1298,
+      40.7075
+     ],
+     "widthKm": 160
+    }
+   ],
+   "clock": "T+00:05",
+   "clockLabel": "THE 1961 BOMBER, FOR SCALE",
+   "clockRate": 1,
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 40,
+     "label": "About 40 km: the 1961 bomber's distance",
+     "color": "#F2B01E",
+     "t": 0.5,
+     "dashed": false
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.746,
+      40.3638
+     ],
+     "text": "Still pushed down about 1,000 m",
+     "color": "#FFFFFF",
+     "t": 3.31
+    }
+   ]
+  },
+  {
+   "id": "c4-light",
+   "type": "region",
+   "start": 14.305,
+   "end": 25.041,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 260
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 2.45,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 6.36,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 10.74,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "clock": "T+00:10",
+   "clockLabel": "THE LIGHT",
+   "clockRate": 1,
+   "burst": {
+    "at": [
+     -74.0113,
+     40.7075
+    ],
+    "t": 0.1,
+    "km": 12,
+    "fade": 3
+   },
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 1000,
+     "label": "1961 flash: visible at about 1,000 km",
+     "color": "#FFD23F",
+     "t": 6.36,
+     "dashed": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      41.8832
+     ],
+     "text": "The light comes first",
+     "color": "#FFFFFF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -63.346,
+      44.3251
+     ],
+     "text": "Even through cloud",
+     "color": "#FFFFFF",
+     "t": 8.51
+    }
+   ]
+  },
+  {
+   "id": "c4-fireball",
+   "type": "city",
+   "start": 25.041,
+   "end": 27.114,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 24.0
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 24.0
+    },
+    {
+     "t": 2.07,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 11.2
+    }
+   ],
+   "rings": [
+    {
+     "km": 4.6,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.5,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.7708
+     ],
+     "text": "Then the fireball",
+     "color": "#FFFFFF",
+     "t": 0.2
+    }
+   ],
+   "clock": "T+00:15",
+   "clockLabel": "THE FIREBALL",
+   "clockRate": 1
+  },
+  {
+   "id": "c4-1961ball",
+   "type": "city",
+   "start": 27.114,
+   "end": 33.729,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 11.2
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 11.2
+    },
+    {
+     "t": 6.87,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 27.2
+    }
+   ],
+   "rings": [
+    {
+     "km": 4.6,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.6351
+     ],
+     "text": "1961: nearly the bomber's height",
+     "color": "#F2B01E",
+     "t": 3.56
+    }
+   ],
+   "clock": "T+00:20",
+   "clockLabel": "THE FIREBALL",
+   "clockRate": 1
+  }
+ ],
+ "shortTitle": [
+  "T PLUS ZERO",
+  "50 MT OVER NEW YORK"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

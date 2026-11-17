@@ -49,7 +49,12 @@
       "stage": "visual_approved",
       "note": "visual review r3 PASS",
       "at": "2026-11-17T01:22:19+00:00"
+    },
+    {
+      "stage": "packaged",
+      "note": "packaged; shorts fixed, not re-screened",
+      "at": "2026-11-17T01:27:55+00:00"
     }
   ],
-  "stage": "visual_approved"
+  "stage": "packaged"
 }

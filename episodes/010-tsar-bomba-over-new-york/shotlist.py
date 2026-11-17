@@ -227,7 +227,7 @@ reg("c1-58", tAm, S("p08"), [("s", NZ, 900), (W("p07", "published"), [48, 72], 1
 a = S("p08")
 tCl, tSh, tPr = W("p08", "cloud"), W("p08", "shock"), W("p08", "pressure")
 reg("c1-fireball", a, tCl, [("s", NZ, 400), ("e", NZ, 200)], tag="REAL DATA", source=SRC1, **CL1, highlight=[HLR], burst={"at": NZ, "t": 0.1, "km": 8, "fade": 3},
-    rings=[ring(a, NZ, 4.0, a + 0.3, "Fireball: about 8 km wide", WHITE)])
+    rings=[ring(a, NZ, 4.0, a + 0.3, "Fireball: radius", WHITE)])
 num("c1-cloud", tCl, tSh, "65 KM", countTo=65, suffix=" KM", label="how high the cloud climbs", color=AMBER, tag="REAL DATA", source=SRC1)
 num("c1-pushed", tSh, tPr - 0.35, "1,000 M", countTo=1000, suffix=" M", label="the shock wave pushes the bomber down", color=AMBER, tag="REAL DATA", source=SRC1)
 glob("c1-earth", tPr - 0.35, S("p09"), [("s", 40, 70, 900), ("e", 10, 120, 1100)], tag="REAL DATA", source=SRC1, clock="", highlight=[HLR],
@@ -235,10 +235,10 @@ glob("c1-earth", tPr - 0.35, S("p09"), [("s", 40, 70, 900), ("e", 10, 120, 1100)
      arcs=[{"from": NZ, "to": [-125.0, -73.0], "t0": 0.4, "t1": 2.4, "color": WHITE, "loft": 0.05}, {"from": NZ, "to": [-125.0, -73.0], "t0": rel(tPr, W("p08", "three")), "t1": rel(tPr, W("p08", "three")) + 2.0, "color": YELLOW, "loft": 0.08}])
 a = S("p09")
 tNine, tAg = W("p09", "nine"), W("p09", "against")
-cty("c1-ours", a, tAg, [("s", GZ, 18), (tNine, GZ, 14), ("e", GZ, 24)], clock="", rings=[ring(a, GZ, FX["fireball_km"], a + 0.4, "Our engine: 9.2 km wide", WHITE)],
+cty("c1-ours", a, tAg, [("s", GZ, 18), (tNine, GZ, 14), ("e", GZ, 24)], clock="", rings=[ring(a, GZ, FX["fireball_km"], a + 0.4, "Our engine: radius", WHITE)],
     labels=[lab(a, off(0, 7.0), "The fireball at the start of this video", W("p09", "start"), YELLOW)])
-cty("c1-1961", tAg, S("p10"), [("s", GZ, 24), ("e", GZ, 12)], clock="", rings=[ring(tAg, GZ, FX["fireball_km"], tAg + 0.1, "Ours: 9.2 km", WHITE), ring(tAg, GZ, 4.0, tAg + 0.5, "1961: about 8 km", AMBER)],
-    labels=[lab(tAg, off(0, 8.0), "Same size on the same map", tAg + 1.5, WHITE)])
+cty("c1-1961", tAg, S("p10"), [("s", GZ, 24), ("e", GZ, 12)], clock="", rings=[ring(tAg, GZ, FX["fireball_km"], tAg + 0.1, "Ours: radius", WHITE), ring(tAg, GZ, 4.0, tAg + 0.5, "1961: radius", AMBER)],
+    labels=[lab(tAg, off(0, -8.0), "Same size on the same map", tAg + 1.5, WHITE)])
 a = S("p10")
 tSw, tRm = W("p10", "swapped"), W("p10", "removed")
 reg("c1-twice", a, tSw, [("s", NZ, 900), (W("p10", "August"), [52, 72], 1500), ("e", [50, 70], 2000)], tag="REAL DATA", source=SRC1, clock="AUG 1961", clockLabel="THE DESIGN CHANGE", clockRate=0, highlight=[HLR],
@@ -371,7 +371,7 @@ reg("c4-nodraw", tWe, S("p28"), [("s", off(-30, 0), 360), (W("p27", "warning"), 
 a = S("p28")
 tZ = W("p28", "zero")
 reg("c4-tminus", a, tZ, [("s", off(-90, 4), 400), ("e", off(-8, 1), 220)], clock="T-00:04", clockLabel="11:32 · SIMULATED", clockRate=1,
-    cities=[city(a, GZ, "Burst point", a + 0.2, RED, "target", 6)], ships=[ship(a, [off(-90, 4), off(-1, 0)], a, tZ + 0.1, label="Bomber", t_on=a)],
+    cities=[city(a, GZ, "Burst point", a, RED, "target", 6)], ships=[ship(a, [off(-90, 4), off(-1, 0)], a, tZ + 0.1, label="Bomber", t_on=a)],
     labels=[lab(a, off(10, -12), "T minus 4 seconds", a + 0.4, YELLOW)])
 a = tZ
 tFo2 = W("p29", "forty")
@@ -391,7 +391,7 @@ tIn3 = W("p31", "In")
 cty("c4-fireball", a, tIn3, [("s", GZ, 30), ("e", GZ, 14)], clock="T+00:15", clockLabel="THE FIREBALL", clockRate=1,
     rings=[ring(a, GZ, FX["fireball_km"], a + 0.5, "Fireball: 9.2 km wide", WHITE)], labels=[lab(a, off(0, 7.0), "Then the fireball", a + 0.2, WHITE)])
 cty("c4-1961ball", tIn3, S("p32"), [("s", GZ, 14), ("e", GZ, 34)], clock="T+00:20", clockLabel="THE FIREBALL", clockRate=1,
-    rings=[ring(tIn3, GZ, FX["fireball_km"], tIn3 + 0.1, "", WHITE)], labels=[lab(tIn3, off(0, 8.0), "1961: touched the ground, nearly the bomber's height", W("p31", "nearly"), AMBER)])
+    rings=[ring(tIn3, GZ, FX["fireball_km"], tIn3 + 0.1, "", WHITE)], labels=[lab(tIn3, off(0, -8.0), "1961: nearly the bomber's height", W("p31", "nearly"), AMBER)])
 a = S("p32")
 tAt, tOu2 = W("p32", "At"), W("p32", "Our")
 reg("c4-heat", a, tOu2, [("s", GZ, 200), (tAt, GZ, 420), ("e", GZ, 560)], clock="T+00:25", clockLabel="THE HEAT", clockRate=1,

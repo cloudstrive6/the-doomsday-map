@@ -1307,7 +1307,7 @@
       73.8
      ],
      "km": 4.0,
-     "label": "Fireball: about 8 km wide",
+     "label": "Fireball: radius",
      "color": "#FFFFFF",
      "t": 0.3,
      "dashed": false
@@ -1466,7 +1466,7 @@
    "rings": [
     {
      "km": 4.6,
-     "label": "Our engine",
+     "label": "Our engine: radius",
      "color": "#FFFFFF",
      "t": 0.4,
      "angle": 215
@@ -1524,14 +1524,14 @@
    "rings": [
     {
      "km": 4.6,
-     "label": "Ours",
+     "label": "Ours: radius",
      "color": "#FFFFFF",
      "t": 0.1,
      "angle": 215
     },
     {
      "km": 4.0,
-     "label": "1961",
+     "label": "1961: radius",
      "color": "#F2B01E",
      "t": 0.5,
      "angle": 240
@@ -1541,7 +1541,7 @@
     {
      "at": [
       -74.0113,
-      40.7799
+      40.6351
      ],
      "text": "Same size on the same map",
      "color": "#FFFFFF",
@@ -4236,7 +4236,7 @@
      ],
      "label": "Burst point",
      "kind": "target",
-     "t": 0.2,
+     "t": 0.1,
      "color": "#FF3B3B",
      "size": 6
     }
@@ -4612,9 +4612,9 @@
     {
      "at": [
       -74.0113,
-      40.7799
+      40.6351
      ],
-     "text": "1961: touched the ground, nearly the bomber's height",
+     "text": "1961: nearly the bomber's height",
      "color": "#F2B01E",
      "t": 3.56
     }

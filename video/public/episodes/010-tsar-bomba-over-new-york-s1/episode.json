@@ -1,0 +1,717 @@
+{
+ "subtitles": [
+  {
+   "start": 0.0,
+   "end": 2.11,
+   "text": "11:32 in the morning,"
+  },
+  {
+   "start": 2.52,
+   "end": 3.53,
+   "text": "lower Manhattan:"
+  },
+  {
+   "start": 3.734,
+   "end": 6.21,
+   "text": "a fireball 9 km wide."
+  },
+  {
+   "start": 6.717,
+   "end": 8.24,
+   "text": "This is a simulation"
+  },
+  {
+   "start": 8.24,
+   "end": 10.39,
+   "text": "built from published numbers,"
+  },
+  {
+   "start": 10.745,
+   "end": 12.09,
+   "text": "and it has not happened."
+  },
+  {
+   "start": 12.377,
+   "end": 13.99,
+   "text": "62 minutes earlier,"
+  },
+  {
+   "start": 14.255,
+   "end": 15.6,
+   "text": "a heavy bomber is about"
+  },
+  {
+   "start": 15.6,
+   "end": 17.26,
+   "text": "930 km"
+  },
+  {
+   "start": 17.26,
+   "end": 19.31,
+   "text": "out over the North Atlantic,"
+  },
+  {
+   "start": 19.521,
+   "end": 21.03,
+   "text": "with one bomb aboard."
+  },
+  {
+   "start": 21.728,
+   "end": 23.04,
+   "text": "The bomb is the size"
+  },
+  {
+   "start": 23.04,
+   "end": 24.95,
+   "text": "of the largest ever tested."
+  },
+  {
+   "start": 25.317,
+   "end": 24.95,
+   "text": "How far does 50 megatons reach,"
+  },
+  {
+   "start": 27.926,
+   "end": 24.95,
+   "text": "and what does that look like"
+  },
+  {
+   "start": 28.94,
+   "end": 24.95,
+   "text": "on a map you know?"
+  }
+ ],
+ "slug": "010-tsar-bomba-over-new-york-s1",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 24.95,
+ "shots": [
+  {
+   "id": "open-run",
+   "type": "region",
+   "start": 0.0,
+   "end": 2.0,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.4853,
+     40.7979
+    ],
+    "widthKm": 260
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.4853,
+      40.7979
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 2.0,
+     "center": [
+      -74.1061,
+      40.7346
+     ],
+     "widthKm": 150
+    }
+   ],
+   "clock": "T-00:02",
+   "clockLabel": "TO BURST",
+   "clockRate": 1,
+   "cities": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "Lower Manhattan",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -74.2483,
+      40.6713
+     ],
+     "label": "Newark",
+     "kind": "dot",
+     "t": 0.15
+    },
+    {
+     "at": [
+      -73.8572,
+      40.6623
+     ],
+     "label": "Brooklyn",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -74.0824,
+      40.8341
+     ],
+     "label": "Hudson River",
+     "kind": "dot",
+     "t": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -74.7223,
+      40.7799
+     ],
+     "to": [
+      -74.0113,
+      40.7075
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 0.1,
+     "t1": 1.9
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -74.7223,
+       40.7799
+      ],
+      [
+       -74.0113,
+       40.7075
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 1.95,
+     "kind": "pla",
+     "color": "#FFFFFF",
+     "label": "Bomber",
+     "size": 1.8,
+     "t": 0.1,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "open-flash",
+   "type": "city",
+   "start": 2.0,
+   "end": 6.704,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 11.2
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 11.2
+    },
+    {
+     "t": 0.1,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 17.6
+    },
+    {
+     "t": 4.7,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 27.2
+    }
+   ],
+   "rings": [
+    {
+     "km": 4.6,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.7,
+     "angle": 215
+    },
+    {
+     "km": 5.1,
+     "label": "20 psi",
+     "color": "#FF3B3B",
+     "t": 2.6,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.7753
+     ],
+     "text": "Lower Manhattan",
+     "color": "#FFFFFF",
+     "t": 1.0
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "NEW YORK · SIMULATED",
+   "clockRate": 1,
+   "flashT": 0.1,
+   "caption": "One 50 megaton airburst. Simulation: it has not happened."
+  },
+  {
+   "id": "open-sim",
+   "type": "region",
+   "start": 6.704,
+   "end": 12.345,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 330
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 330
+    },
+    {
+     "t": 2.15,
+     "center": [
+      -74.1535,
+      40.7346
+     ],
+     "widthKm": 230
+    },
+    {
+     "t": 5.64,
+     "center": [
+      -74.0824,
+      40.7256
+     ],
+     "widthKm": 160
+    }
+   ],
+   "clock": "T+00:20",
+   "clockLabel": "AFTER THE FLASH",
+   "clockRate": 0,
+   "countryLabels": [
+    {
+     "iso": "840",
+     "text": "UNITED STATES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "Ground zero",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -74.3431,
+      40.6532
+     ],
+     "label": "Newark",
+     "kind": "dot",
+     "t": 1.39
+    },
+    {
+     "at": [
+      -73.7743,
+      40.6532
+     ],
+     "label": "Brooklyn",
+     "kind": "dot",
+     "t": 2.69
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -73.5373,
+      40.9969
+     ],
+     "text": "A simulation: not a prediction",
+     "color": "#FFD23F",
+     "t": 0.69
+    },
+    {
+     "at": [
+      -73.5373,
+      40.4181
+     ],
+     "text": "It has not happened",
+     "color": "#FF3B3B",
+     "t": 4.31
+    }
+   ]
+  },
+  {
+   "id": "open-bomber",
+   "type": "region",
+   "start": 12.345,
+   "end": 18.07,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -68.6,
+     40.5
+    ],
+    "widthKm": 1400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -68.6,
+      40.5
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 1.84,
+     "center": [
+      -69.4,
+      40.5
+     ],
+     "widthKm": 1250
+    },
+    {
+     "t": 3.78,
+     "center": [
+      -69.8,
+      40.5
+     ],
+     "widthKm": 1175.0
+    },
+    {
+     "t": 5.72,
+     "center": [
+      -70.2,
+      40.5
+     ],
+     "widthKm": 1100
+    }
+   ],
+   "clock": "T-62:00",
+   "clockLabel": "TO BURST",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -63.0,
+      40.5
+     ],
+     "label": "Heavy bomber (simulated)",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#FFFFFF",
+     "size": 6
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "New York",
+     "kind": "target",
+     "t": 0.5,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -63.0,
+      40.5
+     ],
+     "to": [
+      -74.0113,
+      40.7075
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 0.3,
+     "t1": 5.71,
+     "label": "About 930 km"
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.16)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "840",
+     "text": "UNITED STATES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 929.3,
+     "label": "930 km from New York",
+     "color": "#FFFFFF",
+     "t": 0.4,
+     "dashed": true
+    }
+   ]
+  },
+  {
+   "id": "open-atlantic",
+   "type": "region",
+   "start": 18.07,
+   "end": 21.345,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -68.0,
+     40.6
+    ],
+    "widthKm": 1100
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -68.0,
+      40.6
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 1.4,
+     "center": [
+      -70.0,
+      40.7
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 3.27,
+     "center": [
+      -72.0,
+      40.7
+     ],
+     "widthKm": 520
+    }
+   ],
+   "clock": "T-62:00",
+   "clockLabel": "TO BURST",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -63.0,
+      40.5
+     ],
+     "label": "Release point",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#FFFFFF",
+     "size": 6
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "New York",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -63.0,
+       40.5
+      ],
+      [
+       -74.0113,
+       40.7075
+      ]
+     ],
+     "t0": 1.4,
+     "t1": 2.97,
+     "kind": "pla",
+     "color": "#FFFFFF",
+     "label": "One bomb aboard",
+     "size": 1.8,
+     "t": 1.4,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -69.0,
+      38.6
+     ],
+     "text": "North Atlantic",
+     "color": "#8A8F98",
+     "t": 0.3
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.16)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "840",
+     "text": "UNITED STATES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 929.3,
+     "label": "930 km from New York",
+     "color": "#FFFFFF",
+     "t": 0.4,
+     "dashed": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -63.0,
+      40.5
+     ],
+     "to": [
+      -74.0113,
+      40.7075
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 0.5,
+     "t1": 2.5
+    }
+   ]
+  },
+  {
+   "id": "open-nz",
+   "type": "globe",
+   "start": 21.345,
+   "end": 24.95,
+   "tag": "REAL DATA",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 66,
+     "lon": 62,
+     "scale": 900
+    },
+    {
+     "t": 1.87,
+     "lat": 70,
+     "lon": 60,
+     "scale": 1500
+    },
+    {
+     "t": 3.82,
+     "lat": 73,
+     "lon": 56,
+     "scale": 2400
+    }
+   ],
+   "sun": {
+    "lat": -21.07,
+    "lon": -55.59
+   },
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      54.9,
+      73.8
+     ],
+     "label": "Largest bomb ever tested: 1961",
+     "color": "#F2B01E",
+     "kind": "target",
+     "size": 6,
+     "t": 1.87
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      54.9,
+      73.8
+     ],
+     "to": [
+      -74.0113,
+      40.7075
+     ],
+     "t0": 1.21,
+     "t1": 4.21,
+     "color": "#FFFFFF",
+     "loft": 0.3
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "ONE 50 MT NUKE",
+  "ON NEW YORK"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}
