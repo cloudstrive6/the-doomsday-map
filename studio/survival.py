@@ -61,7 +61,7 @@ def _cues(obj, path=""):
     """Every word cue in a scene, with where it sits (for error messages)."""
     if isinstance(obj, dict):
         for k, v in obj.items():
-            if k in ("at", "offAt", "spikeAt", "stopwatchAt", "dimAt") and isinstance(v, str):
+            if k in ("at", "offAt", "spikeAt", "stopwatchAt", "dimAt", "countAt") and isinstance(v, str):
                 yield f"{path}.{k}", v
             else:
                 yield from _cues(v, f"{path}.{k}")
@@ -84,8 +84,10 @@ def build(slug: str) -> Path:
     scenes = json.loads((d / "scenes.json").read_text(encoding="utf-8"))
     words = json.loads((d / "narration" / "words.json").read_text(encoding="utf-8"))
     timing = json.loads((d / "narration" / "timing.json").read_text(encoding="utf-8"))
-    total = round(timing["total_seconds"] + float(scenes.get("tail", 0.6)), 2)
     words = [{"word": w["word"], "start": w["start"], "end": w["end"]} for w in words]
+    # end loopSeconds after the last word, so the crossfade into the cover starts on the closing line, not dead air
+    total = round(min(timing["total_seconds"] + float(scenes.get("tail", 0.6)),
+                      words[-1]["end"] + float(scenes.get("loopSeconds", 0)) + 0.2), 2)
     errs = []
     sc = scenes["scenes"]
     # scene starts may be cues too; an end defaults to the next scene's start

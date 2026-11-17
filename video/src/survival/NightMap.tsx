@@ -106,8 +106,9 @@ export const NightMap: React.FC<{map: MapSpec; t: number; W: number; H: number; 
         </div>
       ) : null}
       {showStatus && map.note ? (
-        <div style={{position: 'absolute', left: 0, width: W, top: H * 0.885, textAlign: 'center', fontFamily: MONO, fontWeight: 500,
-          fontSize: 20, letterSpacing: 4, color: S.faint}}>{map.note}</div>
+        <div style={{position: 'absolute', left: 0, width: W, top: H * 0.6, display: 'flex', justifyContent: 'center'}}>
+          <div style={{fontFamily: MONO, fontWeight: 700, fontSize: 32, letterSpacing: 4, color: S.text, background: 'rgba(8,10,12,0.85)',
+            border: `2px solid ${S.line}`, padding: '8px 18px', maxWidth: W * 0.86, textAlign: 'center'}}>{map.note}</div></div>
       ) : null}
     </div>
   );

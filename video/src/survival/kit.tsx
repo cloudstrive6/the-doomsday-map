@@ -290,12 +290,16 @@ export const WidgetView: React.FC<{w: Widget; idx: number}> = ({w, idx}) => {
       break;
     }
     case 'gauge': {
-      const k = clamp01((t - at) / (w.dur ?? 1.6));
+      let from = w.from, to = w.to, k = clamp01((t - at) / (w.dur ?? 1.6));
+      if (w.steps?.length) {   // the needle moves to each value on its word, easing over 0.5 s
+        let prev = w.from; to = w.from; k = 1;
+        for (const st of w.steps) { const a = cue(st.at, 1e6); if (t >= a) { from = prev; to = st.value; k = clamp01((t - a) / 0.5); prev = st.value; } }
+      }
       const cur = w.caption ? stepAt(w.caption, t, cue) : -1;
       const c = cur >= 0 && w.caption ? w.caption[cur] : null;
       body = (
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-          <Gauge from={w.from} to={w.to} k={k} labels={w.labels ?? ['E', '½', 'F']} />
+          <Gauge from={from} to={to} k={k} labels={w.labels ?? ['E', '½', 'F']} />
           {c ? <div style={{fontFamily: COND, fontWeight: 900, fontSize: 84, color: toneColor(c.tone ?? 'red'), textTransform: 'uppercase',
             marginTop: 6}}>{c.text}</div> : null}
         </div>

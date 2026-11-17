@@ -25,7 +25,7 @@ export interface StateStep { at: Cue; text: string; tone?: Tone }
 export type Widget =
   | {type: 'state'; label: string; states: StateStep[]; at?: Cue}
   | {type: 'gauge'; labels?: [string, string, string]; from: number; to: number; at?: Cue; dur?: number;
-      caption?: StateStep[]}
+      caption?: StateStep[]; steps?: {at: Cue; value: number}[]}   // steps: the needle moves to each value on its word
   | {type: 'counter'; label?: string; from: number; to: number; at?: Cue; dur?: number; decimals?: number;
       unit?: string; tone?: Tone; size?: number; sub?: string}
   | {type: 'bar'; label?: string; from: number; to: number; at?: Cue; dur?: number; tone?: Tone; hazard?: boolean;
@@ -58,15 +58,16 @@ export interface MapSpec {
   dim?: number;               // 0..1 opacity when used as a background
 }
 
-interface SceneBase { start: number; end: number; clock?: 'big' | 'pill' | 'hide'; bgMap?: MapSpec; stamp?: StampSpec }
+interface SceneBase { start: number; end: number; clock?: 'big' | 'pill' | 'hide'; bgMap?: MapSpec; stamp?: StampSpec;
+  tag?: string }   // tag: a corner label such as SIMULATION or ILLUSTRATIVE
 
 export type Scene = SceneBase & (
   | {kind: 'cover'; lines: LineSpec[]; checklist?: {title: string; items: {text: string; checked?: boolean}[]}}
   | {kind: 'map'; map: MapSpec; lines?: LineSpec[]}
-  | {kind: 'stat'; value: string; countFrom?: number; unit: string; tone?: Tone; aside?: {title: string; sub?: string};
+  | {kind: 'stat'; value: string; countFrom?: number; countAt?: Cue; unit: string; tone?: Tone; aside?: {title: string; sub?: string};
       bar?: {ticks: string[]; from: number; to: number; at?: Cue; dur?: number; tone?: Tone; hazard?: boolean; label?: string}}
   | {kind: 'phone'; time?: string; states: {at: Cue; icon: IconName; title: string; sub?: string; tone?: Tone}[]}
-  | {kind: 'document'; header: string; kicker?: string; title: string; lines: {text: string; mark?: string[]; at?: Cue; bold?: boolean}[];
+  | {kind: 'document'; header: string; kicker?: string; title: string; lines: {text: string; mark?: (string | {text: string; at: Cue})[]; at?: Cue; bold?: boolean}[];
       footer?: string; stopwatchAt?: Cue; dimAt?: Cue; credit?: string}
   | {kind: 'rule'; num: string; icon?: IconName; kicker: string; lines: LineSpec[]}
   | {kind: 'board'; num?: string; title: string; sub?: string; widgets: Widget[]}

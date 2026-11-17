@@ -11,13 +11,14 @@ import {Icon} from './icons';
 import {NightMap} from './NightMap';
 
 const Lines: React.FC<{lines: LineSpec[]; size: number; align?: 'left' | 'center'; stagger?: number; staticShow?: boolean}> = ({lines, size, align = 'center', stagger = 0.22, staticShow}) => {
-  const {t} = useS();
+  const {t, W} = useS();
   const cue = useCue();
   return (
     <div style={{display: 'flex', flexDirection: 'column', alignItems: align === 'center' ? 'center' : 'flex-start'}}>
       {lines.map((l, i) => {
         const p = staticShow ? {o: 1, s: 1, y: 0, k: 1} : pop(t, cue(l.at, 0.1 + i * stagger));
-        return <div key={i} style={{fontFamily: COND, fontWeight: 900, fontSize: size, lineHeight: 0.92, textTransform: 'uppercase',
+        const fit = Math.min(size, (W * 0.86) / Math.max(1, l.text.length * 0.5));   // Barlow Condensed Black caps ~0.5 em
+        return <div key={i} style={{fontFamily: COND, fontWeight: 900, fontSize: fit, lineHeight: 0.92, textTransform: 'uppercase',
           color: toneColor(l.tone ?? 'white'), textAlign: align, textShadow: '0 6px 24px rgba(0,0,0,0.7)', ...popStyle(p)}}>{l.text}</div>;
       })}
     </div>
@@ -56,21 +57,23 @@ const Checklist: React.FC<{kicker: string; title: string; sub?: string; items: {
   );
 };
 
-const Marked: React.FC<{text: string; marks: string[]; k: number}> = ({text, marks, k}) => {
-  if (!marks.length) return <>{text}</>;
-  const parts: {s: string; m: boolean}[] = [];
+/** Highlighter sweeps: each mark is a substring, optionally with its own word cue ({text, at}). */
+const Marked: React.FC<{text: string; marks: (string | {text: string; at: number})[]; base: number; t: number}> = ({text, marks, base, t}) => {
+  const ms = marks.map((m) => typeof m === 'string' ? {text: m, at: base} : m);
+  if (!ms.length) return <>{text}</>;
+  const parts: {s: string; at: number | null}[] = [];
   let rest = text;
   while (rest.length) {
-    let best = -1, mk = '';
-    for (const m of marks) { const i = rest.indexOf(m); if (i >= 0 && (best < 0 || i < best)) { best = i; mk = m; } }
-    if (best < 0) { parts.push({s: rest, m: false}); break; }
-    if (best > 0) parts.push({s: rest.slice(0, best), m: false});
-    parts.push({s: mk, m: true});
-    rest = rest.slice(best + mk.length);
+    let best = -1, mk = ms[0];
+    for (const m of ms) { const i = rest.indexOf(m.text); if (i >= 0 && (best < 0 || i < best)) { best = i; mk = m; } }
+    if (best < 0) { parts.push({s: rest, at: null}); break; }
+    if (best > 0) parts.push({s: rest.slice(0, best), at: null});
+    parts.push({s: mk.text, at: mk.at});
+    rest = rest.slice(best + mk.text.length);
   }
-  return <>{parts.map((p, i) => p.m
+  return <>{parts.map((p, i) => p.at !== null
     ? <span key={i} style={{backgroundImage: `linear-gradient(${S.yellow}, ${S.yellow})`, backgroundRepeat: 'no-repeat',
-      backgroundSize: `${easeOut(k) * 100}% 78%`, backgroundPosition: '0 70%', padding: '0 2px'}}>{p.s}</span>
+      backgroundSize: `${easeOut((t - p.at) / 0.45) * 100}% 78%`, backgroundPosition: '0 70%', padding: '0 2px'}}>{p.s}</span>
     : <span key={i}>{p.s}</span>)}</>;
 };
 
@@ -98,7 +101,8 @@ const SceneView: React.FC<{scene: Scene; spec: SurvivalSpec; frozen?: boolean}> 
       const p = pop(t, cue(undefined, 0.05), 0.4);
       const n = Number(scene.value);
       const counting = scene.countFrom !== undefined && Number.isFinite(n);
-      const shown = counting ? Math.round(scene.countFrom! + (n - scene.countFrom!) * easeOut((t - scene.start) / 0.9)) : scene.value;
+      const cAt = scene.countAt !== undefined ? cue(scene.countAt, 0.9) : scene.start + 0.9;   // the count lands on its spoken number
+      const shown = counting ? Math.round(scene.countFrom! + (n - scene.countFrom!) * easeOut((t - (cAt - 0.75)) / 0.75)) : scene.value;
       const col = toneColor(scene.tone ?? 'red');
       const b = scene.bar;
       const bk = b ? easeInOut((t - cue(b.at, 0.6)) / (b.dur ?? 1.6)) : 0;
@@ -147,7 +151,7 @@ const SceneView: React.FC<{scene: Scene; spec: SurvivalSpec; frozen?: boolean}> 
             transform: `scale(${flip.s})`}}>
             <Icon name={s.icon} size={230} color={col} stroke={8} glow={red} />
             <div style={{fontFamily: COND, fontWeight: 900, fontSize: 104, color: col, lineHeight: 0.95, textAlign: 'center'}}>{s.title}</div>
-            {s.sub ? <MonoLabel size={30} color={red ? S.red : S.dim}>{s.sub}</MonoLabel> : null}
+            {s.sub ? <div style={{maxWidth: 500, textAlign: 'center'}}><MonoLabel size={30} color={red ? S.red : S.dim}>{s.sub}</MonoLabel></div> : null}
           </div>
         </div>
       );
@@ -169,7 +173,7 @@ const SceneView: React.FC<{scene: Scene; spec: SurvivalSpec; frozen?: boolean}> 
               const a = cue(l.at, 0.4 + i * 0.5);
               const p = pop(t, a, 0.3);
               return <div key={i} style={{fontFamily: MONO, fontWeight: l.bold ? 700 : 500, fontSize: 42, lineHeight: 1.42, color: S.ink, margin: '14px 0', ...popStyle(p)}}>
-                <Marked text={l.text} marks={l.mark ?? []} k={(t - a - 0.25) / 0.5} /></div>;
+                <Marked text={l.text} t={t} base={a + 0.25} marks={(l.mark ?? []).map((m) => typeof m === 'string' ? m : {text: m.text, at: cue(m.at, 0.5)})} /></div>;
             })}
             {scene.footer ? <div style={{fontFamily: MONO, fontWeight: 700, fontSize: 24, letterSpacing: 5, color: '#B42020', borderTop: '3px solid #B42020',
               paddingTop: 8, marginTop: 18}}>{scene.footer}</div> : null}
@@ -273,6 +277,8 @@ const SceneLayer: React.FC<{scene: Scene; spec: SurvivalSpec; t: number; W: numb
     {scene.bgMap ? <NightMap map={{dim: 0.55, ...scene.bgMap}} t={t} W={W} H={H} showStatus={false} /> : null}
     <SceneView scene={scene} spec={spec} frozen={frozen} />
     {scene.stamp ? <Stamp spec={scene.stamp} at={resolveStamp(scene, spec)} t={t} W={W} H={H} /> : null}
+    {scene.tag ? <div style={{position: 'absolute', left: 40, top: 212, padding: '6px 16px', border: `3px solid ${S.red}`, background: 'rgba(20,6,6,0.85)',
+      fontFamily: MONO, fontWeight: 700, fontSize: 28, letterSpacing: 5, color: S.red}}>{scene.tag}</div> : null}
   </SurvivalCtx.Provider>
 );
 function resolveStamp(scene: Scene, spec: SurvivalSpec) {
@@ -295,7 +301,8 @@ function bigness(spec: SurvivalSpec, t: number) {
     return x < (spec.clock.bigUntil ?? 6) ? 1 : 0;
   };
   let acc = 0;
-  for (let i = 0; i < 8; i++) acc += Math.max(0, mode(t - i * 0.05));
+  // look ahead, so the big clock has shrunk by the time the next scene's content arrives
+  for (let i = 0; i < 8; i++) acc += Math.max(0, mode(t + i * 0.05));
   return easeInOut(acc / 8);
 }
 
@@ -311,20 +318,26 @@ export const SurvivalShort: React.FC<{spec: SurvivalSpec}> = ({spec}) => {
   return (
     <AbsoluteFill style={{background: S.bg, overflow: 'hidden'}}>
       <Backdrop />
-      <SceneLayer scene={scene} spec={spec} t={t} W={W} H={H} />
+      {/* loop: the closing scene fades to the dark ground in the first half, the cover fades up in the second half
+          (a straight crossfade double-exposed two headline stacks, review 2026-11-17) */}
+      <AbsoluteFill style={{opacity: 1 - clamp01(k * 2)}}>
+        <SceneLayer scene={scene} spec={spec} t={t} W={W} H={H} />
+      </AbsoluteFill>
       {!hidden ? <Clock spec={spec.clock} t={t} big={bigness(spec, t)} W={W} /> : null}
       <Vignette />
-      {k > 0 && cover ? (
-        <AbsoluteFill style={{opacity: k}}>
+      {k > 0.5 && cover ? (
+        <AbsoluteFill style={{opacity: clamp01(k * 2 - 1)}}>
           <Backdrop />
           <SceneLayer scene={cover} spec={spec} t={0} W={W} H={H} frozen />
           <Clock spec={spec.clock} t={0} big={1} W={W} />
           <Vignette />
         </AbsoluteFill>
       ) : null}
-      {k < 0.6 ? <Captions words={spec.words} t={t} W={W} H={H} red={spec.redWords ?? []} plain={spec.plainWords ?? []} /> : null}
-      {spec.source ? <div style={{position: 'absolute', left: 60, right: 60, top: H * 0.905, textAlign: 'center', fontFamily: MONO, fontSize: 19,
-        letterSpacing: 2, color: S.faint}}>{spec.source}</div> : null}
+      {k < 0.5 ? <Captions words={spec.words} t={t} W={W} H={H} red={spec.redWords ?? []} plain={spec.plainWords ?? []} /> : null}
+      {k >= 0.5 && spec.words.length ? <div style={{position: 'absolute', inset: 0, opacity: clamp01((k - 0.5) * 2)}}>
+        <Captions words={spec.words} t={spec.words[0].start + 0.01} W={W} H={H} red={spec.redWords ?? []} plain={spec.plainWords ?? []} /></div> : null}
+      {spec.source ? <div style={{position: 'absolute', left: 60, right: 60, top: H * 0.815, textAlign: 'center', fontFamily: MONO, fontWeight: 600,
+        fontSize: 24, letterSpacing: 2, color: 'rgba(243,245,247,0.72)'}}>{spec.source}</div> : null}
     </AbsoluteFill>
   );
 };

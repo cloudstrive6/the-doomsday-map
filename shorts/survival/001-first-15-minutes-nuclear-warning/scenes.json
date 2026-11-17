@@ -5,85 +5,219 @@
   "label": "NUCLEAR WARNING // SURVIVAL CLOCK",
   "from": 900,
   "rate": 1,
-  "bigUntil": 7.0,
+  "bigUntil": 0.4,
   "pillLabel": "SURVIVAL CLOCK"
  },
  "loopSeconds": 2.0,
- "redWords": ["screams", "nuclear", "attack", "warning", "blast", "fallout", "fatal", "mistake", "jam", "broken", "fake"],
- "plainWords": ["the", "a", "an", "and", "to", "of", "in", "is", "it"],
+ "redWords": [
+  "screams",
+  "nuclear",
+  "attack",
+  "warning",
+  "blast",
+  "fallout",
+  "fatal",
+  "mistake",
+  "jam",
+  "broken",
+  "fake"
+ ],
+ "plainWords": [
+  "the",
+  "a",
+  "an",
+  "and",
+  "to",
+  "of",
+  "in",
+  "is",
+  "it"
+ ],
  "source": "SOURCES: READY.GOV · CDC · FEMA · LLNL // PUBLIC GUIDANCE, NOT A FORECAST",
  "scenes": [
   {
    "start": 0,
    "kind": "cover",
    "lines": [
-    {"text": "FIRST 15", "tone": "yellow"},
-    {"text": "MINUTES", "tone": "yellow"},
-    {"text": "NUCLEAR WARNING", "tone": "red"}
+    {
+     "text": "FIRST 15",
+     "tone": "yellow"
+    },
+    {
+     "text": "MINUTES",
+     "tone": "yellow"
+    },
+    {
+     "text": "NUCLEAR WARNING",
+     "tone": "red"
+    }
    ],
    "checklist": {
     "title": "",
     "items": [
-     {"text": "GET INSIDE", "checked": true},
-     {"text": "GO DEEP", "checked": true},
-     {"text": "STAY 24 HOURS", "checked": true},
-     {"text": "STAY TUNED", "checked": false}
+     {
+      "text": "GET INSIDE",
+      "checked": true
+     },
+     {
+      "text": "GO DEEP",
+      "checked": true
+     },
+     {
+      "text": "SEAL UP",
+      "checked": true
+     },
+     {
+      "text": "STAY 24 HOURS",
+      "checked": false
+     },
+     {
+      "text": "STAY TUNED",
+      "checked": false
+     }
     ]
+   },
+   "bgMap": {
+    "center": [
+     -76,
+     40
+    ],
+    "widthKm": 1800,
+    "lights": true,
+    "dim": 0.4
    }
   },
   {
-   "start": "@nuclear",
+   "start": "@screams",
+   "kind": "phone",
+   "clock": "pill",
+   "tag": "ILLUSTRATIVE",
+   "time": "03:12",
+   "states": [
+    {
+     "at": "@screams",
+     "icon": "siren",
+     "title": "ALERT",
+     "sub": "ILLUSTRATIVE",
+     "tone": "red"
+    },
+    {
+     "at": "@nuclear",
+     "icon": "radiation",
+     "title": "NUCLEAR",
+     "sub": "ILLUSTRATIVE",
+     "tone": "red"
+    },
+    {
+     "at": "@warning",
+     "icon": "alert",
+     "title": "GET INSIDE NOW",
+     "sub": "ILLUSTRATIVE",
+     "tone": "red"
+    }
+   ]
+  },
+  {
+   "start": "@the",
    "kind": "map",
+   "tag": "SIMULATION",
    "map": {
-    "center": [-76, 40],
+    "center": [
+     -76,
+     40
+    ],
     "widthKm": 1800,
     "lights": true,
     "links": false,
     "arcs": [
-     {"from": [-60, 33], "to": [-74.6, 39.2], "at": "@attack", "dur": 9}
+     {
+      "from": [
+       -55,
+       31
+      ],
+      "to": [
+       -70,
+       36
+      ],
+      "at": "@the",
+      "dur": 2.4
+     }
     ],
-    "note": "SIMULATION // ILLUSTRATIVE TRACK // NOT A FORECAST"
+    "note": "ILLUSTRATIVE TRACK // NOT A FORECAST"
    },
    "lines": [
-    {"text": "ATTACK", "tone": "red", "at": "@attack"},
-    {"text": "WARNING", "tone": "red", "at": "@warning"},
-    {"text": "FIRST 15 MIN", "tone": "yellow", "at": "@first"}
+    {
+     "text": "FIRST 15 MIN",
+     "tone": "yellow",
+     "at": "@first"
+    },
+    {
+     "text": "CAN SAVE",
+     "tone": "white",
+     "at": "@save"
+    },
+    {
+     "text": "YOUR LIFE.",
+     "tone": "red",
+     "at": "@life"
+    }
    ]
   },
   {
    "start": "@after",
    "kind": "stat",
-   "clock": "big",
    "value": "10",
    "countFrom": 0,
+   "countAt": "@10",
    "unit": "MINUTES",
    "tone": "red",
-   "aside": {"title": "OR MORE, BEFORE FALLOUT ARRIVES", "sub": "AFTER A BLAST // READY.GOV"},
+   "aside": {
+    "title": "OR MORE, BEFORE FALLOUT ARRIVES",
+    "sub": "AFTER A BLAST // READY.GOV"
+   },
    "bar": {
-    "ticks": ["BLAST", "10 MIN"],
+    "ticks": [
+     "BLAST",
+     "10 MIN"
+    ],
     "from": 0,
     "to": 1,
     "at": "@10",
     "dur": 1.8,
     "tone": "red",
     "label": "▼ TIME TO GET INSIDE"
+   },
+   "stamp": {
+    "at": "@fallout",
+    "kicker": "TO FALLOUT",
+    "text": "10:00",
+    "rotate": -5,
+    "tone": "red",
+    "y": 0.63
    }
   },
   {
    "start": "@then",
    "kind": "stat",
-   "clock": "big",
    "value": "24",
    "countFrom": 0,
+   "countAt": "@24",
    "unit": "HOURS",
    "tone": "warn",
-   "aside": {"title": "STAY INSIDE, AT LEAST", "sub": "UNLESS OFFICIALS SAY OTHERWISE"},
+   "aside": {
+    "title": "STAY INSIDE, AT LEAST",
+    "sub": "UNLESS OFFICIALS SAY OTHERWISE"
+   },
    "bar": {
-    "ticks": ["0", "12 H", "24 H"],
+    "ticks": [
+     "0",
+     "12 H",
+     "24 H"
+    ],
     "from": 0,
     "to": 1,
     "at": "@24",
-    "dur": 1.8,
+    "dur": 1.6,
     "hazard": true,
     "label": "▼ PLAN FOR THE FIRST 24 HOURS"
    }
@@ -92,13 +226,42 @@
    "start": "@your#3",
    "kind": "phone",
    "clock": "pill",
-   "time": "03:12",
+   "tag": "ILLUSTRATIVE",
+   "time": "03:13",
    "states": [
-    {"at": "@your", "icon": "alert", "title": "ATTACK WARNING", "sub": "ILLUSTRATIVE // NOT A REAL APP", "tone": "red"},
-    {"at": "@car", "icon": "car", "title": "DRIVE AWAY?", "sub": "OUTRUN THE FALLOUT", "tone": "warn"},
-    {"at": "@kids", "icon": "person", "title": "FETCH THE KIDS?", "sub": "CROSS TOWN", "tone": "warn"}
+    {
+     "at": "@your",
+     "icon": "alert",
+     "title": "ATTACK WARNING",
+     "sub": "ILLUSTRATIVE",
+     "tone": "red"
+    },
+    {
+     "at": "@car",
+     "icon": "car",
+     "title": "GRAB THE KEYS?",
+     "tone": "warn"
+    },
+    {
+     "at": "@outrun",
+     "icon": "car",
+     "title": "OUTRUN IT?",
+     "tone": "warn"
+    },
+    {
+     "at": "@kids",
+     "icon": "person",
+     "title": "FETCH THE KIDS?",
+     "tone": "warn"
+    }
    ],
-   "stamp": {"at": "@fatal", "kicker": "THE INSTINCT", "text": "FATAL MISTAKE", "rotate": -8, "y": 0.36}
+   "stamp": {
+    "at": "@fatal",
+    "kicker": "THE INSTINCT",
+    "text": "FATAL MISTAKE",
+    "rotate": -8,
+    "y": 0.36
+   }
   },
   {
    "start": "@a#2",
@@ -106,34 +269,111 @@
    "title": "NOT A SHELTER.",
    "sub": "THE CAR // THE SCHOOL RUN",
    "widgets": [
-    {"type": "icon", "icon": "car", "tone": "red", "size": 200, "label": "STAY OUT", "at": "@car"},
-    {"type": "state", "label": "THE CAR", "at": "@car", "states": [
-     {"at": "@car", "text": "SHELTER?", "tone": "warn"},
-     {"at": "@not", "text": "NOT SAFE", "tone": "red"}
-    ]},
-    {"type": "state", "label": "ROADS", "at": "@roads", "states": [
-     {"at": "@roads", "text": "OPEN", "tone": "ok"},
-     {"at": "@jam", "text": "JAMMED", "tone": "red"}
-    ]},
-    {"type": "state", "label": "SCHOOLS", "at": "@schools", "states": [
-     {"at": "@schools", "text": "SHELTER PLAN", "tone": "ok"}
-    ]}
+    {
+     "type": "icon",
+     "icon": "car",
+     "tone": "red",
+     "size": 170,
+     "label": "STAY OUT",
+     "at": "@car"
+    },
+    {
+     "type": "state",
+     "label": "THE CAR",
+     "at": "@car",
+     "states": [
+      {
+       "at": "@car",
+       "text": "SHELTER?",
+       "tone": "warn"
+      },
+      {
+       "at": "@shelter",
+       "text": "NOT SAFE",
+       "tone": "red"
+      }
+     ]
+    },
+    {
+     "type": "state",
+     "label": "ROADS",
+     "at": "@the",
+     "states": [
+      {
+       "at": "@the",
+       "text": "OPEN",
+       "tone": "ok"
+      },
+      {
+       "at": "@jam",
+       "text": "JAMMED",
+       "tone": "red"
+      }
+     ]
+    },
+    {
+     "type": "state",
+     "label": "SCHOOLS",
+     "at": "@schools",
+     "states": [
+      {
+       "at": "@schools",
+       "text": "OWN PLAN",
+       "tone": "warn"
+      },
+      {
+       "at": "@plans",
+       "text": "SHELTERING",
+       "tone": "ok"
+      }
+     ]
+    }
    ]
   },
   {
    "start": "@the#7",
    "kind": "document",
    "header": "PUBLIC GUIDANCE // RADIATION EMERGENCY",
-   "kicker": "TYPED SUMMARY // SHORT QUOTES",
+   "kicker": "TYPED SUMMARY // READY.GOV + CDC",
    "title": "IF A NUCLEAR WARNING COMES",
    "lines": [
-    {"text": "\"Get inside, stay inside, and stay tuned.\"", "mark": ["Get inside", "stay inside", "stay tuned"], "at": "@get", "bold": true},
-    {"text": "\"Go to the basement or the middle of the building.\"", "mark": ["basement", "middle"], "at": "@tuned"},
-    {"text": "\"Staying inside for at least 24 hours...\"", "mark": ["24 hours"], "at": "@public"}
+    {
+     "text": "\"Get inside, stay inside, and stay tuned.\"",
+     "at": "@official",
+     "bold": true,
+     "mark": [
+      {
+       "text": "Get inside",
+       "at": "@get"
+      },
+      {
+       "text": "stay inside",
+       "at": "@stay"
+      },
+      {
+       "text": "stay tuned",
+       "at": "@stay#2"
+      }
+     ]
+    },
+    {
+     "text": "Public guidance, not a forecast.",
+     "at": "@this",
+     "mark": [
+      {
+       "text": "Public guidance",
+       "at": "@public"
+      },
+      {
+       "text": "not a forecast",
+       "at": "@not"
+      }
+     ]
+    }
    ],
    "footer": "PUBLIC GUIDANCE // NOT A FORECAST",
    "credit": "Source: Ready.gov / CDC",
-   "stopwatchAt": "@3"
+   "stopwatchAt": "@get"
   },
   {
    "start": "@rule#2",
@@ -142,43 +382,181 @@
    "icon": "house",
    "kicker": "RULE 01 · THE FIRST 15 MINUTES · SHELTER",
    "lines": [
-    {"text": "GET INSIDE.", "at": "@get"},
-    {"text": "STURDY", "at": "@sturdy"},
-    {"text": "BUILDING.", "at": "@building"},
-    {"text": "NOW.", "tone": "red", "at": "@now"}
+    {
+     "text": "GET INSIDE.",
+     "at": "@get"
+    },
+    {
+     "text": "STURDY",
+     "at": "@sturdy"
+    },
+    {
+     "text": "BUILDING.",
+     "at": "@building"
+    },
+    {
+     "text": "NOW.",
+     "tone": "red",
+     "at": "@now"
+    }
    ]
   },
   {
-   "start": "@a#5",
+   "start": "@walls",
    "kind": "board",
    "title": "WALLS CUT DOSE",
    "sub": "PROTECTION // SOURCE: LLNL, FEMA",
    "widgets": [
-    {"type": "gauge", "labels": ["CAR", "BASEMENT", "CORE"], "from": 0.04, "to": 0.96, "at": "@car", "dur": 3.8, "caption": [
-     {"at": "@car", "text": "CAR: HALF DOSE", "tone": "red"},
-     {"at": "@basement", "text": "BASEMENT: ~1/10", "tone": "white"},
-     {"at": "@core", "text": "BIG BUILDING: ~1/100", "tone": "info"}
-    ]},
-    {"type": "counter", "label": "YOUR DOSE // CORE OF A BIG BUILDING", "from": 100, "to": 1, "unit": "%", "at": "@core", "dur": 1.4, "tone": "info", "size": 150}
+    {
+     "type": "gauge",
+     "labels": [
+      "CAR",
+      "BASEMENT",
+      "CORE"
+     ],
+     "from": 0.0,
+     "to": 0.0,
+     "at": "@walls",
+     "steps": [
+      {
+       "at": "@car",
+       "value": 0.12
+      },
+      {
+       "at": "@basement",
+       "value": 0.5
+      },
+      {
+       "at": "@core",
+       "value": 0.92
+      }
+     ],
+     "caption": [
+      {
+       "at": "@walls",
+       "text": "MORE WALLS, LESS DOSE",
+       "tone": "white"
+      },
+      {
+       "at": "@car",
+       "text": "CAR: ~HALF DOSE",
+       "tone": "red"
+      },
+      {
+       "at": "@basement",
+       "text": "BASEMENT: ~1/10",
+       "tone": "white"
+      },
+      {
+       "at": "@core",
+       "text": "BIG BUILDING: ~1/100",
+       "tone": "info"
+      }
+     ]
+    },
+    {
+     "type": "counter",
+     "label": "YOUR DOSE IN THE CORE, ABOUT",
+     "from": 100,
+     "to": 1,
+     "unit": "%",
+     "at": "@100",
+     "dur": 1.2,
+     "tone": "info",
+     "size": 150
+    }
    ]
   },
   {
-   "start": "@4",
+   "start": "@next",
+   "kind": "grid",
+   "title": "4 STEPS // IN THIS ORDER",
+   "items": [
+    {
+     "num": "01",
+     "label": "GO DEEP"
+    },
+    {
+     "num": "02",
+     "label": "SEAL UP"
+    },
+    {
+     "num": "03",
+     "label": "WAIT IT OUT"
+    },
+    {
+     "num": "04",
+     "label": "STAY TUNED"
+    }
+   ],
+   "badge": {
+    "text": "24",
+    "sub": "HOURS"
+   },
+   "bgMap": {
+    "center": [
+     -76,
+     40
+    ],
+    "widthKm": 2400,
+    "lights": false
+   }
+  },
+  {
+   "start": "@1#2",
    "kind": "board",
    "num": "01",
    "title": "GO DEEP",
    "sub": "BASEMENT OR MIDDLE",
    "widgets": [
-    {"type": "icon", "icon": "bunker", "tone": "ok", "size": 200, "label": "GO DOWN", "at": "@down"},
-    {"type": "state", "label": "YOUR SPOT", "at": "@go", "states": [
-     {"at": "@go", "text": "BY A WINDOW", "tone": "red"},
-     {"at": "@down", "text": "BASEMENT", "tone": "ok"},
-     {"at": "@middle", "text": "OR MIDDLE", "tone": "ok"}
-    ]},
-    {"type": "state", "label": "ROOF + WALLS", "at": "@fallout", "states": [
-     {"at": "@fallout", "text": "FALLOUT", "tone": "red"},
-     {"at": "@away", "text": "STAY AWAY", "tone": "ok"}
-    ]}
+    {
+     "type": "state",
+     "label": "YOUR SPOT",
+     "at": "@1",
+     "states": [
+      {
+       "at": "@1",
+       "text": "BY A WINDOW",
+       "tone": "red"
+      },
+      {
+       "at": "@middle",
+       "text": "LOW + CENTRAL",
+       "tone": "ok"
+      }
+     ]
+    },
+    {
+     "type": "icon",
+     "icon": "bunker",
+     "tone": "ok",
+     "size": 150,
+     "label": "GO DOWN",
+     "at": "@down"
+    },
+    {
+     "type": "tiles",
+     "tone": "red",
+     "at": "@fallout",
+     "items": [
+      {
+       "icon": "house",
+       "label": "ROOF",
+       "at": "@roof"
+      },
+      {
+       "icon": "window",
+       "label": "OUTER WALLS",
+       "at": "@outer"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "FALLOUT SETTLES HERE // STAY AWAY",
+     "tone": "ok",
+     "at": "@away"
+    }
    ]
   },
   {
@@ -188,28 +566,114 @@
    "title": "SEAL UP",
    "sub": "WINDOWS, DOORS, FANS",
    "widgets": [
-    {"type": "state", "label": "WINDOWS + DOORS", "states": [
-     {"at": "@2", "text": "OPEN", "tone": "red"},
-     {"at": "@close", "text": "CLOSED", "tone": "ok"}
-    ]},
-    {"type": "state", "label": "FANS + AIR CON", "at": "@turn", "states": [
-     {"at": "@turn", "text": "ON", "tone": "red"},
-     {"at": "@off", "text": "OFF", "tone": "ok"}
-    ]},
-    {"type": "pill", "text": "BROKEN WINDOW? STILL A SHELTER", "tone": "warn", "at": "@broken"}
+    {
+     "type": "state",
+     "label": "WINDOWS + DOORS",
+     "at": "@2",
+     "states": [
+      {
+       "at": "@2",
+       "text": "OPEN",
+       "tone": "red"
+      },
+      {
+       "at": "@doors",
+       "text": "CLOSED",
+       "tone": "ok"
+      }
+     ]
+    },
+    {
+     "type": "state",
+     "label": "FANS + AIR CON",
+     "at": "@2+0.4",
+     "states": [
+      {
+       "at": "@2+0.4",
+       "text": "ON",
+       "tone": "red"
+      },
+      {
+       "at": "@off",
+       "text": "OFF",
+       "tone": "ok"
+      }
+     ]
+    },
+    {
+     "type": "row",
+     "icon": "window",
+     "count": 6,
+     "fill": 6,
+     "at": "@con",
+     "dur": 1.2,
+     "tone": "ok",
+     "label": "SEALED"
+    },
+    {
+     "type": "state",
+     "label": "WINDOW",
+     "at": "@planners",
+     "states": [
+      {
+       "at": "@broken",
+       "text": "BROKEN",
+       "tone": "red"
+      },
+      {
+       "at": "@ruin",
+       "text": "STILL SHELTER",
+       "tone": "ok"
+      }
+     ]
+    }
    ]
   },
   {
-   "start": "@3#2",
+   "start": "@3",
    "kind": "board",
    "num": "03",
    "title": "WAIT IT OUT",
    "sub": "AT LEAST 24 HOURS",
    "widgets": [
-    {"type": "counter", "label": "HOURS INSIDE", "from": 0, "to": 24, "unit": "H", "at": "@24", "dur": 2.0, "tone": "warn", "size": 200},
-    {"type": "bar", "label": "TIME INSIDE", "from": 0, "to": 1, "at": "@24", "dur": 2.0, "hazard": true, "right": "AT LEAST 24 H",
-     "ticks": ["0", "12 H", "24 H"]},
-    {"type": "text", "text": "UNLESS OFFICIALS SAY OTHERWISE", "size": 70, "tone": "white", "at": "@unless"}
+    {
+     "type": "bar",
+     "label": "TIME INSIDE",
+     "from": 0,
+     "to": 1,
+     "at": "@stay",
+     "dur": 1.6,
+     "hazard": true,
+     "right": "AT LEAST 24 H",
+     "ticks": [
+      "0",
+      "12 H",
+      "24 H"
+     ]
+    },
+    {
+     "type": "counter",
+     "label": "HOURS INSIDE",
+     "from": 0,
+     "to": 24,
+     "unit": "H",
+     "at": "@24-0.8",
+     "dur": 0.8,
+     "tone": "warn",
+     "size": 180
+    },
+    {
+     "type": "pill",
+     "text": "UNLESS OFFICIALS SAY OTHERWISE",
+     "tone": "warn",
+     "at": "@unless"
+    },
+    {
+     "type": "pill",
+     "text": "OR FIRE / COLLAPSE",
+     "tone": "red",
+     "at": "@otherwise"
+    }
    ]
   },
   {
@@ -219,40 +683,137 @@
    "title": "STAY TUNED",
    "sub": "BATTERY OR HAND-CRANK RADIO",
    "widgets": [
-    {"type": "icon", "icon": "radio", "tone": "info", "size": 200, "label": "RECEIVING", "at": "@radio"},
-    {"type": "state", "label": "PHONE ALERT", "at": "@fake", "states": [
-     {"at": "@fake", "text": "UNCONFIRMED", "tone": "warn"},
-     {"at": "@confirm", "text": "CHECK RADIO/TV", "tone": "ok"}
-    ]},
-    {"type": "pill", "text": "FAKE ALERTS HAPPEN // CONFIRM", "tone": "red", "at": "@happen"}
-   ]
+    {
+     "type": "icon",
+     "icon": "radio",
+     "tone": "info",
+     "size": 150,
+     "label": "RADIO ON",
+     "at": "@tuned"
+    },
+    {
+     "type": "row",
+     "icon": "battery",
+     "count": 4,
+     "fill": 4,
+     "at": "@battery",
+     "dur": 1.2,
+     "tone": "ok",
+     "label": "BATTERY OR HAND-CRANK"
+    },
+    {
+     "type": "state",
+     "label": "ALERT",
+     "at": "@fake",
+     "states": [
+      {
+       "at": "@fake",
+       "text": "FAKES HAPPEN",
+       "tone": "warn"
+      },
+      {
+       "at": "@get",
+       "text": "GET INSIDE FIRST",
+       "tone": "ok"
+      },
+      {
+       "at": "@confirm",
+       "text": "THEN CONFIRM",
+       "tone": "info"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "OFFICIAL RADIO / TV / ALERTS",
+     "tone": "info",
+     "at": "@radio#2"
+    }
+   ],
+   "stamp": {
+    "at": "@alerts#2",
+    "text": "INSIDE FIRST",
+    "tone": "ok",
+    "rotate": -6,
+    "y": 0.6
+   }
   },
   {
-   "start": "@get#3",
+   "start": "@get#4",
    "kind": "checklist",
    "kicker": "NUCLEAR WARNING // MEMORIZE",
    "title": "FIRST 15 MIN → 24 H",
    "sub": "OFFICIAL GUIDANCE // READY.GOV + CDC",
    "items": [
-    {"text": "GET INSIDE", "sub": "nearest sturdy building", "at": "@get"},
-    {"text": "GO DEEP", "sub": "basement or middle", "at": "@go"},
-    {"text": "SEAL UP", "sub": "windows, doors, fans", "at": "@seal"},
-    {"text": "STAY 24 HOURS", "sub": "unless officials say otherwise", "at": "@24"},
-    {"text": "STAY TUNED", "sub": "official radio or TV", "at": "@tuned"}
+    {
+     "text": "GET INSIDE",
+     "sub": "nearest sturdy building",
+     "at": "@get"
+    },
+    {
+     "text": "GO DEEP",
+     "sub": "basement or middle",
+     "at": "@go"
+    },
+    {
+     "text": "SEAL UP",
+     "sub": "windows, doors, fans",
+     "at": "@seal"
+    },
+    {
+     "text": "STAY 24 HOURS",
+     "sub": "unless officials say otherwise",
+     "at": "@24"
+    },
+    {
+     "text": "STAY TUNED",
+     "sub": "official radio, TV or alerts",
+     "at": "@tuned"
+    }
    ],
-   "stamp": {"at": "@save", "text": "MEMORIZE NOW", "rotate": -7, "y": 0.58}
+   "stamp": {
+    "at": "@send",
+    "kicker": "MEMORIZE NOW",
+    "text": "SAVE + SEND",
+    "rotate": -7,
+    "y": 0.58
+   }
   },
   {
    "start": "@learn",
    "kind": "slam",
    "kicker": "SAVE THIS",
    "lines": [
-    {"text": "LEARN IT", "tone": "white", "at": "@learn"},
-    {"text": "NOW.", "tone": "red", "at": "@now"},
-    {"text": "BEFORE IT", "tone": "yellow", "at": "@before"},
-    {"text": "SCREAMS.", "tone": "red", "at": "@screams"}
+    {
+     "text": "LEARN IT",
+     "tone": "white",
+     "at": "@learn"
+    },
+    {
+     "text": "NOW.",
+     "tone": "red",
+     "at": "@now"
+    },
+    {
+     "text": "BEFORE IT",
+     "tone": "yellow",
+     "at": "@before"
+    },
+    {
+     "text": "SCREAMS.",
+     "tone": "red",
+     "at": "@screams"
+    }
    ],
-   "bgMap": {"center": [-76, 40], "widthKm": 1800, "lights": true}
+   "bgMap": {
+    "center": [
+     -76,
+     40
+    ],
+    "widthKm": 1800,
+    "lights": true,
+    "dim": 0.4
+   }
   }
  ]
 }
