@@ -20,3 +20,7 @@ assets/sfx/*
 !assets/**/*.mp3
 .DS_Store
 Thumbs.db
+
+# Survival Clock Shorts: narration and renders are rebuilt, not stored
+shorts/survival/*/narration/
+shorts/survival/*/build/

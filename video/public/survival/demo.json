@@ -1,0 +1,951 @@
+{
+ "slug": "demo",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 49.75,
+ "words": [
+  {
+   "word": "When",
+   "start": 0.3,
+   "end": 0.66
+  },
+  {
+   "word": "the",
+   "start": 0.74,
+   "end": 1.05
+  },
+  {
+   "word": "sirens",
+   "start": 1.14,
+   "end": 1.58
+  },
+  {
+   "word": "start,",
+   "start": 1.67,
+   "end": 2.12
+  },
+  {
+   "word": "you",
+   "start": 2.2,
+   "end": 2.51
+  },
+  {
+   "word": "have",
+   "start": 2.59,
+   "end": 2.95
+  },
+  {
+   "word": "about",
+   "start": 3.03,
+   "end": 3.44
+  },
+  {
+   "word": "fifteen",
+   "start": 3.52,
+   "end": 4.01
+  },
+  {
+   "word": "minutes.",
+   "start": 4.09,
+   "end": 4.63
+  },
+  {
+   "word": "Get",
+   "start": 4.96,
+   "end": 5.28
+  },
+  {
+   "word": "inside,",
+   "start": 5.36,
+   "end": 5.85
+  },
+  {
+   "word": "stay",
+   "start": 5.93,
+   "end": 6.29
+  },
+  {
+   "word": "inside,",
+   "start": 6.37,
+   "end": 6.87
+  },
+  {
+   "word": "stay",
+   "start": 6.95,
+   "end": 7.31
+  },
+  {
+   "word": "tuned.",
+   "start": 7.39,
+   "end": 7.84
+  },
+  {
+   "word": "Most",
+   "start": 8.17,
+   "end": 8.53
+  },
+  {
+   "word": "people",
+   "start": 8.61,
+   "end": 9.06
+  },
+  {
+   "word": "grab",
+   "start": 9.14,
+   "end": 9.5
+  },
+  {
+   "word": "the",
+   "start": 9.58,
+   "end": 9.89
+  },
+  {
+   "word": "phone",
+   "start": 9.97,
+   "end": 10.38
+  },
+  {
+   "word": "and",
+   "start": 10.46,
+   "end": 10.77
+  },
+  {
+   "word": "wait.",
+   "start": 10.85,
+   "end": 11.25
+  },
+  {
+   "word": "That",
+   "start": 11.58,
+   "end": 11.94
+  },
+  {
+   "word": "is",
+   "start": 12.02,
+   "end": 12.29
+  },
+  {
+   "word": "the",
+   "start": 12.37,
+   "end": 12.69
+  },
+  {
+   "word": "biggest",
+   "start": 12.77,
+   "end": 13.26
+  },
+  {
+   "word": "mistake.",
+   "start": 13.34,
+   "end": 13.88
+  },
+  {
+   "word": "The",
+   "start": 14.21,
+   "end": 14.53
+  },
+  {
+   "word": "leaflet",
+   "start": 14.61,
+   "end": 15.1
+  },
+  {
+   "word": "says",
+   "start": 15.18,
+   "end": 15.54
+  },
+  {
+   "word": "act",
+   "start": 15.62,
+   "end": 15.94
+  },
+  {
+   "word": "at",
+   "start": 16.02,
+   "end": 16.29
+  },
+  {
+   "word": "once.",
+   "start": 16.37,
+   "end": 16.77
+  },
+  {
+   "word": "Rule",
+   "start": 17.1,
+   "end": 17.46
+  },
+  {
+   "word": "one,",
+   "start": 17.54,
+   "end": 17.9
+  },
+  {
+   "word": "get",
+   "start": 17.98,
+   "end": 18.3
+  },
+  {
+   "word": "inside",
+   "start": 18.38,
+   "end": 18.83
+  },
+  {
+   "word": "now.",
+   "start": 18.91,
+   "end": 19.27
+  },
+  {
+   "word": "Brick",
+   "start": 19.6,
+   "end": 20.01
+  },
+  {
+   "word": "and",
+   "start": 20.09,
+   "end": 20.4
+  },
+  {
+   "word": "concrete",
+   "start": 20.48,
+   "end": 21.02
+  },
+  {
+   "word": "cut",
+   "start": 21.1,
+   "end": 21.42
+  },
+  {
+   "word": "the",
+   "start": 21.5,
+   "end": 21.81
+  },
+  {
+   "word": "dose.",
+   "start": 21.89,
+   "end": 22.3
+  },
+  {
+   "word": "Fill",
+   "start": 22.62,
+   "end": 22.98
+  },
+  {
+   "word": "everything",
+   "start": 23.07,
+   "end": 23.7
+  },
+  {
+   "word": "while",
+   "start": 23.78,
+   "end": 24.18
+  },
+  {
+   "word": "the",
+   "start": 24.26,
+   "end": 24.58
+  },
+  {
+   "word": "taps",
+   "start": 24.66,
+   "end": 25.02
+  },
+  {
+   "word": "still",
+   "start": 25.1,
+   "end": 25.5
+  },
+  {
+   "word": "run.",
+   "start": 25.58,
+   "end": 25.94
+  },
+  {
+   "word": "Lock",
+   "start": 26.27,
+   "end": 26.63
+  },
+  {
+   "word": "in",
+   "start": 26.71,
+   "end": 26.98
+  },
+  {
+   "word": "four",
+   "start": 27.06,
+   "end": 27.42
+  },
+  {
+   "word": "items.",
+   "start": 27.5,
+   "end": 27.95
+  },
+  {
+   "word": "Cash,",
+   "start": 28.28,
+   "end": 28.69
+  },
+  {
+   "word": "a",
+   "start": 28.77,
+   "end": 28.99
+  },
+  {
+   "word": "radio,",
+   "start": 29.07,
+   "end": 29.52
+  },
+  {
+   "word": "food",
+   "start": 29.6,
+   "end": 29.96
+  },
+  {
+   "word": "and",
+   "start": 30.04,
+   "end": 30.36
+  },
+  {
+   "word": "water,",
+   "start": 30.44,
+   "end": 30.89
+  },
+  {
+   "word": "fuel.",
+   "start": 30.97,
+   "end": 31.37
+  },
+  {
+   "word": "The",
+   "start": 31.7,
+   "end": 32.02
+  },
+  {
+   "word": "card",
+   "start": 32.1,
+   "end": 32.46
+  },
+  {
+   "word": "reader",
+   "start": 32.54,
+   "end": 32.99
+  },
+  {
+   "word": "goes",
+   "start": 33.07,
+   "end": 33.43
+  },
+  {
+   "word": "offline.",
+   "start": 33.51,
+   "end": 34.05
+  },
+  {
+   "word": "The",
+   "start": 34.38,
+   "end": 34.69
+  },
+  {
+   "word": "radio",
+   "start": 34.77,
+   "end": 35.18
+  },
+  {
+   "word": "is",
+   "start": 35.26,
+   "end": 35.53
+  },
+  {
+   "word": "your",
+   "start": 35.61,
+   "end": 35.97
+  },
+  {
+   "word": "only",
+   "start": 36.05,
+   "end": 36.41
+  },
+  {
+   "word": "link.",
+   "start": 36.49,
+   "end": 36.89
+  },
+  {
+   "word": "Keep",
+   "start": 37.22,
+   "end": 37.58
+  },
+  {
+   "word": "the",
+   "start": 37.66,
+   "end": 37.98
+  },
+  {
+   "word": "tank",
+   "start": 38.06,
+   "end": 38.42
+  },
+  {
+   "word": "above",
+   "start": 38.5,
+   "end": 38.9
+  },
+  {
+   "word": "half.",
+   "start": 38.98,
+   "end": 39.39
+  },
+  {
+   "word": "Unplug",
+   "start": 39.72,
+   "end": 40.17
+  },
+  {
+   "word": "before",
+   "start": 40.25,
+   "end": 40.7
+  },
+  {
+   "word": "the",
+   "start": 40.78,
+   "end": 41.09
+  },
+  {
+   "word": "power",
+   "start": 41.17,
+   "end": 41.58
+  },
+  {
+   "word": "returns.",
+   "start": 41.66,
+   "end": 42.2
+  },
+  {
+   "word": "Memorize",
+   "start": 42.53,
+   "end": 43.07
+  },
+  {
+   "word": "this",
+   "start": 43.15,
+   "end": 43.51
+  },
+  {
+   "word": "right",
+   "start": 43.59,
+   "end": 43.99
+  },
+  {
+   "word": "now.",
+   "start": 44.07,
+   "end": 44.43
+  },
+  {
+   "word": "There",
+   "start": 44.76,
+   "end": 45.16
+  },
+  {
+   "word": "will",
+   "start": 45.24,
+   "end": 45.6
+  },
+  {
+   "word": "be",
+   "start": 45.68,
+   "end": 45.95
+  },
+  {
+   "word": "no",
+   "start": 46.03,
+   "end": 46.3
+  },
+  {
+   "word": "warning.",
+   "start": 46.38,
+   "end": 46.92
+  }
+ ],
+ "redWords": [
+  "mistake.",
+  "offline.",
+  "warning."
+ ],
+ "plainWords": [
+  "the",
+  "a",
+  "and"
+ ],
+ "clock": {
+  "label": "NUCLEAR WARNING // SURVIVAL CLOCK",
+  "from": 900,
+  "rate": 1,
+  "bigUntil": 6.053571428571429
+ },
+ "scenes": [
+  {
+   "start": 0,
+   "end": 3.5535714285714284,
+   "kind": "cover",
+   "lines": [
+    {
+     "text": "FIRST 15",
+     "tone": "yellow"
+    },
+    {
+     "text": "MINUTES",
+     "tone": "yellow"
+    },
+    {
+     "text": "NUCLEAR WARNING",
+     "tone": "red"
+    }
+   ],
+   "checklist": {
+    "title": "",
+    "items": [
+     {
+      "text": "GET INSIDE",
+      "checked": true
+     },
+     {
+      "text": "STAY INSIDE",
+      "checked": true
+     },
+     {
+      "text": "STAY TUNED",
+      "checked": true
+     },
+     {
+      "text": "WATER + RADIO",
+      "checked": false
+     }
+    ]
+   }
+  },
+  {
+   "start": 3.5535714285714284,
+   "end": 7.107142857142857,
+   "kind": "map",
+   "map": {
+    "center": [
+     -78,
+     40
+    ],
+    "widthKm": 2200,
+    "lights": true,
+    "links": true,
+    "offAt": "@biggest",
+    "status": {
+     "on": "GRID: ONLINE",
+     "off": "GRID: OFFLINE"
+    },
+    "note": "GRID LINKS SCHEMATIC // NOT A REAL NETWORK MAP",
+    "arcs": [
+     {
+      "from": [
+       -30,
+       60
+      ],
+      "to": [
+       -77,
+       39
+      ],
+      "at": 3.853571428571428,
+      "dur": 2
+     }
+    ],
+    "flashes": [
+     {
+      "at": 5.953571428571428,
+      "lonlat": [
+       -77,
+       39
+      ],
+      "km": 20
+     }
+    ]
+   }
+  },
+  {
+   "start": 7.107142857142857,
+   "end": 10.660714285714285,
+   "kind": "stat",
+   "value": "15",
+   "countFrom": 0,
+   "unit": "MINUTES",
+   "tone": "red",
+   "aside": {
+    "title": "THE DECISION WINDOW",
+    "sub": "what you do here"
+   },
+   "bar": {
+    "ticks": [
+     "0",
+     "5",
+     "10",
+     "15 MIN"
+    ],
+    "from": 0,
+    "to": 1,
+    "dur": 2.5,
+    "tone": "red",
+    "label": "▼ THE FIRST 15 MINUTES"
+   },
+   "clock": "big"
+  },
+  {
+   "start": 10.660714285714285,
+   "end": 14.214285714285714,
+   "kind": "phone",
+   "states": [
+    {
+     "at": 10.660714285714285,
+     "icon": "wifi",
+     "title": "Wi-Fi",
+     "sub": "CONNECTED"
+    },
+    {
+     "at": 11.860714285714284,
+     "icon": "wifi",
+     "title": "Wi-Fi",
+     "sub": "RECONNECTING...",
+     "tone": "warn"
+    },
+    {
+     "at": 13.060714285714285,
+     "icon": "sos",
+     "title": "SOS ONLY",
+     "sub": "// NO SERVICE",
+     "tone": "red"
+    }
+   ],
+   "stamp": {
+    "at": 13.660714285714285,
+    "kicker": "WAITING FOR NEWS",
+    "text": "FATAL MISTAKE #1",
+    "y": 0.38
+   }
+  },
+  {
+   "start": 14.214285714285714,
+   "end": 17.767857142857142,
+   "kind": "document",
+   "header": "CIVIL DEFENCE // PUBLIC INFORMATION",
+   "kicker": "HOUSEHOLD PREPAREDNESS",
+   "title": "IF A NUCLEAR WARNING COMES",
+   "lines": [
+    {
+     "text": "Get inside the nearest building at once.",
+     "mark": [
+      "at once"
+     ]
+    },
+    {
+     "text": "Go to the middle or the basement.",
+     "mark": [
+      "basement"
+     ]
+    },
+    {
+     "text": "Stay inside for at least 24 hours.",
+     "mark": [
+      "24 hours"
+     ]
+    }
+   ],
+   "footer": "CIVIL DEFENCE // PUBLIC INFORMATION",
+   "stopwatchAt": 15.714285714285714,
+   "dimAt": 17.414285714285715
+  },
+  {
+   "start": 17.767857142857142,
+   "end": 21.32142857142857,
+   "kind": "rule",
+   "num": "01",
+   "icon": "tap",
+   "kicker": "RULE 01 · THE FIRST 15 MINUTES · SHELTER",
+   "lines": [
+    {
+     "text": "GET INSIDE."
+    },
+    {
+     "text": "GO DEEP."
+    },
+    {
+     "text": "IMMEDIATELY.",
+     "tone": "red"
+    }
+   ]
+  },
+  {
+   "start": 21.32142857142857,
+   "end": 24.875,
+   "kind": "board",
+   "title": "FILL EVERYTHING.",
+   "sub": "RULE 01 · WHILE THE TAPS STILL RUN",
+   "widgets": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "icon": "bath",
+       "label": "BATHTUB"
+      },
+      {
+       "icon": "pot",
+       "label": "POTS"
+      },
+      {
+       "icon": "bottle",
+       "label": "BOTTLES"
+      }
+     ]
+    },
+    {
+     "type": "counter",
+     "label": "BATHTUB + POTS + BOTTLES",
+     "from": 6,
+     "to": 100,
+     "unit": "% FULL",
+     "tone": "info",
+     "dur": 2.5
+    },
+    {
+     "type": "bar",
+     "label": "THE 15-MINUTE WINDOW",
+     "from": 1,
+     "to": 0.1,
+     "dur": 3,
+     "tone": "info",
+     "right": "00:14:20"
+    }
+   ],
+   "stamp": {
+    "at": 23.875,
+    "text": "LOCKED",
+    "tone": "info",
+    "rotate": -6,
+    "y": 0.56
+   }
+  },
+  {
+   "start": 24.875,
+   "end": 28.428571428571427,
+   "kind": "grid",
+   "title": "THE 72-HOUR KIT · 4 MANDATORY ITEMS",
+   "items": [
+    {
+     "num": "01",
+     "label": "CASH"
+    },
+    {
+     "num": "02",
+     "label": "RADIO"
+    },
+    {
+     "num": "03",
+     "label": "FOOD + WATER"
+    },
+    {
+     "num": "04",
+     "label": "FUEL"
+    }
+   ],
+   "badge": {
+    "text": "72",
+    "sub": "HOURS"
+   },
+   "bgMap": {
+    "center": [
+     -78,
+     40
+    ],
+    "widthKm": 3000,
+    "lights": false
+   }
+  },
+  {
+   "start": 28.428571428571427,
+   "end": 31.982142857142854,
+   "kind": "board",
+   "num": "01",
+   "title": "PHYSICAL CASH",
+   "sub": "SMALL BILLS ONLY",
+   "widgets": [
+    {
+     "type": "state",
+     "label": "CARD READER",
+     "states": [
+      {
+       "at": 28.428571428571427,
+       "text": "READY",
+       "tone": "ok"
+      },
+      {
+       "at": 30.428571428571427,
+       "text": "ERROR: OFFLINE",
+       "tone": "red"
+      }
+     ]
+    },
+    {
+     "type": "icon",
+     "icon": "cash",
+     "tone": "ok",
+     "label": "FIVES + TENS"
+    }
+   ]
+  },
+  {
+   "start": 31.982142857142854,
+   "end": 35.535714285714285,
+   "kind": "board",
+   "num": "02",
+   "title": "AM / FM RADIO",
+   "sub": "HAND-CRANK OR BATTERY",
+   "widgets": [
+    {
+     "type": "icon",
+     "icon": "radio",
+     "tone": "info",
+     "size": 220
+    },
+    {
+     "type": "bar",
+     "label": "CELL TOWER · BACKUP BATTERY",
+     "from": 1,
+     "to": 0.92,
+     "dur": 3,
+     "tone": "ok"
+    },
+    {
+     "type": "pill",
+     "text": "EMERGENCY BROADCAST · YOUR ONLY LINK",
+     "tone": "red"
+    }
+   ]
+  },
+  {
+   "start": 35.535714285714285,
+   "end": 39.089285714285715,
+   "kind": "board",
+   "num": "04",
+   "title": "GAS TANK",
+   "sub": "NEVER BELOW HALF",
+   "widgets": [
+    {
+     "type": "gauge",
+     "from": 0.05,
+     "to": 0.68,
+     "dur": 2,
+     "caption": [
+      {
+       "at": 35.535714285714285,
+       "text": "▲ LOW FUEL",
+       "tone": "red"
+      },
+      {
+       "at": 37.73571428571429,
+       "text": "KEEP IT ABOVE ½",
+       "tone": "white"
+      }
+     ]
+    },
+    {
+     "type": "row",
+     "icon": "bottle",
+     "count": 8,
+     "fill": 7.4,
+     "label": "3 L PER PERSON PER DAY"
+    }
+   ]
+  },
+  {
+   "start": 39.089285714285715,
+   "end": 42.64285714285714,
+   "kind": "board",
+   "title": "VOLTAGE SURGE",
+   "sub": "BEFORE THE POWER RETURNS",
+   "widgets": [
+    {
+     "type": "wave",
+     "label": "MAINS",
+     "spikeAt": 40.68928571428572,
+     "spikeLabel": "SURGE"
+    },
+    {
+     "type": "compare",
+     "left": {
+      "title": "PLUGGED IN",
+      "value": "",
+      "label": "FRIED ✕",
+      "tone": "red",
+      "icon": "plug"
+     },
+     "right": {
+      "title": "UNPLUGGED",
+      "value": "",
+      "label": "SAFE ✓",
+      "tone": "ok",
+      "icon": "plug"
+     }
+    }
+   ]
+  },
+  {
+   "start": 42.64285714285714,
+   "end": 46.19642857142857,
+   "kind": "checklist",
+   "kicker": "NUCLEAR WARNING // MEMORIZE",
+   "title": "FIRST 15 MIN → 24 HOURS",
+   "sub": "HOUSEHOLD SURVIVAL CHECKLIST",
+   "items": [
+    {
+     "text": "GET INSIDE",
+     "sub": "brick or concrete"
+    },
+    {
+     "text": "GO DEEP",
+     "sub": "basement or middle"
+    },
+    {
+     "text": "STAY 24 HOURS"
+    },
+    {
+     "text": "STAY TUNED",
+     "sub": "radio"
+    }
+   ],
+   "stamp": {
+    "at": 45.39642857142857,
+    "text": "MEMORIZE NOW",
+    "rotate": -7,
+    "y": 0.66
+   }
+  },
+  {
+   "start": 46.19642857142857,
+   "end": 49.75,
+   "kind": "slam",
+   "lines": [
+    {
+     "text": "NO WARNING.",
+     "tone": "red"
+    }
+   ],
+   "bgMap": {
+    "center": [
+     -78,
+     40
+    ],
+    "widthKm": 2600,
+    "lights": true,
+    "links": true,
+    "offAt": 0
+   }
+  }
+ ],
+ "loopSeconds": 2.0,
+ "source": "DEMO SPEC // NOT A REAL BROADCAST"
+}
