@@ -44,7 +44,12 @@
       "stage": "shotlisted",
       "note": "120 shots, 680.3 s, visual review fixes",
       "at": "2026-11-17T01:19:08+00:00"
+    },
+    {
+      "stage": "visual_approved",
+      "note": "visual review r3 PASS",
+      "at": "2026-11-17T01:22:19+00:00"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "visual_approved"
 }
