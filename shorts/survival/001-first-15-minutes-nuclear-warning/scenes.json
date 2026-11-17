@@ -8,7 +8,7 @@
   "bigUntil": 0.4,
   "pillLabel": "SURVIVAL CLOCK"
  },
- "loopSeconds": 2.0,
+ "loopSeconds": 1.4,
  "redWords": [
   "screams",
   "nuclear",
@@ -372,8 +372,7 @@
     }
    ],
    "footer": "PUBLIC GUIDANCE // NOT A FORECAST",
-   "credit": "Source: Ready.gov / CDC",
-   "stopwatchAt": "@get"
+   "credit": "Source: Ready.gov / CDC"
   },
   {
    "start": "@rule#2",
@@ -490,8 +489,8 @@
     }
    ],
    "badge": {
-    "text": "24",
-    "sub": "HOURS"
+    "text": "4",
+    "sub": "STEPS"
    },
    "bgMap": {
     "center": [
@@ -729,14 +728,7 @@
      "tone": "info",
      "at": "@radio#2"
     }
-   ],
-   "stamp": {
-    "at": "@alerts#2",
-    "text": "INSIDE FIRST",
-    "tone": "ok",
-    "rotate": -6,
-    "y": 0.6
-   }
+   ]
   },
   {
    "start": "@get#4",

@@ -17,7 +17,7 @@ export const MONO = mono.fontFamily;
 
 export const S = {
   bg: '#090B0E', panel: 'rgba(14, 18, 23, 0.92)', line: 'rgba(150, 200, 220, 0.32)', lineHi: 'rgba(150, 200, 220, 0.6)',
-  text: '#F3F5F7', dim: 'rgba(243, 245, 247, 0.58)', faint: 'rgba(243, 245, 247, 0.28)',
+  text: '#F3F5F7', dim: 'rgba(243, 245, 247, 0.72)', faint: 'rgba(243, 245, 247, 0.28)',
   red: '#FF3B3B', yellow: '#FFD21F', cyan: '#2EC7F0', blue: '#2D8CFF', green: '#3FE39A', amber: '#FFB347',
   paper: '#EEE6D3', ink: '#1A1A1A', inkDim: 'rgba(26, 26, 26, 0.6)',
 };
@@ -192,7 +192,7 @@ export const Pill: React.FC<{text: string; tone?: Tone; size?: number}> = ({text
   </div>
 );
 
-export const MonoLabel: React.FC<{children: React.ReactNode; color?: string; size?: number}> = ({children, color = S.dim, size = 26}) => (
+export const MonoLabel: React.FC<{children: React.ReactNode; color?: string; size?: number}> = ({children, color = S.dim, size = 30}) => (
   <div style={{fontFamily: MONO, fontWeight: 600, fontSize: size, letterSpacing: 5, color, textTransform: 'uppercase'}}>{children}</div>
 );
 

@@ -47,7 +47,7 @@ const Checklist: React.FC<{kicker: string; title: string; sub?: string; items: {
               </div>
               <div>
                 <div style={{fontFamily: COND, fontWeight: 900, fontSize: size, lineHeight: 1, color: S.ink, textTransform: 'uppercase'}}>{it.text}</div>
-                {it.sub ? <div style={{fontFamily: MONO, fontWeight: 600, fontSize: 20, letterSpacing: 3, color: S.inkDim}}>{it.sub}</div> : null}
+                {it.sub ? <div style={{fontFamily: MONO, fontWeight: 600, fontSize: 26, letterSpacing: 2, color: S.inkDim}}>{it.sub}</div> : null}
               </div>
             </div>
           );
@@ -167,7 +167,7 @@ const SceneView: React.FC<{scene: Scene; spec: SurvivalSpec; frozen?: boolean}> 
           <div style={{position: 'absolute', left: 44, width: W - 88, top: 250, background: S.paper, borderRadius: 8, padding: '40px 44px 44px',
             transform: `rotate(-1.5deg) ${popStyle(enter).transform}`, opacity: enter.o, boxShadow: '0 40px 90px rgba(0,0,0,0.75)'}}>
             <div style={{fontFamily: MONO, fontWeight: 700, fontSize: 28, letterSpacing: 5, color: '#B42020', borderBottom: '3px solid #B42020', paddingBottom: 8}}>{scene.header}</div>
-            {scene.kicker ? <div style={{fontFamily: MONO, fontWeight: 600, fontSize: 20, letterSpacing: 3, color: S.inkDim, marginTop: 14}}>{scene.kicker}</div> : null}
+            {scene.kicker ? <div style={{fontFamily: MONO, fontWeight: 600, fontSize: 24, letterSpacing: 3, color: S.inkDim, marginTop: 14}}>{scene.kicker}</div> : null}
             <div style={{fontFamily: MONO, fontWeight: 700, fontSize: 64, color: S.ink, lineHeight: 1.1, margin: '10px 0 30px'}}>{scene.title}</div>
             {scene.lines.map((l, i) => {
               const a = cue(l.at, 0.4 + i * 0.5);
@@ -177,7 +177,7 @@ const SceneView: React.FC<{scene: Scene; spec: SurvivalSpec; frozen?: boolean}> 
             })}
             {scene.footer ? <div style={{fontFamily: MONO, fontWeight: 700, fontSize: 24, letterSpacing: 5, color: '#B42020', borderTop: '3px solid #B42020',
               paddingTop: 8, marginTop: 18}}>{scene.footer}</div> : null}
-            {scene.credit ? <div style={{fontFamily: MONO, fontSize: 18, color: S.inkDim, marginTop: 10}}>{scene.credit}</div> : null}
+            {scene.credit ? <div style={{fontFamily: MONO, fontSize: 24, color: S.inkDim, marginTop: 10}}>{scene.credit}</div> : null}
           </div>
           {t >= sw ? (
             <div style={{position: 'absolute', right: 60, top: 1000, width: 250, height: 250, borderRadius: 125, background: '#F5F1E6',
@@ -322,14 +322,15 @@ export const SurvivalShort: React.FC<{spec: SurvivalSpec}> = ({spec}) => {
           (a straight crossfade double-exposed two headline stacks, review 2026-11-17) */}
       <AbsoluteFill style={{opacity: 1 - clamp01(k * 2)}}>
         <SceneLayer scene={scene} spec={spec} t={t} W={W} H={H} />
+        {!hidden ? <Clock spec={spec.clock} t={t} big={bigness(spec, t)} W={W} /> : null}
       </AbsoluteFill>
-      {!hidden ? <Clock spec={spec.clock} t={t} big={bigness(spec, t)} W={W} /> : null}
       <Vignette />
       {k > 0.5 && cover ? (
         <AbsoluteFill style={{opacity: clamp01(k * 2 - 1)}}>
           <Backdrop />
           <SceneLayer scene={cover} spec={spec} t={0} W={W} H={H} frozen />
-          <Clock spec={spec.clock} t={0} big={1} W={W} />
+          {/* the clock exactly as frame 0 draws it, so the seam matches */}
+          {cover.clock !== 'hide' ? <Clock spec={spec.clock} t={0} big={bigness(spec, 0)} W={W} /> : null}
           <Vignette />
         </AbsoluteFill>
       ) : null}

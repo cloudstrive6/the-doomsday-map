@@ -26,7 +26,7 @@ The official rule: get inside, stay inside, stay tuned. This is public guidance,
 
 Rule 1. Get inside the nearest sturdy building. Now.
 
-Walls cut your dose. A car only halves it. A basement, about 10 times. The core of a big building, about 100 times.
+Walls cut your dose. A car only cuts it about in half. A basement, about 10 times. The core of a big building, about 100 times.
 
 ## The 4 steps
 
