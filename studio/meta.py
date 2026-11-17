@@ -134,6 +134,29 @@ def public_url(ep: Path, name: str) -> str:
     return f"https://github.com/{REPO}/releases/download/{PUBLIC_TAG}/{pub.name}"
 
 
+def survival_file(d: Path) -> Path:
+    """A Survival Clock Short's final.mp4, fetched from its draft release survival-NNN when not on disk (cloud)."""
+    f = d / "build" / "final.mp4"
+    if not f.exists():
+        f.parent.mkdir(parents=True, exist_ok=True)
+        subprocess.run(["gh", "release", "download", "survival-" + d.name[:3], "--repo", REPO, "--pattern", "final.mp4",
+                        "--dir", str(f.parent), "--clobber"], check=True)
+    return f
+
+
+def survival_public_url(d: Path) -> str:
+    """Put a live Survival Clock Short on the public release so Instagram can fetch it."""
+    f = survival_file(d)
+    pub = f.parent / f"survival-{d.name[:3]}.mp4"
+    if not pub.exists():
+        pub.write_bytes(f.read_bytes())
+    if _gh("release", "view", PUBLIC_TAG, check=False).returncode != 0:
+        subprocess.run(["gh", "release", "create", PUBLIC_TAG, "--repo", REPO, "--title", "Published media",
+                        "--notes", "Videos already public on YouTube, hosted for Facebook and Instagram to fetch."], check=True)
+    subprocess.run(["gh", "release", "upload", PUBLIC_TAG, "--repo", REPO, "--clobber", str(pub)], check=True)
+    return f"https://github.com/{REPO}/releases/download/{PUBLIC_TAG}/{pub.name}"
+
+
 # ------------------------------------------------------------------ publishing
 
 
@@ -288,6 +311,33 @@ def publish_due(dry_run: bool = False) -> list[str]:
                 if r:
                     done.append(r)
             sp.write_text(json.dumps(shorts, indent=2, ensure_ascii=False), encoding="utf-8")
+    # Survival Clock Shorts (shorts/survival/NNN-slug/uploaded.json, written by `studio survival publish`).
+    # Reels only: they run 75 to 90 s, over the 60 s Story limit.
+    for rp in sorted((ROOT / "shorts" / "survival").glob("*/uploaded.json")):
+        s = json.loads(rp.read_text(encoding="utf-8"))
+        if not (s.get("youtube_id") and _is_live(s.get("publish_at"))):
+            continue
+        d = rp.parent
+        pj = json.loads((d / "post.json").read_text(encoding="utf-8"))
+        tags = pj["hashtags"].replace("#shorts", "").strip()
+        fb_caption = f"{pj['ig_caption_title']}\n\n{pj['hook']}\n\nWatch on YouTube: {s['url']}\n\n{tags}"
+        ig_caption = f"{pj['ig_caption_title']}\n\n{pj['hook']}\n\n{pj['note']}\n\nMore simulations: The Doomsday Map (link in bio)\n\n{tags}"
+        sm = s.setdefault("social", {})
+        jobs = []
+        if cfg.get("facebook_reels", True):
+            jobs.append(("facebook", f"FB reel {d.name}", lambda d=d, c=fb_caption: facebook_reel(survival_file(d), c)))
+        if has_ig and cfg.get("instagram_reels", True):
+            jobs.append(("instagram", f"IG reel {d.name}", lambda d=d, c=ig_caption: instagram_reel(survival_public_url(d), c)))
+        for key, label, fn in jobs:
+            if sm.get(key) or sm.get(key + "_tries", 0) >= 3:
+                continue
+            if dry_run:
+                print("[dry]", label)
+                continue
+            r = _try(fn, label, sm, key, errors, key + "_tries")
+            if r:
+                done.append(r)
+        rp.write_text(json.dumps(s, indent=2, ensure_ascii=False), encoding="utf-8")
     if done:
         notify.send("Posted to Facebook/Instagram:\n" + "\n".join(done))
     if errors:

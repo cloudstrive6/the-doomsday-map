@@ -12,6 +12,9 @@ Produced here:
     python -m studio survival build <slug>       merge words into the spec, check every cue resolves
     python -m studio survival render <slug>      silent render + mix (narration at -14 LUFS, a quiet music bed)
     python -m studio survival sheet <slug>       contact sheet of one frame every 3 s for review
+    python -m studio survival publish <slug> --publish-at 2026-11-17T16:30:00Z
+                                                 YouTube upload (scheduled) from post.json; the cloud cross-poster
+                                                 adds the Instagram and Facebook Reels once it is live
 """
 from __future__ import annotations
 
@@ -147,6 +150,81 @@ def mix(slug: str) -> Path:
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *args, "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", str(final)], check=True)
     print("wrote", final)
     return final
+
+
+def _srt(words: list[dict], per: int = 7) -> str:
+    def ts(s: float) -> str:
+        ms = int(round(s * 1000))
+        return f"{ms // 3600000:02}:{ms // 60000 % 60:02}:{ms // 1000 % 60:02},{ms % 1000:03}"
+    out = []
+    for n, i in enumerate(range(0, len(words), per), 1):
+        g = words[i:i + per]
+        out.append(f"{n}\n{ts(g[0]['start'])} --> {ts(g[-1]['end'])}\n{' '.join(w['word'] for w in g)}\n")
+    return "\n".join(out)
+
+
+def publish(slug: str, publish_at: str) -> dict:
+    """Upload build/final.mp4 to YouTube, private with publishAt (UTC ISO), using post.json for title and text.
+    The file also goes to a draft release `survival-NNN` so the cloud cross-poster (meta.publish_due) can post the
+    Instagram and Facebook Reels once the Short is live. State: uploaded.json (committed). Idempotent."""
+    from googleapiclient.http import MediaFileUpload, MediaInMemoryUpload
+    from .config import load_config
+    from .meta import REPO
+    from .youtube import add_to_playlist, yt
+    d = short_dir(slug)
+    rec_path = d / "uploaded.json"
+    if rec_path.exists() and json.loads(rec_path.read_text(encoding="utf-8")).get("youtube_id"):
+        rec = json.loads(rec_path.read_text(encoding="utf-8"))
+        print("already uploaded:", rec["url"])
+        return rec
+    post = json.loads((d / "post.json").read_text(encoding="utf-8"))
+    final = d / "build" / "final.mp4"
+    cfg = load_config()
+    desc = "\n\n".join([post["hook"], post["save_line"], "Sources:\n" + "\n".join(post["sources"]), post["note"],
+                        "More simulations: @TheDoomsdayMap", cfg["channel"]["disclosure"], post["hashtags"]])
+    body = {
+        "snippet": {"title": post["yt_title"][:100], "description": desc, "tags": post["tags"][:20],
+                    "categoryId": cfg["channel"]["category_id"], "defaultLanguage": "en", "defaultAudioLanguage": "en"},
+        "status": {"privacyStatus": "private", "publishAt": publish_at, "embeddable": True, "license": "youtube",
+                   "selfDeclaredMadeForKids": bool(cfg["channel"]["made_for_kids"]), "containsSyntheticMedia": False},
+        "paidProductPlacementDetails": {"hasPaidProductPlacement": False},
+    }
+    api = yt()
+    req = api.videos().insert(part="snippet,status,paidProductPlacementDetails", body=body,
+                              media_body=MediaFileUpload(str(final), chunksize=16 * 1024 * 1024, resumable=True))
+    resp = None
+    while resp is None:
+        _, resp = req.next_chunk()
+    vid = resp["id"]
+    rec = {"id": d.name, "youtube_id": vid, "url": f"https://youtube.com/shorts/{vid}", "publish_at": publish_at,
+           "title": post["yt_title"], "warnings": [], "social": {}}
+    rec_path.write_text(json.dumps(rec, indent=2, ensure_ascii=False), encoding="utf-8")
+    words = d / "narration" / "words.json"
+    if words.exists():
+        try:
+            srt = _srt(json.loads(words.read_text(encoding="utf-8")))
+            api.captions().insert(part="snippet", body={"snippet": {"videoId": vid, "language": "en", "name": "English", "isDraft": False}},
+                                  media_body=MediaInMemoryUpload(srt.encode("utf-8"), mimetype="application/octet-stream")).execute()
+        except Exception as e:
+            rec["warnings"].append(f"captions: {e}")
+    try:
+        add_to_playlist(api, vid, "shorts")
+    except Exception as e:
+        rec["warnings"].append(f"playlist: {e}")
+    if not api.videos().list(part="status", id=vid).execute()["items"][0]["status"].get("publishAt"):
+        rec["warnings"].append("publishAt not kept")
+    tag = "survival-" + d.name[:3]
+    try:
+        if subprocess.run(["gh", "release", "view", tag, "--repo", REPO], capture_output=True).returncode != 0:
+            subprocess.run(["gh", "release", "create", tag, "--repo", REPO, "--draft", "--title", f"Survival Short {d.name}",
+                            "--notes", "Private media store for cross-posting.", str(final)], check=True)
+        else:
+            subprocess.run(["gh", "release", "upload", tag, "--repo", REPO, "--clobber", str(final)], check=True)
+    except Exception as e:
+        rec["warnings"].append(f"release: {e}")
+    rec_path.write_text(json.dumps(rec, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(json.dumps(rec, indent=1))
+    return rec
 
 
 def sheet(slug: str, every: float = 3.0) -> Path:
