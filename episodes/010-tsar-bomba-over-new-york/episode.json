@@ -1,0 +1,7875 @@
+{
+ "slug": "010-tsar-bomba-over-new-york",
+ "fps": 60,
+ "width": 1920,
+ "height": 1080,
+ "durationSeconds": 680.26,
+ "banner": {
+  "start": 1.8,
+  "end": 4.8
+ },
+ "musicPlan": [
+  {
+   "src": "bed_tense.mp3",
+   "from": 0,
+   "to": 32.175,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  },
+  {
+   "src": "bed.mp3",
+   "from": 30.175,
+   "to": 218.152,
+   "loop": [
+    2,
+    174
+   ],
+   "gain_db": -17
+  },
+  {
+   "src": "bed_tense.mp3",
+   "from": 216.152,
+   "to": 680.26,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  }
+ ],
+ "sfxPlan": [
+  {
+   "src": "impact.mp3",
+   "t": 31.325,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 130.086,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 217.302,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 299.782,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 390.85499999999996,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 558.01,
+   "gain_db": -9
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 97.91,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 160.79,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 188.91,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 280.67,
+   "gain_db": -14
+  },
+  {
+   "src": "boom.mp3",
+   "t": 2.1,
+   "gain_db": -4
+  },
+  {
+   "src": "boom.mp3",
+   "t": 54.148,
+   "gain_db": -4
+  },
+  {
+   "src": "boom.mp3",
+   "t": 67.17999999999999,
+   "gain_db": -4
+  },
+  {
+   "src": "boom.mp3",
+   "t": 337.17,
+   "gain_db": -4
+  },
+  {
+   "src": "boom.mp3",
+   "t": 347.92600000000004,
+   "gain_db": -4
+  },
+  {
+   "src": "boom.mp3",
+   "t": 137.35,
+   "gain_db": -4
+  }
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated.",
+ "shots": [
+  {
+   "id": "open-run",
+   "type": "region",
+   "start": 0,
+   "end": 2.0,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.4853,
+     40.7979
+    ],
+    "widthKm": 260
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.4853,
+      40.7979
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 2.0,
+     "center": [
+      -74.1061,
+      40.7346
+     ],
+     "widthKm": 150
+    }
+   ],
+   "clock": "T-00:02",
+   "clockLabel": "TO BURST",
+   "clockRate": 1,
+   "cities": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "Lower Manhattan",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -74.2483,
+      40.6713
+     ],
+     "label": "Newark",
+     "kind": "dot",
+     "t": 0.15
+    },
+    {
+     "at": [
+      -73.8572,
+      40.6623
+     ],
+     "label": "Brooklyn",
+     "kind": "dot",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -74.0824,
+      40.8341
+     ],
+     "label": "Hudson River",
+     "kind": "dot",
+     "t": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -74.7223,
+      40.7799
+     ],
+     "to": [
+      -74.0113,
+      40.7075
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 0.1,
+     "t1": 1.9
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -74.7223,
+       40.7799
+      ],
+      [
+       -74.0113,
+       40.7075
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 1.95,
+     "kind": "pla",
+     "color": "#FFFFFF",
+     "label": "Bomber",
+     "size": 1.8,
+     "t": 0.1,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "open-flash",
+   "type": "city",
+   "start": 2.0,
+   "end": 6.704,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 14
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 14
+    },
+    {
+     "t": 0.1,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 22
+    },
+    {
+     "t": 4.7,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 34
+    }
+   ],
+   "rings": [
+    {
+     "km": 4.618,
+     "label": "Fireball: 9.2 km wide",
+     "color": "#FFFFFF",
+     "t": 0.7,
+     "angle": 215
+    },
+    {
+     "km": 5.079,
+     "label": "20 psi",
+     "color": "#FF3B3B",
+     "t": 2.6,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.7753
+     ],
+     "text": "Lower Manhattan",
+     "color": "#FFFFFF",
+     "t": 1.0
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "NEW YORK · SIMULATED",
+   "clockRate": 1,
+   "flashT": 0.1,
+   "caption": "One 50 megaton airburst. Simulation: it has not happened."
+  },
+  {
+   "id": "open-sim",
+   "type": "region",
+   "start": 6.704,
+   "end": 12.345,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 330
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 330
+    },
+    {
+     "t": 2.15,
+     "center": [
+      -74.1535,
+      40.7346
+     ],
+     "widthKm": 230
+    },
+    {
+     "t": 5.64,
+     "center": [
+      -74.0824,
+      40.7256
+     ],
+     "widthKm": 160
+    }
+   ],
+   "clock": "T+00:20",
+   "clockLabel": "AFTER THE FLASH",
+   "clockRate": 0,
+   "countryLabels": [
+    {
+     "iso": "840",
+     "text": "UNITED STATES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "Ground zero",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -74.3431,
+      40.6532
+     ],
+     "label": "Newark",
+     "kind": "dot",
+     "t": 1.39
+    },
+    {
+     "at": [
+      -73.7743,
+      40.6532
+     ],
+     "label": "Brooklyn",
+     "kind": "dot",
+     "t": 2.69
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -73.5373,
+      40.9969
+     ],
+     "text": "A simulation: not a prediction",
+     "color": "#FFD23F",
+     "t": 0.69
+    },
+    {
+     "at": [
+      -73.5373,
+      40.4181
+     ],
+     "text": "It has not happened",
+     "color": "#FF3B3B",
+     "t": 4.31
+    }
+   ]
+  },
+  {
+   "id": "open-bomber",
+   "type": "region",
+   "start": 12.345,
+   "end": 18.07,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -63.0,
+     40.5
+    ],
+    "widthKm": 1700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -63.0,
+      40.5
+     ],
+     "widthKm": 1700
+    },
+    {
+     "t": 1.84,
+     "center": [
+      -66.0,
+      40.6
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 5.72,
+     "center": [
+      -68.0,
+      40.6
+     ],
+     "widthKm": 1100
+    }
+   ],
+   "clock": "T-62:00",
+   "clockLabel": "TO BURST",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -63.0,
+      40.5
+     ],
+     "label": "Heavy bomber (simulated)",
+     "kind": "base",
+     "t": 2.1,
+     "color": "#FFFFFF",
+     "size": 6
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "New York",
+     "kind": "target",
+     "t": 0.5,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -63.0,
+      40.5
+     ],
+     "to": [
+      -74.0113,
+      40.7075
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 3.1,
+     "t1": 5.71,
+     "label": "About 930 km"
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.16)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "840",
+     "text": "UNITED STATES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 929.3,
+     "label": "930 km from New York",
+     "color": "#FFFFFF",
+     "t": 0.4,
+     "dashed": true
+    }
+   ]
+  },
+  {
+   "id": "open-atlantic",
+   "type": "region",
+   "start": 18.07,
+   "end": 21.345,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -68.0,
+     40.6
+    ],
+    "widthKm": 1100
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -68.0,
+      40.6
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 1.4,
+     "center": [
+      -70.0,
+      40.7
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 3.27,
+     "center": [
+      -72.0,
+      40.7
+     ],
+     "widthKm": 520
+    }
+   ],
+   "clock": "T-62:00",
+   "clockLabel": "TO BURST",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -63.0,
+      40.5
+     ],
+     "label": "Release point",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#FFFFFF",
+     "size": 6
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "New York",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -63.0,
+       40.5
+      ],
+      [
+       -74.0113,
+       40.7075
+      ]
+     ],
+     "t0": 1.4,
+     "t1": 2.97,
+     "kind": "pla",
+     "color": "#FFFFFF",
+     "label": "One bomb aboard",
+     "size": 1.8,
+     "t": 1.4,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -69.0,
+      38.6
+     ],
+     "text": "North Atlantic",
+     "color": "#8A8F98",
+     "t": 0.3
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.16)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "840",
+     "text": "UNITED STATES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 929.3,
+     "label": "930 km from New York",
+     "color": "#FFFFFF",
+     "t": 0.4,
+     "dashed": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -63.0,
+      40.5
+     ],
+     "to": [
+      -74.0113,
+      40.7075
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 0.5,
+     "t1": 2.5
+    }
+   ]
+  },
+  {
+   "id": "open-nz",
+   "type": "globe",
+   "start": 21.345,
+   "end": 25.167,
+   "tag": "REAL DATA",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 66,
+     "lon": 62,
+     "scale": 900
+    },
+    {
+     "t": 1.87,
+     "lat": 70,
+     "lon": 60,
+     "scale": 1500
+    },
+    {
+     "t": 3.82,
+     "lat": 73,
+     "lon": 56,
+     "scale": 2400
+    }
+   ],
+   "sun": {
+    "lat": -21.07,
+    "lon": -55.59
+   },
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      54.9,
+      73.8
+     ],
+     "label": "Largest bomb ever tested: 1961",
+     "color": "#F2B01E",
+     "kind": "target",
+     "size": 6,
+     "t": 1.87
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      54.9,
+      73.8
+     ],
+     "to": [
+      -74.0113,
+      40.7075
+     ],
+     "t0": 1.21,
+     "t1": 4.21,
+     "color": "#FFFFFF",
+     "loft": 0.3
+    }
+   ]
+  },
+  {
+   "id": "open-reach",
+   "type": "region",
+   "start": 25.167,
+   "end": 31.175,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 260
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 1.8,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 170
+    },
+    {
+     "t": 6.01,
+     "center": [
+      -74.0113,
+      40.7437
+     ],
+     "widthKm": 150
+    }
+   ],
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "Lower Manhattan",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -74.272,
+      40.6532
+     ],
+     "label": "Newark",
+     "kind": "dot",
+     "t": 1.2
+    },
+    {
+     "at": [
+      -73.7269,
+      40.6532
+     ],
+     "label": "Brooklyn",
+     "kind": "dot",
+     "t": 1.6
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 24.946,
+     "label": "How far?",
+     "color": "#FFD23F",
+     "t": 1.8,
+     "dashed": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.7223,
+      41.0331
+     ],
+     "text": "A map you know",
+     "color": "#FFFFFF",
+     "t": 3.88
+    }
+   ]
+  },
+  {
+   "id": "c1-card",
+   "type": "chapter",
+   "start": 31.175,
+   "end": 34.67,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 01",
+   "title": "The bomb that was tested"
+  },
+  {
+   "id": "c1-bomber",
+   "type": "region",
+   "start": 34.67,
+   "end": 42.304,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     48.0,
+     71.0
+    ],
+    "widthKm": 2200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      48.0,
+      71.0
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 3.86,
+     "center": [
+      52.0,
+      72.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 7.63,
+     "center": [
+      55.0,
+      73.5
+     ],
+     "widthKm": 1100
+    }
+   ],
+   "source": "Arms Control Center; RFE/RL; Nuclear Weapon Archive",
+   "clock": "30 OCT 1961",
+   "clockLabel": "NOVAYA ZEMLYA",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "643",
+     "text": "SOVIET UNION",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      54.9,
+      73.8
+     ],
+     "label": "Novaya Zemlya",
+     "kind": "target",
+     "t": 3.86,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       40.0,
+       69.0
+      ],
+      [
+       54.9,
+       73.8
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 7.33,
+     "kind": "pla",
+     "color": "#F2B01E",
+     "label": "Soviet bomber",
+     "size": 1.8,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      53.0,
+      70.0
+     ],
+     "text": "Climbs to about 10.5 km",
+     "color": "#FFFFFF",
+     "t": 0.76
+    },
+    {
+     "at": [
+      53.0,
+      69.0
+     ],
+     "text": "An island in the Arctic",
+     "color": "#F2B01E",
+     "t": 5.52
+    }
+   ]
+  },
+  {
+   "id": "c1-tonnes",
+   "type": "number",
+   "start": 42.304,
+   "end": 45.47,
+   "tag": "REAL DATA",
+   "value": "27 TONNES",
+   "label": "the bomb's weight",
+   "sub": "hung under a parachute",
+   "color": "#F2B01E",
+   "countTo": 27,
+   "suffix": " TONNES",
+   "source": "Arms Control Center; RFE/RL; Nuclear Weapon Archive"
+  },
+  {
+   "id": "c1-metres",
+   "type": "number",
+   "start": 45.47,
+   "end": 48.67,
+   "tag": "REAL DATA",
+   "value": "8 METRES",
+   "label": "the bomb's length",
+   "sub": "",
+   "color": "#F2B01E",
+   "countTo": 8,
+   "suffix": " METRES",
+   "source": "Arms Control Center; RFE/RL; Nuclear Weapon Archive"
+  },
+  {
+   "id": "c1-chute",
+   "type": "region",
+   "start": 48.67,
+   "end": 54.048,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     55,
+     73.5
+    ],
+    "widthKm": 600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      55,
+      73.5
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 1.86,
+     "center": [
+      55,
+      73.5
+     ],
+     "widthKm": 420
+    },
+    {
+     "t": 5.38,
+     "center": [
+      55,
+      73.2
+     ],
+     "widthKm": 300
+    }
+   ],
+   "source": "Arms Control Center; RFE/RL; Nuclear Weapon Archive",
+   "clock": "30 OCT 1961",
+   "clockLabel": "NOVAYA ZEMLYA",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      54.9,
+      73.8
+     ],
+     "label": "Release point",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       53.0,
+       73.9
+      ],
+      [
+       56.5,
+       73.7
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 4.88,
+     "kind": "pla",
+     "color": "#F2B01E",
+     "label": "Bomber flies clear",
+     "size": 1.8,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      57.0,
+      74.9
+     ],
+     "text": "Parachute: about 3 minutes",
+     "color": "#FFD23F",
+     "t": 0.1
+    }
+   ]
+  },
+  {
+   "id": "c1-burst",
+   "type": "region",
+   "start": 54.048,
+   "end": 58.65,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     54.9,
+     73.8
+    ],
+    "widthKm": 800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      54.9,
+      73.8
+     ],
+     "widthKm": 800
+    },
+    {
+     "t": 4.6,
+     "center": [
+      54.9,
+      73.8
+     ],
+     "widthKm": 500
+    }
+   ],
+   "source": "Arms Control Center; RFE/RL; Nuclear Weapon Archive",
+   "clock": "30 OCT 1961",
+   "clockLabel": "NOVAYA ZEMLYA",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "burst": {
+    "at": [
+     54.9,
+     73.8
+    ],
+    "t": 0.1,
+    "km": 9,
+    "fade": 4
+   },
+   "labels": [
+    {
+     "at": [
+      56.0,
+      75.5
+     ],
+     "text": "Explodes at about 4,000 m",
+     "color": "#FFFFFF",
+     "t": 3.2
+    }
+   ]
+  },
+  {
+   "id": "c1-50",
+   "type": "number",
+   "start": 58.65,
+   "end": 61.709,
+   "tag": "REAL DATA",
+   "value": "50 MEGATONS",
+   "label": "the Soviet figure for the 1961 test",
+   "sub": "",
+   "color": "#F2B01E",
+   "countTo": 50,
+   "suffix": " MEGATONS",
+   "source": "Arms Control Center; RFE/RL; Nuclear Weapon Archive"
+  },
+  {
+   "id": "c1-58",
+   "type": "region",
+   "start": 61.709,
+   "end": 67.08,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     54.9,
+     73.8
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      54.9,
+      73.8
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 2.12,
+     "center": [
+      48,
+      72
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 5.37,
+     "center": [
+      40,
+      68
+     ],
+     "widthKm": 2200
+    }
+   ],
+   "source": "Arms Control Center; RFE/RL; Nuclear Weapon Archive",
+   "clock": "30 OCT 1961",
+   "clockLabel": "NOVAYA ZEMLYA",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      54.9,
+      73.8
+     ],
+     "label": "1961 test: 50 Mt (Soviet figure)",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      54.0,
+      70.4
+     ],
+     "text": "American estimates: higher",
+     "color": "#6EA8FF",
+     "t": 0.4
+    },
+    {
+     "at": [
+      54.0,
+      69.2
+     ],
+     "text": "Published: up to about 58 Mt",
+     "color": "#FFD23F",
+     "t": 3.7
+    }
+   ]
+  },
+  {
+   "id": "c1-fireball",
+   "type": "region",
+   "start": 67.08,
+   "end": 70.65,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     54.9,
+     73.8
+    ],
+    "widthKm": 400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      54.9,
+      73.8
+     ],
+     "widthKm": 400
+    },
+    {
+     "t": 3.57,
+     "center": [
+      54.9,
+      73.8
+     ],
+     "widthKm": 200
+    }
+   ],
+   "source": "Arms Control Center; RFE/RL; Nuclear Weapon Archive",
+   "clock": "30 OCT 1961",
+   "clockLabel": "NOVAYA ZEMLYA",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "burst": {
+    "at": [
+     54.9,
+     73.8
+    ],
+    "t": 0.1,
+    "km": 8,
+    "fade": 3
+   },
+   "rings": [
+    {
+     "at": [
+      54.9,
+      73.8
+     ],
+     "km": 4.0,
+     "label": "Fireball: about 8 km wide",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "dashed": false
+    }
+   ]
+  },
+  {
+   "id": "c1-cloud",
+   "type": "number",
+   "start": 70.65,
+   "end": 74.37,
+   "tag": "REAL DATA",
+   "value": "65 KM",
+   "label": "how high the cloud climbs",
+   "sub": "",
+   "color": "#F2B01E",
+   "countTo": 65,
+   "suffix": " KM",
+   "source": "Arms Control Center; RFE/RL; Nuclear Weapon Archive"
+  },
+  {
+   "id": "c1-pushed",
+   "type": "number",
+   "start": 74.37,
+   "end": 78.34,
+   "tag": "REAL DATA",
+   "value": "1,000 M",
+   "label": "the shock wave pushes the bomber down",
+   "sub": "",
+   "color": "#F2B01E",
+   "countTo": 1000,
+   "suffix": " M",
+   "source": "Arms Control Center; RFE/RL; Nuclear Weapon Archive"
+  },
+  {
+   "id": "c1-earth",
+   "type": "globe",
+   "start": 78.34,
+   "end": 83.025,
+   "tag": "REAL DATA",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 40,
+     "lon": 70,
+     "scale": 900
+    },
+    {
+     "t": 4.69,
+     "lat": 10,
+     "lon": 120,
+     "scale": 1100
+    }
+   ],
+   "sun": {
+    "lat": -21.07,
+    "lon": -55.59
+   },
+   "source": "Arms Control Center; RFE/RL; Nuclear Weapon Archive",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      54.9,
+      73.8
+     ],
+     "label": "Pressure wave circles the Earth 3 times",
+     "color": "#F2B01E",
+     "kind": "target",
+     "size": 6,
+     "t": 0.2
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      54.9,
+      73.8
+     ],
+     "to": [
+      -125.0,
+      -73.0
+     ],
+     "t0": 0.4,
+     "t1": 2.4,
+     "color": "#FFFFFF",
+     "loft": 0.05
+    },
+    {
+     "from": [
+      54.9,
+      73.8
+     ],
+     "to": [
+      -125.0,
+      -73.0
+     ],
+     "t0": 2.4,
+     "t1": 4.4,
+     "color": "#FFD23F",
+     "loft": 0.08
+    }
+   ]
+  },
+  {
+   "id": "c1-ours",
+   "type": "city",
+   "start": 83.025,
+   "end": 89.023,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 18
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 18
+    },
+    {
+     "t": 3.49,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 14
+    },
+    {
+     "t": 6.0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 24
+    }
+   ],
+   "rings": [
+    {
+     "km": 4.618,
+     "label": "Our engine: 9.2 km wide",
+     "color": "#FFFFFF",
+     "t": 0.4,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.7708
+     ],
+     "text": "The fireball at the start of this video",
+     "color": "#FFD23F",
+     "t": 1.82
+    }
+   ],
+   "clock": ""
+  },
+  {
+   "id": "c1-1961",
+   "type": "city",
+   "start": 89.023,
+   "end": 92.137,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 24
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 24
+    },
+    {
+     "t": 3.11,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 12
+    }
+   ],
+   "rings": [
+    {
+     "km": 4.618,
+     "label": "Ours: 9.2 km",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "angle": 215
+    },
+    {
+     "km": 4.0,
+     "label": "1961: about 8 km",
+     "color": "#F2B01E",
+     "t": 0.5,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.7799
+     ],
+     "text": "Same size on the same map",
+     "color": "#FFFFFF",
+     "t": 1.5
+    }
+   ],
+   "clock": ""
+  },
+  {
+   "id": "c1-twice",
+   "type": "region",
+   "start": 92.137,
+   "end": 98.31,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     54.9,
+     73.8
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      54.9,
+      73.8
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 2.61,
+     "center": [
+      52,
+      72
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 6.17,
+     "center": [
+      50,
+      70
+     ],
+     "widthKm": 2000
+    }
+   ],
+   "source": "Arms Control Center; RFE/RL; Nuclear Weapon Archive",
+   "clock": "AUG 1961",
+   "clockLabel": "THE DESIGN CHANGE",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      54.9,
+      73.8
+     ],
+     "label": "The test site",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      58.0,
+      70.0
+     ],
+     "text": "Full design: about 100 Mt",
+     "color": "#FF3B3B",
+     "t": 0.99
+    },
+    {
+     "at": [
+      58.0,
+      68.8
+     ],
+     "text": "Tested: 50 Mt",
+     "color": "#F2B01E",
+     "t": 2.61
+    }
+   ]
+  },
+  {
+   "id": "c1-lead",
+   "type": "stamp",
+   "start": 98.31,
+   "end": 103.13,
+   "tag": "REAL DATA",
+   "text": "URANIUM SWAPPED FOR LEAD",
+   "line": "Sakharov's team, final stage",
+   "color": "#F2B01E",
+   "source": "Arms Control Center; RFE/RL; Nuclear Weapon Archive"
+  },
+  {
+   "id": "c1-97",
+   "type": "number",
+   "start": 103.13,
+   "end": 107.689,
+   "tag": "REAL DATA",
+   "value": "97%",
+   "label": "of the fallout removed",
+   "sub": "the full design would have been far dirtier",
+   "color": "#F2B01E",
+   "countTo": 97,
+   "suffix": "%",
+   "source": "Arms Control Center; RFE/RL; Nuclear Weapon Archive"
+  },
+  {
+   "id": "c1-missile",
+   "type": "globe",
+   "start": 107.689,
+   "end": 111.35,
+   "tag": "REAL DATA",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 60,
+     "lon": 50,
+     "scale": 1000
+    },
+    {
+     "t": 3.66,
+     "lat": 50,
+     "lon": 5,
+     "scale": 1300
+    }
+   ],
+   "sun": {
+    "lat": -21.07,
+    "lon": -55.59
+   },
+   "source": "Arms Control Center; RFE/RL; Nuclear Weapon Archive",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Too big for any missile of its time",
+     "color": "#F2B01E",
+     "kind": "base",
+     "size": 5,
+     "t": 1.9
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      37.62,
+      55.75
+     ],
+     "to": [
+      -77.04,
+      38.9
+     ],
+     "t0": 0.48,
+     "t1": 2.98,
+     "color": "#8A8F98",
+     "loft": 0.4
+    }
+   ]
+  },
+  {
+   "id": "c1-small",
+   "type": "region",
+   "start": 111.35,
+   "end": 118.87,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 2.44,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 7.52,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 300
+    }
+   ],
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "Missiles today",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -73.5373,
+      40.9788
+     ],
+     "text": "Largest missile warheads today",
+     "color": "#6EA8FF",
+     "t": 0.1
+    },
+    {
+     "at": [
+      -73.5373,
+      40.8884
+     ],
+     "text": "Far smaller",
+     "color": "#FFFFFF",
+     "t": 2.44
+    },
+    {
+     "at": [
+      -73.5373,
+      40.7979
+     ],
+     "text": "Federation of American Scientists",
+     "color": "#FFD23F",
+     "t": 4.24
+    }
+   ]
+  },
+  {
+   "id": "c1-bars2",
+   "type": "bars",
+   "start": 118.87,
+   "end": 124.07000000000001,
+   "tag": "REAL DATA",
+   "title": "Warhead yield, in kilotons",
+   "sub": "the 1961 bomb against missile warheads today",
+   "source": "Federation of American Scientists; Arms Control Center",
+   "bars": [
+    {
+     "label": "1961 bomb",
+     "value": 50000,
+     "display": "50,000 kt",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "Russia SS-18 (500 to 800 kt)",
+     "value": 800,
+     "display": "up to 800 kt",
+     "color": "#6EA8FF"
+    }
+   ]
+  },
+  {
+   "id": "c1-since",
+   "type": "globe",
+   "start": 124.07000000000001,
+   "end": 129.936,
+   "tag": "REAL DATA",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 55,
+     "lon": 30,
+     "scale": 1000
+    },
+    {
+     "t": 2.32,
+     "lat": 40,
+     "lon": 0,
+     "scale": 1100
+    },
+    {
+     "t": 5.87,
+     "lat": 30,
+     "lon": -60,
+     "scale": 1200
+    }
+   ],
+   "sun": {
+    "lat": -21.07,
+    "lon": -55.59
+   },
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      54.9,
+      73.8
+     ],
+     "label": "1961: the last one",
+     "color": "#F2B01E",
+     "kind": "target",
+     "size": 6,
+     "t": 0.3
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "Nobody since",
+     "color": "#FFFFFF",
+     "kind": "dot",
+     "t": 1.78
+    }
+   ]
+  },
+  {
+   "id": "c2-card",
+   "type": "chapter",
+   "start": 129.936,
+   "end": 133.44,
+   "tag": "REAL HISTORY",
+   "kicker": "CHAPTER 02",
+   "title": "How close, and how fast"
+  },
+  {
+   "id": "c2-bravo",
+   "type": "region",
+   "start": 133.44,
+   "end": 142.753,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     165.38,
+     11.6
+    ],
+    "widthKm": 1800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      165.38,
+      11.6
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 1.77,
+     "center": [
+      165.38,
+      11.6
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 3.91,
+     "center": [
+      165.4,
+      11.8
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 9.31,
+     "center": [
+      165.8,
+      11.9
+     ],
+     "widthKm": 420
+    }
+   ],
+   "source": "Arms Control Association; Nuclear Threat Initiative",
+   "clock": "MARCH 1954",
+   "clockLabel": "CASTLE BRAVO",
+   "clockRate": 0,
+   "burst": {
+    "at": [
+     165.38,
+     11.6
+    ],
+    "t": 3.91,
+    "km": 10,
+    "fade": 4
+   },
+   "cities": [
+    {
+     "at": [
+      165.38,
+      11.6
+     ],
+     "label": "Bikini Atoll",
+     "kind": "target",
+     "t": 1.77,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      168.0,
+      13.6
+     ],
+     "text": "American test: Castle Bravo",
+     "color": "#FFFFFF",
+     "t": 0.48
+    },
+    {
+     "at": [
+      168.0,
+      12.8
+     ],
+     "text": "15 Mt: 2.5 times what designers expected",
+     "color": "#FFD23F",
+     "t": 5.95
+    }
+   ]
+  },
+  {
+   "id": "c2-fallout",
+   "type": "region",
+   "start": 142.753,
+   "end": 150.692,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     165.38,
+     11.6
+    ],
+    "widthKm": 700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      165.38,
+      11.6
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 0.38,
+     "center": [
+      167.5,
+      11.5
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 4.16,
+     "center": [
+      168.5,
+      11.5
+     ],
+     "widthKm": 1900
+    },
+    {
+     "t": 7.94,
+     "center": [
+      168.5,
+      11.5
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "source": "Arms Control Association; Nuclear Threat Initiative",
+   "clock": "MARCH 1954",
+   "clockLabel": "CASTLE BRAVO",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      165.38,
+      11.6
+     ],
+     "label": "Bikini Atoll",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      171.0,
+      14.5
+     ],
+     "text": "Fallout: over 7,000 square miles",
+     "color": "#FFD23F",
+     "t": 1.44
+    },
+    {
+     "at": [
+      171.0,
+      9.6
+     ],
+     "text": "Marshall Islanders",
+     "color": "#FFFFFF",
+     "t": 4.16
+    },
+    {
+     "at": [
+      171.0,
+      8.6
+     ],
+     "text": "A Japanese fishing crew",
+     "color": "#FFFFFF",
+     "t": 5.74
+    }
+   ]
+  },
+  {
+   "id": "c2-3x",
+   "type": "number",
+   "start": 150.692,
+   "end": 154.224,
+   "tag": "REAL HISTORY",
+   "value": "ABOUT 3 TIMES",
+   "label": "Tsar Bomba against Castle Bravo",
+   "sub": "",
+   "color": "#F2B01E",
+   "countTo": 3,
+   "prefix": "ABOUT ",
+   "suffix": " TIMES",
+   "source": "Arms Control Association; Nuclear Threat Initiative"
+  },
+  {
+   "id": "c2-treaty",
+   "type": "globe",
+   "start": 154.224,
+   "end": 161.19,
+   "tag": "REAL HISTORY",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 50,
+     "lon": 20,
+     "scale": 900
+    },
+    {
+     "t": 4.22,
+     "lat": 48,
+     "lon": 15,
+     "scale": 1000
+    },
+    {
+     "t": 6.97,
+     "lat": 45,
+     "lon": -20,
+     "scale": 1300
+    }
+   ],
+   "sun": {
+    "lat": -21.07,
+    "lon": -55.59
+   },
+   "source": "Arms Control Association; Nuclear Threat Initiative",
+   "clock": "AUG 1963",
+   "clockLabel": "THE TREATY",
+   "clockRate": 0,
+   "markers": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Soviet Union",
+     "color": "#F2B01E",
+     "kind": "base",
+     "size": 5,
+     "t": 2.91
+    },
+    {
+     "at": [
+      -0.13,
+      51.5
+     ],
+     "label": "Britain",
+     "color": "#6EA8FF",
+     "kind": "dot",
+     "t": 4.22
+    },
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "United States",
+     "color": "#6EA8FF",
+     "kind": "base",
+     "size": 5,
+     "t": 5.01
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      37.62,
+      55.75
+     ],
+     "to": [
+      -0.13,
+      51.5
+     ],
+     "t0": 4.22,
+     "t1": 6.22,
+     "color": "#FFFFFF",
+     "loft": 0.1
+    },
+    {
+     "from": [
+      -0.13,
+      51.5
+     ],
+     "to": [
+      -77.04,
+      38.9
+     ],
+     "t0": 5.01,
+     "t1": 7.01,
+     "color": "#FFFFFF",
+     "loft": 0.2
+    }
+   ]
+  },
+  {
+   "id": "c2-ban",
+   "type": "stamp",
+   "start": 161.19,
+   "end": 165.965,
+   "tag": "REAL HISTORY",
+   "text": "NO TESTS: AIR · SPACE · UNDERWATER",
+   "line": "Partial Test Ban Treaty, 1963",
+   "color": "#FFFFFF",
+   "source": "Arms Control Association; Nuclear Threat Initiative"
+  },
+  {
+   "id": "c2-under",
+   "type": "globe",
+   "start": 165.965,
+   "end": 172.619,
+   "tag": "REAL HISTORY",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 38,
+     "lon": -110,
+     "scale": 1100
+    },
+    {
+     "t": 3.28,
+     "lat": 38,
+     "lon": -90,
+     "scale": 1300
+    },
+    {
+     "t": 6.65,
+     "lat": 36,
+     "lon": -60,
+     "scale": 1500
+    }
+   ],
+   "sun": {
+    "lat": -21.07,
+    "lon": -55.59
+   },
+   "source": "Arms Control Association; Nuclear Threat Initiative",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -116.0,
+      37.0
+     ],
+     "label": "Underground tests go on",
+     "color": "#FFFFFF",
+     "kind": "dot",
+     "t": 0.4
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "No open-air test since",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 5,
+     "t": 5.04
+    }
+   ]
+  },
+  {
+   "id": "c2-modelled",
+   "type": "city",
+   "start": 172.619,
+   "end": 177.001,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 60
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 60
+    },
+    {
+     "t": 4.38,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 80
+    }
+   ],
+   "rings": [
+    {
+     "km": 24.946,
+     "label": "5 psi: modelled",
+     "color": "#FFD23F",
+     "t": 0.3,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.9879
+     ],
+     "text": "Our rings are modelled, not measured",
+     "color": "#FFD23F",
+     "t": 1.65
+    }
+   ],
+   "clock": ""
+  },
+  {
+   "id": "c2-thinner",
+   "type": "globe",
+   "start": 177.001,
+   "end": 184.594,
+   "tag": "REAL HISTORY",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 50,
+     "lon": 40,
+     "scale": 1000
+    },
+    {
+     "t": 2.3,
+     "lat": 55,
+     "lon": 38,
+     "scale": 900
+    },
+    {
+     "t": 7.59,
+     "lat": 55,
+     "lon": 30,
+     "scale": 800
+    }
+   ],
+   "sun": {
+    "lat": -21.07,
+    "lon": -55.59
+   },
+   "source": "Arms Control Association; Reuters",
+   "clock": "NOV 2023",
+   "clockLabel": "RUSSIA WITHDREW",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Withdrew its test-ban ratification",
+     "color": "#F2B01E",
+     "kind": "base",
+     "size": 5,
+     "t": 2.3
+    }
+   ]
+  },
+  {
+   "id": "c2-newstart",
+   "type": "globe",
+   "start": 184.594,
+   "end": 189.31,
+   "tag": "REAL HISTORY",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 50,
+     "lon": -20,
+     "scale": 1000
+    },
+    {
+     "t": 4.72,
+     "lat": 48,
+     "lon": -30,
+     "scale": 1400
+    }
+   ],
+   "sun": {
+    "lat": -21.07,
+    "lon": -55.59
+   },
+   "source": "Arms Control Association; Reuters",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Russia",
+     "color": "#F2B01E",
+     "kind": "base",
+     "size": 5,
+     "t": 0.3
+    },
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "United States",
+     "color": "#6EA8FF",
+     "kind": "base",
+     "size": 5,
+     "t": 1.1
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      37.62,
+      55.75
+     ],
+     "to": [
+      -77.04,
+      38.9
+     ],
+     "t0": 0.68,
+     "t1": 3.18,
+     "color": "#FFFFFF",
+     "loft": 0.4
+    }
+   ],
+   "caption": "The last cap on long-range warheads."
+  },
+  {
+   "id": "c2-expired",
+   "type": "stamp",
+   "start": 189.31,
+   "end": 192.252,
+   "tag": "REAL HISTORY",
+   "text": "NEW START EXPIRED",
+   "line": "5 February 2026",
+   "color": "#F2B01E",
+   "source": "Arms Control Association; Reuters"
+  },
+  {
+   "id": "c2-notest",
+   "type": "city",
+   "start": 192.252,
+   "end": 198.041,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 40
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 40
+    },
+    {
+     "t": 3.23,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 55
+    },
+    {
+     "t": 5.79,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 30
+    }
+   ],
+   "rings": [
+    {
+     "km": 4.618,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 3.23,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.8341
+     ],
+     "text": "No explosive test reported by either side",
+     "color": "#FFFFFF",
+     "t": 0.16
+    },
+    {
+     "at": [
+      -74.0113,
+      40.5899
+     ],
+     "text": "None of this points at New York",
+     "color": "#FFD23F",
+     "t": 3.23
+    }
+   ],
+   "clock": ""
+  },
+  {
+   "id": "c2-62",
+   "type": "region",
+   "start": 198.041,
+   "end": 206.587,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -66.0,
+     40.6
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -66.0,
+      40.6
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 4.87,
+     "center": [
+      -67.0,
+      40.6
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 8.55,
+     "center": [
+      -68.0,
+      40.7
+     ],
+     "widthKm": 800
+    }
+   ],
+   "clock": "T-62:00",
+   "clockLabel": "TO BURST",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -63.0,
+      40.5
+     ],
+     "label": "Release point",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#FFFFFF",
+     "size": 6
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "Burst point",
+     "kind": "target",
+     "t": 6.91,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -63.0,
+       40.5
+      ],
+      [
+       -74.0113,
+       40.7075
+      ]
+     ],
+     "t0": 2.69,
+     "t1": 8.25,
+     "kind": "pla",
+     "color": "#FFFFFF",
+     "label": "Bomber",
+     "size": 1.8,
+     "t": 2.69,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -69.5,
+      38.9
+     ],
+     "text": "62 minutes by bomber",
+     "color": "#FFD23F",
+     "t": 4.87
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.16)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "840",
+     "text": "UNITED STATES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 929.3,
+     "label": "930 km from New York",
+     "color": "#FFFFFF",
+     "t": 0.4,
+     "dashed": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -63.0,
+      40.5
+     ],
+     "to": [
+      -74.0113,
+      40.7075
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 0.5,
+     "t1": 2.5
+    }
+   ]
+  },
+  {
+   "id": "c2-23",
+   "type": "globe",
+   "start": 206.587,
+   "end": 213.705,
+   "tag": "SIMULATION",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 62,
+     "lon": 20,
+     "scale": 900
+    },
+    {
+     "t": 2.97,
+     "lat": 58,
+     "lon": -10,
+     "scale": 1100
+    },
+    {
+     "t": 7.12,
+     "lat": 50,
+     "lon": -50,
+     "scale": 1300
+    }
+   ],
+   "sun": {
+    "lat": -21.07,
+    "lon": -55.59
+   },
+   "clock": "",
+   "highlight": [],
+   "markers": [
+    {
+     "at": [
+      60.0,
+      68.0
+     ],
+     "label": "Arctic launch (simulated)",
+     "color": "#FFFFFF",
+     "kind": "base",
+     "size": 5,
+     "t": 2.97
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "New York",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 5,
+     "t": 0.3
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      60.0,
+      68.0
+     ],
+     "to": [
+      -74.0113,
+      40.7075
+     ],
+     "t0": 2.97,
+     "t1": 6.17,
+     "color": "#FFD23F",
+     "loft": 0.5
+    }
+   ],
+   "caption": "An 800 kiloton missile warhead: 23 minutes."
+  },
+  {
+   "id": "c2-tl",
+   "type": "timeline",
+   "start": 213.705,
+   "end": 217.152,
+   "tag": "SIMULATION",
+   "title": "The bomber's flight",
+   "sub": "release over the Atlantic to the burst point",
+   "total": 62,
+   "unit": "minutes",
+   "segments": [
+    {
+     "from": 0,
+     "to": 62,
+     "label": "62 minutes, nothing else on the map",
+     "color": "#FFD23F"
+    }
+   ],
+   "highlight": {
+    "from": 0,
+    "to": 62,
+    "label": "T-62:00 to T+00:00"
+   },
+   "cursorTo": 62
+  },
+  {
+   "id": "c3-card",
+   "type": "chapter",
+   "start": 217.152,
+   "end": 220.65,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 03",
+   "title": "The release"
+  },
+  {
+   "id": "c3-noattacker",
+   "type": "region",
+   "start": 220.65,
+   "end": 226.474,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 2.22,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 5.82,
+     "center": [
+      -74.0113,
+      40.7256
+     ],
+     "widthKm": 380
+    }
+   ],
+   "clock": "T-62:00",
+   "clockLabel": "TO BURST",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "Lower Manhattan",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -73.3003,
+      41.1597
+     ],
+     "text": "No war",
+     "color": "#FFFFFF",
+     "t": 0.1
+    },
+    {
+     "at": [
+      -73.3003,
+      41.0512
+     ],
+     "text": "No named attacker",
+     "color": "#FFFFFF",
+     "t": 0.9
+    },
+    {
+     "at": [
+      -73.3003,
+      40.9426
+     ],
+     "text": "A scale study",
+     "color": "#FFD23F",
+     "t": 2.22
+    }
+   ]
+  },
+  {
+   "id": "c3-scale",
+   "type": "region",
+   "start": 226.474,
+   "end": 232.088,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 380
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 380
+    },
+    {
+     "t": 1.5,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 5.61,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 190
+    }
+   ],
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "One bomb, one point",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 7
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -73.7269,
+      40.8341
+     ],
+     "text": "No reason given",
+     "color": "#FFFFFF",
+     "t": 1.5
+    },
+    {
+     "at": [
+      -73.7269,
+      40.7618
+     ],
+     "text": "No country accused",
+     "color": "#FFD23F",
+     "t": 3.44
+    }
+   ]
+  },
+  {
+   "id": "c3-gz",
+   "type": "city",
+   "start": 232.088,
+   "end": 238.848,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 60
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 60
+    },
+    {
+     "t": 3.61,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 30
+    },
+    {
+     "t": 6.76,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 16
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.4,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.4,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.7889
+     ],
+     "text": "Ground zero: lower Manhattan",
+     "color": "#FFFFFF",
+     "t": 0.1
+    },
+    {
+     "at": [
+      -74.0113,
+      40.6623
+     ],
+     "text": "40.7 N, 74.0 W",
+     "color": "#FFD23F",
+     "t": 3.61
+    }
+   ],
+   "clock": ""
+  },
+  {
+   "id": "c3-why",
+   "type": "city",
+   "start": 238.848,
+   "end": 247.282,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 26
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 26
+    },
+    {
+     "t": 2.58,
+     "center": [
+      -74.035,
+      40.7256
+     ],
+     "widthKm": 40
+    },
+    {
+     "t": 5.5,
+     "center": [
+      -74.0232,
+      40.7256
+     ],
+     "widthKm": 47.986
+    },
+    {
+     "t": 8.43,
+     "center": [
+      -74.0113,
+      40.7256
+     ],
+     "widthKm": 56
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.7979
+     ],
+     "text": "Why lower Manhattan?",
+     "color": "#FFFFFF",
+     "t": 0.1
+    },
+    {
+     "at": [
+      -74.0113,
+      40.6261
+     ],
+     "text": "One of the most recognisable shapes on any map",
+     "color": "#FFD23F",
+     "t": 2.58
+    }
+   ],
+   "clock": ""
+  },
+  {
+   "id": "c3-notclaim",
+   "type": "region",
+   "start": 247.282,
+   "end": 250.537,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 420
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 420
+    },
+    {
+     "t": 3.25,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 700
+    }
+   ],
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "A place a viewer can see",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -73.1818,
+      41.1145
+     ],
+     "text": "Not a claim that anyone plans this",
+     "color": "#FFD23F",
+     "t": 0.53
+    }
+   ]
+  },
+  {
+   "id": "c3-class",
+   "type": "globe",
+   "start": 250.537,
+   "end": 257.67,
+   "tag": "SIMULATION",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 55,
+     "lon": 30,
+     "scale": 1000
+    },
+    {
+     "t": 2.55,
+     "lat": 50,
+     "lon": -10,
+     "scale": 1200
+    },
+    {
+     "t": 7.13,
+     "lat": 45,
+     "lon": -50,
+     "scale": 1500
+    }
+   ],
+   "sun": {
+    "lat": -21.07,
+    "lon": -55.59
+   },
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      54.9,
+      73.8
+     ],
+     "label": "Tsar Bomba class",
+     "color": "#F2B01E",
+     "kind": "target",
+     "size": 6,
+     "t": 0.91
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "Never deployed",
+     "color": "#FFFFFF",
+     "kind": "dot",
+     "t": 2.91
+    }
+   ]
+  },
+  {
+   "id": "c3-bomber",
+   "type": "region",
+   "start": 257.67,
+   "end": 264.017,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -62.0,
+     40.5
+    ],
+    "widthKm": 1400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -62.0,
+      40.5
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 1.65,
+     "center": [
+      -66.0,
+      40.6
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 6.35,
+     "center": [
+      -70.0,
+      40.7
+     ],
+     "widthKm": 700
+    }
+   ],
+   "clock": "T-62:00",
+   "clockLabel": "TO BURST",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -63.0,
+      40.5
+     ],
+     "label": "Release over the North Atlantic",
+     "kind": "base",
+     "t": 1.65,
+     "color": "#FFFFFF",
+     "size": 6
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "Burst point",
+     "kind": "target",
+     "t": 4.72,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -63.0,
+       40.5
+      ],
+      [
+       -74.0113,
+       40.7075
+      ]
+     ],
+     "t0": 2.15,
+     "t1": 6.05,
+     "kind": "pla",
+     "color": "#FFFFFF",
+     "label": "Single heavy bomber (our choice)",
+     "size": 1.8,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.16)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "840",
+     "text": "UNITED STATES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 929.3,
+     "label": "930 km from New York",
+     "color": "#FFFFFF",
+     "t": 0.4,
+     "dashed": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -63.0,
+      40.5
+     ],
+     "to": [
+      -74.0113,
+      40.7075
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 0.5,
+     "t1": 2.5
+    }
+   ]
+  },
+  {
+   "id": "c3-50mt",
+   "type": "number",
+   "start": 264.017,
+   "end": 267.55,
+   "tag": "SIMULATION",
+   "value": "50 MEGATONS",
+   "label": "the Soviet figure for the real test",
+   "sub": "",
+   "color": "#FF3B3B",
+   "countTo": 50,
+   "suffix": " MEGATONS",
+   "source": "Arms Control Center; scenario engine"
+  },
+  {
+   "id": "c3-nagasaki",
+   "type": "bars",
+   "start": 267.55,
+   "end": 273.57,
+   "tag": "SIMULATION",
+   "title": "Yield, in kilotons",
+   "sub": "more than 2,000 times the Nagasaki bomb",
+   "source": "US Department of Energy; scenario engine",
+   "bars": [
+    {
+     "label": "Nagasaki, 1945",
+     "value": 21,
+     "display": "about 21 kt",
+     "color": "#8A8F98"
+    },
+    {
+     "label": "This bomb",
+     "value": 50000,
+     "display": "50,000 kt",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "c3-2000",
+   "type": "number",
+   "start": 273.57,
+   "end": 276.11,
+   "tag": "SIMULATION",
+   "value": "2,000 TIMES",
+   "label": "more than the Nagasaki bomb",
+   "sub": "",
+   "color": "#FF3B3B",
+   "countTo": 2000,
+   "suffix": " TIMES",
+   "source": "Arms Control Center; US Department of Energy"
+  },
+  {
+   "id": "c3-ww2",
+   "type": "number",
+   "start": 276.11,
+   "end": 281.07,
+   "tag": "SIMULATION",
+   "value": "ABOUT 10 TIMES",
+   "label": "all conventional explosives of the Second World War",
+   "sub": "one estimate",
+   "color": "#FF3B3B",
+   "countTo": 10,
+   "prefix": "ABOUT ",
+   "suffix": " TIMES",
+   "source": "Wikipedia (one estimate)"
+  },
+  {
+   "id": "c3-ww2b",
+   "type": "stamp",
+   "start": 281.07,
+   "end": 283.545,
+   "tag": "SIMULATION",
+   "text": "SECOND WORLD WAR",
+   "line": "all the conventional explosives used",
+   "color": "#FFFFFF",
+   "source": "Wikipedia (one estimate)"
+  },
+  {
+   "id": "c3-height",
+   "type": "city",
+   "start": 283.545,
+   "end": 289.039,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 40
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 40
+    },
+    {
+     "t": 3.19,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 26
+    },
+    {
+     "t": 5.49,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 18
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.7889
+     ],
+     "text": "Real bomb burst: about 4,000 m",
+     "color": "#F2B01E",
+     "t": 1.62
+    },
+    {
+     "at": [
+      -74.0113,
+      40.6532
+     ],
+     "text": "Our engine takes no height",
+     "color": "#FFD23F",
+     "t": 3.37
+    }
+   ],
+   "clock": ""
+  },
+  {
+   "id": "c3-widest",
+   "type": "region",
+   "start": 289.039,
+   "end": 296.074,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 3.23,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 200
+    },
+    {
+     "t": 7.04,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 160
+    }
+   ],
+   "clock": "",
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 24.946,
+     "label": "Widest 5 psi ring",
+     "color": "#FF3B3B",
+     "t": 1.17,
+     "dashed": false
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.6038,
+      40.9788
+     ],
+     "text": "Engine picks the widest blast ring",
+     "color": "#FFD23F",
+     "t": 0.13
+    },
+    {
+     "at": [
+      -74.6038,
+      40.4362
+     ],
+     "text": "Not a measured height",
+     "color": "#FFFFFF",
+     "t": 5.37
+    }
+   ]
+  },
+  {
+   "id": "c3-clock",
+   "type": "region",
+   "start": 296.074,
+   "end": 299.632,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -70.0,
+     40.7
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -70.0,
+      40.7
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 3.56,
+     "center": [
+      -74.2483,
+      40.7256
+     ],
+     "widthKm": 300
+    }
+   ],
+   "clock": "T-00:00",
+   "clockLabel": "THE BOMBER ARRIVES",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "Burst point",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -75.4333,
+       40.7437
+      ],
+      [
+       -74.0587,
+       40.7075
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 3.36,
+     "kind": "pla",
+     "color": "#FFFFFF",
+     "label": "Bomber",
+     "size": 1.8,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.16)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "840",
+     "text": "UNITED STATES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 929.3,
+     "label": "930 km from New York",
+     "color": "#FFFFFF",
+     "t": 0.4,
+     "dashed": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -63.0,
+      40.5
+     ],
+     "to": [
+      -74.0113,
+      40.7075
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 0.5,
+     "t1": 2.5
+    }
+   ]
+  },
+  {
+   "id": "c4-card",
+   "type": "chapter",
+   "start": 299.632,
+   "end": 303.13,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 04",
+   "title": "Sixty-two minutes"
+  },
+  {
+   "id": "c4-1030",
+   "type": "region",
+   "start": 303.13,
+   "end": 307.288,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -63.0,
+     40.5
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -63.0,
+      40.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 1.4,
+     "center": [
+      -66.0,
+      40.6
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 4.16,
+     "center": [
+      -68.0,
+      40.6
+     ],
+     "widthKm": 1000
+    }
+   ],
+   "clock": "T-62:00",
+   "clockLabel": "10:30 · SIMULATED",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -63.0,
+      40.5
+     ],
+     "label": "Bomber, about 930 km out",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#FFFFFF",
+     "size": 6
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "Burst point",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -63.0,
+      40.5
+     ],
+     "to": [
+      -74.0113,
+      40.7075
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 0.1,
+     "t1": 0.92,
+     "label": "930 km"
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.16)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "840",
+     "text": "UNITED STATES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 929.3,
+     "label": "930 km from New York",
+     "color": "#FFFFFF",
+     "t": 0.4,
+     "dashed": true
+    }
+   ]
+  },
+  {
+   "id": "c4-chute",
+   "type": "number",
+   "start": 307.288,
+   "end": 312.387,
+   "tag": "REAL DATA",
+   "value": "ABOUT 3 MINUTES",
+   "countTo": 3,
+   "prefix": "ABOUT ",
+   "suffix": " MINUTES",
+   "label": "the real bomb's fall under its parachute",
+   "sub": "left out of our clock",
+   "color": "#F2B01E",
+   "source": "Nuclear Weapon Archive; Arms Control Center"
+  },
+  {
+   "id": "c4-onlyflight",
+   "type": "region",
+   "start": 312.387,
+   "end": 317.689,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -66.0,
+     40.6
+    ],
+    "widthKm": 1200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -66.0,
+      40.6
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 2.3,
+     "center": [
+      -67.0,
+      40.6
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 5.3,
+     "center": [
+      -68.0,
+      40.6
+     ],
+     "widthKm": 800
+    }
+   ],
+   "clock": "T-62:00",
+   "clockLabel": "THE BOMBER'S FLIGHT ONLY",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -63.0,
+      40.5
+     ],
+     "label": "Bomber",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#FFFFFF",
+     "size": 6
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "Burst point",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -72.5,
+      38.4
+     ],
+     "text": "The fall is left out",
+     "color": "#F2B01E",
+     "t": 0.54
+    },
+    {
+     "at": [
+      -72.5,
+      37.6
+     ],
+     "text": "The clock counts the flight",
+     "color": "#FFD23F",
+     "t": 2.3
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.16)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "840",
+     "text": "UNITED STATES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 929.3,
+     "label": "930 km from New York",
+     "color": "#FFFFFF",
+     "t": 0.4,
+     "dashed": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -63.0,
+      40.5
+     ],
+     "to": [
+      -74.0113,
+      40.7075
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 0.5,
+     "t1": 2.5
+    }
+   ]
+  },
+  {
+   "id": "c4-quiet",
+   "type": "region",
+   "start": 317.689,
+   "end": 326.021,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -67.0,
+     40.6
+    ],
+    "widthKm": 1100
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -67.0,
+      40.6
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 3.04,
+     "center": [
+      -69.5,
+      40.7
+     ],
+     "widthKm": 800
+    },
+    {
+     "t": 8.33,
+     "center": [
+      -71.5,
+      40.7
+     ],
+     "widthKm": 600
+    }
+   ],
+   "clock": "T-62:00",
+   "clockLabel": "TO BURST",
+   "clockRate": 230,
+   "cities": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "New York",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -63.0,
+       40.5
+      ],
+      [
+       -74.7223,
+       40.7346
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 8.33,
+     "kind": "pla",
+     "color": "#FFFFFF",
+     "label": "Bomber",
+     "size": 1.8,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -65.5,
+      38.8
+     ],
+     "text": "The next hour is quiet on the map",
+     "color": "#FFFFFF",
+     "t": 1.48
+    },
+    {
+     "at": [
+      -65.5,
+      38.0
+     ],
+     "text": "Nothing the engine can measure",
+     "color": "#FFD23F",
+     "t": 6.72
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.16)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "840",
+     "text": "UNITED STATES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 929.3,
+     "label": "930 km from New York",
+     "color": "#FFFFFF",
+     "t": 0.4,
+     "dashed": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -63.0,
+      40.5
+     ],
+     "to": [
+      -74.0113,
+      40.7075
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 0.5,
+     "t1": 2.5
+    }
+   ]
+  },
+  {
+   "id": "c4-nodraw",
+   "type": "region",
+   "start": 326.021,
+   "end": 333.521,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.3668,
+     40.7075
+    ],
+    "widthKm": 360
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.3668,
+      40.7075
+     ],
+     "widthKm": 360
+    },
+    {
+     "t": 1.83,
+     "center": [
+      -74.2483,
+      40.7075
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 7.5,
+     "center": [
+      -74.1298,
+      40.7075
+     ],
+     "widthKm": 200
+    }
+   ],
+   "clock": "T-30:00",
+   "clockLabel": "TO BURST",
+   "clockRate": 230,
+   "cities": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "Lower Manhattan",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.5801,
+      40.9788
+     ],
+     "text": "No alert drawn",
+     "color": "#FFFFFF",
+     "t": 0.95
+    },
+    {
+     "at": [
+      -74.5801,
+      40.8884
+     ],
+     "text": "No warning, no response",
+     "color": "#FFFFFF",
+     "t": 1.83
+    },
+    {
+     "at": [
+      -74.5801,
+      40.7979
+     ],
+     "text": "No source we use describes one",
+     "color": "#FFD23F",
+     "t": 4.63
+    }
+   ]
+  },
+  {
+   "id": "c4-tminus",
+   "type": "region",
+   "start": 333.521,
+   "end": 337.07,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -75.0778,
+     40.7437
+    ],
+    "widthKm": 400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -75.0778,
+      40.7437
+     ],
+     "widthKm": 400
+    },
+    {
+     "t": 3.55,
+     "center": [
+      -74.1061,
+      40.7165
+     ],
+     "widthKm": 220
+    }
+   ],
+   "clock": "T-00:04",
+   "clockLabel": "11:32 · SIMULATED",
+   "clockRate": 1,
+   "cities": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "Burst point",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -75.0778,
+       40.7437
+      ],
+      [
+       -74.0232,
+       40.7075
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 3.65,
+     "kind": "pla",
+     "color": "#FFFFFF",
+     "label": "Bomber",
+     "size": 1.8,
+     "t": 0.1,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -73.8928,
+      40.599
+     ],
+     "text": "T minus 4 seconds",
+     "color": "#FFD23F",
+     "t": 0.4
+    }
+   ]
+  },
+  {
+   "id": "c4-zero",
+   "type": "region",
+   "start": 337.07,
+   "end": 342.601,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 5.53,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 520
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "burst": {
+    "at": [
+     -74.0113,
+     40.7075
+    ],
+    "t": 0.1,
+    "km": 12,
+    "fade": 5
+   },
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 4.618,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.9,
+     "dashed": false
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -73.1818,
+      41.0693
+     ],
+     "text": "Clock reads T plus zero",
+     "color": "#FFD23F",
+     "t": 0.3
+    }
+   ]
+  },
+  {
+   "id": "c4-40km",
+   "type": "region",
+   "start": 342.601,
+   "end": 347.826,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 220
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 220
+    },
+    {
+     "t": 2.03,
+     "center": [
+      -74.1061,
+      40.7075
+     ],
+     "widthKm": 180
+    },
+    {
+     "t": 5.23,
+     "center": [
+      -74.1298,
+      40.7075
+     ],
+     "widthKm": 160
+    }
+   ],
+   "clock": "T+00:05",
+   "clockLabel": "THE 1961 BOMBER, FOR SCALE",
+   "clockRate": 1,
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 40,
+     "label": "About 40 km: the 1961 bomber's distance",
+     "color": "#F2B01E",
+     "t": 0.5,
+     "dashed": false
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.746,
+      40.3638
+     ],
+     "text": "Still pushed down about 1,000 m",
+     "color": "#FFFFFF",
+     "t": 3.31
+    }
+   ]
+  },
+  {
+   "id": "c4-light",
+   "type": "region",
+   "start": 347.826,
+   "end": 358.562,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 260
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 2.45,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 6.36,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 10.74,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "clock": "T+00:10",
+   "clockLabel": "THE LIGHT",
+   "clockRate": 1,
+   "burst": {
+    "at": [
+     -74.0113,
+     40.7075
+    ],
+    "t": 0.1,
+    "km": 12,
+    "fade": 3
+   },
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 1000,
+     "label": "1961 flash: visible at about 1,000 km",
+     "color": "#FFD23F",
+     "t": 6.36,
+     "dashed": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      41.8832
+     ],
+     "text": "The light comes first",
+     "color": "#FFFFFF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -63.346,
+      44.3251
+     ],
+     "text": "Even through cloud",
+     "color": "#FFFFFF",
+     "t": 8.51
+    }
+   ]
+  },
+  {
+   "id": "c4-fireball",
+   "type": "city",
+   "start": 358.562,
+   "end": 360.635,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 30
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 30
+    },
+    {
+     "t": 2.07,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 14
+    }
+   ],
+   "rings": [
+    {
+     "km": 4.618,
+     "label": "Fireball: 9.2 km wide",
+     "color": "#FFFFFF",
+     "t": 0.5,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.7708
+     ],
+     "text": "Then the fireball",
+     "color": "#FFFFFF",
+     "t": 0.2
+    }
+   ],
+   "clock": "T+00:15",
+   "clockLabel": "THE FIREBALL",
+   "clockRate": 1
+  },
+  {
+   "id": "c4-1961ball",
+   "type": "city",
+   "start": 360.635,
+   "end": 367.506,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 14
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 14
+    },
+    {
+     "t": 6.87,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 34
+    }
+   ],
+   "rings": [
+    {
+     "km": 4.618,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.7799
+     ],
+     "text": "1961: touched the ground, nearly the bomber's height",
+     "color": "#F2B01E",
+     "t": 3.56
+    }
+   ],
+   "clock": "T+00:20",
+   "clockLabel": "THE FIREBALL",
+   "clockRate": 1
+  },
+  {
+   "id": "c4-heat",
+   "type": "region",
+   "start": 367.506,
+   "end": 376.889,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 200
+    },
+    {
+     "t": 2.65,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 420
+    },
+    {
+     "t": 9.38,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 560
+    }
+   ],
+   "clock": "T+00:25",
+   "clockLabel": "THE HEAT",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      41.1597
+     ],
+     "text": "The heat arrives with the light",
+     "color": "#FFFFFF",
+     "t": 0.2
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 100,
+     "label": "1961: third-degree burns to about 100 km",
+     "color": "#F2B01E",
+     "t": 6.84,
+     "dashed": true
+    }
+   ]
+  },
+  {
+   "id": "c4-ourheat",
+   "type": "region",
+   "start": 376.889,
+   "end": 381.267,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 4.38,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 220
+    }
+   ],
+   "clock": "T+00:30",
+   "clockLabel": "THE HEAT",
+   "clockRate": 1,
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 53.139,
+     "label": "Our engine: 53 km",
+     "color": "#FF7A1A",
+     "t": 0.3,
+     "dashed": false
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.8408,
+      41.0512
+     ],
+     "text": "A shorter range than 1961",
+     "color": "#FFFFFF",
+     "t": 1.06
+    },
+    {
+     "at": [
+      -74.8408,
+      40.3638
+     ],
+     "text": "The rings are coming",
+     "color": "#FFD23F",
+     "t": 2.94
+    }
+   ]
+  },
+  {
+   "id": "c4-blast",
+   "type": "region",
+   "start": 381.267,
+   "end": 390.705,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 230
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 230
+    },
+    {
+     "t": 3.22,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 9.44,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 300
+    }
+   ],
+   "clock": "T+00:40",
+   "clockLabel": "THE BLAST WAVE",
+   "clockRate": 1,
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 5.079,
+     "label": "Near: arrives first",
+     "color": "#FF3B3B",
+     "t": 0.6,
+     "dashed": false
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 24.946,
+     "label": "Farther: waits longer",
+     "color": "#FF3B3B",
+     "t": 3.22,
+     "dashed": false
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 53.139,
+     "label": "Farthest: waits longest",
+     "color": "#FF7A1A",
+     "t": 5.48,
+     "dashed": false
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.9593,
+      41.1145
+     ],
+     "text": "Speed of sound",
+     "color": "#FFD23F",
+     "t": 1.84
+    },
+    {
+     "at": [
+      -74.9593,
+      40.3005
+     ],
+     "text": "The rings are next",
+     "color": "#FFFFFF",
+     "t": 7.48
+    }
+   ]
+  },
+  {
+   "id": "c5-card",
+   "type": "chapter",
+   "start": 390.705,
+   "end": 394.2,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 05",
+   "title": "One bomb, ring by ring"
+  },
+  {
+   "id": "c5-fireball",
+   "type": "city",
+   "start": 394.2,
+   "end": 398.093,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 24
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 24
+    },
+    {
+     "t": 1.58,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 14
+    },
+    {
+     "t": 3.89,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 18
+    }
+   ],
+   "rings": [
+    {
+     "km": 4.618,
+     "label": "Fireball: radius 4.6 km",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.7708
+     ],
+     "text": "9.2 km across",
+     "color": "#FFD23F",
+     "t": 1.58
+    }
+   ],
+   "clock": "T+00:40",
+   "clockLabel": "THE 50 Mt BOMB",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-wider",
+   "type": "city",
+   "start": 398.093,
+   "end": 404.297,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 18
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 18
+    },
+    {
+     "t": 6.2,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 9
+    }
+   ],
+   "rings": [
+    {
+     "km": 4.618,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.7618
+     ],
+     "text": "Wider than Manhattan is wide",
+     "color": "#FFFFFF",
+     "t": 0.4
+    },
+    {
+     "at": [
+      -74.0113,
+      40.6532
+     ],
+     "text": "Nothing inside is a building",
+     "color": "#FF3B3B",
+     "t": 2.78
+    }
+   ],
+   "clock": "T+00:40",
+   "clockLabel": "THE 50 Mt BOMB",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-centre",
+   "type": "city",
+   "start": 404.297,
+   "end": 409.882,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 10
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 10
+    },
+    {
+     "t": 1.09,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 12
+    },
+    {
+     "t": 5.58,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 8
+    }
+   ],
+   "rings": [
+    {
+     "km": 4.618,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.7509
+     ],
+     "text": "The centre: no ring to read",
+     "color": "#FFFFFF",
+     "t": 0.4
+    },
+    {
+     "at": [
+      -74.0113,
+      40.6713
+     ],
+     "text": "Nothing is left to measure",
+     "color": "#FFD23F",
+     "t": 3.61
+    }
+   ],
+   "clock": "T+00:40",
+   "clockLabel": "THE 50 Mt BOMB",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-20psi",
+   "type": "city",
+   "start": 409.882,
+   "end": 421.178,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 16
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 16
+    },
+    {
+     "t": 3.07,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 22
+    },
+    {
+     "t": 11.3,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 18
+    }
+   ],
+   "rings": [
+    {
+     "km": 4.618,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "angle": 215
+    },
+    {
+     "km": 5.079,
+     "label": "20 psi: 5.1 km",
+     "color": "#FF3B3B",
+     "t": 0.51,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.7753
+     ],
+     "text": "Heavy damage even to strong buildings",
+     "color": "#FFD23F",
+     "t": 7.81
+    }
+   ],
+   "clock": "T+00:40",
+   "clockLabel": "THE 50 Mt BOMB",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-island",
+   "type": "city",
+   "start": 421.178,
+   "end": 429.557,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 20
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 20
+    },
+    {
+     "t": 1.49,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 26
+    },
+    {
+     "t": 8.38,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 22
+    }
+   ],
+   "rings": [
+    {
+     "km": 5.079,
+     "label": "20 psi ring",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.7708
+     ],
+     "text": "Manhattan: at most about 3.7 km wide",
+     "color": "#FFFFFF",
+     "t": 1.49
+    },
+    {
+     "at": [
+      -74.0113,
+      40.6442
+     ],
+     "text": "The ring is wider than the island",
+     "color": "#FFD23F",
+     "t": 6.07
+    }
+   ],
+   "clock": "T+00:40",
+   "clockLabel": "THE 50 Mt BOMB",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-takesin",
+   "type": "city",
+   "start": 429.557,
+   "end": 436.282,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.035,
+     40.6804
+    ],
+    "widthKm": 24
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.035,
+      40.6804
+     ],
+     "widthKm": 24
+    },
+    {
+     "t": 1.47,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 20
+    },
+    {
+     "t": 6.72,
+     "center": [
+      -73.9994,
+      40.6804
+     ],
+     "widthKm": 26
+    }
+   ],
+   "rings": [
+    {
+     "km": 5.079,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0706,
+      40.6668
+     ],
+     "text": "The harbour",
+     "color": "#FFFFFF",
+     "t": 0.63
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7663
+     ],
+     "text": "All of lower Manhattan",
+     "color": "#FFFFFF",
+     "t": 1.47
+    },
+    {
+     "at": [
+      -73.9343,
+      40.6804
+     ],
+     "text": "Brooklyn",
+     "color": "#FFFFFF",
+     "t": 4.55
+    },
+    {
+     "at": [
+      -74.1002,
+      40.7075
+     ],
+     "text": "New Jersey",
+     "color": "#FFFFFF",
+     "t": 5.27
+    }
+   ],
+   "clock": "T+00:40",
+   "clockLabel": "THE 50 Mt BOMB",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-5psi",
+   "type": "city",
+   "start": 436.282,
+   "end": 444.121,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 30
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 30
+    },
+    {
+     "t": 2.54,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 52
+    },
+    {
+     "t": 7.84,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 60
+    }
+   ],
+   "rings": [
+    {
+     "km": 5.079,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    },
+    {
+     "km": 24.946,
+     "label": "5 psi: 25 km",
+     "color": "#FF3B3B",
+     "t": 0.81,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.9788
+     ],
+     "text": "Heavily damages most buildings",
+     "color": "#FFD23F",
+     "t": 5.39
+    }
+   ],
+   "clock": "T+00:40",
+   "clockLabel": "THE 50 Mt BOMB",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-2000",
+   "type": "city",
+   "start": 444.121,
+   "end": 448.363,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 60
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 60
+    },
+    {
+     "t": 4.24,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 96
+    }
+   ],
+   "rings": [
+    {
+     "km": 24.946,
+     "label": "5 psi: 25 km",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.8612
+     ],
+     "text": "About 2,000 square kilometres",
+     "color": "#FFD23F",
+     "t": 1.18
+    }
+   ],
+   "clock": "T+00:40",
+   "clockLabel": "THE 50 Mt BOMB",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-street",
+   "type": "city",
+   "start": 448.363,
+   "end": 452.456,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 56
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 56
+    },
+    {
+     "t": 2.11,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 44
+    },
+    {
+     "t": 4.09,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 50
+    }
+   ],
+   "rings": [
+    {
+     "km": 24.946,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.816
+     ],
+     "text": "Read it street by street",
+     "color": "#FFFFFF",
+     "t": 0.2
+    },
+    {
+     "at": [
+      -74.0469,
+      40.608
+     ],
+     "text": "All of Manhattan",
+     "color": "#FFFFFF",
+     "t": 2.11
+    }
+   ],
+   "clock": "T+00:40",
+   "clockLabel": "THE 50 Mt BOMB",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-airports",
+   "type": "city",
+   "start": 452.456,
+   "end": 457.307,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 50
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 50
+    },
+    {
+     "t": 2.59,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 58
+    },
+    {
+     "t": 4.85,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 64
+    }
+   ],
+   "rings": [
+    {
+     "km": 24.946,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -73.8928,
+      40.6261
+     ],
+     "text": "Brooklyn waterfront",
+     "color": "#FFFFFF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -74.1772,
+      40.6894
+     ],
+     "text": "Jersey waterfront",
+     "color": "#FFFFFF",
+     "t": 0.85
+    },
+    {
+     "at": [
+      -73.8098,
+      40.6351
+     ],
+     "text": "JFK",
+     "color": "#FFD23F",
+     "t": 3.35
+    },
+    {
+     "at": [
+      -73.8928,
+      40.7437
+     ],
+     "text": "LaGuardia",
+     "color": "#FFD23F",
+     "t": 3.75
+    },
+    {
+     "at": [
+      -74.1772,
+      40.6261
+     ],
+     "text": "Newark",
+     "color": "#FFD23F",
+     "t": 4.15
+    }
+   ],
+   "clock": "T+00:40",
+   "clockLabel": "THE 50 Mt BOMB",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-hold",
+   "type": "city",
+   "start": 457.307,
+   "end": 465.021,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 70
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 70
+    },
+    {
+     "t": 4.66,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 64
+    },
+    {
+     "t": 7.71,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 60
+    }
+   ],
+   "rings": [
+    {
+     "km": 24.946,
+     "label": "5 psi ring: the one to hold in mind",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.9246
+     ],
+     "text": "About 2,000 km2",
+     "color": "#FFD23F",
+     "t": 5.75
+    }
+   ],
+   "clock": "T+00:40",
+   "clockLabel": "THE 50 Mt BOMB",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-124",
+   "type": "city",
+   "start": 465.021,
+   "end": 469.275,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 56
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 56
+    },
+    {
+     "t": 4.25,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 84
+    }
+   ],
+   "rings": [
+    {
+     "km": 24.946,
+     "label": "50 Mt: 25 km",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    },
+    {
+     "km": 6.286,
+     "label": "800 kt: 6.3 km",
+     "color": "#FFD23F",
+     "t": 0.7,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      41.006
+     ],
+     "text": "About 124 km2 for the smaller bomb",
+     "color": "#FFD23F",
+     "t": 1.34
+    }
+   ],
+   "clock": "T+00:40",
+   "clockLabel": "THE 50 Mt BOMB",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-burn",
+   "type": "region",
+   "start": 469.275,
+   "end": 476.054,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 200
+    },
+    {
+     "t": 0.56,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 240
+    },
+    {
+     "t": 6.78,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 280
+    }
+   ],
+   "clock": "T+00:40",
+   "clockLabel": "THE 50 Mt BOMB",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 24.946,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "dashed": false
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 53.139,
+     "label": "Third-degree burns: 53 km",
+     "color": "#FF7A1A",
+     "t": 0.56,
+     "dashed": false
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.3005
+     ],
+     "text": "Bare skin, clear air",
+     "color": "#FFD23F",
+     "t": 2.42
+    }
+   ]
+  },
+  {
+   "id": "c5-sea",
+   "type": "region",
+   "start": 476.054,
+   "end": 482.98,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 280
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 280
+    },
+    {
+     "t": 3.37,
+     "center": [
+      -73.8928,
+      40.7527
+     ],
+     "widthKm": 330
+    },
+    {
+     "t": 6.93,
+     "center": [
+      -73.8928,
+      40.7527
+     ],
+     "widthKm": 380
+    }
+   ],
+   "clock": "T+00:40",
+   "clockLabel": "THE 50 Mt BOMB",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 24.946,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "dashed": false
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 53.139,
+     "label": "",
+     "color": "#FF7A1A",
+     "t": 0.1,
+     "dashed": false
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.1535,
+      40.1468
+     ],
+     "text": "The sea",
+     "color": "#FFFFFF",
+     "t": 2.38
+    },
+    {
+     "at": [
+      -73.5373,
+      40.7979
+     ],
+     "text": "Long Island",
+     "color": "#FFFFFF",
+     "t": 3.37
+    },
+    {
+     "at": [
+      -74.7223,
+      40.7075
+     ],
+     "text": "New Jersey",
+     "color": "#FFFFFF",
+     "t": 4.46
+    },
+    {
+     "at": [
+      -73.6558,
+      41.2682
+     ],
+     "text": "Connecticut",
+     "color": "#FFFFFF",
+     "t": 5.26
+    }
+   ]
+  },
+  {
+   "id": "c5-1psi",
+   "type": "region",
+   "start": 482.98,
+   "end": 491.196,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 3.51,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 340
+    },
+    {
+     "t": 8.22,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 380
+    }
+   ],
+   "clock": "T+00:40",
+   "clockLabel": "THE 50 Mt BOMB",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 24.946,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "dashed": false
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 53.139,
+     "label": "",
+     "color": "#FF7A1A",
+     "t": 0.1,
+     "dashed": false
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 67.52,
+     "label": "1 psi: 67.5 km",
+     "color": "#FFFFFF",
+     "t": 3.51,
+     "dashed": false
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.9001,
+      40.2553
+     ],
+     "text": "Breaks windows",
+     "color": "#FFD23F",
+     "t": 6.59
+    }
+   ]
+  },
+  {
+   "id": "c5-900",
+   "type": "region",
+   "start": 491.196,
+   "end": 499.204,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 400
+    },
+    {
+     "t": 4.23,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 8.01,
+     "center": [
+      -70.4562,
+      40.7075
+     ],
+     "widthKm": 3600
+    }
+   ],
+   "clock": "T+00:40",
+   "clockLabel": "THE 50 Mt BOMB",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 67.52,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "dashed": false
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 900,
+     "label": "Real test: glass broke to about 900 km",
+     "color": "#F2B01E",
+     "t": 5.53,
+     "dashed": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "text": "Our rings are conservative",
+     "color": "#FFD23F",
+     "t": 1.21
+    }
+   ]
+  },
+  {
+   "id": "c5-same",
+   "type": "city",
+   "start": 499.204,
+   "end": 506.645,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 70
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 70
+    },
+    {
+     "t": 7.44,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 100
+    }
+   ],
+   "rings": [
+    {
+     "km": 24.946,
+     "label": "50 Mt: 5 psi",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      41.024
+     ],
+     "text": "The same map, a different bomb",
+     "color": "#FFFFFF",
+     "t": 1.61
+    },
+    {
+     "at": [
+      -74.0113,
+      40.391
+     ],
+     "text": "A comparison, not a second attack",
+     "color": "#FFD23F",
+     "t": 4.0
+    }
+   ],
+   "clock": "T+00:40",
+   "clockLabel": "THE 50 Mt BOMB",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-800kt",
+   "type": "number",
+   "start": 506.645,
+   "end": 512.46,
+   "tag": "SIMULATION",
+   "value": "800 KILOTONS",
+   "label": "the top of Russia's missile warhead range",
+   "sub": "SS-18 class (500 to 800 kt)",
+   "color": "#FFD23F",
+   "countTo": 800,
+   "suffix": " KILOTONS",
+   "source": "Federation of American Scientists; scenario engine"
+  },
+  {
+   "id": "c5-s-fire",
+   "type": "city",
+   "start": 512.46,
+   "end": 516.435,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 6
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 6
+    },
+    {
+     "t": 1.43,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 9
+    },
+    {
+     "t": 3.97,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 12
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.883,
+     "label": "800 kt fireball: under 1 km",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.7364
+     ],
+     "text": "A bomb about 60 times smaller",
+     "color": "#FFD23F",
+     "t": 1.0
+    }
+   ],
+   "clock": "",
+   "clockLabel": ""
+  },
+  {
+   "id": "c5-s-burn",
+   "type": "city",
+   "start": 516.435,
+   "end": 520.49,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 20
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 20
+    },
+    {
+     "t": 4.22,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 28
+    },
+    {
+     "t": 4.06,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 38
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.883,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "angle": 215
+    },
+    {
+     "km": 9.752,
+     "label": "Burns: 9.8 km",
+     "color": "#FF7A1A",
+     "t": 1.64,
+     "angle": 240
+    },
+    {
+     "km": 17.014,
+     "label": "Windows: 17 km",
+     "color": "#FFFFFF",
+     "t": 4.98,
+     "angle": 265
+    }
+   ],
+   "labels": [],
+   "clock": "",
+   "clockLabel": ""
+  },
+  {
+   "id": "c5-s-5psi",
+   "type": "city",
+   "start": 520.49,
+   "end": 531.597,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 24
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 24
+    },
+    {
+     "t": 4.16,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 30
+    },
+    {
+     "t": 11.11,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 36
+    }
+   ],
+   "rings": [
+    {
+     "km": 6.286,
+     "label": "5 psi: 6.3 km",
+     "color": "#FFD23F",
+     "t": 4.16,
+     "angle": 215
+    },
+    {
+     "km": 9.752,
+     "label": "",
+     "color": "#FF7A1A",
+     "t": 0.1,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.8115
+     ],
+     "text": "About 124 square kilometres",
+     "color": "#FFD23F",
+     "t": 7.64
+    }
+   ],
+   "clock": "",
+   "clockLabel": ""
+  },
+  {
+   "id": "c5-vs",
+   "type": "city",
+   "start": 531.597,
+   "end": 542.053,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 60
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 60
+    },
+    {
+     "t": 4.97,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 72
+    },
+    {
+     "t": 10.46,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 84
+    }
+   ],
+   "rings": [
+    {
+     "km": 24.946,
+     "label": "50 Mt: 25 km",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "angle": 215
+    },
+    {
+     "km": 6.286,
+     "label": "800 kt: 6.3 km",
+     "color": "#FFD23F",
+     "t": 4.97,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      41.006
+     ],
+     "text": "Almost four times as far",
+     "color": "#FFFFFF",
+     "t": 3.17
+    },
+    {
+     "at": [
+      -74.0113,
+      40.409
+     ],
+     "text": "About 16 times the area",
+     "color": "#FFFFFF",
+     "t": 8.03
+    }
+   ],
+   "clock": "",
+   "clockLabel": ""
+  },
+  {
+   "id": "c5-bars",
+   "type": "bars",
+   "start": 542.053,
+   "end": 547.961,
+   "tag": "SIMULATION",
+   "title": "5 psi ring, radius in km",
+   "sub": "same point, same island",
+   "source": "Scenario engine (estimates)",
+   "bars": [
+    {
+     "label": "800 kt",
+     "value": 6.286,
+     "display": "6.3 km",
+     "color": "#FFD23F"
+    },
+    {
+     "label": "50 Mt",
+     "value": 24.946,
+     "display": "24.9 km",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "c5-60x",
+   "type": "city",
+   "start": 547.961,
+   "end": 557.86,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 70
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 70
+    },
+    {
+     "t": 3.51,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 90
+    },
+    {
+     "t": 9.9,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 110
+    }
+   ],
+   "rings": [
+    {
+     "km": 24.946,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    },
+    {
+     "km": 6.286,
+     "label": "",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      41.0693
+     ],
+     "text": "Same point, same island",
+     "color": "#FFFFFF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -74.0113,
+      40.3457
+     ],
+     "text": "About 60 times larger",
+     "color": "#FFD23F",
+     "t": 3.51
+    },
+    {
+     "at": [
+      -73.4188,
+      40.7075
+     ],
+     "text": "When the light fades",
+     "color": "#FFFFFF",
+     "t": 7.79
+    }
+   ],
+   "clock": "",
+   "clockLabel": ""
+  },
+  {
+   "id": "c6-card",
+   "type": "chapter",
+   "start": 557.86,
+   "end": 561.36,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 06",
+   "title": "The day after"
+  },
+  {
+   "id": "c6-ring",
+   "type": "city",
+   "start": 561.36,
+   "end": 569.83,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 60
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 60
+    },
+    {
+     "t": 2.27,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 80
+    },
+    {
+     "t": 8.47,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 66
+    }
+   ],
+   "rings": [
+    {
+     "km": 24.946,
+     "label": "Almost 25 km in radius",
+     "color": "#FF3B3B",
+     "t": 2.07,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.8432
+     ],
+     "text": "A ring around a single point",
+     "color": "#FFD23F",
+     "t": 6.37
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0
+  },
+  {
+   "id": "c6-dark",
+   "type": "city",
+   "start": 569.83,
+   "end": 574.644,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 80
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 80
+    },
+    {
+     "t": 2.02,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 66
+    },
+    {
+     "t": 4.81,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 60
+    }
+   ],
+   "rings": [
+    {
+     "km": 24.946,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.8341
+     ],
+     "text": "The day after begins",
+     "color": "#FFFFFF",
+     "t": 0.4
+    },
+    {
+     "at": [
+      -74.0113,
+      40.5809
+     ],
+     "text": "The ring goes dark",
+     "color": "#FF3B3B",
+     "t": 3.46
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0
+  },
+  {
+   "id": "c6-bridges",
+   "type": "city",
+   "start": 574.644,
+   "end": 580.229,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.035,
+     40.6804
+    ],
+    "widthKm": 26
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.035,
+      40.6804
+     ],
+     "widthKm": 26
+    },
+    {
+     "t": 2.79,
+     "center": [
+      -74.0113,
+      40.6713
+     ],
+     "widthKm": 34
+    },
+    {
+     "t": 5.59,
+     "center": [
+      -74.0113,
+      40.6804
+     ],
+     "widthKm": 30
+    }
+   ],
+   "rings": [
+    {
+     "km": 5.079,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0706,
+      40.7618
+     ],
+     "text": "Inside it: the harbour's bridges and tunnels",
+     "color": "#FFFFFF",
+     "t": 1.27
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0
+  },
+  {
+   "id": "c6-models",
+   "type": "city",
+   "start": 580.229,
+   "end": 587.284,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 40
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 40
+    },
+    {
+     "t": 7.05,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 66
+    }
+   ],
+   "rings": [
+    {
+     "km": 24.946,
+     "label": "5 psi: 25 km",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      40.8703
+     ],
+     "text": "Heavy damage to most ordinary buildings",
+     "color": "#FFD23F",
+     "t": 3.68
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0
+  },
+  {
+   "id": "c6-states",
+   "type": "region",
+   "start": 587.284,
+   "end": 593.384,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 260
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 3.03,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 320
+    },
+    {
+     "t": 6.1,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 360
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 53.139,
+     "label": "Burn ring: 53 km",
+     "color": "#FF7A1A",
+     "t": 0.3,
+     "dashed": false
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 67.52,
+     "label": "Window ring: 67.5 km",
+     "color": "#FFFFFF",
+     "t": 2.35,
+     "dashed": false
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -73.5373,
+      41.2501
+     ],
+     "text": "Connecticut",
+     "color": "#FFFFFF",
+     "t": 4.39
+    },
+    {
+     "at": [
+      -74.746,
+      40.7075
+     ],
+     "text": "New Jersey",
+     "color": "#FFFFFF",
+     "t": 4.73
+    },
+    {
+     "at": [
+      -73.3951,
+      40.6171
+     ],
+     "text": "New York",
+     "color": "#FFFFFF",
+     "t": 3.85
+    }
+   ]
+  },
+  {
+   "id": "c6-900",
+   "type": "region",
+   "start": 593.384,
+   "end": 598.749,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 400
+    },
+    {
+     "t": 1.77,
+     "center": [
+      -70.4562,
+      40.7075
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 5.37,
+     "center": [
+      -69.2712,
+      40.7075
+     ],
+     "widthKm": 3600
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 67.52,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "dashed": false
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 900,
+     "label": "1961: windows broke to about 900 km",
+     "color": "#F2B01E",
+     "t": 2.69,
+     "dashed": true
+    }
+   ]
+  },
+  {
+   "id": "c6-wind",
+   "type": "region",
+   "start": 598.749,
+   "end": 603.844,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 2.15,
+     "center": [
+      -74.2483,
+      40.7075
+     ],
+     "widthKm": 360
+    },
+    {
+     "t": 5.1,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 420
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 24.946,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "dashed": false
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -75.5518,
+      40.4362
+     ],
+     "to": [
+      -74.3668,
+      40.6351
+     ],
+     "color": "#3ED6C8",
+     "dashed": false,
+     "t0": 2.15,
+     "t1": 4.65,
+     "label": "Prevailing wind: from the west",
+     "width": 3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.7223,
+      41.0693
+     ],
+     "text": "Then the wind",
+     "color": "#FFFFFF",
+     "t": 0.2
+    }
+   ]
+  },
+  {
+   "id": "c6-drift",
+   "type": "region",
+   "start": 603.844,
+   "end": 607.841,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -73.5373,
+     40.7075
+    ],
+    "widthKm": 420
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -73.5373,
+      40.7075
+     ],
+     "widthKm": 420
+    },
+    {
+     "t": 4.0,
+     "center": [
+      -72.9448,
+      40.6171
+     ],
+     "widthKm": 560
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 24.946,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "dashed": false
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -74.0113,
+      40.7075
+     ],
+     "to": [
+      -71.9967,
+      40.4814
+     ],
+     "color": "#3ED6C8",
+     "dashed": true,
+     "t0": 1.33,
+     "t1": 3.83,
+     "label": "Plume would tend to drift east",
+     "width": 3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -72.5893,
+      40.8884
+     ],
+     "text": "Long Island and the sea",
+     "color": "#FFFFFF",
+     "t": 2.23
+    }
+   ]
+  },
+  {
+   "id": "c6-assume",
+   "type": "region",
+   "start": 607.841,
+   "end": 616.312,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 480
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 480
+    },
+    {
+     "t": 3.47,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 360
+    },
+    {
+     "t": 8.47,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 300
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 24.946,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "dashed": false
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.8408,
+      41.1597
+     ],
+     "text": "An assumption of ours",
+     "color": "#FFD23F",
+     "t": 0.77
+    },
+    {
+     "at": [
+      -74.8408,
+      41.0693
+     ],
+     "text": "Little local fallout from an airburst",
+     "color": "#FFFFFF",
+     "t": 3.47
+    },
+    {
+     "at": [
+      -74.8408,
+      40.9788
+     ],
+     "text": "We draw no plume",
+     "color": "#FF3B3B",
+     "t": 6.89
+    }
+   ]
+  },
+  {
+   "id": "c6-change",
+   "type": "region",
+   "start": 616.312,
+   "end": 620.27,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 3.96,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 420
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 24.946,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "dashed": false
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.8408,
+      41.1145
+     ],
+     "text": "A lower burst would change it",
+     "color": "#FFFFFF",
+     "t": 0.1
+    },
+    {
+     "at": [
+      -74.8408,
+      41.024
+     ],
+     "text": "So would rain",
+     "color": "#FFFFFF",
+     "t": 1.14
+    }
+   ]
+  },
+  {
+   "id": "c6-100mt",
+   "type": "globe",
+   "start": 620.27,
+   "end": 627.181,
+   "tag": "REAL HISTORY",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 60,
+     "lon": 50,
+     "scale": 900
+    },
+    {
+     "t": 2.32,
+     "lat": 70,
+     "lon": 58,
+     "scale": 1300
+    },
+    {
+     "t": 6.91,
+     "lat": 74,
+     "lon": 55,
+     "scale": 2000
+    }
+   ],
+   "sun": {
+    "lat": -21.07,
+    "lon": -55.59
+   },
+   "clock": "1961",
+   "clockLabel": "THE FULL DESIGN",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      54.9,
+      73.8
+     ],
+     "label": "100 Mt design: scrapped, 1961",
+     "color": "#F2B01E",
+     "kind": "target",
+     "size": 6,
+     "t": 0.14
+    }
+   ]
+  },
+  {
+   "id": "c6-point",
+   "type": "region",
+   "start": 627.181,
+   "end": 630.351,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 260
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 3.17,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 160
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "The cloud: a point at the centre",
+     "kind": "target",
+     "t": 1.13,
+     "color": "#FF3B3B",
+     "size": 7
+    }
+   ]
+  },
+  {
+   "id": "c6-65",
+   "type": "number",
+   "start": 630.351,
+   "end": 635.488,
+   "tag": "REAL DATA",
+   "value": "65 KM",
+   "label": "a cloud like the 1961 one climbs",
+   "sub": "",
+   "color": "#F2B01E",
+   "countTo": 65,
+   "suffix": " KM",
+   "source": "Nuclear Weapon Archive; RFE/RL"
+  },
+  {
+   "id": "c6-above",
+   "type": "region",
+   "start": 635.488,
+   "end": 638.365,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 2.88,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 700
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "label": "Far above where airliners fly",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FFFFFF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c6-quiet",
+   "type": "region",
+   "start": 638.365,
+   "end": 644.19,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 3.73,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 5.83,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 900
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 24.946,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "dashed": false
+    },
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 67.52,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "dashed": false
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -72.4708,
+      41.6119
+     ],
+     "text": "Beyond the rings, the map goes quiet",
+     "color": "#FFFFFF",
+     "t": 1.92
+    },
+    {
+     "at": [
+      -72.4708,
+      41.4762
+     ],
+     "text": "Power grid: not modelled",
+     "color": "#FFD23F",
+     "t": 3.73
+    },
+    {
+     "at": [
+      -72.4708,
+      41.3406
+     ],
+     "text": "Phones: not modelled",
+     "color": "#FFD23F",
+     "t": 4.88
+    }
+   ]
+  },
+  {
+   "id": "c6-notmodelled",
+   "type": "region",
+   "start": 644.19,
+   "end": 653.246,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 4.21,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 1085.872
+    },
+    {
+     "t": 9.06,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 1300
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      -74.0113,
+      40.7075
+     ],
+     "km": 24.946,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "dashed": false
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -71.7597,
+      41.9737
+     ],
+     "text": "Hospitals: not modelled",
+     "color": "#FFD23F",
+     "t": 0.1
+    },
+    {
+     "at": [
+      -71.7597,
+      41.7928
+     ],
+     "text": "The response: not modelled",
+     "color": "#FFD23F",
+     "t": 0.9
+    },
+    {
+     "at": [
+      -71.7597,
+      41.6119
+     ],
+     "text": "No published death toll, so none",
+     "color": "#FFFFFF",
+     "t": 7.52
+    }
+   ]
+  },
+  {
+   "id": "c6-arctic",
+   "type": "region",
+   "start": 653.246,
+   "end": 657.005,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     54.9,
+     73.8
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      54.9,
+      73.8
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 3.76,
+     "center": [
+      52,
+      72
+     ],
+     "widthKm": 900
+    }
+   ],
+   "clock": "1961",
+   "clockLabel": "AN ARCTIC RANGE",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      54.9,
+      73.8
+     ],
+     "label": "1961: an Arctic range",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c6-86",
+   "type": "number",
+   "start": 657.005,
+   "end": 661.308,
+   "tag": "REAL DATA",
+   "value": "8.6 MILLION",
+   "label": "people live in New York City",
+   "sub": "about 8.585 million, July 2025 estimate",
+   "color": "#FFFFFF",
+   "countTo": 8.6,
+   "decimals": 1,
+   "suffix": " MILLION",
+   "source": "NYC Department of City Planning, March 2026"
+  },
+  {
+   "id": "c6-edge",
+   "type": "city",
+   "start": 661.308,
+   "end": 664.756,
+   "tag": "SIMULATION",
+   "city": "new-york",
+   "view": {
+    "center": [
+     -74.0113,
+     40.7075
+    ],
+    "widthKm": 70
+   },
+   "gz": [
+    -74.0113,
+    40.7075
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 70
+    },
+    {
+     "t": 3.45,
+     "center": [
+      -74.0113,
+      40.7075
+     ],
+     "widthKm": 140
+    }
+   ],
+   "rings": [
+    {
+     "km": 24.946,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "angle": 215
+    },
+    {
+     "km": 53.139,
+     "label": "",
+     "color": "#FF7A1A",
+     "t": 0.8,
+     "angle": 240
+    },
+    {
+     "km": 67.52,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 1.4,
+     "angle": 265
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -74.0113,
+      41.024
+     ],
+     "text": "The rings do not stop at its edge",
+     "color": "#FFD23F",
+     "t": 1.02
+    }
+   ],
+   "clock": "DAY 1",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0
+  },
+  {
+   "id": "end",
+   "type": "endslate",
+   "start": 664.756,
+   "end": 680.26,
+   "tag": "",
+   "title": "Next scenario",
+   "line": "Washington, DC: where the government goes."
+  }
+ ]
+}

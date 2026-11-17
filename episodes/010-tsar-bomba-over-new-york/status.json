@@ -34,7 +34,12 @@
       "stage": "narrated",
       "note": "11.2 min, 1582 words",
       "at": "2026-11-17T01:05:13+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "120 shots, 680 s, 0 pace lines, 0 retention lines",
+      "at": "2026-11-17T01:15:02+00:00"
     }
   ],
-  "stage": "narrated"
+  "stage": "shotlisted"
 }
