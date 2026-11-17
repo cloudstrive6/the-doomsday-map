@@ -1,0 +1,9 @@
+{
+  "slug": "010-tsar-bomba-over-new-york",
+  "title": "One Tsar Bomba-class warhead over New York, ring by ring",
+  "t0_utc": "2026-11-24T15:30:00Z",
+  "strikes": [
+    {"id": "hero-50mt", "launch_name": "Release point over the North Atlantic (location simulated)", "launch_lat": 40.5, "launch_lon": -63.0, "target_name": "Lower Manhattan, simulated ground zero", "target_lat": 40.7075, "target_lon": -74.0113, "weapon": "Tsar Bomba-class 50 Mt bomb (never deployed, A12; delivery simulated)", "weapon_class": "bomber", "yield_kt": 50000, "burst": "air", "warheads": 1, "launch_offset_min": 0, "notes": "Yield: Soviet figure for the 1961 test, research.md A1 (published range 50 to 58, A2). Burst height not an engine input: the engine places an airburst at the height that maximises the 5 psi ring; the real test burst at about 4,000 m (A1). Attacker not named. Bomb never deployed, A12."},
+    {"id": "scale-800kt", "launch_name": "Simulated launch area, Arctic (location simulated)", "launch_lat": 68.0, "launch_lon": 60.0, "target_name": "Lower Manhattan, same ground zero (scale comparison only)", "target_lat": 40.7075, "target_lon": -74.0113, "weapon": "Top of the Russian missile warhead range, SS-18 class (500 to 800 kt)", "weapon_class": "icbm", "yield_kt": 800, "burst": "air", "warheads": 1, "launch_offset_min": 0, "notes": "Comparison drawn on the same map, not a second attack. 800 kt is the top of the FAS range for SS-18 warheads, research.md A22; US W88 is about 450 kt by published estimates (A21), not used."}
+  ]
+}
