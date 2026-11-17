@@ -1,6 +1,6 @@
 {
-  "built": "2026-11-16",
-  "latest_snapshot": "2026-11-16",
+  "built": "2026-11-17",
+  "latest_snapshot": "2026-11-17",
   "subscribers": 8,
   "subs_target": [
     50,
@@ -350,8 +350,15 @@
       "publish_at": "2026-11-10T00:00:00Z",
       "horizon": 7,
       "due": "2026-11-17",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-17",
+      "status": "measured",
+      "views": 9,
+      "avp": 20.23,
+      "avd": 147,
+      "hold": null,
+      "subs": 0,
+      "ctr": 0.0667,
+      "impressions": 45
     },
     {
       "episode": "003-north-korea-strikes-west-coast",
@@ -374,8 +381,15 @@
       "publish_at": "2026-11-10T14:00:00Z",
       "horizon": 7,
       "due": "2026-11-17",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-17",
+      "status": "measured",
+      "views": 954,
+      "avp": 69.71,
+      "avd": 41,
+      "hold": 1.079,
+      "subs": 1,
+      "ctr": 0.0175,
+      "impressions": 57
     },
     {
       "episode": "003-north-korea-strikes-west-coast",
@@ -398,8 +412,15 @@
       "publish_at": "2026-11-10T19:00:00Z",
       "horizon": 7,
       "due": "2026-11-17",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-17",
+      "status": "measured",
+      "views": 582,
+      "avp": 89.11,
+      "avd": 45,
+      "hold": 1.247,
+      "subs": 0,
+      "ctr": 0.0575,
+      "impressions": 87
     },
     {
       "episode": "003-north-korea-strikes-west-coast",
@@ -914,6 +935,102 @@
       "publish_at": "2026-11-19T00:00:00Z",
       "horizon": 28,
       "due": "2026-12-17",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "010-tsar-bomba-over-new-york",
+      "num": 10,
+      "kind": "long",
+      "id": "yW8PX8vxzT8",
+      "title": "What If a 50 Megaton Nuke Hit New York? Ring by Ring",
+      "publish_at": "2026-11-19T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-11-26",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "010-tsar-bomba-over-new-york",
+      "num": 10,
+      "kind": "long",
+      "id": "yW8PX8vxzT8",
+      "title": "What If a 50 Megaton Nuke Hit New York? Ring by Ring",
+      "publish_at": "2026-11-19T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-17",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "010-tsar-bomba-over-new-york",
+      "num": 10,
+      "kind": "short",
+      "id": "0eqT7omUKg0",
+      "title": "What If a 50 Megaton Nuke Hit New York? #shorts",
+      "publish_at": "2026-11-19T14:00:00Z",
+      "horizon": 7,
+      "due": "2026-11-26",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "010-tsar-bomba-over-new-york",
+      "num": 10,
+      "kind": "short",
+      "id": "0eqT7omUKg0",
+      "title": "What If a 50 Megaton Nuke Hit New York? #shorts",
+      "publish_at": "2026-11-19T14:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-17",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "010-tsar-bomba-over-new-york",
+      "num": 10,
+      "kind": "short",
+      "id": "9Wov8oOgXSM",
+      "title": "50 Megaton Nuke Over New York: The First Seconds #shorts",
+      "publish_at": "2026-11-19T19:00:00Z",
+      "horizon": 7,
+      "due": "2026-11-26",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "010-tsar-bomba-over-new-york",
+      "num": 10,
+      "kind": "short",
+      "id": "9Wov8oOgXSM",
+      "title": "50 Megaton Nuke Over New York: The First Seconds #shorts",
+      "publish_at": "2026-11-19T19:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-17",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "010-tsar-bomba-over-new-york",
+      "num": 10,
+      "kind": "short",
+      "id": "ughjJdoGf50",
+      "title": "The Real 50 Megaton Nuke: Tsar Bomba's Fireball #shorts",
+      "publish_at": "2026-11-20T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-11-27",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "010-tsar-bomba-over-new-york",
+      "num": 10,
+      "kind": "short",
+      "id": "ughjJdoGf50",
+      "title": "The Real 50 Megaton Nuke: Tsar Bomba's Fireball #shorts",
+      "publish_at": "2026-11-20T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-18",
       "snapshot": null,
       "status": "pending"
     }

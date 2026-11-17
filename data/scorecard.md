@@ -1,4 +1,4 @@
-# Scorecard (2026-11-16, latest snapshot 2026-11-16)
+# Scorecard (2026-11-17, latest snapshot 2026-11-17)
 
 Built by `python -m studio scorecard` from data/analytics/. Targets judged on the median of episodes 004 onward; earlier episodes are the baseline. Small samples: read as tests, not proof.
 
@@ -29,7 +29,7 @@ Subscribers: 8 (target 50 by 2026-12-10)
 | 001 | fWvrsNHlIak | 28 | due 2026-12-03 | - | - | - | - | - | - |
 | 002 | asHo8qWpZDg | 7 | measured | 47 | 5.5% | 489 | - | 40% | 271 |
 | 002 | asHo8qWpZDg | 28 | due 2026-12-04 | - | - | - | - | - | - |
-| 003 | up8u4934iUM | 7 | due 2026-11-17 | - | - | - | - | - | - |
+| 003 | up8u4934iUM | 7 | measured | 9 | 6.7% | 45 | - | 20% | 147 |
 | 003 | up8u4934iUM | 28 | due 2026-12-08 | - | - | - | - | - | - |
 | 004 | lufMFIv5AeY | 7 | due 2026-11-18 | - | - | - | - | - | - |
 | 004 | lufMFIv5AeY | 28 | due 2026-12-09 | - | - | - | - | - | - |
@@ -41,6 +41,8 @@ Subscribers: 8 (target 50 by 2026-12-10)
 | 008 | -jPUfuzQF4g | 28 | due 2026-12-15 | - | - | - | - | - | - |
 | 009 | 32-u8DqpnJo | 7 | due 2026-11-25 | - | - | - | - | - | - |
 | 009 | 32-u8DqpnJo | 28 | due 2026-12-16 | - | - | - | - | - | - |
+| 010 | yW8PX8vxzT8 | 7 | due 2026-11-26 | - | - | - | - | - | - |
+| 010 | yW8PX8vxzT8 | 28 | due 2026-12-17 | - | - | - | - | - | - |
 
 ## Shorts
 
@@ -58,9 +60,9 @@ Subscribers: 8 (target 50 by 2026-12-10)
 | 002 | hK24hiHogvs | 28 | due 2026-12-04 | - | - | - |
 | 002 | 9JvUOVsxthA | 7 | measured | 84 | 43% | 18 |
 | 002 | 9JvUOVsxthA | 28 | due 2026-12-05 | - | - | - |
-| 003 | LT_46ntdORs | 7 | due 2026-11-17 | - | - | - |
+| 003 | LT_46ntdORs | 7 | measured | 954 | 70% | 41 |
 | 003 | LT_46ntdORs | 28 | due 2026-12-08 | - | - | - |
-| 003 | XUJI3lSDD0M | 7 | due 2026-11-17 | - | - | - |
+| 003 | XUJI3lSDD0M | 7 | measured | 582 | 89% | 45 |
 | 003 | XUJI3lSDD0M | 28 | due 2026-12-08 | - | - | - |
 | 003 | NxaU3CIMJ2A | 7 | due 2026-11-18 | - | - | - |
 | 003 | NxaU3CIMJ2A | 28 | due 2026-12-09 | - | - | - |
@@ -94,3 +96,9 @@ Subscribers: 8 (target 50 by 2026-12-10)
 | 009 | d70ycdBnvsE | 28 | due 2026-12-16 | - | - | - |
 | 009 | RJ7F0uSC1Xg | 7 | due 2026-11-26 | - | - | - |
 | 009 | RJ7F0uSC1Xg | 28 | due 2026-12-17 | - | - | - |
+| 010 | 0eqT7omUKg0 | 7 | due 2026-11-26 | - | - | - |
+| 010 | 0eqT7omUKg0 | 28 | due 2026-12-17 | - | - | - |
+| 010 | 9Wov8oOgXSM | 7 | due 2026-11-26 | - | - | - |
+| 010 | 9Wov8oOgXSM | 28 | due 2026-12-17 | - | - | - |
+| 010 | ughjJdoGf50 | 7 | due 2026-11-27 | - | - | - |
+| 010 | ughjJdoGf50 | 28 | due 2026-12-18 | - | - | - |
