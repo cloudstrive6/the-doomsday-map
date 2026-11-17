@@ -179,9 +179,9 @@ reg("open-sim", a, S("p03"), [("s", off(0, 0), 330), (W("p02", "published"), off
     labels=[lab(a, off(40, 32), "A simulation: not a prediction", W("p02", "simulation"), YELLOW), lab(a, off(40, -32), "It has not happened", W("p02", "not"), RED)])
 a = S("p03")
 tKm = W("p03", "kilometres")
-reg("open-bomber", a, W("p03", "North"), [("s", [-68.5, 40.6], 1500), (W("p03", "heavy"), [-68.8, 40.6], 1400), ("e", [-69.0, 40.6], 1300)], clock="T-62:00", clockLabel="TO BURST", clockRate=0,
-    cities=[city(a, REL, "Heavy bomber (simulated)", W("p03", "bomber"), WHITE, "base", 6), city(a, GZ, "New York", a + 0.5, RED, "target", 6)],
-    lines=[line(a, REL, GZ, W("p03", "nine"), tKm + 1.5, WHITE, True, "About 930 km")])
+reg("open-bomber", a, W("p03", "North"), [("s", [-68.6, 40.5], 1400), (W("p03", "heavy"), [-69.4, 40.5], 1250), ("e", [-70.2, 40.5], 1100)], clock="T-62:00", clockLabel="TO BURST", clockRate=0,
+    cities=[city(a, REL, "Heavy bomber (simulated)", a + 0.2, WHITE, "base", 6), city(a, GZ, "New York", a + 0.5, RED, "target", 6)],
+    lines=[line(a, REL, GZ, a + 0.3, tKm + 1.5, WHITE, True, "About 930 km")])
 a = W("p03", "North")
 reg("open-atlantic", a, S("p04"), [("s", [-68.0, 40.6], 1100), (W("p03", "one"), [-70.0, 40.7], 700), ("e", [-72.0, 40.7], 520)], clock="T-62:00", clockLabel="TO BURST", clockRate=0,
     cities=[city(a, REL, "Release point", a + 0.2, WHITE, "base", 6), city(a, GZ, "New York", a + 0.4, RED, "target", 6)],
@@ -460,7 +460,7 @@ reg("c5-burn", a, tTh3, [("s", GZ, 200), (W("p41", "fifty-three"), GZ, 240), ("e
     labels=[lab(a, off(0, -45), "Bare skin, clear air", W("p41", "bare"), YELLOW)])
 reg("c5-sea", tTh3, S("p42"), [("s", GZ, 280), (W("p41", "Long"), off(10, 5), 330), ("e", off(10, 5), 380)], **CK,
     rings=[ring(tTh3, GZ, FX["psi5_km"], tTh3 + 0.1, "", RED), ring(tTh3, GZ, FX["thermal3_km"], tTh3 + 0.1, "", ORANGE)],
-    labels=[lab(tTh3, off(40, -48), "The sea", W("p41", "sea"), WHITE), lab(tTh3, off(40, 10), "Long Island", W("p41", "Long"), WHITE), lab(tTh3, off(-60, 0), "New Jersey", W("p41", "Jersey"), WHITE), lab(tTh3, off(90, 55), "Connecticut", W("p41", "Connecticut"), WHITE)])
+    labels=[lab(tTh3, off(40, -48), "The sea", W("p41", "sea"), WHITE), lab(tTh3, off(40, 10), "Long Island", W("p41", "Long"), WHITE), lab(tTh3, off(-60, 0), "New Jersey", W("p41", "Jersey"), WHITE), lab(tTh3, off(70, 95), "Connecticut", W("p41", "Connecticut"), WHITE)])
 a = S("p42")
 tTh4 = W("p42", "The", 2)
 reg("c5-1psi", a, tTh4, [("s", GZ, 300), (W("p42", "one"), GZ, 340), ("e", GZ, 380)], **CK,
@@ -519,7 +519,7 @@ a = S("p50")
 tAt2 = W("p50", "At")
 reg("c6-states", a, tAt2, [("s", GZ, 260), (W("p50", "cross"), GZ, 320), ("e", GZ, 360)], **CD,
     rings=[ring(a, GZ, FX["thermal3_km"], a + 0.3, "Burn ring: 53 km", ORANGE), ring(a, GZ, FX["psi1_km"], W("p50", "window"), "Window ring: 67.5 km", WHITE)],
-    labels=[lab(a, off(95, 50), "Connecticut", W("p50", "three"), WHITE), lab(a, off(-62, 0), "New Jersey", W("p50", "states"), WHITE), lab(a, off(-25, 60), "New York State", W("p50", "sea"), WHITE)])
+    labels=[lab(a, off(85, 90), "Connecticut", W("p50", "three"), WHITE), lab(a, off(-62, 0), "New Jersey", W("p50", "states"), WHITE), lab(a, off(-10, 120), "New York State", W("p50", "sea"), WHITE)])
 reg("c6-900", tAt2, S("p51"), [("s", GZ, 400), (W("p50", "broke"), off(300, 0), 1800), ("e", off(400, 0), 3600)], **CD,
     rings=[ring(tAt2, GZ, FX["psi1_km"], tAt2 + 0.1, "", WHITE), ring(tAt2, GZ, 900, W("p50", "nine"), "1961: windows broke to about 900 km", AMBER, True)])
 a = S("p51")

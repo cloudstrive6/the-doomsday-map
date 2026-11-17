@@ -423,35 +423,43 @@
    "tag": "SIMULATION",
    "view": {
     "center": [
-     -68.5,
-     40.6
+     -68.6,
+     40.5
     ],
-    "widthKm": 1500
+    "widthKm": 1400
    },
    "camera": [
     {
      "t": 0,
      "center": [
-      -68.5,
-      40.6
-     ],
-     "widthKm": 1500
-    },
-    {
-     "t": 1.84,
-     "center": [
-      -68.8,
-      40.6
+      -68.6,
+      40.5
      ],
      "widthKm": 1400
     },
     {
+     "t": 1.84,
+     "center": [
+      -69.4,
+      40.5
+     ],
+     "widthKm": 1250
+    },
+    {
+     "t": 3.78,
+     "center": [
+      -69.8,
+      40.5
+     ],
+     "widthKm": 1175.0
+    },
+    {
      "t": 5.72,
      "center": [
-      -69.0,
-      40.6
+      -70.2,
+      40.5
      ],
-     "widthKm": 1300
+     "widthKm": 1100
     }
    ],
    "clock": "T-62:00",
@@ -465,7 +473,7 @@
      ],
      "label": "Heavy bomber (simulated)",
      "kind": "base",
-     "t": 2.1,
+     "t": 0.2,
      "color": "#FFFFFF",
      "size": 6
     },
@@ -493,7 +501,7 @@
      ],
      "color": "#FFFFFF",
      "dashed": true,
-     "t0": 3.1,
+     "t0": 0.3,
      "t1": 5.71,
      "label": "About 930 km"
     }
@@ -5943,8 +5951,8 @@
     },
     {
      "at": [
-      -72.9448,
-      41.2049
+      -73.1818,
+      41.5667
      ],
      "text": "Connecticut",
      "color": "#FFFFFF",
@@ -6964,8 +6972,8 @@
    "labels": [
     {
      "at": [
-      -72.8855,
-      41.1597
+      -73.004,
+      41.5215
      ],
      "text": "Connecticut",
      "color": "#FFFFFF",
@@ -6982,8 +6990,8 @@
     },
     {
      "at": [
-      -74.3076,
-      41.2501
+      -74.1298,
+      41.7928
      ],
      "text": "New York State",
      "color": "#FFFFFF",
