@@ -6,6 +6,7 @@ the real 1961 and 1954 tests on region and globe shots. No real calendar date; c
 """
 import json
 import math
+import re
 from pathlib import Path
 
 EP = Path(__file__).parent
@@ -115,10 +116,28 @@ def reg(sid, a, b, keys, tag="SIMULATION", **kw):
     add(id=sid, type="region", start=a, end=b, tag=tag, view={"center": c[0]["center"], "widthKm": c[0]["widthKm"]}, camera=c, **kw)
 
 
+def _rkm(km):
+    """The city map prints the ring radius after the label: round it so one number shows."""
+    return round(km) if km >= 10 else round(km, 1)
+
+
+_RNAMES = [(FX["fireball_km"], "Fireball"), (FX["psi20_km"], "20 psi"), (FX["psi5_km"], "5 psi"), (FX["thermal3_km"], "Burns"), (FX["psi1_km"], "Windows"),
+           (FC["fireball_km"], "800 kt fireball"), (FC["psi5_km"], "800 kt 5 psi"), (FC["thermal3_km"], "800 kt burns"), (FC["psi1_km"], "800 kt windows")]
+
+
+def _rlabel(r):
+    """Name only (the engine appends the radius): strip any km figure from the text, name unlabelled rings."""
+    t = re.sub(r"[:,]?\s*(radius |about |under |almost )?[\d.,]+ ?km( wide| across| in radius)?", "", r["label"], flags=re.I).strip(" :,")
+    t = re.sub(r"^(Almost) in radius$", "5 psi", t)
+    if not t:
+        t = next((n for k, n in _RNAMES if abs(k - r["km"]) < 1e-6), "")
+    return t
+
+
 def cty(sid, a, b, keys, rings=(), labels=(), tag="SIMULATION", **kw):
     c = cam(a, b, *keys)
     add(id=sid, type="city", start=a, end=b, tag=tag, city="new-york", view={"center": c[0]["center"], "widthKm": c[0]["widthKm"]}, gz=GZ, camera=c,
-        rings=[{"km": r["km"], "label": r["label"], "color": r["color"], "t": r["t"], "angle": (215 + 25 * i) % 360} for i, r in enumerate(rings)], labels=list(labels), **kw)
+        rings=[{"km": _rkm(r["km"]), "label": _rlabel(r), "color": r["color"], "t": r["t"], "angle": (215 + 25 * i) % 360} for i, r in enumerate(rings)], labels=list(labels), **kw)
 
 
 def glob(sid, a, b, keys, tag="SIMULATION", sun=SUN, **kw):
@@ -160,7 +179,7 @@ reg("open-sim", a, S("p03"), [("s", off(0, 0), 330), (W("p02", "published"), off
     labels=[lab(a, off(40, 32), "A simulation: not a prediction", W("p02", "simulation"), YELLOW), lab(a, off(40, -32), "It has not happened", W("p02", "not"), RED)])
 a = S("p03")
 tKm = W("p03", "kilometres")
-reg("open-bomber", a, W("p03", "North"), [("s", [-63.0, 40.5], 1700), (W("p03", "heavy"), [-66.0, 40.6], 1300), ("e", [-68.0, 40.6], 1100)], clock="T-62:00", clockLabel="TO BURST", clockRate=0,
+reg("open-bomber", a, W("p03", "North"), [("s", [-68.5, 40.6], 1500), (W("p03", "heavy"), [-68.8, 40.6], 1400), ("e", [-69.0, 40.6], 1300)], clock="T-62:00", clockLabel="TO BURST", clockRate=0,
     cities=[city(a, REL, "Heavy bomber (simulated)", W("p03", "bomber"), WHITE, "base", 6), city(a, GZ, "New York", a + 0.5, RED, "target", 6)],
     lines=[line(a, REL, GZ, W("p03", "nine"), tKm + 1.5, WHITE, True, "About 930 km")])
 a = W("p03", "North")
@@ -441,7 +460,7 @@ reg("c5-burn", a, tTh3, [("s", GZ, 200), (W("p41", "fifty-three"), GZ, 240), ("e
     labels=[lab(a, off(0, -45), "Bare skin, clear air", W("p41", "bare"), YELLOW)])
 reg("c5-sea", tTh3, S("p42"), [("s", GZ, 280), (W("p41", "Long"), off(10, 5), 330), ("e", off(10, 5), 380)], **CK,
     rings=[ring(tTh3, GZ, FX["psi5_km"], tTh3 + 0.1, "", RED), ring(tTh3, GZ, FX["thermal3_km"], tTh3 + 0.1, "", ORANGE)],
-    labels=[lab(tTh3, off(-12, -62), "The sea", W("p41", "sea"), WHITE), lab(tTh3, off(40, 10), "Long Island", W("p41", "Long"), WHITE), lab(tTh3, off(-60, 0), "New Jersey", W("p41", "Jersey"), WHITE), lab(tTh3, off(30, 62), "Connecticut", W("p41", "Connecticut"), WHITE)])
+    labels=[lab(tTh3, off(40, -48), "The sea", W("p41", "sea"), WHITE), lab(tTh3, off(40, 10), "Long Island", W("p41", "Long"), WHITE), lab(tTh3, off(-60, 0), "New Jersey", W("p41", "Jersey"), WHITE), lab(tTh3, off(90, 55), "Connecticut", W("p41", "Connecticut"), WHITE)])
 a = S("p42")
 tTh4 = W("p42", "The", 2)
 reg("c5-1psi", a, tTh4, [("s", GZ, 300), (W("p42", "one"), GZ, 340), ("e", GZ, 380)], **CK,
@@ -500,7 +519,7 @@ a = S("p50")
 tAt2 = W("p50", "At")
 reg("c6-states", a, tAt2, [("s", GZ, 260), (W("p50", "cross"), GZ, 320), ("e", GZ, 360)], **CD,
     rings=[ring(a, GZ, FX["thermal3_km"], a + 0.3, "Burn ring: 53 km", ORANGE), ring(a, GZ, FX["psi1_km"], W("p50", "window"), "Window ring: 67.5 km", WHITE)],
-    labels=[lab(a, off(40, 60), "Connecticut", W("p50", "three"), WHITE), lab(a, off(-62, 0), "New Jersey", W("p50", "states"), WHITE), lab(a, off(52, -10), "New York", W("p50", "sea"), WHITE)])
+    labels=[lab(a, off(95, 50), "Connecticut", W("p50", "three"), WHITE), lab(a, off(-62, 0), "New Jersey", W("p50", "states"), WHITE), lab(a, off(-25, 60), "New York State", W("p50", "sea"), WHITE)])
 reg("c6-900", tAt2, S("p51"), [("s", GZ, 400), (W("p50", "broke"), off(300, 0), 1800), ("e", off(400, 0), 3600)], **CD,
     rings=[ring(tAt2, GZ, FX["psi1_km"], tAt2 + 0.1, "", WHITE), ring(tAt2, GZ, 900, W("p50", "nine"), "1961: windows broke to about 900 km", AMBER, True)])
 a = S("p51")
@@ -508,8 +527,8 @@ tWi2, tSo2, tTh6, tTh7 = W("p51", "Winds"), W("p51", "so"), W("p51", "That"), W(
 tLo = W("p51", "lower")
 reg("c6-wind", a, tSo2, [("s", GZ, 300), (tWi2, off(-20, 0), 360), ("e", off(0, 0), 420)], **CD,
     rings=[ring(a, GZ, FX["psi5_km"], a + 0.1, "", RED)],
-    lines=[line(a, off(-130, -30), off(-30, -8), tWi2, tWi2 + 2.5, TEAL, False, "Prevailing wind: from the west", 3)],
-    labels=[lab(a, off(-60, 40), "Then the wind", a + 0.2, WHITE)])
+    lines=[line(a, off(-130, -30), off(-30, -8), a + 0.2, tWi2 + 2.5, TEAL, False, "Prevailing wind: from the west", 3)],
+    labels=[lab(a, off(-120, -8), "Then the wind", a + 0.2, WHITE)])
 reg("c6-drift", tSo2, tTh6, [("s", off(40, 0), 420), ("e", off(90, -10), 560)], **CD,
     rings=[ring(tSo2, GZ, FX["psi5_km"], tSo2 + 0.1, "", RED)],
     lines=[line(tSo2, GZ, off(170, -25), W("p51", "drift"), W("p51", "drift") + 2.5, TEAL, True, "Plume would tend to drift east", 3)],

@@ -283,14 +283,14 @@
    ],
    "rings": [
     {
-     "km": 4.618,
-     "label": "Fireball: 9.2 km wide",
+     "km": 4.6,
+     "label": "Fireball",
      "color": "#FFFFFF",
      "t": 0.7,
      "angle": 215
     },
     {
-     "km": 5.079,
+     "km": 5.1,
      "label": "20 psi",
      "color": "#FF3B3B",
      "t": 2.6,
@@ -423,35 +423,35 @@
    "tag": "SIMULATION",
    "view": {
     "center": [
-     -63.0,
-     40.5
+     -68.5,
+     40.6
     ],
-    "widthKm": 1700
+    "widthKm": 1500
    },
    "camera": [
     {
      "t": 0,
      "center": [
-      -63.0,
-      40.5
+      -68.5,
+      40.6
      ],
-     "widthKm": 1700
+     "widthKm": 1500
     },
     {
      "t": 1.84,
      "center": [
-      -66.0,
+      -68.8,
       40.6
      ],
-     "widthKm": 1300
+     "widthKm": 1400
     },
     {
      "t": 5.72,
      "center": [
-      -68.0,
+      -69.0,
       40.6
      ],
-     "widthKm": 1100
+     "widthKm": 1300
     }
    ],
    "clock": "T-62:00",
@@ -1457,8 +1457,8 @@
    ],
    "rings": [
     {
-     "km": 4.618,
-     "label": "Our engine: 9.2 km wide",
+     "km": 4.6,
+     "label": "Our engine",
      "color": "#FFFFFF",
      "t": 0.4,
      "angle": 215
@@ -1515,15 +1515,15 @@
    ],
    "rings": [
     {
-     "km": 4.618,
-     "label": "Ours: 9.2 km",
+     "km": 4.6,
+     "label": "Ours",
      "color": "#FFFFFF",
      "t": 0.1,
      "angle": 215
     },
     {
      "km": 4.0,
-     "label": "1961: about 8 km",
+     "label": "1961",
      "color": "#F2B01E",
      "t": 0.5,
      "angle": 240
@@ -2311,7 +2311,7 @@
    ],
    "rings": [
     {
-     "km": 24.946,
+     "km": 25,
      "label": "5 psi: modelled",
      "color": "#FFD23F",
      "t": 0.3,
@@ -2523,8 +2523,8 @@
    ],
    "rings": [
     {
-     "km": 4.618,
-     "label": "",
+     "km": 4.6,
+     "label": "Fireball",
      "color": "#FFFFFF",
      "t": 3.23,
      "angle": 215
@@ -4533,8 +4533,8 @@
    ],
    "rings": [
     {
-     "km": 4.618,
-     "label": "Fireball: 9.2 km wide",
+     "km": 4.6,
+     "label": "Fireball",
      "color": "#FFFFFF",
      "t": 0.5,
      "angle": 215
@@ -4593,8 +4593,8 @@
    ],
    "rings": [
     {
-     "km": 4.618,
-     "label": "",
+     "km": 4.6,
+     "label": "Fireball",
      "color": "#FFFFFF",
      "t": 0.1,
      "angle": 215
@@ -4903,8 +4903,8 @@
    ],
    "rings": [
     {
-     "km": 4.618,
-     "label": "Fireball: radius 4.6 km",
+     "km": 4.6,
+     "label": "Fireball",
      "color": "#FFFFFF",
      "t": 0.1,
      "angle": 215
@@ -4963,8 +4963,8 @@
    ],
    "rings": [
     {
-     "km": 4.618,
-     "label": "",
+     "km": 4.6,
+     "label": "Fireball",
      "color": "#FFFFFF",
      "t": 0.1,
      "angle": 215
@@ -5040,8 +5040,8 @@
    ],
    "rings": [
     {
-     "km": 4.618,
-     "label": "",
+     "km": 4.6,
+     "label": "Fireball",
      "color": "#FFFFFF",
      "t": 0.1,
      "angle": 215
@@ -5117,15 +5117,15 @@
    ],
    "rings": [
     {
-     "km": 4.618,
-     "label": "",
+     "km": 4.6,
+     "label": "Fireball",
      "color": "#FFFFFF",
      "t": 0.1,
      "angle": 215
     },
     {
-     "km": 5.079,
-     "label": "20 psi: 5.1 km",
+     "km": 5.1,
+     "label": "20 psi",
      "color": "#FF3B3B",
      "t": 0.51,
      "angle": 240
@@ -5192,7 +5192,7 @@
    ],
    "rings": [
     {
-     "km": 5.079,
+     "km": 5.1,
      "label": "20 psi ring",
      "color": "#FF3B3B",
      "t": 0.1,
@@ -5269,8 +5269,8 @@
    ],
    "rings": [
     {
-     "km": 5.079,
-     "label": "",
+     "km": 5.1,
+     "label": "20 psi",
      "color": "#FF3B3B",
      "t": 0.1,
      "angle": 215
@@ -5364,15 +5364,15 @@
    ],
    "rings": [
     {
-     "km": 5.079,
-     "label": "",
+     "km": 5.1,
+     "label": "20 psi",
      "color": "#FF3B3B",
      "t": 0.1,
      "angle": 215
     },
     {
-     "km": 24.946,
-     "label": "5 psi: 25 km",
+     "km": 25,
+     "label": "5 psi",
      "color": "#FF3B3B",
      "t": 0.81,
      "angle": 240
@@ -5431,8 +5431,8 @@
    ],
    "rings": [
     {
-     "km": 24.946,
-     "label": "5 psi: 25 km",
+     "km": 25,
+     "label": "5 psi",
      "color": "#FF3B3B",
      "t": 0.1,
      "angle": 215
@@ -5499,8 +5499,8 @@
    ],
    "rings": [
     {
-     "km": 24.946,
-     "label": "",
+     "km": 25,
+     "label": "5 psi",
      "color": "#FF3B3B",
      "t": 0.1,
      "angle": 215
@@ -5576,8 +5576,8 @@
    ],
    "rings": [
     {
-     "km": 24.946,
-     "label": "",
+     "km": 25,
+     "label": "5 psi",
      "color": "#FF3B3B",
      "t": 0.1,
      "angle": 215
@@ -5680,7 +5680,7 @@
    ],
    "rings": [
     {
-     "km": 24.946,
+     "km": 25,
      "label": "5 psi ring: the one to hold in mind",
      "color": "#FF3B3B",
      "t": 0.1,
@@ -5740,15 +5740,15 @@
    ],
    "rings": [
     {
-     "km": 24.946,
-     "label": "50 Mt: 25 km",
+     "km": 25,
+     "label": "50 Mt",
      "color": "#FF3B3B",
      "t": 0.1,
      "angle": 215
     },
     {
-     "km": 6.286,
-     "label": "800 kt: 6.3 km",
+     "km": 6.3,
+     "label": "800 kt",
      "color": "#FFD23F",
      "t": 0.7,
      "angle": 240
@@ -5916,8 +5916,8 @@
    "labels": [
     {
      "at": [
-      -74.1535,
-      40.1468
+      -73.5373,
+      40.2734
      ],
      "text": "The sea",
      "color": "#FFFFFF",
@@ -5943,8 +5943,8 @@
     },
     {
      "at": [
-      -73.6558,
-      41.2682
+      -72.9448,
+      41.2049
      ],
      "text": "Connecticut",
      "color": "#FFFFFF",
@@ -6157,7 +6157,7 @@
    ],
    "rings": [
     {
-     "km": 24.946,
+     "km": 25,
      "label": "50 Mt: 5 psi",
      "color": "#FF3B3B",
      "t": 0.1,
@@ -6248,8 +6248,8 @@
    ],
    "rings": [
     {
-     "km": 0.883,
-     "label": "800 kt fireball: under 1 km",
+     "km": 0.9,
+     "label": "800 kt fireball",
      "color": "#FFFFFF",
      "t": 0.3,
      "angle": 215
@@ -6315,22 +6315,22 @@
    ],
    "rings": [
     {
-     "km": 0.883,
-     "label": "",
+     "km": 0.9,
+     "label": "800 kt fireball",
      "color": "#FFFFFF",
      "t": 0.1,
      "angle": 215
     },
     {
-     "km": 9.752,
-     "label": "Burns: 9.8 km",
+     "km": 9.8,
+     "label": "Burns",
      "color": "#FF7A1A",
      "t": 1.64,
      "angle": 240
     },
     {
-     "km": 17.014,
-     "label": "Windows: 17 km",
+     "km": 17,
+     "label": "Windows",
      "color": "#FFFFFF",
      "t": 4.98,
      "angle": 265
@@ -6386,15 +6386,15 @@
    ],
    "rings": [
     {
-     "km": 6.286,
-     "label": "5 psi: 6.3 km",
+     "km": 6.3,
+     "label": "5 psi",
      "color": "#FFD23F",
      "t": 4.16,
      "angle": 215
     },
     {
-     "km": 9.752,
-     "label": "",
+     "km": 9.8,
+     "label": "800 kt burns",
      "color": "#FF7A1A",
      "t": 0.1,
      "angle": 240
@@ -6460,15 +6460,15 @@
    ],
    "rings": [
     {
-     "km": 24.946,
-     "label": "50 Mt: 25 km",
+     "km": 25,
+     "label": "50 Mt",
      "color": "#FF3B3B",
      "t": 0.2,
      "angle": 215
     },
     {
-     "km": 6.286,
-     "label": "800 kt: 6.3 km",
+     "km": 6.3,
+     "label": "800 kt",
      "color": "#FFD23F",
      "t": 4.97,
      "angle": 240
@@ -6567,15 +6567,15 @@
    ],
    "rings": [
     {
-     "km": 24.946,
-     "label": "",
+     "km": 25,
+     "label": "5 psi",
      "color": "#FF3B3B",
      "t": 0.1,
      "angle": 215
     },
     {
-     "km": 6.286,
-     "label": "",
+     "km": 6.3,
+     "label": "800 kt 5 psi",
      "color": "#FFD23F",
      "t": 0.1,
      "angle": 240
@@ -6668,8 +6668,8 @@
    ],
    "rings": [
     {
-     "km": 24.946,
-     "label": "Almost 25 km in radius",
+     "km": 25,
+     "label": "5 psi",
      "color": "#FF3B3B",
      "t": 2.07,
      "angle": 215
@@ -6736,8 +6736,8 @@
    ],
    "rings": [
     {
-     "km": 24.946,
-     "label": "",
+     "km": 25,
+     "label": "5 psi",
      "color": "#FF3B3B",
      "t": 0.1,
      "angle": 215
@@ -6813,8 +6813,8 @@
    ],
    "rings": [
     {
-     "km": 5.079,
-     "label": "",
+     "km": 5.1,
+     "label": "20 psi",
      "color": "#FF3B3B",
      "t": 0.1,
      "angle": 215
@@ -6873,8 +6873,8 @@
    ],
    "rings": [
     {
-     "km": 24.946,
-     "label": "5 psi: 25 km",
+     "km": 25,
+     "label": "5 psi",
      "color": "#FF3B3B",
      "t": 0.1,
      "angle": 215
@@ -6964,8 +6964,8 @@
    "labels": [
     {
      "at": [
-      -73.5373,
-      41.2501
+      -72.8855,
+      41.1597
      ],
      "text": "Connecticut",
      "color": "#FFFFFF",
@@ -6982,10 +6982,10 @@
     },
     {
      "at": [
-      -73.3951,
-      40.6171
+      -74.3076,
+      41.2501
      ],
-     "text": "New York",
+     "text": "New York State",
      "color": "#FFFFFF",
      "t": 3.85
     }
@@ -7125,7 +7125,7 @@
      ],
      "color": "#3ED6C8",
      "dashed": false,
-     "t0": 2.15,
+     "t0": 0.2,
      "t1": 4.65,
      "label": "Prevailing wind: from the west",
      "width": 3
@@ -7134,8 +7134,8 @@
    "labels": [
     {
      "at": [
-      -74.7223,
-      41.0693
+      -75.4333,
+      40.6351
      ],
      "text": "Then the wind",
      "color": "#FFFFFF",
@@ -7826,22 +7826,22 @@
    ],
    "rings": [
     {
-     "km": 24.946,
-     "label": "",
+     "km": 25,
+     "label": "5 psi",
      "color": "#FF3B3B",
      "t": 0.2,
      "angle": 215
     },
     {
-     "km": 53.139,
-     "label": "",
+     "km": 53,
+     "label": "Burns",
      "color": "#FF7A1A",
      "t": 0.8,
      "angle": 240
     },
     {
-     "km": 67.52,
-     "label": "",
+     "km": 68,
+     "label": "Windows",
      "color": "#FFFFFF",
      "t": 1.4,
      "angle": 265
