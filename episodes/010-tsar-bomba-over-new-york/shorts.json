@@ -1,0 +1,35 @@
+[
+  {
+    "id": "s1",
+    "start": 0.0,
+    "end": 30.375,
+    "title": [
+      "ONE 50 MT NUKE",
+      "ON NEW YORK"
+    ],
+    "yt_title": "What If a 50 Megaton Nuke Hit New York? #shorts",
+    "hook": "A simulation: one 50-megaton airburst over lower Manhattan, and a fireball nine kilometres wide."
+  },
+  {
+    "id": "s2",
+    "start": 333.521,
+    "end": 367.25,
+    "title": [
+      "T PLUS ZERO",
+      "50 MT OVER NEW YORK"
+    ],
+    "yt_title": "50 Megaton Nuke Over New York: The First Seconds #shorts",
+    "hook": "A simulation: a bomber reaches the burst point over lower Manhattan, the clock hits zero, and the light is seen a thousand kilometres away."
+  },
+  {
+    "id": "s3",
+    "start": 54.048,
+    "end": 91.9,
+    "title": [
+      "THE 50 MT NUKE",
+      "THAT WAS REAL"
+    ],
+    "yt_title": "The Real 50 Megaton Nuke: Tsar Bomba's Fireball #shorts",
+    "hook": "In 1961 the Soviet Union exploded a 50-megaton bomb over the Arctic: a fireball eight kilometres wide."
+  }
+]

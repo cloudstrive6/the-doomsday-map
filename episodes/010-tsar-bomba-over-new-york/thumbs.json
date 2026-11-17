@@ -1,0 +1,38 @@
+[
+ {
+  "id": "a",
+  "variant": "image",
+  "concept": "daylight-flash",
+  "palette": "daylight",
+  "line1": "9 KM",
+  "line2": "FIREBALL",
+  "tag": "BIGGER THAN MANHATTAN",
+  "align": "left",
+  "image_prompt": "Bright midday daylight photo from the Brooklyn waterfront across the East River at the lower Manhattan skyline: a gigantic blinding white-hot fireball with a rising white and orange cloud swallows the sky behind and above the towers of lower Manhattan, much taller and wider than the skyline, lighting the glass towers and the river gold-white. The skyline and fireball fill the right 60 percent of the frame; the left 40 percent is clear pale-blue sky and open river. No ring, no halo, no people, no faces, no text.",
+  "image": "thumbs/010-a.jpg"
+ },
+ {
+  "id": "b",
+  "variant": "image",
+  "concept": "weapon",
+  "palette": "dawn-gold",
+  "line1": "62 MINUTES",
+  "line2": "ONE BOMB",
+  "tag": "",
+  "align": "left",
+  "image_prompt": "Bright low-angle photo at sunrise of a large grey Soviet-style four-engine turboprop strategic bomber with swept wings flying over the North Atlantic, carrying one enormous pale grey torpedo-shaped bomb so big it hangs half outside the belly of the fuselage, golden sunrise light on the metal, glowing orange and blue sky and sea with white clouds below. The bomber and its bomb fill the right two thirds of the frame; the left third is clear glowing sky. No people, no faces, no text.",
+  "image": "thumbs/010-b.jpg"
+ },
+ {
+  "id": "c",
+  "variant": "image",
+  "concept": "scale",
+  "palette": "ash",
+  "line1": "60X",
+  "line2": "BIGGER",
+  "tag": "THAN TODAY'S WARHEADS",
+  "align": "right",
+  "image_prompt": "Bright overcast daylight photo over New York Harbor and the Manhattan skyline with the Statue of Liberty in the foreground: two nuclear mushroom clouds side by side seen from the harbour. On the left, one huge towering mushroom cloud that rises far above the skyline and fills the sky; on the far right of the frame, one small mushroom cloud no taller than the skyscrapers, drawn clearly smaller for scale. Vivid orange and red fire glowing at the base of the clouds against pale grey sky. The big cloud and skyline fill the left two thirds; the upper right is clear pale grey sky. No people, no faces, no text.",
+  "image": "thumbs/010-c.jpg"
+ }
+]
