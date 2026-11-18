@@ -1,0 +1,8328 @@
+{
+ "slug": "011-washington-where-the-government-goes",
+ "fps": 60,
+ "width": 1920,
+ "height": 1080,
+ "durationSeconds": 638.26,
+ "banner": {
+  "start": 2.65,
+  "end": 5.65
+ },
+ "musicPlan": [
+  {
+   "src": "bed_tense.mp3",
+   "from": 0,
+   "to": 30.495,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  },
+  {
+   "src": "bed.mp3",
+   "from": 28.495,
+   "to": 206.855,
+   "loop": [
+    2,
+    174
+   ],
+   "gain_db": -17
+  },
+  {
+   "src": "bed_tense.mp3",
+   "from": 204.855,
+   "to": 638.26,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  }
+ ],
+ "sfxPlan": [
+  {
+   "src": "impact.mp3",
+   "t": 29.645,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 93.325,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 206.005,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 282.789,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 413.342,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 505.04699999999997,
+   "gain_db": -9
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 72.78999999999999,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 164.79999999999998,
+   "gain_db": -14
+  },
+  {
+   "src": "radar.mp3",
+   "t": 175.78,
+   "gain_db": -12
+  },
+  {
+   "src": "boom.mp3",
+   "t": 2.95,
+   "gain_db": -4
+  },
+  {
+   "src": "boom.mp3",
+   "t": 406.005,
+   "gain_db": -4
+  }
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated.",
+ "shots": [
+  {
+   "id": "open-run",
+   "type": "region",
+   "start": 0,
+   "end": 2.85,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -76.2285,
+     38.9881
+    ],
+    "widthKm": 320
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -76.2285,
+      38.9881
+     ],
+     "widthKm": 320
+    },
+    {
+     "t": 2.85,
+     "center": [
+      -76.9442,
+      38.9158
+     ],
+     "widthKm": 170
+    }
+   ],
+   "clock": "T-00:03",
+   "clockLabel": "TO BURST",
+   "clockRate": 1,
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "Washington, DC",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -76.61,
+      39.29
+     ],
+     "label": "Baltimore",
+     "kind": "dot",
+     "t": 0.25
+    },
+    {
+     "at": [
+      -76.49,
+      38.98
+     ],
+     "label": "Annapolis",
+     "kind": "dot",
+     "t": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -75.3051,
+      39.2595
+     ],
+     "to": [
+      -77.0365,
+      38.8977
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 0.1,
+     "t1": 2.8
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -75.3051,
+       39.2595
+      ],
+      [
+       -77.0365,
+       38.8977
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 2.8,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Warhead",
+     "size": 1.8,
+     "t": 0.1,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "open-flash",
+   "type": "city",
+   "start": 2.85,
+   "end": 5.472,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 9
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 9
+    },
+    {
+     "t": 2.62,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 24
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.4,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.5,
+     "angle": 215
+    },
+    {
+     "km": 0.6,
+     "label": "20 psi",
+     "color": "#FF3B3B",
+     "t": 1.2,
+     "angle": 240
+    },
+    {
+     "km": 3.1,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 1.9,
+     "angle": 265
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9122
+     ],
+     "text": "White House",
+     "color": "#FFFFFF",
+     "t": 0.4
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "WASHINGTON · SIMULATED",
+   "clockRate": 1,
+   "flashT": 0.1,
+   "caption": "One 100 kiloton airburst. Simulation: it has not happened."
+  },
+  {
+   "id": "open-sim",
+   "type": "region",
+   "start": 5.472,
+   "end": 8.985,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 240
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 240
+    },
+    {
+     "t": 0.36,
+     "center": [
+      -77.1288,
+      38.9248
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 3.51,
+     "center": [
+      -77.175,
+      38.9339
+     ],
+     "widthKm": 380
+    }
+   ],
+   "clock": "T+00:20",
+   "clockLabel": "AFTER THE FLASH",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "Ground zero",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -76.61,
+      39.29
+     ],
+     "label": "Baltimore",
+     "kind": "dot",
+     "t": 0.5
+    },
+    {
+     "at": [
+      -76.49,
+      38.98
+     ],
+     "label": "Annapolis",
+     "kind": "dot",
+     "t": 0.7
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.0176,
+      39.2595
+     ],
+     "text": "A simulation: not a prediction",
+     "color": "#FFD23F",
+     "t": 0.36
+    },
+    {
+     "at": [
+      -78.0176,
+      39.1509
+     ],
+     "text": "It has not happened",
+     "color": "#FFFFFF",
+     "t": 2.0
+    }
+   ]
+  },
+  {
+   "id": "open-sub",
+   "type": "region",
+   "start": 8.985,
+   "end": 15.31,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -61.5,
+     39.5
+    ],
+    "widthKm": 4700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -61.5,
+      39.5
+     ],
+     "widthKm": 4700
+    },
+    {
+     "t": 2.03,
+     "center": [
+      -61,
+      39.8
+     ],
+     "widthKm": 4450
+    },
+    {
+     "t": 6.33,
+     "center": [
+      -60,
+      39.3
+     ],
+     "widthKm": 4150
+    }
+   ],
+   "clock": "T-11:06",
+   "clockLabel": "TO BURST",
+   "clockRate": 1,
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "840",
+     "text": "UNITED STATES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -45.0,
+      40.0
+     ],
+     "label": "Submarine (simulated)",
+     "kind": "base",
+     "t": 2.03,
+     "color": "#FFFFFF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "Washington",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -45.0,
+      40.0
+     ],
+     "to": [
+      -77.0365,
+      38.8977
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 3.79,
+     "t1": 5.83,
+     "label": "About 2,700 km"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -45.0,
+       40.0
+      ],
+      [
+       -57.1739,
+       39.5811
+      ]
+     ],
+     "t0": 3.79,
+     "t1": 6.13,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "One missile",
+     "size": 1.8,
+     "t": 3.79,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "open-sat",
+   "type": "globe",
+   "start": 15.31,
+   "end": 18.15,
+   "tag": "SIMULATION",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 42,
+     "lon": -62,
+     "scale": 1000
+    },
+    {
+     "t": 2.84,
+     "lat": 40,
+     "lon": -70,
+     "scale": 1500
+    }
+   ],
+   "sun": {
+    "lat": -12.48,
+    "lon": -41.39
+   },
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -45.0,
+      40.0
+     ],
+     "label": "Launch detected",
+     "color": "#FFFFFF",
+     "kind": "sub",
+     "size": 6,
+     "t": 0.3
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "Washington",
+     "color": "#FF3B3B",
+     "kind": "target",
+     "size": 6,
+     "t": 0.4
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -45.0,
+      40.0
+     ],
+     "to": [
+      -77.0365,
+      38.8977
+     ],
+     "t0": 0.3,
+     "t1": 2.6,
+     "color": "#FF3B3B",
+     "loft": 0.3
+    }
+   ]
+  },
+  {
+   "id": "open-window",
+   "type": "region",
+   "start": 18.15,
+   "end": 23.809,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 420
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 420
+    },
+    {
+     "t": 2.2,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 280
+    },
+    {
+     "t": 5.66,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 170
+    }
+   ],
+   "clock": "T-10:00",
+   "clockLabel": "TO DECIDE",
+   "clockRate": 1,
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.1404,
+      38.8525
+     ],
+     "label": "Pentagon",
+     "kind": "dot",
+     "t": 1.0,
+     "color": "#6EA8FF",
+     "size": 5
+    },
+    {
+     "at": [
+      -76.61,
+      39.29
+     ],
+     "label": "Baltimore",
+     "kind": "dot",
+     "t": 1.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.537,
+      39.5308
+     ],
+     "text": "Analysts' estimate",
+     "color": "#FFD23F",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -78.537,
+      39.4223
+     ],
+     "text": "Under 10 minutes to decide",
+     "color": "#FFFFFF",
+     "t": 2.2
+    }
+   ]
+  },
+  {
+   "id": "open-who",
+   "type": "city",
+   "start": 23.809,
+   "end": 29.495,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 30
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 30
+    },
+    {
+     "t": 1.96,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 20
+    },
+    {
+     "t": 5.69,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 13
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9122
+     ],
+     "text": "White House",
+     "color": "#FFFFFF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -77.0091,
+      38.898
+     ],
+     "text": "Capitol",
+     "color": "#FFFFFF",
+     "t": 1.96
+    },
+    {
+     "at": [
+      -77.0558,
+      38.8629
+     ],
+     "text": "Pentagon",
+     "color": "#FFFFFF",
+     "t": 2.42
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8434
+     ],
+     "text": "Who is left at 10:12?",
+     "color": "#FFD23F",
+     "t": 3.37
+    }
+   ],
+   "clock": "10:12",
+   "clockLabel": "WHO IS LEFT?",
+   "clockRate": 0
+  },
+  {
+   "id": "c1-card",
+   "type": "chapter",
+   "start": 29.495,
+   "end": 33.0,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 01",
+   "title": "The day the government left"
+  },
+  {
+   "id": "c1-vp",
+   "type": "city",
+   "start": 33.0,
+   "end": 40.008,
+   "tag": "REAL DATA",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 12
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 12
+    },
+    {
+     "t": 2.85,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 8
+    },
+    {
+     "t": 4.93,
+     "center": [
+      -77.0365,
+      38.8955
+     ],
+     "widthKm": 7.0
+    },
+    {
+     "t": 7.01,
+     "center": [
+      -77.0365,
+      38.8932
+     ],
+     "widthKm": 6
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9113
+     ],
+     "text": "Vice President",
+     "color": "#FFFFFF",
+     "t": 0.33
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8868
+     ],
+     "text": "Taken below the White House",
+     "color": "#FFD23F",
+     "t": 1.53
+    }
+   ],
+   "source": "Congressional Research Service; History.com",
+   "clock": "11 SEP 2001",
+   "clockLabel": "THE MORNING",
+   "clockRate": 0,
+   "caption": "Within minutes of the South Tower being hit."
+  },
+  {
+   "id": "c1-af1",
+   "type": "region",
+   "start": 40.008,
+   "end": 45.83,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -90,
+     38
+    ],
+    "widthKm": 5200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -90,
+      38
+     ],
+     "widthKm": 5200
+    },
+    {
+     "t": 1.46,
+     "center": [
+      -88,
+      37
+     ],
+     "widthKm": 4300
+    },
+    {
+     "t": 5.82,
+     "center": [
+      -84,
+      37
+     ],
+     "widthKm": 3600
+    }
+   ],
+   "source": "Congressional Research Service; History.com",
+   "clock": "11 SEP 2001",
+   "clockLabel": "THE MORNING",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "840",
+     "text": "UNITED STATES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "Washington",
+     "kind": "dot",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 5
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -77.0365,
+       38.8977
+      ],
+      [
+       -82,
+       36
+      ],
+      [
+       -90,
+       33
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 5.52,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "label": "Air Force One",
+     "size": 2.2,
+     "t": 0.5,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -92,
+      43
+     ],
+     "text": "President: in the air",
+     "color": "#FFFFFF",
+     "t": 0.9
+    },
+    {
+     "at": [
+      -92,
+      41.5
+     ],
+     "text": "Limited communications",
+     "color": "#FFD23F",
+     "t": 3.68
+    }
+   ]
+  },
+  {
+   "id": "c1-pent",
+   "type": "city",
+   "start": 45.83,
+   "end": 51.976,
+   "tag": "REAL DATA",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0561,
+     38.8715
+    ],
+    "widthKm": 8
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0561,
+      38.8715
+     ],
+     "widthKm": 8
+    },
+    {
+     "t": 1.52,
+     "center": [
+      -77.0558,
+      38.8719
+     ],
+     "widthKm": 5.5
+    },
+    {
+     "t": 6.15,
+     "center": [
+      -77.0558,
+      38.8719
+     ],
+     "widthKm": 4.5
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -77.0558,
+      38.88
+     ],
+     "text": "Defense Secretary",
+     "color": "#FFFFFF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -77.0558,
+      38.8647
+     ],
+     "text": "Pentagon crash site",
+     "color": "#FFD23F",
+     "t": 1.96
+    },
+    {
+     "at": [
+      -77.0558,
+      38.8592
+     ],
+     "text": "Out of reach for much of the crisis",
+     "color": "#FFFFFF",
+     "t": 3.62
+    }
+   ],
+   "source": "Congressional Research Service; History.com",
+   "clock": "11 SEP 2001",
+   "clockLabel": "THE MORNING",
+   "clockRate": 0
+  },
+  {
+   "id": "c1-heli",
+   "type": "region",
+   "start": 51.976,
+   "end": 56.75,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -77.3828,
+     38.9701
+    ],
+    "widthKm": 190
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.3828,
+      38.9701
+     ],
+     "widthKm": 190
+    },
+    {
+     "t": 3.03,
+     "center": [
+      -77.4405,
+      39.0062
+     ],
+     "widthKm": 170
+    },
+    {
+     "t": 4.77,
+     "center": [
+      -77.4982,
+      39.0243
+     ],
+     "widthKm": 160
+    }
+   ],
+   "source": "Congressional Research Service; History.com",
+   "clock": "11 SEP 2001",
+   "clockLabel": "THE MORNING",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -77.0091,
+      38.8899
+     ],
+     "label": "Capitol",
+     "kind": "dot",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 5
+    },
+    {
+     "at": [
+      -77.8875,
+      39.064
+     ],
+     "label": "Mount Weather",
+     "kind": "base",
+     "t": 4.65,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -77.0091,
+       38.8899
+      ],
+      [
+       -77.8875,
+       39.064
+      ]
+     ],
+     "t0": 1.89,
+     "t1": 4.57,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "label": "Military helicopters",
+     "size": 2.2,
+     "t": 1.89,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.1907,
+      39.2595
+     ],
+     "text": "About ten to ten",
+     "color": "#FFD23F",
+     "t": 0.1
+    },
+    {
+     "at": [
+      -78.1907,
+      39.169
+     ],
+     "text": "Congressional leaders",
+     "color": "#FFFFFF",
+     "t": 3.03
+    }
+   ]
+  },
+  {
+   "id": "c1-mw",
+   "type": "region",
+   "start": 56.75,
+   "end": 62.6,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -77.5559,
+     39.0243
+    ],
+    "widthKm": 180
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.5559,
+      39.0243
+     ],
+     "widthKm": 180
+    },
+    {
+     "t": 5.85,
+     "center": [
+      -77.8875,
+      39.064
+     ],
+     "widthKm": 150
+    }
+   ],
+   "source": "Congressional Research Service; History.com",
+   "clock": "11 SEP 2001",
+   "clockLabel": "THE MORNING",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -77.8875,
+      39.064
+     ],
+     "label": "Mount Weather",
+     "kind": "base",
+     "t": 1.8,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "dot",
+     "t": 0.4,
+     "color": "#FFFFFF",
+     "size": 5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.8875,
+      38.9555
+     ],
+     "text": "Virginia",
+     "color": "#8A8F98",
+     "t": 1.66
+    },
+    {
+     "at": [
+      -77.8875,
+      38.865
+     ],
+     "text": "They stayed until late afternoon",
+     "color": "#FFD23F",
+     "t": 3.48
+    }
+   ]
+  },
+  {
+   "id": "c1-cont",
+   "type": "region",
+   "start": 62.6,
+   "end": 67.454,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -77.3828,
+     39.169
+    ],
+    "widthKm": 240
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.3828,
+      39.169
+     ],
+     "widthKm": 240
+    },
+    {
+     "t": 1.73,
+     "center": [
+      -77.4405,
+      39.2142
+     ],
+     "widthKm": 200
+    },
+    {
+     "t": 4.85,
+     "center": [
+      -77.4405,
+      39.2595
+     ],
+     "widthKm": 180
+    }
+   ],
+   "source": "Congressional Research Service; History.com",
+   "clock": "11 SEP 2001",
+   "clockLabel": "THE MORNING",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "Washington",
+     "kind": "dot",
+     "t": 0.3,
+     "color": "#FFFFFF",
+     "size": 5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.0753,
+      39.4403
+     ],
+     "text": "For the first time",
+     "color": "#FFD23F",
+     "t": 0.67
+    },
+    {
+     "at": [
+      -78.0753,
+      39.3409
+     ],
+     "text": "Continuity plans activated",
+     "color": "#FFFFFF",
+     "t": 2.27
+    }
+   ]
+  },
+  {
+   "id": "c1-bunkers",
+   "type": "region",
+   "start": 67.454,
+   "end": 73.19,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -77.4405,
+     39.3047
+    ],
+    "widthKm": 200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.4405,
+      39.3047
+     ],
+     "widthKm": 200
+    },
+    {
+     "t": 2.2,
+     "center": [
+      -77.4405,
+      39.3499
+     ],
+     "widthKm": 240
+    },
+    {
+     "t": 5.74,
+     "center": [
+      -77.3828,
+      39.3499
+     ],
+     "widthKm": 280
+    }
+   ],
+   "source": "Congressional Research Service; History.com",
+   "clock": "11 SEP 2001",
+   "clockLabel": "THE MORNING",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "Washington",
+     "kind": "dot",
+     "t": 0.2,
+     "color": "#FFFFFF",
+     "size": 5
+    },
+    {
+     "at": [
+      -77.8875,
+      39.064
+     ],
+     "label": "Mount Weather",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.4194,
+      39.7344
+     ],
+     "label": "Raven Rock",
+     "kind": "base",
+     "t": 0.8,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -77.0365,
+      38.8977
+     ],
+     "to": [
+      -77.8875,
+      39.064
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 3.06,
+     "t1": 4.66
+    },
+    {
+     "from": [
+      -77.0365,
+      38.8977
+     ],
+     "to": [
+      -77.4194,
+      39.7344
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 3.32,
+     "t1": 4.92
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.3062,
+      39.6031
+     ],
+     "text": "Dozens, perhaps 150 officials",
+     "color": "#FFFFFF",
+     "t": 0.1
+    },
+    {
+     "at": [
+      -78.3062,
+      39.4946
+     ],
+     "text": "Rotating through two bunkers",
+     "color": "#FFD23F",
+     "t": 2.2
+    }
+   ]
+  },
+  {
+   "id": "c1-march",
+   "type": "stamp",
+   "start": 73.19,
+   "end": 76.193,
+   "tag": "REAL DATA",
+   "text": "MARCH 2002",
+   "line": "The public learns of it",
+   "color": "#FFFFFF",
+   "source": "Congressional Research Service; History.com"
+  },
+  {
+   "id": "c1-watch",
+   "type": "region",
+   "start": 76.193,
+   "end": 82.386,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 220
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 220
+    },
+    {
+     "t": 1.66,
+     "center": [
+      -77.0942,
+      38.8977
+     ],
+     "widthKm": 180
+    },
+    {
+     "t": 6.19,
+     "center": [
+      -77.1288,
+      38.8977
+     ],
+     "widthKm": 150
+    }
+   ],
+   "source": "Congressional Research Service; History.com",
+   "clock": "11 SEP 2001",
+   "clockLabel": "THE MORNING",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.1404,
+      38.8525
+     ],
+     "label": "Pentagon",
+     "kind": "dot",
+     "t": 0.6,
+     "color": "#6EA8FF",
+     "size": 5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.0176,
+      39.3047
+     ],
+     "text": "Attacks you could watch unfold",
+     "color": "#FFFFFF",
+     "t": 1.66
+    },
+    {
+     "at": [
+      -78.0176,
+      39.2052
+     ],
+     "text": "Minutes at a time",
+     "color": "#FFD23F",
+     "t": 4.24
+    }
+   ]
+  },
+  {
+   "id": "c1-11",
+   "type": "region",
+   "start": 82.386,
+   "end": 87.601,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -61.5,
+     39.5
+    ],
+    "widthKm": 4700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -61.5,
+      39.5
+     ],
+     "widthKm": 4700
+    },
+    {
+     "t": 1.68,
+     "center": [
+      -61,
+      39.5
+     ],
+     "widthKm": 4450
+    },
+    {
+     "t": 5.22,
+     "center": [
+      -60,
+      39.4
+     ],
+     "widthKm": 4150
+    }
+   ],
+   "clock": "T-11:06",
+   "clockLabel": "TO BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "840",
+     "text": "UNITED STATES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -45.0,
+      40.0
+     ],
+     "label": "Submarine (simulated)",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#FFFFFF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "Washington",
+     "kind": "target",
+     "t": 0.6,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -45.0,
+      40.0
+     ],
+     "to": [
+      -77.0365,
+      38.8977
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 2.4,
+     "t1": 4.2,
+     "label": "Warning: 11 minutes"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -64,
+      43
+     ],
+     "text": "Our simulation",
+     "color": "#FFD23F",
+     "t": 0.3
+    }
+   ]
+  },
+  {
+   "id": "c1-q",
+   "type": "region",
+   "start": 87.601,
+   "end": 93.175,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -77.3828,
+     39.3047
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.3828,
+      39.3047
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 1.87,
+     "center": [
+      -77.4405,
+      39.3318
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 5.57,
+     "center": [
+      -77.4405,
+      39.3499
+     ],
+     "widthKm": 220
+    }
+   ],
+   "clock": "",
+   "source": "Congressional Research Service; History.com",
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.8875,
+      39.064
+     ],
+     "label": "Mount Weather",
+     "kind": "base",
+     "t": 1.55,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.4194,
+      39.7344
+     ],
+     "label": "Raven Rock",
+     "kind": "base",
+     "t": 1.87,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -77.0365,
+      38.8977
+     ],
+     "to": [
+      -77.8875,
+      39.064
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 2.93,
+     "t1": 4.53,
+     "label": "How far away?"
+    },
+    {
+     "from": [
+      -77.0365,
+      38.8977
+     ],
+     "to": [
+      -77.4194,
+      39.7344
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 3.11,
+     "t1": 4.71
+    }
+   ]
+  },
+  {
+   "id": "c2-card",
+   "type": "chapter",
+   "start": 93.175,
+   "end": 96.67,
+   "tag": "REAL HISTORY",
+   "kicker": "CHAPTER 02",
+   "title": "How close, how fast"
+  },
+  {
+   "id": "c2-sites1",
+   "type": "region",
+   "start": 96.67,
+   "end": 105.824,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -77.4405,
+     39.2595
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.4405,
+      39.2595
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 3.16,
+     "center": [
+      -77.4405,
+      39.4223
+     ],
+     "widthKm": 280
+    },
+    {
+     "t": 7.1,
+     "center": [
+      -77.3828,
+      39.4584
+     ],
+     "widthKm": 240
+    }
+   ],
+   "source": "Arms Control Association; Congressional Research Service",
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.8875,
+      39.064
+     ],
+     "label": "Mount Weather",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.4194,
+      39.7344
+     ],
+     "label": "Raven Rock",
+     "kind": "base",
+     "t": 3.16,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -77.0365,
+      38.8977
+     ],
+     "to": [
+      -77.8875,
+      39.064
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 0.9,
+     "t1": 2.6,
+     "label": "50 to 60 miles west"
+    },
+    {
+     "from": [
+      -77.0365,
+      38.8977
+     ],
+     "to": [
+      -77.4194,
+      39.7344
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 6.02,
+     "t1": 7.82,
+     "label": "About 60 miles north"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.8875,
+      38.9826
+     ],
+     "text": "FEMA command centre",
+     "color": "#FFFFFF",
+     "t": 1.22
+    },
+    {
+     "at": [
+      -77.4194,
+      39.8248
+     ],
+     "text": "Pentagon's emergency home",
+     "color": "#FFD23F",
+     "t": 7.1
+    }
+   ]
+  },
+  {
+   "id": "c2-rr2",
+   "type": "region",
+   "start": 105.824,
+   "end": 111.08,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -77.5362,
+     39.5083
+    ],
+    "widthKm": 220
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.5362,
+      39.5083
+     ],
+     "widthKm": 220
+    },
+    {
+     "t": 5.26,
+     "center": [
+      -77.4194,
+      39.7344
+     ],
+     "widthKm": 150
+    }
+   ],
+   "source": "Arms Control Association; Congressional Research Service",
+   "clock": "EARLY 1950s",
+   "clockLabel": "RAVEN ROCK",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -77.4194,
+      39.7344
+     ],
+     "label": "Raven Rock, Pennsylvania",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.4194,
+      39.644
+     ],
+     "text": "Built in the early 1950s",
+     "color": "#FFFFFF",
+     "t": 0.51
+    },
+    {
+     "at": [
+      -77.4194,
+      39.5626
+     ],
+     "text": "The underground Pentagon",
+     "color": "#FFD23F",
+     "t": 3.03
+    }
+   ]
+  },
+  {
+   "id": "c2-gb1",
+   "type": "region",
+   "start": 111.08,
+   "end": 118.39,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -77.9599,
+     38.9429
+    ],
+    "widthKm": 560
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.9599,
+      38.9429
+     ],
+     "widthKm": 560
+    },
+    {
+     "t": 4.21,
+     "center": [
+      -78.537,
+      38.6264
+     ],
+     "widthKm": 640
+    },
+    {
+     "t": 7.31,
+     "center": [
+      -78.9987,
+      38.4455
+     ],
+     "widthKm": 560
+    }
+   ],
+   "source": "Arms Control Association; Congressional Research Service",
+   "clock": "1959 TO 1962",
+   "clockLabel": "THE THIRD SITE",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.8875,
+      39.064
+     ],
+     "label": "Mount Weather",
+     "kind": "base",
+     "t": 0.5,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.4194,
+      39.7344
+     ],
+     "label": "Raven Rock",
+     "kind": "base",
+     "t": 0.7,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.729,
+      39.6664
+     ],
+     "text": "Built 1959 to 1962",
+     "color": "#FFFFFF",
+     "t": 0.94
+    },
+    {
+     "at": [
+      -77.729,
+      39.5579
+     ],
+     "text": "A third site, for all of Congress",
+     "color": "#FFD23F",
+     "t": 4.21
+    },
+    {
+     "at": [
+      -77.729,
+      39.4494
+     ],
+     "text": "Under a hotel wing",
+     "color": "#FFFFFF",
+     "t": 6.35
+    }
+   ]
+  },
+  {
+   "id": "c2-gb2",
+   "type": "region",
+   "start": 118.39,
+   "end": 125.85,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -78.9987,
+     38.4455
+    ],
+    "widthKm": 560
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -78.9987,
+      38.4455
+     ],
+     "widthKm": 560
+    },
+    {
+     "t": 2.44,
+     "center": [
+      -78.7679,
+      38.4907
+     ],
+     "widthKm": 520
+    },
+    {
+     "t": 7.46,
+     "center": [
+      -78.7679,
+      38.4907
+     ],
+     "widthKm": 430
+    }
+   ],
+   "source": "Arms Control Association; Congressional Research Service",
+   "clock": "1959 TO 1962",
+   "clockLabel": "THE THIRD SITE",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -80.3086,
+      37.7855
+     ],
+     "label": "The Greenbrier, West Virginia",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "Washington",
+     "kind": "target",
+     "t": 0.5,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -77.0365,
+      38.8977
+     ],
+     "to": [
+      -80.3086,
+      37.7855
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 2.44,
+     "t1": 4.44,
+     "label": "About 300 km"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.7679,
+      38.9881
+     ],
+     "text": "Secret for 30 years",
+     "color": "#FFD23F",
+     "t": 6.04
+    }
+   ]
+  },
+  {
+   "id": "c2-exposed",
+   "type": "region",
+   "start": 125.85,
+   "end": 132.97,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -78.7679,
+     38.4907
+    ],
+    "widthKm": 430
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -78.7679,
+      38.4907
+     ],
+     "widthKm": 430
+    },
+    {
+     "t": 3.76,
+     "center": [
+      -78.8833,
+      38.4455
+     ],
+     "widthKm": 380
+    },
+    {
+     "t": 7.12,
+     "center": [
+      -78.9987,
+      38.4003
+     ],
+     "widthKm": 330
+    }
+   ],
+   "source": "Arms Control Association; Congressional Research Service",
+   "clock": "1992",
+   "clockLabel": "EXPOSED",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -80.3086,
+      37.7855
+     ],
+     "label": "The Greenbrier",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -80.3086,
+      38.0116
+     ],
+     "text": "The Washington Post exposes it",
+     "color": "#FFFFFF",
+     "t": 0.1
+    },
+    {
+     "at": [
+      -80.3086,
+      37.9392
+     ],
+     "text": "1992",
+     "color": "#FFD23F",
+     "t": 2.18
+    },
+    {
+     "at": [
+      -80.3086,
+      37.6498
+     ],
+     "text": "Closed at once",
+     "color": "#FFFFFF",
+     "t": 3.76
+    },
+    {
+     "at": [
+      -80.3086,
+      37.5775
+     ],
+     "text": "Never needed",
+     "color": "#FFD23F",
+     "t": 5.26
+    }
+   ]
+  },
+  {
+   "id": "c2-idea",
+   "type": "region",
+   "start": 132.97,
+   "end": 139.064,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -78.4216,
+     38.7168
+    ],
+    "widthKm": 450
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -78.4216,
+      38.7168
+     ],
+     "widthKm": 450
+    },
+    {
+     "t": 1.84,
+     "center": [
+      -78.4793,
+      38.8977
+     ],
+     "widthKm": 560
+    },
+    {
+     "t": 6.09,
+     "center": [
+      -78.537,
+      38.9881
+     ],
+     "widthKm": 700
+    }
+   ],
+   "source": "Arms Control Association; Congressional Research Service",
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.8875,
+      39.064
+     ],
+     "label": "Mount Weather",
+     "kind": "base",
+     "t": 0.5,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.4194,
+      39.7344
+     ],
+     "label": "Raven Rock",
+     "kind": "base",
+     "t": 0.7,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -80.3086,
+      37.7855
+     ],
+     "label": "The Greenbrier",
+     "kind": "base",
+     "t": 0.9,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -77.0365,
+      38.8977
+     ],
+     "to": [
+      -77.8875,
+      39.064
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 1.84,
+     "t1": 3.44
+    },
+    {
+     "from": [
+      -77.0365,
+      38.8977
+     ],
+     "to": [
+      -77.4194,
+      39.7344
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 2.04,
+     "t1": 3.64
+    },
+    {
+     "from": [
+      -77.0365,
+      38.8977
+     ],
+     "to": [
+      -80.3086,
+      37.7855
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 2.24,
+     "t1": 3.84
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.729,
+      40.0734
+     ],
+     "text": "A government that walks away from its capital",
+     "color": "#FFFFFF",
+     "t": 1.84
+    },
+    {
+     "at": [
+      -77.729,
+      39.9649
+     ],
+     "text": "As old as the hydrogen bomb",
+     "color": "#FFD23F",
+     "t": 4.32
+    }
+   ]
+  },
+  {
+   "id": "c2-1979",
+   "type": "globe",
+   "start": 139.064,
+   "end": 150.18,
+   "tag": "REAL HISTORY",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 48,
+     "lon": -25,
+     "scale": 900
+    },
+    {
+     "t": 6.09,
+     "lat": 48,
+     "lon": -22,
+     "scale": 950
+    },
+    {
+     "t": 11.12,
+     "lat": 46,
+     "lon": -30,
+     "scale": 1050
+    }
+   ],
+   "sun": {
+    "lat": -12.48,
+    "lon": -41.39
+   },
+   "source": "Arms Control Association; Congressional Research Service",
+   "clock": "NOV 1979",
+   "clockLabel": "FALSE ALARM",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "A live warning system",
+     "color": "#6EA8FF",
+     "kind": "base",
+     "size": 5,
+     "t": 4.81
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "An attack that was not there",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 6.09
+    },
+    {
+     "at": [
+      -70,
+      35.5
+     ],
+     "label": "Command post takes off",
+     "color": "#FFFFFF",
+     "kind": "dot",
+     "t": 8.54
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      37.62,
+      55.75
+     ],
+     "to": [
+      -77.0365,
+      38.8977
+     ],
+     "t0": 6.09,
+     "t1": 8.49,
+     "color": "#F2B01E",
+     "loft": 0.35
+    },
+    {
+     "from": [
+      60,
+      70
+     ],
+     "to": [
+      -77.0365,
+      38.8977
+     ],
+     "t0": 6.39,
+     "t1": 8.79,
+     "color": "#F2B01E",
+     "loft": 0.4
+    }
+   ],
+   "caption": "A training tape in a live system."
+  },
+  {
+   "id": "c2-1980",
+   "type": "globe",
+   "start": 150.18,
+   "end": 160.011,
+   "tag": "REAL HISTORY",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 52,
+     "lon": -10,
+     "scale": 900
+    },
+    {
+     "t": 5.83,
+     "lat": 50,
+     "lon": -18,
+     "scale": 950
+    },
+    {
+     "t": 9.83,
+     "lat": 48,
+     "lon": -25,
+     "scale": 1000
+    }
+   ],
+   "sun": {
+    "lat": -12.48,
+    "lon": -41.39
+   },
+   "source": "Arms Control Association; Congressional Research Service",
+   "clock": "JUN 1980",
+   "clockLabel": "A SECOND FALSE ALARM",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "National security adviser",
+     "color": "#6EA8FF",
+     "kind": "base",
+     "size": 5,
+     "t": 3.69
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "2,200 Soviet missiles reported",
+     "color": "#F2B01E",
+     "kind": "dot",
+     "t": 5.83
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      37.62,
+      55.75
+     ],
+     "to": [
+      -77.0365,
+      38.8977
+     ],
+     "t0": 5.83,
+     "t1": 8.030000000000001,
+     "color": "#F2B01E",
+     "loft": 0.3
+    },
+    {
+     "from": [
+      60,
+      70
+     ],
+     "to": [
+      -77.0365,
+      38.8977
+     ],
+     "t0": 6.03,
+     "t1": 8.23,
+     "color": "#F2B01E",
+     "loft": 0.32999999999999996
+    },
+    {
+     "from": [
+      90,
+      65
+     ],
+     "to": [
+      -77.0365,
+      38.8977
+     ],
+     "t0": 6.23,
+     "t1": 8.430000000000001,
+     "color": "#F2B01E",
+     "loft": 0.36
+    },
+    {
+     "from": [
+      135,
+      55
+     ],
+     "to": [
+      -77.0365,
+      38.8977
+     ],
+     "t0": 6.43,
+     "t1": 8.63,
+     "color": "#F2B01E",
+     "loft": 0.39
+    },
+    {
+     "from": [
+      30,
+      62
+     ],
+     "to": [
+      -77.0365,
+      38.8977
+     ],
+     "t0": 6.63,
+     "t1": 8.830000000000002,
+     "color": "#F2B01E",
+     "loft": 0.42
+    },
+    {
+     "from": [
+      110,
+      50
+     ],
+     "to": [
+      -77.0365,
+      38.8977
+     ],
+     "t0": 6.83,
+     "t1": 9.030000000000001,
+     "color": "#F2B01E",
+     "loft": 0.44999999999999996
+    }
+   ]
+  },
+  {
+   "id": "c2-minute",
+   "type": "region",
+   "start": 160.011,
+   "end": 165.2,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 0.74,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 230
+    },
+    {
+     "t": 5.19,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 170
+    }
+   ],
+   "source": "Arms Control Association; Congressional Research Service",
+   "clock": "JUN 1980",
+   "clockLabel": "A SECOND FALSE ALARM",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "The president",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.1404,
+      38.8525
+     ],
+     "label": "Pentagon",
+     "kind": "dot",
+     "t": 0.8,
+     "color": "#6EA8FF",
+     "size": 5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.1907,
+      39.3951
+     ],
+     "text": "About a minute from calling the president",
+     "color": "#FFFFFF",
+     "t": 0.74
+    },
+    {
+     "at": [
+      -78.1907,
+      39.2866
+     ],
+     "text": "The warning proved false",
+     "color": "#FFD23F",
+     "t": 3.28
+    }
+   ]
+  },
+  {
+   "id": "c2-computer",
+   "type": "stamp",
+   "start": 165.2,
+   "end": 168.503,
+   "tag": "REAL HISTORY",
+   "text": "A COMPUTER, NOT AN ENEMY",
+   "line": "Both times",
+   "color": "#F2B01E",
+   "source": "Arms Control Association; Congressional Research Service"
+  },
+  {
+   "id": "c2-clock",
+   "type": "region",
+   "start": 168.503,
+   "end": 175.68,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 270
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 270
+    },
+    {
+     "t": 2.95,
+     "center": [
+      -77.0942,
+      38.8977
+     ],
+     "widthKm": 210
+    },
+    {
+     "t": 7.18,
+     "center": [
+      -77.1288,
+      38.8977
+     ],
+     "widthKm": 160
+    }
+   ],
+   "source": "Arms Control Association; Congressional Research Service",
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.1404,
+      38.8525
+     ],
+     "label": "Pentagon",
+     "kind": "dot",
+     "t": 0.7,
+     "color": "#6EA8FF",
+     "size": 5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.1907,
+      39.368
+     ],
+     "text": "Both times, the clock was the problem",
+     "color": "#FFD23F",
+     "t": 2.95
+    },
+    {
+     "at": [
+      -78.1907,
+      39.2595
+     ],
+     "text": "Deciding in minutes",
+     "color": "#FFFFFF",
+     "t": 5.57
+    }
+   ]
+  },
+  {
+   "id": "c2-radar",
+   "type": "radar",
+   "start": 175.68,
+   "end": 179.577,
+   "tag": "REAL HISTORY",
+   "title": "Warning screen",
+   "lines": [
+    {
+     "k": "november 1979",
+     "v": "a training tape"
+    },
+    {
+     "k": "june 1980",
+     "v": "a computer fault"
+    },
+    {
+     "k": "check against",
+     "v": "nothing"
+    }
+   ],
+   "tracks": 3,
+   "big": "FALSE ALARM",
+   "bigColor": "#F2B01E",
+   "footer": "On a screen, with nothing to check it against.",
+   "source": "Arms Control Association; Congressional Research Service"
+  },
+  {
+   "id": "c2-flight",
+   "type": "globe",
+   "start": 179.577,
+   "end": 186.42999999999998,
+   "tag": "REAL HISTORY",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 46,
+     "lon": 0,
+     "scale": 760
+    },
+    {
+     "t": 3.27,
+     "lat": 44,
+     "lon": -22,
+     "scale": 950
+    },
+    {
+     "t": 6.85,
+     "lat": 40,
+     "lon": -50,
+     "scale": 1250
+    }
+   ],
+   "sun": {
+    "lat": -12.48,
+    "lon": -41.39
+   },
+   "source": "Arms Control Association; Congressional Research Service",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      55,
+      57
+     ],
+     "label": "From a silo",
+     "color": "#F2B01E",
+     "kind": "base",
+     "size": 5,
+     "t": 0.17
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "About 30 minutes",
+     "color": "#6EA8FF",
+     "kind": "target",
+     "size": 5,
+     "t": 1.55
+    },
+    {
+     "at": [
+      -45.0,
+      40.0
+     ],
+     "label": "From a submarine offshore",
+     "color": "#FFFFFF",
+     "kind": "sub",
+     "size": 5,
+     "t": 3.27
+    },
+    {
+     "at": [
+      -72,
+      36
+     ],
+     "label": "As little as 10 to 15",
+     "color": "#FF3B3B",
+     "kind": "dot",
+     "t": 5.45
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      55,
+      57
+     ],
+     "to": [
+      -77.0365,
+      38.8977
+     ],
+     "t0": 0.73,
+     "t1": 3.73,
+     "color": "#F2B01E",
+     "loft": 0.5
+    },
+    {
+     "from": [
+      -45.0,
+      40.0
+     ],
+     "to": [
+      -77.0365,
+      38.8977
+     ],
+     "t0": 3.79,
+     "t1": 5.79,
+     "color": "#FF3B3B",
+     "loft": 0.2
+    }
+   ]
+  },
+  {
+   "id": "c2-ana",
+   "type": "region",
+   "start": 186.42999999999998,
+   "end": 196.249,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 400
+    },
+    {
+     "t": 2.8,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 6.04,
+     "center": [
+      -77.1288,
+      38.8977
+     ],
+     "widthKm": 200
+    },
+    {
+     "t": 9.82,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 160
+    }
+   ],
+   "source": "Congressional Research Service",
+   "clock": "T-10:00",
+   "clockLabel": "THE DECISION WINDOW",
+   "clockRate": 1,
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.1404,
+      38.8525
+     ],
+     "label": "Pentagon",
+     "kind": "dot",
+     "t": 1.0,
+     "color": "#6EA8FF",
+     "size": 5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.537,
+      39.5308
+     ],
+     "text": "Analysts' estimate",
+     "color": "#FFD23F",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -78.537,
+      39.4223
+     ],
+     "text": "Under 10 minutes to decide",
+     "color": "#FFFFFF",
+     "t": 2.8
+    },
+    {
+     "at": [
+      -78.537,
+      39.3137
+     ],
+     "text": "An analyst's estimate",
+     "color": "#FFD23F",
+     "t": 6.04
+    },
+    {
+     "at": [
+      -78.537,
+      39.2052
+     ],
+     "text": "Not an official figure",
+     "color": "#FFFFFF",
+     "t": 7.59
+    }
+   ]
+  },
+  {
+   "id": "c2-sites2",
+   "type": "region",
+   "start": 196.249,
+   "end": 205.855,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -78.4216,
+     38.8977
+    ],
+    "widthKm": 620
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -78.4216,
+      38.8977
+     ],
+     "widthKm": 620
+    },
+    {
+     "t": 3.7,
+     "center": [
+      -78.4793,
+      38.9881
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 7.52,
+     "center": [
+      -77.2673,
+      38.8977
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 9.61,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 170
+    }
+   ],
+   "source": "Arms Control Association; Congressional Research Service",
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.8875,
+      39.064
+     ],
+     "label": "Mount Weather",
+     "kind": "base",
+     "t": 0.5,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.4194,
+      39.7344
+     ],
+     "label": "Raven Rock",
+     "kind": "base",
+     "t": 0.7,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -80.3086,
+      37.7855
+     ],
+     "label": "The Greenbrier",
+     "kind": "base",
+     "t": 0.9,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -77.0365,
+      38.8977
+     ],
+     "to": [
+      -77.8875,
+      39.064
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 0.5,
+     "t1": 2.0
+    },
+    {
+     "from": [
+      -77.0365,
+      38.8977
+     ],
+     "to": [
+      -77.4194,
+      39.7344
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 0.7,
+     "t1": 2.2
+    },
+    {
+     "from": [
+      -77.0365,
+      38.8977
+     ],
+     "to": [
+      -80.3086,
+      37.7855
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 0.9,
+     "t1": 2.4
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.729,
+      40.0734
+     ],
+     "text": "Every one built to answer it",
+     "color": "#FFFFFF",
+     "t": 2.22
+    },
+    {
+     "at": [
+      -77.729,
+      39.9649
+     ],
+     "text": "None has faced a nuclear attack",
+     "color": "#FFD23F",
+     "t": 4.64
+    },
+    {
+     "at": [
+      -77.729,
+      39.8564
+     ],
+     "text": "So what happens in the first minutes?",
+     "color": "#FFFFFF",
+     "t": 7.52
+    }
+   ]
+  },
+  {
+   "id": "c3-card",
+   "type": "chapter",
+   "start": 205.855,
+   "end": 209.35,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 03",
+   "title": "The trigger"
+  },
+  {
+   "id": "c3-launch",
+   "type": "region",
+   "start": 209.35,
+   "end": 218.608,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -61.5,
+     39.5
+    ],
+    "widthKm": 4700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -61.5,
+      39.5
+     ],
+     "widthKm": 4700
+    },
+    {
+     "t": 1.48,
+     "center": [
+      -61,
+      39.5
+     ],
+     "widthKm": 4500
+    },
+    {
+     "t": 5.18,
+     "center": [
+      -60.5,
+      39.5
+     ],
+     "widthKm": 4300
+    },
+    {
+     "t": 9.26,
+     "center": [
+      -60,
+      39.4
+     ],
+     "widthKm": 4100
+    }
+   ],
+   "clock": "T-11:06",
+   "clockLabel": "TO BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "840",
+     "text": "UNITED STATES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -45.0,
+      40.0
+     ],
+     "label": "Submarine (simulated)",
+     "kind": "base",
+     "t": 0.14,
+     "color": "#FFFFFF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "Washington",
+     "kind": "target",
+     "t": 0.5,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -45.0,
+      40.0
+     ],
+     "to": [
+      -77.0365,
+      38.8977
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 3.26,
+     "t1": 5.76
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -64,
+      43
+     ],
+     "text": "Open North Atlantic",
+     "color": "#8A8F98",
+     "t": 1.16
+    },
+    {
+     "at": [
+      -64,
+      42
+     ],
+     "text": "Launch point: our choice",
+     "color": "#FFD23F",
+     "t": 3.7
+    },
+    {
+     "at": [
+      -64,
+      41
+     ],
+     "text": "No attacker named",
+     "color": "#FFFFFF",
+     "t": 5.48
+    },
+    {
+     "at": [
+      -64,
+      40
+     ],
+     "text": "One warhead",
+     "color": "#FF3B3B",
+     "t": 7.36
+    }
+   ]
+  },
+  {
+   "id": "c3-yield",
+   "type": "number",
+   "start": 218.608,
+   "end": 222.008,
+   "tag": "SIMULATION",
+   "value": "100 KILOTONS",
+   "label": "the yield we choose",
+   "sub": "a simulation choice, not a fact",
+   "color": "#FFD23F",
+   "countTo": 100,
+   "suffix": " KILOTONS"
+  },
+  {
+   "id": "c3-air",
+   "type": "city",
+   "start": 222.008,
+   "end": 230.856,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 40
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 40
+    },
+    {
+     "t": 3.82,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 26
+    },
+    {
+     "t": 6.7,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 17
+    },
+    {
+     "t": 8.85,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 12
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9429
+     ],
+     "text": "Airburst over central Washington",
+     "color": "#FFFFFF",
+     "t": 0.86
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8434
+     ],
+     "text": "10 o'clock in the morning",
+     "color": "#FFD23F",
+     "t": 3.82
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8615
+     ],
+     "text": "Flight: 11 minutes",
+     "color": "#FFFFFF",
+     "t": 7.14
+    }
+   ],
+   "clock": "10:00",
+   "clockLabel": "LAUNCH TIME: OUR CHOICE",
+   "clockRate": 0
+  },
+  {
+   "id": "c3-why",
+   "type": "region",
+   "start": 230.856,
+   "end": 239.25,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 520
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 520
+    },
+    {
+     "t": 1.95,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 380
+    },
+    {
+     "t": 4.59,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 8.39,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 220
+    }
+   ],
+   "clock": "T-11:06",
+   "clockLabel": "TO BURST",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.9987,
+      39.7117
+     ],
+     "text": "Why one warhead?",
+     "color": "#FFD23F",
+     "t": 0.2
+    },
+    {
+     "at": [
+      -78.9987,
+      39.6031
+     ],
+     "text": "Real plans use many",
+     "color": "#FFFFFF",
+     "t": 1.95
+    },
+    {
+     "at": [
+      -78.9987,
+      39.4946
+     ],
+     "text": "No published plan",
+     "color": "#FFFFFF",
+     "t": 4.59
+    },
+    {
+     "at": [
+      -78.9987,
+      39.3861
+     ],
+     "text": "A single strike on Washington",
+     "color": "#FFD23F",
+     "t": 6.43
+    }
+   ]
+  },
+  {
+   "id": "c3-small",
+   "type": "city",
+   "start": 239.25,
+   "end": 247.472,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 50
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 50
+    },
+    {
+     "t": 2.3,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 34
+    },
+    {
+     "t": 4.2,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 22
+    },
+    {
+     "t": 8.22,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 30
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      39.0243
+     ],
+     "text": "The smallest case",
+     "color": "#FFD23F",
+     "t": 2.3
+    },
+    {
+     "at": [
+      -77.0365,
+      38.9972
+     ],
+     "text": "It lets us watch the response",
+     "color": "#FFFFFF",
+     "t": 4.2
+    },
+    {
+     "at": [
+      -77.0365,
+      38.7982
+     ],
+     "text": "Instead of a war",
+     "color": "#FFFFFF",
+     "t": 6.22
+    }
+   ],
+   "clock": "T-11:06",
+   "clockLabel": "TO BURST",
+   "clockRate": 0
+  },
+  {
+   "id": "c3-orders",
+   "type": "region",
+   "start": 247.472,
+   "end": 256.977,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 320
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 320
+    },
+    {
+     "t": 4.56,
+     "center": [
+      -77.1288,
+      38.8977
+     ],
+     "widthKm": 230
+    },
+    {
+     "t": 7.32,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 190
+    },
+    {
+     "t": 9.5,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 160
+    }
+   ],
+   "clock": "T-11:06",
+   "clockLabel": "TO BURST",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.1404,
+      38.8525
+     ],
+     "label": "Pentagon",
+     "kind": "dot",
+     "t": 0.7,
+     "color": "#6EA8FF",
+     "size": 5
+    },
+    {
+     "at": [
+      -77.0091,
+      38.8899
+     ],
+     "label": "Capitol",
+     "kind": "dot",
+     "t": 1.0,
+     "color": "#6EA8FF",
+     "size": 5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.1907,
+      39.3499
+     ],
+     "text": "The president's orders: not modelled",
+     "color": "#FFD23F",
+     "t": 0.82
+    },
+    {
+     "at": [
+      -78.1907,
+      39.2595
+     ],
+     "text": "We follow the government's movement only",
+     "color": "#FFFFFF",
+     "t": 4.56
+    },
+    {
+     "at": [
+      -78.1907,
+      39.169
+     ],
+     "text": "We stop at the flash",
+     "color": "#FF3B3B",
+     "t": 7.32
+    }
+   ]
+  },
+  {
+   "id": "c3-sat",
+   "type": "globe",
+   "start": 256.977,
+   "end": 264.55,
+   "tag": "SIMULATION",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 42,
+     "lon": -60,
+     "scale": 950
+    },
+    {
+     "t": 1.94,
+     "lat": 40,
+     "lon": -68,
+     "scale": 1250
+    },
+    {
+     "t": 7.57,
+     "lat": 39,
+     "lon": -73,
+     "scale": 1650
+    }
+   ],
+   "sun": {
+    "lat": -12.48,
+    "lon": -41.39
+   },
+   "clock": "T-11:06",
+   "clockLabel": "TO BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -45.0,
+      40.0
+     ],
+     "label": "Satellites see the launch",
+     "color": "#FFFFFF",
+     "kind": "sub",
+     "size": 6,
+     "t": 0.43
+    },
+    {
+     "at": [
+      -66,
+      33
+     ],
+     "label": "Radars confirm it",
+     "color": "#FFD23F",
+     "kind": "dot",
+     "t": 1.94
+    },
+    {
+     "at": [
+      -72,
+      41.5
+     ],
+     "label": "A second kind of sensor",
+     "color": "#FFD23F",
+     "kind": "dot",
+     "t": 2.69
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "Dual phenomenology",
+     "color": "#6EA8FF",
+     "kind": "target",
+     "size": 5,
+     "t": 5.59
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      -45.0,
+      40.0
+     ],
+     "to": [
+      -77.0365,
+      38.8977
+     ],
+     "t0": 0.81,
+     "t1": 3.81,
+     "color": "#FF3B3B",
+     "loft": 0.3
+    }
+   ]
+  },
+  {
+   "id": "c3-250",
+   "type": "number",
+   "start": 264.55,
+   "end": 268.45,
+   "tag": "REAL DATA",
+   "value": "ABOUT 250",
+   "label": "systems in nuclear command and control",
+   "sub": "ground, space and airborne",
+   "color": "#6EA8FF",
+   "countTo": 250,
+   "prefix": "ABOUT ",
+   "source": "Congressional Research Service"
+  },
+  {
+   "id": "c3-min",
+   "type": "region",
+   "start": 268.45,
+   "end": 277.457,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -61.5,
+     39.5
+    ],
+    "widthKm": 4700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -61.5,
+      39.5
+     ],
+     "widthKm": 4700
+    },
+    {
+     "t": 2.72,
+     "center": [
+      -61,
+      39.5
+     ],
+     "widthKm": 4450
+    },
+    {
+     "t": 5.18,
+     "center": [
+      -60.5,
+      39.4
+     ],
+     "widthKm": 4300
+    },
+    {
+     "t": 9.01,
+     "center": [
+      -60,
+      39.3
+     ],
+     "widthKm": 4100
+    }
+   ],
+   "clock": "T-11:06",
+   "clockLabel": "TO BURST",
+   "clockRate": 1,
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "840",
+     "text": "UNITED STATES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -45.0,
+      40.0
+     ],
+     "label": "Launch (simulated)",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#FFFFFF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "Washington",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -45.0,
+       40.0
+      ],
+      [
+       -77.0365,
+       38.8977
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 8.71,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Missile",
+     "size": 1.8,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -65,
+      43.5
+     ],
+     "text": "Congressional Research Service count",
+     "color": "#FFD23F",
+     "t": 2.72
+    },
+    {
+     "at": [
+      -65,
+      42.5
+     ],
+     "text": "Each minute of warning comes out of the eleven",
+     "color": "#FFFFFF",
+     "t": 5.18
+    }
+   ]
+  },
+  {
+   "id": "c3-who",
+   "type": "city",
+   "start": 277.457,
+   "end": 282.639,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 40
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 40
+    },
+    {
+     "t": 1.72,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 26
+    },
+    {
+     "t": 5.18,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 16
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9701
+     ],
+     "text": "The first question",
+     "color": "#FFD23F",
+     "t": 0.2
+    },
+    {
+     "at": [
+      -77.0365,
+      38.848
+     ],
+     "text": "Who moves?",
+     "color": "#FFFFFF",
+     "t": 1.72
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8615
+     ],
+     "text": "How fast?",
+     "color": "#FFFFFF",
+     "t": 3.03
+    }
+   ],
+   "clock": "T-11:06",
+   "clockLabel": "TO BURST",
+   "clockRate": 0
+  },
+  {
+   "id": "c4-card",
+   "type": "chapter",
+   "start": 282.639,
+   "end": 286.14,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 04",
+   "title": "Minute by minute"
+  },
+  {
+   "id": "c4-m0",
+   "type": "region",
+   "start": 286.14,
+   "end": 295.728,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 200
+    },
+    {
+     "t": 2.19,
+     "center": [
+      -77.1058,
+      38.8977
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 4.05,
+     "center": [
+      -77.0827,
+      38.8977
+     ],
+     "widthKm": 190
+    },
+    {
+     "t": 9.59,
+     "center": [
+      -77.1058,
+      38.8977
+     ],
+     "widthKm": 230
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "MINUTE 0",
+   "clockRate": 1,
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.0558,
+      38.8719
+     ],
+     "label": "Pentagon",
+     "kind": "dot",
+     "t": 0.5,
+     "color": "#6EA8FF",
+     "size": 5
+    },
+    {
+     "at": [
+      -77.0091,
+      38.8899
+     ],
+     "label": "Capitol",
+     "kind": "dot",
+     "t": 0.8,
+     "color": "#6EA8FF",
+     "size": 5
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -77.1404,
+      38.8525
+     ],
+     "to": [
+      -77.0365,
+      38.8977
+     ],
+     "color": "#FFD23F",
+     "dashed": false,
+     "t0": 2.19,
+     "t1": 3.79,
+     "label": "Alert up the chain"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.8445,
+      39.2595
+     ],
+     "text": "Satellites: launch detected",
+     "color": "#FFFFFF",
+     "t": 0.11
+    },
+    {
+     "at": [
+      -77.8445,
+      39.1509
+     ],
+     "text": "Every step after: our choice",
+     "color": "#FFD23F",
+     "t": 5.65
+    },
+    {
+     "at": [
+      -77.8445,
+      39.0424
+     ],
+     "text": "Not a documented schedule",
+     "color": "#FFFFFF",
+     "t": 7.69
+    }
+   ]
+  },
+  {
+   "id": "c4-m2a",
+   "type": "city",
+   "start": 295.728,
+   "end": 302.996,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 30
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 30
+    },
+    {
+     "t": 2.46,
+     "center": [
+      -77.0711,
+      38.8841
+     ],
+     "widthKm": 18
+    },
+    {
+     "t": 7.27,
+     "center": [
+      -77.0827,
+      38.8796
+     ],
+     "widthKm": 14
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9203
+     ],
+     "text": "Minute two",
+     "color": "#FFFFFF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -77.0558,
+      38.88
+     ],
+     "text": "Warning assessed against a second sensor",
+     "color": "#FFD23F",
+     "t": 2.46
+    },
+    {
+     "at": [
+      -77.0558,
+      38.8638
+     ],
+     "text": "No time for a long review",
+     "color": "#FFFFFF",
+     "t": 5.66
+    }
+   ],
+   "clock": "T+02:00",
+   "clockLabel": "MINUTE 2",
+   "clockRate": 1
+  },
+  {
+   "id": "c4-m2b",
+   "type": "region",
+   "start": 302.996,
+   "end": 309.897,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 150
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 1.49,
+     "center": [
+      -77.1058,
+      38.8977
+     ],
+     "widthKm": 190
+    },
+    {
+     "t": 6.9,
+     "center": [
+      -77.1058,
+      38.8977
+     ],
+     "widthKm": 150
+    }
+   ],
+   "clock": "T+02:00",
+   "clockLabel": "MINUTE 2",
+   "clockRate": 1,
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.0558,
+      38.8719
+     ],
+     "label": "Pentagon",
+     "kind": "dot",
+     "t": 0.5,
+     "color": "#6EA8FF",
+     "size": 5
+    },
+    {
+     "at": [
+      -77.0091,
+      38.8899
+     ],
+     "label": "Capitol",
+     "kind": "dot",
+     "t": 0.8,
+     "color": "#6EA8FF",
+     "size": 5
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -77.0365,
+      38.8977
+     ],
+     "to": [
+      -77.0561,
+      38.8715
+     ],
+     "color": "#FFD23F",
+     "dashed": false,
+     "t0": 1.49,
+     "t1": 2.99,
+     "label": "Emergency conference"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.6713,
+      39.2414
+     ],
+     "text": "The president joins",
+     "color": "#FFFFFF",
+     "t": 0.39
+    },
+    {
+     "at": [
+      -77.6713,
+      39.1509
+     ],
+     "text": "Senior officials",
+     "color": "#FFFFFF",
+     "t": 2.69
+    }
+   ]
+  },
+  {
+   "id": "c4-m2c",
+   "type": "city",
+   "start": 309.897,
+   "end": 316.208,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 24
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 24
+    },
+    {
+     "t": 2.84,
+     "center": [
+      -77.0423,
+      38.8905
+     ],
+     "widthKm": 16
+    },
+    {
+     "t": 6.31,
+     "center": [
+      -77.0307,
+      38.8932
+     ],
+     "widthKm": 20
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9339
+     ],
+     "text": "The president alone: authority to order a strike",
+     "color": "#FFD23F",
+     "t": 0.2
+    },
+    {
+     "at": [
+      -77.0558,
+      38.8629
+     ],
+     "text": "Military: cannot overrule",
+     "color": "#FFFFFF",
+     "t": 3.27
+    },
+    {
+     "at": [
+      -77.0091,
+      38.8989
+     ],
+     "text": "Congress: cannot overrule",
+     "color": "#FFFFFF",
+     "t": 4.01
+    }
+   ],
+   "clock": "T+02:00",
+   "clockLabel": "MINUTE 2",
+   "clockRate": 1
+  },
+  {
+   "id": "c4-m4a",
+   "type": "city",
+   "start": 316.208,
+   "end": 324.65,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 14
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 14
+    },
+    {
+     "t": 4.2,
+     "center": [
+      -77.025,
+      38.8932
+     ],
+     "widthKm": 9
+    },
+    {
+     "t": 8.44,
+     "center": [
+      -77.0134,
+      38.8887
+     ],
+     "widthKm": 11
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9158
+     ],
+     "text": "Secret Service takes the president out",
+     "color": "#FFFFFF",
+     "t": 1.14
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8814
+     ],
+     "text": "The football: authentication codes",
+     "color": "#FFD23F",
+     "t": 7.3
+    }
+   ],
+   "clock": "T+04:00",
+   "clockLabel": "MINUTE 4",
+   "clockRate": 1
+  },
+  {
+   "id": "c4-m4b",
+   "type": "region",
+   "start": 324.65,
+   "end": 334.28,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -76.9788,
+     38.8796
+    ],
+    "widthKm": 150
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -76.9788,
+      38.8796
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 2.76,
+     "center": [
+      -76.9211,
+      38.8615
+     ],
+     "widthKm": 170
+    },
+    {
+     "t": 9.63,
+     "center": [
+      -76.8749,
+      38.8434
+     ],
+     "widthKm": 190
+    }
+   ],
+   "clock": "T+04:00",
+   "clockLabel": "MINUTE 4",
+   "clockRate": 1,
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -76.7479,
+      38.7892
+     ],
+     "label": "An aircraft: our choice",
+     "kind": "base",
+     "t": 2.76,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -77.0365,
+       38.8977
+      ],
+      [
+       -76.7479,
+       38.7892
+      ]
+     ],
+     "t0": 1.98,
+     "t1": 5.32,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "label": "President",
+     "size": 2.2,
+     "t": 1.98,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.4405,
+      39.0967
+     ],
+     "text": "Not a bunker under the city",
+     "color": "#FFFFFF",
+     "t": 3.84
+    },
+    {
+     "at": [
+      -77.4405,
+      39.0062
+     ],
+     "text": "Our choice, not a documented plan",
+     "color": "#FFD23F",
+     "t": 6.26
+    }
+   ]
+  },
+  {
+   "id": "c4-m5a",
+   "type": "region",
+   "start": 334.28,
+   "end": 343.459,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 3.35,
+     "center": [
+      -78.1907,
+      38.8977
+     ],
+     "widthKm": 800
+    },
+    {
+     "t": 9.18,
+     "center": [
+      -79.345,
+      38.8977
+     ],
+     "widthKm": 900
+    }
+   ],
+   "clock": "T+05:00",
+   "clockLabel": "MINUTE 5",
+   "clockRate": 1,
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -79.9221,
+      39.3499
+     ],
+     "text": "Flying command post: the E-4B",
+     "color": "#FFD23F",
+     "t": 1.83
+    },
+    {
+     "at": [
+      -79.9221,
+      39.2414
+     ],
+     "text": "A modified Boeing 747",
+     "color": "#FFFFFF",
+     "t": 3.35
+    },
+    {
+     "at": [
+      -79.9221,
+      39.1328
+     ],
+     "text": "Not on the spot",
+     "color": "#FF3B3B",
+     "t": 7.45
+    }
+   ]
+  },
+  {
+   "id": "c4-m5b",
+   "type": "region",
+   "start": 343.459,
+   "end": 348.61,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -86.5,
+     40.3
+    ],
+    "widthKm": 3100
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -86.5,
+      40.3
+     ],
+     "widthKm": 3100
+    },
+    {
+     "t": 2.62,
+     "center": [
+      -86.5,
+      40.3
+     ],
+     "widthKm": 2700
+    },
+    {
+     "t": 5.15,
+     "center": [
+      -87,
+      40.3
+     ],
+     "widthKm": 2400
+    }
+   ],
+   "clock": "T+05:00",
+   "clockLabel": "MINUTE 5",
+   "clockRate": 1,
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "840",
+     "text": "UNITED STATES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -95.9122,
+      41.1183
+     ],
+     "label": "Offutt, Nebraska",
+     "kind": "base",
+     "t": 0.71,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "Washington",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -95.9122,
+      41.1183
+     ],
+     "to": [
+      -77.0365,
+      38.8977
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 2.62,
+     "t1": 4.62,
+     "label": "About 1,600 km"
+    }
+   ]
+  },
+  {
+   "id": "c4-m5c",
+   "type": "region",
+   "start": 348.61,
+   "end": 359.366,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -94.1236,
+     40.847
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -94.1236,
+      40.847
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 4.6,
+     "center": [
+      -94.7198,
+      40.847
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 10.76,
+     "center": [
+      -95.316,
+      40.9374
+     ],
+     "widthKm": 520
+    }
+   ],
+   "clock": "T+05:00",
+   "clockLabel": "MINUTE 5",
+   "clockRate": 1,
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -95.9122,
+      41.1183
+     ],
+     "label": "Offutt Air Force Base",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -91.9772,
+      42.0227
+     ],
+     "text": "Carries about 100 people",
+     "color": "#FFFFFF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -91.9772,
+      41.887
+     ],
+     "text": "Aloft for about a week, with refuelling",
+     "color": "#FFD23F",
+     "t": 4.6
+    },
+    {
+     "at": [
+      -91.9772,
+      41.7514
+     ],
+     "text": "Shielded against EMP",
+     "color": "#FFFFFF",
+     "t": 7.76
+    }
+   ]
+  },
+  {
+   "id": "c4-m5d",
+   "type": "region",
+   "start": 359.366,
+   "end": 363.71,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -86.5,
+     40.3
+    ],
+    "widthKm": 2500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -86.5,
+      40.3
+     ],
+     "widthKm": 2500
+    },
+    {
+     "t": 0.28,
+     "center": [
+      -86.5,
+      40.3
+     ],
+     "widthKm": 2800
+    },
+    {
+     "t": 4.34,
+     "center": [
+      -85,
+      40.2
+     ],
+     "widthKm": 3300
+    }
+   ],
+   "clock": "T+05:00",
+   "clockLabel": "MINUTE 5",
+   "clockRate": 1,
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.10)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "840",
+     "text": "UNITED STATES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -95.9122,
+      41.1183
+     ],
+     "label": "Offutt",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "Washington",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -95.9122,
+       41.1183
+      ],
+      [
+       -94.0246,
+       40.8962
+      ]
+     ],
+     "t0": 0.28,
+     "t1": 1.74,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "label": "E-4B after 11 minutes",
+     "size": 2.4,
+     "t": 0.28,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -92,
+      46
+     ],
+     "text": "It cannot be there in eleven minutes",
+     "color": "#FFD23F",
+     "t": 0.28
+    }
+   ]
+  },
+  {
+   "id": "c4-m5e",
+   "type": "city",
+   "start": 363.71,
+   "end": 366.913,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 40
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 40
+    },
+    {
+     "t": 0.76,
+     "center": [
+      -76.9442,
+      38.8615
+     ],
+     "widthKm": 22
+    },
+    {
+     "t": 3.2,
+     "center": [
+      -76.8749,
+      38.8344
+     ],
+     "widthKm": 30
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -76.9211,
+      38.8977
+     ],
+     "text": "In this simulation",
+     "color": "#FFD23F",
+     "t": 0.2
+    },
+    {
+     "at": [
+      -76.9211,
+      38.8615
+     ],
+     "text": "Some other aircraft first",
+     "color": "#FFFFFF",
+     "t": 0.76
+    }
+   ],
+   "clock": "T+05:00",
+   "clockLabel": "MINUTE 5",
+   "clockRate": 1
+  },
+  {
+   "id": "c4-m6a",
+   "type": "region",
+   "start": 366.913,
+   "end": 373.487,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -77.2673,
+     39.0062
+    ],
+    "widthKm": 190
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.2673,
+      39.0062
+     ],
+     "widthKm": 190
+    },
+    {
+     "t": 3.68,
+     "center": [
+      -77.3828,
+      39.0334
+     ],
+     "widthKm": 170
+    },
+    {
+     "t": 6.57,
+     "center": [
+      -77.4982,
+      39.0605
+     ],
+     "widthKm": 160
+    }
+   ],
+   "clock": "T+06:00",
+   "clockLabel": "MINUTE 6",
+   "clockRate": 1,
+   "cities": [
+    {
+     "at": [
+      -77.0091,
+      38.8899
+     ],
+     "label": "Capitol",
+     "kind": "dot",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 5
+    },
+    {
+     "at": [
+      -77.8875,
+      39.064
+     ],
+     "label": "Mount Weather",
+     "kind": "base",
+     "t": 5.16,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -77.0091,
+       38.8899
+      ],
+      [
+       -77.4922,
+       38.9857
+      ]
+     ],
+     "t0": 3.68,
+     "t1": 6.67,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "label": "Congressional leaders",
+     "size": 2.2,
+     "t": 3.68,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.133,
+      39.3047
+     ],
+     "text": "Congressional leaders flown out",
+     "color": "#FFFFFF",
+     "t": 4.84
+    }
+   ]
+  },
+  {
+   "id": "c4-m6b",
+   "type": "region",
+   "start": 373.487,
+   "end": 378.713,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -77.4982,
+     39.2595
+    ],
+    "widthKm": 230
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.4982,
+      39.2595
+     ],
+     "widthKm": 230
+    },
+    {
+     "t": 1.83,
+     "center": [
+      -77.4405,
+      39.3499
+     ],
+     "widthKm": 280
+    },
+    {
+     "t": 5.23,
+     "center": [
+      -77.4405,
+      39.3499
+     ],
+     "widthKm": 300
+    }
+   ],
+   "clock": "T+06:00",
+   "clockLabel": "MINUTE 6",
+   "clockRate": 1,
+   "cities": [
+    {
+     "at": [
+      -77.8875,
+      39.064
+     ],
+     "label": "Mount Weather",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.4194,
+      39.7344
+     ],
+     "label": "Raven Rock",
+     "kind": "base",
+     "t": 1.83,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "Washington",
+     "kind": "dot",
+     "t": 0.4,
+     "color": "#FFFFFF",
+     "size": 5
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -77.4922,
+       38.9857
+      ],
+      [
+       -77.8875,
+       39.064
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 2.8,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 2.2,
+     "t": 0.1,
+     "wake": true
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -77.8875,
+      39.064
+     ],
+     "km": 8,
+     "label": "Activated",
+     "color": "#6EA8FF",
+     "t": 2.7,
+     "dashed": false
+    },
+    {
+     "at": [
+      -77.4194,
+      39.7344
+     ],
+     "km": 8,
+     "label": "Activated",
+     "color": "#6EA8FF",
+     "t": 3.52,
+     "dashed": false
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.3062,
+      39.0786
+     ],
+     "text": "As on September 11",
+     "color": "#FFD23F",
+     "t": 0.34
+    }
+   ]
+  },
+  {
+   "id": "c4-m8a",
+   "type": "city",
+   "start": 378.713,
+   "end": 386.618,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 26
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 26
+    },
+    {
+     "t": 2.68,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 18
+    },
+    {
+     "t": 7.9,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 15
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -77.0558,
+      38.8629
+     ],
+     "text": "Pentagon: counting",
+     "color": "#FFFFFF",
+     "t": 1.56
+    },
+    {
+     "at": [
+      -77.0091,
+      38.8989
+     ],
+     "text": "Capitol: counting",
+     "color": "#FFFFFF",
+     "t": 2.68
+    },
+    {
+     "at": [
+      -77.0365,
+      38.9158
+     ],
+     "text": "Cabinet offices: counting",
+     "color": "#FFFFFF",
+     "t": 3.76
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8434
+     ],
+     "text": "Who has left, who has not",
+     "color": "#FFD23F",
+     "t": 5.5
+    }
+   ],
+   "clock": "T+08:00",
+   "clockLabel": "MINUTE 8",
+   "clockRate": 1
+  },
+  {
+   "id": "c4-m8b",
+   "type": "city",
+   "start": 386.618,
+   "end": 391.241,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 15
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 15
+    },
+    {
+     "t": 1.17,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 22
+    },
+    {
+     "t": 4.62,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 34
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9203
+     ],
+     "text": "Many have not left",
+     "color": "#FFD23F",
+     "t": 1.17
+    },
+    {
+     "at": [
+      -77.0365,
+      38.857
+     ],
+     "text": "Who: not modelled",
+     "color": "#FFFFFF",
+     "t": 3.19
+    }
+   ],
+   "clock": "T+08:00",
+   "clockLabel": "MINUTE 8",
+   "clockRate": 1
+  },
+  {
+   "id": "c4-m10a",
+   "type": "region",
+   "start": 391.241,
+   "end": 400.147,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -75.4206,
+     38.8073
+    ],
+    "widthKm": 420
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -75.4206,
+      38.8073
+     ],
+     "widthKm": 420
+    },
+    {
+     "t": 4.51,
+     "center": [
+      -75.4206,
+      38.8073
+     ],
+     "widthKm": 380
+    },
+    {
+     "t": 8.91,
+     "center": [
+      -75.6514,
+      38.8073
+     ],
+     "widthKm": 330
+    }
+   ],
+   "clock": "T+10:00",
+   "clockLabel": "ABOUT ONE MINUTE LEFT",
+   "clockRate": 6.5,
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -73.5738,
+       38.6264
+      ],
+      [
+       -75.4783,
+       38.7756
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 8.91,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Warhead: about a minute out",
+     "size": 1.8,
+     "t": 0.1,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -76.5748,
+      39.4403
+     ],
+     "text": "About one minute left",
+     "color": "#FFD23F",
+     "t": 1.63
+    },
+    {
+     "at": [
+      -76.5748,
+      39.3409
+     ],
+     "text": "An aircraft: orders can still be given",
+     "color": "#6EA8FF",
+     "t": 5.51
+    }
+   ]
+  },
+  {
+   "id": "c4-m10b",
+   "type": "region",
+   "start": 400.147,
+   "end": 405.905,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -75.6514,
+     38.8073
+    ],
+    "widthKm": 330
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -75.6514,
+      38.8073
+     ],
+     "widthKm": 330
+    },
+    {
+     "t": 5.76,
+     "center": [
+      -76.344,
+      38.8615
+     ],
+     "widthKm": 210
+    }
+   ],
+   "clock": "T+10:53",
+   "clockLabel": "THE LAST MINUTE",
+   "clockRate": 1,
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -75.4783,
+       38.7756
+      ],
+      [
+       -77.0365,
+       38.8977
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 5.61,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Warhead",
+     "size": 1.8,
+     "t": 0.1,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -76.5748,
+      39.3047
+     ],
+     "text": "What the orders are: outside the simulation",
+     "color": "#FFFFFF",
+     "t": 0.1
+    },
+    {
+     "at": [
+      -76.5748,
+      39.2052
+     ],
+     "text": "Minute eleven",
+     "color": "#FFD23F",
+     "t": 4.34
+    }
+   ]
+  },
+  {
+   "id": "c4-impact",
+   "type": "city",
+   "start": 405.905,
+   "end": 413.192,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 6
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 6
+    },
+    {
+     "t": 2.83,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 12
+    },
+    {
+     "t": 7.29,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 26
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.4,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.7,
+     "angle": 215
+    },
+    {
+     "km": 3.1,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 4.64,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9086
+     ],
+     "text": "Impact",
+     "color": "#FFFFFF",
+     "t": 0.4
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8344
+     ],
+     "text": "Next: what 100 kilotons does",
+     "color": "#FFD23F",
+     "t": 2.12
+    }
+   ],
+   "clock": "T+11:06",
+   "clockLabel": "IMPACT",
+   "clockRate": 1,
+   "flashT": 0.1
+  },
+  {
+   "id": "c5-card",
+   "type": "chapter",
+   "start": 413.192,
+   "end": 416.69,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 05",
+   "title": "One warhead, ring by ring"
+  },
+  {
+   "id": "c5-engine",
+   "type": "city",
+   "start": 416.69,
+   "end": 421.297,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 26
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 26
+    },
+    {
+     "t": 1.4,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 18
+    },
+    {
+     "t": 4.61,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 12
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9384
+     ],
+     "text": "Every number: our scenario engine",
+     "color": "#FFFFFF",
+     "t": 0.2
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8633
+     ],
+     "text": "Estimates for a labelled simulation",
+     "color": "#FFD23F",
+     "t": 1.4
+    }
+   ],
+   "clock": "T+11:06",
+   "clockLabel": "THE 100 kt WARHEAD",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-fire",
+   "type": "city",
+   "start": 421.297,
+   "end": 432.481,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 3.4
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 3.4
+    },
+    {
+     "t": 4.67,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 2.6
+    },
+    {
+     "t": 7.69,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 2.2
+    },
+    {
+     "t": 11.18,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 2.9
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.4,
+     "label": "Fireball: radius",
+     "color": "#FFFFFF",
+     "t": 0.57,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9045
+     ],
+     "text": "Almost 800 m across",
+     "color": "#FFD23F",
+     "t": 4.67
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8923
+     ],
+     "text": "Above the White House",
+     "color": "#FFFFFF",
+     "t": 7.69
+    }
+   ],
+   "clock": "T+11:06",
+   "clockLabel": "THE 100 kt WARHEAD",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-20",
+   "type": "city",
+   "start": 432.481,
+   "end": 442.881,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 3.0
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 3.0
+    },
+    {
+     "t": 4.55,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 2.7
+    },
+    {
+     "t": 10.4,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 3.4
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.4,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "angle": 215
+    },
+    {
+     "km": 0.6,
+     "label": "20 psi: radius",
+     "color": "#FF3B3B",
+     "t": 0.77,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9054
+     ],
+     "text": "The blast adds 20 psi",
+     "color": "#FFD23F",
+     "t": 3.03
+    },
+    {
+     "at": [
+      -77.0365,
+      38.89
+     ],
+     "text": "Almost nothing stays standing",
+     "color": "#FFFFFF",
+     "t": 7.55
+    }
+   ],
+   "clock": "T+11:06",
+   "clockLabel": "THE 100 kt WARHEAD",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-5psi",
+   "type": "city",
+   "start": 442.881,
+   "end": 452.19,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 5.0
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 5.0
+    },
+    {
+     "t": 0.55,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 7.2
+    },
+    {
+     "t": 6.95,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 8.6
+    },
+    {
+     "t": 9.31,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 9.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.4,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "angle": 215
+    },
+    {
+     "km": 0.6,
+     "label": "20 psi",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "angle": 240
+    },
+    {
+     "km": 3.1,
+     "label": "5 psi: radius",
+     "color": "#FF3B3B",
+     "t": 0.55,
+     "angle": 265
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9303
+     ],
+     "text": "Wrecks most buildings",
+     "color": "#FFD23F",
+     "t": 4.73
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8651
+     ],
+     "text": "31 square kilometres",
+     "color": "#FFFFFF",
+     "t": 6.95
+    }
+   ],
+   "clock": "T+11:06",
+   "clockLabel": "THE 100 kt WARHEAD",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-cp",
+   "type": "city",
+   "start": 452.19,
+   "end": 462.69,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0226,
+     38.8932
+    ],
+    "widthKm": 8.5
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0226,
+      38.8932
+     ],
+     "widthKm": 8.5
+    },
+    {
+     "t": 5.24,
+     "center": [
+      -77.0411,
+      38.8832
+     ],
+     "widthKm": 8.0
+    },
+    {
+     "t": 10.5,
+     "center": [
+      -77.0457,
+      38.8814
+     ],
+     "widthKm": 7.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.4,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "angle": 215
+    },
+    {
+     "km": 3.1,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0091,
+      38.8953
+     ],
+     "text": "Capitol: 2.5 km",
+     "color": "#FFFFFF",
+     "t": 0.2
+    },
+    {
+     "at": [
+      -77.0091,
+      38.8845
+     ],
+     "text": "Inside the ring",
+     "color": "#FFD23F",
+     "t": 3.56
+    },
+    {
+     "at": [
+      -77.0558,
+      38.8665
+     ],
+     "text": "Pentagon: 3.3 km",
+     "color": "#FFFFFF",
+     "t": 5.24
+    },
+    {
+     "at": [
+      -77.0558,
+      38.861
+     ],
+     "text": "At the edge",
+     "color": "#FFD23F",
+     "t": 8.55
+    }
+   ],
+   "clock": "T+11:06",
+   "clockLabel": "THE 100 kt WARHEAD",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-unc",
+   "type": "city",
+   "start": 462.69,
+   "end": 468.402,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0457,
+     38.8814
+    ],
+    "widthKm": 8.0
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0457,
+      38.8814
+     ],
+     "widthKm": 8.0
+    },
+    {
+     "t": 5.71,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 14
+    }
+   ],
+   "rings": [
+    {
+     "km": 3.1,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0711,
+      38.9294
+     ],
+     "text": "The engine's uncertainty is bigger than the gap",
+     "color": "#FFFFFF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -77.0711,
+      38.8597
+     ],
+     "text": "At the edge never means safe",
+     "color": "#FFD23F",
+     "t": 3.6
+    }
+   ],
+   "clock": "T+11:06",
+   "clockLabel": "THE 100 kt WARHEAD",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-burn",
+   "type": "city",
+   "start": 468.402,
+   "end": 472.978,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 10
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 10
+    },
+    {
+     "t": 2.17,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 12
+    },
+    {
+     "t": 4.58,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 14
+    }
+   ],
+   "rings": [
+    {
+     "km": 3.1,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    },
+    {
+     "km": 4.2,
+     "label": "Burns: radius",
+     "color": "#FF7A1A",
+     "t": 0.79,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9411
+     ],
+     "text": "The flash burns bare skin",
+     "color": "#FFD23F",
+     "t": 1.27
+    }
+   ],
+   "clock": "T+11:06",
+   "clockLabel": "THE 100 kt WARHEAD",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-win",
+   "type": "city",
+   "start": 472.978,
+   "end": 478.282,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 14
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 14
+    },
+    {
+     "t": 2.07,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 20
+    },
+    {
+     "t": 5.3,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 24
+    }
+   ],
+   "rings": [
+    {
+     "km": 3.1,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    },
+    {
+     "km": 4.2,
+     "label": "Burns",
+     "color": "#FF7A1A",
+     "t": 0.2,
+     "angle": 240
+    },
+    {
+     "km": 8.5,
+     "label": "Windows: radius",
+     "color": "#FFFFFF",
+     "t": 2.07,
+     "angle": 265
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.952
+     ],
+     "text": "Windows break",
+     "color": "#FFD23F",
+     "t": 2.07
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8434
+     ],
+     "text": "Glass flies",
+     "color": "#FFFFFF",
+     "t": 3.03
+    }
+   ],
+   "clock": "T+11:06",
+   "clockLabel": "THE 100 kt WARHEAD",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-fallout",
+   "type": "city",
+   "start": 478.282,
+   "end": 489.411,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 24
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 24
+    },
+    {
+     "t": 5.15,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 30
+    },
+    {
+     "t": 9.47,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 20
+    },
+    {
+     "t": 11.13,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 14
+    }
+   ],
+   "rings": [
+    {
+     "km": 3.1,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    },
+    {
+     "km": 4.2,
+     "label": "Burns",
+     "color": "#FF7A1A",
+     "t": 0.2,
+     "angle": 240
+    },
+    {
+     "km": 8.5,
+     "label": "Windows",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "angle": 265
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.961
+     ],
+     "text": "Air burst: little local fallout",
+     "color": "#FFFFFF",
+     "t": 0.23
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8389
+     ],
+     "text": "Mostly blast and heat",
+     "color": "#FFD23F",
+     "t": 7.53
+    },
+    {
+     "at": [
+      -77.0365,
+      38.857
+     ],
+     "text": "Close to the centre",
+     "color": "#FFFFFF",
+     "t": 9.47
+    }
+   ],
+   "clock": "T+11:06",
+   "clockLabel": "THE 100 kt WARHEAD",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-mw",
+   "type": "region",
+   "start": 489.411,
+   "end": 496.623,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -77.452,
+     39.3047
+    ],
+    "widthKm": 270
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.452,
+      39.3047
+     ],
+     "widthKm": 270
+    },
+    {
+     "t": 3.16,
+     "center": [
+      -77.4751,
+      39.3137
+     ],
+     "widthKm": 240
+    },
+    {
+     "t": 7.21,
+     "center": [
+      -77.4751,
+      39.3137
+     ],
+     "widthKm": 215
+    }
+   ],
+   "clock": "T+11:06",
+   "clockLabel": "THE 100 kt WARHEAD",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "km": 3.143,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "dashed": false
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "km": 8.507,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.8875,
+      39.064
+     ],
+     "label": "Mount Weather: 76 km",
+     "kind": "base",
+     "t": 0.23,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.4194,
+      39.7344
+     ],
+     "label": "Raven Rock: 99 km",
+     "kind": "base",
+     "t": 3.16,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -77.0365,
+      38.8977
+     ],
+     "to": [
+      -77.8875,
+      39.064
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 0.43,
+     "t1": 2.23
+    },
+    {
+     "from": [
+      -77.0365,
+      38.8977
+     ],
+     "to": [
+      -77.4194,
+      39.7344
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 3.36,
+     "t1": 5.16
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.3062,
+      38.9429
+     ],
+     "text": "Far outside every ring",
+     "color": "#FFD23F",
+     "t": 5.12
+    }
+   ]
+  },
+  {
+   "id": "c5-nobl",
+   "type": "region",
+   "start": 496.623,
+   "end": 504.897,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -77.4751,
+     39.3137
+    ],
+    "widthKm": 215
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.4751,
+      39.3137
+     ],
+     "widthKm": 215
+    },
+    {
+     "t": 3.41,
+     "center": [
+      -77.4751,
+      39.3137
+     ],
+     "widthKm": 250
+    },
+    {
+     "t": 8.27,
+     "center": [
+      -77.4751,
+      39.3137
+     ],
+     "widthKm": 280
+    }
+   ],
+   "clock": "T+11:06",
+   "clockLabel": "THE 100 kt WARHEAD",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "km": 3.143,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "dashed": false
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "km": 8.507,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -77.8875,
+      39.064
+     ],
+     "label": "Mount Weather",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.4194,
+      39.7344
+     ],
+     "label": "Raven Rock",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.1907,
+      38.9429
+     ],
+     "text": "In the engine: no blast at either site",
+     "color": "#FFFFFF",
+     "t": 0.97
+    },
+    {
+     "at": [
+      -78.1907,
+      38.8434
+     ],
+     "text": "A result for this yield",
+     "color": "#FFD23F",
+     "t": 3.41
+    },
+    {
+     "at": [
+      -78.1907,
+      38.744
+     ],
+     "text": "No guarantee for any bunker",
+     "color": "#FF3B3B",
+     "t": 5.17
+    }
+   ]
+  },
+  {
+   "id": "c6-card",
+   "type": "chapter",
+   "start": 504.897,
+   "end": 508.4,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 06",
+   "title": "The day after"
+  },
+  {
+   "id": "c6-left",
+   "type": "region",
+   "start": 508.4,
+   "end": 517.593,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -77.4405,
+     39.3499
+    ],
+    "widthKm": 280
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.4405,
+      39.3499
+     ],
+     "widthKm": 280
+    },
+    {
+     "t": 5.65,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 210
+    },
+    {
+     "t": 9.19,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 170
+    }
+   ],
+   "clock": "10:12",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.8875,
+      39.064
+     ],
+     "label": "Mount Weather",
+     "kind": "base",
+     "t": 1.91,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.4194,
+      39.7344
+     ],
+     "label": "Raven Rock",
+     "kind": "base",
+     "t": 2.21,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "km": 3.143,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 5.65,
+     "dashed": false
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "km": 8.507,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 5.85,
+     "dashed": false
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.3062,
+      39.5308
+     ],
+     "text": "Who had already left the city?",
+     "color": "#FFD23F",
+     "t": 0.89
+    },
+    {
+     "at": [
+      -78.3062,
+      39.4223
+     ],
+     "text": "Start with the map",
+     "color": "#FFFFFF",
+     "t": 7.25
+    }
+   ]
+  },
+  {
+   "id": "c6-dark",
+   "type": "city",
+   "start": 517.593,
+   "end": 523.53,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 12
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 12
+    },
+    {
+     "t": 3.12,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 9
+    },
+    {
+     "t": 5.94,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 8
+    }
+   ],
+   "rings": [
+    {
+     "km": 3.1,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9176
+     ],
+     "text": "Inside 3 km of the White House",
+     "color": "#FFFFFF",
+     "t": 0.2
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8796
+     ],
+     "text": "The centre of the federal government: dark",
+     "color": "#FFD23F",
+     "t": 4.12
+    }
+   ],
+   "clock": "10:12",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0
+  },
+  {
+   "id": "c6-cover",
+   "type": "city",
+   "start": 523.53,
+   "end": 533.37,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 10
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 10
+    },
+    {
+     "t": 4.04,
+     "center": [
+      -77.0307,
+      38.895
+     ],
+     "widthKm": 14
+    },
+    {
+     "t": 9.84,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 22
+    }
+   ],
+   "rings": [
+    {
+     "km": 3.1,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    },
+    {
+     "km": 8.5,
+     "label": "Windows break",
+     "color": "#FFFFFF",
+     "t": 6.42,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0091,
+      38.8971
+     ],
+     "text": "Capitol",
+     "color": "#FFFFFF",
+     "t": 2.28
+    },
+    {
+     "at": [
+      -77.025,
+      38.8841
+     ],
+     "text": "The Mall",
+     "color": "#FFFFFF",
+     "t": 3.16
+    },
+    {
+     "at": [
+      -77.0365,
+      38.9067
+     ],
+     "text": "Executive offices",
+     "color": "#FFFFFF",
+     "t": 4.04
+    }
+   ],
+   "clock": "10:12",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0
+  },
+  {
+   "id": "c6-plume",
+   "type": "region",
+   "start": 533.37,
+   "end": 543.839,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -76.6325,
+     38.8525
+    ],
+    "widthKm": 200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -76.6325,
+      38.8525
+     ],
+     "widthKm": 200
+    },
+    {
+     "t": 2.65,
+     "center": [
+      -76.5748,
+      38.8253
+     ],
+     "widthKm": 210
+    },
+    {
+     "t": 10.47,
+     "center": [
+      -76.5171,
+      38.8253
+     ],
+     "widthKm": 240
+    }
+   ],
+   "clock": "10:12",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "km": 3.143,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "plume": {
+    "at": [
+     -77.0365,
+     38.8977
+    ],
+    "bearing": 112,
+    "lengthKm": 50,
+    "widthKm": 8,
+    "t0": 6.1,
+    "t1": 9.6,
+    "color": "#F2B01E",
+    "label": "Plume: direction only"
+   },
+   "labels": [
+    {
+     "at": [
+      -77.729,
+      39.2414
+     ],
+     "text": "The plume is small",
+     "color": "#FFFFFF",
+     "t": 0.5
+    },
+    {
+     "at": [
+      -77.729,
+      39.1509
+     ],
+     "text": "Wind: west-northwest (our assumption)",
+     "color": "#FFD23F",
+     "t": 2.65
+    },
+    {
+     "at": [
+      -76.2978,
+      38.7892
+     ],
+     "text": "Chesapeake Bay",
+     "color": "#FFFFFF",
+     "t": 8.12
+    }
+   ]
+  },
+  {
+   "id": "c6-after",
+   "type": "city",
+   "start": 543.839,
+   "end": 553.178,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 30
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 30
+    },
+    {
+     "t": 5.77,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 22
+    },
+    {
+     "t": 9.34,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 17
+    }
+   ],
+   "rings": [
+    {
+     "km": 3.1,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    },
+    {
+     "km": 8.5,
+     "label": "Windows",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9836
+     ],
+     "text": "Air burst: little local fallout",
+     "color": "#FFFFFF",
+     "t": 2.55
+    },
+    {
+     "at": [
+      -77.0076,
+      38.9086
+     ],
+     "text": "Rubble",
+     "color": "#FFD23F",
+     "t": 5.77
+    },
+    {
+     "at": [
+      -77.0654,
+      38.9176
+     ],
+     "text": "Fire",
+     "color": "#FF7A1A",
+     "t": 6.54
+    },
+    {
+     "at": [
+      -77.0827,
+      38.866
+     ],
+     "text": "Closed bridges",
+     "color": "#FFFFFF",
+     "t": 7.39
+    }
+   ],
+   "clock": "10:12",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0
+  },
+  {
+   "id": "c6-lit",
+   "type": "region",
+   "start": 553.178,
+   "end": 557.99,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -77.4751,
+     39.2775
+    ],
+    "widthKm": 320
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.4751,
+      39.2775
+     ],
+     "widthKm": 320
+    },
+    {
+     "t": 2.68,
+     "center": [
+      -77.4982,
+      39.3047
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 4.81,
+     "center": [
+      -77.4982,
+      39.3047
+     ],
+     "widthKm": 235
+    }
+   ],
+   "clock": "10:12",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "km": 3.143,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "dashed": false
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "km": 8.507,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -77.8875,
+      39.064
+     ],
+     "label": "Mount Weather: lit",
+     "kind": "base",
+     "t": 2.68,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.4194,
+      39.7344
+     ],
+     "label": "Raven Rock: lit",
+     "kind": "base",
+     "t": 4.15,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.3062,
+      38.9429
+     ],
+     "text": "The rings: dark",
+     "color": "#FF3B3B",
+     "t": 0.4
+    },
+    {
+     "at": [
+      -78.3062,
+      38.8434
+     ],
+     "text": "Two points stay lit outside",
+     "color": "#FFD23F",
+     "t": 0.1
+    }
+   ]
+  },
+  {
+   "id": "c6-law1",
+   "type": "region",
+   "start": 557.99,
+   "end": 565.75,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -77.4982,
+     39.3047
+    ],
+    "widthKm": 240
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.4982,
+      39.3047
+     ],
+     "widthKm": 240
+    },
+    {
+     "t": 2.08,
+     "center": [
+      -77.4405,
+      39.2595
+     ],
+     "widthKm": 280
+    },
+    {
+     "t": 7.76,
+     "center": [
+      -77.3251,
+      39.1871
+     ],
+     "widthKm": 320
+    }
+   ],
+   "clock": "10:12",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -77.8875,
+      39.064
+     ],
+     "label": "Mount Weather",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.4194,
+      39.7344
+     ],
+     "label": "Raven Rock",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.1907,
+      39.0786
+     ],
+     "text": "Whoever reached them",
+     "color": "#FFFFFF",
+     "t": 0.2
+    },
+    {
+     "at": [
+      -78.1907,
+      38.9701
+     ],
+     "text": "The law lists who acts next",
+     "color": "#FFD23F",
+     "t": 2.08
+    },
+    {
+     "at": [
+      -78.1907,
+      38.8615
+     ],
+     "text": "After the president and vice president",
+     "color": "#FFFFFF",
+     "t": 5.21
+    }
+   ]
+  },
+  {
+   "id": "c6-law2",
+   "type": "region",
+   "start": 565.75,
+   "end": 574.702,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -77.2673,
+     39.169
+    ],
+    "widthKm": 320
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.2673,
+      39.169
+     ],
+     "widthKm": 320
+    },
+    {
+     "t": 2.91,
+     "center": [
+      -77.4405,
+      39.2595
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 8.95,
+     "center": [
+      -77.4982,
+      39.3047
+     ],
+     "widthKm": 240
+    }
+   ],
+   "clock": "10:12",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -77.8875,
+      39.064
+     ],
+     "label": "Mount Weather",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.4194,
+      39.7344
+     ],
+     "label": "Raven Rock",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.1907,
+      39.0786
+     ],
+     "text": "1. Speaker of the House",
+     "color": "#FFFFFF",
+     "t": 0.2
+    },
+    {
+     "at": [
+      -78.1907,
+      38.9701
+     ],
+     "text": "2. President pro tempore of the Senate",
+     "color": "#FFFFFF",
+     "t": 2.91
+    },
+    {
+     "at": [
+      -78.1907,
+      38.8615
+     ],
+     "text": "3. Cabinet, by office",
+     "color": "#FFD23F",
+     "t": 5.94
+    }
+   ]
+  },
+  {
+   "id": "c6-17",
+   "type": "number",
+   "start": 574.702,
+   "end": 578.642,
+   "tag": "REAL DATA",
+   "value": "17 IN ALL",
+   "label": "the line of succession",
+   "sub": "who holds each office is not modelled",
+   "color": "#6EA8FF",
+   "countTo": 17,
+   "suffix": " IN ALL",
+   "source": "U.S. Code, Title 3, section 19"
+  },
+  {
+   "id": "c6-gap",
+   "type": "city",
+   "start": 578.642,
+   "end": 584.8480000000001,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0229,
+     38.8935
+    ],
+    "widthKm": 14
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0229,
+      38.8935
+     ],
+     "widthKm": 14
+    },
+    {
+     "t": 4.83,
+     "center": [
+      -77.0137,
+      38.8917
+     ],
+     "widthKm": 10
+    },
+    {
+     "t": 6.21,
+     "center": [
+      -77.0091,
+      38.8899
+     ],
+     "widthKm": 8
+    }
+   ],
+   "rings": [
+    {
+     "km": 3.1,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0091,
+      38.9008
+     ],
+     "text": "The hard gap: Congress",
+     "color": "#FFD23F",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -77.0091,
+      38.8809
+     ],
+     "text": "House seats: special elections only",
+     "color": "#FFFFFF",
+     "t": 4.83
+    }
+   ],
+   "clock": "10:12",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0
+  },
+  {
+   "id": "c6-4mo",
+   "type": "number",
+   "start": 584.8480000000001,
+   "end": 588.599,
+   "tag": "REAL DATA",
+   "value": "ABOUT 4 MONTHS",
+   "label": "for a state to fill a House seat, on average",
+   "sub": "",
+   "color": "#6EA8FF",
+   "countTo": 4,
+   "prefix": "ABOUT ",
+   "suffix": " MONTHS",
+   "source": "Congressional Research Service"
+  },
+  {
+   "id": "c6-gov",
+   "type": "city",
+   "start": 588.599,
+   "end": 597.14,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0033,
+     38.8899
+    ],
+    "widthKm": 12
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0033,
+      38.8899
+     ],
+     "widthKm": 12
+    },
+    {
+     "t": 3.08,
+     "center": [
+      -77.0068,
+      38.8926
+     ],
+     "widthKm": 9
+    },
+    {
+     "t": 8.54,
+     "center": [
+      -77.0091,
+      38.8899
+     ],
+     "widthKm": 7
+    }
+   ],
+   "rings": [
+    {
+     "km": 3.1,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0091,
+      38.8998
+     ],
+     "text": "Governors: Senate seats within days",
+     "color": "#FFFFFF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -77.0091,
+      38.8809
+     ],
+     "text": "A quorum: the living, or the whole chamber?",
+     "color": "#FFD23F",
+     "t": 3.55
+    },
+    {
+     "at": [
+      -77.0091,
+      38.8754
+     ],
+     "text": "Scholars dispute it",
+     "color": "#FFFFFF",
+     "t": 6.85
+    }
+   ],
+   "clock": "10:12",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0
+  },
+  {
+   "id": "c6-2003",
+   "type": "city",
+   "start": 597.14,
+   "end": 606.683,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0091,
+     38.8899
+    ],
+    "widthKm": 18
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0091,
+      38.8899
+     ],
+     "widthKm": 18
+    },
+    {
+     "t": 5.43,
+     "center": [
+      -77.0091,
+      38.8899
+     ],
+     "widthKm": 26
+    },
+    {
+     "t": 9.54,
+     "center": [
+      -77.0091,
+      38.8899
+     ],
+     "widthKm": 34
+    }
+   ],
+   "rings": [
+    {
+     "km": 3.1,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    },
+    {
+     "km": 8.5,
+     "label": "Windows",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0091,
+      38.9306
+     ],
+     "text": "2003: a commission imagines it",
+     "color": "#FFD23F",
+     "t": 1.97
+    },
+    {
+     "at": [
+      -77.0091,
+      38.8492
+     ],
+     "text": "Congress annihilated",
+     "color": "#FFFFFF",
+     "t": 5.43
+    },
+    {
+     "at": [
+      -77.0091,
+      38.8311
+     ],
+     "text": "It urges a constitutional amendment",
+     "color": "#FFFFFF",
+     "t": 6.73
+    }
+   ],
+   "clock": "10:12",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0
+  },
+  {
+   "id": "c6-aloft",
+   "type": "region",
+   "start": 606.683,
+   "end": 611.2700000000001,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -77.2673,
+     38.9881
+    ],
+    "widthKm": 260
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.2673,
+      38.9881
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 0.85,
+     "center": [
+      -77.3828,
+      39.0062
+     ],
+     "widthKm": 220
+    },
+    {
+     "t": 4.59,
+     "center": [
+      -77.4405,
+      39.0243
+     ],
+     "widthKm": 200
+    }
+   ],
+   "clock": "10:12",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "km": 3.143,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "dashed": false
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "km": 8.507,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -76.9903,
+       38.9158
+      ],
+      [
+       -77.3828,
+       39.0605
+      ],
+      [
+       -77.8445,
+       39.169
+      ]
+     ],
+     "t0": 0.4,
+     "t1": 5.89,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "label": "The president's aircraft",
+     "size": 2.4,
+     "t": 0.4,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.0176,
+      39.169
+     ],
+     "text": "One aircraft is aloft",
+     "color": "#FFD23F",
+     "t": 1.75
+    }
+   ]
+  },
+  {
+   "id": "c6-35",
+   "type": "number",
+   "start": 611.2700000000001,
+   "end": 615.17,
+   "tag": "REAL DATA",
+   "value": "35 HOURS",
+   "label": "the E-4B stayed up in a test",
+   "sub": "designed for about a week",
+   "color": "#6EA8FF",
+   "countTo": 35,
+   "suffix": " HOURS",
+   "source": "Congressional Research Service"
+  },
+  {
+   "id": "c6-reach",
+   "type": "region",
+   "start": 615.17,
+   "end": 623.569,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -77.5559,
+     39.0786
+    ],
+    "widthKm": 230
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.5559,
+      39.0786
+     ],
+     "widthKm": 230
+    },
+    {
+     "t": 3.06,
+     "center": [
+      -77.3828,
+      39.0786
+     ],
+     "widthKm": 330
+    },
+    {
+     "t": 8.4,
+     "center": [
+      -77.3251,
+      39.0334
+     ],
+     "widthKm": 440
+    }
+   ],
+   "clock": "10:12",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "km": 3.143,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "dashed": false
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "km": 8.507,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.8875,
+      39.064
+     ],
+     "label": "Mount Weather: lit",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.4194,
+      39.7344
+     ],
+     "label": "Raven Rock: lit",
+     "kind": "base",
+     "t": 0.6,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -77.8445,
+       39.169
+      ],
+      [
+       -78.0176,
+       39.0786
+      ],
+      [
+       -78.1907,
+       38.9429
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 7.9,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "label": "Aircraft",
+     "size": 2.4,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -76.5748,
+      39.3499
+     ],
+     "text": "Whether it reaches them: not modelled",
+     "color": "#FFD23F",
+     "t": 3.06
+    },
+    {
+     "at": [
+      -76.5748,
+      39.2414
+     ],
+     "text": "That is all the map can say",
+     "color": "#FFFFFF",
+     "t": 5.66
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "type": "endslate",
+   "start": 623.569,
+   "end": 638.26,
+   "tag": "",
+   "title": "Next scenario",
+   "line": "How World War Three starts in Europe, conventional first."
+  }
+ ]
+}
