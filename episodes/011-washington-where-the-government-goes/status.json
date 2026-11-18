@@ -39,7 +39,17 @@
       "stage": "shotlisted",
       "note": "95 shots, 638.3 s",
       "at": "2026-11-18T05:39:12+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "95 shots, 638 s; round 2 fixes",
+      "at": "2026-11-18T05:42:50+00:00"
+    },
+    {
+      "stage": "visual_approved",
+      "note": "round 2 pass",
+      "at": "2026-11-18T05:44:44+00:00"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "visual_approved"
 }

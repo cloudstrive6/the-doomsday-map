@@ -170,6 +170,7 @@ HLUS = [HLU]
 CLUS = [{"iso": US_, "text": "UNITED STATES", "color": BLUE}]
 MWC = lambda a, t, lab_="Mount Weather": city(a, MW, lab_, t, BLUE, "base", 6)
 RRC = lambda a, t, lab_="Raven Rock": city(a, RR, lab_, t, BLUE, "base", 6)
+CTX = lambda a: [city(a, [-71.06, 42.36], "Boston", a + 0.6, GREY), city(a, [-64.78, 32.3], "Bermuda", a + 1.2, GREY)]
 GBC = lambda a, t, lab_="The Greenbrier": city(a, GB, lab_, t, BLUE, "base", 6)
 WHC = lambda a, t, lab_="White House": city(a, GZ, lab_, t, RED, "target", 6)
 
@@ -177,24 +178,25 @@ WHC = lambda a, t, lab_="White House": city(a, GZ, lab_, t, RED, "target", 6)
 # ================================================================== Cold open [SIMULATION]
 FL = 2.85   # the cut lands on the flash, which is at +0.1 in the city shot ("bursts" is spoken at 2.95)
 reg("open-run", 0, FL, [("s", off(70, 10), 320), ("e", off(8, 2), 170)], clock="T-00:03", clockLabel="TO BURST", clockRate=1,
-    cities=[WHC(0, 0.0, "Washington, DC"), city(0, BALT, "Baltimore", 0.25), city(0, ANN, "Annapolis", 0.5)],
+    cities=[WHC(0, 0.0, "White House"), city(0, BALT, "Baltimore", 0.25), city(0, ANN, "Annapolis", 0.5)],
     lines=[line(0, off(150, 40), GZ, 0.0, 2.8, WHITE)],
     ships=[ship(0, [off(150, 40), GZ], 0.0, 2.8, label="Warhead", color=RED, t_on=0.0)])
 a = FL
 cty("open-flash", a, S("p02"), [("s", GZ, 9), ("e", GZ, 24)], clock="T+00:00", clockLabel="WASHINGTON · SIMULATED", clockRate=1,
     flashT=0.1, rings=[ring(a, GZ, FX["fireball_km"], a + 0.5, "Fireball", WHITE), ring(a, GZ, FX["psi20_km"], a + 1.2, "20 psi", RED), ring(a, GZ, FX["psi5_km"], a + 1.9, "5 psi", RED)],
     labels=[lab(a, off(0, 1.6), "White House", a + 0.4, WHITE)], caption="One 100 kiloton airburst. Simulation: it has not happened.")
+shots[-1]["rings"][0]["angle"] = 65   # fireball label up and right, clear of the city-file "WASHINGTON" under the burst
 a = S("p02")
 reg("open-sim", a, S("p03"), [("s", GZ, 240), (W("p02", "simulation"), off(-8, 3), 300), ("e", off(-12, 4), 380)], clock="T+00:20", clockLabel="AFTER THE FLASH", clockRate=0,
     cities=[city(a, GZ, "Ground zero", a + 0.3, RED, "target", 6), city(a, BALT, "Baltimore", a + 0.5), city(a, ANN, "Annapolis", a + 0.7)],
     labels=[lab(a, off(-85, 40), "A simulation: not a prediction", W("p02", "simulation"), YELLOW), lab(a, off(-85, 28), "It has not happened", W("p02", "not"), WHITE)])
 a = S("p03")
 tSat = W("p03", "Satellites")
-reg("open-sub", a, tSat, [("s", [-61.5, 39.5], 4700), (W("p03", "submarine"), [-61, 39.8], 4450), ("e", [-60, 39.3], 4150)], clock="T-11:06", clockLabel="TO BURST", clockRate=1,
+reg("open-sub", a, tSat, [("s", [-60, 40.5], 3900), (W("p03", "submarine"), [-62, 40.2], 3700), ("e", [-64, 40.0], 3450)], clock="T-11:06", clockLabel="TO BURST", clockRate=1,
     highlight=HLUS, countryLabels=CLUS,
-    cities=[city(a, REL, "Submarine (simulated)", W("p03", "submarine"), WHITE, "base", 6), city(a, GZ, "Washington", a + 0.4, RED, "target", 6)],
-    lines=[line(a, REL, GZ, W("p03", "fires"), tSat - 0.5, WHITE, True, "About 2,700 km")],
-    ships=[ship(a, [REL, lerp(REL, GZ, 0.38)], W("p03", "fires"), tSat - 0.2, label="One missile", color=RED, t_on=W("p03", "fires"))])
+    cities=[city(a, REL, "Submarine (simulated)", W("p03", "submarine"), WHITE, "base", 6), city(a, GZ, "Washington", a + 0.4, RED, "target", 6)] + CTX(a),
+    lines=[line(a, REL, GZ, W("p03", "fires"), tSat - 0.5, WHITE, True, "About 2,700 km"), line(a, REL, GZ, W("p03", "fires"), tSat - 0.2, RED, False, None, 3)],
+    ships=[ship(a, [REL, lerp(REL, GZ, 0.38)], W("p03", "fires"), tSat - 0.2, label="One missile", color=RED, t_on=W("p03", "fires"), size=4.5)])
 a = tSat
 tAn = W("p03", "Analysts")
 glob("open-sat", a, tAn, [("s", 42, -62, 1000), ("e", 40, -70, 1500)], highlight=HLUS,
@@ -253,10 +255,10 @@ reg("c1-watch", a, tIn, [("s", GZ, 220), (W("p09", "attacks"), off(-5, 0), 180),
     cities=[WHC(a, a + 0.3), city(a, off(-9, -5), "Pentagon", a + 0.6, BLUE, "dot", 5)],
     labels=[lab(a, off(-85, 45), "Attacks you could watch unfold", W("p09", "attacks"), WHITE), lab(a, off(-85, 34), "Minutes at a time", W("p09", "minutes"), YELLOW)])
 a = tIn
-reg("c1-11", a, S("p10"), [("s", [-61.5, 39.5], 4700), (W("p09", "warning"), [-61, 39.5], 4450), ("e", [-60, 39.4], 4150)], clock="T-11:06", clockLabel="TO BURST", clockRate=0, highlight=HLUS, countryLabels=CLUS,
-    cities=[city(a, REL, "Submarine (simulated)", a + 0.4, WHITE, "base", 6), city(a, GZ, "Washington", a + 0.6, RED, "target", 6)],
+reg("c1-11", a, S("p10"), [("s", [-60, 40.5], 3900), (W("p09", "warning"), [-62, 40.2], 3700), ("e", [-64, 40.0], 3450)], clock="T-11:06", clockLabel="TO BURST", clockRate=0, highlight=HLUS, countryLabels=CLUS,
+    cities=[city(a, REL, "Submarine (simulated)", a + 0.4, WHITE, "base", 6), city(a, GZ, "Washington", a + 0.6, RED, "target", 6)] + CTX(a),
     lines=[line(a, REL, GZ, W("p09", "submarine"), W("p09", "submarine") + 1.8, WHITE, True, "Warning: 11 minutes")],
-    labels=[lab(a, [-64, 43], "Our simulation", W("p09", "simulation"), YELLOW)])
+    labels=[lab(a, [-60, 46], "Our simulation", W("p09", "simulation"), YELLOW)])
 a = S("p10")
 reg("c1-q", a, S("p11"), [("s", off(-30, 45), 300), (W("p10", "toward"), off(-35, 48), 260), ("e", off(-35, 50), 220)], tag="REAL DATA", clock="", source=SRC1,
     cities=[WHC(a, a + 0.2, "White House"), MWC(a, W("p10", "move")), RRC(a, W("p10", "toward"))],
@@ -343,10 +345,10 @@ reg("c2-sites2", a, S("p17"), [("s", off(-120, 0), 620), (W("p16", "none"), off(
 a = chapter("c3-card", S("p17"), 3.5, "CHAPTER 03", "The trigger", "SIMULATION")
 CL3 = dict(clock="T-11:06", clockLabel="TO BURST", clockRate=0)
 tYield = W("p18", "We")
-reg("c3-launch", a, tYield, [("s", [-61.5, 39.5], 4700), (W("p17", "North"), [-61, 39.5], 4500), (W("p17", "name"), [-60.5, 39.5], 4300), ("e", [-60, 39.4], 4100)], **CL3, highlight=HLUS, countryLabels=CLUS,
-    cities=[city(a, REL, "Submarine (simulated)", W("p17", "submarine"), WHITE, "base", 6), city(a, GZ, "Washington", a + 0.5, RED, "target", 6)],
-    lines=[line(a, REL, GZ, W("p17", "choose"), W("p17", "choose") + 2.5, WHITE, True)],
-    labels=[lab(a, [-64, 43], "Open North Atlantic", W("p17", "open"), GREY), lab(a, [-64, 42], "Launch point: our choice", W("p17", "launch"), YELLOW), lab(a, [-64, 41], "No attacker named", W("p17", "no"), WHITE), lab(a, [-64, 40], "One warhead", W("p18", "carries"), RED)])
+reg("c3-launch", a, tYield, [("s", [-60, 40.5], 3900), (W("p17", "North"), [-62, 40.2], 3700), (W("p17", "name"), [-63, 40.0], 3550), ("e", [-64, 40.0], 3450)], **CL3, highlight=HLUS, countryLabels=CLUS,
+    cities=[city(a, REL, "Submarine (simulated)", W("p17", "submarine"), WHITE, "base", 6), city(a, GZ, "Washington", a + 0.5, RED, "target", 6)] + CTX(a),
+    lines=[line(a, REL, GZ, W("p17", "choose"), W("p17", "choose") + 2.5, WHITE, True), line(a, REL, GZ, W("p18", "carries"), W("p18", "carries") + 2.5, RED, False, None, 3)],
+    labels=[lab(a, [-60, 47], "Open North Atlantic", W("p17", "open"), GREY), lab(a, [-60, 45.8], "Launch point: our choice", W("p17", "launch"), YELLOW), lab(a, [-60, 34.5], "No attacker named", W("p17", "no"), WHITE), lab(a, [-60, 33.3], "One warhead", W("p18", "carries"), RED)])
 a = tYield
 num("c3-yield", a, W("p18", "detonating"), "100 KILOTONS", countTo=100, suffix=" KILOTONS", label="the yield we choose", sub="a simulation choice, not a fact", color=YELLOW)
 a = W("p18", "detonating")
@@ -372,10 +374,11 @@ glob("c3-sat", a, tNet - 0.2, [("s", 42, -60, 950), (W("p21", "Radars"), 40, -68
 a = tNet - 0.2
 num("c3-250", a, round(a + 3.9, 2), "ABOUT 250", countTo=250, prefix="ABOUT ", label="systems in nuclear command and control", sub="ground, space and airborne", color=BLUE, tag="REAL DATA", source="Congressional Research Service")
 a = round(tNet - 0.2 + 3.9, 2)
-reg("c3-min", a, S("p22"), [("s", [-61.5, 39.5], 4700), (W("p21", "Congressional"), [-61, 39.5], 4450), (W("p21", "every"), [-60.5, 39.4], 4300), ("e", [-60, 39.3], 4100)], clock="T-11:06", clockLabel="TO BURST", clockRate=1, highlight=HLUS, countryLabels=CLUS,
-    cities=[city(a, REL, "Launch (simulated)", a + 0.2, WHITE, "base", 6), city(a, GZ, "Washington", a + 0.4, RED, "target", 6)],
-    ships=[ship(a, [REL, GZ], a + 0.2, S("p22") - 0.3, label="Missile", color=RED, t_on=a + 0.2)],
-    labels=[lab(a, [-65, 43.5], "Congressional Research Service count", W("p21", "Congressional"), YELLOW), lab(a, [-65, 42.5], "Each minute of warning comes out of the eleven", W("p21", "every"), WHITE)])
+reg("c3-min", a, S("p22"), [("s", [-60, 40.5], 3900), (W("p21", "Congressional"), [-62, 40.2], 3700), (W("p21", "every"), [-63, 40.0], 3550), ("e", [-64, 40.0], 3450)], clock="T-11:06", clockLabel="TO BURST", clockRate=1, highlight=HLUS, countryLabels=CLUS,
+    cities=[city(a, REL, "Launch (simulated)", a + 0.2, WHITE, "base", 6), city(a, GZ, "Washington", a + 0.4, RED, "target", 6)] + CTX(a),
+    ships=[ship(a, [REL, GZ], a + 0.2, S("p22") - 0.3, label="Missile", color=RED, t_on=a + 0.2, size=4.5)],
+    lines=[line(a, REL, GZ, a + 0.2, S("p22") - 0.3, RED, False, None, 3)],
+    labels=[lab(a, [-60, 47], "CRS count of the systems", W("p21", "Congressional"), YELLOW), lab(a, [-60, 45.8], "Each minute of warning comes out of the eleven", W("p21", "every"), WHITE)])
 a = S("p22")
 cty("c3-who", a, S("p23"), [("s", GZ, 40), (W("p22", "who"), GZ, 26), ("e", GZ, 16)], **CL3,
     labels=[lab(a, off(0, 8), "The first question", a + 0.2, YELLOW), lab(a, off(0, -5.5), "Who moves?", W("p22", "who"), WHITE), lab(a, off(0, -4.0), "How fast?", W("p22", "how"), WHITE)])
@@ -435,7 +438,7 @@ reg("c4-m5d", a, W("p26", "needs"), [("s", [-86.5, 40.3], 2500), (W("p26", "cann
     ships=[ship(a, [OFFUTT, lerp(OFFUTT, GZ, 0.1)], W("p26", "cannot"), W("p26", "minutes") + 0.2, label="E-4B after 11 minutes", color=BLUE, kind="us", t_on=W("p26", "cannot"), size=2.4)],
     labels=[lab(a, [-92, 46], "It cannot be there in eleven minutes", W("p26", "cannot"), YELLOW)])
 a = W("p26", "needs")
-cty("c4-m5e", a, S("p27"), [("s", GZ, 40), (W("p26", "other"), off(8, -4), 22), ("e", off(14, -7), 30)], **CLm(5),
+cty("c4-m5e", a, S("p27"), [("s", GZ, 40), (W("p26", "other"), off(8, -4), 22), ("e", off(5, -3), 34)], **CLm(5),
     labels=[lab(a, off(10, 0), "In this simulation", a + 0.2, YELLOW), lab(a, off(10, -4), "Some other aircraft first", W("p26", "other"), WHITE)])
 a = S("p27")
 reg("c4-m6a", a, W("p27", "as"), [("s", off(-20, 12), 190), (W("p27", "congressional"), off(-30, 15), 170), ("e", off(-40, 18), 160)], **CLm(6),

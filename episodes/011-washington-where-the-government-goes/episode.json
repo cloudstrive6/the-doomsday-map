@@ -139,7 +139,7 @@
       -77.0365,
       38.8977
      ],
-     "label": "Washington, DC",
+     "label": "White House",
      "kind": "target",
      "t": 0.1,
      "color": "#FF3B3B",
@@ -245,7 +245,7 @@
      "label": "Fireball",
      "color": "#FFFFFF",
      "t": 0.5,
-     "angle": 215
+     "angle": 65
     },
     {
      "km": 0.6,
@@ -381,35 +381,35 @@
    "tag": "SIMULATION",
    "view": {
     "center": [
-     -61.5,
-     39.5
+     -60,
+     40.5
     ],
-    "widthKm": 4700
+    "widthKm": 3900
    },
    "camera": [
     {
      "t": 0,
      "center": [
-      -61.5,
-      39.5
+      -60,
+      40.5
      ],
-     "widthKm": 4700
+     "widthKm": 3900
     },
     {
      "t": 2.03,
      "center": [
-      -61,
-      39.8
+      -62,
+      40.2
      ],
-     "widthKm": 4450
+     "widthKm": 3700
     },
     {
      "t": 6.33,
      "center": [
-      -60,
-      39.3
+      -64,
+      40.0
      ],
-     "widthKm": 4150
+     "widthKm": 3450
     }
    ],
    "clock": "T-11:06",
@@ -451,6 +451,26 @@
      "t": 0.4,
      "color": "#FF3B3B",
      "size": 6
+    },
+    {
+     "at": [
+      -71.06,
+      42.36
+     ],
+     "label": "Boston",
+     "kind": "dot",
+     "t": 0.6,
+     "color": "#8A8F98"
+    },
+    {
+     "at": [
+      -64.78,
+      32.3
+     ],
+     "label": "Bermuda",
+     "kind": "dot",
+     "t": 1.2,
+     "color": "#8A8F98"
     }
    ],
    "lines": [
@@ -468,6 +488,21 @@
      "t0": 3.79,
      "t1": 5.83,
      "label": "About 2,700 km"
+    },
+    {
+     "from": [
+      -45.0,
+      40.0
+     ],
+     "to": [
+      -77.0365,
+      38.8977
+     ],
+     "color": "#FF3B3B",
+     "dashed": false,
+     "t0": 3.79,
+     "t1": 6.13,
+     "width": 3
     }
    ],
    "ships": [
@@ -487,7 +522,7 @@
      "kind": "pla",
      "color": "#FF3B3B",
      "label": "One missile",
-     "size": 1.8,
+     "size": 4.5,
      "t": 3.79,
      "wake": true
     }
@@ -1535,35 +1570,35 @@
    "tag": "SIMULATION",
    "view": {
     "center": [
-     -61.5,
-     39.5
+     -60,
+     40.5
     ],
-    "widthKm": 4700
+    "widthKm": 3900
    },
    "camera": [
     {
      "t": 0,
      "center": [
-      -61.5,
-      39.5
+      -60,
+      40.5
      ],
-     "widthKm": 4700
+     "widthKm": 3900
     },
     {
      "t": 1.68,
      "center": [
-      -61,
-      39.5
+      -62,
+      40.2
      ],
-     "widthKm": 4450
+     "widthKm": 3700
     },
     {
      "t": 5.22,
      "center": [
-      -60,
-      39.4
+      -64,
+      40.0
      ],
-     "widthKm": 4150
+     "widthKm": 3450
     }
    ],
    "clock": "T-11:06",
@@ -1605,6 +1640,26 @@
      "t": 0.6,
      "color": "#FF3B3B",
      "size": 6
+    },
+    {
+     "at": [
+      -71.06,
+      42.36
+     ],
+     "label": "Boston",
+     "kind": "dot",
+     "t": 0.6,
+     "color": "#8A8F98"
+    },
+    {
+     "at": [
+      -64.78,
+      32.3
+     ],
+     "label": "Bermuda",
+     "kind": "dot",
+     "t": 1.2,
+     "color": "#8A8F98"
     }
    ],
    "lines": [
@@ -1627,8 +1682,8 @@
    "labels": [
     {
      "at": [
-      -64,
-      43
+      -60,
+      46
      ],
      "text": "Our simulation",
      "color": "#FFD23F",
@@ -3286,43 +3341,43 @@
    "tag": "SIMULATION",
    "view": {
     "center": [
-     -61.5,
-     39.5
+     -60,
+     40.5
     ],
-    "widthKm": 4700
+    "widthKm": 3900
    },
    "camera": [
     {
      "t": 0,
      "center": [
-      -61.5,
-      39.5
+      -60,
+      40.5
      ],
-     "widthKm": 4700
+     "widthKm": 3900
     },
     {
      "t": 1.48,
      "center": [
-      -61,
-      39.5
+      -62,
+      40.2
      ],
-     "widthKm": 4500
+     "widthKm": 3700
     },
     {
      "t": 5.18,
      "center": [
-      -60.5,
-      39.5
+      -63,
+      40.0
      ],
-     "widthKm": 4300
+     "widthKm": 3550
     },
     {
      "t": 9.26,
      "center": [
-      -60,
-      39.4
+      -64,
+      40.0
      ],
-     "widthKm": 4100
+     "widthKm": 3450
     }
    ],
    "clock": "T-11:06",
@@ -3364,6 +3419,26 @@
      "t": 0.5,
      "color": "#FF3B3B",
      "size": 6
+    },
+    {
+     "at": [
+      -71.06,
+      42.36
+     ],
+     "label": "Boston",
+     "kind": "dot",
+     "t": 0.6,
+     "color": "#8A8F98"
+    },
+    {
+     "at": [
+      -64.78,
+      32.3
+     ],
+     "label": "Bermuda",
+     "kind": "dot",
+     "t": 1.2,
+     "color": "#8A8F98"
     }
    ],
    "lines": [
@@ -3380,13 +3455,28 @@
      "dashed": true,
      "t0": 3.26,
      "t1": 5.76
+    },
+    {
+     "from": [
+      -45.0,
+      40.0
+     ],
+     "to": [
+      -77.0365,
+      38.8977
+     ],
+     "color": "#FF3B3B",
+     "dashed": false,
+     "t0": 7.36,
+     "t1": 9.86,
+     "width": 3
     }
    ],
    "labels": [
     {
      "at": [
-      -64,
-      43
+      -60,
+      47
      ],
      "text": "Open North Atlantic",
      "color": "#8A8F98",
@@ -3394,8 +3484,8 @@
     },
     {
      "at": [
-      -64,
-      42
+      -60,
+      45.8
      ],
      "text": "Launch point: our choice",
      "color": "#FFD23F",
@@ -3403,8 +3493,8 @@
     },
     {
      "at": [
-      -64,
-      41
+      -60,
+      34.5
      ],
      "text": "No attacker named",
      "color": "#FFFFFF",
@@ -3412,8 +3502,8 @@
     },
     {
      "at": [
-      -64,
-      40
+      -60,
+      33.3
      ],
      "text": "One warhead",
      "color": "#FF3B3B",
@@ -3946,43 +4036,43 @@
    "tag": "SIMULATION",
    "view": {
     "center": [
-     -61.5,
-     39.5
+     -60,
+     40.5
     ],
-    "widthKm": 4700
+    "widthKm": 3900
    },
    "camera": [
     {
      "t": 0,
      "center": [
-      -61.5,
-      39.5
+      -60,
+      40.5
      ],
-     "widthKm": 4700
+     "widthKm": 3900
     },
     {
      "t": 2.72,
      "center": [
-      -61,
-      39.5
+      -62,
+      40.2
      ],
-     "widthKm": 4450
+     "widthKm": 3700
     },
     {
      "t": 5.18,
      "center": [
-      -60.5,
-      39.4
+      -63,
+      40.0
      ],
-     "widthKm": 4300
+     "widthKm": 3550
     },
     {
      "t": 9.01,
      "center": [
-      -60,
-      39.3
+      -64,
+      40.0
      ],
-     "widthKm": 4100
+     "widthKm": 3450
     }
    ],
    "clock": "T-11:06",
@@ -4024,6 +4114,26 @@
      "t": 0.4,
      "color": "#FF3B3B",
      "size": 6
+    },
+    {
+     "at": [
+      -71.06,
+      42.36
+     ],
+     "label": "Boston",
+     "kind": "dot",
+     "t": 0.6,
+     "color": "#8A8F98"
+    },
+    {
+     "at": [
+      -64.78,
+      32.3
+     ],
+     "label": "Bermuda",
+     "kind": "dot",
+     "t": 1.2,
+     "color": "#8A8F98"
     }
    ],
    "ships": [
@@ -4043,25 +4153,42 @@
      "kind": "pla",
      "color": "#FF3B3B",
      "label": "Missile",
-     "size": 1.8,
+     "size": 4.5,
      "t": 0.2,
      "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -45.0,
+      40.0
+     ],
+     "to": [
+      -77.0365,
+      38.8977
+     ],
+     "color": "#FF3B3B",
+     "dashed": false,
+     "t0": 0.2,
+     "t1": 8.71,
+     "width": 3
     }
    ],
    "labels": [
     {
      "at": [
-      -65,
-      43.5
+      -60,
+      47
      ],
-     "text": "Congressional Research Service count",
+     "text": "CRS count of the systems",
      "color": "#FFD23F",
      "t": 2.72
     },
     {
      "at": [
-      -65,
-      42.5
+      -60,
+      45.8
      ],
      "text": "Each minute of warning comes out of the eleven",
      "color": "#FFFFFF",
@@ -5164,10 +5291,10 @@
     {
      "t": 3.2,
      "center": [
-      -76.8749,
-      38.8344
+      -76.9788,
+      38.8706
      ],
-     "widthKm": 30
+     "widthKm": 34
     }
    ],
    "rings": [],
