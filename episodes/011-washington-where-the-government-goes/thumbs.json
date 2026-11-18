@@ -1,0 +1,38 @@
+[
+ {
+  "id": "a",
+  "variant": "image",
+  "concept": "skyline-strike",
+  "palette": "fire-night",
+  "line1": "WHO'S STILL",
+  "line2": "IN CHARGE?",
+  "tag": "",
+  "align": "right",
+  "image_prompt": "Bright dusk photo of the Washington DC skyline seen across the Potomac: the white Capitol dome and the tall Washington Monument obelisk clearly visible, and directly above and behind them a huge blinding white-orange nuclear fireball with a rising orange and white mushroom cloud lighting the whole sky and the white marble glowing gold. The monument, dome and fireball fill the left 60 percent of the frame; the right 40 percent is clear glowing orange-and-blue sky and open river. No ring, no halo, no people, no faces, no text.",
+  "image": "thumbs/011-a.jpg"
+ },
+ {
+  "id": "b",
+  "variant": "image",
+  "concept": "control-room",
+  "palette": "red-alert",
+  "line1": "100 KT",
+  "line2": "ONE WARHEAD",
+  "tag": "NO ATTACKER",
+  "align": "left",
+  "image_prompt": "Interior photo of a government crisis command room, brightly lit: a very large wall screen glowing intense red and white lights the entire room, showing only an abstract dark radar sweep with a few bright red track lines and no land or map shapes, rows of consoles with glowing screens, a black leather briefcase and a red phone on the polished table in the foreground. The screen, consoles and table fill the right two thirds of the frame; the left third is a clear softly lit wall. No people, no faces, no text.",
+  "image": "thumbs/011-b.jpg"
+ },
+ {
+  "id": "c",
+  "variant": "image",
+  "concept": "launch",
+  "palette": "dawn-gold",
+  "line1": "UNDER 10",
+  "line2": "TO DECIDE",
+  "tag": "",
+  "align": "right",
+  "image_prompt": "Bright sunrise photo of a single ballistic missile bursting up out of the open North Atlantic from beneath the waves beside a black submarine hull, a large bright orange flame and white spray and steam around the missile, golden sunrise light, luminous orange and blue sky and sea. The missile and submarine fill the left two thirds of the frame; the upper right is clear glowing sky. No people, no faces, no text.",
+  "image": "thumbs/011-c.jpg"
+ }
+]
