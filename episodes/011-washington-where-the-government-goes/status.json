@@ -54,7 +54,22 @@
       "stage": "packaged",
       "note": "packaged; 95 shots, 638 s",
       "at": "2026-11-18T05:51:35+00:00"
+    },
+    {
+      "stage": "rendered",
+      "note": "https://github.com/cloudstrive6/the-doomsday-map/actions/runs/44241276268",
+      "at": "2026-11-18T06:43:44+00:00"
+    },
+    {
+      "stage": "qc_passed",
+      "note": "",
+      "at": "2026-11-18T06:44:16+00:00"
+    },
+    {
+      "stage": "uploaded",
+      "note": "https://youtu.be/lBZsX8m3KO4 at 2026-11-20T00:00:00Z",
+      "at": "2026-11-18T06:45:14+00:00"
     }
   ],
-  "stage": "packaged"
+  "stage": "uploaded"
 }

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "s1",
+    "youtube_id": "6zICYBIBLyw",
+    "url": "https://youtube.com/shorts/6zICYBIBLyw",
+    "publish_at": "2026-11-20T14:00:00Z",
+    "title": "What One 100 Kiloton Nuke Does to the Capitol and Pentagon #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -13.9,
+      "TP": -4.0
+    }
+  },
+  {
+    "id": "s2",
+    "youtube_id": "YxH6xwSmp-0",
+    "url": "https://youtube.com/shorts/YxH6xwSmp-0",
+    "publish_at": "2026-11-20T19:00:00Z",
+    "title": "What a 100 Kiloton Nuke Does to the White House #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -13.9,
+      "TP": -1.9
+    }
+  },
+  {
+    "id": "s3",
+    "youtube_id": "xZepBukwp_U",
+    "url": "https://youtube.com/shorts/xZepBukwp_U",
+    "publish_at": "2026-11-21T00:00:00Z",
+    "title": "What If a Nuke Hit DC? Who Refills Congress #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -13.9,
+      "TP": -4.1
+    }
+  }
+]
