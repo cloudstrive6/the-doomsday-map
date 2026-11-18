@@ -9,7 +9,27 @@
       "stage": "researched",
       "note": "27 A, 10 B items",
       "at": "2026-11-18T05:11:57+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "round 1",
+      "at": "2026-11-18T05:14:05+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "round 2",
+      "at": "2026-11-18T05:15:33+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "round 2",
+      "at": "2026-11-18T05:15:38+00:00"
+    },
+    {
+      "stage": "script_approved",
+      "note": "round 2 pass",
+      "at": "2026-11-18T05:16:18+00:00"
     }
   ],
-  "stage": "researched"
+  "stage": "script_approved"
 }
