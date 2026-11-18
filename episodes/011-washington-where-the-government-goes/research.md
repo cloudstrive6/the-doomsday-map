@@ -61,17 +61,54 @@ Dates the episode must not sit on: 2026-11-18 and 2026-11-19 (APEC and the trila
 
 ## C. Simulation assumptions (SIMULATION tag, stated as assumptions in the script)
 
-To be written by the scenario designer. Do not treat anything below as decided.
+Everything in this section is a simulation choice, not a fact and not a forecast. Blast, burn and fallout numbers are from `scenario.computed.json` (`python -m studio scenario 011-washington-where-the-government-goes`); the script must read them from there.
 
-Suggestions from the research desk, clearly marked as suggestions:
+### Escalation logic and why
 
-- SUGGESTION: Give no calendar date on screen or in the script. Use "minute zero" and elapsed minutes of 30, so the episode cannot read as a prediction or collide with the Shenzhen APEC trilateral (2026-11-18 to 2026-11-19), the January 2027 Lithuanian vote, or Sarmat's promised entry into service.
-- SUGGESTION: One warhead on Washington, as the brief says. Choose the yield and burst in the engine and state it as an assumption; do not use NUKEMAP's press numbers (A26, D). If the designer wants a flight time, the published range is about 10 to 15 minutes from a submarine offshore and about 30 from a silo (A7); take the exact figure from the engine, not from this file.
-- SUGGESTION: Keep the attacker unnamed, or name it only as "an adversary", to avoid a news-style claim that Russia or China would do this. The research desk found no published plan for a single-warhead strike on Washington; mark the choice as the simulation's own.
-- SUGGESTION: A sequence to model, all SIMULATION and none sourced as fact: warning picked up by early-warning systems (A10); the president moved by Secret Service to an aircraft or the Presidential Emergency Operations Center; the E-4B (A11) already airborne from Offutt or a second site; Congress's leaders flown to a relocation site as on 2001-09-11 (A21); Raven Rock (A13) and Mount Weather (A14) activated at their published distances. The order and timing of these steps is the designer's choice, not a documented plan.
-- SUGGESTION: Include the Congress weak point (A18) as the most honest "what could go wrong" beat, and the succession line (A17) as a real list the viewer can check.
-- SUGGESTION: Do not give a death toll for Washington. Say the ring radii from the engine and, if a number is wanted, cite a published study; none for Washington was found.
-- SUGGESTION: End on the day after on the map, not on history. Hand the final shot to the engine's fallout footprint and the relocation sites, with no casualty figure.
+- There is no escalation story to tell, on purpose. One warhead, one city, no attacker named ("an adversary"), no calendar date: the episode uses "minute zero" and elapsed minutes of 30. This keeps it from reading as a prediction or as a reaction to the live arms talks, Kaliningrad threats or Sarmat news (A1, A4, A5; see the framing check at the top). Choosing one warhead is the simulation's own choice; the research desk found no published plan for a single-warhead strike on Washington. It is the minimum case that lets the episode be about the response, not the war.
+- Why a submarine missile: it gives the shortest warning on which the published sources agree. CRS says about 15 minutes from a sub near US shores, von Hippel says it could be less, and analysts put the president's decision time at under 10 minutes (A7, A8). A silo-based ICBM at about 30 minutes would leave time for everything and make the continuity story easy.
+- The only other actors are the existing continuity system (A9, A10, A11, A13, A14, A17, A19). The US response (retaliation) is not modelled and the script must not describe a war outcome.
+
+### Strike group (one row in scenario.json)
+
+| id | Launch | Weapon | Yield, burst | Aim point | Engine flight time |
+|---|---|---|---|---|---|
+| sub-dc | open North Atlantic, 40.0 N 45.0 W (location simulated) | one generic submarine-launched ballistic missile, one warhead, class and owner unnamed | 100 kt, air burst (simulation choice) | central Washington, 38.8977 N 77.0365 W (White House area) | 11.1 minutes over 2,739 km, bearing 278 degrees |
+
+- Flight time 11.1 minutes sits inside the published 10 to 15 minute range (A7). The launch point is a simulation choice; it is not a claim about where any real submarine sails.
+- Yield: 100 kt is an assumed warhead class for a modern sub-launched warhead, chosen so the rings are legible on a city map. It is not a statement about any country's warhead. Air burst because the target is a city and the aim is blast and fire, not cratering.
+- Time: 15:00 UTC, which is 10:00 in the morning in Washington in winter (a weekday morning, Congress plausibly in session, daylight over the city and the Atlantic; the engine's subsolar point is 12.5 S, 41.4 W). The weekday and date are not stated on screen or in the script. t0 in scenario.json is only for the sun and must never be shown as a date.
+- Wind (for the plume): from the west-northwest, typical for a Washington winter, so any plume drifts east-southeast toward the Chesapeake Bay. This is an assumption, not a forecast.
+
+### Hero target and engine numbers (the "one warhead, ring by ring" close-up)
+
+Hero: central Washington, 100 kt air burst. Build `video/public/city/washington.json` with `node scripts/fetch-city.mjs washington -77.0365 38.8977 <widthKm>` (about 22 km wide shows the 1 psi ring) before the director uses a city shot. All values from the engine:
+
+- Fireball radius 0.38 km (about 0.8 km across): the White House area and the Mall near it.
+- 20 psi ring 0.64 km.
+- 5 psi ring 3.14 km (area 31 km2): heavy damage to most buildings inside; Capitol, the White House and Pentagon distances are in A16 for the script to place on the map (the Capitol at about 2.5 km is inside the 5 psi ring; the Pentagon at about 3.3 km from the White House sits just outside it, by about 0.2 km, which is within the engine's uncertainty, so say "at the edge" and never "safe").
+- Third-degree burns to 4.16 km.
+- 1 psi ring 8.51 km: windows break, glass injuries.
+- Fallout: the engine says "little local fallout" for an air burst. The script must say the fallout plume is small, not draw a long cigar plume. Honest day-after is about fires, rubble, closed bridges and the loss of the centre of government, not a fallout corridor.
+- Raven Rock (about 99 km, A13) and Mount Weather (about 76 km, A14) are far outside the 1 psi ring of 8.5 km, so in this simulation they are not damaged by blast. Say that as an engine result for this yield, not a guarantee of survival, and do not claim anything about their hardness (no source).
+
+### The first 30 minutes (order and timing are the designer's choice, none sourced as a documented plan)
+
+Minute 0: launch detected; early-warning chain (A10). Minutes 1 to 3: warning assessed and passed up; the decision window is under 10 minutes by analyst estimate (A8, not an official figure). Minutes 3 to 10: the president is moved by Secret Service to an aircraft or underground command centre; the E-4B (A11) is flown from Offutt, about 1,620 km from Washington, so it is not on the spot; congressional leaders are moved to a relocation site, as on 2001-09-11 (A21); Raven Rock and Mount Weather are activated (A13, A14). Minute 11.1: impact. Minutes 11 to 30: who is alive and who holds the chain: the succession list (A17), the Congress quorum gap (A18), communications through NC3 (A10). Nothing in this chain is stated as what would happen. Use "in this simulation".
+
+### The day after (aftermath, the last chapter; from published data only)
+
+- On the map: rings over central Washington; a small plume east-southeast; the two relocation sites outside the rings; the E-4B in the air; Congress's gap (A18) on screen as a question, not an answer.
+- What stops working: the policy and legal location of the seat of government. What the sources support: the succession list (A17), the House can fill seats only by special election, governors can fill Senate seats (A18), the quorum rule is contested (A18). The script must not invent which officials survived. No named living person as a victim: say "the Speaker", "the Secretary of State" by office, and state that who holds each office is not modelled.
+- Response: the US response is not modelled. Say "what the president orders is not part of this simulation".
+
+### What the script must not claim
+
+- A death toll or injury count for Washington: none (D; no published study found). Say ring radii only.
+- That 100 kt is any country's real warhead, or any named attacker, or that this could happen on a real date.
+- That Raven Rock or Mount Weather would survive, or that the plan works. No source tests it.
+- Any timing as official: the 10-minute decision window is an analyst estimate (A8); sequencing of the 30 minutes is ours.
+- Any missile-defence claim (A25).
 
 ## D. Figures the script must NOT use
 

@@ -1,0 +1,8 @@
+{
+  "slug": "011-washington-where-the-government-goes",
+  "title": "A nuclear warhead hits Washington: where the government goes in the first 30 minutes",
+  "t0_utc": "2027-02-17T15:00:00Z",
+  "strikes": [
+    {"id": "sub-dc", "launch_name": "Open North Atlantic (location simulated)", "launch_lat": 40.0, "launch_lon": -45.0, "target_name": "Washington, DC (White House area)", "target_lat": 38.8977, "target_lon": -77.0365, "weapon": "Generic submarine-launched ballistic missile, one warhead (attacker unnamed)", "weapon_class": "slbm", "yield_kt": 100, "burst": "air", "warheads": 1, "launch_offset_min": 0, "notes": "Simulation choice: one 100 kt airburst over central Washington, no attacker named. Flight time from the engine; research.md A7 gives about 10 to 15 minutes from an offshore submarine (CRS: roughly 15). Hero strike for the ring-by-ring close-up. Raven Rock (A13) and Mount Weather (A14) are not struck."}
+  ]
+}

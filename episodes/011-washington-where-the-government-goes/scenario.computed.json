@@ -1,0 +1,52 @@
+{
+ "slug": "011-washington-where-the-government-goes",
+ "title": "A nuclear warhead hits Washington: where the government goes in the first 30 minutes",
+ "t0_utc": "2027-02-17T15:00:00+00:00",
+ "sun": {
+  "lat": -12.48,
+  "lon": -41.39
+ },
+ "totals": {
+  "strikes": 1,
+  "warheads": 1,
+  "yield_mt": 0.1,
+  "first_impact_min": 11.1,
+  "last_impact_min": 11.1
+ },
+ "strikes": [
+  {
+   "id": "sub-dc",
+   "launch_name": "Open North Atlantic (location simulated)",
+   "launch_lat": 40.0,
+   "launch_lon": -45.0,
+   "target_name": "Washington, DC (White House area)",
+   "target_lat": 38.8977,
+   "target_lon": -77.0365,
+   "weapon": "Generic submarine-launched ballistic missile, one warhead (attacker unnamed)",
+   "weapon_class": "slbm",
+   "yield_kt": 100,
+   "burst": "air",
+   "warheads": 1,
+   "launch_offset_min": 0,
+   "notes": "Simulation choice: one 100 kt airburst over central Washington, no attacker named. Flight time from the engine; research.md A7 gives about 10 to 15 minutes from an offshore submarine (CRS: roughly 15). Hero strike for the ring-by-ring close-up. Raven Rock (A13) and Mount Weather (A14) are not struck.",
+   "distance_km": 2738.7,
+   "bearing_deg": 277.9,
+   "flight_min": 11.1,
+   "launch_min": 0,
+   "impact_min": 11.1,
+   "effects": {
+    "yield_kt": 100,
+    "burst": "air",
+    "fireball_km": 0.384,
+    "psi20_km": 0.64,
+    "psi5_km": 3.143,
+    "psi1_km": 8.507,
+    "thermal3_km": 4.158,
+    "fallout": "little local fallout"
+   },
+   "area_psi5_km2": 31.0
+  }
+ ],
+ "sources": [],
+ "model": "Glasstone and Dolan scaling calibrated to NUKEMAP Hiroshima figures; flight times fitted to published ranges; all values are estimates for a labelled simulation."
+}
