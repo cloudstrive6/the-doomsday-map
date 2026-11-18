@@ -1,0 +1,766 @@
+{
+ "subtitles": [
+  {
+   "start": 0.017,
+   "end": 1.202,
+   "text": "Two points stay lit"
+  },
+  {
+   "start": 1.202,
+   "end": 2.834,
+   "text": "outside the rings:"
+  },
+  {
+   "start": 2.834,
+   "end": 5.362,
+   "text": "Mount Weather and Raven Rock."
+  },
+  {
+   "start": 5.362,
+   "end": 6.873,
+   "text": "Whoever reached them,"
+  },
+  {
+   "start": 6.873,
+   "end": 8.462,
+   "text": "the law already lists"
+  },
+  {
+   "start": 8.462,
+   "end": 10.012,
+   "text": "who acts next:"
+  },
+  {
+   "start": 10.17,
+   "end": 12.632,
+   "text": "after the president and vice president,"
+  },
+  {
+   "start": 12.794,
+   "end": 14.232,
+   "text": "the Speaker of the House,"
+  },
+  {
+   "start": 14.44,
+   "end": 15.822,
+   "text": "then the president pro"
+  },
+  {
+   "start": 15.822,
+   "end": 17.752,
+   "text": "tempore of the Senate,"
+  },
+  {
+   "start": 18.081,
+   "end": 20.072,
+   "text": "then the cabinet by office,"
+  },
+  {
+   "start": 20.26,
+   "end": 21.952,
+   "text": "17 in all."
+  },
+  {
+   "start": 22.249,
+   "end": 23.786,
+   "text": "Who holds each office"
+  },
+  {
+   "start": 23.786,
+   "end": 24.992,
+   "text": "is not modelled."
+  },
+  {
+   "start": 25.47,
+   "end": 27.232,
+   "text": "The hard gap is Congress."
+  },
+  {
+   "start": 27.751,
+   "end": 28.902,
+   "text": "The House can refill its"
+  },
+  {
+   "start": 28.902,
+   "end": 31.792,
+   "text": "seats only by special election,"
+  },
+  {
+   "start": 32.12,
+   "end": 33.642,
+   "text": "which takes states about"
+  },
+  {
+   "start": 33.642,
+   "end": 35.412,
+   "text": "four months on average."
+  },
+  {
+   "start": 35.871,
+   "end": 37.162,
+   "text": "Governors can fill Senate"
+  },
+  {
+   "start": 37.162,
+   "end": 38.651,
+   "text": "seats within days."
+  },
+  {
+   "start": 38.651,
+   "end": 40.022,
+   "text": "Whether a quorum counts the"
+  },
+  {
+   "start": 40.022,
+   "end": 41.592,
+   "text": "living or the whole chamber"
+  },
+  {
+   "start": 41.787,
+   "end": 43.852,
+   "text": "is a question scholars dispute."
+  },
+  {
+   "start": 44.312,
+   "end": 45.732,
+   "text": "In 2003,"
+  },
+  {
+   "start": 46.013,
+   "end": 48.232,
+   "text": "a commission imagined a nuclear attack"
+  },
+  {
+   "start": 48.395,
+   "end": 50.692,
+   "text": "in which Congress had been annihilated,"
+  },
+  {
+   "start": 50.692,
+   "end": 53.012,
+   "text": "and urged a constitutional amendment."
+  }
+ ],
+ "slug": "011-washington-where-the-government-goes-s3",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 53.505,
+ "shots": [
+  {
+   "id": "c6-lit",
+   "type": "region",
+   "start": 0.0,
+   "end": 4.812,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -77.4751,
+     39.2775
+    ],
+    "widthKm": 320
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.4751,
+      39.2775
+     ],
+     "widthKm": 320
+    },
+    {
+     "t": 2.68,
+     "center": [
+      -77.4982,
+      39.3047
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 4.81,
+     "center": [
+      -77.4982,
+      39.3047
+     ],
+     "widthKm": 235
+    }
+   ],
+   "clock": "10:12",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "km": 3.143,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "dashed": false
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "km": 8.507,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -77.8875,
+      39.064
+     ],
+     "label": "Mount Weather: lit",
+     "kind": "base",
+     "t": 2.68,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.4194,
+      39.7344
+     ],
+     "label": "Raven Rock: lit",
+     "kind": "base",
+     "t": 4.15,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.3062,
+      38.9429
+     ],
+     "text": "The rings: dark",
+     "color": "#FF3B3B",
+     "t": 0.4
+    },
+    {
+     "at": [
+      -78.3062,
+      38.8434
+     ],
+     "text": "Two points stay lit outside",
+     "color": "#FFD23F",
+     "t": 0.1
+    }
+   ]
+  },
+  {
+   "id": "c6-law1",
+   "type": "region",
+   "start": 4.812,
+   "end": 12.572,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -77.4982,
+     39.3047
+    ],
+    "widthKm": 240
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.4982,
+      39.3047
+     ],
+     "widthKm": 240
+    },
+    {
+     "t": 2.08,
+     "center": [
+      -77.4405,
+      39.2595
+     ],
+     "widthKm": 280
+    },
+    {
+     "t": 7.76,
+     "center": [
+      -77.3251,
+      39.1871
+     ],
+     "widthKm": 320
+    }
+   ],
+   "clock": "10:12",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -77.8875,
+      39.064
+     ],
+     "label": "Mount Weather",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.4194,
+      39.7344
+     ],
+     "label": "Raven Rock",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.1907,
+      39.0786
+     ],
+     "text": "Whoever reached them",
+     "color": "#FFFFFF",
+     "t": 0.2
+    },
+    {
+     "at": [
+      -78.1907,
+      38.9701
+     ],
+     "text": "The law lists who acts next",
+     "color": "#FFD23F",
+     "t": 2.08
+    },
+    {
+     "at": [
+      -78.1907,
+      38.8615
+     ],
+     "text": "After the president and vice president",
+     "color": "#FFFFFF",
+     "t": 5.21
+    }
+   ]
+  },
+  {
+   "id": "c6-law2",
+   "type": "region",
+   "start": 12.572,
+   "end": 21.524,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -77.2673,
+     39.169
+    ],
+    "widthKm": 320
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.2673,
+      39.169
+     ],
+     "widthKm": 320
+    },
+    {
+     "t": 2.91,
+     "center": [
+      -77.4405,
+      39.2595
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 8.95,
+     "center": [
+      -77.4982,
+      39.3047
+     ],
+     "widthKm": 240
+    }
+   ],
+   "clock": "10:12",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -77.8875,
+      39.064
+     ],
+     "label": "Mount Weather",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.4194,
+      39.7344
+     ],
+     "label": "Raven Rock",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8977
+     ],
+     "label": "White House",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -78.1907,
+      39.0786
+     ],
+     "text": "1. Speaker of the House",
+     "color": "#FFFFFF",
+     "t": 0.2
+    },
+    {
+     "at": [
+      -78.1907,
+      38.9701
+     ],
+     "text": "2. President pro tempore of the Senate",
+     "color": "#FFFFFF",
+     "t": 2.91
+    },
+    {
+     "at": [
+      -78.1907,
+      38.8615
+     ],
+     "text": "3. Cabinet, by office",
+     "color": "#FFD23F",
+     "t": 5.94
+    }
+   ]
+  },
+  {
+   "id": "c6-17",
+   "type": "number",
+   "start": 21.524,
+   "end": 25.464,
+   "tag": "REAL DATA",
+   "value": "17 IN ALL",
+   "label": "the line of succession",
+   "sub": "who holds each office is not modelled",
+   "color": "#6EA8FF",
+   "countTo": 17,
+   "suffix": " IN ALL",
+   "source": "U.S. Code, Title 3, section 19"
+  },
+  {
+   "id": "c6-gap",
+   "type": "city",
+   "start": 25.464,
+   "end": 31.67,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0229,
+     38.8935
+    ],
+    "widthKm": 11.2
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0229,
+      38.8935
+     ],
+     "widthKm": 11.2
+    },
+    {
+     "t": 4.83,
+     "center": [
+      -77.0137,
+      38.8917
+     ],
+     "widthKm": 8.0
+    },
+    {
+     "t": 6.21,
+     "center": [
+      -77.0091,
+      38.8899
+     ],
+     "widthKm": 6.4
+    }
+   ],
+   "rings": [
+    {
+     "km": 3.1,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0091,
+      38.9008
+     ],
+     "text": "The hard gap: Congress",
+     "color": "#FFD23F",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -77.0091,
+      38.8809
+     ],
+     "text": "House seats: special elections only",
+     "color": "#FFFFFF",
+     "t": 4.83
+    }
+   ],
+   "clock": "10:12",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0
+  },
+  {
+   "id": "c6-4mo",
+   "type": "number",
+   "start": 31.67,
+   "end": 35.421,
+   "tag": "REAL DATA",
+   "value": "ABOUT 4 MONTHS",
+   "label": "for a state to fill a House seat, on average",
+   "sub": "",
+   "color": "#6EA8FF",
+   "countTo": 4,
+   "prefix": "ABOUT ",
+   "suffix": " MONTHS",
+   "source": "Congressional Research Service"
+  },
+  {
+   "id": "c6-gov",
+   "type": "city",
+   "start": 35.421,
+   "end": 43.962,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0033,
+     38.8899
+    ],
+    "widthKm": 9.6
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0033,
+      38.8899
+     ],
+     "widthKm": 9.6
+    },
+    {
+     "t": 3.08,
+     "center": [
+      -77.0068,
+      38.8926
+     ],
+     "widthKm": 7.2
+    },
+    {
+     "t": 8.54,
+     "center": [
+      -77.0091,
+      38.8899
+     ],
+     "widthKm": 5.6
+    }
+   ],
+   "rings": [
+    {
+     "km": 3.1,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0091,
+      38.8998
+     ],
+     "text": "Governors: Senate seats within days",
+     "color": "#FFFFFF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -77.0091,
+      38.8809
+     ],
+     "text": "A quorum: the living, or the whole chamber?",
+     "color": "#FFD23F",
+     "t": 3.55
+    },
+    {
+     "at": [
+      -77.0091,
+      38.8754
+     ],
+     "text": "Scholars dispute it",
+     "color": "#FFFFFF",
+     "t": 6.85
+    }
+   ],
+   "clock": "10:12",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0
+  },
+  {
+   "id": "c6-2003",
+   "type": "city",
+   "start": 43.962,
+   "end": 53.505,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0091,
+     38.8899
+    ],
+    "widthKm": 14.4
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0091,
+      38.8899
+     ],
+     "widthKm": 14.4
+    },
+    {
+     "t": 5.43,
+     "center": [
+      -77.0091,
+      38.8899
+     ],
+     "widthKm": 20.8
+    },
+    {
+     "t": 9.54,
+     "center": [
+      -77.0091,
+      38.8899
+     ],
+     "widthKm": 27.2
+    }
+   ],
+   "rings": [
+    {
+     "km": 3.1,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    },
+    {
+     "km": 8.5,
+     "label": "Windows",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0091,
+      38.9306
+     ],
+     "text": "2003: a commission imagines it",
+     "color": "#FFD23F",
+     "t": 1.97
+    },
+    {
+     "at": [
+      -77.0091,
+      38.8492
+     ],
+     "text": "Congress annihilated",
+     "color": "#FFFFFF",
+     "t": 5.43
+    },
+    {
+     "at": [
+      -77.0091,
+      38.8311
+     ],
+     "text": "It urges a constitutional amendment",
+     "color": "#FFFFFF",
+     "t": 6.73
+    }
+   ],
+   "clock": "10:12",
+   "clockLabel": "THE DAY AFTER",
+   "clockRate": 0
+  }
+ ],
+ "shortTitle": [
+  "IF A NUKE HIT DC",
+  "WHO REFILLS CONGRESS"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

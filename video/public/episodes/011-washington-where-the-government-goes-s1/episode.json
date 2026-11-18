@@ -1,0 +1,542 @@
+{
+ "subtitles": [
+  {
+   "start": 0.402,
+   "end": 2.329,
+   "text": "Out to 3.1 km,"
+  },
+  {
+   "start": 2.638,
+   "end": 4.159,
+   "text": "a pressure of five pounds per"
+  },
+  {
+   "start": 4.159,
+   "end": 6.329,
+   "text": "square inch wrecks most buildings."
+  },
+  {
+   "start": 6.645,
+   "end": 8.889,
+   "text": "That is 31 square kilometres."
+  },
+  {
+   "start": 9.575,
+   "end": 10.124,
+   "text": "The Capitol,"
+  },
+  {
+   "start": 10.124,
+   "end": 11.519,
+   "text": "two and a half kilometres"
+  },
+  {
+   "start": 11.519,
+   "end": 12.908,
+   "text": "from the White House,"
+  },
+  {
+   "start": 12.908,
+   "end": 15.439,
+   "text": "is inside the ring. The Pentagon,"
+  },
+  {
+   "start": 15.439,
+   "end": 17.789,
+   "text": "3.3 km away,"
+  },
+  {
+   "start": 18.006,
+   "end": 19.389,
+   "text": "sits at its edge."
+  },
+  {
+   "start": 19.925,
+   "end": 21.339,
+   "text": "The engine's uncertainty is"
+  },
+  {
+   "start": 21.339,
+   "end": 22.877,
+   "text": "bigger than that gap,"
+  },
+  {
+   "start": 22.877,
+   "end": 23.559,
+   "text": "so at the edge"
+  },
+  {
+   "start": 23.559,
+   "end": 24.909,
+   "text": "never means safe."
+  },
+  {
+   "start": 25.937,
+   "end": 27.619,
+   "text": "The flash burns bare skin"
+  },
+  {
+   "start": 27.619,
+   "end": 29.289,
+   "text": "to 4.2 km."
+  },
+  {
+   "start": 30.508,
+   "end": 31.989,
+   "text": "At eight and a half kilometres,"
+  },
+  {
+   "start": 32.319,
+   "end": 34.509,
+   "text": "windows break and glass flies."
+  }
+ ],
+ "slug": "011-washington-where-the-government-goes-s1",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 35.401,
+ "shots": [
+  {
+   "id": "c5-5psi",
+   "type": "city",
+   "start": 0.0,
+   "end": 9.309,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 4.0
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 4.0
+    },
+    {
+     "t": 0.55,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 5.76
+    },
+    {
+     "t": 6.95,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 6.88
+    },
+    {
+     "t": 9.31,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 7.2
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.4,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "angle": 215
+    },
+    {
+     "km": 0.6,
+     "label": "20 psi",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "angle": 240
+    },
+    {
+     "km": 3.1,
+     "label": "5 psi: radius",
+     "color": "#FF3B3B",
+     "t": 0.55,
+     "angle": 265
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9303
+     ],
+     "text": "Wrecks most buildings",
+     "color": "#FFD23F",
+     "t": 4.73
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8651
+     ],
+     "text": "31 square kilometres",
+     "color": "#FFFFFF",
+     "t": 6.95
+    }
+   ],
+   "clock": "T+11:06",
+   "clockLabel": "THE 100 kt WARHEAD",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-cp",
+   "type": "city",
+   "start": 9.309,
+   "end": 19.809,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0226,
+     38.8932
+    ],
+    "widthKm": 6.8
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0226,
+      38.8932
+     ],
+     "widthKm": 6.8
+    },
+    {
+     "t": 5.24,
+     "center": [
+      -77.0411,
+      38.8832
+     ],
+     "widthKm": 6.4
+    },
+    {
+     "t": 10.5,
+     "center": [
+      -77.0457,
+      38.8814
+     ],
+     "widthKm": 5.6
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.4,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "angle": 215
+    },
+    {
+     "km": 3.1,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0091,
+      38.8953
+     ],
+     "text": "Capitol: 2.5 km",
+     "color": "#FFFFFF",
+     "t": 0.2
+    },
+    {
+     "at": [
+      -77.0091,
+      38.8845
+     ],
+     "text": "Inside the ring",
+     "color": "#FFD23F",
+     "t": 3.56
+    },
+    {
+     "at": [
+      -77.0558,
+      38.8665
+     ],
+     "text": "Pentagon: 3.3 km",
+     "color": "#FFFFFF",
+     "t": 5.24
+    },
+    {
+     "at": [
+      -77.0558,
+      38.861
+     ],
+     "text": "At the edge",
+     "color": "#FFD23F",
+     "t": 8.55
+    }
+   ],
+   "clock": "T+11:06",
+   "clockLabel": "THE 100 kt WARHEAD",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-unc",
+   "type": "city",
+   "start": 19.809,
+   "end": 25.521,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0457,
+     38.8814
+    ],
+    "widthKm": 6.4
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0457,
+      38.8814
+     ],
+     "widthKm": 6.4
+    },
+    {
+     "t": 5.71,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 11.2
+    }
+   ],
+   "rings": [
+    {
+     "km": 3.1,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0711,
+      38.9294
+     ],
+     "text": "The engine's uncertainty is bigger than the gap",
+     "color": "#FFFFFF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -77.0711,
+      38.8597
+     ],
+     "text": "At the edge never means safe",
+     "color": "#FFD23F",
+     "t": 3.6
+    }
+   ],
+   "clock": "T+11:06",
+   "clockLabel": "THE 100 kt WARHEAD",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-burn",
+   "type": "city",
+   "start": 25.521,
+   "end": 30.097,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 8.0
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 8.0
+    },
+    {
+     "t": 2.17,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 9.6
+    },
+    {
+     "t": 4.58,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 11.2
+    }
+   ],
+   "rings": [
+    {
+     "km": 3.1,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    },
+    {
+     "km": 4.2,
+     "label": "Burns: radius",
+     "color": "#FF7A1A",
+     "t": 0.79,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9411
+     ],
+     "text": "The flash burns bare skin",
+     "color": "#FFD23F",
+     "t": 1.27
+    }
+   ],
+   "clock": "T+11:06",
+   "clockLabel": "THE 100 kt WARHEAD",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-win",
+   "type": "city",
+   "start": 30.097,
+   "end": 35.401,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 11.2
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 11.2
+    },
+    {
+     "t": 2.07,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 16.0
+    },
+    {
+     "t": 5.3,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 19.2
+    }
+   ],
+   "rings": [
+    {
+     "km": 3.1,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "angle": 215
+    },
+    {
+     "km": 4.2,
+     "label": "Burns",
+     "color": "#FF7A1A",
+     "t": 0.2,
+     "angle": 240
+    },
+    {
+     "km": 8.5,
+     "label": "Windows: radius",
+     "color": "#FFFFFF",
+     "t": 2.07,
+     "angle": 265
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.952
+     ],
+     "text": "Windows break",
+     "color": "#FFD23F",
+     "t": 2.07
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8434
+     ],
+     "text": "Glass flies",
+     "color": "#FFFFFF",
+     "t": 3.03
+    }
+   ],
+   "clock": "T+11:06",
+   "clockLabel": "THE 100 kt WARHEAD",
+   "clockRate": 0
+  }
+ ],
+ "shortTitle": [
+  "THE CAPITOL IS INSIDE",
+  "THE 5 PSI RING"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

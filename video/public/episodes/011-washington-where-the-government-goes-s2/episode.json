@@ -1,0 +1,419 @@
+{
+ "subtitles": [
+  {
+   "start": 1.33,
+   "end": 4.565,
+   "text": "Next: what 100 kilotons does,"
+  },
+  {
+   "start": 4.79,
+   "end": 6.485,
+   "text": "ring by ring."
+  },
+  {
+   "start": 7.938,
+   "end": 9.395,
+   "text": "All numbers here come"
+  },
+  {
+   "start": 9.395,
+   "end": 11.525,
+   "text": "from our scenario engine."
+  },
+  {
+   "start": 11.949,
+   "end": 13.235,
+   "text": "They are estimates for"
+  },
+  {
+   "start": 13.235,
+   "end": 14.785,
+   "text": "a labelled simulation."
+  },
+  {
+   "start": 16.009,
+   "end": 17.455,
+   "text": "The fireball is about"
+  },
+  {
+   "start": 17.455,
+   "end": 19.885,
+   "text": "380 m in radius,"
+  },
+  {
+   "start": 20.208,
+   "end": 22.205,
+   "text": "almost 800 m across."
+  },
+  {
+   "start": 22.638,
+   "end": 24.315,
+   "text": "It sits above the White House"
+  },
+  {
+   "start": 24.315,
+   "end": 26.105,
+   "text": "and the ground around it."
+  },
+  {
+   "start": 27.025,
+   "end": 27.495,
+   "text": "Out to"
+  },
+  {
+   "start": 27.495,
+   "end": 29.365,
+   "text": "640 m,"
+  },
+  {
+   "start": 29.678,
+   "end": 31.715,
+   "text": "the blast adds 20 pounds"
+  },
+  {
+   "start": 31.715,
+   "end": 33.685,
+   "text": "per square inch of pressure."
+  },
+  {
+   "start": 33.902,
+   "end": 36.245,
+   "text": "Almost nothing stays standing."
+  }
+ ],
+ "slug": "011-washington-where-the-government-goes-s2",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 36.395,
+ "shots": [
+  {
+   "id": "c4-impact",
+   "type": "city",
+   "start": 0.0,
+   "end": 7.287,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 4.8
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 4.8
+    },
+    {
+     "t": 2.83,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 9.6
+    },
+    {
+     "t": 7.29,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 20.8
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.4,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.7,
+     "angle": 215
+    },
+    {
+     "km": 3.1,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 4.64,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9086
+     ],
+     "text": "Impact",
+     "color": "#FFFFFF",
+     "t": 0.4
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8344
+     ],
+     "text": "Next: what 100 kilotons does",
+     "color": "#FFD23F",
+     "t": 2.12
+    }
+   ],
+   "clock": "T+11:06",
+   "clockLabel": "IMPACT",
+   "clockRate": 1,
+   "flashT": 0.1
+  },
+  {
+   "id": "c5-engine",
+   "type": "city",
+   "start": 10.785,
+   "end": 15.392,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 20.8
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 20.8
+    },
+    {
+     "t": 1.4,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 14.4
+    },
+    {
+     "t": 4.61,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 9.6
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9384
+     ],
+     "text": "Every number: our scenario engine",
+     "color": "#FFFFFF",
+     "t": 0.2
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8633
+     ],
+     "text": "Estimates for a labelled simulation",
+     "color": "#FFD23F",
+     "t": 1.4
+    }
+   ],
+   "clock": "T+11:06",
+   "clockLabel": "THE 100 kt WARHEAD",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-fire",
+   "type": "city",
+   "start": 15.392,
+   "end": 26.576,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 2.72
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 2.72
+    },
+    {
+     "t": 4.67,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 2.08
+    },
+    {
+     "t": 7.69,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 1.76
+    },
+    {
+     "t": 11.18,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 2.32
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.4,
+     "label": "Fireball: radius",
+     "color": "#FFFFFF",
+     "t": 0.57,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9045
+     ],
+     "text": "Almost 800 m across",
+     "color": "#FFD23F",
+     "t": 4.67
+    },
+    {
+     "at": [
+      -77.0365,
+      38.8923
+     ],
+     "text": "Above the White House",
+     "color": "#FFFFFF",
+     "t": 7.69
+    }
+   ],
+   "clock": "T+11:06",
+   "clockLabel": "THE 100 kt WARHEAD",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-20",
+   "type": "city",
+   "start": 26.576,
+   "end": 36.395,
+   "tag": "SIMULATION",
+   "city": "washington",
+   "view": {
+    "center": [
+     -77.0365,
+     38.8977
+    ],
+    "widthKm": 2.4
+   },
+   "gz": [
+    -77.0365,
+    38.8977
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 2.4
+    },
+    {
+     "t": 4.55,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 2.16
+    },
+    {
+     "t": 10.4,
+     "center": [
+      -77.0365,
+      38.8977
+     ],
+     "widthKm": 2.72
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.4,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "angle": 215
+    },
+    {
+     "km": 0.6,
+     "label": "20 psi: radius",
+     "color": "#FF3B3B",
+     "t": 0.77,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -77.0365,
+      38.9054
+     ],
+     "text": "The blast adds 20 psi",
+     "color": "#FFD23F",
+     "t": 3.03
+    },
+    {
+     "at": [
+      -77.0365,
+      38.89
+     ],
+     "text": "Almost nothing stays standing",
+     "color": "#FFFFFF",
+     "t": 7.55
+    }
+   ],
+   "clock": "T+11:06",
+   "clockLabel": "THE 100 kt WARHEAD",
+   "clockRate": 0
+  }
+ ],
+ "shortTitle": [
+  "100 KILOTONS",
+  "ON THE WHITE HOUSE"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}
