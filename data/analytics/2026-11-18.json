@@ -1,15 +1,15 @@
 {
  "date": "2026-11-18",
  "channel": {
-  "viewCount": "6930",
-  "subscriberCount": "8",
+  "viewCount": "6971",
+  "subscriberCount": "9",
   "hiddenSubscriberCount": false,
-  "videoCount": "30"
+  "videoCount": "32"
  },
  "videos": [
   {
    "video": "hK24hiHogvs",
-   "views": 1208,
+   "views": 1210,
    "estimatedMinutesWatched": 566,
    "averageViewDuration": 53,
    "averageViewPercentage": 87.97,
@@ -139,102 +139,102 @@
    "retention_curve": [
     [
      0.01,
-     1.612,
+     1.61,
      0.634
     ],
     [
      0.06,
-     1.51,
-     0.536
+     1.508,
+     0.535
     ],
     [
      0.11,
-     1.415,
-     0.514
+     1.413,
+     0.513
     ],
     [
      0.16,
-     1.246,
+     1.244,
      0.508
     ],
     [
      0.21,
-     1.133,
-     0.507
+     1.131,
+     0.506
     ],
     [
      0.26,
-     1.048,
+     1.045,
      0.509
     ],
     [
      0.31,
-     0.961,
-     0.513
+     0.957,
+     0.512
     ],
     [
      0.36,
-     0.876,
-     0.517
+     0.873,
+     0.516
     ],
     [
      0.41,
-     0.844,
-     0.522
+     0.84,
+     0.521
     ],
     [
      0.46,
-     0.797,
+     0.793,
      0.532
     ],
     [
      0.51,
-     0.758,
-     0.555
+     0.754,
+     0.554
     ],
     [
      0.56,
-     0.727,
-     0.6
+     0.725,
+     0.599
     ],
     [
      0.61,
-     0.716,
-     0.682
+     0.715,
+     0.68
     ],
     [
      0.66,
-     0.707,
-     0.783
+     0.706,
+     0.781
     ],
     [
      0.71,
-     0.695,
-     0.859
+     0.693,
+     0.858
     ],
     [
      0.76,
-     0.679,
+     0.677,
      0.902
     ],
     [
      0.81,
-     0.675,
-     0.927
+     0.672,
+     0.926
     ],
     [
      0.86,
-     0.661,
-     0.941
+     0.659,
+     0.94
     ],
     [
      0.91,
-     0.652,
+     0.65,
      0.948
     ],
     [
      0.96,
-     0.63,
+     0.628,
      0.95
     ]
    ]
@@ -255,102 +255,102 @@
    "retention_curve": [
     [
      0.01,
-     1.442,
-     0.674
+     1.439,
+     0.673
     ],
     [
      0.06,
      1.393,
-     0.588
+     0.586
     ],
     [
      0.11,
      1.273,
-     0.565
+     0.563
     ],
     [
      0.16,
-     1.091,
-     0.543
+     1.087,
+     0.541
     ],
     [
      0.21,
-     0.991,
-     0.523
+     0.988,
+     0.522
     ],
     [
      0.26,
-     0.902,
-     0.506
+     0.899,
+     0.505
     ],
     [
      0.31,
-     0.819,
-     0.494
+     0.815,
+     0.493
     ],
     [
      0.36,
-     0.743,
-     0.492
+     0.739,
+     0.491
     ],
     [
      0.41,
-     0.68,
-     0.499
+     0.677,
+     0.498
     ],
     [
      0.46,
-     0.632,
-     0.513
+     0.629,
+     0.512
     ],
     [
      0.51,
-     0.602,
-     0.536
+     0.599,
+     0.535
     ],
     [
      0.56,
-     0.581,
-     0.583
+     0.577,
+     0.582
     ],
     [
      0.61,
-     0.549,
-     0.661
+     0.545,
+     0.659
     ],
     [
      0.66,
-     0.542,
-     0.754
+     0.538,
+     0.752
     ],
     [
      0.71,
-     0.522,
-     0.837
+     0.519,
+     0.835
     ],
     [
      0.76,
-     0.517,
-     0.893
+     0.513,
+     0.892
     ],
     [
      0.81,
-     0.501,
+     0.497,
      0.915
     ],
     [
      0.86,
-     0.485,
+     0.481,
      0.92
     ],
     [
      0.91,
-     0.46,
+     0.456,
      0.921
     ],
     [
      0.96,
-     0.442,
+     0.439,
      0.926
     ]
    ]
@@ -487,38 +487,38 @@
    "retention_curve": [
     [
      0.01,
-     1.659,
+     1.662,
      0.674
     ],
     [
      0.06,
-     1.439,
-     0.598
+     1.441,
+     0.597
     ],
     [
      0.11,
-     1.246,
+     1.247,
      0.586
     ],
     [
      0.16,
-     1.102,
-     0.587
+     1.103,
+     0.586
     ],
     [
      0.21,
      1.011,
-     0.598
+     0.597
     ],
     [
      0.26,
      0.962,
-     0.616
+     0.615
     ],
     [
      0.31,
      0.928,
-     0.641
+     0.64
     ],
     [
      0.36,
@@ -527,63 +527,63 @@
     ],
     [
      0.41,
-     0.883,
+     0.882,
      0.708
     ],
     [
      0.46,
-     0.864,
+     0.863,
      0.738
     ],
     [
      0.51,
      0.833,
-     0.766
+     0.768
     ],
     [
      0.56,
-     0.811,
-     0.796
+     0.81,
+     0.8
     ],
     [
      0.61,
-     0.788,
-     0.826
+     0.787,
+     0.831
     ],
     [
      0.66,
-     0.773,
-     0.859
+     0.772,
+     0.864
     ],
     [
      0.71,
-     0.75,
-     0.894
+     0.749,
+     0.899
     ],
     [
      0.76,
-     0.727,
-     0.921
+     0.73,
+     0.924
     ],
     [
      0.81,
-     0.705,
-     0.935
+     0.707,
+     0.937
     ],
     [
      0.86,
-     0.686,
-     0.943
+     0.688,
+     0.945
     ],
     [
      0.91,
-     0.682,
-     0.947
+     0.684,
+     0.948
     ],
     [
      0.96,
-     0.667,
-     0.947
+     0.669,
+     0.948
     ]
    ]
   },
@@ -599,113 +599,113 @@
    "shares": 0,
    "title": "What If Israel Nuked an Iranian Mountain Site? #shorts",
    "published": "2026-11-13T14:00:06Z",
-   "lifetime_views": 427,
+   "lifetime_views": 426,
    "retention_curve": [
     [
      0.01,
-     1.448,
-     0.657
+     1.45,
+     0.658
     ],
     [
      0.06,
-     1.344,
-     0.559
+     1.346,
+     0.561
     ],
     [
      0.11,
-     1.249,
-     0.534
+     1.25,
+     0.536
     ],
     [
      0.16,
      1.145,
-     0.518
+     0.52
     ],
     [
      0.21,
      1.004,
-     0.506
+     0.508
     ],
     [
      0.26,
      0.864,
-     0.497
-    ],
-    [
-     0.31,
-     0.819,
-     0.493
-    ],
-    [
-     0.36,
-     0.747,
      0.499
     ],
     [
+     0.31,
+     0.823,
+     0.495
+    ],
+    [
+     0.36,
+     0.75,
+     0.501
+    ],
+    [
      0.41,
-     0.728,
-     0.515
+     0.732,
+     0.517
     ],
     [
      0.46,
-     0.71,
-     0.539
+     0.714,
+     0.541
     ],
     [
      0.51,
-     0.679,
-     0.573
+     0.682,
+     0.575
     ],
     [
      0.56,
-     0.661,
-     0.623
+     0.664,
+     0.625
     ],
     [
      0.61,
-     0.634,
-     0.689
+     0.636,
+     0.69
     ],
     [
      0.66,
-     0.606,
+     0.609,
      0.757
     ],
     [
      0.71,
-     0.588,
+     0.591,
      0.808
     ],
     [
      0.76,
-     0.579,
+     0.582,
      0.835
     ],
     [
      0.81,
-     0.566,
+     0.568,
      0.848
     ],
     [
      0.86,
-     0.547,
+     0.55,
      0.852
     ],
     [
      0.91,
-     0.525,
+     0.527,
      0.854
     ],
     [
      0.96,
-     0.489,
+     0.491,
      0.874
     ]
    ]
   },
   {
    "video": "rVHj7z8O65Q",
-   "views": 419,
+   "views": 420,
    "estimatedMinutesWatched": 192,
    "averageViewDuration": 57,
    "averageViewPercentage": 120.04000000000002,
@@ -719,109 +719,109 @@
    "retention_curve": [
     [
      0.01,
-     1.954,
-     0.632
+     1.959,
+     0.633
     ],
     [
      0.06,
-     1.856,
+     1.861,
      0.511
     ],
     [
      0.11,
-     1.738,
+     1.747,
      0.501
     ],
     [
      0.16,
-     1.549,
+     1.557,
      0.5
     ],
     [
      0.21,
-     1.379,
+     1.387,
      0.5
     ],
     [
      0.26,
-     1.287,
+     1.294,
      0.5
     ],
     [
      0.31,
-     1.241,
-     0.5
+     1.247,
+     0.501
     ],
     [
      0.36,
-     1.185,
+     1.191,
      0.504
     ],
     [
      0.41,
-     1.169,
+     1.175,
      0.51
     ],
     [
      0.46,
-     1.149,
-     0.517
+     1.155,
+     0.518
     ],
     [
      0.51,
-     1.123,
+     1.129,
      0.526
     ],
     [
      0.56,
-     1.113,
+     1.119,
      0.541
     ],
     [
      0.61,
-     1.092,
+     1.098,
      0.563
     ],
     [
      0.66,
-     1.056,
+     1.062,
      0.603
     ],
     [
      0.71,
-     1.031,
+     1.036,
      0.672
     ],
     [
      0.76,
-     1,
+     1.005,
      0.752
     ],
     [
      0.81,
-     1,
+     1.005,
      0.81
     ],
     [
      0.86,
-     0.98,
+     0.985,
      0.848
     ],
     [
      0.91,
-     0.974,
+     0.979,
      0.873
     ],
     [
      0.96,
-     0.964,
+     0.969,
      0.887
     ]
    ]
   },
   {
    "video": "Bw7RPbexCTA",
-   "views": 267,
+   "views": 268,
    "estimatedMinutesWatched": 63,
    "averageViewDuration": 32,
    "averageViewPercentage": 90.41,
@@ -937,10 +937,10 @@
   },
   {
    "video": "Km51s_0dCMI",
-   "views": 185,
-   "estimatedMinutesWatched": 48,
+   "views": 187,
+   "estimatedMinutesWatched": 49,
    "averageViewDuration": 36,
-   "averageViewPercentage": 63.690000000000005,
+   "averageViewPercentage": 64.26,
    "subscribersGained": 0,
    "likes": 3,
    "comments": 0,
@@ -951,112 +951,112 @@
    "retention_curve": [
     [
      0.01,
-     1.39,
-     0.645
+     1.397,
+     0.647
     ],
     [
      0.06,
-     1.273,
-     0.517
+     1.282,
+     0.521
     ],
     [
      0.11,
-     1.052,
-     0.483
+     1.051,
+     0.486
     ],
     [
      0.16,
-     0.909,
+     0.91,
      0.468
     ],
     [
      0.21,
-     0.779,
+     0.782,
      0.46
     ],
     [
      0.26,
-     0.74,
+     0.744,
      0.469
     ],
     [
      0.31,
-     0.688,
+     0.692,
      0.482
     ],
     [
      0.36,
-     0.649,
+     0.654,
      0.496
     ],
     [
      0.41,
-     0.649,
-     0.505
+     0.654,
+     0.507
     ],
     [
      0.46,
-     0.636,
-     0.514
+     0.641,
+     0.516
     ],
     [
      0.51,
-     0.597,
-     0.526
+     0.603,
+     0.528
     ],
     [
      0.56,
-     0.532,
-     0.552
+     0.538,
+     0.556
     ],
     [
      0.61,
-     0.468,
-     0.611
+     0.474,
+     0.618
     ],
     [
      0.66,
-     0.429,
-     0.707
+     0.436,
+     0.713
     ],
     [
      0.71,
-     0.429,
-     0.818
+     0.436,
+     0.821
     ],
     [
      0.76,
-     0.429,
-     0.888
+     0.436,
+     0.887
     ],
     [
      0.81,
-     0.429,
-     0.907
+     0.436,
+     0.904
     ],
     [
      0.86,
-     0.429,
-     0.909
+     0.436,
+     0.906
     ],
     [
      0.91,
-     0.429,
-     0.907
+     0.436,
+     0.904
     ],
     [
      0.96,
-     0.403,
-     0.913
+     0.41,
+     0.91
     ]
    ]
   },
   {
    "video": "QK55Sko_aw4",
-   "views": 129,
-   "estimatedMinutesWatched": 43,
-   "averageViewDuration": 45,
-   "averageViewPercentage": 82.13,
+   "views": 132,
+   "estimatedMinutesWatched": 44,
+   "averageViewDuration": 46,
+   "averageViewPercentage": 82.51,
    "subscribersGained": 0,
    "likes": 2,
    "comments": 0,
@@ -1067,103 +1067,103 @@
    "retention_curve": [
     [
      0.01,
-     1.636,
-     0.665
+     1.643,
+     0.667
     ],
     [
      0.06,
-     1.491,
-     0.575
+     1.5,
+     0.579
     ],
     [
      0.11,
-     1.309,
-     0.566
+     1.304,
+     0.569
     ],
     [
      0.16,
-     1.164,
-     0.555
+     1.161,
+     0.559
     ],
     [
      0.21,
      1.018,
-     0.545
+     0.547
     ],
     [
      0.26,
      0.964,
-     0.536
+     0.538
     ],
     [
      0.31,
-     0.891,
-     0.534
+     0.893,
+     0.536
     ],
     [
      0.36,
-     0.818,
-     0.541
+     0.821,
+     0.546
     ],
     [
      0.41,
-     0.727,
-     0.56
+     0.732,
+     0.566
     ],
     [
      0.46,
-     0.691,
-     0.603
+     0.696,
+     0.611
     ],
     [
      0.51,
-     0.691,
-     0.689
+     0.696,
+     0.698
     ],
     [
      0.56,
-     0.691,
-     0.808
+     0.696,
+     0.816
     ],
     [
      0.61,
-     0.673,
-     0.905
+     0.679,
+     0.909
     ],
     [
      0.66,
-     0.673,
-     0.946
+     0.679,
+     0.947
     ],
     [
      0.71,
-     0.673,
+     0.679,
      0.95
     ],
     [
      0.76,
-     0.673,
+     0.679,
      0.951
     ],
     [
      0.81,
-     0.673,
+     0.679,
      0.95
     ],
     [
      0.86,
-     0.673,
+     0.679,
      0.95
     ],
     [
      0.91,
-     0.655,
+     0.661,
      0.95
     ],
     [
      0.96,
-     0.655,
-     0.942
+     0.661,
+     0.944
     ]
    ]
   },
@@ -1221,7 +1221,35 @@
    "shares": 0,
    "title": "What One 800-Kiloton Nuke Does to Chicago, Ring by Ring #shorts",
    "published": "2026-11-11T14:00:38Z",
-   "lifetime_views": 56
+   "lifetime_views": 57
+  },
+  {
+   "video": "lufMFIv5AeY",
+   "views": 54,
+   "estimatedMinutesWatched": 155,
+   "averageViewDuration": 316,
+   "averageViewPercentage": 46.92,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 1,
+   "shares": 0,
+   "title": "What One Nuke Would Do to Chicago, Street by Street",
+   "published": "2026-11-11T00:00:27Z",
+   "lifetime_views": 60
+  },
+  {
+   "video": "asHo8qWpZDg",
+   "views": 49,
+   "estimatedMinutesWatched": 181,
+   "averageViewDuration": 265,
+   "averageViewPercentage": 39.27,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "China Blockades Taiwan... and the First Nuke Since 1945 Is Fired",
+   "published": "2026-11-06T00:00:07Z",
+   "lifetime_views": 48
   },
   {
    "video": "fWvrsNHlIak",
@@ -1236,20 +1264,6 @@
    "title": "Russia Launches a Nuclear Strike on America... What Happens Next?",
    "published": "2026-11-05T00:00:31Z",
    "lifetime_views": 49
-  },
-  {
-   "video": "asHo8qWpZDg",
-   "views": 48,
-   "estimatedMinutesWatched": 181,
-   "averageViewDuration": 271,
-   "averageViewPercentage": 40.21,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "title": "China Blockades Taiwan... and the First Nuke Since 1945 Is Fired",
-   "published": "2026-11-06T00:00:07Z",
-   "lifetime_views": 48
   },
   {
    "video": "Xh-d91arwTU",
@@ -1280,22 +1294,8 @@
    "lifetime_views": 37
   },
   {
-   "video": "lufMFIv5AeY",
-   "views": 35,
-   "estimatedMinutesWatched": 101,
-   "averageViewDuration": 337,
-   "averageViewPercentage": 49.95,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 1,
-   "shares": 0,
-   "title": "What One Nuke Would Do to Chicago, Street by Street",
-   "published": "2026-11-11T00:00:27Z",
-   "lifetime_views": 55
-  },
-  {
    "video": "DK6UC3_BT6Q",
-   "views": 20,
+   "views": 23,
    "estimatedMinutesWatched": 26,
    "averageViewDuration": 217,
    "averageViewPercentage": 33.29,
@@ -1305,7 +1305,7 @@
    "shares": 0,
    "title": "What If Iran Tests a Nuke? Israel's 4-Day Answer",
    "published": "2026-11-13T00:00:06Z",
-   "lifetime_views": 23
+   "lifetime_views": 25
   },
   {
    "video": "GJ4KihR5Uzw",
@@ -1337,7 +1337,7 @@
   },
   {
    "video": "u1EWhaWRoyc",
-   "views": 7,
+   "views": 8,
    "estimatedMinutesWatched": 3,
    "averageViewDuration": 54,
    "averageViewPercentage": 7.9399999999999995,
@@ -1362,6 +1362,20 @@
    "title": "What One 15-Kiloton Nuke Does to Open Farmland, Ring by Ring #shorts",
    "published": "2026-11-12T19:00:05Z",
    "lifetime_views": 9
+  },
+  {
+   "video": "-jPUfuzQF4g",
+   "views": 2,
+   "estimatedMinutesWatched": 0,
+   "averageViewDuration": 41,
+   "averageViewPercentage": 6.07,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "What If America and Russia Nuked Each Other? 27 Strikes",
+   "published": "2026-11-17T00:00:01Z",
+   "lifetime_views": 6
   }
  ],
  "errors": [],
@@ -1374,33 +1388,33 @@
   "rows": [
    [
     "SHORTS",
-    6462,
-    2262
+    6433,
+    2259
    ],
    [
     "YT_SEARCH",
-    206,
-    161
+    221,
+    164
    ],
    [
     "YT_OTHER_PAGE",
-    110,
-    65
+    107,
+    64
    ],
    [
     "RELATED_VIDEO",
-    71,
-    263
+    76,
+    292
    ],
    [
     "YT_CHANNEL",
-    44,
-    163
+    45,
+    164
    ],
    [
     "SUBSCRIBER",
-    13,
-    2
+    25,
+    14
    ],
    [
     "NO_LINK_OTHER",
@@ -1409,13 +1423,13 @@
    ],
    [
     "EXT_URL",
-    5,
-    14
+    6,
+    15
    ],
    [
     "PLAYLIST",
-    2,
-    7
+    3,
+    18
    ],
    [
     "NOTIFICATION",
@@ -1507,12 +1521,12 @@
  },
  "reach": {
   "job": "22cbe519-176f-4a0c-9484-ef5f01850ea5",
-  "days": 40,
+  "days": 41,
   "videos": {
    "fWvrsNHlIak": {
-    "impressions": 1467,
+    "impressions": 1470,
     "clicks": 35,
-    "ctr": 0.0239
+    "ctr": 0.0238
    },
    "0BKN1bwvjRI": {
     "impressions": 1,
@@ -1545,9 +1559,9 @@
     "ctr": 0.0
    },
    "asHo8qWpZDg": {
-    "impressions": 524,
+    "impressions": 527,
     "clicks": 30,
-    "ctr": 0.0573
+    "ctr": 0.0569
    },
    "dpxhxTSJoec": {
     "impressions": 1,
@@ -1555,9 +1569,9 @@
     "ctr": 0.0
    },
    "hK24hiHogvs": {
-    "impressions": 194,
+    "impressions": 198,
     "clicks": 5,
-    "ctr": 0.0258
+    "ctr": 0.0253
    },
    "kOTfAUeBpRA": {
     "impressions": 1,
@@ -1575,84 +1589,84 @@
     "ctr": 0.0
    },
    "LT_46ntdORs": {
-    "impressions": 57,
+    "impressions": 65,
     "clicks": 1,
-    "ctr": 0.0175
+    "ctr": 0.0154
    },
    "NxaU3CIMJ2A": {
-    "impressions": 86,
+    "impressions": 94,
     "clicks": 4,
-    "ctr": 0.0465
+    "ctr": 0.0426
    },
    "XUJI3lSDD0M": {
-    "impressions": 87,
-    "clicks": 5,
-    "ctr": 0.0575
+    "impressions": 93,
+    "clicks": 6,
+    "ctr": 0.0645
    },
    "77M-y-VaweA": {
-    "impressions": 53,
+    "impressions": 54,
     "clicks": 1,
-    "ctr": 0.0189
+    "ctr": 0.0185
    },
    "CswtYFhvZkE": {
-    "impressions": 26,
+    "impressions": 27,
     "clicks": 1,
-    "ctr": 0.0385
+    "ctr": 0.037
    },
    "GJ4KihR5Uzw": {
-    "impressions": 62,
+    "impressions": 64,
     "clicks": 0,
     "ctr": 0.0
    },
    "Km51s_0dCMI": {
-    "impressions": 51,
+    "impressions": 52,
     "clicks": 0,
     "ctr": 0.0
    },
    "Qe5PtpijICA": {
-    "impressions": 114,
+    "impressions": 117,
     "clicks": 2,
-    "ctr": 0.0175
+    "ctr": 0.0171
    },
    "Xh-d91arwTU": {
-    "impressions": 22,
+    "impressions": 23,
     "clicks": 0,
     "ctr": 0.0
    },
    "lufMFIv5AeY": {
-    "impressions": 141,
-    "clicks": 11,
-    "ctr": 0.078
+    "impressions": 190,
+    "clicks": 12,
+    "ctr": 0.0632
    },
    "up8u4934iUM": {
-    "impressions": 45,
+    "impressions": 54,
     "clicks": 3,
-    "ctr": 0.0667
+    "ctr": 0.0556
    },
    "u1EWhaWRoyc": {
-    "impressions": 41,
+    "impressions": 47,
     "clicks": 2,
-    "ctr": 0.0488
+    "ctr": 0.0426
    },
    "DK6UC3_BT6Q": {
-    "impressions": 77,
-    "clicks": 4,
-    "ctr": 0.0519
+    "impressions": 94,
+    "clicks": 6,
+    "ctr": 0.0638
    },
    "K67FRJT0Za4": {
-    "impressions": 70,
+    "impressions": 76,
     "clicks": 2,
-    "ctr": 0.0286
+    "ctr": 0.0263
    },
    "huHH9VFS5aI": {
-    "impressions": 45,
+    "impressions": 46,
     "clicks": 0,
     "ctr": 0.0
    },
    "rVHj7z8O65Q": {
-    "impressions": 29,
+    "impressions": 38,
     "clicks": 2,
-    "ctr": 0.069
+    "ctr": 0.0526
    }
   }
  }

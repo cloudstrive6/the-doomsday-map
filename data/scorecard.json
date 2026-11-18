@@ -1,7 +1,7 @@
 {
   "built": "2026-11-18",
   "latest_snapshot": "2026-11-18",
-  "subscribers": 8,
+  "subscribers": 9,
   "subs_target": [
     50,
     "2026-12-10"
@@ -10,7 +10,7 @@
     "C1@7d": {
       "label": "Long CTR",
       "target": 0.05,
-      "median": 0.078,
+      "median": 0.0632,
       "n": 1,
       "met": true
     },
@@ -24,28 +24,28 @@
     "C3@7d": {
       "label": "Avg % viewed",
       "target": 40.0,
-      "median": 49.95,
+      "median": 46.92,
       "n": 1,
       "met": true
     },
     "C4@7d": {
       "label": "Long views",
       "target": 150,
-      "median": 55,
+      "median": 60,
       "n": 1,
       "met": false
     },
     "C5a@7d": {
       "label": "Shorts views",
       "target": 300,
-      "median": 123.0,
+      "median": 123.5,
       "n": 2,
       "met": false
     },
     "C5b@7d": {
       "label": "Shorts avg % viewed",
       "target": 80.0,
-      "median": 59.11,
+      "median": 59.395,
       "n": 2,
       "met": false
     },
@@ -448,10 +448,10 @@
       "views": 1095,
       "avp": 87.59,
       "avd": 33,
-      "hold": 1.415,
+      "hold": 1.413,
       "subs": 1,
-      "ctr": 0.0465,
-      "impressions": 86
+      "ctr": 0.0426,
+      "impressions": 94
     },
     {
       "episode": "003-north-korea-strikes-west-coast",
@@ -476,13 +476,13 @@
       "due": "2026-11-18",
       "snapshot": "2026-11-18",
       "status": "measured",
-      "views": 55,
-      "avp": 49.95,
-      "avd": 337,
+      "views": 60,
+      "avp": 46.92,
+      "avd": 316,
       "hold": null,
       "subs": 0,
-      "ctr": 0.078,
-      "impressions": 141
+      "ctr": 0.0632,
+      "impressions": 190
     },
     {
       "episode": "004-one-warhead-one-city",
@@ -507,13 +507,13 @@
       "due": "2026-11-18",
       "snapshot": "2026-11-18",
       "status": "measured",
-      "views": 56,
+      "views": 57,
       "avp": 54.53,
       "avd": 22,
       "hold": null,
       "subs": 0,
-      "ctr": 0.0175,
-      "impressions": 114
+      "ctr": 0.0171,
+      "impressions": 117
     },
     {
       "episode": "004-one-warhead-one-city",
@@ -539,12 +539,12 @@
       "snapshot": "2026-11-18",
       "status": "measured",
       "views": 190,
-      "avp": 63.690000000000005,
+      "avp": 64.26,
       "avd": 36,
-      "hold": 1.052,
+      "hold": 1.051,
       "subs": 0,
       "ctr": 0.0,
-      "impressions": 51
+      "impressions": 52
     },
     {
       "episode": "004-one-warhead-one-city",
@@ -1059,6 +1059,102 @@
       "publish_at": "2026-11-20T00:00:00Z",
       "horizon": 28,
       "due": "2026-12-18",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "011-washington-where-the-government-goes",
+      "num": 11,
+      "kind": "long",
+      "id": "lBZsX8m3KO4",
+      "title": "What If a Nuke Hit Washington? Who Gets Out in 11 Minutes",
+      "publish_at": "2026-11-20T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-11-27",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "011-washington-where-the-government-goes",
+      "num": 11,
+      "kind": "long",
+      "id": "lBZsX8m3KO4",
+      "title": "What If a Nuke Hit Washington? Who Gets Out in 11 Minutes",
+      "publish_at": "2026-11-20T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-18",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "011-washington-where-the-government-goes",
+      "num": 11,
+      "kind": "short",
+      "id": "6zICYBIBLyw",
+      "title": "What One 100 Kiloton Nuke Does to the Capitol and Pentagon #shorts",
+      "publish_at": "2026-11-20T14:00:00Z",
+      "horizon": 7,
+      "due": "2026-11-27",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "011-washington-where-the-government-goes",
+      "num": 11,
+      "kind": "short",
+      "id": "6zICYBIBLyw",
+      "title": "What One 100 Kiloton Nuke Does to the Capitol and Pentagon #shorts",
+      "publish_at": "2026-11-20T14:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-18",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "011-washington-where-the-government-goes",
+      "num": 11,
+      "kind": "short",
+      "id": "YxH6xwSmp-0",
+      "title": "What a 100 Kiloton Nuke Does to the White House #shorts",
+      "publish_at": "2026-11-20T19:00:00Z",
+      "horizon": 7,
+      "due": "2026-11-27",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "011-washington-where-the-government-goes",
+      "num": 11,
+      "kind": "short",
+      "id": "YxH6xwSmp-0",
+      "title": "What a 100 Kiloton Nuke Does to the White House #shorts",
+      "publish_at": "2026-11-20T19:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-18",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "011-washington-where-the-government-goes",
+      "num": 11,
+      "kind": "short",
+      "id": "xZepBukwp_U",
+      "title": "What If a Nuke Hit DC? Who Refills Congress #shorts",
+      "publish_at": "2026-11-21T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-11-28",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "011-washington-where-the-government-goes",
+      "num": 11,
+      "kind": "short",
+      "id": "xZepBukwp_U",
+      "title": "What If a Nuke Hit DC? Who Refills Congress #shorts",
+      "publish_at": "2026-11-21T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-19",
       "snapshot": null,
       "status": "pending"
     }
