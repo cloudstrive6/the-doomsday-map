@@ -1,4 +1,4 @@
-# Scorecard (2026-11-17, latest snapshot 2026-11-17)
+# Scorecard (2026-11-18, latest snapshot 2026-11-18)
 
 Built by `python -m studio scorecard` from data/analytics/. Targets judged on the median of episodes 004 onward; earlier episodes are the baseline. Small samples: read as tests, not proof.
 
@@ -8,12 +8,12 @@ Subscribers: 8 (target 50 by 2026-12-10)
 
 | Criterion | Horizon | Target | Median | Episodes measured | Met |
 |---|---|---|---|---|---|
-| C1 Long CTR | 7d | 5.0% | - | 0 | - |
+| C1 Long CTR | 7d | 5.0% | 7.8% | 1 | yes |
 | C2 Hold at 11% | 7d | 60.0% | - | 0 | - |
-| C3 Avg % viewed | 7d | 40% | - | 0 | - |
-| C4 Long views | 7d | 150 | - | 0 | - |
-| C5a Shorts views | 7d | 300 | - | 0 | - |
-| C5b Shorts avg % viewed | 7d | 80% | - | 0 | - |
+| C3 Avg % viewed | 7d | 40% | 50% | 1 | yes |
+| C4 Long views | 7d | 150 | 55 | 1 | no |
+| C5a Shorts views | 7d | 300 | 123.0 | 2 | no |
+| C5b Shorts avg % viewed | 7d | 80% | 59% | 2 | no |
 | C1 Long CTR | 28d | 5.0% | - | 0 | - |
 | C2 Hold at 11% | 28d | 60.0% | - | 0 | - |
 | C3 Avg % viewed | 28d | 40% | - | 0 | - |
@@ -31,7 +31,7 @@ Subscribers: 8 (target 50 by 2026-12-10)
 | 002 | asHo8qWpZDg | 28 | due 2026-12-04 | - | - | - | - | - | - |
 | 003 | up8u4934iUM | 7 | measured | 9 | 6.7% | 45 | - | 20% | 147 |
 | 003 | up8u4934iUM | 28 | due 2026-12-08 | - | - | - | - | - | - |
-| 004 | lufMFIv5AeY | 7 | due 2026-11-18 | - | - | - | - | - | - |
+| 004 | lufMFIv5AeY | 7 | measured | 55 | 7.8% | 141 | - | 50% | 337 |
 | 004 | lufMFIv5AeY | 28 | due 2026-12-09 | - | - | - | - | - | - |
 | 005 | u1EWhaWRoyc | 7 | due 2026-11-19 | - | - | - | - | - | - |
 | 005 | u1EWhaWRoyc | 28 | due 2026-12-10 | - | - | - | - | - | - |
@@ -64,11 +64,11 @@ Subscribers: 8 (target 50 by 2026-12-10)
 | 003 | LT_46ntdORs | 28 | due 2026-12-08 | - | - | - |
 | 003 | XUJI3lSDD0M | 7 | measured | 582 | 89% | 45 |
 | 003 | XUJI3lSDD0M | 28 | due 2026-12-08 | - | - | - |
-| 003 | NxaU3CIMJ2A | 7 | due 2026-11-18 | - | - | - |
+| 003 | NxaU3CIMJ2A | 7 | measured | 1,095 | 88% | 33 |
 | 003 | NxaU3CIMJ2A | 28 | due 2026-12-09 | - | - | - |
-| 004 | Qe5PtpijICA | 7 | due 2026-11-18 | - | - | - |
+| 004 | Qe5PtpijICA | 7 | measured | 56 | 55% | 22 |
 | 004 | Qe5PtpijICA | 28 | due 2026-12-09 | - | - | - |
-| 004 | Km51s_0dCMI | 7 | due 2026-11-18 | - | - | - |
+| 004 | Km51s_0dCMI | 7 | measured | 190 | 64% | 36 |
 | 004 | Km51s_0dCMI | 28 | due 2026-12-09 | - | - | - |
 | 004 | Xh-d91arwTU | 7 | due 2026-11-19 | - | - | - |
 | 004 | Xh-d91arwTU | 28 | due 2026-12-10 | - | - | - |
