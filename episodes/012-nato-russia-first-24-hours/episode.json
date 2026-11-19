@@ -125,18 +125,6 @@
      "fill": "rgba(110,168,255,0.1)"
     }
    ],
-   "countryLabels": [
-    {
-     "iso": "616",
-     "text": "POLAND (NATO)",
-     "color": "#6EA8FF"
-    },
-    {
-     "iso": "643",
-     "text": "RUSSIA",
-     "color": "#F2B01E"
-    }
-   ],
    "cities": [
     {
      "at": [
@@ -168,6 +156,35 @@
      "kind": "dot",
      "t": 1.3,
      "color": "#8A8F98"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      18.9,
+      53.7
+     ],
+     "text": "POLAND (NATO)",
+     "color": "#6EA8FF",
+     "t": 0.1
+    },
+    {
+     "at": [
+      20.3,
+      54.95
+     ],
+     "text": "RUSSIA",
+     "color": "#F2B01E",
+     "t": 0.1
+    },
+    {
+     "at": [
+      22.6,
+      54.3
+     ],
+     "text": "ISKANDER",
+     "color": "#FF3B3B",
+     "t": 0.3
     }
    ],
    "lines": [
@@ -202,7 +219,6 @@
      "t1": 3.66,
      "kind": "pla",
      "color": "#FF3B3B",
-     "label": "Iskander",
      "size": 2.6,
      "t": 0.2,
      "wake": true
@@ -2129,7 +2145,7 @@
      ],
      "label": "Iskander missiles",
      "kind": "base",
-     "t": 0.97,
+     "t": 0.2,
      "color": "#FFD23F",
      "size": 6
     },
@@ -3283,35 +3299,35 @@
    "tag": "REAL HISTORY",
    "view": {
     "center": [
-     10,
-     52.5
+     11,
+     54.5
     ],
-    "widthKm": 2300
+    "widthKm": 2800
    },
    "camera": [
     {
      "t": 0,
      "center": [
-      10,
-      52.5
+      11,
+      54.5
      ],
-     "widthKm": 2300
+     "widthKm": 2800
     },
     {
      "t": 2.34,
      "center": [
-      11,
-      52.3
+      12,
+      54.5
      ],
-     "widthKm": 2000
+     "widthKm": 2600
     },
     {
      "t": 8.59,
      "center": [
-      12,
-      52
+      13,
+      54.5
      ],
-     "widthKm": 1700
+     "widthKm": 2400
     }
    ],
    "source": "NATO, The North Atlantic Treaty",
@@ -19332,17 +19348,6 @@
      "kind": "dot",
      "t": 0.5,
      "color": "#6EA8FF"
-    },
-    {
-     "at": [
-      26.225,
-      59.8705
-     ],
-     "label": "Reported cut: Estlink 2",
-     "kind": "target",
-     "t": 1.2,
-     "color": "#FF3B3B",
-     "size": 6
     }
    ],
    "lines": [
@@ -19359,7 +19364,7 @@
      "dashed": false,
      "t0": 0.3,
      "t1": 1.6,
-     "label": "Estlink 2 cable",
+     "label": "Estlink 2 cable (route approximate)",
      "width": 5
     }
    ],
@@ -20006,27 +20011,27 @@
    "tag": "REAL DATA",
    "view": {
     "center": [
-     30,
+     28,
      56
     ],
-    "widthKm": 3200
+    "widthKm": 2800
    },
    "camera": [
     {
      "t": 0,
      "center": [
-      30,
+      28,
       56
      ],
-     "widthKm": 3200
+     "widthKm": 2800
     },
     {
      "t": 6.48,
      "center": [
-      30,
+      28,
       56
      ],
-     "widthKm": 2400
+     "widthKm": 2200
     }
    ],
    "source": "Bulletin of the Atomic Scientists; CRS",
@@ -20036,6 +20041,11 @@
      "iso": "643",
      "color": "#F2B01E",
      "fill": "rgba(242,176,30,0.1)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
     }
    ],
    "cities": [
@@ -20048,6 +20058,26 @@
      "kind": "dot",
      "t": 0.3,
      "color": "#F2B01E"
+    },
+    {
+     "at": [
+      20.51,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "kind": "dot",
+     "t": 0.6,
+     "color": "#F2B01E"
+    },
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "label": "Poland (NATO)",
+     "kind": "dot",
+     "t": 0.9,
+     "color": "#6EA8FF"
     }
    ],
    "labels": [
@@ -20059,6 +20089,15 @@
      "text": "Nonstrategic weapons",
      "color": "#F2B01E",
      "t": 4.48
+    },
+    {
+     "at": [
+      40.0,
+      58.5
+     ],
+     "text": "RUSSIA",
+     "color": "#F2B01E",
+     "t": 0.2
     }
    ]
   },

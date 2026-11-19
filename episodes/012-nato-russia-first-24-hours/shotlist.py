@@ -232,10 +232,10 @@ def flight(sid, a, b, keys, strike, t0, t1, mins, ship_label, label_clock="TO IM
 FL = round(W("p01", "lands") - 0.15, 2)
 a = 0
 reg("open-run", 0, FL, [("s", [20.45, 54.3], 430), ("e", [20.3, 54.3], 320)], clock="T-03:06", clockLabel="IMPACT IN", clockRate=round(186 / FL, 1),
-    highlight=[HL_RU] + HL_NATO[:1], countryLabels=[cl("PL", "POLAND (NATO)", BLUE), cl("RU", "RUSSIA", AMBER)],
-    cities=[city(0, MAL, "Malbork Air Base", 0.3, RED, "target", 6), city(0, KLD, "Kaliningrad", 0.4, YELLOW), city(0, GDA, "Gdansk", 1.3, GREY)],
+    highlight=[HL_RU] + HL_NATO[:1], cities=[city(0, MAL, "Malbork Air Base", 0.3, RED, "target", 6), city(0, KLD, "Kaliningrad", 0.4, YELLOW), city(0, GDA, "Gdansk", 1.3, GREY)],
+    labels=[lab(0, [18.9, 53.7], "POLAND (NATO)", 0.05, BLUE), lab(0, [20.3, 54.95], "RUSSIA", 0.05, AMBER), lab(0, [22.6, 54.3], "ISKANDER", 0.3, RED)],
     lines=[line(0, KAL, MAL, 0.2, FL - 0.1, RED, True)],
-    ships=[ship(0, [KAL, MAL], 0.2, FL - 0.1, label="Iskander", color=RED, t_on=0.2, size=2.6)])
+    ships=[ship(0, [KAL, MAL], 0.2, FL - 0.1, label="", color=RED, t_on=0.2, size=2.6)])
 a = FL
 reg("open-burst", a, S("p02"), [("s", MAL, 260), ("e", MAL, 170)], clock="T+00:00", clockLabel="HOUR 0 · IMPACT", clockRate=1,
     burst={"at": MAL, "t": 0.1, "km": 5, "fade": 4}, highlight=[HL_RU] + HL_NATO[:1],
@@ -332,7 +332,7 @@ reg("c1-kal2", a, tRs, [("s", [21.0, 54.8], 400), ("e", [22.2, 54.8], 700)], tag
     labels=[lab(a, [18.3, 55.9], "About 1 million people", W("p09", "million"), YELLOW), lab(a, [24.2, 53.7], "Wedged in", W("p09", "wedged"), WHITE)])
 a = tRs
 reg("c1-isk", a, S("p10"), [("s", [20.5, 54.7], 600), (W("p09", "eighteen"), [20.8, 54.8], 420), ("e", [21.0, 54.8], 320)], tag="REAL DATA", source=SRC_A, clock="SINCE 2018", clockLabel="ISKANDER BASED HERE", clockRate=0,
-    highlight=[HL_RU], cities=[city(a, KAL, "Iskander missiles", W("p09", "Iskander"), YELLOW, "base", 6), city(a, KLD, "Kaliningrad", a + 0.3, YELLOW)],
+    highlight=[HL_RU], cities=[city(a, KAL, "Iskander missiles", a + 0.2, YELLOW, "base", 6), city(a, KLD, "Kaliningrad", a + 0.3, YELLOW)],
     labels=[lab(a, [18.8, 55.5], "Based here since 2018", W("p09", "since"), YELLOW)])
 a = S("p10")
 tEi = W("p10", "Either")
@@ -386,7 +386,7 @@ a = S("p14")
 tA5, tBt, tIt14 = W("p14", "Article", 2), W("p14", "But"), W("p14", "It", 2)
 CL3 = dict(tag="REAL HISTORY", source="NATO, The North Atlantic Treaty", clock="", highlight=HL_NATO + [hl("DE", BLUE, 0.06)])
 CLN = [cl("PL", "POLAND", BLUE), cl("DE", "GERMANY", BLUE), cl("LT", "LITHUANIA", BLUE), cl("LV", "LATVIA", BLUE), cl("EE", "ESTONIA", BLUE)]
-reg("c2-a45", a, tBt, [("s", [10, 52.5], 2300), (W("p14", "Article", 2), [11, 52.3], 2000), ("e", [12, 52], 1700)], **CL3, countryLabels=CLN,
+reg("c2-a45", a, tBt, [("s", [11, 54.5], 2800), (W("p14", "Article", 2), [12, 54.5], 2600), ("e", [13, 54.5], 2400)], **CL3, countryLabels=CLN,
     cities=[city(a, BRU, "NATO, Brussels", a + 0.3, BLUE, "base", 6), city(a, WAW, "Warsaw", W("p14", "Article", 2), BLUE), city(a, RIG, "Riga", W("p14", "Article", 2) + 0.3, BLUE), city(a, BER, "Berlin", W("p14", "Article", 2) + 0.6, BLUE)],
     labels=[lab(a, [0.0, 56.8], "Article 4: talk", W("p14", "talk"), WHITE), lab(a, [0.0, 56.3], "Article 5: the promise", W("p14", "promise"), YELLOW), lab(a, [0.0, 55.8], "An attack on one is an attack on all", W("p14", "attack"), WHITE)])
 a = tBt
@@ -762,8 +762,8 @@ reg("c6-civil", a, tUn, [("s", [20.5, 56.2], 1300), (W("p44", "avoid"), [20.5, 5
 a = tUn
 reg("c6-estlink", a, S("p45"), [("s", [26.2, 59.7], 520), (W("p44", "Estlink"), [26.2, 59.7], 450), ("e", [26.2, 59.7], 400)], tag="REAL HISTORY", source="TWZ; NATO Baltic Sentry", clock="DEC 2024", clockLabel="THE CABLE CUT", clockRate=0, highlight=[hl("FI", GREY, 0.08), hl("EE", BLUE, 0.10), hl("RU", AMBER, 0.05)],
     countryLabels=[cl("FI", "FINLAND", WHITE), cl("EE", "ESTONIA", BLUE), cl("RU", "RUSSIA", AMBER)],
-    cities=[city(a, HEL, "Helsinki", a + 0.2, WHITE), city(a, TAL, "Tallinn", a + 0.5, BLUE), city(a, lerp(EST1, EST2, 0.45), "Reported cut: Estlink 2", a + 1.2, RED, "target", 6)],
-    lines=[line(a, EST1, EST2, a + 0.3, a + 1.6, RED, False, "Estlink 2 cable", 5)],
+    cities=[city(a, HEL, "Helsinki", a + 0.2, WHITE), city(a, TAL, "Tallinn", a + 0.5, BLUE)],
+    lines=[line(a, EST1, EST2, a + 0.3, a + 1.6, RED, False, "Estlink 2 cable (route approximate)", 5)],
     labels=[lab(a, [23.0, 59.95], "Cables under the water", W("p44", "cables"), WHITE), lab(a, [23.0, 59.65], "Finland to Estonia", W("p44", "Finland"), YELLOW)])
 a = S("p45")
 tTh45 = W("p45", "and")
@@ -795,9 +795,9 @@ a = S("p47")
 tRu47, tRo, tWr47 = W("p47", "Russia's"), W("p47", "roughly"), W("p47", "were")
 stamp("c6-start", a, round(a + 2.6, 2), "FEBRUARY 2026", "New START lapses: the last treaty limits end", WHITE, tag="REAL DATA", source="Al Jazeera; Congressional Research Service")
 a = round(a + 2.6, 2)
-reg("c6-ns", a, tRo, [("s", [30, 56], 3200), ("e", [30, 56], 2400)], tag="REAL DATA", source="Bulletin of the Atomic Scientists; CRS", clock="", highlight=[HL_RU],
-    cities=[city(a, MOS, "Moscow", a + 0.3, AMBER)],
-    labels=[lab(a, [14.0, 63.0], "Nonstrategic weapons", tRu47, AMBER)])
+reg("c6-ns", a, tRo, [("s", [28, 56], 2800), ("e", [28, 56], 2200)], tag="REAL DATA", source="Bulletin of the Atomic Scientists; CRS", clock="", highlight=[HL_RU] + HL_NATO[:1],
+    cities=[city(a, MOS, "Moscow", a + 0.3, AMBER), city(a, KLD, "Kaliningrad", a + 0.6, AMBER), city(a, WAW, "Poland (NATO)", a + 0.9, BLUE)],
+    labels=[lab(a, [14.0, 63.0], "Nonstrategic weapons", tRu47, AMBER), lab(a, [40.0, 58.5], "RUSSIA", a + 0.2, AMBER)])
 a = tRo
 num("c6-1500", a, tWr47, "1,500 TO 2,000", label="Russian nonstrategic warheads, roughly", sub="never covered by any treaty", color=AMBER, tag="REAL DATA", source="Bulletin of the Atomic Scientists; CRS")
 a = tWr47
