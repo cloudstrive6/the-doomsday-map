@@ -1,7 +1,7 @@
 {
-  "built": "2026-11-18",
-  "latest_snapshot": "2026-11-18",
-  "subscribers": 9,
+  "built": "2026-11-19",
+  "latest_snapshot": "2026-11-19",
+  "subscribers": 12,
   "subs_target": [
     50,
     "2026-12-10"
@@ -10,8 +10,8 @@
     "C1@7d": {
       "label": "Long CTR",
       "target": 0.05,
-      "median": 0.0632,
-      "n": 1,
+      "median": 0.0529,
+      "n": 2,
       "met": true
     },
     "C2@7d": {
@@ -24,29 +24,29 @@
     "C3@7d": {
       "label": "Avg % viewed",
       "target": 40.0,
-      "median": 46.92,
-      "n": 1,
-      "met": true
+      "median": 27.43,
+      "n": 2,
+      "met": false
     },
     "C4@7d": {
       "label": "Long views",
       "target": 150,
-      "median": 60,
-      "n": 1,
+      "median": 35.0,
+      "n": 2,
       "met": false
     },
     "C5a@7d": {
       "label": "Shorts views",
       "target": 300,
-      "median": 123.5,
-      "n": 2,
+      "median": 50,
+      "n": 5,
       "met": false
     },
     "C5b@7d": {
       "label": "Shorts avg % viewed",
       "target": 80.0,
-      "median": 59.395,
-      "n": 2,
+      "median": 54.53,
+      "n": 5,
       "met": false
     },
     "C1@28d": {
@@ -567,8 +567,15 @@
       "publish_at": "2026-11-12T00:00:00Z",
       "horizon": 7,
       "due": "2026-11-19",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-19",
+      "status": "measured",
+      "views": 50,
+      "avp": 60.870000000000005,
+      "avd": 21,
+      "hold": null,
+      "subs": 0,
+      "ctr": 0.0,
+      "impressions": 23
     },
     {
       "episode": "004-one-warhead-one-city",
@@ -591,8 +598,15 @@
       "publish_at": "2026-11-12T00:00:00Z",
       "horizon": 7,
       "due": "2026-11-19",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-19",
+      "status": "measured",
+      "views": 10,
+      "avp": 7.9399999999999995,
+      "avd": 54,
+      "hold": null,
+      "subs": 0,
+      "ctr": 0.0426,
+      "impressions": 47
     },
     {
       "episode": "005-russia-one-tactical-nuke-ukraine",
@@ -615,8 +629,15 @@
       "publish_at": "2026-11-12T14:00:00Z",
       "horizon": 7,
       "due": "2026-11-19",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-19",
+      "status": "measured",
+      "views": 23,
+      "avp": 51.24999999999999,
+      "avd": 28,
+      "hold": null,
+      "subs": 0,
+      "ctr": 0.0,
+      "impressions": 64
     },
     {
       "episode": "005-russia-one-tactical-nuke-ukraine",
@@ -639,8 +660,15 @@
       "publish_at": "2026-11-12T19:00:00Z",
       "horizon": 7,
       "due": "2026-11-19",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-19",
+      "status": "measured",
+      "views": 9,
+      "avp": 32.05,
+      "avd": 17,
+      "hold": null,
+      "subs": 0,
+      "ctr": 0.0185,
+      "impressions": 54
     },
     {
       "episode": "005-russia-one-tactical-nuke-ukraine",

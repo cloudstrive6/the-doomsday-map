@@ -1,19 +1,19 @@
-# Scorecard (2026-11-18, latest snapshot 2026-11-18)
+# Scorecard (2026-11-19, latest snapshot 2026-11-19)
 
 Built by `python -m studio scorecard` from data/analytics/. Targets judged on the median of episodes 004 onward; earlier episodes are the baseline. Small samples: read as tests, not proof.
 
-Subscribers: 9 (target 50 by 2026-12-10)
+Subscribers: 12 (target 50 by 2026-12-10)
 
 ## Targets
 
 | Criterion | Horizon | Target | Median | Episodes measured | Met |
 |---|---|---|---|---|---|
-| C1 Long CTR | 7d | 5.0% | 6.3% | 1 | yes |
+| C1 Long CTR | 7d | 5.0% | 5.3% | 2 | yes |
 | C2 Hold at 11% | 7d | 60.0% | - | 0 | - |
-| C3 Avg % viewed | 7d | 40% | 47% | 1 | yes |
-| C4 Long views | 7d | 150 | 60 | 1 | no |
-| C5a Shorts views | 7d | 300 | 123.5 | 2 | no |
-| C5b Shorts avg % viewed | 7d | 80% | 59% | 2 | no |
+| C3 Avg % viewed | 7d | 40% | 27% | 2 | no |
+| C4 Long views | 7d | 150 | 35.0 | 2 | no |
+| C5a Shorts views | 7d | 300 | 50 | 5 | no |
+| C5b Shorts avg % viewed | 7d | 80% | 55% | 5 | no |
 | C1 Long CTR | 28d | 5.0% | - | 0 | - |
 | C2 Hold at 11% | 28d | 60.0% | - | 0 | - |
 | C3 Avg % viewed | 28d | 40% | - | 0 | - |
@@ -33,7 +33,7 @@ Subscribers: 9 (target 50 by 2026-12-10)
 | 003 | up8u4934iUM | 28 | due 2026-12-08 | - | - | - | - | - | - |
 | 004 | lufMFIv5AeY | 7 | measured | 60 | 6.3% | 190 | - | 47% | 316 |
 | 004 | lufMFIv5AeY | 28 | due 2026-12-09 | - | - | - | - | - | - |
-| 005 | u1EWhaWRoyc | 7 | due 2026-11-19 | - | - | - | - | - | - |
+| 005 | u1EWhaWRoyc | 7 | measured | 10 | 4.3% | 47 | - | 8% | 54 |
 | 005 | u1EWhaWRoyc | 28 | due 2026-12-10 | - | - | - | - | - | - |
 | 006 | DK6UC3_BT6Q | 7 | due 2026-11-20 | - | - | - | - | - | - |
 | 006 | DK6UC3_BT6Q | 28 | due 2026-12-11 | - | - | - | - | - | - |
@@ -72,11 +72,11 @@ Subscribers: 9 (target 50 by 2026-12-10)
 | 004 | Qe5PtpijICA | 28 | due 2026-12-09 | - | - | - |
 | 004 | Km51s_0dCMI | 7 | measured | 190 | 64% | 36 |
 | 004 | Km51s_0dCMI | 28 | due 2026-12-09 | - | - | - |
-| 004 | Xh-d91arwTU | 7 | due 2026-11-19 | - | - | - |
+| 004 | Xh-d91arwTU | 7 | measured | 50 | 61% | 21 |
 | 004 | Xh-d91arwTU | 28 | due 2026-12-10 | - | - | - |
-| 005 | GJ4KihR5Uzw | 7 | due 2026-11-19 | - | - | - |
+| 005 | GJ4KihR5Uzw | 7 | measured | 23 | 51% | 28 |
 | 005 | GJ4KihR5Uzw | 28 | due 2026-12-10 | - | - | - |
-| 005 | 77M-y-VaweA | 7 | due 2026-11-19 | - | - | - |
+| 005 | 77M-y-VaweA | 7 | measured | 9 | 32% | 17 |
 | 005 | 77M-y-VaweA | 28 | due 2026-12-10 | - | - | - |
 | 005 | CswtYFhvZkE | 7 | due 2026-11-20 | - | - | - |
 | 005 | CswtYFhvZkE | 28 | due 2026-12-11 | - | - | - |
