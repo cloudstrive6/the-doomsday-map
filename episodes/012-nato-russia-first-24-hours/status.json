@@ -39,7 +39,12 @@
       "stage": "narrated",
       "note": "11.1 min",
       "at": "2026-11-19T05:20:01+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "119 shots, 670.4 s, 0 pace, 0 retention",
+      "at": "2026-11-19T05:32:03+00:00"
     }
   ],
-  "stage": "narrated"
+  "stage": "shotlisted"
 }
