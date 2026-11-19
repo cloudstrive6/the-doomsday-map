@@ -76,7 +76,7 @@ export const Chrome: React.FC<{tag?: Tag; clock?: string; clockLabel?: string; c
         </div>
       ) : null}
       {source ? (
-        <div style={{position: 'absolute', left: 40 * s, bottom: vertical ? 500 : 28, fontFamily: MONO, fontSize: 13 * s, letterSpacing: 1, color: C.faint}}>{source}</div>
+        <div style={{position: 'absolute', left: 40 * s, bottom: vertical ? 500 : (caption ? 130 : 28), maxWidth: W * 0.62, fontFamily: MONO, fontSize: 24, letterSpacing: 0.5, color: C.text, background: 'rgba(8,10,14,0.82)', padding: '4px 12px'}}>{source}</div>
       ) : null}
     </AbsoluteFill>
   );

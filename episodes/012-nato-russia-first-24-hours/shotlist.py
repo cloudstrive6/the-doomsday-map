@@ -181,17 +181,34 @@ SRC_H = "AP; TWZ; NATO"
 
 
 def offp(base, dx, dy):
-    return [round(base[0] + dx / (111.32 * math.cos(math.radians(base[1]))), 4), round(base[1] + dy / 110.57, 4)]
+    return [round(base[0] + dx / (111.32 * math.cos(math.radians(base[1]))), 6), round(base[1] + dy / 110.57, 6)]
 
 
 def disc(km, t, label=None, color=WHITE, at=None, **kw):
     at = at or GZ
-    pts = [offp(at, km * math.cos(math.radians(d)), km * math.sin(math.radians(d))) for d in range(0, 360, 10)]
+    pts = [offp(at, km * math.cos(math.radians(d)), km * math.sin(math.radians(d))) for d in range(0, 360, 4)]
     z = {"points": pts, "color": color, "t": t}
     if label:
         z["label"] = label
     z.update(kw)
     return z
+
+
+COAST = [21.07, 55.92]    # Lithuanian coast near Palanga: the nearest mainland coast to the burst point
+
+
+def hav(p, q):
+    la1, la2 = math.radians(p[1]), math.radians(q[1])
+    h = math.sin((la2 - la1) / 2) ** 2 + math.cos(la1) * math.cos(la2) * math.sin(math.radians(q[0] - p[0]) / 2) ** 2
+    return 6371 * 2 * math.asin(math.sqrt(h))
+
+
+D_COAST = int(round(hav(GZ, COAST) / 5.0) * 5)
+
+
+def ctx(a_, w, t_=0.2):
+    """Place context for the tight ring shots: the sea and the distance to the nearest mainland coast (lower left, clear of the clock)."""
+    return [lab(a_, offp(GZ, -0.26 * w, -0.16 * w), "BALTIC SEA: OPEN WATER", a_ + t_, WHITE), lab(a_, offp(GZ, -0.26 * w, -0.22 * w), "NEAREST COAST: OVER 100 KM", a_ + t_ + 0.3, YELLOW)]
 
 
 def CH(h, label="SIMULATED TIME"):
@@ -215,8 +232,8 @@ def flight(sid, a, b, keys, strike, t0, t1, mins, ship_label, label_clock="TO IM
 FL = round(W("p01", "lands") - 0.15, 2)
 a = 0
 reg("open-run", 0, FL, [("s", [20.45, 54.3], 430), ("e", [20.3, 54.3], 320)], clock="T-03:06", clockLabel="IMPACT IN", clockRate=round(186 / FL, 1),
-    highlight=[HL_RU] + HL_NATO[:1], countryLabels=[cl("PL", "POLAND", BLUE), cl("RU", "RUSSIA", AMBER)],
-    cities=[city(0, MAL, "Malbork Air Base", 0.3, RED, "target", 6), city(0, KLD, "Kaliningrad", 0.8, AMBER), city(0, GDA, "Gdansk", 1.3, GREY)],
+    highlight=[HL_RU] + HL_NATO[:1], countryLabels=[cl("PL", "POLAND (NATO)", BLUE), cl("RU", "RUSSIA", AMBER)],
+    cities=[city(0, MAL, "Malbork Air Base", 0.3, RED, "target", 6), city(0, KLD, "Kaliningrad", 0.4, YELLOW), city(0, GDA, "Gdansk", 1.3, GREY)],
     lines=[line(0, KAL, MAL, 0.2, FL - 0.1, RED, True)],
     ships=[ship(0, [KAL, MAL], 0.2, FL - 0.1, label="Iskander", color=RED, t_on=0.2, size=2.6)])
 a = FL
@@ -226,8 +243,8 @@ reg("open-burst", a, S("p02"), [("s", MAL, 260), ("e", MAL, 170)], clock="T+00:0
     rings=[ring(a, MAL, 9, a + 0.6, "Strike point", RED)], caption="A conventional warhead. Simulation: it has not happened.")
 a = S("p02")
 reg("open-sim", a, S("p03"), [("s", [20.0, 54.6], 520), ("e", [20.8, 54.7], 760)], clock="T+00:20", clockLabel="AFTER THE STRIKE", clockRate=1,
-    highlight=[HL_RU] + HL_NATO[:1], cities=[city(a, MAL, "Malbork", a + 0.2, RED, "target", 6), city(a, KLD, "Kaliningrad", a + 0.5, AMBER)],
-    labels=[lab(a, [18.2, 55.6], "A simulation: not a prediction", W("p02", "simulation"), YELLOW), lab(a, [18.2, 55.3], "It has not happened", W("p02", "not"), WHITE)])
+    highlight=[HL_RU] + HL_NATO[:1], cities=[city(a, MAL, "Malbork", a + 0.2, RED, "target", 6), city(a, KLD, "Kaliningrad", a + 0.5, AMBER), city(a, GDA, "Gdansk", a + 0.8, GREY)],
+    labels=[lab(a, [19.5, 55.1], "A simulation: not a prediction", W("p02", "simulation"), YELLOW), lab(a, [19.5, 54.85], "It has not happened", W("p02", "not"), WHITE)])
 a = S("p03")
 tIt = W("p03", "It")
 reg("open-launch", a, tIt, [("s", [21.0, 54.7], 430), (W("p03", "launcher"), [21.3, 54.7], 360), ("e", [21.0, 54.6], 420)], clock="T-03:06", clockLabel="LAUNCH", clockRate=1,
@@ -290,8 +307,9 @@ reg("c1-sn", a, tWi, [("s", [12.5, 43.0], 1800), (W("p07", "Steadfast"), [12.0, 
     labels=[lab(a, [6.0, 46.8], "NATO's annual nuclear exercise", W("p07", "annual"), WHITE), lab(a, [6.0, 46.3], "Steadfast Noon", W("p07", "Steadfast"), YELLOW)])
 a = tWi
 reg("c1-sn2", a, S("p08"), [("s", [11.5, 44.0], 1300), (W("p07", "called"), [13.0, 45.0], 1700), ("e", [16, 48], 2400)], tag="REAL DATA", source="AP; Stars and Stripes", clock="OCT 2026", clockLabel="TWO WEEKS LATER", clockRate=0,
-    highlight=[hl("IT", BLUE, 0.12)] + HL_NATO,
-    labels=[lab(a, [6.0, 46.8], "No live weapons", W("p07", "live"), WHITE), lab(a, [6.0, 46.3], "NATO called it routine", W("p07", "routine"), YELLOW)])
+    highlight=[hl("IT", BLUE, 0.12)] + HL_NATO, countryLabels=[cl("IT", "ITALY", BLUE)],
+    cities=[city(a, [12.8, 42.6], "Steadfast Noon: Italy", a + 0.3, BLUE, "base", 6)],
+    labels=[lab(a, [12.8, 41.7], "No live weapons", W("p07", "live"), WHITE), lab(a, [7.0, 41.2], "NATO called it routine", W("p07", "routine"), YELLOW)])
 a = S("p08")
 tInn = W("p08", "In")
 reg("c1-spark", a, tInn, [("s", [20.5, 54.7], 700), (W("p08", "spark"), [20.5, 54.8], 560), ("e", [20.5, 54.8], 430)], clock="T+00:00", clockLabel="THE SPARK", clockRate=0,
@@ -314,7 +332,7 @@ reg("c1-kal2", a, tRs, [("s", [21.0, 54.8], 400), ("e", [22.2, 54.8], 700)], tag
     labels=[lab(a, [18.3, 55.9], "About 1 million people", W("p09", "million"), YELLOW), lab(a, [24.2, 53.7], "Wedged in", W("p09", "wedged"), WHITE)])
 a = tRs
 reg("c1-isk", a, S("p10"), [("s", [20.5, 54.7], 600), (W("p09", "eighteen"), [20.8, 54.8], 420), ("e", [21.0, 54.8], 320)], tag="REAL DATA", source=SRC_A, clock="SINCE 2018", clockLabel="ISKANDER BASED HERE", clockRate=0,
-    highlight=[HL_RU], cities=[city(a, KAL, "Iskander missiles", W("p09", "Iskander"), AMBER, "base", 6), city(a, KLD, "Kaliningrad", a + 0.3, AMBER)],
+    highlight=[HL_RU], cities=[city(a, KAL, "Iskander missiles", W("p09", "Iskander"), YELLOW, "base", 6), city(a, KLD, "Kaliningrad", a + 0.3, YELLOW)],
     labels=[lab(a, [18.8, 55.5], "Based here since 2018", W("p09", "since"), YELLOW)])
 a = S("p10")
 tEi = W("p10", "Either")
@@ -367,11 +385,12 @@ reg("c2-begin", a, S("p14"), [("s", [20, 54.5], 1500), (W("p13", "begins"), [20.
 a = S("p14")
 tA5, tBt, tIt14 = W("p14", "Article", 2), W("p14", "But"), W("p14", "It", 2)
 CL3 = dict(tag="REAL HISTORY", source="NATO, The North Atlantic Treaty", clock="", highlight=HL_NATO + [hl("DE", BLUE, 0.06)])
-reg("c2-a45", a, tBt, [("s", [10, 52.5], 2300), (W("p14", "Article", 2), [11, 52.3], 2000), ("e", [12, 52], 1700)], **CL3,
+CLN = [cl("PL", "POLAND", BLUE), cl("DE", "GERMANY", BLUE), cl("LT", "LITHUANIA", BLUE), cl("LV", "LATVIA", BLUE), cl("EE", "ESTONIA", BLUE)]
+reg("c2-a45", a, tBt, [("s", [10, 52.5], 2300), (W("p14", "Article", 2), [11, 52.3], 2000), ("e", [12, 52], 1700)], **CL3, countryLabels=CLN,
     cities=[city(a, BRU, "NATO, Brussels", a + 0.3, BLUE, "base", 6), city(a, WAW, "Warsaw", W("p14", "Article", 2), BLUE), city(a, RIG, "Riga", W("p14", "Article", 2) + 0.3, BLUE), city(a, BER, "Berlin", W("p14", "Article", 2) + 0.6, BLUE)],
     labels=[lab(a, [0.0, 56.8], "Article 4: talk", W("p14", "talk"), WHITE), lab(a, [0.0, 56.3], "Article 5: the promise", W("p14", "promise"), YELLOW), lab(a, [0.0, 55.8], "An attack on one is an attack on all", W("p14", "attack"), WHITE)])
 a = tBt
-reg("c2-deems", a, tIt14, [("s", [12, 52], 1700), (W("p14", "deems"), [14, 52.5], 1300), ("e", [18, 54], 1000)], **CL3,
+reg("c2-deems", a, tIt14, [("s", [12, 52], 1700), (W("p14", "deems"), [14, 52.5], 1300), ("e", [18, 54], 1000)], **CL3, countryLabels=CLN[:3],
     cities=[city(a, BRU, "Brussels", a + 0.2, BLUE, "base", 6), city(a, WAW, "Warsaw", a + 0.4, BLUE)],
     lines=[line(a, BRU, WAW, W("p14", "action"), W("p14", "action") + 2.0, BLUE, True, "Each ally decides")],
     labels=[lab(a, [6.0, 56.5], "Each ally: such action as it deems necessary", W("p14", "deems"), WHITE)])
@@ -505,12 +524,14 @@ a = chapter("c4-card", S("p25"), 3.5, "CHAPTER 04", "Hour by hour", "SIMULATION"
 a = round(S("p25") + 3.5, 2)
 tIt25 = W("p25", "It")
 flight("c4-oresh", a, tIt25, [("s", [27.5, 52.2], 1300), (W("p25", "eastern"), [26.5, 52.0], 1100), ("e", [25.5, 51.8], 950)], "oreshnik-rzeszow", W("p25", "flies"), tIt25 - 0.3, 6.0, "Oreshnik", "TO IMPACT",
-       highlight=[HL_BY] + HL_NATO[:1] + [hl("UA", TEAL, 0.06)],
+       highlight=[HL_BY] + HL_NATO[:1] + [hl("UA", TEAL, 0.06)], countryLabels=[cl("PL", "POLAND", BLUE), cl("UA", "UKRAINE", TEAL), cl("BY", "BELARUS", AMBER)],
        cities=[city(a, BEL, "Eastern Belarus (simulated)", W("p25", "eastern"), AMBER, "base", 6), tgt(a, "oreshnik-rzeszow", "Rzeszow-Jasionka", W("p25", "Rzeszow-Jasionka"))],
        labels=[lab(a, [20.2, 54.0], "Hour 4", a + 0.3, YELLOW), lab(a, [20.2, 53.6], "Oreshnik: several warheads", W("p25", "several"), WHITE)])
 a = tIt25
-reg("c4-rzz", a, S("p26"), [("s", [22.0, 50.4], 520), (W("p25", "seventy-four"), RZE, 380), ("e", RZE, 260)], **CH("4"), highlight=HL_NATO[:1] + [hl("UA", TEAL, 0.06)],
-    cities=[tgt(a, "oreshnik-rzeszow", "Rzeszow-Jasionka Airport", a + 0.3)], rings=[ring(a, RZE, 12, a + 2.0, "Hit", RED)],
+reg("c4-rzz", a, S("p26"), [("s", [26.5, 51.8], 1100), (W("p25", "seventy-four"), [24.5, 51.0], 800), ("e", RZE, 360)], **CH("4"), highlight=HL_NATO[:1] + [hl("UA", TEAL, 0.06), HL_BY],
+    countryLabels=[cl("PL", "POLAND", BLUE), cl("UA", "UKRAINE", TEAL), cl("BY", "BELARUS", AMBER)],
+    cities=[tgt(a, "oreshnik-rzeszow", "Rzeszow-Jasionka Airport", a + 0.3), city(a, BEL, "Launch (simulated)", a + 0.3, AMBER, "base", 6)], rings=[ring(a, RZE, 12, a + 2.0, "Hit", RED)],
+    lines=[line(a, BEL, RZE, a + 0.4, a + 2.6, RED, True, "774 km")],
     labels=[lab(a, [19.8, 50.9], "774 km in about 6 minutes", W("p25", "seven"), YELLOW)])
 a = S("p26")
 tCs, tRz = W("p26", "CSIS"), W("p26", "Rzeszow")
@@ -616,65 +637,77 @@ reg("c4-what", a, S("p34"), [("s", [20.0, 55.8], 700), (W("p33", "Nagasaki"), [1
 a = S("p34")
 tBu, tEv, tWl = W("p34", "bursts"), W("p34", "Every"), W("p34", "well")
 cardA = round(max(tEv, S("p35") - 4.0), 2)
-CK = dict(clock="T+03:24", clockLabel="THE 10 kt WARHEAD", clockRate=0)
+A0 = S("p34")
+
+
+def ck(a_):
+    """One continuous clock for the whole chapter: T+03:24 at the flash, then ticking in step with the video."""
+    secs = 204 + int(round(a_ - A0))
+    return dict(clock=f"T+{secs // 60:02d}:{secs % 60:02d}", clockLabel="THE 10 kt WARHEAD", clockRate=1)
 reg("c5-burst", a, tWl, [("s", GZ, 400), ("e", GZ, 300)], clock="T+03:24", clockLabel="IMPACT", clockRate=1, burst={"at": GZ, "t": round(tBu - a + 0.05, 2), "km": 14, "fade": 7}, highlight=[HL_RU],
-    cities=[city(a, GZ, "Burst point", tBu + 0.4, RED, "target", 6)], labels=[lab(a, [17.2, 56.9], "Over open sea", W("p34", "sea"), WHITE)], caption="One 10 kiloton airburst. Our choice. It has not happened.")
+    cities=[city(a, GZ, "Burst point", tBu + 0.4, RED, "target", 6), city(a, COAST, "Lithuanian coast", tBu + 1.0, BLUE, "dot", 6)],
+    lines=[line(a, GZ, COAST, tBu + 0.8, tBu + 3.2, WHITE, True, "Over 100 km to the coast")],
+    labels=[lab(a, [17.0, 57.0], "BALTIC SEA: OPEN WATER", a + 0.3, WHITE), lab(a, [17.0, 56.65], "Over open sea", W("p34", "sea"), YELLOW)], caption="One 10 kiloton airburst. Our choice. It has not happened.")
 a = tWl
-reg("c5-coast", a, cardA, [("s", [20.5, 56.0], 330), ("e", [21.0, 56.0], 560)], **CK, highlight=[HL_RU] + HL_NATO,
-    cities=[city(a, GZ, "Burst point", a + 0.2, RED, "target", 6), city(a, KLD, "Kaliningrad", a + 0.5, AMBER)],
+reg("c5-coast", a, cardA, [("s", [20.5, 56.0], 330), ("e", [21.0, 56.0], 560)], **ck(a), highlight=[HL_RU] + HL_NATO,
+    cities=[city(a, GZ, "Burst point", a + 0.2, RED, "target", 6), city(a, KLD, "Kaliningrad", a + 0.5, AMBER), city(a, COAST, "Lithuanian coast", a + 0.8, BLUE, "dot", 6)],
+    lines=[line(a, GZ, COAST, a + 0.6, a + 2.6, WHITE, True, "Over 100 km")],
     burst={"at": GZ, "t": -4.0, "km": 10, "fade": 7},
     labels=[lab(a, [24.2, 57.7], "Well over 100 km from any coast", W("p34", "hundred"), YELLOW)])
 a = chapter("c5-card", cardA, round(S("p35") - cardA, 2), "CHAPTER 05", "One warhead, ring by ring", "SIMULATION")
 a = S("p35")
 FB, P20, P5, TH, P1 = FX["fireball_km"], FX["psi20_km"], FX["psi5_km"], FX["thermal3_km"], FX["psi1_km"]
-reg("c5-fire", a, S("p36"), [("s", GZ, 2.2), (W("p35", "three"), GZ, 1.8), ("e", GZ, 1.5)], **CK,
+reg("c5-fire", a, S("p36"), [("s", GZ, 2.2), (W("p35", "three"), GZ, 1.8), ("e", GZ, 1.5)], **ck(a),
+    burst={"at": GZ, "t": -2.0, "km": 0.45, "fade": 8},
     zones=[disc(FB, 0.3, "Fireball", WHITE, fillOpacity=0.5, solid=True)],
-    labels=[lab(a, offp(GZ, 0, 0.3), "Radius: about 150 m", W("p35", "radius"), YELLOW), lab(a, offp(GZ, 0, -0.3), "About 300 m across", W("p35", "three"), WHITE)])
+    labels=[lab(a, offp(GZ, 0, 0.3), "Radius: about 150 m", W("p35", "radius"), YELLOW), lab(a, offp(GZ, 0, -0.3), "About 300 m across", W("p35", "three"), WHITE)] + ctx(a, 1.5))
 a = S("p36")
-reg("c5-20", a, S("p37"), [("s", GZ, 3.4), (W("p36", "reinforced"), GZ, 2.8), ("e", GZ, 2.4)], **CK,
+reg("c5-20", a, S("p37"), [("s", GZ, 3.4), (W("p36", "reinforced"), GZ, 2.8), ("e", GZ, 2.4)], **ck(a),
     zones=[disc(FB, -3, None, WHITE, fillOpacity=0.4, solid=True), disc(P20, 0.4, "", RED, fillOpacity=0.25)],
-    labels=[lab(a, offp(GZ, 0, 0.5), "20 psi: just under 300 m", a + 0.5, RED), lab(a, offp(GZ, 0, -0.5), "On land: reinforced concrete fails", W("p36", "reinforced"), YELLOW)])
+    labels=[lab(a, offp(GZ, 0, 0.5), "20 psi: just under 300 m", a + 0.5, RED), lab(a, offp(GZ, 0, -0.5), "On land: reinforced concrete fails", W("p36", "reinforced"), YELLOW)] + ctx(a, 2.4))
 a = S("p37")
 tOn37, tTh37 = W("p37", "On"), W("p37", "This")
-reg("c5-5a", a, tOn37, [("s", GZ, 9.0), ("e", GZ, 7.5)], **CK,
+reg("c5-5a", a, tOn37, [("s", GZ, 9.0), ("e", GZ, 7.5)], **ck(a),
     zones=[disc(FB, -3, None, WHITE, fillOpacity=0.4, solid=True), disc(P20, -3, None, RED, fillOpacity=0.2), disc(P5, 0.4, "", RED, fillOpacity=0.18)],
-    labels=[lab(a, offp(GZ, 0, 1.8), "5 psi: 1.46 km", a + 0.6, RED)])
+    labels=[lab(a, offp(GZ, 0, 1.8), "5 psi: 1.46 km", a + 0.6, RED)] + ctx(a, 7.5))
 a = tOn37
-reg("c5-5b", a, tTh37, [("s", GZ, 7.5), ("e", GZ, 8.5)], **CK,
+reg("c5-5b", a, tTh37, [("s", GZ, 7.5), ("e", GZ, 8.5)], **ck(a),
     zones=[disc(FB, -3, None, WHITE, fillOpacity=0.4, solid=True), disc(P20, -3, None, RED, fillOpacity=0.2), disc(P5, -3, None, RED, fillOpacity=0.18)],
-    labels=[lab(a, offp(GZ, 0, 1.9), "On land: most buildings flattened", W("p37", "flattened"), YELLOW)])
+    labels=[lab(a, offp(GZ, 0, 1.9), "On land: most buildings flattened", W("p37", "flattened"), YELLOW)] + ctx(a, 7.5, 0.1))
 a = tTh37
-reg("c5-5c", a, S("p38"), [("s", GZ, 8.5), ("e", GZ, 10.0)], **CK,
+reg("c5-5c", a, S("p38"), [("s", GZ, 8.5), ("e", GZ, 10.0)], **ck(a),
     zones=[disc(FB, -3, None, WHITE, fillOpacity=0.4, solid=True), disc(P20, -3, None, RED, fillOpacity=0.2), disc(P5, -3, None, RED, fillOpacity=0.22, pulse=True)],
-    labels=[lab(a, offp(GZ, 0, 2.2), "6.7 square kilometres", W("p37", "six"), YELLOW), lab(a, offp(GZ, 0, -2.2), "An estimate", W("p37", "covers"), WHITE)])
+    labels=[lab(a, offp(GZ, 0, 2.2), "6.7 square kilometres", W("p37", "six"), YELLOW), lab(a, offp(GZ, 0, -2.2), "An estimate", W("p37", "covers"), WHITE)] + ctx(a, 8.5, 0.1))
 a = S("p38")
-reg("c5-burn", a, S("p39"), [("s", GZ, 9.0), (W("p38", "bare"), GZ, 8.5), ("e", GZ, 9.5)], **CK,
+reg("c5-burn", a, S("p39"), [("s", GZ, 9.0), (W("p38", "bare"), GZ, 8.5), ("e", GZ, 9.5)], **ck(a),
     zones=[disc(P5, -3, None, RED, fillOpacity=0.15), disc(TH, 0.4, "", ORANGE, fillOpacity=0.15)],
-    labels=[lab(a, offp(GZ, 0, 2.2), "Third-degree burns: 1.6 km", a + 0.5, ORANGE), lab(a, offp(GZ, 0, -2.2), "On bare skin", W("p38", "bare"), WHITE)])
+    labels=[lab(a, offp(GZ, 0, 2.2), "Third-degree burns: 1.6 km", a + 0.5, ORANGE), lab(a, offp(GZ, 0, -2.2), "On bare skin", W("p38", "bare"), WHITE)] + ctx(a, 8.5))
 a = S("p39")
-reg("c5-win", a, S("p40"), [("s", GZ, 22), (W("p39", "windows"), GZ, 20), ("e", GZ, 18)], **CK,
+reg("c5-win", a, S("p40"), [("s", GZ, 22), (W("p39", "windows"), GZ, 20), ("e", GZ, 18)], **ck(a),
     zones=[disc(P5, -3, None, RED, fillOpacity=0.12), disc(TH, -3, None, ORANGE, fillOpacity=0.12), disc(P1, 0.4, "", WHITE, fillOpacity=0.1)],
-    labels=[lab(a, offp(GZ, 0, 4.7), "1 psi: 3.95 km", a + 0.6, WHITE), lab(a, offp(GZ, 0, -4.7), "On land: windows shatter", W("p39", "windows"), YELLOW)])
+    labels=[lab(a, offp(GZ, 0, 4.7), "1 psi: 3.95 km", a + 0.6, WHITE), lab(a, offp(GZ, 0, -4.7), "On land: windows shatter", W("p39", "windows"), YELLOW)] + ctx(a, 18))
 a = S("p40")
 tTe, tWe40 = W("p40", "The"), W("p40", "We")
-reg("c5-none", a, tTe, [("s", GZ, 20), (W("p40", "nothing"), GZ, 22), ("e", GZ, 24)], **CK,
+reg("c5-none", a, tTe, [("s", GZ, 20), (W("p40", "nothing"), GZ, 22), ("e", GZ, 24)], **ck(a),
     zones=[disc(P5, -3, None, RED, fillOpacity=0.1), disc(TH, -3, None, ORANGE, fillOpacity=0.1), disc(P1, -3, None, WHITE, fillOpacity=0.08)],
-    labels=[lab(a, offp(GZ, 0, 5.2), "Nothing in those rings", W("p40", "nothing"), YELLOW)])
+    labels=[lab(a, offp(GZ, 0, 5.2), "Nothing in those rings", W("p40", "nothing"), YELLOW)] + ctx(a, 20))
 a = tTe
-reg("c5-fall", a, tWe40, [("s", GZ, 24), ("e", GZ, 40)], **CK,
+reg("c5-fall", a, tWe40, [("s", GZ, 24), ("e", GZ, 40)], **ck(a),
     zones=[disc(P1, -3, None, WHITE, fillOpacity=0.08)],
-    labels=[lab(a, offp(GZ, 0, 6.5), "Little local fallout", W("p40", "fallout"), WHITE)])
+    labels=[lab(a, offp(GZ, 0, 6.5), "Little local fallout", W("p40", "fallout"), WHITE)] + ctx(a, 24))
 a = tWe40
-reg("c5-nocas", a, S("p41"), [("s", GZ, 40), ("e", GZ, 220)], **CK, highlight=[HL_RU] + HL_NATO,
+reg("c5-nocas", a, S("p41"), [("s", GZ, 40), ("e", GZ, 220)], **ck(a), highlight=[HL_RU] + HL_NATO,
     cities=[city(a, GZ, "Burst point", a + 0.2, RED, "target", 6)],
     labels=[lab(a, offp(GZ, -12, 9), "No casualty figure", a + 0.3, YELLOW), lab(a, offp(GZ, -12, 6), "None is published for this scenario", W("p40", "published"), WHITE)])
 a = S("p41")
 tWh41 = W("p41", "What")
-reg("c5-first", a, tWh41, [("s", [20.5, 56.0], 500), (W("p41", "Nagasaki"), [20.5, 56.0], 800), ("e", [20.5, 56.0], 1200)], **CK, highlight=[HL_RU] + HL_NATO,
-    cities=[city(a, GZ, "One warhead", a + 0.3, RED, "target", 6)], burst={"at": GZ, "t": -4.0, "km": 10, "fade": 7},
-    labels=[lab(a, [14.0, 58.8], "First nuclear weapon in war since Nagasaki", W("p41", "first"), YELLOW)])
+reg("c5-first", a, tWh41, [("s", [20.5, 56.0], 500), (W("p41", "Nagasaki"), [20.5, 56.0], 800), ("e", [20.5, 56.0], 1200)], **ck(a), highlight=[HL_RU] + HL_NATO,
+    cities=[city(a, GZ, "One warhead", a + 0.3, RED, "target", 6), city(a, COAST, "Lithuanian coast", a + 0.6, BLUE, "dot", 6)], burst={"at": GZ, "t": -4.0, "km": 10, "fade": 7},
+    countryLabels=[cl("LT", "LITHUANIA", BLUE), cl("RU", "RUSSIA", AMBER)],
+    lines=[line(a, GZ, COAST, a + 0.5, a + 2.5, WHITE, True, "Over 100 km to the coast")],
+    labels=[lab(a, [14.0, 58.8], "First nuclear weapon in war since Nagasaki", W("p41", "first"), YELLOW), lab(a, [17.2, 56.9], "BALTIC SEA", a + 0.3, WHITE)])
 a = tWh41
-reg("c5-rest", a, S("p42"), [("s", [20.5, 56.0], 1200), (W("p41", "rest"), [20, 55], 2000), ("e", [18, 54], 2800)], **CK, highlight=[HL_RU, HL_BY] + HL_NATO, legend=LEG,
+reg("c5-rest", a, S("p42"), [("s", [20.5, 56.0], 1200), (W("p41", "rest"), [20, 55], 2000), ("e", [18, 54], 2800)], **ck(a), highlight=[HL_RU, HL_BY] + HL_NATO, legend=LEG,
     cities=[city(a, GZ, "Burst point", a + 0.2, RED, "target", 6)],
     labels=[lab(a, [8.0, 59.8], "What the world does next", W("p41", "world"), WHITE), lab(a, [8.0, 59.2], "The rest of the simulation", W("p41", "rest"), YELLOW)])
 
@@ -727,10 +760,11 @@ reg("c6-civil", a, tUn, [("s", [20.5, 56.2], 1300), (W("p44", "avoid"), [20.5, 5
     zones=[{"points": [[17.0, 54.2], [24.5, 54.8], [25.0, 58.5], [17.5, 58.5]], "color": YELLOW, "t": W("p44", "avoid") - a, "label": "Civil flights avoid", "fillOpacity": 0.10}],
     labels=[lab(a, [14.0, 59.2], "In our simulation", a + 0.3, YELLOW)])
 a = tUn
-reg("c6-estlink", a, S("p45"), [("s", [26.2, 59.7], 520), (W("p44", "Estlink"), [26.2, 59.7], 450), ("e", [26.2, 59.7], 400)], tag="REAL HISTORY", source="TWZ; NATO, Baltic Sentry", clock="DEC 2024", clockLabel="THE CABLE CUT", clockRate=0, highlight=[hl("FI", GREY, 0.06), hl("EE", BLUE, 0.10)],
-    cities=[city(a, HEL, "Helsinki", a + 0.2, GREY), city(a, TAL, "Tallinn", a + 0.5, BLUE)],
-    lines=[line(a, EST1, EST2, W("p44", "Estlink"), W("p44", "Estlink") + 2.0, RED, False, "Estlink 2: cut", 4)],
-    labels=[lab(a, [22.5, 59.4], "Cables under the water", W("p44", "cables"), WHITE), lab(a, [22.5, 59.0], "Finland to Estonia", W("p44", "Finland"), YELLOW)])
+reg("c6-estlink", a, S("p45"), [("s", [26.2, 59.7], 520), (W("p44", "Estlink"), [26.2, 59.7], 450), ("e", [26.2, 59.7], 400)], tag="REAL HISTORY", source="TWZ; NATO Baltic Sentry", clock="DEC 2024", clockLabel="THE CABLE CUT", clockRate=0, highlight=[hl("FI", GREY, 0.08), hl("EE", BLUE, 0.10), hl("RU", AMBER, 0.05)],
+    countryLabels=[cl("FI", "FINLAND", WHITE), cl("EE", "ESTONIA", BLUE), cl("RU", "RUSSIA", AMBER)],
+    cities=[city(a, HEL, "Helsinki", a + 0.2, WHITE), city(a, TAL, "Tallinn", a + 0.5, BLUE), city(a, lerp(EST1, EST2, 0.45), "Reported cut: Estlink 2", a + 1.2, RED, "target", 6)],
+    lines=[line(a, EST1, EST2, a + 0.3, a + 1.6, RED, False, "Estlink 2 cable", 5)],
+    labels=[lab(a, [23.0, 59.95], "Cables under the water", W("p44", "cables"), WHITE), lab(a, [23.0, 59.65], "Finland to Estonia", W("p44", "Finland"), YELLOW)])
 a = S("p45")
 tTh45 = W("p45", "and")
 reg("c6-plume", a, tTh45, [("s", [20.0, 56.2], 300), (W("p45", "fallout"), [20.0, 56.2], 400), ("e", [20.0, 56.2], 520)], **CD, highlight=[HL_RU] + HL_NATO,
@@ -759,16 +793,17 @@ reg("c6-opts", a, tWe46, [("s", [5, 52], 1700), (W("p46", "pause"), [6, 52], 190
     labels=[lab(a, [-3.0, 59.0], "Three options, as categories", tTr + 0.3, YELLOW), lab(a, [-3.0, 58.4], "We do not pick one", W("p46", "pick"), WHITE)])
 a = S("p47")
 tRu47, tRo, tWr47 = W("p47", "Russia's"), W("p47", "roughly"), W("p47", "were")
-stamp("c6-start", a, round(a + 3.5, 2), "FEBRUARY 2026", "New START lapses: the last treaty limits end", WHITE, tag="REAL DATA", source="Al Jazeera; Congressional Research Service")
-a = round(a + 3.5, 2)
+stamp("c6-start", a, round(a + 2.6, 2), "FEBRUARY 2026", "New START lapses: the last treaty limits end", WHITE, tag="REAL DATA", source="Al Jazeera; Congressional Research Service")
+a = round(a + 2.6, 2)
 reg("c6-ns", a, tRo, [("s", [30, 56], 3200), ("e", [30, 56], 2400)], tag="REAL DATA", source="Bulletin of the Atomic Scientists; CRS", clock="", highlight=[HL_RU],
     cities=[city(a, MOS, "Moscow", a + 0.3, AMBER)],
     labels=[lab(a, [14.0, 63.0], "Nonstrategic weapons", tRu47, AMBER)])
 a = tRo
 num("c6-1500", a, tWr47, "1,500 TO 2,000", label="Russian nonstrategic warheads, roughly", sub="never covered by any treaty", color=AMBER, tag="REAL DATA", source="Bulletin of the Atomic Scientists; CRS")
 a = tWr47
-reg("c6-notreaty", a, S("p48"), [("s", [25, 55], 3000), ("e", [25, 55], 2000)], tag="REAL DATA", source="Bulletin of the Atomic Scientists; CRS", clock="", highlight=[HL_RU] + HL_NATO,
-    labels=[lab(a, [14.0, 61.0], "Never covered by any treaty", a + 0.3, YELLOW)])
+reg("c6-notreaty", a, S("p48"), [("s", [22, 55.6], 1900), ("e", [20.8, 55.4], 1100)], **CD, highlight=[HL_RU] + HL_NATO, legend=LEG,
+    cities=stk(a, 0, 7, 0) + [city(a, GZ, "Burst point (simulated)", a + 0.6, RED, "target", 6)], burst={"at": GZ, "t": -4.0, "km": 8, "fade": 6},
+    labels=[lab(a, [13.0, 58.4], "No treaty covers these weapons", a + 0.3, YELLOW)])
 a = S("p48")
 reg("c6-line2", a, S("p49"), [("s", [20.5, 55.5], 700), (W("p48", "line"), [20.5, 55.5], 900), ("e", [20.5, 55.3], 1200)], **CD, highlight=[HL_RU] + HL_NATO, legend=LEG,
     cities=stk(a, 0, 7, 0) + [city(a, GZ, "First nuclear use since 1945", a + 0.6, RED, "target", 6)], burst={"at": GZ, "t": -4.0, "km": 8, "fade": 6},
@@ -866,6 +901,9 @@ def check_keys():
         if ts and ts[-1] > d + 0.01:
             print("KEYWARN", s["id"], "key past end", ts, d)
 
+for _s in shots:
+    if _s["id"] in ("c5-fire", "c5-20", "c5-5a", "c5-5b", "c5-5c", "c5-burn", "c5-win", "c5-none", "c5-fall"):
+        _s["scaleBar"] = False
 floors()
 densify()
 floors()
