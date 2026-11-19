@@ -1,0 +1,123 @@
+[
+ {
+  "id": "a",
+  "variant": "image",
+  "concept": "witness",
+  "palette": "dawn-gold",
+  "line1": "FIRST SINCE",
+  "line2": "NAGASAKI",
+  "tag": "",
+  "align": "left",
+  "image_prompt": "Bright golden-hour photo of one small person seen from behind, standing on a Baltic Sea beach with pale a low dune in the far lower left corner, watching a nuclear explosion over the open sea on the right half of the frame: a huge towering mushroom cloud rising about one third of the frame height, a vivid orange fireball glowing at its base and a white and orange cap, clearly a mushroom cloud with a stem and cap, lighting the water gold. Deep saturated orange and blue sky. No ring, no halo. The figure, dunes and cloud fill the right 60 percent of the frame; the left 40 percent is clear glowing sky and calm sea. No faces, no text.",
+  "image": "thumbs/012-a.jpg"
+ },
+ {
+  "id": "b",
+  "variant": "image",
+  "concept": "weapon",
+  "palette": "daylight",
+  "line1": "184 KM",
+  "line2": "NO WARNING",
+  "tag": "NUCLEAR OR NOT",
+  "align": "right",
+  "image_prompt": "Bright midday photo of a green eight-wheeled Russian road-mobile Iskander missile launcher truck on a gravel road at the edge of a pine forest, one long white-and-grey ballistic missile raised on the launcher and just igniting, a huge bright orange and white rocket flame and billowing white smoke lighting the trees and the truck, clear blue summer sky. The truck and missile fill the left 60 percent of the frame; the right 40 percent is open bright sky and pale smoke. No people, no faces, no text.",
+  "image": "thumbs/012-b.jpg"
+ },
+ {
+  "id": "c",
+  "variant": "map",
+  "concept": "map",
+  "palette": "map",
+  "line1": "24 HOURS",
+  "line2": "THE LINE",
+  "tag": "",
+  "align": "left",
+  "region": {
+   "theme": "bright",
+   "t": 30,
+   "view": {
+    "center": [
+     15.0,
+     54.2
+    ],
+    "widthKm": 1700
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#C98A00",
+     "fill": "rgba(242,176,30,0.6)"
+    },
+    {
+     "iso": "616",
+     "color": "#2F6FD6",
+     "fill": "rgba(80,140,240,0.55)"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      21.8,
+      54.6
+     ],
+     "to": [
+      19.134,
+      54.027
+     ],
+     "color": "#E01E1E",
+     "t0": 0,
+     "t1": 1,
+     "width": 9
+    },
+    {
+     "from": [
+      28.3,
+      57.8
+     ],
+     "to": [
+      24.34,
+      57.08
+     ],
+     "color": "#E01E1E",
+     "t0": 0,
+     "t1": 1,
+     "width": 9
+    },
+    {
+     "from": [
+      20.0,
+      56.5
+     ],
+     "to": [
+      24.85,
+      56.775
+     ],
+     "color": "#E01E1E",
+     "t0": 0,
+     "t1": 1,
+     "width": 9
+    }
+   ],
+   "burst": {
+    "at": [
+     19.2,
+     56.1
+    ],
+    "t": 27.4,
+    "km": 130,
+    "fade": 9
+   },
+   "rings": [
+    {
+     "at": [
+      19.2,
+      56.1
+     ],
+     "km": 170,
+     "color": "#E01E1E",
+     "dashed": false
+    }
+   ]
+  }
+ }
+]
