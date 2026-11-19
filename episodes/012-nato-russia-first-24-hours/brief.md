@@ -1,0 +1,10 @@
+# Episode 012: World War 3 starts in Europe, conventional first: the first 24 hours
+
+- Topic: a simulated NATO and Russia conventional war over the Baltic states, hour by hour for the first 24 hours: air defence suppression, the Suwalki Gap, Kaliningrad, cruise and ballistic missile salvos on airbases and ports, cyber and satellite attacks, and the nuclear threshold that hangs over every decision. Built from published work (RAND Baltic wargames, CSIS and IISS force data, SIPRI and FAS arsenal estimates, published missile ranges and flight times). It has not happened.
+- Angle: real history and data first (the 2016 RAND Baltic wargame "60 hours", Able Archer 83, the real NATO Article 5 record, Zapad exercises), then one clearly labelled simulation, then the day after on the map. The last chapter is the simulation's aftermath (where the front, the airfields and the escalation stand at hour 24), never history or statistics. Differs from 009 (Baltic 72 hours, Princeton Plan A): this is the whole-of-Europe conventional air, sea and missile war, a 24-hour clock, US and NATO forces against Russia, with the nuclear line as the cliff.
+- Why now: great-power war lane, backlog item 5 (Spotlight "WW3 Simulation" 730K, 39x; Know Better "USA and China Full-Scale War" 41K, 63x). Framed as a hypothetical, no real date, no casualty figure unless a published study supplies it (cite the study).
+- Hook moment: the first strike on a real target (an air-defence site or Kaliningrad missile base) under the banner inside 8 s, clock at hour 0 of 24. If the designer includes a single nuclear-threshold moment at the end, label it SIMULATION; the opening payoff must be a real-target strike on moving footage.
+- Hero strike: chosen by the scenario-designer (numbers from the engine only).
+- Thumbnail number: "24 HOURS".
+- Next episode for the end slate: Taiwan goes dark, a cyber attack on the grid and the chip fabs (no date).
+- Lane: great-power war and flashpoints (Baltic), with nuclear escalation risk.
