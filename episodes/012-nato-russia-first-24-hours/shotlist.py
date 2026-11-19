@@ -208,7 +208,7 @@ D_COAST = int(round(hav(GZ, COAST) / 5.0) * 5)
 
 def ctx(a_, w, t_=0.2):
     """Place context for the tight ring shots: the sea and the distance to the nearest mainland coast (lower left, clear of the clock)."""
-    return [lab(a_, offp(GZ, -0.26 * w, -0.16 * w), "BALTIC SEA: OPEN WATER", a_ + t_, WHITE), lab(a_, offp(GZ, -0.26 * w, -0.22 * w), "NEAREST COAST: OVER 100 KM", a_ + t_ + 0.3, YELLOW)]
+    return [lab(a_, offp(GZ, -0.34 * w, -0.3 * w), "OPEN WATER", a_ + t_, WHITE), lab(a_, offp(GZ, -0.34 * w, -0.37 * w), "COAST: 100+ KM", a_ + t_ + 0.3, YELLOW)]
 
 
 def CH(h, label="SIMULATED TIME"):
@@ -465,13 +465,15 @@ a = S("p20")
 tPl, tTh20 = W("p20", "Polish"), W("p20", "The")
 tImp20 = round(tPl - 0.5, 2)
 flight("c3-malf", a, tPl, [("s", [20.5, 54.3], 450), (W("p20", "Iskander"), [20.2, 54.3], 360), ("e", [19.8, 54.2], 280)], "isk-malbork", a + 0.6, tImp20, 3.1, "Iskander", "TO IMPACT", highlight=[HL_RU] + HL_NATO[:1],
-       cities=[tgt(a, "isk-malbork", "Malbork Air Base", W("p20", "Malbork")), city(a, KAL, "Kaliningrad", a + 0.2, AMBER, "base", 6)],
-       labels=[lab(a, [18.3, 55.0], "Hour 0: first strike", a + 0.3, YELLOW)])
+       cities=[tgt(a, "isk-malbork", "Malbork Air Base", a + 0.1), city(a, KAL, "Kaliningrad", a + 0.2, AMBER, "base", 6)],
+       rings=[ring(a, MAL, 12, a + 0.1, "Target", RED)], legend=LEG,
+       labels=[lab(a, [18.3, 55.0], "Hour 0: first strike", a + 0.1, YELLOW)])
 a = tPl
 reg("c3-malz", a, tTh20, [("s", MAL, 280), (W("p20", "within"), MAL, 210), ("e", MAL, 170)], **CH("0"), highlight=[HL_RU] + HL_NATO[:1],
+    burst={"at": MAL, "t": 0.05, "km": 4, "fade": 4},
     cities=[tgt(a, "isk-malbork", "Malbork Air Base", a + 0.2), city(a, KLD, "Kaliningrad", a + 0.5, AMBER)],
     rings=[ring(a, MAL, 8, a + 0.4, "Conventional hit", RED)],
-    labels=[lab(a, [18.0, 54.5], "Within easy reach of Kaliningrad", W("p20", "within"), WHITE)])
+    labels=[lab(a, [17.3, 53.9], "Within easy reach of Kaliningrad", W("p20", "within"), WHITE)])
 a = tTh20
 reg("c3-aim", a, S("p21"), [("s", [20.2, 54.3], 400), (W("p20", "before"), [20.2, 54.4], 320), ("e", [20.2, 54.4], 450)], **CH("0"), highlight=[HL_RU] + HL_NATO[:1],
     cities=[tgt(a, "isk-malbork", "Malbork", a + 0.2), city(a, KLD, "Kaliningrad oblast", a + 0.5, AMBER)],
@@ -487,10 +489,12 @@ a = tHi
 reg("c3-adazi", a, tIt21, [("s", ADZ, 300), (W("p21", "Canadian-led"), ADZ, 220), ("e", ADZ, 170)], **CH("0.5", "HALF AN HOUR IN"), highlight=HL_NATO,
     cities=[tgt(a, "isk-adazi", "Adazi Base, Latvia", a + 0.3), city(a, RIG, "Riga", a + 0.8, GREY)],
     rings=[ring(a, ADZ, 8, a + 0.2, "Conventional hit", RED)],
+    burst={"at": ADZ, "t": 0.05, "km": 4, "fade": 4},
     labels=[lab(a, [22.5, 57.6], "Canadian-led NATO battlegroup", W("p21", "Canadian-led"), BLUE)])
 a = tIt21
 reg("c3-a250", a, S("p22"), [("s", [26.3, 57.4], 620), (W("p21", "minutes"), [26.3, 57.4], 520), ("e", [26.3, 57.4], 460)], **CH("0.5"), highlight=[HL_RU] + HL_NATO,
-    cities=[city(a, PSK, "Launch (simulated)", a + 0.2, AMBER, "base", 6), tgt(a, "isk-adazi", "Adazi", a + 0.5)],
+    cities=[city(a, PSK, "Launch (simulated)", a + 0.2, AMBER, "base", 6), tgt(a, "isk-adazi", "Adazi Base, Latvia", a + 0.1)],
+    rings=[ring(a, ADZ, 20, a + 0.1, "Hit", RED)],
     lines=[line(a, PSK, ADZ, W("p21", "two"), W("p21", "two") + 1.5, RED, True, "250 km")],
     labels=[lab(a, [23.0, 58.5], "3.5 minutes", W("p21", "minutes"), YELLOW)])
 a = S("p22")
@@ -605,24 +609,26 @@ a = S("p31")
 tNo, tOn2 = W("p31", "No"), W("p31", "One", 2)
 tImpW = round(S("p33") - 0.4, 2)
 tFly = W("p32", "flight")
-reg("c4-h22", a, tNo, [("s", [20.5, 55.2], 800), (W("p31", "leaves"), [20.8, 55.4], 700), ("e", [20.5, 55.4], 650)], **CH("22", "HOUR 22"), highlight=[HL_RU] + HL_NATO[:1],
-    cities=[city(a, KAL, "Iskander-M (simulated)", W("p31", "Iskander-M"), AMBER, "base", 6), city(a, KLD, "Kaliningrad", a + 0.4, AMBER)],
-    labels=[lab(a, [17.2, 56.6], "Hour 22", a + 0.3, YELLOW), lab(a, [17.2, 56.2], "One nuclear warhead", W("p31", "nuclear"), RED)])
+reg("c4-h22", a, tNo, [("s", [21.3, 55.4], 700), (W("p31", "leaves"), [21.5, 55.6], 650), ("e", [21.3, 55.6], 600)], **CH("22"), highlight=[HL_RU] + HL_NATO[:1], legend=LEG,
+    cities=[city(a, KAL, "Iskander-M (simulated)", a + 0.2, AMBER, "base", 6), city(a, KLD, "Kaliningrad", a + 0.1, AMBER), city(a, GZ, "Open water (simulated)", a + 0.5, RED, "target", 6)],
+    lines=[line(a, KAL, GZ, a + 0.3, a + 2.5, RED, True)],
+    labels=[lab(a, [17.2, 57.2], "One nuclear warhead", W("p31", "nuclear"), RED)])
 a = tNo
-reg("c4-sea", a, tOn2, [("s", [20.0, 55.6], 650), (W("p31", "coast"), [19.6, 55.8], 520), ("e", [19.4, 56.0], 420)], **CH("22"), highlight=[HL_RU] + HL_NATO[:1],
-    cities=[city(a, KAL, "Launch", a + 0.2, AMBER, "base", 6), city(a, GZ, "Open water (simulated)", W("p31", "ship"), RED, "target", 6)],
+reg("c4-sea", a, tOn2, [("s", [21.2, 55.6], 650), (W("p31", "coast"), [20.8, 55.8], 520), ("e", [20.6, 56.0], 420)], **CH("22"), highlight=[HL_RU] + HL_NATO[:1],
+    cities=[city(a, KAL, "Launch", a + 0.2, AMBER, "base", 6), city(a, GZ, "Open water", W("p31", "ship"), RED, "target", 6)],
     lines=[line(a, KAL, GZ, a + 0.4, a + 2.4, RED, True)],
     labels=[lab(a, [17.0, 57.2], "No ship. No coast.", W("p31", "ship"), WHITE), lab(a, [17.0, 56.8], "A warning shot: our choice", W("p31", "warning"), YELLOW)])
 a = tOn2
-reg("c4-pol", a, S("p32"), [("s", [20.0, 55.8], 900), (W("p31", "possible"), [20.0, 55.8], 1100), ("e", [20.0, 55.8], 1400)], **CH("22"), highlight=[HL_RU] + HL_NATO,
-    cities=[city(a, GZ, "Warning shot", a + 0.3, RED, "target", 6)],
+reg("c4-pol", a, S("p32"), [("s", [20.0, 55.8], 900), (W("p31", "possible"), [20.0, 55.8], 1100), ("e", [20.0, 55.8], 1400)], **CH("22"), highlight=[HL_RU] + HL_NATO, legend=LEG,
+    cities=[city(a, GZ, "Warning shot", a + 0.3, RED, "target", 6), city(a, KLD, "Kaliningrad", a + 0.2, AMBER)],
+    lines=[line(a, KAL, GZ, a + 0.3, a + 2.0, RED, True)],
     labels=[lab(a, [13.5, 58.5], "One reading of Russian signalling", W("p31", "reading"), WHITE), lab(a, [13.5, 58.0], "Not claimed as Russian policy", W("p31", "claim"), YELLOW)])
 a = S("p32")
 reg("c4-dual", a, tFly, [("s", [21, 55.2], 700), (W("p32", "either"), [21, 55.3], 600), ("e", [21, 55.3], 520)], **CH("22"), highlight=[HL_RU],
     cities=[city(a, KAL, "Iskander: dual-capable", a + 0.3, AMBER, "base", 6)],
     labels=[lab(a, [18.0, 56.4], "Either kind of warhead", W("p32", "either"), YELLOW)])
 a = tFly
-flight("c4-wfly", a, S("p33"), [("s", [20.6, 55.3], 700), (W("p32", "half"), [20.4, 55.4], 560), ("e", [20.2, 55.5], 480)], "isk-warning-baltic", a + 0.3, S("p33") - 0.3, 3.4, "Iskander-M", "TO BURST", highlight=[HL_RU],
+flight("c4-wfly", a, S("p33"), [("s", [21.8, 55.4], 700), (W("p32", "half"), [21.6, 55.5], 560), ("e", [21.4, 55.6], 480)], "isk-warning-baltic", a + 0.3, S("p33") - 0.3, 3.4, "Iskander-M", "TO BURST", highlight=[HL_RU],
        cities=[city(a, KAL, "Kaliningrad", a + 0.1, AMBER, "base", 6), city(a, GZ, "Burst point (simulated)", a + 0.4, RED, "target", 6)],
        labels=[lab(a, [17.8, 56.7], "234 km, about 3.5 minutes", W("p32", "two"), YELLOW)])
 a = S("p33")
@@ -644,7 +650,7 @@ def ck(a_):
     """One continuous clock for the whole chapter: T+03:24 at the flash, then ticking in step with the video."""
     secs = 204 + int(round(a_ - A0))
     return dict(clock=f"T+{secs // 60:02d}:{secs % 60:02d}", clockLabel="THE 10 kt WARHEAD", clockRate=1)
-reg("c5-burst", a, tWl, [("s", GZ, 400), ("e", GZ, 300)], clock="T+03:24", clockLabel="IMPACT", clockRate=1, burst={"at": GZ, "t": round(tBu - a + 0.05, 2), "km": 14, "fade": 7}, highlight=[HL_RU],
+reg("c5-burst", a, tWl, [("s", GZ, 400), ("e", GZ, 300)], clock="T+03:24", clockLabel="IMPACT", clockRate=1, burst={"at": GZ, "t": 0.4, "km": 14, "fade": 7}, highlight=[HL_RU],
     cities=[city(a, GZ, "Burst point", tBu + 0.4, RED, "target", 6), city(a, COAST, "Lithuanian coast", tBu + 1.0, BLUE, "dot", 6)],
     lines=[line(a, GZ, COAST, tBu + 0.8, tBu + 3.2, WHITE, True, "Over 100 km to the coast")],
     labels=[lab(a, [17.0, 57.0], "BALTIC SEA: OPEN WATER", a + 0.3, WHITE), lab(a, [17.0, 56.65], "Over open sea", W("p34", "sea"), YELLOW)], caption="One 10 kiloton airburst. Our choice. It has not happened.")
@@ -660,7 +666,7 @@ FB, P20, P5, TH, P1 = FX["fireball_km"], FX["psi20_km"], FX["psi5_km"], FX["ther
 reg("c5-fire", a, S("p36"), [("s", GZ, 2.2), (W("p35", "three"), GZ, 1.8), ("e", GZ, 1.5)], **ck(a),
     burst={"at": GZ, "t": -2.0, "km": 0.45, "fade": 8},
     zones=[disc(FB, 0.3, "Fireball", WHITE, fillOpacity=0.5, solid=True)],
-    labels=[lab(a, offp(GZ, 0, 0.3), "Radius: about 150 m", W("p35", "radius"), YELLOW), lab(a, offp(GZ, 0, -0.3), "About 300 m across", W("p35", "three"), WHITE)] + ctx(a, 1.5))
+    labels=[lab(a, offp(GZ, 0, 0.3), "About 300 m across", W("p35", "radius"), YELLOW)] + ctx(a, 1.5))
 a = S("p36")
 reg("c5-20", a, S("p37"), [("s", GZ, 3.4), (W("p36", "reinforced"), GZ, 2.8), ("e", GZ, 2.4)], **ck(a),
     zones=[disc(FB, -3, None, WHITE, fillOpacity=0.4, solid=True), disc(P20, 0.4, "", RED, fillOpacity=0.25)],
@@ -669,7 +675,7 @@ a = S("p37")
 tOn37, tTh37 = W("p37", "On"), W("p37", "This")
 reg("c5-5a", a, tOn37, [("s", GZ, 9.0), ("e", GZ, 7.5)], **ck(a),
     zones=[disc(FB, -3, None, WHITE, fillOpacity=0.4, solid=True), disc(P20, -3, None, RED, fillOpacity=0.2), disc(P5, 0.4, "", RED, fillOpacity=0.18)],
-    labels=[lab(a, offp(GZ, 0, 1.8), "5 psi: 1.46 km", a + 0.6, RED)] + ctx(a, 7.5))
+    labels=[lab(a, offp(GZ, 0, 2.5), "5 psi: 1.46 km", a + 0.6, RED)] + ctx(a, 7.5))
 a = tOn37
 reg("c5-5b", a, tTh37, [("s", GZ, 7.5), ("e", GZ, 8.5)], **ck(a),
     zones=[disc(FB, -3, None, WHITE, fillOpacity=0.4, solid=True), disc(P20, -3, None, RED, fillOpacity=0.2), disc(P5, -3, None, RED, fillOpacity=0.18)],

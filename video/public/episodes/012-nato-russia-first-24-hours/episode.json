@@ -5263,7 +5263,7 @@
      ],
      "label": "Malbork Air Base",
      "kind": "target",
-     "t": 3.08,
+     "t": 0.1,
      "color": "#FF3B3B",
      "size": 6
     },
@@ -5279,6 +5279,29 @@
      "size": 6
     }
    ],
+   "rings": [
+    {
+     "at": [
+      19.134,
+      54.027
+     ],
+     "km": 12,
+     "label": "Target",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "dashed": false
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
    "labels": [
     {
      "at": [
@@ -5287,7 +5310,7 @@
      ],
      "text": "Hour 0: first strike",
      "color": "#FFD23F",
-     "t": 0.3
+     "t": 0.1
     }
    ]
   },
@@ -5345,6 +5368,15 @@
      "fill": "rgba(110,168,255,0.1)"
     }
    ],
+   "burst": {
+    "at": [
+     19.134,
+     54.027
+    ],
+    "t": 0.05,
+    "km": 4,
+    "fade": 4
+   },
    "cities": [
     {
      "at": [
@@ -5384,8 +5416,8 @@
    "labels": [
     {
      "at": [
-      18.0,
-      54.5
+      17.3,
+      53.9
      ],
      "text": "Within easy reach of Kaliningrad",
      "color": "#FFFFFF",
@@ -5761,6 +5793,15 @@
      "dashed": false
     }
    ],
+   "burst": {
+    "at": [
+     24.34,
+     57.08
+    ],
+    "t": 0.05,
+    "km": 4,
+    "fade": 4
+   },
    "labels": [
     {
      "at": [
@@ -5859,11 +5900,24 @@
       24.34,
       57.08
      ],
-     "label": "Adazi",
+     "label": "Adazi Base, Latvia",
      "kind": "target",
-     "t": 0.5,
+     "t": 0.1,
      "color": "#FF3B3B",
      "size": 6
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      24.34,
+      57.08
+     ],
+     "km": 20,
+     "label": "Hit",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "dashed": false
     }
    ],
    "lines": [
@@ -8588,39 +8642,39 @@
    "tag": "SIMULATION",
    "view": {
     "center": [
-     20.5,
-     55.2
+     21.3,
+     55.4
     ],
-    "widthKm": 800
+    "widthKm": 700
    },
    "camera": [
     {
      "t": 0,
      "center": [
-      20.5,
-      55.2
-     ],
-     "widthKm": 800
-    },
-    {
-     "t": 5.11,
-     "center": [
-      20.8,
+      21.3,
       55.4
      ],
      "widthKm": 700
     },
     {
-     "t": 8.52,
+     "t": 5.11,
      "center": [
-      20.5,
-      55.4
+      21.5,
+      55.6
      ],
      "widthKm": 650
+    },
+    {
+     "t": 8.52,
+     "center": [
+      21.3,
+      55.6
+     ],
+     "widthKm": 600
     }
    ],
    "clock": "HOUR 22",
-   "clockLabel": "HOUR 22",
+   "clockLabel": "SIMULATED TIME",
    "clockRate": 0,
    "highlight": [
     {
@@ -8634,6 +8688,16 @@
      "fill": "rgba(110,168,255,0.1)"
     }
    ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
    "cities": [
     {
      "at": [
@@ -8642,7 +8706,7 @@
      ],
      "label": "Iskander-M (simulated)",
      "kind": "base",
-     "t": 1.71,
+     "t": 0.2,
      "color": "#F2B01E",
      "size": 6
     },
@@ -8653,24 +8717,42 @@
      ],
      "label": "Kaliningrad",
      "kind": "dot",
-     "t": 0.4,
+     "t": 0.1,
      "color": "#F2B01E"
+    },
+    {
+     "at": [
+      19.2,
+      56.1
+     ],
+     "label": "Open water (simulated)",
+     "kind": "target",
+     "t": 0.5,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      21.8,
+      54.6
+     ],
+     "to": [
+      19.2,
+      56.1
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.3,
+     "t1": 2.5
     }
    ],
    "labels": [
     {
      "at": [
       17.2,
-      56.6
-     ],
-     "text": "Hour 22",
-     "color": "#FFD23F",
-     "t": 0.3
-    },
-    {
-     "at": [
-      17.2,
-      56.2
+      57.2
      ],
      "text": "One nuclear warhead",
      "color": "#FF3B3B",
@@ -8686,7 +8768,7 @@
    "tag": "SIMULATION",
    "view": {
     "center": [
-     20.0,
+     21.2,
      55.6
     ],
     "widthKm": 650
@@ -8695,7 +8777,7 @@
     {
      "t": 0,
      "center": [
-      20.0,
+      21.2,
       55.6
      ],
      "widthKm": 650
@@ -8703,7 +8785,7 @@
     {
      "t": 1.11,
      "center": [
-      19.6,
+      20.8,
       55.8
      ],
      "widthKm": 520
@@ -8711,7 +8793,7 @@
     {
      "t": 6.23,
      "center": [
-      19.4,
+      20.6,
       56.0
      ],
      "widthKm": 420
@@ -8749,7 +8831,7 @@
       19.2,
       56.1
      ],
-     "label": "Open water (simulated)",
+     "label": "Open water",
      "kind": "target",
      "t": 0.21,
      "color": "#FF3B3B",
@@ -8862,6 +8944,16 @@
      "fill": "rgba(110,168,255,0.1)"
     }
    ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
    "cities": [
     {
      "at": [
@@ -8873,6 +8965,32 @@
      "t": 0.3,
      "color": "#FF3B3B",
      "size": 6
+    },
+    {
+     "at": [
+      20.51,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "kind": "dot",
+     "t": 0.2,
+     "color": "#F2B01E"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      21.8,
+      54.6
+     ],
+     "to": [
+      19.2,
+      56.1
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.3,
+     "t1": 2.0
     }
    ],
    "labels": [
@@ -8978,8 +9096,8 @@
    "tag": "SIMULATION",
    "view": {
     "center": [
-     20.6,
-     55.3
+     21.8,
+     55.4
     ],
     "widthKm": 700
    },
@@ -8987,24 +9105,24 @@
     {
      "t": 0,
      "center": [
-      20.6,
-      55.3
+      21.8,
+      55.4
      ],
      "widthKm": 700
     },
     {
      "t": 3.26,
      "center": [
-      20.4,
-      55.4
+      21.6,
+      55.5
      ],
      "widthKm": 560
     },
     {
      "t": 4.94,
      "center": [
-      20.2,
-      55.5
+      21.4,
+      55.6
      ],
      "widthKm": 480
     }
@@ -9228,7 +9346,7 @@
      19.2,
      56.1
     ],
-    "t": 1.01,
+    "t": 0.4,
     "km": 14,
     "fade": 7
    },
@@ -9872,34 +9990,25 @@
       19.2,
       56.102713
      ],
-     "text": "Radius: about 150 m",
+     "text": "About 300 m across",
      "color": "#FFD23F",
      "t": 3.65
     },
     {
      "at": [
-      19.2,
-      56.097287
+      19.191786,
+      56.09593
      ],
-     "text": "About 300 m across",
-     "color": "#FFFFFF",
-     "t": 5.01
-    },
-    {
-     "at": [
-      19.193719,
-      56.097829
-     ],
-     "text": "BALTIC SEA: OPEN WATER",
+     "text": "OPEN WATER",
      "color": "#FFFFFF",
      "t": 0.2
     },
     {
      "at": [
-      19.193719,
-      56.097015
+      19.191786,
+      56.094981
      ],
-     "text": "NEAREST COAST: OVER 100 KM",
+     "text": "COAST: 100+ KM",
      "color": "#FFD23F",
      "t": 0.5
     }
@@ -10706,19 +10815,19 @@
     },
     {
      "at": [
-      19.18995,
-      56.096527
+      19.186857,
+      56.093488
      ],
-     "text": "BALTIC SEA: OPEN WATER",
+     "text": "OPEN WATER",
      "color": "#FFFFFF",
      "t": 0.2
     },
     {
      "at": [
-      19.18995,
-      56.095225
+      19.186857,
+      56.091969
      ],
-     "text": "NEAREST COAST: OVER 100 KM",
+     "text": "COAST: 100+ KM",
      "color": "#FFD23F",
      "t": 0.5
     }
@@ -11867,7 +11976,7 @@
     {
      "at": [
       19.2,
-      56.116279
+      56.12261
      ],
      "text": "5 psi: 1.46 km",
      "color": "#FF3B3B",
@@ -11875,19 +11984,19 @@
     },
     {
      "at": [
-      19.168593,
-      56.089147
+      19.158929,
+      56.079651
      ],
-     "text": "BALTIC SEA: OPEN WATER",
+     "text": "OPEN WATER",
      "color": "#FFFFFF",
      "t": 0.2
     },
     {
      "at": [
-      19.168593,
-      56.085077
+      19.158929,
+      56.074903
      ],
-     "text": "NEAREST COAST: OVER 100 KM",
+     "text": "COAST: 100+ KM",
      "color": "#FFD23F",
      "t": 0.5
     }
@@ -13044,19 +13153,19 @@
     },
     {
      "at": [
-      19.168593,
-      56.089147
+      19.158929,
+      56.079651
      ],
-     "text": "BALTIC SEA: OPEN WATER",
+     "text": "OPEN WATER",
      "color": "#FFFFFF",
      "t": 0.1
     },
     {
      "at": [
-      19.168593,
-      56.085077
+      19.158929,
+      56.074903
      ],
-     "text": "NEAREST COAST: OVER 100 KM",
+     "text": "COAST: 100+ KM",
      "color": "#FFD23F",
      "t": 0.4
     }
@@ -14223,19 +14332,19 @@
     },
     {
      "at": [
-      19.164405,
-      56.0877
+      19.153453,
+      56.076938
      ],
-     "text": "BALTIC SEA: OPEN WATER",
+     "text": "OPEN WATER",
      "color": "#FFFFFF",
      "t": 0.1
     },
     {
      "at": [
-      19.164405,
-      56.083088
+      19.153453,
+      56.071556
      ],
-     "text": "NEAREST COAST: OVER 100 KM",
+     "text": "COAST: 100+ KM",
      "color": "#FFD23F",
      "t": 0.4
     }
@@ -15041,19 +15150,19 @@
     },
     {
      "at": [
-      19.164405,
-      56.0877
+      19.153453,
+      56.076938
      ],
-     "text": "BALTIC SEA: OPEN WATER",
+     "text": "OPEN WATER",
      "color": "#FFFFFF",
      "t": 0.2
     },
     {
      "at": [
-      19.164405,
-      56.083088
+      19.153453,
+      56.071556
      ],
-     "text": "NEAREST COAST: OVER 100 KM",
+     "text": "COAST: 100+ KM",
      "color": "#FFD23F",
      "t": 0.5
     }
@@ -16226,19 +16335,19 @@
     },
     {
      "at": [
-      19.124623,
-      56.073953
+      19.101431,
+      56.051162
      ],
-     "text": "BALTIC SEA: OPEN WATER",
+     "text": "OPEN WATER",
      "color": "#FFFFFF",
      "t": 0.2
     },
     {
      "at": [
-      19.124623,
-      56.064186
+      19.101431,
+      56.039767
      ],
-     "text": "NEAREST COAST: OVER 100 KM",
+     "text": "COAST: 100+ KM",
      "color": "#FFD23F",
      "t": 0.5
     }
@@ -17402,19 +17511,19 @@
     },
     {
      "at": [
-      19.116248,
-      56.071059
+      19.090478,
+      56.045736
      ],
-     "text": "BALTIC SEA: OPEN WATER",
+     "text": "OPEN WATER",
      "color": "#FFFFFF",
      "t": 0.2
     },
     {
      "at": [
-      19.116248,
-      56.060206
+      19.090478,
+      56.033074
      ],
-     "text": "NEAREST COAST: OVER 100 KM",
+     "text": "COAST: 100+ KM",
      "color": "#FFD23F",
      "t": 0.5
     }
@@ -17836,19 +17945,19 @@
     },
     {
      "at": [
-      19.099498,
-      56.065271
+      19.068574,
+      56.034883
      ],
-     "text": "BALTIC SEA: OPEN WATER",
+     "text": "OPEN WATER",
      "color": "#FFFFFF",
      "t": 0.2
     },
     {
      "at": [
-      19.099498,
-      56.052247
+      19.068574,
+      56.019689
      ],
-     "text": "NEAREST COAST: OVER 100 KM",
+     "text": "COAST: 100+ KM",
      "color": "#FFD23F",
      "t": 0.5
     }

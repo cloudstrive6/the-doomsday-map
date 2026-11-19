@@ -1,0 +1,887 @@
+{
+ "subtitles": [
+  {
+   "start": 0.207,
+   "end": 1.535,
+   "text": "At hour 0,"
+  },
+  {
+   "start": 1.535,
+   "end": 3.952,
+   "text": "one Iskander hits Malbork"
+  },
+  {
+   "start": 3.952,
+   "end": 5.582,
+   "text": "Air Base in Poland,"
+  },
+  {
+   "start": 5.959,
+   "end": 7.472,
+   "text": "a Polish air base within"
+  },
+  {
+   "start": 7.472,
+   "end": 9.942,
+   "text": "easy reach of Kaliningrad."
+  },
+  {
+   "start": 10.662,
+   "end": 13.262,
+   "text": "The aim, in our simulation,"
+  },
+  {
+   "start": 13.701,
+   "end": 14.992,
+   "text": "is to hit it before NATO"
+  },
+  {
+   "start": 14.992,
+   "end": 17.662,
+   "text": "can use it against the oblast."
+  },
+  {
+   "start": 18.409,
+   "end": 19.687,
+   "text": "Half an hour in,"
+  },
+  {
+   "start": 19.687,
+   "end": 21.414,
+   "text": "a second Iskander,"
+  },
+  {
+   "start": 21.414,
+   "end": 23.437,
+   "text": "launched from the Pskov region,"
+  },
+  {
+   "start": 23.437,
+   "end": 25.715,
+   "text": "hits Adazi Base in Latvia,"
+  },
+  {
+   "start": 25.715,
+   "end": 27.172,
+   "text": "where a Canadian-led NATO"
+  },
+  {
+   "start": 27.172,
+   "end": 28.842,
+   "text": "battlegroup is stationed."
+  },
+  {
+   "start": 29.416,
+   "end": 29.972,
+   "text": "It travels"
+  },
+  {
+   "start": 29.972,
+   "end": 31.672,
+   "text": "250 km"
+  },
+  {
+   "start": 31.672,
+   "end": 33.822,
+   "text": "in three and a half minutes."
+  }
+ ],
+ "slug": "012-nato-russia-first-24-hours-s1",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 34.212,
+ "shots": [
+  {
+   "id": "c3-malf",
+   "type": "region",
+   "start": 0.0,
+   "end": 5.882,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     20.5,
+     54.3
+    ],
+    "widthKm": 450
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      20.5,
+      54.3
+     ],
+     "widthKm": 450
+    },
+    {
+     "t": 1.64,
+     "center": [
+      20.2,
+      54.3
+     ],
+     "widthKm": 360
+    },
+    {
+     "t": 5.88,
+     "center": [
+      19.8,
+      54.2
+     ],
+     "widthKm": 280
+    }
+   ],
+   "clock": "T-03:06",
+   "clockLabel": "TO IMPACT",
+   "clockRate": 38.9,
+   "ships": [
+    {
+     "path": [
+      [
+       21.8,
+       54.6
+      ],
+      [
+       19.134,
+       54.027
+      ]
+     ],
+     "t0": 0.6,
+     "t1": 5.38,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander",
+     "size": 2.4,
+     "t": 0.6,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      21.8,
+      54.6
+     ],
+     "to": [
+      19.134,
+      54.027
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.6,
+     "t1": 5.38
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.1)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      19.134,
+      54.027
+     ],
+     "label": "Malbork Air Base",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      21.8,
+      54.6
+     ],
+     "label": "Kaliningrad",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      19.134,
+      54.027
+     ],
+     "km": 12,
+     "label": "Target",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "dashed": false
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      18.3,
+      55.0
+     ],
+     "text": "Hour 0: first strike",
+     "color": "#FFD23F",
+     "t": 0.1
+    }
+   ]
+  },
+  {
+   "id": "c3-malz",
+   "type": "region",
+   "start": 5.882,
+   "end": 10.512,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     19.134,
+     54.027
+    ],
+    "widthKm": 280
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      19.134,
+      54.027
+     ],
+     "widthKm": 280
+    },
+    {
+     "t": 1.06,
+     "center": [
+      19.134,
+      54.027
+     ],
+     "widthKm": 210
+    },
+    {
+     "t": 4.63,
+     "center": [
+      19.134,
+      54.027
+     ],
+     "widthKm": 170
+    }
+   ],
+   "clock": "HOUR 0",
+   "clockLabel": "SIMULATED TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.1)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "burst": {
+    "at": [
+     19.134,
+     54.027
+    ],
+    "t": 0.05,
+    "km": 4,
+    "fade": 4
+   },
+   "cities": [
+    {
+     "at": [
+      19.134,
+      54.027
+     ],
+     "label": "Malbork Air Base",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      20.51,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "kind": "dot",
+     "t": 0.5,
+     "color": "#F2B01E"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      19.134,
+      54.027
+     ],
+     "km": 8,
+     "label": "Conventional hit",
+     "color": "#FF3B3B",
+     "t": 0.4,
+     "dashed": false
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      17.3,
+      53.9
+     ],
+     "text": "Within easy reach of Kaliningrad",
+     "color": "#FFFFFF",
+     "t": 1.06
+    }
+   ]
+  },
+  {
+   "id": "c3-aim",
+   "type": "region",
+   "start": 10.512,
+   "end": 18.129,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     20.2,
+     54.3
+    ],
+    "widthKm": 400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      20.2,
+      54.3
+     ],
+     "widthKm": 400
+    },
+    {
+     "t": 3.63,
+     "center": [
+      20.2,
+      54.4
+     ],
+     "widthKm": 320
+    },
+    {
+     "t": 7.62,
+     "center": [
+      20.2,
+      54.4
+     ],
+     "widthKm": 450
+    }
+   ],
+   "clock": "HOUR 0",
+   "clockLabel": "SIMULATED TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.1)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      19.134,
+      54.027
+     ],
+     "label": "Malbork",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      20.51,
+      54.71
+     ],
+     "label": "Kaliningrad oblast",
+     "kind": "dot",
+     "t": 0.5,
+     "color": "#F2B01E"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      19.134,
+      54.027
+     ],
+     "to": [
+      20.51,
+      54.71
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 4.69,
+     "t1": 6.69,
+     "label": "NATO use: prevented"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      18.5,
+      55.3
+     ],
+     "text": "The aim: hit it first",
+     "color": "#FFD23F",
+     "t": 0.25
+    },
+    {
+     "at": [
+      18.5,
+      55.0
+     ],
+     "text": "Before NATO can use it",
+     "color": "#FFFFFF",
+     "t": 3.63
+    }
+   ]
+  },
+  {
+   "id": "c3-pskov",
+   "type": "region",
+   "start": 18.129,
+   "end": 23.287,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     26,
+     57.3
+    ],
+    "widthKm": 800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      26,
+      57.3
+     ],
+     "widthKm": 800
+    },
+    {
+     "t": 3.79,
+     "center": [
+      26.5,
+      57.4
+     ],
+     "widthKm": 650
+    },
+    {
+     "t": 5.16,
+     "center": [
+      26.5,
+      57.4
+     ],
+     "widthKm": 520
+    }
+   ],
+   "clock": "HOUR 0.5",
+   "clockLabel": "HALF AN HOUR IN",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.1)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      28.3,
+      57.8
+     ],
+     "label": "Pskov region (simulated)",
+     "kind": "base",
+     "t": 3.79,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      24.34,
+      57.08
+     ],
+     "label": "Adazi Base",
+     "kind": "target",
+     "t": 2.5,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       28.3,
+       57.8
+      ],
+      [
+       24.34,
+       57.08
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 5.46,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander",
+     "size": 2.4,
+     "t": 0.5,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      28.3,
+      57.8
+     ],
+     "to": [
+      24.34,
+      57.08
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.5,
+     "t1": 5.46
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      20.5,
+      58.5
+     ],
+     "text": "Half an hour in",
+     "color": "#FFD23F",
+     "t": 0.3
+    }
+   ]
+  },
+  {
+   "id": "c3-adazi",
+   "type": "region",
+   "start": 23.287,
+   "end": 29.266,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     24.34,
+     57.08
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24.34,
+      57.08
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 2.53,
+     "center": [
+      24.34,
+      57.08
+     ],
+     "widthKm": 220
+    },
+    {
+     "t": 5.98,
+     "center": [
+      24.34,
+      57.08
+     ],
+     "widthKm": 170
+    }
+   ],
+   "clock": "HOUR 0.5",
+   "clockLabel": "HALF AN HOUR IN",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      24.34,
+      57.08
+     ],
+     "label": "Adazi Base, Latvia",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      24.1,
+      56.95
+     ],
+     "label": "Riga",
+     "kind": "dot",
+     "t": 0.8,
+     "color": "#8A8F98"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      24.34,
+      57.08
+     ],
+     "km": 8,
+     "label": "Conventional hit",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "dashed": false
+    }
+   ],
+   "burst": {
+    "at": [
+     24.34,
+     57.08
+    ],
+    "t": 0.05,
+    "km": 4,
+    "fade": 4
+   },
+   "labels": [
+    {
+     "at": [
+      22.5,
+      57.6
+     ],
+     "text": "Canadian-led NATO battlegroup",
+     "color": "#6EA8FF",
+     "t": 2.53
+    }
+   ]
+  },
+  {
+   "id": "c3-a250",
+   "type": "region",
+   "start": 29.266,
+   "end": 34.212,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     26.3,
+     57.4
+    ],
+    "widthKm": 620
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      26.3,
+      57.4
+     ],
+     "widthKm": 620
+    },
+    {
+     "t": 3.62,
+     "center": [
+      26.3,
+      57.4
+     ],
+     "widthKm": 520
+    },
+    {
+     "t": 5.09,
+     "center": [
+      26.3,
+      57.4
+     ],
+     "widthKm": 460
+    }
+   ],
+   "clock": "HOUR 0.5",
+   "clockLabel": "SIMULATED TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.1)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      28.3,
+      57.8
+     ],
+     "label": "Launch (simulated)",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      24.34,
+      57.08
+     ],
+     "label": "Adazi Base, Latvia",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      24.34,
+      57.08
+     ],
+     "km": 20,
+     "label": "Hit",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "dashed": false
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      28.3,
+      57.8
+     ],
+     "to": [
+      24.34,
+      57.08
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.56,
+     "t1": 2.06,
+     "label": "250 km"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      23.0,
+      58.5
+     ],
+     "text": "3.5 minutes",
+     "color": "#FFD23F",
+     "t": 3.62
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "TWO ISKANDERS",
+  "POLAND AND LATVIA"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

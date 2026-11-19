@@ -1,0 +1,683 @@
+{
+ "subtitles": [
+  {
+   "start": 0.047,
+   "end": 3.506,
+   "text": "Hour 22. One Iskander-M,"
+  },
+  {
+   "start": 3.506,
+   "end": 5.259,
+   "text": "with a nuclear warhead,"
+  },
+  {
+   "start": 5.259,
+   "end": 6.818,
+   "text": "leaves Kaliningrad for the"
+  },
+  {
+   "start": 6.818,
+   "end": 8.408,
+   "text": "open Baltic Sea."
+  },
+  {
+   "start": 8.667,
+   "end": 9.778,
+   "text": "No ship and no"
+  },
+  {
+   "start": 9.778,
+   "end": 11.248,
+   "text": "coast is the target."
+  },
+  {
+   "start": 11.528,
+   "end": 13.143,
+   "text": "It is a warning shot,"
+  },
+  {
+   "start": 13.143,
+   "end": 14.648,
+   "text": "and it is our choice."
+  },
+  {
+   "start": 14.9,
+   "end": 17.318,
+   "text": "One reading of Russian signalling holds"
+  },
+  {
+   "start": 17.318,
+   "end": 19.528,
+   "text": "that such a shot is possible."
+  },
+  {
+   "start": 19.752,
+   "end": 20.698,
+   "text": "We do not claim"
+  },
+  {
+   "start": 20.698,
+   "end": 22.408,
+   "text": "it is Russian policy."
+  },
+  {
+   "start": 23.195,
+   "end": 25.348,
+   "text": "The Iskander is dual-capable:"
+  },
+  {
+   "start": 25.504,
+   "end": 26.438,
+   "text": "it can carry either"
+  },
+  {
+   "start": 26.438,
+   "end": 27.648,
+   "text": "kind of warhead."
+  },
+  {
+   "start": 28.059,
+   "end": 28.618,
+   "text": "The flight is"
+  },
+  {
+   "start": 28.618,
+   "end": 30.638,
+   "text": "234 km,"
+  },
+  {
+   "start": 30.638,
+   "end": 32.248,
+   "text": "about three and a half minutes."
+  }
+ ],
+ "slug": "012-nato-russia-first-24-hours-s3",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 32.658,
+ "shots": [
+  {
+   "id": "c4-h22",
+   "type": "region",
+   "start": 0.0,
+   "end": 8.517,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     21.3,
+     55.4
+    ],
+    "widthKm": 700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      21.3,
+      55.4
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 5.11,
+     "center": [
+      21.5,
+      55.6
+     ],
+     "widthKm": 650
+    },
+    {
+     "t": 8.52,
+     "center": [
+      21.3,
+      55.6
+     ],
+     "widthKm": 600
+    }
+   ],
+   "clock": "HOUR 22",
+   "clockLabel": "SIMULATED TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.1)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.8,
+      54.6
+     ],
+     "label": "Iskander-M (simulated)",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      20.51,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "kind": "dot",
+     "t": 0.1,
+     "color": "#F2B01E"
+    },
+    {
+     "at": [
+      19.2,
+      56.1
+     ],
+     "label": "Open water (simulated)",
+     "kind": "target",
+     "t": 0.5,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      21.8,
+      54.6
+     ],
+     "to": [
+      19.2,
+      56.1
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.3,
+     "t1": 2.5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      17.2,
+      57.2
+     ],
+     "text": "One nuclear warhead",
+     "color": "#FF3B3B",
+     "t": 3.59
+    }
+   ]
+  },
+  {
+   "id": "c4-sea",
+   "type": "region",
+   "start": 8.517,
+   "end": 14.75,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     21.2,
+     55.6
+    ],
+    "widthKm": 650
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      21.2,
+      55.6
+     ],
+     "widthKm": 650
+    },
+    {
+     "t": 1.11,
+     "center": [
+      20.8,
+      55.8
+     ],
+     "widthKm": 520
+    },
+    {
+     "t": 6.23,
+     "center": [
+      20.6,
+      56.0
+     ],
+     "widthKm": 420
+    }
+   ],
+   "clock": "HOUR 22",
+   "clockLabel": "SIMULATED TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.1)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.8,
+      54.6
+     ],
+     "label": "Launch",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      19.2,
+      56.1
+     ],
+     "label": "Open water",
+     "kind": "target",
+     "t": 0.21,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      21.8,
+      54.6
+     ],
+     "to": [
+      19.2,
+      56.1
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.4,
+     "t1": 2.4
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      17.0,
+      57.2
+     ],
+     "text": "No ship. No coast.",
+     "color": "#FFFFFF",
+     "t": 0.21
+    },
+    {
+     "at": [
+      17.0,
+      56.8
+     ],
+     "text": "A warning shot: our choice",
+     "color": "#FFD23F",
+     "t": 3.19
+    }
+   ]
+  },
+  {
+   "id": "c4-pol",
+   "type": "region",
+   "start": 14.75,
+   "end": 22.888,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     20.0,
+     55.8
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      20.0,
+      55.8
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 3.68,
+     "center": [
+      20.0,
+      55.8
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 8.14,
+     "center": [
+      20.0,
+      55.8
+     ],
+     "widthKm": 1400
+    }
+   ],
+   "clock": "HOUR 22",
+   "clockLabel": "SIMULATED TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.1)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      19.2,
+      56.1
+     ],
+     "label": "Warning shot",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      20.51,
+      54.71
+     ],
+     "label": "Kaliningrad",
+     "kind": "dot",
+     "t": 0.2,
+     "color": "#F2B01E"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      21.8,
+      54.6
+     ],
+     "to": [
+      19.2,
+      56.1
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.3,
+     "t1": 2.0
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      13.5,
+      58.5
+     ],
+     "text": "One reading of Russian signalling",
+     "color": "#FFFFFF",
+     "t": 0.22
+    },
+    {
+     "at": [
+      13.5,
+      58.0
+     ],
+     "text": "Not claimed as Russian policy",
+     "color": "#FFD23F",
+     "t": 5.42
+    }
+   ]
+  },
+  {
+   "id": "c4-dual",
+   "type": "region",
+   "start": 22.888,
+   "end": 28.008,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     21,
+     55.2
+    ],
+    "widthKm": 700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      21,
+      55.2
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 3.08,
+     "center": [
+      21,
+      55.3
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 5.12,
+     "center": [
+      21,
+      55.3
+     ],
+     "widthKm": 520
+    }
+   ],
+   "clock": "HOUR 22",
+   "clockLabel": "SIMULATED TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.8,
+      54.6
+     ],
+     "label": "Iskander: dual-capable",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      18.0,
+      56.4
+     ],
+     "text": "Either kind of warhead",
+     "color": "#FFD23F",
+     "t": 3.08
+    }
+   ]
+  },
+  {
+   "id": "c4-wfly",
+   "type": "region",
+   "start": 28.008,
+   "end": 32.658,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     21.8,
+     55.4
+    ],
+    "widthKm": 700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      21.8,
+      55.4
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 3.26,
+     "center": [
+      21.6,
+      55.5
+     ],
+     "widthKm": 560
+    },
+    {
+     "t": 4.94,
+     "center": [
+      21.4,
+      55.6
+     ],
+     "widthKm": 480
+    }
+   ],
+   "clock": "T-03:24",
+   "clockLabel": "TO BURST",
+   "clockRate": 47.0,
+   "ships": [
+    {
+     "path": [
+      [
+       21.8,
+       54.6
+      ],
+      [
+       19.2,
+       56.1
+      ]
+     ],
+     "t0": 0.3,
+     "t1": 4.64,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander-M",
+     "size": 2.4,
+     "t": 0.3,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      21.8,
+      54.6
+     ],
+     "to": [
+      19.2,
+      56.1
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.3,
+     "t1": 4.64
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.8,
+      54.6
+     ],
+     "label": "Kaliningrad",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      19.2,
+      56.1
+     ],
+     "label": "Burst point (simulated)",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      17.8,
+      56.7
+     ],
+     "text": "234 km, about 3.5 minutes",
+     "color": "#FFD23F",
+     "t": 0.46
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "ONE NUCLEAR ISKANDER",
+  "OUT OF KALININGRAD"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}
