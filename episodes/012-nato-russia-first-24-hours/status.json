@@ -9,7 +9,32 @@
       "stage": "researched",
       "note": "29 A, 8 B items",
       "at": "2026-11-19T05:07:05+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "script.md written, about 1,520 words",
+      "at": "2026-11-19T05:10:01+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "script fixed per script_review.md",
+      "at": "2026-11-19T05:11:33+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "trimmed ch01-02",
+      "at": "2026-11-19T05:11:36+00:00"
+    },
+    {
+      "stage": "script_approved",
+      "note": "fact screen round 2 PASS",
+      "at": "2026-11-19T05:12:48+00:00"
+    },
+    {
+      "stage": "script_approved",
+      "note": "PASS round 2",
+      "at": "2026-11-19T05:12:54+00:00"
     }
   ],
-  "stage": "researched"
+  "stage": "script_approved"
 }
