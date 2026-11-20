@@ -1,0 +1,19 @@
+{
+ "slug": "013-taiwan-goes-dark",
+ "title": "Taiwan goes dark: a simulated cyber attack on the grid and the chip fabs, hour by hour",
+ "t0_utc": "2027-07-14T13:00:00+00:00",
+ "sun": {
+  "lat": 21.62,
+  "lon": -13.62
+ },
+ "totals": {
+  "strikes": 0,
+  "warheads": 0,
+  "yield_mt": 0.0,
+  "first_impact_min": null,
+  "last_impact_min": null
+ },
+ "strikes": [],
+ "sources": [],
+ "model": "Glasstone and Dolan scaling calibrated to NUKEMAP Hiroshima figures; flight times fitted to published ranges; all values are estimates for a labelled simulation."
+}
