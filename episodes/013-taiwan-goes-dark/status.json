@@ -44,7 +44,12 @@
       "stage": "visual_approved",
       "note": "visual review round 2 PASS",
       "at": "2026-11-20T05:33:35+00:00"
+    },
+    {
+      "stage": "packaged",
+      "note": "packaged",
+      "at": "2026-11-20T05:40:08+00:00"
     }
   ],
-  "stage": "visual_approved"
+  "stage": "packaged"
 }

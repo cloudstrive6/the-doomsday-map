@@ -1,0 +1,35 @@
+[
+  {
+    "id": "s1",
+    "start": 0.0,
+    "end": 40.94,
+    "title": [
+      "10 GW LOST AT ONCE",
+      "TAIWAN GOES DARK"
+    ],
+    "yt_title": "What If Hackers Blacked Out Taiwan at 9 PM? #shorts",
+    "hook": "A simulation: at nine at night the grid in southern Taiwan loses ten gigawatts, and the chip factories are in trouble within the hour."
+  },
+  {
+    "id": "s2",
+    "start": 389.01,
+    "end": 437.5,
+    "title": [
+      "11 DAYS OF GAS",
+      "IF TAIWAN GOES DARK"
+    ],
+    "yt_title": "What If Taiwan's Gas Terminals Stalled in a Blackout? #shorts",
+    "hook": "A simulation: Taiwan holds about eleven days of gas, but with the terminals stalled it cannot burn what it cannot move."
+  },
+  {
+    "id": "s3",
+    "start": 603.179,
+    "end": 649.75,
+    "title": [
+      "NO MISSILE FIRED",
+      "TAIWAN'S CHIPS STOP"
+    ],
+    "yt_title": "What If Hackers Stopped Taiwan's Chip Supply? #shorts",
+    "hook": "A simulation: where do the chips stop when a blackout hits Taiwan, and how could a grid fall without a single missile?"
+  }
+]
