@@ -1,0 +1,70 @@
+[
+ {
+  "id": "a",
+  "variant": "image",
+  "concept": "aftermath",
+  "palette": "fire-blue",
+  "line1": "11 DAYS",
+  "line2": "OF GAS",
+  "tag": "",
+  "align": "left",
+  "image_prompt": "Bright vivid photoreal sunset photo of a huge liquefied natural gas tanker seen close up from low over the water, filling the lower right two thirds of the frame, its white spherical tanks glowing orange, a giant blazing orange and yellow flare fireball roaring from its stack, a glowing orange and magenta sunset sky over bright cyan-blue sea with strong orange reflections, no dark areas, very high saturation and brightness. The top left third of the frame is clear luminous blue-violet sky for text. Bottom-right corner is plain bright water. No people, no faces, no text.",
+  "image": "thumbs/013-a.jpg"
+ },
+ {
+  "id": "b",
+  "variant": "image",
+  "concept": "control-room",
+  "palette": "radar-green",
+  "line1": "DAYS TO",
+  "line2": "RESTART",
+  "tag": "NOT HOURS",
+  "align": "left",
+  "image_prompt": "Bright high-key photo of a power grid control room, a gigantic wall screen glowing bright saturated lime-green and white that floods the whole room with light, with several enormous solid glowing red and orange warning panels covering a third of the screen, very saturated and luminous, no dark areas, bright glowing consoles, empty chair in the foreground. Abstract only, no continents, no maps. The screen fills the right two thirds; the left third is a clear softly lit pale wall. No people, no faces, no text.",
+  "image": "thumbs/013-b.jpg"
+ },
+ {
+  "id": "c",
+  "variant": "map",
+  "concept": "map",
+  "palette": "map",
+  "line1": "SOUTH FIRST",
+  "line2": "THEN NORTH",
+  "tag": "",
+  "align": "left",
+  "region": {
+   "theme": "bright",
+   "t": 30,
+   "view": {
+    "center": [
+     118.6,
+     23.6
+    ],
+    "widthKm": 1100
+   },
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#C98A00",
+     "fill": "rgba(242,176,30,0.6)"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      120.3,
+      22.6
+     ],
+     "to": [
+      120.97,
+      24.8
+     ],
+     "color": "#E01E1E",
+     "t0": 0,
+     "t1": 1,
+     "width": 9
+    }
+   ]
+  }
+ }
+]
