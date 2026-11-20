@@ -1,7 +1,7 @@
 {
-  "built": "2026-11-19",
-  "latest_snapshot": "2026-11-19",
-  "subscribers": 12,
+  "built": "2026-11-20",
+  "latest_snapshot": "2026-11-20",
+  "subscribers": 14,
   "subs_target": [
     50,
     "2026-12-10"
@@ -10,8 +10,8 @@
     "C1@7d": {
       "label": "Long CTR",
       "target": 0.05,
-      "median": 0.0499,
-      "n": 2,
+      "median": 0.0444,
+      "n": 3,
       "met": false
     },
     "C2@7d": {
@@ -24,29 +24,29 @@
     "C3@7d": {
       "label": "Avg % viewed",
       "target": 40.0,
-      "median": 28.55,
-      "n": 2,
+      "median": 33.29,
+      "n": 3,
       "met": false
     },
     "C4@7d": {
       "label": "Long views",
       "target": 150,
-      "median": 35.5,
-      "n": 2,
+      "median": 26,
+      "n": 3,
       "met": false
     },
     "C5a@7d": {
       "label": "Shorts views",
       "target": 300,
-      "median": 51,
-      "n": 5,
+      "median": 67.0,
+      "n": 8,
       "met": false
     },
     "C5b@7d": {
       "label": "Shorts avg % viewed",
       "target": 80.0,
-      "median": 59.73,
-      "n": 5,
+      "median": 63.42,
+      "n": 8,
       "met": false
     },
     "C1@28d": {
@@ -691,8 +691,15 @@
       "publish_at": "2026-11-13T00:00:00Z",
       "horizon": 7,
       "due": "2026-11-20",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-20",
+      "status": "measured",
+      "views": 1055,
+      "avp": 72.31,
+      "avd": 39,
+      "hold": 1.273,
+      "subs": 2,
+      "ctr": 0.0556,
+      "impressions": 36
     },
     {
       "episode": "005-russia-one-tactical-nuke-ukraine",
@@ -715,8 +722,15 @@
       "publish_at": "2026-11-13T00:00:00Z",
       "horizon": 7,
       "due": "2026-11-20",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-20",
+      "status": "measured",
+      "views": 26,
+      "avp": 33.29,
+      "avd": 217,
+      "hold": null,
+      "subs": 0,
+      "ctr": 0.0444,
+      "impressions": 135
     },
     {
       "episode": "006-iran-tests-bomb-israel-answers",
@@ -739,8 +753,15 @@
       "publish_at": "2026-11-13T14:00:00Z",
       "horizon": 7,
       "due": "2026-11-20",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-20",
+      "status": "measured",
+      "views": 427,
+      "avp": 76.49,
+      "avd": 32,
+      "hold": 1.248,
+      "subs": 0,
+      "ctr": 0.0,
+      "impressions": 64
     },
     {
       "episode": "006-iran-tests-bomb-israel-answers",
@@ -763,8 +784,15 @@
       "publish_at": "2026-11-13T19:00:00Z",
       "horizon": 7,
       "due": "2026-11-20",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-20",
+      "status": "measured",
+      "views": 77,
+      "avp": 75.27,
+      "avd": 24,
+      "hold": null,
+      "subs": 0,
+      "ctr": 0.02,
+      "impressions": 100
     },
     {
       "episode": "006-iran-tests-bomb-israel-answers",

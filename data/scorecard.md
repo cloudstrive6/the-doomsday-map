@@ -1,19 +1,19 @@
-# Scorecard (2026-11-19, latest snapshot 2026-11-19)
+# Scorecard (2026-11-20, latest snapshot 2026-11-20)
 
 Built by `python -m studio scorecard` from data/analytics/. Targets judged on the median of episodes 004 onward; earlier episodes are the baseline. Small samples: read as tests, not proof.
 
-Subscribers: 12 (target 50 by 2026-12-10)
+Subscribers: 14 (target 50 by 2026-12-10)
 
 ## Targets
 
 | Criterion | Horizon | Target | Median | Episodes measured | Met |
 |---|---|---|---|---|---|
-| C1 Long CTR | 7d | 5.0% | 5.0% | 2 | no |
+| C1 Long CTR | 7d | 5.0% | 4.4% | 3 | no |
 | C2 Hold at 11% | 7d | 60.0% | - | 0 | - |
-| C3 Avg % viewed | 7d | 40% | 29% | 2 | no |
-| C4 Long views | 7d | 150 | 35.5 | 2 | no |
-| C5a Shorts views | 7d | 300 | 51 | 5 | no |
-| C5b Shorts avg % viewed | 7d | 80% | 60% | 5 | no |
+| C3 Avg % viewed | 7d | 40% | 33% | 3 | no |
+| C4 Long views | 7d | 150 | 26 | 3 | no |
+| C5a Shorts views | 7d | 300 | 67.0 | 8 | no |
+| C5b Shorts avg % viewed | 7d | 80% | 63% | 8 | no |
 | C1 Long CTR | 28d | 5.0% | - | 0 | - |
 | C2 Hold at 11% | 28d | 60.0% | - | 0 | - |
 | C3 Avg % viewed | 28d | 40% | - | 0 | - |
@@ -35,7 +35,7 @@ Subscribers: 12 (target 50 by 2026-12-10)
 | 004 | lufMFIv5AeY | 28 | due 2026-12-09 | - | - | - | - | - | - |
 | 005 | u1EWhaWRoyc | 7 | measured | 11 | 3.7% | 82 | - | 10% | 69 |
 | 005 | u1EWhaWRoyc | 28 | due 2026-12-10 | - | - | - | - | - | - |
-| 006 | DK6UC3_BT6Q | 7 | due 2026-11-20 | - | - | - | - | - | - |
+| 006 | DK6UC3_BT6Q | 7 | measured | 26 | 4.4% | 135 | - | 33% | 217 |
 | 006 | DK6UC3_BT6Q | 28 | due 2026-12-11 | - | - | - | - | - | - |
 | 008 | -jPUfuzQF4g | 7 | due 2026-11-24 | - | - | - | - | - | - |
 | 008 | -jPUfuzQF4g | 28 | due 2026-12-15 | - | - | - | - | - | - |
@@ -80,11 +80,11 @@ Subscribers: 12 (target 50 by 2026-12-10)
 | 005 | GJ4KihR5Uzw | 28 | due 2026-12-10 | - | - | - |
 | 005 | 77M-y-VaweA | 7 | measured | 9 | 28% | 14 |
 | 005 | 77M-y-VaweA | 28 | due 2026-12-10 | - | - | - |
-| 005 | CswtYFhvZkE | 7 | due 2026-11-20 | - | - | - |
+| 005 | CswtYFhvZkE | 7 | measured | 1,055 | 72% | 39 |
 | 005 | CswtYFhvZkE | 28 | due 2026-12-11 | - | - | - |
-| 006 | huHH9VFS5aI | 7 | due 2026-11-20 | - | - | - |
+| 006 | huHH9VFS5aI | 7 | measured | 427 | 76% | 32 |
 | 006 | huHH9VFS5aI | 28 | due 2026-12-11 | - | - | - |
-| 006 | K67FRJT0Za4 | 7 | due 2026-11-20 | - | - | - |
+| 006 | K67FRJT0Za4 | 7 | measured | 77 | 75% | 24 |
 | 006 | K67FRJT0Za4 | 28 | due 2026-12-11 | - | - | - |
 | 006 | rVHj7z8O65Q | 7 | due 2026-11-21 | - | - | - |
 | 006 | rVHj7z8O65Q | 28 | due 2026-12-12 | - | - | - |
