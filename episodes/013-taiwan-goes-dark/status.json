@@ -34,7 +34,17 @@
       "stage": "narrated",
       "note": "11.0 min, 1479 words",
       "at": "2026-11-20T05:19:05+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "107 shots, 669.2 s, 0 pace lines, 0 validate lines",
+      "at": "2026-11-20T05:27:47+00:00"
+    },
+    {
+      "stage": "visual_approved",
+      "note": "visual review round 2 PASS",
+      "at": "2026-11-20T05:33:35+00:00"
     }
   ],
-  "stage": "narrated"
+  "stage": "visual_approved"
 }
