@@ -10,7 +10,7 @@
     "C1@7d": {
       "label": "Long CTR",
       "target": 0.05,
-      "median": 0.0444,
+      "median": 0.0403,
       "n": 3,
       "met": false
     },
@@ -31,7 +31,7 @@
     "C4@7d": {
       "label": "Long views",
       "target": 150,
-      "median": 26,
+      "median": 27,
       "n": 3,
       "met": false
     },
@@ -694,12 +694,12 @@
       "snapshot": "2026-11-20",
       "status": "measured",
       "views": 1055,
-      "avp": 72.31,
+      "avp": 72.28,
       "avd": 39,
-      "hold": 1.273,
+      "hold": 1.275,
       "subs": 2,
-      "ctr": 0.0556,
-      "impressions": 36
+      "ctr": 0.0476,
+      "impressions": 42
     },
     {
       "episode": "005-russia-one-tactical-nuke-ukraine",
@@ -724,13 +724,13 @@
       "due": "2026-11-20",
       "snapshot": "2026-11-20",
       "status": "measured",
-      "views": 26,
+      "views": 27,
       "avp": 33.29,
       "avd": 217,
       "hold": null,
       "subs": 0,
-      "ctr": 0.0444,
-      "impressions": 135
+      "ctr": 0.0403,
+      "impressions": 149
     },
     {
       "episode": "006-iran-tests-bomb-israel-answers",
@@ -756,12 +756,12 @@
       "snapshot": "2026-11-20",
       "status": "measured",
       "views": 427,
-      "avp": 76.49,
+      "avp": 76.17,
       "avd": 32,
-      "hold": 1.248,
+      "hold": null,
       "subs": 0,
       "ctr": 0.0,
-      "impressions": 64
+      "impressions": 69
     },
     {
       "episode": "006-iran-tests-bomb-israel-answers",
@@ -791,8 +791,8 @@
       "avd": 24,
       "hold": null,
       "subs": 0,
-      "ctr": 0.02,
-      "impressions": 100
+      "ctr": 0.0185,
+      "impressions": 108
     },
     {
       "episode": "006-iran-tests-bomb-israel-answers",
@@ -1307,6 +1307,102 @@
       "publish_at": "2026-11-22T00:00:00Z",
       "horizon": 28,
       "due": "2026-12-20",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "013-taiwan-goes-dark",
+      "num": 13,
+      "kind": "long",
+      "id": "xeDNdj7CXg8",
+      "title": "What If Hackers Shut Down Taiwan's Power and TSMC?",
+      "publish_at": "2026-11-22T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-11-29",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "013-taiwan-goes-dark",
+      "num": 13,
+      "kind": "long",
+      "id": "xeDNdj7CXg8",
+      "title": "What If Hackers Shut Down Taiwan's Power and TSMC?",
+      "publish_at": "2026-11-22T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-20",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "013-taiwan-goes-dark",
+      "num": 13,
+      "kind": "short",
+      "id": "4vpj9Se7Bgg",
+      "title": "What If Hackers Blacked Out Taiwan at 9 PM? #shorts",
+      "publish_at": "2026-11-22T14:00:00Z",
+      "horizon": 7,
+      "due": "2026-11-29",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "013-taiwan-goes-dark",
+      "num": 13,
+      "kind": "short",
+      "id": "4vpj9Se7Bgg",
+      "title": "What If Hackers Blacked Out Taiwan at 9 PM? #shorts",
+      "publish_at": "2026-11-22T14:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-20",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "013-taiwan-goes-dark",
+      "num": 13,
+      "kind": "short",
+      "id": "YveijTMP8OM",
+      "title": "What If Taiwan's Gas Terminals Stalled in a Blackout? #shorts",
+      "publish_at": "2026-11-22T19:00:00Z",
+      "horizon": 7,
+      "due": "2026-11-29",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "013-taiwan-goes-dark",
+      "num": 13,
+      "kind": "short",
+      "id": "YveijTMP8OM",
+      "title": "What If Taiwan's Gas Terminals Stalled in a Blackout? #shorts",
+      "publish_at": "2026-11-22T19:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-20",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "013-taiwan-goes-dark",
+      "num": 13,
+      "kind": "short",
+      "id": "UzDKT-C3p4s",
+      "title": "What If Hackers Stopped Taiwan's Chip Supply? #shorts",
+      "publish_at": "2026-11-23T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-11-30",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "013-taiwan-goes-dark",
+      "num": 13,
+      "kind": "short",
+      "id": "UzDKT-C3p4s",
+      "title": "What If Hackers Stopped Taiwan's Chip Supply? #shorts",
+      "publish_at": "2026-11-23T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-21",
       "snapshot": null,
       "status": "pending"
     }

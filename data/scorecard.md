@@ -8,10 +8,10 @@ Subscribers: 14 (target 50 by 2026-12-10)
 
 | Criterion | Horizon | Target | Median | Episodes measured | Met |
 |---|---|---|---|---|---|
-| C1 Long CTR | 7d | 5.0% | 4.4% | 3 | no |
+| C1 Long CTR | 7d | 5.0% | 4.0% | 3 | no |
 | C2 Hold at 11% | 7d | 60.0% | - | 0 | - |
 | C3 Avg % viewed | 7d | 40% | 33% | 3 | no |
-| C4 Long views | 7d | 150 | 26 | 3 | no |
+| C4 Long views | 7d | 150 | 27 | 3 | no |
 | C5a Shorts views | 7d | 300 | 67.0 | 8 | no |
 | C5b Shorts avg % viewed | 7d | 80% | 63% | 8 | no |
 | C1 Long CTR | 28d | 5.0% | - | 0 | - |
@@ -35,7 +35,7 @@ Subscribers: 14 (target 50 by 2026-12-10)
 | 004 | lufMFIv5AeY | 28 | due 2026-12-09 | - | - | - | - | - | - |
 | 005 | u1EWhaWRoyc | 7 | measured | 11 | 3.7% | 82 | - | 10% | 69 |
 | 005 | u1EWhaWRoyc | 28 | due 2026-12-10 | - | - | - | - | - | - |
-| 006 | DK6UC3_BT6Q | 7 | measured | 26 | 4.4% | 135 | - | 33% | 217 |
+| 006 | DK6UC3_BT6Q | 7 | measured | 27 | 4.0% | 149 | - | 33% | 217 |
 | 006 | DK6UC3_BT6Q | 28 | due 2026-12-11 | - | - | - | - | - | - |
 | 008 | -jPUfuzQF4g | 7 | due 2026-11-24 | - | - | - | - | - | - |
 | 008 | -jPUfuzQF4g | 28 | due 2026-12-15 | - | - | - | - | - | - |
@@ -47,6 +47,8 @@ Subscribers: 14 (target 50 by 2026-12-10)
 | 011 | lBZsX8m3KO4 | 28 | due 2026-12-18 | - | - | - | - | - | - |
 | 012 | 3VH3JSj7wNM | 7 | due 2026-11-28 | - | - | - | - | - | - |
 | 012 | 3VH3JSj7wNM | 28 | due 2026-12-19 | - | - | - | - | - | - |
+| 013 | xeDNdj7CXg8 | 7 | due 2026-11-29 | - | - | - | - | - | - |
+| 013 | xeDNdj7CXg8 | 28 | due 2026-12-20 | - | - | - | - | - | - |
 
 ## Shorts
 
@@ -118,3 +120,9 @@ Subscribers: 14 (target 50 by 2026-12-10)
 | 012 | vOKBVCZ5scQ | 28 | due 2026-12-19 | - | - | - |
 | 012 | 0eHBIhYckrQ | 7 | due 2026-11-29 | - | - | - |
 | 012 | 0eHBIhYckrQ | 28 | due 2026-12-20 | - | - | - |
+| 013 | 4vpj9Se7Bgg | 7 | due 2026-11-29 | - | - | - |
+| 013 | 4vpj9Se7Bgg | 28 | due 2026-12-20 | - | - | - |
+| 013 | YveijTMP8OM | 7 | due 2026-11-29 | - | - | - |
+| 013 | YveijTMP8OM | 28 | due 2026-12-20 | - | - | - |
+| 013 | UzDKT-C3p4s | 7 | due 2026-11-30 | - | - | - |
+| 013 | UzDKT-C3p4s | 28 | due 2026-12-21 | - | - | - |

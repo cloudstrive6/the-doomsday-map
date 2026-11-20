@@ -1,134 +1,134 @@
 {
  "date": "2026-11-20",
  "channel": {
-  "viewCount": "9714",
+  "viewCount": "13511",
   "subscriberCount": "14",
   "hiddenSubscriberCount": false,
-  "videoCount": "38"
+  "videoCount": "40"
  },
  "videos": [
   {
    "video": "iqCileJm1CI",
-   "views": 1230,
-   "estimatedMinutesWatched": 340,
+   "views": 1257,
+   "estimatedMinutesWatched": 346,
    "averageViewDuration": 30,
-   "averageViewPercentage": 91.09,
+   "averageViewPercentage": 90.89,
    "subscribersGained": 0,
    "likes": 4,
    "comments": 0,
    "shares": 1,
    "title": "Nukes Hit Washington at Minute 17: Simulated #shorts",
    "published": "2026-11-17T19:00:08Z",
-   "lifetime_views": 1273,
+   "lifetime_views": 1277,
    "retention_curve": [
     [
      0.01,
-     1.693,
+     1.688,
      0.637
     ],
     [
      0.06,
-     1.661,
-     0.542
+     1.654,
+     0.543
     ],
     [
      0.11,
-     1.586,
+     1.579,
      0.524
     ],
     [
      0.16,
-     1.381,
-     0.522
+     1.378,
+     0.523
     ],
     [
      0.21,
-     1.252,
-     0.521
+     1.247,
+     0.522
     ],
     [
      0.26,
-     1.136,
-     0.52
+     1.132,
+     0.521
     ],
     [
      0.31,
-     1.071,
+     1.066,
      0.521
     ],
     [
      0.36,
-     1.036,
-     0.522
+     1.032,
+     0.523
     ],
     [
      0.41,
-     0.978,
-     0.526
+     0.975,
+     0.527
     ],
     [
      0.46,
      0.928,
-     0.536
+     0.537
     ],
     [
      0.51,
      0.879,
-     0.555
+     0.556
     ],
     [
      0.56,
-     0.839,
-     0.593
+     0.837,
+     0.595
     ],
     [
      0.61,
-     0.809,
-     0.664
+     0.808,
+     0.666
     ],
     [
      0.66,
-     0.795,
-     0.76
+     0.793,
+     0.762
     ],
     [
      0.71,
-     0.767,
-     0.838
+     0.765,
+     0.839
     ],
     [
      0.76,
-     0.749,
-     0.887
+     0.748,
+     0.888
     ],
     [
      0.81,
-     0.738,
-     0.916
+     0.734,
+     0.917
     ],
     [
      0.86,
-     0.73,
+     0.727,
      0.934
     ],
     [
      0.91,
-     0.718,
+     0.713,
      0.944
     ],
     [
      0.96,
-     0.702,
+     0.697,
      0.949
     ]
    ]
   },
   {
    "video": "hK24hiHogvs",
-   "views": 1208,
-   "estimatedMinutesWatched": 566,
+   "views": 1209,
+   "estimatedMinutesWatched": 567,
    "averageViewDuration": 53,
-   "averageViewPercentage": 87.97,
+   "averageViewPercentage": 87.93,
    "subscribersGained": 1,
    "likes": 15,
    "comments": 2,
@@ -139,17 +139,17 @@
    "retention_curve": [
     [
      0.01,
-     1.645,
+     1.644,
      0.658
     ],
     [
      0.06,
-     1.518,
+     1.517,
      0.547
     ],
     [
      0.11,
-     1.301,
+     1.3,
      0.542
     ],
     [
@@ -179,28 +179,28 @@
     ],
     [
      0.41,
-     0.842,
-     0.601
+     0.843,
+     0.602
     ],
     [
      0.46,
      0.817,
-     0.624
+     0.625
     ],
     [
      0.51,
      0.793,
-     0.658
+     0.659
     ],
     [
      0.56,
      0.772,
-     0.716
+     0.717
     ],
     [
      0.61,
-     0.749,
-     0.791
+     0.75,
+     0.792
     ],
     [
      0.66,
@@ -220,31 +220,31 @@
     [
      0.81,
      0.706,
-     0.938
+     0.937
     ],
     [
      0.86,
      0.695,
-     0.941
+     0.94
     ],
     [
      0.91,
-     0.683,
-     0.937
+     0.684,
+     0.936
     ],
     [
      0.96,
-     0.667,
-     0.93
+     0.668,
+     0.928
     ]
    ]
   },
   {
    "video": "NxaU3CIMJ2A",
-   "views": 1095,
+   "views": 1097,
    "estimatedMinutesWatched": 318,
    "averageViewDuration": 33,
-   "averageViewPercentage": 87.5,
+   "averageViewPercentage": 87.44,
    "subscribersGained": 1,
    "likes": 9,
    "comments": 1,
@@ -255,32 +255,32 @@
    "retention_curve": [
     [
      0.01,
-     1.609,
+     1.61,
      0.634
     ],
     [
      0.06,
-     1.507,
+     1.508,
      0.535
     ],
     [
      0.11,
-     1.412,
+     1.411,
      0.513
     ],
     [
      0.16,
-     1.244,
+     1.243,
      0.508
     ],
     [
      0.21,
-     1.133,
+     1.132,
      0.506
     ],
     [
      0.26,
-     1.047,
+     1.046,
      0.508
     ],
     [
@@ -301,42 +301,42 @@
     [
      0.46,
      0.792,
-     0.531
+     0.532
     ],
     [
      0.51,
      0.753,
-     0.553
+     0.554
     ],
     [
      0.56,
-     0.724,
-     0.598
+     0.725,
+     0.599
     ],
     [
      0.61,
-     0.713,
-     0.679
+     0.714,
+     0.68
     ],
     [
      0.66,
-     0.704,
-     0.78
+     0.705,
+     0.782
     ],
     [
      0.71,
      0.692,
-     0.857
+     0.858
     ],
     [
      0.76,
      0.676,
-     0.901
+     0.902
     ],
     [
      0.81,
-     0.67,
-     0.926
+     0.671,
+     0.927
     ],
     [
      0.86,
@@ -350,17 +350,17 @@
     ],
     [
      0.96,
-     0.627,
+     0.628,
      0.95
     ]
    ]
   },
   {
    "video": "CswtYFhvZkE",
-   "views": 1053,
-   "estimatedMinutesWatched": 374,
+   "views": 1055,
+   "estimatedMinutesWatched": 375,
    "averageViewDuration": 39,
-   "averageViewPercentage": 72.31,
+   "averageViewPercentage": 72.28,
    "subscribersGained": 2,
    "likes": 10,
    "comments": 0,
@@ -371,23 +371,23 @@
    "retention_curve": [
     [
      0.01,
-     1.437,
+     1.438,
      0.673
     ],
     [
      0.06,
-     1.391,
+     1.393,
      0.587
     ],
     [
      0.11,
-     1.273,
+     1.275,
      0.564
     ],
     [
      0.16,
      1.086,
-     0.541
+     0.542
     ],
     [
      0.21,
@@ -411,13 +411,13 @@
     ],
     [
      0.41,
-     0.677,
+     0.678,
      0.498
     ],
     [
      0.46,
      0.63,
-     0.512
+     0.513
     ],
     [
      0.51,
@@ -432,167 +432,399 @@
     [
      0.61,
      0.547,
-     0.657
+     0.658
     ],
     [
      0.66,
      0.54,
-     0.748
+     0.749
     ],
     [
      0.71,
-     0.52,
-     0.83
+     0.521,
+     0.831
     ],
     [
      0.76,
-     0.513,
-     0.887
+     0.514,
+     0.888
     ],
     [
      0.81,
-     0.497,
+     0.498,
      0.911
     ],
     [
      0.86,
-     0.48,
+     0.481,
      0.918
     ],
     [
      0.91,
-     0.455,
+     0.456,
      0.918
     ],
     [
      0.96,
-     0.437,
+     0.438,
      0.924
     ]
    ]
   },
   {
+   "video": "UVwaVWWRXIE",
+   "views": 996,
+   "estimatedMinutesWatched": 166,
+   "averageViewDuration": 20,
+   "averageViewPercentage": 63.11,
+   "subscribersGained": 1,
+   "likes": 3,
+   "comments": 0,
+   "shares": 0,
+   "title": "What If Russia Nuked Lithuania at Hour 61? #shorts",
+   "published": "2026-11-18T14:00:09Z",
+   "lifetime_views": 1061,
+   "retention_curve": [
+    [
+     0.01,
+     1.341,
+     0.599
+    ],
+    [
+     0.06,
+     1.259,
+     0.478
+    ],
+    [
+     0.11,
+     1.191,
+     0.423
+    ],
+    [
+     0.16,
+     1.08,
+     0.383
+    ],
+    [
+     0.21,
+     0.941,
+     0.348
+    ],
+    [
+     0.26,
+     0.859,
+     0.322
+    ],
+    [
+     0.31,
+     0.765,
+     0.309
+    ],
+    [
+     0.36,
+     0.635,
+     0.307
+    ],
+    [
+     0.41,
+     0.567,
+     0.313
+    ],
+    [
+     0.46,
+     0.522,
+     0.323
+    ],
+    [
+     0.51,
+     0.485,
+     0.336
+    ],
+    [
+     0.56,
+     0.452,
+     0.362
+    ],
+    [
+     0.61,
+     0.433,
+     0.422
+    ],
+    [
+     0.66,
+     0.411,
+     0.522
+    ],
+    [
+     0.71,
+     0.406,
+     0.621
+    ],
+    [
+     0.76,
+     0.391,
+     0.681
+    ],
+    [
+     0.81,
+     0.376,
+     0.712
+    ],
+    [
+     0.86,
+     0.361,
+     0.729
+    ],
+    [
+     0.91,
+     0.356,
+     0.753
+    ],
+    [
+     0.96,
+     0.35,
+     0.8
+    ]
+   ]
+  },
+  {
+   "video": "RJ7F0uSC1Xg",
+   "views": 982,
+   "estimatedMinutesWatched": 242,
+   "averageViewDuration": 29,
+   "averageViewPercentage": 93.64,
+   "subscribersGained": 2,
+   "likes": 9,
+   "comments": 0,
+   "shares": 0,
+   "title": "What If NATO Cut Off Kaliningrad? Russia's Nuclear Warning #shorts",
+   "published": "2026-11-19T00:00:29Z",
+   "lifetime_views": 1006,
+   "retention_curve": [
+    [
+     0.01,
+     1.625,
+     0.668
+    ],
+    [
+     0.06,
+     1.595,
+     0.605
+    ],
+    [
+     0.11,
+     1.508,
+     0.592
+    ],
+    [
+     0.16,
+     1.308,
+     0.584
+    ],
+    [
+     0.21,
+     1.173,
+     0.575
+    ],
+    [
+     0.26,
+     1.116,
+     0.57
+    ],
+    [
+     0.31,
+     1.043,
+     0.57
+    ],
+    [
+     0.36,
+     1,
+     0.574
+    ],
+    [
+     0.41,
+     0.957,
+     0.584
+    ],
+    [
+     0.46,
+     0.889,
+     0.606
+    ],
+    [
+     0.51,
+     0.848,
+     0.644
+    ],
+    [
+     0.56,
+     0.837,
+     0.704
+    ],
+    [
+     0.61,
+     0.805,
+     0.779
+    ],
+    [
+     0.66,
+     0.765,
+     0.839
+    ],
+    [
+     0.71,
+     0.741,
+     0.876
+    ],
+    [
+     0.76,
+     0.713,
+     0.895
+    ],
+    [
+     0.81,
+     0.694,
+     0.904
+    ],
+    [
+     0.86,
+     0.681,
+     0.91
+    ],
+    [
+     0.91,
+     0.666,
+     0.919
+    ],
+    [
+     0.96,
+     0.642,
+     0.935
+    ]
+   ]
+  },
+  {
    "video": "IiMf6VMQD6M",
-   "views": 966,
-   "estimatedMinutesWatched": 235,
+   "views": 979,
+   "estimatedMinutesWatched": 239,
    "averageViewDuration": 28,
-   "averageViewPercentage": 92.99,
+   "averageViewPercentage": 92.42,
    "subscribersGained": 0,
    "likes": 14,
    "comments": 1,
    "shares": 0,
    "title": "What If US and Russia Nuked Each Other? 53 Minutes #shorts",
    "published": "2026-11-17T14:00:00Z",
-   "lifetime_views": 986,
+   "lifetime_views": 995,
    "retention_curve": [
     [
      0.01,
-     1.644,
+     1.635,
      0.636
     ],
     [
      0.06,
-     1.542,
+     1.533,
      0.54
     ],
     [
      0.11,
-     1.456,
+     1.448,
      0.522
     ],
     [
      0.16,
-     1.371,
-     0.52
+     1.365,
+     0.519
     ],
     [
      0.21,
-     1.182,
+     1.178,
      0.519
     ],
     [
      0.26,
-     1.104,
+     1.1,
      0.519
     ],
     [
      0.31,
-     1.011,
+     1.006,
      0.52
     ],
     [
      0.36,
-     0.926,
+     0.921,
      0.523
     ],
     [
      0.41,
-     0.875,
+     0.867,
      0.531
     ],
     [
      0.46,
-     0.831,
-     0.546
+     0.824,
+     0.547
     ],
     [
      0.51,
-     0.809,
+     0.803,
      0.578
     ],
     [
      0.56,
-     0.788,
-     0.638
+     0.782,
+     0.639
     ],
     [
      0.61,
-     0.758,
-     0.734
+     0.753,
+     0.735
     ],
     [
      0.66,
-     0.75,
-     0.831
+     0.745,
+     0.832
     ],
     [
      0.71,
-     0.748,
-     0.893
+     0.743,
+     0.894
     ],
     [
      0.76,
-     0.739,
+     0.734,
      0.926
     ],
     [
      0.81,
-     0.731,
+     0.726,
      0.943
     ],
     [
      0.86,
-     0.72,
+     0.716,
      0.949
     ],
     [
      0.91,
-     0.706,
+     0.701,
      0.95
     ],
     [
      0.96,
-     0.684,
+     0.68,
      0.95
     ]
    ]
   },
   {
    "video": "LT_46ntdORs",
-   "views": 954,
-   "estimatedMinutesWatched": 398,
+   "views": 956,
+   "estimatedMinutesWatched": 399,
    "averageViewDuration": 41,
-   "averageViewPercentage": 69.71,
+   "averageViewPercentage": 69.73,
    "subscribersGained": 1,
    "likes": 7,
    "comments": 0,
@@ -603,17 +835,17 @@
    "retention_curve": [
     [
      0.01,
-     1.416,
+     1.417,
      0.655
     ],
     [
      0.06,
-     1.318,
+     1.317,
      0.529
     ],
     [
      0.11,
-     1.079,
+     1.078,
      0.519
     ],
     [
@@ -623,7 +855,7 @@
     ],
     [
      0.21,
-     0.839,
+     0.84,
      0.534
     ],
     [
@@ -634,7 +866,7 @@
     [
      0.31,
      0.745,
-     0.561
+     0.562
     ],
     [
      0.36,
@@ -643,72 +875,188 @@
     ],
     [
      0.41,
-     0.714,
-     0.566
+     0.715,
+     0.567
     ],
     [
      0.46,
      0.67,
-     0.558
+     0.559
     ],
     [
      0.51,
      0.613,
-     0.558
+     0.559
     ],
     [
      0.56,
      0.595,
-     0.582
+     0.583
     ],
     [
      0.61,
-     0.573,
-     0.643
+     0.574,
+     0.644
     ],
     [
      0.66,
-     0.559,
-     0.713
+     0.56,
+     0.715
     ],
     [
      0.71,
-     0.546,
-     0.764
+     0.547,
+     0.766
     ],
     [
      0.76,
-     0.532,
-     0.799
+     0.533,
+     0.801
     ],
     [
      0.81,
-     0.507,
-     0.833
+     0.508,
+     0.834
     ],
     [
      0.86,
-     0.493,
-     0.841
+     0.494,
+     0.843
     ],
     [
      0.91,
-     0.48,
-     0.836
+     0.481,
+     0.837
     ],
     [
      0.96,
-     0.459,
-     0.827
+     0.46,
+     0.828
+    ]
+   ]
+  },
+  {
+   "video": "zVxmXn8OHp0",
+   "views": 681,
+   "estimatedMinutesWatched": 232,
+   "averageViewDuration": 40,
+   "averageViewPercentage": 86.57,
+   "subscribersGained": 1,
+   "likes": 5,
+   "comments": 2,
+   "shares": 1,
+   "title": "Nuke War Minute 40: 4 Cities, 27 Strikes in 53 Minutes #shorts",
+   "published": "2026-11-18T00:00:35Z",
+   "lifetime_views": 991,
+   "retention_curve": [
+    [
+     0.01,
+     1.571,
+     0.677
+    ],
+    [
+     0.06,
+     1.39,
+     0.609
+    ],
+    [
+     0.11,
+     1.277,
+     0.588
+    ],
+    [
+     0.16,
+     1.134,
+     0.575
+    ],
+    [
+     0.21,
+     1.009,
+     0.568
+    ],
+    [
+     0.26,
+     0.958,
+     0.569
+    ],
+    [
+     0.31,
+     0.914,
+     0.575
+    ],
+    [
+     0.36,
+     0.872,
+     0.588
+    ],
+    [
+     0.41,
+     0.848,
+     0.609
+    ],
+    [
+     0.46,
+     0.821,
+     0.639
+    ],
+    [
+     0.51,
+     0.789,
+     0.679
+    ],
+    [
+     0.56,
+     0.762,
+     0.732
+    ],
+    [
+     0.61,
+     0.753,
+     0.794
+    ],
+    [
+     0.66,
+     0.738,
+     0.853
+    ],
+    [
+     0.71,
+     0.726,
+     0.891
+    ],
+    [
+     0.76,
+     0.699,
+     0.91
+    ],
+    [
+     0.81,
+     0.693,
+     0.919
+    ],
+    [
+     0.86,
+     0.679,
+     0.922
+    ],
+    [
+     0.91,
+     0.658,
+     0.923
+    ],
+    [
+     0.96,
+     0.637,
+     0.935
     ]
    ]
   },
   {
    "video": "XUJI3lSDD0M",
-   "views": 582,
+   "views": 583,
    "estimatedMinutesWatched": 204,
    "averageViewDuration": 45,
-   "averageViewPercentage": 88.95,
+   "averageViewPercentage": 88.66,
    "subscribersGained": 0,
    "likes": 7,
    "comments": 4,
@@ -719,221 +1067,119 @@
    "retention_curve": [
     [
      0.01,
-     1.662,
-     0.674
+     1.659,
+     0.673
     ],
     [
      0.06,
-     1.441,
-     0.597
+     1.439,
+     0.595
     ],
     [
      0.11,
-     1.247,
-     0.586
+     1.246,
+     0.584
     ],
     [
      0.16,
-     1.103,
-     0.586
+     1.099,
+     0.584
     ],
     [
      0.21,
-     1.011,
-     0.597
+     1.008,
+     0.595
     ],
     [
      0.26,
-     0.962,
-     0.615
+     0.958,
+     0.613
     ],
     [
      0.31,
-     0.928,
-     0.64
+     0.924,
+     0.639
     ],
     [
      0.36,
-     0.905,
-     0.674
+     0.902,
+     0.672
     ],
     [
      0.41,
-     0.882,
-     0.708
+     0.879,
+     0.707
     ],
     [
      0.46,
-     0.863,
+     0.86,
      0.738
     ],
     [
      0.51,
-     0.833,
+     0.83,
      0.768
     ],
     [
      0.56,
-     0.81,
-     0.8
+     0.807,
+     0.799
     ],
     [
      0.61,
-     0.787,
+     0.784,
      0.831
     ],
     [
      0.66,
-     0.772,
+     0.769,
      0.864
     ],
     [
      0.71,
-     0.749,
+     0.746,
      0.899
     ],
     [
      0.76,
-     0.73,
+     0.727,
      0.924
     ],
     [
      0.81,
-     0.707,
+     0.705,
      0.937
     ],
     [
      0.86,
-     0.688,
+     0.686,
      0.945
     ],
     [
      0.91,
-     0.684,
+     0.682,
      0.948
     ],
     [
      0.96,
-     0.669,
+     0.667,
      0.948
     ]
    ]
   },
   {
    "video": "huHH9VFS5aI",
-   "views": 426,
+   "views": 427,
    "estimatedMinutesWatched": 125,
    "averageViewDuration": 32,
-   "averageViewPercentage": 76.49,
+   "averageViewPercentage": 76.17,
    "subscribersGained": 0,
    "likes": 5,
    "comments": 0,
    "shares": 0,
    "title": "What If Israel Nuked an Iranian Mountain Site? #shorts",
    "published": "2026-11-13T14:00:06Z",
-   "lifetime_views": 427,
-   "retention_curve": [
-    [
-     0.01,
-     1.446,
-     0.657
-    ],
-    [
-     0.06,
-     1.342,
-     0.559
-    ],
-    [
-     0.11,
-     1.248,
-     0.534
-    ],
-    [
-     0.16,
-     1.144,
-     0.518
-    ],
-    [
-     0.21,
-     1.004,
-     0.506
-    ],
-    [
-     0.26,
-     0.86,
-     0.497
-    ],
-    [
-     0.31,
-     0.82,
-     0.494
-    ],
-    [
-     0.36,
-     0.748,
-     0.5
-    ],
-    [
-     0.41,
-     0.73,
-     0.516
-    ],
-    [
-     0.46,
-     0.712,
-     0.54
-    ],
-    [
-     0.51,
-     0.68,
-     0.574
-    ],
-    [
-     0.56,
-     0.662,
-     0.624
-    ],
-    [
-     0.61,
-     0.635,
-     0.688
-    ],
-    [
-     0.66,
-     0.608,
-     0.754
-    ],
-    [
-     0.71,
-     0.59,
-     0.804
-    ],
-    [
-     0.76,
-     0.581,
-     0.831
-    ],
-    [
-     0.81,
-     0.568,
-     0.844
-    ],
-    [
-     0.86,
-     0.549,
-     0.847
-    ],
-    [
-     0.91,
-     0.522,
-     0.85
-    ],
-    [
-     0.96,
-     0.486,
-     0.869
-    ]
-   ]
+   "lifetime_views": 427
   },
   {
    "video": "rVHj7z8O65Q",
@@ -947,225 +1193,35 @@
    "shares": 0,
    "title": "What a 10-Kiloton Nuke Does to a Mountain in Iran #shorts",
    "published": "2026-11-14T00:00:40Z",
-   "lifetime_views": 421,
-   "retention_curve": [
-    [
-     0.01,
-     1.944,
-     0.633
-    ],
-    [
-     0.06,
-     1.843,
-     0.511
-    ],
-    [
-     0.11,
-     1.732,
-     0.501
-    ],
-    [
-     0.16,
-     1.54,
-     0.5
-    ],
-    [
-     0.21,
-     1.369,
-     0.5
-    ],
-    [
-     0.26,
-     1.278,
-     0.5
-    ],
-    [
-     0.31,
-     1.232,
-     0.501
-    ],
-    [
-     0.36,
-     1.177,
-     0.505
-    ],
-    [
-     0.41,
-     1.162,
-     0.512
-    ],
-    [
-     0.46,
-     1.141,
-     0.519
-    ],
-    [
-     0.51,
-     1.116,
-     0.528
-    ],
-    [
-     0.56,
-     1.106,
-     0.542
-    ],
-    [
-     0.61,
-     1.086,
-     0.564
-    ],
-    [
-     0.66,
-     1.05,
-     0.603
-    ],
-    [
-     0.71,
-     1.025,
-     0.67
-    ],
-    [
-     0.76,
-     0.99,
-     0.749
-    ],
-    [
-     0.81,
-     0.99,
-     0.807
-    ],
-    [
-     0.86,
-     0.97,
-     0.845
-    ],
-    [
-     0.91,
-     0.965,
-     0.871
-    ],
-    [
-     0.96,
-     0.955,
-     0.885
-    ]
-   ]
+   "lifetime_views": 421
   },
   {
    "video": "Bw7RPbexCTA",
-   "views": 268,
+   "views": 269,
    "estimatedMinutesWatched": 63,
    "averageViewDuration": 32,
-   "averageViewPercentage": 90.41,
+   "averageViewPercentage": 89.67,
    "subscribersGained": 1,
    "likes": 4,
    "comments": 0,
    "shares": 1,
    "title": "Taiwan Has About 11 Days of Gas. Here's Why That Matters #shorts",
    "published": "2026-11-06T14:00:13Z",
-   "lifetime_views": 269,
-   "retention_curve": [
-    [
-     0.01,
-     1.67,
-     0.629
-    ],
-    [
-     0.06,
-     1.643,
-     0.526
-    ],
-    [
-     0.11,
-     1.518,
-     0.505
-    ],
-    [
-     0.16,
-     1.286,
-     0.503
-    ],
-    [
-     0.21,
-     1.134,
-     0.502
-    ],
-    [
-     0.26,
-     1.036,
-     0.502
-    ],
-    [
-     0.31,
-     0.946,
-     0.504
-    ],
-    [
-     0.36,
-     0.857,
-     0.508
-    ],
-    [
-     0.41,
-     0.83,
-     0.514
-    ],
-    [
-     0.46,
-     0.795,
-     0.526
-    ],
-    [
-     0.51,
-     0.768,
-     0.552
-    ],
-    [
-     0.56,
-     0.732,
-     0.607
-    ],
-    [
-     0.61,
-     0.723,
-     0.705
-    ],
-    [
-     0.66,
-     0.723,
-     0.816
-    ],
-    [
-     0.71,
-     0.705,
-     0.891
-    ],
-    [
-     0.76,
-     0.714,
-     0.93
-    ],
-    [
-     0.81,
-     0.696,
-     0.947
-    ],
-    [
-     0.86,
-     0.679,
-     0.95
-    ],
-    [
-     0.91,
-     0.67,
-     0.95
-    ],
-    [
-     0.96,
-     0.661,
-     0.951
-    ]
-   ]
+   "lifetime_views": 269
+  },
+  {
+   "video": "d70ycdBnvsE",
+   "views": 192,
+   "estimatedMinutesWatched": 33,
+   "averageViewDuration": 22,
+   "averageViewPercentage": 54.94,
+   "subscribersGained": 0,
+   "likes": 2,
+   "comments": 0,
+   "shares": 0,
+   "title": "What One Nuke Would Do to a Lithuanian Air Base #shorts",
+   "published": "2026-11-18T19:00:26Z",
+   "lifetime_views": 287
   },
   {
    "video": "Km51s_0dCMI",
@@ -1182,25 +1238,25 @@
    "lifetime_views": 192
   },
   {
-   "video": "zVxmXn8OHp0",
-   "views": 155,
-   "estimatedMinutesWatched": 47,
-   "averageViewDuration": 38,
-   "averageViewPercentage": 82.8,
+   "video": "6IkP02oNrJU",
+   "views": 142,
+   "estimatedMinutesWatched": 559,
+   "averageViewDuration": 314,
+   "averageViewPercentage": 365.84,
    "subscribersGained": 0,
-   "likes": 3,
+   "likes": 2,
    "comments": 1,
-   "shares": 1,
-   "title": "Nuke War Minute 40: 4 Cities, 27 Strikes in 53 Minutes #shorts",
-   "published": "2026-11-18T00:00:35Z",
-   "lifetime_views": 979
+   "shares": 0,
+   "title": "What to Do in the First 15 Minutes After a Nuclear Warning #shorts",
+   "published": "2026-11-17T16:30:10Z",
+   "lifetime_views": 151
   },
   {
    "video": "QK55Sko_aw4",
-   "views": 133,
+   "views": 135,
    "estimatedMinutesWatched": 44,
    "averageViewDuration": 46,
-   "averageViewPercentage": 82.51,
+   "averageViewPercentage": 82.24,
    "subscribersGained": 0,
    "likes": 2,
    "comments": 0,
@@ -1211,10 +1267,10 @@
   },
   {
    "video": "l8W1p2lfHCw",
-   "views": 107,
-   "estimatedMinutesWatched": 113,
-   "averageViewDuration": 150,
-   "averageViewPercentage": 278.05,
+   "views": 109,
+   "estimatedMinutesWatched": 114,
+   "averageViewDuration": 144,
+   "averageViewPercentage": 268.12,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
@@ -1222,20 +1278,6 @@
    "title": "The President Would Have 6 Minutes to Decide #shorts",
    "published": "2026-11-05T14:00:09Z",
    "lifetime_views": 110
-  },
-  {
-   "video": "6IkP02oNrJU",
-   "views": 102,
-   "estimatedMinutesWatched": 34,
-   "averageViewDuration": 43,
-   "averageViewPercentage": 51.129999999999995,
-   "subscribersGained": 0,
-   "likes": 1,
-   "comments": 1,
-   "shares": 0,
-   "title": "What to Do in the First 15 Minutes After a Nuclear Warning #shorts",
-   "published": "2026-11-17T16:30:10Z",
-   "lifetime_views": 147
   },
   {
    "video": "9JvUOVsxthA",
@@ -1253,7 +1295,7 @@
   },
   {
    "video": "K67FRJT0Za4",
-   "views": 76,
+   "views": 77,
    "estimatedMinutesWatched": 14,
    "averageViewDuration": 24,
    "averageViewPercentage": 75.27,
@@ -1267,17 +1309,17 @@
   },
   {
    "video": "lufMFIv5AeY",
-   "views": 58,
-   "estimatedMinutesWatched": 183,
-   "averageViewDuration": 329,
-   "averageViewPercentage": 48.78,
+   "views": 61,
+   "estimatedMinutesWatched": 184,
+   "averageViewDuration": 320,
+   "averageViewPercentage": 47.46,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 1,
    "shares": 0,
    "title": "What One Nuke Would Do to Chicago, Street by Street",
    "published": "2026-11-11T00:00:27Z",
-   "lifetime_views": 62
+   "lifetime_views": 63
   },
   {
    "video": "Qe5PtpijICA",
@@ -1319,7 +1361,7 @@
    "shares": 0,
    "title": "Russia Launches a Nuclear Strike on America... What Happens Next?",
    "published": "2026-11-05T00:00:31Z",
-   "lifetime_views": 49
+   "lifetime_views": 50
   },
   {
    "video": "asHo8qWpZDg",
@@ -1337,10 +1379,10 @@
   },
   {
    "video": "ZjCRJ3VsOu0",
-   "views": 37,
+   "views": 38,
    "estimatedMinutesWatched": 6,
-   "averageViewDuration": 28,
-   "averageViewPercentage": 50.68,
+   "averageViewDuration": 27,
+   "averageViewPercentage": 47.87,
    "subscribersGained": 0,
    "likes": 2,
    "comments": 0,
@@ -1361,35 +1403,21 @@
    "shares": 0,
    "title": "What If Iran Tests a Nuke? Israel's 4-Day Answer",
    "published": "2026-11-13T00:00:06Z",
-   "lifetime_views": 26
+   "lifetime_views": 27
   },
   {
    "video": "GJ4KihR5Uzw",
-   "views": 23,
+   "views": 24,
    "estimatedMinutesWatched": 3,
-   "averageViewDuration": 32,
-   "averageViewPercentage": 59.73,
+   "averageViewDuration": 31,
+   "averageViewPercentage": 56.75,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "title": "One Missile, Three Minutes: A Simulated Nuclear Strike in Ukraine #shorts",
    "published": "2026-11-12T14:00:10Z",
-   "lifetime_views": 24
-  },
-  {
-   "video": "u1EWhaWRoyc",
-   "views": 10,
-   "estimatedMinutesWatched": 7,
-   "averageViewDuration": 69,
-   "averageViewPercentage": 10.18,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "title": "What If Russia Nuked Ukraine? The First 7 Days",
-   "published": "2026-11-12T00:00:11Z",
-   "lifetime_views": 12
+   "lifetime_views": 25
   },
   {
    "video": "up8u4934iUM",
@@ -1406,6 +1434,20 @@
    "lifetime_views": 10
   },
   {
+   "video": "u1EWhaWRoyc",
+   "views": 10,
+   "estimatedMinutesWatched": 7,
+   "averageViewDuration": 69,
+   "averageViewPercentage": 10.18,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "What If Russia Nuked Ukraine? The First 7 Days",
+   "published": "2026-11-12T00:00:11Z",
+   "lifetime_views": 13
+  },
+  {
    "video": "77M-y-VaweA",
    "views": 9,
    "estimatedMinutesWatched": 1,
@@ -1420,9 +1462,23 @@
    "lifetime_views": 9
   },
   {
-   "video": "-jPUfuzQF4g",
-   "views": 5,
+   "video": "32-u8DqpnJo",
+   "views": 9,
    "estimatedMinutesWatched": 0,
+   "averageViewDuration": 13,
+   "averageViewPercentage": 2.05,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "What If Russia Nuked Lithuania? The First 61 Hours",
+   "published": "2026-11-18T00:00:14Z",
+   "lifetime_views": 12
+  },
+  {
+   "video": "-jPUfuzQF4g",
+   "views": 7,
+   "estimatedMinutesWatched": 1,
    "averageViewDuration": 41,
    "averageViewPercentage": 6.07,
    "subscribersGained": 0,
@@ -1431,21 +1487,7 @@
    "shares": 0,
    "title": "What If America and Russia Nuked Each Other? 27 Strikes",
    "published": "2026-11-17T00:00:01Z",
-   "lifetime_views": 10
-  },
-  {
-   "video": "32-u8DqpnJo",
-   "views": 2,
-   "estimatedMinutesWatched": 0,
-   "averageViewDuration": 14,
-   "averageViewPercentage": 2.18,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "title": "What If Russia Nuked Lithuania? The First 61 Hours",
-   "published": "2026-11-18T00:00:14Z",
-   "lifetime_views": 12
+   "lifetime_views": 11
   },
   {
    "video": "ughjJdoGf50",
@@ -1459,7 +1501,21 @@
    "shares": 0,
    "title": "The Real 50 Megaton Nuke: Tsar Bomba's Fireball #shorts",
    "published": "2026-11-20T00:00:00Z",
-   "lifetime_views": 854
+   "lifetime_views": 1240
+  },
+  {
+   "video": "yW8PX8vxzT8",
+   "views": 1,
+   "estimatedMinutesWatched": 0,
+   "averageViewDuration": 0,
+   "averageViewPercentage": 0,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "What If a 50 Megaton Nuke Hit New York? Ring by Ring",
+   "published": "2026-11-19T00:00:15Z",
+   "lifetime_views": 8
   }
  ],
  "errors": [],
@@ -1472,23 +1528,23 @@
   "rows": [
    [
     "SHORTS",
-    8765,
-    2891
+    11474,
+    4040
    ],
    [
     "YT_SEARCH",
-    307,
-    189
+    360,
+    198
    ],
    [
     "YT_OTHER_PAGE",
-    135,
-    74
+    159,
+    79
    ],
    [
     "YT_CHANNEL",
-    97,
-    179
+    115,
+    184
    ],
    [
     "RELATED_VIDEO",
@@ -1497,7 +1553,7 @@
    ],
    [
     "SUBSCRIBER",
-    32,
+    34,
     20
    ],
    [
@@ -1535,63 +1591,63 @@
   "rows": [
    [
     "US",
-    4597
+    5408
    ],
    [
     "RU",
-    345
+    697
    ],
    [
     "GB",
-    253
+    340
+   ],
+   [
+    "UA",
+    324
    ],
    [
     "JP",
-    237
-   ],
-   [
-    "IN",
-    198
-   ],
-   [
-    "PH",
-    188
+    315
    ],
    [
     "CA",
-    184
+    271
    ],
    [
     "DE",
-    176
+    269
+   ],
+   [
+    "IN",
+    258
+   ],
+   [
+    "PH",
+    221
+   ],
+   [
+    "PL",
+    175
+   ],
+   [
+    "AU",
+    120
    ],
    [
     "ID",
     116
    ],
    [
-    "UA",
-    105
-   ],
-   [
-    "AU",
-    92
-   ],
-   [
-    "PL",
-    76
-   ],
-   [
-    "KR",
-    47
+    "KZ",
+    93
    ],
    [
     "NL",
-    35
+    82
    ],
    [
-    "IE",
-    25
+    "KR",
+    79
    ]
   ]
  },
@@ -1605,12 +1661,12 @@
  },
  "reach": {
   "job": "22cbe519-176f-4a0c-9484-ef5f01850ea5",
-  "days": 43,
+  "days": 44,
   "videos": {
    "fWvrsNHlIak": {
-    "impressions": 1486,
+    "impressions": 1489,
     "clicks": 35,
-    "ctr": 0.0236
+    "ctr": 0.0235
    },
    "0BKN1bwvjRI": {
     "impressions": 1,
@@ -1618,12 +1674,12 @@
     "ctr": 0.0
    },
    "9JvUOVsxthA": {
-    "impressions": 46,
+    "impressions": 47,
     "clicks": 2,
-    "ctr": 0.0435
+    "ctr": 0.0426
    },
    "Bw7RPbexCTA": {
-    "impressions": 38,
+    "impressions": 39,
     "clicks": 0,
     "ctr": 0.0
    },
@@ -1633,19 +1689,19 @@
     "ctr": 0.0
    },
    "QK55Sko_aw4": {
-    "impressions": 84,
+    "impressions": 86,
     "clicks": 4,
-    "ctr": 0.0476
+    "ctr": 0.0465
    },
    "ZjCRJ3VsOu0": {
-    "impressions": 62,
+    "impressions": 63,
     "clicks": 0,
     "ctr": 0.0
    },
    "asHo8qWpZDg": {
-    "impressions": 535,
+    "impressions": 537,
     "clicks": 31,
-    "ctr": 0.0579
+    "ctr": 0.0577
    },
    "dpxhxTSJoec": {
     "impressions": 1,
@@ -1653,9 +1709,9 @@
     "ctr": 0.0
    },
    "hK24hiHogvs": {
-    "impressions": 211,
+    "impressions": 215,
     "clicks": 5,
-    "ctr": 0.0237
+    "ctr": 0.0233
    },
    "kOTfAUeBpRA": {
     "impressions": 1,
@@ -1663,9 +1719,9 @@
     "ctr": 0.0
    },
    "l8W1p2lfHCw": {
-    "impressions": 34,
-    "clicks": 2,
-    "ctr": 0.0588
+    "impressions": 35,
+    "clicks": 3,
+    "ctr": 0.0857
    },
    "mcIl2VZevA8": {
     "impressions": 1,
@@ -1673,87 +1729,87 @@
     "ctr": 0.0
    },
    "LT_46ntdORs": {
-    "impressions": 70,
+    "impressions": 73,
     "clicks": 1,
-    "ctr": 0.0143
+    "ctr": 0.0137
    },
    "NxaU3CIMJ2A": {
-    "impressions": 108,
+    "impressions": 110,
     "clicks": 4,
-    "ctr": 0.037
+    "ctr": 0.0364
    },
    "XUJI3lSDD0M": {
-    "impressions": 121,
+    "impressions": 126,
     "clicks": 6,
-    "ctr": 0.0496
+    "ctr": 0.0476
    },
    "77M-y-VaweA": {
-    "impressions": 84,
+    "impressions": 100,
     "clicks": 1,
-    "ctr": 0.0119
+    "ctr": 0.01
    },
    "CswtYFhvZkE": {
-    "impressions": 36,
+    "impressions": 42,
     "clicks": 2,
-    "ctr": 0.0556
+    "ctr": 0.0476
    },
    "GJ4KihR5Uzw": {
-    "impressions": 82,
+    "impressions": 96,
     "clicks": 0,
     "ctr": 0.0
    },
    "Km51s_0dCMI": {
-    "impressions": 66,
+    "impressions": 68,
     "clicks": 1,
-    "ctr": 0.0152
+    "ctr": 0.0147
    },
    "Qe5PtpijICA": {
-    "impressions": 135,
+    "impressions": 141,
     "clicks": 2,
-    "ctr": 0.0148
+    "ctr": 0.0142
    },
    "Xh-d91arwTU": {
-    "impressions": 31,
+    "impressions": 32,
     "clicks": 0,
     "ctr": 0.0
    },
    "lufMFIv5AeY": {
-    "impressions": 322,
+    "impressions": 351,
     "clicks": 17,
-    "ctr": 0.0528
+    "ctr": 0.0484
    },
    "up8u4934iUM": {
-    "impressions": 63,
+    "impressions": 65,
     "clicks": 3,
-    "ctr": 0.0476
+    "ctr": 0.0462
    },
    "u1EWhaWRoyc": {
-    "impressions": 82,
+    "impressions": 90,
     "clicks": 3,
-    "ctr": 0.0366
+    "ctr": 0.0333
    },
    "DK6UC3_BT6Q": {
-    "impressions": 135,
+    "impressions": 149,
     "clicks": 6,
-    "ctr": 0.0444
+    "ctr": 0.0403
    },
    "K67FRJT0Za4": {
-    "impressions": 100,
+    "impressions": 108,
     "clicks": 2,
-    "ctr": 0.02
+    "ctr": 0.0185
    },
    "huHH9VFS5aI": {
-    "impressions": 64,
+    "impressions": 69,
     "clicks": 0,
     "ctr": 0.0
    },
    "rVHj7z8O65Q": {
-    "impressions": 57,
+    "impressions": 71,
     "clicks": 3,
-    "ctr": 0.0526
+    "ctr": 0.0423
    },
    "-jPUfuzQF4g": {
-    "impressions": 27,
+    "impressions": 39,
     "clicks": 0,
     "ctr": 0.0
    },
@@ -1763,14 +1819,14 @@
     "ctr": 0.0
    },
    "32-u8DqpnJo": {
-    "impressions": 8,
+    "impressions": 33,
     "clicks": 1,
-    "ctr": 0.125
+    "ctr": 0.0303
    },
    "6IkP02oNrJU": {
-    "impressions": 125,
+    "impressions": 163,
     "clicks": 2,
-    "ctr": 0.016
+    "ctr": 0.0123
    },
    "9Wov8oOgXSM": {
     "impressions": 2,
@@ -1778,29 +1834,29 @@
     "ctr": 0.0
    },
    "IiMf6VMQD6M": {
-    "impressions": 79,
+    "impressions": 116,
     "clicks": 7,
-    "ctr": 0.0886
+    "ctr": 0.0603
    },
    "RJ7F0uSC1Xg": {
-    "impressions": 2,
-    "clicks": 0,
-    "ctr": 0.0
+    "impressions": 26,
+    "clicks": 2,
+    "ctr": 0.0769
    },
    "UVwaVWWRXIE": {
-    "impressions": 2,
-    "clicks": 0,
-    "ctr": 0.0
+    "impressions": 38,
+    "clicks": 2,
+    "ctr": 0.0526
    },
    "d70ycdBnvsE": {
-    "impressions": 2,
+    "impressions": 15,
     "clicks": 0,
     "ctr": 0.0
    },
    "iqCileJm1CI": {
-    "impressions": 105,
+    "impressions": 154,
     "clicks": 6,
-    "ctr": 0.0571
+    "ctr": 0.039
    },
    "ughjJdoGf50": {
     "impressions": 2,
@@ -1808,7 +1864,12 @@
     "ctr": 0.5
    },
    "zVxmXn8OHp0": {
-    "impressions": 45,
+    "impressions": 70,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "yW8PX8vxzT8": {
+    "impressions": 19,
     "clicks": 0,
     "ctr": 0.0
    }
