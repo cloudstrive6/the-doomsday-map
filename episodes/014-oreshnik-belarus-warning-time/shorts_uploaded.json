@@ -1,0 +1,38 @@
+[
+  {
+    "id": "s1",
+    "youtube_id": "znzdvIrrRp4",
+    "url": "https://youtube.com/shorts/znzdvIrrRp4",
+    "publish_at": "2026-11-23T14:00:00Z",
+    "title": "What If a 50 Kiloton Nuke Hit Ramstein? The Rings #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -14.0,
+      "TP": -2.1
+    }
+  },
+  {
+    "id": "s2",
+    "youtube_id": "lnLiWO1YJz8",
+    "url": "https://youtube.com/shorts/lnLiWO1YJz8",
+    "publish_at": "2026-11-23T19:00:00Z",
+    "title": "What If a 50 Kiloton Nuke Hit Ramstein, Germany? #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -14.0,
+      "TP": -1.8
+    }
+  },
+  {
+    "id": "s3",
+    "youtube_id": "fz72MisdI4s",
+    "url": "https://youtube.com/shorts/fz72MisdI4s",
+    "publish_at": "2026-11-24T00:00:00Z",
+    "title": "What If an Oreshnik Nuke Flew From Belarus to Germany? #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -14.0,
+      "TP": -4.6
+    }
+  }
+]
