@@ -2,7 +2,7 @@
 
 Built by `python -m studio scorecard` from data/analytics/. Targets judged on the median of episodes 004 onward; earlier episodes are the baseline. Small samples: read as tests, not proof.
 
-Subscribers: 14 (target 50 by 2026-12-10)
+Subscribers: 16 (target 50 by 2026-12-10)
 
 ## Targets
 
@@ -49,6 +49,8 @@ Subscribers: 14 (target 50 by 2026-12-10)
 | 012 | 3VH3JSj7wNM | 28 | due 2026-12-19 | - | - | - | - | - | - |
 | 013 | xeDNdj7CXg8 | 7 | due 2026-11-29 | - | - | - | - | - | - |
 | 013 | xeDNdj7CXg8 | 28 | due 2026-12-20 | - | - | - | - | - | - |
+| 014 | MHcEaOzJxHk | 7 | due 2026-11-30 | - | - | - | - | - | - |
+| 014 | MHcEaOzJxHk | 28 | due 2026-12-21 | - | - | - | - | - | - |
 
 ## Shorts
 
@@ -88,7 +90,7 @@ Subscribers: 14 (target 50 by 2026-12-10)
 | 006 | huHH9VFS5aI | 28 | due 2026-12-11 | - | - | - |
 | 006 | K67FRJT0Za4 | 7 | measured | 77 | 75% | 24 |
 | 006 | K67FRJT0Za4 | 28 | due 2026-12-11 | - | - | - |
-| 006 | rVHj7z8O65Q | 7 | measured | 421 | 119% | 56 |
+| 006 | rVHj7z8O65Q | 7 | measured | 421 | 119% | 57 |
 | 006 | rVHj7z8O65Q | 28 | due 2026-12-12 | - | - | - |
 | 008 | IiMf6VMQD6M | 7 | due 2026-11-24 | - | - | - |
 | 008 | IiMf6VMQD6M | 28 | due 2026-12-15 | - | - | - |
@@ -126,3 +128,9 @@ Subscribers: 14 (target 50 by 2026-12-10)
 | 013 | YveijTMP8OM | 28 | due 2026-12-20 | - | - | - |
 | 013 | UzDKT-C3p4s | 7 | due 2026-11-30 | - | - | - |
 | 013 | UzDKT-C3p4s | 28 | due 2026-12-21 | - | - | - |
+| 014 | znzdvIrrRp4 | 7 | due 2026-11-30 | - | - | - |
+| 014 | znzdvIrrRp4 | 28 | due 2026-12-21 | - | - | - |
+| 014 | lnLiWO1YJz8 | 7 | due 2026-11-30 | - | - | - |
+| 014 | lnLiWO1YJz8 | 28 | due 2026-12-21 | - | - | - |
+| 014 | fz72MisdI4s | 7 | due 2026-12-01 | - | - | - |
+| 014 | fz72MisdI4s | 28 | due 2026-12-22 | - | - | - |
