@@ -1,0 +1,510 @@
+{
+ "subtitles": [
+  {
+   "start": 0.599,
+   "end": 1.874,
+   "text": "At 3 km,"
+  },
+  {
+   "start": 2.389,
+   "end": 4.744,
+   "text": "the flash alone causes third-degree"
+  },
+  {
+   "start": 4.744,
+   "end": 6.674,
+   "text": "burns on bare skin."
+  },
+  {
+   "start": 7.918,
+   "end": 10.334,
+   "text": "At 6 and 3 quarter kilometres,"
+  },
+  {
+   "start": 10.725,
+   "end": 12.974,
+   "text": "one pound per square inch."
+  },
+  {
+   "start": 13.486,
+   "end": 14.454,
+   "text": "Windows break."
+  },
+  {
+   "start": 15.238,
+   "end": 16.924,
+   "text": "The base and the towns beside"
+  },
+  {
+   "start": 16.924,
+   "end": 19.254,
+   "text": "it lie inside these rings."
+  },
+  {
+   "start": 19.671,
+   "end": 22.003,
+   "text": "We give no casualty figure:"
+  },
+  {
+   "start": 22.003,
+   "end": 24.614,
+   "text": "no published study models this strike."
+  },
+  {
+   "start": 25.704,
+   "end": 27.914,
+   "text": "The rings are the visible damage."
+  },
+  {
+   "start": 28.197,
+   "end": 29.084,
+   "text": "The question from the"
+  },
+  {
+   "start": 29.084,
+   "end": 30.554,
+   "text": "start was the minutes."
+  }
+ ],
+ "slug": "014-oreshnik-belarus-warning-time-s1",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 30.744,
+ "shots": [
+  {
+   "id": "c5-burn",
+   "type": "city",
+   "start": 0.0,
+   "end": 7.32,
+   "tag": "SIMULATION",
+   "city": "ramstein",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 8.8
+   },
+   "gz": [
+    7.6,
+    49.437
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 8.8
+    },
+    {
+     "t": 7.32,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 10.4
+    }
+   ],
+   "rings": [
+    {
+     "km": 2.495,
+     "label": "5 psi",
+     "color": "#FF8A78",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.129,
+     "label": "Burns",
+     "color": "#FF7A1A",
+     "t": 0.4,
+     "angle": 45
+    }
+   ],
+   "labels": [
+    {
+     "text": "Third-degree burns",
+     "color": "#FF7A1A",
+     "t": 0.57,
+     "at": [
+      7.55027,
+      49.45776
+     ]
+    },
+    {
+     "text": "From the flash alone",
+     "color": "#FFFFFF",
+     "t": 2.33,
+     "at": [
+      7.55027,
+      49.45287
+     ]
+    }
+   ],
+   "clock": "T+08:12",
+   "clockLabel": "IMPACT",
+   "clockRate": 1
+  },
+  {
+   "id": "c5-win",
+   "type": "city",
+   "start": 7.32,
+   "end": 14.976,
+   "tag": "SIMULATION",
+   "city": "ramstein",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 14.4
+   },
+   "gz": [
+    7.6,
+    49.437
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 14.4
+    },
+    {
+     "t": 3.21,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 15.74
+    },
+    {
+     "t": 7.66,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 17.6
+    }
+   ],
+   "rings": [
+    {
+     "km": 2.495,
+     "label": "5 psi",
+     "color": "#FF8A78",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.129,
+     "label": "Burns",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 45
+    },
+    {
+     "km": 6.752,
+     "label": "1 psi",
+     "color": "#FFFFFF",
+     "t": 0.4,
+     "angle": 135
+    }
+   ],
+   "labels": [
+    {
+     "text": "Windows break",
+     "color": "#FFD23F",
+     "t": 6.02,
+     "at": [
+      7.51712,
+      49.47159
+     ]
+    }
+   ],
+   "clock": "T+08:12",
+   "clockLabel": "IMPACT",
+   "clockRate": 1
+  },
+  {
+   "id": "c5-towns",
+   "type": "city",
+   "start": 14.976,
+   "end": 19.521,
+   "tag": "SIMULATION",
+   "city": "ramstein",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 24.0
+   },
+   "gz": [
+    7.6,
+    49.437
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 24.0
+    },
+    {
+     "t": 4.55,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 27.2
+    }
+   ],
+   "rings": [
+    {
+     "km": 2.495,
+     "label": "5 psi",
+     "color": "#FF8A78",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.129,
+     "label": "Burns",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 45
+    },
+    {
+     "km": 6.752,
+     "label": "1 psi",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 135
+    }
+   ],
+   "labels": [
+    {
+     "text": "Base and towns inside the rings",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "at": [
+      7.46738,
+      49.50212
+     ]
+    }
+   ],
+   "clock": "T+08:12",
+   "clockLabel": "IMPACT",
+   "clockRate": 1
+  },
+  {
+   "id": "c5-nocas",
+   "type": "city",
+   "start": 19.521,
+   "end": 25.703,
+   "tag": "SIMULATION",
+   "city": "ramstein",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 27.2
+   },
+   "gz": [
+    7.6,
+    49.437
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 27.2
+    },
+    {
+     "t": 6.18,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 32.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 6.752,
+     "label": "1 psi",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 135
+    },
+    {
+     "km": 3.129,
+     "label": "Burns",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 45
+    }
+   ],
+   "labels": [
+    {
+     "text": "No casualty figure",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      7.44666,
+      49.501
+     ]
+    },
+    {
+     "text": "No published study models this strike",
+     "color": "#FFFFFF",
+     "t": 2.49,
+     "at": [
+      7.44666,
+      49.48594
+     ]
+    }
+   ],
+   "clock": "T+08:12",
+   "clockLabel": "IMPACT",
+   "clockRate": 1
+  },
+  {
+   "id": "c6-question",
+   "type": "region",
+   "start": 29.204,
+   "end": 30.744,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     14.0,
+     51.0
+    ],
+    "widthKm": 3800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      14.0,
+      51.0
+     ],
+     "widthKm": 3800
+    },
+    {
+     "t": 1.75,
+     "center": [
+      20.0,
+      52.0
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "labels": [
+    {
+     "text": "The rings are the visible damage",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "at": [
+      -0.55979,
+      56.88089
+     ]
+    },
+    {
+     "text": "The question was the minutes",
+     "color": "#FFD23F",
+     "t": 0.45,
+     "at": [
+      -0.55979,
+      55.49715
+     ]
+    }
+   ],
+   "clock": "03:18",
+   "clockLabel": "BERLIN TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       31.72,
+       53.71
+      ],
+      [
+       7.6,
+       49.437
+      ]
+     ],
+     "t0": 0.05,
+     "t1": 1.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 2.4,
+     "t": 0.05,
+     "wake": true
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "label": "Ramstein",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "BURNS AT 3 KM",
+  "WINDOWS BREAK AT 6.75"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Narration: AI-generated."
+}

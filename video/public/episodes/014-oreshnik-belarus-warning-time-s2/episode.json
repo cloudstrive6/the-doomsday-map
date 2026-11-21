@@ -1,0 +1,522 @@
+{
+ "subtitles": [
+  {
+   "start": 8.574,
+   "end": 10.92,
+   "text": "First, the fireball."
+  },
+  {
+   "start": 11.28,
+   "end": 12.19,
+   "text": "Its radius is"
+  },
+  {
+   "start": 12.19,
+   "end": 14.04,
+   "text": "290 m."
+  },
+  {
+   "start": 14.344,
+   "end": 16.18,
+   "text": "This is the fireball ring."
+  },
+  {
+   "start": 17.075,
+   "end": 19.752,
+   "text": "At 510 m,"
+  },
+  {
+   "start": 19.752,
+   "end": 21.11,
+   "text": "20 pounds per square"
+  },
+  {
+   "start": 21.11,
+   "end": 23.12,
+   "text": "inch of overpressure."
+  },
+  {
+   "start": 23.3,
+   "end": 24.47,
+   "text": "This is the ring of"
+  },
+  {
+   "start": 24.47,
+   "end": 27.4,
+   "text": "the most severe blast damage."
+  },
+  {
+   "start": 28.223,
+   "end": 30.035,
+   "text": "At two and a half kilometres,"
+  },
+  {
+   "start": 30.035,
+   "end": 31.96,
+   "text": "five pounds per square inch,"
+  },
+  {
+   "start": 32.13,
+   "end": 33.19,
+   "text": "enough for heavy damage"
+  },
+  {
+   "start": 33.19,
+   "end": 34.7,
+   "text": "to ordinary buildings."
+  },
+  {
+   "start": 34.937,
+   "end": 36.05,
+   "text": "That ring covers about"
+  },
+  {
+   "start": 36.05,
+   "end": 37.33,
+   "text": "20 square kilometres."
+  }
+ ],
+ "slug": "014-oreshnik-belarus-warning-time-s2",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 37.33,
+ "shots": [
+  {
+   "id": "c5-approach",
+   "type": "region",
+   "start": 0.0,
+   "end": 4.299,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     14.0,
+     51.0
+    ],
+    "widthKm": 1200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      14.0,
+      51.0
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 1.42,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 320
+    }
+   ],
+   "labels": [
+    {
+     "text": "Minute eight point two",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "at": [
+      10.74546,
+      52.31455
+     ]
+    }
+   ],
+   "clock": "T+08:00",
+   "clockLabel": "AFTER LAUNCH",
+   "clockRate": 1,
+   "highlight": [
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       14.0,
+       51.0
+      ],
+      [
+       7.6,
+       49.437
+      ]
+     ],
+     "t0": 0.05,
+     "t1": 1.42,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 2.4,
+     "t": 0.05,
+     "wake": true
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "label": "Ramstein Air Base",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c5-flash",
+   "type": "city",
+   "start": 4.299,
+   "end": 7.989,
+   "tag": "SIMULATION",
+   "city": "ramstein",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 6.4
+   },
+   "gz": [
+    7.6,
+    49.437
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 6.4
+    },
+    {
+     "t": 3.69,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 4.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.291,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 1.2,
+     "angle": 100
+    }
+   ],
+   "labels": [
+    {
+     "text": "50 kt airburst over the base",
+     "color": "#FF3B3B",
+     "t": 0.4,
+     "at": [
+      7.57306,
+      49.44824
+     ]
+    }
+   ],
+   "flashT": 0.1,
+   "clock": "T+08:12",
+   "clockLabel": "IMPACT",
+   "clockRate": 1
+  },
+  {
+   "id": "c5-fire",
+   "type": "city",
+   "start": 7.989,
+   "end": 16.653,
+   "tag": "SIMULATION",
+   "city": "ramstein",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 3.2
+   },
+   "gz": [
+    7.6,
+    49.437
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 3.2
+    },
+    {
+     "t": 8.66,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 2.4
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.291,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "angle": 100
+    }
+   ],
+   "labels": [
+    {
+     "text": "Fireball radius: 290 m",
+     "color": "#FFD23F",
+     "t": 3.31,
+     "at": [
+      7.5855,
+      49.44305
+     ]
+    }
+   ],
+   "clock": "T+08:12",
+   "clockLabel": "IMPACT",
+   "clockRate": 1
+  },
+  {
+   "id": "c5-20",
+   "type": "city",
+   "start": 16.653,
+   "end": 27.949,
+   "tag": "SIMULATION",
+   "city": "ramstein",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 4.0
+   },
+   "gz": [
+    7.6,
+    49.437
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 4.0
+    },
+    {
+     "t": 4.35,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 3.54
+    },
+    {
+     "t": 11.3,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 2.8
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.291,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 100
+    },
+    {
+     "km": 0.508,
+     "label": "20 psi",
+     "color": "#FF3B3B",
+     "t": 0.4,
+     "angle": 260
+    }
+   ],
+   "labels": [
+    {
+     "text": "Most severe blast damage",
+     "color": "#FFD23F",
+     "t": 8.29,
+     "at": [
+      7.58239,
+      49.44435
+     ]
+    }
+   ],
+   "clock": "T+08:12",
+   "clockLabel": "IMPACT",
+   "clockRate": 1
+  },
+  {
+   "id": "c5-5",
+   "type": "city",
+   "start": 27.949,
+   "end": 33.24,
+   "tag": "SIMULATION",
+   "city": "ramstein",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 8.0
+   },
+   "gz": [
+    7.6,
+    49.437
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 8.0
+    },
+    {
+     "t": 5.29,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 5.6
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.291,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 100
+    },
+    {
+     "km": 0.508,
+     "label": "20 psi",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 260
+    },
+    {
+     "km": 2.495,
+     "label": "5 psi",
+     "color": "#FF8A78",
+     "t": 0.5,
+     "angle": 225
+    }
+   ],
+   "labels": [
+    {
+     "text": "Heavy damage to ordinary buildings",
+     "color": "#FFD23F",
+     "t": 4.45,
+     "at": [
+      7.56477,
+      49.4517
+     ]
+    }
+   ],
+   "clock": "T+08:12",
+   "clockLabel": "IMPACT",
+   "clockRate": 1
+  },
+  {
+   "id": "c5-5b",
+   "type": "city",
+   "start": 33.24,
+   "end": 37.33,
+   "tag": "SIMULATION",
+   "city": "ramstein",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 5.6
+   },
+   "gz": [
+    7.6,
+    49.437
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 5.6
+    },
+    {
+     "t": 5.17,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 7.2
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.291,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 100
+    },
+    {
+     "km": 0.508,
+     "label": "20 psi",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 260
+    },
+    {
+     "km": 2.495,
+     "label": "5 psi",
+     "color": "#FF8A78",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "labels": [
+    {
+     "text": "About 20 square km",
+     "color": "#FFD23F",
+     "t": 2.66,
+     "at": [
+      7.56685,
+      49.45084
+     ]
+    }
+   ],
+   "clock": "T+08:12",
+   "clockLabel": "IMPACT",
+   "clockRate": 1
+  }
+ ],
+ "shortTitle": [
+  "ONE 50 KT NUKE",
+  "OVER RAMSTEIN"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Narration: AI-generated."
+}

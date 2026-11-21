@@ -1,0 +1,1109 @@
+{
+ "subtitles": [
+  {
+   "start": 0.265,
+   "end": 1.054,
+   "text": "If a missile were"
+  },
+  {
+   "start": 1.054,
+   "end": 2.271,
+   "text": "aimed at Vilnius,"
+  },
+  {
+   "start": 2.271,
+   "end": 3.014,
+   "text": "it would arrive in"
+  },
+  {
+   "start": 3.014,
+   "end": 4.244,
+   "text": "about 6 minutes."
+  },
+  {
+   "start": 4.694,
+   "end": 5.194,
+   "text": "Vilnius is"
+  },
+  {
+   "start": 5.194,
+   "end": 7.484,
+   "text": "433 km away."
+  },
+  {
+   "start": 7.702,
+   "end": 8.434,
+   "text": "If a missile were"
+  },
+  {
+   "start": 8.434,
+   "end": 9.594,
+   "text": "aimed at Warsaw,"
+  },
+  {
+   "start": 9.594,
+   "end": 11.924,
+   "text": "735 km,"
+  },
+  {
+   "start": 12.249,
+   "end": 14.114,
+   "text": "still about six."
+  },
+  {
+   "start": 14.315,
+   "end": 15.114,
+   "text": "Six is the floor"
+  },
+  {
+   "start": 15.114,
+   "end": 16.104,
+   "text": "of our model."
+  },
+  {
+   "start": 16.618,
+   "end": 20.044,
+   "text": "Berlin, twelve hundred and twenty-six kilometres:"
+  },
+  {
+   "start": 20.364,
+   "end": 23.314,
+   "text": "about 6.7 minutes. Brussels,"
+  },
+  {
+   "start": 23.314,
+   "end": 25.304,
+   "text": "about 8.6. London,"
+  },
+  {
+   "start": 25.494,
+   "end": 27.924,
+   "text": "2,146 km:"
+  },
+  {
+   "start": 28.394,
+   "end": 29.844,
+   "text": "about 9.4."
+  },
+  {
+   "start": 31.194,
+   "end": 32.034,
+   "text": "Ramstein,"
+  },
+  {
+   "start": 32.034,
+   "end": 33.634,
+   "text": "seventeen hundred and twenty-four kilometres"
+  },
+  {
+   "start": 33.634,
+   "end": 35.328,
+   "text": "from the launch point,"
+  },
+  {
+   "start": 35.328,
+   "end": 37.784,
+   "text": "sits between Berlin and Brussels."
+  },
+  {
+   "start": 38.148,
+   "end": 39.834,
+   "text": "Minute 8, and a little more."
+  }
+ ],
+ "slug": "014-oreshnik-belarus-warning-time-s3",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 39.834,
+ "shots": [
+  {
+   "id": "c4-vilnius",
+   "type": "region",
+   "start": 0.0,
+   "end": 8.704,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     28.0,
+     54.0
+    ],
+    "widthKm": 1000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      28.0,
+      54.0
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 5.88,
+     "center": [
+      27.3241,
+      54.1352
+     ],
+     "widthKm": 864.828
+    },
+    {
+     "t": 8.7,
+     "center": [
+      27.0,
+      54.2
+     ],
+     "widthKm": 800
+    }
+   ],
+   "labels": [
+    {
+     "text": "Vilnius: 433 km",
+     "color": "#6EA8FF",
+     "t": 0.3,
+     "at": [
+      23.87359,
+      55.55671
+     ]
+    },
+    {
+     "text": "About 6 minutes",
+     "color": "#FFD23F",
+     "t": 3.06,
+     "at": [
+      23.87359,
+      55.19042
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "FLIGHT TIME",
+   "clockRate": 100.0,
+   "ships": [
+    {
+     "path": [
+      [
+       31.72,
+       53.71
+      ],
+      [
+       25.28,
+       54.687
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 3.6,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Oreshnik",
+     "size": 2.4,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      25.28,
+      54.687
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 3.6
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      25.28,
+      54.687
+     ],
+     "label": "Vilnius",
+     "kind": "dot",
+     "t": 0.2,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-warsaw",
+   "type": "region",
+   "start": 8.704,
+   "end": 14.704,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     26.0,
+     53.5
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      26.0,
+      53.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 6.0,
+     "center": [
+      24.0,
+      53.0
+     ],
+     "widthKm": 1300
+    }
+   ],
+   "labels": [
+    {
+     "text": "Warsaw: 735 km",
+     "color": "#6EA8FF",
+     "t": 0.3,
+     "at": [
+      19.65709,
+      55.92154
+     ]
+    },
+    {
+     "text": "Still about 6 minutes",
+     "color": "#FFD23F",
+     "t": 3.4,
+     "at": [
+      19.65709,
+      55.35177
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "FLIGHT TIME",
+   "clockRate": 90.0,
+   "ships": [
+    {
+     "path": [
+      [
+       31.72,
+       53.71
+      ],
+      [
+       21.012,
+       52.23
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 4.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Oreshnik",
+     "size": 2.4,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      21.012,
+      52.23
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 4.0
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.012,
+      52.23
+     ],
+     "label": "Warsaw",
+     "kind": "dot",
+     "t": 0.2,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      25.28,
+      54.687
+     ],
+     "label": "Vilnius",
+     "kind": "dot",
+     "t": 0.2,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-floor",
+   "type": "region",
+   "start": 14.704,
+   "end": 16.616,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     24.0,
+     53.0
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24.0,
+      53.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 1.91,
+     "center": [
+      20.0,
+      52.5
+     ],
+     "widthKm": 2400
+    }
+   ],
+   "labels": [
+    {
+     "text": "Six is the floor of our model",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      15.26788,
+      56.37286
+     ]
+    }
+   ],
+   "clock": "T+06:00",
+   "clockLabel": "THE FLOOR",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.012,
+      52.23
+     ],
+     "label": "Warsaw",
+     "kind": "dot",
+     "t": 0.1,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      25.28,
+      54.687
+     ],
+     "label": "Vilnius",
+     "kind": "dot",
+     "t": 0.1,
+     "color": "#6EA8FF"
+    }
+   ]
+  },
+  {
+   "id": "c4-berlin",
+   "type": "region",
+   "start": 16.616,
+   "end": 22.367,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     22.0,
+     53.0
+    ],
+    "widthKm": 2400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      22.0,
+      53.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 5.75,
+     "center": [
+      18.0,
+      52.5
+     ],
+     "widthKm": 2600
+    }
+   ],
+   "labels": [
+    {
+     "text": "Berlin: 1,226 km",
+     "color": "#6EA8FF",
+     "t": 0.3,
+     "at": [
+      10.80498,
+      57.32418
+     ]
+    },
+    {
+     "text": "About 6.7 minutes",
+     "color": "#FFD23F",
+     "t": 3.83,
+     "at": [
+      10.80498,
+      56.30673
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "FLIGHT TIME",
+   "clockRate": 89.3,
+   "ships": [
+    {
+     "path": [
+      [
+       31.72,
+       53.71
+      ],
+      [
+       13.405,
+       52.52
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 4.5,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Oreshnik",
+     "size": 2.4,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      13.405,
+      52.52
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 4.5
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      13.405,
+      52.52
+     ],
+     "label": "Berlin",
+     "kind": "dot",
+     "t": 0.2,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-brussels",
+   "type": "region",
+   "start": 22.367,
+   "end": 24.488,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     16.0,
+     52.0
+    ],
+    "widthKm": 3200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      16.0,
+      52.0
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 2.12,
+     "center": [
+      12.0,
+      51.5
+     ],
+     "widthKm": 3600
+    }
+   ],
+   "labels": [
+    {
+     "text": "Brussels",
+     "color": "#6EA8FF",
+     "t": 0.3,
+     "at": [
+      1.11719,
+      57.88089
+     ]
+    },
+    {
+     "text": "About 8.6 minutes",
+     "color": "#FFD23F",
+     "t": 0.8,
+     "at": [
+      1.11719,
+      56.49715
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "FLIGHT TIME",
+   "clockRate": 114.7,
+   "ships": [
+    {
+     "path": [
+      [
+       31.72,
+       53.71
+      ],
+      [
+       4.352,
+       50.85
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 4.5,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Oreshnik",
+     "size": 2.4,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      4.352,
+      50.85
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 4.5
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      4.352,
+      50.85
+     ],
+     "label": "Brussels",
+     "kind": "dot",
+     "t": 0.2,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      13.405,
+      52.52
+     ],
+     "label": "Berlin",
+     "kind": "dot",
+     "t": 0.2,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "056",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-london",
+   "type": "region",
+   "start": 24.488,
+   "end": 30.264,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     14.0,
+     52.0
+    ],
+    "widthKm": 3800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      14.0,
+      52.0
+     ],
+     "widthKm": 3800
+    },
+    {
+     "t": 5.78,
+     "center": [
+      10.0,
+      52.0
+     ],
+     "widthKm": 4600
+    }
+   ],
+   "labels": [
+    {
+     "text": "London: 2,146 km",
+     "color": "#6EA8FF",
+     "t": 0.3,
+     "at": [
+      -4.38465,
+      59.26463
+     ]
+    },
+    {
+     "text": "About 9.4 minutes",
+     "color": "#FFD23F",
+     "t": 3.98,
+     "at": [
+      -4.38465,
+      57.5553
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "FLIGHT TIME",
+   "clockRate": 112.8,
+   "ships": [
+    {
+     "path": [
+      [
+       31.72,
+       53.71
+      ],
+      [
+       -0.128,
+       51.507
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 5.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Oreshnik",
+     "size": 2.4,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      -0.128,
+      51.507
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 5.0
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.128,
+      51.507
+     ],
+     "label": "London",
+     "kind": "dot",
+     "t": 0.2,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-ramstein",
+   "type": "region",
+   "start": 30.264,
+   "end": 36.944,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     16.0,
+     52.0
+    ],
+    "widthKm": 3600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      16.0,
+      52.0
+     ],
+     "widthKm": 3600
+    },
+    {
+     "t": 6.68,
+     "center": [
+      14.0,
+      51.0
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "labels": [
+    {
+     "text": "Ramstein: 1,724 km",
+     "color": "#FF3B3B",
+     "t": 0.3,
+     "at": [
+      1.55492,
+      57.70792
+     ]
+    },
+    {
+     "text": "Between Berlin and Brussels",
+     "color": "#FFFFFF",
+     "t": 5.18,
+     "at": [
+      1.55492,
+      56.36488
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "FLIGHT TIME",
+   "clockRate": 82.0,
+   "ships": [
+    {
+     "path": [
+      [
+       31.72,
+       53.71
+      ],
+      [
+       7.6,
+       49.437
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 6.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Oreshnik",
+     "size": 2.4,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      7.6,
+      49.437
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 6.0
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "label": "Ramstein",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      13.405,
+      52.52
+     ],
+     "label": "Berlin",
+     "kind": "dot",
+     "t": 0.5,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      4.352,
+      50.85
+     ],
+     "label": "Brussels",
+     "kind": "dot",
+     "t": 0.8,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-min8",
+   "type": "region",
+   "start": 36.944,
+   "end": 39.834,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     14.0,
+     51.0
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      14.0,
+      51.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 3.67,
+     "center": [
+      10.0,
+      50.5
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Minute eight, and a little more",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      4.36484,
+      54.89177
+     ]
+    }
+   ],
+   "clock": "T+08:12",
+   "clockLabel": "IMPACT",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "label": "Ramstein",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "6 MINUTES TO VILNIUS",
+  "8 TO RAMSTEIN"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Narration: AI-generated."
+}

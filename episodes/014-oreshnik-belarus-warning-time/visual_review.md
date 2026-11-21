@@ -11,3 +11,12 @@ Round 1 findings:
 6. FIXED. 3 s (f00180): "RAMSTEIN AIR BASE" is white on a plate, off the glow; GERMANY label added; banner "SIMULATION · NOT REAL EVENTS" over the moving map, clear of the corner tag and BERLIN TIME clock. Nit: the Ramstein label sits lower left, away from the marker, over the non-German side of the border. The fireball centre is the clear subject. Consider moving it nearer the circle.
 
 Also seen: 0.2 s frame shows Germany and Belarus named, Ramstein marked, ORESHNIK line, T-07:27 clock, tags correct. 660 s end slate: half-empty layout kept, next-scenario title and line present, no overlaps. Ending is on the simulation aftermath.
+
+## Shorts review (round 1)
+
+FAIL, fixed in shorts.json, re-checked against narration/words.json.
+
+1. s1 (0 to 41.2 s) ended on the question in p05 ("How many minutes does Europe get ... what can anyone do with them?"): a cliffhanger, and a history-free dim-map open. FIXED: s1 is now 533.75 to 563.9 s (p42 to p45), starts on a paragraph, ends on "The question from the start was the minutes." (the payoff, echoing s3). 30.2 s. Title "BURNS AT 3 KM / WINDOWS BREAK AT 6.75".
+2. s2 started at 497.63 s, mid-paragraph (p38 begins 494.75). FIXED: 494.75 to 532.08 s (p38 to p41), opens on the strike line "One warhead, fifty kilotons, bursts ... over Ramstein", ends on the 5 PSI ring. 37.3 s.
+3. s3 (386.19 to 426.55) began 0.7 s before p30 and ran past p32 into silence. FIXED: 386.45 to 426.02 s, opens on Vilnius (named target), ends on "Minute eight, and a little more." 39.6 s.
+4. Rules 19 to 22: windows no longer overlap (no shared rings between s1 and s2); all are 30 to 45 s; no history-list Short; titles lead with a number or weapon and a place; two of three open on the strike or a named target (s2, s3). Caveat: s1 opens on the 3 km burn ring without naming Ramstein in the first line; the title band names the numbers only. Not sampled as rendered Short frames (none exist before render); the visual-screener should check frame 0 of s1 after render.

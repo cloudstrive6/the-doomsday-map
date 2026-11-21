@@ -49,7 +49,12 @@
       "stage": "visual_approved",
       "note": "visual-screener PASS round 2",
       "at": "2026-11-21T05:28:47+00:00"
+    },
+    {
+      "stage": "packaged",
+      "note": "packaged",
+      "at": "2026-11-21T05:32:26+00:00"
     }
   ],
-  "stage": "visual_approved"
+  "stage": "packaged"
 }
