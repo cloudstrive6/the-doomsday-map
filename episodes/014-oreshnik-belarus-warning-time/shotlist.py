@@ -137,7 +137,11 @@ def cty(sid, a, b, keys, rings=(), labs=(), tag="SIMULATION", **kw):
         l["at"] = offp(GZ, fx * wm, fy * 0.5625 * wm)
         l["t"] = rel(a, l["t"])
         labels.append(l)
-    rs = [{"km": r["km"], "label": r["label"], "color": r["color"], "t": rel(a, r["t"]), "angle": (215 + 25 * i) % 360} for i, r in enumerate(rings)]
+    RN = {0.291: ("Fireball", 100, None), 0.508: ("20 psi", 260, None), 2.495: ("5 psi", 225, "#FF8A78"), 3.129: ("Burns", 45, None), 6.752: ("1 psi", 135, None)}
+    rs = []
+    for i, r in enumerate(rings):
+        nm, ang, colr = RN.get(r["km"], (r["label"], (215 + 25 * i) % 360, None))
+        rs.append({"km": r["km"], "label": nm, "color": colr or r["color"], "t": rel(a, r["t"]), "angle": ang})
     add(id=sid, type="city", start=a, end=b, tag=tag, city="ramstein", view={"center": c[0]["center"], "widthKm": c[0]["widthKm"]}, gz=GZ, camera=c, rings=rs, labels=labels, **kw)
 
 
@@ -207,9 +211,9 @@ reg("open-run", 0, FLASH, [("s", [17.0, 51.8], 2600), ("e", [14.0, 51.0], 1900)]
     cities=[city(RAM, "", 0.1, RED, "target", 6)])
 a = FLASH
 reg("open-burst", a, 5.0, [("s", RAM, 330), ("e", RAM, 190)],
-    [LB("Ramstein Air Base", -0.28, 0.25, a + 0.5, RED), LB("50 kiloton airburst", -0.28, 0.17, a + 1.2, YELLOW)],
-    clock="03:18", clockLabel="BERLIN TIME", clockRate=0, burst={"at": RAM, "t": 0.1, "km": 8, "fade": 4}, highlight=[HL_DE],
-    rings=[ring(RAM, 6, a + 0.7, "", RED)], cities=[city(RAM, "Ramstein", a + 0.5, RED, "target", 6)])
+    [LB("Ramstein Air Base", -0.38, -0.22, a + 0.5, WHITE), LB("GERMANY", 0.28, 0.22, a + 0.2, BLUE), LB("50 kiloton airburst", -0.38, -0.30, a + 1.2, YELLOW)],
+    clock="03:18", clockLabel="BERLIN TIME", clockRate=0, burst={"at": RAM, "t": 0.1, "km": 8, "fade": 4}, highlight=[HL_DE], countryLabels=[cl("DE", "GERMANY", BLUE)],
+    rings=[ring(RAM, 6, a + 0.7, "", RED)], cities=[city(RAM, "", a + 0.5, RED, "target", 6)])
 a = 5.0
 cty("open-rings", a, S("p02"), [("s", RAM, 5.0), ("e", RAM, 11.0)],
     [ring(RAM, FX["fireball_km"], a + 0.3, "Fireball", WHITE), ring(RAM, FX["psi5_km"], a + 1.2, "5 psi", RED), ring(RAM, FX["psi1_km"], a + 2.2, "Windows", ORANGE)],
@@ -358,8 +362,8 @@ reg("c1-notnamed", a, tSat, [("s", [29.0, 53.5], 1200), ("e", [30.5, 53.7], 900)
 a = tSat
 tFi = W("p12", "five")
 reg("c1-krichev", a, tFi, [("s", [31.0, 53.7], 1000), ("e", LAUNCH, 400)],
-    [LB("Satellite analysts", -0.30, 0.32, a + 0.1, WHITE), LB("Former Soviet airfield", -0.30, 0.24, W("p12", "airfield"), YELLOW)],
-    tag="REAL DATA", source=SRC_T, clock="", highlight=[HL_BY, HL_RU], cities=[city(LAUNCH, "Near Krichev", a + 0.3, AMBER, "base", 6), city([31.0, 53.55], "Krichev", a + 0.6, WHITE)])
+    [LB("Satellite analysts", -0.30, 0.32, a + 0.1, WHITE), LB("Former Soviet airfield", -0.30, 0.24, W("p12", "airfield"), YELLOW), LB("Near Krichev", -0.13, -0.05, a + 0.3, WHITE)],
+    tag="REAL DATA", source=SRC_T, clock="", highlight=[HL_BY, HL_RU], countryLabels=[cl("BY", "BELARUS", AMBER), cl("RU", "RUSSIA", AMBER)], cities=[city(LAUNCH, "", a + 0.3, AMBER, "base", 6)])
 a = tFi
 tPa = W("p12", "patrol")
 reg("c1-border", a, tPa, [("s", LAUNCH, 240), ("e", [31.9, 53.7], 170)],
@@ -650,29 +654,29 @@ cty("c5-fire", a, S("p40"), [("s", RAM, 4.0), ("e", RAM, 3.0)],
     [ring(RAM, FB, a + 0.3, "Fireball", WHITE)], [LB("Fireball radius: 290 m", -0.30, 0.34, W("p39", "radius"), YELLOW)], **CK)
 a = S("p40")
 cty("c5-20", a, S("p41"), [("s", RAM, 5.0), ("e", RAM, 3.5)],
-    [ring(RAM, FB, a + 0.05, "", WHITE), ring(RAM, P20, a + 0.4, "20 psi", RED)], [LB("510 m: 20 psi", -0.30, 0.34, W("p40", "five"), RED), LB("Most severe blast damage", -0.30, 0.26, W("p40", "severe"), YELLOW)], **CK)
+    [ring(RAM, FB, a + 0.05, "", WHITE), ring(RAM, P20, a + 0.4, "20 psi", RED)], [LB("Most severe blast damage", -0.30, 0.34, W("p40", "severe"), YELLOW)], **CK)
 a = S("p41")
 tAb = W("p41", "ordinary")
 cty("c5-5", a, tAb, [("s", RAM, 10.0), ("e", RAM, 7.0)],
     [ring(RAM, FB, a + 0.05, "", WHITE), ring(RAM, P20, a + 0.05, "", RED), ring(RAM, P5, a + 0.5, "5 psi", RED)],
-    [LB("2.5 km: 5 psi", -0.30, 0.34, W("p41", "two"), RED), LB("Heavy damage to ordinary buildings", -0.30, 0.26, W("p41", "heavy"), YELLOW)], **CK)
+    [LB("Heavy damage to ordinary buildings", -0.30, 0.34, W("p41", "heavy"), YELLOW)], **CK)
 a = tAb
 cty("c5-5b", a, S("p42"), [("s", RAM, 7.0), ("e", RAM, 9.0)],
     [ring(RAM, FB, a, "", WHITE), ring(RAM, P20, a, "", RED), ring(RAM, P5, a, "", RED)],
     [LB("About 20 square km", -0.30, 0.34, W("p41", "twenty"), YELLOW)], **CK)
 a = S("p42")
 cty("c5-burn", a, S("p43"), [("s", RAM, 11.0), ("e", RAM, 13.0)],
-    [ring(RAM, P5, a, "", RED), ring(RAM, TH, a + 0.4, "Burns", ORANGE)], [LB("3 km: third-degree burns", -0.30, 0.34, W("p42", "three"), ORANGE), LB("From the flash alone", -0.30, 0.26, W("p42", "flash"), WHITE)], **CK)
+    [ring(RAM, P5, a, "", RED), ring(RAM, TH, a + 0.4, "Burns", ORANGE)], [LB("Third-degree burns", -0.30, 0.34, W("p42", "three"), ORANGE), LB("From the flash alone", -0.30, 0.26, W("p42", "flash"), WHITE)], **CK)
 a = S("p43")
 tWi = W("p43", "Windows")
 cty("c5-win", a, S("p44"), [("s", RAM, 18.0), ("e", RAM, 22.0)],
-    [ring(RAM, P5, a, "", RED), ring(RAM, TH, a, "", ORANGE), ring(RAM, P1, a + 0.4, "1 psi", WHITE)], [LB("6.75 km: 1 psi", -0.30, 0.34, W("p43", "six"), WHITE), LB("Windows break", -0.30, 0.26, tWi, YELLOW)], **CK)
+    [ring(RAM, P5, a, "", RED), ring(RAM, TH, a, "", ORANGE), ring(RAM, P1, a + 0.4, "1 psi", WHITE)], [LB("Windows break", -0.30, 0.34, tWi, YELLOW)], **CK)
 a = S("p44")
 tNo44 = W("p44", "We")
-cty("c5-towns", a, tNo44, [("s", RAM, 22.0), ("e", RAM, 28.0)],
-    [ring(RAM, P5, a, "", RED), ring(RAM, TH, a, "", ORANGE), ring(RAM, P1, a, "", WHITE)], [LB("The base and the towns", -0.30, 0.34, a + 0.3, WHITE), LB("lie inside these rings", -0.30, 0.26, W("p44", "inside"), YELLOW)], **CK)
+cty("c5-towns", a, tNo44, [("s", RAM, 30.0), ("e", RAM, 34.0)],
+    [ring(RAM, P5, a, "", RED), ring(RAM, TH, a, "", ORANGE), ring(RAM, P1, a, "", WHITE)], [LB("Base and towns inside the rings", -0.30, 0.40, a + 0.3, WHITE)], **CK)
 a = tNo44
-cty("c5-nocas", a, S("p45"), [("s", RAM, 28.0), ("e", RAM, 40.0)],
+cty("c5-nocas", a, S("p45"), [("s", RAM, 34.0), ("e", RAM, 40.0)],
     [ring(RAM, P1, a, "", WHITE), ring(RAM, TH, a, "", ORANGE)], [LB("No casualty figure", -0.30, 0.34, a + 0.2, YELLOW), LB("No published study models this strike", -0.30, 0.26, W("p44", "published"), WHITE)], **CK)
 
 # ================================================================== Chapter 06 [SIMULATION] the day after

@@ -267,11 +267,20 @@
    "labels": [
     {
      "text": "Ramstein Air Base",
-     "color": "#FF3B3B",
+     "color": "#FFFFFF",
      "t": 0.5,
      "at": [
-      6.59433,
-      49.76767
+      6.23516,
+      49.14601
+     ]
+    },
+    {
+     "text": "GERMANY",
+     "color": "#6EA8FF",
+     "t": 0.2,
+     "at": [
+      8.60567,
+      49.72799
      ]
     },
     {
@@ -279,8 +288,8 @@
      "color": "#FFD23F",
      "t": 1.2,
      "at": [
-      6.59433,
-      49.66186
+      6.23516,
+      49.04019
      ]
     }
    ],
@@ -303,6 +312,13 @@
      "fill": "rgba(110,168,255,0.1)"
     }
    ],
+   "countryLabels": [
+    {
+     "iso": "276",
+     "text": "GERMANY",
+     "color": "#6EA8FF"
+    }
+   ],
    "rings": [
     {
      "at": [
@@ -322,7 +338,6 @@
       7.6,
       49.437
      ],
-     "label": "Ramstein",
      "kind": "target",
      "t": 0.5,
      "color": "#FF3B3B",
@@ -372,21 +387,21 @@
      "label": "Fireball",
      "color": "#FFFFFF",
      "t": 0.3,
-     "angle": 215
+     "angle": 100
     },
     {
      "km": 2.495,
      "label": "5 psi",
-     "color": "#FF3B3B",
+     "color": "#FF8A78",
      "t": 1.2,
-     "angle": 240
+     "angle": 225
     },
     {
      "km": 6.752,
-     "label": "Windows",
+     "label": "1 psi",
      "color": "#FF7A1A",
      "t": 2.2,
-     "angle": 265
+     "angle": 135
     }
    ],
    "labels": [
@@ -2905,6 +2920,16 @@
      "until": 4.71
     },
     {
+     "text": "Near Krichev",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "at": [
+      29.61918,
+      53.52195
+     ],
+     "until": 4.71
+    },
+    {
      "text": "5 km from the Russian border",
      "color": "#FFD23F",
      "t": 4.71,
@@ -2928,27 +2953,28 @@
      "fill": "rgba(242,176,30,0.08)"
     }
    ],
+   "countryLabels": [
+    {
+     "iso": "112",
+     "text": "BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    }
+   ],
    "cities": [
     {
      "at": [
       31.72,
       53.71
      ],
-     "label": "Near Krichev",
      "kind": "base",
      "t": 0.3,
      "color": "#F2B01E",
      "size": 6
-    },
-    {
-     "at": [
-      31.0,
-      53.55
-     ],
-     "label": "Krichev",
-     "kind": "dot",
-     "t": 0.6,
-     "color": "#FFFFFF"
     },
     {
      "at": [
@@ -8127,10 +8153,10 @@
    "rings": [
     {
      "km": 0.291,
-     "label": "",
+     "label": "Fireball",
      "color": "#FFFFFF",
      "t": 1.2,
-     "angle": 215
+     "angle": 100
     }
    ],
    "labels": [
@@ -8191,7 +8217,7 @@
      "label": "Fireball",
      "color": "#FFFFFF",
      "t": 0.3,
-     "angle": 215
+     "angle": 100
     }
    ],
    "labels": [
@@ -8237,12 +8263,12 @@
      "widthKm": 5.0
     },
     {
-     "t": 4.37,
+     "t": 4.35,
      "center": [
       7.6,
       49.437
      ],
-     "widthKm": 4.42
+     "widthKm": 4.423
     },
     {
      "t": 11.3,
@@ -8256,36 +8282,27 @@
    "rings": [
     {
      "km": 0.291,
-     "label": "",
+     "label": "Fireball",
      "color": "#FFFFFF",
      "t": 0.05,
-     "angle": 215
+     "angle": 100
     },
     {
      "km": 0.508,
      "label": "20 psi",
      "color": "#FF3B3B",
      "t": 0.4,
-     "angle": 240
+     "angle": 260
     }
    ],
    "labels": [
-    {
-     "text": "510 m: 20 psi",
-     "color": "#FF3B3B",
-     "t": 0.45,
-     "at": [
-      7.58239,
-      49.44435
-     ]
-    },
     {
      "text": "Most severe blast damage",
      "color": "#FFD23F",
      "t": 8.29,
      "at": [
       7.58239,
-      49.44262
+      49.44435
      ]
     }
    ],
@@ -8332,43 +8349,34 @@
    "rings": [
     {
      "km": 0.291,
-     "label": "",
+     "label": "Fireball",
      "color": "#FFFFFF",
      "t": 0.05,
-     "angle": 215
+     "angle": 100
     },
     {
      "km": 0.508,
-     "label": "",
+     "label": "20 psi",
      "color": "#FF3B3B",
      "t": 0.05,
-     "angle": 240
+     "angle": 260
     },
     {
      "km": 2.495,
      "label": "5 psi",
-     "color": "#FF3B3B",
+     "color": "#FF8A78",
      "t": 0.5,
-     "angle": 265
+     "angle": 225
     }
    ],
    "labels": [
-    {
-     "text": "2.5 km: 5 psi",
-     "color": "#FF3B3B",
-     "t": 0.25,
-     "at": [
-      7.56477,
-      49.4517
-     ]
-    },
     {
      "text": "Heavy damage to ordinary buildings",
      "color": "#FFD23F",
      "t": 4.45,
      "at": [
       7.56477,
-      49.44824
+      49.4517
      ]
     }
    ],
@@ -8415,24 +8423,24 @@
    "rings": [
     {
      "km": 0.291,
-     "label": "",
+     "label": "Fireball",
      "color": "#FFFFFF",
      "t": 0.05,
-     "angle": 215
+     "angle": 100
     },
     {
      "km": 0.508,
-     "label": "",
+     "label": "20 psi",
      "color": "#FF3B3B",
      "t": 0.05,
-     "angle": 240
+     "angle": 260
     },
     {
      "km": 2.495,
-     "label": "",
-     "color": "#FF3B3B",
+     "label": "5 psi",
+     "color": "#FF8A78",
      "t": 0.05,
-     "angle": 265
+     "angle": 225
     }
    ],
    "labels": [
@@ -8489,22 +8497,22 @@
    "rings": [
     {
      "km": 2.495,
-     "label": "",
-     "color": "#FF3B3B",
+     "label": "5 psi",
+     "color": "#FF8A78",
      "t": 0.05,
-     "angle": 215
+     "angle": 225
     },
     {
      "km": 3.129,
      "label": "Burns",
      "color": "#FF7A1A",
      "t": 0.4,
-     "angle": 240
+     "angle": 45
     }
    ],
    "labels": [
     {
-     "text": "3 km: third-degree burns",
+     "text": "Third-degree burns",
      "color": "#FF7A1A",
      "t": 0.57,
      "at": [
@@ -8554,12 +8562,12 @@
      "widthKm": 18.0
     },
     {
-     "t": 3.31,
+     "t": 3.21,
      "center": [
       7.6,
       49.437
      ],
-     "widthKm": 19.728
+     "widthKm": 19.676
     },
     {
      "t": 7.66,
@@ -8573,43 +8581,34 @@
    "rings": [
     {
      "km": 2.495,
-     "label": "",
-     "color": "#FF3B3B",
+     "label": "5 psi",
+     "color": "#FF8A78",
      "t": 0.05,
-     "angle": 215
+     "angle": 225
     },
     {
      "km": 3.129,
-     "label": "",
+     "label": "Burns",
      "color": "#FF7A1A",
      "t": 0.05,
-     "angle": 240
+     "angle": 45
     },
     {
      "km": 6.752,
      "label": "1 psi",
      "color": "#FFFFFF",
      "t": 0.4,
-     "angle": 265
+     "angle": 135
     }
    ],
    "labels": [
-    {
-     "text": "6.75 km: 1 psi",
-     "color": "#FFFFFF",
-     "t": 0.61,
-     "at": [
-      7.51712,
-      49.47159
-     ]
-    },
     {
      "text": "Windows break",
      "color": "#FFD23F",
      "t": 6.02,
      "at": [
       7.51712,
-      49.46345
+      49.47159
      ]
     }
    ],
@@ -8629,7 +8628,7 @@
      7.6,
      49.437
     ],
-    "widthKm": 22.0
+    "widthKm": 30.0
    },
    "gz": [
     7.6,
@@ -8642,7 +8641,7 @@
       7.6,
       49.437
      ],
-     "widthKm": 22.0
+     "widthKm": 30.0
     },
     {
      "t": 4.55,
@@ -8650,49 +8649,40 @@
       7.6,
       49.437
      ],
-     "widthKm": 28.0
+     "widthKm": 34.0
     }
    ],
    "rings": [
     {
      "km": 2.495,
-     "label": "",
-     "color": "#FF3B3B",
+     "label": "5 psi",
+     "color": "#FF8A78",
      "t": 0.05,
-     "angle": 215
+     "angle": 225
     },
     {
      "km": 3.129,
-     "label": "",
+     "label": "Burns",
      "color": "#FF7A1A",
      "t": 0.05,
-     "angle": 240
+     "angle": 45
     },
     {
      "km": 6.752,
-     "label": "",
+     "label": "1 psi",
      "color": "#FFFFFF",
      "t": 0.05,
-     "angle": 265
+     "angle": 135
     }
    ],
    "labels": [
     {
-     "text": "The base and the towns",
+     "text": "Base and towns inside the rings",
      "color": "#FFFFFF",
      "t": 0.3,
      "at": [
-      7.49639,
-      49.48024
-     ]
-    },
-    {
-     "text": "lie inside these rings",
-     "color": "#FFD23F",
-     "t": 2.36,
-     "at": [
-      7.49639,
-      49.47007
+      7.46738,
+      49.50212
      ]
     }
    ],
@@ -8712,7 +8702,7 @@
      7.6,
      49.437
     ],
-    "widthKm": 28.0
+    "widthKm": 34.0
    },
    "gz": [
     7.6,
@@ -8725,7 +8715,7 @@
       7.6,
       49.437
      ],
-     "widthKm": 28.0
+     "widthKm": 34.0
     },
     {
      "t": 6.18,
@@ -8739,17 +8729,17 @@
    "rings": [
     {
      "km": 6.752,
-     "label": "",
+     "label": "1 psi",
      "color": "#FFFFFF",
      "t": 0.05,
-     "angle": 215
+     "angle": 135
     },
     {
      "km": 3.129,
-     "label": "",
+     "label": "Burns",
      "color": "#FF7A1A",
      "t": 0.05,
-     "angle": 240
+     "angle": 45
     }
    ],
    "labels": [
@@ -8758,8 +8748,8 @@
      "color": "#FFD23F",
      "t": 0.2,
      "at": [
-      7.4591,
-      49.49581
+      7.44666,
+      49.501
      ]
     },
     {
@@ -8767,8 +8757,8 @@
      "color": "#FFFFFF",
      "t": 2.49,
      "at": [
-      7.4591,
-      49.48197
+      7.44666,
+      49.48594
      ]
     }
    ],
@@ -8945,38 +8935,38 @@
    "rings": [
     {
      "km": 0.291,
-     "label": "",
+     "label": "Fireball",
      "color": "#FFFFFF",
      "t": 0.05,
-     "angle": 215
+     "angle": 100
     },
     {
      "km": 0.508,
-     "label": "",
+     "label": "20 psi",
      "color": "#FF3B3B",
      "t": 0.05,
-     "angle": 240
+     "angle": 260
     },
     {
      "km": 2.495,
-     "label": "",
-     "color": "#FF3B3B",
+     "label": "5 psi",
+     "color": "#FF8A78",
      "t": 0.05,
-     "angle": 265
+     "angle": 225
     },
     {
      "km": 3.129,
-     "label": "",
+     "label": "Burns",
      "color": "#FF7A1A",
      "t": 0.05,
-     "angle": 290
+     "angle": 45
     },
     {
      "km": 6.752,
      "label": "1 psi",
      "color": "#FFFFFF",
      "t": 0.3,
-     "angle": 315
+     "angle": 135
     }
    ],
    "labels": [

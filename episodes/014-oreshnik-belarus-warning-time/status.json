@@ -39,6 +39,11 @@
       "stage": "shotlisted",
       "note": "117 shots, 666.5 s; no retention/pace lines",
       "at": "2026-11-21T05:24:30+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "117 shots, 666.5 s; visual-review fixes (labels)",
+      "at": "2026-11-21T05:26:56+00:00"
     }
   ],
   "stage": "shotlisted"
