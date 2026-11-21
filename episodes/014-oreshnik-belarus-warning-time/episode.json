@@ -1,0 +1,10243 @@
+{
+ "slug": "014-oreshnik-belarus-warning-time",
+ "fps": 60,
+ "width": 1920,
+ "height": 1080,
+ "durationSeconds": 666.52,
+ "banner": {
+  "start": 2.0,
+  "end": 5.0
+ },
+ "musicPlan": [
+  {
+   "src": "bed_tense.mp3",
+   "from": 0,
+   "to": 43.024,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  },
+  {
+   "src": "bed.mp3",
+   "from": 41.024,
+   "to": 290.105,
+   "loop": [
+    2,
+    174
+   ],
+   "gain_db": -17
+  },
+  {
+   "src": "bed_tense.mp3",
+   "from": 288.105,
+   "to": 666.52,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  }
+ ],
+ "sfxPlan": [
+  {
+   "src": "impact.mp3",
+   "t": 42.174,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 171.495,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 289.255,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 374.815,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 494.28,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 559.009,
+   "gain_db": -9
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 220.23399999999998,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 243.01,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 252.59,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 258.11,
+   "gain_db": -14
+  },
+  {
+   "src": "boom.mp3",
+   "t": 2.3000000000000003,
+   "gain_db": -6
+  },
+  {
+   "src": "boom.mp3",
+   "t": 499.149,
+   "gain_db": -6
+  }
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Narration: AI-generated.",
+ "shots": [
+  {
+   "id": "open-run",
+   "type": "region",
+   "start": 0,
+   "end": 2.2,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     17.0,
+     51.8
+    ],
+    "widthKm": 2600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      17.0,
+      51.8
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 2.2,
+     "center": [
+      14.0,
+      51.0
+     ],
+     "widthKm": 1900
+    }
+   ],
+   "labels": [
+    {
+     "text": "Ramstein Air Base",
+     "color": "#FF3B3B",
+     "t": 0.15,
+     "at": [
+      7.19483,
+      54.3182
+     ]
+    },
+    {
+     "text": "Launch (simulated)",
+     "color": "#F2B01E",
+     "t": 0.3,
+     "at": [
+      22.8831,
+      53.17356
+     ]
+    }
+   ],
+   "clock": "T-08:12",
+   "clockLabel": "TO IMPACT",
+   "clockRate": 224,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "276",
+     "text": "GERMANY",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "112",
+     "text": "BELARUS",
+     "color": "#F2B01E"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       31.72,
+       53.71
+      ],
+      [
+       7.6,
+       49.437
+      ]
+     ],
+     "t0": 0.05,
+     "t1": 2.15,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Oreshnik",
+     "size": 2.8,
+     "t": 0.05,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      7.6,
+      49.437
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.05,
+     "t1": 2.15
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-burst",
+   "type": "region",
+   "start": 2.2,
+   "end": 5.0,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 330
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 330
+    },
+    {
+     "t": 2.8,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 190
+    }
+   ],
+   "labels": [
+    {
+     "text": "Ramstein Air Base",
+     "color": "#FF3B3B",
+     "t": 0.5,
+     "at": [
+      6.59433,
+      49.76767
+     ]
+    },
+    {
+     "text": "50 kiloton airburst",
+     "color": "#FFD23F",
+     "t": 1.2,
+     "at": [
+      6.59433,
+      49.66186
+     ]
+    }
+   ],
+   "clock": "03:18",
+   "clockLabel": "BERLIN TIME",
+   "clockRate": 0,
+   "burst": {
+    "at": [
+     7.6,
+     49.437
+    ],
+    "t": 0.1,
+    "km": 8,
+    "fade": 4
+   },
+   "highlight": [
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "km": 6,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.7,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "label": "Ramstein",
+     "kind": "target",
+     "t": 0.5,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-rings",
+   "type": "city",
+   "start": 5.0,
+   "end": 8.048,
+   "tag": "SIMULATION",
+   "city": "ramstein",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 5.0
+   },
+   "gz": [
+    7.6,
+    49.437
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 5.0
+    },
+    {
+     "t": 3.05,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 11.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.291,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "angle": 215
+    },
+    {
+     "km": 2.495,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 1.2,
+     "angle": 240
+    },
+    {
+     "km": 6.752,
+     "label": "Windows",
+     "color": "#FF7A1A",
+     "t": 2.2,
+     "angle": 265
+    }
+   ],
+   "labels": [
+    {
+     "text": "Ramstein Air Base",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "at": [
+      7.56685,
+      49.44921
+     ]
+    }
+   ],
+   "clock": "03:18",
+   "clockLabel": "BERLIN TIME",
+   "clockRate": 0,
+   "caption": "Simulation: it has not happened."
+  },
+  {
+   "id": "open-sim",
+   "type": "region",
+   "start": 8.048,
+   "end": 12.35,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     14.0,
+     51.0
+    ],
+    "widthKm": 2400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      14.0,
+      51.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 4.3,
+     "center": [
+      17.0,
+      52.0
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "labels": [
+    {
+     "text": "A simulation",
+     "color": "#FFD23F",
+     "t": 0.7,
+     "at": [
+      2.43781,
+      55.12069
+     ]
+    }
+   ],
+   "clock": "03:18",
+   "clockLabel": "BERLIN TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "276",
+     "text": "GERMANY",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "112",
+     "text": "BELARUS",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "label": "Ramstein",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-not",
+   "type": "region",
+   "start": 12.35,
+   "end": 13.689,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     17.0,
+     52.0
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      17.0,
+      52.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 1.34,
+     "center": [
+      24.0,
+      53.0
+     ],
+     "widthKm": 1800
+    }
+   ],
+   "labels": [
+    {
+     "text": "It has not happened",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "at": [
+      6.49449,
+      55.66284
+     ]
+    }
+   ],
+   "clock": "03:10",
+   "clockLabel": "BERLIN TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch site (simulated)",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-8min",
+   "type": "region",
+   "start": 13.689,
+   "end": 16.11,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     28.0,
+     53.5
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      28.0,
+      53.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 2.42,
+     "center": [
+      30.0,
+      53.7
+     ],
+     "widthKm": 800
+    }
+   ],
+   "labels": [
+    {
+     "text": "Eight minutes earlier",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "at": [
+      22.78975,
+      55.25511
+     ]
+    },
+    {
+     "text": "03:10 Berlin time",
+     "color": "#FFFFFF",
+     "t": 0.75,
+     "at": [
+      22.78975,
+      54.78708
+     ]
+    }
+   ],
+   "clock": "03:10",
+   "clockLabel": "BERLIN TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "112",
+     "text": "BELARUS",
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "open-launcher",
+   "type": "region",
+   "start": 16.11,
+   "end": 17.63,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     31.0,
+     53.7
+    ],
+    "widthKm": 600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      31.0,
+      53.7
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 1.52,
+     "center": [
+      31.72,
+      53.71
+     ],
+     "widthKm": 380
+    }
+   ],
+   "labels": [
+    {
+     "text": "Road-mobile launcher",
+     "color": "#F2B01E",
+     "t": 0.1,
+     "at": [
+      28.76945,
+      54.44783
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "LAUNCH",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launcher (simulated)",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-forest",
+   "type": "region",
+   "start": 17.63,
+   "end": 22.521,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     31.72,
+     53.71
+    ],
+    "widthKm": 380
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      31.72,
+      53.71
+     ],
+     "widthKm": 380
+    },
+    {
+     "t": 4.89,
+     "center": [
+      30.0,
+      53.7
+     ],
+     "widthKm": 900
+    }
+   ],
+   "labels": [
+    {
+     "text": "A forest in eastern Belarus",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "at": [
+      28.80593,
+      54.68676
+     ]
+    },
+    {
+     "text": "No notice is expected",
+     "color": "#FFD23F",
+     "t": 2.61,
+     "at": [
+      28.80593,
+      54.42629
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "LAUNCH",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "kind": "base",
+     "t": 0.1,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-climb",
+   "type": "region",
+   "start": 22.521,
+   "end": 24.188,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     30.0,
+     53.7
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      30.0,
+      53.7
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 1.67,
+     "center": [
+      26.0,
+      53.5
+     ],
+     "widthKm": 1700
+    }
+   ],
+   "labels": [
+    {
+     "text": "One missile climbs",
+     "color": "#FF3B3B",
+     "t": 0.3,
+     "at": [
+      24.0822,
+      55.68404
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "SECOND 30",
+   "clockRate": 16.4,
+   "ships": [
+    {
+     "path": [
+      [
+       31.72,
+       53.71
+      ],
+      [
+       26.0,
+       53.5
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 3.67,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "One missile",
+     "size": 2.4,
+     "t": 0.1,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      26.0,
+      53.5
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.1,
+     "t1": 3.67
+    }
+   ],
+   "cities": [],
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "open-radars",
+   "type": "region",
+   "start": 24.188,
+   "end": 30.933,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     22.0,
+     52.5
+    ],
+    "widthKm": 2200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      22.0,
+      52.5
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 4.74,
+     "center": [
+      19.1911,
+      52.1489
+     ],
+     "widthKm": 2480.889
+    },
+    {
+     "t": 6.75,
+     "center": [
+      18.0,
+      52.0
+     ],
+     "widthKm": 2600
+    }
+   ],
+   "labels": [
+    {
+     "text": "Radars pick up a track",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      11.37541,
+      56.40703
+     ]
+    }
+   ],
+   "clock": "T+00:50",
+   "clockLabel": "AFTER LAUNCH",
+   "clockRate": 1,
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.012,
+      52.23
+     ],
+     "label": "Poland",
+     "kind": "dot",
+     "t": 0.12,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      25.28,
+      54.687
+     ],
+     "label": "Lithuania",
+     "kind": "dot",
+     "t": 1.28,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      13.405,
+      52.52
+     ],
+     "label": "Germany",
+     "kind": "dot",
+     "t": 2.74,
+     "color": "#6EA8FF"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      7.6,
+      49.437
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.05,
+     "t1": 8.75
+    }
+   ]
+  },
+  {
+   "id": "open-nobody",
+   "type": "region",
+   "start": 30.933,
+   "end": 34.489,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     14.0,
+     51.5
+    ],
+    "widthKm": 2600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      14.0,
+      51.5
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 3.56,
+     "center": [
+      10.0,
+      50.5
+     ],
+     "widthKm": 1400
+    }
+   ],
+   "labels": [
+    {
+     "text": "What is on top of it?",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      5.34178,
+      54.55237
+     ]
+    },
+    {
+     "text": "Nobody can tell",
+     "color": "#FFD23F",
+     "t": 1.34,
+     "at": [
+      5.34178,
+      53.7384
+     ]
+    }
+   ],
+   "clock": "T+02:00",
+   "clockLabel": "AFTER LAUNCH",
+   "clockRate": 1,
+   "highlight": [
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "label": "Ramstein",
+     "kind": "base",
+     "t": 0.5,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      7.6,
+      49.437
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.05,
+     "t1": 1.0
+    }
+   ]
+  },
+  {
+   "id": "open-q",
+   "type": "region",
+   "start": 34.489,
+   "end": 39.03,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     16.0,
+     52.0
+    ],
+    "widthKm": 3600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      16.0,
+      52.0
+     ],
+     "widthKm": 3600
+    },
+    {
+     "t": 2.67,
+     "center": [
+      14.8238,
+      51.7059
+     ],
+     "widthKm": 3011.894
+    },
+    {
+     "t": 4.54,
+     "center": [
+      14.0,
+      51.5
+     ],
+     "widthKm": 2600
+    }
+   ],
+   "labels": [
+    {
+     "text": "How many minutes does Europe get?",
+     "color": "#FFD23F",
+     "t": 0.52,
+     "at": [
+      3.33502,
+      57.04658
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "LAUNCH",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      7.6,
+      49.437
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.3,
+     "t1": 3.0
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       31.72,
+       53.71
+      ],
+      [
+       7.6,
+       49.437
+      ]
+     ],
+     "t0": 0.3,
+     "t1": 3.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 2.4,
+     "t": 0.3,
+     "wake": true
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "label": "Ramstein",
+     "kind": "target",
+     "t": 0.8,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-q2",
+   "type": "region",
+   "start": 39.03,
+   "end": 42.024,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     14.0,
+     51.5
+    ],
+    "widthKm": 2600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      14.0,
+      51.5
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 2.99,
+     "center": [
+      18.0,
+      52.0
+     ],
+     "widthKm": 3600
+    }
+   ],
+   "labels": [
+    {
+     "text": "What can anyone do with them?",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      1.47445,
+      56.54658
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "LAUNCH",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "label": "Ramstein",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-card",
+   "type": "chapter",
+   "start": 42.024,
+   "end": 45.52,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 01",
+   "title": "The missile that flew fifteen minutes"
+  },
+  {
+   "id": "c1-ky",
+   "type": "region",
+   "start": 45.52,
+   "end": 51.05,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     40.0,
+     49.5
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      40.0,
+      49.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 3.7,
+     "center": [
+      40.6691,
+      49.1655
+     ],
+     "widthKm": 1165.461
+    },
+    {
+     "t": 5.53,
+     "center": [
+      41.0,
+      49.0
+     ],
+     "widthKm": 1000
+    }
+   ],
+   "labels": [
+    {
+     "text": "21 November 2024",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      34.81303,
+      51.40773
+     ]
+    },
+    {
+     "text": "Kapustin Yar test range",
+     "color": "#FFFFFF",
+     "t": 1.87,
+     "at": [
+      34.81303,
+      50.899
+     ]
+    }
+   ],
+   "source": "AP; Reuters; Euronews",
+   "clock": "21 NOV 2024",
+   "clockLabel": "DNIPRO",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      45.76,
+      48.57
+     ],
+     "label": "Kapustin Yar",
+     "kind": "base",
+     "t": 0.5,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       45.76,
+       48.57
+      ],
+      [
+       35.05,
+       48.46
+      ]
+     ],
+     "t0": 0.4,
+     "t1": 4.4,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Oreshnik",
+     "size": 2.4,
+     "t": 0.4,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      45.76,
+      48.57
+     ],
+     "to": [
+      35.05,
+      48.46
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.4,
+     "t1": 4.4
+    }
+   ]
+  },
+  {
+   "id": "c1-dn",
+   "type": "region",
+   "start": 51.05,
+   "end": 53.645,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     36.0,
+     48.7
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      36.0,
+      48.7
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 2.6,
+     "center": [
+      35.05,
+      48.46
+     ],
+     "widthKm": 220
+    }
+   ],
+   "labels": [
+    {
+     "text": "A factory area in Dnipro",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      34.53004,
+      49.24943
+     ]
+    },
+    {
+     "text": "Ukraine",
+     "color": "#3ED6C8",
+     "t": 1.0,
+     "at": [
+      34.53004,
+      49.10291
+     ]
+    }
+   ],
+   "source": "AP; Reuters; Euronews",
+   "clock": "21 NOV 2024",
+   "clockLabel": "DNIPRO",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      35.05,
+      48.46
+     ],
+     "label": "Dnipro",
+     "kind": "dot",
+     "t": 0.1,
+     "color": "#3ED6C8"
+    },
+    {
+     "at": [
+      35.0,
+      48.5
+     ],
+     "label": "Impact area",
+     "kind": "target",
+     "t": 1.2,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-15",
+   "type": "number",
+   "start": 53.645,
+   "end": 56.18,
+   "tag": "REAL DATA",
+   "value": "15 MIN",
+   "label": "flight time, Kapustin Yar to Dnipro",
+   "sub": "about 800 km, 21 November 2024",
+   "color": "#FFD23F",
+   "countTo": 15,
+   "suffix": " MIN",
+   "source": "AP; Reuters; Euronews"
+  },
+  {
+   "id": "c1-name",
+   "type": "region",
+   "start": 56.18,
+   "end": 60.23,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     37.0,
+     53.0
+    ],
+    "widthKm": 3200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      37.0,
+      53.0
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 4.05,
+     "center": [
+      40.0,
+      52.0
+     ],
+     "widthKm": 2200
+    }
+   ],
+   "labels": [
+    {
+     "text": "Oreshnik: the hazel tree",
+     "color": "#F2B01E",
+     "t": 1.49,
+     "at": [
+      24.90937,
+      57.12069
+     ]
+    }
+   ],
+   "source": "AP; Reuters; Euronews",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "dot",
+     "t": 0.5,
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c1-pent",
+   "type": "region",
+   "start": 60.23,
+   "end": 68.654,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -77.0,
+     39.0
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0,
+      39.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 2.51,
+     "center": [
+      -71.9323,
+      39.8943
+     ],
+     "widthKm": 3655.819
+    },
+    {
+     "t": 6.57,
+     "center": [
+      -63.7352,
+      41.3409
+     ],
+     "widthKm": 4716.627
+    },
+    {
+     "t": 8.42,
+     "center": [
+      -60,
+      42
+     ],
+     "widthKm": 5200
+    }
+   ],
+   "labels": [
+    {
+     "text": "Pentagon: experimental IRBM",
+     "color": "#6EA8FF",
+     "t": 0.2,
+     "at": [
+      -91.2177,
+      45.25735
+     ]
+    },
+    {
+     "text": "Built on an older ICBM design",
+     "color": "#FFFFFF",
+     "t": 4.72,
+     "at": [
+      -91.2177,
+      43.58872
+     ]
+    }
+   ],
+   "source": "AP; Reuters; Euronews",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "Pentagon",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-putin",
+   "type": "region",
+   "start": 68.654,
+   "end": 71.84,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     37.6,
+     55.8
+    ],
+    "widthKm": 1000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      37.6,
+      55.8
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 3.19,
+     "center": [
+      36.0,
+      52.0
+     ],
+     "widthKm": 3500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Putin: not a nuclear warhead",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      26.81228,
+      59.23391
+     ]
+    }
+   ],
+   "source": "AP; Reuters; Euronews",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "dot",
+     "t": 0.1,
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c1-by",
+   "type": "region",
+   "start": 71.84,
+   "end": 78.41,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     30.0,
+     53.5
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      30.0,
+      53.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 4.58,
+     "center": [
+      29.3029,
+      53.5
+     ],
+     "widthKm": 1221.157
+    },
+    {
+     "t": 6.57,
+     "center": [
+      29.0,
+      53.5
+     ],
+     "widthKm": 1100
+    }
+   ],
+   "labels": [
+    {
+     "text": "The missile from the cold open",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "at": [
+      24.11016,
+      55.48404
+     ]
+    },
+    {
+     "text": "One difference: Belarus",
+     "color": "#FFD23F",
+     "t": 2.59,
+     "at": [
+      24.11016,
+      54.95496
+     ]
+    }
+   ],
+   "source": "AP; Reuters; Euronews",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "112",
+     "text": "BELARUS",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch (simulated)",
+     "kind": "base",
+     "t": 2.0,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-nato",
+   "type": "region",
+   "start": 78.41,
+   "end": 81.737,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     24.0,
+     53.0
+    ],
+    "widthKm": 1700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24.0,
+      53.0
+     ],
+     "widthKm": 1700
+    },
+    {
+     "t": 3.33,
+     "center": [
+      20.0,
+      52.0
+     ],
+     "widthKm": 2600
+    }
+   ],
+   "labels": [
+    {
+     "text": "Never fired from Belarus",
+     "color": "#F2B01E",
+     "t": 0.2,
+     "at": [
+      14.37228,
+      56.50005
+     ]
+    },
+    {
+     "text": "Never fired at NATO",
+     "color": "#6EA8FF",
+     "t": 1.84,
+     "at": [
+      14.37228,
+      55.62503
+     ]
+    }
+   ],
+   "source": "AP; Reuters; Euronews",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ]
+  },
+  {
+   "id": "c1-since+jm",
+   "type": "region",
+   "start": 81.737,
+   "end": 91.31,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     34.0,
+     49.5
+    ],
+    "widthKm": 1800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      34.0,
+      49.5
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 2.62,
+     "center": [
+      31.7844,
+      49.5
+     ],
+     "widthKm": 1578.436
+    },
+    {
+     "t": 4.73,
+     "center": [
+      30.0,
+      49.5
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 6.18,
+     "center": [
+      32.0,
+      49.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 9.57,
+     "center": [
+      28.0,
+      49.5
+     ],
+     "widthKm": 1900
+    }
+   ],
+   "labels": [
+    {
+     "text": "Since Dnipro: twice more",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      27.36068,
+      52.10468
+     ],
+     "until": 4.93
+    },
+    {
+     "text": "January 2026",
+     "color": "#FFD23F",
+     "t": 4.83,
+     "at": [
+      24.94572,
+      52.26748
+     ]
+    },
+    {
+     "text": "May 2026",
+     "color": "#FFD23F",
+     "t": 5.73,
+     "at": [
+      24.94572,
+      51.57561
+     ]
+    }
+   ],
+   "source": "AP; Reuters; Euronews",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      35.05,
+      48.46
+     ],
+     "label": "Dnipro, Nov 2024",
+     "kind": "dot",
+     "t": 0.5,
+     "color": "#3ED6C8"
+    },
+    {
+     "at": [
+      35.05,
+      48.46
+     ],
+     "label": "Ukraine",
+     "kind": "dot",
+     "t": 5.03,
+     "color": "#3ED6C8"
+    }
+   ]
+  },
+  {
+   "id": "c1-jan",
+   "type": "region",
+   "start": 91.31,
+   "end": 96.47,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     27.0,
+     49.5
+    ],
+    "widthKm": 1300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      27.0,
+      49.5
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 5.16,
+     "center": [
+      24.5,
+      49.9
+     ],
+     "widthKm": 520
+    }
+   ],
+   "labels": [
+    {
+     "text": "Lviv region",
+     "color": "#3ED6C8",
+     "t": 0.6,
+     "at": [
+      23.22389,
+      50.98141
+     ]
+    }
+   ],
+   "source": "AP; Reuters; Euronews",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      24.03,
+      49.84
+     ],
+     "label": "Lviv",
+     "kind": "dot",
+     "t": 0.6,
+     "color": "#3ED6C8"
+    },
+    {
+     "at": [
+      23.0,
+      50.0
+     ],
+     "label": "Polish border",
+     "kind": "dot",
+     "t": 2.12,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      24.03,
+      49.84
+     ],
+     "to": [
+      23.0,
+      50.0
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 2.12,
+     "t1": 4.12,
+     "label": "About 70 km"
+    }
+   ]
+  },
+  {
+   "id": "c1-allies",
+   "type": "region",
+   "start": 96.47,
+   "end": 101.489,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     8.0,
+     50.0
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      8.0,
+      50.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 5.02,
+     "center": [
+      12.0,
+      51.0
+     ],
+     "widthKm": 3800
+    }
+   ],
+   "labels": [
+    {
+     "text": "Britain, France, Germany",
+     "color": "#6EA8FF",
+     "t": 0.2,
+     "at": [
+      -6.25475,
+      55.53496
+     ]
+    },
+    {
+     "text": "Escalatory",
+     "color": "#FFD23F",
+     "t": 1.86,
+     "at": [
+      -6.25475,
+      54.15122
+     ]
+    },
+    {
+     "text": "Unacceptable",
+     "color": "#FF3B3B",
+     "t": 3.1,
+     "at": [
+      -6.25475,
+      52.76748
+     ]
+    }
+   ],
+   "source": "AP; Reuters; Euronews",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "250",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "826",
+     "text": "UK",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "250",
+     "text": "FRANCE",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "276",
+     "text": "GERMANY",
+     "color": "#6EA8FF"
+    }
+   ]
+  },
+  {
+   "id": "c1-noexp+signal",
+   "type": "region",
+   "start": 101.489,
+   "end": 111.161,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     35.0,
+     48.5
+    ],
+    "widthKm": 600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      35.0,
+      48.5
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 5.02,
+     "center": [
+      35.05,
+      48.46
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 6.42,
+     "center": [
+      35.05,
+      48.46
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 9.67,
+     "center": [
+      30.0,
+      50.0
+     ],
+     "widthKm": 2200
+    }
+   ],
+   "labels": [
+    {
+     "text": "Conventional version",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "at": [
+      33.25115,
+      49.20001
+     ],
+     "until": 5.22
+    },
+    {
+     "text": "No explosive, analysts say",
+     "color": "#FFD23F",
+     "t": 2.52,
+     "at": [
+      33.25115,
+      49.02501
+     ],
+     "until": 5.22
+    },
+    {
+     "text": "Damage: speed and weight",
+     "color": "#FFFFFF",
+     "t": 5.22,
+     "at": [
+      30.05143,
+      50.46235
+     ]
+    },
+    {
+     "text": "Value: a signal",
+     "color": "#FFD23F",
+     "t": 8.48,
+     "at": [
+      30.05143,
+      49.96176
+     ]
+    }
+   ],
+   "source": "AP; Reuters; Euronews",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      35.05,
+      48.46
+     ],
+     "label": "Dnipro",
+     "kind": "dot",
+     "t": 0.3,
+     "color": "#3ED6C8"
+    }
+   ]
+  },
+  {
+   "id": "c1-range",
+   "type": "region",
+   "start": 111.161,
+   "end": 117.807,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     30.0,
+     50.0
+    ],
+    "widthKm": 8500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      30.0,
+      50.0
+     ],
+     "widthKm": 8500
+    },
+    {
+     "t": 6.65,
+     "center": [
+      20.0,
+      51.0
+     ],
+     "widthKm": 10500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Range: 3,000 to 5,000 km",
+     "color": "#FFD23F",
+     "t": 0.3,
+     "at": [
+      -9.82944,
+      65.46532
+     ]
+    }
+   ],
+   "source": "AP; Reuters; Euronews",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "km": 3000,
+     "label": "3,000 km",
+     "color": "#F2B01E",
+     "t": 1.41,
+     "dashed": true
+    },
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "km": 5000,
+     "label": "5,000 km",
+     "color": "#FF7A1A",
+     "t": 2.53,
+     "dashed": true
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Belarus (simulated)",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-mach",
+   "type": "region",
+   "start": 117.807,
+   "end": 121.176,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     37.0,
+     52.0
+    ],
+    "widthKm": 2600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      37.0,
+      52.0
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 3.37,
+     "center": [
+      30.0,
+      50.0
+     ],
+     "widthKm": 1600
+    }
+   ],
+   "labels": [
+    {
+     "text": "Putin claims Mach 10",
+     "color": "#F2B01E",
+     "t": 0.2,
+     "at": [
+      27.80767,
+      55.41865
+     ]
+    }
+   ],
+   "source": "AP; Reuters; Euronews",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "dot",
+     "t": 0.4,
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c1-skeptic",
+   "type": "region",
+   "start": 121.176,
+   "end": 129.407,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     30.0,
+     50.0
+    ],
+    "widthKm": 1600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      30.0,
+      50.0
+     ],
+     "widthKm": 1600
+    },
+    {
+     "t": 3.12,
+     "center": [
+      28.1045,
+      50.3791
+     ],
+     "widthKm": 1979.101
+    },
+    {
+     "t": 8.23,
+     "center": [
+      25.0,
+      51.0
+     ],
+     "widthKm": 2600
+    }
+   ],
+   "labels": [
+    {
+     "text": "Skeptics: any long-range missile",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      21.1956,
+      53.41865
+     ]
+    },
+    {
+     "text": "hits Mach 10 in its fall",
+     "color": "#FFD23F",
+     "t": 6.05,
+     "at": [
+      21.1956,
+      52.56399
+     ]
+    }
+   ],
+   "source": "AP; Reuters; Euronews",
+   "clock": ""
+  },
+  {
+   "id": "c1-experts",
+   "type": "region",
+   "start": 129.407,
+   "end": 137.69,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     25.0,
+     51.0
+    ],
+    "widthKm": 2600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      25.0,
+      51.0
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 8.28,
+     "center": [
+      20.0,
+      52.0
+     ],
+     "widthKm": 1800
+    }
+   ],
+   "labels": [
+    {
+     "text": "Experts: path is predictable",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      15.57896,
+      54.58144
+     ]
+    },
+    {
+     "text": "Less a superweapon than claimed",
+     "color": "#FFD23F",
+     "t": 4.78,
+     "at": [
+      15.57896,
+      53.68608
+     ]
+    }
+   ],
+   "source": "Euronews; AP",
+   "clock": ""
+  },
+  {
+   "id": "c1-arrive+notnamed",
+   "type": "region",
+   "start": 137.69,
+   "end": 147.5,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     28.0,
+     53.5
+    ],
+    "widthKm": 1800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      28.0,
+      53.5
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 5.81,
+     "center": [
+      29.0,
+      53.5
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 7.01,
+     "center": [
+      29.0,
+      53.5
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 9.81,
+     "center": [
+      30.5,
+      53.7
+     ],
+     "widthKm": 900
+    }
+   ],
+   "labels": [
+    {
+     "text": "December 2025: in Belarus",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      21.20403,
+      55.94189
+     ],
+     "until": 6.01
+    },
+    {
+     "text": "On combat duty",
+     "color": "#F2B01E",
+     "t": 6.04,
+     "at": [
+      21.20403,
+      55.33142
+     ],
+     "until": 6.01
+    },
+    {
+     "text": "Base not named by Russia",
+     "color": "#FFFFFF",
+     "t": 6.01,
+     "at": [
+      24.24282,
+      55.20932
+     ]
+    }
+   ],
+   "source": "Jamestown Foundation; Arms Control Association",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "112",
+     "text": "BELARUS",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      27.56,
+      53.9
+     ],
+     "label": "Minsk",
+     "kind": "dot",
+     "t": 0.5,
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c1-krichev+border",
+   "type": "region",
+   "start": 147.5,
+   "end": 156.33,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     31.0,
+     53.7
+    ],
+    "widthKm": 1000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      31.0,
+      53.7
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 4.51,
+     "center": [
+      31.72,
+      53.71
+     ],
+     "widthKm": 400
+    },
+    {
+     "t": 5.8,
+     "center": [
+      31.72,
+      53.71
+     ],
+     "widthKm": 240
+    },
+    {
+     "t": 8.83,
+     "center": [
+      31.9,
+      53.7
+     ],
+     "widthKm": 170
+    }
+   ],
+   "labels": [
+    {
+     "text": "Satellite analysts",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "at": [
+      27.81349,
+      54.83955
+     ],
+     "until": 4.71
+    },
+    {
+     "text": "Former Soviet airfield",
+     "color": "#FFD23F",
+     "t": 2.55,
+     "at": [
+      27.81349,
+      54.55466
+     ],
+     "until": 4.71
+    },
+    {
+     "text": "5 km from the Russian border",
+     "color": "#FFD23F",
+     "t": 4.71,
+     "at": [
+      30.78659,
+      54.04373
+     ]
+    }
+   ],
+   "source": "Jamestown Foundation; Arms Control Association",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Near Krichev",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      31.0,
+      53.55
+     ],
+     "label": "Krichev",
+     "kind": "dot",
+     "t": 0.6,
+     "color": "#FFFFFF"
+    },
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Airfield",
+     "kind": "base",
+     "t": 4.61,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-patrol+three",
+   "type": "region",
+   "start": 156.33,
+   "end": 160.71,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     31.5,
+     53.7
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      31.5,
+      53.7
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 1.5,
+     "center": [
+      30.5,
+      53.9
+     ],
+     "widthKm": 800
+    },
+    {
+     "t": 2.36,
+     "center": [
+      30.5,
+      53.6
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 4.38,
+     "center": [
+      30.0,
+      53.7
+     ],
+     "widthKm": 1200
+    }
+   ],
+   "labels": [
+    {
+     "text": "Launchers drive out on patrol",
+     "color": "#F2B01E",
+     "t": 0.2,
+     "at": [
+      28.99632,
+      54.59536
+     ],
+     "until": 1.7
+    },
+    {
+     "text": "At least three launchers",
+     "color": "#F2B01E",
+     "t": 2.84,
+     "at": [
+      26.1857,
+      55.14653
+     ]
+    }
+   ],
+   "source": "Jamestown Foundation; Arms Control Association",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       31.72,
+       53.71
+      ],
+      [
+       31.2,
+       53.9
+      ],
+      [
+       30.7,
+       53.8
+      ]
+     ],
+     "t0": 0.3,
+     "t1": 4.0,
+     "kind": "pla",
+     "color": "#F2B01E",
+     "label": "Launcher",
+     "size": 1.8,
+     "t": 0.3,
+     "wake": true
+    },
+    {
+     "path": [
+      [
+       31.72,
+       53.71
+      ],
+      [
+       32.0,
+       53.6
+      ],
+      [
+       32.4,
+       53.9
+      ]
+     ],
+     "t0": 0.8,
+     "t1": 4.4,
+     "kind": "pla",
+     "color": "#F2B01E",
+     "label": "Launcher",
+     "size": 1.8,
+     "t": 0.8,
+     "wake": true
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      31.3,
+      53.9
+     ],
+     "label": "1",
+     "kind": "base",
+     "t": 2.84,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "2",
+     "kind": "base",
+     "t": 3.24,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      32.1,
+      53.5
+     ],
+     "label": "3",
+     "kind": "base",
+     "t": 3.64,
+     "color": "#F2B01E",
+     "size": 5
+    }
+   ]
+  },
+  {
+   "id": "c1-ten",
+   "type": "region",
+   "start": 160.71,
+   "end": 166.834,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     29.0,
+     53.7
+    ],
+    "widthKm": 1200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      29.0,
+      53.7
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 6.12,
+     "center": [
+      27.5,
+      53.9
+     ],
+     "widthKm": 1800
+    }
+   ],
+   "labels": [
+    {
+     "text": "Minsk: up to ten",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "at": [
+      22.17177,
+      56.14189
+     ]
+    },
+    {
+     "text": "No count of missiles from Moscow",
+     "color": "#FFFFFF",
+     "t": 3.96,
+     "at": [
+      22.17177,
+      55.53142
+     ]
+    }
+   ],
+   "source": "Jamestown Foundation; Arms Control Association",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      27.56,
+      53.9
+     ],
+     "label": "Minsk",
+     "kind": "dot",
+     "t": 0.1,
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c1-change",
+   "type": "region",
+   "start": 166.834,
+   "end": 171.345,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     26.0,
+     53.0
+    ],
+    "widthKm": 2200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      26.0,
+      53.0
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 4.51,
+     "center": [
+      22.0,
+      52.0
+     ],
+     "widthKm": 3600
+    }
+   ],
+   "labels": [
+    {
+     "text": "What does a base in Belarus change?",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      13.87952,
+      57.72099
+     ]
+    }
+   ],
+   "source": "Jamestown Foundation; Arms Control Association",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Belarus base",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c2-card",
+   "type": "chapter",
+   "start": 171.345,
+   "end": 174.84,
+   "tag": "REAL HISTORY",
+   "kicker": "CHAPTER 02",
+   "title": "The last time Europe had minutes"
+  },
+  {
+   "id": "c2-less+closer+shorter",
+   "type": "region",
+   "start": 174.84,
+   "end": 184.433,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     26.0,
+     53.5
+    ],
+    "widthKm": 3400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      26.0,
+      53.5
+     ],
+     "widthKm": 3400
+    },
+    {
+     "t": 1.09,
+     "center": [
+      22.0,
+      52.5
+     ],
+     "widthKm": 4200
+    },
+    {
+     "t": 2.19,
+     "center": [
+      22.0,
+      52.5
+     ],
+     "widthKm": 4200
+    },
+    {
+     "t": 4.75,
+     "center": [
+      14.0,
+      52.0
+     ],
+     "widthKm": 4600
+    },
+    {
+     "t": 6.2,
+     "center": [
+      22.0,
+      52.5
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 9.59,
+     "center": [
+      20.0,
+      52.5
+     ],
+     "widthKm": 1900
+    }
+   ],
+   "labels": [
+    {
+     "text": "Less than analysts first assume",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      8.78353,
+      59.68613
+     ],
+     "until": 1.29
+    },
+    {
+     "text": "Parts of Russia are already closer",
+     "color": "#FFFFFF",
+     "t": 1.29,
+     "at": [
+      2.52159,
+      60.11056
+     ],
+     "until": 4.95
+    },
+    {
+     "text": "to London and Paris",
+     "color": "#6EA8FF",
+     "t": 1.77,
+     "at": [
+      2.52159,
+      58.31984
+     ],
+     "until": 4.95
+    },
+    {
+     "text": "What it shortens",
+     "color": "#FFD23F",
+     "t": 4.95,
+     "at": [
+      12.03945,
+      56.16284
+     ]
+    }
+   ],
+   "source": "Jamestown Foundation; Arms Control Association",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.128,
+      51.507
+     ],
+     "label": "London",
+     "kind": "dot",
+     "t": 1.77,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      2.35,
+      48.86
+     ],
+     "label": "Paris",
+     "kind": "dot",
+     "t": 2.31,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      25.28,
+      54.687
+     ],
+     "label": "Lithuania",
+     "kind": "dot",
+     "t": 6.45,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      21.012,
+      52.23
+     ],
+     "label": "Poland",
+     "kind": "dot",
+     "t": 7.33,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      13.405,
+      52.52
+     ],
+     "label": "Germany",
+     "kind": "dot",
+     "t": 8.07,
+     "color": "#6EA8FF"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      25.28,
+      54.687
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 5.25,
+     "t1": 7.25
+    },
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      21.012,
+      52.23
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 5.75,
+     "t1": 7.75
+    }
+   ]
+  },
+  {
+   "id": "c2-1983",
+   "type": "region",
+   "start": 184.433,
+   "end": 195.15,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     9.5,
+     50.5
+    ],
+    "widthKm": 1400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      9.5,
+      50.5
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 10.72,
+     "center": [
+      9.0,
+      50.0
+     ],
+     "widthKm": 900
+    }
+   ],
+   "labels": [
+    {
+     "text": "Late November 1983",
+     "color": "#FFD23F",
+     "t": 0.5,
+     "at": [
+      4.62768,
+      52.37212
+     ]
+    },
+    {
+     "text": "Pershing II to West Germany",
+     "color": "#6EA8FF",
+     "t": 6.48,
+     "at": [
+      4.62768,
+      51.90409
+     ]
+    }
+   ],
+   "source": "UK Parliament; CIA assessment; INF Treaty text",
+   "clock": "NOV 1983",
+   "clockLabel": "WEST GERMANY",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      8.24,
+      50.08
+     ],
+     "label": "Wiesbaden area",
+     "kind": "base",
+     "t": 3.0,
+     "color": "#6EA8FF",
+     "size": 5
+    }
+   ]
+  },
+  {
+   "id": "c2-14",
+   "type": "bars",
+   "start": 195.15,
+   "end": 199.65,
+   "tag": "REAL HISTORY",
+   "title": "Pershing II flight time, maximum range",
+   "sub": "UK parliamentary answer, 1983",
+   "source": "UK Parliament; CIA assessment; INF Treaty text",
+   "bars": [
+    {
+     "label": "Pershing II",
+     "value": 14,
+     "display": "about 14 min",
+     "color": "#6EA8FF"
+    }
+   ]
+  },
+  {
+   "id": "c2-14b+cia",
+   "type": "region",
+   "start": 199.65,
+   "end": 209.393,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     9.0,
+     50.0
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      9.0,
+      50.0
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 2.62,
+     "center": [
+      14.0,
+      51.0
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 4.12,
+     "center": [
+      14.0,
+      52.0
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 9.74,
+     "center": [
+      20.0,
+      53.0
+     ],
+     "widthKm": 4400
+    }
+   ],
+   "labels": [
+    {
+     "text": "14 minutes at maximum range",
+     "color": "#6EA8FF",
+     "t": 0.2,
+     "at": [
+      2.92077,
+      52.3605
+     ],
+     "until": 2.82
+    },
+    {
+     "text": "CIA: first radar to impact",
+     "color": "#FFFFFF",
+     "t": 2.82,
+     "at": [
+      -2.63373,
+      58.18613
+     ]
+    },
+    {
+     "text": "8 to 10 minutes",
+     "color": "#FFD23F",
+     "t": 7.5,
+     "at": [
+      -2.63373,
+      56.63959
+     ]
+    }
+   ],
+   "source": "UK Parliament; CIA assessment; INF Treaty text",
+   "clock": "NOV 1983",
+   "clockLabel": "WEST GERMANY",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c2-fear",
+   "type": "region",
+   "start": 209.393,
+   "end": 212.89,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     30.0,
+     53.0
+    ],
+    "widthKm": 3600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      30.0,
+      53.0
+     ],
+     "widthKm": 3600
+    },
+    {
+     "t": 3.5,
+     "center": [
+      25.0,
+      52.5
+     ],
+     "widthKm": 3200
+    }
+   ],
+   "labels": [
+    {
+     "text": "Soviet fear",
+     "color": "#F2B01E",
+     "t": 0.2,
+     "at": [
+      14.77477,
+      58.53496
+     ]
+    }
+   ],
+   "source": "UK Parliament; CIA assessment; INF Treaty text",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "dot",
+     "t": 0.3,
+     "color": "#F2B01E"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      9.0,
+      50.0
+     ],
+     "to": [
+      37.62,
+      55.75
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 0.8,
+     "t1": 4.0
+    }
+   ]
+  },
+  {
+   "id": "c2-decap+rev",
+   "type": "region",
+   "start": 212.89,
+   "end": 220.634,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     25.0,
+     52.5
+    ],
+    "widthKm": 3200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      25.0,
+      52.5
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 5.96,
+     "center": [
+      30.0,
+      53.0
+     ],
+     "widthKm": 4200
+    },
+    {
+     "t": 6.5,
+     "center": [
+      18.0,
+      52.0
+     ],
+     "widthKm": 4200
+    },
+    {
+     "t": 7.74,
+     "center": [
+      20.0,
+      52.0
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "labels": [
+    {
+     "text": "A decapitation strike",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "at": [
+      8.62042,
+      58.52333
+     ],
+     "until": 6.16
+    },
+    {
+     "text": "Almost no warning",
+     "color": "#FFD23F",
+     "t": 1.52,
+     "at": [
+      8.62042,
+      57.0175
+     ],
+     "until": 6.16
+    },
+    {
+     "text": "This simulation: the same question",
+     "color": "#FFD23F",
+     "t": 6.16,
+     "at": [
+      2.24173,
+      57.86054
+     ]
+    },
+    {
+     "text": "Reversed",
+     "color": "#FFFFFF",
+     "t": 6.16,
+     "at": [
+      2.24173,
+      56.39541
+     ]
+    }
+   ],
+   "source": "UK Parliament; CIA assessment; INF Treaty text",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      7.6,
+      49.437
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 6.36,
+     "t1": 8.96
+    }
+   ]
+  },
+  {
+   "id": "c2-inf",
+   "type": "stamp",
+   "start": 220.634,
+   "end": 223.23399999999998,
+   "tag": "REAL HISTORY",
+   "text": "DECEMBER 1987",
+   "line": "The INF Treaty",
+   "color": "#FFFFFF",
+   "source": "INF Treaty text"
+  },
+  {
+   "id": "c2-ban",
+   "type": "region",
+   "start": 223.23399999999998,
+   "end": 236.927,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     20.0,
+     52.0
+    ],
+    "widthKm": 7000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      20.0,
+      52.0
+     ],
+     "widthKm": 7000
+    },
+    {
+     "t": 10.44,
+     "center": [
+      27.626,
+      52.7626
+     ],
+     "widthKm": 5856.099
+    },
+    {
+     "t": 13.69,
+     "center": [
+      30.0,
+      53.0
+     ],
+     "widthKm": 5500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Banned: ground-launched missiles",
+     "color": "#FFD23F",
+     "t": 4.92,
+     "at": [
+      -7.35811,
+      62.81046
+     ]
+    },
+    {
+     "text": "500 to 5,500 km",
+     "color": "#FFFFFF",
+     "t": 7.18,
+     "at": [
+      -7.35811,
+      60.26682
+     ]
+    }
+   ],
+   "source": "INF Treaty text",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c2-2692",
+   "type": "number",
+   "start": 236.927,
+   "end": 240.73,
+   "tag": "REAL HISTORY",
+   "value": "2,692",
+   "label": "missiles destroyed by 1991",
+   "sub": "Intermediate-Range Nuclear Forces Treaty",
+   "color": "#FFD23F",
+   "countTo": 2692,
+   "source": "INF Treaty text"
+  },
+  {
+   "id": "c2-ours",
+   "type": "region",
+   "start": 240.73,
+   "end": 243.41,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     24.0,
+     53.0
+    ],
+    "widthKm": 4000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24.0,
+      53.0
+     ],
+     "widthKm": 4000
+    },
+    {
+     "t": 2.68,
+     "center": [
+      22.0,
+      52.0
+     ],
+     "widthKm": 2800
+    }
+   ],
+   "labels": [
+    {
+     "text": "Nuclear or conventional",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      8.77477,
+      58.53496
+     ]
+    }
+   ],
+   "source": "INF Treaty text",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c2-2019",
+   "type": "stamp",
+   "start": 243.41,
+   "end": 245.81,
+   "tag": "REAL HISTORY",
+   "text": "AUGUST 2019",
+   "line": "The United States leaves the treaty; Russia follows",
+   "color": "#FFFFFF",
+   "source": "Arms Control Association"
+  },
+  {
+   "id": "c2-gone",
+   "type": "region",
+   "start": 245.81,
+   "end": 252.99,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     30.0,
+     52.0
+    ],
+    "widthKm": 7000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      30.0,
+      52.0
+     ],
+     "widthKm": 7000
+    },
+    {
+     "t": 3.69,
+     "center": [
+      24.8607,
+      52.0
+     ],
+     "widthKm": 5869.359
+    },
+    {
+     "t": 7.18,
+     "center": [
+      20.0,
+      52.0
+     ],
+     "widthKm": 4800
+    }
+   ],
+   "labels": [
+    {
+     "text": "That ban is gone",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "at": [
+      4.17394,
+      62.20507
+     ]
+    }
+   ],
+   "source": "Arms Control Association",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c2-2025",
+   "type": "stamp",
+   "start": 252.99,
+   "end": 255.39000000000001,
+   "tag": "REAL HISTORY",
+   "text": "AUGUST 2025",
+   "line": "Russia drops its own moratorium",
+   "color": "#F2B01E",
+   "source": "Arms Control Association"
+  },
+  {
+   "id": "c2-six",
+   "type": "region",
+   "start": 255.39000000000001,
+   "end": 258.51,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     40.0,
+     52.0
+    ],
+    "widthKm": 6000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      40.0,
+      52.0
+     ],
+     "widthKm": 6000
+    },
+    {
+     "t": 3.12,
+     "center": [
+      28.0,
+      52.0
+     ],
+     "widthKm": 4000
+    }
+   ],
+   "labels": [
+    {
+     "text": "Six months later",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      18.11351,
+      60.64837
+     ]
+    }
+   ],
+   "source": "Arms Control Association",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c2-start",
+   "type": "stamp",
+   "start": 258.51,
+   "end": 263.106,
+   "tag": "REAL HISTORY",
+   "text": "5 FEBRUARY 2026",
+   "line": "New START expires",
+   "color": "#FF3B3B",
+   "source": "Arms Control Association"
+  },
+  {
+   "id": "c2-notreaty",
+   "type": "region",
+   "start": 263.106,
+   "end": 270.221,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     20.0,
+     52.0
+    ],
+    "widthKm": 6500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      20.0,
+      52.0
+     ],
+     "widthKm": 6500
+    },
+    {
+     "t": 4.29,
+     "center": [
+      23.6152,
+      52.0
+     ],
+     "widthKm": 5596.208
+    },
+    {
+     "t": 7.12,
+     "center": [
+      26.0,
+      52.0
+     ],
+     "widthKm": 5000
+    }
+   ],
+   "labels": [
+    {
+     "text": "No limits on strategic forces",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      -5.16946,
+      61.94562
+     ]
+    },
+    {
+     "text": "For the first time in decades",
+     "color": "#FFD23F",
+     "t": 1.46,
+     "at": [
+      -5.16946,
+      59.60548
+     ]
+    }
+   ],
+   "source": "Jamestown Foundation; Arms Control Association",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c2-jam",
+   "type": "region",
+   "start": 270.221,
+   "end": 280.507,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     28.0,
+     53.5
+    ],
+    "widthKm": 2200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      28.0,
+      53.5
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 10.29,
+     "center": [
+      27.0,
+      53.5
+     ],
+     "widthKm": 1400
+    }
+   ],
+   "labels": [
+    {
+     "text": "Jamestown Foundation",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      19.84483,
+      56.61341
+     ]
+    },
+    {
+     "text": "Belarus: not a party to the notice deal",
+     "color": "#FFD23F",
+     "t": 2.39,
+     "at": [
+      19.84483,
+      55.88084
+     ]
+    },
+    {
+     "text": "A launch from there: no treaty notice",
+     "color": "#FF3B3B",
+     "t": 7.45,
+     "at": [
+      19.84483,
+      55.14828
+     ]
+    }
+   ],
+   "source": "Jamestown Foundation; Arms Control Association",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "112",
+     "text": "BELARUS",
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c2-ask",
+   "type": "region",
+   "start": 280.507,
+   "end": 289.105,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     24.0,
+     52.5
+    ],
+    "widthKm": 3600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24.0,
+      52.5
+     ],
+     "widthKm": 3600
+    },
+    {
+     "t": 8.6,
+     "center": [
+      18.0,
+      52.0
+     ],
+     "widthKm": 2800
+    }
+   ],
+   "labels": [
+    {
+     "text": "If it left that forest",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      9.83388,
+      58.03496
+     ]
+    },
+    {
+     "text": "How fast would it arrive?",
+     "color": "#FFD23F",
+     "t": 5.96,
+     "at": [
+      9.83388,
+      56.73261
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "IF IT LEFT THAT FOREST",
+   "clockRate": 60.0,
+   "ships": [
+    {
+     "path": [
+      [
+       31.72,
+       53.71
+      ],
+      [
+       7.6,
+       49.437
+      ]
+     ],
+     "t0": 2.0,
+     "t1": 8.2,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Oreshnik",
+     "size": 2.4,
+     "t": 2.0,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      7.6,
+      49.437
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 2.0,
+     "t1": 8.2
+    }
+   ],
+   "cities": [],
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "source": "Jamestown Foundation; Arms Control Association"
+  },
+  {
+   "id": "c3-card",
+   "type": "chapter",
+   "start": 289.105,
+   "end": 292.61,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 03",
+   "title": "The launch"
+  },
+  {
+   "id": "c3-crisis",
+   "type": "region",
+   "start": 292.61,
+   "end": 299.13,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     20.0,
+     57.0
+    ],
+    "widthKm": 1800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      20.0,
+      57.0
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 3.46,
+     "center": [
+      20.5307,
+      56.4693
+     ],
+     "widthKm": 1587.73
+    },
+    {
+     "t": 6.52,
+     "center": [
+      21.0,
+      56.0
+     ],
+     "widthKm": 1400
+    }
+   ],
+   "labels": [
+    {
+     "text": "Day 8 of a crisis over the Baltic",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      12.08302,
+      59.76748
+     ]
+    }
+   ],
+   "clock": "DAY 8",
+   "clockLabel": "THE CRISIS",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.0,
+      55.7
+     ],
+     "label": "Baltic",
+     "kind": "dot",
+     "t": 0.4,
+     "color": "#FFFFFF"
+    }
+   ]
+  },
+  {
+   "id": "c3-day9+moscow",
+   "type": "region",
+   "start": 299.13,
+   "end": 305.665,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     27.0,
+     54.0
+    ],
+    "widthKm": 2400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      27.0,
+      54.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 3.72,
+     "center": [
+      24.0,
+      53.0
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 4.56,
+     "center": [
+      34.0,
+      54.5
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 6.53,
+     "center": [
+      30.0,
+      54.0
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Day 9: 03:10 Berlin time",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      16.91323,
+      57.80528
+     ],
+     "until": 3.92
+    },
+    {
+     "text": "We do not model how it began",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "at": [
+      16.91323,
+      56.90992
+     ],
+     "until": 3.92
+    },
+    {
+     "text": "Moscow fires one missile",
+     "color": "#FF3B3B",
+     "t": 3.92,
+     "at": [
+      27.7349,
+      56.83506
+     ]
+    }
+   ],
+   "clock": "03:10",
+   "clockLabel": "BERLIN TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA, BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "dot",
+     "t": 3.82,
+     "color": "#F2B01E"
+    },
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch (simulated)",
+     "kind": "base",
+     "t": 5.12,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      37.62,
+      55.75
+     ],
+     "to": [
+      31.72,
+      53.71
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 4.52,
+     "t1": 6.72
+    }
+   ]
+  },
+  {
+   "id": "c3-target",
+   "type": "region",
+   "start": 305.665,
+   "end": 312.91,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     10.0,
+     50.0
+    ],
+    "widthKm": 1300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      10.0,
+      50.0
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 7.25,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 380
+    }
+   ],
+   "labels": [
+    {
+     "text": "Our target: Ramstein Air Base",
+     "color": "#FF3B3B",
+     "t": 0.4,
+     "at": [
+      6.47824,
+      51.45293
+     ]
+    },
+    {
+     "text": "A rear area, far from the front",
+     "color": "#FFFFFF",
+     "t": 3.64,
+     "at": [
+      6.47824,
+      51.11106
+     ]
+    }
+   ],
+   "clock": "03:10",
+   "clockLabel": "BERLIN TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "label": "Ramstein Air Base",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-purpose",
+   "type": "region",
+   "start": 312.91,
+   "end": 317.86899999999997,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 380
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 380
+    },
+    {
+     "t": 4.96,
+     "center": [
+      10.0,
+      51.0
+     ],
+     "widthKm": 2000
+    }
+   ],
+   "labels": [
+    {
+     "text": "A nuclear demonstration",
+     "color": "#FF3B3B",
+     "t": 1.06,
+     "at": [
+      2.66835,
+      51.49531
+     ]
+    },
+    {
+     "text": "To show the rear can be reached",
+     "color": "#FFD23F",
+     "t": 4.16,
+     "at": [
+      2.66835,
+      51.011
+     ]
+    }
+   ],
+   "clock": "03:10",
+   "clockLabel": "BERLIN TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "label": "Ramstein",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-ours+site",
+   "type": "region",
+   "start": 317.86899999999997,
+   "end": 327.25,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     14.0,
+     51.5
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      14.0,
+      51.5
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 5.98,
+     "center": [
+      20.0,
+      52.0
+     ],
+     "widthKm": 3800
+    },
+    {
+     "t": 7.0,
+     "center": [
+      30.0,
+      53.7
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 9.38,
+     "center": [
+      31.72,
+      53.71
+     ],
+     "widthKm": 320
+    }
+   ],
+   "labels": [
+    {
+     "text": "Our choices",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "at": [
+      -0.71897,
+      57.38089
+     ],
+     "until": 6.18
+    },
+    {
+     "text": "Not a forecast. Not a known plan.",
+     "color": "#FFFFFF",
+     "t": 2.02,
+     "at": [
+      -0.71897,
+      55.99715
+     ],
+     "until": 6.18
+    },
+    {
+     "text": "A point we placed",
+     "color": "#FFD23F",
+     "t": 7.38,
+     "at": [
+      26.99558,
+      54.84158
+     ]
+    },
+    {
+     "text": "Near the reported base",
+     "color": "#FFFFFF",
+     "t": 8.34,
+     "at": [
+      26.99558,
+      54.57298
+     ]
+    }
+   ],
+   "clock": "03:10",
+   "clockLabel": "BERLIN TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    }
+   ],
+   "caption": "Our choices, not a forecast and not a known Russian plan.",
+   "cities": [
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch site (simulated)",
+     "kind": "base",
+     "t": 6.28,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-simloc+authority",
+   "type": "region",
+   "start": 327.25,
+   "end": 333.85,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     31.72,
+     53.71
+    ],
+    "widthKm": 320
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      31.72,
+      53.71
+     ],
+     "widthKm": 320
+    },
+    {
+     "t": 4.48,
+     "center": [
+      30.0,
+      53.8
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 5.12,
+     "center": [
+      33.0,
+      54.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 6.6,
+     "center": [
+      36.0,
+      55.0
+     ],
+     "widthKm": 1000
+    }
+   ],
+   "labels": [
+    {
+     "text": "Its location is simulated",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      28.94253,
+      54.7651
+     ],
+     "until": 4.68
+    },
+    {
+     "text": "Launch authority stays in Moscow",
+     "color": "#F2B01E",
+     "t": 4.78,
+     "at": [
+      27.19898,
+      56.66209
+     ]
+    }
+   ],
+   "clock": "03:10",
+   "clockLabel": "BERLIN TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch site (simulated)",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "dot",
+     "t": 4.68,
+     "color": "#F2B01E"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      37.62,
+      55.75
+     ],
+     "to": [
+      31.72,
+      53.71
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 5.98,
+     "t1": 7.98
+    }
+   ]
+  },
+  {
+   "id": "c3-sub",
+   "type": "region",
+   "start": 333.85,
+   "end": 341.402,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     34.0,
+     54.5
+    ],
+    "widthKm": 1600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      34.0,
+      54.5
+     ],
+     "widthKm": 1600
+    },
+    {
+     "t": 7.55,
+     "center": [
+      30.0,
+      54.0
+     ],
+     "widthKm": 1000
+    }
+   ],
+   "labels": [
+    {
+     "text": "Jamestown: fully subordinate",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      27.96694,
+      56.74858
+     ]
+    },
+    {
+     "text": "To Strategic Missile Forces",
+     "color": "#F2B01E",
+     "t": 5.28,
+     "at": [
+      27.96694,
+      56.2195
+     ]
+    }
+   ],
+   "clock": "03:10",
+   "clockLabel": "BERLIN TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "dot",
+     "t": 0.1,
+     "color": "#F2B01E"
+    },
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launcher",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-one",
+   "type": "region",
+   "start": 341.402,
+   "end": 346.81,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 5.41,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 300
+    }
+   ],
+   "labels": [
+    {
+     "text": "One warhead",
+     "color": "#FF3B3B",
+     "t": 0.55,
+     "at": [
+      5.9423,
+      50.12887
+     ]
+    }
+   ],
+   "clock": "03:10",
+   "clockLabel": "BERLIN TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "label": "Ramstein",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-50",
+   "type": "number",
+   "start": 346.81,
+   "end": 350.41,
+   "tag": "SIMULATION",
+   "value": "50 KT",
+   "label": "our chosen yield",
+   "sub": "no yield has ever been published for Oreshnik",
+   "color": "#FF3B3B",
+   "countTo": 50,
+   "suffix": " KT",
+   "source": "Scenario engine; choice, not a fact"
+  },
+  {
+   "id": "c3-scale",
+   "type": "region",
+   "start": 350.41,
+   "end": 356.115,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     9.0,
+     50.0
+    ],
+    "widthKm": 1200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      9.0,
+      50.0
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 5.7,
+     "center": [
+      9.0,
+      50.0
+     ],
+     "widthKm": 700
+    }
+   ],
+   "labels": [
+    {
+     "text": "Pershing II warhead: 5 to 80 kt",
+     "color": "#6EA8FF",
+     "t": 0.2,
+     "at": [
+      5.01706,
+      51.64319
+     ]
+    },
+    {
+     "text": "Used only as a scale",
+     "color": "#FFFFFF",
+     "t": 4.18,
+     "at": [
+      5.01706,
+      51.25656
+     ]
+    }
+   ],
+   "clock": "03:10",
+   "clockLabel": "BERLIN TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      8.24,
+      50.08
+     ],
+     "label": "Pershing II, 1983",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 5
+    }
+   ]
+  },
+  {
+   "id": "c3-radar",
+   "type": "region",
+   "start": 356.115,
+   "end": 359.49,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     20.0,
+     52.5
+    ],
+    "widthKm": 2800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      20.0,
+      52.5
+     ],
+     "widthKm": 2800
+    },
+    {
+     "t": 3.38,
+     "center": [
+      16.0,
+      52.0
+     ],
+     "widthKm": 2200
+    }
+   ],
+   "labels": [
+    {
+     "text": "The same on every radar",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      8.93272,
+      56.82418
+     ]
+    }
+   ],
+   "clock": "T+01:00",
+   "clockLabel": "AFTER LAUNCH",
+   "clockRate": 1,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       28.0,
+       53.5
+      ],
+      [
+       14.0,
+       51.0
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 8.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 2.4,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      7.6,
+      49.437
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.1,
+     "t1": 6.0
+    }
+   ]
+  },
+  {
+   "id": "c3-ap",
+   "type": "region",
+   "start": 359.49,
+   "end": 369.819,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     14.0,
+     51.5
+    ],
+    "widthKm": 2200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      14.0,
+      51.5
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 5.82,
+     "center": [
+      11.7464,
+      50.9366
+     ],
+     "widthKm": 1749.274
+    },
+    {
+     "t": 10.33,
+     "center": [
+      10.0,
+      50.5
+     ],
+     "widthKm": 1400
+    }
+   ],
+   "labels": [
+    {
+     "text": "Nuclear or conventional?",
+     "color": "#FFFFFF",
+     "t": 2.94,
+     "at": [
+      6.2076,
+      54.61341
+     ]
+    },
+    {
+     "text": "No way to tell before impact",
+     "color": "#FFD23F",
+     "t": 8.7,
+     "at": [
+      6.2076,
+      53.88084
+     ]
+    }
+   ],
+   "clock": "T+02:00",
+   "clockLabel": "AFTER LAUNCH",
+   "clockRate": 1,
+   "highlight": [
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "source": "AP",
+   "cities": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "label": "Ramstein",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-clock",
+   "type": "region",
+   "start": 369.819,
+   "end": 374.665,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     26.0,
+     53.5
+    ],
+    "widthKm": 1800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      26.0,
+      53.5
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 4.85,
+     "center": [
+      30.0,
+      53.7
+     ],
+     "widthKm": 1000
+    }
+   ],
+   "labels": [
+    {
+     "text": "The clock starts",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      19.65709,
+      55.92154
+     ]
+    },
+    {
+     "text": "Without an answer",
+     "color": "#FFFFFF",
+     "t": 2.45,
+     "at": [
+      19.65709,
+      55.35177
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "THE CLOCK STARTS",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-card",
+   "type": "chapter",
+   "start": 374.665,
+   "end": 378.17,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 04",
+   "title": "Minute by minute"
+  },
+  {
+   "id": "c4-zero",
+   "type": "region",
+   "start": 378.17,
+   "end": 380.01,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     28.0,
+     53.7
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      28.0,
+      53.7
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 1.84,
+     "center": [
+      26.0,
+      53.7
+     ],
+     "widthKm": 700
+    }
+   ],
+   "labels": [
+    {
+     "text": "Minute zero: launch",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "at": [
+      25.26871,
+      54.7378
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "MINUTE ZERO",
+   "clockRate": 233.8,
+   "ships": [
+    {
+     "path": [
+      [
+       31.72,
+       53.71
+      ],
+      [
+       25.28,
+       54.687
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 1.54,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Launch",
+     "size": 2.4,
+     "t": 0.5,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      25.28,
+      54.687
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.5,
+     "t1": 1.54
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch (simulated)",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    }
+   ]
+  },
+  {
+   "id": "c4-model",
+   "type": "region",
+   "start": 380.01,
+   "end": 386.186,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     28.0,
+     53.5
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      28.0,
+      53.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 6.18,
+     "center": [
+      22.0,
+      53.0
+     ],
+     "widthKm": 2500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Times from our scenario engine",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "at": [
+      18.9387,
+      56.95935
+     ]
+    },
+    {
+     "text": "A ballistic path, not a glide",
+     "color": "#FFFFFF",
+     "t": 3.22,
+     "at": [
+      18.9387,
+      56.14538
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "LAUNCH",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-vilnius",
+   "type": "region",
+   "start": 386.186,
+   "end": 394.89,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     28.0,
+     54.0
+    ],
+    "widthKm": 1000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      28.0,
+      54.0
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 5.88,
+     "center": [
+      27.3241,
+      54.1352
+     ],
+     "widthKm": 864.828
+    },
+    {
+     "t": 8.7,
+     "center": [
+      27.0,
+      54.2
+     ],
+     "widthKm": 800
+    }
+   ],
+   "labels": [
+    {
+     "text": "Vilnius: 433 km",
+     "color": "#6EA8FF",
+     "t": 0.3,
+     "at": [
+      23.87359,
+      55.55671
+     ]
+    },
+    {
+     "text": "About 6 minutes",
+     "color": "#FFD23F",
+     "t": 3.06,
+     "at": [
+      23.87359,
+      55.19042
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "FLIGHT TIME",
+   "clockRate": 100.0,
+   "ships": [
+    {
+     "path": [
+      [
+       31.72,
+       53.71
+      ],
+      [
+       25.28,
+       54.687
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 3.6,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Oreshnik",
+     "size": 2.4,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      25.28,
+      54.687
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 3.6
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      25.28,
+      54.687
+     ],
+     "label": "Vilnius",
+     "kind": "dot",
+     "t": 0.2,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-warsaw",
+   "type": "region",
+   "start": 394.89,
+   "end": 400.89,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     26.0,
+     53.5
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      26.0,
+      53.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 6.0,
+     "center": [
+      24.0,
+      53.0
+     ],
+     "widthKm": 1300
+    }
+   ],
+   "labels": [
+    {
+     "text": "Warsaw: 735 km",
+     "color": "#6EA8FF",
+     "t": 0.3,
+     "at": [
+      19.65709,
+      55.92154
+     ]
+    },
+    {
+     "text": "Still about 6 minutes",
+     "color": "#FFD23F",
+     "t": 3.4,
+     "at": [
+      19.65709,
+      55.35177
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "FLIGHT TIME",
+   "clockRate": 90.0,
+   "ships": [
+    {
+     "path": [
+      [
+       31.72,
+       53.71
+      ],
+      [
+       21.012,
+       52.23
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 4.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Oreshnik",
+     "size": 2.4,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      21.012,
+      52.23
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 4.0
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.012,
+      52.23
+     ],
+     "label": "Warsaw",
+     "kind": "dot",
+     "t": 0.2,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      25.28,
+      54.687
+     ],
+     "label": "Vilnius",
+     "kind": "dot",
+     "t": 0.2,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-floor",
+   "type": "region",
+   "start": 400.89,
+   "end": 402.802,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     24.0,
+     53.0
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24.0,
+      53.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 1.91,
+     "center": [
+      20.0,
+      52.5
+     ],
+     "widthKm": 2400
+    }
+   ],
+   "labels": [
+    {
+     "text": "Six is the floor of our model",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      15.26788,
+      56.37286
+     ]
+    }
+   ],
+   "clock": "T+06:00",
+   "clockLabel": "THE FLOOR",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.012,
+      52.23
+     ],
+     "label": "Warsaw",
+     "kind": "dot",
+     "t": 0.1,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      25.28,
+      54.687
+     ],
+     "label": "Vilnius",
+     "kind": "dot",
+     "t": 0.1,
+     "color": "#6EA8FF"
+    }
+   ]
+  },
+  {
+   "id": "c4-berlin",
+   "type": "region",
+   "start": 402.802,
+   "end": 408.553,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     22.0,
+     53.0
+    ],
+    "widthKm": 2400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      22.0,
+      53.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 5.75,
+     "center": [
+      18.0,
+      52.5
+     ],
+     "widthKm": 2600
+    }
+   ],
+   "labels": [
+    {
+     "text": "Berlin: 1,226 km",
+     "color": "#6EA8FF",
+     "t": 0.3,
+     "at": [
+      10.80498,
+      57.32418
+     ]
+    },
+    {
+     "text": "About 6.7 minutes",
+     "color": "#FFD23F",
+     "t": 3.83,
+     "at": [
+      10.80498,
+      56.30673
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "FLIGHT TIME",
+   "clockRate": 89.3,
+   "ships": [
+    {
+     "path": [
+      [
+       31.72,
+       53.71
+      ],
+      [
+       13.405,
+       52.52
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 4.5,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Oreshnik",
+     "size": 2.4,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      13.405,
+      52.52
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 4.5
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      13.405,
+      52.52
+     ],
+     "label": "Berlin",
+     "kind": "dot",
+     "t": 0.2,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-brussels",
+   "type": "region",
+   "start": 408.553,
+   "end": 410.674,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     16.0,
+     52.0
+    ],
+    "widthKm": 3200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      16.0,
+      52.0
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 2.12,
+     "center": [
+      12.0,
+      51.5
+     ],
+     "widthKm": 3600
+    }
+   ],
+   "labels": [
+    {
+     "text": "Brussels",
+     "color": "#6EA8FF",
+     "t": 0.3,
+     "at": [
+      1.11719,
+      57.88089
+     ]
+    },
+    {
+     "text": "About 8.6 minutes",
+     "color": "#FFD23F",
+     "t": 0.8,
+     "at": [
+      1.11719,
+      56.49715
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "FLIGHT TIME",
+   "clockRate": 114.7,
+   "ships": [
+    {
+     "path": [
+      [
+       31.72,
+       53.71
+      ],
+      [
+       4.352,
+       50.85
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 4.5,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Oreshnik",
+     "size": 2.4,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      4.352,
+      50.85
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 4.5
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      4.352,
+      50.85
+     ],
+     "label": "Brussels",
+     "kind": "dot",
+     "t": 0.2,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      13.405,
+      52.52
+     ],
+     "label": "Berlin",
+     "kind": "dot",
+     "t": 0.2,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "056",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-london",
+   "type": "region",
+   "start": 410.674,
+   "end": 416.45,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     14.0,
+     52.0
+    ],
+    "widthKm": 3800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      14.0,
+      52.0
+     ],
+     "widthKm": 3800
+    },
+    {
+     "t": 5.78,
+     "center": [
+      10.0,
+      52.0
+     ],
+     "widthKm": 4600
+    }
+   ],
+   "labels": [
+    {
+     "text": "London: 2,146 km",
+     "color": "#6EA8FF",
+     "t": 0.3,
+     "at": [
+      -4.38465,
+      59.26463
+     ]
+    },
+    {
+     "text": "About 9.4 minutes",
+     "color": "#FFD23F",
+     "t": 3.98,
+     "at": [
+      -4.38465,
+      57.5553
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "FLIGHT TIME",
+   "clockRate": 112.8,
+   "ships": [
+    {
+     "path": [
+      [
+       31.72,
+       53.71
+      ],
+      [
+       -0.128,
+       51.507
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 5.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Oreshnik",
+     "size": 2.4,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      -0.128,
+      51.507
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 5.0
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.128,
+      51.507
+     ],
+     "label": "London",
+     "kind": "dot",
+     "t": 0.2,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-ramstein",
+   "type": "region",
+   "start": 416.45,
+   "end": 423.13,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     16.0,
+     52.0
+    ],
+    "widthKm": 3600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      16.0,
+      52.0
+     ],
+     "widthKm": 3600
+    },
+    {
+     "t": 6.68,
+     "center": [
+      14.0,
+      51.0
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "labels": [
+    {
+     "text": "Ramstein: 1,724 km",
+     "color": "#FF3B3B",
+     "t": 0.3,
+     "at": [
+      1.55492,
+      57.70792
+     ]
+    },
+    {
+     "text": "Between Berlin and Brussels",
+     "color": "#FFFFFF",
+     "t": 5.18,
+     "at": [
+      1.55492,
+      56.36488
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "FLIGHT TIME",
+   "clockRate": 82.0,
+   "ships": [
+    {
+     "path": [
+      [
+       31.72,
+       53.71
+      ],
+      [
+       7.6,
+       49.437
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 6.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Oreshnik",
+     "size": 2.4,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      7.6,
+      49.437
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 6.0
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "label": "Ramstein",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      13.405,
+      52.52
+     ],
+     "label": "Berlin",
+     "kind": "dot",
+     "t": 0.5,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      4.352,
+      50.85
+     ],
+     "label": "Brussels",
+     "kind": "dot",
+     "t": 0.8,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-min8",
+   "type": "region",
+   "start": 423.13,
+   "end": 426.795,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     14.0,
+     51.0
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      14.0,
+      51.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 3.67,
+     "center": [
+      10.0,
+      50.5
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Minute eight, and a little more",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      4.36484,
+      54.89177
+     ]
+    }
+   ],
+   "clock": "T+08:12",
+   "clockLabel": "IMPACT",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "label": "Ramstein",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-outputs",
+   "type": "region",
+   "start": 426.795,
+   "end": 436.23,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     28.0,
+     52.5
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      28.0,
+      52.5
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 9.44,
+     "center": [
+      24.0,
+      52.0
+     ],
+     "widthKm": 2400
+    }
+   ],
+   "labels": [
+    {
+     "text": "Model outputs",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      16.04734,
+      57.17012
+     ]
+    },
+    {
+     "text": "The real path is unpublished",
+     "color": "#FFFFFF",
+     "t": 4.12,
+     "at": [
+      16.04734,
+      56.07127
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "OUR MODEL",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-dnipro",
+   "type": "region",
+   "start": 436.23,
+   "end": 440.23,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     40.0,
+     49.0
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      40.0,
+      49.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 4.0,
+     "center": [
+      38.0,
+      48.8
+     ],
+     "widthKm": 1100
+    }
+   ],
+   "labels": [
+    {
+     "text": "Dnipro: about 15 minutes",
+     "color": "#3ED6C8",
+     "t": 0.3,
+     "at": [
+      34.65991,
+      51.24858
+     ]
+    },
+    {
+     "text": "About 800 km, measured",
+     "color": "#FFFFFF",
+     "t": 2.0,
+     "at": [
+      34.65991,
+      50.7195
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "DNIPRO 2024",
+   "clockRate": 225,
+   "source": "AP; Reuters; Euronews",
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      45.76,
+      48.57
+     ],
+     "label": "Kapustin Yar",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      35.05,
+      48.46
+     ],
+     "label": "Dnipro",
+     "kind": "dot",
+     "t": 0.2,
+     "color": "#3ED6C8"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       45.76,
+       48.57
+      ],
+      [
+       35.05,
+       48.46
+      ]
+     ],
+     "t0": 0.3,
+     "t1": 3.9,
+     "kind": "pla",
+     "color": "#3ED6C8",
+     "label": "Real flight",
+     "size": 2.4,
+     "t": 0.3,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      45.76,
+      48.57
+     ],
+     "to": [
+      35.05,
+      48.46
+     ],
+     "color": "#3ED6C8",
+     "dashed": true,
+     "t0": 0.3,
+     "t1": 3.9
+    }
+   ]
+  },
+  {
+   "id": "c4-vs",
+   "type": "bars",
+   "start": 440.23,
+   "end": 444.43,
+   "tag": "SIMULATION",
+   "title": "About 800 km: measured and modelled",
+   "sub": "minutes of flight",
+   "source": "Dnipro: published reports; model: scenario engine",
+   "bars": [
+    {
+     "label": "Dnipro, 2024 (measured)",
+     "value": 15,
+     "display": "about 15",
+     "color": "#3ED6C8"
+    },
+    {
+     "label": "Our model, same distance",
+     "value": 6,
+     "display": "about 6",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "c4-lofted",
+   "type": "region",
+   "start": 444.43,
+   "end": 449.403,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     28.0,
+     52.5
+    ],
+    "widthKm": 2600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      28.0,
+      52.5
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 4.97,
+     "center": [
+      20.0,
+      52.0
+     ],
+     "widthKm": 3400
+    }
+   ],
+   "labels": [
+    {
+     "text": "A lofted path takes longer",
+     "color": "#FFD23F",
+     "t": 1.79,
+     "at": [
+      14.71926,
+      57.68902
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      7.6,
+      49.437
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.3,
+     "t1": 2.5
+    },
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      7.6,
+      49.437
+     ],
+     "color": "#FF7A1A",
+     "dashed": true,
+     "t0": 0.3,
+     "t1": 2.5
+    }
+   ]
+  },
+  {
+   "id": "c4-claims",
+   "type": "region",
+   "start": 449.403,
+   "end": 455.31,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     24.0,
+     52.5
+    ],
+    "widthKm": 3200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24.0,
+      52.5
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 5.91,
+     "center": [
+      18.0,
+      52.5
+     ],
+     "widthKm": 3800
+    }
+   ],
+   "labels": [
+    {
+     "text": "Russian state media claims",
+     "color": "#F2B01E",
+     "t": 0.2,
+     "at": [
+      8.50581,
+      58.55386
+     ]
+    },
+    {
+     "text": "11 minutes to an air base in Poland",
+     "color": "#FFD23F",
+     "t": 1.93,
+     "at": [
+      8.50581,
+      57.12942
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      22.0,
+      51.0
+     ],
+     "label": "Air base, Poland",
+     "kind": "base",
+     "t": 1.93,
+     "color": "#6EA8FF",
+     "size": 5
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      22.0,
+      51.0
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 1.93,
+     "t1": 3.93
+    }
+   ]
+  },
+  {
+   "id": "c4-claims2",
+   "type": "region",
+   "start": 455.31,
+   "end": 460.307,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     14.0,
+     51.5
+    ],
+    "widthKm": 3800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      14.0,
+      51.5
+     ],
+     "widthKm": 3800
+    },
+    {
+     "t": 5.0,
+     "center": [
+      10.0,
+      51.0
+     ],
+     "widthKm": 3200
+    }
+   ],
+   "labels": [
+    {
+     "text": "17 minutes to NATO headquarters",
+     "color": "#FFD23F",
+     "t": 0.05,
+     "at": [
+      -1.15188,
+      57.55386
+     ]
+    },
+    {
+     "text": "Claims, not measurements",
+     "color": "#FFFFFF",
+     "t": 2.4,
+     "at": [
+      -1.15188,
+      56.12942
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "056",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      4.352,
+      50.85
+     ],
+     "label": "Brussels",
+     "kind": "dot",
+     "t": 0.3,
+     "color": "#6EA8FF"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      4.352,
+      50.85
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 2.4
+    }
+   ]
+  },
+  {
+   "id": "c4-do",
+   "type": "region",
+   "start": 460.307,
+   "end": 464.828,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     18.0,
+     52.0
+    ],
+    "widthKm": 3800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      18.0,
+      52.0
+     ],
+     "widthKm": 3800
+    },
+    {
+     "t": 4.52,
+     "center": [
+      12.0,
+      51.0
+     ],
+     "widthKm": 2800
+    }
+   ],
+   "labels": [
+    {
+     "text": "What can anyone do",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      3.55492,
+      57.70792
+     ]
+    },
+    {
+     "text": "with six to nine minutes?",
+     "color": "#FFD23F",
+     "t": 2.26,
+     "at": [
+      3.55492,
+      56.36488
+     ]
+    }
+   ],
+   "clock": "T+06:00",
+   "clockLabel": "SIX TO NINE",
+   "clockRate": 15,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-warn",
+   "type": "region",
+   "start": 464.828,
+   "end": 472.13,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     16.0,
+     52.0
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      16.0,
+      52.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 7.3,
+     "center": [
+      13.0,
+      51.0
+     ],
+     "widthKm": 2400
+    }
+   ],
+   "labels": [
+    {
+     "text": "Does a warning reach anyone?",
+     "color": "#FFD23F",
+     "t": 0.3,
+     "at": [
+      4.1813,
+      56.67012
+     ]
+    },
+    {
+     "text": "A leader, a commander, a shelter",
+     "color": "#FFFFFF",
+     "t": 2.24,
+     "at": [
+      4.1813,
+      55.57127
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-redz",
+   "type": "region",
+   "start": 472.13,
+   "end": 477.01,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     19.0,
+     54.0
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      19.0,
+      54.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 4.88,
+     "center": [
+      17.1,
+      54.48
+     ],
+     "widthKm": 900
+    }
+   ],
+   "labels": [
+    {
+     "text": "American-built missile defence",
+     "color": "#6EA8FF",
+     "t": 0.2,
+     "at": [
+      13.49813,
+      56.07561
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      17.1,
+      54.48
+     ],
+     "label": "Redzikowo, Poland",
+     "kind": "base",
+     "t": 2.4,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-dev",
+   "type": "region",
+   "start": 477.01,
+   "end": 483.41,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     22.0,
+     47.0
+    ],
+    "widthKm": 2400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      22.0,
+      47.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 6.4,
+     "center": [
+      24.4,
+      44.1
+     ],
+     "widthKm": 1200
+    }
+   ],
+   "labels": [
+    {
+     "text": "Could they engage it?",
+     "color": "#FFD23F",
+     "t": 0.4,
+     "at": [
+      14.88726,
+      50.11341
+     ]
+    },
+    {
+     "text": "Not publicly established",
+     "color": "#FFFFFF",
+     "t": 3.58,
+     "at": [
+      14.88726,
+      49.38084
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      24.4,
+      44.1
+     ],
+     "label": "Deveselu, Romania",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-limited",
+   "type": "region",
+   "start": 483.41,
+   "end": 489.452,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     20.0,
+     49.0
+    ],
+    "widthKm": 3600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      20.0,
+      49.0
+     ],
+     "widthKm": 3600
+    },
+    {
+     "t": 6.04,
+     "center": [
+      20.0,
+      52.0
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "labels": [
+    {
+     "text": "Built against a limited threat",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      6.44439,
+      54.70792
+     ]
+    },
+    {
+     "text": "Not a Russian barrage",
+     "color": "#FFD23F",
+     "t": 4.3,
+     "at": [
+      6.44439,
+      53.36488
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      17.1,
+      54.48
+     ],
+     "label": "Redzikowo",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      24.4,
+      44.1
+     ],
+     "label": "Deveselu",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-min8b",
+   "type": "region",
+   "start": 489.452,
+   "end": 494.13,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     12.0,
+     50.5
+    ],
+    "widthKm": 2000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      12.0,
+      50.5
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 4.68,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 700
+    }
+   ],
+   "labels": [
+    {
+     "text": "What happens at minute eight",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      6.28033,
+      52.83506
+     ]
+    }
+   ],
+   "clock": "T+07:50",
+   "clockLabel": "AFTER LAUNCH",
+   "clockRate": 1,
+   "highlight": [
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "label": "Ramstein",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c5-card",
+   "type": "chapter",
+   "start": 494.13,
+   "end": 497.63,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 05",
+   "title": "One warhead, ring by ring"
+  },
+  {
+   "id": "c5-approach",
+   "type": "region",
+   "start": 497.63,
+   "end": 499.049,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     14.0,
+     51.0
+    ],
+    "widthKm": 1200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      14.0,
+      51.0
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 1.42,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 320
+    }
+   ],
+   "labels": [
+    {
+     "text": "Minute eight point two",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "at": [
+      10.74546,
+      52.31455
+     ]
+    }
+   ],
+   "clock": "T+08:00",
+   "clockLabel": "AFTER LAUNCH",
+   "clockRate": 1,
+   "highlight": [
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       14.0,
+       51.0
+      ],
+      [
+       7.6,
+       49.437
+      ]
+     ],
+     "t0": 0.05,
+     "t1": 1.42,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 2.4,
+     "t": 0.05,
+     "wake": true
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "label": "Ramstein Air Base",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c5-flash",
+   "type": "city",
+   "start": 499.049,
+   "end": 502.739,
+   "tag": "SIMULATION",
+   "city": "ramstein",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 8.0
+   },
+   "gz": [
+    7.6,
+    49.437
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 8.0
+    },
+    {
+     "t": 3.69,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 5.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.291,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 1.2,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "text": "50 kt airburst over the base",
+     "color": "#FF3B3B",
+     "t": 0.4,
+     "at": [
+      7.57306,
+      49.44824
+     ]
+    }
+   ],
+   "flashT": 0.1,
+   "clock": "T+08:12",
+   "clockLabel": "IMPACT",
+   "clockRate": 1
+  },
+  {
+   "id": "c5-fire",
+   "type": "city",
+   "start": 502.739,
+   "end": 511.403,
+   "tag": "SIMULATION",
+   "city": "ramstein",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 4.0
+   },
+   "gz": [
+    7.6,
+    49.437
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 4.0
+    },
+    {
+     "t": 8.66,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 3.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.291,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "angle": 215
+    }
+   ],
+   "labels": [
+    {
+     "text": "Fireball radius: 290 m",
+     "color": "#FFD23F",
+     "t": 3.31,
+     "at": [
+      7.5855,
+      49.44305
+     ]
+    }
+   ],
+   "clock": "T+08:12",
+   "clockLabel": "IMPACT",
+   "clockRate": 1
+  },
+  {
+   "id": "c5-20",
+   "type": "city",
+   "start": 511.403,
+   "end": 522.699,
+   "tag": "SIMULATION",
+   "city": "ramstein",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 5.0
+   },
+   "gz": [
+    7.6,
+    49.437
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 5.0
+    },
+    {
+     "t": 4.37,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 4.42
+    },
+    {
+     "t": 11.3,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 3.5
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.291,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 215
+    },
+    {
+     "km": 0.508,
+     "label": "20 psi",
+     "color": "#FF3B3B",
+     "t": 0.4,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "text": "510 m: 20 psi",
+     "color": "#FF3B3B",
+     "t": 0.45,
+     "at": [
+      7.58239,
+      49.44435
+     ]
+    },
+    {
+     "text": "Most severe blast damage",
+     "color": "#FFD23F",
+     "t": 8.29,
+     "at": [
+      7.58239,
+      49.44262
+     ]
+    }
+   ],
+   "clock": "T+08:12",
+   "clockLabel": "IMPACT",
+   "clockRate": 1
+  },
+  {
+   "id": "c5-5",
+   "type": "city",
+   "start": 522.699,
+   "end": 527.99,
+   "tag": "SIMULATION",
+   "city": "ramstein",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 10.0
+   },
+   "gz": [
+    7.6,
+    49.437
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 10.0
+    },
+    {
+     "t": 5.29,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 7.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.291,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 215
+    },
+    {
+     "km": 0.508,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 240
+    },
+    {
+     "km": 2.495,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.5,
+     "angle": 265
+    }
+   ],
+   "labels": [
+    {
+     "text": "2.5 km: 5 psi",
+     "color": "#FF3B3B",
+     "t": 0.25,
+     "at": [
+      7.56477,
+      49.4517
+     ]
+    },
+    {
+     "text": "Heavy damage to ordinary buildings",
+     "color": "#FFD23F",
+     "t": 4.45,
+     "at": [
+      7.56477,
+      49.44824
+     ]
+    }
+   ],
+   "clock": "T+08:12",
+   "clockLabel": "IMPACT",
+   "clockRate": 1
+  },
+  {
+   "id": "c5-5b",
+   "type": "city",
+   "start": 527.99,
+   "end": 533.156,
+   "tag": "SIMULATION",
+   "city": "ramstein",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 7.0
+   },
+   "gz": [
+    7.6,
+    49.437
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 7.0
+    },
+    {
+     "t": 5.17,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 9.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.291,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 215
+    },
+    {
+     "km": 0.508,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 240
+    },
+    {
+     "km": 2.495,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 265
+    }
+   ],
+   "labels": [
+    {
+     "text": "About 20 square km",
+     "color": "#FFD23F",
+     "t": 2.66,
+     "at": [
+      7.56685,
+      49.45084
+     ]
+    }
+   ],
+   "clock": "T+08:12",
+   "clockLabel": "IMPACT",
+   "clockRate": 1
+  },
+  {
+   "id": "c5-burn",
+   "type": "city",
+   "start": 533.156,
+   "end": 540.476,
+   "tag": "SIMULATION",
+   "city": "ramstein",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 11.0
+   },
+   "gz": [
+    7.6,
+    49.437
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 11.0
+    },
+    {
+     "t": 7.32,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 13.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 2.495,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 215
+    },
+    {
+     "km": 3.129,
+     "label": "Burns",
+     "color": "#FF7A1A",
+     "t": 0.4,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "text": "3 km: third-degree burns",
+     "color": "#FF7A1A",
+     "t": 0.57,
+     "at": [
+      7.55027,
+      49.45776
+     ]
+    },
+    {
+     "text": "From the flash alone",
+     "color": "#FFFFFF",
+     "t": 2.33,
+     "at": [
+      7.55027,
+      49.45287
+     ]
+    }
+   ],
+   "clock": "T+08:12",
+   "clockLabel": "IMPACT",
+   "clockRate": 1
+  },
+  {
+   "id": "c5-win",
+   "type": "city",
+   "start": 540.476,
+   "end": 548.132,
+   "tag": "SIMULATION",
+   "city": "ramstein",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 18.0
+   },
+   "gz": [
+    7.6,
+    49.437
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 18.0
+    },
+    {
+     "t": 3.31,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 19.728
+    },
+    {
+     "t": 7.66,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 22.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 2.495,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 215
+    },
+    {
+     "km": 3.129,
+     "label": "",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 240
+    },
+    {
+     "km": 6.752,
+     "label": "1 psi",
+     "color": "#FFFFFF",
+     "t": 0.4,
+     "angle": 265
+    }
+   ],
+   "labels": [
+    {
+     "text": "6.75 km: 1 psi",
+     "color": "#FFFFFF",
+     "t": 0.61,
+     "at": [
+      7.51712,
+      49.47159
+     ]
+    },
+    {
+     "text": "Windows break",
+     "color": "#FFD23F",
+     "t": 6.02,
+     "at": [
+      7.51712,
+      49.46345
+     ]
+    }
+   ],
+   "clock": "T+08:12",
+   "clockLabel": "IMPACT",
+   "clockRate": 1
+  },
+  {
+   "id": "c5-towns",
+   "type": "city",
+   "start": 548.132,
+   "end": 552.677,
+   "tag": "SIMULATION",
+   "city": "ramstein",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 22.0
+   },
+   "gz": [
+    7.6,
+    49.437
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 22.0
+    },
+    {
+     "t": 4.55,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 28.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 2.495,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 215
+    },
+    {
+     "km": 3.129,
+     "label": "",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 240
+    },
+    {
+     "km": 6.752,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 265
+    }
+   ],
+   "labels": [
+    {
+     "text": "The base and the towns",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "at": [
+      7.49639,
+      49.48024
+     ]
+    },
+    {
+     "text": "lie inside these rings",
+     "color": "#FFD23F",
+     "t": 2.36,
+     "at": [
+      7.49639,
+      49.47007
+     ]
+    }
+   ],
+   "clock": "T+08:12",
+   "clockLabel": "IMPACT",
+   "clockRate": 1
+  },
+  {
+   "id": "c5-nocas",
+   "type": "city",
+   "start": 552.677,
+   "end": 558.859,
+   "tag": "SIMULATION",
+   "city": "ramstein",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 28.0
+   },
+   "gz": [
+    7.6,
+    49.437
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 28.0
+    },
+    {
+     "t": 6.18,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 40.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 6.752,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 215
+    },
+    {
+     "km": 3.129,
+     "label": "",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 240
+    }
+   ],
+   "labels": [
+    {
+     "text": "No casualty figure",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      7.4591,
+      49.49581
+     ]
+    },
+    {
+     "text": "No published study models this strike",
+     "color": "#FFFFFF",
+     "t": 2.49,
+     "at": [
+      7.4591,
+      49.48197
+     ]
+    }
+   ],
+   "clock": "T+08:12",
+   "clockLabel": "IMPACT",
+   "clockRate": 1
+  },
+  {
+   "id": "c6-card",
+   "type": "chapter",
+   "start": 558.859,
+   "end": 562.36,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 06",
+   "title": "The day after"
+  },
+  {
+   "id": "c6-question",
+   "type": "region",
+   "start": 562.36,
+   "end": 564.107,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     14.0,
+     51.0
+    ],
+    "widthKm": 3800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      14.0,
+      51.0
+     ],
+     "widthKm": 3800
+    },
+    {
+     "t": 1.75,
+     "center": [
+      20.0,
+      52.0
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "labels": [
+    {
+     "text": "The rings are the visible damage",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "at": [
+      -0.55979,
+      56.88089
+     ]
+    },
+    {
+     "text": "The question was the minutes",
+     "color": "#FFD23F",
+     "t": 0.45,
+     "at": [
+      -0.55979,
+      55.49715
+     ]
+    }
+   ],
+   "clock": "03:18",
+   "clockLabel": "BERLIN TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       31.72,
+       53.71
+      ],
+      [
+       7.6,
+       49.437
+      ]
+     ],
+     "t0": 0.05,
+     "t1": 1.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 2.4,
+     "t": 0.05,
+     "wake": true
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "label": "Ramstein",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c6-rings",
+   "type": "city",
+   "start": 564.107,
+   "end": 568.23,
+   "tag": "SIMULATION",
+   "city": "ramstein",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 26.0
+   },
+   "gz": [
+    7.6,
+    49.437
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 26.0
+    },
+    {
+     "t": 4.12,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 18.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.291,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 215
+    },
+    {
+     "km": 0.508,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 240
+    },
+    {
+     "km": 2.495,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 265
+    },
+    {
+     "km": 3.129,
+     "label": "",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 290
+    },
+    {
+     "km": 6.752,
+     "label": "1 psi",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "angle": 315
+    }
+   ],
+   "labels": [
+    {
+     "text": "The rings stay marked",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "at": [
+      7.50883,
+      49.47505
+     ]
+    }
+   ],
+   "clock": "DAY AFTER",
+   "clockLabel": "BERLIN",
+   "clockRate": 0
+  },
+  {
+   "id": "c6-nofall",
+   "type": "region",
+   "start": 568.23,
+   "end": 580.051,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     7.6,
+     49.437
+    ],
+    "widthKm": 220
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      7.6,
+      49.437
+     ],
+     "widthKm": 220
+    },
+    {
+     "t": 11.82,
+     "center": [
+      10.0,
+      50.5
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Air burst: little local fallout",
+     "color": "#FFD23F",
+     "t": 4.14,
+     "at": [
+      4.03595,
+      50.92452
+     ]
+    },
+    {
+     "text": "No plume drawn",
+     "color": "#FFFFFF",
+     "t": 5.76,
+     "at": [
+      4.03595,
+      50.57451
+     ]
+    },
+    {
+     "text": "We chose no wind",
+     "color": "#FFFFFF",
+     "t": 8.8,
+     "at": [
+      4.03595,
+      50.22451
+     ]
+    }
+   ],
+   "clock": "DAY AFTER",
+   "clockLabel": "BERLIN",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "km": 6.752,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "km": 2.495,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "label": "Ramstein",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c6-capitals+london",
+   "type": "region",
+   "start": 580.051,
+   "end": 588.634,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     16.0,
+     52.0
+    ],
+    "widthKm": 3600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      16.0,
+      52.0
+     ],
+     "widthKm": 3600
+    },
+    {
+     "t": 6.3,
+     "center": [
+      20.0,
+      52.5
+     ],
+     "widthKm": 2800
+    },
+    {
+     "t": 6.99,
+     "center": [
+      10.0,
+      52.0
+     ],
+     "widthKm": 4800
+    },
+    {
+     "t": 8.58,
+     "center": [
+      4.0,
+      51.5
+     ],
+     "widthKm": 3600
+    }
+   ],
+   "labels": [
+    {
+     "text": "Across Europe: the same rings",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      1.99265,
+      57.53496
+     ],
+     "until": 6.5
+    },
+    {
+     "text": "About 9 minutes for London",
+     "color": "#FFD23F",
+     "t": 7.44,
+     "at": [
+      -8.38465,
+      59.26463
+     ]
+    }
+   ],
+   "clock": "DAY AFTER",
+   "clockLabel": "BERLIN",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      25.28,
+      54.687
+     ],
+     "label": "Vilnius: 6 min",
+     "kind": "dot",
+     "t": 5.3,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      21.012,
+      52.23
+     ],
+     "label": "Warsaw: 6 min",
+     "kind": "dot",
+     "t": 5.9,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      -0.128,
+      51.507
+     ],
+     "label": "London: 9 min",
+     "kind": "dot",
+     "t": 7.44,
+     "color": "#6EA8FF"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      25.28,
+      54.687
+     ],
+     "km": 60,
+     "label": "",
+     "color": "#6EA8FF",
+     "t": 5.3,
+     "dashed": true
+    },
+    {
+     "at": [
+      21.012,
+      52.23
+     ],
+     "km": 60,
+     "label": "",
+     "color": "#6EA8FF",
+     "t": 5.9,
+     "dashed": true
+    },
+    {
+     "at": [
+      -0.128,
+      51.507
+     ],
+     "km": 60,
+     "label": "",
+     "color": "#6EA8FF",
+     "t": 7.44,
+     "dashed": true
+    }
+   ]
+  },
+  {
+   "id": "c6-knows",
+   "type": "region",
+   "start": 588.634,
+   "end": 595.324,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     24.0,
+     53.0
+    ],
+    "widthKm": 4200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24.0,
+      53.0
+     ],
+     "widthKm": 4200
+    },
+    {
+     "t": 6.69,
+     "center": [
+      31.72,
+      53.71
+     ],
+     "widthKm": 900
+    }
+   ],
+   "labels": [
+    {
+     "text": "Every government now knows",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      12.58108,
+      57.41067
+     ]
+    },
+    {
+     "text": "what a launch from that forest means",
+     "color": "#FFD23F",
+     "t": 2.76,
+     "at": [
+      12.58108,
+      56.37286
+     ]
+    }
+   ],
+   "clock": "DAY AFTER",
+   "clockLabel": "BERLIN",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch (simulated)",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c6-minutes+days",
+   "type": "region",
+   "start": 595.324,
+   "end": 601.11,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     12.0,
+     51.0
+    ],
+    "widthKm": 2800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      12.0,
+      51.0
+     ],
+     "widthKm": 2800
+    },
+    {
+     "t": 3.69,
+     "center": [
+      10.0,
+      50.0
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 4.32,
+     "center": [
+      10.0,
+      50.0
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 5.79,
+     "center": [
+      14.0,
+      51.0
+     ],
+     "widthKm": 3200
+    }
+   ],
+   "labels": [
+    {
+     "text": "Minutes to see the missile",
+     "color": "#FFD23F",
+     "t": 0.3,
+     "at": [
+      1.7225,
+      55.15122
+     ],
+     "until": 3.89
+    },
+    {
+     "text": "Then days to decide",
+     "color": "#FFFFFF",
+     "t": 3.89,
+     "at": [
+      -0.90069,
+      54.49715
+     ]
+    }
+   ],
+   "clock": "DAY AFTER",
+   "clockLabel": "BERLIN",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "label": "Ramstein",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c6-lviv",
+   "type": "region",
+   "start": 601.11,
+   "end": 612.5,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     14.0,
+     50.5
+    ],
+    "widthKm": 3800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      14.0,
+      50.5
+     ],
+     "widthKm": 3800
+    },
+    {
+     "t": 5.69,
+     "center": [
+      19.2454,
+      50.2003
+     ],
+     "widthKm": 2351.273
+    },
+    {
+     "t": 11.39,
+     "center": [
+      24.5,
+      49.9
+     ],
+     "widthKm": 900
+    }
+   ],
+   "labels": [
+    {
+     "text": "The only reaction on record",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      4.04353,
+      54.56473
+     ]
+    },
+    {
+     "text": "Lviv strike: escalatory",
+     "color": "#FFD23F",
+     "t": 2.6,
+     "at": [
+      4.04353,
+      53.60833
+     ]
+    },
+    {
+     "text": "A conventional strike on Ukraine",
+     "color": "#FFFFFF",
+     "t": 8.78,
+     "at": [
+      4.04353,
+      52.65192
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "250",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      24.03,
+      49.84
+     ],
+     "label": "Lviv",
+     "kind": "dot",
+     "t": 2.6,
+     "color": "#3ED6C8"
+    }
+   ]
+  },
+  {
+   "id": "c6-umbrella",
+   "type": "region",
+   "start": 612.5,
+   "end": 616.51,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     28.0,
+     53.5
+    ],
+    "widthKm": 1800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      28.0,
+      53.5
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 4.01,
+     "center": [
+      27.0,
+      53.5
+     ],
+     "widthKm": 1300
+    }
+   ],
+   "labels": [
+    {
+     "text": "Belarus: under Russia's umbrella",
+     "color": "#F2B01E",
+     "t": 0.3,
+     "at": [
+      20.97749,
+      56.18099
+     ]
+    }
+   ],
+   "clock": "DAY AFTER",
+   "clockLabel": "BERLIN",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "112",
+     "text": "BELARUS",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      27.56,
+      53.9
+     ],
+     "label": "Minsk",
+     "kind": "dot",
+     "t": 0.5,
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c6-dozens",
+   "type": "region",
+   "start": 616.51,
+   "end": 623.13,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     28.0,
+     53.5
+    ],
+    "widthKm": 1300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      28.0,
+      53.5
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 3.66,
+     "center": [
+      29.1057,
+      53.6106
+     ],
+     "widthKm": 1134.139
+    },
+    {
+     "t": 6.62,
+     "center": [
+      30.0,
+      53.7
+     ],
+     "widthKm": 1000
+    }
+   ],
+   "labels": [
+    {
+     "text": "Several dozen tactical weapons",
+     "color": "#FFD23F",
+     "t": 0.3,
+     "at": [
+      22.78975,
+      55.48912
+     ]
+    },
+    {
+     "text": "By Lukashenko's account",
+     "color": "#FFFFFF",
+     "t": 0.7,
+     "at": [
+      22.78975,
+      55.0211
+     ]
+    }
+   ],
+   "clock": "DAY AFTER",
+   "clockLabel": "BERLIN",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    }
+   ]
+  },
+  {
+   "id": "c6-signal",
+   "type": "region",
+   "start": 623.13,
+   "end": 631.58,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     30.0,
+     53.7
+    ],
+    "widthKm": 1000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      30.0,
+      53.7
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 8.45,
+     "center": [
+      24.0,
+      52.5
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "labels": [
+    {
+     "text": "A launch from there",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      20.8957,
+      57.15935
+     ]
+    },
+    {
+     "text": "reads as nuclear first",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "at": [
+      20.8957,
+      56.34538
+     ]
+    },
+    {
+     "text": "Conventional, only afterward",
+     "color": "#FFD23F",
+     "t": 5.58,
+     "at": [
+      20.8957,
+      55.53142
+     ]
+    }
+   ],
+   "clock": "DAY AFTER",
+   "clockLabel": "BERLIN",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch (simulated)",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c6-web",
+   "type": "region",
+   "start": 631.58,
+   "end": 636.11,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     20.0,
+     52.0
+    ],
+    "widthKm": 4500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      20.0,
+      52.0
+     ],
+     "widthKm": 4500
+    },
+    {
+     "t": 4.53,
+     "center": [
+      26.0,
+      53.0
+     ],
+     "widthKm": 3200
+    }
+   ],
+   "labels": [
+    {
+     "text": "The web for a warning is thin",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      3.1474,
+      58.65924
+     ]
+    }
+   ],
+   "clock": "DAY AFTER",
+   "clockLabel": "BERLIN",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c6-notreaty",
+   "type": "region",
+   "start": 636.11,
+   "end": 644.445,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     26.0,
+     53.0
+    ],
+    "widthKm": 3200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      26.0,
+      53.0
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 2.99,
+     "center": [
+      23.8489,
+      52.6415
+     ],
+     "widthKm": 3415.108
+    },
+    {
+     "t": 8.34,
+     "center": [
+      20.0,
+      52.0
+     ],
+     "widthKm": 3800
+    }
+   ],
+   "labels": [
+    {
+     "text": "No INF Treaty. No New START.",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "at": [
+      10.32697,
+      59.05386
+     ]
+    },
+    {
+     "text": "No launch notice from Belarus",
+     "color": "#FF3B3B",
+     "t": 5.88,
+     "at": [
+      10.32697,
+      57.62942
+     ]
+    }
+   ],
+   "clock": "DAY AFTER",
+   "clockLabel": "BERLIN",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c6-final",
+   "type": "region",
+   "start": 644.445,
+   "end": 651.475,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     22.0,
+     52.5
+    ],
+    "widthKm": 3200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      22.0,
+      52.5
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 7.03,
+     "center": [
+      14.0,
+      52.0
+     ],
+     "widthKm": 4400
+    }
+   ],
+   "labels": [
+    {
+     "text": "Distances from a simulated launch point",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      5.17773,
+      59.07276
+     ]
+    },
+    {
+     "text": "The minutes are only a model",
+     "color": "#FFFFFF",
+     "t": 4.54,
+     "at": [
+      5.17773,
+      57.52623
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      25.28,
+      54.687
+     ],
+     "label": "Vilnius 6.0",
+     "kind": "dot",
+     "t": 0.5,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      21.012,
+      52.23
+     ],
+     "label": "Warsaw 6.0",
+     "kind": "dot",
+     "t": 0.9,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      13.405,
+      52.52
+     ],
+     "label": "Berlin 6.7",
+     "kind": "dot",
+     "t": 1.3,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      7.6,
+      49.437
+     ],
+     "label": "Ramstein 8.2",
+     "kind": "target",
+     "t": 1.7,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      4.352,
+      50.85
+     ],
+     "label": "Brussels 8.6",
+     "kind": "dot",
+     "t": 2.1,
+     "color": "#6EA8FF"
+    },
+    {
+     "at": [
+      31.72,
+      53.71
+     ],
+     "label": "Launch (simulated)",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      25.28,
+      54.687
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 0.5,
+     "t1": 2.5
+    },
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      21.012,
+      52.23
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 0.9,
+     "t1": 2.9
+    },
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      13.405,
+      52.52
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 1.3,
+     "t1": 3.3
+    },
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      7.6,
+      49.437
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 1.7,
+     "t1": 3.7
+    },
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      4.352,
+      50.85
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 2.1,
+     "t1": 4.1
+    }
+   ]
+  },
+  {
+   "id": "endslate",
+   "type": "endslate",
+   "start": 651.475,
+   "end": 666.52,
+   "tag": "",
+   "title": "The nuclear bombs America lost",
+   "line": "Next on the map: the nuclear weapons America lost and never found.",
+   "transition": "dip"
+  }
+ ]
+}
