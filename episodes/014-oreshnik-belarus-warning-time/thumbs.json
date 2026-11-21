@@ -1,0 +1,105 @@
+[
+ {
+  "id": "a",
+  "variant": "image",
+  "concept": "launch",
+  "palette": "fire-night",
+  "line1": "8 MINUTES",
+  "line2": "NO NOTICE",
+  "tag": "",
+  "align": "left",
+  "image_prompt": "Bright high-key photo of a road-mobile eight-wheel missile launcher truck in a misty birch and pine forest clearing, its long missile raised on the launcher and roaring skyward on a huge blinding orange and white rocket plume that lights the whole forest and billows of smoke, glowing orange and yellow flame against a deep saturated blue pre-dawn sky, very high saturation and brightness, no dark areas. The launcher and plume fill the right two thirds of the frame; the left third is plain clear blue-violet sky for text. No people, no faces, no text.",
+  "image": "thumbs/014-a.jpg"
+ },
+ {
+  "id": "b",
+  "variant": "map",
+  "concept": "map",
+  "palette": "map",
+  "line1": "6 TO 9",
+  "line2": "MINUTES",
+  "tag": "",
+  "align": "left",
+  "region": {
+   "theme": "bright",
+   "t": 30,
+   "view": {
+    "center": [
+     19.0,
+     52.2
+    ],
+    "widthKm": 2600
+   },
+   "lines": [
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      25.28,
+      54.687
+     ],
+     "color": "#E01E1E",
+     "t0": 0,
+     "t1": 1,
+     "width": 9
+    },
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      21.01,
+      52.23
+     ],
+     "color": "#E01E1E",
+     "t0": 0,
+     "t1": 1,
+     "width": 9
+    },
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      13.4,
+      52.52
+     ],
+     "color": "#E01E1E",
+     "t0": 0,
+     "t1": 1,
+     "width": 9
+    },
+    {
+     "from": [
+      31.72,
+      53.71
+     ],
+     "to": [
+      4.35,
+      50.85
+     ],
+     "color": "#E01E1E",
+     "t0": 0,
+     "t1": 1,
+     "width": 9
+    }
+   ]
+  }
+ },
+ {
+  "id": "c",
+  "variant": "image",
+  "concept": "control-room",
+  "palette": "red-alert",
+  "line1": "NO WAY",
+  "line2": "TO TELL",
+  "tag": "NUKE OR NOT",
+  "align": "left",
+  "image_prompt": "Bright high-key photo of a European military command centre, a gigantic wall screen glowing bright saturated red, amber and white that floods the whole room with light, showing abstract glowing arcs and a pulsing red warning panel but no continents and no maps, bright glowing consoles, empty chairs in the foreground, very saturated and luminous, no dark areas. The screen fills the right two thirds; the left third is a clear softly lit pale-red wall. No people, no faces, no text.",
+  "image": "thumbs/014-c.jpg"
+ }
+]
