@@ -25,5 +25,11 @@
   "publish_at": "2026-11-21T00:00:00Z",
   "url": "https://youtu.be/3VH3JSj7wNM",
   "uploaded_at": "2026-11-19T06:17:10+00:00",
-  "upload_warnings": []
+  "upload_warnings": [],
+  "social": {
+    "facebook_video": {
+      "id": "1409388877934011",
+      "url": "https://www.facebook.com/1471290062729036/videos/1409388877934011"
+    }
+  }
 }
