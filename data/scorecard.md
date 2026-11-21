@@ -1,4 +1,4 @@
-# Scorecard (2026-11-20, latest snapshot 2026-11-20)
+# Scorecard (2026-11-21, latest snapshot 2026-11-21)
 
 Built by `python -m studio scorecard` from data/analytics/. Targets judged on the median of episodes 004 onward; earlier episodes are the baseline. Small samples: read as tests, not proof.
 
@@ -12,8 +12,8 @@ Subscribers: 14 (target 50 by 2026-12-10)
 | C2 Hold at 11% | 7d | 60.0% | - | 0 | - |
 | C3 Avg % viewed | 7d | 40% | 33% | 3 | no |
 | C4 Long views | 7d | 150 | 27 | 3 | no |
-| C5a Shorts views | 7d | 300 | 67.0 | 8 | no |
-| C5b Shorts avg % viewed | 7d | 80% | 63% | 8 | no |
+| C5a Shorts views | 7d | 300 | 77 | 9 | no |
+| C5b Shorts avg % viewed | 7d | 80% | 64% | 9 | no |
 | C1 Long CTR | 28d | 5.0% | - | 0 | - |
 | C2 Hold at 11% | 28d | 60.0% | - | 0 | - |
 | C3 Avg % viewed | 28d | 40% | - | 0 | - |
@@ -88,7 +88,7 @@ Subscribers: 14 (target 50 by 2026-12-10)
 | 006 | huHH9VFS5aI | 28 | due 2026-12-11 | - | - | - |
 | 006 | K67FRJT0Za4 | 7 | measured | 77 | 75% | 24 |
 | 006 | K67FRJT0Za4 | 28 | due 2026-12-11 | - | - | - |
-| 006 | rVHj7z8O65Q | 7 | due 2026-11-21 | - | - | - |
+| 006 | rVHj7z8O65Q | 7 | measured | 421 | 119% | 56 |
 | 006 | rVHj7z8O65Q | 28 | due 2026-12-12 | - | - | - |
 | 008 | IiMf6VMQD6M | 7 | due 2026-11-24 | - | - | - |
 | 008 | IiMf6VMQD6M | 28 | due 2026-12-15 | - | - | - |

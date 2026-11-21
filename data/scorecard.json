@@ -1,6 +1,6 @@
 {
-  "built": "2026-11-20",
-  "latest_snapshot": "2026-11-20",
+  "built": "2026-11-21",
+  "latest_snapshot": "2026-11-21",
   "subscribers": 14,
   "subs_target": [
     50,
@@ -38,15 +38,15 @@
     "C5a@7d": {
       "label": "Shorts views",
       "target": 300,
-      "median": 67.0,
-      "n": 8,
+      "median": 77,
+      "n": 9,
       "met": false
     },
     "C5b@7d": {
       "label": "Shorts avg % viewed",
       "target": 80.0,
-      "median": 63.42,
-      "n": 8,
+      "median": 64.26,
+      "n": 9,
       "met": false
     },
     "C1@28d": {
@@ -815,8 +815,15 @@
       "publish_at": "2026-11-14T00:00:00Z",
       "horizon": 7,
       "due": "2026-11-21",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-21",
+      "status": "measured",
+      "views": 421,
+      "avp": 118.67000000000002,
+      "avd": 56,
+      "hold": null,
+      "subs": 0,
+      "ctr": 0.0345,
+      "impressions": 87
     },
     {
       "episode": "006-iran-tests-bomb-israel-answers",
