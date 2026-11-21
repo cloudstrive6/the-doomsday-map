@@ -54,17 +54,43 @@ Compiled 2026-11-21. Every claim the script uses is listed with its sources. Two
 
 ## C. Simulation assumptions (SIMULATION tag, stated as assumptions in the script)
 
-To be written by the scenario designer. The researcher's suggestions follow; they are suggestions only, not decisions, and none of them is a prediction.
+Decided by the scenario designer 2026-11-21. Every number below comes from `scenario.computed.json` (run `python -m studio scenario 014-oreshnik-belarus-warning-time`). This is a scenario, not a prediction. It has not happened. Russia has never fired an Oreshnik at a NATO country or from Belarus (D).
 
-- SUGGESTION, no calendar date: run the crisis on day numbers and a clock (as 002 did), because 2026-11-21, 2026-12-17 and 2026-12-30 are real anniversaries and talks are live (framing check).
-- SUGGESTION, launch point: the Krichev-6 area (about 53.7 N, 31.7 E), labelled "simulated launch site, near the reported Oreshnik base" (A12). State that Russia has not named the base.
-- SUGGESTION, warning-time map: show flight times from the engine to Vilnius (about 430 km), Warsaw (735), Berlin (1,225), Brussels (1,880) and London (2,145) (A16 cross-check), and put Russian state media's 11 and 17 minutes (A15) on screen as a claim to compare against the engine, not as the answer. The engine must state its trajectory assumption (lofted ballistic, not boost-glide; Oreshnik's one measured flight was about 15 minutes over about 800 km, A2). Say clearly the flight times are model outputs, and that the real ones depend on trajectory and are not public.
-- SUGGESTION, hero strike: one Oreshnik-class missile on one European capital or city, chosen for visual and map value (Vilnius is the nearest capital, Berlin the biggest in range of the short-warning story; Brussels matches the 17-minute claim). Avoid naming a real military unit or person.
-- SUGGESTION, warhead is a labelled simulation choice, shown once as two options: (a) the conventional kinetic variant, as used in Ukraine, which has no published blast yield (A4), so the engine should treat it as conventional, giving no nuclear rings, and the script must not invent a damage radius; (b) a nuclear-armed variant, which Russia says exists (A1) but has never shown. If the designer picks (b), the yield is the designer's choice with no public source for Oreshnik itself; for scale, the Pershing II warhead was selectable 5 to 80 kt (B2). The episode needs rings from the engine for the hook (the flash on a capital), so (b) is the likely choice for the hero strike, with (a) explained as the alternative the defender cannot distinguish from it (A17).
-- SUGGESTION, the central question: the defender sees a ballistic launch but cannot tell conventional from nuclear (A17), has no treaty notification from Belarus (A18), and has minutes (engine). Show who can do what in that window: warning to the government, shelters, and the open question of defence (A19, say "unproven").
-- SUGGESTION, honesty lines, once each: "Russia has never fired an Oreshnik at a NATO country"; "the base is reported, not confirmed"; "Belarus is not known to control launches" (A13).
-- SUGGESTION, the day after (at most 20 percent of the words, one map change per paragraph): a short-warning Europe, such as more dispersed launch drills, alert times shown as shrinking rings, and the INF-type arms-control gap (A22, A23). Do not end on the 1980s history; end on the simulation aftermath. Pershing II (B2) belongs in the history chapter only.
-- SUGGESTION, no death toll for the simulated strike unless a published study supplies it (A28: none found).
+**Clock.** No calendar date in the script: "day nine, ten past three in the morning, Berlin time". The file carries `t0_utc` 2026-12-04T01:10:00Z only to set the night lighting (sun far from Europe, so the target is dark); it is never spoken or shown.
+
+**Escalation logic (why a launch at all).** The chain is built from the real gaps, not from a forecast. The INF Treaty is gone (B3), Russia ended its own moratorium on 2025-08-04 (A22, B4), New START expired 2026-02-05 (A23, B10), and the missile is already deployed in Belarus with launch authority held in Moscow (A10, A13). In the simulation a Russia-NATO crisis over the Baltic runs for eight days (no detail needed beyond "a crisis"), and on day nine Moscow fires one missile as a nuclear demonstration against a NATO base in Germany, to show it can reach the rear area without crossing into the alliance's capitals. This is the designer's choice. It has no source and the script must say so ("we chose").
+
+**Launch point.** Simulated launch site near the reported base in eastern Belarus (about 53.71 N, 31.72 E; A12), labelled "(location simulated)". Say the base is reported, not confirmed, and that the units drive out on patrol routes (A12). Belarus is not known to control launches (A13).
+
+**Strike groups (6 rows in scenario.json).**
+1. `hero-ramstein`: ONE nuclear-armed Oreshnik-class missile, one warhead, 50 kt air burst, on Ramstein Air Base, Germany (49.437 N, 7.600 E). Weapon class irbm. The yield is the designer's choice: Oreshnik has no public nuclear yield (A1, A3); the Pershing II W85 was selectable 5 to 80 kt (B2) and is used only as a scale for "plausible". Russia says a nuclear version exists but has never shown it (A1, A17). The MIRV claims (A3) are NOT used: one warhead.
+2. Five `ref-` rows (Vilnius, Warsaw, Berlin, Brussels, London): conventional, yield 0, flight-time references ONLY for the warning-time map. They are not strikes in the story and must never be narrated as a salvo, and the script must say "if a missile were aimed at" each. The totals line (6 strikes, 1 warhead) counts them as rows; say one missile, one warhead.
+(Conventional kinetic variant: A4 says no explosive and no published blast yield, so no rings and no damage radius may be claimed for it.)
+
+**Engine flight times (the only figures the script may use).** Launch minute 0, class irbm, lofted ballistic assumption (not boost-glide, A6). Engine rule: max(6, 3 + 3.0 x distance in thousand km) minutes.
+
+| Target | Distance (engine) | Flight (engine) |
+|---|---|---|
+| Vilnius | 433 km | 6.0 min (floor) |
+| Warsaw | 735 km | 6.0 min (floor) |
+| Berlin | 1,226 km | 6.7 min |
+| Ramstein (hero) | 1,724 km | 8.2 min |
+| Brussels | 1,877 km | 8.6 min |
+| London | 2,146 km | 9.4 min |
+
+Caveats the script must keep: (a) these are model outputs, the real times depend on trajectory and are not public; (b) the engine is faster than the one measured flight: the Dnipro strike took about 15 minutes over about 800 km (A2, B5), and the engine gives 6 minutes for the same distance. Show that 15-minute data point honestly next to the engine figures ("a flatter, faster path than the one flight we have measured; a lofted path would be longer"), and say Russian state media claims 11 minutes to Poland and 17 to Brussels (A15) as claims only. Present the engine figure as "about six to nine minutes" for the capitals, with the thumbnail number "6 minutes" (Vilnius and Warsaw, the engine floor) or "9" (London). The nearest capitals are at the floor: "six minutes or less" must NOT be said, say "about six".
+
+**Hero target engine numbers: Ramstein Air Base, 50 kt air burst** (`video/public/city/ramstein.json` exists). Fireball radius 0.29 km; 20 psi 0.51 km; 5 psi (heavy blast damage) 2.50 km, area about 19.6 km2; third-degree burns (thermal3) 3.13 km; 1 psi (windows) 6.75 km; fallout: little local fallout because it is an air burst (engine). Impact 8.2 minutes after launch. Ring by ring: fireball, 20 psi, 5 psi, burns, 1 psi, in that order, over the base and its surroundings. The script must not name a casualty figure or a number of people inside any ring; no published study models this strike (A28), and "the base and nearby towns lie inside the rings" is as far as it may go.
+
+**The warning window (the central question).** The defender sees a ballistic launch and cannot tell a nuclear from a conventional warhead before impact (A17, AP). There is no treaty notice from Belarus (A18). The window is the engine's six to nine minutes. What can be done in it, stated as questions, not facts: whether the alert reaches leaders and shelters (not established), whether Aegis Ashore at Redzikowo or Deveselu could engage it ("not publicly established", A19). Do not say "NATO can stop it" or "it cannot be stopped" (D).
+
+**What the script must not claim.** No death toll (A28: no study). No "Mach 10" as fact (A6). No "hypersonic glide" (A6). Not "Belarus decides" (A13). Not a conventional-variant blast radius (A4). Not Russian or social-media flight times as fact (A15, D). Not an actual or upcoming date (anniversaries 2026-12-17 and 2026-12-30 are avoided; the clock is day nine). Not that the single missile is a prediction of a Russian plan.
+
+**Day after (at most 20 percent of the words, one map change per paragraph; only what A and B support).**
+- Fallout: air burst, engine says little local fallout, so no plume is drawn over Germany. Do not state a wind direction (none chosen, no data row); if a plume is wanted, there is none to draw. The honest line: "an air burst lofts little local fallout".
+- Response, as options not predictions: Germany and its allies would have minutes, then days, to decide; the real reactions to the earlier strikes are the only data (A25: Europe called the January 2026 strike "escalatory and unacceptable"). Russia's nuclear umbrella over Belarus (A20, A24) and the hosted tactical weapons (A20) are why a launch from there is read as a nuclear signal.
+- What stops working, kept to rows: the arms-control web (no INF, no New START, A22, A23, B10), so no launch notice from Belarus (A18). Map change: the warning-time rings from the Belarus site shrink to the engine's minutes over the capitals; the final image is the rings on Europe with the minute labels, not a history chapter. Pershing II (B2) belongs only in the history chapter.
+- End on the simulation: the rings over Ramstein and the clock at 8.2 minutes, then the capitals' minutes, the question left open is the warning time itself.
 
 ## D. Figures the script must NOT use
 
