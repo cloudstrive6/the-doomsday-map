@@ -1,16 +1,13 @@
-FAIL
+PASS
 
-Checked: build/validate.txt (reads "ok": no retention: lines, no pace: lines, end slate not flagged), contact.png and 8 stills (f00180, f08880, f30180, f30960, f31440, f32700, f33120, f34800). The end slate and the first-60 s shots other than f00180 were not among the stills, so the slate length rests on validate.txt only.
+Round 2. Checked build/validate.txt (reads "ok": no retention: or pace: lines) and fresh stills at 3 s, 6 s, 150 s, 516 s, 524 s, 536 s, 551 s, 552 s and 660 s.
 
-Passing: f00180 has the SIMULATION banner over a moving map, clear of the SIMULATION tag and BERLIN TIME clock. Corner tags are present and correct in every frame (REAL DATA on f08880, SIMULATION elsewhere). f34800 (DAY AFTER, Ramstein) is clean and the ending is on the simulation aftermath.
+Round 1 findings:
+1. FIXED. 524 s (f31440) and 536 s (f32160): one label per ring ("20 PSI · 0.508 KM", "FIREBALL · 0.291 KM", "BURNS · 3.129 KM", "5 PSI · 2.495 KM"), on opposite sides, no stacking. The 5 PSI label is salmon on a plate and readable at 536 s; at 524 s it is still fading in (dim). Nit: it sits over the road.
+2. FIXED. 516 s (f30960): "20 PSI · 0.508 KM" left of the ring, "FIREBALL · 0.291 KM" right, no duplicate "510 M" label.
+3. FIXED. 551 s (f33060): duplicate 6.75 KM label gone; BURNS upper right, 5 PSI left, 1 PSI lower right, each with its PSI value.
+4. FIXED. 552 s (f33120): one plate "BASE AND TOWNS INSIDE THE RINGS" above the outer ring, clear of the line; every ring label carries PSI.
+5. FIXED. 150 s (f09000, REAL DATA): "NEAR KRICHEV" is white on a plate, clear of the border; BELARUS is named. Nit: Russia is not named, but the shot shows only Belarus at 50 km.
+6. FIXED. 3 s (f00180): "RAMSTEIN AIR BASE" is white on a plate, off the glow; GERMANY label added; banner "SIMULATION · NOT REAL EVENTS" over the moving map, clear of the corner tag and BERLIN TIME clock. Nit: the Ramstein label sits lower left, away from the marker, over the non-German side of the border. The fireball centre is the clear subject. Consider moving it nearer the circle.
 
-Findings (all text-over-text or unreadable label, so FAIL):
-
-1. f31440 (about 516 s, 5 PSI ring): the "5 PSI · 2.495 KM" label at the left is dark red on a dark field and nearly unreadable. Worse, "· 0.291 KM" (white) and "· 0.508 KM" (red) are stacked one directly under the other, touching, on top of the airfield; "2.5 KM: 5 PSI" crosses the ring line. Fix: in the ring-label shot, give each ring one label only (the "N KM: PSI" form, or the "PSI · KM" form, not both), place the 0.291 and 0.508 labels on opposite sides of their rings (anchor angle or offset in the labels field), and raise the plate/colour contrast of the 5 PSI label.
-2. f30960 (about 516 s, 20 PSI city shot): "· 0.291 KM" and "20 PSI · 0.508 KM" sit on adjacent lines over the runway, partly covering the 20 PSI ring edge; "510 M: 20 PSI" at top left duplicates the ring information with a different number format (510 M vs 0.508 KM). Fix: keep one label per ring, move the 0.291 KM label to the right of the inner ring, and use the same unit and rounding for both.
-3. f32700 (about 524 s, 1 PSI view): "· 3.129 KM" (orange) and "· 2.495 KM" (red) are stacked and crowd each other; the 3.129 label is crossed by the road, and "1 PSI · 6.752 KM" duplicates "6.75 KM: 1 PSI". Fix: drop the duplicate label and spread the orange and red labels to different sides (for example orange upper right, red lower left).
-4. f33120 (about 552 s): "THE BASE AND THE TOWNS" / "LIE INSIDE THESE RINGS" is split over two plates and runs across the outer ring line; the "· 6.752 KM", "· 3.129 KM" and "· 2.495 KM" labels again lack the PSI value so the viewer cannot tell what each ring means. Fix: join into one plate placed clear of the ring (outside the outer circle, top left) and restore the PSI text on each ring label.
-5. f08880 (REAL DATA, "NEAR KRICHEV"): the label sits right on the yellow Belarus border outline (the border runs through the "KRICHEV" letters) and is dim amber on a dark olive field, low contrast. Fix: move the marker's label to the left, inside Belarus and clear of the outline, and make it white on a plate like "SATELLITE ANALYSTS". Also, no country is named: the amber shape is unlabeled, so a viewer cannot tell it is Belarus, nor which side Russia and Poland are on. Add countryLabels for BELARUS and RUSSIA (and Poland if in frame).
-6. f00180 (cold open, first frame): the orange "RAMSTEIN" label sits on the fireball glow (orange on orange) and is hard to read; "RAMSTEIN AIR BASE" is red on a grey field and straddles the blue border line. No country is named, so the map does not say this is Germany. Fix: move the "RAMSTEIN" label away from the glow (left or below) with a dark plate, move "RAMSTEIN AIR BASE" off the border, and add a GERMANY country label.
-
-Director notes: the late-arriving items ("LATE" notes) were not visible in these stills and could not be verified. Re-render stills at about 516 s, 524 s, 552 s and the Krichev shot after the fixes, plus a frame from the end slate, and send them back for a second pass.
+Also seen: 0.2 s frame shows Germany and Belarus named, Ramstein marked, ORESHNIK line, T-07:27 clock, tags correct. 660 s end slate: half-empty layout kept, next-scenario title and line present, no overlaps. Ending is on the simulation aftermath.
