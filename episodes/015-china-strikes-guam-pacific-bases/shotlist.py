@@ -231,13 +231,13 @@ def fl_rate(mins, a, b):
 FLASH = 2.2
 CL = [CL_CN]
 reg("open-run", 0, FLASH, [("s", [132.0, 20.0], 4300), ("e", [137.0, 17.5], 3100)],
-    [LB("Andersen Air Force Base, Guam", -0.30, 0.22, 0.12, RED)],
+    [LB("Andersen Air Force Base, Guam", -0.02, -0.26, 0.0, RED)],
     clock="T-13:18", clockLabel="TO IMPACT", clockRate=370, highlight=[HL_CN], countryLabels=CL,
-    ships=[ship([L_N, AND], 0.05, FLASH - 0.05, "DF-26", RED, 2.8)], lines=[line(L_N, AND, 0.05, FLASH - 0.05, RED, True)],
-    cities=[city(AND, "", 0.1, RED, "target", 6), city(L_N, "Launch (simulated)", 0.2, AMBER, "base", 6)])
+    ships=[ship([L_N, AND], 0.0, FLASH - 0.05, "DF-26", RED, 2.8)], lines=[line(L_N, AND, 0.0, FLASH - 0.05, RED, True)],
+    cities=[city(AND, "GUAM", 0.0, RED, "target", 6), city(L_N, "Launch (simulated)", 0.0, AMBER, "base", 6)])
 a = FLASH
-reg("open-burst", a, 5.0, [("s", AND, 330), ("e", AND, 190)],
-    [LB("Andersen Air Force Base", -0.38, -0.22, a + 0.5, WHITE), LB("GUAM", 0.28, 0.22, a + 0.2, BLUE), LB("10 kiloton airburst", -0.38, -0.30, a + 1.2, YELLOW)],
+reg("open-burst", a, 5.0, [("s", AND, 200), ("e", AND, 150)],
+    [LB("10 kiloton airburst", 0.10, 0.06, a + 0.0, YELLOW), LB("Andersen Air Force Base", 0.10, -0.02, a + 0.3, WHITE)],
     clock="01:43", clockLabel="GUAM TIME", clockRate=0, burst={"at": AND, "t": 0.1, "km": 4, "fade": 4},
     rings=[ring(AND, 4, a + 0.7, "", RED)], cities=[city(AND, "", a + 0.5, RED, "target", 6)])
 a = 5.0
@@ -726,7 +726,7 @@ cty("c5-windows", a, tRo, [("s", AND, 11000), ("e", AND, 14000)],
     [LB("Windows break", -0.30, 0.31, a + 0.2, WHITE)], **CK)
 a = tRo
 cty("c5-nine", a, S("p49"), [("s", AND, 14000), ("e", [144.8, 13.52], 34000)],
-    [dict(ring(AND, FX["psi5_km"], 0, "", RED), angle=300), dict(ring(AND, FX["psi1_km"], 0, "1 psi", YELLOW), angle=135)],
+    [dict(ring(AND, FX["psi5_km"], 0, "5 psi", RED), angle=300), dict(ring(AND, FX["psi1_km"], 0, "1 psi", YELLOW), angle=135)],
     [LB("About 49 square km", -0.30, 0.31, a + 0.2, WHITE), LB("About 9% of the island", -0.30, 0.23, W("p48", "nine"), YELLOW)], **CK)
 a = S("p49")
 cty("c5-naval", a, S("p50"), [("s", [144.8, 13.52], 34000), ("e", [144.78, 13.5], 52000)],
@@ -737,9 +737,9 @@ cty("c5-toll", a, S("p51"), [("s", AND, 9000), ("e", AND, 6000)],
     [dict(ring(AND, FX["psi5_km"], 0, "5 psi", RED), angle=300), dict(ring(AND, FX["psi1_km"], 0, "1 psi", YELLOW), angle=135)],
     [LB("No death toll", -0.30, 0.31, a + 0.2, YELLOW), LB("No published study supplies one", -0.30, 0.23, W("p50", "published"), WHITE)], caption="We will not invent a number.", **CK)
 a = S("p51")
-glob("c5-pacific", a, S("p52"), [("s", 13.6, 144.9, 3600), ("e", 20.0, 138.0, 1400)],
-     markers=[{"at": AND, "label": "Andersen: 4 km", "color": RED, "t": 0.2, "kind": "target"}, {"at": KAD, "label": "Kadena", "color": BLUE, "t": 2.2, "kind": "base"}, {"at": YOK, "label": "Yokosuka", "color": BLUE, "t": 3.6, "kind": "base"}],
-     clock="01:43", clockLabel="GUAM TIME", clockRate=0)
+reg("c5-pacific", a, S("p52"), [("s", [133.0, 23.0], 4200), ("e", [131.0, 24.0], 5200)],
+    [LB2("Guam: the 4 km ring", a + 0.2, RED), LB2("Kadena and Yokosuka beyond", a + 2.2, BLUE, 1)], clock="01:43", clockLabel="GUAM TIME", clockRate=0, highlight=[HL_CN, HL_JP], countryLabels=[CL_CN, CL_JP],
+    rings=[ring(AND, 4, a + 0.2, "", RED)], lines=[line(L_N, AND, a + 0.1, a + 2.5, RED, True)], cities=[city(L_N, "Launch area", a + 0.1, AMBER, "base", 6), city(AND, "GUAM", a + 0.2, RED, "target", 6), city(KAD, "Kadena", a + 2.2, BLUE, "base", 6), city(YOK, "Yokosuka", a + 3.6, BLUE, "base", 6)])
 
 # ================================================================== Chapter 06 [SIMULATION] the day after
 a = chapter("c6-card", S("p52"), 3.5, "CHAPTER 06", "The day after", "SIMULATION")
