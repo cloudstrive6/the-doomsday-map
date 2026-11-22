@@ -104,3 +104,24 @@ B. s3 f01680 (28 s) and f01800 (30 s): the window ends at 478.4 on "At about nin
 
 Verdict: FAIL. s1 and s2 pass. s3 fails on B (wrong ending) and A (near-empty frames).
 Can a shorts.json-only change fix it? B yes (end 472.6, start 441.9). A no: it needs one `short` override per shot in shotlist.py (director), and the clock overlap with it. After both, a round 3 check of s3 only (start, middle, end) should pass.
+
+
+## Shorts round 3, s3 only (reviewed 2026-11-22; own stills of s3 at f00000, 60, 150, 190, 250, 366, 450, 600, 750, 900, 1100, 1300, 1500, 1700, 1800, 1840 from a fresh `python -m studio shotlist`; validate.txt `ok`)
+
+FAIL
+
+s3 is now 441.9 to 472.6 (30.7 s), 5 shots: c4-m13, c4-flash, c4-nothing+cold, c4-14apra, c4-145.
+
+Passes:
+- Ending: f01840 (T+14:30) shows the Andersen marker with the orange rings, "IMPACT" and "ANDERSEN AFB", under "ONE 10 KT NUKE ON GUAM", subtitle "the conventional DF-26 lands on Andersen." It stays on Guam and answers the title. PASS.
+- Near-empty frames in the strike part: FIXED. f00450 (fireball), f00750, f00900, f01100, f01300, f01500, f01700, f01800 all have the island and rings filling the middle third or more; no empty dark field.
+- Clock plate: clear of the map on every frame (the Rota polygon now sits above it at y 235 to 320, plate at y 410 to 500).
+- Pill: in f01700, f01800, f01840 the pill (y 540 to 590) clears every label; nearest are the ring top (y 610) and the island corner (y 600), about 10 to 20 px, tight but not touching.
+- Flash at about 6 s accepted per rule 19.
+
+Findings:
+1. s3 f00000 (and f00060 to f00250, the first 4 s, c4-m13): the first frame is a dark field with one unlabeled island outline about 400 px tall in a 1080x1920 frame, a floating Rota fragment top right, no marker, no label, no subtitle, and the lower 55 percent empty. A viewer cannot tell it is Guam except from the title band. Fix in shotlist.py, c4-m13 `short` camera: start at widthKm about 60 (not 110), center on Guam's middle (about [144.80, 13.45]) so the island fills 40 percent of the height and Rota is out of frame; and give c4-m13 a label "GUAM" (or show the "ANDERSEN AFB" marker from t=0 instead of t=0.5 s) so frame 0 names its subject.
+2. Clock runs past the strike and jumps back. c4-m13 has clock T+12:00, clockRate 22 over 6.2 s, so it reads T+13:31 at f00250 and T+14:14 at f00366, then c4-flash shows T+13:18 (f00450) and c4-14apra T+13:42: the clock goes 14:14 to 13:18 at the flash, and the flash is shown after the clock has passed it. Fix: c4-m13 `clockRate` 12.5 (78 s of clock in 6.2 s, so it lands on T+13:18 exactly at the cut to c4-flash). Use it as a `short` override if the long video needs 22, otherwise change the shot (the long has the same shot).
+3. Minor, no fix required: f01840 "ANDERSEN AFB" label crosses the orange outer ring, and f00450 label "A DF-26 DETONATES OVER ANDERSEN" sits at the left edge at x 1510 of the displayed strip (inside the frame, readable).
+
+Summary for the director: fix 1 and 2 in shotlist.py (c4-m13 only), re-run `python -m studio shotlist 015-china-strikes-guam-pacific-bases`, and I re-check s3 f00000, f00250, f00366 and f00450 only. Everything else in s3 passes.

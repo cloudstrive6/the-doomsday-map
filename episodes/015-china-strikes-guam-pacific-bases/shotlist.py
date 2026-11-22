@@ -627,7 +627,7 @@ reg("c4-14", a, S("p37"), [("s", [134.0, 19.0], 4600), ("e", [138.0, 17.0], 3200
 a = S("p37")
 tDet, tNo = W("p37", "detonates"), W("p37", "nothing")
 reg("c4-m13", a, tDet, [("s", AND, 500), ("e", AND, 150)],
-    [LB2("Minute thirteen", a + 0.2, YELLOW), LB2("01:43 in the morning on Guam", a + 1.4, WHITE, 1)], highlight=[], **clk("T+12:00", 22),
+    [LB2("Minute thirteen", a + 0.2, YELLOW), LB2("01:43 in the morning on Guam", a + 1.4, WHITE, 1)], highlight=[], **clk("T+12:00", fl_rate(1.3, a, tDet)),
     **flights([(L_N, AND, a + 0.1, tDet + 0.2, "DF-26", YELLOW)]), cities=[city(AND, "Andersen AFB", a + 0.4, BLUE, "target", 6)])
 a = tDet
 reg("c4-flash", a, tNo, [("s", AND, 60), ("e", AND, 50)],
@@ -996,7 +996,9 @@ for _s in shots:
 _ANDN = [AND[0], AND[1] + 0.05]
 for s_ in shots:
     if s_["id"] == "c4-m13":
-        s_["short"] = {"camera": [{"t": 0, "center": [AND[0] - 0.1, AND[1] - 0.05], "widthKm": 110}, {"t": round(s_["end"] - s_["start"], 2), "center": _ANDN, "widthKm": 34}]}
+        for c_ in s_["cities"]:
+            c_.pop("t", None)
+        s_["short"] = {"camera": [{"t": 0, "center": [144.80, 13.45], "widthKm": 60}, {"t": round(s_["end"] - s_["start"], 2), "center": _ANDN, "widthKm": 34}]}
     elif s_["id"] == "c4-flash":
         d_ = round(s_["end"] - s_["start"], 2)
         s_["short"] = {"camera": [{"t": 0, "center": [AND[0], AND[1] + 0.04], "widthKm": 25}, {"t": d_, "center": [AND[0], AND[1] + 0.035], "widthKm": 21}]}

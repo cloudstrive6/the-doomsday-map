@@ -94,10 +94,10 @@
     {
      "t": 0,
      "center": [
-      144.824,
-      13.526
+      144.8,
+      13.45
      ],
-     "widthKm": 110
+     "widthKm": 60
     },
     {
      "t": 6.22,
@@ -131,7 +131,7 @@
    "highlight": [],
    "clock": "T+12:00",
    "clockLabel": "AFTER FIRST LAUNCH",
-   "clockRate": 22,
+   "clockRate": 12.5,
    "ships": [
     {
      "path": [
@@ -178,7 +178,6 @@
      ],
      "label": "Andersen AFB",
      "kind": "target",
-     "t": 0.4,
      "color": "#6EA8FF",
      "size": 6
     }
