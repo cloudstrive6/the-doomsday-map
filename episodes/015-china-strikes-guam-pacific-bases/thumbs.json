@@ -1,0 +1,77 @@
+[
+  {
+    "id": "a",
+    "variant": "image",
+    "concept": "weapon",
+    "palette": "dawn-gold",
+    "line1": "13 MINUTES",
+    "line2": "IN FLIGHT",
+    "tag": "NOTHING STOPS IT",
+    "align": "right",
+    "image_prompt": "Bright high-key cinematic photo, low camera angle, close hero shot of a long grey road-mobile ballistic missile raised steeply on its launcher truck on the left half of the frame, nose pointing up and to the right, white-hot exhaust just beginning at its base with glowing orange smoke, in a golden dawn: a huge luminous gold, orange and pink sky with warm sunlit clouds across the full width, rich saturated colour, no dark areas. The right third of the frame is clear glowing golden sky for text. Bottom corners are plain hazy ground. No people, no faces, no text.",
+    "image": "thumbs/015-a.jpg"
+  },
+  {
+    "id": "b",
+    "variant": "map",
+    "concept": "map",
+    "palette": "map",
+    "line1": "6 MINUTES",
+    "line2": "TO OKINAWA",
+    "tag": "",
+    "align": "left",
+    "region": {
+      "theme": "bright",
+      "t": 30,
+      "view": {
+        "center": [
+          129.0,
+          29.5
+        ],
+        "widthKm": 3000
+      },
+      "lines": [
+        {
+          "from": [
+            119.5,
+            29.0
+          ],
+          "to": [
+            127.769,
+            26.352
+          ],
+          "color": "#E01E1E",
+          "t0": 0,
+          "t1": 1,
+          "width": 9
+        },
+        {
+          "from": [
+            118.5,
+            36.0
+          ],
+          "to": [
+            139.67,
+            35.29
+          ],
+          "color": "#E01E1E",
+          "t0": 0,
+          "t1": 1,
+          "width": 9
+        }
+      ]
+    }
+  },
+  {
+    "id": "c",
+    "variant": "image",
+    "concept": "skyline-strike",
+    "palette": "fire-night",
+    "line1": "7 MISSILES",
+    "line2": "1 NUCLEAR",
+    "tag": "",
+    "align": "left",
+    "image_prompt": "Bright high-key photo of a tropical island coast at night: a row of glowing lit white hotel towers along a palm-lined beach on the lower left, and behind them on the right a giant white-yellow and orange nuclear fireball with a rising mushroom cloud lighting the whole sky and the sea in vivid orange and magenta, bright orange reflections on turquoise water, the fireball fills the right two thirds and the full height of the frame, no ring, no halo. The upper left is open luminous deep-blue and violet sky with soft clouds for text. Very high saturation and brightness, no dark areas. No people, no faces, no text.",
+    "image": "thumbs/015-c.jpg"
+  }
+]
