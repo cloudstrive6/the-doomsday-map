@@ -125,3 +125,17 @@ Findings:
 3. Minor, no fix required: f01840 "ANDERSEN AFB" label crosses the orange outer ring, and f00450 label "A DF-26 DETONATES OVER ANDERSEN" sits at the left edge at x 1510 of the displayed strip (inside the frame, readable).
 
 Summary for the director: fix 1 and 2 in shotlist.py (c4-m13 only), re-run `python -m studio shotlist 015-china-strikes-guam-pacific-bases`, and I re-check s3 f00000, f00250, f00366 and f00450 only. Everything else in s3 passes.
+
+
+## Shorts round 4, s3 re-check (reviewed 2026-11-22; fresh `python -m studio shotlist`, validate.txt `ok`; own stills at f00000, f00250, f00366, f00450)
+
+PASS
+
+- Finding 1 fixed. f00000 now shows Guam filling about 40 percent of the 1920 px height (island y 610 to 1350), the "ANDERSEN AFB" label and the blue marker on the north tip from frame 0, "T+12:00" clear of the map, no Rota fragment. The subject is named on the first frame. f00250 is a closer pass on the same tip with the marker, label, subtitle "morning on Guam." and a clean clock.
+- Finding 2 fixed. Clock reads T+12:00, T+12:52 (f00250), T+13:16 (f00366), then T+13:18 at the flash (f00450). Monotonic, and it lands on 13:18 at the cut.
+- f00366: the DF-26 dashed track arrives from the upper left onto the Andersen marker. Fine.
+- f00450: fireball and ring centred on Andersen, label "A DF-26 DETONATES OVER ANDERSEN" fully inside the frame (x 50 to 790), clock plate and SIMULATION tag clear.
+- Subtitle "A DF-26 detonates over": not a defect. It is a 6-word-max phrase chunk, it is plated, readable and inside the safe area, and the next cue completes the sentence ("Andersen") right after the flash. The on-map flash label carries the full phrase at the same moment. No change needed.
+- Minor, no fix: f00450 "ANDERSEN AFB" label crosses the ring and island edge (readable).
+
+s1, s2, s3 all pass. Short set is clear for the packager.
