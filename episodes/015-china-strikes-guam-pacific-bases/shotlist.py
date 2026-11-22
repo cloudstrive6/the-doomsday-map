@@ -992,6 +992,18 @@ def late():
 for _s in shots:
     if _s["id"] == "endslate":
         _s["transition"] = "dip"
+# Short (vertical) overrides for s3: tighter Guam, island lower in frame so the clock plate clears Rota.
+_ANDN = [AND[0], AND[1] + 0.05]
+for s_ in shots:
+    if s_["id"] == "c4-m13":
+        s_["short"] = {"camera": [{"t": 0, "center": [AND[0] - 0.1, AND[1] - 0.05], "widthKm": 110}, {"t": round(s_["end"] - s_["start"], 2), "center": _ANDN, "widthKm": 34}]}
+    elif s_["id"] == "c4-flash":
+        d_ = round(s_["end"] - s_["start"], 2)
+        s_["short"] = {"camera": [{"t": 0, "center": [AND[0], AND[1] + 0.04], "widthKm": 25}, {"t": d_, "center": [AND[0], AND[1] + 0.035], "widthKm": 21}]}
+    elif s_["id"].startswith(("c4-14apra", "c4-nothing", "c4-cold", "c4-145")):
+        d_ = round(s_["end"] - s_["start"], 2)
+        s_["short"] = {"camera": [{"t": 0, "center": [144.84, 13.52], "widthKm": 60}, {"t": d_, "center": [144.9, 13.55], "widthKm": 26}]}
+
 floors()
 densify()
 floors()

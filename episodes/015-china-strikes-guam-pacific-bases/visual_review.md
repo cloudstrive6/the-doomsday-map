@@ -75,3 +75,32 @@ Windows: s1 0 to 32.85 s (32.9 s), s2 506.276 to 550.0 (43.7 s), s3 434.42 to 47
 9. Title bands: all three are inside the safe area, two lines, weapon or number first then the target (s1, s2), s3 puts "13 MINUTES" first. They pass; s3's second line says Guam but the first frame shows no Guam.
 
 Summary for the packager and director: re-cut s1 to open and end on the burst, move s3 to start at its flash or give it a clear subject on frame 0 and drop "Guam is farther.", and split the rings between s2 only. Re-run `python -m studio shotlist` and re-check the three window starts, middles and ends.
+
+
+## Shorts round 2 (reviewed 2026-11-22; fresh stills of s1, s2, s3 at start, middle and end; validate.txt `ok`, no retention or pace lines)
+
+FAIL
+
+Windows now: s1 "13 MINUTES / FROM LAUNCH TO GUAM" 2.2 to 33.0 (30.8 s), s2 "5 PSI AT 1.5 KM" 506.3 to 550.0 (43.7 s), s3 "ONE 10 KT NUKE / ON GUAM" 448.1 to 478.4 (30.3 s). Note the round 1 numbering used other ids; I map each finding to the Short by title below.
+
+Round 1 findings by number:
+1. (13 MINUTES opener was a dim map plus "Guam is farther.") FIXED. s1 f00000 opens on the Guam outline under the title band with the clock, the glow starts by f00036 (0.6 s) and f00090 (1.5 s) shows the burst with "10 KILOTON AIRBURST" and "ANDERSEN AIR FORCE BASE" beside it. f00000 itself is a bare outline with no label (acceptable: the flash is inside 1 s).
+2. (near-empty 13.8 s and 16 s frames) FIXED for s1, which no longer contains them. They survive in s3, see new finding A.
+3. (ghost "12.3 MINUTES OF FLIGHT" label) FIXED: not present in s1 f00900, f01680, f01830, f01842. A transient 8% "1.5 KM: 5 PSI" fade-in is visible on s2 f01200; it is a normal fade-in, not a defect.
+4. (ended mid-flight, cliffhanger) FIXED as judged below. s1 last frame f01842: DF-26 dashed line has reached the GUAM marker, labels "ABOUT THIRTEEN MINUTES" and "3,400 KM", clock T+10:55.
+5. (pill over CHINA label) FIXED. s1 f01680 and f01842: the pill (y 540 to 590) is clear of every label; CHINA is no longer stacked there. s2 f02580 and s3 f01680 also clear.
+6. (strike not in frame at start) FIXED for s1 and s2 (s2 f00006 is the white-out). s3 f00000 is a bare Guam outline, but f00090 (1.5 s) shows the burst on Andersen, so two of three open on the strike inside 2 s: rule 19 met.
+7. (shared rings) FIXED. Rings appear only in s2 (f01200, f02580). s1 shows runway plus fireball radius only (f00240); s3 has no rings.
+8. (s2 pill on the 5 PSI label) FIXED: f02580 has a 28 px gap between the pill and "5 PSI · 1.459 KM". The white-out SIMULATION tag at f00006 sits on a grey plate and reads.
+9. Title bands: all three pass (inside the safe area, two lines, number or weapon first, target second).
+
+Judgement calls:
+- s1 ending: PASS as a payoff. The title asks "how long to Guam" and the last labels answer it ("about thirteen minutes", "3,400 KM") with the arc landing on GUAM, which echoes "13 MINUTES". It is an answer, not a cliffhanger. Optional polish: the clock reads T+10:55 while the label says thirteen minutes; if the director can end on T+13:xx it would be airtight.
+- s3 ending: FAIL. It does not echo the title and it is the wrong subject (see finding B).
+
+New findings:
+A. s3 f00300 (5 s, c4-flash) and f00900 (15 s, c4-14apra): near-empty dark fields. f00300 shows a Guam outline about 250 px tall in a 1080x1920 frame with one marker and two labels; f00900 shows a tiny island at centre with two markers, a caption and about 80 percent black. Fix in shotlist.py: add a `short` override on c4-flash and c4-14apra (and c4-nothing+cold if it is similar) with a tighter widthKm (about 20 to 25 km for Andersen, so the island fills a third of the frame), or a city shot. Also s3 f00000 and f00090: the clock plate sits on top of the Rota polygon at top right (outline clipped under "T+13:18"); a `short` camera offset on c4-m13 and c4-flash that moves Guam down fixes it.
+B. s3 f01680 (28 s) and f01800 (30 s): the window ends at 478.4 on "At about nineteen, the last weapon, the cruise missile, reaches Kadena." f01680 shows Okinawa with the "KADENA" and "CJ-20" labels; f01800 is a bare map of Japan and Korea with no label, no clock and no subject, under the pill. The Short is titled ONE 10 KT NUKE ON GUAM, so it ends on a different target, a different weapon and an empty frame: no payoff, no echo of the title. Fix in shorts.json only: end s3 at 472.6 (the c4-145 / c4-cruise shot and paragraph boundary), after "At fourteen and a half, the conventional DF-26 lands on Andersen", which keeps it on Guam. To stay at 30 s or more, start at 441.9 (the c4-m13 shot boundary), giving 30.7 s. Re-run `python -m studio shotlist 015-china-strikes-guam-pacific-bases` and look at the new s3 start (f00000) before accepting: c4-m13 must show a subject, not a dim map.
+
+Verdict: FAIL. s1 and s2 pass. s3 fails on B (wrong ending) and A (near-empty frames).
+Can a shorts.json-only change fix it? B yes (end 472.6, start 441.9). A no: it needs one `short` override per shot in shotlist.py (director), and the clock overlap with it. After both, a round 3 check of s3 only (start, middle, end) should pass.
