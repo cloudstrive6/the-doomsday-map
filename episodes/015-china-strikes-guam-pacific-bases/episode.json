@@ -1,0 +1,11166 @@
+{
+ "slug": "015-china-strikes-guam-pacific-bases",
+ "fps": 60,
+ "width": 1920,
+ "height": 1080,
+ "durationSeconds": 728.88,
+ "banner": {
+  "start": 2.0,
+  "end": 5.0
+ },
+ "musicPlan": [
+  {
+   "src": "bed_tense.mp3",
+   "from": 0,
+   "to": 41.512,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  },
+  {
+   "src": "bed.mp3",
+   "from": 39.512,
+   "to": 226.688,
+   "loop": [
+    2,
+    174
+   ],
+   "gain_db": -17
+  },
+  {
+   "src": "bed_tense.mp3",
+   "from": 224.688,
+   "to": 728.88,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  }
+ ],
+ "sfxPlan": [
+  {
+   "src": "impact.mp3",
+   "t": 40.662,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 153.967,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 225.838,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 375.12,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 506.426,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 604.9309999999999,
+   "gain_db": -9
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 313.435,
+   "gain_db": -14
+  },
+  {
+   "src": "boom.mp3",
+   "t": 2.3000000000000003,
+   "gain_db": -6
+  },
+  {
+   "src": "boom.mp3",
+   "t": 448.23,
+   "gain_db": -6
+  },
+  {
+   "src": "boom.mp3",
+   "t": 509.88,
+   "gain_db": -6
+  }
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Narration: AI-generated.",
+ "shots": [
+  {
+   "id": "open-run",
+   "type": "region",
+   "start": 0,
+   "end": 2.2,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     132.0,
+     20.0
+    ],
+    "widthKm": 4300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      132.0,
+      20.0
+     ],
+     "widthKm": 4300
+    },
+    {
+     "t": 2.2,
+     "center": [
+      137.0,
+      17.5
+     ],
+     "widthKm": 3100
+    }
+   ],
+   "labels": [
+    {
+     "text": "Andersen Air Force Base, Guam",
+     "color": "#FF3B3B",
+     "t": 0.12,
+     "at": [
+      121.38881,
+      24.14104
+     ]
+    }
+   ],
+   "clock": "T-13:18",
+   "clockLabel": "TO IMPACT",
+   "clockRate": 370,
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       114.5,
+       25.0
+      ],
+      [
+       144.924,
+       13.576
+      ]
+     ],
+     "t0": 0.05,
+     "t1": 2.15,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "DF-26",
+     "size": 2.8,
+     "t": 0.05,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      114.5,
+      25.0
+     ],
+     "to": [
+      144.924,
+      13.576
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.05,
+     "t1": 2.15
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      114.5,
+      25.0
+     ],
+     "label": "Launch (simulated)",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-burst",
+   "type": "region",
+   "start": 2.2,
+   "end": 5.0,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 330
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 330
+    },
+    {
+     "t": 2.8,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 190
+    }
+   ],
+   "labels": [
+    {
+     "text": "Andersen Air Force Base",
+     "color": "#FFFFFF",
+     "t": 0.5,
+     "at": [
+      144.01096,
+      13.28501
+     ]
+    },
+    {
+     "text": "GUAM",
+     "color": "#6EA8FF",
+     "t": 0.2,
+     "at": [
+      145.59677,
+      13.86699
+     ]
+    },
+    {
+     "text": "10 kiloton airburst",
+     "color": "#FFD23F",
+     "t": 1.2,
+     "at": [
+      144.01096,
+      13.17919
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0,
+   "burst": {
+    "at": [
+     144.924,
+     13.576
+    ],
+    "t": 0.1,
+    "km": 4,
+    "fade": 4
+   },
+   "rings": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "km": 4,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.7,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "kind": "target",
+     "t": 0.5,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-rings",
+   "type": "city",
+   "start": 5.0,
+   "end": 8.16,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 4.0
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 4.0
+    },
+    {
+     "t": 3.16,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 10.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.153,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "angle": 100
+    },
+    {
+     "km": 1.459,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 1.2,
+     "angle": 225
+    },
+    {
+     "km": 3.949,
+     "label": "Windows",
+     "color": "#FF7A1A",
+     "t": 2.2,
+     "angle": 135
+    }
+   ],
+   "labels": [
+    {
+     "text": "Andersen Air Force Base",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "at": [
+      144.90459,
+      13.58668
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0,
+   "caption": "Simulation: it has not happened."
+  },
+  {
+   "id": "open-sim",
+   "type": "region",
+   "start": 8.16,
+   "end": 12.47,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     140.0,
+     19.0
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      140.0,
+      19.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 4.31,
+     "center": [
+      145.0,
+      15.0
+     ],
+     "widthKm": 2000
+    }
+   ],
+   "labels": [
+    {
+     "text": "A simulation",
+     "color": "#FFD23F",
+     "t": 0.69,
+     "at": [
+      132.87446,
+      22.81546
+     ]
+    },
+    {
+     "text": "Built from published numbers",
+     "color": "#FFFFFF",
+     "t": 2.15,
+     "at": [
+      132.87446,
+      21.798
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-not",
+   "type": "region",
+   "start": 12.47,
+   "end": 13.801,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     145.0,
+     15.0
+    ],
+    "widthKm": 2000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      145.0,
+      15.0
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 1.33,
+     "center": [
+      140.0,
+      20.0
+     ],
+     "widthKm": 3600
+    }
+   ],
+   "labels": [
+    {
+     "text": "It has not happened",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "at": [
+      137.188,
+      19.27331
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-13",
+   "type": "region",
+   "start": 13.801,
+   "end": 16.41,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     118.0,
+     24.0
+    ],
+    "widthKm": 2600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      118.0,
+      24.0
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 2.61,
+     "center": [
+      116.0,
+      25.0
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Thirteen minutes earlier",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "at": [
+      111.95256,
+      27.23296
+     ]
+    }
+   ],
+   "clock": "01:30",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "open-launcher",
+   "type": "region",
+   "start": 16.41,
+   "end": 23.31,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     116.0,
+     25.0
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      116.0,
+      25.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 3.6,
+     "center": [
+      115.2174,
+      25.0
+     ],
+     "widthKm": 988.696
+    },
+    {
+     "t": 6.9,
+     "center": [
+      114.5,
+      25.0
+     ],
+     "widthKm": 520
+    }
+   ],
+   "labels": [
+    {
+     "text": "A launcher in southern China",
+     "color": "#F2B01E",
+     "t": 0.1,
+     "at": [
+      112.99673,
+      26.59283
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "LAUNCH",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      114.5,
+      25.0
+     ],
+     "label": "DF-26 launcher (simulated)",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-placed",
+   "type": "region",
+   "start": 23.31,
+   "end": 25.097,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     114.5,
+     25.0
+    ],
+    "widthKm": 520
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      114.5,
+      25.0
+     ],
+     "widthKm": 520
+    },
+    {
+     "t": 1.79,
+     "center": [
+      116.0,
+      25.5
+     ],
+     "widthKm": 1400
+    }
+   ],
+   "labels": [
+    {
+     "text": "We placed it ourselves",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "at": [
+      111.64541,
+      26.51397
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "LAUNCH",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      114.5,
+      25.0
+     ],
+     "label": "Simulated site",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-arc",
+   "type": "globe",
+   "start": 25.097,
+   "end": 28.49,
+   "tag": "SIMULATION",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 21.0,
+     "lon": 122.0,
+     "scale": 1900
+    },
+    {
+     "t": 3.39,
+     "lat": 19.0,
+     "lon": 130.0,
+     "scale": 2600
+    }
+   ],
+   "sun": {
+    "lat": -15.08,
+    "lon": -48.87
+   },
+   "arcs": [
+    {
+     "from": [
+      114.5,
+      25.0
+     ],
+     "to": [
+      144.924,
+      13.576
+     ],
+     "t0": 0.05,
+     "t1": 0.2,
+     "color": "#FF3B3B",
+     "width": 3,
+     "loft": 0.25
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      114.5,
+      25.0
+     ],
+     "label": "Launch (simulated)",
+     "color": "#F2B01E",
+     "t": 0.05,
+     "kind": "base"
+    },
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "color": "#6EA8FF",
+     "t": 0.05,
+     "kind": "target"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "FLIGHT",
+   "clockRate": 190
+  },
+  {
+   "id": "open-flight",
+   "type": "region",
+   "start": 28.49,
+   "end": 33.089,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     130.0,
+     20.0
+    ],
+    "widthKm": 5200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      130.0,
+      20.0
+     ],
+     "widthKm": 5200
+    },
+    {
+     "t": 4.6,
+     "center": [
+      134.0,
+      19.0
+     ],
+     "widthKm": 4300
+    }
+   ],
+   "labels": [
+    {
+     "text": "About thirteen minutes",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "at": [
+      116.37753,
+      27.49101
+     ]
+    },
+    {
+     "text": "3,400 km",
+     "color": "#FFFFFF",
+     "t": 2.69,
+     "at": [
+      116.37753,
+      25.43703
+     ]
+    }
+   ],
+   "clock": "T+06:30",
+   "clockLabel": "FLIGHT",
+   "clockRate": 60,
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       114.5,
+       25.0
+      ],
+      [
+       144.924,
+       13.576
+      ]
+     ],
+     "t0": 0.05,
+     "t1": 5.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "DF-26",
+     "size": 2.6,
+     "t": 0.05,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      114.5,
+      25.0
+     ],
+     "to": [
+      144.924,
+      13.576
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.05,
+     "t1": 5.0
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-q1",
+   "type": "region",
+   "start": 33.089,
+   "end": 35.417,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     136.0,
+     22.0
+    ],
+    "widthKm": 5200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      136.0,
+      22.0
+     ],
+     "widthKm": 5200
+    },
+    {
+     "t": 2.33,
+     "center": [
+      136.0,
+      23.0
+     ],
+     "widthKm": 3900
+    }
+   ],
+   "labels": [
+    {
+     "text": "The first hour",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "at": [
+      122.77506,
+      29.1756
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "base",
+     "t": 0.7,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      139.67,
+      35.29
+     ],
+     "label": "Yokosuka",
+     "kind": "base",
+     "t": 1.2,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-q2",
+   "type": "region",
+   "start": 35.417,
+   "end": 40.512,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     136.0,
+     23.0
+    ],
+    "widthKm": 3900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      136.0,
+      23.0
+     ],
+     "widthKm": 3900
+    },
+    {
+     "t": 2.8,
+     "center": [
+      138.2004,
+      21.8998
+     ],
+     "widthKm": 3239.882
+    },
+    {
+     "t": 5.09,
+     "center": [
+      140.0,
+      21.0
+     ],
+     "widthKm": 2700
+    }
+   ],
+   "labels": [
+    {
+     "text": "How many fighters can still take off?",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      126.33869,
+      28.20428
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      139.67,
+      35.29
+     ],
+     "label": "Yokosuka",
+     "kind": "base",
+     "t": 0.5,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-card",
+   "type": "chapter",
+   "start": 40.512,
+   "end": 44.01,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 01",
+   "title": "The island that is a runway"
+  },
+  {
+   "id": "c1-ve",
+   "type": "region",
+   "start": 44.01,
+   "end": 50.65,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     144.79,
+     13.45
+    ],
+    "widthKm": 400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.79,
+      13.45
+     ],
+     "widthKm": 400
+    },
+    {
+     "t": 6.64,
+     "center": [
+      144.79,
+      13.47
+     ],
+     "widthKm": 200
+    }
+   ],
+   "labels": [
+    {
+     "text": "Valiant Shield, 2026",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      143.95872,
+      13.92312
+     ]
+    },
+    {
+     "text": "Army Dark Eagle seen on Guam",
+     "color": "#FFFFFF",
+     "t": 3.32,
+     "at": [
+      143.95872,
+      13.79339
+     ]
+    }
+   ],
+   "source": "US Pacific Fleet and INDOPACOM statements; Guam census",
+   "clock": "2026",
+   "clockLabel": "EXERCISE",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "base",
+     "t": 0.6,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      144.65,
+      13.43
+     ],
+     "label": "Naval Base Guam",
+     "kind": "base",
+     "t": 1.2,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-pacom+stay",
+   "type": "region",
+   "start": 50.65,
+   "end": 57.632,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     144.79,
+     13.47
+    ],
+    "widthKm": 200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.79,
+      13.47
+     ],
+     "widthKm": 200
+    },
+    {
+     "t": 2.1,
+     "center": [
+      144.79,
+      13.4595
+     ],
+     "widthKm": 263.0
+    },
+    {
+     "t": 4.0,
+     "center": [
+      144.79,
+      13.45
+     ],
+     "widthKm": 320
+    },
+    {
+     "t": 4.89,
+     "center": [
+      144.79,
+      13.45
+     ],
+     "widthKm": 320
+    },
+    {
+     "t": 6.98,
+     "center": [
+      144.79,
+      13.5
+     ],
+     "widthKm": 160
+    }
+   ],
+   "labels": [
+    {
+     "text": "Pacific command: photos taken here",
+     "color": "#6EA8FF",
+     "t": 0.2,
+     "at": [
+      144.0695,
+      13.88003
+     ],
+     "until": 4.2
+    },
+    {
+     "text": "Did the weapon stay? Not said",
+     "color": "#FFD23F",
+     "t": 4.2,
+     "at": [
+      144.12498,
+      13.82849
+     ]
+    }
+   ],
+   "source": "US Pacific Fleet and INDOPACOM statements; Guam census",
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "base",
+     "t": 4.1,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-guam",
+   "type": "region",
+   "start": 57.632,
+   "end": 62.77,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     144.79,
+     13.45
+    ],
+    "widthKm": 220
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.79,
+      13.45
+     ],
+     "widthKm": 220
+    },
+    {
+     "t": 5.14,
+     "center": [
+      144.79,
+      13.45
+     ],
+     "widthKm": 160
+    }
+   ],
+   "labels": [
+    {
+     "text": "An American island",
+     "color": "#6EA8FF",
+     "t": 0.3,
+     "at": [
+      144.26352,
+      13.74964
+     ]
+    },
+    {
+     "text": "About 170,000 people",
+     "color": "#FFFFFF",
+     "t": 2.08,
+     "at": [
+      144.26352,
+      13.66748
+     ]
+    }
+   ],
+   "source": "US Pacific Fleet and INDOPACOM statements; Guam census",
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "base",
+     "t": 0.8,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      144.65,
+      13.43
+     ],
+     "label": "Naval Base Guam",
+     "kind": "base",
+     "t": 1.6,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-dod+cold",
+   "type": "region",
+   "start": 62.77,
+   "end": 70.43,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     144.79,
+     13.45
+    ],
+    "widthKm": 160
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.79,
+      13.45
+     ],
+     "widthKm": 160
+    },
+    {
+     "t": 3.47,
+     "center": [
+      144.79,
+      13.45
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 4.73,
+     "center": [
+      144.79,
+      13.5
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 7.66,
+     "center": [
+      144.9,
+      13.57
+     ],
+     "widthKm": 240
+    }
+   ],
+   "labels": [
+    {
+     "text": "Defense Department owns about 29%",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      144.2081,
+      13.78118
+     ],
+     "until": 3.67
+    },
+    {
+     "text": "The island in our cold open",
+     "color": "#FFFFFF",
+     "t": 3.67,
+     "at": [
+      144.24956,
+      13.80753
+     ]
+    }
+   ],
+   "source": "US Pacific Fleet and INDOPACOM statements; Guam census",
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "base",
+     "t": 4.27,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-143",
+   "type": "region",
+   "start": 70.43,
+   "end": 73.113,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 200
+    },
+    {
+     "t": 2.68,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 150
+    }
+   ],
+   "labels": [
+    {
+     "text": "The flash at 01:43",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "at": [
+      144.43883,
+      13.85198
+     ]
+    }
+   ],
+   "source": "US Pacific Fleet and INDOPACOM statements; Guam census",
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-runways",
+   "type": "city",
+   "start": 73.113,
+   "end": 81.329,
+   "tag": "REAL DATA",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 9.0
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 9.0
+    },
+    {
+     "t": 3.08,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 7.876
+    },
+    {
+     "t": 8.22,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 6.0
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "at": [
+      144.91,
+      13.597
+     ],
+     "text": "Runway: about 3.4 km",
+     "color": "#FFFFFF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      144.935,
+      13.555
+     ],
+     "text": "Runway: about 3.2 km",
+     "color": "#FFFFFF",
+     "t": 5.86
+    },
+    {
+     "text": "Two parallel runways",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "at": [
+      144.90321,
+      13.58783
+     ]
+    }
+   ],
+   "source": "Andersen AFB; OpenStreetMap",
+   "clock": ""
+  },
+  {
+   "id": "c1-bombers",
+   "type": "city",
+   "start": 81.329,
+   "end": 87.836,
+   "tag": "REAL DATA",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 6.0
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 6.0
+    },
+    {
+     "t": 2.05,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 7.575
+    },
+    {
+     "t": 6.51,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 11.0
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "text": "Bombers rotate through",
+     "color": "#6EA8FF",
+     "t": 0.2,
+     "at": [
+      144.90043,
+      13.5894
+     ]
+    },
+    {
+     "text": "Ad hoc since 2020",
+     "color": "#FFFFFF",
+     "t": 3.9,
+     "at": [
+      144.90043,
+      13.58595
+     ]
+    }
+   ],
+   "source": "Andersen AFB; OpenStreetMap",
+   "clock": ""
+  },
+  {
+   "id": "c1-naval",
+   "type": "region",
+   "start": 87.836,
+   "end": 93.537,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     144.78,
+     13.5
+    ],
+    "widthKm": 150
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.78,
+      13.5
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 3.62,
+     "center": [
+      144.78,
+      13.5
+     ],
+     "widthKm": 150.0
+    },
+    {
+     "t": 5.7,
+     "center": [
+      144.78,
+      13.5
+     ],
+     "widthKm": 150
+    }
+   ],
+   "labels": [
+    {
+     "text": "Naval Base Guam: submarines",
+     "color": "#6EA8FF",
+     "t": 0.2,
+     "at": [
+      144.36427,
+      13.73656
+     ]
+    },
+    {
+     "text": "About 48 km away",
+     "color": "#FFFFFF",
+     "t": 1.55,
+     "at": [
+      144.36427,
+      13.6717
+     ]
+    }
+   ],
+   "source": "Andersen AFB; Guam Wikipedia",
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      144.65,
+      13.43
+     ],
+     "label": "Naval Base Guam",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "base",
+     "t": 0.5,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-kadena",
+   "type": "region",
+   "start": 93.537,
+   "end": 97.15,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     136.0,
+     20.5
+    ],
+    "widthKm": 3600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      136.0,
+      20.5
+     ],
+     "widthKm": 3600
+    },
+    {
+     "t": 3.61,
+     "center": [
+      133.0,
+      22.0
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "labels": [
+    {
+     "text": "2,300 km north-west",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      126.50545,
+      25.70428
+     ]
+    }
+   ],
+   "source": "US Pacific Fleet and INDOPACOM statements; Guam census",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      144.924,
+      13.576
+     ],
+     "to": [
+      127.769,
+      26.352
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 0.3,
+     "t1": 4.0
+    }
+   ]
+  },
+  {
+   "id": "c1-kadena2",
+   "type": "region",
+   "start": 97.15,
+   "end": 103.63,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     133.0,
+     22.0
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      133.0,
+      22.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 3.39,
+     "center": [
+      131.169,
+      23.5694
+     ],
+     "widthKm": 2267.593
+    },
+    {
+     "t": 6.48,
+     "center": [
+      129.5,
+      25.0
+     ],
+     "widthKm": 1600
+    }
+   ],
+   "labels": [
+    {
+     "text": "Kadena Air Base, Okinawa",
+     "color": "#6EA8FF",
+     "t": 0.2,
+     "at": [
+      126.31487,
+      25.62723
+     ]
+    }
+   ],
+   "source": "US Pacific Fleet and INDOPACOM statements; Guam census",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 0.05,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      144.924,
+      13.576
+     ],
+     "to": [
+      127.769,
+      26.352
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 0.05,
+     "t1": 0.2
+    }
+   ]
+  },
+  {
+   "id": "c1-patriot",
+   "type": "region",
+   "start": 103.63,
+   "end": 106.289,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     127.769,
+     26.352
+    ],
+    "widthKm": 520
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      127.769,
+      26.352
+     ],
+     "widthKm": 520
+    },
+    {
+     "t": 2.66,
+     "center": [
+      127.769,
+      26.352
+     ],
+     "widthKm": 220
+    }
+   ],
+   "labels": [
+    {
+     "text": "Two runways, 3.7 km each",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "at": [
+      126.65624,
+      26.93551
+     ]
+    },
+    {
+     "text": "An Army Patriot battalion",
+     "color": "#6EA8FF",
+     "t": 0.2,
+     "at": [
+      126.65624,
+      26.77552
+     ]
+    }
+   ],
+   "source": "US Pacific Fleet and INDOPACOM statements; Guam census",
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena AB",
+     "kind": "base",
+     "t": 0.05,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-df26",
+   "type": "region",
+   "start": 106.289,
+   "end": 112.33,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     128.0,
+     23.0
+    ],
+    "widthKm": 5400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      128.0,
+      23.0
+     ],
+     "widthKm": 5400
+    },
+    {
+     "t": 6.04,
+     "center": [
+      126.0,
+      24.0
+     ],
+     "widthKm": 4400
+    }
+   ],
+   "labels": [
+    {
+     "text": "DF-26 missile",
+     "color": "#F2B01E",
+     "t": 0.2,
+     "at": [
+      113.65442,
+      30.72757
+     ]
+    },
+    {
+     "text": "CSIS: China's first",
+     "color": "#FFFFFF",
+     "t": 2.4,
+     "at": [
+      113.65442,
+      28.60872
+     ]
+    }
+   ],
+   "source": "CSIS Missile Threat; RAND 2025; Stimson Center 2024",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 0.8,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      114.5,
+      25.0
+     ],
+     "to": [
+      144.924,
+      13.576
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 2.0,
+     "t1": 5.0
+    }
+   ]
+  },
+  {
+   "id": "c1-df26b",
+   "type": "region",
+   "start": 112.33,
+   "end": 117.59,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     126.0,
+     24.0
+    ],
+    "widthKm": 4400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      126.0,
+      24.0
+     ],
+     "widthKm": 4400
+    },
+    {
+     "t": 5.26,
+     "center": [
+      134.0,
+      20.0
+     ],
+     "widthKm": 3600
+    }
+   ],
+   "labels": [
+    {
+     "text": "Conventionally armed ballistic missile",
+     "color": "#F2B01E",
+     "t": 0.2,
+     "at": [
+      114.20011,
+      30.30822
+     ]
+    },
+    {
+     "text": "Able to reach Guam",
+     "color": "#FFFFFF",
+     "t": 2.1,
+     "at": [
+      114.20011,
+      28.57855
+     ]
+    }
+   ],
+   "source": "CSIS Missile Threat; RAND 2025; Stimson Center 2024",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 0.05,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      114.5,
+      25.0
+     ],
+     "to": [
+      144.924,
+      13.576
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 0.05,
+     "t1": 0.2
+    }
+   ]
+  },
+  {
+   "id": "c1-nick+range",
+   "type": "region",
+   "start": 117.59,
+   "end": 125.503,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     136.0,
+     19.0
+    ],
+    "widthKm": 3600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      136.0,
+      19.0
+     ],
+     "widthKm": 3600
+    },
+    {
+     "t": 4.31,
+     "center": [
+      140.0,
+      18.0
+     ],
+     "widthKm": 2800
+    },
+    {
+     "t": 5.39,
+     "center": [
+      125.0,
+      22.0
+     ],
+     "widthKm": 9000
+    },
+    {
+     "t": 7.92,
+     "center": [
+      128.0,
+      20.0
+     ],
+     "widthKm": 8000
+    }
+   ],
+   "labels": [
+    {
+     "text": "'Guam killer': a nickname",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      126.8793,
+      24.04658
+     ],
+     "until": 4.51
+    },
+    {
+     "text": "Not an official name",
+     "color": "#FFFFFF",
+     "t": 2.72,
+     "at": [
+      126.8793,
+      22.66284
+     ],
+     "until": 4.51
+    },
+    {
+     "text": "DF-26 range: about 4,000 km",
+     "color": "#F2B01E",
+     "t": 4.61,
+     "at": [
+      100.29407,
+      35.40497
+     ]
+    }
+   ],
+   "source": "CSIS Missile Threat; RAND 2025; Stimson Center 2024",
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      114.5,
+      25.0
+     ],
+     "label": "Launcher (simulated)",
+     "kind": "base",
+     "t": 4.61,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 5.31,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      114.5,
+      25.0
+     ],
+     "km": 4000,
+     "label": "4,000 km",
+     "color": "#F2B01E",
+     "t": 4.81,
+     "dashed": true
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c1-swap",
+   "type": "region",
+   "start": 125.503,
+   "end": 131.971,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     118.0,
+     30.0
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      118.0,
+      30.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 6.47,
+     "center": [
+      114.0,
+      30.0
+     ],
+     "widthKm": 2200
+    }
+   ],
+   "labels": [
+    {
+     "text": "One warhead can be swapped",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      109.90921,
+      34.10034
+     ]
+    },
+    {
+     "text": "Nuclear or conventional",
+     "color": "#FF3B3B",
+     "t": 2.64,
+     "at": [
+      109.90921,
+      32.97606
+     ]
+    },
+    {
+     "text": "Most are conventional",
+     "color": "#FFD23F",
+     "t": 4.67,
+     "at": [
+      109.90921,
+      31.85177
+     ]
+    }
+   ],
+   "source": "CSIS Missile Threat; RAND 2025; Stimson Center 2024",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c1-250",
+   "type": "region",
+   "start": 131.971,
+   "end": 138.458,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     112.0,
+     31.0
+    ],
+    "widthKm": 3600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      112.0,
+      31.0
+     ],
+     "widthKm": 3600
+    },
+    {
+     "t": 6.49,
+     "center": [
+      116.0,
+      30.0
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "labels": [
+    {
+     "text": "About 250 to 300 launchers",
+     "color": "#F2B01E",
+     "t": 0.2,
+     "at": [
+      101.6248,
+      36.20428
+     ]
+    },
+    {
+     "text": "An outside estimate",
+     "color": "#FFFFFF",
+     "t": 1.4,
+     "at": [
+      101.6248,
+      34.7773
+     ]
+    }
+   ],
+   "source": "CSIS Missile Threat; RAND 2025; Stimson Center 2024",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      111.0,
+      27.5
+     ],
+     "label": "DF-26 sites",
+     "kind": "dot",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      114.5,
+      25.0
+     ],
+     "kind": "dot",
+     "t": 0.75,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      118.0,
+      28.5
+     ],
+     "kind": "dot",
+     "t": 1.2,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      119.5,
+      29.0
+     ],
+     "kind": "dot",
+     "t": 1.65,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      117.0,
+      25.1
+     ],
+     "kind": "dot",
+     "t": 2.1,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      118.5,
+      36.0
+     ],
+     "kind": "dot",
+     "t": 2.55,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      113.0,
+      34.0
+     ],
+     "kind": "dot",
+     "t": 3.0,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      108.0,
+      30.0
+     ],
+     "kind": "dot",
+     "t": 3.45,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      121.0,
+      41.0
+     ],
+     "kind": "dot",
+     "t": 3.9,
+     "color": "#F2B01E",
+     "size": 5
+    },
+    {
+     "at": [
+      104.0,
+      36.0
+     ],
+     "kind": "dot",
+     "t": 4.35,
+     "color": "#F2B01E",
+     "size": 5
+    }
+   ]
+  },
+  {
+   "id": "c1-defence",
+   "type": "region",
+   "start": 138.458,
+   "end": 143.81,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     144.79,
+     13.45
+    ],
+    "widthKm": 200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.79,
+      13.45
+     ],
+     "widthKm": 200
+    },
+    {
+     "t": 5.35,
+     "center": [
+      144.79,
+      13.47
+     ],
+     "widthKm": 150
+    }
+   ],
+   "labels": [
+    {
+     "text": "Guam's new missile defence",
+     "color": "#6EA8FF",
+     "t": 0.2,
+     "at": [
+      144.30509,
+      13.72598
+     ]
+    },
+    {
+     "text": "Not due until late 2027",
+     "color": "#FFD23F",
+     "t": 3.09,
+     "at": [
+      144.30509,
+      13.65031
+     ]
+    }
+   ],
+   "source": "CSIS Missile Threat; RAND 2025; Stimson Center 2024",
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      144.65,
+      13.43
+     ],
+     "label": "Naval Base Guam",
+     "kind": "base",
+     "t": 1.2,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-test",
+   "type": "region",
+   "start": 143.81,
+   "end": 148.914,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     144.79,
+     13.47
+    ],
+    "widthKm": 150
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.79,
+      13.47
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 5.1,
+     "center": [
+      144.5,
+      13.45
+     ],
+     "widthKm": 330
+    }
+   ],
+   "labels": [
+    {
+     "text": "First interception test from the island",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      144.12492,
+      13.84849
+     ]
+    },
+    {
+     "text": "December 2024",
+     "color": "#FFD23F",
+     "t": 2.64,
+     "at": [
+      144.12492,
+      13.74471
+     ]
+    }
+   ],
+   "source": "CSIS Missile Threat; RAND 2025; Stimson Center 2024",
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-ever",
+   "type": "region",
+   "start": 148.914,
+   "end": 153.817,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     140.0,
+     19.0
+    ],
+    "widthKm": 2400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      140.0,
+      19.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 4.9,
+     "center": [
+      136.0,
+      21.0
+     ],
+     "widthKm": 3400
+    }
+   ],
+   "labels": [
+    {
+     "text": "Has anyone ever fired at Guam?",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      131.73437,
+      23.57346
+     ]
+    }
+   ],
+   "source": "US Pacific Fleet and INDOPACOM statements; Guam census",
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c2-card",
+   "type": "chapter",
+   "start": 153.817,
+   "end": 157.32,
+   "tag": "REAL HISTORY",
+   "kicker": "CHAPTER 02",
+   "title": "The base-attack record"
+  },
+  {
+   "id": "c2-pearl",
+   "type": "region",
+   "start": 157.32,
+   "end": 163.53,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -157.97,
+     21.36
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -157.97,
+      21.36
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 6.21,
+     "center": [
+      -157.97,
+      21.36
+     ],
+     "widthKm": 200
+    }
+   ],
+   "labels": [
+    {
+     "text": "7 December 1941",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      -158.9828,
+      21.91197
+     ]
+    },
+    {
+     "text": "Japanese carrier planes hit Pearl Harbor",
+     "color": "#FFFFFF",
+     "t": 1.0,
+     "at": [
+      -158.9828,
+      21.76062
+     ]
+    }
+   ],
+   "source": "National Park Service; CSIS; Reuters; Hawaii and Pacific records",
+   "clock": "1941",
+   "clockLabel": "PEARL HARBOR",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -157.97,
+      21.36
+     ],
+     "label": "Pearl Harbor",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c2-aircraft+carriers",
+   "type": "region",
+   "start": 163.53,
+   "end": 172.33,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -157.97,
+     21.36
+    ],
+    "widthKm": 200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -157.97,
+      21.36
+     ],
+     "widthKm": 200
+    },
+    {
+     "t": 4.79,
+     "center": [
+      -157.8,
+      21.4
+     ],
+     "widthKm": 340
+    },
+    {
+     "t": 5.99,
+     "center": [
+      -157.0,
+      21.5
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 8.8,
+     "center": [
+      -157.5,
+      22.5
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "labels": [
+    {
+     "text": "About 200 aircraft destroyed",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "at": [
+      -158.7513,
+      21.7858
+     ],
+     "until": 4.99
+    },
+    {
+     "text": "National Park Service count",
+     "color": "#FFFFFF",
+     "t": 1.0,
+     "at": [
+      -158.7513,
+      21.66905
+     ],
+     "until": 4.99
+    },
+    {
+     "text": "Every carrier was away at sea",
+     "color": "#6EA8FF",
+     "t": 4.99,
+     "at": [
+      -160.18613,
+      23.23476
+     ]
+    }
+   ],
+   "source": "National Park Service; CSIS; Reuters; Hawaii and Pacific records",
+   "clock": "1941",
+   "clockLabel": "PEARL HARBOR",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -157.97,
+      21.36
+     ],
+     "label": "Pearl Harbor",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -157.97,
+      21.36
+     ],
+     "label": "Pearl Harbor",
+     "kind": "base",
+     "t": 4.89,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -157.97,
+       21.36
+      ],
+      [
+       -158.4,
+       22.8
+      ]
+     ],
+     "t0": 4.84,
+     "t1": 4.99,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "label": "Carriers",
+     "size": 2.6,
+     "t": 4.84,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "c2-cannot",
+   "type": "region",
+   "start": 172.33,
+   "end": 175.753,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -157.5,
+     22.0
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -157.5,
+      22.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 3.42,
+     "center": [
+      -157.0,
+      21.4
+     ],
+     "widthKm": 500
+    }
+   ],
+   "labels": [
+    {
+     "text": "An air base cannot move",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "at": [
+      -160.40658,
+      23.57706
+     ]
+    },
+    {
+     "text": "A carrier can",
+     "color": "#6EA8FF",
+     "t": 0.05,
+     "at": [
+      -160.40658,
+      23.14464
+     ]
+    }
+   ],
+   "source": "National Park Service; CSIS; Reuters; Hawaii and Pacific records",
+   "clock": "1941",
+   "clockLabel": "PEARL HARBOR",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -157.97,
+      21.36
+     ],
+     "label": "Pearl Harbor (base)",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c2-nk+four",
+   "type": "region",
+   "start": 175.753,
+   "end": 184.75,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     133.0,
+     32.0
+    ],
+    "widthKm": 3600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      133.0,
+      32.0
+     ],
+     "widthKm": 3600
+    },
+    {
+     "t": 4.86,
+     "center": [
+      138.0,
+      28.0
+     ],
+     "widthKm": 4800
+    },
+    {
+     "t": 6.1,
+     "center": [
+      138.0,
+      28.0
+     ],
+     "widthKm": 4800
+    },
+    {
+     "t": 9.0,
+     "center": [
+      140.0,
+      24.0
+     ],
+     "widthKm": 3800
+    }
+   ],
+   "labels": [
+    {
+     "text": "9 August 2017",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      119.65321,
+      38.62363
+     ],
+     "until": 5.06
+    },
+    {
+     "text": "North Korea studies a plan",
+     "color": "#FFFFFF",
+     "t": 1.0,
+     "at": [
+      119.65321,
+      36.80747
+     ],
+     "until": 5.06
+    },
+    {
+     "text": "Four missiles over Japan",
+     "color": "#FFD23F",
+     "t": 5.06,
+     "at": [
+      124.87554,
+      34.78134
+     ]
+    },
+    {
+     "text": "Into waters near Guam",
+     "color": "#FFFFFF",
+     "t": 6.72,
+     "at": [
+      124.87554,
+      32.92194
+     ]
+    }
+   ],
+   "source": "Reuters; KCNA reports; AP",
+   "clock": "2017",
+   "clockLabel": "NORTH KOREA",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "408",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "408",
+     "text": "NORTH KOREA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 0.8,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 4.96,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      128.0,
+      38.5
+     ],
+     "to": [
+      144.924,
+      13.576
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 5.26,
+     "t1": 8.26
+    }
+   ]
+  },
+  {
+   "id": "c2-never",
+   "type": "region",
+   "start": 184.75,
+   "end": 191.193,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     140.0,
+     24.0
+    ],
+    "widthKm": 3800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      140.0,
+      24.0
+     ],
+     "widthKm": 3800
+    },
+    {
+     "t": 6.44,
+     "center": [
+      145.0,
+      17.0
+     ],
+     "widthKm": 2200
+    }
+   ],
+   "labels": [
+    {
+     "text": "It never launched",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      131.15008,
+      28.73117
+     ]
+    },
+    {
+     "text": "A threat alone made Guam a target",
+     "color": "#FFD23F",
+     "t": 1.82,
+     "at": [
+      131.15008,
+      27.43391
+     ]
+    }
+   ],
+   "source": "Reuters; KCNA reports; AP",
+   "clock": "2017",
+   "clockLabel": "NORTH KOREA",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c2-scs",
+   "type": "region",
+   "start": 191.193,
+   "end": 194.65,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     114.0,
+     18.5
+    ],
+    "widthKm": 2000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      114.0,
+      18.5
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 3.46,
+     "center": [
+      112.0,
+      18.0
+     ],
+     "widthKm": 1400
+    }
+   ],
+   "labels": [
+    {
+     "text": "26 August 2020",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      109.16896,
+      21.18099
+     ]
+    },
+    {
+     "text": "South China Sea",
+     "color": "#FFFFFF",
+     "t": 0.9,
+     "at": [
+      109.16896,
+      20.44588
+     ]
+    }
+   ],
+   "source": "Reuters; South China Morning Post; CSIS",
+   "clock": "2020",
+   "clockLabel": "CHINA TEST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      110.3,
+      19.2
+     ],
+     "label": "Hainan",
+     "kind": "dot",
+     "t": 1.2,
+     "color": "#F2B01E"
+    },
+    {
+     "at": [
+      112.3,
+      16.5
+     ],
+     "label": "Paracel Islands",
+     "kind": "dot",
+     "t": 2.0,
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c2-df",
+   "type": "region",
+   "start": 194.65,
+   "end": 202.346,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     112.0,
+     18.0
+    ],
+    "widthKm": 1400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      112.0,
+      18.0
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 4.65,
+     "center": [
+      110.7922,
+      21.6234
+     ],
+     "widthKm": 2366.234
+    },
+    {
+     "t": 7.7,
+     "center": [
+      110.0,
+      24.0
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "labels": [
+    {
+     "text": "DF-26B and DF-21D fired",
+     "color": "#F2B01E",
+     "t": 0.2,
+     "at": [
+      105.76603,
+      21.46952
+     ]
+    },
+    {
+     "text": "Into water, near Hainan",
+     "color": "#FFFFFF",
+     "t": 1.6,
+     "at": [
+      105.76603,
+      20.5182
+     ]
+    }
+   ],
+   "source": "Reuters; South China Morning Post; CSIS",
+   "clock": "2020",
+   "clockLabel": "CHINA TEST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      110.3,
+      19.2
+     ],
+     "label": "Hainan",
+     "kind": "dot",
+     "t": 0.1,
+     "color": "#F2B01E"
+    },
+    {
+     "at": [
+      112.3,
+      16.5
+     ],
+     "label": "Paracel Islands",
+     "kind": "dot",
+     "t": 0.5,
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c2-first",
+   "type": "region",
+   "start": 202.346,
+   "end": 210.778,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     118.0,
+     22.0
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      118.0,
+      22.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 3.02,
+     "center": [
+      119.433,
+      21.2835
+     ],
+     "widthKm": 2713.405
+    },
+    {
+     "t": 8.43,
+     "center": [
+      122.0,
+      20.0
+     ],
+     "widthKm": 2200
+    }
+   ],
+   "labels": [
+    {
+     "text": "First public 'carrier-killer' test into water",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      110.44289,
+      26.10034
+     ]
+    },
+    {
+     "text": "The same family as our DF-26",
+     "color": "#FFFFFF",
+     "t": 5.84,
+     "at": [
+      110.44289,
+      24.97606
+     ]
+    }
+   ],
+   "source": "Reuters; South China Morning Post; CSIS",
+   "clock": "2020",
+   "clockLabel": "CHINA TEST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c2-slow+slow2",
+   "type": "region",
+   "start": 210.778,
+   "end": 219.554,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     175.0,
+     24.0
+    ],
+    "widthKm": 9800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      175.0,
+      24.0
+     ],
+     "widthKm": 9800
+    },
+    {
+     "t": 4.47,
+     "center": [
+      170.0,
+      24.0
+     ],
+     "widthKm": 8600
+    },
+    {
+     "t": 5.76,
+     "center": [
+      140.0,
+      22.0
+     ],
+     "widthKm": 4000
+    },
+    {
+     "t": 8.77,
+     "center": [
+      128.0,
+      20.0
+     ],
+     "widthKm": 5000
+    }
+   ],
+   "labels": [
+    {
+     "text": "Every one of those was slow",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      147.86026,
+      38.50891
+     ],
+     "until": 4.67
+    },
+    {
+     "text": "1941: a fleet across an ocean",
+     "color": "#6EA8FF",
+     "t": 1.0,
+     "at": [
+      147.86026,
+      34.53066
+     ],
+     "until": 4.67
+    },
+    {
+     "text": "2017: a threat in words",
+     "color": "#FFD23F",
+     "t": 4.67,
+     "at": [
+      126.92039,
+      29.09675
+     ]
+    },
+    {
+     "text": "2020: a test in empty water",
+     "color": "#F2B01E",
+     "t": 6.35,
+     "at": [
+      126.92039,
+      27.15087
+     ]
+    }
+   ],
+   "source": "National Park Service; CSIS; Reuters; Hawaii and Pacific records",
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      -157.97,
+      21.36
+     ],
+     "label": "Pearl Harbor 1941",
+     "kind": "base",
+     "t": 0.6,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 1.2,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 4.57,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c2-what",
+   "type": "region",
+   "start": 219.554,
+   "end": 222.35,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     128.0,
+     22.0
+    ],
+    "widthKm": 5400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      128.0,
+      22.0
+     ],
+     "widthKm": 5400
+    },
+    {
+     "t": 2.8,
+     "center": [
+      132.0,
+      21.0
+     ],
+     "widthKm": 4200
+    }
+   ],
+   "labels": [
+    {
+     "text": "What if it were not a test?",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      114.04842,
+      29.56987
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "THIRTEEN MINUTES",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      114.5,
+      25.0
+     ],
+     "label": "Launch (simulated)",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 0.6,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c2-13",
+   "type": "region",
+   "start": 222.35,
+   "end": 225.688,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     132.0,
+     21.0
+    ],
+    "widthKm": 4200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      132.0,
+      21.0
+     ],
+     "widthKm": 4200
+    },
+    {
+     "t": 3.34,
+     "center": [
+      136.0,
+      19.0
+     ],
+     "widthKm": 3200
+    }
+   ],
+   "labels": [
+    {
+     "text": "A flight of thirteen minutes",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "at": [
+      121.31934,
+      26.8351
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "FLIGHT",
+   "clockRate": 266.0,
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       114.5,
+       25.0
+      ],
+      [
+       144.924,
+       13.576
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 3.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "DF-26",
+     "size": 2.6,
+     "t": 0.1,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      114.5,
+      25.0
+     ],
+     "to": [
+      144.924,
+      13.576
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.1,
+     "t1": 3.0
+    }
+   ]
+  },
+  {
+   "id": "c3-card",
+   "type": "chapter",
+   "start": 225.688,
+   "end": 229.19,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 03",
+   "title": "The order"
+  },
+  {
+   "id": "c3-fail+zero",
+   "type": "region",
+   "start": 229.19,
+   "end": 236.649,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     118.0,
+     27.0
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      118.0,
+      27.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 2.42,
+     "center": [
+      118.0,
+      27.0
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 3.92,
+     "center": [
+      118.0,
+      27.0
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 7.46,
+     "center": [
+      122.0,
+      24.0
+     ],
+     "widthKm": 3600
+    }
+   ],
+   "labels": [
+    {
+     "text": "Diplomacy has already failed",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "at": [
+      110.13605,
+      31.10034
+     ],
+     "until": 2.62
+    },
+    {
+     "text": "We do not say why",
+     "color": "#FFD23F",
+     "t": 0.38,
+     "at": [
+      110.13605,
+      29.97606
+     ],
+     "until": 2.62
+    },
+    {
+     "text": "The clock starts at the first launch",
+     "color": "#FFD23F",
+     "t": 2.62,
+     "at": [
+      109.22868,
+      31.57346
+     ]
+    },
+    {
+     "text": "Minute zero",
+     "color": "#FF3B3B",
+     "t": 6.06,
+     "at": [
+      109.22868,
+      30.31945
+     ]
+    }
+   ],
+   "clock": "",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      114.5,
+      25.0
+     ],
+     "label": "Launcher (simulated)",
+     "kind": "base",
+     "t": 2.82,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-h6",
+   "type": "region",
+   "start": 236.649,
+   "end": 243.463,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     126.0,
+     29.0
+    ],
+    "widthKm": 1700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      126.0,
+      29.0
+     ],
+     "widthKm": 1700
+    },
+    {
+     "t": 4.11,
+     "center": [
+      126.6035,
+      28.3965
+     ],
+     "widthKm": 1337.885
+    },
+    {
+     "t": 6.81,
+     "center": [
+      127.0,
+      28.0
+     ],
+     "widthKm": 1100
+    }
+   ],
+   "labels": [
+    {
+     "text": "25 minutes earlier",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      121.68623,
+      31.20788
+     ]
+    },
+    {
+     "text": "H-6K bomber: East China Sea",
+     "color": "#F2B01E",
+     "t": 1.0,
+     "at": [
+      121.68623,
+      30.60249
+     ]
+    }
+   ],
+   "clock": "T-25:00",
+   "clockLabel": "BEFORE FIRST LAUNCH",
+   "clockRate": 20,
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      123.0,
+      30.0
+     ],
+     "label": "H-6K (simulated)",
+     "kind": "base",
+     "t": 0.6,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "base",
+     "t": 1.4,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-cj20",
+   "type": "region",
+   "start": 243.463,
+   "end": 247.29,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     126.0,
+     28.0
+    ],
+    "widthKm": 1200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      126.0,
+      28.0
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 3.83,
+     "center": [
+      127.0,
+      27.0
+     ],
+     "widthKm": 800
+    }
+   ],
+   "labels": [
+    {
+     "text": "One CJ-20 cruise missile",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "at": [
+      122.9478,
+      29.57706
+     ]
+    }
+   ],
+   "clock": "T-24:00",
+   "clockLabel": "BEFORE FIRST LAUNCH",
+   "clockRate": 20,
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       123.0,
+       30.0
+      ],
+      [
+       127.769,
+       26.352
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 8.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "CJ-20",
+     "size": 2.6,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      123.0,
+      30.0
+     ],
+     "to": [
+      127.769,
+      26.352
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 8.0
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-last",
+   "type": "region",
+   "start": 247.29,
+   "end": 251.697,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     126.0,
+     27.5
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      126.0,
+      27.5
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 4.41,
+     "center": [
+      127.5,
+      27.0
+     ],
+     "widthKm": 500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Subsonic: timed to arrive last",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      123.87325,
+      28.60394
+     ]
+    }
+   ],
+   "clock": "T-23:00",
+   "clockLabel": "BEFORE FIRST LAUNCH",
+   "clockRate": 20,
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-six+one",
+   "type": "region",
+   "start": 251.697,
+   "end": 260.417,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     124.0,
+     28.0
+    ],
+    "widthKm": 1800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      124.0,
+      28.0
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 4.33,
+     "center": [
+      123.0,
+      29.0
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 5.65,
+     "center": [
+      123.0,
+      29.0
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 8.72,
+     "center": [
+      125.0,
+      28.0
+     ],
+     "widthKm": 2400
+    }
+   ],
+   "labels": [
+    {
+     "text": "An H-6K carries up to six",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      119.4217,
+      30.36558
+     ],
+     "until": 4.53
+    },
+    {
+     "text": "High risk of detection",
+     "color": "#FFD23F",
+     "t": 4.53,
+     "at": [
+      117.45373,
+      31.8387
+     ]
+    },
+    {
+     "text": "We use one",
+     "color": "#FFFFFF",
+     "t": 7.73,
+     "at": [
+      117.45373,
+      31.06035
+     ]
+    }
+   ],
+   "clock": "T-22:00",
+   "clockLabel": "BEFORE FIRST LAUNCH",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      123.0,
+      30.0
+     ],
+     "label": "H-6K (simulated)",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      123.0,
+      30.0
+     ],
+     "label": "H-6K (simulated)",
+     "kind": "base",
+     "t": 4.43,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-report",
+   "type": "region",
+   "start": 260.417,
+   "end": 263.23,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     144.8,
+     13.5
+    ],
+    "widthKm": 600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.8,
+      13.5
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 2.81,
+     "center": [
+      144.85,
+      13.55
+     ],
+     "widthKm": 260
+    }
+   ],
+   "labels": [
+    {
+     "text": "One report, 2020",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      143.60825,
+      14.17813
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "source": "Task & Purpose, 2022 (single source)"
+  },
+  {
+   "id": "c3-video",
+   "type": "region",
+   "start": 263.23,
+   "end": 270.706,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     144.85,
+     13.55
+    ],
+    "widthKm": 260
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.85,
+      13.55
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 7.48,
+     "center": [
+      144.9,
+      13.57
+     ],
+     "widthKm": 170
+    }
+   ],
+   "labels": [
+    {
+     "text": "Chinese air force video",
+     "color": "#F2B01E",
+     "t": 0.2,
+     "at": [
+      144.254,
+      13.88907
+     ]
+    },
+    {
+     "text": "An airfield laid out like Andersen",
+     "color": "#FFFFFF",
+     "t": 4.38,
+     "at": [
+      144.254,
+      13.7961
+     ]
+    }
+   ],
+   "clock": "",
+   "source": "Task & Purpose, 2022 (single source)",
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-two",
+   "type": "region",
+   "start": 270.706,
+   "end": 278.17,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     128.0,
+     22.0
+    ],
+    "widthKm": 5600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      128.0,
+      22.0
+     ],
+     "widthKm": 5600
+    },
+    {
+     "t": 4.23,
+     "center": [
+      129.134,
+      21.433
+     ],
+     "widthKm": 5032.976
+    },
+    {
+     "t": 7.46,
+     "center": [
+      130.0,
+      21.0
+     ],
+     "widthKm": 4600
+    }
+   ],
+   "labels": [
+    {
+     "text": "Minute zero",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "at": [
+      113.17644,
+      30.04298
+     ]
+    },
+    {
+     "text": "Two DF-26s for Andersen",
+     "color": "#FFFFFF",
+     "t": 1.0,
+     "at": [
+      113.17644,
+      27.83765
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "MINUTE ZERO",
+   "clockRate": 40,
+   "ships": [
+    {
+     "path": [
+      [
+       114.5,
+       25.0
+      ],
+      [
+       144.924,
+       13.576
+      ]
+     ],
+     "t0": 0.4,
+     "t1": 5.0,
+     "kind": "pla",
+     "color": "#FFD23F",
+     "label": "DF-26",
+     "size": 2.6,
+     "t": 0.4,
+     "wake": true
+    },
+    {
+     "path": [
+      [
+       111.0,
+       27.5
+      ],
+      [
+       144.924,
+       13.576
+      ]
+     ],
+     "t0": 0.4,
+     "t1": 5.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "DF-26",
+     "size": 2.6,
+     "t": 0.4,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      114.5,
+      25.0
+     ],
+     "to": [
+      144.924,
+      13.576
+     ],
+     "color": "#FFD23F",
+     "dashed": true,
+     "t0": 0.4,
+     "t1": 5.0
+    },
+    {
+     "from": [
+      111.0,
+      27.5
+     ],
+     "to": [
+      144.924,
+      13.576
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.4,
+     "t1": 5.0
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-types",
+   "type": "region",
+   "start": 278.17,
+   "end": 282.45,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     130.0,
+     21.0
+    ],
+    "widthKm": 4600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      130.0,
+      21.0
+     ],
+     "widthKm": 4600
+    },
+    {
+     "t": 4.28,
+     "center": [
+      135.0,
+      19.0
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "labels": [
+    {
+     "text": "One conventional warhead",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "at": [
+      119.03067,
+      26.99281
+     ]
+    },
+    {
+     "text": "One nuclear warhead",
+     "color": "#FFD23F",
+     "t": 2.74,
+     "at": [
+      119.03067,
+      25.34962
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "clock": "T+02:00",
+   "clockLabel": "MINUTE ZERO",
+   "clockRate": 40,
+   "ships": [
+    {
+     "path": [
+      [
+       143.403,
+       14.147
+      ],
+      [
+       144.924,
+       13.576
+      ]
+     ],
+     "t0": 0.05,
+     "t1": 3.0,
+     "kind": "pla",
+     "color": "#FFD23F",
+     "label": "Nuclear",
+     "size": 2.6,
+     "t": 0.05,
+     "wake": true
+    },
+    {
+     "path": [
+      [
+       143.228,
+       14.272
+      ],
+      [
+       144.924,
+       13.576
+      ]
+     ],
+     "t0": 0.05,
+     "t1": 3.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Conventional",
+     "size": 2.6,
+     "t": 0.05,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      143.403,
+      14.147
+     ],
+     "to": [
+      144.924,
+      13.576
+     ],
+     "color": "#FFD23F",
+     "dashed": true,
+     "t0": 0.05,
+     "t1": 3.0
+    },
+    {
+     "from": [
+      143.228,
+      14.272
+     ],
+     "to": [
+      144.924,
+      13.576
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.05,
+     "t1": 3.0
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-cep",
+   "type": "city",
+   "start": 282.45,
+   "end": 288.69,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 5.0
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 5.0
+    },
+    {
+     "t": 6.24,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 3.0
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "text": "Why so many missiles?",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "at": [
+      144.91291,
+      13.58231
+     ]
+    },
+    {
+     "text": "Accuracy",
+     "color": "#FFD23F",
+     "t": 2.49,
+     "at": [
+      144.91291,
+      13.58068
+     ]
+    }
+   ],
+   "clock": ""
+  },
+  {
+   "id": "c3-cep2",
+   "type": "city",
+   "start": 288.69,
+   "end": 298.674,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 3.0
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 3.0
+    },
+    {
+     "t": 9.98,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 2.2
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.15,
+     "label": "150 m",
+     "color": "#FFFFFF",
+     "t": 0.5,
+     "angle": 300
+    },
+    {
+     "km": 0.45,
+     "label": "450 m",
+     "color": "#FFFFFF",
+     "t": 3.0,
+     "angle": 225
+    }
+   ],
+   "labels": [
+    {
+     "text": "Analysts' estimate of error",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "at": [
+      144.91679,
+      13.5801
+     ]
+    },
+    {
+     "text": "A planner needs many missiles",
+     "color": "#FFFFFF",
+     "t": 5.74,
+     "at": [
+      144.91679,
+      13.57904
+     ]
+    }
+   ],
+   "clock": "",
+   "source": "CSIS Missile Threat; USCC staff report summary"
+  },
+  {
+   "id": "c3-rand",
+   "type": "bars",
+   "start": 298.674,
+   "end": 304.674,
+   "tag": "REAL DATA",
+   "title": "China's intermediate-range missiles",
+   "sub": "RAND, July 2025: stockpile estimate",
+   "source": "RAND, July 2025",
+   "bars": [
+    {
+     "label": "2012",
+     "value": 20,
+     "display": "about 20",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "2023",
+     "value": 500,
+     "display": "about 500",
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c3-notkept",
+   "type": "region",
+   "start": 304.674,
+   "end": 313.835,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     135.0,
+     20.0
+    ],
+    "widthKm": 3600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      135.0,
+      20.0
+     ],
+     "widthKm": 3600
+    },
+    {
+     "t": 5.08,
+     "center": [
+      133.3362,
+      21.1092
+     ],
+     "widthKm": 3156.332
+    },
+    {
+     "t": 9.16,
+     "center": [
+      132.0,
+      22.0
+     ],
+     "widthKm": 2800
+    }
+   ],
+   "labels": [
+    {
+     "text": "Air base defence 'has not kept pace'",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      125.82276,
+      25.04658
+     ]
+    },
+    {
+     "text": "RAND, July 2025",
+     "color": "#FFFFFF",
+     "t": 1.0,
+     "at": [
+      125.82276,
+      23.66284
+     ]
+    }
+   ],
+   "clock": "",
+   "source": "RAND, July 2025",
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-ours",
+   "type": "stamp",
+   "start": 313.835,
+   "end": 316.835,
+   "tag": "SIMULATION",
+   "text": "OUR CHOICE, NOT A FORECAST",
+   "line": "",
+   "color": "#FFD23F"
+  },
+  {
+   "id": "c3-nfu",
+   "type": "region",
+   "start": 316.835,
+   "end": 321.66999999999996,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     112.0,
+     32.0
+    ],
+    "widthKm": 4400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      112.0,
+      32.0
+     ],
+     "widthKm": 4400
+    },
+    {
+     "t": 4.83,
+     "center": [
+      116.0,
+      30.0
+     ],
+     "widthKm": 3600
+    }
+   ],
+   "labels": [
+    {
+     "text": "China's declared policy: no first use",
+     "color": "#F2B01E",
+     "t": 0.2,
+     "at": [
+      99.28877,
+      38.30822
+     ]
+    },
+    {
+     "text": "The second missile is our choice",
+     "color": "#FFD23F",
+     "t": 1.2,
+     "at": [
+      99.28877,
+      36.57855
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c3-10kt",
+   "type": "number",
+   "start": 321.66999999999996,
+   "end": 326.06999999999994,
+   "tag": "SIMULATION",
+   "value": "10 KT",
+   "label": "our nuclear warhead",
+   "sub": "the top of the Pentagon's below-10 kt estimate",
+   "color": "#FFD23F",
+   "countTo": 10,
+   "suffix": " KT",
+   "source": "Pentagon China report, 2025"
+  },
+  {
+   "id": "c3-nag",
+   "type": "region",
+   "start": 326.06999999999994,
+   "end": 331.79,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     140.0,
+     33.0
+    ],
+    "widthKm": 3400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      140.0,
+      33.0
+     ],
+     "widthKm": 3400
+    },
+    {
+     "t": 2.96,
+     "center": [
+      136.3776,
+      33.0
+     ],
+     "widthKm": 2882.517
+    },
+    {
+     "t": 5.72,
+     "center": [
+      133.0,
+      33.0
+     ],
+     "widthKm": 2400
+    }
+   ],
+   "labels": [
+    {
+     "text": "About half of Nagasaki",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      130.68131,
+      37.57346
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ]
+  },
+  {
+   "id": "c3-pent",
+   "type": "region",
+   "start": 331.79,
+   "end": 336.611,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     118.0,
+     30.0
+    ],
+    "widthKm": 3200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      118.0,
+      30.0
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 4.82,
+     "center": [
+      122.0,
+      28.0
+     ],
+     "widthKm": 2400
+    }
+   ],
+   "labels": [
+    {
+     "text": "Pentagon: China probably pursuing",
+     "color": "#6EA8FF",
+     "t": 0.2,
+     "at": [
+      109.28684,
+      34.41575
+     ]
+    },
+    {
+     "text": "low-yield nuclear warheads",
+     "color": "#FFD23F",
+     "t": 1.0,
+     "at": [
+      109.28684,
+      33.20498
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ],
+   "source": "Pentagon China report, 2025"
+  },
+  {
+   "id": "c3-wargames",
+   "type": "region",
+   "start": 336.611,
+   "end": 344.87,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     138.0,
+     22.0
+    ],
+    "widthKm": 4600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      138.0,
+      22.0
+     ],
+     "widthKm": 4600
+    },
+    {
+     "t": 5.03,
+     "center": [
+      135.5642,
+      23.2179
+     ],
+     "widthKm": 4112.833
+    },
+    {
+     "t": 8.26,
+     "center": [
+      134.0,
+      24.0
+     ],
+     "widthKm": 3800
+    }
+   ],
+   "labels": [
+    {
+     "text": "Pentagon-sponsored war games",
+     "color": "#6EA8FF",
+     "t": 0.2,
+     "at": [
+      125.79237,
+      28.62363
+     ]
+    },
+    {
+     "text": "China opens by hitting Guam's bases",
+     "color": "#FFD23F",
+     "t": 1.6,
+     "at": [
+      125.79237,
+      26.80747
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen",
+     "kind": "base",
+     "t": 0.6,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "base",
+     "t": 1.2,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      139.67,
+      35.29
+     ],
+     "label": "Yokosuka",
+     "kind": "base",
+     "t": 1.8,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-cnas",
+   "type": "region",
+   "start": 344.87,
+   "end": 354.381,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     134.0,
+     24.0
+    ],
+    "widthKm": 3800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      134.0,
+      24.0
+     ],
+     "widthKm": 3800
+    },
+    {
+     "t": 9.51,
+     "center": [
+      140.0,
+      21.0
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "labels": [
+    {
+     "text": "CNAS 'Dangerous Straits', 2022",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      123.9701,
+      29.36199
+     ]
+    },
+    {
+     "text": "China struck bases in Japan and Guam",
+     "color": "#FF3B3B",
+     "t": 4.96,
+     "at": [
+      123.9701,
+      27.89177
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "source": "CNAS Dangerous Straits, 2022",
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "base",
+     "t": 0.7,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      139.67,
+      35.29
+     ],
+     "label": "Yokosuka",
+     "kind": "base",
+     "t": 1.1,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-added",
+   "type": "region",
+   "start": 354.381,
+   "end": 358.379,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     140.0,
+     21.0
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      140.0,
+      21.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 4.0,
+     "center": [
+      145.0,
+      17.0
+     ],
+     "widthKm": 2000
+    }
+   ],
+   "labels": [
+    {
+     "text": "We added one nuclear shot",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      132.78334,
+      24.94264
+     ]
+    },
+    {
+     "text": "To test the threshold",
+     "color": "#FFFFFF",
+     "t": 1.91,
+     "at": [
+      132.78334,
+      23.86159
+     ]
+    }
+   ],
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FFD23F",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-risk",
+   "type": "region",
+   "start": 358.379,
+   "end": 360.99,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     130.0,
+     22.0
+    ],
+    "widthKm": 4600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      130.0,
+      22.0
+     ],
+     "widthKm": 4600
+    },
+    {
+     "t": 2.61,
+     "center": [
+      136.0,
+      19.0
+     ],
+     "widthKm": 3400
+    }
+   ],
+   "labels": [
+    {
+     "text": "A defender cannot tell them apart",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      118.37368,
+      28.30822
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "clock": "T+04:00",
+   "clockLabel": "AFTER FIRST LAUNCH",
+   "clockRate": 30,
+   "ships": [
+    {
+     "path": [
+      [
+       114.5,
+       25.0
+      ],
+      [
+       144.924,
+       13.576
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 4.0,
+     "kind": "pla",
+     "color": "#FFD23F",
+     "label": "?",
+     "size": 2.6,
+     "t": 0.2,
+     "wake": true
+    },
+    {
+     "path": [
+      [
+       111.0,
+       27.5
+      ],
+      [
+       144.924,
+       13.576
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 4.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "?",
+     "size": 2.6,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      114.5,
+      25.0
+     ],
+     "to": [
+      144.924,
+      13.576
+     ],
+     "color": "#FFD23F",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 4.0
+    },
+    {
+     "from": [
+      111.0,
+      27.5
+     ],
+     "to": [
+      144.924,
+      13.576
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 4.0
+    }
+   ]
+  },
+  {
+   "id": "c3-look",
+   "type": "region",
+   "start": 360.99,
+   "end": 367.94,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     136.0,
+     19.0
+    ],
+    "widthKm": 3400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      136.0,
+      19.0
+     ],
+     "widthKm": 3400
+    },
+    {
+     "t": 3.57,
+     "center": [
+      138.0547,
+      17.9727
+     ],
+     "widthKm": 2834.964
+    },
+    {
+     "t": 6.95,
+     "center": [
+      140.0,
+      17.0
+     ],
+     "widthKm": 2300
+    }
+   ],
+   "labels": [
+    {
+     "text": "A conventional strike can look nuclear",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      127.87688,
+      23.49461
+     ]
+    }
+   ],
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-seven",
+   "type": "region",
+   "start": 367.94,
+   "end": 374.97,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     128.0,
+     26.0
+    ],
+    "widthKm": 5800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      128.0,
+      26.0
+     ],
+     "widthKm": 5800
+    },
+    {
+     "t": 7.03,
+     "center": [
+      130.0,
+      24.0
+     ],
+     "widthKm": 5200
+    }
+   ],
+   "labels": [
+    {
+     "text": "Seven weapons, one nuclear",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      111.50886,
+      34.6738
+     ]
+    },
+    {
+     "text": "The first to land is not on Guam",
+     "color": "#FFFFFF",
+     "t": 2.79,
+     "at": [
+      111.50886,
+      32.2955
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       119.5,
+       29.0
+      ],
+      [
+       127.769,
+       26.352
+      ]
+     ],
+     "t0": 0.3,
+     "t1": 5.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 2.6,
+     "t": 0.3,
+     "wake": true
+    },
+    {
+     "path": [
+      [
+       117.0,
+       25.1
+      ],
+      [
+       127.769,
+       26.352
+      ]
+     ],
+     "t0": 0.7,
+     "t1": 5.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 2.6,
+     "t": 0.7,
+     "wake": true
+    },
+    {
+     "path": [
+      [
+       118.5,
+       36.0
+      ],
+      [
+       139.67,
+       35.29
+      ]
+     ],
+     "t0": 1.1,
+     "t1": 5.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 2.6,
+     "t": 1.1,
+     "wake": true
+    },
+    {
+     "path": [
+      [
+       114.5,
+       25.0
+      ],
+      [
+       144.924,
+       13.576
+      ]
+     ],
+     "t0": 1.5,
+     "t1": 5.0,
+     "kind": "pla",
+     "color": "#FFD23F",
+     "size": 2.6,
+     "t": 1.5,
+     "wake": true
+    },
+    {
+     "path": [
+      [
+       118.0,
+       28.5
+      ],
+      [
+       144.65,
+       13.43
+      ]
+     ],
+     "t0": 1.9,
+     "t1": 5.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 2.6,
+     "t": 1.9,
+     "wake": true
+    },
+    {
+     "path": [
+      [
+       111.0,
+       27.5
+      ],
+      [
+       144.924,
+       13.576
+      ]
+     ],
+     "t0": 2.3,
+     "t1": 5.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 2.6,
+     "t": 2.3,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      119.5,
+      29.0
+     ],
+     "to": [
+      127.769,
+      26.352
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.3,
+     "t1": 5.0
+    },
+    {
+     "from": [
+      117.0,
+      25.1
+     ],
+     "to": [
+      127.769,
+      26.352
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.7,
+     "t1": 5.0
+    },
+    {
+     "from": [
+      118.5,
+      36.0
+     ],
+     "to": [
+      139.67,
+      35.29
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 1.1,
+     "t1": 5.0
+    },
+    {
+     "from": [
+      114.5,
+      25.0
+     ],
+     "to": [
+      144.924,
+      13.576
+     ],
+     "color": "#FFD23F",
+     "dashed": true,
+     "t0": 1.5,
+     "t1": 5.0
+    },
+    {
+     "from": [
+      118.0,
+      28.5
+     ],
+     "to": [
+      144.65,
+      13.43
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 1.9,
+     "t1": 5.0
+    },
+    {
+     "from": [
+      111.0,
+      27.5
+     ],
+     "to": [
+      144.924,
+      13.576
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 2.3,
+     "t1": 5.0
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "base",
+     "t": 0.6,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      139.67,
+      35.29
+     ],
+     "label": "Yokosuka",
+     "kind": "base",
+     "t": 0.9,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-card",
+   "type": "chapter",
+   "start": 374.97,
+   "end": 378.47,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 04",
+   "title": "The first nineteen minutes"
+  },
+  {
+   "id": "c4-m1+m2",
+   "type": "region",
+   "start": 378.47,
+   "end": 387.91,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     130.0,
+     22.0
+    ],
+    "widthKm": 5400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      130.0,
+      22.0
+     ],
+     "widthKm": 5400
+    },
+    {
+     "t": 2.7,
+     "center": [
+      134.0,
+      18.0
+     ],
+     "widthKm": 4200
+    },
+    {
+     "t": 4.2,
+     "center": [
+      126.0,
+      30.0
+     ],
+     "widthKm": 3400
+    },
+    {
+     "t": 9.44,
+     "center": [
+      131.0,
+      29.0
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "labels": [
+    {
+     "text": "Minute one",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "at": [
+      116.04842,
+      29.56987
+     ],
+     "until": 2.9
+    },
+    {
+     "text": "A DF-26 for Naval Base Guam",
+     "color": "#FF3B3B",
+     "t": 0.8,
+     "at": [
+      116.04842,
+      27.49426
+     ],
+     "until": 2.9
+    },
+    {
+     "text": "Minute two",
+     "color": "#FFD23F",
+     "t": 2.8,
+     "at": [
+      116.04211,
+      35.04658
+     ]
+    },
+    {
+     "text": "Two more DF-26s",
+     "color": "#FFFFFF",
+     "t": 3.6,
+     "at": [
+      116.04211,
+      33.66284
+     ]
+    },
+    {
+     "text": "One for Kadena",
+     "color": "#FF3B3B",
+     "t": 7.0,
+     "at": [
+      116.04211,
+      32.2791
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "clock": "T+01:00",
+   "clockLabel": "AFTER FIRST LAUNCH",
+   "clockRate": 20,
+   "ships": [
+    {
+     "path": [
+      [
+       118.0,
+       28.5
+      ],
+      [
+       144.65,
+       13.43
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 2.6,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "DF-26",
+     "size": 2.6,
+     "t": 0.2,
+     "wake": true
+    },
+    {
+     "path": [
+      [
+       119.5,
+       29.0
+      ],
+      [
+       127.769,
+       26.352
+      ]
+     ],
+     "t0": 3.0,
+     "t1": 7.2,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "DF-26",
+     "size": 2.6,
+     "t": 3.0,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      118.0,
+      28.5
+     ],
+     "to": [
+      144.65,
+      13.43
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 2.6
+    },
+    {
+     "from": [
+      119.5,
+      29.0
+     ],
+     "to": [
+      127.769,
+      26.352
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 3.0,
+     "t1": 7.2
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.65,
+      13.43
+     ],
+     "label": "Naval Base Guam",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "base",
+     "t": 3.2,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-m2b+m3",
+   "type": "region",
+   "start": 387.91,
+   "end": 394.77000000000004,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     130.0,
+     33.0
+    ],
+    "widthKm": 3200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      130.0,
+      33.0
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 2.2,
+     "center": [
+      135.0,
+      34.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 3.6,
+     "center": [
+      122.0,
+      27.0
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 6.86,
+     "center": [
+      125.0,
+      26.5
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "labels": [
+    {
+     "text": "One for Yokosuka, Japan",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "at": [
+      121.00265,
+      37.41575
+     ],
+     "until": 2.4
+    },
+    {
+     "text": "US Navy base",
+     "color": "#6EA8FF",
+     "t": 1.2,
+     "at": [
+      121.00265,
+      36.20498
+     ],
+     "until": 2.4
+    },
+    {
+     "text": "Minute three",
+     "color": "#FFD23F",
+     "t": 2.3,
+     "at": [
+      116.4045,
+      29.91755
+     ]
+    },
+    {
+     "text": "A DF-17 hypersonic glider",
+     "color": "#FF3B3B",
+     "t": 5.06,
+     "at": [
+      116.4045,
+      29.11758
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+03:00",
+   "clockLabel": "AFTER FIRST LAUNCH",
+   "clockRate": 20,
+   "ships": [
+    {
+     "path": [
+      [
+       118.5,
+       36.0
+      ],
+      [
+       139.67,
+       35.29
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 3.8,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "DF-26",
+     "size": 2.6,
+     "t": 0.1,
+     "wake": true
+    },
+    {
+     "path": [
+      [
+       117.0,
+       25.1
+      ],
+      [
+       127.769,
+       26.352
+      ]
+     ],
+     "t0": 2.5,
+     "t1": 8.2,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "DF-17",
+     "size": 2.6,
+     "t": 2.5,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      118.5,
+      36.0
+     ],
+     "to": [
+      139.67,
+      35.29
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.1,
+     "t1": 3.8
+    },
+    {
+     "from": [
+      117.0,
+      25.1
+     ],
+     "to": [
+      127.769,
+      26.352
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 2.5,
+     "t1": 8.2
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      139.67,
+      35.29
+     ],
+     "label": "Yokosuka",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      117.0,
+      25.1
+     ],
+     "label": "Fujian (simulated)",
+     "kind": "base",
+     "t": 2.5,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "base",
+     "t": 3.2,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-m3b",
+   "type": "region",
+   "start": 394.77000000000004,
+   "end": 397.827,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     125.0,
+     26.5
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      125.0,
+      26.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 3.06,
+     "center": [
+      127.0,
+      26.3
+     ],
+     "widthKm": 700
+    }
+   ],
+   "labels": [
+    {
+     "text": "Conventional",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      121.68755,
+      28.23476
+     ]
+    },
+    {
+     "text": "Fujian to Kadena",
+     "color": "#F2B01E",
+     "t": 0.8,
+     "at": [
+      121.68755,
+      27.7591
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "clock": "T+04:00",
+   "clockLabel": "AFTER FIRST LAUNCH",
+   "clockRate": 20,
+   "cities": [
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-m8",
+   "type": "region",
+   "start": 397.827,
+   "end": 405.208,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     124.0,
+     27.0
+    ],
+    "widthKm": 1400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      124.0,
+      27.0
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 7.38,
+     "center": [
+      127.769,
+      26.352
+     ],
+     "widthKm": 360
+    }
+   ],
+   "labels": [
+    {
+     "text": "Minute eight",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "at": [
+      121.33836,
+      28.38781
+     ]
+    },
+    {
+     "text": "The first impact",
+     "color": "#FF3B3B",
+     "t": 0.9,
+     "at": [
+      121.33836,
+      28.00728
+     ]
+    },
+    {
+     "text": "DF-26: six minutes of flight",
+     "color": "#FFFFFF",
+     "t": 5.48,
+     "at": [
+      121.33836,
+      27.62675
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "clock": "T+06:00",
+   "clockLabel": "AFTER FIRST LAUNCH",
+   "clockRate": 24,
+   "ships": [
+    {
+     "path": [
+      [
+       119.5,
+       29.0
+      ],
+      [
+       127.769,
+       26.352
+      ]
+     ],
+     "t0": 0.3,
+     "t1": 4.6,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "DF-26",
+     "size": 2.6,
+     "t": 0.3,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      119.5,
+      29.0
+     ],
+     "to": [
+      127.769,
+      26.352
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.3,
+     "t1": 4.6
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "km": 8,
+     "label": "Impact",
+     "color": "#FF7A1A",
+     "t": 4.6,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-patriot+866",
+   "type": "region",
+   "start": 405.208,
+   "end": 413.715,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     127.769,
+     26.352
+    ],
+    "widthKm": 360
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      127.769,
+      26.352
+     ],
+     "widthKm": 360
+    },
+    {
+     "t": 3.02,
+     "center": [
+      127.769,
+      26.352
+     ],
+     "widthKm": 220
+    },
+    {
+     "t": 4.52,
+     "center": [
+      123.0,
+      27.5
+     ],
+     "widthKm": 1600
+    },
+    {
+     "t": 8.5,
+     "center": [
+      124.0,
+      27.2
+     ],
+     "widthKm": 1100
+    }
+   ],
+   "labels": [
+    {
+     "text": "We do not count which Patriot",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      126.89684,
+      26.80935
+     ],
+     "until": 3.22
+    },
+    {
+     "text": "interceptors work",
+     "color": "#6EA8FF",
+     "t": 1.0,
+     "at": [
+      126.89684,
+      26.68394
+     ],
+     "until": 3.22
+    },
+    {
+     "text": "Launcher about 866 km away",
+     "color": "#FFD23F",
+     "t": 3.22,
+     "at": [
+      118.8984,
+      29.62902
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "clock": "T+08:00",
+   "clockLabel": "AFTER FIRST LAUNCH",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "km": 8,
+     "label": "",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      119.5,
+      29.0
+     ],
+     "label": "Launcher (simulated)",
+     "kind": "base",
+     "t": 3.22,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "base",
+     "t": 3.52,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      119.5,
+      29.0
+     ],
+     "to": [
+      127.769,
+      26.352
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 3.22,
+     "t1": 5.22,
+     "label": "866 km"
+    }
+   ]
+  },
+  {
+   "id": "c4-m10",
+   "type": "region",
+   "start": 413.715,
+   "end": 419.03,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     128.0,
+     27.5
+    ],
+    "widthKm": 800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      128.0,
+      27.5
+     ],
+     "widthKm": 800
+    },
+    {
+     "t": 5.31,
+     "center": [
+      127.769,
+      26.352
+     ],
+     "widthKm": 300
+    }
+   ],
+   "labels": [
+    {
+     "text": "A little after minute ten",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      126.32898,
+      28.36738
+     ]
+    },
+    {
+     "text": "DF-17 lands at Kadena",
+     "color": "#FF3B3B",
+     "t": 1.2,
+     "at": [
+      126.32898,
+      28.12955
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "clock": "T+09:30",
+   "clockLabel": "AFTER FIRST LAUNCH",
+   "clockRate": 6,
+   "ships": [
+    {
+     "path": [
+      [
+       117.0,
+       25.1
+      ],
+      [
+       127.769,
+       26.352
+      ]
+     ],
+     "t0": 0.3,
+     "t1": 4.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "DF-17",
+     "size": 2.6,
+     "t": 0.3,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      117.0,
+      25.1
+     ],
+     "to": [
+      127.769,
+      26.352
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.3,
+     "t1": 4.0
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "km": 6,
+     "label": "Impact",
+     "color": "#FF7A1A",
+     "t": 4.0,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-m10b",
+   "type": "region",
+   "start": 419.03,
+   "end": 424.69,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     127.769,
+     26.352
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      127.769,
+      26.352
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 2.93,
+     "center": [
+      127.769,
+      26.352
+     ],
+     "widthKm": 243.057
+    },
+    {
+     "t": 5.66,
+     "center": [
+      127.769,
+      26.352
+     ],
+     "widthKm": 190
+    }
+   ],
+   "labels": [
+    {
+     "text": "Seven minutes of flight",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      127.03217,
+      26.73838
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "clock": "T+10:20",
+   "clockLabel": "AFTER FIRST LAUNCH",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "km": 6,
+     "label": "",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-m11",
+   "type": "region",
+   "start": 424.69,
+   "end": 427.67,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     137.0,
+     34.0
+    ],
+    "widthKm": 1000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      137.0,
+      34.0
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 2.98,
+     "center": [
+      139.67,
+      35.29
+     ],
+     "widthKm": 300
+    }
+   ],
+   "labels": [
+    {
+     "text": "A little before minute eleven",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      134.88706,
+      35.02509
+     ]
+    },
+    {
+     "text": "DF-26 lands at Yokosuka",
+     "color": "#FF3B3B",
+     "t": 1.2,
+     "at": [
+      134.88706,
+      34.74401
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "clock": "T+10:20",
+   "clockLabel": "AFTER FIRST LAUNCH",
+   "clockRate": 6,
+   "ships": [
+    {
+     "path": [
+      [
+       118.5,
+       36.0
+      ],
+      [
+       139.67,
+       35.29
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 1.8,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "DF-26",
+     "size": 2.6,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      118.5,
+      36.0
+     ],
+     "to": [
+      139.67,
+      35.29
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 1.8
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      139.67,
+      35.29
+     ],
+     "km": 6,
+     "label": "Impact",
+     "color": "#FF7A1A",
+     "t": 1.8,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      139.67,
+      35.29
+     ],
+     "label": "Yokosuka",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-home+sea",
+   "type": "region",
+   "start": 427.67,
+   "end": 434.42,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     139.67,
+     35.29
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      139.67,
+      35.29
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 3.7,
+     "center": [
+      139.9,
+      35.0
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 4.61,
+     "center": [
+      139.9,
+      35.0
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 6.75,
+     "center": [
+      141.0,
+      32.0
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Home port of the only US carrier based in Japan",
+     "color": "#6EA8FF",
+     "t": 0.2,
+     "at": [
+      138.18426,
+      35.99967
+     ],
+     "until": 3.9
+    },
+    {
+     "text": "We assume the carrier is at sea",
+     "color": "#FFD23F",
+     "t": 3.9,
+     "at": [
+      136.4456,
+      36.65591
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "clock": "T+10:42",
+   "clockLabel": "AFTER FIRST LAUNCH",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      139.67,
+      35.29
+     ],
+     "km": 6,
+     "label": "",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      139.67,
+      35.29
+     ],
+     "label": "Yokosuka",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      139.67,
+      35.29
+     ],
+     "label": "Yokosuka",
+     "kind": "base",
+     "t": 3.8,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       139.67,
+       35.29
+      ],
+      [
+       142.5,
+       31.0
+      ]
+     ],
+     "t0": 3.75,
+     "t1": 3.9,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "label": "Carrier",
+     "size": 2.8,
+     "t": 3.75,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "c4-far+14",
+   "type": "region",
+   "start": 434.42,
+   "end": 441.908,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     130.0,
+     21.0
+    ],
+    "widthKm": 5600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      130.0,
+      21.0
+     ],
+     "widthKm": 5600
+    },
+    {
+     "t": 3.69,
+     "center": [
+      134.0,
+      19.0
+     ],
+     "widthKm": 4600
+    },
+    {
+     "t": 4.83,
+     "center": [
+      134.0,
+      19.0
+     ],
+     "widthKm": 4600
+    },
+    {
+     "t": 7.49,
+     "center": [
+      138.0,
+      17.0
+     ],
+     "widthKm": 3200
+    }
+   ],
+   "labels": [
+    {
+     "text": "Guam is farther",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      115.27801,
+      29.04298
+     ],
+     "until": 3.89
+    },
+    {
+     "text": "12.7 to 14.5 minutes of flight",
+     "color": "#FFD23F",
+     "t": 3.89,
+     "at": [
+      122.88415,
+      25.15052
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ],
+   "clock": "T+10:42",
+   "clockLabel": "AFTER FIRST LAUNCH",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      118.0,
+      28.5
+     ],
+     "label": "12.7 min",
+     "kind": "base",
+     "t": 3.99,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      114.5,
+      25.0
+     ],
+     "label": "13.3 min",
+     "kind": "base",
+     "t": 4.39,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      111.0,
+      27.5
+     ],
+     "label": "14.5 min",
+     "kind": "base",
+     "t": 4.79,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 3.79,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      118.0,
+      28.5
+     ],
+     "to": [
+      144.65,
+      13.43
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 0.3,
+     "t1": 3.0
+    },
+    {
+     "from": [
+      114.5,
+      25.0
+     ],
+     "to": [
+      144.924,
+      13.576
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 0.6,
+     "t1": 3.2
+    },
+    {
+     "from": [
+      111.0,
+      27.5
+     ],
+     "to": [
+      144.924,
+      13.576
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 3.99,
+     "t1": 6.89
+    }
+   ]
+  },
+  {
+   "id": "c4-m13",
+   "type": "region",
+   "start": 441.908,
+   "end": 448.13,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     140.0,
+     18.0
+    ],
+    "widthKm": 2200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      140.0,
+      18.0
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 6.22,
+     "center": [
+      145.0,
+      14.5
+     ],
+     "widthKm": 800
+    }
+   ],
+   "labels": [
+    {
+     "text": "Minute thirteen",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      135.74957,
+      20.36558
+     ]
+    },
+    {
+     "text": "01:43 in the morning on Guam",
+     "color": "#FFFFFF",
+     "t": 1.4,
+     "at": [
+      135.74957,
+      19.71696
+     ]
+    }
+   ],
+   "highlight": [],
+   "clock": "T+12:00",
+   "clockLabel": "AFTER FIRST LAUNCH",
+   "clockRate": 22,
+   "ships": [
+    {
+     "path": [
+      [
+       114.5,
+       25.0
+      ],
+      [
+       144.924,
+       13.576
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 6.42,
+     "kind": "pla",
+     "color": "#FFD23F",
+     "label": "DF-26",
+     "size": 2.6,
+     "t": 0.1,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      114.5,
+      25.0
+     ],
+     "to": [
+      144.924,
+      13.576
+     ],
+     "color": "#FFD23F",
+     "dashed": true,
+     "t0": 0.1,
+     "t1": 6.42
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-flash",
+   "type": "region",
+   "start": 448.13,
+   "end": 453.678,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 5.55,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 180
+    }
+   ],
+   "labels": [
+    {
+     "text": "A DF-26 detonates over Andersen",
+     "color": "#FFD23F",
+     "t": 0.5,
+     "at": [
+      144.25862,
+      13.95449
+     ]
+    }
+   ],
+   "clock": "T+13:18",
+   "clockLabel": "AFTER FIRST LAUNCH",
+   "clockRate": 0,
+   "burst": {
+    "at": [
+     144.924,
+     13.576
+    ],
+    "t": 0.1,
+    "km": 4,
+    "fade": 4
+   },
+   "rings": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "km": 4,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.7,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "target",
+     "t": 0.5,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-nothing+cold",
+   "type": "region",
+   "start": 453.678,
+   "end": 461.179,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 180
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 180
+    },
+    {
+     "t": 4.73,
+     "center": [
+      144.8,
+      13.5
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 5.56,
+     "center": [
+      144.8,
+      13.5
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 7.5,
+     "center": [
+      144.8,
+      13.5
+     ],
+     "widthKm": 340
+    }
+   ],
+   "labels": [
+    {
+     "text": "Nothing stops it, by assumption",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      144.31407,
+      13.92295
+     ],
+     "until": 4.93
+    },
+    {
+     "text": "One missile against a wave",
+     "color": "#FFD23F",
+     "t": 1.56,
+     "at": [
+      144.31407,
+      13.82782
+     ],
+     "until": 4.93
+    },
+    {
+     "text": "The flash is the cold open",
+     "color": "#FFD23F",
+     "t": 4.93,
+     "at": [
+      143.96855,
+      13.97312
+     ]
+    }
+   ],
+   "clock": "T+13:18",
+   "clockLabel": "AFTER FIRST LAUNCH",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "km": 4,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "km": 4,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 4.78,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "target",
+     "t": 4.83,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-14apra",
+   "type": "region",
+   "start": 461.179,
+   "end": 468.19,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     144.7,
+     13.5
+    ],
+    "widthKm": 340
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.7,
+      13.5
+     ],
+     "widthKm": 340
+    },
+    {
+     "t": 7.01,
+     "center": [
+      144.7,
+      13.45
+     ],
+     "widthKm": 220
+    }
+   ],
+   "labels": [
+    {
+     "text": "About minute fourteen",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      143.92398,
+      13.94158
+     ]
+    },
+    {
+     "text": "Naval Base Guam is hit",
+     "color": "#FF3B3B",
+     "t": 3.19,
+     "at": [
+      143.92398,
+      13.8205
+     ]
+    }
+   ],
+   "clock": "T+13:42",
+   "clockLabel": "AFTER FIRST LAUNCH",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "km": 4,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      144.65,
+      13.43
+     ],
+     "km": 5,
+     "label": "Impact",
+     "color": "#FF7A1A",
+     "t": 3.69,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.65,
+      13.43
+     ],
+     "label": "Naval Base Guam",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-145",
+   "type": "region",
+   "start": 468.19,
+   "end": 472.621,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     144.8,
+     13.5
+    ],
+    "widthKm": 260
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.8,
+      13.5
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 4.43,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 160
+    }
+   ],
+   "labels": [
+    {
+     "text": "Fourteen and a half",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      144.21798,
+      13.83118
+     ]
+    },
+    {
+     "text": "Conventional DF-26 on Andersen",
+     "color": "#FF3B3B",
+     "t": 0.8,
+     "at": [
+      144.21798,
+      13.74037
+     ]
+    }
+   ],
+   "clock": "T+14:30",
+   "clockLabel": "AFTER FIRST LAUNCH",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "km": 4,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "km": 5,
+     "label": "Impact",
+     "color": "#FF7A1A",
+     "t": 1.5,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-cruise",
+   "type": "region",
+   "start": 472.621,
+   "end": 478.037,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     126.0,
+     27.5
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      126.0,
+      27.5
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 5.42,
+     "center": [
+      127.769,
+      26.352
+     ],
+     "widthKm": 300
+    }
+   ],
+   "labels": [
+    {
+     "text": "About minute nineteen",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "at": [
+      124.17707,
+      28.44623
+     ]
+    },
+    {
+     "text": "The CJ-20 reaches Kadena",
+     "color": "#FF3B3B",
+     "t": 1.0,
+     "at": [
+      124.17707,
+      28.18678
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "clock": "T+18:00",
+   "clockLabel": "AFTER FIRST LAUNCH",
+   "clockRate": 12,
+   "ships": [
+    {
+     "path": [
+      [
+       123.0,
+       30.0
+      ],
+      [
+       127.769,
+       26.352
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 3.6,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "CJ-20",
+     "size": 2.6,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      123.0,
+      30.0
+     ],
+     "to": [
+      127.769,
+      26.352
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 3.6
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "km": 6,
+     "label": "Impact",
+     "color": "#FF7A1A",
+     "t": 3.6,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-order1",
+   "type": "region",
+   "start": 478.037,
+   "end": 484.93,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     129.0,
+     26.5
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      129.0,
+      26.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 6.89,
+     "center": [
+      128.0,
+      27.0
+     ],
+     "widthKm": 900
+    }
+   ],
+   "labels": [
+    {
+     "text": "In order of arrival",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "at": [
+      125.38642,
+      28.39247
+     ]
+    },
+    {
+     "text": "1  DF-26 at Kadena",
+     "color": "#FF3B3B",
+     "t": 1.2,
+     "at": [
+      125.38642,
+      27.87356
+     ]
+    },
+    {
+     "text": "2  DF-17 at Kadena",
+     "color": "#FF3B3B",
+     "t": 4.07,
+     "at": [
+      125.38642,
+      27.35466
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-order2",
+   "type": "region",
+   "start": 484.93,
+   "end": 490.11,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     139.0,
+     31.0
+    ],
+    "widthKm": 1600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      139.0,
+      31.0
+     ],
+     "widthKm": 1600
+    },
+    {
+     "t": 5.18,
+     "center": [
+      141.0,
+      25.0
+     ],
+     "widthKm": 3300
+    }
+   ],
+   "labels": [
+    {
+     "text": "3  DF-26 at Yokosuka",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "at": [
+      131.2972,
+      34.86379
+     ]
+    },
+    {
+     "text": "4  The nuclear DF-26 at Andersen",
+     "color": "#FFD23F",
+     "t": 1.34,
+     "at": [
+      131.2972,
+      33.80436
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      139.67,
+      35.29
+     ],
+     "label": "Yokosuka",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen",
+     "kind": "target",
+     "t": 1.34,
+     "color": "#FFD23F",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-order3+order4",
+   "type": "region",
+   "start": 490.11,
+   "end": 497.218,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     144.8,
+     13.5
+    ],
+    "widthKm": 220
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.8,
+      13.5
+     ],
+     "widthKm": 220
+    },
+    {
+     "t": 4.96,
+     "center": [
+      144.8,
+      13.5
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 5.6,
+     "center": [
+      126.0,
+      27.0
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 7.11,
+     "center": [
+      127.769,
+      26.352
+     ],
+     "widthKm": 320
+    }
+   ],
+   "labels": [
+    {
+     "text": "5  DF-26 at Naval Base Guam",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "at": [
+      144.28727,
+      13.79176
+     ],
+     "until": 5.16
+    },
+    {
+     "text": "6  The conventional DF-26 at Andersen",
+     "color": "#FF3B3B",
+     "t": 1.74,
+     "at": [
+      144.28727,
+      13.71176
+     ],
+     "until": 5.16
+    },
+    {
+     "text": "7  Last: the cruise missile",
+     "color": "#FF3B3B",
+     "t": 5.06,
+     "at": [
+      124.00377,
+      28.04086
+     ]
+    }
+   ],
+   "clock": "",
+   "cities": [
+    {
+     "at": [
+      144.65,
+      13.43
+     ],
+     "label": "Naval Base Guam",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen",
+     "kind": "target",
+     "t": 1.74,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "target",
+     "t": 5.16,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-bars",
+   "type": "bars",
+   "start": 497.218,
+   "end": 502.941,
+   "tag": "SIMULATION",
+   "title": "Minutes from first launch to impact",
+   "sub": "seven weapons, four bases, eleven minutes first to last",
+   "source": "Scenario engine (estimates)",
+   "bars": [
+    {
+     "label": "DF-26, Kadena",
+     "value": 8.0,
+     "display": "8.0",
+     "color": "#FF3B3B"
+    },
+    {
+     "label": "DF-17, Kadena",
+     "value": 10.3,
+     "display": "10.3",
+     "color": "#FF3B3B"
+    },
+    {
+     "label": "DF-26, Yokosuka",
+     "value": 10.7,
+     "display": "10.7",
+     "color": "#FF3B3B"
+    },
+    {
+     "label": "DF-26 nuclear, Andersen",
+     "value": 13.3,
+     "display": "13.3",
+     "color": "#FFD23F"
+    },
+    {
+     "label": "DF-26, Naval Base Guam",
+     "value": 13.7,
+     "display": "13.7",
+     "color": "#FF3B3B"
+    },
+    {
+     "label": "DF-26, Andersen",
+     "value": 14.5,
+     "display": "14.5",
+     "color": "#FF3B3B"
+    },
+    {
+     "label": "CJ-20, Kadena",
+     "value": 18.7,
+     "display": "18.7",
+     "color": "#FF7A1A"
+    }
+   ]
+  },
+  {
+   "id": "c4-so",
+   "type": "region",
+   "start": 502.941,
+   "end": 506.276,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     144.8,
+     13.5
+    ],
+    "widthKm": 150
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.8,
+      13.5
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 3.34,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 200
+    }
+   ],
+   "labels": [
+    {
+     "text": "What did one warhead reach?",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      144.31499,
+      13.77598
+     ]
+    }
+   ],
+   "clock": "T+13:18",
+   "clockLabel": "AFTER FIRST LAUNCH",
+   "clockRate": 0,
+   "rings": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "km": 4,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c5-card",
+   "type": "chapter",
+   "start": 506.276,
+   "end": 509.78,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 05",
+   "title": "One warhead, ring by ring"
+  },
+  {
+   "id": "c5-fire",
+   "type": "city",
+   "start": 509.78,
+   "end": 515.276,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 3.0
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 3.0
+    },
+    {
+     "t": 5.5,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 4.8
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.153,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "angle": 100
+    }
+   ],
+   "labels": [
+    {
+     "text": "In the air, above the flight line",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      144.91319,
+      13.58215
+     ]
+    },
+    {
+     "text": "Fireball: about 300 m across",
+     "color": "#FFD23F",
+     "t": 2.0,
+     "at": [
+      144.91319,
+      13.58056
+     ]
+    }
+   ],
+   "flashT": 0.1,
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-20psi",
+   "type": "city",
+   "start": 515.276,
+   "end": 521.99,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 3.6
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 3.6
+    },
+    {
+     "t": 6.71,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 5.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.153,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 100
+    },
+    {
+     "km": 0.297,
+     "label": "20 psi",
+     "color": "#FF3B3B",
+     "t": 3.47,
+     "angle": 225
+    }
+   ],
+   "labels": [
+    {
+     "text": "Out to 300 m: 20 psi",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      144.91208,
+      13.58278
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-inner",
+   "type": "city",
+   "start": 521.99,
+   "end": 525.9,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 5.0
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 5.0
+    },
+    {
+     "t": 3.91,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 6.4
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.153,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 100
+    },
+    {
+     "km": 0.297,
+     "label": "20 psi",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "labels": [
+    {
+     "text": "The inner ring sits on the base",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      144.9082,
+      13.58499
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-5psi",
+   "type": "city",
+   "start": 525.9,
+   "end": 534.403,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 5.0
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 5.0
+    },
+    {
+     "t": 8.5,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 9.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.153,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 100
+    },
+    {
+     "km": 0.297,
+     "label": "20 psi",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 1.459,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.8,
+     "angle": 300
+    }
+   ],
+   "labels": [
+    {
+     "text": "1.5 km: 5 psi",
+     "color": "#FFD23F",
+     "t": 0.3,
+     "at": [
+      144.90459,
+      13.58704
+     ]
+    },
+    {
+     "text": "About 6.7 square km",
+     "color": "#FFFFFF",
+     "t": 5.61,
+     "at": [
+      144.90459,
+      13.58419
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-homes",
+   "type": "city",
+   "start": 534.403,
+   "end": 541.117,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 9.0
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 9.0
+    },
+    {
+     "t": 6.71,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 7.5
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.297,
+     "label": "20 psi",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 1.459,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 300
+    }
+   ],
+   "labels": [
+    {
+     "text": "Most homes in it collapse",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      144.90113,
+      13.58901
+     ]
+    },
+    {
+     "text": "Along much of one runway",
+     "color": "#FFD23F",
+     "t": 3.11,
+     "at": [
+      144.90113,
+      13.58565
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-miss",
+   "type": "city",
+   "start": 541.117,
+   "end": 550.285,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 5.2
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 5.2
+    },
+    {
+     "t": 6.08,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 4.139
+    },
+    {
+     "t": 9.17,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 3.6
+    }
+   ],
+   "rings": [
+    {
+     "km": 1.459,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 300
+    },
+    {
+     "km": 0.45,
+     "label": "450 m miss",
+     "color": "#FFFFFF",
+     "t": 3.0,
+     "angle": 200
+    }
+   ],
+   "labels": [
+    {
+     "text": "Remember the accuracy estimate",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      144.9118,
+      13.58294
+     ]
+    },
+    {
+     "text": "A 450 m miss still lands inside",
+     "color": "#FFD23F",
+     "t": 2.23,
+     "at": [
+      144.9118,
+      13.58115
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-total",
+   "type": "region",
+   "start": 550.285,
+   "end": 554.93,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     136.0,
+     24.0
+    ],
+    "widthKm": 4600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      136.0,
+      24.0
+     ],
+     "widthKm": 4600
+    },
+    {
+     "t": 4.64,
+     "center": [
+      140.0,
+      20.0
+     ],
+     "widthKm": 3400
+    }
+   ],
+   "labels": [
+    {
+     "text": "Ten kilotons: the whole nuclear total",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      124.20011,
+      30.30822
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen: 10 kt",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FFD23F",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c5-six",
+   "type": "region",
+   "start": 554.93,
+   "end": 561.693,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     136.0,
+     24.0
+    ],
+    "widthKm": 4600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      136.0,
+      24.0
+     ],
+     "widthKm": 4600
+    },
+    {
+     "t": 6.76,
+     "center": [
+      133.0,
+      26.0
+     ],
+     "widthKm": 3200
+    }
+   ],
+   "labels": [
+    {
+     "text": "Six conventional weapons",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "at": [
+      124.49511,
+      30.15052
+     ]
+    },
+    {
+     "text": "No blast rings from the engine",
+     "color": "#FFFFFF",
+     "t": 4.82,
+     "at": [
+      124.49511,
+      28.46408
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena (3)",
+     "kind": "target",
+     "t": 0.4,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      139.67,
+      35.29
+     ],
+     "label": "Yokosuka",
+     "kind": "target",
+     "t": 0.8,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      144.65,
+      13.43
+     ],
+     "label": "Naval Base",
+     "kind": "target",
+     "t": 1.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen",
+     "kind": "target",
+     "t": 1.6,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c5-burn",
+   "type": "city",
+   "start": 561.693,
+   "end": 568.286,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 5.0
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 5.0
+    },
+    {
+     "t": 6.59,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 7.5
+    }
+   ],
+   "rings": [
+    {
+     "km": 1.459,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 300
+    },
+    {
+     "km": 1.617,
+     "label": "Burns",
+     "color": "#FF7A1A",
+     "t": 0.5,
+     "angle": 40
+    }
+   ],
+   "labels": [
+    {
+     "text": "Just past it, at 1.6 km",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      144.90667,
+      13.58586
+     ]
+    },
+    {
+     "text": "Bare skin: third-degree burns",
+     "color": "#FF7A1A",
+     "t": 3.88,
+     "at": [
+      144.90667,
+      13.58331
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-1psi",
+   "type": "city",
+   "start": 568.286,
+   "end": 573.544,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 8.0
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 8.0
+    },
+    {
+     "t": 5.26,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 11.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 1.459,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 300
+    },
+    {
+     "km": 1.617,
+     "label": "Burns",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 40
+    },
+    {
+     "km": 3.949,
+     "label": "1 psi",
+     "color": "#FFD23F",
+     "t": 0.6,
+     "angle": 135
+    }
+   ],
+   "labels": [
+    {
+     "text": "Nearly 4 km: 1 psi",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      144.89766,
+      13.59098
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-windows",
+   "type": "city",
+   "start": 573.544,
+   "end": 578.795,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 11.0
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 11.0
+    },
+    {
+     "t": 5.25,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 14.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 1.459,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 300
+    },
+    {
+     "km": 1.617,
+     "label": "Burns",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 40
+    },
+    {
+     "km": 3.949,
+     "label": "1 psi",
+     "color": "#FFD23F",
+     "t": 0.05,
+     "angle": 135
+    }
+   ],
+   "labels": [
+    {
+     "text": "Windows break",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      144.88935,
+      13.59571
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-nine",
+   "type": "city",
+   "start": 578.795,
+   "end": 583.614,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 14.0
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 14.0
+    },
+    {
+     "t": 4.82,
+     "center": [
+      144.8,
+      13.52
+     ],
+     "widthKm": 34.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 1.459,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 300
+    },
+    {
+     "km": 3.949,
+     "label": "1 psi",
+     "color": "#FFD23F",
+     "t": 0.05,
+     "angle": 135
+    }
+   ],
+   "labels": [
+    {
+     "text": "About 49 square km",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      144.85746,
+      13.61385
+     ]
+    },
+    {
+     "text": "About 9% of the island",
+     "color": "#FFD23F",
+     "t": 0.36,
+     "at": [
+      144.85746,
+      13.60408
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-naval",
+   "type": "city",
+   "start": 583.614,
+   "end": 590.374,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.8,
+     13.52
+    ],
+    "widthKm": 34.0
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.8,
+      13.52
+     ],
+     "widthKm": 34.0
+    },
+    {
+     "t": 6.76,
+     "center": [
+      144.78,
+      13.5
+     ],
+     "widthKm": 52.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 3.949,
+     "label": "1 psi",
+     "color": "#FFD23F",
+     "t": 0.05,
+     "angle": 135
+    }
+   ],
+   "labels": [
+    {
+     "text": "Naval Base Guam: outside every ring",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      144.68082,
+      13.58781
+     ]
+    },
+    {
+     "at": [
+      144.65,
+      13.43
+     ],
+     "text": "Naval Base Guam",
+     "color": "#6EA8FF",
+     "t": 0.8
+    },
+    {
+     "text": "So is almost all of the island",
+     "color": "#FFD23F",
+     "t": 3.89,
+     "at": [
+      144.68082,
+      13.57031
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-toll",
+   "type": "city",
+   "start": 590.374,
+   "end": 597.191,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 9.0
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 9.0
+    },
+    {
+     "t": 6.82,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 6.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 1.459,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 300
+    },
+    {
+     "km": 3.949,
+     "label": "1 psi",
+     "color": "#FFD23F",
+     "t": 0.05,
+     "angle": 135
+    }
+   ],
+   "labels": [
+    {
+     "text": "No death toll",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      144.90321,
+      13.58783
+     ]
+    },
+    {
+     "text": "No published study supplies one",
+     "color": "#FFFFFF",
+     "t": 1.56,
+     "at": [
+      144.90321,
+      13.58478
+     ]
+    }
+   ],
+   "caption": "We will not invent a number.",
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-pacific",
+   "type": "globe",
+   "start": 597.191,
+   "end": 604.781,
+   "tag": "SIMULATION",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 13.6,
+     "lon": 144.9,
+     "scale": 3600
+    },
+    {
+     "t": 3.82,
+     "lat": 16.821,
+     "lon": 141.427,
+     "scale": 2492.754
+    },
+    {
+     "t": 7.59,
+     "lat": 20.0,
+     "lon": 138.0,
+     "scale": 1400
+    }
+   ],
+   "sun": {
+    "lat": -15.08,
+    "lon": -48.87
+   },
+   "markers": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen: 4 km",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "kind": "target"
+    },
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "color": "#6EA8FF",
+     "t": 0.05,
+     "kind": "base"
+    },
+    {
+     "at": [
+      139.67,
+      35.29
+     ],
+     "label": "Yokosuka",
+     "color": "#6EA8FF",
+     "t": 0.05,
+     "kind": "base"
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c6-card",
+   "type": "chapter",
+   "start": 604.781,
+   "end": 608.28,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 06",
+   "title": "The day after"
+  },
+  {
+   "id": "c6-q+range+none",
+   "type": "region",
+   "start": 608.28,
+   "end": 617.645,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     136.0,
+     22.0
+    ],
+    "widthKm": 4600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      136.0,
+      22.0
+     ],
+     "widthKm": 4600
+    },
+    {
+     "t": 3.07,
+     "center": [
+      134.0,
+      25.0
+     ],
+     "widthKm": 3600
+    },
+    {
+     "t": 3.87,
+     "center": [
+      134.0,
+      25.0
+     ],
+     "widthKm": 3600
+    },
+    {
+     "t": 5.75,
+     "center": [
+      140.0,
+      22.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 6.83,
+     "center": [
+      144.8,
+      13.5
+     ],
+     "widthKm": 200
+    },
+    {
+     "t": 9.37,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 150
+    }
+   ],
+   "labels": [
+    {
+     "text": "How many fighters can still take off?",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      124.08302,
+      28.46593
+     ],
+     "until": 3.27
+    },
+    {
+     "text": "Published studies give a range",
+     "color": "#FFFFFF",
+     "t": 3.27,
+     "at": [
+      124.18735,
+      30.20428
+     ],
+     "until": 5.95
+    },
+    {
+     "text": "None covers a nuclear burst",
+     "color": "#FF3B3B",
+     "t": 5.95,
+     "at": [
+      144.31499,
+      13.77598
+     ]
+    },
+    {
+     "text": "on a flight line",
+     "color": "#FFFFFF",
+     "t": 7.81,
+     "at": [
+      144.31499,
+      13.70031
+     ]
+    }
+   ],
+   "clock": "DAY AFTER",
+   "clockLabel": "WESTERN PACIFIC",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "base",
+     "t": 0.9,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      139.67,
+      35.29
+     ],
+     "label": "Yokosuka",
+     "kind": "base",
+     "t": 1.4,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen",
+     "kind": "base",
+     "t": 3.17,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "base",
+     "t": 3.37,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      139.67,
+      35.29
+     ],
+     "label": "Yokosuka",
+     "kind": "base",
+     "t": 3.57,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen AFB",
+     "kind": "target",
+     "t": 5.85,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "km": 4,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 5.8,
+     "dashed": false
+    }
+   ]
+  },
+  {
+   "id": "c6-dark",
+   "type": "city",
+   "start": 617.645,
+   "end": 620.95,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 5.0
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 5.0
+    },
+    {
+     "t": 3.31,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 3.6
+    }
+   ],
+   "rings": [
+    {
+     "km": 1.459,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 300
+    }
+   ],
+   "labels": [
+    {
+     "text": "The runway under the rings goes dark",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "at": [
+      144.91208,
+      13.58278
+     ]
+    }
+   ],
+   "clock": "DAY AFTER",
+   "clockLabel": "GUAM",
+   "clockRate": 0
+  },
+  {
+   "id": "c6-days",
+   "type": "bars",
+   "start": 620.95,
+   "end": 626.1500000000001,
+   "tag": "SIMULATION",
+   "title": "Fighter operations lost, in days",
+   "sub": "Stimson Center cratering study: one estimate with assumed inputs",
+   "source": "Stimson Center, Cratering Effects, December 2024",
+   "bars": [
+    {
+     "label": "Guam",
+     "value": 2,
+     "display": "nearly 2 days",
+     "color": "#6EA8FF"
+    },
+    {
+     "label": "Japan",
+     "value": 12,
+     "display": "about 12 days",
+     "color": "#6EA8FF"
+    }
+   ]
+  },
+  {
+   "id": "c6-est",
+   "type": "region",
+   "start": 626.1500000000001,
+   "end": 636.558,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     138.0,
+     24.0
+    ],
+    "widthKm": 3600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      138.0,
+      24.0
+     ],
+     "widthKm": 3600
+    },
+    {
+     "t": 5.7,
+     "center": [
+      136.9049,
+      25.6427
+     ],
+     "widthKm": 3271.47
+    },
+    {
+     "t": 10.41,
+     "center": [
+      136.0,
+      27.0
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "labels": [
+    {
+     "text": "One estimate, assumed inputs",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      128.26509,
+      29.20428
+     ]
+    },
+    {
+     "text": "Not outcomes",
+     "color": "#FFFFFF",
+     "t": 1.0,
+     "at": [
+      128.26509,
+      27.7773
+     ]
+    }
+   ],
+   "clock": "DAY AFTER",
+   "clockLabel": "WESTERN PACIFIC",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "source": "Stimson Center, December 2024",
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "base",
+     "t": 0.6,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      139.67,
+      35.29
+     ],
+     "label": "Yokosuka",
+     "kind": "base",
+     "t": 1.0,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c6-rand",
+   "type": "bars",
+   "start": 636.558,
+   "end": 641.158,
+   "tag": "SIMULATION",
+   "title": "Missiles at one base",
+   "sub": "an older RAND estimate against our hour",
+   "source": "RAND-style estimates cited 2016; scenario engine",
+   "bars": [
+    {
+     "label": "RAND, older: low",
+     "value": 50,
+     "display": "50",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "RAND, older: high",
+     "value": 100,
+     "display": "100",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "Our hour, all bases",
+     "value": 7,
+     "display": "7",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "c6-ours+tank",
+   "type": "region",
+   "start": 641.158,
+   "end": 649.998,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     138.0,
+     22.0
+    ],
+    "widthKm": 4200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      138.0,
+      22.0
+     ],
+     "widthKm": 4200
+    },
+    {
+     "t": 5.02,
+     "center": [
+      142.0,
+      20.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 6.17,
+     "center": [
+      136.0,
+      34.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 8.84,
+     "center": [
+      138.0,
+      31.0
+     ],
+     "widthKm": 1800
+    }
+   ],
+   "labels": [
+    {
+     "text": "Our hour: seven weapons in total",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "at": [
+      127.53631,
+      27.6774
+     ],
+     "until": 5.22
+    },
+    {
+     "text": "Tanker routes over Japan",
+     "color": "#FFFFFF",
+     "t": 5.22,
+     "at": [
+      129.17358,
+      37.31182
+     ]
+    }
+   ],
+   "clock": "DAY AFTER",
+   "clockLabel": "WESTERN PACIFIC",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Andersen",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      139.67,
+      35.29
+     ],
+     "label": "Yokosuka",
+     "kind": "base",
+     "t": 0.5,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      139.67,
+      35.29
+     ],
+     "label": "Yokosuka",
+     "kind": "base",
+     "t": 5.52,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ]
+  },
+  {
+   "id": "c6-month",
+   "type": "region",
+   "start": 649.998,
+   "end": 655.44,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     138.0,
+     31.0
+    ],
+    "widthKm": 1800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      138.0,
+      31.0
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 5.44,
+     "center": [
+      136.0,
+      33.0
+     ],
+     "widthKm": 2800
+    }
+   ],
+   "labels": [
+    {
+     "text": "Tankers: unable to operate",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      130.7688,
+      34.62723
+     ]
+    },
+    {
+     "text": "for over a month",
+     "color": "#FF3B3B",
+     "t": 4.11,
+     "at": [
+      130.7688,
+      33.63266
+     ]
+    }
+   ],
+   "clock": "DAY AFTER",
+   "clockLabel": "JAPAN",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "source": "Stimson Center, December 2024"
+  },
+  {
+   "id": "c6-36",
+   "type": "region",
+   "start": 655.44,
+   "end": 662.5699999999999,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     136.0,
+     35.0
+    ],
+    "widthKm": 2400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      136.0,
+      35.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 7.13,
+     "center": [
+      138.0,
+      33.0
+     ],
+     "widthKm": 1700
+    }
+   ],
+   "labels": [
+    {
+     "text": "About 36 military airfields",
+     "color": "#6EA8FF",
+     "t": 0.2,
+     "at": [
+      129.25569,
+      38.23296
+     ]
+    },
+    {
+     "text": "About 140 aircraft shelters",
+     "color": "#FFD23F",
+     "t": 3.83,
+     "at": [
+      129.25569,
+      37.34651
+     ]
+    }
+   ],
+   "clock": "DAY AFTER",
+   "clockLabel": "JAPAN",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "source": "One estimate; Asia Times",
+   "cities": [
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c6-crater",
+   "type": "region",
+   "start": 662.5699999999999,
+   "end": 668.894,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     135.0,
+     33.0
+    ],
+    "widthKm": 2200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      135.0,
+      33.0
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 6.32,
+     "center": [
+      127.769,
+      26.352
+     ],
+     "widthKm": 700
+    }
+   ],
+   "labels": [
+    {
+     "text": "Air Force crater repair plan",
+     "color": "#6EA8FF",
+     "t": 0.2,
+     "at": [
+      130.34066,
+      35.28673
+     ]
+    },
+    {
+     "text": "24 to 36 hours",
+     "color": "#FFD23F",
+     "t": 1.2,
+     "at": [
+      130.34066,
+      34.65972
+     ]
+    },
+    {
+     "text": "One account",
+     "color": "#FFFFFF",
+     "t": 2.4,
+     "at": [
+      130.34066,
+      34.03272
+     ]
+    }
+   ],
+   "clock": "DAY AFTER",
+   "clockLabel": "JAPAN",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "source": "Mitchell Institute; Air Force",
+   "cities": [
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      139.67,
+      35.29
+     ],
+     "label": "Yokosuka",
+     "kind": "base",
+     "t": 1.2,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c6-noplume",
+   "type": "city",
+   "start": 668.894,
+   "end": 672.39,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 16.0
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 16.0
+    },
+    {
+     "t": 3.5,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 9.0
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "text": "No plume on this map",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      144.88935,
+      13.59571
+     ]
+    }
+   ],
+   "clock": "DAY AFTER",
+   "clockLabel": "GUAM",
+   "clockRate": 0
+  },
+  {
+   "id": "c6-fallout",
+   "type": "city",
+   "start": 672.39,
+   "end": 678.343,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 9.0
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 9.0
+    },
+    {
+     "t": 5.95,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 20.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 3.949,
+     "label": "1 psi",
+     "color": "#FFD23F",
+     "t": 0.05,
+     "angle": 135
+    }
+   ],
+   "labels": [
+    {
+     "text": "An airburst of this size",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      144.8838,
+      13.59887
+     ]
+    },
+    {
+     "text": "Little local fallout: none drawn",
+     "color": "#FFD23F",
+     "t": 1.9,
+     "at": [
+      144.8838,
+      13.59297
+     ]
+    }
+   ],
+   "clock": "DAY AFTER",
+   "clockLabel": "GUAM",
+   "clockRate": 0
+  },
+  {
+   "id": "c6-dc",
+   "type": "region",
+   "start": 678.343,
+   "end": 680.381,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -95.0,
+     38.0
+    ],
+    "widthKm": 5600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -95.0,
+      38.0
+     ],
+     "widthKm": 5600
+    },
+    {
+     "t": 2.04,
+     "center": [
+      -85.0,
+      38.0
+     ],
+     "widthKm": 4000
+    }
+   ],
+   "labels": [
+    {
+     "text": "The decision moves to Washington",
+     "color": "#6EA8FF",
+     "t": 0.2,
+     "at": [
+      -111.41561,
+      45.56987
+     ]
+    }
+   ],
+   "clock": "T+19:00",
+   "clockLabel": "CLOCK STOPPED",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "840",
+     "text": "UNITED STATES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "Washington",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c6-policy",
+   "type": "region",
+   "start": 680.381,
+   "end": 688.91,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -85.0,
+     38.0
+    ],
+    "widthKm": 4000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -85.0,
+      38.0
+     ],
+     "widthKm": 4000
+    },
+    {
+     "t": 8.53,
+     "center": [
+      -100.0,
+      38.0
+     ],
+     "widthKm": 6000
+    }
+   ],
+   "labels": [
+    {
+     "text": "Nuclear use only in extreme circumstances",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      -102.0996,
+      45.88528
+     ]
+    },
+    {
+     "text": "To defend vital interests and allies",
+     "color": "#6EA8FF",
+     "t": 5.17,
+     "at": [
+      -102.0996,
+      43.72318
+     ]
+    }
+   ],
+   "clock": "T+19:00",
+   "clockLabel": "CLOCK STOPPED",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "Washington",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c6-opt1+opt2",
+   "type": "region",
+   "start": 688.91,
+   "end": 696.07,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -130.0,
+     30.0
+    ],
+    "widthKm": 9000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -130.0,
+      30.0
+     ],
+     "widthKm": 9000
+    },
+    {
+     "t": 4.64,
+     "center": [
+      -150.0,
+      28.0
+     ],
+     "widthKm": 9500
+    },
+    {
+     "t": 5.4,
+     "center": [
+      150.0,
+      24.0
+     ],
+     "widthKm": 5200
+    },
+    {
+     "t": 7.16,
+     "center": [
+      140.0,
+      22.0
+     ],
+     "widthKm": 3800
+    }
+   ],
+   "labels": [
+    {
+     "text": "Option: a low-yield Trident",
+     "color": "#6EA8FF",
+     "t": 0.2,
+     "at": [
+      -158.78453,
+      44.58776
+     ],
+     "until": 4.84
+    },
+    {
+     "text": "About 5 kilotons",
+     "color": "#FFD23F",
+     "t": 1.68,
+     "at": [
+      -158.78453,
+      40.58789
+     ],
+     "until": 4.84
+    },
+    {
+     "text": "Option: a conventional answer",
+     "color": "#FFFFFF",
+     "t": 4.84,
+     "at": [
+      136.72513,
+      31.09675
+     ]
+    },
+    {
+     "text": "Option: talks",
+     "color": "#3ED6C8",
+     "t": 5.92,
+     "at": [
+      136.72513,
+      29.15087
+     ]
+    }
+   ],
+   "clock": "T+19:00",
+   "clockLabel": "CLOCK STOPPED",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "Washington",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -157.9,
+      21.4
+     ],
+     "label": "Hawaii",
+     "kind": "base",
+     "t": 0.6,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 4.74,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "kind": "base",
+     "t": 5.04,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c6-stop",
+   "type": "region",
+   "start": 696.07,
+   "end": 698.991,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     140.0,
+     22.0
+    ],
+    "widthKm": 3800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      140.0,
+      22.0
+     ],
+     "widthKm": 3800
+    },
+    {
+     "t": 2.92,
+     "center": [
+      144.0,
+      16.0
+     ],
+     "widthKm": 2000
+    }
+   ],
+   "labels": [
+    {
+     "text": "We stop the clock before it chooses",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      131.57092,
+      26.57346
+     ]
+    }
+   ],
+   "clock": "T+19:00",
+   "clockLabel": "CLOCK STOPPED",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c6-bill",
+   "type": "number",
+   "start": 698.991,
+   "end": 703.991,
+   "tag": "REAL DATA",
+   "value": "$10 TRILLION",
+   "label": "Bloomberg Economics: first-year cost of a Taiwan war",
+   "sub": "about, as an estimate",
+   "color": "#FFD23F",
+   "countTo": 10,
+   "prefix": "$",
+   "suffix": " TRILLION",
+   "source": "Bloomberg Economics"
+  },
+  {
+   "id": "c6-bill2",
+   "type": "region",
+   "start": 703.991,
+   "end": 708.831,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     121.0,
+     24.0
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      121.0,
+      24.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 4.84,
+     "center": [
+      123.0,
+      23.0
+     ],
+     "widthKm": 2200
+    }
+   ],
+   "labels": [
+    {
+     "text": "The bill is not on the map",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      115.54255,
+      26.91755
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "158",
+     "text": "TAIWAN",
+     "color": "#3ED6C8"
+    },
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c6-last",
+   "type": "globe",
+   "start": 708.831,
+   "end": 713.902,
+   "tag": "SIMULATION",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 14.0,
+     "lon": 143.0,
+     "scale": 1700
+    },
+    {
+     "t": 5.07,
+     "lat": 22.0,
+     "lon": 135.0,
+     "scale": 3200
+    }
+   ],
+   "sun": {
+    "lat": -15.08,
+    "lon": -48.87
+   },
+   "markers": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "color": "#6EA8FF",
+     "t": 0.05,
+     "kind": "base"
+    },
+    {
+     "at": [
+      127.769,
+      26.352
+     ],
+     "label": "Kadena",
+     "color": "#6EA8FF",
+     "t": 0.05,
+     "kind": "base"
+    },
+    {
+     "at": [
+      139.67,
+      35.29
+     ],
+     "label": "Yokosuka",
+     "color": "#6EA8FF",
+     "t": 0.05,
+     "kind": "base"
+    }
+   ],
+   "clock": "",
+   "clockRate": 0
+  },
+  {
+   "id": "endslate",
+   "type": "endslate",
+   "start": 713.902,
+   "end": 728.88,
+   "tag": "",
+   "title": "One warhead over London",
+   "line": "Next on the map: London, one warhead, and the four UK submarines.",
+   "transition": "dip"
+  }
+ ]
+}
