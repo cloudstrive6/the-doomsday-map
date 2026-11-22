@@ -4,7 +4,12 @@
       "stage": "idea",
       "note": "brief written",
       "at": "2026-11-22T05:02:55+00:00"
+    },
+    {
+      "stage": "researched",
+      "note": "31 A, 10 B items",
+      "at": "2026-11-22T05:09:22+00:00"
     }
   ],
-  "stage": "idea"
+  "stage": "researched"
 }
