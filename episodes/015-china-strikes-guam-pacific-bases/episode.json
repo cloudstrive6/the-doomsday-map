@@ -102,19 +102,19 @@
    "tag": "SIMULATION",
    "view": {
     "center": [
-     132.0,
-     20.0
+     134.0,
+     21.0
     ],
-    "widthKm": 4300
+    "widthKm": 4800
    },
    "camera": [
     {
      "t": 0,
      "center": [
-      132.0,
-      20.0
+      134.0,
+      21.0
      ],
-     "widthKm": 4300
+     "widthKm": 4800
     },
     {
      "t": 2.2,
@@ -129,10 +129,9 @@
     {
      "text": "Andersen Air Force Base, Guam",
      "color": "#FF3B3B",
-     "t": 0.05,
      "at": [
-      131.29259,
-      15.10604
+      133.23985,
+      15.77537
      ]
     }
    ],
@@ -199,7 +198,6 @@
      ],
      "label": "GUAM",
      "kind": "target",
-     "t": 0.05,
      "color": "#FF3B3B",
      "size": 6
     },
@@ -210,7 +208,6 @@
      ],
      "label": "Launch (simulated)",
      "kind": "base",
-     "t": 0.05,
      "color": "#F2B01E",
      "size": 6
     }

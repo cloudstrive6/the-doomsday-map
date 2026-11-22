@@ -50,7 +50,9 @@ def rel(a, t):
 
 # Helpers take ABSOLUTE times; fin() converts every item time to shot-local seconds.
 def city(at, label, t, color=None, kind="dot", size=None):
-    d = {"at": at, "label": label, "kind": kind, "t": t}
+    d = {"at": at, "label": label, "kind": kind}
+    if t is not None:
+        d["t"] = t
     if color:
         d["color"] = color
     if size:
@@ -115,7 +117,10 @@ def reg(sid, a, b, keys, labs=(), tag="SIMULATION", **kw):
         if "_fx" in l:
             fx, fy = l.pop("_fx"), l.pop("_fy")
             l["at"] = offp(ctr, fx * wm, fy * 0.5625 * wm)
-        l["t"] = rel(a, l["t"])
+        if l.get("t") is None:
+            l.pop("t", None)
+        else:
+            l["t"] = rel(a, l["t"])
         labels.append(l)
     kw = fin(a, kw)
     add(id=sid, type="region", start=a, end=b, tag=tag, view={"center": c[0]["center"], "widthKm": c[0]["widthKm"]}, camera=c, labels=labels, **kw)
@@ -230,11 +235,11 @@ def fl_rate(mins, a, b):
 # ================================================================== Cold open [SIMULATION]
 FLASH = 2.2
 CL = [CL_CN]
-reg("open-run", 0, FLASH, [("s", [132.0, 20.0], 4300), ("e", [137.0, 17.5], 3100)],
-    [LB("Andersen Air Force Base, Guam", -0.02, -0.26, 0.0, RED)],
+reg("open-run", 0, FLASH, [("s", [134.0, 21.0], 4800), ("e", [137.0, 17.5], 3100)],
+    [LB("Andersen Air Force Base, Guam", -0.02, -0.26, None, RED)],
     clock="T-13:18", clockLabel="TO IMPACT", clockRate=370, highlight=[HL_CN], countryLabels=CL,
     ships=[ship([L_N, AND], 0.0, FLASH - 0.05, "DF-26", RED, 2.8)], lines=[line(L_N, AND, 0.0, FLASH - 0.05, RED, True)],
-    cities=[city(AND, "GUAM", 0.0, RED, "target", 6), city(L_N, "Launch (simulated)", 0.0, AMBER, "base", 6)])
+    cities=[city(AND, "GUAM", None, RED, "target", 6), city(L_N, "Launch (simulated)", None, AMBER, "base", 6)])
 a = FLASH
 reg("open-burst", a, 5.0, [("s", AND, 200), ("e", AND, 150)],
     [LB("10 kiloton airburst", 0.10, 0.06, a + 0.0, YELLOW), LB("Andersen Air Force Base", 0.10, -0.02, a + 0.3, WHITE)],

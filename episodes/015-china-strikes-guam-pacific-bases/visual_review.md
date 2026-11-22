@@ -1,5 +1,24 @@
 FAIL
 
+Round 2, reviewed 2026-11-22. Rendered stills 0 s, 3.5 s, 5.5 s, 7 s, 580 s, 597 s, 600 s. validate.txt is still `ok` (no retention or pace lines). Round 1 text is kept below.
+
+Round 1 findings, by number:
+1. FIXED. f34800: labels now read "5 PSI · 1.459 KM" (red, plated, inside the frame, left of the ring) and "1 PSI · 3.949 KM".
+2. FIXED. f36000 (c5-pacific): China coast, Taiwan, Okinawa, Japan, Philippines and Guam all show, with a dashed red launch-to-Guam line, GUAM marker and label, plated labels inside the frame. Who is against whom is clear.
+3. FIXED. f00210 (open-burst): island fills the frame, "10 KILOTON AIRBURST" (yellow) and "ANDERSEN AIR FORCE BASE" (white) sit right beside the flash, banner readable and clear of the tag and clock.
+4. NOT FIXED, BLOCKING. f00000 (open-run) is still a dim map: China coast, Taiwan, Philippines, no Guam, no marker, no label, no line. Cause found in the engine, so the fix is exact:
+   a. Markers and labels are drawn at full opacity on frame 0 when `t` is omitted (RegionMap.tsx: `m.t === undefined ? 1 : ...`). They fade in over 0.4 s only when `t` is set. shotlist.py passes `city(AND, "GUAM", 0.0, ...)` and `city(L_N, ..., 0.0, ...)`, and `LB(..., 0.0, ...)`, so `t=0.0` triggers the fade (frame 0 alpha 0). Fix: for open-run, build those two cities and the label without a `t` key (delete the field rather than passing 0.0). The line has `t0=0.0` and the ship `t=0`; lines draw from k=0 by design, which is fine (it is the launch animation), but the target must be visible.
+   b. Guam is also outside the frame at frame 0. Camera start is [132.0, 20.0] at 4300 km; Guam (about 144.8 E, 13.6 N) is off the right/bottom edge until the camera moves. c5-pacific shows both China and Guam with centre [133.0, 23.0] at 4200 km. Fix: open-run `s` camera to about [134.0, 21.0] at 4800 km (e to [137.0, 17.5] at 3100 km can stay) so the launch point at left and GUAM at right are both in frame from frame 0, with the DF-26 line showing the direction.
+   After the change, re-render frame 0 and confirm: GUAM marker and label visible, launch marker visible, nothing within 130 px of the SIMULATION tag or the clock.
+
+Judgement on frame 0: the engine's "finished frame 0" claim applies to dips and shot cuts, not to markers that the shotlist itself delays. A bare map with no subject as the first frame of the video is a blocker (it is the thumbnail-like first impression and the retention opener), and a fix exists, so this is not waived.
+
+Non-blocking, unchanged: f00330 and f00420 label contrast (items 5 and 6) were not re-judged beyond the 5.5 s and 7 s stills; both are readable. Item 8 (repeated Andersen runway shots) is covered by validate.txt `ok`.
+
+Not staged: visual_approved is not recorded because of finding 4. Send to the director for a one-shot fix and a round 3 check of f00000 only.
+
+--- Round 1 (kept for reference) ---
+
 Round 1, reviewed 2026-11-22. Frames: the 18 stills the director supplied plus 10 I rendered (0 s, 3.5 s, 26 s, 42 s, 110 s, 165 s, 230 s, 380 s, 500 s, 600 s, 720 s; the director's contact.png was overwritten by this set, the originals are in /tmp/bk/stills). I did not check the 127 shots one by one. No Shorts exist yet (no shorts.json), so Shorts checks are not applicable.
 
 validate.txt: `ok`. There are no `retention:` lines and no `pace:` lines. The end slate is correct: last word "submarines." ends 718.88 s and the slate ends 728.88 s, which is exactly 10 s. Music runs to 728.88 s. The 720 s frame (f43200) shows the slate's half-empty layout with "ONE WARHEAD OVER LONDON" and a faint "NEXT SCENARIO" box, as intended.
