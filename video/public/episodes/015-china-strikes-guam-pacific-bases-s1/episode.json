@@ -1,0 +1,756 @@
+{
+ "subtitles": [
+  {
+   "start": 5.972,
+   "end": 7.5,
+   "text": "This is a simulation"
+  },
+  {
+   "start": 7.5,
+   "end": 9.65,
+   "text": "built from published numbers,"
+  },
+  {
+   "start": 10.0,
+   "end": 11.37,
+   "text": "and it has not happened."
+  },
+  {
+   "start": 12.183,
+   "end": 13.79,
+   "text": "13 minutes earlier."
+  },
+  {
+   "start": 14.265,
+   "end": 16.5,
+   "text": "A launcher in southern China raises"
+  },
+  {
+   "start": 16.5,
+   "end": 19.77,
+   "text": "a DF-26 missile and fires."
+  },
+  {
+   "start": 19.94,
+   "end": 22.31,
+   "text": "We placed that launcher ourselves."
+  },
+  {
+   "start": 23.333,
+   "end": 24.317,
+   "text": "From there,"
+  },
+  {
+   "start": 24.317,
+   "end": 25.818,
+   "text": "the flight to Guam"
+  },
+  {
+   "start": 25.818,
+   "end": 27.18,
+   "text": "takes about 13 minutes,"
+  },
+  {
+   "start": 27.18,
+   "end": 30.11,
+   "text": "over 3,400 km."
+  }
+ ],
+ "slug": "015-china-strikes-guam-pacific-bases-s1",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 30.8,
+ "shots": [
+  {
+   "id": "open-burst",
+   "type": "region",
+   "start": 0.0,
+   "end": 2.8,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 150
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 2.8,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 150
+    }
+   ],
+   "labels": [
+    {
+     "text": "10 kiloton airburst",
+     "color": "#FFD23F",
+     "t": 0.05,
+     "at": [
+      145.02565,
+      13.60958
+     ]
+    },
+    {
+     "text": "Andersen Air Force Base",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "at": [
+      145.02565,
+      13.56481
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0,
+   "burst": {
+    "at": [
+     144.924,
+     13.576
+    ],
+    "t": 0.1,
+    "km": 4,
+    "fade": 4
+   },
+   "rings": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "km": 4,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.7,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "kind": "target",
+     "t": 0.5,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-rings",
+   "type": "city",
+   "start": 2.8,
+   "end": 5.96,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 5.6
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 5.6
+    },
+    {
+     "t": 3.16,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 12.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.153,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "angle": 100
+    },
+    {
+     "km": 1.459,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 1.2,
+     "angle": 225
+    },
+    {
+     "km": 3.949,
+     "label": "Windows",
+     "color": "#FF7A1A",
+     "t": 2.2,
+     "angle": 135
+    }
+   ],
+   "labels": [
+    {
+     "text": "Andersen Air Force Base",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "at": [
+      144.8935,
+      13.59279
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0,
+   "caption": "Simulation: it has not happened."
+  },
+  {
+   "id": "open-sim",
+   "type": "region",
+   "start": 5.96,
+   "end": 10.27,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     140.0,
+     19.0
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      140.0,
+      19.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 4.31,
+     "center": [
+      145.0,
+      15.0
+     ],
+     "widthKm": 2000
+    }
+   ],
+   "labels": [
+    {
+     "text": "A simulation",
+     "color": "#FFD23F",
+     "t": 0.69,
+     "at": [
+      132.87446,
+      22.81546
+     ]
+    },
+    {
+     "text": "Built from published numbers",
+     "color": "#FFFFFF",
+     "t": 2.15,
+     "at": [
+      132.87446,
+      21.798
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-not",
+   "type": "region",
+   "start": 10.27,
+   "end": 11.601,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     145.0,
+     15.0
+    ],
+    "widthKm": 2000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      145.0,
+      15.0
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 1.33,
+     "center": [
+      140.0,
+      20.0
+     ],
+     "widthKm": 3600
+    }
+   ],
+   "labels": [
+    {
+     "text": "It has not happened",
+     "color": "#FFFFFF",
+     "t": 0.1,
+     "at": [
+      137.188,
+      19.27331
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-13",
+   "type": "region",
+   "start": 11.601,
+   "end": 14.21,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     118.0,
+     24.0
+    ],
+    "widthKm": 2600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      118.0,
+      24.0
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 2.61,
+     "center": [
+      116.0,
+      25.0
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Thirteen minutes earlier",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "at": [
+      111.95256,
+      27.23296
+     ]
+    }
+   ],
+   "clock": "01:30",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "open-launcher",
+   "type": "region",
+   "start": 14.21,
+   "end": 21.11,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     116.0,
+     25.0
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      116.0,
+      25.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 3.6,
+     "center": [
+      115.2174,
+      25.0
+     ],
+     "widthKm": 988.696
+    },
+    {
+     "t": 6.9,
+     "center": [
+      114.5,
+      25.0
+     ],
+     "widthKm": 520
+    }
+   ],
+   "labels": [
+    {
+     "text": "A launcher in southern China",
+     "color": "#F2B01E",
+     "t": 0.1,
+     "at": [
+      112.99673,
+      26.59283
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "LAUNCH",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      114.5,
+      25.0
+     ],
+     "label": "DF-26 launcher (simulated)",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-placed",
+   "type": "region",
+   "start": 21.11,
+   "end": 22.897,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     114.5,
+     25.0
+    ],
+    "widthKm": 520
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      114.5,
+      25.0
+     ],
+     "widthKm": 520
+    },
+    {
+     "t": 1.79,
+     "center": [
+      116.0,
+      25.5
+     ],
+     "widthKm": 1400
+    }
+   ],
+   "labels": [
+    {
+     "text": "We placed it ourselves",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "at": [
+      111.64541,
+      26.51397
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "LAUNCH",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      114.5,
+      25.0
+     ],
+     "label": "Simulated site",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-arc",
+   "type": "globe",
+   "start": 22.897,
+   "end": 26.29,
+   "tag": "SIMULATION",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 21.0,
+     "lon": 122.0,
+     "scale": 1900
+    },
+    {
+     "t": 3.39,
+     "lat": 19.0,
+     "lon": 130.0,
+     "scale": 2600
+    }
+   ],
+   "sun": {
+    "lat": -15.08,
+    "lon": -48.87
+   },
+   "arcs": [
+    {
+     "from": [
+      114.5,
+      25.0
+     ],
+     "to": [
+      144.924,
+      13.576
+     ],
+     "t0": 0.05,
+     "t1": 0.2,
+     "color": "#FF3B3B",
+     "width": 3,
+     "loft": 0.25
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      114.5,
+      25.0
+     ],
+     "label": "Launch (simulated)",
+     "color": "#F2B01E",
+     "t": 0.05,
+     "kind": "base"
+    },
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "color": "#6EA8FF",
+     "t": 0.05,
+     "kind": "target"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "FLIGHT",
+   "clockRate": 190
+  },
+  {
+   "id": "open-flight",
+   "type": "region",
+   "start": 26.29,
+   "end": 30.8,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     130.0,
+     20.0
+    ],
+    "widthKm": 5200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      130.0,
+      20.0
+     ],
+     "widthKm": 5200
+    },
+    {
+     "t": 4.6,
+     "center": [
+      134.0,
+      19.0
+     ],
+     "widthKm": 4300
+    }
+   ],
+   "labels": [
+    {
+     "text": "About thirteen minutes",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "at": [
+      116.37753,
+      27.49101
+     ]
+    },
+    {
+     "text": "3,400 km",
+     "color": "#FFFFFF",
+     "t": 2.69,
+     "at": [
+      116.37753,
+      25.43703
+     ]
+    }
+   ],
+   "clock": "T+06:30",
+   "clockLabel": "FLIGHT",
+   "clockRate": 60,
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       114.5,
+       25.0
+      ],
+      [
+       144.924,
+       13.576
+      ]
+     ],
+     "t0": 0.05,
+     "t1": 5.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "DF-26",
+     "size": 2.6,
+     "t": 0.05,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      114.5,
+      25.0
+     ],
+     "to": [
+      144.924,
+      13.576
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.05,
+     "t1": 5.0
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      144.924,
+      13.576
+     ],
+     "label": "Guam",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "13 MINUTES",
+  "FROM LAUNCH TO GUAM"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Narration: AI-generated."
+}

@@ -241,12 +241,12 @@ reg("open-run", 0, FLASH, [("s", [134.0, 21.0], 4800), ("e", [137.0, 17.5], 3100
     ships=[ship([L_N, AND], 0.0, FLASH - 0.05, "DF-26", RED, 2.8)], lines=[line(L_N, AND, 0.0, FLASH - 0.05, RED, True)],
     cities=[city(AND, "GUAM", None, RED, "target", 6), city(L_N, "Launch (simulated)", None, AMBER, "base", 6)])
 a = FLASH
-reg("open-burst", a, 5.0, [("s", AND, 200), ("e", AND, 150)],
+reg("open-burst", a, 5.0, [("s", AND, 130), ("e", AND, 90)],
     [LB("10 kiloton airburst", 0.10, 0.06, a + 0.0, YELLOW), LB("Andersen Air Force Base", 0.10, -0.02, a + 0.3, WHITE)],
     clock="01:43", clockLabel="GUAM TIME", clockRate=0, burst={"at": AND, "t": 0.1, "km": 4, "fade": 4},
     rings=[ring(AND, 4, a + 0.7, "", RED)], cities=[city(AND, "", a + 0.5, RED, "target", 6)])
 a = 5.0
-cty("open-rings", a, S("p02"), [("s", AND, 4000), ("e", AND, 10000)],
+cty("open-rings", a, S("p02"), [("s", AND, 7000), ("e", AND, 15000)],
     [dict(ring(AND, FX["fireball_km"], a + 0.3, "Fireball", WHITE), angle=100), dict(ring(AND, FX["psi5_km"], a + 1.2, "5 psi", RED), angle=225), dict(ring(AND, FX["psi1_km"], a + 2.2, "Windows", ORANGE), angle=135)],
     [LB("Andersen Air Force Base", -0.30, 0.30, a + 0.3, WHITE)], clock="01:43", clockLabel="GUAM TIME", clockRate=0,
     caption="Simulation: it has not happened.")
@@ -279,7 +279,7 @@ glob("open-arc", a, tTh + 0.2, [("s", 21.0, 122.0, 1900), ("e", 19.0, 130.0, 260
      clock="T+00:00", clockLabel="FLIGHT", clockRate=190)
 a = tTh + 0.2
 reg("open-flight", a, S("p05"), [("s", [130.0, 20.0], 5200), ("e", [134.0, 19.0], 4300)],
-    [LB2("About thirteen minutes", a + 0.1, YELLOW), LB2("3,400 km", tKm, WHITE, 1)], clock="T+06:30", clockLabel="FLIGHT", clockRate=60, highlight=[HL_CN], countryLabels=CL,
+    [LB2("About thirteen minutes", a + 0.1, YELLOW), LB2("3,400 km", tKm, WHITE, 1)], clock="T+06:30", clockLabel="FLIGHT", clockRate=60, highlight=[HL_CN],
     **flights([(L_N, AND, a, a + 5.0, "DF-26", RED)]), cities=[city(AND, "Guam", a + 0.3, BLUE, "base", 6)])
 a = S("p05")
 tHo = W("p05", "how")
@@ -626,11 +626,11 @@ reg("c4-14", a, S("p37"), [("s", [134.0, 19.0], 4600), ("e", [138.0, 17.0], 3200
     lines=[line(L_CA, AND, a + 0.3, a + 3.2, AMBER, True)])
 a = S("p37")
 tDet, tNo = W("p37", "detonates"), W("p37", "nothing")
-reg("c4-m13", a, tDet, [("s", [140.0, 18.0], 2200), ("e", [145.0, 14.5], 800)],
+reg("c4-m13", a, tDet, [("s", AND, 500), ("e", AND, 150)],
     [LB2("Minute thirteen", a + 0.2, YELLOW), LB2("01:43 in the morning on Guam", a + 1.4, WHITE, 1)], highlight=[], **clk("T+12:00", 22),
     **flights([(L_N, AND, a + 0.1, tDet + 0.2, "DF-26", YELLOW)]), cities=[city(AND, "Andersen AFB", a + 0.4, BLUE, "target", 6)])
 a = tDet
-reg("c4-flash", a, tNo, [("s", AND, 300), ("e", AND, 180)],
+reg("c4-flash", a, tNo, [("s", AND, 60), ("e", AND, 50)],
     [LB2("A DF-26 detonates over Andersen", a + 0.5, YELLOW)], clock="T+13:18", clockLabel="AFTER FIRST LAUNCH", clockRate=0, burst={"at": AND, "t": 0.1, "km": 4, "fade": 4},
     rings=[ring(AND, 4, a + 0.7, "", RED)], cities=[city(AND, "Andersen AFB", a + 0.5, RED, "target", 6)])
 a = tNo
@@ -705,7 +705,7 @@ cty("c5-homes", a, S("p45"), [("s", AND, 9000), ("e", AND, 7500)],
     [LB("Most homes in it collapse", -0.30, 0.31, a + 0.2, WHITE), LB("Along much of one runway", -0.30, 0.23, W("p44", "reaches"), YELLOW)], **CK)
 a = S("p45")
 cty("c5-miss", a, S("p46"), [("s", AND, 5200), ("e", AND, 3600)],
-    [dict(ring(AND, FX["psi5_km"], 0, "5 psi", RED), angle=300), dict(ring(AND, 0.45, a + 3.0, "450 m miss", WHITE, True), angle=200)],
+    [dict(ring(AND, FX["psi5_km"], 0, "5 psi", RED), angle=60), dict(ring(AND, 0.45, a + 3.0, "450 m miss", WHITE, True), angle=200)],
     [LB("Remember the accuracy estimate", -0.30, 0.31, a + 0.2, WHITE), LB("A 450 m miss still lands inside", -0.30, 0.23, W("p45", "miss"), YELLOW)], **CK)
 a = S("p46")
 tOt = W("p46", "other")

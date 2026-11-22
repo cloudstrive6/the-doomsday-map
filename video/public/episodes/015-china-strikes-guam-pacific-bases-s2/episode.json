@@ -1,0 +1,578 @@
+{
+ "subtitles": [
+  {
+   "start": 0.346,
+   "end": 1.564,
+   "text": "The burst is in the air,"
+  },
+  {
+   "start": 1.564,
+   "end": 2.964,
+   "text": "above the flight line,"
+  },
+  {
+   "start": 2.964,
+   "end": 5.014,
+   "text": "at 1:43 in the morning."
+  },
+  {
+   "start": 5.215,
+   "end": 6.444,
+   "text": "The fireball is about"
+  },
+  {
+   "start": 6.444,
+   "end": 8.294,
+   "text": "300 m across."
+  },
+  {
+   "start": 9.449,
+   "end": 11.154,
+   "text": "Out to 300 m,"
+  },
+  {
+   "start": 11.344,
+   "end": 13.004,
+   "text": "the overpressure is 20"
+  },
+  {
+   "start": 13.004,
+   "end": 14.874,
+   "text": "pounds per square inch."
+  },
+  {
+   "start": 15.233,
+   "end": 17.034,
+   "text": "That is the inner ring,"
+  },
+  {
+   "start": 17.227,
+   "end": 19.034,
+   "text": "and it sits on the base."
+  },
+  {
+   "start": 20.119,
+   "end": 21.844,
+   "text": "At one and a half kilometres,"
+  },
+  {
+   "start": 21.844,
+   "end": 22.844,
+   "text": "it is five pounds"
+  },
+  {
+   "start": 22.844,
+   "end": 24.327,
+   "text": "per square inch."
+  },
+  {
+   "start": 24.327,
+   "end": 25.384,
+   "text": "That ring covers about"
+  },
+  {
+   "start": 25.384,
+   "end": 27.834,
+   "text": "6.7 square kilometres."
+  },
+  {
+   "start": 28.277,
+   "end": 30.794,
+   "text": "Most residential buildings in it collapse."
+  },
+  {
+   "start": 31.282,
+   "end": 32.564,
+   "text": "It reaches along a large"
+  },
+  {
+   "start": 32.564,
+   "end": 34.234,
+   "text": "part of one runway."
+  },
+  {
+   "start": 34.856,
+   "end": 36.794,
+   "text": "Remember the accuracy estimate."
+  },
+  {
+   "start": 37.085,
+   "end": 37.564,
+   "text": "A miss of"
+  },
+  {
+   "start": 37.564,
+   "end": 39.518,
+   "text": "450 m,"
+  },
+  {
+   "start": 39.518,
+   "end": 40.994,
+   "text": "the top of that range,"
+  },
+  {
+   "start": 41.151,
+   "end": 43.724,
+   "text": "would still land inside this ring."
+  }
+ ],
+ "slug": "015-china-strikes-guam-pacific-bases-s2",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 43.724,
+ "shots": [
+  {
+   "id": "c5-fire",
+   "type": "city",
+   "start": 0.0,
+   "end": 9.0,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 2.4
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 2.4
+    },
+    {
+     "t": 5.5,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 3.84
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.153,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "angle": 100
+    }
+   ],
+   "labels": [
+    {
+     "text": "In the air, above the flight line",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      144.91319,
+      13.58215
+     ]
+    },
+    {
+     "text": "Fireball: about 300 m across",
+     "color": "#FFD23F",
+     "t": 2.0,
+     "at": [
+      144.91319,
+      13.58056
+     ]
+    }
+   ],
+   "flashT": 0.1,
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-20psi",
+   "type": "city",
+   "start": 9.0,
+   "end": 15.714,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 2.88
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 2.88
+    },
+    {
+     "t": 6.71,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 4.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.153,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 100
+    },
+    {
+     "km": 0.297,
+     "label": "20 psi",
+     "color": "#FF3B3B",
+     "t": 3.47,
+     "angle": 225
+    }
+   ],
+   "labels": [
+    {
+     "text": "Out to 300 m: 20 psi",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      144.91208,
+      13.58278
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-inner",
+   "type": "city",
+   "start": 15.714,
+   "end": 19.624,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 4.0
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 4.0
+    },
+    {
+     "t": 3.91,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 5.12
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.153,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 100
+    },
+    {
+     "km": 0.297,
+     "label": "20 psi",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "labels": [
+    {
+     "text": "The inner ring sits on the base",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      144.9082,
+      13.58499
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-5psi",
+   "type": "city",
+   "start": 19.624,
+   "end": 28.127,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 4.0
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 4.0
+    },
+    {
+     "t": 8.5,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 7.2
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.153,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 100
+    },
+    {
+     "km": 0.297,
+     "label": "20 psi",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 1.459,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.8,
+     "angle": 300
+    }
+   ],
+   "labels": [
+    {
+     "text": "1.5 km: 5 psi",
+     "color": "#FFD23F",
+     "t": 0.3,
+     "at": [
+      144.90459,
+      13.58704
+     ]
+    },
+    {
+     "text": "About 6.7 square km",
+     "color": "#FFFFFF",
+     "t": 5.61,
+     "at": [
+      144.90459,
+      13.58419
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-homes",
+   "type": "city",
+   "start": 28.127,
+   "end": 34.841,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 7.2
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 7.2
+    },
+    {
+     "t": 6.71,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 6.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.297,
+     "label": "20 psi",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 1.459,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 300
+    }
+   ],
+   "labels": [
+    {
+     "text": "Most homes in it collapse",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      144.90113,
+      13.58901
+     ]
+    },
+    {
+     "text": "Along much of one runway",
+     "color": "#FFD23F",
+     "t": 3.11,
+     "at": [
+      144.90113,
+      13.58565
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-miss",
+   "type": "city",
+   "start": 34.841,
+   "end": 43.724,
+   "tag": "SIMULATION",
+   "city": "guam-andersen",
+   "view": {
+    "center": [
+     144.924,
+     13.576
+    ],
+    "widthKm": 4.16
+   },
+   "gz": [
+    144.924,
+    13.576
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 4.16
+    },
+    {
+     "t": 6.08,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 3.31
+    },
+    {
+     "t": 9.17,
+     "center": [
+      144.924,
+      13.576
+     ],
+     "widthKm": 2.88
+    }
+   ],
+   "rings": [
+    {
+     "km": 1.459,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 60
+    },
+    {
+     "km": 0.45,
+     "label": "450 m miss",
+     "color": "#FFFFFF",
+     "t": 3.0,
+     "angle": 200
+    }
+   ],
+   "labels": [
+    {
+     "text": "Remember the accuracy estimate",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      144.9118,
+      13.58294
+     ]
+    },
+    {
+     "text": "A 450 m miss still lands inside",
+     "color": "#FFD23F",
+     "t": 2.23,
+     "at": [
+      144.9118,
+      13.58115
+     ]
+    }
+   ],
+   "clock": "01:43",
+   "clockLabel": "GUAM TIME",
+   "clockRate": 0
+  }
+ ],
+ "shortTitle": [
+  "5 PSI AT 1.5 KM",
+  "OVER ANDERSEN AFB"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Narration: AI-generated."
+}

@@ -1,14 +1,14 @@
 [
   {
     "id": "s1",
-    "start": 0.0,
-    "end": 32.85,
+    "start": 2.2,
+    "end": 33.0,
     "title": [
-      "ONE 10 KT NUKE",
-      "ON GUAM"
+      "13 MINUTES",
+      "FROM LAUNCH TO GUAM"
     ],
-    "yt_title": "What If China Nuked Guam With One DF-26? #shorts",
-    "hook": "A simulation: a nuclear DF-26 bursts over Andersen Air Force Base on Guam, thirteen minutes after launch from southern China."
+    "yt_title": "How Long Would a Chinese Nuke Take to Reach Guam? #shorts",
+    "hook": "A simulation: a nuclear DF-26 bursts over Guam at one forty-three, thirteen minutes after launch from southern China."
   },
   {
     "id": "s2",
@@ -23,13 +23,13 @@
   },
   {
     "id": "s3",
-    "start": 434.42,
-    "end": 472.4,
+    "start": 448.13,
+    "end": 478.4,
     "title": [
-      "13 MINUTES",
-      "FROM LAUNCH TO GUAM"
+      "ONE 10 KT NUKE",
+      "ON GUAM"
     ],
-    "yt_title": "How Long Would a Chinese Missile Take to Reach Guam? #shorts",
-    "hook": "A simulation: the flight to Guam takes nearly thirteen minutes, and the flash lands one forty-three in the morning."
+    "yt_title": "What If China Nuked Guam With One DF-26? #shorts",
+    "hook": "A simulation: a DF-26 detonates over Andersen Air Force Base at one forty-three, and nothing stops it."
   }
 ]
