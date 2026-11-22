@@ -44,3 +44,16 @@ Non-blocking notes:
 8. Not sampled: the 127 shots of which I saw about 28. Many of the sampled city frames are the same Andersen runway at different zoom (f04560, f05040, f05400, f17400, f31260 and others look near-identical). It is fine for the story but the director should confirm each new shot changes the picture (ring, label or zoom) at least every 4 s before 90 s and every 6 s after, which validate.txt already reports as ok.
 
 Not staged: visual_approved is not recorded because of findings 1 to 4. Send to the director with this file; re-screen as round 2.
+
+
+--- Round 3, reviewed 2026-11-22 ---
+
+PASS
+
+Scope: finding 4 only (f00000, open-run), re-rendered with `python -m studio stills 015-china-strikes-guam-pacific-bases 0s 1s`. validate.txt reads `ok` (no `retention:` or `pace:` lines).
+
+1. f00000 (0 s): fixed. The frame now shows the China coast at left with an amber square and "LAUNCH (SIMULATED)", and a red Guam marker with ring and "GUAM" at right, with Taiwan and the Philippines between. It shows who is against whom, and the SIMULATION tag (top left) and "T-13:18" clock (top right) are clear of all labels. All labels are inside the frame and readable.
+
+Non-blocking note: the red "ANDERSEN AIR FORCE BASE, GUAM" label sits over the Philippines, about 270 px left of the Guam marker and 50 px above its level, so it reads as detached. Fix if the director is revisiting: anchor it right of or below the GUAM marker, or drop it from frame 0 since "GUAM" already names the target.
+
+Staged as visual_approved (round 3).

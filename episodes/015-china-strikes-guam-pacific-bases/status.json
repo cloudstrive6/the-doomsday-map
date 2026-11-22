@@ -39,7 +39,12 @@
       "stage": "shotlisted",
       "note": "127 shots, 728.9 s, 0 validate/pace lines",
       "at": "2026-11-22T05:34:18+00:00"
+    },
+    {
+      "stage": "visual_approved",
+      "note": "round 3",
+      "at": "2026-11-22T05:38:38+00:00"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "visual_approved"
 }
