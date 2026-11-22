@@ -1,7 +1,7 @@
 {
   "built": "2026-11-22",
   "latest_snapshot": "2026-11-22",
-  "subscribers": 16,
+  "subscribers": 17,
   "subs_target": [
     50,
     "2026-12-10"
@@ -1506,6 +1506,102 @@
       "publish_at": "2026-11-24T00:00:00Z",
       "horizon": 28,
       "due": "2026-12-22",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "015-china-strikes-guam-pacific-bases",
+      "num": 15,
+      "kind": "long",
+      "id": "ZMWCRJiL-iU",
+      "title": "What If China Nuked Guam With One DF-26?",
+      "publish_at": "2026-11-24T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-01",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "015-china-strikes-guam-pacific-bases",
+      "num": 15,
+      "kind": "long",
+      "id": "ZMWCRJiL-iU",
+      "title": "What If China Nuked Guam With One DF-26?",
+      "publish_at": "2026-11-24T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-22",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "015-china-strikes-guam-pacific-bases",
+      "num": 15,
+      "kind": "short",
+      "id": "_1B_du-kjmc",
+      "title": "How Long Would a Chinese Nuke Take to Reach Guam? #shorts",
+      "publish_at": "2026-11-24T14:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-01",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "015-china-strikes-guam-pacific-bases",
+      "num": 15,
+      "kind": "short",
+      "id": "_1B_du-kjmc",
+      "title": "How Long Would a Chinese Nuke Take to Reach Guam? #shorts",
+      "publish_at": "2026-11-24T14:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-22",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "015-china-strikes-guam-pacific-bases",
+      "num": 15,
+      "kind": "short",
+      "id": "3FE2cKJi9eA",
+      "title": "What One 10 Kiloton Nuke Would Do to Guam's Andersen Base #shorts",
+      "publish_at": "2026-11-24T19:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-01",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "015-china-strikes-guam-pacific-bases",
+      "num": 15,
+      "kind": "short",
+      "id": "3FE2cKJi9eA",
+      "title": "What One 10 Kiloton Nuke Would Do to Guam's Andersen Base #shorts",
+      "publish_at": "2026-11-24T19:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-22",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "015-china-strikes-guam-pacific-bases",
+      "num": 15,
+      "kind": "short",
+      "id": "m8LckkDhJdc",
+      "title": "What If China Nuked Guam With One DF-26? #shorts",
+      "publish_at": "2026-11-25T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-02",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "015-china-strikes-guam-pacific-bases",
+      "num": 15,
+      "kind": "short",
+      "id": "m8LckkDhJdc",
+      "title": "What If China Nuked Guam With One DF-26? #shorts",
+      "publish_at": "2026-11-25T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-23",
       "snapshot": null,
       "status": "pending"
     }

@@ -2,7 +2,7 @@
 
 Built by `python -m studio scorecard` from data/analytics/. Targets judged on the median of episodes 004 onward; earlier episodes are the baseline. Small samples: read as tests, not proof.
 
-Subscribers: 16 (target 50 by 2026-12-10)
+Subscribers: 17 (target 50 by 2026-12-10)
 
 ## Targets
 
@@ -51,6 +51,8 @@ Subscribers: 16 (target 50 by 2026-12-10)
 | 013 | xeDNdj7CXg8 | 28 | due 2026-12-20 | - | - | - | - | - | - |
 | 014 | MHcEaOzJxHk | 7 | due 2026-11-30 | - | - | - | - | - | - |
 | 014 | MHcEaOzJxHk | 28 | due 2026-12-21 | - | - | - | - | - | - |
+| 015 | ZMWCRJiL-iU | 7 | due 2026-12-01 | - | - | - | - | - | - |
+| 015 | ZMWCRJiL-iU | 28 | due 2026-12-22 | - | - | - | - | - | - |
 
 ## Shorts
 
@@ -134,3 +136,9 @@ Subscribers: 16 (target 50 by 2026-12-10)
 | 014 | lnLiWO1YJz8 | 28 | due 2026-12-21 | - | - | - |
 | 014 | fz72MisdI4s | 7 | due 2026-12-01 | - | - | - |
 | 014 | fz72MisdI4s | 28 | due 2026-12-22 | - | - | - |
+| 015 | _1B_du-kjmc | 7 | due 2026-12-01 | - | - | - |
+| 015 | _1B_du-kjmc | 28 | due 2026-12-22 | - | - | - |
+| 015 | 3FE2cKJi9eA | 7 | due 2026-12-01 | - | - | - |
+| 015 | 3FE2cKJi9eA | 28 | due 2026-12-22 | - | - | - |
+| 015 | m8LckkDhJdc | 7 | due 2026-12-02 | - | - | - |
+| 015 | m8LckkDhJdc | 28 | due 2026-12-23 | - | - | - |
