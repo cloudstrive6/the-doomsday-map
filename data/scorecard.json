@@ -1604,6 +1604,102 @@
       "due": "2026-12-23",
       "snapshot": null,
       "status": "pending"
+    },
+    {
+      "episode": "016-nato-answer-russian-nuke-ukraine",
+      "num": 16,
+      "kind": "long",
+      "id": "JtzdHxpsX6M",
+      "title": "What If Russia Nuked Ukraine? NATO's 4 Options",
+      "publish_at": "2026-11-25T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-02",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "016-nato-answer-russian-nuke-ukraine",
+      "num": 16,
+      "kind": "long",
+      "id": "JtzdHxpsX6M",
+      "title": "What If Russia Nuked Ukraine? NATO's 4 Options",
+      "publish_at": "2026-11-25T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-23",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "016-nato-answer-russian-nuke-ukraine",
+      "num": 16,
+      "kind": "short",
+      "id": "vFA1xrw4EN4",
+      "title": "What If Russia Nuked Ukraine? NATO's First Question #shorts",
+      "publish_at": "2026-11-25T14:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-02",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "016-nato-answer-russian-nuke-ukraine",
+      "num": 16,
+      "kind": "short",
+      "id": "vFA1xrw4EN4",
+      "title": "What If Russia Nuked Ukraine? NATO's First Question #shorts",
+      "publish_at": "2026-11-25T14:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-23",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "016-nato-answer-russian-nuke-ukraine",
+      "num": 16,
+      "kind": "short",
+      "id": "uwrXqsBlPVI",
+      "title": "What One 20 Kiloton Nuke Would Do to Ukrainian Farmland #shorts",
+      "publish_at": "2026-11-25T19:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-02",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "016-nato-answer-russian-nuke-ukraine",
+      "num": 16,
+      "kind": "short",
+      "id": "uwrXqsBlPVI",
+      "title": "What One 20 Kiloton Nuke Would Do to Ukrainian Farmland #shorts",
+      "publish_at": "2026-11-25T19:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-23",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "016-nato-answer-russian-nuke-ukraine",
+      "num": 16,
+      "kind": "short",
+      "id": "us9V1XiOxZo",
+      "title": "Russia's Iskander-M Nuke: How Much Warning Is There? #shorts",
+      "publish_at": "2026-11-26T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-03",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "016-nato-answer-russian-nuke-ukraine",
+      "num": 16,
+      "kind": "short",
+      "id": "us9V1XiOxZo",
+      "title": "Russia's Iskander-M Nuke: How Much Warning Is There? #shorts",
+      "publish_at": "2026-11-26T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-24",
+      "snapshot": null,
+      "status": "pending"
     }
   ]
 }
