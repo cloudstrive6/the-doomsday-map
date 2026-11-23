@@ -1,0 +1,73 @@
+{
+ "slug": "016-nato-answer-russian-nuke-ukraine",
+ "title": "NATO's answer to a Russian nuclear strike on Ukraine: the first 72 hours (simulation)",
+ "t0_utc": "2026-12-14T11:40:00+00:00",
+ "sun": {
+  "lat": -23.29,
+  "lon": 3.9
+ },
+ "totals": {
+  "strikes": 1,
+  "warheads": 1,
+  "yield_mt": 0.02,
+  "first_impact_min": 3.3,
+  "last_impact_min": 3.3
+ },
+ "strikes": [
+  {
+   "id": "iskander-staging-area",
+   "launch_name": "Russian Iskander-M brigade, Kursk region (location simulated)",
+   "launch_lat": 51.3,
+   "launch_lon": 36.2,
+   "target_name": "Ukrainian reserve staging area, open farmland, central Ukraine (location simulated)",
+   "target_lat": 50.02,
+   "target_lon": 33.95,
+   "weapon": "Iskander-M (nuclear-armed, assumed)",
+   "weapon_class": "srbm",
+   "yield_kt": 20,
+   "burst": "air",
+   "warheads": 1,
+   "launch_offset_min": 0,
+   "notes": "Simulation choice: one low-yield airburst on a military assembly area in open farmland, no city and no nuclear plant near. Carrier: Iskander-M, the system analysts and CFR name as most likely for a battlefield strike (research A12). Yield 20 kt is a simulation choice inside the published 10 to 100 kt envelope for Iskander warheads (A12, single-source, so 'up to' wording); Hiroshima about 15 kt is only a yardstick (A13). Airburst. All NATO moves in the episode are simulation choices, conventional and diplomatic (A23 to A25). Different site and yield from episode 005 on purpose.",
+   "distance_km": 213.1,
+   "bearing_deg": 229.0,
+   "flight_min": 3.3,
+   "launch_min": 0,
+   "impact_min": 3.3,
+   "effects": {
+    "yield_kt": 20,
+    "burst": "air",
+    "fireball_km": 0.202,
+    "psi20_km": 0.374,
+    "psi5_km": 1.838,
+    "psi1_km": 4.975,
+    "thermal3_km": 2.149,
+    "fallout": "little local fallout"
+   },
+   "area_psi5_km2": 10.6
+  }
+ ],
+ "sources": [
+  {
+   "claim": "Iskander-M as the likely battlefield carrier",
+   "url": "https://cfr.org/articles/if-russia-goes-nuclear-three-scenarios-ukraine-war",
+   "publisher": "Council on Foreign Relations"
+  },
+  {
+   "claim": "Russian non-strategic warheads and Iskander yield range",
+   "url": "https://thebulletin.org/premium/2026-05/russian-nuclear-weapons-2026/",
+   "publisher": "Bulletin of the Atomic Scientists"
+  },
+  {
+   "claim": "Hiroshima yield yardstick",
+   "url": "https://en.wikipedia.org/wiki/Little_Boy",
+   "publisher": "Wikipedia citing Los Alamos review"
+  },
+  {
+   "claim": "Blast scaling",
+   "url": "https://nuclearsecrecy.com/nukemap/",
+   "publisher": "NUKEMAP, Alex Wellerstein"
+  }
+ ],
+ "model": "Glasstone and Dolan scaling calibrated to NUKEMAP Hiroshima figures; flight times fitted to published ranges; all values are estimates for a labelled simulation."
+}
