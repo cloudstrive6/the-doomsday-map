@@ -242,7 +242,7 @@
      33.7882,
      50.1415
     ],
-    "widthKm": 150
+    "widthKm": 210
    },
    "camera": [
     {
@@ -251,7 +251,7 @@
       33.7882,
       50.1415
      ],
-     "widthKm": 150
+     "widthKm": 210
     },
     {
      "t": 3.0,
@@ -259,26 +259,26 @@
       33.7882,
       50.1415
      ],
-     "widthKm": 150
+     "widthKm": 160
     }
    ],
    "labels": [
     {
      "text": "20 kiloton airburst",
      "color": "#FFD23F",
-     "t": 0.05,
+     "t": 0.9,
      "at": [
-      33.9564,
-      50.17813
+      34.04751,
+      50.19797
      ]
     },
     {
      "text": "Open farmland, central Ukraine",
      "color": "#FFFFFF",
-     "t": 0.3,
+     "t": 1.3,
      "at": [
-      33.9564,
-      50.12929
+      34.04751,
+      50.12268
      ]
     }
    ],
@@ -316,6 +316,28 @@
      "kind": "target",
      "t": 0.5,
      "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      33.67962,
+      50.1838
+     ],
+     "label": "Komyshnia",
+     "kind": "base",
+     "t": 1.2,
+     "color": "#3ED6C8",
+     "size": 6
+    },
+    {
+     "at": [
+      33.27418,
+      50.35952
+     ],
+     "label": "Lokhvytsia",
+     "kind": "base",
+     "t": 1.8,
+     "color": "#3ED6C8",
      "size": 6
     }
    ]
@@ -532,7 +554,7 @@
       36.8643,
       51.3738
      ],
-     "widthKm": 744.745
+     "widthKm": 984.514
     },
     {
      "t": 6.07,
@@ -540,15 +562,15 @@
       36.2,
       51.3
      ],
-     "widthKm": 420
+     "widthKm": 800
     },
     {
      "t": 7.05,
      "center": [
-      36.2,
-      51.3
+      35.0,
+      50.8
      ],
-     "widthKm": 260
+     "widthKm": 900
     }
    ],
    "labels": [
@@ -557,8 +579,8 @@
      "color": "#FFD23F",
      "t": 0.1,
      "at": [
-      34.6233,
-      52.7301
+      33.23798,
+      53.23476
      ]
     },
     {
@@ -566,8 +588,8 @@
      "color": "#F2B01E",
      "t": 1.6,
      "at": [
-      34.6233,
-      52.39282
+      33.23798,
+      52.7591
      ]
     },
     {
@@ -575,8 +597,8 @@
      "color": "#FFFFFF",
      "t": 6.07,
      "at": [
-      34.6233,
-      52.05553
+      33.23798,
+      52.28344
      ]
     }
    ],
@@ -587,6 +609,11 @@
      "iso": "643",
      "color": "#F2B01E",
      "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
     }
    ],
    "countryLabels": [
@@ -594,6 +621,11 @@
      "iso": "643",
      "text": "RUSSIA",
      "color": "#F2B01E"
+    },
+    {
+     "iso": "804",
+     "text": "UKRAINE",
+     "color": "#3ED6C8"
     }
    ],
    "cities": [
@@ -606,6 +638,17 @@
      "kind": "base",
      "t": 0.6,
      "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "label": "Target (simulated)",
+     "kind": "target",
+     "t": 6.07,
+     "color": "#FF3B3B",
      "size": 6
     }
    ]
@@ -2645,10 +2688,10 @@
    ]
   },
   {
-   "id": "c2-cat+priv",
+   "id": "c2-cat",
    "type": "region",
    "start": 158.27,
-   "end": 165.483,
+   "end": 160.442,
    "tag": "REAL HISTORY",
    "view": {
     "center": [
@@ -2669,13 +2712,100 @@
     {
      "t": 2.17,
      "center": [
-      -70.0,
-      40.0
+      -20.0,
+      46.0
      ],
-     "widthKm": 2600
+     "widthKm": 11500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Russian nuclear use: catastrophic consequences",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "at": [
+      -99.33533,
+      49.07201
+     ]
+    }
+   ],
+   "source": "NBC News, September 2022",
+   "clock": "SEPT 2022",
+   "clockLabel": "WASHINGTON",
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
     },
     {
-     "t": 3.67,
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "Washington",
+     "kind": "base",
+     "t": 0.05,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "base",
+     "t": 1.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -77.04,
+      38.9
+     ],
+     "to": [
+      37.62,
+      55.75
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 1.2,
+     "t1": 3.0
+    }
+   ]
+  },
+  {
+   "id": "c2-priv",
+   "type": "region",
+   "start": 160.442,
+   "end": 165.483,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -77.0,
+     39.0
+    ],
+    "widthKm": 1800
+   },
+   "camera": [
+    {
+     "t": 0,
      "center": [
       -77.0,
       39.0
@@ -2683,7 +2813,7 @@
      "widthKm": 1800
     },
     {
-     "t": 7.21,
+     "t": 5.04,
      "center": [
       -78.0,
       38.0
@@ -2693,19 +2823,9 @@
    ],
    "labels": [
     {
-     "text": "Russian nuclear use: catastrophic consequences",
-     "color": "#FF3B3B",
-     "t": 0.1,
-     "at": [
-      -83.92569,
-      42.05411
-     ],
-     "until": 2.37
-    },
-    {
      "text": "Asked for specifics",
      "color": "#FFFFFF",
-     "t": 2.37,
+     "t": 0.2,
      "at": [
       -82.02821,
       41.28673
@@ -2714,7 +2834,7 @@
     {
      "text": "Spelled out in private channels",
      "color": "#FFD23F",
-     "t": 4.36,
+     "t": 2.19,
      "at": [
       -82.02821,
       40.65972
@@ -2740,17 +2860,6 @@
      "label": "Washington",
      "kind": "base",
      "t": 0.05,
-     "color": "#6EA8FF",
-     "size": 6
-    },
-    {
-     "at": [
-      -77.04,
-      38.9
-     ],
-     "label": "Washington",
-     "kind": "base",
-     "t": 2.22,
      "color": "#6EA8FF",
      "size": 6
     }
@@ -4457,7 +4566,7 @@
    "view": {
     "center": [
      18.0,
-     50.0
+     52.0
     ],
     "widthKm": 3300
    },
@@ -4466,7 +4575,7 @@
      "t": 0,
      "center": [
       18.0,
-      50.0
+      52.0
      ],
      "widthKm": 3300
     },
@@ -4474,7 +4583,7 @@
      "t": 5.69,
      "center": [
       14.0,
-      50.0
+      52.5
      ],
      "widthKm": 2600
     }
@@ -4485,8 +4594,8 @@
      "color": "#FFD23F",
      "t": 0.2,
      "at": [
-      5.63191,
-      54.65231
+      5.08697,
+      56.65231
      ]
     },
     {
@@ -4494,8 +4603,8 @@
      "color": "#FFFFFF",
      "t": 1.67,
      "at": [
-      5.63191,
-      53.37668
+      5.08697,
+      55.37668
      ]
     }
    ],
@@ -6636,12 +6745,12 @@
      "widthKm": 2000
     },
     {
-     "t": 5.45,
+     "t": 5.66,
      "center": [
-      37.1708,
-      53.1708
+      37.2159,
+      53.2159
      ],
-     "widthKm": 1765.843
+     "widthKm": 1756.821
     },
     {
      "t": 9.31,
@@ -6654,21 +6763,30 @@
    ],
    "labels": [
     {
-     "text": "Russian embassies, 2026: all means,",
-     "color": "#FFFFFF",
-     "t": 0.2,
+     "text": "Real record: Russian embassies, 2026",
+     "color": "#FFD23F",
+     "t": 0.1,
      "at": [
       28.12086,
       54.8387
      ]
     },
     {
-     "text": "nuclear included",
-     "color": "#FF3B3B",
-     "t": 1.6,
+     "text": "Reply to NATO strikes: all means,",
+     "color": "#FFFFFF",
+     "t": 1.0,
      "at": [
       28.12086,
       54.06035
+     ]
+    },
+    {
+     "text": "nuclear included",
+     "color": "#FF3B3B",
+     "t": 2.0,
+     "at": [
+      28.12086,
+      53.28199
      ]
     }
    ],
@@ -6680,9 +6798,50 @@
      "iso": "643",
      "color": "#F2B01E",
      "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
     }
    ],
-   "source": "Russian embassy statements, 2026"
+   "countryLabels": [
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "112",
+     "text": "BELARUS",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      27.56,
+      53.9
+     ],
+     "label": "Minsk",
+     "kind": "base",
+     "t": 1.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ],
+   "source": "Source (real record): Russian embassy statements, 2026"
   },
   {
    "id": "c4-o3",
@@ -7429,7 +7588,7 @@
    "rings": [
     {
      "km": 0.202,
-     "label": "Fireball: 200 m",
+     "label": "Fireball",
      "color": "#FFFFFF",
      "t": 0.4,
      "angle": 100
@@ -7490,14 +7649,14 @@
    "rings": [
     {
      "km": 0.202,
-     "label": "",
+     "label": "Fireball",
      "color": "#FFFFFF",
      "t": 0.05,
      "angle": 100
     },
     {
      "km": 0.374,
-     "label": "20 psi: 370 m",
+     "label": "20 psi",
      "color": "#FF3B3B",
      "t": 0.4,
      "angle": 300
@@ -7557,14 +7716,14 @@
    "rings": [
     {
      "km": 0.374,
-     "label": "",
+     "label": "20 psi",
      "color": "#FF3B3B",
      "t": 0.05,
      "angle": 300
     },
     {
      "km": 1.838,
-     "label": "5 psi: 1.8 km",
+     "label": "5 psi",
      "color": "#FF3B3B",
      "t": 0.4,
      "angle": 225
@@ -7641,14 +7800,14 @@
    "rings": [
     {
      "km": 1.838,
-     "label": "",
+     "label": "5 psi",
      "color": "#FF3B3B",
      "t": 0.05,
      "angle": 225
     },
     {
      "km": 2.149,
-     "label": "Third-degree burns: 2.1 km",
+     "label": "3rd-degree burns",
      "color": "#FF7A1A",
      "t": 0.4,
      "angle": 45
@@ -7716,21 +7875,21 @@
    "rings": [
     {
      "km": 1.838,
-     "label": "",
+     "label": "5 psi",
      "color": "#FF3B3B",
      "t": 0.05,
      "angle": 225
     },
     {
      "km": 2.149,
-     "label": "",
+     "label": "Burns",
      "color": "#FF7A1A",
      "t": 0.05,
      "angle": 45
     },
     {
      "km": 4.975,
-     "label": "1 psi: 5 km, windows shatter",
+     "label": "1 psi: windows",
      "color": "#FFD23F",
      "t": 0.4,
      "angle": 135
@@ -7753,7 +7912,7 @@
      33.7882,
      50.1415
     ],
-    "widthKm": 14.0
+    "widthKm": 19.0
    },
    "gz": [
     33.7882,
@@ -7766,15 +7925,15 @@
       33.7882,
       50.1415
      ],
-     "widthKm": 14.0
+     "widthKm": 19.0
     },
     {
-     "t": 3.41,
+     "t": 3.2,
      "center": [
       33.7882,
       50.1415
      ],
-     "widthKm": 15.029
+     "widthKm": 24.0
     },
     {
      "t": 6.63,
@@ -7782,33 +7941,33 @@
       33.7882,
       50.1415
      ],
-     "widthKm": 16.0
+     "widthKm": 21.0
     }
    ],
    "rings": [
     {
      "km": 1.838,
-     "label": "",
+     "label": "5 psi",
      "color": "#FF3B3B",
-     "t": 0.05,
+     "t": 0.3,
      "angle": 225
     },
     {
      "km": 4.975,
-     "label": "",
+     "label": "1 psi",
      "color": "#FFD23F",
-     "t": 0.05,
+     "t": 1.5,
      "angle": 135
     }
    ],
    "labels": [
     {
-     "text": "The 5 psi and 1 psi rings",
+     "text": "Inside the 5 psi and 1 psi rings",
      "color": "#FFD23F",
      "t": 0.2,
      "at": [
-      33.72513,
-      50.16516
+      33.7041,
+      50.17304
      ]
     }
    ],
@@ -7828,7 +7987,7 @@
      33.7882,
      50.1415
     ],
-    "widthKm": 16.0
+    "widthKm": 19.0
    },
    "gz": [
     33.7882,
@@ -7841,49 +8000,49 @@
       33.7882,
       50.1415
      ],
-     "widthKm": 16.0
+     "widthKm": 19.0
     },
     {
      "t": 3.91,
      "center": [
-      33.7882,
+      33.8042,
       50.1415
      ],
-     "widthKm": 19.12
+     "widthKm": 15.88
     },
     {
      "t": 7.52,
      "center": [
-      33.7882,
+      33.81904,
       50.1415
      ],
-     "widthKm": 22.0
+     "widthKm": 13.0
     }
    ],
    "rings": [
     {
      "km": 4.975,
-     "label": "",
+     "label": "1 psi",
      "color": "#FFD23F",
      "t": 0.05,
      "angle": 135
     },
     {
      "km": 4.3,
-     "label": "4.3 km",
+     "label": "Hlyboke",
      "color": "#FFFFFF",
      "t": 0.3,
-     "angle": 300
+     "angle": 90
     }
    ],
    "labels": [
     {
-     "text": "4.3 km from ground zero",
+     "text": "Nearest mapped place: Hlyboke, a village",
      "color": "#FFFFFF",
      "t": 0.2,
      "at": [
-      33.70831,
-      50.17146
+      33.72092,
+      50.16673
      ]
     }
    ],
@@ -9487,10 +9646,10 @@
    ]
   },
   {
-   "id": "c6-peace",
+   "id": "c6-peace+d7+taboo",
    "type": "region",
    "start": 636.49,
-   "end": 640.003,
+   "end": 644.036,
    "tag": "SIMULATION",
    "view": {
     "center": [
@@ -9515,6 +9674,38 @@
       50.0
      ],
      "widthKm": 2000
+    },
+    {
+     "t": 4.25,
+     "center": [
+      27.0,
+      50.0
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 5.98,
+     "center": [
+      34.0,
+      51.0
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 6.45,
+     "center": [
+      30.0,
+      50.0
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 7.55,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 700
     }
    ],
    "labels": [
@@ -9525,11 +9716,50 @@
      "at": [
       16.35708,
       53.62723
+     ],
+     "until": 3.71
+    },
+    {
+     "text": "Day 7",
+     "color": "#FFD23F",
+     "t": 3.71,
+     "at": [
+      17.77634,
+      53.46952
+     ],
+     "until": 6.18
+    },
+    {
+     "text": "No ceasefire",
+     "color": "#FF3B3B",
+     "t": 4.51,
+     "at": [
+      17.77634,
+      52.5182
+     ],
+     "until": 6.18
+    },
+    {
+     "text": "The first 72 hours changed nothing here",
+     "color": "#FFFFFF",
+     "t": 5.51,
+     "at": [
+      17.77634,
+      51.56688
+     ],
+     "until": 6.18
+    },
+    {
+     "text": "The taboo is broken",
+     "color": "#FF3B3B",
+     "t": 6.18,
+     "at": [
+      25.5978,
+      51.65591
      ]
     }
    ],
-   "clock": "DAY 4",
-   "clockLabel": "AFTER THE BURST",
+   "clock": "",
    "clockRate": 0,
    "highlight": [
     {
@@ -9542,66 +9772,62 @@
      "color": "#F2B01E",
      "fill": "rgba(242,176,30,0.07)"
     }
+   ],
+   "countryLabels": [
+    {
+     "iso": "804",
+     "text": "UKRAINE",
+     "color": "#3ED6C8"
+    },
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    }
+   ],
+   "legend": [
+    {
+     "text": "UKRAINE",
+     "color": "#3ED6C8"
+    },
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "kind": "target",
+     "t": 6.03,
+     "color": "#FF3B3B",
+     "size": 6
+    }
    ]
   },
   {
-   "id": "c6-d7",
-   "type": "timeline",
-   "start": 640.003,
-   "end": 642.47,
-   "tag": "SIMULATION",
-   "title": "Day 7",
-   "sub": "No ceasefire",
-   "total": 7,
-   "unit": "days",
-   "segments": [
-    {
-     "from": 0,
-     "to": 3,
-     "label": "First 72 hours",
-     "color": "#6EA8FF"
-    },
-    {
-     "from": 3,
-     "to": 7,
-     "label": "No ceasefire",
-     "color": "#FF3B3B"
-    }
-   ],
-   "cursorTo": 7
-  },
-  {
-   "id": "c6-taboo+next",
+   "id": "c6-next",
    "type": "region",
-   "start": 642.47,
+   "start": 644.036,
    "end": 651.521,
    "tag": "SIMULATION",
    "view": {
     "center": [
-     30.0,
-     50.0
+     20.0,
+     51.0
     ],
-    "widthKm": 1400
+    "widthKm": 3200
    },
    "camera": [
     {
      "t": 0,
-     "center": [
-      30.0,
-      50.0
-     ],
-     "widthKm": 1400
-    },
-    {
-     "t": 1.57,
-     "center": [
-      33.7882,
-      50.1415
-     ],
-     "widthKm": 700
-    },
-    {
-     "t": 3.07,
      "center": [
       20.0,
       51.0
@@ -9609,15 +9835,15 @@
      "widthKm": 3200
     },
     {
-     "t": 6.21,
+     "t": 4.64,
      "center": [
-      25.2421,
-      51.5242
+      26.1949,
+      51.6195
      ],
-     "widthKm": 2780.634
+     "widthKm": 2704.406
     },
     {
-     "t": 9.06,
+     "t": 7.49,
      "center": [
       30.0,
       52.0
@@ -9627,19 +9853,9 @@
    ],
    "labels": [
     {
-     "text": "The taboo is broken",
-     "color": "#FF3B3B",
-     "t": 0.2,
-     "at": [
-      25.5978,
-      51.65591
-     ],
-     "until": 1.77
-    },
-    {
      "text": "NATO has not said what it would do next",
      "color": "#FFFFFF",
-     "t": 1.77,
+     "t": 0.2,
      "at": [
       8.00958,
       55.41575
@@ -9648,7 +9864,7 @@
     {
      "text": "Moscow has not said it will not fire again",
      "color": "#F2B01E",
-     "t": 3.37,
+     "t": 1.8,
      "at": [
       8.00958,
       54.20498
@@ -9718,18 +9934,6 @@
      "iso": "203",
      "color": "#6EA8FF",
      "fill": "rgba(110,168,255,0.1)"
-    }
-   ],
-   "cities": [
-    {
-     "at": [
-      33.7882,
-      50.1415
-     ],
-     "kind": "target",
-     "t": 0.05,
-     "color": "#FF3B3B",
-     "size": 6
     }
    ]
   },

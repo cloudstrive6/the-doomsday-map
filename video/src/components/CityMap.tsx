@@ -61,7 +61,7 @@ function paintCity(data: CityData, baseView: RegionView, W: number, H: number): 
   flat(data.water); ctx.fillStyle = '#0B1726'; ctx.fill('nonzero');
   ctx.beginPath(); path(multi(data.waterway) as any); ctx.strokeStyle = '#0F2238'; ctx.lineWidth = Math.max(1, pxPerKm * 0.03); ctx.stroke();
   if (detail && data.buildings.length) {
-    ctx.fillStyle = 'rgba(190,205,215,0.10)';
+    ctx.fillStyle = 'rgba(190,205,215,0.22)';
     for (let i = 0; i < data.buildings.length; i += 1500) {  // batches keep each path small
       flat(data.buildings.slice(i, i + 1500)); ctx.fill('nonzero');
     }
@@ -72,7 +72,7 @@ function paintCity(data: CityData, baseView: RegionView, W: number, H: number): 
     for (let i = 0; i < lines.length; i += 2000) { ctx.beginPath(); path(multi(lines.slice(i, i + 2000)) as any); ctx.stroke(); }
     ctx.setLineDash([]);
   };
-  if (detail) road(data.roads.minor, 'rgba(160,180,190,0.16)', Math.max(0.6, pxPerKm * 0.012));
+  if (detail) road(data.roads.minor, 'rgba(160,180,190,0.28)', Math.max(0.6, pxPerKm * 0.012));
   road(data.roads.secondary, 'rgba(170,190,200,0.32)', Math.max(0.9, pxPerKm * 0.02));
   road(data.roads.primary, 'rgba(190,210,220,0.5)', Math.max(1.3, pxPerKm * 0.03));
   road(data.roads.motorway, 'rgba(225,235,240,0.75)', Math.max(2, pxPerKm * 0.045));

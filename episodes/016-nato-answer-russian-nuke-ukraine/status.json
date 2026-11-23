@@ -44,7 +44,17 @@
       "stage": "shotlisted",
       "note": "105 shots, 672.9 s, 0 pace lines, 0 retention lines",
       "at": "2026-11-23T05:25:41+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "director fixes",
+      "at": "2026-11-23T05:44:00+00:00"
+    },
+    {
+      "stage": "visual_approved",
+      "note": "visual-screener PASS round 2",
+      "at": "2026-11-23T05:44:00+00:00"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "visual_approved"
 }

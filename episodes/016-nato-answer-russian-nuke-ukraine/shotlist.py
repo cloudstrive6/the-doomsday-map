@@ -225,10 +225,11 @@ reg("open-run", 0, FLASH, [("s", [35.0, 50.6], 700), ("e", [34.6, 50.4], 520)],
     ships=[ship([LAUNCH, GZ], 0.0, FLASH - 0.05, "Iskander-M", RED, 2.8)], lines=[line(LAUNCH, GZ, 0.0, FLASH - 0.05, RED, True)],
     cities=[city(GZ, "TARGET", None, RED, "target", 6), city(LAUNCH, "Launcher (simulated)", None, AMBER, "base", 6)])
 a = FLASH
-reg("open-burst", a, 5.0, [("s", GZ, 140), ("e", GZ, 100)],
-    [LB("20 kiloton airburst", 0.10, 0.06, a + 0.0, YELLOW), LB("Open farmland, central Ukraine", 0.10, -0.02, a + 0.3, WHITE)],
+LOKH, KOMY = [33.27418, 50.35952], [33.67962, 50.1838]
+reg("open-burst", a, 5.0, [("s", GZ, 210), ("e", GZ, 160)],
+    [LB("20 kiloton airburst", 0.10, 0.06, a + 0.9, YELLOW), LB("Open farmland, central Ukraine", 0.10, -0.02, a + 1.3, WHITE)],
     clock="13:43", clockLabel="UKRAINE TIME", clockRate=0, burst={"at": GZ, "t": 0.1, "km": 4, "fade": 4},
-    rings=[ring(GZ, 4, a + 0.7, "", RED)], cities=[city(GZ, "", a + 0.5, RED, "target", 6)])
+    rings=[ring(GZ, 4, a + 0.7, "", RED)], cities=[city(GZ, "", a + 0.5, RED, "target", 6), city(KOMY, "Komyshnia", a + 1.2, TEAL, "base", 6), city(LOKH, "Lokhvytsia", a + 1.8, TEAL, "base", 6)])
 a = 5.0
 cty("open-rings", a, S("p02"), [("s", GZ, 7000), ("e", GZ, 15000)],
     [dict(ring(GZ, FX["fireball_km"], a + 0.3, "Fireball", WHITE), angle=100), dict(ring(GZ, FX["psi5_km"], a + 1.2, "5 psi", RED), angle=225), dict(ring(GZ, FX["psi1_km"], a + 2.2, "Windows", ORANGE), angle=135)],
@@ -241,9 +242,9 @@ reg("open-sim", a, S("p03"), [("s", [31.0, 49.5], 1400), (tNot, [34.0, 50.0], 90
     cities=[city(GZ, "Target (simulated)", a + 0.2, RED, "target", 6), city(KYIV, "Kyiv", a + 0.8, TEAL, "base", 6)])
 a = S("p03")
 tOne, tTwo = W("p03", "One"), W("p03", "Two")
-reg("open-launch", a, tTwo, [("s", [38.0, 51.5], 1300), (tOne, LAUNCH, 420), ("e", LAUNCH, 260)],
-    [LB2("Three minutes earlier", a + 0.1, YELLOW), LB2("Kursk region, Russia", a + 1.6, AMBER, 1), LB2("One Iskander-M", tOne, WHITE, 2)], clock="T+00:00", clockLabel="LAUNCH", highlight=[HL_RU], countryLabels=[CL_RU],
-    cities=[city(LAUNCH, "Launcher (simulated)", a + 0.6, AMBER, "base", 6)])
+reg("open-launch", a, tTwo, [("s", [38.0, 51.5], 1300), (tOne, LAUNCH, 800), ("e", [35.0, 50.8], 900)],
+    [LB2("Three minutes earlier", a + 0.1, YELLOW), LB2("Kursk region, Russia", a + 1.6, AMBER, 1), LB2("One Iskander-M", tOne, WHITE, 2)], clock="T+00:00", clockLabel="LAUNCH", highlight=[HL_RU, HL_UA], countryLabels=[CL_RU, CL_UA],
+    cities=[city(LAUNCH, "Launcher (simulated)", a + 0.6, AMBER, "base", 6), city(GZ, "Target (simulated)", tOne + 0.0, RED, "target", 6)])
 a = tTwo
 reg("open-213", a, S("p04"), [("s", [35.0, 50.7], 600), ("e", [34.9, 50.6], 480)],
     [LB2("213 km to fly", a + 0.2, YELLOW)], highlight=[HL_UA, HL_RU], **clk("T+00:00", "FLIGHT", 66), **fl(a, S("p04"), t0=a + 0.2),
@@ -357,9 +358,9 @@ reg("c2-sul", a, tCat, [("s", [-77.0, 39.0], 2600), ("e", [-77.0, 38.9], 1400)],
     [LB2("September 2022", a + 0.2, YELLOW), LB2("US national security adviser", a + 1.4, WHITE, 1)], tag="REAL HISTORY", source="NBC News, September 2022", clock="SEPT 2022", clockLabel="WASHINGTON",
     highlight=[hl(US, BLUE, 0.08)], cities=[city(WASH, "Washington", a + 0.4, BLUE, "base", 6)])
 a = tCat
-reg("c2-cat", a, tAsk, [("s", [-77.0, 38.9], 1400), ("e", [-70.0, 40.0], 2600)],
-    [LB2("Russian nuclear use: catastrophic consequences", a + 0.1, RED)], tag="REAL HISTORY", source="NBC News, September 2022", clock="SEPT 2022", clockLabel="WASHINGTON", highlight=[hl(US, BLUE, 0.08)],
-    cities=[city(WASH, "Washington", 0, BLUE, "base", 6)])
+reg("c2-cat", a, tAsk, [("s", [-77.0, 38.9], 1400), ("e", [-20.0, 46.0], 11500)],
+    [LB2("Russian nuclear use: catastrophic consequences", a + 0.1, RED)], tag="REAL HISTORY", source="NBC News, September 2022", clock="SEPT 2022", clockLabel="WASHINGTON", highlight=[hl(US, BLUE, 0.08), HL_RU, HL_UA],
+    cities=[city(WASH, "Washington", 0, BLUE, "base", 6), city(MOS, "Moscow", a + 1.2, AMBER, "base", 6)], lines=[line(WASH, MOS, a + 1.2, a + 3.0, WHITE, True)])
 a = tAsk
 reg("c2-priv", a, tBid, [("s", [-77.0, 39.0], 1800), ("e", [-78.0, 38.0], 1100)],
     [LB2("Asked for specifics", a + 0.2, WHITE), LB2("Spelled out in private channels", W("p12", "spelled"), YELLOW, 1)], tag="REAL HISTORY", source="NBC News, September 2022", clock="SEPT 2022", clockLabel="WASHINGTON", highlight=[hl(US, BLUE, 0.08)],
@@ -457,7 +458,7 @@ reg("c3-burst", a, S("p21"), [("s", GZ, 140), ("e", GZ, 100)],
 a = chapter("c4-card", S("p21"), 3.8, "CHAPTER 04", "The first 72 hours", "SIMULATION")
 tWith, tCall, tSg = W("p21", "Within"), W("p21", "call"), W("p21", "Secretary-General")
 HR = lambda h: clk(f"HOUR {h:02d}", "AFTER THE BURST")
-reg("c4-h0", a, tWith, [("s", [18.0, 50.0], 3300), ("e", [14.0, 50.0], 2600)],
+reg("c4-h0", a, tWith, [("s", [18.0, 52.0], 3300), ("e", [14.0, 52.5], 2600)],
     [LB2("Hour 0: allied sensors register the flash", a + 0.2, YELLOW), LB2("Defence ministries are called at once", W("p21", "every"), WHITE, 1)], **HR(0), highlight=[HL_UA] + HL_NATO,
     cities=[city(GZ, "Flash", a + 0.2, RED, "target", 6), city(BRU, "Brussels", a + 1.2, BLUE, "base", 6)], lines=[line(GZ, BRU, a + 0.4, a + 3.0, RED, True)])
 a = tWith
@@ -552,7 +553,8 @@ reg("c4-o2e", a, tEmb, [("s", [30.0, 50.5], 2000), ("e", [28.0, 50.5], 2800)],
     [LB2("First step that makes NATO a direct party", a + 0.2, YELLOW)], **HR(36), highlight=[HL_UA] + HL_NATO)
 a = tEmb
 reg("c4-o2f", a, S("p29"), [("s", [36.0, 52.0], 2000), ("e", [38.0, 54.0], 1600)],
-    [LB2("Russian embassies, 2026: all means,", a + 0.2, WHITE), LB2("nuclear included", a + 1.6, RED, 1)], **HR(36), highlight=[HL_RU], source="Russian embassy statements, 2026")
+    [LB2("Real record: Russian embassies, 2026", a + 0.1, YELLOW), LB2("Reply to NATO strikes: all means,", a + 1.0, WHITE, 1), LB2("nuclear included", a + 2.0, RED, 2)], **HR(36), highlight=[HL_RU, HL_BY], countryLabels=[CL_RU, CL_BY],
+    cities=[city(MOS, "Moscow", a + 0.3, AMBER, "base", 6), city(MINSK, "Minsk", a + 1.2, AMBER, "base", 6)], source="Source (real record): Russian embassy statements, 2026")
 a = S("p29")
 tFour = W("p29", "Four")
 reg("c4-o3", a, tFour, [("s", [30.0, 50.0], 2200), ("e", [25.0, 50.0], 2800)],
@@ -592,33 +594,34 @@ reg("c4-nodl", a, S("p32"), [("s", [34.0, 52.0], 2400), ("e", [34.0, 53.0], 1400
 a = chapter("c5-card", S("p32"), 3.5, "CHAPTER 05", "One warhead, ring by ring", "SIMULATION")
 CK = dict(clock="13:43", clockLabel="UKRAINE TIME", clockRate=0)
 cty("c5-fire", a, S("p33"), [("s", GZ, 1800), ("e", GZ, 1300)],
-    [dict(ring(GZ, FX["fireball_km"], a + 0.4, "Fireball: 200 m", WHITE), angle=100)],
+    [dict(ring(GZ, FX["fireball_km"], a + 0.4, "Fireball", WHITE), angle=100)],
     [LB("Air burst over the staging area", -0.30, 0.31, a + 0.2, YELLOW)], flashT=0.1, **CK)
 a = S("p33")
 cty("c5-20", a, S("p34"), [("s", GZ, 1500), ("e", GZ, 2400)],
-    [dict(ring(GZ, FX["fireball_km"], 0, "", WHITE), angle=100), dict(ring(GZ, FX["psi20_km"], a + 0.4, "20 psi: 370 m", RED), angle=300)],
+    [dict(ring(GZ, FX["fireball_km"], 0, "Fireball", WHITE), angle=100), dict(ring(GZ, FX["psi20_km"], a + 0.4, "20 psi", RED), angle=300)],
     [LB("Nothing built by hand stands", -0.30, 0.31, W("p33", "Nothing"), WHITE)], **CK)
 a = S("p34")
 cty("c5-5", a, S("p35"), [("s", GZ, 3600), ("e", GZ, 5200)],
-    [dict(ring(GZ, FX["psi20_km"], 0, "", RED), angle=300), dict(ring(GZ, FX["psi5_km"], a + 0.4, "5 psi: 1.8 km", RED), angle=225)],
+    [dict(ring(GZ, FX["psi20_km"], 0, "20 psi", RED), angle=300), dict(ring(GZ, FX["psi5_km"], a + 0.4, "5 psi", RED), angle=225)],
     [LB("Most buildings badly damaged or collapsed", -0.30, 0.31, W("p34", "most"), WHITE), LB("About 10.5 square km", -0.30, 0.23, W("p34", "ten"), YELLOW)], **CK)
 a = S("p35")
 cty("c5-burn", a, S("p36"), [("s", GZ, 5200), ("e", GZ, 6600)],
-    [dict(ring(GZ, FX["psi5_km"], 0, "", RED), angle=225), dict(ring(GZ, FX["thermal3_km"], a + 0.4, "Third-degree burns: 2.1 km", ORANGE), angle=45)],
+    [dict(ring(GZ, FX["psi5_km"], 0, "5 psi", RED), angle=225), dict(ring(GZ, FX["thermal3_km"], a + 0.4, "3rd-degree burns", ORANGE), angle=45)],
     [LB("Burns reach farther than the heavy damage", -0.30, 0.31, a + 0.2, WHITE)], **CK)
 a = S("p36")
 cty("c5-1psi", a, S("p37"), [("s", GZ, 6600), ("e", GZ, 12500)],
-    [dict(ring(GZ, FX["psi5_km"], 0, "", RED), angle=225), dict(ring(GZ, FX["thermal3_km"], 0, "", ORANGE), angle=45), dict(ring(GZ, FX["psi1_km"], a + 0.4, "1 psi: 5 km, windows shatter", YELLOW), angle=135)],
+    [dict(ring(GZ, FX["psi5_km"], 0, "5 psi", RED), angle=225), dict(ring(GZ, FX["thermal3_km"], 0, "Burns", ORANGE), angle=45), dict(ring(GZ, FX["psi1_km"], a + 0.4, "1 psi: windows", YELLOW), angle=135)],
     [], **CK)
 a = S("p37")
 tNear = W("p37", "nearest")
-cty("c5-near", a, tNear, [("s", GZ, 14000), ("e", GZ, 16000)],
-    [dict(ring(GZ, FX["psi5_km"], 0, "", RED), angle=225), dict(ring(GZ, FX["psi1_km"], 0, "", YELLOW), angle=135)],
-    [LB("The 5 psi and 1 psi rings", -0.30, 0.31, a + 0.2, YELLOW)], **CK)
+HLY = [33.84742, 50.13732]   # Hlyboke, village, 4.25 km east of ground zero (staging-area-sim.json places)
+cty("c5-near", a, tNear, [("s", GZ, 19000), (a + 3.2, GZ, 24000), ("e", GZ, 21000)],
+    [dict(ring(GZ, FX["psi5_km"], a + 0.3, "5 psi", RED), angle=225), dict(ring(GZ, FX["psi1_km"], a + 1.5, "1 psi", YELLOW), angle=135)],
+    [LB("Inside the 5 psi and 1 psi rings", -0.30, 0.31, a + 0.2, YELLOW)], **CK)
 a = tNear
-cty("c5-near2", a, S("p38"), [("s", GZ, 16000), ("e", GZ, 22000)],
-    [dict(ring(GZ, FX["psi1_km"], 0, "", YELLOW), angle=135), dict(ring(GZ, 4.3, a + 0.3, "4.3 km", WHITE), angle=300)],
-    [LB("4.3 km from ground zero", -0.30, 0.31, a + 0.2, WHITE)], **CK)
+cty("c5-near2", a, S("p38"), [("s", GZ, 19000), ("e", offp(GZ, 2.2, 0), 13000)],
+    [dict(ring(GZ, FX["psi1_km"], 0, "1 psi", YELLOW), angle=135), dict(ring(GZ, 4.3, a + 0.3, "Hlyboke", WHITE), angle=90)],
+    [LB("Nearest mapped place: Hlyboke, a village", -0.30, 0.31, a + 0.2, WHITE)], **CK)
 a = S("p38")
 tChose, tGive, tPubS = W("p38", "chose"), W("p38", "gives"), W("p38", "published")
 cty("c5-little", a, tChose, [("s", GZ, 9000), ("e", GZ, 18000)],
@@ -704,8 +707,8 @@ reg("c6-peace", a, S("p45"), [("s", [26.0, 50.0], 2600), ("e", [28.0, 50.0], 200
     [LB2("No road to peace drawn here", a + 0.2, YELLOW)], **D4, highlight=[HL_UA, HL_RU])
 a = S("p45")
 tTab, tNATO, tAC = W("p45", "taboo"), W("p45", "NATO"), W("p45", "Atlantic")
-add(id="c6-d7", type="timeline", start=a, end=tTab, tag="SIMULATION", title="Day 7", sub="No ceasefire", total=7, unit="days",
-    segments=[{"from": 0, "to": 3, "label": "First 72 hours", "color": BLUE}, {"from": 3, "to": 7, "label": "No ceasefire", "color": RED}], cursorTo=7)
+reg("c6-d7", a, tTab, [("s", [27.0, 50.0], 2600), ("e", [34.0, 51.0], 1800)],
+    [LB2("Day 7", a + 0.2, YELLOW), LB2("No ceasefire", a + 1.0, RED, 1), LB2("The first 72 hours changed nothing here", a + 2.0, WHITE, 2)], clock="DAY 7", clockLabel="AFTER THE BURST", clockRate=0, highlight=[HL_UA, HL_RU], countryLabels=[CL_UA, CL_RU], legend=LEG)
 a = tTab
 reg("c6-taboo", a, tNATO, [("s", [30.0, 50.0], 1400), ("e", GZ, 700)],
     [LB2("The taboo is broken", a + 0.2, RED)], clock="DAY 7", clockLabel="AFTER THE BURST", clockRate=0, highlight=[HL_UA], cities=[city(GZ, "", 0, RED, "target", 6)])
