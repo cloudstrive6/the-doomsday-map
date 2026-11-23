@@ -34,7 +34,17 @@
       "stage": "script_approved",
       "note": "fact-screener PASS round 3",
       "at": "2026-11-23T05:13:16+00:00"
+    },
+    {
+      "stage": "narrated",
+      "note": "",
+      "at": "2026-11-23T05:18:58+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "105 shots, 672.9 s, 0 pace lines, 0 retention lines",
+      "at": "2026-11-23T05:25:41+00:00"
     }
   ],
-  "stage": "script_approved"
+  "stage": "shotlisted"
 }

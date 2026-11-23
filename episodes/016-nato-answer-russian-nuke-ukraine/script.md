@@ -86,7 +86,7 @@ Third-degree burns reach two point one kilometres, farther than the heavy damage
 
 At five kilometres, one pound per square inch. Windows shatter. [C]
 
-Inside all of these rings, our map has no village. The nearest mapped place is about six point six kilometres from ground zero. [C]
+Inside the fireball, heavy-damage and burn rings, our map has no village. The nearest mapped place is about four point three kilometres from ground zero, just inside the outermost ring. [C]
 
 For an air burst the engine reports little local fallout. We chose a west-north-west wind, so any light fallout drifts east-south-east across farmland toward the front. The engine gives no dose, and no published study covers this strike, so we state no casualty figure. [C]
 

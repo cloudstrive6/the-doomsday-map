@@ -1,0 +1,9855 @@
+{
+ "slug": "016-nato-answer-russian-nuke-ukraine",
+ "fps": 60,
+ "width": 1920,
+ "height": 1080,
+ "durationSeconds": 676.46,
+ "banner": {
+  "start": 1.8,
+  "end": 4.8
+ },
+ "musicPlan": [
+  {
+   "src": "bed_tense.mp3",
+   "from": 0,
+   "to": 40.071,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  },
+  {
+   "src": "bed.mp3",
+   "from": 38.071,
+   "to": 218.799,
+   "loop": [
+    2,
+    174
+   ],
+   "gain_db": -17
+  },
+  {
+   "src": "bed_tense.mp3",
+   "from": 216.799,
+   "to": 676.46,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  }
+ ],
+ "sfxPlan": [
+  {
+   "src": "impact.mp3",
+   "t": 39.221,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 125.41300000000001,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 217.949,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 290.77299999999997,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 473.318,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 549.079,
+   "gain_db": -9
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 98.02499999999999,
+   "gain_db": -14
+  },
+  {
+   "src": "boom.mp3",
+   "t": 2.1,
+   "gain_db": -6
+  },
+  {
+   "src": "boom.mp3",
+   "t": 287.27000000000004,
+   "gain_db": -6
+  },
+  {
+   "src": "boom.mp3",
+   "t": 476.77000000000004,
+   "gain_db": -6
+  }
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Narration: AI-generated.",
+ "shots": [
+  {
+   "id": "open-run",
+   "type": "region",
+   "start": 0,
+   "end": 2.0,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     35.0,
+     50.6
+    ],
+    "widthKm": 700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      35.0,
+      50.6
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 2.0,
+     "center": [
+      34.6,
+      50.4
+     ],
+     "widthKm": 520
+    }
+   ],
+   "labels": [
+    {
+     "text": "Central Ukraine",
+     "color": "#FF3B3B",
+     "at": [
+      34.82734,
+      49.79316
+     ]
+    },
+    {
+     "text": "Kursk region",
+     "color": "#F2B01E",
+     "at": [
+      36.03597,
+      51.22065
+     ]
+    }
+   ],
+   "clock": "T-03:18",
+   "clockLabel": "TO IMPACT",
+   "clockRate": 100,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "804",
+     "text": "UKRAINE",
+     "color": "#3ED6C8"
+    },
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       36.2,
+       51.3
+      ],
+      [
+       33.7882,
+       50.1415
+      ]
+     ],
+     "t0": 0.05,
+     "t1": 1.95,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander-M",
+     "size": 2.8,
+     "t": 0.05,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      36.2,
+      51.3
+     ],
+     "to": [
+      33.7882,
+      50.1415
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.05,
+     "t1": 1.95
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "label": "TARGET",
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      36.2,
+      51.3
+     ],
+     "label": "Launcher (simulated)",
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-burst",
+   "type": "region",
+   "start": 2.0,
+   "end": 5.0,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     33.7882,
+     50.1415
+    ],
+    "widthKm": 150
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 3.0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 150
+    }
+   ],
+   "labels": [
+    {
+     "text": "20 kiloton airburst",
+     "color": "#FFD23F",
+     "t": 0.05,
+     "at": [
+      33.9564,
+      50.17813
+     ]
+    },
+    {
+     "text": "Open farmland, central Ukraine",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "at": [
+      33.9564,
+      50.12929
+     ]
+    }
+   ],
+   "clock": "13:43",
+   "clockLabel": "UKRAINE TIME",
+   "clockRate": 0,
+   "burst": {
+    "at": [
+     33.7882,
+     50.1415
+    ],
+    "t": 0.1,
+    "km": 4,
+    "fade": 4
+   },
+   "rings": [
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "km": 4,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.7,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "kind": "target",
+     "t": 0.5,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-rings",
+   "type": "city",
+   "start": 5.0,
+   "end": 7.768,
+   "tag": "SIMULATION",
+   "city": "staging-area-sim",
+   "view": {
+    "center": [
+     33.7882,
+     50.1415
+    ],
+    "widthKm": 7.0
+   },
+   "gz": [
+    33.7882,
+    50.1415
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 7.0
+    },
+    {
+     "t": 2.77,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 15.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.202,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "angle": 100
+    },
+    {
+     "km": 1.838,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 1.2,
+     "angle": 225
+    },
+    {
+     "km": 4.975,
+     "label": "Windows",
+     "color": "#FF7A1A",
+     "t": 2.2,
+     "angle": 135
+    }
+   ],
+   "labels": [
+    {
+     "text": "Open farmland",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "at": [
+      33.74195,
+      50.15829
+     ]
+    }
+   ],
+   "clock": "13:43",
+   "clockLabel": "UKRAINE TIME",
+   "clockRate": 0,
+   "caption": "Simulation: it has not happened."
+  },
+  {
+   "id": "open-sim",
+   "type": "region",
+   "start": 7.768,
+   "end": 13.409,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     31.0,
+     49.5
+    ],
+    "widthKm": 1400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      31.0,
+      49.5
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 4.3,
+     "center": [
+      34.0,
+      50.0
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 5.64,
+     "center": [
+      31.0,
+      50.3
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "labels": [
+    {
+     "text": "A simulation",
+     "color": "#FFD23F",
+     "t": 0.7,
+     "at": [
+      24.98312,
+      51.78673
+     ]
+    },
+    {
+     "text": "Built from published numbers",
+     "color": "#FFFFFF",
+     "t": 2.16,
+     "at": [
+      24.98312,
+      51.15972
+     ]
+    },
+    {
+     "text": "It has not happened",
+     "color": "#FF3B3B",
+     "t": 4.4,
+     "at": [
+      24.98312,
+      50.53272
+     ]
+    }
+   ],
+   "clock": "13:43",
+   "clockLabel": "UKRAINE TIME",
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "804",
+     "text": "UKRAINE",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "label": "Target (simulated)",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      30.52,
+      50.45
+     ],
+     "label": "Kyiv",
+     "kind": "base",
+     "t": 0.8,
+     "color": "#3ED6C8",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-launch",
+   "type": "region",
+   "start": 13.409,
+   "end": 20.463,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     38.0,
+     51.5
+    ],
+    "widthKm": 1300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      38.0,
+      51.5
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 3.83,
+     "center": [
+      36.8643,
+      51.3738
+     ],
+     "widthKm": 744.745
+    },
+    {
+     "t": 6.07,
+     "center": [
+      36.2,
+      51.3
+     ],
+     "widthKm": 420
+    },
+    {
+     "t": 7.05,
+     "center": [
+      36.2,
+      51.3
+     ],
+     "widthKm": 260
+    }
+   ],
+   "labels": [
+    {
+     "text": "Three minutes earlier",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "at": [
+      34.6233,
+      52.7301
+     ]
+    },
+    {
+     "text": "Kursk region, Russia",
+     "color": "#F2B01E",
+     "t": 1.6,
+     "at": [
+      34.6233,
+      52.39282
+     ]
+    },
+    {
+     "text": "One Iskander-M",
+     "color": "#FFFFFF",
+     "t": 6.07,
+     "at": [
+      34.6233,
+      52.05553
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "LAUNCH",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      36.2,
+      51.3
+     ],
+     "label": "Launcher (simulated)",
+     "kind": "base",
+     "t": 0.6,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-213",
+   "type": "region",
+   "start": 20.463,
+   "end": 24.537,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     35.0,
+     50.7
+    ],
+    "widthKm": 600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      35.0,
+      50.7
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 2.19,
+     "center": [
+      34.9462,
+      50.6462
+     ],
+     "widthKm": 535.43
+    },
+    {
+     "t": 4.07,
+     "center": [
+      34.9,
+      50.6
+     ],
+     "widthKm": 480
+    }
+   ],
+   "labels": [
+    {
+     "text": "213 km to fly",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      32.70239,
+      51.55161
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "FLIGHT",
+   "clockRate": 66,
+   "ships": [
+    {
+     "path": [
+      [
+       36.2,
+       51.3
+      ],
+      [
+       33.7882,
+       50.1415
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 3.97,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander-M",
+     "size": 2.6,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      36.2,
+      51.3
+     ],
+     "to": [
+      33.7882,
+      50.1415
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 3.97
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "label": "Target (simulated)",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-nobody",
+   "type": "region",
+   "start": 24.537,
+   "end": 28.817,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     17.5,
+     50.6
+    ],
+    "widthKm": 2900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      17.5,
+      50.6
+     ],
+     "widthKm": 2900
+    },
+    {
+     "t": 4.28,
+     "center": [
+      18.5,
+      50.6
+     ],
+     "widthKm": 2500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Nobody has three minutes to decide",
+     "color": "#FFD23F",
+     "t": 0.3,
+     "at": [
+      6.03636,
+      54.85805
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      30.52,
+      50.45
+     ],
+     "label": "Kyiv",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#3ED6C8",
+     "size": 6
+    },
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "Brussels",
+     "kind": "base",
+     "t": 1.4,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-table",
+   "type": "region",
+   "start": 28.817,
+   "end": 33.33,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     4.35,
+     50.85
+    ],
+    "widthKm": 1100
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      4.35,
+      50.85
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 4.51,
+     "center": [
+      4.35,
+      50.85
+     ],
+     "widthKm": 600
+    }
+   ],
+   "labels": [
+    {
+     "text": "After the flash: one question",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      0.72177,
+      52.1905
+     ]
+    },
+    {
+     "text": "on every NATO table",
+     "color": "#FFFFFF",
+     "t": 1.5,
+     "at": [
+      0.72177,
+      51.82294
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "NATO headquarters",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-q",
+   "type": "region",
+   "start": 33.33,
+   "end": 39.071,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     20.0,
+     51.0
+    ],
+    "widthKm": 3200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      20.0,
+      51.0
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 5.74,
+     "center": [
+      27.0,
+      50.5
+     ],
+     "widthKm": 2200
+    }
+   ],
+   "labels": [
+    {
+     "text": "What does the alliance do?",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      8.43781,
+      55.25805
+     ]
+    },
+    {
+     "text": "How long before it has to choose?",
+     "color": "#FFD23F",
+     "t": 2.36,
+     "at": [
+      8.43781,
+      54.09052
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "UKRAINE",
+     "color": "#3ED6C8"
+    },
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "Brussels",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-card",
+   "type": "chapter",
+   "start": 39.071,
+   "end": 42.57,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 01",
+   "title": "A missile that already exists"
+  },
+  {
+   "id": "c1-ex+fire",
+   "type": "region",
+   "start": 42.57,
+   "end": 47.788,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     28.0,
+     54.0
+    ],
+    "widthKm": 2000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      28.0,
+      54.0
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 2.27,
+     "center": [
+      30.0,
+      54.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 3.15,
+     "center": [
+      27.56,
+      53.9
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 5.21,
+     "center": [
+      27.0,
+      53.2
+     ],
+     "widthKm": 1100
+    }
+   ],
+   "labels": [
+    {
+     "text": "May 2026: a three-day nuclear exercise",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      19.97643,
+      56.75985
+     ],
+     "until": 2.47
+    },
+    {
+     "text": "Russia and Belarus",
+     "color": "#F2B01E",
+     "t": 1.5,
+     "at": [
+      19.97643,
+      56.00311
+     ],
+     "until": 2.47
+    },
+    {
+     "text": "Belarusian troops fire an Iskander",
+     "color": "#FFFFFF",
+     "t": 2.47,
+     "at": [
+      23.44348,
+      55.31935
+     ]
+    }
+   ],
+   "source": "Russia defence ministry; Reuters; AP",
+   "clock": "MAY 2026",
+   "clockLabel": "EXERCISE",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "112",
+     "text": "BELARUS",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      27.56,
+      53.9
+     ],
+     "label": "Minsk",
+     "kind": "base",
+     "t": 2.57,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-mod",
+   "type": "region",
+   "start": 47.788,
+   "end": 55.576,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     37.0,
+     55.0
+    ],
+    "widthKm": 1700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      37.0,
+      55.0
+     ],
+     "widthKm": 1700
+    },
+    {
+     "t": 5.21,
+     "center": [
+      37.4147,
+      55.5016
+     ],
+     "widthKm": 1164.955
+    },
+    {
+     "t": 7.79,
+     "center": [
+      37.62,
+      55.75
+     ],
+     "widthKm": 900
+    }
+   ],
+   "labels": [
+    {
+     "text": "Defence ministry: the focus",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      30.89198,
+      57.05017
+     ]
+    },
+    {
+     "text": "Preparing and using nuclear forces",
+     "color": "#FFFFFF",
+     "t": 2.64,
+     "at": [
+      30.89198,
+      56.48803
+     ]
+    }
+   ],
+   "source": "Russia defence ministry; Reuters; AP",
+   "clock": "MAY 2026",
+   "clockLabel": "EXERCISE",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-isk",
+   "type": "region",
+   "start": 55.576,
+   "end": 62.37,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     36.0,
+     52.0
+    ],
+    "widthKm": 1200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      36.0,
+      52.0
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 4.0,
+     "center": [
+      35.4109,
+      51.4109
+     ],
+     "widthKm": 905.449
+    },
+    {
+     "t": 6.79,
+     "center": [
+      35.0,
+      51.0
+     ],
+     "widthKm": 700
+    }
+   ],
+   "labels": [
+    {
+     "text": "Iskander-M",
+     "color": "#F2B01E",
+     "t": 0.2,
+     "at": [
+      31.84157,
+      53.4982
+     ]
+    },
+    {
+     "text": "Likely for a battlefield nuclear strike",
+     "color": "#FFFFFF",
+     "t": 1.21,
+     "at": [
+      31.84157,
+      53.08741
+     ]
+    }
+   ],
+   "source": "Bulletin of the Atomic Scientists; CFR",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      36.2,
+      51.3
+     ],
+     "label": "Launcher (illustrative)",
+     "kind": "base",
+     "t": 0.6,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-cfr",
+   "type": "region",
+   "start": 62.37,
+   "end": 66.847,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     35.0,
+     51.0
+    ],
+    "widthKm": 700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      35.0,
+      51.0
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 4.48,
+     "center": [
+      33.0,
+      50.0
+     ],
+     "widthKm": 1300
+    }
+   ],
+   "labels": [
+    {
+     "text": "Council on Foreign Relations",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      30.71771,
+      52.57706
+     ]
+    },
+    {
+     "text": "The likely vehicle",
+     "color": "#FFFFFF",
+     "t": 2.26,
+     "at": [
+      30.71771,
+      52.14464
+     ]
+    }
+   ],
+   "source": "Bulletin of the Atomic Scientists; CFR",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ]
+  },
+  {
+   "id": "c1-kt",
+   "type": "region",
+   "start": 66.847,
+   "end": 71.83,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     36.2,
+     51.3
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      36.2,
+      51.3
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 4.98,
+     "center": [
+      36.2,
+      51.3
+     ],
+     "widthKm": 1100
+    }
+   ],
+   "labels": [
+    {
+     "text": "Warhead: up to 100 kilotons",
+     "color": "#FF3B3B",
+     "t": 3.12,
+     "at": [
+      31.88978,
+      52.87706
+     ]
+    }
+   ],
+   "source": "Bulletin of the Atomic Scientists; CFR",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      36.2,
+      51.3
+     ],
+     "label": "Launcher (illustrative)",
+     "kind": "base",
+     "t": 0.05,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-rng",
+   "type": "region",
+   "start": 71.83,
+   "end": 75.608,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     36.2,
+     51.3
+    ],
+    "widthKm": 1100
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      36.2,
+      51.3
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 3.78,
+     "center": [
+      34.0,
+      50.0
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Range: about 350 km",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      30.59671,
+      53.35017
+     ]
+    }
+   ],
+   "source": "Bulletin of the Atomic Scientists; CFR",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      36.2,
+      51.3
+     ],
+     "km": 350,
+     "label": "",
+     "color": "#F2B01E",
+     "t": 0.2,
+     "dashed": true
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      36.2,
+      51.3
+     ],
+     "label": "Launcher (illustrative)",
+     "kind": "base",
+     "t": 0.05,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-hiro",
+   "type": "bars",
+   "start": 75.608,
+   "end": 78.959,
+   "tag": "REAL DATA",
+   "title": "Yield, in kilotons",
+   "sub": "a yardstick",
+   "source": "Los Alamos review (Hiroshima); published Iskander tables",
+   "bars": [
+    {
+     "label": "Hiroshima",
+     "value": 15,
+     "display": "about 15",
+     "color": "#FFFFFF"
+    },
+    {
+     "label": "Iskander warhead, up to",
+     "value": 100,
+     "display": "up to 100",
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c1-low",
+   "type": "region",
+   "start": 78.959,
+   "end": 82.435,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     34.0,
+     50.0
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      34.0,
+      50.0
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 3.48,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 500
+    }
+   ],
+   "labels": [
+    {
+     "text": "A low-yield weapon is not a small one",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      31.0652,
+      51.10394
+     ]
+    }
+   ],
+   "source": "Los Alamos review",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ]
+  },
+  {
+   "id": "c1-3min",
+   "type": "region",
+   "start": 82.435,
+   "end": 88.024,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     35.0,
+     50.7
+    ],
+    "widthKm": 600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      35.0,
+      50.7
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 2.94,
+     "center": [
+      34.8948,
+      50.6474
+     ],
+     "widthKm": 547.406
+    },
+    {
+     "t": 5.59,
+     "center": [
+      34.8,
+      50.6
+     ],
+     "widthKm": 500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Three minutes: all the warning",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "at": [
+      32.65984,
+      51.56738
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "FLIGHT",
+   "clockRate": 66,
+   "ships": [
+    {
+     "path": [
+      [
+       36.2,
+       51.3
+      ],
+      [
+       33.7882,
+       50.1415
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 5.49,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander-M",
+     "size": 2.6,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      36.2,
+      51.3
+     ],
+     "to": [
+      33.7882,
+      50.1415
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 5.49
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "label": "Target (simulated)",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-hold",
+   "type": "region",
+   "start": 88.024,
+   "end": 94.47,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     60.0,
+     58.0
+    ],
+    "widthKm": 4200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      60.0,
+      58.0
+     ],
+     "widthKm": 4200
+    },
+    {
+     "t": 2.88,
+     "center": [
+      54.6419,
+      56.6605
+     ],
+     "widthKm": 3664.186
+    },
+    {
+     "t": 6.45,
+     "center": [
+      48.0,
+      55.0
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "labels": [
+    {
+     "text": "Roughly 1,000 to 2,000",
+     "color": "#FFD23F",
+     "t": 0.3,
+     "at": [
+      41.692,
+      63.6774
+     ]
+    },
+    {
+     "text": "non-strategic warheads",
+     "color": "#FFFFFF",
+     "t": 5.47,
+     "at": [
+      41.692,
+      62.12069
+     ]
+    }
+   ],
+   "source": "Bulletin of the Atomic Scientists; CFR",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c1-frac",
+   "type": "region",
+   "start": 94.47,
+   "end": 98.425,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     40.0,
+     53.0
+    ],
+    "widthKm": 2000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      40.0,
+      53.0
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 3.95,
+     "center": [
+      36.2,
+      51.3
+     ],
+     "widthKm": 800
+    }
+   ],
+   "labels": [
+    {
+     "text": "Only a fraction on ground-launched missiles",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      33.73079,
+      55.20788
+     ]
+    }
+   ],
+   "source": "Bulletin of the Atomic Scientists; CFR",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      36.2,
+      51.3
+     ],
+     "label": "Launcher (illustrative)",
+     "kind": "base",
+     "t": 1.0,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-doc",
+   "type": "stamp",
+   "start": 98.425,
+   "end": 101.825,
+   "tag": "REAL DATA",
+   "text": "NOVEMBER 2024",
+   "line": "Putin signs a revised nuclear doctrine",
+   "color": "#F2B01E",
+   "source": "Arms Control Association; Kyiv Independent"
+  },
+  {
+   "id": "c1-conv",
+   "type": "region",
+   "start": 101.825,
+   "end": 113.185,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     37.62,
+     55.75
+    ],
+    "widthKm": 1000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      37.62,
+      55.75
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 11.36,
+     "center": [
+      37.0,
+      54.0
+     ],
+     "widthKm": 2200
+    }
+   ],
+   "labels": [
+    {
+     "text": "Doctrine: grounds for nuclear use",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      29.95856,
+      58.27329
+     ]
+    },
+    {
+     "text": "Conventional aggression that creates",
+     "color": "#FFFFFF",
+     "t": 3.91,
+     "at": [
+      29.95856,
+      57.58142
+     ]
+    },
+    {
+     "text": "a critical threat to sovereignty",
+     "color": "#FFFFFF",
+     "t": 6.28,
+     "at": [
+      29.95856,
+      56.88955
+     ]
+    }
+   ],
+   "source": "Arms Control Association; Kyiv Independent",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-low2",
+   "type": "region",
+   "start": 113.185,
+   "end": 120.193,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     37.0,
+     54.0
+    ],
+    "widthKm": 2200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      37.0,
+      54.0
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 7.01,
+     "center": [
+      36.0,
+      53.0
+     ],
+     "widthKm": 1400
+    }
+   ],
+   "labels": [
+    {
+     "text": "One expert: it appears to lower the threshold",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      28.74719,
+      56.8387
+     ]
+    },
+    {
+     "text": "It does not say what Russia would do",
+     "color": "#FFFFFF",
+     "t": 4.22,
+     "at": [
+      28.74719,
+      56.06035
+     ]
+    }
+   ],
+   "source": "Arms Control Association",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ]
+  },
+  {
+   "id": "c1-west",
+   "type": "region",
+   "start": 120.193,
+   "end": 125.263,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     10.0,
+     48.0
+    ],
+    "widthKm": 3800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      10.0,
+      48.0
+     ],
+     "widthKm": 3800
+    },
+    {
+     "t": 5.07,
+     "center": [
+      -20.0,
+      45.0
+     ],
+     "widthKm": 5800
+    }
+   ],
+   "labels": [
+    {
+     "text": "What has the West said it would do?",
+     "color": "#FFD23F",
+     "t": 0.3,
+     "at": [
+      -9.33207,
+      55.56987
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF"
+    }
+   ]
+  },
+  {
+   "id": "c2-card",
+   "type": "chapter",
+   "start": 125.263,
+   "end": 128.76,
+   "tag": "REAL HISTORY",
+   "kicker": "CHAPTER 02",
+   "title": "The answer nobody published"
+  },
+  {
+   "id": "c2-kennedy+line",
+   "type": "region",
+   "start": 128.76,
+   "end": 135.562,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -80.0,
+     28.0
+    ],
+    "widthKm": 3200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -80.0,
+      28.0
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 2.43,
+     "center": [
+      -81.0,
+      26.0
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 3.74,
+     "center": [
+      -81.0,
+      26.0
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 6.81,
+     "center": [
+      -82.0,
+      25.0
+     ],
+     "widthKm": 1800
+    }
+   ],
+   "labels": [
+    {
+     "text": "October 1962",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      -88.85138,
+      32.57346
+     ],
+     "until": 2.63
+    },
+    {
+     "text": "Kennedy names a red line on live television",
+     "color": "#FFFFFF",
+     "t": 1.2,
+     "at": [
+      -88.85138,
+      31.31945
+     ],
+     "until": 2.63
+    },
+    {
+     "text": "Any missile launched from Cuba",
+     "color": "#FFFFFF",
+     "t": 2.63,
+     "at": [
+      -87.59645,
+      29.46952
+     ]
+    },
+    {
+     "text": "is a Soviet attack",
+     "color": "#FF3B3B",
+     "t": 5.55,
+     "at": [
+      -87.59645,
+      28.5182
+     ]
+    }
+   ],
+   "source": "US State Department, Office of the Historian",
+   "clock": "1962",
+   "clockLabel": "CUBA",
+   "highlight": [
+    {
+     "iso": "192",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -82.37,
+      23.13
+     ],
+     "label": "Havana",
+     "kind": "base",
+     "t": 0.5,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "Washington",
+     "kind": "base",
+     "t": 1.0,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -82.37,
+      23.13
+     ],
+     "label": "Havana",
+     "kind": "base",
+     "t": 2.48,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c2-six+chan",
+   "type": "region",
+   "start": 135.562,
+   "end": 144.299,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -80.0,
+     26.0
+    ],
+    "widthKm": 2800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -80.0,
+      26.0
+     ],
+     "widthKm": 2800
+    },
+    {
+     "t": 5.93,
+     "center": [
+      -79.0,
+      28.0
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 6.77,
+     "center": [
+      -79.0,
+      28.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 8.74,
+     "center": [
+      -82.0,
+      25.0
+     ],
+     "widthKm": 1800
+    }
+   ],
+   "labels": [
+    {
+     "text": "Six days later",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      -88.99516,
+      30.73117
+     ],
+     "until": 6.13
+    },
+    {
+     "text": "Khrushchev agrees to withdraw",
+     "color": "#F2B01E",
+     "t": 1.59,
+     "at": [
+      -88.99516,
+      29.43391
+     ],
+     "until": 6.13
+    },
+    {
+     "text": "A back channel made retreat possible",
+     "color": "#FFFFFF",
+     "t": 6.13,
+     "at": [
+      -86.32528,
+      31.78493
+     ]
+    }
+   ],
+   "source": "US State Department, Office of the Historian",
+   "clock": "1962",
+   "clockLabel": "CUBA",
+   "highlight": [
+    {
+     "iso": "192",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -82.37,
+      23.13
+     ],
+     "label": "Havana",
+     "kind": "base",
+     "t": 5.98,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c2-days+mins",
+   "type": "region",
+   "start": 144.299,
+   "end": 150.168,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -82.0,
+     25.0
+    ],
+    "widthKm": 1800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -82.0,
+      25.0
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 3.05,
+     "center": [
+      -81.0,
+      26.0
+     ],
+     "widthKm": 2800
+    },
+    {
+     "t": 3.9,
+     "center": [
+      34.0,
+      50.0
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 5.87,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 600
+    }
+   ],
+   "labels": [
+    {
+     "text": "Cuba: days to talk",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      -88.83912,
+      28.62723
+     ],
+     "until": 3.25
+    },
+    {
+     "text": "A strike on Ukraine: minutes",
+     "color": "#FF3B3B",
+     "t": 3.25,
+     "at": [
+      30.64594,
+      51.26164
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "192",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.12)"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "kind": "target",
+     "t": 3.25,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c2-sul",
+   "type": "region",
+   "start": 150.168,
+   "end": 158.27,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -77.0,
+     39.0
+    ],
+    "widthKm": 2600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0,
+      39.0
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 4.75,
+     "center": [
+      -77.0,
+      38.9414
+     ],
+     "widthKm": 1896.296
+    },
+    {
+     "t": 8.1,
+     "center": [
+      -77.0,
+      38.9
+     ],
+     "widthKm": 1400
+    }
+   ],
+   "labels": [
+    {
+     "text": "September 2022",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      -83.93546,
+      42.15411
+     ]
+    },
+    {
+     "text": "US national security adviser",
+     "color": "#FFFFFF",
+     "t": 1.4,
+     "at": [
+      -83.93546,
+      41.28927
+     ]
+    }
+   ],
+   "source": "NBC News, September 2022",
+   "clock": "SEPT 2022",
+   "clockLabel": "WASHINGTON",
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "Washington",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c2-cat+priv",
+   "type": "region",
+   "start": 158.27,
+   "end": 165.483,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -77.0,
+     38.9
+    ],
+    "widthKm": 1400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0,
+      38.9
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 2.17,
+     "center": [
+      -70.0,
+      40.0
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 3.67,
+     "center": [
+      -77.0,
+      39.0
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 7.21,
+     "center": [
+      -78.0,
+      38.0
+     ],
+     "widthKm": 1100
+    }
+   ],
+   "labels": [
+    {
+     "text": "Russian nuclear use: catastrophic consequences",
+     "color": "#FF3B3B",
+     "t": 0.1,
+     "at": [
+      -83.92569,
+      42.05411
+     ],
+     "until": 2.37
+    },
+    {
+     "text": "Asked for specifics",
+     "color": "#FFFFFF",
+     "t": 2.37,
+     "at": [
+      -82.02821,
+      41.28673
+     ]
+    },
+    {
+     "text": "Spelled out in private channels",
+     "color": "#FFD23F",
+     "t": 4.36,
+     "at": [
+      -82.02821,
+      40.65972
+     ]
+    }
+   ],
+   "source": "NBC News, September 2022",
+   "clock": "SEPT 2022",
+   "clockLabel": "WASHINGTON",
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "Washington",
+     "kind": "base",
+     "t": 0.05,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "Washington",
+     "kind": "base",
+     "t": 2.22,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c2-bid",
+   "type": "region",
+   "start": 165.483,
+   "end": 177.81,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -77.0,
+     38.9
+    ],
+    "widthKm": 1100
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0,
+      38.9
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 4.34,
+     "center": [
+      -77.0,
+      38.9
+     ],
+     "widthKm": 1346.391
+    },
+    {
+     "t": 12.33,
+     "center": [
+      -77.0,
+      38.9
+     ],
+     "widthKm": 1800
+    }
+   ],
+   "labels": [
+    {
+     "text": "Biden: any nuclear use, on any scale",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      -82.02112,
+      41.18673
+     ]
+    },
+    {
+     "text": "Completely unacceptable",
+     "color": "#FF3B3B",
+     "t": 8.49,
+     "at": [
+      -82.02112,
+      40.55972
+     ]
+    }
+   ],
+   "source": "NBC News; CFR",
+   "clock": "2022",
+   "clockLabel": "WASHINGTON",
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "Washington",
+     "kind": "base",
+     "t": 0.05,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c2-vag+pol",
+   "type": "region",
+   "start": 177.81,
+   "end": 186.13,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -77.0,
+     38.9
+    ],
+    "widthKm": 1800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -77.0,
+      38.9
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 2.41,
+     "center": [
+      -90.0,
+      40.0
+     ],
+     "widthKm": 3800
+    },
+    {
+     "t": 3.91,
+     "center": [
+      26.0,
+      52.0
+     ],
+     "widthKm": 1700
+    },
+    {
+     "t": 8.32,
+     "center": [
+      23.0,
+      52.0
+     ],
+     "widthKm": 1000
+    }
+   ],
+   "labels": [
+    {
+     "text": "The public answer: vague on purpose",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      -86.69596,
+      43.31575
+     ],
+     "until": 2.61
+    },
+    {
+     "text": "September 2025",
+     "color": "#FFD23F",
+     "t": 2.61,
+     "at": [
+      20.09065,
+      54.12902
+     ]
+    },
+    {
+     "text": "Russian drones enter Poland's airspace",
+     "color": "#FFFFFF",
+     "t": 3.61,
+     "at": [
+      20.09065,
+      53.54526
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.08)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.12)"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "label": "Warsaw",
+     "kind": "base",
+     "t": 2.81,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF"
+    }
+   ]
+  },
+  {
+   "id": "c2-a4",
+   "type": "region",
+   "start": 186.13,
+   "end": 194.53,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     23.0,
+     52.0
+    ],
+    "widthKm": 1000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.0,
+      52.0
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 3.4,
+     "center": [
+      15.4512,
+      51.5345
+     ],
+     "widthKm": 1323.81
+    },
+    {
+     "t": 8.4,
+     "center": [
+      4.35,
+      50.85
+     ],
+     "widthKm": 1800
+    }
+   ],
+   "labels": [
+    {
+     "text": "Poland asks for Article 4 consultation",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      16.87178,
+      54.20788
+     ]
+    },
+    {
+     "text": "Article 4 means talking",
+     "color": "#FFFFFF",
+     "t": 6.5,
+     "at": [
+      16.87178,
+      53.60249
+     ]
+    }
+   ],
+   "source": "PBS NewsHour; NATO",
+   "clock": "SEPT 2025",
+   "clockLabel": "NATO",
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "Brussels",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "label": "Warsaw",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c2-noauto+wait",
+   "type": "region",
+   "start": 194.53,
+   "end": 200.816,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     4.35,
+     50.85
+    ],
+    "widthKm": 1800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      4.35,
+      50.85
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 3.16,
+     "center": [
+      10.0,
+      51.0
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 4.1,
+     "center": [
+      24.0,
+      51.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 6.29,
+     "center": [
+      33.0,
+      50.5
+     ],
+     "widthKm": 1800
+    }
+   ],
+   "labels": [
+    {
+     "text": "No automatic action",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      -1.83933,
+      53.13673
+     ],
+     "until": 3.36
+    },
+    {
+     "text": "A missile would not wait for a meeting",
+     "color": "#FF3B3B",
+     "t": 3.36,
+     "at": [
+      13.7225,
+      54.78493
+     ]
+    }
+   ],
+   "source": "NATO",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "Brussels",
+     "kind": "base",
+     "t": 0.05,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      36.2,
+      51.3
+     ],
+     "to": [
+      33.7882,
+      50.1415
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 3.56,
+     "t1": 6.19
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       36.2,
+       51.3
+      ],
+      [
+       33.7882,
+       50.1415
+      ]
+     ],
+     "t0": 3.56,
+     "t1": 6.19,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander-M",
+     "size": 2.6,
+     "t": 3.56,
+     "wake": true
+    }
+   ]
+  },
+  {
+   "id": "c2-blank+art5",
+   "type": "region",
+   "start": 200.816,
+   "end": 210.657,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     20.0,
+     50.0
+    ],
+    "widthKm": 3300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      20.0,
+      50.0
+     ],
+     "widthKm": 3300
+    },
+    {
+     "t": 4.53,
+     "center": [
+      22.0,
+      50.0
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 6.03,
+     "center": [
+      26.0,
+      49.5
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 9.84,
+     "center": [
+      27.0,
+      50.0
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "labels": [
+    {
+     "text": "The public line: a deliberate blank",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      7.63191,
+      54.65231
+     ],
+     "until": 4.73
+    },
+    {
+     "text": "Ukraine is not in NATO",
+     "color": "#3ED6C8",
+     "t": 4.73,
+     "at": [
+      18.73824,
+      52.25985
+     ]
+    },
+    {
+     "text": "Article 5 does not cover it",
+     "color": "#FFFFFF",
+     "t": 7.53,
+     "at": [
+      18.73824,
+      51.50311
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ],
+   "legend": null,
+   "countryLabels": [
+    {
+     "iso": "804",
+     "text": "UKRAINE",
+     "color": "#3ED6C8"
+    }
+   ]
+  },
+  {
+   "id": "c2-cross",
+   "type": "region",
+   "start": 210.657,
+   "end": 217.799,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     18.0,
+     50.0
+    ],
+    "widthKm": 3600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      18.0,
+      50.0
+     ],
+     "widthKm": 3600
+    },
+    {
+     "t": 7.14,
+     "center": [
+      28.0,
+      50.0
+     ],
+     "widthKm": 1800
+    }
+   ],
+   "labels": [
+    {
+     "text": "When the flash comes",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      6.68005,
+      54.25805
+     ]
+    },
+    {
+     "text": "which option crosses a line?",
+     "color": "#FFFFFF",
+     "t": 4.13,
+     "at": [
+      6.68005,
+      53.09052
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-card",
+   "type": "chapter",
+   "start": 217.799,
+   "end": 221.3,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 03",
+   "title": "The strike"
+  },
+  {
+   "id": "c3-moscow+doc",
+   "type": "region",
+   "start": 221.3,
+   "end": 228.535,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     36.0,
+     52.5
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      36.0,
+      52.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 2.67,
+     "center": [
+      37.0,
+      54.0
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 4.04,
+     "center": [
+      37.0,
+      54.0
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 7.23,
+     "center": [
+      36.0,
+      52.0
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Our simulation: Moscow decides",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      30.24501,
+      54.55017
+     ],
+     "until": 2.87
+    },
+    {
+     "text": "a Ukrainian advance is a critical threat",
+     "color": "#FFFFFF",
+     "t": 1.2,
+     "at": [
+      30.24501,
+      53.98803
+     ],
+     "until": 2.87
+    },
+    {
+     "text": "The wording of its own doctrine",
+     "color": "#FFFFFF",
+     "t": 2.77,
+     "at": [
+      31.03964,
+      56.05017
+     ]
+    },
+    {
+     "text": "Our choice, not a prediction",
+     "color": "#FFD23F",
+     "t": 5.17,
+     "at": [
+      31.03964,
+      55.48803
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-area",
+   "type": "region",
+   "start": 228.535,
+   "end": 234.21,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     33.0,
+     49.8
+    ],
+    "widthKm": 700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.0,
+      49.8
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 5.68,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 220
+    }
+   ],
+   "labels": [
+    {
+     "text": "Target: a Ukrainian reserve staging area",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      31.07939,
+      50.52545
+     ]
+    },
+    {
+     "text": "Open farmland",
+     "color": "#FFFFFF",
+     "t": 4.02,
+     "at": [
+      31.07939,
+      50.32653
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "label": "Staging area (simulated)",
+     "kind": "target",
+     "t": 0.6,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-farm",
+   "type": "city",
+   "start": 234.21,
+   "end": 237.51,
+   "tag": "SIMULATION",
+   "city": "staging-area-sim",
+   "view": {
+    "center": [
+     33.7882,
+     50.1415
+    ],
+    "widthKm": 24.0
+   },
+   "gz": [
+    33.7882,
+    50.1415
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 24.0
+    },
+    {
+     "t": 3.3,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 12.0
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "text": "No city, no nuclear plant near",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "at": [
+      33.71251,
+      50.16989
+     ]
+    }
+   ],
+   "clock": ""
+  },
+  {
+   "id": "c3-cfr",
+   "type": "region",
+   "start": 237.51,
+   "end": 248.91,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     34.0,
+     50.0
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      34.0,
+      50.0
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 8.14,
+     "center": [
+      33.286,
+      50.0
+     ],
+     "widthKm": 1328.421
+    },
+    {
+     "t": 11.4,
+     "center": [
+      33.0,
+      50.0
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "labels": [
+    {
+     "text": "The battlefield case (CFR)",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      28.96891,
+      51.89247
+     ]
+    },
+    {
+     "text": "Not an attack on civilians",
+     "color": "#FFFFFF",
+     "t": 4.88,
+     "at": [
+      28.96891,
+      51.37356
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ],
+   "source": "Council on Foreign Relations"
+  },
+  {
+   "id": "c3-20kt",
+   "type": "number",
+   "start": 248.91,
+   "end": 254.112,
+   "tag": "SIMULATION",
+   "value": "20 KT",
+   "label": "Yield: our choice, inside the published range",
+   "sub": "simulation assumption",
+   "color": "#FF3B3B",
+   "countTo": 20,
+   "suffix": " KT"
+  },
+  {
+   "id": "c3-hard",
+   "type": "region",
+   "start": 254.112,
+   "end": 259.79,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     38.0,
+     53.0
+    ],
+    "widthKm": 2000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      38.0,
+      53.0
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 2.94,
+     "center": [
+      37.4824,
+      52.4824
+     ],
+     "widthKm": 1585.915
+    },
+    {
+     "t": 5.68,
+     "center": [
+      37.0,
+      52.0
+     ],
+     "widthKm": 1200
+    }
+   ],
+   "labels": [
+    {
+     "text": "The warhead is the hard part to hide",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      30.83518,
+      55.52329
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ]
+  },
+  {
+   "id": "c3-depot+obs",
+   "type": "region",
+   "start": 259.79,
+   "end": 269.49,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     37.0,
+     52.0
+    ],
+    "widthKm": 1200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      37.0,
+      52.0
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 6.46,
+     "center": [
+      36.2,
+      51.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 7.43,
+     "center": [
+      36.2,
+      51.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 9.7,
+     "center": [
+      35.0,
+      51.0
+     ],
+     "widthKm": 900
+    }
+   ],
+   "labels": [
+    {
+     "text": "Warheads sit in central depots",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      33.2793,
+      53.3405
+     ],
+     "until": 6.66
+    },
+    {
+     "text": "apart from their launchers",
+     "color": "#F2B01E",
+     "t": 1.64,
+     "at": [
+      33.2793,
+      52.97294
+     ],
+     "until": 6.66
+    },
+    {
+     "text": "A strike needs preparation",
+     "color": "#FFFFFF",
+     "t": 6.51,
+     "at": [
+      33.18285,
+      52.40394
+     ]
+    },
+    {
+     "text": "an observer might notice",
+     "color": "#FFD23F",
+     "t": 6.56,
+     "at": [
+      33.18285,
+      52.10125
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      36.2,
+      51.3
+     ],
+     "label": "Launcher (simulated)",
+     "kind": "base",
+     "t": 1.64,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-nowarn",
+   "type": "region",
+   "start": 269.49,
+   "end": 272.968,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     35.0,
+     51.0
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      35.0,
+      51.0
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 3.48,
+     "center": [
+      35.0,
+      50.5
+     ],
+     "widthKm": 600
+    }
+   ],
+   "labels": [
+    {
+     "text": "Our simulation: no public warning",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "at": [
+      31.78828,
+      52.18279
+     ]
+    }
+   ],
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      36.2,
+      51.3
+     ],
+     "label": "Launcher (simulated)",
+     "kind": "base",
+     "t": 0.05,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-yard",
+   "type": "bars",
+   "start": 272.968,
+   "end": 277.831,
+   "tag": "SIMULATION",
+   "title": "Yield, in kilotons",
+   "sub": "a third more than Hiroshima",
+   "source": "Scenario engine; Los Alamos review",
+   "bars": [
+    {
+     "label": "Hiroshima",
+     "value": 15,
+     "display": "about 15",
+     "color": "#FFFFFF"
+    },
+    {
+     "label": "Our strike",
+     "value": 20,
+     "display": "20",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "c3-over",
+   "type": "city",
+   "start": 277.831,
+   "end": 280.624,
+   "tag": "SIMULATION",
+   "city": "staging-area-sim",
+   "view": {
+    "center": [
+     33.7882,
+     50.1415
+    ],
+    "widthKm": 14.0
+   },
+   "gz": [
+    33.7882,
+    50.1415
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 14.0
+    },
+    {
+     "t": 2.79,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 8.0
+    }
+   ],
+   "rings": [],
+   "labels": [
+    {
+     "text": "Over farmland, not a city",
+     "color": "#FFD23F",
+     "t": 0.3,
+     "at": [
+      33.74195,
+      50.15885
+     ]
+    }
+   ],
+   "clock": ""
+  },
+  {
+   "id": "c3-m0",
+   "type": "region",
+   "start": 280.624,
+   "end": 282.79,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     36.2,
+     51.3
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      36.2,
+      51.3
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 2.17,
+     "center": [
+      36.2,
+      51.3
+     ],
+     "widthKm": 300
+    }
+   ],
+   "labels": [
+    {
+     "text": "Minute zero",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      34.47591,
+      51.93082
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "LAUNCH",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      36.2,
+      51.3
+     ],
+     "label": "Launcher (simulated)",
+     "kind": "base",
+     "t": 0.2,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-fly",
+   "type": "region",
+   "start": 282.79,
+   "end": 287.17,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     35.0,
+     50.7
+    ],
+    "widthKm": 600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      35.0,
+      50.7
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 4.38,
+     "center": [
+      34.5,
+      50.3
+     ],
+     "widthKm": 450
+    }
+   ],
+   "labels": [
+    {
+     "text": "The missile leaves the launcher",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      32.76621,
+      51.52795
+     ]
+    },
+    {
+     "text": "Minute 3.3",
+     "color": "#FFD23F",
+     "t": 1.64,
+     "at": [
+      32.76621,
+      51.30093
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "FLIGHT",
+   "clockRate": 66,
+   "ships": [
+    {
+     "path": [
+      [
+       36.2,
+       51.3
+      ],
+      [
+       33.7882,
+       50.1415
+      ]
+     ],
+     "t0": 0.1,
+     "t1": 4.28,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander-M",
+     "size": 2.6,
+     "t": 0.1,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      36.2,
+      51.3
+     ],
+     "to": [
+      33.7882,
+      50.1415
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.1,
+     "t1": 4.28
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c3-burst",
+   "type": "region",
+   "start": 287.17,
+   "end": 290.623,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     33.7882,
+     50.1415
+    ],
+    "widthKm": 150
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 3.45,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 150
+    }
+   ],
+   "labels": [
+    {
+     "text": "Airburst over the field",
+     "color": "#FFD23F",
+     "t": 0.3,
+     "at": [
+      33.2836,
+      50.33075
+     ]
+    }
+   ],
+   "clock": "T+03:18",
+   "clockLabel": "AIRBURST",
+   "clockRate": 0,
+   "burst": {
+    "at": [
+     33.7882,
+     50.1415
+    ],
+    "t": 0.1,
+    "km": 4,
+    "fade": 4
+   },
+   "rings": [
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "km": 4,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.7,
+     "dashed": false
+    }
+   ]
+  },
+  {
+   "id": "c4-card",
+   "type": "chapter",
+   "start": 290.623,
+   "end": 294.42,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 04",
+   "title": "The first 72 hours"
+  },
+  {
+   "id": "c4-h0",
+   "type": "region",
+   "start": 294.42,
+   "end": 300.111,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     18.0,
+     50.0
+    ],
+    "widthKm": 3300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      18.0,
+      50.0
+     ],
+     "widthKm": 3300
+    },
+    {
+     "t": 5.69,
+     "center": [
+      14.0,
+      50.0
+     ],
+     "widthKm": 2600
+    }
+   ],
+   "labels": [
+    {
+     "text": "Hour 0: allied sensors register the flash",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      5.63191,
+      54.65231
+     ]
+    },
+    {
+     "text": "Defence ministries are called at once",
+     "color": "#FFFFFF",
+     "t": 1.67,
+     "at": [
+      5.63191,
+      53.37668
+     ]
+    }
+   ],
+   "clock": "HOUR 00",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "label": "Flash",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "Brussels",
+     "kind": "base",
+     "t": 1.2,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      33.7882,
+      50.1415
+     ],
+     "to": [
+      4.35,
+      50.85
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.4,
+     "t1": 3.0
+    }
+   ]
+  },
+  {
+   "id": "c4-h2",
+   "type": "region",
+   "start": 300.111,
+   "end": 305.29,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     10.0,
+     50.0
+    ],
+    "widthKm": 2600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      10.0,
+      50.0
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 5.18,
+     "center": [
+      4.35,
+      50.85
+     ],
+     "widthKm": 1300
+    }
+   ],
+   "labels": [
+    {
+     "text": "Within 2 hours: capitals and NATO's chief",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      1.82448,
+      53.07526
+     ]
+    },
+    {
+     "text": "call it unacceptable",
+     "color": "#FFFFFF",
+     "t": 4.1,
+     "at": [
+      1.82448,
+      52.23204
+     ]
+    }
+   ],
+   "clock": "HOUR 02",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "Brussels",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-call",
+   "type": "globe",
+   "start": 305.29,
+   "end": 317.599,
+   "tag": "SIMULATION",
+   "camera": [
+    {
+     "t": 0,
+     "lat": 48.0,
+     "lon": -30.0,
+     "scale": 1100
+    },
+    {
+     "t": 4.14,
+     "lat": 48.673,
+     "lon": -19.911,
+     "scale": 1234.525
+    },
+    {
+     "t": 8.22,
+     "lat": 49.336,
+     "lon": -9.968,
+     "scale": 1367.1
+    },
+    {
+     "t": 12.31,
+     "lat": 50.0,
+     "lon": 0.0,
+     "scale": 1500
+    }
+   ],
+   "sun": {
+    "lat": -23.29,
+    "lon": 3.9
+   },
+   "arcs": [
+    {
+     "from": [
+      -77.04,
+      38.9
+     ],
+     "to": [
+      37.62,
+      55.75
+     ],
+     "t0": 0.05,
+     "t1": 0.2,
+     "color": "#FFFFFF",
+     "width": 3,
+     "loft": 0.2
+    }
+   ],
+   "markers": [
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "label": "Washington",
+     "color": "#6EA8FF",
+     "t": 0.05,
+     "kind": "base"
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "color": "#F2B01E",
+     "t": 0.05,
+     "kind": "base"
+    }
+   ],
+   "clock": "HOUR 02",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0
+  },
+  {
+   "id": "c4-h6",
+   "type": "region",
+   "start": 317.599,
+   "end": 321.022,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     12.0,
+     50.0
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      12.0,
+      50.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 3.42,
+     "center": [
+      10.0,
+      50.0
+     ],
+     "widthKm": 2400
+    }
+   ],
+   "labels": [
+    {
+     "text": "Hour 6: the Allies do not act as one body",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      0.68005,
+      54.25805
+     ]
+    }
+   ],
+   "clock": "HOUR 06",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-each",
+   "type": "region",
+   "start": 321.022,
+   "end": 327.79,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     10.0,
+     50.0
+    ],
+    "widthKm": 2400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      10.0,
+      50.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 6.77,
+     "center": [
+      6.0,
+      49.0
+     ],
+     "widthKm": 3300
+    }
+   ],
+   "labels": [
+    {
+     "text": "Each capital: its own intelligence",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      -1.94883,
+      54.49461
+     ]
+    },
+    {
+     "text": "and its own election",
+     "color": "#FFFFFF",
+     "t": 2.87,
+     "at": [
+      -1.94883,
+      53.26222
+     ]
+    }
+   ],
+   "clock": "HOUR 06",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-nac",
+   "type": "region",
+   "start": 327.79,
+   "end": 334.73,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     4.35,
+     50.85
+    ],
+    "widthKm": 1300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      4.35,
+      50.85
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 6.94,
+     "center": [
+      4.35,
+      50.85
+     ],
+     "widthKm": 700
+    }
+   ],
+   "labels": [
+    {
+     "text": "An ally asks for an emergency meeting",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      0.08149,
+      52.42706
+     ]
+    },
+    {
+     "text": "North Atlantic Council: Article 4, not 5",
+     "color": "#FFFFFF",
+     "t": 2.04,
+     "at": [
+      0.08149,
+      51.99464
+     ]
+    }
+   ],
+   "clock": "HOUR 06",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "Brussels",
+     "kind": "base",
+     "t": 0.05,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-g7+radmon",
+   "type": "region",
+   "start": 334.73,
+   "end": 342.727,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     10.0,
+     50.0
+    ],
+    "widthKm": 2800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      10.0,
+      50.0
+     ],
+     "widthKm": 2800
+    },
+    {
+     "t": 4.04,
+     "center": [
+      16.0,
+      50.0
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 5.23,
+     "center": [
+      24.0,
+      50.0
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 8.0,
+     "center": [
+      26.0,
+      50.0
+     ],
+     "widthKm": 1400
+    }
+   ],
+   "labels": [
+    {
+     "text": "The G7 and UN Security Council meet",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      -0.48143,
+      53.94264
+     ],
+     "until": 4.24
+    },
+    {
+     "text": "Radiation monitoring begins",
+     "color": "#FFD23F",
+     "t": 4.24,
+     "at": [
+      17.29188,
+      52.52329
+     ]
+    },
+    {
+     "text": "Aid for fallout response",
+     "color": "#FFFFFF",
+     "t": 5.84,
+     "at": [
+      17.29188,
+      51.83142
+     ]
+    }
+   ],
+   "clock": "HOUR 06",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "label": "Warsaw",
+     "kind": "base",
+     "t": 4.34,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      26.1,
+      44.43
+     ],
+     "label": "Bucharest",
+     "kind": "base",
+     "t": 4.94,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-npg",
+   "type": "region",
+   "start": 342.727,
+   "end": 348.09,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     4.35,
+     50.85
+    ],
+    "widthKm": 1300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      4.35,
+      50.85
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 5.36,
+     "center": [
+      4.35,
+      50.85
+     ],
+     "widthKm": 700
+    }
+   ],
+   "labels": [
+    {
+     "text": "Hour 20: the Nuclear Planning Group meets",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      0.08149,
+      52.42706
+     ]
+    }
+   ],
+   "clock": "HOUR 20",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "NATO headquarters",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-det+pos",
+   "type": "region",
+   "start": 348.09,
+   "end": 356.712,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     8.0,
+     50.0
+    ],
+    "widthKm": 2600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      8.0,
+      50.0
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 3.22,
+     "center": [
+      6.1165,
+      50.4386
+     ],
+     "widthKm": 1774.359
+    },
+    {
+     "t": 6.24,
+     "center": [
+      4.35,
+      50.85
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 6.95,
+     "center": [
+      4.35,
+      50.85
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 8.62,
+     "center": [
+      8.0,
+      50.0
+     ],
+     "widthKm": 2600
+    }
+   ],
+   "labels": [
+    {
+     "text": "NATO's line: nuclear forces exist for deterrence",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      0.45337,
+      52.8387
+     ],
+     "until": 6.44
+    },
+    {
+     "text": "Our simulation: posture does not change",
+     "color": "#FFD23F",
+     "t": 6.44,
+     "at": [
+      -3.33331,
+      53.6887
+     ]
+    }
+   ],
+   "clock": "HOUR 20",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "Brussels",
+     "kind": "base",
+     "t": 0.05,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-h30+kind",
+   "type": "region",
+   "start": 356.712,
+   "end": 366.19,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     10.0,
+     50.0
+    ],
+    "widthKm": 2800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      10.0,
+      50.0
+     ],
+     "widthKm": 2800
+    },
+    {
+     "t": 6.56,
+     "center": [
+      4.35,
+      50.85
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 7.44,
+     "center": [
+      4.35,
+      50.85
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 9.48,
+     "center": [
+      10.0,
+      51.0
+     ],
+     "widthKm": 2400
+    }
+   ],
+   "labels": [
+    {
+     "text": "Hour 30: any further nuclear use",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      1.40523,
+      53.23296
+     ],
+     "until": 6.76
+    },
+    {
+     "text": "would meet a response",
+     "color": "#FFFFFF",
+     "t": 1.6,
+     "at": [
+      1.40523,
+      52.34651
+     ],
+     "until": 6.76
+    },
+    {
+     "text": "What kind: not said",
+     "color": "#FFFFFF",
+     "t": 6.76,
+     "at": [
+      -3.54674,
+      53.76755
+     ]
+    }
+   ],
+   "clock": "HOUR 30",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-amb+east",
+   "type": "region",
+   "start": 366.19,
+   "end": 375.116,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     10.0,
+     51.0
+    ],
+    "widthKm": 2400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      10.0,
+      51.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 5.5,
+     "center": [
+      15.0,
+      51.0
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 6.53,
+     "center": [
+      14.0,
+      51.0
+     ],
+     "widthKm": 1700
+    },
+    {
+     "t": 8.92,
+     "center": [
+      20.0,
+      51.0
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Ambiguity urged by an Atlantic Council analyst, 2022",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      1.00719,
+      54.31182
+     ],
+     "until": 5.7
+    },
+    {
+     "text": "Air defence and air policing move east",
+     "color": "#FFFFFF",
+     "t": 5.7,
+     "at": [
+      7.14833,
+      53.52329
+     ]
+    }
+   ],
+   "clock": "HOUR 30",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ],
+   "source": "Atlantic Council, 2022",
+   "lines": [
+    {
+     "from": [
+      8.0,
+      51.0
+     ],
+     "to": [
+      21.0,
+      51.5
+     ],
+     "color": "#6EA8FF",
+     "dashed": false,
+     "t0": 5.8,
+     "t1": 8.5
+    }
+   ]
+  },
+  {
+   "id": "c4-notroops",
+   "type": "region",
+   "start": 375.116,
+   "end": 378.312,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     24.0,
+     50.0
+    ],
+    "widthKm": 1400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24.0,
+      50.0
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 3.2,
+     "center": [
+      27.0,
+      50.0
+     ],
+     "widthKm": 1100
+    }
+   ],
+   "labels": [
+    {
+     "text": "No NATO troops enter Ukraine",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      18.75928,
+      51.97132
+     ]
+    }
+   ],
+   "clock": "HOUR 30",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "804",
+     "text": "UKRAINE",
+     "color": "#3ED6C8"
+    }
+   ]
+  },
+  {
+   "id": "c4-tl",
+   "type": "timeline",
+   "start": 378.312,
+   "end": 381.91200000000003,
+   "tag": "SIMULATION",
+   "title": "The first 72 hours",
+   "sub": "Hour 36: the real decision begins",
+   "total": 72,
+   "unit": "hours",
+   "segments": [
+    {
+     "from": 0,
+     "to": 6,
+     "label": "Reaction",
+     "color": "#6EA8FF"
+    },
+    {
+     "from": 6,
+     "to": 20,
+     "label": "Meetings",
+     "color": "#6EA8FF"
+    },
+    {
+     "from": 20,
+     "to": 36,
+     "label": "Posture",
+     "color": "#6EA8FF"
+    },
+    {
+     "from": 36,
+     "to": 72,
+     "label": "Decision",
+     "color": "#FF3B3B"
+    }
+   ],
+   "highlight": {
+    "from": 36,
+    "to": 72,
+    "label": "The decision"
+   },
+   "cursorTo": 36
+  },
+  {
+   "id": "c4-h36+four",
+   "type": "region",
+   "start": 381.91200000000003,
+   "end": 388.865,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     18.0,
+     50.0
+    ],
+    "widthKm": 3200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      18.0,
+      50.0
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 2.43,
+     "center": [
+      22.0,
+      50.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 3.79,
+     "center": [
+      22.0,
+      50.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 6.95,
+     "center": [
+      28.0,
+      50.0
+     ],
+     "widthKm": 2200
+    }
+   ],
+   "labels": [
+    {
+     "text": "Hour 36: the real decision begins",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      6.2608,
+      54.41575
+     ],
+     "until": 2.63
+    },
+    {
+     "text": "Four options, from published analyses",
+     "color": "#FFD23F",
+     "t": 2.73,
+     "at": [
+      11.09931,
+      54.10034
+     ]
+    }
+   ],
+   "clock": "HOUR 36",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "UKRAINE",
+     "color": "#3ED6C8"
+    },
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ]
+  },
+  {
+   "id": "c4-o1",
+   "type": "region",
+   "start": 388.865,
+   "end": 393.65,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     25.0,
+     50.0
+    ],
+    "widthKm": 2400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      25.0,
+      50.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 4.78,
+     "center": [
+      30.0,
+      50.0
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Option 1: answer with a nuclear weapon",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "at": [
+      16.82448,
+      53.07526
+     ]
+    }
+   ],
+   "clock": "HOUR 36",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ]
+  },
+  {
+   "id": "c4-o1b+o1c+o2",
+   "type": "region",
+   "start": 393.65,
+   "end": 402.91,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     30.0,
+     50.0
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      30.0,
+      50.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 5.5,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 800
+    },
+    {
+     "t": 6.17,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 800
+    },
+    {
+     "t": 7.74,
+     "center": [
+      28.0,
+      50.0
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 8.2,
+     "center": [
+      34.0,
+      49.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 9.26,
+     "center": [
+      35.0,
+      50.0
+     ],
+     "widthKm": 800
+    }
+   ],
+   "labels": [
+    {
+     "text": "One analyst: politically infeasible",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      25.17854,
+      51.81361
+     ],
+     "until": 5.7
+    },
+    {
+     "text": "on a non-nuclear state's soil",
+     "color": "#FFFFFF",
+     "t": 1.4,
+     "at": [
+      25.17854,
+      51.31633
+     ],
+     "until": 5.7
+    },
+    {
+     "text": "Our simulation: NATO declines",
+     "color": "#FFD23F",
+     "t": 5.7,
+     "at": [
+      27.48076,
+      52.50708
+     ],
+     "until": 7.94
+    },
+    {
+     "text": "Option 2: conventional strikes",
+     "color": "#FFD23F",
+     "t": 7.94,
+     "at": [
+      29.27608,
+      50.81361
+     ]
+    }
+   ],
+   "clock": "HOUR 36",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      36.2,
+      51.3
+     ],
+     "label": "Launcher",
+     "kind": "base",
+     "t": 8.76,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-o2b+o2c",
+   "type": "region",
+   "start": 402.91,
+   "end": 410.541,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     35.0,
+     50.0
+    ],
+    "widthKm": 1000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      35.0,
+      50.0
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 2.46,
+     "center": [
+      35.0,
+      49.0
+     ],
+     "widthKm": 1700
+    },
+    {
+     "t": 3.96,
+     "center": [
+      34.0,
+      47.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 7.63,
+     "center": [
+      33.52,
+      44.62
+     ],
+     "widthKm": 900
+    }
+   ],
+   "labels": [
+    {
+     "text": "The launcher, or the Iskander unit",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      29.34003,
+      52.12902
+     ],
+     "until": 2.66
+    },
+    {
+     "text": "Or the Black Sea Fleet",
+     "color": "#FFFFFF",
+     "t": 2.66,
+     "at": [
+      29.25817,
+      48.89247
+     ]
+    },
+    {
+     "text": "One analyst proposes it",
+     "color": "#FFD23F",
+     "t": 5.35,
+     "at": [
+      29.25817,
+      48.37356
+     ]
+    }
+   ],
+   "clock": "HOUR 36",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      36.2,
+      51.3
+     ],
+     "label": "Launcher",
+     "kind": "base",
+     "t": 0.05,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      33.52,
+      44.62
+     ],
+     "label": "Black Sea Fleet",
+     "kind": "base",
+     "t": 2.76,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c4-o2d+o2e",
+   "type": "region",
+   "start": 410.541,
+   "end": 419.95,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     33.0,
+     49.0
+    ],
+    "widthKm": 1800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.0,
+      49.0
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 3.5,
+     "center": [
+      33.514,
+      49.514
+     ],
+     "widthKm": 1543.025
+    },
+    {
+     "t": 6.81,
+     "center": [
+      34.0,
+      50.0
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 7.59,
+     "center": [
+      30.0,
+      50.5
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 9.41,
+     "center": [
+      28.0,
+      50.5
+     ],
+     "widthKm": 2800
+    }
+   ],
+   "labels": [
+    {
+     "text": "Another warns of Russian retaliation",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "at": [
+      26.63297,
+      51.44444
+     ],
+     "until": 7.01
+    },
+    {
+     "text": "First step that makes NATO a direct party",
+     "color": "#FFD23F",
+     "t": 7.01,
+     "at": [
+      19.83169,
+      54.28493
+     ]
+    }
+   ],
+   "clock": "HOUR 36",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-o2f",
+   "type": "region",
+   "start": 419.95,
+   "end": 429.265,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     36.0,
+     52.0
+    ],
+    "widthKm": 2000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      36.0,
+      52.0
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 5.45,
+     "center": [
+      37.1708,
+      53.1708
+     ],
+     "widthKm": 1765.843
+    },
+    {
+     "t": 9.31,
+     "center": [
+      38.0,
+      54.0
+     ],
+     "widthKm": 1600
+    }
+   ],
+   "labels": [
+    {
+     "text": "Russian embassies, 2026: all means,",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      28.12086,
+      54.8387
+     ]
+    },
+    {
+     "text": "nuclear included",
+     "color": "#FF3B3B",
+     "t": 1.6,
+     "at": [
+      28.12086,
+      54.06035
+     ]
+    }
+   ],
+   "clock": "HOUR 36",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "source": "Russian embassy statements, 2026"
+  },
+  {
+   "id": "c4-o3",
+   "type": "region",
+   "start": 429.265,
+   "end": 435.336,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     30.0,
+     50.0
+    ],
+    "widthKm": 2200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      30.0,
+      50.0
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 6.07,
+     "center": [
+      25.0,
+      50.0
+     ],
+     "widthKm": 2800
+    }
+   ],
+   "labels": [
+    {
+     "text": "Option 3: stay the course",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      19.51857,
+      53.94264
+     ]
+    },
+    {
+     "text": "More weapons, sanctions, isolation",
+     "color": "#FFFFFF",
+     "t": 2.5,
+     "at": [
+      19.51857,
+      52.86159
+     ]
+    }
+   ],
+   "clock": "HOUR 36",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-o4",
+   "type": "region",
+   "start": 435.336,
+   "end": 441.85,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     31.0,
+     50.0
+    ],
+    "widthKm": 1800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      31.0,
+      50.0
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 6.51,
+     "center": [
+      32.0,
+      50.0
+     ],
+     "widthKm": 1200
+    }
+   ],
+   "labels": [
+    {
+     "text": "Option 4: press Ukraine to settle",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      24.71114,
+      52.36558
+     ]
+    },
+    {
+     "text": "Judged unwise by the same analyst",
+     "color": "#FFFFFF",
+     "t": 4.83,
+     "at": [
+      24.71114,
+      51.71696
+     ]
+    }
+   ],
+   "clock": "HOUR 36",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "804",
+     "text": "UKRAINE",
+     "color": "#3ED6C8"
+    }
+   ]
+  },
+  {
+   "id": "c4-fear0+fear1+fear2",
+   "type": "region",
+   "start": 441.85,
+   "end": 451.63,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     24.0,
+     50.0
+    ],
+    "widthKm": 3200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      24.0,
+      50.0
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 4.54,
+     "center": [
+      24.0,
+      50.0
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 5.16,
+     "center": [
+      24.0,
+      50.0
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 6.62,
+     "center": [
+      26.0,
+      50.0
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 7.57,
+     "center": [
+      26.0,
+      50.0
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 9.78,
+     "center": [
+      30.0,
+      51.0
+     ],
+     "widthKm": 1300
+    }
+   ],
+   "labels": [
+    {
+     "text": "Each option answers a different fear",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      11.84154,
+      54.57346
+     ],
+     "until": 4.74
+    },
+    {
+     "text": "Option 1 fears weakness",
+     "color": "#FFFFFF",
+     "t": 4.74,
+     "at": [
+      14.77634,
+      53.46952
+     ],
+     "until": 6.82
+    },
+    {
+     "text": "Option 2 fears a second strike",
+     "color": "#FFFFFF",
+     "t": 6.82,
+     "at": [
+      19.50151,
+      52.44444
+     ]
+    }
+   ],
+   "clock": "HOUR 36",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ]
+  },
+  {
+   "id": "c4-fear3+fear4",
+   "type": "region",
+   "start": 451.63,
+   "end": 457.346,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     28.0,
+     51.0
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      28.0,
+      51.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 2.36,
+     "center": [
+      20.0,
+      51.0
+     ],
+     "widthKm": 2800
+    },
+    {
+     "t": 3.37,
+     "center": [
+      31.0,
+      49.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 5.72,
+     "center": [
+      32.0,
+      50.0
+     ],
+     "widthKm": 900
+    }
+   ],
+   "labels": [
+    {
+     "text": "Option 3 fears a wider war",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      18.79307,
+      54.39067
+     ],
+     "until": 2.56
+    },
+    {
+     "text": "Option 4 fears a lost country",
+     "color": "#FFFFFF",
+     "t": 2.56,
+     "at": [
+      26.07069,
+      50.89247
+     ]
+    }
+   ],
+   "clock": "HOUR 36",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-tl2",
+   "type": "timeline",
+   "start": 457.346,
+   "end": 460.846,
+   "tag": "SIMULATION",
+   "title": "The first 72 hours",
+   "sub": "Hour 72: NATO picks option 3",
+   "total": 72,
+   "unit": "hours",
+   "segments": [
+    {
+     "from": 0,
+     "to": 6,
+     "label": "Reaction",
+     "color": "#6EA8FF"
+    },
+    {
+     "from": 6,
+     "to": 20,
+     "label": "Meetings",
+     "color": "#6EA8FF"
+    },
+    {
+     "from": 20,
+     "to": 36,
+     "label": "Posture",
+     "color": "#6EA8FF"
+    },
+    {
+     "from": 36,
+     "to": 72,
+     "label": "Decision",
+     "color": "#FF3B3B"
+    }
+   ],
+   "highlight": {
+    "from": 36,
+    "to": 72,
+    "label": "Option 3"
+   },
+   "cursorTo": 72
+  },
+  {
+   "id": "c4-pkg",
+   "type": "region",
+   "start": 460.846,
+   "end": 467.485,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     26.0,
+     50.0
+    ],
+    "widthKm": 2400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      26.0,
+      50.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 6.64,
+     "center": [
+      32.0,
+      50.0
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "labels": [
+    {
+     "text": "The conventional package stays",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      17.82448,
+      53.07526
+     ]
+    },
+    {
+     "text": "prepared and unlaunched",
+     "color": "#FFD23F",
+     "t": 2.76,
+     "at": [
+      17.82448,
+      52.23204
+     ]
+    }
+   ],
+   "clock": "HOUR 72",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c4-nodl",
+   "type": "region",
+   "start": 467.485,
+   "end": 473.168,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     34.0,
+     52.0
+    ],
+    "widthKm": 2400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      34.0,
+      52.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 5.68,
+     "center": [
+      34.0,
+      53.0
+     ],
+     "widthKm": 1400
+    }
+   ],
+   "labels": [
+    {
+     "text": "No deadline is announced",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      25.68313,
+      54.9964
+     ]
+    },
+    {
+     "text": "because no real one exists",
+     "color": "#FFFFFF",
+     "t": 2.58,
+     "at": [
+      25.68313,
+      54.17481
+     ]
+    }
+   ],
+   "clock": "HOUR 72",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ]
+  },
+  {
+   "id": "c5-card",
+   "type": "chapter",
+   "start": 473.168,
+   "end": 476.67,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 05",
+   "title": "One warhead, ring by ring"
+  },
+  {
+   "id": "c5-fire",
+   "type": "city",
+   "start": 476.67,
+   "end": 481.273,
+   "tag": "SIMULATION",
+   "city": "staging-area-sim",
+   "view": {
+    "center": [
+     33.7882,
+     50.1415
+    ],
+    "widthKm": 1.8
+   },
+   "gz": [
+    33.7882,
+    50.1415
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 1.8
+    },
+    {
+     "t": 4.6,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 1.3
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.202,
+     "label": "Fireball: 200 m",
+     "color": "#FFFFFF",
+     "t": 0.4,
+     "angle": 100
+    }
+   ],
+   "labels": [
+    {
+     "text": "Air burst over the staging area",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      33.78168,
+      50.14394
+     ]
+    }
+   ],
+   "flashT": 0.1,
+   "clock": "13:43",
+   "clockLabel": "UKRAINE TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-20",
+   "type": "city",
+   "start": 481.273,
+   "end": 489.545,
+   "tag": "SIMULATION",
+   "city": "staging-area-sim",
+   "view": {
+    "center": [
+     33.7882,
+     50.1415
+    ],
+    "widthKm": 1.5
+   },
+   "gz": [
+    33.7882,
+    50.1415
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 1.5
+    },
+    {
+     "t": 8.27,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 2.4
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.202,
+     "label": "",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 100
+    },
+    {
+     "km": 0.374,
+     "label": "20 psi: 370 m",
+     "color": "#FF3B3B",
+     "t": 0.4,
+     "angle": 300
+    }
+   ],
+   "labels": [
+    {
+     "text": "Nothing built by hand stands",
+     "color": "#FFFFFF",
+     "t": 5.68,
+     "at": [
+      33.78,
+      50.14458
+     ]
+    }
+   ],
+   "clock": "13:43",
+   "clockLabel": "UKRAINE TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-5",
+   "type": "city",
+   "start": 489.545,
+   "end": 502.073,
+   "tag": "SIMULATION",
+   "city": "staging-area-sim",
+   "view": {
+    "center": [
+     33.7882,
+     50.1415
+    ],
+    "widthKm": 3.6
+   },
+   "gz": [
+    33.7882,
+    50.1415
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 3.6
+    },
+    {
+     "t": 12.53,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 5.2
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.374,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 300
+    },
+    {
+     "km": 1.838,
+     "label": "5 psi: 1.8 km",
+     "color": "#FF3B3B",
+     "t": 0.4,
+     "angle": 225
+    }
+   ],
+   "labels": [
+    {
+     "text": "Most buildings badly damaged or collapsed",
+     "color": "#FFFFFF",
+     "t": 4.8,
+     "at": [
+      33.7697,
+      50.14844
+     ]
+    },
+    {
+     "text": "About 10.5 square km",
+     "color": "#FFD23F",
+     "t": 9.96,
+     "at": [
+      33.7697,
+      50.14665
+     ]
+    }
+   ],
+   "clock": "13:43",
+   "clockLabel": "UKRAINE TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-burn",
+   "type": "city",
+   "start": 502.073,
+   "end": 508.442,
+   "tag": "SIMULATION",
+   "city": "staging-area-sim",
+   "view": {
+    "center": [
+     33.7882,
+     50.1415
+    ],
+    "widthKm": 5.2
+   },
+   "gz": [
+    33.7882,
+    50.1415
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 5.2
+    },
+    {
+     "t": 3.38,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 5.943
+    },
+    {
+     "t": 6.37,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 6.6
+    }
+   ],
+   "rings": [
+    {
+     "km": 1.838,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 2.149,
+     "label": "Third-degree burns: 2.1 km",
+     "color": "#FF7A1A",
+     "t": 0.4,
+     "angle": 45
+    }
+   ],
+   "labels": [
+    {
+     "text": "Burns reach farther than the heavy damage",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      33.76339,
+      50.1508
+     ]
+    }
+   ],
+   "clock": "13:43",
+   "clockLabel": "UKRAINE TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-1psi",
+   "type": "city",
+   "start": 508.442,
+   "end": 514.362,
+   "tag": "SIMULATION",
+   "city": "staging-area-sim",
+   "view": {
+    "center": [
+     33.7882,
+     50.1415
+    ],
+    "widthKm": 6.6
+   },
+   "gz": [
+    33.7882,
+    50.1415
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 6.6
+    },
+    {
+     "t": 3.16,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 9.749
+    },
+    {
+     "t": 5.92,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 12.5
+    }
+   ],
+   "rings": [
+    {
+     "km": 1.838,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 2.149,
+     "label": "",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 45
+    },
+    {
+     "km": 4.975,
+     "label": "1 psi: 5 km, windows shatter",
+     "color": "#FFD23F",
+     "t": 0.4,
+     "angle": 135
+    }
+   ],
+   "labels": [],
+   "clock": "13:43",
+   "clockLabel": "UKRAINE TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-near",
+   "type": "city",
+   "start": 514.362,
+   "end": 520.99,
+   "tag": "SIMULATION",
+   "city": "staging-area-sim",
+   "view": {
+    "center": [
+     33.7882,
+     50.1415
+    ],
+    "widthKm": 14.0
+   },
+   "gz": [
+    33.7882,
+    50.1415
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 14.0
+    },
+    {
+     "t": 3.41,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 15.029
+    },
+    {
+     "t": 6.63,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 16.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 1.838,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 4.975,
+     "label": "",
+     "color": "#FFD23F",
+     "t": 0.05,
+     "angle": 135
+    }
+   ],
+   "labels": [
+    {
+     "text": "The 5 psi and 1 psi rings",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      33.72513,
+      50.16516
+     ]
+    }
+   ],
+   "clock": "13:43",
+   "clockLabel": "UKRAINE TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-near2",
+   "type": "city",
+   "start": 520.99,
+   "end": 528.514,
+   "tag": "SIMULATION",
+   "city": "staging-area-sim",
+   "view": {
+    "center": [
+     33.7882,
+     50.1415
+    ],
+    "widthKm": 16.0
+   },
+   "gz": [
+    33.7882,
+    50.1415
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 16.0
+    },
+    {
+     "t": 3.91,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 19.12
+    },
+    {
+     "t": 7.52,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 22.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 4.975,
+     "label": "",
+     "color": "#FFD23F",
+     "t": 0.05,
+     "angle": 135
+    },
+    {
+     "km": 4.3,
+     "label": "4.3 km",
+     "color": "#FFFFFF",
+     "t": 0.3,
+     "angle": 300
+    }
+   ],
+   "labels": [
+    {
+     "text": "4.3 km from ground zero",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      33.70831,
+      50.17146
+     ]
+    }
+   ],
+   "clock": "13:43",
+   "clockLabel": "UKRAINE TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-little",
+   "type": "city",
+   "start": 528.514,
+   "end": 532.47,
+   "tag": "SIMULATION",
+   "city": "staging-area-sim",
+   "view": {
+    "center": [
+     33.7882,
+     50.1415
+    ],
+    "widthKm": 9.0
+   },
+   "gz": [
+    33.7882,
+    50.1415
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 9.0
+    },
+    {
+     "t": 3.96,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 18.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 4.975,
+     "label": "",
+     "color": "#FFD23F",
+     "t": 0.05,
+     "angle": 135
+    }
+   ],
+   "labels": [
+    {
+     "text": "Air burst: little local fallout",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      33.73143,
+      50.16279
+     ]
+    }
+   ],
+   "clock": "13:43",
+   "clockLabel": "UKRAINE TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-wind",
+   "type": "region",
+   "start": 532.47,
+   "end": 540.81,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     33.7882,
+     50.1415
+    ],
+    "widthKm": 200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 200
+    },
+    {
+     "t": 8.34,
+     "center": [
+      34.6,
+      49.9
+     ],
+     "widthKm": 320
+    }
+   ],
+   "labels": [
+    {
+     "text": "Wind: west-north-west",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      32.69491,
+      50.55153
+     ]
+    },
+    {
+     "text": "Light fallout drifts east-south-east",
+     "color": "#FFFFFF",
+     "t": 3.46,
+     "at": [
+      32.69491,
+      50.43911
+     ]
+    }
+   ],
+   "clock": "13:43",
+   "clockLabel": "UKRAINE TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ],
+   "plume": {
+    "at": [
+     33.7882,
+     50.1415
+    ],
+    "bearing": 112,
+    "lengthKm": 90,
+    "widthKm": 14,
+    "t0": 1.2,
+    "t1": 8.34,
+    "color": "#FFD23F",
+    "label": "Light fallout, if any"
+   },
+   "cities": [
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "kind": "target",
+     "t": 0.05,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c5-nodose",
+   "type": "region",
+   "start": 540.81,
+   "end": 548.929,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     33.5,
+     50.0
+    ],
+    "widthKm": 600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.5,
+      50.0
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 5.08,
+     "center": [
+      32.8744,
+      50.0
+     ],
+     "widthKm": 912.808
+    },
+    {
+     "t": 8.12,
+     "center": [
+      32.5,
+      50.0
+     ],
+     "widthKm": 1100
+    }
+   ],
+   "labels": [
+    {
+     "text": "The engine gives no dose",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      29.93631,
+      51.3405
+     ]
+    },
+    {
+     "text": "No published study: no casualty figure",
+     "color": "#FFD23F",
+     "t": 2.04,
+     "at": [
+      29.93631,
+      50.97294
+     ]
+    }
+   ],
+   "clock": "13:43",
+   "clockLabel": "UKRAINE TIME",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ]
+  },
+  {
+   "id": "c6-card",
+   "type": "chapter",
+   "start": 548.929,
+   "end": 552.43,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 06",
+   "title": "The day after"
+  },
+  {
+   "id": "c6-held+noally",
+   "type": "region",
+   "start": 552.43,
+   "end": 560.77,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     20.0,
+     50.0
+    ],
+    "widthKm": 3300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      20.0,
+      50.0
+     ],
+     "widthKm": 3300
+    },
+    {
+     "t": 5.02,
+     "center": [
+      22.0,
+      50.0
+     ],
+     "widthKm": 2800
+    },
+    {
+     "t": 6.02,
+     "center": [
+      12.0,
+      50.0
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 8.34,
+     "center": [
+      10.0,
+      50.0
+     ],
+     "widthKm": 2200
+    }
+   ],
+   "labels": [
+    {
+     "text": "Did the answer hold? Day 4",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      7.21265,
+      54.81002
+     ],
+     "until": 5.22
+    },
+    {
+     "text": "No ally has fired a nuclear weapon",
+     "color": "#6EA8FF",
+     "t": 5.22,
+     "at": [
+      1.93783,
+      53.78493
+     ]
+    }
+   ],
+   "clock": "DAY 4",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c6-notroop+nosecond+mon",
+   "type": "region",
+   "start": 560.77,
+   "end": 569.03,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     26.0,
+     49.5
+    ],
+    "widthKm": 1600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      26.0,
+      49.5
+     ],
+     "widthKm": 1600
+    },
+    {
+     "t": 3.54,
+     "center": [
+      30.0,
+      49.5
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 3.96,
+     "center": [
+      36.0,
+      52.0
+     ],
+     "widthKm": 1600
+    },
+    {
+     "t": 4.94,
+     "center": [
+      38.0,
+      53.0
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 5.94,
+     "center": [
+      22.0,
+      49.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 8.26,
+     "center": [
+      22.0,
+      48.5
+     ],
+     "widthKm": 1200
+    }
+   ],
+   "labels": [
+    {
+     "text": "No NATO soldier is in Ukraine",
+     "color": "#3ED6C8",
+     "t": 0.2,
+     "at": [
+      20.19059,
+      51.70788
+     ],
+     "until": 3.74
+    },
+    {
+     "text": "Russia has not fired a second",
+     "color": "#F2B01E",
+     "t": 3.74,
+     "at": [
+      29.87178,
+      54.20788
+     ],
+     "until": 5.14
+    },
+    {
+     "text": "Radiation monitors in neighbouring countries",
+     "color": "#FFFFFF",
+     "t": 5.14,
+     "at": [
+      16.39807,
+      51.62902
+     ]
+    }
+   ],
+   "clock": "DAY 4",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "804",
+     "text": "UKRAINE",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "label": "Warsaw",
+     "kind": "base",
+     "t": 5.34,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      17.1,
+      48.15
+     ],
+     "label": "Bratislava",
+     "kind": "base",
+     "t": 5.94,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      26.1,
+      44.43
+     ],
+     "label": "Bucharest",
+     "kind": "base",
+     "t": 6.54,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c6-bg",
+   "type": "region",
+   "start": 569.03,
+   "end": 576.561,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     22.0,
+     48.5
+    ],
+    "widthKm": 1200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      22.0,
+      48.5
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 4.57,
+     "center": [
+      23.2138,
+      49.4104
+     ],
+     "widthKm": 1806.906
+    },
+    {
+     "t": 7.53,
+     "center": [
+      24.0,
+      50.0
+     ],
+     "widthKm": 2200
+    }
+   ],
+   "labels": [
+    {
+     "text": "Background level: a modelling expectation",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      15.08595,
+      51.18099
+     ]
+    },
+    {
+     "text": "not a measurement",
+     "color": "#FFFFFF",
+     "t": 1.6,
+     "at": [
+      15.08595,
+      50.44588
+     ]
+    }
+   ],
+   "clock": "DAY 4",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c6-united+alert",
+   "type": "region",
+   "start": 576.561,
+   "end": 584.25,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     20.0,
+     51.0
+    ],
+    "widthKm": 2600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      20.0,
+      51.0
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 4.19,
+     "center": [
+      22.0,
+      52.0
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 5.24,
+     "center": [
+      22.0,
+      54.0
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 7.69,
+     "center": [
+      23.0,
+      53.0
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Did the alliance stay united?",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      10.57896,
+      54.46952
+     ],
+     "until": 4.39
+    },
+    {
+     "text": "Poland and the Baltic states raise alert levels",
+     "color": "#6EA8FF",
+     "t": 4.39,
+     "at": [
+      14.43492,
+      56.60214
+     ]
+    }
+   ],
+   "clock": "DAY 4",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "label": "Warsaw",
+     "kind": "base",
+     "t": 4.49,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "label": "Vilnius",
+     "kind": "base",
+     "t": 4.79,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      24.1,
+      56.95
+     ],
+     "label": "Riga",
+     "kind": "base",
+     "t": 5.09,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c6-air+reroute",
+   "type": "region",
+   "start": 584.25,
+   "end": 593.682,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     23.0,
+     51.5
+    ],
+    "widthKm": 1200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      23.0,
+      51.5
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 2.36,
+     "center": [
+      23.0,
+      51.0
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 3.86,
+     "center": [
+      22.0,
+      51.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 6.69,
+     "center": [
+      22.0,
+      51.0
+     ],
+     "widthKm": 1957.271
+    },
+    {
+     "t": 9.43,
+     "center": [
+      22.0,
+      51.0
+     ],
+     "widthKm": 2400
+    }
+   ],
+   "labels": [
+    {
+     "text": "Air corridors near the border close",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      18.45444,
+      53.15591
+     ],
+     "until": 2.56
+    },
+    {
+     "text": "Flights reroute",
+     "color": "#FFFFFF",
+     "t": 2.56,
+     "at": [
+      13.64953,
+      54.07526
+     ]
+    },
+    {
+     "text": "Article 4 of 2025, scaled up",
+     "color": "#FFD23F",
+     "t": 3.96,
+     "at": [
+      13.64953,
+      53.23204
+     ]
+    }
+   ],
+   "clock": "DAY 4",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       23.5,
+       52.2
+      ],
+      [
+       24.2,
+       51.0
+      ],
+      [
+       24.0,
+       50.0
+      ],
+      [
+       22.8,
+       49.2
+      ],
+      [
+       21.6,
+       49.3
+      ],
+      [
+       22.2,
+       51.0
+      ]
+     ],
+     "label": "Closed airspace",
+     "color": "#FFD23F",
+     "t": 0.4,
+     "fillOpacity": 0.15
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      14.0,
+      52.0
+     ],
+     "to": [
+      30.0,
+      52.0
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 2.66,
+     "t1": 4.86
+    },
+    {
+     "from": [
+      14.0,
+      49.0
+     ],
+     "to": [
+      30.0,
+      49.0
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 2.66,
+     "t1": 4.86
+    }
+   ]
+  },
+  {
+   "id": "c6-money",
+   "type": "region",
+   "start": 593.682,
+   "end": 603.27,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     15.0,
+     50.0
+    ],
+    "widthKm": 3800
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      15.0,
+      50.0
+     ],
+     "widthKm": 3800
+    },
+    {
+     "t": 4.89,
+     "center": [
+      15.0,
+      50.0
+     ],
+     "widthKm": 3494.056
+    },
+    {
+     "t": 9.59,
+     "center": [
+      15.0,
+      50.0
+     ],
+     "widthKm": 3200
+    }
+   ],
+   "labels": [
+    {
+     "text": "The second change is money",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      0.326,
+      55.51969
+     ]
+    }
+   ],
+   "clock": "DAY 4",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c6-gas",
+   "type": "region",
+   "start": 603.27,
+   "end": 611.55,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     20.0,
+     49.0
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      20.0,
+      49.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 4.56,
+     "center": [
+      24.4058,
+      47.3478
+     ],
+     "widthKm": 2559.42
+    },
+    {
+     "t": 8.28,
+     "center": [
+      28.0,
+      46.0
+     ],
+     "widthKm": 2200
+    }
+   ],
+   "labels": [
+    {
+     "text": "European gas, grain, shipping insurance",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      9.31982,
+      53.10034
+     ]
+    },
+    {
+     "text": "Prices move: direction only, no number",
+     "color": "#FFD23F",
+     "t": 0.84,
+     "at": [
+      9.31982,
+      51.97606
+     ]
+    }
+   ],
+   "clock": "DAY 4",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ]
+  },
+  {
+   "id": "c6-bank+grid+words",
+   "type": "region",
+   "start": 611.55,
+   "end": 620.59,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     36.0,
+     54.0
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      36.0,
+      54.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 5.1,
+     "center": [
+      37.62,
+      55.75
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 5.63,
+     "center": [
+      31.0,
+      49.0
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 6.87,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 7.52,
+     "center": [
+      30.0,
+      54.0
+     ],
+     "widthKm": 2800
+    },
+    {
+     "t": 9.04,
+     "center": [
+      32.0,
+      55.0
+     ],
+     "widthKm": 2000
+    }
+   ],
+   "labels": [
+    {
+     "text": "Settlement links for Russian banks tighten",
+     "color": "#F2B01E",
+     "t": 0.2,
+     "at": [
+      25.91323,
+      57.46952
+     ],
+     "until": 5.3
+    },
+    {
+     "text": "At this yield and height, the grid stays up",
+     "color": "#3ED6C8",
+     "t": 5.3,
+     "at": [
+      25.45452,
+      51.12902
+     ],
+     "until": 7.07
+    },
+    {
+     "text": "Moscow answers in words",
+     "color": "#F2B01E",
+     "t": 7.07,
+     "at": [
+      18.99625,
+      57.78493
+     ]
+    }
+   ],
+   "clock": "DAY 4",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "base",
+     "t": 0.5,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      30.52,
+      50.45
+     ],
+     "label": "Kyiv",
+     "kind": "base",
+     "t": 5.5,
+     "color": "#3ED6C8",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c6-bel+joint",
+   "type": "region",
+   "start": 620.59,
+   "end": 629.55,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     27.56,
+     53.9
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      27.56,
+      53.9
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 2.5,
+     "center": [
+      27.0,
+      53.5
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 4.0,
+     "center": [
+      37.0,
+      55.0
+     ],
+     "widthKm": 1600
+    },
+    {
+     "t": 8.96,
+     "center": [
+      37.62,
+      55.75
+     ],
+     "widthKm": 900
+    }
+   ],
+   "labels": [
+    {
+     "text": "Units in Belarus go on alert",
+     "color": "#F2B01E",
+     "t": 0.2,
+     "at": [
+      22.0713,
+      55.79247
+     ],
+     "until": 2.7
+    },
+    {
+     "text": "A statement: Western aid is a joint attack",
+     "color": "#FFFFFF",
+     "t": 2.7,
+     "at": [
+      31.12691,
+      56.97132
+     ]
+    },
+    {
+     "text": "The language of the 2024 doctrine",
+     "color": "#FFD23F",
+     "t": 4.3,
+     "at": [
+      31.12691,
+      56.4308
+     ]
+    }
+   ],
+   "clock": "DAY 4",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      27.56,
+      53.9
+     ],
+     "label": "Minsk",
+     "kind": "base",
+     "t": 0.3,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      37.62,
+      55.75
+     ],
+     "label": "Moscow",
+     "kind": "base",
+     "t": 2.55,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c6-ore",
+   "type": "region",
+   "start": 629.55,
+   "end": 636.49,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     34.0,
+     53.0
+    ],
+    "widthKm": 2200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      34.0,
+      53.0
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 6.94,
+     "center": [
+      32.0,
+      52.0
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Oreshnik or Iskander: nuclear warhead?",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      25.71568,
+      55.91755
+     ]
+    },
+    {
+     "text": "Nobody can tell from outside",
+     "color": "#FFFFFF",
+     "t": 1.6,
+     "at": [
+      25.71568,
+      55.11758
+     ]
+    }
+   ],
+   "clock": "DAY 4",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ]
+  },
+  {
+   "id": "c6-peace",
+   "type": "region",
+   "start": 636.49,
+   "end": 640.003,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     26.0,
+     50.0
+    ],
+    "widthKm": 2600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      26.0,
+      50.0
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 3.51,
+     "center": [
+      28.0,
+      50.0
+     ],
+     "widthKm": 2000
+    }
+   ],
+   "labels": [
+    {
+     "text": "No road to peace drawn here",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      16.35708,
+      53.62723
+     ]
+    }
+   ],
+   "clock": "DAY 4",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ]
+  },
+  {
+   "id": "c6-d7",
+   "type": "timeline",
+   "start": 640.003,
+   "end": 642.47,
+   "tag": "SIMULATION",
+   "title": "Day 7",
+   "sub": "No ceasefire",
+   "total": 7,
+   "unit": "days",
+   "segments": [
+    {
+     "from": 0,
+     "to": 3,
+     "label": "First 72 hours",
+     "color": "#6EA8FF"
+    },
+    {
+     "from": 3,
+     "to": 7,
+     "label": "No ceasefire",
+     "color": "#FF3B3B"
+    }
+   ],
+   "cursorTo": 7
+  },
+  {
+   "id": "c6-taboo+next",
+   "type": "region",
+   "start": 642.47,
+   "end": 651.521,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     30.0,
+     50.0
+    ],
+    "widthKm": 1400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      30.0,
+      50.0
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 1.57,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 3.07,
+     "center": [
+      20.0,
+      51.0
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 6.21,
+     "center": [
+      25.2421,
+      51.5242
+     ],
+     "widthKm": 2780.634
+    },
+    {
+     "t": 9.06,
+     "center": [
+      30.0,
+      52.0
+     ],
+     "widthKm": 2400
+    }
+   ],
+   "labels": [
+    {
+     "text": "The taboo is broken",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "at": [
+      25.5978,
+      51.65591
+     ],
+     "until": 1.77
+    },
+    {
+     "text": "NATO has not said what it would do next",
+     "color": "#FFFFFF",
+     "t": 1.77,
+     "at": [
+      8.00958,
+      55.41575
+     ]
+    },
+    {
+     "text": "Moscow has not said it will not fire again",
+     "color": "#F2B01E",
+     "t": 3.37,
+     "at": [
+      8.00958,
+      54.20498
+     ]
+    }
+   ],
+   "clock": "DAY 7",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "kind": "target",
+     "t": 0.05,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c6-ac",
+   "type": "region",
+   "start": 651.521,
+   "end": 659.465,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     4.35,
+     50.85
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      4.35,
+      50.85
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 4.07,
+     "center": [
+      7.2462,
+      50.4143
+     ],
+     "widthKm": 2268.892
+    },
+    {
+     "t": 7.94,
+     "center": [
+      10.0,
+      50.0
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "labels": [
+    {
+     "text": "2022 advice: consult on options in advance",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      -5.25414,
+      54.39837
+     ]
+    }
+   ],
+   "clock": "DAY 7",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "source": "Atlantic Council, 2022"
+  },
+  {
+   "id": "endslate",
+   "type": "endslate",
+   "start": 659.465,
+   "end": 676.46,
+   "tag": "",
+   "title": "Kaliningrad and the Suwalki gap",
+   "line": "Next on the map: Kaliningrad and the Suwalki gap, and what NATO does when the nuclear warning comes first.",
+   "transition": "dip"
+  }
+ ],
+ "narration": "episodes/016-nato-answer-russian-nuke-ukraine/narration.wav"
+}
