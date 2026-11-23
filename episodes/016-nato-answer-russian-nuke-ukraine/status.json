@@ -59,7 +59,22 @@
       "stage": "packaged",
       "note": "all gates passed",
       "at": "2026-11-23T05:51:49+00:00"
+    },
+    {
+      "stage": "rendered",
+      "note": "https://github.com/cloudstrive6/the-doomsday-map/actions/runs/45115194770",
+      "at": "2026-11-23T06:11:19+00:00"
+    },
+    {
+      "stage": "qc_passed",
+      "note": "",
+      "at": "2026-11-23T06:11:51+00:00"
+    },
+    {
+      "stage": "uploaded",
+      "note": "https://youtu.be/JtzdHxpsX6M at 2026-11-25T00:00:00Z",
+      "at": "2026-11-23T06:12:38+00:00"
     }
   ],
-  "stage": "packaged"
+  "stage": "uploaded"
 }
