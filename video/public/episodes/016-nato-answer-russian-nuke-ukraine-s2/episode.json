@@ -1,0 +1,486 @@
+{
+ "subtitles": [
+  {
+   "start": 0.648,
+   "end": 2.072,
+   "text": "Over the staging area,"
+  },
+  {
+   "start": 2.072,
+   "end": 3.032,
+   "text": "the engine puts the"
+  },
+  {
+   "start": 3.032,
+   "end": 4.296,
+   "text": "burst in the air,"
+  },
+  {
+   "start": 4.296,
+   "end": 5.332,
+   "text": "with a fireball about"
+  },
+  {
+   "start": 5.332,
+   "end": 7.202,
+   "text": "200 m in radius."
+  },
+  {
+   "start": 8.506,
+   "end": 8.812,
+   "text": "Out to"
+  },
+  {
+   "start": 8.812,
+   "end": 10.482,
+   "text": "370 m,"
+  },
+  {
+   "start": 10.709,
+   "end": 11.852,
+   "text": "the blast reaches 20"
+  },
+  {
+   "start": 11.852,
+   "end": 13.462,
+   "text": "pounds per square inch."
+  },
+  {
+   "start": 13.935,
+   "end": 16.002,
+   "text": "Nothing built by hand stands."
+  },
+  {
+   "start": 16.655,
+   "end": 18.979,
+   "text": "At 1.8 km,"
+  },
+  {
+   "start": 18.979,
+   "end": 21.082,
+   "text": "five pounds per square inch:"
+  },
+  {
+   "start": 21.328,
+   "end": 23.232,
+   "text": "most ordinary buildings badly"
+  },
+  {
+   "start": 23.232,
+   "end": 24.902,
+   "text": "damaged or collapsed."
+  },
+  {
+   "start": 25.265,
+   "end": 26.656,
+   "text": "That ring covers about ten"
+  },
+  {
+   "start": 26.656,
+   "end": 28.705,
+   "text": "and a half square kilometres."
+  },
+  {
+   "start": 29.236,
+   "end": 30.612,
+   "text": "Third-degree burns reach"
+  },
+  {
+   "start": 30.612,
+   "end": 32.522,
+   "text": "2.1 km,"
+  },
+  {
+   "start": 32.932,
+   "end": 34.542,
+   "text": "farther than the heavy damage."
+  },
+  {
+   "start": 35.641,
+   "end": 37.251,
+   "text": "At 5 km,"
+  },
+  {
+   "start": 37.251,
+   "end": 39.369,
+   "text": "one pound per square inch."
+  },
+  {
+   "start": 39.369,
+   "end": 40.582,
+   "text": "Windows shatter."
+  }
+ ],
+ "slug": "016-nato-answer-russian-nuke-ukraine-s2",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 40.732,
+ "shots": [
+  {
+   "id": "c5-fire",
+   "type": "city",
+   "start": 0.0,
+   "end": 8.105,
+   "tag": "SIMULATION",
+   "city": "staging-area-sim",
+   "view": {
+    "center": [
+     33.7882,
+     50.1415
+    ],
+    "widthKm": 1.44
+   },
+   "gz": [
+    33.7882,
+    50.1415
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 1.44
+    },
+    {
+     "t": 8.1,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 0.88
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.202,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -1,
+     "angle": 100
+    }
+   ],
+   "labels": [
+    {
+     "text": "Air burst over the staging area",
+     "color": "#FFD23F",
+     "t": -1,
+     "at": [
+      33.78168,
+      50.14394
+     ]
+    }
+   ],
+   "flashT": 0.0,
+   "clock": "13:43",
+   "clockLabel": "UKRAINE TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-20",
+   "type": "city",
+   "start": 8.105,
+   "end": 16.377,
+   "tag": "SIMULATION",
+   "city": "staging-area-sim",
+   "view": {
+    "center": [
+     33.7882,
+     50.1415
+    ],
+    "widthKm": 1.2
+   },
+   "gz": [
+    33.7882,
+    50.1415
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 1.2
+    },
+    {
+     "t": 8.27,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 1.92
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.202,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -1,
+     "angle": 100
+    },
+    {
+     "km": 0.374,
+     "label": "20 psi",
+     "color": "#FF3B3B",
+     "t": -1,
+     "angle": 300
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      33.7882,
+      50.14421
+     ],
+     "text": "20 psi at 370 m",
+     "color": "#FF3B3B",
+     "t": -1
+    },
+    {
+     "text": "Nothing built by hand stands",
+     "color": "#FFFFFF",
+     "t": 5.68,
+     "at": [
+      33.78,
+      50.14458
+     ]
+    }
+   ],
+   "clock": "13:43",
+   "clockLabel": "UKRAINE TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-5",
+   "type": "city",
+   "start": 16.377,
+   "end": 28.905,
+   "tag": "SIMULATION",
+   "city": "staging-area-sim",
+   "view": {
+    "center": [
+     33.7882,
+     50.1415
+    ],
+    "widthKm": 2.88
+   },
+   "gz": [
+    33.7882,
+    50.1415
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 2.88
+    },
+    {
+     "t": 12.53,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 4.16
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.374,
+     "label": "20 psi",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 300
+    },
+    {
+     "km": 1.838,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.4,
+     "angle": 225
+    }
+   ],
+   "labels": [
+    {
+     "text": "Most buildings badly damaged or collapsed",
+     "color": "#FFFFFF",
+     "t": 4.8,
+     "at": [
+      33.7697,
+      50.14844
+     ]
+    },
+    {
+     "text": "About 10.5 square km",
+     "color": "#FFD23F",
+     "t": 9.96,
+     "at": [
+      33.7697,
+      50.14665
+     ]
+    }
+   ],
+   "clock": "13:43",
+   "clockLabel": "UKRAINE TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-burn",
+   "type": "city",
+   "start": 28.905,
+   "end": 35.274,
+   "tag": "SIMULATION",
+   "city": "staging-area-sim",
+   "view": {
+    "center": [
+     33.7882,
+     50.1415
+    ],
+    "widthKm": 4.16
+   },
+   "gz": [
+    33.7882,
+    50.1415
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 4.16
+    },
+    {
+     "t": 3.38,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 4.75
+    },
+    {
+     "t": 6.37,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 5.28
+    }
+   ],
+   "rings": [
+    {
+     "km": 1.838,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 2.149,
+     "label": "3rd-degree burns",
+     "color": "#FF7A1A",
+     "t": 0.4,
+     "angle": 45
+    }
+   ],
+   "labels": [
+    {
+     "text": "Burns reach farther than the heavy damage",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      33.76339,
+      50.1508
+     ]
+    }
+   ],
+   "clock": "13:43",
+   "clockLabel": "UKRAINE TIME",
+   "clockRate": 0
+  },
+  {
+   "id": "c5-1psi",
+   "type": "city",
+   "start": 35.274,
+   "end": 40.732,
+   "tag": "SIMULATION",
+   "city": "staging-area-sim",
+   "view": {
+    "center": [
+     33.7882,
+     50.1415
+    ],
+    "widthKm": 5.28
+   },
+   "gz": [
+    33.7882,
+    50.1415
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 5.28
+    },
+    {
+     "t": 3.16,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 7.8
+    },
+    {
+     "t": 5.92,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 10.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 1.838,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 2.149,
+     "label": "Burns",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 45
+    },
+    {
+     "km": 4.975,
+     "label": "1 psi: windows",
+     "color": "#FFD23F",
+     "t": 0.4,
+     "angle": 135
+    }
+   ],
+   "labels": [],
+   "clock": "13:43",
+   "clockLabel": "UKRAINE TIME",
+   "clockRate": 0
+  }
+ ],
+ "shortTitle": [
+  "5 PSI AT 1.8 KM",
+  "OVER UKRAINE"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Narration: AI-generated."
+}

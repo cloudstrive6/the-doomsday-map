@@ -719,6 +719,29 @@ a = tAC
 reg("c6-ac", a, S("p46"), [("s", BRU, 1500), ("e", [10.0, 50.0], 3000)],
     [LB2("2022 advice: consult on options in advance", a + 0.2, YELLOW)], clock="DAY 7", clockLabel="AFTER THE BURST", clockRate=0, highlight=HL_NATO, source="Atlantic Council, 2022")
 
+# ================================================================== Shorts overrides (vertical cut only)
+def _shot(sid):
+    return next(x for x in shots if x["id"] == sid)
+
+
+def _vl(at, text, color=WHITE, t=-1):
+    return {"at": at, "text": text, "color": color, "t": t}
+
+
+_s = _shot("open-burst")
+_s["short"] = {"labels": [_vl(offp(GZ, 0, -16), "Central Ukraine", WHITE)] + [dict(l) for l in _s["labels"]]}
+_s = _shot("open-rings")
+_s["short"] = {"camera": [{"t": 0, "center": GZ, "widthKm": 1.1}, {"t": round(_s["end"] - _s["start"], 2), "center": GZ, "widthKm": 5.5}],
+               "rings": [dict(r, t=-1) if r["label"] == "Fireball" else dict(r) for r in _s["rings"]],
+               "labels": [_vl(offp(GZ, 0, 0.5), "20 kt airburst", YELLOW)] + [dict(l, t=-1) for l in _s["labels"]]}
+_s = _shot("c5-fire")
+_s["short"] = {"flashT": 0.0, "camera": [{"t": 0, "center": GZ, "widthKm": 1.8}, {"t": 8.1, "center": GZ, "widthKm": 1.1}],
+               "labels": [dict(l, t=-1) for l in _s["labels"]], "rings": [dict(r, t=-1) for r in _s["rings"]]}
+_s = _shot("c5-20")
+_s["short"] = {"rings": [dict(r, t=-1) for r in _s["rings"]], "labels": [_vl(offp(GZ, 0, 0.3), "20 psi at 370 m", RED)] + [dict(l) for l in _s["labels"]]}
+_s = _shot("c1-isk")
+_s["short"] = {"labels": [dict(l, t=-1) for l in _s["labels"]], "cities": [dict(c, t=-1) for c in _s["cities"]]}
+
 # ================================================================== End slate
 add(id="endslate", type="endslate", start=S("p46"), end=END, tag="", title="Kaliningrad and the Suwalki gap", line="Next on the map: Kaliningrad and the Suwalki gap, and what NATO does when the nuclear warning comes first.")
 

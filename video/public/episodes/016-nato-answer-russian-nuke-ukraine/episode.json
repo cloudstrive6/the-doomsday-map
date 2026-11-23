@@ -340,7 +340,38 @@
      "color": "#3ED6C8",
      "size": 6
     }
-   ]
+   ],
+   "short": {
+    "labels": [
+     {
+      "at": [
+       33.7882,
+       49.9968
+      ],
+      "text": "Central Ukraine",
+      "color": "#FFFFFF",
+      "t": -1
+     },
+     {
+      "text": "20 kiloton airburst",
+      "color": "#FFD23F",
+      "t": 0.9,
+      "at": [
+       34.04751,
+       50.19797
+      ]
+     },
+     {
+      "text": "Open farmland, central Ukraine",
+      "color": "#FFFFFF",
+      "t": 1.3,
+      "at": [
+       34.04751,
+       50.12268
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "open-rings",
@@ -415,7 +446,70 @@
    "clock": "13:43",
    "clockLabel": "UKRAINE TIME",
    "clockRate": 0,
-   "caption": "Simulation: it has not happened."
+   "caption": "Simulation: it has not happened.",
+   "short": {
+    "camera": [
+     {
+      "t": 0,
+      "center": [
+       33.7882,
+       50.1415
+      ],
+      "widthKm": 1.1
+     },
+     {
+      "t": 2.77,
+      "center": [
+       33.7882,
+       50.1415
+      ],
+      "widthKm": 5.5
+     }
+    ],
+    "rings": [
+     {
+      "km": 0.202,
+      "label": "Fireball",
+      "color": "#FFFFFF",
+      "t": -1,
+      "angle": 100
+     },
+     {
+      "km": 1.838,
+      "label": "5 psi",
+      "color": "#FF3B3B",
+      "t": 1.2,
+      "angle": 225
+     },
+     {
+      "km": 4.975,
+      "label": "Windows",
+      "color": "#FF7A1A",
+      "t": 2.2,
+      "angle": 135
+     }
+    ],
+    "labels": [
+     {
+      "at": [
+       33.7882,
+       50.14602
+      ],
+      "text": "20 kt airburst",
+      "color": "#FFD23F",
+      "t": -1
+     },
+     {
+      "text": "Open farmland",
+      "color": "#FFFFFF",
+      "t": -1,
+      "at": [
+       33.74195,
+       50.15829
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "open-sim",
@@ -1448,7 +1542,42 @@
      "color": "#F2B01E",
      "size": 6
     }
-   ]
+   ],
+   "short": {
+    "labels": [
+     {
+      "text": "Iskander-M",
+      "color": "#F2B01E",
+      "t": -1,
+      "at": [
+       31.84157,
+       53.4982
+      ]
+     },
+     {
+      "text": "Likely for a battlefield nuclear strike",
+      "color": "#FFFFFF",
+      "t": -1,
+      "at": [
+       31.84157,
+       53.08741
+      ]
+     }
+    ],
+    "cities": [
+     {
+      "at": [
+       36.2,
+       51.3
+      ],
+      "label": "Launcher (illustrative)",
+      "kind": "base",
+      "t": -1,
+      "color": "#F2B01E",
+      "size": 6
+     }
+    ]
+   }
   },
   {
    "id": "c1-cfr",
@@ -7608,7 +7737,48 @@
    "flashT": 0.1,
    "clock": "13:43",
    "clockLabel": "UKRAINE TIME",
-   "clockRate": 0
+   "clockRate": 0,
+   "short": {
+    "flashT": 0.0,
+    "camera": [
+     {
+      "t": 0,
+      "center": [
+       33.7882,
+       50.1415
+      ],
+      "widthKm": 1.8
+     },
+     {
+      "t": 8.1,
+      "center": [
+       33.7882,
+       50.1415
+      ],
+      "widthKm": 1.1
+     }
+    ],
+    "labels": [
+     {
+      "text": "Air burst over the staging area",
+      "color": "#FFD23F",
+      "t": -1,
+      "at": [
+       33.78168,
+       50.14394
+      ]
+     }
+    ],
+    "rings": [
+     {
+      "km": 0.202,
+      "label": "Fireball",
+      "color": "#FFFFFF",
+      "t": -1,
+      "angle": 100
+     }
+    ]
+   }
   },
   {
    "id": "c5-20",
@@ -7675,7 +7845,45 @@
    ],
    "clock": "13:43",
    "clockLabel": "UKRAINE TIME",
-   "clockRate": 0
+   "clockRate": 0,
+   "short": {
+    "rings": [
+     {
+      "km": 0.202,
+      "label": "Fireball",
+      "color": "#FFFFFF",
+      "t": -1,
+      "angle": 100
+     },
+     {
+      "km": 0.374,
+      "label": "20 psi",
+      "color": "#FF3B3B",
+      "t": -1,
+      "angle": 300
+     }
+    ],
+    "labels": [
+     {
+      "at": [
+       33.7882,
+       50.14421
+      ],
+      "text": "20 psi at 370 m",
+      "color": "#FF3B3B",
+      "t": -1
+     },
+     {
+      "text": "Nothing built by hand stands",
+      "color": "#FFFFFF",
+      "t": 5.68,
+      "at": [
+       33.78,
+       50.14458
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "c5-5",

@@ -1,0 +1,1207 @@
+{
+ "subtitles": [
+  {
+   "start": 0.0,
+   "end": 2.37,
+   "text": "1:43 in the afternoon,"
+  },
+  {
+   "start": 2.696,
+   "end": 3.93,
+   "text": "central Ukraine:"
+  },
+  {
+   "start": 4.109,
+   "end": 5.66,
+   "text": "a nuclear weapon explodes"
+  },
+  {
+   "start": 5.66,
+   "end": 7.23,
+   "text": "over open farmland."
+  },
+  {
+   "start": 7.78,
+   "end": 9.32,
+   "text": "This is a simulation"
+  },
+  {
+   "start": 9.32,
+   "end": 11.43,
+   "text": "built from published numbers,"
+  },
+  {
+   "start": 11.808,
+   "end": 13.17,
+   "text": "and it has not happened."
+  },
+  {
+   "start": 13.443,
+   "end": 14.81,
+   "text": "3 minutes earlier,"
+  },
+  {
+   "start": 14.965,
+   "end": 16.72,
+   "text": "a missile launcher in Russia's"
+  },
+  {
+   "start": 16.72,
+   "end": 19.17,
+   "text": "Kursk region raises its rail."
+  },
+  {
+   "start": 19.63,
+   "end": 20.613,
+   "text": "One Iskander-M."
+  },
+  {
+   "start": 20.613,
+   "end": 23.14,
+   "text": "213 km"
+  },
+  {
+   "start": 23.14,
+   "end": 24.13,
+   "text": "to fly."
+  },
+  {
+   "start": 24.543,
+   "end": 26.34,
+   "text": "Nobody in Kyiv or Brussels has"
+  },
+  {
+   "start": 26.34,
+   "end": 28.47,
+   "text": "3 minutes to decide anything."
+  },
+  {
+   "start": 28.967,
+   "end": 29.56,
+   "text": "But in the hours"
+  },
+  {
+   "start": 29.56,
+   "end": 30.88,
+   "text": "after the flash,"
+  },
+  {
+   "start": 30.88,
+   "end": 32.14,
+   "text": "one question lands on"
+  },
+  {
+   "start": 32.14,
+   "end": 33.4,
+   "text": "every NATO table."
+  },
+  {
+   "start": 33.48,
+   "end": 33.4,
+   "text": "What does the alliance do,"
+  },
+  {
+   "start": 35.692,
+   "end": 33.4,
+   "text": "and how long before"
+  },
+  {
+   "start": 36.72,
+   "end": 33.4,
+   "text": "it has to choose?"
+  }
+ ],
+ "slug": "016-nato-answer-russian-nuke-ukraine-s1",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 33.4,
+ "shots": [
+  {
+   "id": "open-run",
+   "type": "region",
+   "start": 0.0,
+   "end": 2.0,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     35.0,
+     50.6
+    ],
+    "widthKm": 700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      35.0,
+      50.6
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 2.0,
+     "center": [
+      34.6,
+      50.4
+     ],
+     "widthKm": 520
+    }
+   ],
+   "labels": [
+    {
+     "text": "Central Ukraine",
+     "color": "#FF3B3B",
+     "at": [
+      34.82734,
+      49.79316
+     ]
+    },
+    {
+     "text": "Kursk region",
+     "color": "#F2B01E",
+     "at": [
+      36.03597,
+      51.22065
+     ]
+    }
+   ],
+   "clock": "T-03:18",
+   "clockLabel": "TO IMPACT",
+   "clockRate": 100,
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "804",
+     "text": "UKRAINE",
+     "color": "#3ED6C8"
+    },
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       36.2,
+       51.3
+      ],
+      [
+       33.7882,
+       50.1415
+      ]
+     ],
+     "t0": 0.05,
+     "t1": 1.95,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander-M",
+     "size": 2.8,
+     "t": 0.05,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      36.2,
+      51.3
+     ],
+     "to": [
+      33.7882,
+      50.1415
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.05,
+     "t1": 1.95
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "label": "TARGET",
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      36.2,
+      51.3
+     ],
+     "label": "Launcher (simulated)",
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-burst",
+   "type": "region",
+   "start": 2.0,
+   "end": 5.0,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     33.7882,
+     50.1415
+    ],
+    "widthKm": 210
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 210
+    },
+    {
+     "t": 3.0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 160
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      33.7882,
+      49.9968
+     ],
+     "text": "Central Ukraine",
+     "color": "#FFFFFF",
+     "t": -1
+    },
+    {
+     "text": "20 kiloton airburst",
+     "color": "#FFD23F",
+     "t": 0.9,
+     "at": [
+      34.04751,
+      50.19797
+     ]
+    },
+    {
+     "text": "Open farmland, central Ukraine",
+     "color": "#FFFFFF",
+     "t": 1.3,
+     "at": [
+      34.04751,
+      50.12268
+     ]
+    }
+   ],
+   "clock": "13:43",
+   "clockLabel": "UKRAINE TIME",
+   "clockRate": 0,
+   "burst": {
+    "at": [
+     33.7882,
+     50.1415
+    ],
+    "t": 0.1,
+    "km": 4,
+    "fade": 4
+   },
+   "rings": [
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "km": 4,
+     "label": "",
+     "color": "#FF3B3B",
+     "t": 0.7,
+     "dashed": false
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "kind": "target",
+     "t": 0.5,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      33.67962,
+      50.1838
+     ],
+     "label": "Komyshnia",
+     "kind": "base",
+     "t": 1.2,
+     "color": "#3ED6C8",
+     "size": 6
+    },
+    {
+     "at": [
+      33.27418,
+      50.35952
+     ],
+     "label": "Lokhvytsia",
+     "kind": "base",
+     "t": 1.8,
+     "color": "#3ED6C8",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-rings",
+   "type": "city",
+   "start": 5.0,
+   "end": 7.768,
+   "tag": "SIMULATION",
+   "city": "staging-area-sim",
+   "view": {
+    "center": [
+     33.7882,
+     50.1415
+    ],
+    "widthKm": 5.6
+   },
+   "gz": [
+    33.7882,
+    50.1415
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 0.88
+    },
+    {
+     "t": 2.77,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 4.4
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.202,
+     "label": "Fireball",
+     "color": "#FFFFFF",
+     "t": -1,
+     "angle": 100
+    },
+    {
+     "km": 1.838,
+     "label": "5 psi",
+     "color": "#FF3B3B",
+     "t": 1.2,
+     "angle": 225
+    },
+    {
+     "km": 4.975,
+     "label": "Windows",
+     "color": "#FF7A1A",
+     "t": 2.2,
+     "angle": 135
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      33.7882,
+      50.14602
+     ],
+     "text": "20 kt airburst",
+     "color": "#FFD23F",
+     "t": -1
+    },
+    {
+     "text": "Open farmland",
+     "color": "#FFFFFF",
+     "t": -1,
+     "at": [
+      33.74195,
+      50.15829
+     ]
+    }
+   ],
+   "clock": "13:43",
+   "clockLabel": "UKRAINE TIME",
+   "clockRate": 0,
+   "caption": "Simulation: it has not happened."
+  },
+  {
+   "id": "open-sim",
+   "type": "region",
+   "start": 7.768,
+   "end": 13.409,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     31.0,
+     49.5
+    ],
+    "widthKm": 1400
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      31.0,
+      49.5
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 4.3,
+     "center": [
+      34.0,
+      50.0
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 5.64,
+     "center": [
+      31.0,
+      50.3
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "labels": [
+    {
+     "text": "A simulation",
+     "color": "#FFD23F",
+     "t": 0.7,
+     "at": [
+      24.98312,
+      51.78673
+     ]
+    },
+    {
+     "text": "Built from published numbers",
+     "color": "#FFFFFF",
+     "t": 2.16,
+     "at": [
+      24.98312,
+      51.15972
+     ]
+    },
+    {
+     "text": "It has not happened",
+     "color": "#FF3B3B",
+     "t": 4.4,
+     "at": [
+      24.98312,
+      50.53272
+     ]
+    }
+   ],
+   "clock": "13:43",
+   "clockLabel": "UKRAINE TIME",
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "804",
+     "text": "UKRAINE",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "label": "Target (simulated)",
+     "kind": "target",
+     "t": 0.2,
+     "color": "#FF3B3B",
+     "size": 6
+    },
+    {
+     "at": [
+      30.52,
+      50.45
+     ],
+     "label": "Kyiv",
+     "kind": "base",
+     "t": 0.8,
+     "color": "#3ED6C8",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-launch",
+   "type": "region",
+   "start": 13.409,
+   "end": 20.463,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     38.0,
+     51.5
+    ],
+    "widthKm": 1300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      38.0,
+      51.5
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 3.83,
+     "center": [
+      36.8643,
+      51.3738
+     ],
+     "widthKm": 984.514
+    },
+    {
+     "t": 6.07,
+     "center": [
+      36.2,
+      51.3
+     ],
+     "widthKm": 800
+    },
+    {
+     "t": 7.05,
+     "center": [
+      35.0,
+      50.8
+     ],
+     "widthKm": 900
+    }
+   ],
+   "labels": [
+    {
+     "text": "Three minutes earlier",
+     "color": "#FFD23F",
+     "t": 0.1,
+     "at": [
+      33.23798,
+      53.23476
+     ]
+    },
+    {
+     "text": "Kursk region, Russia",
+     "color": "#F2B01E",
+     "t": 1.6,
+     "at": [
+      33.23798,
+      52.7591
+     ]
+    },
+    {
+     "text": "One Iskander-M",
+     "color": "#FFFFFF",
+     "t": 6.07,
+     "at": [
+      33.23798,
+      52.28344
+     ]
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "LAUNCH",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "804",
+     "text": "UKRAINE",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      36.2,
+      51.3
+     ],
+     "label": "Launcher (simulated)",
+     "kind": "base",
+     "t": 0.6,
+     "color": "#F2B01E",
+     "size": 6
+    },
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "label": "Target (simulated)",
+     "kind": "target",
+     "t": 6.07,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-213",
+   "type": "region",
+   "start": 20.463,
+   "end": 24.537,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     35.0,
+     50.7
+    ],
+    "widthKm": 600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      35.0,
+      50.7
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 2.19,
+     "center": [
+      34.9462,
+      50.6462
+     ],
+     "widthKm": 535.43
+    },
+    {
+     "t": 4.07,
+     "center": [
+      34.9,
+      50.6
+     ],
+     "widthKm": 480
+    }
+   ],
+   "labels": [
+    {
+     "text": "213 km to fly",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      32.70239,
+      51.55161
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "FLIGHT",
+   "clockRate": 66,
+   "ships": [
+    {
+     "path": [
+      [
+       36.2,
+       51.3
+      ],
+      [
+       33.7882,
+       50.1415
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 3.97,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander-M",
+     "size": 2.6,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      36.2,
+      51.3
+     ],
+     "to": [
+      33.7882,
+      50.1415
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 3.97
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "label": "Target (simulated)",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-nobody",
+   "type": "region",
+   "start": 24.537,
+   "end": 28.817,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     17.5,
+     50.6
+    ],
+    "widthKm": 2900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      17.5,
+      50.6
+     ],
+     "widthKm": 2900
+    },
+    {
+     "t": 4.28,
+     "center": [
+      18.5,
+      50.6
+     ],
+     "widthKm": 2500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Nobody has three minutes to decide",
+     "color": "#FFD23F",
+     "t": 0.3,
+     "at": [
+      6.03636,
+      54.85805
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      30.52,
+      50.45
+     ],
+     "label": "Kyiv",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#3ED6C8",
+     "size": 6
+    },
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "Brussels",
+     "kind": "base",
+     "t": 1.4,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-table",
+   "type": "region",
+   "start": 28.817,
+   "end": 33.33,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     4.35,
+     50.85
+    ],
+    "widthKm": 1100
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      4.35,
+      50.85
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 4.51,
+     "center": [
+      4.35,
+      50.85
+     ],
+     "widthKm": 600
+    }
+   ],
+   "labels": [
+    {
+     "text": "After the flash: one question",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      0.72177,
+      52.1905
+     ]
+    },
+    {
+     "text": "on every NATO table",
+     "color": "#FFFFFF",
+     "t": 1.5,
+     "at": [
+      0.72177,
+      51.82294
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "NATO headquarters",
+     "kind": "base",
+     "t": 0.4,
+     "color": "#6EA8FF",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "open-q",
+   "type": "region",
+   "start": 33.33,
+   "end": 33.4,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     20.0,
+     51.0
+    ],
+    "widthKm": 3200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      20.0,
+      51.0
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 5.74,
+     "center": [
+      27.0,
+      50.5
+     ],
+     "widthKm": 2200
+    }
+   ],
+   "labels": [
+    {
+     "text": "What does the alliance do?",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "at": [
+      8.43781,
+      55.25805
+     ]
+    },
+    {
+     "text": "How long before it has to choose?",
+     "color": "#FFD23F",
+     "t": 2.36,
+     "at": [
+      8.43781,
+      54.09052
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "642",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "703",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "100",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "348",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "203",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "UKRAINE",
+     "color": "#3ED6C8"
+    },
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "label": "Brussels",
+     "kind": "base",
+     "t": 0.1,
+     "color": "#6EA8FF",
+     "size": 6
+    },
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "kind": "target",
+     "t": 0.1,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "ONE 20 KT NUKE",
+  "ON UKRAINE"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Narration: AI-generated."
+}

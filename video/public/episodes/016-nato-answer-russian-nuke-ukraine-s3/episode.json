@@ -1,0 +1,590 @@
+{
+ "subtitles": [
+  {
+   "start": 0.048,
+   "end": 1.704,
+   "text": "The Iskander-M is the weapon"
+  },
+  {
+   "start": 1.704,
+   "end": 4.464,
+   "text": "analysts consider most likely for"
+  },
+  {
+   "start": 4.464,
+   "end": 6.634,
+   "text": "a battlefield nuclear strike."
+  },
+  {
+   "start": 6.838,
+   "end": 8.324,
+   "text": "The Council on Foreign Relations"
+  },
+  {
+   "start": 8.324,
+   "end": 10.104,
+   "text": "calls it the likely vehicle"
+  },
+  {
+   "start": 10.104,
+   "end": 11.421,
+   "text": "in that case."
+  },
+  {
+   "start": 11.421,
+   "end": 13.824,
+   "text": "Published tables give its nuclear warhead"
+  },
+  {
+   "start": 13.824,
+   "end": 15.724,
+   "text": "as up to 100 kilotons,"
+  },
+  {
+   "start": 15.724,
+   "end": 17.364,
+   "text": "and the range as about"
+  },
+  {
+   "start": 17.364,
+   "end": 19.334,
+   "text": "350 km."
+  },
+  {
+   "start": 20.455,
+   "end": 23.194,
+   "text": "Hiroshima was about 15 kilotons."
+  },
+  {
+   "start": 23.533,
+   "end": 25.144,
+   "text": "So a low-yield weapon is"
+  },
+  {
+   "start": 25.144,
+   "end": 26.628,
+   "text": "not a small one."
+  },
+  {
+   "start": 27.009,
+   "end": 27.884,
+   "text": "Back to the missile"
+  },
+  {
+   "start": 27.884,
+   "end": 29.234,
+   "text": "in the first minute:"
+  },
+  {
+   "start": 29.464,
+   "end": 30.544,
+   "text": "3 minutes is all"
+  },
+  {
+   "start": 30.544,
+   "end": 31.898,
+   "text": "the warning there is."
+  }
+ ],
+ "slug": "016-nato-answer-russian-nuke-ukraine-s3",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 31.898,
+ "shots": [
+  {
+   "id": "c1-isk",
+   "type": "region",
+   "start": 0.0,
+   "end": 6.794,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     36.0,
+     52.0
+    ],
+    "widthKm": 1200
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      36.0,
+      52.0
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 4.0,
+     "center": [
+      35.4109,
+      51.4109
+     ],
+     "widthKm": 905.449
+    },
+    {
+     "t": 6.79,
+     "center": [
+      35.0,
+      51.0
+     ],
+     "widthKm": 700
+    }
+   ],
+   "labels": [
+    {
+     "text": "Iskander-M",
+     "color": "#F2B01E",
+     "t": -1,
+     "at": [
+      31.84157,
+      53.4982
+     ]
+    },
+    {
+     "text": "Likely for a battlefield nuclear strike",
+     "color": "#FFFFFF",
+     "t": -1,
+     "at": [
+      31.84157,
+      53.08741
+     ]
+    }
+   ],
+   "source": "Bulletin of the Atomic Scientists; CFR",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      36.2,
+      51.3
+     ],
+     "label": "Launcher (illustrative)",
+     "kind": "base",
+     "t": -1,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-cfr",
+   "type": "region",
+   "start": 6.794,
+   "end": 11.271,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     35.0,
+     51.0
+    ],
+    "widthKm": 700
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      35.0,
+      51.0
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 4.48,
+     "center": [
+      33.0,
+      50.0
+     ],
+     "widthKm": 1300
+    }
+   ],
+   "labels": [
+    {
+     "text": "Council on Foreign Relations",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      30.71771,
+      52.57706
+     ]
+    },
+    {
+     "text": "The likely vehicle",
+     "color": "#FFFFFF",
+     "t": 2.26,
+     "at": [
+      30.71771,
+      52.14464
+     ]
+    }
+   ],
+   "source": "Bulletin of the Atomic Scientists; CFR",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ]
+  },
+  {
+   "id": "c1-kt",
+   "type": "region",
+   "start": 11.271,
+   "end": 16.254,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     36.2,
+     51.3
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      36.2,
+      51.3
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 4.98,
+     "center": [
+      36.2,
+      51.3
+     ],
+     "widthKm": 1100
+    }
+   ],
+   "labels": [
+    {
+     "text": "Warhead: up to 100 kilotons",
+     "color": "#FF3B3B",
+     "t": 3.12,
+     "at": [
+      31.88978,
+      52.87706
+     ]
+    }
+   ],
+   "source": "Bulletin of the Atomic Scientists; CFR",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      36.2,
+      51.3
+     ],
+     "label": "Launcher (illustrative)",
+     "kind": "base",
+     "t": 0.05,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-rng",
+   "type": "region",
+   "start": 16.254,
+   "end": 20.032,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     36.2,
+     51.3
+    ],
+    "widthKm": 1100
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      36.2,
+      51.3
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 3.78,
+     "center": [
+      34.0,
+      50.0
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Range: about 350 km",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      30.59671,
+      53.35017
+     ]
+    }
+   ],
+   "source": "Bulletin of the Atomic Scientists; CFR",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      36.2,
+      51.3
+     ],
+     "km": 350,
+     "label": "",
+     "color": "#F2B01E",
+     "t": 0.2,
+     "dashed": true
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      36.2,
+      51.3
+     ],
+     "label": "Launcher (illustrative)",
+     "kind": "base",
+     "t": 0.05,
+     "color": "#F2B01E",
+     "size": 6
+    }
+   ]
+  },
+  {
+   "id": "c1-hiro",
+   "type": "bars",
+   "start": 20.032,
+   "end": 23.383,
+   "tag": "REAL DATA",
+   "title": "Yield, in kilotons",
+   "sub": "a yardstick",
+   "source": "Los Alamos review (Hiroshima); published Iskander tables",
+   "bars": [
+    {
+     "label": "Hiroshima",
+     "value": 15,
+     "display": "about 15",
+     "color": "#FFFFFF"
+    },
+    {
+     "label": "Iskander warhead, up to",
+     "value": 100,
+     "display": "up to 100",
+     "color": "#F2B01E"
+    }
+   ]
+  },
+  {
+   "id": "c1-low",
+   "type": "region",
+   "start": 23.383,
+   "end": 26.859,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     34.0,
+     50.0
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      34.0,
+      50.0
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 3.48,
+     "center": [
+      33.7882,
+      50.1415
+     ],
+     "widthKm": 500
+    }
+   ],
+   "labels": [
+    {
+     "text": "A low-yield weapon is not a small one",
+     "color": "#FFD23F",
+     "t": 0.2,
+     "at": [
+      31.0652,
+      51.10394
+     ]
+    }
+   ],
+   "source": "Los Alamos review",
+   "clock": "",
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    }
+   ]
+  },
+  {
+   "id": "c1-3min",
+   "type": "region",
+   "start": 26.859,
+   "end": 31.898,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     35.0,
+     50.7
+    ],
+    "widthKm": 600
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      35.0,
+      50.7
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 2.94,
+     "center": [
+      34.8948,
+      50.6474
+     ],
+     "widthKm": 547.406
+    },
+    {
+     "t": 5.59,
+     "center": [
+      34.8,
+      50.6
+     ],
+     "widthKm": 500
+    }
+   ],
+   "labels": [
+    {
+     "text": "Three minutes: all the warning",
+     "color": "#FF3B3B",
+     "t": 0.2,
+     "at": [
+      32.65984,
+      51.56738
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "804",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.12)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "FLIGHT",
+   "clockRate": 66,
+   "ships": [
+    {
+     "path": [
+      [
+       36.2,
+       51.3
+      ],
+      [
+       33.7882,
+       50.1415
+      ]
+     ],
+     "t0": 0.2,
+     "t1": 5.49,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "label": "Iskander-M",
+     "size": 2.6,
+     "t": 0.2,
+     "wake": true
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      36.2,
+      51.3
+     ],
+     "to": [
+      33.7882,
+      50.1415
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 5.49
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      33.7882,
+      50.1415
+     ],
+     "label": "Target (simulated)",
+     "kind": "target",
+     "t": 0.3,
+     "color": "#FF3B3B",
+     "size": 6
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "3 MINUTES WARNING",
+  "ISKANDER-M NUKE"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Narration: AI-generated."
+}
