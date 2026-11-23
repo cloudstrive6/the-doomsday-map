@@ -1,0 +1,63 @@
+[
+ {
+  "id": "a",
+  "variant": "image",
+  "concept": "daylight-flash",
+  "palette": "daylight",
+  "line1": "72 HOURS",
+  "line2": "TO CHOOSE",
+  "tag": "",
+  "align": "left",
+  "image_prompt": "Bright high-key photo in broad midday daylight: a flat golden wheat field and a straight country road under a vivid blue sky, and far across the field on the right a huge blinding white-yellow nuclear fireball with a rising pale mushroom cloud that fills the right two thirds and the full height of the frame, sunlit orange and white glow on the grain, no ring, no halo, no city. The upper left is open bright blue sky with soft white clouds for text. Very high saturation and brightness. No people, no faces, no text.",
+  "image": "thumbs/016-a.jpg"
+ },
+ {
+  "id": "b",
+  "variant": "map",
+  "concept": "map",
+  "palette": "map",
+  "line1": "3 MINUTES",
+  "line2": "1 MISSILE",
+  "tag": "",
+  "align": "left",
+  "region": {
+   "theme": "bright",
+   "t": 30,
+   "view": {
+    "center": [
+     30.0,
+     50.5
+    ],
+    "widthKm": 2000
+   },
+   "lines": [
+    {
+     "from": [
+      36.2,
+      51.3
+     ],
+     "to": [
+      33.7882,
+      50.1415
+     ],
+     "color": "#E01E1E",
+     "t0": 0,
+     "t1": 1,
+     "width": 9
+    }
+   ]
+  }
+ },
+ {
+  "id": "c",
+  "variant": "image",
+  "concept": "control-room",
+  "palette": "red-alert",
+  "line1": "HOUR 36",
+  "line2": "THE CHOICE",
+  "tag": "",
+  "align": "right",
+  "image_prompt": "Bright high-key photo of a European alliance military operations room, a gigantic wall screen glowing bright saturated red, amber and white that floods the whole room with light, showing only abstract glowing arcs and a pulsing red warning panel, no continents, no maps, no flags, bright glowing consoles and a long conference table with empty chairs in the foreground, very saturated and luminous, no dark areas. The screen fills the left two thirds; the right third is a clear softly lit pale-red wall. No people, no faces, no text.",
+  "image": "thumbs/016-c.jpg"
+ }
+]
