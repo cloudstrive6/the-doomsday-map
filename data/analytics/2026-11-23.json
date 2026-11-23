@@ -1,7 +1,7 @@
 {
  "date": "2026-11-23",
  "channel": {
-  "viewCount": "17193",
+  "viewCount": "17238",
   "subscriberCount": "17",
   "hiddenSubscriberCount": false,
   "videoCount": "50"
@@ -1179,7 +1179,7 @@
    "shares": 2,
    "title": "What If a 50 Megaton Nuke Hit New York? #shorts",
    "published": "2026-11-19T14:00:37Z",
-   "lifetime_views": 996
+   "lifetime_views": 1003
   },
   {
    "video": "9Wov8oOgXSM",
@@ -1319,7 +1319,7 @@
    "shares": 0,
    "title": "What If a Nuke Hit DC? Who Refills Congress #shorts",
    "published": "2026-11-21T00:00:38Z",
-   "lifetime_views": 247
+   "lifetime_views": 253
   },
   {
    "video": "QK55Sko_aw4",
@@ -1543,6 +1543,20 @@
    "shares": 0,
    "title": "What If America and Russia Nuked Each Other? 27 Strikes",
    "published": "2026-11-17T00:00:01Z",
+   "lifetime_views": 13
+  },
+  {
+   "video": "yW8PX8vxzT8",
+   "views": 10,
+   "estimatedMinutesWatched": 18,
+   "averageViewDuration": 185,
+   "averageViewPercentage": 27.26,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "What If a 50 Megaton Nuke Hit New York? Ring by Ring",
+   "published": "2026-11-19T00:00:15Z",
    "lifetime_views": 12
   },
   {
@@ -1558,20 +1572,6 @@
    "title": "North Korea Nukes Seattle: A 26 Minute Simulation",
    "published": "2026-11-10T00:00:18Z",
    "lifetime_views": 10
-  },
-  {
-   "video": "yW8PX8vxzT8",
-   "views": 10,
-   "estimatedMinutesWatched": 18,
-   "averageViewDuration": 185,
-   "averageViewPercentage": 27.26,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "title": "What If a 50 Megaton Nuke Hit New York? Ring by Ring",
-   "published": "2026-11-19T00:00:15Z",
-   "lifetime_views": 12
   },
   {
    "video": "77M-y-VaweA",
@@ -1613,7 +1613,7 @@
    "shares": 0,
    "title": "What If a Nuke Hit Washington? Who Gets Out in 11 Minutes",
    "published": "2026-11-20T00:00:07Z",
-   "lifetime_views": 9
+   "lifetime_views": 11
   }
  ],
  "errors": [],
