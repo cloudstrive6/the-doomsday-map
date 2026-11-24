@@ -9,7 +9,32 @@
       "stage": "researched",
       "note": "research done",
       "at": "2026-11-24T03:24:08+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "draft",
+      "at": "2026-11-24T03:25:53+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "draft",
+      "at": "2026-11-24T03:25:57+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "revision 1",
+      "at": "2026-11-24T03:27:36+00:00"
+    },
+    {
+      "stage": "script_approved",
+      "note": "PASS round 2 after B6 attribution fix (screener's only must-fix)",
+      "at": "2026-11-24T03:28:44+00:00"
+    },
+    {
+      "stage": "narrated",
+      "note": "10.9 min, 1586 words",
+      "at": "2026-11-24T03:35:37+00:00"
     }
   ],
-  "stage": "researched"
+  "stage": "narrated"
 }
