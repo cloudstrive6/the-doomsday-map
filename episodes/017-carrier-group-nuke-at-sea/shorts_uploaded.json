@@ -1,0 +1,38 @@
+[
+  {
+    "id": "s1",
+    "youtube_id": "-i_nMhoozwc",
+    "url": "https://youtube.com/shorts/-i_nMhoozwc",
+    "publish_at": "2026-11-26T14:00:00Z",
+    "title": "What One Nuke Would Do to a US Carrier Group #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -14.0,
+      "TP": -2.2
+    }
+  },
+  {
+    "id": "s2",
+    "youtube_id": "TxzguiJqUTE",
+    "url": "https://youtube.com/shorts/TxzguiJqUTE",
+    "publish_at": "2026-11-26T19:00:00Z",
+    "title": "What One Nuke Would Do to a US Navy Escort at Sea #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -14.0,
+      "TP": -2.2
+    }
+  },
+  {
+    "id": "s3",
+    "youtube_id": "B7FkP-nIr5E",
+    "url": "https://youtube.com/shorts/B7FkP-nIr5E",
+    "publish_at": "2026-11-27T00:00:00Z",
+    "title": "What One Nuke Would Do to a US Carrier Group at Sea #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -13.9,
+      "TP": -4.1
+    }
+  }
+]
