@@ -189,7 +189,7 @@ export const RegionMap: React.FC<{shot: RegionShot; t: number}> = ({shot, t}) =>
     const fs = H > W ? 34 : 22;
     const lw = Math.max(...shot.legend.map((l) => l.text.length)) * (fs * 0.6 + 1.5) + 16 + 12 + 34;
     const lh = shot.legend.length * (fs * 1.25 + 8) + 26;
-    const bottom = shot.caption ? 150 : 76;
+    const bottom = shot.caption ? (shot.source ? 178 : 150) : 76;
     reserve('legend', 40, H - bottom - lh - 8, 48 + lw + 8, H - bottom + 8);
   }
   const dur = shot.end - shot.start;
@@ -367,7 +367,7 @@ export const RegionMap: React.FC<{shot: RegionShot; t: number}> = ({shot, t}) =>
         );
       })() : null}
       {shot.legend?.length ? (
-        <div style={{position: 'absolute', left: 48, bottom: shot.caption ? 150 : 76, background: 'rgba(8,10,14,0.78)', padding: '12px 16px', border: '1px solid rgba(236,239,242,0.12)'}}>
+        <div style={{position: 'absolute', left: 48, bottom: shot.caption ? (shot.source ? 178 : 150) : 76, background: 'rgba(8,10,14,0.78)', padding: '12px 16px', border: '1px solid rgba(236,239,242,0.12)'}}>
           {shot.legend.map((l, i) => (
             <div key={i} style={{display: 'flex', alignItems: 'center', gap: 12, fontFamily: MONO, fontSize: H > W ? 34 : 22, color: C.text, letterSpacing: 1.5, textTransform: 'uppercase', marginBottom: i < shot.legend!.length - 1 ? 8 : 0}}>
               <div style={{width: 16, height: 16, background: l.color ?? C.red}} />{l.text}
