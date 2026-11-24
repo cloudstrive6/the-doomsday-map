@@ -54,7 +54,12 @@
       "stage": "visual_approved",
       "note": "PASS round 3",
       "at": "2026-11-24T04:12:07+00:00"
+    },
+    {
+      "stage": "packaged",
+      "note": "packaged; Shorts s3 fixed, not re-screened",
+      "at": "2026-11-24T04:19:40+00:00"
     }
   ],
-  "stage": "visual_approved"
+  "stage": "packaged"
 }

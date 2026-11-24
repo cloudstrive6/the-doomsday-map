@@ -772,8 +772,8 @@ tOut = W("p30", "outside")
 tCar = W("p30", "carrier")
 tOut = W("p30", "outside")
 tCar2 = W("p30", "two", 1)
-R("c5-ships", a, tOut, [(a, K(-1.2, 0), 16), (a + 1.2, K(-2.0, 0), 18), (tCar, K(-2.0, 0), 14), (tCar + 2.5, K(-2.2, 0), 11), (tOut - 0.3, K(-2.0, 0), 12)], **CL, rings=ALLRINGS(a), zones=[disc(fb_r, 0, -30, WHITE, None, 0.3)],
-  ships=fleet(a, tOut, 14, names=SURVIVORS, times={n: a + 0.3 + 0.18 * i for i, n in enumerate(ALL)}, labels={"CV": "CARRIER"}), cities=[mk(a, 0, 0, None, None, RED, "target", 5)], caption="Now the ships.",
+R("c5-ships", a, tOut, [(a, K(-1.2, 0), 16), (a + 1.2, K(-2.0, 0), 18), (tCar, K(-2.0, 0), 14), (tCar + 2.5, K(-2.2, 0), 11), (tOut - 0.3, K(-2.0, 0), 12)], **{**CL, "source": ""}, rings=ALLRINGS(a), zones=[disc(fb_r, 0, -30, WHITE, None, 0.3)],
+  ships=fleet(a, tOut, 14, names=SURVIVORS, times={n: a + 0.3 + 0.18 * i for i, n in enumerate(ALL)}, labels={"CV": "CARRIER"}), cities=[mk(a, 0, 0, "BURST", None, RED, "target", 5)], labels=[lb(a, -1.0, 2.4, "US CARRIER GROUP", a, BLUE)], caption="Now the ships.",
   lines=[ln(a, K(0, 0), K(*OFF[n]), tCar + 0.6 + 0.5 * i, tCar + 1.4 + 0.5 * i, YELLOW, "2.5 KM", width=3) for i, n in enumerate(["CV", "E1", "E5"])], legend=LEG7 + [{"text": "ICONS ENLARGED", "color": BLUE}])
 tSup2 = W("p30", "supply")
 R("c5-inside", tOut, tSup2, [(tOut, K(-1.8, 0), 12), (tOut + 1.6, K(-1.4, 0), 14), (tSup2 - 0.4, K(-1.4, 0), 15)], **CL, rings=ALLRINGS(tOut), zones=[disc(fb_r, 0, -30, WHITE, None, 0.3)],
@@ -792,9 +792,9 @@ R("c5-bikini", a, tHere, [(a, K(-1.5, 0), 16), (tMissB, K(-0.5, 0), 8), (tHere -
 tAimed = W("p31", "aimed")
 tMiss1 = W("p31", "miss", 1)
 tHere = W("p31", "Here")
-R("c5-miss", tHere, S("p32"), [(tHere, K(-1.5, 0), 16), (tHere + 1.6, K(-1.8, 0), 13), (W("p31", "count"), K(-1.5, 0), 17), (S("p32") - 0.4, K(-1.5, 0), 24)], **CL, rings=[ring(2, 0, -30, "", False), ring(4, 0, -30, "", False)] + [ring(2, tHere, W("p31", "miss") + 0.2, "", True, at=K(-1.0, 0)), ring(4, tHere, W("p31", "miss") + 0.5, "", True, at=K(-1.0, 0))],
+R("c5-miss", tHere, S("p32"), [(tHere, K(-1.5, 0), 16), (tHere + 1.6, K(-1.8, 0), 13), (W("p31", "count"), K(-1.5, 0), 17), (S("p32") - 0.4, K(-1.5, 0), 24)], **{**CL, "source": ""}, rings=[ring(2, 0, -30, None, False), ring(4, 0, -30, None, False)] + [ring(2, tHere, W("p31", "miss") + 0.2, None, True, at=K(-1.0, 0)), ring(4, tHere, W("p31", "miss") + 0.5, None, True, at=K(-1.0, 0))],
   ships=fleet(tHere, S("p32"), 16, names=SURVIVORS, labels={"CV": "CARRIER"}), cities=[mk(tHere, 0, 0, "AIMED HERE", None, RED, "target", 5), mk(tHere, -1.0, 0, "A MISS OF ONE KM", W("p31", "miss") + 0.3, YELLOW, "target", 5)],
-  labels=[lb(tHere, -1.5, 5.0, "NO CREW CAN COUNT ON THE AIM", W("p31", "count") + 0.3, WHITE)], legend=LEG7)
+  labels=[lb(tHere, -1.5, -4.0, "NO CREW CAN COUNT ON THE AIM", W("p31", "count") + 0.3, WHITE)], legend=LEG7)
 a = S("p32")
 tNoH = W("p32", "hull")
 R("c5-flat", a, tNoH - 0.2, [(a, K(-1.5, 0), 18), (a + 1.5, K(-1.5, 0), 13), (tNoH - 0.4, K(-1.5, 0), 15)], **CL, rings=ALLRINGS(a), zones=[disc(fb_r, 0, -30, WHITE, None, 0.3)], ships=fleet(a, tNoH - 0.2, 14, names=SURVIVORS),
