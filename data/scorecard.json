@@ -1,7 +1,7 @@
 {
   "built": "2026-11-24",
   "latest_snapshot": "2026-11-24",
-  "subscribers": 17,
+  "subscribers": 18,
   "subs_target": [
     50,
     "2026-12-10"
@@ -24,14 +24,14 @@
     "C3@7d": {
       "label": "Avg % viewed",
       "target": 40.0,
-      "median": 38.230000000000004,
+      "median": 40.105000000000004,
       "n": 4,
-      "met": false
+      "met": true
     },
     "C4@7d": {
       "label": "Long views",
       "target": 150,
-      "median": 20.0,
+      "median": 20.5,
       "n": 4,
       "met": false
     },
@@ -848,9 +848,9 @@
       "due": "2026-11-24",
       "snapshot": "2026-11-24",
       "status": "measured",
-      "views": 13,
-      "avp": 43.17,
-      "avd": 298,
+      "views": 14,
+      "avp": 50.529999999999994,
+      "avd": 349,
       "hold": null,
       "subs": 0,
       "ctr": 0.0556,
@@ -880,9 +880,9 @@
       "snapshot": "2026-11-24",
       "status": "measured",
       "views": 1004,
-      "avp": 92.77,
+      "avp": 92.65,
       "avd": 28,
-      "hold": 1.45,
+      "hold": 1.449,
       "subs": 0,
       "ctr": 0.0435,
       "impressions": 207

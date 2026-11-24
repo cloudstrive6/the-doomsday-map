@@ -2,7 +2,7 @@
 
 Built by `python -m studio scorecard` from data/analytics/. Targets judged on the median of episodes 004 onward; earlier episodes are the baseline. Small samples: read as tests, not proof.
 
-Subscribers: 17 (target 50 by 2026-12-10)
+Subscribers: 18 (target 50 by 2026-12-10)
 
 ## Targets
 
@@ -10,8 +10,8 @@ Subscribers: 17 (target 50 by 2026-12-10)
 |---|---|---|---|---|---|
 | C1 Long CTR | 7d | 5.0% | 4.8% | 4 | no |
 | C2 Hold at 11% | 7d | 60.0% | - | 0 | - |
-| C3 Avg % viewed | 7d | 40% | 38% | 4 | no |
-| C4 Long views | 7d | 150 | 20.0 | 4 | no |
+| C3 Avg % viewed | 7d | 40% | 40% | 4 | yes |
+| C4 Long views | 7d | 150 | 20.5 | 4 | no |
 | C5a Shorts views | 7d | 300 | 190 | 11 | no |
 | C5b Shorts avg % viewed | 7d | 80% | 72% | 11 | no |
 | C1 Long CTR | 28d | 5.0% | - | 0 | - |
@@ -37,7 +37,7 @@ Subscribers: 17 (target 50 by 2026-12-10)
 | 005 | u1EWhaWRoyc | 28 | due 2026-12-10 | - | - | - | - | - | - |
 | 006 | DK6UC3_BT6Q | 7 | measured | 27 | 4.0% | 149 | - | 33% | 217 |
 | 006 | DK6UC3_BT6Q | 28 | due 2026-12-11 | - | - | - | - | - | - |
-| 008 | -jPUfuzQF4g | 7 | measured | 13 | 5.6% | 90 | - | 43% | 298 |
+| 008 | -jPUfuzQF4g | 7 | measured | 14 | 5.6% | 90 | - | 51% | 349 |
 | 008 | -jPUfuzQF4g | 28 | due 2026-12-15 | - | - | - | - | - | - |
 | 009 | 32-u8DqpnJo | 7 | due 2026-11-25 | - | - | - | - | - | - |
 | 009 | 32-u8DqpnJo | 28 | due 2026-12-16 | - | - | - | - | - | - |

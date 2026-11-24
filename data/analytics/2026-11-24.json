@@ -1,10 +1,10 @@
 {
  "date": "2026-11-24",
  "channel": {
-  "viewCount": "20258",
-  "subscriberCount": "17",
+  "viewCount": "22061",
+  "subscriberCount": "18",
   "hiddenSubscriberCount": false,
-  "videoCount": "54"
+  "videoCount": "56"
  },
  "videos": [
   {
@@ -125,117 +125,117 @@
   },
   {
    "video": "ughjJdoGf50",
-   "views": 1242,
-   "estimatedMinutesWatched": 291,
+   "views": 1259,
+   "estimatedMinutesWatched": 294,
    "averageViewDuration": 23,
-   "averageViewPercentage": 63,
+   "averageViewPercentage": 63.1,
    "subscribersGained": 1,
    "likes": 9,
    "comments": 0,
    "shares": 0,
    "title": "The Real 50 Megaton Nuke: Tsar Bomba's Fireball #shorts",
    "published": "2026-11-20T00:00:00Z",
-   "lifetime_views": 1272,
+   "lifetime_views": 1275,
    "retention_curve": [
     [
      0.01,
-     1.351,
+     1.353,
      0.6
     ],
     [
      0.06,
-     1.249,
-     0.476
+     1.25,
+     0.477
     ],
     [
      0.11,
-     1.173,
-     0.421
+     1.176,
+     0.423
     ],
     [
      0.16,
-     1.013,
-     0.388
+     1.014,
+     0.39
     ],
     [
      0.21,
      0.808,
-     0.366
+     0.369
     ],
     [
      0.26,
      0.732,
-     0.356
+     0.36
     ],
     [
      0.31,
-     0.68,
-     0.358
+     0.681,
+     0.361
     ],
     [
      0.36,
-     0.631,
-     0.364
+     0.632,
+     0.368
     ],
     [
      0.41,
-     0.574,
-     0.369
+     0.576,
+     0.374
     ],
     [
      0.46,
-     0.543,
-     0.378
+     0.545,
+     0.383
     ],
     [
      0.51,
-     0.518,
-     0.399
+     0.521,
+     0.405
     ],
     [
      0.56,
-     0.493,
-     0.443
+     0.494,
+     0.448
     ],
     [
      0.61,
-     0.474,
-     0.522
+     0.476,
+     0.528
     ],
     [
      0.66,
-     0.445,
-     0.624
+     0.447,
+     0.63
     ],
     [
      0.71,
-     0.438,
-     0.705
+     0.44,
+     0.71
     ],
     [
      0.76,
-     0.43,
-     0.753
+     0.433,
+     0.757
     ],
     [
      0.81,
-     0.428,
-     0.781
+     0.43,
+     0.783
     ],
     [
      0.86,
-     0.42,
-     0.799
+     0.423,
+     0.801
     ],
     [
      0.91,
-     0.395,
+     0.396,
      0.824
     ],
     [
      0.96,
-     0.378,
-     0.865
+     0.379,
+     0.864
     ]
    ]
   },
@@ -588,6 +588,122 @@
    ]
   },
   {
+   "video": "0eHBIhYckrQ",
+   "views": 1060,
+   "estimatedMinutesWatched": 309,
+   "averageViewDuration": 31,
+   "averageViewPercentage": 63.36999999999999,
+   "subscribersGained": 0,
+   "likes": 1,
+   "comments": 1,
+   "shares": 0,
+   "title": "What If Russia Fired One Nuke From Kaliningrad? #shorts",
+   "published": "2026-11-22T00:00:16Z",
+   "lifetime_views": 1070,
+   "retention_curve": [
+    [
+     0.01,
+     1.34,
+     0.626
+    ],
+    [
+     0.06,
+     1.304,
+     0.508
+    ],
+    [
+     0.11,
+     1.144,
+     0.478
+    ],
+    [
+     0.16,
+     0.986,
+     0.457
+    ],
+    [
+     0.21,
+     0.849,
+     0.449
+    ],
+    [
+     0.26,
+     0.769,
+     0.449
+    ],
+    [
+     0.31,
+     0.719,
+     0.447
+    ],
+    [
+     0.36,
+     0.672,
+     0.446
+    ],
+    [
+     0.41,
+     0.637,
+     0.447
+    ],
+    [
+     0.46,
+     0.604,
+     0.452
+    ],
+    [
+     0.51,
+     0.547,
+     0.462
+    ],
+    [
+     0.56,
+     0.491,
+     0.48
+    ],
+    [
+     0.61,
+     0.465,
+     0.517
+    ],
+    [
+     0.66,
+     0.444,
+     0.582
+    ],
+    [
+     0.71,
+     0.432,
+     0.673
+    ],
+    [
+     0.76,
+     0.42,
+     0.757
+    ],
+    [
+     0.81,
+     0.387,
+     0.81
+    ],
+    [
+     0.86,
+     0.371,
+     0.841
+    ],
+    [
+     0.91,
+     0.366,
+     0.86
+    ],
+    [
+     0.96,
+     0.349,
+     0.887
+    ]
+   ]
+  },
+  {
    "video": "CswtYFhvZkE",
    "views": 1056,
    "estimatedMinutesWatched": 375,
@@ -705,117 +821,117 @@
   },
   {
    "video": "ANkeXZwcpJE",
-   "views": 1031,
-   "estimatedMinutesWatched": 191,
-   "averageViewDuration": 21,
-   "averageViewPercentage": 60.46,
+   "views": 1049,
+   "estimatedMinutesWatched": 193,
+   "averageViewDuration": 20,
+   "averageViewPercentage": 59.58,
    "subscribersGained": 2,
    "likes": 5,
    "comments": 0,
    "shares": 0,
    "title": "What If Russia Hit Poland and Latvia With Iskander Missiles? #shorts",
    "published": "2026-11-21T14:00:32Z",
-   "lifetime_views": 1054,
+   "lifetime_views": 1064,
    "retention_curve": [
     [
      0.01,
-     1.302,
-     0.595
+     1.294,
+     0.592
     ],
     [
      0.06,
-     1.292,
-     0.483
+     1.285,
+     0.48
     ],
     [
      0.11,
-     1.265,
-     0.457
+     1.258,
+     0.454
     ],
     [
      0.16,
-     1.071,
-     0.452
+     1.065,
+     0.449
     ],
     [
      0.21,
-     0.921,
-     0.45
+     0.915,
+     0.446
     ],
     [
      0.26,
-     0.8,
-     0.451
+     0.794,
+     0.448
     ],
     [
      0.31,
-     0.702,
-     0.455
+     0.688,
+     0.453
     ],
     [
      0.36,
-     0.619,
-     0.463
+     0.608,
+     0.461
     ],
     [
      0.41,
-     0.551,
-     0.471
+     0.538,
+     0.469
     ],
     [
      0.46,
-     0.492,
-     0.477
+     0.481,
+     0.476
     ],
     [
      0.51,
-     0.453,
-     0.482
+     0.442,
+     0.481
     ],
     [
      0.56,
-     0.431,
-     0.491
+     0.421,
+     0.489
     ],
     [
      0.61,
-     0.417,
-     0.517
+     0.408,
+     0.513
     ],
     [
      0.66,
-     0.393,
-     0.58
+     0.385,
+     0.573
     ],
     [
      0.71,
-     0.383,
-     0.684
+     0.375,
+     0.676
     ],
     [
      0.76,
-     0.368,
-     0.779
+     0.358,
+     0.773
     ],
     [
      0.81,
-     0.354,
-     0.841
+     0.344,
+     0.836
     ],
     [
      0.86,
-     0.338,
-     0.88
+     0.329,
+     0.876
     ],
     [
      0.91,
-     0.322,
-     0.904
+     0.314,
+     0.902
     ],
     [
      0.96,
-     0.314,
-     0.919
+     0.306,
+     0.917
     ]
    ]
   },
@@ -937,10 +1053,10 @@
   },
   {
    "video": "IiMf6VMQD6M",
-   "views": 1001,
+   "views": 1003,
    "estimatedMinutesWatched": 244,
    "averageViewDuration": 28,
-   "averageViewPercentage": 92.77,
+   "averageViewPercentage": 92.65,
    "subscribersGained": 0,
    "likes": 14,
    "comments": 1,
@@ -951,228 +1067,112 @@
    "retention_curve": [
     [
      0.01,
-     1.639,
+     1.638,
      0.636
     ],
     [
      0.06,
-     1.538,
+     1.537,
      0.541
     ],
     [
      0.11,
-     1.45,
+     1.449,
      0.522
     ],
     [
      0.16,
-     1.365,
-     0.521
+     1.364,
+     0.52
     ],
     [
      0.21,
      1.181,
-     0.52
+     0.519
     ],
     [
      0.26,
      1.104,
-     0.52
+     0.519
     ],
     [
      0.31,
      1.01,
-     0.521
+     0.52
     ],
     [
      0.36,
-     0.925,
+     0.923,
      0.524
     ],
     [
      0.41,
-     0.872,
+     0.87,
      0.532
     ],
     [
      0.46,
-     0.829,
-     0.549
+     0.827,
+     0.548
     ],
     [
      0.51,
-     0.807,
+     0.805,
      0.58
     ],
     [
      0.56,
-     0.786,
-     0.642
+     0.785,
+     0.641
     ],
     [
      0.61,
-     0.758,
-     0.738
+     0.756,
+     0.736
     ],
     [
      0.66,
-     0.748,
-     0.834
+     0.746,
+     0.833
     ],
     [
      0.71,
-     0.745,
-     0.895
+     0.744,
+     0.894
     ],
     [
      0.76,
-     0.737,
-     0.927
+     0.736,
+     0.926
     ],
     [
      0.81,
-     0.729,
+     0.728,
      0.943
     ],
     [
      0.86,
-     0.719,
+     0.718,
      0.949
     ],
     [
      0.91,
-     0.705,
+     0.703,
      0.95
     ],
     [
      0.96,
-     0.684,
+     0.683,
      0.95
-    ]
-   ]
-  },
-  {
-   "video": "zVxmXn8OHp0",
-   "views": 996,
-   "estimatedMinutesWatched": 340,
-   "averageViewDuration": 39,
-   "averageViewPercentage": 84.56,
-   "subscribersGained": 1,
-   "likes": 7,
-   "comments": 2,
-   "shares": 1,
-   "title": "Nuke War Minute 40: 4 Cities, 27 Strikes in 53 Minutes #shorts",
-   "published": "2026-11-18T00:00:35Z",
-   "lifetime_views": 998,
-   "retention_curve": [
-    [
-     0.01,
-     1.558,
-     0.673
-    ],
-    [
-     0.06,
-     1.377,
-     0.598
-    ],
-    [
-     0.11,
-     1.264,
-     0.576
-    ],
-    [
-     0.16,
-     1.097,
-     0.563
-    ],
-    [
-     0.21,
-     0.996,
-     0.558
-    ],
-    [
-     0.26,
-     0.943,
-     0.56
-    ],
-    [
-     0.31,
-     0.891,
-     0.567
-    ],
-    [
-     0.36,
-     0.857,
-     0.581
-    ],
-    [
-     0.41,
-     0.823,
-     0.602
-    ],
-    [
-     0.46,
-     0.796,
-     0.633
-    ],
-    [
-     0.51,
-     0.772,
-     0.674
-    ],
-    [
-     0.56,
-     0.742,
-     0.727
-    ],
-    [
-     0.61,
-     0.728,
-     0.787
-    ],
-    [
-     0.66,
-     0.716,
-     0.845
-    ],
-    [
-     0.71,
-     0.706,
-     0.883
-    ],
-    [
-     0.76,
-     0.687,
-     0.902
-    ],
-    [
-     0.81,
-     0.677,
-     0.911
-    ],
-    [
-     0.86,
-     0.659,
-     0.914
-    ],
-    [
-     0.91,
-     0.637,
-     0.915
-    ],
-    [
-     0.96,
-     0.617,
-     0.93
     ]
    ]
   },
   {
    "video": "0eqT7omUKg0",
-   "views": 993,
-   "estimatedMinutesWatched": 172,
+   "views": 1003,
+   "estimatedMinutesWatched": 174,
    "averageViewDuration": 23,
-   "averageViewPercentage": 95.47,
+   "averageViewPercentage": 95.56,
    "subscribersGained": 1,
    "likes": 12,
    "comments": 0,
@@ -1182,27 +1182,27 @@
    "lifetime_views": 1005
   },
   {
-   "video": "0eHBIhYckrQ",
-   "views": 993,
-   "estimatedMinutesWatched": 288,
-   "averageViewDuration": 30,
-   "averageViewPercentage": 62.69,
-   "subscribersGained": 0,
-   "likes": 1,
-   "comments": 1,
-   "shares": 0,
-   "title": "What If Russia Fired One Nuke From Kaliningrad? #shorts",
-   "published": "2026-11-22T00:00:16Z",
-   "lifetime_views": 1063
+   "video": "zVxmXn8OHp0",
+   "views": 998,
+   "estimatedMinutesWatched": 341,
+   "averageViewDuration": 39,
+   "averageViewPercentage": 84.6,
+   "subscribersGained": 1,
+   "likes": 7,
+   "comments": 2,
+   "shares": 1,
+   "title": "Nuke War Minute 40: 4 Cities, 27 Strikes in 53 Minutes #shorts",
+   "published": "2026-11-18T00:00:35Z",
+   "lifetime_views": 998
   },
   {
    "video": "9Wov8oOgXSM",
-   "views": 976,
-   "estimatedMinutesWatched": 180,
+   "views": 980,
+   "estimatedMinutesWatched": 181,
    "averageViewDuration": 21,
-   "averageViewPercentage": 64.49,
+   "averageViewPercentage": 64.32,
    "subscribersGained": 0,
-   "likes": 11,
+   "likes": 10,
    "comments": 0,
    "shares": 0,
    "title": "50 Megaton Nuke Over New York: The First Seconds #shorts",
@@ -1225,7 +1225,7 @@
   },
   {
    "video": "XUJI3lSDD0M",
-   "views": 584,
+   "views": 585,
    "estimatedMinutesWatched": 204,
    "averageViewDuration": 45,
    "averageViewPercentage": 88.72,
@@ -1239,17 +1239,17 @@
   },
   {
    "video": "6zICYBIBLyw",
-   "views": 500,
-   "estimatedMinutesWatched": 71,
+   "views": 535,
+   "estimatedMinutesWatched": 79,
    "averageViewDuration": 16,
-   "averageViewPercentage": 45.07,
+   "averageViewPercentage": 46.81,
    "subscribersGained": 0,
    "likes": 8,
    "comments": 1,
    "shares": 0,
    "title": "What One 100 Kiloton Nuke Does to the Capitol and Pentagon #shorts",
    "published": "2026-11-20T14:00:18Z",
-   "lifetime_views": 539
+   "lifetime_views": 537
   },
   {
    "video": "huHH9VFS5aI",
@@ -1280,6 +1280,20 @@
    "lifetime_views": 422
   },
   {
+   "video": "4vpj9Se7Bgg",
+   "views": 296,
+   "estimatedMinutesWatched": 61,
+   "averageViewDuration": 21,
+   "averageViewPercentage": 52.57999999999999,
+   "subscribersGained": 0,
+   "likes": 2,
+   "comments": 0,
+   "shares": 0,
+   "title": "What If Hackers Blacked Out Taiwan at 9 PM? #shorts",
+   "published": "2026-11-22T14:00:15Z",
+   "lifetime_views": 420
+  },
+  {
    "video": "d70ycdBnvsE",
    "views": 289,
    "estimatedMinutesWatched": 53,
@@ -1292,6 +1306,20 @@
    "title": "What One Nuke Would Do to a Lithuanian Air Base #shorts",
    "published": "2026-11-18T19:00:26Z",
    "lifetime_views": 289
+  },
+  {
+   "video": "YxH6xwSmp-0",
+   "views": 280,
+   "estimatedMinutesWatched": 38,
+   "averageViewDuration": 18,
+   "averageViewPercentage": 49.66,
+   "subscribersGained": 0,
+   "likes": 2,
+   "comments": 0,
+   "shares": 0,
+   "title": "What a 100 Kiloton Nuke Does to the White House #shorts",
+   "published": "2026-11-20T19:00:02Z",
+   "lifetime_views": 280
   },
   {
    "video": "Bw7RPbexCTA",
@@ -1308,25 +1336,11 @@
    "lifetime_views": 272
   },
   {
-   "video": "YxH6xwSmp-0",
-   "views": 246,
-   "estimatedMinutesWatched": 31,
-   "averageViewDuration": 17,
-   "averageViewPercentage": 47.95,
-   "subscribersGained": 0,
-   "likes": 2,
-   "comments": 0,
-   "shares": 0,
-   "title": "What a 100 Kiloton Nuke Does to the White House #shorts",
-   "published": "2026-11-20T19:00:02Z",
-   "lifetime_views": 278
-  },
-  {
    "video": "xZepBukwp_U",
-   "views": 225,
-   "estimatedMinutesWatched": 40,
+   "views": 256,
+   "estimatedMinutesWatched": 46,
    "averageViewDuration": 23,
-   "averageViewPercentage": 42.65,
+   "averageViewPercentage": 42.94,
    "subscribersGained": 0,
    "likes": 2,
    "comments": 0,
@@ -1334,6 +1348,20 @@
    "title": "What If a Nuke Hit DC? Who Refills Congress #shorts",
    "published": "2026-11-21T00:00:38Z",
    "lifetime_views": 253
+  },
+  {
+   "video": "vOKBVCZ5scQ",
+   "views": 234,
+   "estimatedMinutesWatched": 26,
+   "averageViewDuration": 21,
+   "averageViewPercentage": 58.440000000000005,
+   "subscribersGained": 1,
+   "likes": 2,
+   "comments": 0,
+   "shares": 0,
+   "title": "What If a 10 Kiloton Nuke Hit Over the Baltic Sea? #shorts",
+   "published": "2026-11-21T19:00:13Z",
+   "lifetime_views": 293
   },
   {
    "video": "Km51s_0dCMI",
@@ -1378,20 +1406,6 @@
    "lifetime_views": 136
   },
   {
-   "video": "vOKBVCZ5scQ",
-   "views": 122,
-   "estimatedMinutesWatched": 13,
-   "averageViewDuration": 21,
-   "averageViewPercentage": 57.42,
-   "subscribersGained": 1,
-   "likes": 2,
-   "comments": 0,
-   "shares": 0,
-   "title": "What If a 10 Kiloton Nuke Hit Over the Baltic Sea? #shorts",
-   "published": "2026-11-21T19:00:13Z",
-   "lifetime_views": 293
-  },
-  {
    "video": "l8W1p2lfHCw",
    "views": 111,
    "estimatedMinutesWatched": 114,
@@ -1421,10 +1435,10 @@
   },
   {
    "video": "K67FRJT0Za4",
-   "views": 78,
+   "views": 79,
    "estimatedMinutesWatched": 14,
-   "averageViewDuration": 25,
-   "averageViewPercentage": 76.86,
+   "averageViewDuration": 24,
+   "averageViewPercentage": 74.9,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
@@ -1435,7 +1449,7 @@
   },
   {
    "video": "lufMFIv5AeY",
-   "views": 65,
+   "views": 66,
    "estimatedMinutesWatched": 196,
    "averageViewDuration": 313,
    "averageViewPercentage": 46.51,
@@ -1460,6 +1474,20 @@
    "title": "What One 800-Kiloton Nuke Does to Chicago, Ring by Ring #shorts",
    "published": "2026-11-11T14:00:38Z",
    "lifetime_views": 62
+  },
+  {
+   "video": "UzDKT-C3p4s",
+   "views": 56,
+   "estimatedMinutesWatched": 11,
+   "averageViewDuration": 23,
+   "averageViewPercentage": 50.4,
+   "subscribersGained": 0,
+   "likes": 1,
+   "comments": 0,
+   "shares": 0,
+   "title": "What If Hackers Stopped Taiwan's Chip Supply? #shorts",
+   "published": "2026-11-23T00:00:36Z",
+   "lifetime_views": 234
   },
   {
    "video": "Xh-d91arwTU",
@@ -1519,10 +1547,10 @@
   },
   {
    "video": "DK6UC3_BT6Q",
-   "views": 31,
-   "estimatedMinutesWatched": 32,
-   "averageViewDuration": 168,
-   "averageViewPercentage": 25.77,
+   "views": 35,
+   "estimatedMinutesWatched": 65,
+   "averageViewDuration": 236,
+   "averageViewPercentage": 36.28,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
@@ -1533,10 +1561,10 @@
   },
   {
    "video": "3VH3JSj7wNM",
-   "views": 27,
-   "estimatedMinutesWatched": 19,
-   "averageViewDuration": 127,
-   "averageViewPercentage": 18.99,
+   "views": 33,
+   "estimatedMinutesWatched": 31,
+   "averageViewDuration": 154,
+   "averageViewPercentage": 22.99,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
@@ -1560,22 +1588,36 @@
    "lifetime_views": 27
   },
   {
+   "video": "YveijTMP8OM",
+   "views": 26,
+   "estimatedMinutesWatched": 8,
+   "averageViewDuration": 36,
+   "averageViewPercentage": 74.63,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "What If Taiwan's Gas Terminals Stalled in a Blackout? #shorts",
+   "published": "2026-11-22T19:00:02Z",
+   "lifetime_views": 39
+  },
+  {
    "video": "u1EWhaWRoyc",
-   "views": 17,
-   "estimatedMinutesWatched": 42,
-   "averageViewDuration": 185,
-   "averageViewPercentage": 26.950000000000003,
+   "views": 22,
+   "estimatedMinutesWatched": 55,
+   "averageViewDuration": 174,
+   "averageViewPercentage": 25.36,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "title": "What If Russia Nuked Ukraine? The First 7 Days",
    "published": "2026-11-12T00:00:11Z",
-   "lifetime_views": 25
+   "lifetime_views": 26
   },
   {
    "video": "32-u8DqpnJo",
-   "views": 14,
+   "views": 18,
    "estimatedMinutesWatched": 7,
    "averageViewDuration": 110,
    "averageViewPercentage": 16.59,
@@ -1585,11 +1627,11 @@
    "shares": 0,
    "title": "What If Russia Nuked Lithuania? The First 61 Hours",
    "published": "2026-11-18T00:00:14Z",
-   "lifetime_views": 17
+   "lifetime_views": 18
   },
   {
    "video": "yW8PX8vxzT8",
-   "views": 12,
+   "views": 14,
    "estimatedMinutesWatched": 22,
    "averageViewDuration": 194,
    "averageViewPercentage": 28.559999999999995,
@@ -1599,21 +1641,35 @@
    "shares": 0,
    "title": "What If a 50 Megaton Nuke Hit New York? Ring by Ring",
    "published": "2026-11-19T00:00:15Z",
-   "lifetime_views": 17
+   "lifetime_views": 18
   },
   {
    "video": "-jPUfuzQF4g",
-   "views": 12,
-   "estimatedMinutesWatched": 25,
-   "averageViewDuration": 298,
-   "averageViewPercentage": 43.17,
+   "views": 13,
+   "estimatedMinutesWatched": 35,
+   "averageViewDuration": 349,
+   "averageViewPercentage": 50.529999999999994,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "title": "What If America and Russia Nuked Each Other? 27 Strikes",
    "published": "2026-11-17T00:00:01Z",
-   "lifetime_views": 13
+   "lifetime_views": 14
+  },
+  {
+   "video": "lBZsX8m3KO4",
+   "views": 11,
+   "estimatedMinutesWatched": 13,
+   "averageViewDuration": 164,
+   "averageViewPercentage": 25.8,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "What If a Nuke Hit Washington? Who Gets Out in 11 Minutes",
+   "published": "2026-11-20T00:00:07Z",
+   "lifetime_views": 11
   },
   {
    "video": "up8u4934iUM",
@@ -1627,7 +1683,7 @@
    "shares": 0,
    "title": "North Korea Nukes Seattle: A 26 Minute Simulation",
    "published": "2026-11-10T00:00:18Z",
-   "lifetime_views": 10
+   "lifetime_views": 11
   },
   {
    "video": "77M-y-VaweA",
@@ -1644,25 +1700,11 @@
    "lifetime_views": 10
   },
   {
-   "video": "lBZsX8m3KO4",
-   "views": 7,
-   "estimatedMinutesWatched": 0,
-   "averageViewDuration": 20,
-   "averageViewPercentage": 3.2,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "title": "What If a Nuke Hit Washington? Who Gets Out in 11 Minutes",
-   "published": "2026-11-20T00:00:07Z",
-   "lifetime_views": 12
-  },
-  {
    "video": "xeDNdj7CXg8",
-   "views": 2,
+   "views": 5,
    "estimatedMinutesWatched": 0,
-   "averageViewDuration": 0,
-   "averageViewPercentage": 0,
+   "averageViewDuration": 6,
+   "averageViewPercentage": 0.95,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
@@ -1670,6 +1712,20 @@
    "title": "What If Hackers Shut Down Taiwan's Power and TSMC?",
    "published": "2026-11-22T00:00:25Z",
    "lifetime_views": 5
+  },
+  {
+   "video": "MHcEaOzJxHk",
+   "views": 3,
+   "estimatedMinutesWatched": 1,
+   "averageViewDuration": 52,
+   "averageViewPercentage": 7.919999999999999,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "What If an Oreshnik Nuke Hit Germany From Belarus?",
+   "published": "2026-11-23T00:00:01Z",
+   "lifetime_views": 12
   }
  ],
  "errors": [],
@@ -1682,37 +1738,37 @@
   "rows": [
    [
     "SHORTS",
-    18034,
-    5419
+    18684,
+    5553
    ],
    [
     "YT_SEARCH",
-    648,
-    305
+    709,
+    329
    ],
    [
     "YT_OTHER_PAGE",
-    220,
-    92
+    234,
+    94
    ],
    [
     "YT_CHANNEL",
-    200,
-    212
+    206,
+    224
    ],
    [
     "RELATED_VIDEO",
-    85,
-    342
+    91,
+    379
    ],
    [
     "SUBSCRIBER",
-    39,
-    25
+    44,
+    43
    ],
    [
     "NO_LINK_OTHER",
-    11,
+    12,
     27
    ],
    [
@@ -1722,8 +1778,8 @@
    ],
    [
     "PLAYLIST",
-    8,
-    20
+    10,
+    21
    ],
    [
     "HASHTAGS",
@@ -1750,39 +1806,39 @@
   "rows": [
    [
     "US",
-    8326
+    8565
    ],
    [
     "RU",
-    1388
+    1454
    ],
    [
     "UA",
-    618
+    656
    ],
    [
     "JP",
-    506
+    559
    ],
    [
     "GB",
-    486
+    511
    ],
    [
     "DE",
-    457
+    485
    ],
    [
     "IN",
-    442
+    463
+   ],
+   [
+    "PL",
+    433
    ],
    [
     "CA",
     395
-   ],
-   [
-    "PL",
-    391
    ],
    [
     "PH",
