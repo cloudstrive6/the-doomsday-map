@@ -1,6 +1,6 @@
 {
-  "built": "2026-11-23",
-  "latest_snapshot": "2026-11-23",
+  "built": "2026-11-24",
+  "latest_snapshot": "2026-11-24",
   "subscribers": 17,
   "subs_target": [
     50,
@@ -10,8 +10,8 @@
     "C1@7d": {
       "label": "Long CTR",
       "target": 0.05,
-      "median": 0.0403,
-      "n": 3,
+      "median": 0.04795,
+      "n": 4,
       "met": false
     },
     "C2@7d": {
@@ -24,29 +24,29 @@
     "C3@7d": {
       "label": "Avg % viewed",
       "target": 40.0,
-      "median": 33.29,
-      "n": 3,
+      "median": 38.230000000000004,
+      "n": 4,
       "met": false
     },
     "C4@7d": {
       "label": "Long views",
       "target": 150,
-      "median": 27,
-      "n": 3,
+      "median": 20.0,
+      "n": 4,
       "met": false
     },
     "C5a@7d": {
       "label": "Shorts views",
       "target": 300,
-      "median": 77,
-      "n": 9,
+      "median": 190,
+      "n": 11,
       "met": false
     },
     "C5b@7d": {
       "label": "Shorts avg % viewed",
       "target": 80.0,
-      "median": 64.26,
-      "n": 9,
+      "median": 72.28,
+      "n": 11,
       "met": false
     },
     "C1@28d": {
@@ -846,8 +846,15 @@
       "publish_at": "2026-11-17T00:00:00Z",
       "horizon": 7,
       "due": "2026-11-24",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-24",
+      "status": "measured",
+      "views": 13,
+      "avp": 43.17,
+      "avd": 298,
+      "hold": null,
+      "subs": 0,
+      "ctr": 0.0556,
+      "impressions": 90
     },
     {
       "episode": "008-full-nuclear-war-minute-by-minute",
@@ -870,8 +877,15 @@
       "publish_at": "2026-11-17T14:00:00Z",
       "horizon": 7,
       "due": "2026-11-24",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-24",
+      "status": "measured",
+      "views": 1004,
+      "avp": 92.77,
+      "avd": 28,
+      "hold": 1.45,
+      "subs": 0,
+      "ctr": 0.0435,
+      "impressions": 207
     },
     {
       "episode": "008-full-nuclear-war-minute-by-minute",
@@ -894,8 +908,15 @@
       "publish_at": "2026-11-17T19:00:00Z",
       "horizon": 7,
       "due": "2026-11-24",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-24",
+      "status": "measured",
+      "views": 1281,
+      "avp": 90.32,
+      "avd": 30,
+      "hold": 1.573,
+      "subs": 0,
+      "ctr": 0.0381,
+      "impressions": 236
     },
     {
       "episode": "008-full-nuclear-war-minute-by-minute",
@@ -1698,6 +1719,102 @@
       "publish_at": "2026-11-26T00:00:00Z",
       "horizon": 28,
       "due": "2026-12-24",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "017-carrier-group-nuke-at-sea",
+      "num": 17,
+      "kind": "long",
+      "id": "93qjGcMzvsw",
+      "title": "What One 10 kt Nuke Would Do to a US Carrier Group",
+      "publish_at": "2026-11-26T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-03",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "017-carrier-group-nuke-at-sea",
+      "num": 17,
+      "kind": "long",
+      "id": "93qjGcMzvsw",
+      "title": "What One 10 kt Nuke Would Do to a US Carrier Group",
+      "publish_at": "2026-11-26T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-24",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "017-carrier-group-nuke-at-sea",
+      "num": 17,
+      "kind": "short",
+      "id": "-i_nMhoozwc",
+      "title": "What One Nuke Would Do to a US Carrier Group #shorts",
+      "publish_at": "2026-11-26T14:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-03",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "017-carrier-group-nuke-at-sea",
+      "num": 17,
+      "kind": "short",
+      "id": "-i_nMhoozwc",
+      "title": "What One Nuke Would Do to a US Carrier Group #shorts",
+      "publish_at": "2026-11-26T14:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-24",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "017-carrier-group-nuke-at-sea",
+      "num": 17,
+      "kind": "short",
+      "id": "TxzguiJqUTE",
+      "title": "What One Nuke Would Do to a US Navy Escort at Sea #shorts",
+      "publish_at": "2026-11-26T19:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-03",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "017-carrier-group-nuke-at-sea",
+      "num": 17,
+      "kind": "short",
+      "id": "TxzguiJqUTE",
+      "title": "What One Nuke Would Do to a US Navy Escort at Sea #shorts",
+      "publish_at": "2026-11-26T19:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-24",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "017-carrier-group-nuke-at-sea",
+      "num": 17,
+      "kind": "short",
+      "id": "B7FkP-nIr5E",
+      "title": "What One Nuke Would Do to a US Carrier Group at Sea #shorts",
+      "publish_at": "2026-11-27T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-04",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "017-carrier-group-nuke-at-sea",
+      "num": 17,
+      "kind": "short",
+      "id": "B7FkP-nIr5E",
+      "title": "What One Nuke Would Do to a US Carrier Group at Sea #shorts",
+      "publish_at": "2026-11-27T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-25",
       "snapshot": null,
       "status": "pending"
     }
