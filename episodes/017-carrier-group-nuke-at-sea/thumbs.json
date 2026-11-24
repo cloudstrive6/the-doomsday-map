@@ -1,0 +1,38 @@
+[
+ {
+  "id": "a",
+  "variant": "image",
+  "concept": "launch",
+  "palette": "dawn-gold",
+  "line1": "WHO FIRED?",
+  "line2": "NOBODY KNOWS",
+  "tag": "",
+  "align": "right",
+  "image_prompt": "Bright high-key cinematic photo at golden dawn over open ocean: a single sleek cruise missile with a bright white-orange exhaust flame skimming low over the waves on the left half of the frame, a long glowing wake of spray behind it, huge luminous gold, orange and pink sky with warm sunlit clouds across the full width, rich saturated colour, no dark areas. The right third is clear glowing golden sky for text. No ships, no land, no people, no faces, no text.",
+  "image": "thumbs/017-b.jpg"
+ },
+ {
+  "id": "b",
+  "variant": "image",
+  "concept": "skyline-strike",
+  "palette": "fire-night",
+  "line1": "5,000 ABOARD",
+  "line2": "1 FLASH",
+  "tag": "",
+  "align": "left",
+  "image_prompt": "Bright high-key photo at night over open sea: a large grey aircraft carrier with a flat deck and island tower seen from the side on the lower right, and behind it a giant blinding white-yellow and orange nuclear fireball with a rising mushroom cloud that lights the whole sky and the water in vivid orange and magenta, bright orange reflections on the waves, no ring, no halo. The upper left is open luminous deep-blue and violet sky with soft clouds for text. Very high saturation and brightness, no dark areas. No people, no faces, no text.",
+  "image": "thumbs/017-a.jpg"
+ },
+ {
+  "id": "c",
+  "variant": "image",
+  "concept": "witness",
+  "palette": "daylight",
+  "line1": "1 BURST",
+  "line2": "ESCORT GONE",
+  "tag": "",
+  "align": "left",
+  "image_prompt": "Bright high-key photo in broad daylight at sea: one small sailor in a navy uniform seen from behind standing on the grey steel deck of a warship on the lower right, looking out over a vivid blue ocean at a huge blinding white fireball with a pale rising cloud far away on the horizon on the right side, sunlit white and orange glow on the water, no ring, no halo. The upper left is open bright blue sky with soft white clouds for text. Very high saturation and brightness. No faces, no text.",
+  "image": "thumbs/017-c.jpg"
+ }
+]
