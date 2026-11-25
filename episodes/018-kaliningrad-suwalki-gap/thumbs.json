@@ -1,0 +1,85 @@
+[
+ {
+  "id": "a",
+  "variant": "image",
+  "concept": "scale",
+  "palette": "fire-on-blue",
+  "line1": "13 DAYS",
+  "line2": "THEN THIS",
+  "tag": "",
+  "align": "left",
+  "image_prompt": "Photoreal night scene, vivid and bright: a huge fiery orange and yellow nuclear mushroom cloud with a glowing stem erupting behind a ridge of dark pine forest entirely in the right half of the frame, its cap no higher than 60 percent from the bottom and no wider than 40 percent of the frame width, the fireball is enormous and fills about half the frame height, lighting the treetops and low clouds in orange and gold, deep saturated cobalt blue night sky, a few bright stars, long orange glow on the ground. Low camera angle looking up through the pines. The upper left is open deep blue sky for text. The bottom right corner is quiet and dark-green. No people, no faces, no text, no buildings. The whole left 45 percent and the top 40 percent of the frame are clear deep blue sky.",
+  "image": "thumbs/018-c.jpg"
+ },
+ {
+  "id": "b",
+  "variant": "image",
+  "concept": "weapon",
+  "palette": "daylight",
+  "line1": "FIRED AT",
+  "line2": "ITSELF",
+  "tag": "",
+  "align": "left",
+  "image_prompt": "Bright high-key photo in broad midday daylight: a large green road-mobile tactical ballistic missile launcher truck with its slim white missile raised at an angle, parked on a gravel clearing in a pine forest on the right side of the frame, vivid blue sky with soft white clouds, sunlit green pines and warm golden light on the truck, crisp detail, no dark areas. The upper left and left third are open bright blue sky for text. Very high saturation and brightness. No people, no faces, no text, no flags.",
+  "image": "thumbs/018-b.jpg"
+ },
+ {
+  "id": "c",
+  "variant": "map",
+  "concept": "map",
+  "palette": "map",
+  "line1": "65 KM",
+  "line2": "2 ROADS",
+  "tag": "",
+  "align": "left",
+  "region": {
+   "theme": "bright",
+   "t": 30,
+   "view": {
+    "center": [
+     20.3,
+     54.3
+    ],
+    "widthKm": 600
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.25)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.18)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.22)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.22)"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      22.85,
+      54.36
+     ],
+     "to": [
+      23.5,
+      53.95
+     ],
+     "color": "#E01E1E",
+     "t0": 0,
+     "t1": 1,
+     "width": 14
+    }
+   ]
+  }
+ }
+]
