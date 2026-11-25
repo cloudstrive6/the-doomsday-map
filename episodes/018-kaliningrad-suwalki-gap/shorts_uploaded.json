@@ -1,0 +1,38 @@
+[
+  {
+    "id": "s1",
+    "youtube_id": "M2x0eufdl34",
+    "url": "https://youtube.com/shorts/M2x0eufdl34",
+    "publish_at": "2026-11-27T14:00:00Z",
+    "title": "One Nuke in Kaliningrad: Russia Fires a Warning Shot #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -14.0,
+      "TP": -1.8
+    }
+  },
+  {
+    "id": "s2",
+    "youtube_id": "zRbDmTEkbjA",
+    "url": "https://youtube.com/shorts/zRbDmTEkbjA",
+    "publish_at": "2026-11-27T19:00:00Z",
+    "title": "What One Nuke Would Do Over Kaliningrad's Forest #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -14.0,
+      "TP": -1.8
+    }
+  },
+  {
+    "id": "s3",
+    "youtube_id": "rYpHiMrRbrM",
+    "url": "https://youtube.com/shorts/rYpHiMrRbrM",
+    "publish_at": "2026-11-28T00:00:00Z",
+    "title": "Kaliningrad Nukes and the 65 km Suwalki Gap #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -14.0,
+      "TP": -4.5
+    }
+  }
+]

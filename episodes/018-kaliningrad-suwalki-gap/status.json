@@ -59,7 +59,22 @@
       "stage": "packaged",
       "note": "packaged",
       "at": "2026-11-25T02:25:40+00:00"
+    },
+    {
+      "stage": "rendered",
+      "note": "https://github.com/cloudstrive6/the-doomsday-map/actions/runs/45525860835",
+      "at": "2026-11-25T02:47:57+00:00"
+    },
+    {
+      "stage": "qc_passed",
+      "note": "",
+      "at": "2026-11-25T02:48:42+00:00"
+    },
+    {
+      "stage": "uploaded",
+      "note": "https://youtu.be/ADelaz-Rb-A at 2026-11-27T00:00:00Z",
+      "at": "2026-11-25T02:49:42+00:00"
     }
   ],
-  "stage": "packaged"
+  "stage": "uploaded"
 }
