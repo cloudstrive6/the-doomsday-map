@@ -1,0 +1,13 @@
+{
+  "slug": "018-kaliningrad-suwalki-gap",
+  "title": "NATO cuts off Kaliningrad, and Russia fires a nuclear warning on its own soil",
+  "t0_utc": "2027-03-12T16:10:00Z",
+  "strikes": [
+    {"id": "jassm-baltiysk", "launch_name": "Polish Air Force strike package over northern Poland (location simulated)", "launch_lat": 53.6, "launch_lon": 20.5, "target_name": "Baltiysk naval base, Kaliningrad Oblast", "target_lat": 54.64, "target_lon": 19.90, "weapon": "air-launched cruise missile (JASSM-class)", "weapon_class": "cruise",
+     "yield_kt": 0, "burst": "conventional", "warheads": 1, "launch_offset_min": -7200, "notes": "Day 8 of the crisis, five days before the nuclear step. Conventional NATO strike on the base that guards the sea inspection line; simulation choice, no source row, NATO denies planning any move against Kaliningrad (A2)"},
+    {"id": "iskander-marijampole", "launch_name": "Iskander-M brigade, Kaliningrad Oblast (location simulated)", "launch_lat": 54.62, "launch_lon": 21.80, "target_name": "Marijampole rail and road junction, Lithuania (Via Baltica)", "target_lat": 54.559, "target_lon": 23.354, "weapon": "Iskander-M (conventional)", "weapon_class": "srbm",
+     "yield_kt": 0, "burst": "conventional", "warheads": 1, "launch_offset_min": -2880, "notes": "Day 11, conventional reply on the corridor's transport node (A7, A26 names the town); Iskander range up to about 500 km (A11), brigade permanently in Kaliningrad since 2018 (B5)"},
+    {"id": "iskander-warning", "launch_name": "Iskander-M brigade, Kaliningrad Oblast (location simulated)", "launch_lat": 54.38, "launch_lon": 20.64, "target_name": "Open forest and farmland, eastern Kaliningrad Oblast, Russian territory (location simulated)", "target_lat": 54.45, "target_lon": 22.15, "weapon": "Iskander-M (nuclear, low-yield)", "weapon_class": "srbm",
+     "yield_kt": 5, "burst": "air", "warheads": 1, "launch_offset_min": 0, "notes": "Day 13, demonstration burst on Russian soil, a simulation choice. Iskander-M is dual-capable (A11, CRS IF12672); no nuclear yield is published, 5 kt is OUR assumption for a low-yield warhead; first use justified in doctrine condition 4 (A18)"}
+  ]
+}
