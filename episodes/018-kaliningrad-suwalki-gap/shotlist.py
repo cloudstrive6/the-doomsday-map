@@ -243,7 +243,7 @@ def stamp(sid, a, b, text, line, color=WHITE, tag="REAL DATA", **kw):
 
 
 # ================================================================== Cold open [SIMULATION]
-FL = round(W("p01", "nuclear") - 0.3, 2)     # the flash lands on the spoken "nuclear" (about 3.5 s)
+FL = round(W("p01", "Kaliningrad:") + 0.1, 2)     # the flash lands on the spoken place name (about 2 s)
 LAUNCH0 = 0.3
 a, b = 0.0, FL
 R("open-fly", a, b, [("s", [21.35, 54.55], 300), ("e", [21.7, 54.5], 190)], clock="T-03:00", clockLabel="SINCE LAUNCH", clockRate=round(180 / FL, 1),
@@ -252,7 +252,7 @@ R("open-fly", a, b, [("s", [21.35, 54.55], 300), ("e", [21.7, 54.5], 190)], cloc
   ships=[ship([LA, B], LAUNCH0, FL, "pla", RED, "ISKANDER", 26)], lines=[ln(LA, B, 0.6, FL - 0.2, RED, None, True, 2)])
 a, b = FL, 8.0
 C("open-flash", a, b, [(a, B, 26), (a + 2.0, B, 12), (b, B, 6.5)], rings=[{"km": FX["psi5_km"], "label": "5 PSI", "color": RED, "t": a + 1.6}, {"km": FX["psi1_km"], "label": "1 PSI", "color": TEAL, "t": a + 2.8}],
-  flash=a + 0.1, clock="T+03:00", clockLabel="THE BURST", labels=[lb(B, "5 KT AIRBURST (SIMULATED)", a + 1.0, WHITE)])
+  flash=a + 0.1, clock="T+03:00", clockLabel="THE BURST", labels=[lb(offp(B, 0, 30), "KALININGRAD: 5 KT AIRBURST (SIMULATED)", a + 1.0, WHITE)])
 a, b = 8.0, S("p02")
 R("open-after", a, b, [(a, B, 70), (a + 1.6, [21.9, 54.5], 150), (b, [21.2, 54.5], 260)], clock="T+03:30", clockLabel="AFTER THE BURST", highlight=HL, legend=LEG,
   burst={"at": B, "t": a - 3.0, "km": 3, "fade": 9}, countryLabels=[cl(RU, "RUSSIA", AMBER), cl(LT, "LITHUANIA", BLUE)],
@@ -324,7 +324,7 @@ R("c1-port", a, b, [(a, BALT, 330), (b, offp(BALT, 40, 20), 230)], tag="REAL DAT
 STAT = "CSIS Missile Threat; Congressional Research Service"
 a, b = S("p09"), W("p09", "That")
 R("c1-fleet", a, b, [(a, OBLAST, 260), (b, OBLAST, 200)], tag="REAL DATA", highlight=HL, legend=LEG, source=STAT,
-  cities=[mk(BALT, "BALTIC FLEET HQ", W("p09", "headquarters"), AMBER, "base", 8)], rings=[rg(OBLAST, 70, W("p09", "belt"), AMBER, "AIR DEFENCE AND MISSILE BELT", True)])
+  cities=[mk(KAL, "KALININGRAD", a + 0.1, WHITE, "dot", 6), mk(BALT, "BALTIC FLEET HQ", W("p09", "headquarters"), AMBER, "base", 8)], rings=[rg(OBLAST, 70, W("p09", "belt"), AMBER, "AIR DEFENCE AND MISSILE BELT", True)])
 a, b = b, S("p10")
 R("c1-isk", a, b, [(a, [21.2, 54.45], 220), (a + 4.0, [21.2, 54.45], 150), (b, [21.2, 54.45], 190)], tag="REAL DATA", highlight=HL, legend=LEG, source=STAT,
   cities=[mk([21.45, 54.5], "ISKANDER BRIGADE", a + 0.3, AMBER, "base", 8)], labels=[lb(offp(OBLAST, 5, -40), "THERE PERMANENTLY SINCE 2018", W("p09", "permanently"), WHITE), lb(offp(OBLAST, 5, -55), "CONVENTIONAL OR NUCLEAR WARHEAD", W("p09", "conventional"), RED)])
@@ -513,8 +513,8 @@ R("c4-ready", a, b, [(a, [21.2, 54.45], 260), (a + 3.0, [21.4, 54.45], 190), (b,
   labels=[lb(offp(LA, 0, 30), "AT TEN PAST SIX", W("p25", "ten"), WHITE)], lines=[ln(LA, B, L0, L0 + 1.0, RED, None, True, 2)])
 a, b = b, S("p26")
 R("c4-flash", a, b, [(a, B, 120), (a + 3.0, B, 200), (b, [21.4, 54.5], 280)], highlight=HL, legend=LEG, clock="T+03:00", clockLabel="THE FLASH", clockRate=1, burst={"at": B, "t": a + 0.1, "km": 3, "fade": 7},
-  cities=[mk(B, "TARGET", a + 0.2, RED, "ring", 7)],
-  labels=[lb(offp(B, 0, 28), "ONE MISSILE", W("p25", "One"), YELLOW), lb(offp(B, 0, -28), "WHAT DOES ONE WARHEAD DO?", W("p25", "What"), WHITE)])
+  cities=[mk(B, "KALININGRAD: TARGET", a + 0.2, RED, "ring", 7)],
+  labels=[lb(offp(B, 0, 28), "ONE MISSILE", a + 1.2, YELLOW), lb(offp(B, 0, -28), "WHAT DOES ONE WARHEAD DO?", W("p25", "What"), WHITE)])
 
 # ================================================================== Chapter 05 [SIMULATION]
 a = chapter("c5-card", S("p26"), 3.75, "CHAPTER 05", "One warhead, ring by ring", "SIMULATION")

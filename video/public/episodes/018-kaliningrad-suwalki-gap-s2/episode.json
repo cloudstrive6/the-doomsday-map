@@ -1,0 +1,706 @@
+{
+ "subtitles": [
+  {
+   "start": 7.891,
+   "end": 9.75,
+   "text": "The Iskander-M can carry"
+  },
+  {
+   "start": 9.75,
+   "end": 11.378,
+   "text": "a nuclear warhead,"
+  },
+  {
+   "start": 11.378,
+   "end": 13.58,
+   "text": "but its yield is not published."
+  },
+  {
+   "start": 13.992,
+   "end": 16.637,
+   "text": "The simulation assumes 5 kilotons,"
+  },
+  {
+   "start": 16.637,
+   "end": 18.516,
+   "text": "about a quarter of Nagasaki."
+  },
+  {
+   "start": 18.516,
+   "end": 20.22,
+   "text": "It bursts in the air,"
+  },
+  {
+   "start": 20.389,
+   "end": 23.01,
+   "text": "above open forest and farmland in"
+  },
+  {
+   "start": 23.01,
+   "end": 24.93,
+   "text": "the east of the enclave,"
+  },
+  {
+   "start": 24.93,
+   "end": 27.4,
+   "text": "98 km from its launcher."
+  },
+  {
+   "start": 28.325,
+   "end": 29.33,
+   "text": "The fireball reaches"
+  },
+  {
+   "start": 29.33,
+   "end": 31.25,
+   "text": "116 m"
+  },
+  {
+   "start": 31.25,
+   "end": 33.3,
+   "text": "from the burst point at most."
+  },
+  {
+   "start": 33.622,
+   "end": 36.16,
+   "text": "Inside 236 m,"
+  },
+  {
+   "start": 36.401,
+   "end": 38.19,
+   "text": "pressure passes 20 pounds"
+  },
+  {
+   "start": 38.19,
+   "end": 39.64,
+   "text": "per square inch."
+  },
+  {
+   "start": 40.699,
+   "end": 41.15,
+   "text": "Out to"
+  },
+  {
+   "start": 41.15,
+   "end": 43.64,
+   "text": "1.16 km,"
+  },
+  {
+   "start": 43.91,
+   "end": 45.57,
+   "text": "pressure passes five pounds"
+  },
+  {
+   "start": 45.57,
+   "end": 46.987,
+   "text": "per square inch."
+  },
+  {
+   "start": 46.987,
+   "end": 48.09,
+   "text": "That ring covers"
+  },
+  {
+   "start": 48.09,
+   "end": 50.965,
+   "text": "4.2 square kilometres."
+  },
+  {
+   "start": 51.789,
+   "end": 53.41,
+   "text": "Third-degree burns reach"
+  },
+  {
+   "start": 53.41,
+   "end": 55.54,
+   "text": "1.2 km."
+  },
+  {
+   "start": 55.988,
+   "end": 57.37,
+   "text": "Windows break out to"
+  },
+  {
+   "start": 57.37,
+   "end": 59.44,
+   "text": "3.1 km."
+  }
+ ],
+ "slug": "018-kaliningrad-suwalki-gap-s2",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 59.51,
+ "shots": [
+  {
+   "id": "c4-flash",
+   "type": "region",
+   "start": 0.0,
+   "end": 7.868,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     22.15,
+     54.45
+    ],
+    "widthKm": 120
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      22.15,
+      54.45
+     ],
+     "widthKm": 120
+    },
+    {
+     "t": 3.0,
+     "center": [
+      22.15,
+      54.45
+     ],
+     "widthKm": 200
+    },
+    {
+     "t": 7.87,
+     "center": [
+      21.4,
+      54.5
+     ],
+     "widthKm": 280
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+03:00",
+   "clockLabel": "THE FLASH",
+   "clockRate": 1,
+   "burst": {
+    "at": [
+     22.15,
+     54.45
+    ],
+    "t": 0.1,
+    "km": 3,
+    "fade": 7
+   },
+   "cities": [
+    {
+     "at": [
+      22.15,
+      54.45
+     ],
+     "kind": "ring",
+     "color": "#FF3B3B",
+     "size": 7,
+     "label": "KALININGRAD: TARGET",
+     "t": 0.2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      22.15,
+      54.70225
+     ],
+     "text": "ONE MISSILE",
+     "color": "#FFD23F",
+     "t": 1.2
+    },
+    {
+     "at": [
+      22.15,
+      54.19775
+     ],
+     "text": "WHAT DOES ONE WARHEAD DO?",
+     "color": "#FFFFFF",
+     "t": 3.18
+    }
+   ]
+  },
+  {
+   "id": "c5-yield",
+   "type": "bars",
+   "start": 11.618,
+   "end": 16.8,
+   "tag": "SIMULATION",
+   "title": "YIELD: OUR ASSUMPTION",
+   "sub": "The Iskander-M's nuclear yield is not published",
+   "bars": [
+    {
+     "label": "NAGASAKI, 1945",
+     "value": 21,
+     "display": "21 KT",
+     "color": "#FF7A1A"
+    },
+    {
+     "label": "THIS SIMULATION",
+     "value": 5,
+     "display": "5 KT, ASSUMED",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "c5-where",
+   "type": "region",
+   "start": 16.8,
+   "end": 27.901,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     21.4,
+     54.45
+    ],
+    "widthKm": 160
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      21.4,
+      54.45
+     ],
+     "widthKm": 160
+    },
+    {
+     "t": 3.5,
+     "center": [
+      21.4,
+      54.45
+     ],
+     "widthKm": 120
+    },
+    {
+     "t": 7.0,
+     "center": [
+      22.15,
+      54.45
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 11.1,
+     "center": [
+      22.15,
+      54.45
+     ],
+     "widthKm": 190
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+03:00",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "cities": [
+    {
+     "at": [
+      22.15,
+      54.45
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 9,
+     "label": "AIRBURST OVER OPEN FOREST AND FARMLAND",
+     "t": 4.26
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      20.67,
+      54.62
+     ],
+     "to": [
+      22.15,
+      54.45
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.3,
+     "t1": 1.6,
+     "width": 3,
+     "label": "98 KM"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      22.15,
+      54.22477
+     ],
+     "text": "5 KT: ABOUT A QUARTER OF NAGASAKI",
+     "color": "#FFD23F",
+     "t": 5.0
+    }
+   ]
+  },
+  {
+   "id": "c5-fire",
+   "type": "city",
+   "start": 27.901,
+   "end": 33.272,
+   "tag": "SIMULATION",
+   "city": "kaliningrad-east",
+   "view": {
+    "center": [
+     22.15,
+     54.45
+    ],
+    "widthKm": 1.12
+   },
+   "gz": [
+    22.15,
+    54.45
+   ],
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      22.15,
+      54.45
+     ],
+     "widthKm": 1.12
+    },
+    {
+     "t": 5.37,
+     "center": [
+      22.15,
+      54.45
+     ],
+     "widthKm": 0.56
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.116,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.56,
+     "angle": 225
+    }
+   ],
+   "clock": "T+03:00",
+   "clockLabel": "THE BURST",
+   "flashT": 0.1
+  },
+  {
+   "id": "c5-20",
+   "type": "city",
+   "start": 33.272,
+   "end": 40.205,
+   "tag": "SIMULATION",
+   "city": "kaliningrad-east",
+   "view": {
+    "center": [
+     22.15,
+     54.45
+    ],
+    "widthKm": 0.88
+   },
+   "gz": [
+    22.15,
+    54.45
+   ],
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      22.15,
+      54.45
+     ],
+     "widthKm": 0.88
+    },
+    {
+     "t": 6.93,
+     "center": [
+      22.15,
+      54.45
+     ],
+     "widthKm": 0.72
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.116,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.236,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 3.95,
+     "angle": 225
+    }
+   ],
+   "clock": "T+03:05",
+   "clockLabel": "THE BURST"
+  },
+  {
+   "id": "c5-5",
+   "type": "city",
+   "start": 40.205,
+   "end": 51.165,
+   "tag": "SIMULATION",
+   "city": "kaliningrad-east",
+   "view": {
+    "center": [
+     22.15,
+     54.45
+    ],
+    "widthKm": 1.44
+   },
+   "gz": [
+    22.15,
+    54.45
+   ],
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      22.15,
+      54.45
+     ],
+     "widthKm": 1.44
+    },
+    {
+     "t": 4.0,
+     "center": [
+      22.15,
+      54.45
+     ],
+     "widthKm": 2.56
+    },
+    {
+     "t": 10.96,
+     "center": [
+      22.15,
+      54.45
+     ],
+     "widthKm": 3.68
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.116,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.236,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 1.158,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 4.36,
+     "angle": 225
+    }
+   ],
+   "clock": "T+03:10",
+   "clockLabel": "THE BURST",
+   "zones": [],
+   "labels": [
+    {
+     "at": [
+      22.15,
+      54.45
+     ],
+     "text": "AREA 4.2 KM2",
+     "color": "#FF3B3B",
+     "t": 8.89
+    }
+   ]
+  },
+  {
+   "id": "c5-burn",
+   "type": "city",
+   "start": 51.165,
+   "end": 59.51,
+   "tag": "SIMULATION",
+   "city": "kaliningrad-east",
+   "view": {
+    "center": [
+     22.15,
+     54.45
+    ],
+    "widthKm": 2.4
+   },
+   "gz": [
+    22.15,
+    54.45
+   ],
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      22.15,
+      54.45
+     ],
+     "widthKm": 2.4
+    },
+    {
+     "t": 4.0,
+     "center": [
+      22.15,
+      54.45
+     ],
+     "widthKm": 5.2
+    },
+    {
+     "t": 8.94,
+     "center": [
+      22.15,
+      54.45
+     ],
+     "widthKm": 6.4
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.116,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.236,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 1.158,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 1.217,
+     "label": "BURNS",
+     "color": "#F2B01E",
+     "t": 1.12,
+     "angle": 225
+    },
+    {
+     "km": 3.134,
+     "label": "WINDOWS",
+     "color": "#3ED6C8",
+     "t": 4.67,
+     "angle": 225
+    }
+   ],
+   "clock": "T+03:20",
+   "clockLabel": "THE BURST"
+  }
+ ],
+ "shortTitle": [
+  "ONE 5 KT NUKE",
+  "OVER KALININGRAD"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

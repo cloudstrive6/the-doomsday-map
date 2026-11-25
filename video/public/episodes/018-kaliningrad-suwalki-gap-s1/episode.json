@@ -1,0 +1,1635 @@
+{
+ "subtitles": [
+  {
+   "start": 0.0,
+   "end": 3.21,
+   "text": "6:13 in the evening, Kaliningrad:"
+  },
+  {
+   "start": 3.442,
+   "end": 4.64,
+   "text": "the first nuclear weapon"
+  },
+  {
+   "start": 4.64,
+   "end": 6.55,
+   "text": "used since Nagasaki."
+  },
+  {
+   "start": 7.039,
+   "end": 8.505,
+   "text": "This is a simulation,"
+  },
+  {
+   "start": 8.505,
+   "end": 10.07,
+   "text": "and it has not happened."
+  },
+  {
+   "start": 10.7,
+   "end": 12.07,
+   "text": "3 minutes earlier."
+  },
+  {
+   "start": 12.62,
+   "end": 14.14,
+   "text": "A missile leaves a launcher in"
+  },
+  {
+   "start": 14.14,
+   "end": 15.75,
+   "text": "the west of the enclave."
+  },
+  {
+   "start": 16.232,
+   "end": 17.51,
+   "text": "It is an Iskander,"
+  },
+  {
+   "start": 17.691,
+   "end": 19.97,
+   "text": "and it flies 98 km."
+  },
+  {
+   "start": 21.079,
+   "end": 22.42,
+   "text": "Its target is open ground"
+  },
+  {
+   "start": 22.42,
+   "end": 24.19,
+   "text": "chosen by the simulation,"
+  },
+  {
+   "start": 24.39,
+   "end": 26.05,
+   "text": "inside Russia itself."
+  },
+  {
+   "start": 26.613,
+   "end": 28.7,
+   "text": "Why would Russia fire a nuclear"
+  },
+  {
+   "start": 28.7,
+   "end": 30.45,
+   "text": "weapon at its own land?"
+  },
+  {
+   "start": 30.676,
+   "end": 32.02,
+   "text": "And what does NATO do"
+  },
+  {
+   "start": 32.02,
+   "end": 33.71,
+   "text": "in the hour after?"
+  },
+  {
+   "start": 34.288,
+   "end": 35.86,
+   "text": "13 days of pressure"
+  },
+  {
+   "start": 35.86,
+   "end": 37.11,
+   "text": "lead to this minute,"
+  },
+  {
+   "start": 37.266,
+   "end": 38.5,
+   "text": "and the answer starts"
+  },
+  {
+   "start": 38.5,
+   "end": 39.49,
+   "text": "with a road."
+  },
+  {
+   "start": 40.306,
+   "end": 41.94,
+   "text": "On the thirtieth of September,"
+  },
+  {
+   "start": 41.94,
+   "end": 43.03,
+   "text": "2026,"
+  },
+  {
+   "start": 43.349,
+   "end": 45.66,
+   "text": "Russia's embassy in Dublin said Russia"
+  },
+  {
+   "start": 45.66,
+   "end": 48.02,
+   "text": "would use \"all its arsenal,"
+  },
+  {
+   "start": 48.02,
+   "end": 50.62,
+   "text": "including nuclear weapons\" if NATO"
+  },
+  {
+   "start": 50.62,
+   "end": 52.88,
+   "text": "tried to isolate Kaliningrad."
+  },
+  {
+   "start": 52.88,
+   "end": 54.78,
+   "text": "Reuters reported the same warning in"
+  },
+  {
+   "start": 54.78,
+   "end": 56.97,
+   "text": "a formal note to NATO states."
+  }
+ ],
+ "slug": "018-kaliningrad-suwalki-gap-s1",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 57.2,
+ "shots": [
+  {
+   "id": "open-fly",
+   "type": "region",
+   "start": 0.0,
+   "end": 2.0,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     21.35,
+     54.55
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      21.35,
+      54.55
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 2.0,
+     "center": [
+      21.7,
+      54.5
+     ],
+     "widthKm": 190
+    }
+   ],
+   "clock": "T-03:00",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 90.0,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      20.51,
+      54.71
+     ],
+     "kind": "dot",
+     "color": "#FFFFFF",
+     "size": 6,
+     "label": "KALININGRAD",
+     "t": 0.05
+    },
+    {
+     "at": [
+      20.67,
+      54.62
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 6,
+     "label": "LAUNCHER (SIMULATED)",
+     "t": 0.4
+    },
+    {
+     "at": [
+      22.15,
+      54.45
+     ],
+     "kind": "ring",
+     "color": "#FF3B3B",
+     "size": 7,
+     "t": 1.2
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       20.67,
+       54.62
+      ],
+      [
+       22.15,
+       54.45
+      ]
+     ],
+     "t0": 0.3,
+     "t1": 2.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 26,
+     "wake": true,
+     "label": "ISKANDER",
+     "t": 0.3
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      20.67,
+      54.62
+     ],
+     "to": [
+      22.15,
+      54.45
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.6,
+     "t1": 1.8,
+     "width": 2
+    }
+   ]
+  },
+  {
+   "id": "open-flash",
+   "type": "city",
+   "start": 2.0,
+   "end": 8.0,
+   "tag": "SIMULATION",
+   "city": "kaliningrad-east",
+   "view": {
+    "center": [
+     22.15,
+     54.45
+    ],
+    "widthKm": 20.8
+   },
+   "gz": [
+    22.15,
+    54.45
+   ],
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      22.15,
+      54.45
+     ],
+     "widthKm": 20.8
+    },
+    {
+     "t": 2.0,
+     "center": [
+      22.15,
+      54.45
+     ],
+     "widthKm": 9.6
+    },
+    {
+     "t": 6.0,
+     "center": [
+      22.15,
+      54.45
+     ],
+     "widthKm": 5.2
+    }
+   ],
+   "rings": [
+    {
+     "km": 1.158,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 1.6,
+     "angle": 225
+    },
+    {
+     "km": 3.134,
+     "label": "1 PSI",
+     "color": "#3ED6C8",
+     "t": 2.8,
+     "angle": 225
+    }
+   ],
+   "clock": "T+03:00",
+   "clockLabel": "THE BURST",
+   "labels": [
+    {
+     "at": [
+      22.15,
+      54.72027
+     ],
+     "text": "KALININGRAD: 5 KT AIRBURST (SIMULATED)",
+     "color": "#FFFFFF",
+     "t": 1.0
+    }
+   ],
+   "flashT": 0.1
+  },
+  {
+   "id": "open-after",
+   "type": "region",
+   "start": 8.0,
+   "end": 10.456,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     22.15,
+     54.45
+    ],
+    "widthKm": 70
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      22.15,
+      54.45
+     ],
+     "widthKm": 70
+    },
+    {
+     "t": 1.6,
+     "center": [
+      21.9,
+      54.5
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 2.46,
+     "center": [
+      21.2,
+      54.5
+     ],
+     "widthKm": 260
+    }
+   ],
+   "clock": "T+03:30",
+   "clockLabel": "AFTER THE BURST",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "burst": {
+    "at": [
+     22.15,
+     54.45
+    ],
+    "t": -3.0,
+    "km": 3,
+    "fade": 9
+   },
+   "countryLabels": [
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      22.15,
+      54.45
+     ],
+     "kind": "ring",
+     "color": "#FF3B3B",
+     "size": 7,
+     "label": "TARGET",
+     "t": 0.1
+    },
+    {
+     "at": [
+      20.51,
+      54.71
+     ],
+     "kind": "dot",
+     "color": "#FFFFFF",
+     "size": 6,
+     "label": "KALININGRAD",
+     "t": 1.8
+    },
+    {
+     "at": [
+      20.67,
+      54.62
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 6,
+     "label": "LAUNCHER (SIMULATED)",
+     "t": 2.4
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      22.15,
+      54.56712
+     ],
+     "text": "IT HAS NOT HAPPENED",
+     "color": "#FFD23F",
+     "t": 0.3
+    }
+   ]
+  },
+  {
+   "id": "open-launch",
+   "type": "region",
+   "start": 10.456,
+   "end": 16.082,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     21.0,
+     54.5
+    ],
+    "widthKm": 250
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      21.0,
+      54.5
+     ],
+     "widthKm": 250
+    },
+    {
+     "t": 5.63,
+     "center": [
+      21.0,
+      54.5
+     ],
+     "widthKm": 175
+    }
+   ],
+   "caption": "Three minutes earlier.",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T-03:00",
+   "clockLabel": "UNTIL THE BURST",
+   "clockRate": 14.2,
+   "cities": [
+    {
+     "at": [
+      20.51,
+      54.71
+     ],
+     "kind": "dot",
+     "color": "#FFFFFF",
+     "size": 6,
+     "label": "KALININGRAD",
+     "t": 0.2
+    },
+    {
+     "at": [
+      20.67,
+      54.62
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 7,
+     "label": "LAUNCHER (SIMULATED)",
+     "t": 2.89
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       20.67,
+       54.62
+      ],
+      [
+       21.32678,
+       54.54456
+      ]
+     ],
+     "t0": 2.39,
+     "t1": 5.63,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 26,
+     "wake": true,
+     "t": 2.41
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      20.67,
+      54.62
+     ],
+     "to": [
+      22.15,
+      54.45
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 2.39,
+     "t1": 3.59,
+     "width": 2,
+     "label": "98 KM"
+    }
+   ]
+  },
+  {
+   "id": "open-98",
+   "type": "region",
+   "start": 16.082,
+   "end": 20.633,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     21.3,
+     54.6
+    ],
+    "widthKm": 280
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      21.3,
+      54.6
+     ],
+     "widthKm": 280
+    },
+    {
+     "t": 4.55,
+     "center": [
+      21.5,
+      54.55
+     ],
+     "widthKm": 190
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T-01:40",
+   "clockLabel": "UNTIL THE BURST",
+   "clockRate": 22.0,
+   "cities": [
+    {
+     "at": [
+      20.67,
+      54.62
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 7,
+     "label": "LAUNCHER",
+     "t": 0.1
+    },
+    {
+     "at": [
+      22.15,
+      54.45
+     ],
+     "kind": "ring",
+     "color": "#FF3B3B",
+     "size": 7,
+     "label": "TARGET",
+     "t": 0.2
+    },
+    {
+     "at": [
+      20.51,
+      54.71
+     ],
+     "kind": "dot",
+     "color": "#FFFFFF",
+     "size": 6,
+     "label": "KALININGRAD",
+     "t": 0.3
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       21.32678,
+       54.54456
+      ],
+      [
+       22.15,
+       54.45
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.05,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 26,
+     "wake": true,
+     "label": "ISKANDER",
+     "t": 0.05
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      20.67,
+      54.62
+     ],
+     "to": [
+      22.15,
+      54.45
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.3,
+     "t1": 1.5,
+     "width": 2,
+     "label": "98 KM"
+    }
+   ]
+  },
+  {
+   "id": "open-target",
+   "type": "region",
+   "start": 20.633,
+   "end": 26.609,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     22.15,
+     54.45
+    ],
+    "widthKm": 200
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      22.15,
+      54.45
+     ],
+     "widthKm": 200
+    },
+    {
+     "t": 3.0,
+     "center": [
+      22.15,
+      54.45
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 5.98,
+     "center": [
+      22.3048,
+      54.45
+     ],
+     "widthKm": 130
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      22.15,
+      54.45
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "OPEN GROUND (SIMULATED)",
+     "t": 1.0
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      22.15,
+      54.14369
+     ],
+     "text": "INSIDE RUSSIA ITSELF",
+     "color": "#F2B01E",
+     "t": 3.61
+    }
+   ]
+  },
+  {
+   "id": "open-why",
+   "type": "region",
+   "start": 26.609,
+   "end": 30.526,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     21.2,
+     54.55
+    ],
+    "widthKm": 420
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      21.2,
+      54.55
+     ],
+     "widthKm": 420
+    },
+    {
+     "t": 3.92,
+     "center": [
+      21.2,
+      54.55
+     ],
+     "widthKm": 320
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      22.15,
+      54.45
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "ITS OWN LAND",
+     "t": 2.8
+    },
+    {
+     "at": [
+      20.51,
+      54.71
+     ],
+     "kind": "dot",
+     "color": "#FFFFFF",
+     "size": 6,
+     "label": "KALININGRAD",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      19.8908,
+      54.16946
+     ],
+     "text": "A NUCLEAR WEAPON?",
+     "color": "#FF3B3B",
+     "t": 1.66
+    }
+   ]
+  },
+  {
+   "id": "open-nato",
+   "type": "region",
+   "start": 30.526,
+   "end": 40.303,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     21.2,
+     54.55
+    ],
+    "widthKm": 500
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      21.2,
+      54.55
+     ],
+     "widthKm": 500
+    },
+    {
+     "t": 4.11,
+     "center": [
+      23.0,
+      54.8
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 9.78,
+     "center": [
+      24.0,
+      55.0
+     ],
+     "widthKm": 1250
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "428",
+     "text": "LATVIA",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "112",
+     "text": "BELARUS",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 6,
+     "label": "WARSAW",
+     "t": 0.62
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 6,
+     "label": "VILNIUS",
+     "t": 1.82
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      20.51,
+      54.71
+     ],
+     "to": [
+      22.78,
+      54.64
+     ],
+     "color": "#FFFFFF",
+     "dashed": false,
+     "t0": 6.84,
+     "t1": 7.34,
+     "width": 3
+    },
+    {
+     "from": [
+      22.78,
+      54.64
+     ],
+     "to": [
+      23.9,
+      54.9
+     ],
+     "color": "#FFFFFF",
+     "dashed": false,
+     "t0": 7.34,
+     "t1": 7.84,
+     "width": 3
+    },
+    {
+     "from": [
+      23.9,
+      54.9
+     ],
+     "to": [
+      25.28,
+      54.69
+     ],
+     "color": "#FFFFFF",
+     "dashed": false,
+     "t0": 7.84,
+     "t1": 8.34,
+     "width": 3,
+     "label": "THE ROAD"
+    },
+    {
+     "from": [
+      25.28,
+      54.69
+     ],
+     "to": [
+      26.2,
+      54.5
+     ],
+     "color": "#FFFFFF",
+     "dashed": false,
+     "t0": 8.34,
+     "t1": 8.84,
+     "width": 3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      20.2004,
+      55.11541
+     ],
+     "text": "13 DAYS OF PRESSURE",
+     "color": "#FFD23F",
+     "t": 3.61
+    }
+   ]
+  },
+  {
+   "id": "c1-stamp",
+   "type": "stamp",
+   "start": 44.053,
+   "end": 47.4,
+   "tag": "REAL DATA",
+   "text": "30 SEPTEMBER 2026",
+   "line": "Russia's embassy in Dublin issues a warning",
+   "color": "#F2B01E",
+   "source": "Arms Control Association, Arms Control Today, Nov 2026; Reuters"
+  },
+  {
+   "id": "c1-dublin",
+   "type": "region",
+   "start": 47.4,
+   "end": 52.53,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     8.0,
+     53.5
+    ],
+    "widthKm": 2300
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      8.0,
+      53.5
+     ],
+     "widthKm": 2300
+    },
+    {
+     "t": 5.13,
+     "center": [
+      8.0,
+      54.0
+     ],
+     "widthKm": 2900
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "caption": "\"All its arsenal, including nuclear weapons\"",
+   "source": "Arms Control Association, Arms Control Today, Nov 2026; Reuters",
+   "cities": [
+    {
+     "at": [
+      -6.26,
+      53.35
+     ],
+     "kind": "dot",
+     "color": "#F2B01E",
+     "size": 7,
+     "label": "RUSSIAN EMBASSY, DUBLIN",
+     "t": 0.4
+    },
+    {
+     "at": [
+      20.51,
+      54.71
+     ],
+     "kind": "target",
+     "color": "#FFFFFF",
+     "size": 7,
+     "label": "KALININGRAD",
+     "t": 3.59
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -6.26,
+      53.35
+     ],
+     "to": [
+      20.51,
+      54.71
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 0.05,
+     "t1": 1.53,
+     "width": 3
+    }
+   ]
+  },
+  {
+   "id": "c1-note",
+   "type": "region",
+   "start": 52.53,
+   "end": 57.2,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     12.0,
+     53.0
+    ],
+    "widthKm": 2800
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      12.0,
+      53.0
+     ],
+     "widthKm": 2800
+    },
+    {
+     "t": 5.06,
+     "center": [
+      12.0,
+      53.0
+     ],
+     "widthKm": 2000
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "Arms Control Association, Arms Control Today, Nov 2026; Reuters",
+   "cities": [
+    {
+     "at": [
+      20.51,
+      54.71
+     ],
+     "kind": "target",
+     "color": "#FFFFFF",
+     "size": 7,
+     "label": "KALININGRAD",
+     "t": 0.1
+    },
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 6,
+     "label": "BRUSSELS",
+     "t": 1.2
+    },
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 6,
+     "label": "WARSAW",
+     "t": 1.6
+    },
+    {
+     "at": [
+      13.4,
+      52.52
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 6,
+     "label": "BERLIN",
+     "t": 2.0
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      20.51,
+      54.71
+     ],
+     "to": [
+      4.35,
+      50.85
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 1.0,
+     "t1": 2.4,
+     "width": 2
+    },
+    {
+     "from": [
+      20.51,
+      54.71
+     ],
+     "to": [
+      21.01,
+      52.23
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 1.4,
+     "t1": 2.6,
+     "width": 2
+    },
+    {
+     "from": [
+      20.51,
+      54.71
+     ],
+     "to": [
+      13.4,
+      52.52
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 1.8,
+     "t1": 3.0,
+     "width": 2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      14.0,
+      56.0
+     ],
+     "text": "A FORMAL NOTE TO NATO STATES",
+     "color": "#F2B01E",
+     "t": 2.22
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "ONE 5 KT NUKE",
+  "IN KALININGRAD"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

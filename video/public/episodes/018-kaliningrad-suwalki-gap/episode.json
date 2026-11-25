@@ -5,8 +5,8 @@
  "height": 1080,
  "durationSeconds": 673.2,
  "banner": {
-  "start": 3.07,
-  "end": 6.07
+  "start": 1.7,
+  "end": 4.7
  },
  "musicPlan": [
   {
@@ -93,7 +93,7 @@
   },
   {
    "src": "boom.mp3",
-   "t": 3.47,
+   "t": 2.1,
    "gain_db": -4
   },
   {
@@ -113,7 +113,7 @@
    "id": "open-fly",
    "type": "region",
    "start": 0.0,
-   "end": 3.37,
+   "end": 2.0,
    "tag": "SIMULATION",
    "view": {
     "center": [
@@ -132,7 +132,7 @@
      "widthKm": 300
     },
     {
-     "t": 3.37,
+     "t": 2.0,
      "center": [
       21.7,
       54.5
@@ -142,7 +142,7 @@
    ],
    "clock": "T-03:00",
    "clockLabel": "SINCE LAUNCH",
-   "clockRate": 53.4,
+   "clockRate": 90.0,
    "highlight": [
     {
      "iso": "643",
@@ -249,7 +249,7 @@
       ]
      ],
      "t0": 0.3,
-     "t1": 3.37,
+     "t1": 2.0,
      "kind": "pla",
      "color": "#FF3B3B",
      "size": 26,
@@ -271,7 +271,7 @@
      "color": "#FF3B3B",
      "dashed": true,
      "t0": 0.6,
-     "t1": 3.17,
+     "t1": 1.8,
      "width": 2
     }
    ]
@@ -279,7 +279,7 @@
   {
    "id": "open-flash",
    "type": "city",
-   "start": 3.37,
+   "start": 2.0,
    "end": 8.0,
    "tag": "SIMULATION",
    "city": "kaliningrad-east",
@@ -312,7 +312,7 @@
      "widthKm": 12
     },
     {
-     "t": 4.63,
+     "t": 6.0,
      "center": [
       22.15,
       54.45
@@ -342,9 +342,9 @@
     {
      "at": [
       22.15,
-      54.45
+      54.72027
      ],
-     "text": "5 KT AIRBURST (SIMULATED)",
+     "text": "KALININGRAD: 5 KT AIRBURST (SIMULATED)",
      "color": "#FFFFFF",
      "t": 1.0
     }
@@ -2594,6 +2594,17 @@
    ],
    "source": "CSIS Missile Threat; Congressional Research Service",
    "cities": [
+    {
+     "at": [
+      20.51,
+      54.71
+     ],
+     "kind": "dot",
+     "color": "#FFFFFF",
+     "size": 6,
+     "label": "KALININGRAD",
+     "t": 0.1
+    },
     {
      "at": [
       19.9,
@@ -9602,7 +9613,7 @@
      "kind": "ring",
      "color": "#FF3B3B",
      "size": 7,
-     "label": "TARGET",
+     "label": "KALININGRAD: TARGET",
      "t": 0.2
     }
    ],
@@ -9614,7 +9625,7 @@
      ],
      "text": "ONE MISSILE",
      "color": "#FFD23F",
-     "t": 1.46
+     "t": 1.2
     },
     {
      "at": [

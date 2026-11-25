@@ -1,0 +1,799 @@
+{
+ "subtitles": [
+  {
+   "start": 0.385,
+   "end": 2.843,
+   "text": "The enclave holds the Baltic Fleet's"
+  },
+  {
+   "start": 2.843,
+   "end": 5.183,
+   "text": "headquarters and a dense belt of"
+  },
+  {
+   "start": 5.183,
+   "end": 6.973,
+   "text": "air defence and missiles."
+  },
+  {
+   "start": 7.379,
+   "end": 9.393,
+   "text": "That includes an Iskander brigade,"
+  },
+  {
+   "start": 9.642,
+   "end": 11.953,
+   "text": "there permanently since 2018."
+  },
+  {
+   "start": 12.653,
+   "end": 14.143,
+   "text": "The missile can carry a"
+  },
+  {
+   "start": 14.143,
+   "end": 16.813,
+   "text": "conventional or a nuclear warhead."
+  },
+  {
+   "start": 17.628,
+   "end": 18.683,
+   "text": "On the other side is"
+  },
+  {
+   "start": 18.683,
+   "end": 19.963,
+   "text": "a strip of land about"
+  },
+  {
+   "start": 19.963,
+   "end": 22.35,
+   "text": "65 km wide,"
+  },
+  {
+   "start": 22.35,
+   "end": 23.834,
+   "text": "the Suwalki gap,"
+  },
+  {
+   "start": 23.834,
+   "end": 26.113,
+   "text": "between Kaliningrad and Belarus."
+  },
+  {
+   "start": 26.751,
+   "end": 27.783,
+   "text": "It holds the only"
+  },
+  {
+   "start": 27.783,
+   "end": 29.823,
+   "text": "land route to Estonia,"
+  },
+  {
+   "start": 29.823,
+   "end": 31.773,
+   "text": "Latvia and Lithuania:"
+  },
+  {
+   "start": 32.044,
+   "end": 33.323,
+   "text": "two main roads and"
+  },
+  {
+   "start": 33.323,
+   "end": 35.773,
+   "text": "one single-track rail line."
+  }
+ ],
+ "slug": "018-kaliningrad-suwalki-gap-s3",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 35.963,
+ "shots": [
+  {
+   "id": "c1-fleet",
+   "type": "region",
+   "start": 0.0,
+   "end": 7.229,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     21.2,
+     54.55
+    ],
+    "widthKm": 260
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      21.2,
+      54.55
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 7.23,
+     "center": [
+      21.2,
+      54.55
+     ],
+     "widthKm": 200
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "CSIS Missile Threat; Congressional Research Service",
+   "cities": [
+    {
+     "at": [
+      20.51,
+      54.71
+     ],
+     "kind": "dot",
+     "color": "#FFFFFF",
+     "size": 6,
+     "label": "KALININGRAD",
+     "t": 0.1
+    },
+    {
+     "at": [
+      19.9,
+      54.64
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "BALTIC FLEET HQ",
+     "t": 2.69
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      21.2,
+      54.55
+     ],
+     "km": 70,
+     "color": "#F2B01E",
+     "t": 4.41,
+     "dashed": true,
+     "label": "AIR DEFENCE AND MISSILE BELT"
+    }
+   ]
+  },
+  {
+   "id": "c1-isk",
+   "type": "region",
+   "start": 7.229,
+   "end": 17.288,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     21.2,
+     54.45
+    ],
+    "widthKm": 220
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      21.2,
+      54.45
+     ],
+     "widthKm": 220
+    },
+    {
+     "t": 4.0,
+     "center": [
+      21.2,
+      54.45
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 10.06,
+     "center": [
+      21.2,
+      54.45
+     ],
+     "widthKm": 190
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "CSIS Missile Threat; Congressional Research Service",
+   "cities": [
+    {
+     "at": [
+      21.45,
+      54.5
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "ISKANDER BRIGADE",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      21.2774,
+      54.18964
+     ],
+     "text": "THERE PERMANENTLY SINCE 2018",
+     "color": "#FFFFFF",
+     "t": 2.42
+    },
+    {
+     "at": [
+      21.2774,
+      54.0545
+     ],
+     "text": "CONVENTIONAL OR NUCLEAR WARHEAD",
+     "color": "#FF3B3B",
+     "t": 6.76
+    }
+   ]
+  },
+  {
+   "id": "c1-gap",
+   "type": "region",
+   "start": 17.288,
+   "end": 26.401,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     21.5,
+     54.5
+    ],
+    "widthKm": 700
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      21.5,
+      54.5
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 3.5,
+     "center": [
+      23.2,
+      54.2
+     ],
+     "widthKm": 330
+    },
+    {
+     "t": 9.11,
+     "center": [
+      23.2,
+      54.2
+     ],
+     "widthKm": 260
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "Wikipedia; RTE",
+   "countryLabels": [
+    {
+     "iso": "616",
+     "text": "POLAND",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "112",
+     "text": "BELARUS",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "440",
+     "text": "LITHUANIA",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      22.85,
+      54.36
+     ],
+     "kind": "dot",
+     "color": "#F2B01E",
+     "size": 6,
+     "label": "KALININGRAD BORDER",
+     "t": 1.5
+    },
+    {
+     "at": [
+      23.5,
+      53.95
+     ],
+     "kind": "dot",
+     "color": "#F2B01E",
+     "size": 6,
+     "label": "BELARUS BORDER",
+     "t": 2.0
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      22.85,
+      54.36
+     ],
+     "to": [
+      23.5,
+      53.95
+     ],
+     "color": "#FFD23F",
+     "dashed": false,
+     "t0": 2.53,
+     "t1": 3.73,
+     "width": 5,
+     "label": "ABOUT 65 KM"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      22.50341,
+      54.42523
+     ],
+     "text": "THE SUWALKI GAP",
+     "color": "#FFD23F",
+     "t": 5.0
+    }
+   ]
+  },
+  {
+   "id": "c1-roads",
+   "type": "region",
+   "start": 26.401,
+   "end": 35.963,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     23.2,
+     54.2
+    ],
+    "widthKm": 300
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      23.2,
+      54.2
+     ],
+     "widthKm": 300
+    },
+    {
+     "t": 4.0,
+     "center": [
+      23.0,
+      53.6
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 9.8,
+     "center": [
+      22.5,
+      54.0
+     ],
+     "widthKm": 800
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.07)"
+    },
+    {
+     "iso": "112",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.05)"
+    },
+    {
+     "iso": "616",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "440",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "428",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "233",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    },
+    {
+     "iso": "276",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.09)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "ROUTES APPROXIMATE",
+     "color": "rgba(236,239,242,0.8)"
+    }
+   ],
+   "source": "Wikipedia; RTE",
+   "lines": [
+    {
+     "from": [
+      21.01,
+      52.23
+     ],
+     "to": [
+      23.16,
+      53.13
+     ],
+     "color": "#FFFFFF",
+     "dashed": false,
+     "t0": 5.49,
+     "t1": 5.89,
+     "width": 4
+    },
+    {
+     "from": [
+      23.16,
+      53.13
+     ],
+     "to": [
+      22.96,
+      53.95
+     ],
+     "color": "#FFFFFF",
+     "dashed": false,
+     "t0": 5.89,
+     "t1": 6.29,
+     "width": 4
+    },
+    {
+     "from": [
+      22.96,
+      53.95
+     ],
+     "to": [
+      22.93,
+      54.1
+     ],
+     "color": "#FFFFFF",
+     "dashed": false,
+     "t0": 6.29,
+     "t1": 6.69,
+     "width": 4,
+     "label": "TWO MAIN ROADS"
+    },
+    {
+     "from": [
+      22.93,
+      54.1
+     ],
+     "to": [
+      23.354,
+      54.559
+     ],
+     "color": "#FFFFFF",
+     "dashed": false,
+     "t0": 6.69,
+     "t1": 7.09,
+     "width": 4
+    },
+    {
+     "from": [
+      23.354,
+      54.559
+     ],
+     "to": [
+      23.9,
+      54.9
+     ],
+     "color": "#FFFFFF",
+     "dashed": false,
+     "t0": 7.09,
+     "t1": 7.49,
+     "width": 4
+    },
+    {
+     "from": [
+      23.16,
+      53.13
+     ],
+     "to": [
+      23.45,
+      53.85
+     ],
+     "color": "#FFFFFF",
+     "dashed": false,
+     "t0": 5.99,
+     "t1": 6.49,
+     "width": 4
+    },
+    {
+     "from": [
+      23.45,
+      53.85
+     ],
+     "to": [
+      23.2,
+      54.35
+     ],
+     "color": "#FFFFFF",
+     "dashed": false,
+     "t0": 6.49,
+     "t1": 6.99,
+     "width": 4
+    },
+    {
+     "from": [
+      23.2,
+      54.35
+     ],
+     "to": [
+      23.7,
+      54.7
+     ],
+     "color": "#FFFFFF",
+     "dashed": false,
+     "t0": 6.99,
+     "t1": 7.49,
+     "width": 4
+    },
+    {
+     "from": [
+      23.7,
+      54.7
+     ],
+     "to": [
+      23.9,
+      54.9
+     ],
+     "color": "#FFFFFF",
+     "dashed": false,
+     "t0": 7.49,
+     "t1": 7.99,
+     "width": 4
+    },
+    {
+     "from": [
+      21.01,
+      52.23
+     ],
+     "to": [
+      23.16,
+      53.13
+     ],
+     "color": "#FFD23F",
+     "dashed": true,
+     "t0": 7.09,
+     "t1": 7.59,
+     "width": 4
+    },
+    {
+     "from": [
+      23.16,
+      53.13
+     ],
+     "to": [
+      23.1,
+      54.0
+     ],
+     "color": "#FFD23F",
+     "dashed": true,
+     "t0": 7.59,
+     "t1": 8.09,
+     "width": 4
+    },
+    {
+     "from": [
+      23.1,
+      54.0
+     ],
+     "to": [
+      23.45,
+      54.45
+     ],
+     "color": "#FFD23F",
+     "dashed": true,
+     "t0": 8.09,
+     "t1": 8.59,
+     "width": 4,
+     "label": "ONE SINGLE-TRACK RAIL LINE"
+    },
+    {
+     "from": [
+      23.45,
+      54.45
+     ],
+     "to": [
+      23.9,
+      54.9
+     ],
+     "color": "#FFD23F",
+     "dashed": true,
+     "t0": 8.59,
+     "t1": 9.09,
+     "width": 4
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      24.2,
+      56.2
+     ],
+     "text": "THE ONLY LAND ROUTE TO ESTONIA, LATVIA, LITHUANIA",
+     "color": "#FFFFFF",
+     "t": 0.85
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "65 KM OF ROAD",
+  "TO THE BALTICS"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}
