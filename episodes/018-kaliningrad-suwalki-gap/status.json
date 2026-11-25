@@ -9,7 +9,32 @@
       "stage": "researched",
       "note": "27 A, 9 B items",
       "at": "2026-11-25T01:33:45+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "script draft 1",
+      "at": "2026-11-25T01:36:14+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "script draft 1, 1428 words",
+      "at": "2026-11-25T01:36:23+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "Revised after script_review: issues 1-14",
+      "at": "2026-11-25T01:38:02+00:00"
+    },
+    {
+      "stage": "script_approved",
+      "note": "fact-screener round 3: two one-line fixes applied by showrunner (Article Five, rail route cut)",
+      "at": "2026-11-25T01:39:11+00:00"
+    },
+    {
+      "stage": "narrated",
+      "note": "1503 words, 11.1 min",
+      "at": "2026-11-25T01:50:25+00:00"
     }
   ],
-  "stage": "researched"
+  "stage": "narrated"
 }
