@@ -31,7 +31,7 @@
     "C4@7d": {
       "label": "Long views",
       "target": 150,
-      "median": 21,
+      "median": 25,
       "n": 5,
       "met": false
     },
@@ -972,9 +972,9 @@
       "due": "2026-11-25",
       "snapshot": "2026-11-25",
       "status": "measured",
-      "views": 21,
-      "avp": 16.59,
-      "avd": 110,
+      "views": 25,
+      "avp": 33.24,
+      "avd": 221,
       "hold": null,
       "subs": 0,
       "ctr": 0.026,

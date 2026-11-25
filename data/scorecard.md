@@ -11,7 +11,7 @@ Subscribers: 18 (target 50 by 2026-12-10)
 | C1 Long CTR | 7d | 5.0% | 4.0% | 5 | no |
 | C2 Hold at 11% | 7d | 60.0% | - | 0 | - |
 | C3 Avg % viewed | 7d | 40% | 33% | 5 | no |
-| C4 Long views | 7d | 150 | 21 | 5 | no |
+| C4 Long views | 7d | 150 | 25 | 5 | no |
 | C5a Shorts views | 7d | 300 | 355.0 | 14 | yes |
 | C5b Shorts avg % viewed | 7d | 80% | 68% | 14 | no |
 | C1 Long CTR | 28d | 5.0% | - | 0 | - |
@@ -39,7 +39,7 @@ Subscribers: 18 (target 50 by 2026-12-10)
 | 006 | DK6UC3_BT6Q | 28 | due 2026-12-11 | - | - | - | - | - | - |
 | 008 | -jPUfuzQF4g | 7 | measured | 14 | 5.6% | 90 | - | 51% | 349 |
 | 008 | -jPUfuzQF4g | 28 | due 2026-12-15 | - | - | - | - | - | - |
-| 009 | 32-u8DqpnJo | 7 | measured | 21 | 2.6% | 77 | - | 17% | 110 |
+| 009 | 32-u8DqpnJo | 7 | measured | 25 | 2.6% | 77 | - | 33% | 221 |
 | 009 | 32-u8DqpnJo | 28 | due 2026-12-16 | - | - | - | - | - | - |
 | 010 | yW8PX8vxzT8 | 7 | due 2026-11-26 | - | - | - | - | - | - |
 | 010 | yW8PX8vxzT8 | 28 | due 2026-12-17 | - | - | - | - | - | - |
