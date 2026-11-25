@@ -6,7 +6,7 @@ Episode 018. Draft 1, 2026-11-25. Target 11 to 13 minutes at about 138 words per
 
 Six thirteen in the evening, Kaliningrad: the first nuclear weapon used since Nagasaki. This is a simulation, and it has not happened. [A1, C]
 
-Three minutes earlier. A missile leaves a launcher in the east of the enclave. It is an Iskander, and it flies ninety-eight kilometres. [C]
+Three minutes earlier. A missile leaves a launcher in the west of the enclave. It is an Iskander, and it flies ninety-eight kilometres. [C]
 
 Its target is open ground chosen by the simulation, inside Russia itself. [C]
 

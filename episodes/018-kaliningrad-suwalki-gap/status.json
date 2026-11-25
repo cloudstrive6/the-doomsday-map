@@ -34,7 +34,27 @@
       "stage": "narrated",
       "note": "1503 words, 11.1 min",
       "at": "2026-11-25T01:50:25+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "97 shots, 673 s, no retention or pace lines",
+      "at": "2026-11-25T02:00:23+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "97 shots, 673 s; visual_review fixes, 0 pace warnings",
+      "at": "2026-11-25T02:03:46+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "97 shots, 673.2 s, round 2 fixes: ring names, open-after target, orphan labels dropped; 0 pace, 0 validate",
+      "at": "2026-11-25T02:16:06+00:00"
+    },
+    {
+      "stage": "visual_approved",
+      "note": "visual review round 3 PASS",
+      "at": "2026-11-25T02:16:28+00:00"
     }
   ],
-  "stage": "narrated"
+  "stage": "visual_approved"
 }
