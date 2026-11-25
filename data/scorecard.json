@@ -1,6 +1,6 @@
 {
-  "built": "2026-11-24",
-  "latest_snapshot": "2026-11-24",
+  "built": "2026-11-25",
+  "latest_snapshot": "2026-11-25",
   "subscribers": 18,
   "subs_target": [
     50,
@@ -10,8 +10,8 @@
     "C1@7d": {
       "label": "Long CTR",
       "target": 0.05,
-      "median": 0.04795,
-      "n": 4,
+      "median": 0.0403,
+      "n": 5,
       "met": false
     },
     "C2@7d": {
@@ -24,29 +24,29 @@
     "C3@7d": {
       "label": "Avg % viewed",
       "target": 40.0,
-      "median": 40.105000000000004,
-      "n": 4,
-      "met": true
+      "median": 33.29,
+      "n": 5,
+      "met": false
     },
     "C4@7d": {
       "label": "Long views",
       "target": 150,
-      "median": 20.5,
-      "n": 4,
+      "median": 21,
+      "n": 5,
       "met": false
     },
     "C5a@7d": {
       "label": "Shorts views",
       "target": 300,
-      "median": 190,
-      "n": 11,
-      "met": false
+      "median": 355.0,
+      "n": 14,
+      "met": true
     },
     "C5b@7d": {
       "label": "Shorts avg % viewed",
       "target": 80.0,
-      "median": 72.28,
-      "n": 11,
+      "median": 68.27000000000001,
+      "n": 14,
       "met": false
     },
     "C1@28d": {
@@ -939,8 +939,15 @@
       "publish_at": "2026-11-18T00:00:00Z",
       "horizon": 7,
       "due": "2026-11-25",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-25",
+      "status": "measured",
+      "views": 998,
+      "avp": 84.6,
+      "avd": 39,
+      "hold": null,
+      "subs": 1,
+      "ctr": 0.0211,
+      "impressions": 142
     },
     {
       "episode": "008-full-nuclear-war-minute-by-minute",
@@ -963,8 +970,15 @@
       "publish_at": "2026-11-18T00:00:00Z",
       "horizon": 7,
       "due": "2026-11-25",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-25",
+      "status": "measured",
+      "views": 21,
+      "avp": 16.59,
+      "avd": 110,
+      "hold": null,
+      "subs": 0,
+      "ctr": 0.026,
+      "impressions": 77
     },
     {
       "episode": "009-russia-attacks-baltic-72-hours",
@@ -987,8 +1001,15 @@
       "publish_at": "2026-11-18T14:00:00Z",
       "horizon": 7,
       "due": "2026-11-25",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-25",
+      "status": "measured",
+      "views": 1075,
+      "avp": 62.43,
+      "avd": 19,
+      "hold": 1.186,
+      "subs": 1,
+      "ctr": 0.0588,
+      "impressions": 85
     },
     {
       "episode": "009-russia-attacks-baltic-72-hours",
@@ -1011,8 +1032,15 @@
       "publish_at": "2026-11-18T19:00:00Z",
       "horizon": 7,
       "due": "2026-11-25",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-25",
+      "status": "measured",
+      "views": 289,
+      "avp": 55.48,
+      "avd": 22,
+      "hold": null,
+      "subs": 0,
+      "ctr": 0.0,
+      "impressions": 67
     },
     {
       "episode": "009-russia-attacks-baltic-72-hours",
@@ -1815,6 +1843,102 @@
       "publish_at": "2026-11-27T00:00:00Z",
       "horizon": 28,
       "due": "2026-12-25",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "018-kaliningrad-suwalki-gap",
+      "num": 18,
+      "kind": "long",
+      "id": "ADelaz-Rb-A",
+      "title": "One Nuke on Kaliningrad: What If NATO Cut It Off?",
+      "publish_at": "2026-11-27T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-04",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "018-kaliningrad-suwalki-gap",
+      "num": 18,
+      "kind": "long",
+      "id": "ADelaz-Rb-A",
+      "title": "One Nuke on Kaliningrad: What If NATO Cut It Off?",
+      "publish_at": "2026-11-27T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-25",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "018-kaliningrad-suwalki-gap",
+      "num": 18,
+      "kind": "short",
+      "id": "M2x0eufdl34",
+      "title": "One Nuke in Kaliningrad: Russia Fires a Warning Shot #shorts",
+      "publish_at": "2026-11-27T14:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-04",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "018-kaliningrad-suwalki-gap",
+      "num": 18,
+      "kind": "short",
+      "id": "M2x0eufdl34",
+      "title": "One Nuke in Kaliningrad: Russia Fires a Warning Shot #shorts",
+      "publish_at": "2026-11-27T14:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-25",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "018-kaliningrad-suwalki-gap",
+      "num": 18,
+      "kind": "short",
+      "id": "zRbDmTEkbjA",
+      "title": "What One Nuke Would Do Over Kaliningrad's Forest #shorts",
+      "publish_at": "2026-11-27T19:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-04",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "018-kaliningrad-suwalki-gap",
+      "num": 18,
+      "kind": "short",
+      "id": "zRbDmTEkbjA",
+      "title": "What One Nuke Would Do Over Kaliningrad's Forest #shorts",
+      "publish_at": "2026-11-27T19:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-25",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "018-kaliningrad-suwalki-gap",
+      "num": 18,
+      "kind": "short",
+      "id": "rYpHiMrRbrM",
+      "title": "Kaliningrad Nukes and the 65 km Suwalki Gap #shorts",
+      "publish_at": "2026-11-28T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-05",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "018-kaliningrad-suwalki-gap",
+      "num": 18,
+      "kind": "short",
+      "id": "rYpHiMrRbrM",
+      "title": "Kaliningrad Nukes and the 65 km Suwalki Gap #shorts",
+      "publish_at": "2026-11-28T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-26",
       "snapshot": null,
       "status": "pending"
     }
