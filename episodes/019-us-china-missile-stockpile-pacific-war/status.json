@@ -9,6 +9,11 @@
       "stage": "researched",
       "note": "36 A, 8 B items",
       "at": "2026-11-26T01:07:25+00:00"
+    },
+    {
+      "stage": "researched",
+      "note": "scenario done",
+      "at": "2026-11-26T01:09:25+00:00"
     }
   ],
   "stage": "researched"
