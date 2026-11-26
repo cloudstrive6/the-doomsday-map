@@ -1,10 +1,10 @@
 {
  "date": "2026-11-26",
  "channel": {
-  "viewCount": "22769",
+  "viewCount": "23340",
   "subscriberCount": "19",
   "hiddenSubscriberCount": false,
-  "videoCount": "62"
+  "videoCount": "64"
  },
  "videos": [
   {
@@ -125,7 +125,7 @@
   },
   {
    "video": "ughjJdoGf50",
-   "views": 1274,
+   "views": 1275,
    "estimatedMinutesWatched": 301,
    "averageViewDuration": 24,
    "averageViewPercentage": 63.55,
@@ -589,10 +589,10 @@
   },
   {
    "video": "0eHBIhYckrQ",
-   "views": 1063,
-   "estimatedMinutesWatched": 311,
-   "averageViewDuration": 31,
-   "averageViewPercentage": 63.38,
+   "views": 1071,
+   "estimatedMinutesWatched": 313,
+   "averageViewDuration": 30,
+   "averageViewPercentage": 63.17,
    "subscribersGained": 0,
    "likes": 1,
    "comments": 1,
@@ -603,67 +603,67 @@
    "retention_curve": [
     [
      0.01,
-     1.339,
+     1.337,
      0.625
     ],
     [
      0.06,
-     1.303,
-     0.508
+     1.301,
+     0.507
     ],
     [
      0.11,
-     1.145,
-     0.478
+     1.144,
+     0.477
     ],
     [
      0.16,
-     0.988,
-     0.458
+     0.986,
+     0.457
     ],
     [
      0.21,
      0.848,
-     0.45
+     0.449
     ],
     [
      0.26,
-     0.768,
+     0.765,
      0.448
     ],
     [
      0.31,
-     0.718,
+     0.716,
      0.446
     ],
     [
      0.36,
-     0.671,
-     0.444
+     0.669,
+     0.443
     ],
     [
      0.41,
-     0.635,
-     0.446
+     0.634,
+     0.445
     ],
     [
      0.46,
-     0.602,
+     0.601,
      0.451
     ],
     [
      0.51,
-     0.546,
+     0.544,
      0.461
     ],
     [
      0.56,
      0.49,
-     0.479
+     0.478
     ],
     [
      0.61,
-     0.465,
+     0.464,
      0.515
     ],
     [
@@ -673,42 +673,158 @@
     ],
     [
      0.71,
-     0.432,
-     0.671
+     0.431,
+     0.67
     ],
     [
      0.76,
      0.416,
-     0.756
+     0.754
     ],
     [
      0.81,
      0.385,
-     0.809
+     0.807
     ],
     [
      0.86,
      0.37,
-     0.839
+     0.837
     ],
     [
      0.91,
      0.365,
-     0.86
+     0.857
     ],
     [
      0.96,
-     0.348,
-     0.886
+     0.346,
+     0.884
+    ]
+   ]
+  },
+  {
+   "video": "fz72MisdI4s",
+   "views": 1071,
+   "estimatedMinutesWatched": 426,
+   "averageViewDuration": 41,
+   "averageViewPercentage": 103.25999999999999,
+   "subscribersGained": 0,
+   "likes": 4,
+   "comments": 0,
+   "shares": 0,
+   "title": "What If an Oreshnik Nuke Flew From Belarus to Germany? #shorts",
+   "published": "2026-11-24T00:00:11Z",
+   "lifetime_views": 1070,
+   "retention_curve": [
+    [
+     0.01,
+     1.72,
+     0.652
+    ],
+    [
+     0.06,
+     1.646,
+     0.555
+    ],
+    [
+     0.11,
+     1.545,
+     0.546
+    ],
+    [
+     0.16,
+     1.387,
+     0.541
+    ],
+    [
+     0.21,
+     1.237,
+     0.537
+    ],
+    [
+     0.26,
+     1.159,
+     0.534
+    ],
+    [
+     0.31,
+     1.113,
+     0.532
+    ],
+    [
+     0.36,
+     1.068,
+     0.532
+    ],
+    [
+     0.41,
+     1.028,
+     0.534
+    ],
+    [
+     0.46,
+     0.987,
+     0.539
+    ],
+    [
+     0.51,
+     0.957,
+     0.548
+    ],
+    [
+     0.56,
+     0.919,
+     0.564
+    ],
+    [
+     0.61,
+     0.891,
+     0.594
+    ],
+    [
+     0.66,
+     0.858,
+     0.645
+    ],
+    [
+     0.71,
+     0.839,
+     0.719
+    ],
+    [
+     0.76,
+     0.826,
+     0.79
+    ],
+    [
+     0.81,
+     0.816,
+     0.835
+    ],
+    [
+     0.86,
+     0.773,
+     0.863
+    ],
+    [
+     0.91,
+     0.752,
+     0.879
+    ],
+    [
+     0.96,
+     0.738,
+     0.888
     ]
    ]
   },
   {
    "video": "ANkeXZwcpJE",
-   "views": 1056,
-   "estimatedMinutesWatched": 195,
+   "views": 1070,
+   "estimatedMinutesWatched": 199,
    "averageViewDuration": 21,
-   "averageViewPercentage": 60.14000000000001,
+   "averageViewPercentage": 60.67,
    "subscribersGained": 2,
    "likes": 5,
    "comments": 0,
@@ -719,103 +835,103 @@
    "retention_curve": [
     [
      0.01,
-     1.299,
-     0.594
+     1.306,
+     0.597
     ],
     [
      0.06,
-     1.29,
-     0.483
+     1.296,
+     0.485
     ],
     [
      0.11,
-     1.265,
-     0.457
+     1.271,
+     0.46
     ],
     [
      0.16,
-     1.071,
-     0.452
+     1.08,
+     0.454
     ],
     [
      0.21,
-     0.919,
-     0.449
+     0.924,
+     0.452
     ],
     [
      0.26,
-     0.798,
-     0.45
+     0.803,
+     0.452
     ],
     [
      0.31,
-     0.695,
-     0.455
+     0.7,
+     0.457
     ],
     [
      0.36,
-     0.612,
-     0.462
+     0.617,
+     0.465
     ],
     [
      0.41,
-     0.543,
-     0.47
+     0.548,
+     0.472
     ],
     [
      0.46,
-     0.486,
-     0.476
+     0.491,
+     0.478
     ],
     [
      0.51,
-     0.447,
-     0.481
+     0.454,
+     0.483
     ],
     [
      0.56,
-     0.426,
-     0.49
+     0.433,
+     0.493
     ],
     [
      0.61,
-     0.413,
-     0.515
+     0.419,
+     0.52
     ],
     [
      0.66,
-     0.39,
-     0.577
+     0.397,
+     0.584
     ],
     [
      0.71,
-     0.38,
-     0.681
+     0.387,
+     0.69
     ],
     [
      0.76,
-     0.363,
-     0.777
+     0.37,
+     0.784
     ],
     [
      0.81,
-     0.349,
-     0.84
+     0.357,
+     0.844
     ],
     [
      0.86,
-     0.334,
-     0.879
+     0.34,
+     0.883
     ],
     [
      0.91,
-     0.319,
-     0.904
+     0.325,
+     0.907
     ],
     [
      0.96,
-     0.311,
-     0.919
+     0.317,
+     0.921
     ]
    ]
   },
@@ -936,122 +1052,6 @@
    ]
   },
   {
-   "video": "fz72MisdI4s",
-   "views": 1043,
-   "estimatedMinutesWatched": 419,
-   "averageViewDuration": 41,
-   "averageViewPercentage": 104.54999999999998,
-   "subscribersGained": 0,
-   "likes": 4,
-   "comments": 0,
-   "shares": 0,
-   "title": "What If an Oreshnik Nuke Flew From Belarus to Germany? #shorts",
-   "published": "2026-11-24T00:00:11Z",
-   "lifetime_views": 1070,
-   "retention_curve": [
-    [
-     0.01,
-     1.734,
-     0.652
-    ],
-    [
-     0.06,
-     1.661,
-     0.556
-    ],
-    [
-     0.11,
-     1.557,
-     0.546
-    ],
-    [
-     0.16,
-     1.399,
-     0.542
-    ],
-    [
-     0.21,
-     1.254,
-     0.537
-    ],
-    [
-     0.26,
-     1.174,
-     0.533
-    ],
-    [
-     0.31,
-     1.126,
-     0.531
-    ],
-    [
-     0.36,
-     1.08,
-     0.531
-    ],
-    [
-     0.41,
-     1.039,
-     0.533
-    ],
-    [
-     0.46,
-     0.997,
-     0.538
-    ],
-    [
-     0.51,
-     0.969,
-     0.547
-    ],
-    [
-     0.56,
-     0.93,
-     0.564
-    ],
-    [
-     0.61,
-     0.901,
-     0.595
-    ],
-    [
-     0.66,
-     0.869,
-     0.648
-    ],
-    [
-     0.71,
-     0.852,
-     0.724
-    ],
-    [
-     0.76,
-     0.84,
-     0.795
-    ],
-    [
-     0.81,
-     0.83,
-     0.84
-    ],
-    [
-     0.86,
-     0.787,
-     0.867
-    ],
-    [
-     0.91,
-     0.767,
-     0.883
-    ],
-    [
-     0.96,
-     0.753,
-     0.891
-    ]
-   ]
-  },
-  {
    "video": "RJ7F0uSC1Xg",
    "views": 1013,
    "estimatedMinutesWatched": 250,
@@ -1063,7 +1063,7 @@
    "shares": 0,
    "title": "What If NATO Cut Off Kaliningrad? Russia's Nuclear Warning #shorts",
    "published": "2026-11-19T00:00:29Z",
-   "lifetime_views": 1013,
+   "lifetime_views": 1014,
    "retention_curve": [
     [
      0.01,
@@ -1168,6 +1168,20 @@
    ]
   },
   {
+   "video": "IiMf6VMQD6M",
+   "views": 1006,
+   "estimatedMinutesWatched": 245,
+   "averageViewDuration": 28,
+   "averageViewPercentage": 92.67,
+   "subscribersGained": 0,
+   "likes": 14,
+   "comments": 1,
+   "shares": 0,
+   "title": "What If US and Russia Nuked Each Other? 53 Minutes #shorts",
+   "published": "2026-11-17T14:00:00Z",
+   "lifetime_views": 1008
+  },
+  {
    "video": "0eqT7omUKg0",
    "views": 1005,
    "estimatedMinutesWatched": 174,
@@ -1179,21 +1193,7 @@
    "shares": 2,
    "title": "What If a 50 Megaton Nuke Hit New York? #shorts",
    "published": "2026-11-19T14:00:37Z",
-   "lifetime_views": 1005
-  },
-  {
-   "video": "IiMf6VMQD6M",
-   "views": 1004,
-   "estimatedMinutesWatched": 245,
-   "averageViewDuration": 28,
-   "averageViewPercentage": 92.65,
-   "subscribersGained": 0,
-   "likes": 14,
-   "comments": 1,
-   "shares": 0,
-   "title": "What If US and Russia Nuked Each Other? 53 Minutes #shorts",
-   "published": "2026-11-17T14:00:00Z",
-   "lifetime_views": 1008
+   "lifetime_views": 1007
   },
   {
    "video": "zVxmXn8OHp0",
@@ -1221,7 +1221,7 @@
    "shares": 0,
    "title": "50 Megaton Nuke Over New York: The First Seconds #shorts",
    "published": "2026-11-19T19:00:21Z",
-   "lifetime_views": 985
+   "lifetime_views": 986
   },
   {
    "video": "LT_46ntdORs",
@@ -1236,6 +1236,20 @@
    "title": "America Has 44 Missile Interceptors. Would They Stop North Korea? #shorts",
    "published": "2026-11-10T14:00:36Z",
    "lifetime_views": 962
+  },
+  {
+   "video": "znzdvIrrRp4",
+   "views": 636,
+   "estimatedMinutesWatched": 79,
+   "averageViewDuration": 15,
+   "averageViewPercentage": 48.39,
+   "subscribersGained": 0,
+   "likes": 3,
+   "comments": 0,
+   "shares": 0,
+   "title": "What If a 50 Kiloton Nuke Hit Ramstein? The Rings #shorts",
+   "published": "2026-11-23T14:00:00Z",
+   "lifetime_views": 634
   },
   {
    "video": "XUJI3lSDD0M",
@@ -1256,7 +1270,7 @@
    "views": 537,
    "estimatedMinutesWatched": 80,
    "averageViewDuration": 17,
-   "averageViewPercentage": 47.79,
+   "averageViewPercentage": 47.23,
    "subscribersGained": 0,
    "likes": 8,
    "comments": 1,
@@ -1280,25 +1294,11 @@
    "lifetime_views": 433
   },
   {
-   "video": "rVHj7z8O65Q",
-   "views": 422,
-   "estimatedMinutesWatched": 193,
-   "averageViewDuration": 57,
-   "averageViewPercentage": 119.22,
-   "subscribersGained": 0,
-   "likes": 4,
-   "comments": 0,
-   "shares": 0,
-   "title": "What a 10-Kiloton Nuke Does to a Mountain in Iran #shorts",
-   "published": "2026-11-14T00:00:40Z",
-   "lifetime_views": 423
-  },
-  {
    "video": "4vpj9Se7Bgg",
-   "views": 400,
-   "estimatedMinutesWatched": 90,
+   "views": 423,
+   "estimatedMinutesWatched": 95,
    "averageViewDuration": 23,
-   "averageViewPercentage": 57.11999999999999,
+   "averageViewPercentage": 56.64,
    "subscribersGained": 0,
    "likes": 2,
    "comments": 0,
@@ -1308,22 +1308,36 @@
    "lifetime_views": 423
   },
   {
-   "video": "znzdvIrrRp4",
-   "views": 356,
-   "estimatedMinutesWatched": 45,
-   "averageViewDuration": 15,
-   "averageViewPercentage": 50.03999999999999,
+   "video": "rVHj7z8O65Q",
+   "views": 423,
+   "estimatedMinutesWatched": 194,
+   "averageViewDuration": 57,
+   "averageViewPercentage": 118.87999999999998,
    "subscribersGained": 0,
-   "likes": 1,
+   "likes": 4,
    "comments": 0,
    "shares": 0,
-   "title": "What If a 50 Kiloton Nuke Hit Ramstein? The Rings #shorts",
-   "published": "2026-11-23T14:00:00Z",
-   "lifetime_views": 635
+   "title": "What a 10-Kiloton Nuke Does to a Mountain in Iran #shorts",
+   "published": "2026-11-14T00:00:40Z",
+   "lifetime_views": 423
+  },
+  {
+   "video": "lnLiWO1YJz8",
+   "views": 310,
+   "estimatedMinutesWatched": 56,
+   "averageViewDuration": 21,
+   "averageViewPercentage": 57.13,
+   "subscribersGained": 0,
+   "likes": 2,
+   "comments": 0,
+   "shares": 0,
+   "title": "What If a 50 Kiloton Nuke Hit Ramstein, Germany? #shorts",
+   "published": "2026-11-23T19:00:33Z",
+   "lifetime_views": 310
   },
   {
    "video": "vOKBVCZ5scQ",
-   "views": 292,
+   "views": 296,
    "estimatedMinutesWatched": 35,
    "averageViewDuration": 21,
    "averageViewPercentage": 59.42000000000001,
@@ -1333,7 +1347,7 @@
    "shares": 0,
    "title": "What If a 10 Kiloton Nuke Hit Over the Baltic Sea? #shorts",
    "published": "2026-11-21T19:00:13Z",
-   "lifetime_views": 295
+   "lifetime_views": 298
   },
   {
    "video": "d70ycdBnvsE",
@@ -1351,17 +1365,17 @@
   },
   {
    "video": "YxH6xwSmp-0",
-   "views": 278,
+   "views": 280,
    "estimatedMinutesWatched": 38,
    "averageViewDuration": 18,
-   "averageViewPercentage": 49.66,
+   "averageViewPercentage": 50.2,
    "subscribersGained": 0,
    "likes": 2,
    "comments": 0,
    "shares": 0,
    "title": "What a 100 Kiloton Nuke Does to the White House #shorts",
    "published": "2026-11-20T19:00:02Z",
-   "lifetime_views": 281
+   "lifetime_views": 283
   },
   {
    "video": "Bw7RPbexCTA",
@@ -1392,32 +1406,32 @@
    "lifetime_views": 253
   },
   {
-   "video": "lnLiWO1YJz8",
-   "views": 214,
-   "estimatedMinutesWatched": 38,
-   "averageViewDuration": 20,
-   "averageViewPercentage": 54.92,
-   "subscribersGained": 0,
-   "likes": 2,
-   "comments": 0,
-   "shares": 0,
-   "title": "What If a 50 Kiloton Nuke Hit Ramstein, Germany? #shorts",
-   "published": "2026-11-23T19:00:33Z",
-   "lifetime_views": 310
-  },
-  {
    "video": "UzDKT-C3p4s",
-   "views": 208,
-   "estimatedMinutesWatched": 40,
-   "averageViewDuration": 22,
-   "averageViewPercentage": 48.39,
+   "views": 243,
+   "estimatedMinutesWatched": 46,
+   "averageViewDuration": 21,
+   "averageViewPercentage": 45.29,
    "subscribersGained": 0,
    "likes": 2,
    "comments": 0,
    "shares": 0,
    "title": "What If Hackers Stopped Taiwan's Chip Supply? #shorts",
    "published": "2026-11-23T00:00:36Z",
-   "lifetime_views": 242
+   "lifetime_views": 243
+  },
+  {
+   "video": "_1B_du-kjmc",
+   "views": 204,
+   "estimatedMinutesWatched": 30,
+   "averageViewDuration": 20,
+   "averageViewPercentage": 64.54,
+   "subscribersGained": 2,
+   "likes": 2,
+   "comments": 0,
+   "shares": 0,
+   "title": "How Long Would a Chinese Nuke Take to Reach Guam? #shorts",
+   "published": "2026-11-24T14:00:36Z",
+   "lifetime_views": 209
   },
   {
    "video": "Km51s_0dCMI",
@@ -1515,7 +1529,7 @@
    "shares": 0,
    "title": "What One Nuke Would Do to Chicago, Street by Street",
    "published": "2026-11-11T00:00:27Z",
-   "lifetime_views": 70
+   "lifetime_views": 72
   },
   {
    "video": "Qe5PtpijICA",
@@ -1574,6 +1588,20 @@
    "lifetime_views": 48
   },
   {
+   "video": "YveijTMP8OM",
+   "views": 39,
+   "estimatedMinutesWatched": 9,
+   "averageViewDuration": 28,
+   "averageViewPercentage": 57.68,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "What If Taiwan's Gas Terminals Stalled in a Blackout? #shorts",
+   "published": "2026-11-22T19:00:02Z",
+   "lifetime_views": 39
+  },
+  {
    "video": "ZjCRJ3VsOu0",
    "views": 39,
    "estimatedMinutesWatched": 6,
@@ -1588,6 +1616,20 @@
    "lifetime_views": 39
   },
   {
+   "video": "DK6UC3_BT6Q",
+   "views": 38,
+   "estimatedMinutesWatched": 92,
+   "averageViewDuration": 250,
+   "averageViewPercentage": 38.42,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "What If Iran Tests a Nuke? Israel's 4-Day Answer",
+   "published": "2026-11-13T00:00:06Z",
+   "lifetime_views": 44
+  },
+  {
    "video": "3VH3JSj7wNM",
    "views": 37,
    "estimatedMinutesWatched": 31,
@@ -1599,35 +1641,21 @@
    "shares": 0,
    "title": "What If Russia Fired a 10 Kiloton Nuke Over the Baltic?",
    "published": "2026-11-21T00:00:11Z",
-   "lifetime_views": 37
-  },
-  {
-   "video": "YveijTMP8OM",
-   "views": 36,
-   "estimatedMinutesWatched": 9,
-   "averageViewDuration": 29,
-   "averageViewPercentage": 59.9,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "title": "What If Taiwan's Gas Terminals Stalled in a Blackout? #shorts",
-   "published": "2026-11-22T19:00:02Z",
    "lifetime_views": 39
   },
   {
-   "video": "DK6UC3_BT6Q",
+   "video": "3FE2cKJi9eA",
    "views": 35,
-   "estimatedMinutesWatched": 66,
-   "averageViewDuration": 225,
-   "averageViewPercentage": 34.54,
+   "estimatedMinutesWatched": 6,
+   "averageViewDuration": 21,
+   "averageViewPercentage": 49.44,
    "subscribersGained": 0,
-   "likes": 0,
+   "likes": 2,
    "comments": 0,
    "shares": 0,
-   "title": "What If Iran Tests a Nuke? Israel's 4-Day Answer",
-   "published": "2026-11-13T00:00:06Z",
-   "lifetime_views": 38
+   "title": "What One 10 Kiloton Nuke Would Do to Guam's Andersen Base #shorts",
+   "published": "2026-11-24T19:00:28Z",
+   "lifetime_views": 40
   },
   {
    "video": "GJ4KihR5Uzw",
@@ -1641,14 +1669,14 @@
    "shares": 0,
    "title": "One Missile, Three Minutes: A Simulated Nuclear Strike in Ukraine #shorts",
    "published": "2026-11-12T14:00:10Z",
-   "lifetime_views": 27
+   "lifetime_views": 28
   },
   {
    "video": "u1EWhaWRoyc",
-   "views": 24,
-   "estimatedMinutesWatched": 66,
+   "views": 25,
+   "estimatedMinutesWatched": 70,
    "averageViewDuration": 206,
-   "averageViewPercentage": 30.020000000000003,
+   "averageViewPercentage": 30.11,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
@@ -1659,24 +1687,24 @@
   },
   {
    "video": "32-u8DqpnJo",
-   "views": 19,
-   "estimatedMinutesWatched": 18,
-   "averageViewDuration": 221,
-   "averageViewPercentage": 33.24,
+   "views": 22,
+   "estimatedMinutesWatched": 44,
+   "averageViewDuration": 292,
+   "averageViewPercentage": 43.89,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "title": "What If Russia Nuked Lithuania? The First 61 Hours",
    "published": "2026-11-18T00:00:14Z",
-   "lifetime_views": 25
+   "lifetime_views": 29
   },
   {
    "video": "yW8PX8vxzT8",
-   "views": 17,
+   "views": 18,
    "estimatedMinutesWatched": 23,
-   "averageViewDuration": 170,
-   "averageViewPercentage": 25.08,
+   "averageViewDuration": 153,
+   "averageViewPercentage": 22.54,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
@@ -1687,10 +1715,10 @@
   },
   {
    "video": "-jPUfuzQF4g",
-   "views": 13,
-   "estimatedMinutesWatched": 35,
-   "averageViewDuration": 349,
-   "averageViewPercentage": 50.529999999999994,
+   "views": 14,
+   "estimatedMinutesWatched": 46,
+   "averageViewDuration": 398,
+   "averageViewPercentage": 57.58,
    "subscribersGained": 0,
    "likes": 0,
    "comments": 0,
@@ -1698,34 +1726,6 @@
    "title": "What If America and Russia Nuked Each Other? 27 Strikes",
    "published": "2026-11-17T00:00:01Z",
    "lifetime_views": 16
-  },
-  {
-   "video": "MHcEaOzJxHk",
-   "views": 12,
-   "estimatedMinutesWatched": 13,
-   "averageViewDuration": 133,
-   "averageViewPercentage": 20,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "title": "What If an Oreshnik Nuke Hit Germany From Belarus?",
-   "published": "2026-11-23T00:00:01Z",
-   "lifetime_views": 13
-  },
-  {
-   "video": "lBZsX8m3KO4",
-   "views": 12,
-   "estimatedMinutesWatched": 13,
-   "averageViewDuration": 164,
-   "averageViewPercentage": 25.8,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "title": "What If a Nuke Hit Washington? Who Gets Out in 11 Minutes",
-   "published": "2026-11-20T00:00:07Z",
-   "lifetime_views": 11
   }
  ],
  "errors": [],
@@ -1738,38 +1738,38 @@
   "rows": [
    [
     "SHORTS",
-    20582,
-    6121
+    21289,
+    6232
    ],
    [
     "YT_SEARCH",
-    761,
-    339
+    788,
+    370
    ],
    [
     "YT_OTHER_PAGE",
-    258,
-    98
+    271,
+    99
    ],
    [
     "YT_CHANNEL",
-    216,
+    219,
     238
    ],
    [
     "RELATED_VIDEO",
-    95,
-    404
+    109,
+    488
    ],
    [
     "SUBSCRIBER",
-    44,
+    45,
     44
    ],
    [
     "NO_LINK_OTHER",
-    13,
-    38
+    15,
+    39
    ],
    [
     "EXT_URL",
@@ -1806,11 +1806,11 @@
   "rows": [
    [
     "US",
-    9499
+    9668
    ],
    [
     "RU",
-    1687
+    1725
    ],
    [
     "UA",
@@ -1818,23 +1818,23 @@
    ],
    [
     "JP",
-    598
+    650
    ],
    [
     "DE",
-    581
+    644
    ],
    [
     "GB",
-    560
-   ],
-   [
-    "PL",
-    484
+    594
    ],
    [
     "IN",
-    480
+    521
+   ],
+   [
+    "PL",
+    509
    ],
    [
     "CA",
@@ -1857,12 +1857,12 @@
     185
    ],
    [
-    "ID",
-    165
+    "NL",
+    177
    ],
    [
-    "NL",
-    148
+    "ID",
+    165
    ]
   ]
  },
@@ -1876,12 +1876,12 @@
  },
  "reach": {
   "job": "22cbe519-176f-4a0c-9484-ef5f01850ea5",
-  "days": 49,
+  "days": 50,
   "videos": {
    "fWvrsNHlIak": {
-    "impressions": 1518,
+    "impressions": 1524,
     "clicks": 35,
-    "ctr": 0.0231
+    "ctr": 0.023
    },
    "0BKN1bwvjRI": {
     "impressions": 1,
@@ -1904,9 +1904,9 @@
     "ctr": 0.0
    },
    "QK55Sko_aw4": {
-    "impressions": 89,
+    "impressions": 90,
     "clicks": 4,
-    "ctr": 0.0449
+    "ctr": 0.0444
    },
    "ZjCRJ3VsOu0": {
     "impressions": 66,
@@ -1914,9 +1914,9 @@
     "ctr": 0.0
    },
    "asHo8qWpZDg": {
-    "impressions": 573,
+    "impressions": 584,
     "clicks": 31,
-    "ctr": 0.0541
+    "ctr": 0.0531
    },
    "dpxhxTSJoec": {
     "impressions": 1,
@@ -1924,9 +1924,9 @@
     "ctr": 0.0
    },
    "hK24hiHogvs": {
-    "impressions": 230,
+    "impressions": 232,
     "clicks": 5,
-    "ctr": 0.0217
+    "ctr": 0.0216
    },
    "kOTfAUeBpRA": {
     "impressions": 1,
@@ -1944,24 +1944,24 @@
     "ctr": 0.0
    },
    "LT_46ntdORs": {
-    "impressions": 79,
+    "impressions": 81,
     "clicks": 1,
-    "ctr": 0.0127
+    "ctr": 0.0123
    },
    "NxaU3CIMJ2A": {
-    "impressions": 116,
+    "impressions": 117,
     "clicks": 4,
-    "ctr": 0.0345
+    "ctr": 0.0342
    },
    "XUJI3lSDD0M": {
-    "impressions": 149,
+    "impressions": 152,
     "clicks": 6,
-    "ctr": 0.0403
+    "ctr": 0.0395
    },
    "77M-y-VaweA": {
-    "impressions": 127,
+    "impressions": 129,
     "clicks": 1,
-    "ctr": 0.0079
+    "ctr": 0.0078
    },
    "CswtYFhvZkE": {
     "impressions": 48,
@@ -1969,44 +1969,44 @@
     "ctr": 0.0417
    },
    "GJ4KihR5Uzw": {
-    "impressions": 114,
+    "impressions": 115,
     "clicks": 1,
-    "ctr": 0.0088
+    "ctr": 0.0087
    },
    "Km51s_0dCMI": {
-    "impressions": 84,
+    "impressions": 85,
     "clicks": 2,
-    "ctr": 0.0238
+    "ctr": 0.0235
    },
    "Qe5PtpijICA": {
-    "impressions": 156,
+    "impressions": 163,
     "clicks": 3,
-    "ctr": 0.0192
+    "ctr": 0.0184
    },
    "Xh-d91arwTU": {
-    "impressions": 48,
+    "impressions": 52,
     "clicks": 1,
-    "ctr": 0.0208
+    "ctr": 0.0192
    },
    "lufMFIv5AeY": {
-    "impressions": 441,
-    "clicks": 20,
-    "ctr": 0.0454
+    "impressions": 456,
+    "clicks": 21,
+    "ctr": 0.0461
    },
    "up8u4934iUM": {
-    "impressions": 77,
+    "impressions": 82,
     "clicks": 3,
-    "ctr": 0.039
+    "ctr": 0.0366
    },
    "u1EWhaWRoyc": {
-    "impressions": 230,
-    "clicks": 11,
-    "ctr": 0.0478
+    "impressions": 259,
+    "clicks": 12,
+    "ctr": 0.0463
    },
    "DK6UC3_BT6Q": {
-    "impressions": 223,
+    "impressions": 230,
     "clicks": 12,
-    "ctr": 0.0538
+    "ctr": 0.0522
    },
    "K67FRJT0Za4": {
     "impressions": 129,
@@ -2019,162 +2019,192 @@
     "ctr": 0.0
    },
    "rVHj7z8O65Q": {
-    "impressions": 110,
+    "impressions": 111,
     "clicks": 4,
-    "ctr": 0.0364
+    "ctr": 0.036
    },
    "-jPUfuzQF4g": {
-    "impressions": 92,
-    "clicks": 6,
-    "ctr": 0.0652
-   },
-   "0eqT7omUKg0": {
-    "impressions": 93,
-    "clicks": 2,
-    "ctr": 0.0215
-   },
-   "32-u8DqpnJo": {
     "impressions": 95,
     "clicks": 6,
     "ctr": 0.0632
    },
+   "0eqT7omUKg0": {
+    "impressions": 114,
+    "clicks": 2,
+    "ctr": 0.0175
+   },
+   "32-u8DqpnJo": {
+    "impressions": 101,
+    "clicks": 6,
+    "ctr": 0.0594
+   },
    "6IkP02oNrJU": {
-    "impressions": 265,
+    "impressions": 272,
     "clicks": 4,
-    "ctr": 0.0151
+    "ctr": 0.0147
    },
    "9Wov8oOgXSM": {
-    "impressions": 170,
+    "impressions": 180,
     "clicks": 1,
-    "ctr": 0.0059
+    "ctr": 0.0056
    },
    "IiMf6VMQD6M": {
-    "impressions": 226,
-    "clicks": 10,
-    "ctr": 0.0442
+    "impressions": 240,
+    "clicks": 11,
+    "ctr": 0.0458
    },
    "RJ7F0uSC1Xg": {
-    "impressions": 127,
+    "impressions": 132,
     "clicks": 3,
-    "ctr": 0.0236
+    "ctr": 0.0227
    },
    "UVwaVWWRXIE": {
-    "impressions": 86,
+    "impressions": 95,
     "clicks": 5,
-    "ctr": 0.0581
+    "ctr": 0.0526
    },
    "d70ycdBnvsE": {
-    "impressions": 72,
+    "impressions": 75,
     "clicks": 0,
     "ctr": 0.0
    },
    "iqCileJm1CI": {
-    "impressions": 239,
+    "impressions": 253,
     "clicks": 9,
-    "ctr": 0.0377
+    "ctr": 0.0356
    },
    "ughjJdoGf50": {
-    "impressions": 843,
-    "clicks": 9,
-    "ctr": 0.0107
+    "impressions": 888,
+    "clicks": 10,
+    "ctr": 0.0113
    },
    "zVxmXn8OHp0": {
-    "impressions": 146,
+    "impressions": 151,
     "clicks": 3,
-    "ctr": 0.0205
+    "ctr": 0.0199
    },
    "yW8PX8vxzT8": {
-    "impressions": 123,
-    "clicks": 5,
-    "ctr": 0.0407
+    "impressions": 138,
+    "clicks": 6,
+    "ctr": 0.0435
    },
    "lBZsX8m3KO4": {
-    "impressions": 51,
+    "impressions": 61,
     "clicks": 2,
-    "ctr": 0.0392
+    "ctr": 0.0328
    },
    "3VH3JSj7wNM": {
-    "impressions": 120,
+    "impressions": 126,
     "clicks": 6,
-    "ctr": 0.05
+    "ctr": 0.0476
    },
    "6zICYBIBLyw": {
-    "impressions": 106,
-    "clicks": 3,
-    "ctr": 0.0283
+    "impressions": 109,
+    "clicks": 4,
+    "ctr": 0.0367
    },
    "YxH6xwSmp-0": {
-    "impressions": 92,
+    "impressions": 100,
     "clicks": 3,
-    "ctr": 0.0326
+    "ctr": 0.03
    },
    "xZepBukwp_U": {
-    "impressions": 35,
+    "impressions": 42,
     "clicks": 1,
-    "ctr": 0.0286
+    "ctr": 0.0238
    },
    "0eHBIhYckrQ": {
-    "impressions": 217,
+    "impressions": 238,
     "clicks": 16,
-    "ctr": 0.0737
+    "ctr": 0.0672
    },
    "4vpj9Se7Bgg": {
-    "impressions": 12,
-    "clicks": 0,
-    "ctr": 0.0
+    "impressions": 23,
+    "clicks": 1,
+    "ctr": 0.0435
    },
    "ANkeXZwcpJE": {
-    "impressions": 71,
-    "clicks": 2,
-    "ctr": 0.0282
+    "impressions": 101,
+    "clicks": 3,
+    "ctr": 0.0297
    },
    "UzDKT-C3p4s": {
-    "impressions": 15,
+    "impressions": 26,
     "clicks": 0,
     "ctr": 0.0
    },
    "YveijTMP8OM": {
-    "impressions": 9,
-    "clicks": 1,
-    "ctr": 0.1111
+    "impressions": 21,
+    "clicks": 2,
+    "ctr": 0.0952
    },
    "fz72MisdI4s": {
-    "impressions": 22,
+    "impressions": 29,
     "clicks": 0,
     "ctr": 0.0
    },
    "lnLiWO1YJz8": {
-    "impressions": 24,
+    "impressions": 44,
     "clicks": 0,
     "ctr": 0.0
    },
    "vOKBVCZ5scQ": {
-    "impressions": 145,
+    "impressions": 187,
     "clicks": 1,
-    "ctr": 0.0069
+    "ctr": 0.0053
    },
    "xeDNdj7CXg8": {
-    "impressions": 32,
+    "impressions": 39,
     "clicks": 1,
-    "ctr": 0.0312
+    "ctr": 0.0256
    },
    "znzdvIrrRp4": {
-    "impressions": 10,
+    "impressions": 26,
     "clicks": 1,
-    "ctr": 0.1
+    "ctr": 0.0385
    },
    "MHcEaOzJxHk": {
-    "impressions": 22,
-    "clicks": 2,
-    "ctr": 0.0909
+    "impressions": 49,
+    "clicks": 3,
+    "ctr": 0.0612
    },
-   "-i_nMhoozwc": {
-    "impressions": 1,
+   "3FE2cKJi9eA": {
+    "impressions": 49,
     "clicks": 0,
     "ctr": 0.0
    },
-   "3FE2cKJi9eA": {
-    "impressions": 46,
+   "ZMWCRJiL-iU": {
+    "impressions": 62,
+    "clicks": 4,
+    "ctr": 0.0645
+   },
+   "_1B_du-kjmc": {
+    "impressions": 15,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "m8LckkDhJdc": {
+    "impressions": 17,
+    "clicks": 1,
+    "ctr": 0.0588
+   },
+   "us9V1XiOxZo": {
+    "impressions": 3,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "uwrXqsBlPVI": {
+    "impressions": 3,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "vFA1xrw4EN4": {
+    "impressions": 3,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "-i_nMhoozwc": {
+    "impressions": 1,
     "clicks": 0,
     "ctr": 0.0
    },
@@ -2190,36 +2220,6 @@
    },
    "TxzguiJqUTE": {
     "impressions": 1,
-    "clicks": 0,
-    "ctr": 0.0
-   },
-   "ZMWCRJiL-iU": {
-    "impressions": 33,
-    "clicks": 3,
-    "ctr": 0.0909
-   },
-   "_1B_du-kjmc": {
-    "impressions": 12,
-    "clicks": 0,
-    "ctr": 0.0
-   },
-   "m8LckkDhJdc": {
-    "impressions": 14,
-    "clicks": 1,
-    "ctr": 0.0714
-   },
-   "us9V1XiOxZo": {
-    "impressions": 2,
-    "clicks": 0,
-    "ctr": 0.0
-   },
-   "uwrXqsBlPVI": {
-    "impressions": 2,
-    "clicks": 0,
-    "ctr": 0.0
-   },
-   "vFA1xrw4EN4": {
-    "impressions": 2,
     "clicks": 0,
     "ctr": 0.0
    }

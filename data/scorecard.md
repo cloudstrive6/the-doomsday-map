@@ -8,7 +8,7 @@ Subscribers: 19 (target 50 by 2026-12-10)
 
 | Criterion | Horizon | Target | Median | Episodes measured | Met |
 |---|---|---|---|---|---|
-| C1 Long CTR | 7d | 5.0% | 4.0% | 6 | no |
+| C1 Long CTR | 7d | 5.0% | 4.2% | 6 | no |
 | C2 Hold at 11% | 7d | 60.0% | - | 0 | - |
 | C3 Avg % viewed | 7d | 40% | 33% | 6 | no |
 | C4 Long views | 7d | 150 | 23.5 | 6 | no |
@@ -41,7 +41,7 @@ Subscribers: 19 (target 50 by 2026-12-10)
 | 008 | -jPUfuzQF4g | 28 | due 2026-12-15 | - | - | - | - | - | - |
 | 009 | 32-u8DqpnJo | 7 | measured | 25 | 2.6% | 77 | - | 33% | 221 |
 | 009 | 32-u8DqpnJo | 28 | due 2026-12-16 | - | - | - | - | - | - |
-| 010 | yW8PX8vxzT8 | 7 | measured | 22 | 4.1% | 123 | - | 25% | 170 |
+| 010 | yW8PX8vxzT8 | 7 | measured | 22 | 4.3% | 138 | - | 23% | 153 |
 | 010 | yW8PX8vxzT8 | 28 | due 2026-12-17 | - | - | - | - | - | - |
 | 011 | lBZsX8m3KO4 | 7 | due 2026-11-27 | - | - | - | - | - | - |
 | 011 | lBZsX8m3KO4 | 28 | due 2026-12-18 | - | - | - | - | - | - |
@@ -112,11 +112,11 @@ Subscribers: 19 (target 50 by 2026-12-10)
 | 009 | UVwaVWWRXIE | 28 | due 2026-12-16 | - | - | - |
 | 009 | d70ycdBnvsE | 7 | measured | 289 | 55% | 22 |
 | 009 | d70ycdBnvsE | 28 | due 2026-12-16 | - | - | - |
-| 009 | RJ7F0uSC1Xg | 7 | measured | 1,013 | 93% | 29 |
+| 009 | RJ7F0uSC1Xg | 7 | measured | 1,014 | 93% | 29 |
 | 009 | RJ7F0uSC1Xg | 28 | due 2026-12-17 | - | - | - |
-| 010 | 0eqT7omUKg0 | 7 | measured | 1,005 | 95% | 23 |
+| 010 | 0eqT7omUKg0 | 7 | measured | 1,007 | 95% | 23 |
 | 010 | 0eqT7omUKg0 | 28 | due 2026-12-17 | - | - | - |
-| 010 | 9Wov8oOgXSM | 7 | measured | 985 | 64% | 21 |
+| 010 | 9Wov8oOgXSM | 7 | measured | 986 | 64% | 21 |
 | 010 | 9Wov8oOgXSM | 28 | due 2026-12-17 | - | - | - |
 | 010 | ughjJdoGf50 | 7 | due 2026-11-27 | - | - | - |
 | 010 | ughjJdoGf50 | 28 | due 2026-12-18 | - | - | - |

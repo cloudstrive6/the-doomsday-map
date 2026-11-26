@@ -10,7 +10,7 @@
     "C1@7d": {
       "label": "Long CTR",
       "target": 0.05,
-      "median": 0.0405,
+      "median": 0.0419,
       "n": 6,
       "met": false
     },
@@ -1065,13 +1065,13 @@
       "due": "2026-11-26",
       "snapshot": "2026-11-26",
       "status": "measured",
-      "views": 1013,
+      "views": 1014,
       "avp": 93.05,
       "avd": 29,
       "hold": 1.496,
       "subs": 2,
-      "ctr": 0.0236,
-      "impressions": 127
+      "ctr": 0.0227,
+      "impressions": 132
     },
     {
       "episode": "009-russia-attacks-baltic-72-hours",
@@ -1097,12 +1097,12 @@
       "snapshot": "2026-11-26",
       "status": "measured",
       "views": 22,
-      "avp": 25.08,
-      "avd": 170,
+      "avp": 22.54,
+      "avd": 153,
       "hold": null,
       "subs": 0,
-      "ctr": 0.0407,
-      "impressions": 123
+      "ctr": 0.0435,
+      "impressions": 138
     },
     {
       "episode": "010-tsar-bomba-over-new-york",
@@ -1127,13 +1127,13 @@
       "due": "2026-11-26",
       "snapshot": "2026-11-26",
       "status": "measured",
-      "views": 1005,
+      "views": 1007,
       "avp": 95.49,
       "avd": 23,
       "hold": null,
       "subs": 1,
-      "ctr": 0.0215,
-      "impressions": 93
+      "ctr": 0.0175,
+      "impressions": 114
     },
     {
       "episode": "010-tsar-bomba-over-new-york",
@@ -1158,13 +1158,13 @@
       "due": "2026-11-26",
       "snapshot": "2026-11-26",
       "status": "measured",
-      "views": 985,
+      "views": 986,
       "avp": 64.2,
       "avd": 21,
       "hold": null,
       "subs": 0,
-      "ctr": 0.0059,
-      "impressions": 170
+      "ctr": 0.0056,
+      "impressions": 180
     },
     {
       "episode": "010-tsar-bomba-over-new-york",
