@@ -1,0 +1,7929 @@
+{
+ "slug": "019-us-china-missile-stockpile-pacific-war",
+ "fps": 60,
+ "width": 1920,
+ "height": 1080,
+ "durationSeconds": 664.8,
+ "banner": {
+  "start": 1.33,
+  "end": 4.33
+ },
+ "musicPlan": [
+  {
+   "src": "bed_tense.mp3",
+   "from": 0,
+   "to": 36.655,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  },
+  {
+   "src": "bed.mp3",
+   "from": 34.655,
+   "to": 226.023,
+   "loop": [
+    2,
+    174
+   ],
+   "gain_db": -17
+  },
+  {
+   "src": "bed_tense.mp3",
+   "from": 224.023,
+   "to": 664.8,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  }
+ ],
+ "sfxPlan": [
+  {
+   "src": "impact.mp3",
+   "t": 35.805,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 104.54100000000001,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 225.173,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 287.5,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 417.69199999999995,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 524.813,
+   "gain_db": -9
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 123.57499999999999,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 152.512,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 614.861,
+   "gain_db": -14
+  },
+  {
+   "src": "boom.mp3",
+   "t": 1.73,
+   "gain_db": -4
+  },
+  {
+   "src": "boom.mp3",
+   "t": 421.39,
+   "gain_db": -4
+  },
+  {
+   "src": "boom.mp3",
+   "t": 435.55,
+   "gain_db": -4
+  }
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated.",
+ "shots": [
+  {
+   "id": "open-fly",
+   "type": "region",
+   "start": 0.0,
+   "end": 1.63,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     119.0,
+     22.2
+    ],
+    "widthKm": 1250
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      119.0,
+      22.2
+     ],
+     "widthKm": 1250
+    },
+    {
+     "t": 1.63,
+     "center": [
+      120.0,
+      21.8
+     ],
+     "widthKm": 1050
+    }
+   ],
+   "clock": "T-00:06",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 180.0,
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      116.0,
+      24.0
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 6,
+     "label": "DF-26 SITE (SIMULATED)",
+     "t": 0.1
+    },
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "kind": "ring",
+     "color": "#FF3B3B",
+     "size": 7,
+     "t": 0.5
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       116.0,
+       24.0
+      ],
+      [
+       121.9798,
+       20.4513
+      ]
+     ],
+     "t0": 0.05,
+     "t1": 1.63,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 26,
+     "wake": true,
+     "label": "DF-26",
+     "t": 0.05
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      116.0,
+      24.0
+     ],
+     "to": [
+      121.9798,
+      20.4513
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 1.53,
+     "width": 2
+    }
+   ]
+  },
+  {
+   "id": "open-flash",
+   "type": "city",
+   "start": 1.63,
+   "end": 7.096,
+   "tag": "SIMULATION",
+   "city": "basco-batan",
+   "view": {
+    "center": [
+     121.9798,
+     20.4513
+    ],
+    "widthKm": 9
+   },
+   "gz": [
+    121.9798,
+    20.4513
+   ],
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 9
+    },
+    {
+     "t": 1.6,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 4.2
+    },
+    {
+     "t": 5.47,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 2.6
+    }
+   ],
+   "rings": [
+    {
+     "km": 1.158,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 1.2,
+     "angle": 225
+    },
+    {
+     "km": 3.134,
+     "label": "1 PSI",
+     "color": "#3ED6C8",
+     "t": 2.4,
+     "angle": 225
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      121.9798,
+      20.46842
+     ],
+     "text": "BASCO AIRPORT: 5 KT AIRBURST (SIMULATED)",
+     "color": "#FFFFFF",
+     "t": 0.9
+    }
+   ],
+   "flashT": 0.1
+  },
+  {
+   "id": "open-after",
+   "type": "region",
+   "start": 7.096,
+   "end": 10.609,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     121.9798,
+     20.4513
+    ],
+    "widthKm": 420
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 420
+    },
+    {
+     "t": 1.5,
+     "center": [
+      120.0,
+      21.8
+     ],
+     "widthKm": 800
+    },
+    {
+     "t": 3.51,
+     "center": [
+      119.2,
+      22.6
+     ],
+     "widthKm": 1150
+    }
+   ],
+   "clock": "T+00:30",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 1,
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "burst": {
+    "at": [
+     121.9798,
+     20.4513
+    ],
+    "t": -5.0,
+    "km": 4,
+    "fade": 9
+   },
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "158",
+     "text": "TAIWAN",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      116.0,
+      24.0
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 6,
+     "label": "DF-26 SITE (SIMULATED)",
+     "t": 1.6
+    },
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "kind": "ring",
+     "color": "#FF3B3B",
+     "size": 7,
+     "label": "BATAN ISLAND",
+     "t": 0.2
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      116.0,
+      24.0
+     ],
+     "to": [
+      121.9798,
+      20.4513
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 1.2,
+     "t1": 2.6,
+     "width": 2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      122.36442,
+      20.09094
+     ],
+     "text": "IT HAS NOT HAPPENED",
+     "color": "#FFD23F",
+     "t": 2.01
+    },
+    {
+     "at": [
+      120.6,
+      21.3
+     ],
+     "text": "LUZON STRAIT",
+     "color": "#FFFFFF",
+     "t": 2.2
+    }
+   ]
+  },
+  {
+   "id": "open-launch",
+   "type": "region",
+   "start": 10.609,
+   "end": 16.451,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     118.5,
+     22.5
+    ],
+    "widthKm": 1700
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      118.5,
+      22.5
+     ],
+     "widthKm": 1700
+    },
+    {
+     "t": 5.84,
+     "center": [
+      118.5,
+      22.5
+     ],
+     "widthKm": 1000
+    }
+   ],
+   "caption": "Six minutes earlier.",
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 13.49,
+   "cities": [
+    {
+     "at": [
+      116.0,
+      24.0
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 7,
+     "label": "DF-26 SITE (SIMULATED)",
+     "t": 3.76
+    },
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "kind": "ring",
+     "color": "#FF3B3B",
+     "size": 7,
+     "t": 0.3
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       116.0,
+       24.0
+      ],
+      [
+       117.30884,
+       23.22327
+      ]
+     ],
+     "t0": 3.1,
+     "t1": 5.84,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 26,
+     "wake": true,
+     "label": "DF-26",
+     "t": 3.12
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      116.0,
+      24.0
+     ],
+     "to": [
+      121.9798,
+      20.4513
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 3.1,
+     "t1": 4.6,
+     "width": 2,
+     "label": "731 KM"
+    }
+   ]
+  },
+  {
+   "id": "open-df26",
+   "type": "region",
+   "start": 16.451,
+   "end": 23.25,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     118.8,
+     22.6
+    ],
+    "widthKm": 1250
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      118.8,
+      22.6
+     ],
+     "widthKm": 1250
+    },
+    {
+     "t": 3.0,
+     "center": [
+      120.0,
+      21.8
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 6.8,
+     "center": [
+      120.0,
+      21.8
+     ],
+     "widthKm": 750
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "608",
+     "text": "PHILIPPINES",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "158",
+     "text": "TAIWAN",
+     "color": "#3ED6C8"
+    }
+   ],
+   "clock": "T+01:19",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 28.75,
+   "ships": [
+    {
+     "path": [
+      [
+       117.30884,
+       23.22327
+      ],
+      [
+       120.5554,
+       21.29661
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.8,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 26,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      116.0,
+      24.0
+     ],
+     "to": [
+      121.9798,
+      20.4513
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.05,
+     "t1": 0.6,
+     "width": 2
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      116.0,
+      24.0
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 6,
+     "label": "GUANGDONG",
+     "t": 0.2
+    },
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "BASCO AIRPORT, BATAN ISLAND",
+     "t": 3.8
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      117.44231,
+      24.63063
+     ],
+     "text": "A DF-26: CONVENTIONAL OR NUCLEAR",
+     "color": "#FF3B3B",
+     "t": 0.62
+    },
+    {
+     "at": [
+      121.9798,
+      21.08193
+     ],
+     "text": "LUZON STRAIT",
+     "color": "#FFFFFF",
+     "t": 5.48
+    }
+   ]
+  },
+  {
+   "id": "open-battery",
+   "type": "region",
+   "start": 23.25,
+   "end": 26.833,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     121.9798,
+     20.4513
+    ],
+    "widthKm": 450
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 450
+    },
+    {
+     "t": 1.7,
+     "center": [
+      121.4,
+      20.4
+     ],
+     "widthKm": 650
+    },
+    {
+     "t": 3.58,
+     "center": [
+      121.4,
+      20.2
+     ],
+     "widthKm": 520
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+04:34",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 23.93,
+   "ships": [
+    {
+     "path": [
+      [
+       120.5554,
+       21.29661
+      ],
+      [
+       121.9798,
+       20.4513
+      ]
+     ],
+     "t0": 0,
+     "t1": 2.98,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 26,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "US LAUNCHERS (SIMULATED)",
+     "t": 0.48
+    },
+    {
+     "at": [
+      120.532,
+      18.178
+     ],
+     "kind": "dot",
+     "color": "#FFFFFF",
+     "size": 5,
+     "label": "LUZON",
+     "t": 0.3
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "608",
+     "text": "PHILIPPINES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "km": 8,
+     "color": "#FF3B3B",
+     "t": 1.1,
+     "dashed": false
+    }
+   ]
+  },
+  {
+   "id": "open-day6",
+   "type": "region",
+   "start": 26.833,
+   "end": 29.31,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     121.9798,
+     20.4513
+    ],
+    "widthKm": 450
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 450
+    },
+    {
+     "t": 2.48,
+     "center": [
+      119.5,
+      22.0
+     ],
+     "widthKm": 1300
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 06",
+   "clockLabel": "SIMULATED WAR",
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "158",
+     "text": "TAIWAN",
+     "color": "#3ED6C8"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "DAY SIX: BASCO",
+     "t": 0.2
+    },
+    {
+     "at": [
+      116.0,
+      24.0
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 6,
+     "label": "DF-26 SITE (SIMULATED)",
+     "t": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      116.0,
+      24.0
+     ],
+     "to": [
+      121.9798,
+      20.4513
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.5,
+     "t1": 1.6,
+     "width": 2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      122.07595,
+      20.99184
+     ],
+     "text": "LUZON STRAIT",
+     "color": "#FFFFFF",
+     "t": 0.7
+    },
+    {
+     "at": [
+      121.40288,
+      19.91076
+     ],
+     "text": "BATAN ISLANDS",
+     "color": "#6EA8FF",
+     "t": 1.2
+    }
+   ]
+  },
+  {
+   "id": "open-short",
+   "type": "region",
+   "start": 29.31,
+   "end": 35.655,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     124.0,
+     24.0
+    ],
+    "widthKm": 4300
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      124.0,
+      24.0
+     ],
+     "widthKm": 4300
+    },
+    {
+     "t": 2.5,
+     "center": [
+      123.0,
+      25.0
+     ],
+     "widthKm": 3300
+    },
+    {
+     "t": 6.35,
+     "center": [
+      123.0,
+      25.0
+     ],
+     "widthKm": 2600
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 06",
+   "clockLabel": "SIMULATED WAR",
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "608",
+     "text": "PHILIPPINES",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      116.4,
+      39.9
+     ],
+     "kind": "dot",
+     "color": "#F2B01E",
+     "size": 6,
+     "label": "BEIJING",
+     "t": 0.3
+    },
+    {
+     "at": [
+      139.7,
+      35.7
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 6,
+     "label": "TOKYO",
+     "t": 0.5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      112.0,
+      20.0
+     ],
+     "text": "CHINA'S MISSILES",
+     "color": "#F2B01E",
+     "t": 1.43
+    },
+    {
+     "at": [
+      133.0,
+      17.0
+     ],
+     "text": "AMERICA'S MISSILES",
+     "color": "#6EA8FF",
+     "t": 2.16
+    },
+    {
+     "at": [
+      124.0,
+      33.0
+     ],
+     "text": "WHO RUNS SHORT FIRST?",
+     "color": "#FFD23F",
+     "t": 2.52
+    }
+   ]
+  },
+  {
+   "id": "c1-card",
+   "type": "chapter",
+   "start": 35.655,
+   "end": 39.355,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 01",
+   "title": "The first four days of the Iran war"
+  },
+  {
+   "id": "c1-iran",
+   "type": "region",
+   "start": 39.355,
+   "end": 44.4,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     48.0,
+     31.0
+    ],
+    "widthKm": 3800
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      48.0,
+      31.0
+     ],
+     "widthKm": 3800
+    },
+    {
+     "t": 2.5,
+     "center": [
+      46.0,
+      31.0
+     ],
+     "widthKm": 2800
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#FFFFFF",
+     "fill": "rgba(255,255,255,0.07)"
+    },
+    {
+     "iso": "376",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "US AND ISRAEL",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "CSIS; RUSI",
+   "caption": "28 February 2026",
+   "countryLabels": [
+    {
+     "iso": "364",
+     "text": "IRAN",
+     "color": "#FFFFFF"
+    },
+    {
+     "iso": "376",
+     "text": "ISRAEL",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      51.4,
+      35.7
+     ],
+     "kind": "dot",
+     "color": "#FFFFFF",
+     "size": 6,
+     "label": "TEHRAN",
+     "t": 0.4
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       34.8,
+       31.8
+      ],
+      [
+       44.0,
+       33.0
+      ],
+      [
+       51.4,
+       35.7
+      ]
+     ],
+     "t0": 2.4,
+     "t1": 4.84,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 22,
+     "wake": true,
+     "label": "US + ISRAEL",
+     "t": 2.4
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      57.0,
+      36.5
+     ],
+     "text": "THE UNITED STATES JOINED",
+     "color": "#6EA8FF",
+     "t": 1.68
+    }
+   ]
+  },
+  {
+   "id": "c1-5000",
+   "type": "region",
+   "start": 44.4,
+   "end": 49.0,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     52.0,
+     31.0
+    ],
+    "widthKm": 2200
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      52.0,
+      31.0
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 4.6,
+     "center": [
+      52.0,
+      30.0
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#FFFFFF",
+     "fill": "rgba(255,255,255,0.07)"
+    },
+    {
+     "iso": "376",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#FFFFFF"
+    }
+   ],
+   "source": "RUSI",
+   "countryLabels": [
+    {
+     "iso": "364",
+     "text": "IRAN",
+     "color": "#FFFFFF"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       52.0,
+       27.0
+      ],
+      [
+       51.0,
+       31.5
+      ],
+      [
+       51.4,
+       35.7
+      ]
+     ],
+     "t0": 0.4,
+     "t1": 4.6,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 20,
+     "wake": true,
+     "label": "MUNITIONS",
+     "t": 0.4
+    },
+    {
+     "path": [
+      [
+       52.0,
+       27.0
+      ],
+      [
+       51.0,
+       31.5
+      ],
+      [
+       51.4,
+       35.7
+      ]
+     ],
+     "t0": 0.7,
+     "t1": 4.6,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 20,
+     "wake": true,
+     "t": 0.7
+    },
+    {
+     "path": [
+      [
+       52.0,
+       27.0
+      ],
+      [
+       51.0,
+       31.5
+      ],
+      [
+       51.4,
+       35.7
+      ]
+     ],
+     "t0": 1.0,
+     "t1": 4.6,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 20,
+     "wake": true,
+     "t": 1.0
+    },
+    {
+     "path": [
+      [
+       52.0,
+       27.0
+      ],
+      [
+       51.0,
+       31.5
+      ],
+      [
+       51.4,
+       35.7
+      ]
+     ],
+     "t0": 1.3,
+     "t1": 4.6,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 20,
+     "wake": true,
+     "t": 1.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      57.0,
+      34.2
+     ],
+     "text": "5,000+ MUNITIONS IN 96 HOURS",
+     "color": "#FF3B3B",
+     "t": 1.61
+    }
+   ]
+  },
+  {
+   "id": "c1-11300",
+   "type": "number",
+   "start": 49.0,
+   "end": 53.0,
+   "tag": "REAL DATA",
+   "value": "11,300",
+   "label": "munitions fired by day 16",
+   "sub": "RUSI",
+   "color": "#FF3B3B",
+   "source": "RUSI"
+  },
+  {
+   "id": "c1-kinds",
+   "type": "region",
+   "start": 53.0,
+   "end": 62.39,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     118.0,
+     24.0
+    ],
+    "widthKm": 5200
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      118.0,
+      24.0
+     ],
+     "widthKm": 5200
+    },
+    {
+     "t": 3.0,
+     "center": [
+      124.0,
+      24.0
+     ],
+     "widthKm": 4200
+    },
+    {
+     "t": 6.5,
+     "center": [
+      124.0,
+      24.0
+     ],
+     "widthKm": 3200
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "CSIS; one estimate",
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "608",
+     "text": "PHILIPPINES",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      100.0,
+      40.0
+     ],
+     "text": "COST: NEAR $26 BILLION (ONE ESTIMATE)",
+     "color": "#F2B01E",
+     "t": 2.77
+    },
+    {
+     "at": [
+      134.0,
+      18.0
+     ],
+     "text": "THE SAME MISSILES A PACIFIC WAR NEEDS",
+     "color": "#6EA8FF",
+     "t": 6.09
+    }
+   ]
+  },
+  {
+   "id": "c1-small",
+   "type": "region",
+   "start": 62.39,
+   "end": 66.93,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     121.0,
+     21.0
+    ],
+    "widthKm": 3600
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.0,
+      21.0
+     ],
+     "widthKm": 3600
+    },
+    {
+     "t": 2.5,
+     "center": [
+      121.0,
+      21.0
+     ],
+     "widthKm": 2800
+    },
+    {
+     "t": 4.54,
+     "center": [
+      121.0,
+      21.0
+     ],
+     "widthKm": 2300
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "CSIS",
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "608",
+     "text": "PHILIPPINES",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      135.0,
+      16.5
+     ],
+     "text": "PREWAR STOCKS: ALREADY TOO SMALL",
+     "color": "#FFD23F",
+     "t": 2.98
+    }
+   ]
+  },
+  {
+   "id": "c1-top",
+   "type": "region",
+   "start": 66.93,
+   "end": 75.032,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     121.5,
+     21.0
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.5,
+      21.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 3.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 8.1,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 450
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "608",
+     "text": "PHILIPPINES",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "158",
+     "text": "TAIWAN",
+     "color": "#3ED6C8"
+    }
+   ],
+   "clock": "DAY 06",
+   "clockLabel": "THE VIDEO'S OPENING",
+   "cities": [
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "BASCO: THE DAY SIX SHOT",
+     "t": 3.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      121.9798,
+      20.81166
+     ],
+     "text": "BELONGS TO THIS WAR",
+     "color": "#FFFFFF",
+     "t": 5.9
+    }
+   ]
+  },
+  {
+   "id": "c1-tlam",
+   "type": "bars",
+   "start": 75.032,
+   "end": 79.0,
+   "tag": "REAL DATA",
+   "title": "TOMAHAWK STOCK, ONE ESTIMATE",
+   "sub": "CSIS, April 2026",
+   "bars": [
+    {
+     "label": "BEFORE THE WAR",
+     "value": 3100,
+     "display": "ABOUT 3,100",
+     "color": "#6EA8FF"
+    },
+    {
+     "label": "FIRED",
+     "value": 1000,
+     "display": "MORE THAN 1,000",
+     "color": "#FF3B3B"
+    }
+   ],
+   "source": "CSIS"
+  },
+  {
+   "id": "c1-fired",
+   "type": "region",
+   "start": 79.0,
+   "end": 91.873,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     50.0,
+     30.0
+    ],
+    "widthKm": 2600
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      50.0,
+      30.0
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 4.0,
+     "center": [
+      53.0,
+      28.0
+     ],
+     "widthKm": 1900
+    },
+    {
+     "t": 8.5,
+     "center": [
+      -77.04,
+      38.9
+     ],
+     "widthKm": 2600
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "364",
+     "color": "#FFFFFF",
+     "fill": "rgba(255,255,255,0.07)"
+    },
+    {
+     "iso": "376",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "OUTSIDE ESTIMATES",
+     "color": "#FFFFFF"
+    }
+   ],
+   "source": "CSIS",
+   "countryLabels": [
+    {
+     "iso": "364",
+     "text": "IRAN",
+     "color": "#FFFFFF"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       56.0,
+       24.0
+      ],
+      [
+       54.0,
+       28.0
+      ],
+      [
+       51.4,
+       35.7
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 6.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 20,
+     "wake": true,
+     "label": "TOMAHAWKS",
+     "t": 0.5
+    },
+    {
+     "path": [
+      [
+       56.0,
+       24.0
+      ],
+      [
+       54.0,
+       28.0
+      ],
+      [
+       51.4,
+       35.7
+      ]
+     ],
+     "t0": 0.9,
+     "t1": 6.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 20,
+     "wake": true,
+     "t": 0.9
+    },
+    {
+     "path": [
+      [
+       56.0,
+       24.0
+      ],
+      [
+       54.0,
+       28.0
+      ],
+      [
+       51.4,
+       35.7
+      ]
+     ],
+     "t0": 1.3,
+     "t1": 6.0,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 20,
+     "wake": true,
+     "t": 1.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      58.0,
+      34.5
+     ],
+     "text": "MORE THAN 1,000 FIRED",
+     "color": "#FF3B3B",
+     "t": 5.76
+    },
+    {
+     "at": [
+      -76.07846,
+      37.54865
+     ],
+     "text": "THESE ARE OUTSIDE ESTIMATES",
+     "color": "#FFD23F",
+     "t": 7.57
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "REAL INVENTORIES ARE CLASSIFIED",
+     "t": 9.99
+    }
+   ]
+  },
+  {
+   "id": "c1-paused",
+   "type": "region",
+   "start": 91.873,
+   "end": 104.391,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     52.0,
+     30.0
+    ],
+    "widthKm": 2700
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      52.0,
+      30.0
+     ],
+     "widthKm": 2700
+    },
+    {
+     "t": 4.5,
+     "center": [
+      54.0,
+      27.0
+     ],
+     "widthKm": 1700
+    },
+    {
+     "t": 8.5,
+     "center": [
+      90.0,
+      22.0
+     ],
+     "widthKm": 9000
+    },
+    {
+     "t": 12.52,
+     "center": [
+      122.0,
+      24.0
+     ],
+     "widthKm": 5200
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    },
+    {
+     "iso": "364",
+     "color": "#FFFFFF",
+     "fill": "rgba(255,255,255,0.07)"
+    },
+    {
+     "iso": "376",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "IRAN",
+     "color": "#FFFFFF"
+    }
+   ],
+   "source": "CSIS; RUSI",
+   "countryLabels": [
+    {
+     "iso": "364",
+     "text": "IRAN",
+     "color": "#FFFFFF"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      58.0,
+      34.5
+     ],
+     "text": "WAR PAUSED, NOT RESOLVED",
+     "color": "#FFD23F",
+     "t": 2.68
+    },
+    {
+     "at": [
+      125.0,
+      33.0
+     ],
+     "text": "THE OTHER OCEAN",
+     "color": "#6EA8FF",
+     "t": 10.52
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      56.3,
+      26.5
+     ],
+     "kind": "dot",
+     "color": "#FFFFFF",
+     "size": 6,
+     "label": "STRAIT OF HORMUZ",
+     "t": 1.5
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      56.5,
+      26.8
+     ],
+     "to": [
+      57.5,
+      25.2
+     ],
+     "color": "#FF3B3B",
+     "dashed": false,
+     "t0": 5.28,
+     "t1": 6.58,
+     "width": 5,
+     "label": "BLOCKADE"
+    }
+   ]
+  },
+  {
+   "id": "c2-card",
+   "type": "chapter",
+   "start": 104.391,
+   "end": 108.091,
+   "tag": "REAL HISTORY",
+   "kicker": "CHAPTER 02",
+   "title": "Running short"
+  },
+  {
+   "id": "c2-libya",
+   "type": "region",
+   "start": 108.091,
+   "end": 123.975,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     15.0,
+     36.0
+    ],
+    "widthKm": 3200
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      15.0,
+      36.0
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 4.0,
+     "center": [
+      15.0,
+      36.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 8.0,
+     "center": [
+      10.0,
+      43.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 12.0,
+     "center": [
+      12.0,
+      40.0
+     ],
+     "widthKm": 3800
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "434",
+     "color": "#FFFFFF",
+     "fill": "rgba(255,255,255,0.08)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "LIBYA",
+     "color": "#FFFFFF"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "Reports at the time; NATO",
+   "caption": "June 2011, eleven weeks in",
+   "countryLabels": [
+    {
+     "iso": "434",
+     "text": "LIBYA",
+     "color": "#FFFFFF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      13.2,
+      32.9
+     ],
+     "kind": "dot",
+     "color": "#FFFFFF",
+     "size": 6,
+     "label": "TRIPOLI",
+     "t": 0.5
+    },
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "NATO, BRUSSELS",
+     "t": 8.96
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      13.2,
+      32.9
+     ],
+     "to": [
+      4.35,
+      50.85
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 10.0,
+     "t1": 11.6,
+     "width": 3,
+     "label": "ALLIES RUNNING SHORT"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      14.0,
+      34.0
+     ],
+     "text": "A SMALL WAR FOUND THE LIMIT",
+     "color": "#FFD23F",
+     "t": 14.68
+    }
+   ]
+  },
+  {
+   "id": "c2-inf",
+   "type": "stamp",
+   "start": 123.975,
+   "end": 127.575,
+   "tag": "REAL HISTORY",
+   "text": "AUGUST 2019",
+   "line": "The United States leaves a treaty that banned land-based missiles of this range",
+   "color": "#6EA8FF",
+   "source": "Reports at the time"
+  },
+  {
+   "id": "c2-test",
+   "type": "region",
+   "start": 127.575,
+   "end": 145.918,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     112.0,
+     30.0
+    ],
+    "widthKm": 4800
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      112.0,
+      30.0
+     ],
+     "widthKm": 4800
+    },
+    {
+     "t": 4.0,
+     "center": [
+      108.0,
+      28.0
+     ],
+     "widthKm": 3600
+    },
+    {
+     "t": 8.0,
+     "center": [
+      112.0,
+      28.0
+     ],
+     "widthKm": 2600
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "US Department of Defense; CSIS",
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      125.0,
+      38.0
+     ],
+     "text": "500+ KM, 16 DAYS LATER",
+     "color": "#6EA8FF",
+     "t": 0.5
+    },
+    {
+     "at": [
+      100.0,
+      24.0
+     ],
+     "text": "CHINA: OUTSIDE THE TREATY",
+     "color": "#FFD23F",
+     "t": 13.99
+    },
+    {
+     "at": [
+      100.0,
+      20.5
+     ],
+     "text": "THE LARGEST SUCH FORCE",
+     "color": "#F2B01E",
+     "t": 16.52
+    }
+   ]
+  },
+  {
+   "id": "c2-typhon",
+   "type": "region",
+   "start": 145.918,
+   "end": 152.912,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     121.0,
+     17.0
+    ],
+    "widthKm": 1400
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.0,
+      17.0
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 4.5,
+     "center": [
+      120.5,
+      16.0
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 8.5,
+     "center": [
+      128.0,
+      28.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 6.99,
+     "center": [
+      132.236,
+      34.144
+     ],
+     "widthKm": 1000
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "Reports at the time",
+   "countryLabels": [
+    {
+     "iso": "608",
+     "text": "PHILIPPINES",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      120.9,
+      15.5
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "TYPHON SENT TO THE PHILIPPINES",
+     "t": 3.61
+    },
+    {
+     "at": [
+      132.236,
+      34.144
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "TYPHON SHOWN IN JAPAN",
+     "t": 5.47
+    }
+   ]
+  },
+  {
+   "id": "c2-csis",
+   "type": "stamp",
+   "start": 152.912,
+   "end": 156.512,
+   "tag": "REAL HISTORY",
+   "text": "JANUARY 2023",
+   "line": "CSIS wargame: a Chinese invasion of Taiwan, played 24 times",
+   "color": "#FFFFFF",
+   "source": "CSIS, The First Battle of the Next War"
+  },
+  {
+   "id": "c2-game",
+   "type": "region",
+   "start": 156.512,
+   "end": 165.858,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     121.0,
+     24.0
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.0,
+      24.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 3.0,
+     "center": [
+      121.5,
+      24.0
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 6.0,
+     "center": [
+      121.0,
+      23.5
+     ],
+     "widthKm": 1700
+    },
+    {
+     "t": 9.35,
+     "center": [
+      121.5,
+      24.0
+     ],
+     "widthKm": 1300
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "TAIWAN",
+     "color": "#3ED6C8"
+    },
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ],
+   "source": "CSIS",
+   "countryLabels": [
+    {
+     "iso": "158",
+     "text": "TAIWAN",
+     "color": "#3ED6C8"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      118.2,
+      22.5
+     ],
+     "text": "CHINESE INVASION",
+     "color": "#F2B01E",
+     "t": 2.34
+    },
+    {
+     "at": [
+      124.0,
+      21.5
+     ],
+     "text": "PLAYED 24 TIMES",
+     "color": "#FFFFFF",
+     "t": 4.5
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      121.5,
+      25.05
+     ],
+     "kind": "target",
+     "color": "#3ED6C8",
+     "size": 8,
+     "label": "TAIWAN",
+     "t": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      119.2,
+      25.3
+     ],
+     "to": [
+      120.6,
+      24.9
+     ],
+     "color": "#F2B01E",
+     "dashed": true,
+     "t0": 0.5,
+     "t1": 1.8,
+     "width": 4
+    }
+   ]
+  },
+  {
+   "id": "c2-bars",
+   "type": "bars",
+   "start": 165.858,
+   "end": 171.358,
+   "tag": "REAL HISTORY",
+   "title": "WHEN THE US RAN OUT, CSIS WARGAME",
+   "sub": "Days until the stock ran out",
+   "bars": [
+    {
+     "label": "LRASM (ANTI-SHIP)",
+     "value": 7,
+     "display": "3 TO 7 DAYS",
+     "color": "#FF3B3B"
+    },
+    {
+     "label": "JASSM-ER",
+     "value": 30,
+     "display": "ABOUT 30 DAYS",
+     "color": "#F2B01E"
+    }
+   ],
+   "source": "CSIS (2023 wargame)"
+  },
+  {
+   "id": "c2-shape",
+   "type": "region",
+   "start": 171.358,
+   "end": 188.161,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     124.0,
+     24.0
+    ],
+    "widthKm": 4200
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      124.0,
+      24.0
+     ],
+     "widthKm": 4200
+    },
+    {
+     "t": 4.0,
+     "center": [
+      122.0,
+      24.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 8.7,
+     "center": [
+      119.0,
+      22.2
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 16.8,
+     "center": [
+      119.5,
+      22.0
+     ],
+     "widthKm": 1000
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "DF-26 FLIGHT",
+   "clockRate": 21.42,
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "608",
+     "text": "PHILIPPINES",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       116.0,
+       24.0
+      ],
+      [
+       121.9798,
+       20.4513
+      ]
+     ],
+     "t0": 9.0,
+     "t1": 16.6,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 24,
+     "wake": true,
+     "label": "DF-26",
+     "t": 9.02
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      116.0,
+      24.0
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 6,
+     "label": "SIMULATED SITE",
+     "t": 8.7
+    },
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "kind": "ring",
+     "color": "#FF3B3B",
+     "size": 7,
+     "label": "BASCO",
+     "t": 9.1
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      134.0,
+      16.0
+     ],
+     "text": "THIS SIMULATION TAKES ITS SHAPE HERE",
+     "color": "#FFD23F",
+     "t": 7.33
+    },
+    {
+     "at": [
+      121.0,
+      25.8
+     ],
+     "text": "THE MISSILES FLY IN MINUTES",
+     "color": "#FF3B3B",
+     "t": 11.91
+    }
+   ]
+  },
+  {
+   "id": "c2-months",
+   "type": "number",
+   "start": 188.161,
+   "end": 193.161,
+   "tag": "REAL DATA",
+   "value": "42 TO 64 MONTHS",
+   "label": "to replace what is fired, from the day Congress pays",
+   "sub": "CSIS",
+   "color": "#F2B01E",
+   "source": "CSIS"
+  },
+  {
+   "id": "c2-df26",
+   "type": "region",
+   "start": 193.161,
+   "end": 210.209,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     114.0,
+     30.0
+    ],
+    "widthKm": 2400
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      114.0,
+      30.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 4.0,
+     "center": [
+      114.0,
+      26.0
+     ],
+     "widthKm": 4400
+    },
+    {
+     "t": 8.0,
+     "center": [
+      114.0,
+      24.0
+     ],
+     "widthKm": 6000
+    },
+    {
+     "t": 12.0,
+     "center": [
+      110.0,
+      30.0
+     ],
+     "widthKm": 4200
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "US Department of Defense; CSIS",
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "608",
+     "text": "PHILIPPINES",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      100.0,
+      40.0
+     ],
+     "text": "3,150+ BALLISTIC MISSILES, 2024",
+     "color": "#F2B01E",
+     "t": 3.4
+    },
+    {
+     "at": [
+      100.0,
+      36.0
+     ],
+     "text": "CONVENTIONAL OR NUCLEAR",
+     "color": "#FF3B3B",
+     "t": 13.41
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      116.0,
+      24.0
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "ABOUT 500 ARE DF-26S",
+     "t": 9.35
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      116.0,
+      24.0
+     ],
+     "km": 3000,
+     "color": "#F2B01E",
+     "t": 12.11,
+     "dashed": true,
+     "label": "DF-26 RANGE: 3,000 TO 4,000 KM"
+    }
+   ]
+  },
+  {
+   "id": "c2-79",
+   "type": "number",
+   "start": 210.209,
+   "end": 214.509,
+   "tag": "REAL DATA",
+   "value": "79 A YEAR",
+   "label": "Tomahawks built, five-year average",
+   "sub": "one estimate",
+   "color": "#6EA8FF",
+   "source": "CSIS"
+  },
+  {
+   "id": "c2-reload",
+   "type": "region",
+   "start": 214.509,
+   "end": 225.023,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     136.0,
+     28.0
+    ],
+    "widthKm": 1800
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      136.0,
+      28.0
+     ],
+     "widthKm": 1800
+    },
+    {
+     "t": 3.5,
+     "center": [
+      133.0,
+      26.0
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 7.0,
+     "center": [
+      131.0,
+      24.0
+     ],
+     "widthKm": 1600
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "CSIS",
+   "ships": [
+    {
+     "path": [
+      [
+       140.0,
+       29.0
+      ],
+      [
+       134.0,
+       26.0
+      ],
+      [
+       130.0,
+       24.0
+      ]
+     ],
+     "t0": 0.4,
+     "t1": 10.51,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 22,
+     "wake": true,
+     "label": "US SHIP",
+     "t": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      141.0,
+      22.5
+     ],
+     "text": "NO RELOAD AT SEA",
+     "color": "#FF3B3B",
+     "t": 4.56
+    },
+    {
+     "at": [
+      141.0,
+      19.5
+     ],
+     "text": "WHEN A MAGAZINE RUNS EMPTY?",
+     "color": "#FFD23F",
+     "t": 8.52
+    }
+   ]
+  },
+  {
+   "id": "c3-card",
+   "type": "chapter",
+   "start": 225.023,
+   "end": 228.723,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 03",
+   "title": "The first salvo"
+  },
+  {
+   "id": "c3-frame",
+   "type": "region",
+   "start": 228.723,
+   "end": 234.919,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     124.0,
+     24.0
+    ],
+    "widthKm": 4300
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      124.0,
+      24.0
+     ],
+     "widthKm": 4300
+    },
+    {
+     "t": 3.0,
+     "center": [
+      123.0,
+      25.0
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 5.5,
+     "center": [
+      121.0,
+      24.0
+     ],
+     "widthKm": 2200
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 01",
+   "clockLabel": "DAYS 01 TO 05",
+   "caption": "Every salvo size and launch site is our choice, not a published figure.",
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "608",
+     "text": "PHILIPPINES",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      134.0,
+      16.0
+     ],
+     "text": "CONVENTIONAL FOR FIVE DAYS",
+     "color": "#FFD23F",
+     "t": 0.05
+    }
+   ]
+  },
+  {
+   "id": "c3-laoag",
+   "type": "region",
+   "start": 234.919,
+   "end": 246.965,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     118.5,
+     21.5
+    ],
+    "widthKm": 1700
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      118.5,
+      21.5
+     ],
+     "widthKm": 1700
+    },
+    {
+     "t": 3.0,
+     "center": [
+      119.0,
+      21.0
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 7.0,
+     "center": [
+      120.532,
+      18.178
+     ],
+     "widthKm": 600
+    },
+    {
+     "t": 12.05,
+     "center": [
+      120.532,
+      18.178
+     ],
+     "widthKm": 330
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "DAY 01 · SINCE LAUNCH",
+   "clockRate": 30.88,
+   "countryLabels": [
+    {
+     "iso": "608",
+     "text": "PHILIPPINES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       116.5,
+       24.2
+      ],
+      [
+       120.532,
+       18.178
+      ]
+     ],
+     "t0": 3.45,
+     "t1": 10.45,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 24,
+     "wake": true,
+     "label": "DF-17",
+     "t": 3.47
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      116.5,
+      24.2
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 7,
+     "label": "GUANGDONG (SIMULATED)",
+     "t": 0.2
+    },
+    {
+     "at": [
+      120.532,
+      18.178
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "LAOAG AIRFIELD: US LAUNCHER SITE",
+     "t": 6.79
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      116.5,
+      24.2
+     ],
+     "to": [
+      120.532,
+      18.178
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 3.45,
+     "t1": 4.95,
+     "width": 2,
+     "label": "789 KM, 6 MIN"
+    }
+   ]
+  },
+  {
+   "id": "c3-iwakuni",
+   "type": "region",
+   "start": 246.965,
+   "end": 261.392,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     126.0,
+     31.0
+    ],
+    "widthKm": 2800
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      126.0,
+      31.0
+     ],
+     "widthKm": 2800
+    },
+    {
+     "t": 3.5,
+     "center": [
+      127.0,
+      32.0
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 7.0,
+     "center": [
+      124.0,
+      26.0
+     ],
+     "widthKm": 4400
+    },
+    {
+     "t": 10.5,
+     "center": [
+      124.0,
+      26.0
+     ],
+     "widthKm": 3600
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "DAY 01 · SINCE LAUNCH",
+   "clockRate": 29.11,
+   "ships": [
+    {
+     "path": [
+      [
+       119.5,
+       29.0
+      ],
+      [
+       132.236,
+       34.144
+      ]
+     ],
+     "t0": 3.37,
+     "t1": 8.37,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 24,
+     "wake": true,
+     "label": "DF-26",
+     "t": 3.39
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      119.5,
+      29.0
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 7,
+     "label": "ZHEJIANG (SIMULATED)",
+     "t": 0.2
+    },
+    {
+     "at": [
+      132.236,
+      34.144
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "MCAS IWAKUNI, JAPAN",
+     "t": 3.88
+    },
+    {
+     "at": [
+      120.532,
+      18.178
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 6,
+     "label": "LAOAG",
+     "t": 8.51
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      119.5,
+      29.0
+     ],
+     "to": [
+      132.236,
+      34.144
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 3.37,
+     "t1": 4.87,
+     "width": 2,
+     "label": "1,334 KM, 7 MIN"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      112.0,
+      18.0
+     ],
+     "text": "BOTH SITES ON ALLIED SOIL",
+     "color": "#FFD23F",
+     "t": 10.21
+    }
+   ]
+  },
+  {
+   "id": "c3-lrasm",
+   "type": "region",
+   "start": 261.392,
+   "end": 274.406,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     127.5,
+     27.4
+    ],
+    "widthKm": 900
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      127.5,
+      27.4
+     ],
+     "widthKm": 900
+    },
+    {
+     "t": 4.0,
+     "center": [
+      127.5,
+      27.4
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 8.0,
+     "center": [
+      127.5,
+      27.4
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 13.01,
+     "center": [
+      126.5,
+      27.4
+     ],
+     "widthKm": 800
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "DAY 01 · SINCE LAUNCH",
+   "clockRate": 95.29,
+   "ships": [
+    {
+     "path": [
+      [
+       129.5,
+       27.3
+      ],
+      [
+       126.5368,
+       27.44816
+      ]
+     ],
+     "t0": 5.61,
+     "t1": 13.01,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 24,
+     "wake": true,
+     "label": "LRASM",
+     "t": 5.63
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      129.5,
+      27.3
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "B-1B BOMBER (SIMULATED)",
+     "t": 0.3
+    },
+    {
+     "at": [
+      125.5,
+      27.5
+     ],
+     "kind": "target",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "PLA NAVY GROUP (SIMULATED)",
+     "t": 7.82
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      129.5,
+      27.3
+     ],
+     "to": [
+      125.5,
+      27.5
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 5.61,
+     "t1": 7.11,
+     "width": 2,
+     "label": "396 KM"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      125.88462,
+      28.04054
+     ],
+     "text": "28 MINUTES IN FLIGHT",
+     "color": "#FFFFFF",
+     "t": 11.0
+    }
+   ]
+  },
+  {
+   "id": "c3-watch",
+   "type": "region",
+   "start": 274.406,
+   "end": 287.35,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     124.0,
+     26.0
+    ],
+    "widthKm": 2200
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      124.0,
+      26.0
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 4.0,
+     "center": [
+      123.0,
+      25.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 8.0,
+     "center": [
+      124.5,
+      27.0
+     ],
+     "widthKm": 1700
+    },
+    {
+     "t": 12.0,
+     "center": [
+      124.0,
+      26.0
+     ],
+     "widthKm": 2500
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 01",
+   "clockLabel": "SIMULATED CRISIS",
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "608",
+     "text": "PHILIPPINES",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      125.5,
+      27.5
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "LRASM",
+     "t": 0.2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      134.0,
+      19.0
+     ],
+     "text": "THE FIRST US ROUND TO RUN OUT",
+     "color": "#FF3B3B",
+     "t": 3.48
+    },
+    {
+     "at": [
+      134.0,
+      22.0
+     ],
+     "text": "CSIS GAME: 3 TO 7 DAYS",
+     "color": "#F2B01E",
+     "t": 5.72
+    },
+    {
+     "at": [
+      134.0,
+      16.0
+     ],
+     "text": "WATCH HOW LONG IT LASTS HERE",
+     "color": "#FFD23F",
+     "t": 9.72
+    }
+   ]
+  },
+  {
+   "id": "c4-card",
+   "type": "chapter",
+   "start": 287.35,
+   "end": 291.05,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 04",
+   "title": "Day by day"
+  },
+  {
+   "id": "c4-d2",
+   "type": "region",
+   "start": 291.05,
+   "end": 300.19,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     122.0,
+     24.5
+    ],
+    "widthKm": 1000
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      122.0,
+      24.5
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 3.0,
+     "center": [
+      121.0,
+      24.8
+     ],
+     "widthKm": 650
+    },
+    {
+     "t": 8.0,
+     "center": [
+      118.0,
+      26.0
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 9.14,
+     "center": [
+      117.0,
+      26.0
+     ],
+     "widthKm": 1700
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+02:59",
+   "clockLabel": "DAY 02 · SINCE LAUNCH",
+   "clockRate": 198.33,
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       123.14,
+       23.6953
+      ],
+      [
+       119.5,
+       25.67
+      ]
+     ],
+     "t0": 0,
+     "t1": 9.1,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 24,
+     "wake": true,
+     "label": "TOMAHAWK",
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      123.5,
+      23.5
+     ],
+     "kind": "sub",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "US SUBMARINE (SIMULATED)",
+     "t": 0.3
+    },
+    {
+     "at": [
+      119.5,
+      25.67
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "LONGTIAN",
+     "t": 2.26
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      123.5,
+      23.5
+     ],
+     "to": [
+      119.5,
+      25.67
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 0.05,
+     "t1": 0.6,
+     "width": 2,
+     "label": "471 KM, 33 MIN"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      113.5,
+      29.5
+     ],
+     "text": "A STRIKE ON THE MAINLAND",
+     "color": "#FF3B3B",
+     "t": 4.36
+    }
+   ],
+   "caption": "RAND: such target choices move the nuclear threshold."
+  },
+  {
+   "id": "c4-154",
+   "type": "region",
+   "start": 300.19,
+   "end": 308.054,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     124.0,
+     24.0
+    ],
+    "widthKm": 1700
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      124.0,
+      24.0
+     ],
+     "widthKm": 1700
+    },
+    {
+     "t": 3.5,
+     "center": [
+      124.0,
+      23.5
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 7.86,
+     "center": [
+      124.0,
+      23.0
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 02",
+   "clockLabel": "SIMULATED CRISIS",
+   "cities": [
+    {
+     "at": [
+      123.5,
+      23.5
+     ],
+     "kind": "sub",
+     "color": "#6EA8FF",
+     "size": 9,
+     "label": "ONE SUBMARINE: UP TO 154 TOMAHAWKS",
+     "t": 4.98
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       126.0,
+       22.5
+      ],
+      [
+       123.5,
+       23.5
+      ]
+     ],
+     "t0": 0.3,
+     "t1": 7.86,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 22,
+     "wake": true,
+     "t": 0.3
+    }
+   ]
+  },
+  {
+   "id": "c4-subic",
+   "type": "region",
+   "start": 308.054,
+   "end": 320.49,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     117.0,
+     19.0
+    ],
+    "widthKm": 1900
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      117.0,
+      19.0
+     ],
+     "widthKm": 1900
+    },
+    {
+     "t": 3.0,
+     "center": [
+      118.5,
+      17.0
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 5.5,
+     "center": [
+      120.27,
+      14.8
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 12.44,
+     "center": [
+      120.5,
+      16.5
+     ],
+     "widthKm": 1700
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "DAY 03 · SINCE LAUNCH",
+   "clockRate": 32.33,
+   "countryLabels": [
+    {
+     "iso": "608",
+     "text": "PHILIPPINES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       113.5,
+       24.0
+      ],
+      [
+       120.27,
+       14.8
+      ]
+     ],
+     "t0": 0.4,
+     "t1": 4.5,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 24,
+     "wake": true,
+     "label": "DF-26",
+     "t": 0.42
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      113.5,
+      24.0
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 7,
+     "label": "GUANGDONG (SIMULATED)",
+     "t": 0.2
+    },
+    {
+     "at": [
+      120.27,
+      14.8
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "SUBIC BAY: WHERE SHIPS RELOAD",
+     "t": 3.24
+    },
+    {
+     "at": [
+      120.98,
+      14.6
+     ],
+     "kind": "dot",
+     "color": "#FFFFFF",
+     "size": 5,
+     "label": "MANILA",
+     "t": 6.0
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      113.5,
+      24.0
+     ],
+     "to": [
+      120.27,
+      14.8
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.4,
+     "t1": 1.6,
+     "width": 2,
+     "label": "1,245 KM, 7 MIN"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      118.82769,
+      15.88108
+     ],
+     "text": "AN ALLY OF ONE SIDE",
+     "color": "#6EA8FF",
+     "t": 9.26
+    },
+    {
+     "at": [
+      118.82769,
+      15.61081
+     ],
+     "text": "A TARGET OF THE OTHER",
+     "color": "#FF3B3B",
+     "t": 11.0
+    }
+   ]
+  },
+  {
+   "id": "c4-line",
+   "type": "region",
+   "start": 320.49,
+   "end": 325.847,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     120.5,
+     16.5
+    ],
+    "widthKm": 1700
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      120.5,
+      16.5
+     ],
+     "widthKm": 1700
+    },
+    {
+     "t": 3.0,
+     "center": [
+      121.0,
+      19.0
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 5.36,
+     "center": [
+      121.0,
+      20.0
+     ],
+     "widthKm": 2000
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 03",
+   "clockLabel": "SIMULATED CRISIS",
+   "labels": [
+    {
+     "at": [
+      126.0,
+      21.0
+     ],
+     "text": "THE LINE GETS HARDER TO HOLD",
+     "color": "#FFD23F",
+     "t": 3.44
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "kind": "dot",
+     "color": "#FFFFFF",
+     "size": 5,
+     "label": "BATAN",
+     "t": 2.0
+    }
+   ]
+  },
+  {
+   "id": "c4-choice",
+   "type": "region",
+   "start": 325.847,
+   "end": 338.935,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     125.0,
+     26.0
+    ],
+    "widthKm": 3200
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      125.0,
+      26.0
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 4.0,
+     "center": [
+      124.0,
+      25.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 8.5,
+     "center": [
+      124.0,
+      25.0
+     ],
+     "widthKm": 3600
+    },
+    {
+     "t": 13.09,
+     "center": [
+      123.0,
+      25.0
+     ],
+     "widthKm": 2800
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 04",
+   "clockLabel": "SIMULATED CRISIS",
+   "caption": "Not a prediction: our modelling choice.",
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "608",
+     "text": "PHILIPPINES",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      134.0,
+      18.0
+     ],
+     "text": "THE FAST END OF THE RANGE",
+     "color": "#FFD23F",
+     "t": 7.32
+    }
+   ]
+  },
+  {
+   "id": "c4-d5",
+   "type": "region",
+   "start": 338.935,
+   "end": 353.021,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     122.0,
+     25.5
+    ],
+    "widthKm": 1200
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      122.0,
+      25.5
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 3.0,
+     "center": [
+      121.5,
+      25.5
+     ],
+     "widthKm": 800
+    },
+    {
+     "t": 6.5,
+     "center": [
+      121.0,
+      25.5
+     ],
+     "widthKm": 650
+    },
+    {
+     "t": 14.09,
+     "center": [
+      121.5,
+      25.5
+     ],
+     "widthKm": 1000
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "DAY 05 · SINCE LAUNCH",
+   "clockRate": 159.97,
+   "ships": [
+    {
+     "path": [
+      [
+       124.5,
+       25.0
+      ],
+      [
+       119.28131,
+       25.83872
+      ]
+     ],
+     "t0": 3.83,
+     "t1": 14.09,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 24,
+     "wake": true,
+     "label": "JASSM-ER",
+     "t": 3.85
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      124.5,
+      25.0
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "B-1B BOMBER (SIMULATED)",
+     "t": 0.3
+    },
+    {
+     "at": [
+      118.9,
+      25.9
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "ROCKET FORCE BASE (SIMULATED)",
+     "t": 5.92
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      124.5,
+      25.0
+     ],
+     "to": [
+      118.9,
+      25.9
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 3.83,
+     "t1": 5.33,
+     "width": 2,
+     "label": "571 KM, 40 MIN"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      125.8,
+      28.0
+     ],
+     "text": "40 MINUTES",
+     "color": "#FFFFFF",
+     "t": 9.15
+    }
+   ]
+  },
+  {
+   "id": "c4-30",
+   "type": "region",
+   "start": 353.021,
+   "end": 358.631,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     124.0,
+     26.0
+    ],
+    "widthKm": 2200
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      124.0,
+      26.0
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 3.0,
+     "center": [
+      123.0,
+      25.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 5.61,
+     "center": [
+      123.0,
+      25.0
+     ],
+     "widthKm": 2400
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 05",
+   "clockLabel": "SIMULATED CRISIS",
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      134.0,
+      20.0
+     ],
+     "text": "CSIS GAME: JASSM-ER LASTED ABOUT 30 DAYS",
+     "color": "#F2B01E",
+     "t": 0.05
+    },
+    {
+     "at": [
+      134.0,
+      17.0
+     ],
+     "text": "HERE IT IS ONLY STARTING",
+     "color": "#6EA8FF",
+     "t": 1.09
+    }
+   ]
+  },
+  {
+   "id": "c4-keep",
+   "type": "region",
+   "start": 358.631,
+   "end": 367.309,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     122.0,
+     21.0
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      122.0,
+      21.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 3.0,
+     "center": [
+      122.0,
+      19.0
+     ],
+     "widthKm": 2000
+    },
+    {
+     "t": 6.0,
+     "center": [
+      121.0,
+      19.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 8.68,
+     "center": [
+      118.0,
+      23.0
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 05",
+   "clockLabel": "SIMULATED CRISIS",
+   "countryLabels": [
+    {
+     "iso": "608",
+     "text": "PHILIPPINES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      120.532,
+      18.178
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "LAUNCHERS ON ALLIED SOIL",
+     "t": 0.2
+    },
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 7,
+     "t": 0.5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      128.0,
+      16.0
+     ],
+     "text": "THEY KEEP FIRING",
+     "color": "#6EA8FF",
+     "t": 2.18
+    },
+    {
+     "at": [
+      110.0,
+      28.0
+     ],
+     "text": "MORE CONVENTIONAL MISSILES DO NOT STOP THEM",
+     "color": "#F2B01E",
+     "t": 7.66
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       116.5,
+       24.2
+      ],
+      [
+       120.532,
+       18.178
+      ]
+     ],
+     "t0": 6.0,
+     "t1": 8.6,
+     "kind": "pla",
+     "color": "#F2B01E",
+     "size": 18,
+     "wake": true,
+     "t": 6.0
+    },
+    {
+     "path": [
+      [
+       116.5,
+       24.2
+      ],
+      [
+       120.532,
+       18.178
+      ]
+     ],
+     "t0": 6.39,
+     "t1": 9.0,
+     "kind": "pla",
+     "color": "#F2B01E",
+     "size": 18,
+     "wake": true,
+     "t": 6.39
+    },
+    {
+     "path": [
+      [
+       116.5,
+       24.2
+      ],
+      [
+       120.532,
+       18.178
+      ]
+     ],
+     "t0": 6.8,
+     "t1": 9.4,
+     "kind": "pla",
+     "color": "#F2B01E",
+     "size": 18,
+     "wake": true,
+     "t": 6.8
+    }
+   ]
+  },
+  {
+   "id": "c4-assume",
+   "type": "region",
+   "start": 367.309,
+   "end": 376.872,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     123.0,
+     25.0
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      123.0,
+      25.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 3.0,
+     "center": [
+      123.0,
+      25.0
+     ],
+     "widthKm": 3600
+    },
+    {
+     "t": 9.56,
+     "center": [
+      122.0,
+      23.0
+     ],
+     "widthKm": 2600
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 05",
+   "clockLabel": "SIMULATED CRISIS",
+   "caption": "Our assumption, not a forecast.",
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "608",
+     "text": "PHILIPPINES",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      134.0,
+      17.5
+     ],
+     "text": "THE WAR NO LONGER DEPENDS ON THE MAGAZINE COUNT",
+     "color": "#FFD23F",
+     "t": 8.06
+    }
+   ]
+  },
+  {
+   "id": "c4-d6",
+   "type": "region",
+   "start": 376.872,
+   "end": 389.048,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     116.4,
+     39.9
+    ],
+    "widthKm": 2600
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      116.4,
+      39.9
+     ],
+     "widthKm": 2600
+    },
+    {
+     "t": 3.5,
+     "center": [
+      114.0,
+      30.0
+     ],
+     "widthKm": 2800
+    },
+    {
+     "t": 7.0,
+     "center": [
+      118.0,
+      24.5
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 12.18,
+     "center": [
+      120.0,
+      22.0
+     ],
+     "widthKm": 1400
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 06",
+   "clockLabel": "SIMULATED CRISIS",
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       116.0,
+       24.0
+      ],
+      [
+       118.8836,
+       22.28874
+      ]
+     ],
+     "t0": 9.38,
+     "t1": 12.18,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 26,
+     "wake": true,
+     "label": "DF-26",
+     "t": 9.4
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      116.4,
+      39.9
+     ],
+     "kind": "target",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "BEIJING",
+     "t": 3.51
+    },
+    {
+     "at": [
+      116.0,
+      24.0
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "SIMULATED SITE, GUANGDONG",
+     "t": 9.36
+    },
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "kind": "ring",
+     "color": "#FF3B3B",
+     "size": 7,
+     "t": 8.0
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      117.16923,
+      38.54865
+     ],
+     "text": "BREAKS ITS NO-FIRST-USE POLICY",
+     "color": "#FF3B3B",
+     "t": 4.7
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      116.0,
+      24.0
+     ],
+     "to": [
+      121.9798,
+      20.4513
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 9.38,
+     "t1": 10.58,
+     "width": 2,
+     "label": "ONE DF-26"
+    }
+   ]
+  },
+  {
+   "id": "c4-yield",
+   "type": "bars",
+   "start": 389.048,
+   "end": 393.696,
+   "tag": "SIMULATION",
+   "title": "THE WARHEAD: OUR CHOICE",
+   "sub": "Yield in kilotons",
+   "bars": [
+    {
+     "label": "NAGASAKI, 1945",
+     "value": 21,
+     "display": "21 KT",
+     "color": "#FF7A1A"
+    },
+    {
+     "label": "PENTAGON CEILING (PLA)",
+     "value": 10,
+     "display": "BELOW 10 KT",
+     "color": "#F2B01E"
+    },
+    {
+     "label": "THIS SIMULATION",
+     "value": 5,
+     "display": "5 KT",
+     "color": "#FF3B3B"
+    }
+   ],
+   "source": "US Department of Defense; US Strategic Bombing Survey"
+  },
+  {
+   "id": "c4-target",
+   "type": "region",
+   "start": 393.696,
+   "end": 406.35,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     121.0,
+     21.0
+    ],
+    "widthKm": 2400
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.0,
+      21.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 4.0,
+     "center": [
+      123.0,
+      22.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 8.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 12.65,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 420
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 06",
+   "clockLabel": "SIMULATED CRISIS",
+   "cities": [
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 9,
+     "label": "BASCO AIRPORT, BATAN ISLAND",
+     "t": 9.81
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      127.5,
+      24.0
+     ],
+     "text": "A QUARTER OF NAGASAKI",
+     "color": "#FFFFFF",
+     "t": 7.37
+    }
+   ]
+  },
+  {
+   "id": "c4-ours",
+   "type": "region",
+   "start": 406.35,
+   "end": 413.368,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     121.9798,
+     20.4513
+    ],
+    "widthKm": 420
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 420
+    },
+    {
+     "t": 4.0,
+     "center": [
+      121.5,
+      21.0
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 8.0,
+     "center": [
+      122.0,
+      22.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 7.02,
+     "center": [
+      123.0,
+      22.0
+     ],
+     "widthKm": 3200
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 06",
+   "clockLabel": "SIMULATED CRISIS",
+   "caption": "The day, the target and the weapon are our choices, not a forecast of Chinese policy.",
+   "countryLabels": [
+    {
+     "iso": "608",
+     "text": "PHILIPPINES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "kind": "ring",
+     "color": "#FF3B3B",
+     "size": 7,
+     "label": "BASCO",
+     "t": 0.2
+    },
+    {
+     "at": [
+      120.532,
+      18.178
+     ],
+     "kind": "dot",
+     "color": "#FFFFFF",
+     "size": 5,
+     "label": "LUZON",
+     "t": 5.0
+    }
+   ]
+  },
+  {
+   "id": "c4-1126",
+   "type": "region",
+   "start": 413.368,
+   "end": 417.542,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     119.5,
+     22.0
+    ],
+    "widthKm": 1300
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      119.5,
+      22.0
+     ],
+     "widthKm": 1300
+    },
+    {
+     "t": 2.5,
+     "center": [
+      120.5,
+      21.2
+     ],
+     "widthKm": 800
+    },
+    {
+     "t": 4.17,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 350
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T-06:00",
+   "clockLabel": "SIX MINUTES",
+   "clockRate": 86.25,
+   "ships": [
+    {
+     "path": [
+      [
+       116.0,
+       24.0
+      ],
+      [
+       121.9798,
+       20.4513
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.17,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 26,
+     "wake": true,
+     "label": "DF-26",
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      116.0,
+      24.0
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 6,
+     "label": "SIMULATED SITE",
+     "t": 0.1
+    },
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "kind": "ring",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "11:26",
+     "t": 0.4
+    }
+   ]
+  },
+  {
+   "id": "c5-card",
+   "type": "chapter",
+   "start": 417.542,
+   "end": 421.242,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 05",
+   "title": "One warhead, ring by ring"
+  },
+  {
+   "id": "c5-burst",
+   "type": "city",
+   "start": 421.242,
+   "end": 435.447,
+   "tag": "SIMULATION",
+   "city": "basco-batan",
+   "view": {
+    "center": [
+     121.9798,
+     20.4513
+    ],
+    "widthKm": 10
+   },
+   "gz": [
+    121.9798,
+    20.4513
+   ],
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 10
+    },
+    {
+     "t": 4.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 4.0
+    },
+    {
+     "t": 9.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 2.2
+    },
+    {
+     "t": 14.2,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 3.4
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.116,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      121.9798,
+      20.47112
+     ],
+     "text": "AIRBURST OVER THE AIRPORT",
+     "color": "#FF3B3B",
+     "t": 1.0
+    },
+    {
+     "at": [
+      121.9798,
+      20.46211
+     ],
+     "text": "ENGINE: YIELD, WEAPON, HEIGHT OF BURST",
+     "color": "#FFD23F",
+     "t": 2.87
+    }
+   ],
+   "flashT": 0.15
+  },
+  {
+   "id": "c5-fire",
+   "type": "city",
+   "start": 435.447,
+   "end": 441.618,
+   "tag": "SIMULATION",
+   "city": "basco-batan",
+   "view": {
+    "center": [
+     121.9798,
+     20.4513
+    ],
+    "widthKm": 1.4
+   },
+   "gz": [
+    121.9798,
+    20.4513
+   ],
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 1.4
+    },
+    {
+     "t": 6.17,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 0.8
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.116,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.4,
+     "angle": 225
+    }
+   ],
+   "clock": "T+00:15",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      121.9798,
+      20.45283
+     ],
+     "text": "116 M: LENGTH OF A FOOTBALL PITCH",
+     "color": "#FFFFFF",
+     "t": 4.76
+    }
+   ],
+   "flashT": 0.1
+  },
+  {
+   "id": "c5-nothing",
+   "type": "bars",
+   "start": 441.618,
+   "end": 446.618,
+   "tag": "SIMULATION",
+   "title": "FIVE KILOTONS IS SMALL",
+   "sub": "Yield in kilotons",
+   "bars": [
+    {
+     "label": "NAGASAKI, 1945",
+     "value": 21,
+     "display": "21 KT",
+     "color": "#FF7A1A"
+    },
+    {
+     "label": "THIS SIMULATION",
+     "value": 5,
+     "display": "5 KT, ASSUMED",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "c5-20",
+   "type": "city",
+   "start": 446.618,
+   "end": 460.671,
+   "tag": "SIMULATION",
+   "city": "basco-batan",
+   "view": {
+    "center": [
+     121.9798,
+     20.4513
+    ],
+    "widthKm": 0.8
+   },
+   "gz": [
+    121.9798,
+    20.4513
+   ],
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 0.8
+    },
+    {
+     "t": 2.5,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 1.4
+    },
+    {
+     "t": 2.25,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 1.8
+    },
+    {
+     "t": 6.25,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 1.1
+    },
+    {
+     "t": 14.05,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 3.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.116,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.236,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 4.52,
+     "angle": 225
+    }
+   ],
+   "clock": "T+00:30",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      121.9798,
+      20.4558
+     ],
+     "text": "NOTHING REMAINS INSIDE",
+     "color": "#FFFFFF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      121.9765,
+      20.4505
+     ],
+     "text": "AIRPORT: THE TARGET",
+     "color": "#FF3B3B",
+     "t": 9.87
+    },
+    {
+     "at": [
+      121.9798,
+      20.44635
+     ],
+     "text": "ANY BUILDING DESTROYED",
+     "color": "#FFFFFF",
+     "t": 8.17
+    }
+   ]
+  },
+  {
+   "id": "c5-5a",
+   "type": "city",
+   "start": 460.671,
+   "end": 470.833,
+   "tag": "SIMULATION",
+   "city": "basco-batan",
+   "view": {
+    "center": [
+     121.9798,
+     20.4513
+    ],
+    "widthKm": 3.0
+   },
+   "gz": [
+    121.9798,
+    20.4513
+   ],
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 3.0
+    },
+    {
+     "t": 3.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 4.0
+    },
+    {
+     "t": 10.16,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 5.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.116,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.236,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 1.158,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 3.08,
+     "angle": 225
+    }
+   ],
+   "clock": "T+00:40",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      121.9798,
+      20.46346
+     ],
+     "text": "HOUSES COLLAPSE",
+     "color": "#FF3B3B",
+     "t": 6.1
+    },
+    {
+     "at": [
+      121.96835,
+      20.44905
+     ],
+     "text": "BASCO TOWN",
+     "color": "#FFFFFF",
+     "t": 16.76
+    }
+   ]
+  },
+  {
+   "id": "c5-5b",
+   "type": "city",
+   "start": 470.833,
+   "end": 479.136,
+   "tag": "SIMULATION",
+   "city": "basco-batan",
+   "view": {
+    "center": [
+     121.9798,
+     20.4513
+    ],
+    "widthKm": 5.0
+   },
+   "gz": [
+    121.9798,
+    20.4513
+   ],
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 5.0
+    },
+    {
+     "t": 4.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 4.2
+    },
+    {
+     "t": 8.3,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 4.6
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.116,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.236,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 1.158,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "clock": "T+00:45",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      121.9798,
+      20.46481
+     ],
+     "text": "4.2 KM2 INSIDE THE RING",
+     "color": "#FF3B3B",
+     "t": 1.5
+    },
+    {
+     "at": [
+      121.96835,
+      20.44905
+     ],
+     "text": "BASCO TOWN CENTRE: JUST OUTSIDE",
+     "color": "#FFFFFF",
+     "t": 0.05
+    }
+   ]
+  },
+  {
+   "id": "c5-burn",
+   "type": "city",
+   "start": 479.136,
+   "end": 491.272,
+   "tag": "SIMULATION",
+   "city": "basco-batan",
+   "view": {
+    "center": [
+     121.9798,
+     20.4513
+    ],
+    "widthKm": 4.6
+   },
+   "gz": [
+    121.9798,
+    20.4513
+   ],
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 4.6
+    },
+    {
+     "t": 4.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 5.6
+    },
+    {
+     "t": 8.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 5.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.116,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.236,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 1.158,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 1.217,
+     "label": "BURNS",
+     "color": "#F2B01E",
+     "t": 0.97,
+     "angle": 225
+    }
+   ],
+   "clock": "T+00:50",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      121.9798,
+      20.43824
+     ],
+     "text": "THIRD-DEGREE BURNS: 1.2 KM",
+     "color": "#F2B01E",
+     "t": 2.37
+    },
+    {
+     "at": [
+      121.9798,
+      20.46391
+     ],
+     "text": "IN THE OPEN: BURNED BY THE FLASH",
+     "color": "#F2B01E",
+     "t": 7.57
+    },
+    {
+     "at": [
+      121.9798,
+      20.45986
+     ],
+     "text": "THE FLASH ARRIVES BEFORE THE SOUND",
+     "color": "#FFFFFF",
+     "t": 10.45
+    }
+   ]
+  },
+  {
+   "id": "c5-1psi",
+   "type": "city",
+   "start": 491.272,
+   "end": 506.04,
+   "tag": "SIMULATION",
+   "city": "basco-batan",
+   "view": {
+    "center": [
+     121.9798,
+     20.4513
+    ],
+    "widthKm": 5.5
+   },
+   "gz": [
+    121.9798,
+    20.4513
+   ],
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 5.5
+    },
+    {
+     "t": 3.5,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 7.0
+    },
+    {
+     "t": 7.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 9.0
+    },
+    {
+     "t": 14.77,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 10.5
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.116,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.236,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 1.158,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 1.217,
+     "label": "BURNS",
+     "color": "#F2B01E",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.134,
+     "label": "1 PSI",
+     "color": "#3ED6C8",
+     "t": 1.37,
+     "angle": 225
+    }
+   ],
+   "clock": "T+01:00",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      121.9798,
+      20.42112
+     ],
+     "text": "1 PSI: WINDOWS BREAK, 3.1 KM",
+     "color": "#3ED6C8",
+     "t": 5.04
+    },
+    {
+     "at": [
+      121.96835,
+      20.44905
+     ],
+     "text": "MOST OF BASCO TOWN INSIDE",
+     "color": "#FFFFFF",
+     "t": 7.44
+    },
+    {
+     "at": [
+      121.9798,
+      20.48463
+     ],
+     "text": "THE WIDEST RING, THE LEAST DAMAGE",
+     "color": "#FFD23F",
+     "t": 10.14
+    }
+   ]
+  },
+  {
+   "id": "c5-fall",
+   "type": "region",
+   "start": 506.04,
+   "end": 516.121,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     121.9798,
+     20.4513
+    ],
+    "widthKm": 200
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 200
+    },
+    {
+     "t": 3.0,
+     "center": [
+      121.73942,
+      20.27112
+     ],
+     "widthKm": 150
+    },
+    {
+     "t": 6.5,
+     "center": [
+      121.69134,
+      20.18103
+     ],
+     "widthKm": 260
+    },
+    {
+     "t": 10.08,
+     "center": [
+      121.59518,
+      20.09094
+     ],
+     "widthKm": 380
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "SMALL FALLOUT PLUME",
+     "color": "#F2B01E"
+    }
+   ],
+   "clock": "T+01:10",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "burst": {
+    "at": [
+     121.9798,
+     20.4513
+    ],
+    "t": -5.0,
+    "km": 2,
+    "fade": 9
+   },
+   "caption": "We give no death toll. The engine does not produce one.",
+   "cities": [
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "AIR BURST",
+     "t": 0.2
+    }
+   ],
+   "plume": {
+    "at": [
+     121.9798,
+     20.4513
+    ],
+    "bearing": 225,
+    "lengthKm": 70,
+    "widthKm": 10,
+    "t0": 0.5,
+    "t1": 4.0,
+    "color": "#F2B01E",
+    "label": "ASSUMED WIND: TO THE SOUTH-WEST"
+   },
+   "labels": [
+    {
+     "at": [
+      122.26826,
+      20.81166
+     ],
+     "text": "LITTLE LOCAL FALLOUT",
+     "color": "#F2B01E",
+     "t": 2.37
+    },
+    {
+     "at": [
+      121.25865,
+      19.77562
+     ],
+     "text": "OPEN SEA, NO LANDFALL",
+     "color": "#FFFFFF",
+     "t": 5.0
+    }
+   ]
+  },
+  {
+   "id": "c5-near",
+   "type": "city",
+   "start": 516.121,
+   "end": 524.663,
+   "tag": "SIMULATION",
+   "city": "basco-batan",
+   "view": {
+    "center": [
+     121.9798,
+     20.4513
+    ],
+    "widthKm": 9.0
+   },
+   "gz": [
+    121.9798,
+    20.4513
+   ],
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 9.0
+    },
+    {
+     "t": 3.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 6.0
+    },
+    {
+     "t": 8.54,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 4.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.116,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.236,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 1.158,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 1.217,
+     "label": "BURNS",
+     "color": "#F2B01E",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.134,
+     "label": "1 PSI",
+     "color": "#3ED6C8",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "clock": "T+01:20",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      121.96835,
+      20.44905
+     ],
+     "text": "PEOPLE WHO ARE NOT THE TARGET",
+     "color": "#FFFFFF",
+     "t": 5.45
+    },
+    {
+     "at": [
+      121.9798,
+      20.46932
+     ],
+     "text": "HOW SMALL THE BURST IS",
+     "color": "#FFD23F",
+     "t": 2.11
+    }
+   ]
+  },
+  {
+   "id": "c6-card",
+   "type": "chapter",
+   "start": 524.663,
+   "end": 528.363,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 06",
+   "title": "The day after"
+  },
+  {
+   "id": "c6-back",
+   "type": "region",
+   "start": 528.363,
+   "end": 544.527,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     123.0,
+     24.0
+    ],
+    "widthKm": 3000
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      123.0,
+      24.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 4.0,
+     "center": [
+      123.0,
+      24.0
+     ],
+     "widthKm": 3800
+    },
+    {
+     "t": 8.0,
+     "center": [
+      116.4,
+      39.9
+     ],
+     "widthKm": 2800
+    },
+    {
+     "t": 12.0,
+     "center": [
+      121.0,
+      22.0
+     ],
+     "widthKm": 2400
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 06",
+   "clockLabel": "THE DAY AFTER",
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "608",
+     "text": "PHILIPPINES",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "kind": "ring",
+     "color": "#FF3B3B",
+     "size": 7,
+     "label": "BASCO",
+     "t": 0.3
+    },
+    {
+     "at": [
+      116.4,
+      39.9
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "THE WEAPON IT PROMISED NOT TO USE FIRST",
+     "t": 9.53
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      135.0,
+      16.0
+     ],
+     "text": "WHICH SIDE RUNS SHORT FIRST?",
+     "color": "#FFD23F",
+     "t": 0.05
+    },
+    {
+     "at": [
+      134.0,
+      19.0
+     ],
+     "text": "NOBODY HAS TO BE EMPTY",
+     "color": "#FFFFFF",
+     "t": 5.37
+    },
+    {
+     "at": [
+      140.0,
+      22.0
+     ],
+     "text": "THE COUNTS NO LONGER DECIDE IT",
+     "color": "#FFD23F",
+     "t": 12.89
+    }
+   ]
+  },
+  {
+   "id": "c6-wind",
+   "type": "region",
+   "start": 544.527,
+   "end": 553.073,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     121.9798,
+     20.4513
+    ],
+    "widthKm": 240
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 240
+    },
+    {
+     "t": 3.0,
+     "center": [
+      121.3,
+      20.0
+     ],
+     "widthKm": 520
+    },
+    {
+     "t": 8.55,
+     "center": [
+      121.0,
+      19.6
+     ],
+     "widthKm": 700
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+01:00:00",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "burst": {
+    "at": [
+     121.9798,
+     20.4513
+    ],
+    "t": -5.0,
+    "km": 2,
+    "fade": 12
+   },
+   "lines": [
+    {
+     "from": [
+      122.65288,
+      20.99184
+     ],
+     "to": [
+      122.07595,
+      20.49635
+     ],
+     "color": "#FFFFFF",
+     "dashed": false,
+     "t0": 3.28,
+     "t1": 4.78,
+     "width": 2
+    },
+    {
+     "from": [
+      122.65288,
+      20.88373
+     ],
+     "to": [
+      122.07595,
+      20.38824
+     ],
+     "color": "#FFFFFF",
+     "dashed": false,
+     "t0": 3.48,
+     "t1": 4.98,
+     "width": 2,
+     "label": "WIND FROM THE NORTH-EAST (ASSUMED)"
+    },
+    {
+     "from": [
+      122.65288,
+      20.77562
+     ],
+     "to": [
+      122.07595,
+      20.28013
+     ],
+     "color": "#FFFFFF",
+     "dashed": false,
+     "t0": 3.68,
+     "t1": 5.18,
+     "width": 2
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 7,
+     "label": "BURST",
+     "t": 0.2
+    }
+   ],
+   "caption": "No one can forecast the real wind.",
+   "labels": [
+    {
+     "at": [
+      122.26826,
+      20.81166
+     ],
+     "text": "THE CLOUD FIRST",
+     "color": "#FFFFFF",
+     "t": 0.62
+    }
+   ]
+  },
+  {
+   "id": "c6-sw",
+   "type": "region",
+   "start": 553.073,
+   "end": 562.991,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     120.6,
+     19.3
+    ],
+    "widthKm": 800
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      120.6,
+      19.3
+     ],
+     "widthKm": 800
+    },
+    {
+     "t": 3.0,
+     "center": [
+      120.2,
+      18.3
+     ],
+     "widthKm": 1000
+    },
+    {
+     "t": 9.92,
+     "center": [
+      120.2,
+      18.0
+     ],
+     "widthKm": 1500
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+01:00:00",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 0,
+   "countryLabels": [
+    {
+     "iso": "608",
+     "text": "PHILIPPINES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "plume": {
+    "at": [
+     121.9798,
+     20.4513
+    ],
+    "bearing": 225,
+    "lengthKm": 220,
+    "widthKm": 24,
+    "t0": 0.3,
+    "t1": 3.5,
+    "color": "#F2B01E",
+    "label": "SMALL CLOUD, NOT A FORECAST"
+   },
+   "labels": [
+    {
+     "at": [
+      120.532,
+      17.36719
+     ],
+     "text": "COAST OF NORTHERN LUZON",
+     "color": "#FFFFFF",
+     "t": 5.16
+    },
+    {
+     "at": [
+      120.34518,
+      19.91076
+     ],
+     "text": "OPEN SEA, NO DOSE GIVEN",
+     "color": "#FFD23F",
+     "t": 8.38
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      120.532,
+      18.178
+     ],
+     "kind": "dot",
+     "color": "#FFFFFF",
+     "size": 5,
+     "label": "LAOAG",
+     "t": 1.0
+    }
+   ]
+  },
+  {
+   "id": "c6-ships",
+   "type": "region",
+   "start": 562.991,
+   "end": 580.952,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     124.0,
+     19.0
+    ],
+    "widthKm": 1400
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      124.0,
+      19.0
+     ],
+     "widthKm": 1400
+    },
+    {
+     "t": 4.0,
+     "center": [
+      122.0,
+      17.0
+     ],
+     "widthKm": 1100
+    },
+    {
+     "t": 8.0,
+     "center": [
+      121.0,
+      16.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 12.0,
+     "center": [
+      120.27,
+      14.8
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 17.96,
+     "center": [
+      120.27,
+      14.8
+     ],
+     "widthKm": 500
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 06",
+   "clockLabel": "THE DAY AFTER",
+   "ships": [
+    {
+     "path": [
+      [
+       126.0,
+       21.5
+      ],
+      [
+       123.0,
+       18.0
+      ],
+      [
+       120.6,
+       15.2
+      ]
+     ],
+     "t0": 0.3,
+     "t1": 17.96,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 22,
+     "wake": true,
+     "label": "US SHIPS TURN TOWARD PORT",
+     "t": 0.3
+    },
+    {
+     "path": [
+      [
+       126.0,
+       20.8
+      ],
+      [
+       123.0,
+       17.5
+      ],
+      [
+       120.6,
+       15.2
+      ]
+     ],
+     "t0": 0.7,
+     "t1": 17.96,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 22,
+     "wake": true,
+     "t": 0.7
+    },
+    {
+     "path": [
+      [
+       126.0,
+       20.1
+      ],
+      [
+       123.0,
+       17.0
+      ],
+      [
+       120.6,
+       15.2
+      ]
+     ],
+     "t0": 1.1,
+     "t1": 17.96,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 22,
+     "wake": true,
+     "t": 1.1
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      120.27,
+      14.8
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "SUBIC BAY",
+     "t": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      126.5,
+      13.5
+     ],
+     "text": "CANNOT RELOAD AT SEA",
+     "color": "#FF3B3B",
+     "t": 5.3
+    },
+    {
+     "at": [
+      126.5,
+      11.8
+     ],
+     "text": "A SHIP RELOADING IS NOT ON THE LINE",
+     "color": "#FFD23F",
+     "t": 8.62
+    },
+    {
+     "at": [
+      126.5,
+      10.1
+     ],
+     "text": "THE PORT IS ALREADY A TARGET",
+     "color": "#FF3B3B",
+     "t": 12.2
+    }
+   ]
+  },
+  {
+   "id": "c6-years",
+   "type": "number",
+   "start": 580.952,
+   "end": 586.152,
+   "tag": "REAL DATA",
+   "value": "1 TO 4 YEARS",
+   "label": "to rebuild the stocks",
+   "sub": "nothing changes at the factories this week",
+   "color": "#F2B01E",
+   "source": "CSIS; RUSI"
+  },
+  {
+   "id": "c6-neck",
+   "type": "region",
+   "start": 586.152,
+   "end": 599.416,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -100.0,
+     38.0
+    ],
+    "widthKm": 4600
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      -100.0,
+      38.0
+     ],
+     "widthKm": 4600
+    },
+    {
+     "t": 3.5,
+     "center": [
+      -100.0,
+      38.0
+     ],
+     "widthKm": 3400
+    },
+    {
+     "t": 7.0,
+     "center": [
+      110.0,
+      32.0
+     ],
+     "widthKm": 4400
+    },
+    {
+     "t": 13.26,
+     "center": [
+      108.0,
+      33.0
+     ],
+     "widthKm": 3300
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    },
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "US FACTORIES",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ],
+   "source": "CSIS; RUSI",
+   "labels": [
+    {
+     "at": [
+      -110.0,
+      30.0
+     ],
+     "text": "ROCKET MOTORS",
+     "color": "#FFFFFF",
+     "t": 1.95
+    },
+    {
+     "at": [
+      -110.0,
+      28.0
+     ],
+     "text": "GUIDANCE ELECTRONICS",
+     "color": "#FFFFFF",
+     "t": 3.32
+    },
+    {
+     "at": [
+      -110.0,
+      26.0
+     ],
+     "text": "ENERGETICS",
+     "color": "#FFFFFF",
+     "t": 4.98
+    },
+    {
+     "at": [
+      108.0,
+      40.0
+     ],
+     "text": "OVER 80% OF THE WORLD'S TUNGSTEN",
+     "color": "#F2B01E",
+     "t": 10.08
+    }
+   ]
+  },
+  {
+   "id": "c6-options",
+   "type": "region",
+   "start": 599.416,
+   "end": 615.261,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -77.04,
+     38.9
+    ],
+    "widthKm": 2800
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      -77.04,
+      38.9
+     ],
+     "widthKm": 2800
+    },
+    {
+     "t": 3.5,
+     "center": [
+      122.0,
+      22.0
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 7.5,
+     "center": [
+      122.0,
+      24.0
+     ],
+     "widthKm": 2900
+    },
+    {
+     "t": 11.0,
+     "center": [
+      116.4,
+      39.9
+     ],
+     "widthKm": 2800
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    },
+    {
+     "iso": "840",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.07)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 06",
+   "clockLabel": "THE DECISION",
+   "cities": [
+    {
+     "at": [
+      -77.04,
+      38.9
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "THE DECISION BELONGS TO WASHINGTON",
+     "t": 0.3
+    },
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "kind": "ring",
+     "color": "#FF3B3B",
+     "size": 7,
+     "label": "BASCO",
+     "t": 4.0
+    },
+    {
+     "at": [
+      116.4,
+      39.9
+     ],
+     "kind": "dot",
+     "color": "#F2B01E",
+     "size": 7,
+     "label": "BEIJING",
+     "t": 11.2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      128.0,
+      25.0
+     ],
+     "text": "OPTION 1: A LOW-YIELD REPLY, ABOUT 5 KT",
+     "color": "#FF3B3B",
+     "t": 7.69
+    },
+    {
+     "at": [
+      128.0,
+      22.0
+     ],
+     "text": "OPTION 2: A CONVENTIONAL REPLY",
+     "color": "#6EA8FF",
+     "t": 12.15
+    },
+    {
+     "at": [
+      128.0,
+      36.0
+     ],
+     "text": "OPTION 3: A CALL",
+     "color": "#3ED6C8",
+     "t": 14.71
+    }
+   ]
+  },
+  {
+   "id": "c6-19nov",
+   "type": "stamp",
+   "start": 615.261,
+   "end": 618.961,
+   "tag": "REAL DATA",
+   "text": "19 NOVEMBER 2026",
+   "line": "Beijing's readout: it proposed a crisis communication channel",
+   "color": "#F2B01E",
+   "source": "Reports at the time; Beijing readout"
+  },
+  {
+   "id": "c6-stops",
+   "type": "region",
+   "start": 618.961,
+   "end": 625.048,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     122.0,
+     22.0
+    ],
+    "widthKm": 2400
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      122.0,
+      22.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 6.09,
+     "center": [
+      122.0,
+      22.0
+     ],
+     "widthKm": 3000
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 06",
+   "clockLabel": "THE SIMULATION STOPS HERE",
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "608",
+     "text": "PHILIPPINES",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "THE DECISION",
+     "t": 0.3
+    }
+   ]
+  },
+  {
+   "id": "c6-study",
+   "type": "region",
+   "start": 625.048,
+   "end": 637.353,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     121.5,
+     25.05
+    ],
+    "widthKm": 1500
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.5,
+      25.05
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 3.0,
+     "center": [
+      121.0,
+      24.0
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 6.0,
+     "center": [
+      121.5,
+      25.05
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 12.3,
+     "center": [
+      121.0,
+      24.0
+     ],
+     "widthKm": 2000
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "THE STUDY'S NUMBER, NOT OURS",
+     "color": "#FFFFFF"
+    }
+   ],
+   "source": "Bloomberg Economics",
+   "countryLabels": [
+    {
+     "iso": "158",
+     "text": "TAIWAN",
+     "color": "#3ED6C8"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      127.0,
+      26.5
+     ],
+     "text": "$10.6 TRILLION IN THE FIRST YEAR",
+     "color": "#F2B01E",
+     "t": 5.9
+    },
+    {
+     "at": [
+      127.0,
+      24.0
+     ],
+     "text": "A DIFFERENT WAR FROM OURS",
+     "color": "#FFFFFF",
+     "t": 4.04
+    },
+    {
+     "at": [
+      127.0,
+      21.5
+     ],
+     "text": "BLOOMBERG ECONOMICS",
+     "color": "#FFFFFF",
+     "t": 0.3
+    }
+   ]
+  },
+  {
+   "id": "c6-ring",
+   "type": "region",
+   "start": 637.353,
+   "end": 646.903,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     121.9798,
+     20.4513
+    ],
+    "widthKm": 700
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 700
+    },
+    {
+     "t": 3.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 450
+    },
+    {
+     "t": 6.0,
+     "center": [
+      121.0,
+      21.0
+     ],
+     "widthKm": 1500
+    },
+    {
+     "t": 9.55,
+     "center": [
+      121.0,
+      21.0
+     ],
+     "widthKm": 1100
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 06",
+   "clockLabel": "THE DAY AFTER",
+   "rings": [
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "km": 3.1,
+     "color": "#3ED6C8",
+     "t": 0.3,
+     "dashed": false,
+     "label": "1 PSI"
+    },
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "km": 1.16,
+     "color": "#FF3B3B",
+     "t": 0.6,
+     "dashed": false,
+     "label": "5 PSI"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      121.9798,
+      20.4513
+     ],
+     "kind": "ring",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "A RING OVER A SMALL ISLAND",
+     "t": 0.2
+    },
+    {
+     "at": [
+      120.532,
+      18.178
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "LAUNCHERS STILL THERE",
+     "t": 4.7
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      125.0,
+      22.5
+     ],
+     "text": "SO IS THE DECISION",
+     "color": "#FFD23F",
+     "t": 7.78
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "type": "endslate",
+   "start": 646.903,
+   "end": 664.8,
+   "tag": "",
+   "title": "Next scenario",
+   "line": "Russia and Japan: the Kuril Islands and Hokkaido, and a clash that could cross the nuclear line."
+  }
+ ],
+ "narration": "episodes/019-us-china-missile-stockpile-pacific-war/narration.wav"
+}

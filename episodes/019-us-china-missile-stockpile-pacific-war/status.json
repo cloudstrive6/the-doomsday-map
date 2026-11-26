@@ -39,7 +39,32 @@
       "stage": "narrated",
       "note": "11.2 min",
       "at": "2026-11-26T01:22:25+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "76 shots, 677.9 s, 0 pace, 0 retention",
+      "at": "2026-11-26T01:34:27+00:00"
+    },
+    {
+      "stage": "narrated",
+      "note": "re-narrated without spoken refs",
+      "at": "2026-11-26T01:40:33+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "re-timed after re-narration",
+      "at": "2026-11-26T01:40:36+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "76 shots, 664.8 s, review fixes (open-after, open-day6, c5-fall, df26 lines, labels), 0 pace lines",
+      "at": "2026-11-26T01:43:30+00:00"
+    },
+    {
+      "stage": "visual_approved",
+      "note": "visual review round 2 PASS",
+      "at": "2026-11-26T01:44:19+00:00"
     }
   ],
-  "stage": "narrated"
+  "stage": "visual_approved"
 }

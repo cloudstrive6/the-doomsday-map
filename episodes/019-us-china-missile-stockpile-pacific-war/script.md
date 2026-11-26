@@ -58,7 +58,7 @@ Day five. With the anti-ship round empty, a bomber fires a JASSM-ER at a Rocket 
 
 But the American launchers on allied soil keep firing. They are dispersed and rearmed. More conventional missiles do not stop them. That is our assumption, not a forecast. The war has not ended. It has only stopped depending on who has more missiles in the magazine. [A31, C]
 
-Day six. In our simulation, Beijing decides to break its own no-first-use policy. One DF-26 leaves a simulated site in Guangdong. The warhead is five kilotons, our choice: half of ten kilotons, the level the Pentagon says the PLA is probably pursuing yields below, and about a quarter of Nagasaki. The target is Basco airport, on Batan Island. The day, the target and the weapon are our choices, not a forecast of Chinese policy. [A27, A28, 002 B8, C]
+Day six. In our simulation, Beijing decides to break its own no-first-use policy. One DF-26 leaves a simulated site in Guangdong. The warhead is five kilotons, our choice: half of ten kilotons, the level the Pentagon says the PLA is probably pursuing yields below, and about a quarter of Nagasaki. The target is Basco airport, on Batan Island. The day, the target and the weapon are our choices, not a forecast of Chinese policy. [A27, A28, B8, C]
 
 Six minutes. Eleven twenty-six. [C]
 
@@ -66,7 +66,7 @@ Six minutes. Eleven twenty-six. [C]
 
 The warhead bursts in the air above the airport. Everything below uses the scenario engine. It takes the yield, the weapon class and the height of burst, and returns a radius for each effect. These are rings on a map, not a forecast of what anyone would find. [C]
 
-The fireball has a radius of one hundred and sixteen metres, about the length of a football pitch. Inside it, nothing remains. Five kilotons is small. Nagasaki was twenty-one. [002 B8, C]
+The fireball has a radius of one hundred and sixteen metres, about the length of a football pitch. Inside it, nothing remains. Five kilotons is small. Nagasaki was twenty-one. [B8, C]
 
 At two hundred and thirty-six metres, twenty pounds per square inch. Any building is destroyed. This is the airport itself, the target the missile was aimed at. [C]
 
@@ -96,4 +96,4 @@ On the map, a ring sits over a small island in the Luzon Strait. The launchers o
 
 ## End slate
 
-Next on the map: Russia and Japan, the Kuril Islands and Hokkaido, and a clash that could cross the nuclear line. [Ideas 5]
+Next on the map: Russia and Japan, the Kuril Islands and Hokkaido, and a clash that could cross the nuclear line. [C]
