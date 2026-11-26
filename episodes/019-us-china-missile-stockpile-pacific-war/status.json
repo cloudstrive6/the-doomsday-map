@@ -34,7 +34,12 @@
       "stage": "script_approved",
       "note": "script round 2 PASS",
       "at": "2026-11-26T01:15:00+00:00"
+    },
+    {
+      "stage": "narrated",
+      "note": "11.2 min",
+      "at": "2026-11-26T01:22:25+00:00"
     }
   ],
-  "stage": "script_approved"
+  "stage": "narrated"
 }
