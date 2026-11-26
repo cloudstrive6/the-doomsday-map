@@ -1,0 +1,501 @@
+{
+ "subtitles": [
+  {
+   "start": 0.153,
+   "end": 1.933,
+   "text": "The fireball has a radius of"
+  },
+  {
+   "start": 1.933,
+   "end": 3.763,
+   "text": "116 m,"
+  },
+  {
+   "start": 3.986,
+   "end": 4.813,
+   "text": "about the length of"
+  },
+  {
+   "start": 4.813,
+   "end": 6.043,
+   "text": "a football pitch."
+  },
+  {
+   "start": 6.521,
+   "end": 8.523,
+   "text": "Inside it, nothing remains."
+  },
+  {
+   "start": 8.765,
+   "end": 10.543,
+   "text": "5 kilotons is small."
+  },
+  {
+   "start": 11.053,
+   "end": 12.703,
+   "text": "Nagasaki was 21."
+  },
+  {
+   "start": 13.522,
+   "end": 15.841,
+   "text": "At 236 m,"
+  },
+  {
+   "start": 15.841,
+   "end": 18.283,
+   "text": "20 pounds per square inch."
+  },
+  {
+   "start": 18.577,
+   "end": 20.073,
+   "text": "Any building is destroyed."
+  },
+  {
+   "start": 20.073,
+   "end": 22.333,
+   "text": "This is the airport itself,"
+  },
+  {
+   "start": 22.333,
+   "end": 23.573,
+   "text": "the target the missile"
+  },
+  {
+   "start": 23.573,
+   "end": 24.803,
+   "text": "was aimed at."
+  },
+  {
+   "start": 25.242,
+   "end": 28.452,
+   "text": "At 1.16 km,"
+  },
+  {
+   "start": 28.452,
+   "end": 30.483,
+   "text": "five pounds per square inch."
+  },
+  {
+   "start": 31.098,
+   "end": 32.363,
+   "text": "Houses collapse."
+  },
+  {
+   "start": 32.837,
+   "end": 33.953,
+   "text": "The engine draws the"
+  },
+  {
+   "start": 33.953,
+   "end": 35.736,
+   "text": "ring and stops there."
+  },
+  {
+   "start": 35.736,
+   "end": 37.033,
+   "text": "This ring covers"
+  },
+  {
+   "start": 37.033,
+   "end": 39.583,
+   "text": "4.2 square kilometres,"
+  },
+  {
+   "start": 40.025,
+   "end": 41.493,
+   "text": "and it stops just short of"
+  },
+  {
+   "start": 41.493,
+   "end": 43.139,
+   "text": "the centre of Basco town."
+  }
+ ],
+ "slug": "019-us-china-missile-stockpile-pacific-war-s2",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 43.139,
+ "shots": [
+  {
+   "id": "c5-fire",
+   "type": "city",
+   "start": 0.0,
+   "end": 6.171,
+   "tag": "SIMULATION",
+   "city": "basco-batan",
+   "view": {
+    "center": [
+     121.9798,
+     20.4513
+    ],
+    "widthKm": 1.12
+   },
+   "gz": [
+    121.9798,
+    20.4513
+   ],
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 1.12
+    },
+    {
+     "t": 6.17,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 0.64
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.116,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.4,
+     "angle": 225
+    }
+   ],
+   "clock": "T+00:15",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      121.9798,
+      20.45283
+     ],
+     "text": "116 M: LENGTH OF A FOOTBALL PITCH",
+     "color": "#FFFFFF",
+     "t": 4.76
+    }
+   ],
+   "flashT": 0.1
+  },
+  {
+   "id": "c5-nothing",
+   "type": "bars",
+   "start": 6.171,
+   "end": 11.171,
+   "tag": "SIMULATION",
+   "title": "FIVE KILOTONS IS SMALL",
+   "sub": "Yield in kilotons",
+   "bars": [
+    {
+     "label": "NAGASAKI, 1945",
+     "value": 21,
+     "display": "21 KT",
+     "color": "#FF7A1A"
+    },
+    {
+     "label": "THIS SIMULATION",
+     "value": 5,
+     "display": "5 KT, ASSUMED",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "c5-20",
+   "type": "city",
+   "start": 11.171,
+   "end": 25.224,
+   "tag": "SIMULATION",
+   "city": "basco-batan",
+   "view": {
+    "center": [
+     121.9798,
+     20.4513
+    ],
+    "widthKm": 0.64
+   },
+   "gz": [
+    121.9798,
+    20.4513
+   ],
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 0.64
+    },
+    {
+     "t": 2.5,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 1.12
+    },
+    {
+     "t": 2.25,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 1.44
+    },
+    {
+     "t": 6.25,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 0.88
+    },
+    {
+     "t": 14.05,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 2.4
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.116,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.236,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 4.52,
+     "angle": 225
+    }
+   ],
+   "clock": "T+00:30",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      121.9798,
+      20.4558
+     ],
+     "text": "NOTHING REMAINS INSIDE",
+     "color": "#FFFFFF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      121.9765,
+      20.4505
+     ],
+     "text": "AIRPORT: THE TARGET",
+     "color": "#FF3B3B",
+     "t": 9.87
+    },
+    {
+     "at": [
+      121.9798,
+      20.44635
+     ],
+     "text": "ANY BUILDING DESTROYED",
+     "color": "#FFFFFF",
+     "t": 8.17
+    }
+   ]
+  },
+  {
+   "id": "c5-5a",
+   "type": "city",
+   "start": 25.224,
+   "end": 35.386,
+   "tag": "SIMULATION",
+   "city": "basco-batan",
+   "view": {
+    "center": [
+     121.9798,
+     20.4513
+    ],
+    "widthKm": 2.4
+   },
+   "gz": [
+    121.9798,
+    20.4513
+   ],
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 2.4
+    },
+    {
+     "t": 3.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 3.2
+    },
+    {
+     "t": 10.16,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 4.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.116,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.236,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 1.158,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 3.08,
+     "angle": 225
+    }
+   ],
+   "clock": "T+00:40",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      121.9798,
+      20.46346
+     ],
+     "text": "HOUSES COLLAPSE",
+     "color": "#FF3B3B",
+     "t": 6.1
+    },
+    {
+     "at": [
+      121.96835,
+      20.44905
+     ],
+     "text": "BASCO TOWN",
+     "color": "#FFFFFF",
+     "t": 16.76
+    }
+   ]
+  },
+  {
+   "id": "c5-5b",
+   "type": "city",
+   "start": 35.386,
+   "end": 43.139,
+   "tag": "SIMULATION",
+   "city": "basco-batan",
+   "view": {
+    "center": [
+     121.9798,
+     20.4513
+    ],
+    "widthKm": 4.0
+   },
+   "gz": [
+    121.9798,
+    20.4513
+   ],
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 4.0
+    },
+    {
+     "t": 4.0,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 3.36
+    },
+    {
+     "t": 8.3,
+     "center": [
+      121.9798,
+      20.4513
+     ],
+     "widthKm": 3.68
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.116,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.236,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 1.158,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "clock": "T+00:45",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      121.9798,
+      20.46481
+     ],
+     "text": "4.2 KM2 INSIDE THE RING",
+     "color": "#FF3B3B",
+     "t": 1.5
+    },
+    {
+     "at": [
+      121.96835,
+      20.44905
+     ],
+     "text": "BASCO TOWN CENTRE: JUST OUTSIDE",
+     "color": "#FFFFFF",
+     "t": 0.05
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "THE 5 PSI RING",
+  "STOPS AT THE TOWN"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

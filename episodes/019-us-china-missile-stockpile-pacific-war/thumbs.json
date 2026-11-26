@@ -1,0 +1,165 @@
+[
+ {
+  "id": "a",
+  "variant": "map",
+  "concept": "map",
+  "palette": "map",
+  "line1": "1 ISLAND",
+  "line2": "5 KT",
+  "tag": "",
+  "align": "right",
+  "region": {
+   "theme": "bright",
+   "t": 30,
+   "view": {
+    "center": [
+     121.0,
+     21.6
+    ],
+    "widthKm": 650
+   },
+   "lines": [
+    {
+     "from": [
+      116.5,
+      24.2
+     ],
+     "to": [
+      121.96,
+      20.45
+     ],
+     "color": "#FF6A00",
+     "t0": 0,
+     "t1": 1,
+     "width": 26
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      121.96,
+      20.45
+     ],
+     "km": 45,
+     "color": "#FFD23F",
+     "t": 0
+    },
+    {
+     "at": [
+      121.96,
+      20.45
+     ],
+     "km": 25,
+     "color": "#FF3A00",
+     "t": 0
+    }
+   ]
+  }
+ },
+ {
+  "id": "b",
+  "variant": "map",
+  "concept": "launch",
+  "palette": "map",
+  "line1": "ONE DF-26",
+  "line2": "BASCO",
+  "tag": "",
+  "align": "left",
+  "region": {
+   "theme": "bright",
+   "t": 30,
+   "view": {
+    "center": [
+     117.5,
+     22.0
+    ],
+    "widthKm": 1300
+   },
+   "lines": [
+    {
+     "from": [
+      113.5,
+      23.0
+     ],
+     "to": [
+      121.96,
+      20.45
+     ],
+     "color": "#E01E1E",
+     "t0": 0,
+     "t1": 1,
+     "width": 20
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      113.5,
+      23.0
+     ],
+     "km": 90,
+     "color": "#FFB020",
+     "t": 0
+    }
+   ]
+  }
+ },
+ {
+  "id": "c",
+  "variant": "globe",
+  "concept": "scale",
+  "palette": "fire-night",
+  "line1": "NO RELOAD",
+  "line2": "AT SEA",
+  "tag": "",
+  "align": "left",
+  "globe": {
+   "camera": [
+    {
+     "t": 0,
+     "lat": 21,
+     "lon": 122,
+     "scale": 1600
+    }
+   ],
+   "sun": {
+    "lat": 20,
+    "lon": 128
+   },
+   "arcs": [
+    {
+     "from": [
+      116.5,
+      24.2
+     ],
+     "to": [
+      121.96,
+      20.45
+     ],
+     "t0": 0,
+     "t1": 1,
+     "color": "#FF4A2B",
+     "width": 10
+    }
+   ],
+   "flashes": [
+    {
+     "at": [
+      121.96,
+      20.45
+     ],
+     "t": 0.6,
+     "radius": 1400,
+     "color": "#FFD23F",
+     "hold": 120
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#FFB020"
+    }
+   ]
+  }
+ }
+]

@@ -64,7 +64,12 @@
       "stage": "visual_approved",
       "note": "visual review round 2 PASS",
       "at": "2026-11-26T01:44:19+00:00"
+    },
+    {
+      "stage": "packaged",
+      "note": "packaged; thumbnail checklist 14/20 after 3 rounds",
+      "at": "2026-11-26T01:53:49+00:00"
     }
   ],
-  "stage": "visual_approved"
+  "stage": "packaged"
 }

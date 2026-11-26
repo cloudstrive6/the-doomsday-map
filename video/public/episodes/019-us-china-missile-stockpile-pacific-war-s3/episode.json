@@ -1,0 +1,486 @@
+{
+ "subtitles": [
+  {
+   "start": 0.193,
+   "end": 1.293,
+   "text": "By day 4,"
+  },
+  {
+   "start": 1.293,
+   "end": 3.463,
+   "text": "the LRASM is gone."
+  },
+  {
+   "start": 3.868,
+   "end": 5.013,
+   "text": "In the wargame it took"
+  },
+  {
+   "start": 5.013,
+   "end": 6.503,
+   "text": "3 to 7 days,"
+  },
+  {
+   "start": 6.749,
+   "end": 7.833,
+   "text": "so this is the fast"
+  },
+  {
+   "start": 7.833,
+   "end": 9.003,
+   "text": "end of the range,"
+  },
+  {
+   "start": 9.166,
+   "end": 11.193,
+   "text": "and it is our modelling choice,"
+  },
+  {
+   "start": 11.193,
+   "end": 12.643,
+   "text": "not a prediction."
+  },
+  {
+   "start": 13.09,
+   "end": 14.143,
+   "text": "Day 5."
+  },
+  {
+   "start": 14.634,
+   "end": 16.648,
+   "text": "With the anti-ship round empty,"
+  },
+  {
+   "start": 16.648,
+   "end": 18.633,
+   "text": "a bomber fires a JASSM-ER"
+  },
+  {
+   "start": 18.633,
+   "end": 20.293,
+   "text": "at a Rocket Force base"
+  },
+  {
+   "start": 20.293,
+   "end": 21.983,
+   "text": "on the Fujian coast."
+  },
+  {
+   "start": 22.285,
+   "end": 23.243,
+   "text": "40 minutes."
+  },
+  {
+   "start": 23.696,
+   "end": 25.653,
+   "text": "In the wargame the JASSM-ER"
+  },
+  {
+   "start": 25.653,
+   "end": 27.524,
+   "text": "lasted about 30 days."
+  },
+  {
+   "start": 27.524,
+   "end": 28.693,
+   "text": "In ours it is only"
+  },
+  {
+   "start": 28.693,
+   "end": 30.366,
+   "text": "starting to be used,"
+  },
+  {
+   "start": 30.366,
+   "end": 31.073,
+   "text": "and we do not"
+  },
+  {
+   "start": 31.073,
+   "end": 32.143,
+   "text": "run it dry."
+  }
+ ],
+ "slug": "019-us-china-missile-stockpile-pacific-war-s3",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 32.553,
+ "shots": [
+  {
+   "id": "c4-choice",
+   "type": "region",
+   "start": 0.0,
+   "end": 13.088,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     125.0,
+     26.0
+    ],
+    "widthKm": 3200
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      125.0,
+      26.0
+     ],
+     "widthKm": 3200
+    },
+    {
+     "t": 4.0,
+     "center": [
+      124.0,
+      25.0
+     ],
+     "widthKm": 2400
+    },
+    {
+     "t": 8.5,
+     "center": [
+      124.0,
+      25.0
+     ],
+     "widthKm": 3600
+    },
+    {
+     "t": 13.09,
+     "center": [
+      123.0,
+      25.0
+     ],
+     "widthKm": 2800
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 04",
+   "clockLabel": "SIMULATED CRISIS",
+   "caption": "Not a prediction: our modelling choice.",
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "608",
+     "text": "PHILIPPINES",
+     "color": "#6EA8FF"
+    },
+    {
+     "iso": "392",
+     "text": "JAPAN",
+     "color": "#6EA8FF"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      134.0,
+      18.0
+     ],
+     "text": "THE FAST END OF THE RANGE",
+     "color": "#FFD23F",
+     "t": 7.32
+    }
+   ]
+  },
+  {
+   "id": "c4-d5",
+   "type": "region",
+   "start": 13.088,
+   "end": 27.174,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     122.0,
+     25.5
+    ],
+    "widthKm": 1200
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      122.0,
+      25.5
+     ],
+     "widthKm": 1200
+    },
+    {
+     "t": 3.0,
+     "center": [
+      121.5,
+      25.5
+     ],
+     "widthKm": 800
+    },
+    {
+     "t": 6.5,
+     "center": [
+      121.0,
+      25.5
+     ],
+     "widthKm": 650
+    },
+    {
+     "t": 14.09,
+     "center": [
+      121.5,
+      25.5
+     ],
+     "widthKm": 1000
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "DAY 05 · SINCE LAUNCH",
+   "clockRate": 159.97,
+   "ships": [
+    {
+     "path": [
+      [
+       124.5,
+       25.0
+      ],
+      [
+       119.28131,
+       25.83872
+      ]
+     ],
+     "t0": 3.83,
+     "t1": 14.09,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 24,
+     "wake": true,
+     "label": "JASSM-ER",
+     "t": 3.85
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      124.5,
+      25.0
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "B-1B BOMBER (SIMULATED)",
+     "t": 0.3
+    },
+    {
+     "at": [
+      118.9,
+      25.9
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "ROCKET FORCE BASE (SIMULATED)",
+     "t": 5.92
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      124.5,
+      25.0
+     ],
+     "to": [
+      118.9,
+      25.9
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 3.83,
+     "t1": 5.33,
+     "width": 2,
+     "label": "571 KM, 40 MIN"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      125.8,
+      28.0
+     ],
+     "text": "40 MINUTES",
+     "color": "#FFFFFF",
+     "t": 9.15
+    }
+   ]
+  },
+  {
+   "id": "c4-30",
+   "type": "region",
+   "start": 27.174,
+   "end": 32.553,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     124.0,
+     26.0
+    ],
+    "widthKm": 2200
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      124.0,
+      26.0
+     ],
+     "widthKm": 2200
+    },
+    {
+     "t": 3.0,
+     "center": [
+      123.0,
+      25.0
+     ],
+     "widthKm": 3000
+    },
+    {
+     "t": 5.61,
+     "center": [
+      123.0,
+      25.0
+     ],
+     "widthKm": 2400
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "156",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "608",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "158",
+     "color": "#3ED6C8",
+     "fill": "rgba(62,214,200,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "CHINA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "US AND ALLIES",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 05",
+   "clockLabel": "SIMULATED CRISIS",
+   "countryLabels": [
+    {
+     "iso": "156",
+     "text": "CHINA",
+     "color": "#F2B01E"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      134.0,
+      20.0
+     ],
+     "text": "CSIS GAME: JASSM-ER LASTED ABOUT 30 DAYS",
+     "color": "#F2B01E",
+     "t": 0.05
+    },
+    {
+     "at": [
+      134.0,
+      17.0
+     ],
+     "text": "HERE IT IS ONLY STARTING",
+     "color": "#6EA8FF",
+     "t": 1.09
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "THE LRASM RUNS OUT",
+  "ON DAY FOUR"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}
