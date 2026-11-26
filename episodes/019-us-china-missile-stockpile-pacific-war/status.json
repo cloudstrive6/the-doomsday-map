@@ -14,7 +14,27 @@
       "stage": "researched",
       "note": "scenario done",
       "at": "2026-11-26T01:09:25+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "script draft 1",
+      "at": "2026-11-26T01:10:29+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "round 2 rewrite",
+      "at": "2026-11-26T01:13:19+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "round 2 rewrite, 1450+ words",
+      "at": "2026-11-26T01:13:39+00:00"
+    },
+    {
+      "stage": "script_approved",
+      "note": "script round 2 PASS",
+      "at": "2026-11-26T01:15:00+00:00"
     }
   ],
-  "stage": "researched"
+  "stage": "script_approved"
 }
