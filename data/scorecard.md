@@ -1,19 +1,19 @@
-# Scorecard (2026-11-25, latest snapshot 2026-11-25)
+# Scorecard (2026-11-26, latest snapshot 2026-11-26)
 
 Built by `python -m studio scorecard` from data/analytics/. Targets judged on the median of episodes 004 onward; earlier episodes are the baseline. Small samples: read as tests, not proof.
 
-Subscribers: 18 (target 50 by 2026-12-10)
+Subscribers: 19 (target 50 by 2026-12-10)
 
 ## Targets
 
 | Criterion | Horizon | Target | Median | Episodes measured | Met |
 |---|---|---|---|---|---|
-| C1 Long CTR | 7d | 5.0% | 4.0% | 5 | no |
+| C1 Long CTR | 7d | 5.0% | 4.0% | 6 | no |
 | C2 Hold at 11% | 7d | 60.0% | - | 0 | - |
-| C3 Avg % viewed | 7d | 40% | 33% | 5 | no |
-| C4 Long views | 7d | 150 | 25 | 5 | no |
-| C5a Shorts views | 7d | 300 | 355.0 | 14 | yes |
-| C5b Shorts avg % viewed | 7d | 80% | 68% | 14 | no |
+| C3 Avg % viewed | 7d | 40% | 33% | 6 | no |
+| C4 Long views | 7d | 150 | 23.5 | 6 | no |
+| C5a Shorts views | 7d | 300 | 427 | 17 | yes |
+| C5b Shorts avg % viewed | 7d | 80% | 72% | 17 | no |
 | C1 Long CTR | 28d | 5.0% | - | 0 | - |
 | C2 Hold at 11% | 28d | 60.0% | - | 0 | - |
 | C3 Avg % viewed | 28d | 40% | - | 0 | - |
@@ -41,7 +41,7 @@ Subscribers: 18 (target 50 by 2026-12-10)
 | 008 | -jPUfuzQF4g | 28 | due 2026-12-15 | - | - | - | - | - | - |
 | 009 | 32-u8DqpnJo | 7 | measured | 25 | 2.6% | 77 | - | 33% | 221 |
 | 009 | 32-u8DqpnJo | 28 | due 2026-12-16 | - | - | - | - | - | - |
-| 010 | yW8PX8vxzT8 | 7 | due 2026-11-26 | - | - | - | - | - | - |
+| 010 | yW8PX8vxzT8 | 7 | measured | 22 | 4.1% | 123 | - | 25% | 170 |
 | 010 | yW8PX8vxzT8 | 28 | due 2026-12-17 | - | - | - | - | - | - |
 | 011 | lBZsX8m3KO4 | 7 | due 2026-11-27 | - | - | - | - | - | - |
 | 011 | lBZsX8m3KO4 | 28 | due 2026-12-18 | - | - | - | - | - | - |
@@ -59,6 +59,8 @@ Subscribers: 18 (target 50 by 2026-12-10)
 | 017 | 93qjGcMzvsw | 28 | due 2026-12-24 | - | - | - | - | - | - |
 | 018 | ADelaz-Rb-A | 7 | due 2026-12-04 | - | - | - | - | - | - |
 | 018 | ADelaz-Rb-A | 28 | due 2026-12-25 | - | - | - | - | - | - |
+| 019 | uwIjDv0KoOo | 7 | due 2026-12-05 | - | - | - | - | - | - |
+| 019 | uwIjDv0KoOo | 28 | due 2026-12-26 | - | - | - | - | - | - |
 
 ## Shorts
 
@@ -110,11 +112,11 @@ Subscribers: 18 (target 50 by 2026-12-10)
 | 009 | UVwaVWWRXIE | 28 | due 2026-12-16 | - | - | - |
 | 009 | d70ycdBnvsE | 7 | measured | 289 | 55% | 22 |
 | 009 | d70ycdBnvsE | 28 | due 2026-12-16 | - | - | - |
-| 009 | RJ7F0uSC1Xg | 7 | due 2026-11-26 | - | - | - |
+| 009 | RJ7F0uSC1Xg | 7 | measured | 1,013 | 93% | 29 |
 | 009 | RJ7F0uSC1Xg | 28 | due 2026-12-17 | - | - | - |
-| 010 | 0eqT7omUKg0 | 7 | due 2026-11-26 | - | - | - |
+| 010 | 0eqT7omUKg0 | 7 | measured | 1,005 | 95% | 23 |
 | 010 | 0eqT7omUKg0 | 28 | due 2026-12-17 | - | - | - |
-| 010 | 9Wov8oOgXSM | 7 | due 2026-11-26 | - | - | - |
+| 010 | 9Wov8oOgXSM | 7 | measured | 985 | 64% | 21 |
 | 010 | 9Wov8oOgXSM | 28 | due 2026-12-17 | - | - | - |
 | 010 | ughjJdoGf50 | 7 | due 2026-11-27 | - | - | - |
 | 010 | ughjJdoGf50 | 28 | due 2026-12-18 | - | - | - |
@@ -166,3 +168,9 @@ Subscribers: 18 (target 50 by 2026-12-10)
 | 018 | zRbDmTEkbjA | 28 | due 2026-12-25 | - | - | - |
 | 018 | rYpHiMrRbrM | 7 | due 2026-12-05 | - | - | - |
 | 018 | rYpHiMrRbrM | 28 | due 2026-12-26 | - | - | - |
+| 019 | cn0rJ6feuMM | 7 | due 2026-12-05 | - | - | - |
+| 019 | cn0rJ6feuMM | 28 | due 2026-12-26 | - | - | - |
+| 019 | 7POaomaKvYM | 7 | due 2026-12-05 | - | - | - |
+| 019 | 7POaomaKvYM | 28 | due 2026-12-26 | - | - | - |
+| 019 | MTDeukcwKHc | 7 | due 2026-12-06 | - | - | - |
+| 019 | MTDeukcwKHc | 28 | due 2026-12-27 | - | - | - |
