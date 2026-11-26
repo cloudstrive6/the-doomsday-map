@@ -1,0 +1,38 @@
+[
+  {
+    "id": "s1",
+    "youtube_id": "cn0rJ6feuMM",
+    "url": "https://youtube.com/shorts/cn0rJ6feuMM",
+    "publish_at": "2026-11-28T14:00:00Z",
+    "title": "One Nuke on Batan Island: China Fires First in a Pacific War #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -14.0,
+      "TP": -1.8
+    }
+  },
+  {
+    "id": "s2",
+    "youtube_id": "7POaomaKvYM",
+    "url": "https://youtube.com/shorts/7POaomaKvYM",
+    "publish_at": "2026-11-28T19:00:00Z",
+    "title": "What One Nuke Would Do to Batan Island's Airport #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -14.0,
+      "TP": -2.0
+    }
+  },
+  {
+    "id": "s3",
+    "youtube_id": "MTDeukcwKHc",
+    "url": "https://youtube.com/shorts/MTDeukcwKHc",
+    "publish_at": "2026-11-29T00:00:00Z",
+    "title": "Simulated US-China War: Day Four, the Missiles Run Out #shorts",
+    "warnings": [],
+    "loudness": {
+      "I": -13.9,
+      "TP": -4.0
+    }
+  }
+]

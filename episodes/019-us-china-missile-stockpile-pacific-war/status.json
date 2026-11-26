@@ -69,7 +69,22 @@
       "stage": "packaged",
       "note": "packaged; thumbnail checklist 14/20 after 3 rounds",
       "at": "2026-11-26T01:53:49+00:00"
+    },
+    {
+      "stage": "rendered",
+      "note": "https://github.com/cloudstrive6/the-doomsday-map/actions/runs/45732671750",
+      "at": "2026-11-26T02:10:33+00:00"
+    },
+    {
+      "stage": "qc_passed",
+      "note": "",
+      "at": "2026-11-26T02:11:10+00:00"
+    },
+    {
+      "stage": "uploaded",
+      "note": "https://youtu.be/uwIjDv0KoOo at 2026-11-28T00:00:00Z",
+      "at": "2026-11-26T02:11:50+00:00"
     }
   ],
-  "stage": "packaged"
+  "stage": "uploaded"
 }
