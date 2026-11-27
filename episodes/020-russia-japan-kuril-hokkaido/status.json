@@ -9,7 +9,42 @@
       "stage": "researched",
       "note": "29 A, 10 B items",
       "at": "2026-11-27T01:08:47+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "script draft 1",
+      "at": "2026-11-27T01:11:10+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "script draft 1",
+      "at": "2026-11-27T01:11:29+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "script draft 1",
+      "at": "2026-11-27T01:11:33+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "round 2",
+      "at": "2026-11-27T01:14:37+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "round 2",
+      "at": "2026-11-27T01:14:40+00:00"
+    },
+    {
+      "stage": "script_approved",
+      "note": "fact-screener round 2 FAIL on one line, fixed by showrunner, 3 notes applied",
+      "at": "2026-11-27T01:15:51+00:00"
+    },
+    {
+      "stage": "narrated",
+      "note": "1528 words, 11.2 min",
+      "at": "2026-11-27T01:21:35+00:00"
     }
   ],
-  "stage": "researched"
+  "stage": "narrated"
 }
