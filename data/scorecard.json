@@ -10,7 +10,7 @@
     "C1@7d": {
       "label": "Long CTR",
       "target": 0.05,
-      "median": 0.0403,
+      "median": 0.0417,
       "n": 7,
       "met": false
     },
@@ -1190,12 +1190,12 @@
       "snapshot": "2026-11-27",
       "status": "measured",
       "views": 1277,
-      "avp": 63.55,
+      "avp": 63.470000000000006,
       "avd": 24,
-      "hold": 1.178,
+      "hold": 1.176,
       "subs": 1,
-      "ctr": 0.0113,
-      "impressions": 888
+      "ctr": 0.012,
+      "impressions": 920
     },
     {
       "episode": "010-tsar-bomba-over-new-york",
@@ -1225,8 +1225,8 @@
       "avd": null,
       "hold": null,
       "subs": null,
-      "ctr": 0.0328,
-      "impressions": 61
+      "ctr": 0.0417,
+      "impressions": 72
     },
     {
       "episode": "011-washington-where-the-government-goes",
@@ -1252,12 +1252,12 @@
       "snapshot": "2026-11-27",
       "status": "measured",
       "views": 538,
-      "avp": 47.23,
-      "avd": 17,
+      "avp": 47.17,
+      "avd": 16,
       "hold": null,
       "subs": 0,
-      "ctr": 0.0367,
-      "impressions": 109
+      "ctr": 0.0336,
+      "impressions": 119
     },
     {
       "episode": "011-washington-where-the-government-goes",
@@ -1282,13 +1282,13 @@
       "due": "2026-11-27",
       "snapshot": "2026-11-27",
       "status": "measured",
-      "views": 283,
+      "views": 284,
       "avp": 50.2,
       "avd": 18,
       "hold": null,
       "subs": 0,
-      "ctr": 0.03,
-      "impressions": 100
+      "ctr": 0.0256,
+      "impressions": 117
     },
     {
       "episode": "011-washington-where-the-government-goes",
