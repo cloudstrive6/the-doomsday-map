@@ -1,0 +1,473 @@
+{
+ "subtitles": [
+  {
+   "start": 0.222,
+   "end": 1.151,
+   "text": "Day 3."
+  },
+  {
+   "start": 1.687,
+   "end": 3.981,
+   "text": "A Bastion battery on Kunashir fires"
+  },
+  {
+   "start": 3.981,
+   "end": 6.281,
+   "text": "one Oniks missile at a Japanese"
+  },
+  {
+   "start": 6.281,
+   "end": 7.931,
+   "text": "destroyer in the strait."
+  },
+  {
+   "start": 8.166,
+   "end": 10.711,
+   "text": "The target is 54 km away."
+  },
+  {
+   "start": 10.895,
+   "end": 12.971,
+   "text": "The missile takes under 4 minutes."
+  },
+  {
+   "start": 13.451,
+   "end": 14.881,
+   "text": "Whether the ship survives,"
+  },
+  {
+   "start": 14.881,
+   "end": 16.031,
+   "text": "we do not say."
+  },
+  {
+   "start": 16.373,
+   "end": 18.431,
+   "text": "Nothing about its crew is simulated."
+  },
+  {
+   "start": 20.108,
+   "end": 24.091,
+   "text": "Day 4. Nothing is fired."
+  },
+  {
+   "start": 24.859,
+   "end": 27.391,
+   "text": "Both governments say, in public,"
+  },
+  {
+   "start": 27.774,
+   "end": 30.311,
+   "text": "that they want no wider war."
+  },
+  {
+   "start": 30.697,
+   "end": 32.271,
+   "text": "The calm is thin:"
+  },
+  {
+   "start": 32.579,
+   "end": 34.301,
+   "text": "the same two phones that could"
+  },
+  {
+   "start": 34.301,
+   "end": 36.851,
+   "text": "have rung are still silent."
+  }
+ ],
+ "slug": "020-russia-japan-kuril-hokkaido-s3",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 37.061,
+ "shots": [
+  {
+   "id": "c4-d3",
+   "type": "region",
+   "start": 0.0,
+   "end": 18.913,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     145.7,
+     43.75
+    ],
+    "widthKm": 280.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      145.7,
+      43.75
+     ],
+     "widthKm": 280.0
+    },
+    {
+     "t": 3.8,
+     "center": [
+      145.675,
+      43.725
+     ],
+     "widthKm": 235.0
+    },
+    {
+     "t": 7.61,
+     "center": [
+      145.65,
+      43.7
+     ],
+     "widthKm": 190.0
+    },
+    {
+     "t": 11.41,
+     "center": [
+      145.575,
+      43.6
+     ],
+     "widthKm": 245.0
+    },
+    {
+     "t": 15.21,
+     "center": [
+      145.5,
+      43.5
+     ],
+     "widthKm": 300.0
+    }
+   ],
+   "clock": "DAY 03",
+   "clockLabel": "BASTION FIRES",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       145.6,
+       43.45
+      ],
+      [
+       145.55,
+       43.55
+      ]
+     ],
+     "t0": 0,
+     "t1": 15.21,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 22,
+     "wake": true,
+     "label": "JAPANESE DESTROYER",
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       145.78265,
+       43.96877
+      ],
+      [
+       145.55,
+       43.55
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.41,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 24,
+     "wake": true,
+     "label": "ONIKS",
+     "t": 0.05
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      145.8,
+      44.0
+     ],
+     "to": [
+      145.55,
+      43.55
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.05,
+     "t1": 4.41,
+     "width": 2,
+     "label": "54 KM"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      145.8,
+      44.0
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "BASTION BATTERY (SITE SIMULATED)",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      146.0,
+      43.8
+     ],
+     "text": "UNDER FOUR MINUTES",
+     "color": "#FF3B3B",
+     "t": 8.13
+    },
+    {
+     "at": [
+      145.0,
+      43.9
+     ],
+     "text": "WE DO NOT SAY IF IT SURVIVES",
+     "color": "#FFD23F",
+     "t": 9.6
+    },
+    {
+     "at": [
+      146.0,
+      43.3
+     ],
+     "text": "CREW: NOT SIMULATED",
+     "color": "#FFFFFF",
+     "t": 13.29
+    }
+   ]
+  },
+  {
+   "id": "c4-d4",
+   "type": "region",
+   "start": 18.913,
+   "end": 37.061,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     145.7,
+     43.7
+    ],
+    "widthKm": 450.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      145.7,
+      43.7
+     ],
+     "widthKm": 450.0
+    },
+    {
+     "t": 3.67,
+     "center": [
+      145.6,
+      43.6
+     ],
+     "widthKm": 330.0
+    },
+    {
+     "t": 7.34,
+     "center": [
+      141.5,
+      46.0
+     ],
+     "widthKm": 2800.0
+    },
+    {
+     "t": 11.01,
+     "center": [
+      142.0,
+      44.0
+     ],
+     "widthKm": 2000.0
+    },
+    {
+     "t": 14.68,
+     "center": [
+      138.5,
+      41.0
+     ],
+     "widthKm": 2500.0
+    },
+    {
+     "t": 18.35,
+     "center": [
+      140.5,
+      42.0
+     ],
+     "widthKm": 2000.0
+    }
+   ],
+   "clock": "DAY 04",
+   "clockLabel": "NOTHING IS FIRED",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       145.9,
+       43.9
+      ],
+      [
+       145.85,
+       43.85
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.0,
+     "kind": "coastguard",
+     "color": "#F2B01E",
+     "size": 20,
+     "wake": true,
+     "label": "RUSSIAN BOAT",
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       145.5,
+       43.35
+      ],
+      [
+       145.55,
+       43.4
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.0,
+     "kind": "coastguard",
+     "color": "#6EA8FF",
+     "size": 20,
+     "wake": true,
+     "label": "JAPAN COAST GUARD",
+     "t": 0.05
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      146.2,
+      43.2
+     ],
+     "text": "NOTHING IS FIRED",
+     "color": "#FFFFFF",
+     "t": 0.4
+    },
+    {
+     "at": [
+      142.7,
+      50.4
+     ],
+     "text": "RUSSIA: NO WIDER WAR",
+     "color": "#F2B01E",
+     "t": 5.8
+    },
+    {
+     "at": [
+      142.3,
+      43.2
+     ],
+     "text": "JAPAN: NO WIDER WAR",
+     "color": "#6EA8FF",
+     "t": 6.0
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      131.9,
+      43.1
+     ],
+     "to": [
+      139.7,
+      35.7
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 12.68,
+     "t1": 14.68,
+     "width": 2
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      139.7,
+      35.7
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "ONE PHONE",
+     "t": 14.24
+    },
+    {
+     "at": [
+      131.9,
+      43.1
+     ],
+     "kind": "dot",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "THE OTHER, SILENT",
+     "t": 14.84
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "ONE ONIKS MISSILE",
+  "AT A JAPANESE DESTROYER"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

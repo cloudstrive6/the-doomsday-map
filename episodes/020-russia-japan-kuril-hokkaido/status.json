@@ -64,7 +64,12 @@
       "stage": "visual_approved",
       "note": "visual screener PASS round 3",
       "at": "2026-11-27T01:43:41+00:00"
+    },
+    {
+      "stage": "packaged",
+      "note": "packaged; thumbnails engine-drawn (Gemini 402), s3 replaced",
+      "at": "2026-11-27T01:50:49+00:00"
     }
   ],
-  "stage": "visual_approved"
+  "stage": "packaged"
 }
