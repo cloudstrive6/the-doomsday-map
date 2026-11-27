@@ -1,0 +1,142 @@
+[
+ {
+  "id": "a",
+  "variant": "map",
+  "concept": "daylight-flash",
+  "palette": "fire-blue",
+  "line1": "27 MIN",
+  "line2": "TO ACT",
+  "tag": "",
+  "align": "left",
+  "region": {
+   "theme": "bright",
+   "t": 30.8,
+   "view": {
+    "center": [
+     144.8,
+     43.6
+    ],
+    "widthKm": 800
+   },
+   "burst": {
+    "at": [
+     146.5,
+     42.8
+    ],
+    "t": 30,
+    "km": 60,
+    "fade": 8
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.22)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.22)"
+    }
+   ]
+  }
+ },
+ {
+  "id": "b",
+  "variant": "map",
+  "concept": "map",
+  "palette": "map",
+  "line1": "386 KM",
+  "line2": "AT SEA",
+  "tag": "",
+  "align": "left",
+  "region": {
+   "theme": "bright",
+   "t": 30,
+   "view": {
+    "center": [
+     146.3,
+     43.8
+    ],
+    "widthKm": 800
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.22)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.22)"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      147.5,
+      46.2
+     ],
+     "to": [
+      146.5,
+      42.8
+     ],
+     "color": "#E01E1E",
+     "t0": 0,
+     "t1": 1,
+     "width": 16
+    }
+   ]
+  }
+ },
+ {
+  "id": "c",
+  "variant": "map",
+  "concept": "scale",
+  "palette": "map",
+  "line1": "54 KM",
+  "line2": "ONE MISSILE",
+  "tag": "",
+  "align": "right",
+  "region": {
+   "theme": "bright",
+   "t": 30,
+   "view": {
+    "center": [
+     145.7,
+     43.8
+    ],
+    "widthKm": 400
+   },
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.25)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.22)"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      145.9,
+      44.0
+     ],
+     "to": [
+      145.45,
+      43.55
+     ],
+     "color": "#E01E1E",
+     "t0": 0,
+     "t1": 1,
+     "width": 14
+    }
+   ]
+  }
+ }
+]
