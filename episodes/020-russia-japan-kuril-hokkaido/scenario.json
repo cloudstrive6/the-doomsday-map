@@ -1,0 +1,19 @@
+{
+  "slug": "020-russia-japan-kuril-hokkaido",
+  "title": "Russia and Japan clash over the Kuril Islands, and one nuclear weapon is used at sea",
+  "t0_utc": "2027-03-16T02:10:00Z",
+  "strikes": [
+    {"id": "bastion-nemuro", "launch_name": "Russian Bastion-P coastal battery, Kunashir (location simulated)", "launch_lat": 44.0, "launch_lon": 145.8,
+     "target_name": "Japanese destroyer, Nemuro Strait", "target_lat": 43.55, "target_lon": 145.55, "weapon": "P-800 Oniks (Bastion-P)", "weapon_class": "cruise",
+     "yield_kt": 0, "burst": "conventional", "warheads": 1, "launch_offset_min": -5760,
+     "notes": "day 3, conventional; the Bastion batteries on Kunashir and Iturup are real (A15), the firing is the simulation's choice"},
+    {"id": "type12-kunashir", "launch_name": "Japan Ground Self-Defense Force long-range missile unit, Hokkaido (location simulated)", "launch_lat": 43.2, "launch_lon": 142.4,
+     "target_name": "Russian Bastion battery, Kunashir (location simulated)", "target_lat": 44.0, "target_lon": 145.8, "weapon": "Type-12 improved surface-to-ship missile (assumed in Hokkaido)", "weapon_class": "cruise",
+     "yield_kt": 0, "burst": "conventional", "warheads": 1, "launch_offset_min": -2880,
+     "notes": "day 5, conventional counterstrike; about 1,000 km class missile (A24) assumed in Hokkaido, which is the simulation's choice"},
+    {"id": "kalibr-escort-group", "launch_name": "Russian Pacific Fleet submarine, Sea of Okhotsk (location simulated)", "launch_lat": 46.2, "launch_lon": 147.5,
+     "target_name": "Japanese and US escort group, Pacific off south-east Hokkaido", "target_lat": 42.8, "target_lon": 146.5, "weapon": "Kalibr land-attack/anti-ship cruise missile (nuclear, assumed)", "weapon_class": "cruise",
+     "yield_kt": 10, "burst": "air", "warheads": 1, "launch_offset_min": 0,
+     "notes": "day 7 launch, airburst at sea; the navy holds about 767 non-strategic warheads per one estimate (A20); 10 kt is a simulation choice, the low end of the published 10 to 100 kt envelope for Russian battlefield warheads (016 A12, single-source)"}
+  ]
+}
