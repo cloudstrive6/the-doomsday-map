@@ -44,7 +44,27 @@
       "stage": "narrated",
       "note": "1528 words, 11.2 min",
       "at": "2026-11-27T01:21:35+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "70 shots, 677.5 s; validate ok, 0 pace lines",
+      "at": "2026-11-27T01:35:05+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "round 2 fixes: flash at 5.7 s, banner 5.3 to 8.8 s over the spoken disclaimer, scaled rings at sea; 0 pace lines",
+      "at": "2026-11-27T01:38:46+00:00"
+    },
+    {
+      "stage": "shotlisted",
+      "note": "80 shots, 677.5 s, round 3 c5 split, 0 pace lines",
+      "at": "2026-11-27T01:42:03+00:00"
+    },
+    {
+      "stage": "visual_approved",
+      "note": "visual screener PASS round 3",
+      "at": "2026-11-27T01:43:41+00:00"
     }
   ],
-  "stage": "narrated"
+  "stage": "visual_approved"
 }

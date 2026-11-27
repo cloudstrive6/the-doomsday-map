@@ -1,0 +1,10293 @@
+{
+ "slug": "020-russia-japan-kuril-hokkaido",
+ "fps": 60,
+ "width": 1920,
+ "height": 1080,
+ "durationSeconds": 677.48,
+ "banner": {
+  "start": 5.3,
+  "end": 8.8
+ },
+ "musicPlan": [
+  {
+   "src": "bed_tense.mp3",
+   "from": 0,
+   "to": 31.121,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  },
+  {
+   "src": "bed.mp3",
+   "from": 29.121,
+   "to": 243.056,
+   "loop": [
+    2,
+    174
+   ],
+   "gain_db": -17
+  },
+  {
+   "src": "bed_tense.mp3",
+   "from": 241.056,
+   "to": 677.48,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  }
+ ],
+ "sfxPlan": [
+  {
+   "src": "impact.mp3",
+   "t": 43.013999999999996,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 159.302,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 242.20600000000002,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 299.589,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 444.59,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 546.294,
+   "gain_db": -9
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 191.50199999999998,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 359.81,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 432.27000000000004,
+   "gain_db": -14
+  },
+  {
+   "src": "boom.mp3",
+   "t": 5.7,
+   "gain_db": -4
+  },
+  {
+   "src": "boom.mp3",
+   "t": 448.29,
+   "gain_db": -4
+  },
+  {
+   "src": "boom.mp3",
+   "t": 502.21,
+   "gain_db": -4
+  }
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated.",
+ "shots": [
+  {
+   "id": "open-run",
+   "type": "region",
+   "start": 0.0,
+   "end": 5.6,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.8,
+     44.4
+    ],
+    "widthKm": 820
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.8,
+      44.4
+     ],
+     "widthKm": 820
+    },
+    {
+     "t": 2.8,
+     "center": [
+      146.6,
+      43.9
+     ],
+     "widthKm": 680
+    },
+    {
+     "t": 5.6,
+     "center": [
+      146.5,
+      43.4
+     ],
+     "widthKm": 560
+    }
+   ],
+   "clock": "T-00:08",
+   "clockLabel": "UNTIL THE BURST",
+   "clockRate": 2.8,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.6,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.6,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "label": "ESCORT GROUP",
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.6,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       147.25,
+       45.2
+      ],
+      [
+       146.55,
+       42.95
+      ]
+     ],
+     "t0": 0.05,
+     "t1": 5.6,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 26,
+     "wake": true,
+     "label": "KALIBR",
+     "t": 0.05
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      143.6,
+      43.4
+     ],
+     "text": "HOKKAIDO",
+     "color": "#6EA8FF",
+     "t": 0.1
+    },
+    {
+     "at": [
+      145.7,
+      44.4
+     ],
+     "text": "KUNASHIR",
+     "color": "#F2B01E",
+     "t": 0.5
+    },
+    {
+     "at": [
+      147.9,
+      41.9
+     ],
+     "text": "PACIFIC OCEAN",
+     "color": "#FFFFFF",
+     "t": 1.2
+    },
+    {
+     "at": [
+      143.2,
+      44.6
+     ],
+     "text": "27 MINUTES AFTER LAUNCH",
+     "color": "#FFD23F",
+     "t": 3.0
+    },
+    {
+     "at": [
+      146.2,
+      42.2
+     ],
+     "text": "THE TARGET",
+     "color": "#FF3B3B",
+     "t": 4.2
+    }
+   ]
+  },
+  {
+   "id": "open-flash",
+   "type": "region",
+   "start": 5.6,
+   "end": 7.432,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.5,
+     42.8
+    ],
+    "widthKm": 170
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "center": [
+      146.5,
+      42.8
+     ],
+     "widthKm": 170
+    },
+    {
+     "t": 1.2,
+     "center": [
+      146.5,
+      42.8
+     ],
+     "widthKm": 140
+    },
+    {
+     "t": 1.83,
+     "center": [
+      146.5,
+      42.8
+     ],
+     "widthKm": 200
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "burst": {
+    "at": [
+     146.5,
+     42.8
+    ],
+    "t": 0.1,
+    "km": 9,
+    "fade": 8
+   },
+   "rings": [
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 8.75,
+     "color": "#FF3B3B",
+     "t": 1.3,
+     "dashed": false
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 1.83,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 1.83,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 1.83,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      146.5,
+      43.01622
+     ],
+     "text": "10 KT AIR BURST (SIMULATED)",
+     "color": "#FFFFFF",
+     "t": 0.6
+    },
+    {
+     "at": [
+      146.975,
+      42.6018
+     ],
+     "text": "ESCORT GROUP",
+     "color": "#6EA8FF",
+     "t": 0.5
+    }
+   ]
+  },
+  {
+   "id": "open-after",
+   "type": "region",
+   "start": 7.432,
+   "end": 13.073,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.5,
+     42.8
+    ],
+    "widthKm": 260.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.5,
+      42.8
+     ],
+     "widthKm": 260.0
+    },
+    {
+     "t": 2.82,
+     "center": [
+      145.95,
+      43.15
+     ],
+     "widthKm": 540.0
+    },
+    {
+     "t": 5.64,
+     "center": [
+      145.4,
+      43.5
+     ],
+     "widthKm": 820.0
+    }
+   ],
+   "clock": "T+00:30",
+   "clockLabel": "AFTER THE BURST",
+   "clockRate": 1,
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "burst": {
+    "at": [
+     146.5,
+     42.8
+    ],
+    "t": -5.0,
+    "km": 9,
+    "fade": 9
+   },
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.64,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.64,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.64,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      145.82,
+      43.39
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 6,
+     "label": "CAPE NOSAPPU",
+     "t": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      145.82,
+      43.39
+     ],
+     "to": [
+      146.5,
+      42.8
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 2.0,
+     "t1": 3.2,
+     "width": 2,
+     "label": "ABOUT 85 KM"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      146.8125,
+      43.03423
+     ],
+     "text": "IT HAS NOT HAPPENED",
+     "color": "#FFD23F",
+     "t": 4.3
+    },
+    {
+     "at": [
+      143.6,
+      43.5
+     ],
+     "text": "HOKKAIDO",
+     "color": "#6EA8FF",
+     "t": 0.5
+    }
+   ]
+  },
+  {
+   "id": "open-sub",
+   "type": "region",
+   "start": 13.073,
+   "end": 19.579,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.3,
+     46.9
+    ],
+    "widthKm": 1500.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.3,
+      46.9
+     ],
+     "widthKm": 1500.0
+    },
+    {
+     "t": 3.26,
+     "center": [
+      146.75,
+      46.7
+     ],
+     "widthKm": 1200.0
+    },
+    {
+     "t": 6.51,
+     "center": [
+      147.2,
+      46.5
+     ],
+     "widthKm": 900.0
+    }
+   ],
+   "caption": "27 minutes earlier.",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 0.0,
+   "cities": [
+    {
+     "at": [
+      147.5,
+      46.2
+     ],
+     "kind": "sub",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "RUSSIAN SUBMARINE (SIMULATED)",
+     "t": 3.4
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      145.4,
+      48.4
+     ],
+     "text": "SEA OF OKHOTSK",
+     "color": "#FFFFFF",
+     "t": 5.46
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "text": "TARGET AREA",
+     "color": "#6EA8FF",
+     "t": 1.0
+    }
+   ]
+  },
+  {
+   "id": "open-fire",
+   "type": "region",
+   "start": 19.579,
+   "end": 25.041,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     147.0,
+     45.0
+    ],
+    "widthKm": 1000.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      147.0,
+      45.0
+     ],
+     "widthKm": 1000.0
+    },
+    {
+     "t": 2.73,
+     "center": [
+      146.85,
+      44.4
+     ],
+     "widthKm": 825.0
+    },
+    {
+     "t": 5.46,
+     "center": [
+      146.7,
+      43.8
+     ],
+     "widthKm": 650.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 134.6,
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.46,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.46,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "label": "ESCORT GROUP",
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.46,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       147.5,
+       46.2
+      ],
+      [
+       147.05108,
+       44.67368
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.46,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 26,
+     "wake": true,
+     "label": "KALIBR",
+     "t": 0.05
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      147.5,
+      46.2
+     ],
+     "to": [
+      146.5,
+      42.8
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.2,
+     "t1": 1.8,
+     "width": 2,
+     "label": "386 KM"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      145.3,
+      44.7
+     ],
+     "text": "JAPANESE AND US WARSHIPS",
+     "color": "#6EA8FF",
+     "t": 1.93
+    }
+   ]
+  },
+  {
+   "id": "open-radar",
+   "type": "region",
+   "start": 25.041,
+   "end": 30.121,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.6,
+     43.4
+    ],
+    "widthKm": 520.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.6,
+      43.4
+     ],
+     "widthKm": 520.0
+    },
+    {
+     "t": 2.54,
+     "center": [
+      146.55,
+      43.175
+     ],
+     "widthKm": 410.0
+    },
+    {
+     "t": 5.08,
+     "center": [
+      146.5,
+      42.95
+     ],
+     "widthKm": 300.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+12:15",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 129.3,
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.08,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.08,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "label": "ESCORT GROUP",
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.08,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       147.05108,
+       44.67368
+      ],
+      [
+       146.65,
+       43.31
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.88,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 26,
+     "wake": true,
+     "label": "KALIBR",
+     "t": 0.05
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 60,
+     "color": "#6EA8FF",
+     "t": 0.4,
+     "dashed": true,
+     "label": "RADAR RANGE (SIMPLIFIED)"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      146.9,
+      44.0
+     ],
+     "text": "RADAR PICKS IT UP",
+     "color": "#FFFFFF",
+     "t": 0.05
+    },
+    {
+     "at": [
+      145.7,
+      42.6
+     ],
+     "text": "27 MINUTES TO ACT",
+     "color": "#FFD23F",
+     "t": 2.03
+    }
+   ]
+  },
+  {
+   "id": "open-why",
+   "type": "region",
+   "start": 30.121,
+   "end": 34.258,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.3,
+     43.5
+    ],
+    "widthKm": 520.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.3,
+      43.5
+     ],
+     "widthKm": 520.0
+    },
+    {
+     "t": 4.14,
+     "center": [
+      145.6,
+      43.5
+     ],
+     "widthKm": 380.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 07",
+   "clockLabel": "11:10 LOCAL",
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.14,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.14,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "label": "SHIPS",
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.14,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      145.58,
+      43.33
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "NEMURO: A JAPANESE CITY",
+     "t": 3.13
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      146.6,
+      43.2
+     ],
+     "text": "WHY SHIPS?",
+     "color": "#FFD23F",
+     "t": 1.39
+    }
+   ]
+  },
+  {
+   "id": "open-who",
+   "type": "region",
+   "start": 34.258,
+   "end": 38.37,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     141.5,
+     39.6
+    ],
+    "widthKm": 1900.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      141.5,
+      39.6
+     ],
+     "widthKm": 1900.0
+    },
+    {
+     "t": 4.11,
+     "center": [
+      140.5,
+      38.0
+     ],
+     "widthKm": 2600.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 07",
+   "clockLabel": "11:10 LOCAL",
+   "cities": [
+    {
+     "at": [
+      139.7,
+      35.7
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "TOKYO",
+     "t": 0.47
+    },
+    {
+     "at": [
+      139.67,
+      35.28
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "YOKOSUKA: US NAVY",
+     "t": 1.21
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      146.0,
+      42.2
+     ],
+     "text": "27 MINUTES",
+     "color": "#FFD23F",
+     "t": 2.49
+    }
+   ]
+  },
+  {
+   "id": "open-isl",
+   "type": "region",
+   "start": 38.37,
+   "end": 42.864,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     145.8,
+     43.7
+    ],
+    "widthKm": 800.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      145.8,
+      43.7
+     ],
+     "widthKm": 800.0
+    },
+    {
+     "t": 2.25,
+     "center": [
+      145.8,
+      43.7
+     ],
+     "widthKm": 610.0
+    },
+    {
+     "t": 4.49,
+     "center": [
+      145.8,
+      43.7
+     ],
+     "widthKm": 420.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "DAY 07",
+   "clockLabel": "11:10 LOCAL",
+   "labels": [
+    {
+     "at": [
+      145.4,
+      44.3
+     ],
+     "text": "KUNASHIR",
+     "color": "#F2B01E",
+     "t": 1.4
+    },
+    {
+     "at": [
+      143.8,
+      43.4
+     ],
+     "text": "HOKKAIDO",
+     "color": "#6EA8FF",
+     "t": 2.66
+    }
+   ]
+  },
+  {
+   "id": "c1-card",
+   "type": "chapter",
+   "start": 42.864,
+   "end": 46.564,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 01",
+   "title": "Islands within sight"
+  },
+  {
+   "id": "c1-iturup",
+   "type": "region",
+   "start": 46.564,
+   "end": 51.46,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     146.0,
+     44.3
+    ],
+    "widthKm": 1000.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.0,
+      44.3
+     ],
+     "widthKm": 1000.0
+    },
+    {
+     "t": 2.45,
+     "center": [
+      146.7,
+      44.6
+     ],
+     "widthKm": 740.0
+    },
+    {
+     "t": 4.9,
+     "center": [
+      147.4,
+      44.9
+     ],
+     "widthKm": 480.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "Al Jazeera, 13 August 2026",
+   "cities": [
+    {
+     "at": [
+      147.6,
+      45.0
+     ],
+     "kind": "target",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "ITURUP: PUTIN LANDED",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      148.0,
+      45.9
+     ],
+     "text": "LARGEST KURIL ISLAND",
+     "color": "#FFFFFF",
+     "t": 2.53
+    }
+   ],
+   "caption": "13 August 2026"
+  },
+  {
+   "id": "c1-reaction",
+   "type": "region",
+   "start": 51.46,
+   "end": 58.752,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     145.0,
+     43.5
+    ],
+    "widthKm": 900.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      145.0,
+      43.5
+     ],
+     "widthKm": 900.0
+    },
+    {
+     "t": 3.65,
+     "center": [
+      143.25,
+      42.5
+     ],
+     "widthKm": 1550.0
+    },
+    {
+     "t": 7.29,
+     "center": [
+      141.5,
+      41.5
+     ],
+     "widthKm": 2200.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "Al Jazeera, 13 August 2026; Stars and Stripes",
+   "labels": [
+    {
+     "at": [
+      146.2,
+      45.4
+     ],
+     "text": "FIRST RUSSIAN PRESIDENT HERE",
+     "color": "#F2B01E",
+     "t": 0.3
+    },
+    {
+     "at": [
+      141.7,
+      43.0
+     ],
+     "text": "JAPAN: ABSOLUTELY UNACCEPTABLE",
+     "color": "#6EA8FF",
+     "t": 4.52
+    }
+   ]
+  },
+  {
+   "id": "c1-fire1",
+   "type": "region",
+   "start": 58.752,
+   "end": 63.27,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     147.2,
+     45.2
+    ],
+    "widthKm": 1000.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      147.2,
+      45.2
+     ],
+     "widthKm": 1000.0
+    },
+    {
+     "t": 2.26,
+     "center": [
+      147.35,
+      45.1
+     ],
+     "widthKm": 810.0
+    },
+    {
+     "t": 4.52,
+     "center": [
+      147.5,
+      45.0
+     ],
+     "widthKm": 620.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "Russian Pacific Fleet, via Stars and Stripes, August 2026",
+   "cities": [
+    {
+     "at": [
+      147.6,
+      45.0
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "MISSILES FIRED FROM THE ISLANDS",
+     "t": 3.18
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      147.6,
+      45.0
+     ],
+     "to": [
+      150.3,
+      43.6
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 1.5,
+     "t1": 3.5,
+     "width": 2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      145.8,
+      45.9
+     ],
+     "text": "AUGUST 2026 DRILLS",
+     "color": "#FFFFFF",
+     "t": 0.3
+    }
+   ]
+  },
+  {
+   "id": "c1-fire2",
+   "type": "region",
+   "start": 63.27,
+   "end": 68.872,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     148.5,
+     44.6
+    ],
+    "widthKm": 800.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      148.5,
+      44.6
+     ],
+     "widthKm": 800.0
+    },
+    {
+     "t": 2.8,
+     "center": [
+      148.35,
+      44.8
+     ],
+     "widthKm": 1050.0
+    },
+    {
+     "t": 5.6,
+     "center": [
+      148.2,
+      45.0
+     ],
+     "widthKm": 1300.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "Russian Pacific Fleet, via Stars and Stripes, August 2026",
+   "ships": [
+    {
+     "path": [
+      [
+       149.8,
+       46.6
+      ],
+      [
+       149.0,
+       44.9
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.6,
+     "kind": "pla",
+     "color": "#F2B01E",
+     "size": 22,
+     "wake": true,
+     "label": "RUSSIAN WARSHIPS",
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      148.4,
+      46.6
+     ],
+     "kind": "sub",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "SUBMARINE",
+     "t": 0.8
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      150.0,
+      43.4
+     ],
+     "text": "HYPOTHETICAL ENEMY SHIPS",
+     "color": "#FFFFFF",
+     "t": 3.02
+    }
+   ]
+  },
+  {
+   "id": "c1-bastion",
+   "type": "region",
+   "start": 68.872,
+   "end": 76.97,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     146.7,
+     44.5
+    ],
+    "widthKm": 800.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.7,
+      44.5
+     ],
+     "widthKm": 800.0
+    },
+    {
+     "t": 4.05,
+     "center": [
+      146.7,
+      44.5
+     ],
+     "widthKm": 660.0
+    },
+    {
+     "t": 8.1,
+     "center": [
+      146.7,
+      44.5
+     ],
+     "widthKm": 520.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "Russian Defence Ministry, via GlobalSecurity",
+   "cities": [
+    {
+     "at": [
+      145.8,
+      44.0
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "BASTION: KUNASHIR",
+     "t": 2.18
+    },
+    {
+     "at": [
+      147.2,
+      44.95
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "BASTION: ITURUP",
+     "t": 5.28
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      146.1,
+      45.8
+     ],
+     "text": "SINCE 2016",
+     "color": "#FFFFFF",
+     "t": 6.87
+    }
+   ]
+  },
+  {
+   "id": "c1-range",
+   "type": "region",
+   "start": 76.97,
+   "end": 84.145,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     145.5,
+     44.0
+    ],
+    "widthKm": 700.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      145.5,
+      44.0
+     ],
+     "widthKm": 700.0
+    },
+    {
+     "t": 3.59,
+     "center": [
+      144.75,
+      44.0
+     ],
+     "widthKm": 1150.0
+    },
+    {
+     "t": 7.17,
+     "center": [
+      144.0,
+      44.0
+     ],
+     "widthKm": 1600.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "Russian Defence Ministry, via GlobalSecurity",
+   "cities": [
+    {
+     "at": [
+      145.8,
+      44.0
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "BASTION BATTERY",
+     "t": 0.2
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      145.8,
+      44.0
+     ],
+     "km": 300,
+     "color": "#F2B01E",
+     "t": 0.78,
+     "dashed": true,
+     "label": "ABOUT 300 KM"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      141.5,
+      42.3
+     ],
+     "text": "SIMULATION: FIRST SHOT",
+     "color": "#FFD23F",
+     "t": 2.92
+    }
+   ]
+  },
+  {
+   "id": "c1-kurils",
+   "type": "region",
+   "start": 84.145,
+   "end": 90.218,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     144.5,
+     43.8
+    ],
+    "widthKm": 1100.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.5,
+      43.8
+     ],
+     "widthKm": 1100.0
+    },
+    {
+     "t": 3.04,
+     "center": [
+      144.95,
+      43.8
+     ],
+     "widthKm": 860.0
+    },
+    {
+     "t": 6.07,
+     "center": [
+      145.4,
+      43.8
+     ],
+     "widthKm": 620.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "Wikipedia, Kuril Islands dispute; Japanese government",
+   "labels": [
+    {
+     "at": [
+      146.6,
+      44.7
+     ],
+     "text": "SOUTHERN KURILS",
+     "color": "#F2B01E",
+     "t": 0.3
+    },
+    {
+     "at": [
+      143.0,
+      43.5
+     ],
+     "text": "HOKKAIDO",
+     "color": "#6EA8FF",
+     "t": 4.7
+    },
+    {
+     "at": [
+      144.6,
+      42.6
+     ],
+     "text": "A FEW KM TO A FEW DOZEN",
+     "color": "#FFFFFF",
+     "t": 1.87
+    }
+   ]
+  },
+  {
+   "id": "c1-izmena",
+   "type": "region",
+   "start": 90.218,
+   "end": 100.705,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     145.45,
+     43.75
+    ],
+    "widthKm": 300.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      145.45,
+      43.75
+     ],
+     "widthKm": 300.0
+    },
+    {
+     "t": 3.49,
+     "center": [
+      145.55,
+      43.7
+     ],
+     "widthKm": 190.0
+    },
+    {
+     "t": 6.99,
+     "center": [
+      145.9,
+      43.4
+     ],
+     "widthKm": 190.0
+    },
+    {
+     "t": 10.49,
+     "center": [
+      145.85,
+      43.4
+     ],
+     "widthKm": 260.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "source": "Wikipedia, Kuril Islands dispute; Japanese government",
+   "lines": [
+    {
+     "from": [
+      145.3,
+      43.6
+     ],
+     "to": [
+      145.45,
+      43.78
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 0.69,
+     "t1": 2.19,
+     "width": 2,
+     "label": "ABOUT 16 KM"
+    },
+    {
+     "from": [
+      145.82,
+      43.39
+     ],
+     "to": [
+      145.87,
+      43.41
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 6.47,
+     "t1": 7.67,
+     "width": 2,
+     "label": "ABOUT 4 KM"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      145.65,
+      44.0
+     ],
+     "text": "KUNASHIR",
+     "color": "#F2B01E",
+     "t": 0.2
+    },
+    {
+     "at": [
+      145.1,
+      43.5
+     ],
+     "text": "NOTSUKE PENINSULA",
+     "color": "#6EA8FF",
+     "t": 3.39
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      145.82,
+      43.39
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "CAPE NOSAPPU, HOKKAIDO",
+     "t": 7.83
+    },
+    {
+     "at": [
+      145.87,
+      43.41
+     ],
+     "kind": "dot",
+     "color": "#F2B01E",
+     "size": 7,
+     "label": "NEAREST ISLET",
+     "t": 5.25
+    }
+   ]
+  },
+  {
+   "id": "c1-okhotsk",
+   "type": "region",
+   "start": 100.705,
+   "end": 119.729,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     146.0,
+     49.0
+    ],
+    "widthKm": 1300.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.0,
+      49.0
+     ],
+     "widthKm": 1300.0
+    },
+    {
+     "t": 3.81,
+     "center": [
+      146.6,
+      48.7
+     ],
+     "widthKm": 1660.0
+    },
+    {
+     "t": 7.61,
+     "center": [
+      146.6,
+      47.7
+     ],
+     "widthKm": 1780.0
+    },
+    {
+     "t": 11.42,
+     "center": [
+      145.4,
+      45.3
+     ],
+     "widthKm": 1420.0
+    },
+    {
+     "t": 15.22,
+     "center": [
+      144.8,
+      44.18
+     ],
+     "widthKm": 1040.0
+    },
+    {
+     "t": 19.02,
+     "center": [
+      144.5,
+      43.7
+     ],
+     "widthKm": 650.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "FAS; Lowy Interpreter",
+   "labels": [
+    {
+     "at": [
+      146.0,
+      50.6
+     ],
+     "text": "SEA OF OKHOTSK",
+     "color": "#FFFFFF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      149.0,
+      47.5
+     ],
+     "text": "RUSSIAN MISSILE SUBMARINES",
+     "color": "#F2B01E",
+     "t": 4.2
+    },
+    {
+     "at": [
+      148.8,
+      45.2
+     ],
+     "text": "KURIL STRAITS",
+     "color": "#F2B01E",
+     "t": 7.5
+    },
+    {
+     "at": [
+      146.7,
+      44.2
+     ],
+     "text": "A PIECE OF THE DOOR",
+     "color": "#FFD23F",
+     "t": 16.84
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      148.0,
+      49.3
+     ],
+     "kind": "sub",
+     "color": "#F2B01E",
+     "size": 8,
+     "t": 2.5
+    },
+    {
+     "at": [
+      150.5,
+      48.3
+     ],
+     "kind": "sub",
+     "color": "#F2B01E",
+     "size": 8,
+     "t": 3.0
+    },
+    {
+     "at": [
+      141.94,
+      45.52
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "SOYA STRAIT",
+     "t": 8.78
+    },
+    {
+     "at": [
+      140.5,
+      41.5
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "TSUGARU STRAIT",
+     "t": 9.53
+    }
+   ]
+  },
+  {
+   "id": "c1-kengun",
+   "type": "region",
+   "start": 119.729,
+   "end": 133.551,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     134.0,
+     36.0
+    ],
+    "widthKm": 2700.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      134.0,
+      36.0
+     ],
+     "widthKm": 2700.0
+    },
+    {
+     "t": 3.45,
+     "center": [
+      135.5,
+      37.875
+     ],
+     "widthKm": 3150.0
+    },
+    {
+     "t": 6.91,
+     "center": [
+      139.0,
+      40.25
+     ],
+     "widthKm": 2400.0
+    },
+    {
+     "t": 10.37,
+     "center": [
+      142.375,
+      42.4
+     ],
+     "widthKm": 1245.0
+    },
+    {
+     "t": 13.82,
+     "center": [
+      143.5,
+      43.6
+     ],
+     "widthKm": 480.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "PBS NewsHour; Lowy Interpreter",
+   "cities": [
+    {
+     "at": [
+      130.7,
+      32.8
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "KUMAMOTO: DEPLOYED MARCH 2026",
+     "t": 2.56
+    },
+    {
+     "at": [
+      142.47,
+      43.46
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "PLANNED: CAMP KAMIFURANO",
+     "t": 12.18
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      130.7,
+      32.8
+     ],
+     "km": 1000,
+     "color": "#6EA8FF",
+     "t": 8.07,
+     "dashed": true,
+     "label": "RANGE ABOUT 1,000 KM"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      144.6,
+      44.5
+     ],
+     "text": "HOKKAIDO ITSELF",
+     "color": "#6EA8FF",
+     "t": 12.68
+    }
+   ]
+  },
+  {
+   "id": "c1-yen",
+   "type": "number",
+   "start": 133.551,
+   "end": 138.698,
+   "tag": "REAL DATA",
+   "value": "9 TRILLION YEN",
+   "label": "record defence budget, fiscal 2026",
+   "sub": "about 58 billion dollars",
+   "color": "#6EA8FF",
+   "source": "PBS NewsHour; Lowy Interpreter"
+  },
+  {
+   "id": "c1-fleet",
+   "type": "region",
+   "start": 138.698,
+   "end": 142.79,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     148.0,
+     47.0
+    ],
+    "widthKm": 3000.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      148.0,
+      47.0
+     ],
+     "widthKm": 3000.0
+    },
+    {
+     "t": 4.09,
+     "center": [
+      148.0,
+      47.0
+     ],
+     "widthKm": 2200.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "FAS; Bulletin of the Atomic Scientists",
+   "cities": [
+    {
+     "at": [
+      131.9,
+      43.1
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "VLADIVOSTOK",
+     "t": 0.5
+    },
+    {
+     "at": [
+      158.65,
+      53.0
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "PETROPAVLOVSK",
+     "t": 1.8
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      146.0,
+      45.0
+     ],
+     "text": "THE PACIFIC FLEET",
+     "color": "#F2B01E",
+     "t": 0.3
+    }
+   ]
+  },
+  {
+   "id": "c1-767",
+   "type": "number",
+   "start": 142.79,
+   "end": 148.29,
+   "tag": "REAL DATA",
+   "value": "767",
+   "countTo": 767,
+   "label": "navy non-strategic warheads, one estimate",
+   "sub": "for cruise missiles and torpedoes",
+   "color": "#F2B01E",
+   "source": "FAS; Bulletin of the Atomic Scientists, 2026"
+  },
+  {
+   "id": "c1-storage",
+   "type": "region",
+   "start": 148.29,
+   "end": 159.152,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     146.5,
+     46.5
+    ],
+    "widthKm": 1500.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.5,
+      46.5
+     ],
+     "widthKm": 1500.0
+    },
+    {
+     "t": 3.62,
+     "center": [
+      146.5,
+      45.5
+     ],
+     "widthKm": 1066.7
+    },
+    {
+     "t": 7.24,
+     "center": [
+      146.2,
+      44.5667
+     ],
+     "widthKm": 733.3
+    },
+    {
+     "t": 10.86,
+     "center": [
+      145.6,
+      43.7
+     ],
+     "widthKm": 500.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "FAS; Bulletin of the Atomic Scientists, 2026",
+   "labels": [
+    {
+     "at": [
+      142.0,
+      49.0
+     ],
+     "text": "DECLARED: CENTRAL STORAGE",
+     "color": "#F2B01E",
+     "t": 0.3
+    },
+    {
+     "at": [
+      147.3,
+      44.3
+     ],
+     "text": "NONE ON THE ISLANDS",
+     "color": "#FFFFFF",
+     "t": 5.56
+    },
+    {
+     "at": [
+      144.6,
+      44.7
+     ],
+     "text": "HAS EITHER SIDE FIRED BEFORE?",
+     "color": "#FFD23F",
+     "t": 7.11
+    }
+   ]
+  },
+  {
+   "id": "c2-card",
+   "type": "chapter",
+   "start": 159.152,
+   "end": 162.852,
+   "tag": "REAL HISTORY",
+   "kicker": "CHAPTER 02",
+   "title": "The treaty that never came"
+  },
+  {
+   "id": "c2-1945",
+   "type": "region",
+   "start": 162.852,
+   "end": 178.345,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     150.0,
+     48.0
+    ],
+    "widthKm": 2400.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      150.0,
+      48.0
+     ],
+     "widthKm": 2400.0
+    },
+    {
+     "t": 3.88,
+     "center": [
+      149.25,
+      47.25
+     ],
+     "widthKm": 1875.0
+    },
+    {
+     "t": 7.75,
+     "center": [
+      147.8,
+      45.4
+     ],
+     "widthKm": 1200.0
+    },
+    {
+     "t": 11.62,
+     "center": [
+      146.525,
+      43.75
+     ],
+     "widthKm": 630.0
+    },
+    {
+     "t": 15.49,
+     "center": [
+      146.3,
+      43.6
+     ],
+     "widthKm": 420.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "source": "Wikipedia, Invasion of the Kuril Islands; History.com",
+   "lines": [
+    {
+     "from": [
+      156.4,
+      50.7
+     ],
+     "to": [
+      147.6,
+      45.0
+     ],
+     "color": "#F2B01E",
+     "dashed": false,
+     "t0": 0.6,
+     "t1": 3.0,
+     "width": 3,
+     "label": "SOVIET LANDINGS"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      156.4,
+      50.7
+     ],
+     "kind": "target",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "SHUMSHU: 18 AUGUST 1945",
+     "t": 4.72
+    },
+    {
+     "at": [
+      146.0,
+      43.45
+     ],
+     "kind": "dot",
+     "color": "#F2B01E",
+     "size": 7,
+     "label": "HABOMAI: BY 4 SEPTEMBER",
+     "t": 8.22
+    },
+    {
+     "at": [
+      145.8,
+      44.0
+     ],
+     "kind": "dot",
+     "color": "#F2B01E",
+     "size": 7,
+     "label": "KUNASHIR: 1 SEPTEMBER",
+     "t": 9.22
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      145.3,
+      44.7
+     ],
+     "text": "AFTER THE WAR WAS OVER",
+     "color": "#FFD23F",
+     "t": 9.2
+    },
+    {
+     "at": [
+      144.2,
+      43.5
+     ],
+     "text": "17,000 ISLANDERS SENT AWAY",
+     "color": "#FFFFFF",
+     "t": 11.28
+    }
+   ],
+   "caption": "15 August 1945: Japan announces its surrender"
+  },
+  {
+   "id": "c2-treaty",
+   "type": "region",
+   "start": 178.345,
+   "end": 191.902,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     146.5,
+     44.0
+    ],
+    "widthKm": 700.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.5,
+      44.0
+     ],
+     "widthKm": 700.0
+    },
+    {
+     "t": 3.38,
+     "center": [
+      146.375,
+      43.95
+     ],
+     "widthKm": 800.0
+    },
+    {
+     "t": 6.78,
+     "center": [
+      146.25,
+      43.9
+     ],
+     "widthKm": 900.0
+    },
+    {
+     "t": 10.16,
+     "center": [
+      146.125,
+      43.85
+     ],
+     "widthKm": 1000.0
+    },
+    {
+     "t": 13.56,
+     "center": [
+      146.0,
+      43.8
+     ],
+     "widthKm": 1100.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "source": "Wikipedia, Kuril Islands dispute; Moscow Times",
+   "caption": "19 October 1956: Moscow and Tokyo end the state of war",
+   "cities": [
+    {
+     "at": [
+      146.0,
+      43.45
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "HABOMAI",
+     "t": 7.72
+    },
+    {
+     "at": [
+      146.75,
+      43.8
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "SHIKOTAN",
+     "t": 8.22
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      147.6,
+      44.8
+     ],
+     "text": "ITURUP, KUNASHIR: NOT OFFERED",
+     "color": "#F2B01E",
+     "t": 8.28
+    },
+    {
+     "at": [
+      144.2,
+      43.8
+     ],
+     "text": "TWO ISLANDS PROMISED",
+     "color": "#FFFFFF",
+     "t": 7.72
+    },
+    {
+     "at": [
+      144.2,
+      42.9
+     ],
+     "text": "NO TREATY EVER FOLLOWED",
+     "color": "#FFD23F",
+     "t": 11.55
+    },
+    {
+     "at": [
+      147.8,
+      42.4
+     ],
+     "text": "THE WAR ENDS, 1956",
+     "color": "#FFFFFF",
+     "t": 0.3
+    }
+   ]
+  },
+  {
+   "id": "c2-2022",
+   "type": "stamp",
+   "start": 191.902,
+   "end": 195.83,
+   "tag": "REAL HISTORY",
+   "text": "MARCH 2022",
+   "line": "Russia suspends the peace talks",
+   "color": "#F2B01E",
+   "source": "Moscow Times; Lowy Interpreter"
+  },
+  {
+   "id": "c2-nophone",
+   "type": "region",
+   "start": 195.83,
+   "end": 204.369,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     137.0,
+     42.0
+    ],
+    "widthKm": 2600.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      137.0,
+      42.0
+     ],
+     "widthKm": 2600.0
+    },
+    {
+     "t": 4.27,
+     "center": [
+      138.5,
+      42.0
+     ],
+     "widthKm": 2300.0
+    },
+    {
+     "t": 8.54,
+     "center": [
+      140.0,
+      42.0
+     ],
+     "widthKm": 2000.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "Lowy Interpreter",
+   "lines": [
+    {
+     "from": [
+      131.9,
+      43.1
+     ],
+     "to": [
+      139.7,
+      35.7
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 2.0,
+     "t1": 4.0,
+     "width": 2,
+     "label": "NO CHANNEL OPEN"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      139.7,
+      35.7
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "TOKYO",
+     "t": 1.2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      133.0,
+      46.0
+     ],
+     "text": "JAPAN JOINED THE SANCTIONS",
+     "color": "#6EA8FF",
+     "t": 0.92
+    },
+    {
+     "at": [
+      145.0,
+      38.5
+     ],
+     "text": "NOBODY HAS A CHANNEL OPEN",
+     "color": "#FFD23F",
+     "t": 6.03
+    }
+   ]
+  },
+  {
+   "id": "c2-belenko",
+   "type": "region",
+   "start": 204.369,
+   "end": 220.087,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     136.0,
+     42.8
+    ],
+    "widthKm": 1500.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      136.0,
+      42.8
+     ],
+     "widthKm": 1500.0
+    },
+    {
+     "t": 3.93,
+     "center": [
+      136.75,
+      42.65
+     ],
+     "widthKm": 1300.0
+    },
+    {
+     "t": 7.86,
+     "center": [
+      137.5,
+      42.5
+     ],
+     "widthKm": 1100.0
+    },
+    {
+     "t": 11.79,
+     "center": [
+      139.35,
+      42.25
+     ],
+     "widthKm": 790.0
+    },
+    {
+     "t": 15.72,
+     "center": [
+      141.2,
+      42.0
+     ],
+     "widthKm": 480.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "source": "Wikipedia, Defection of Viktor Belenko",
+   "caption": "6 September 1976: a Soviet fighter lands at Hakodate",
+   "lines": [
+    {
+     "from": [
+      131.9,
+      43.1
+     ],
+     "to": [
+      140.73,
+      41.77
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 0.8,
+     "t1": 4.5,
+     "width": 3,
+     "label": "ONE FIGHTER"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      131.9,
+      43.1
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "VLADIVOSTOK",
+     "t": 0.3
+    },
+    {
+     "at": [
+      140.73,
+      41.77
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "HAKODATE",
+     "t": 7.82
+    },
+    {
+     "at": [
+      141.67,
+      42.8
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "CHITOSE: TWO FIGHTERS UP",
+     "t": 12.24
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      141.0,
+      40.8
+     ],
+     "text": "THEY NEVER FOUND HIM",
+     "color": "#FFD23F",
+     "t": 13.67
+    },
+    {
+     "at": [
+      138.5,
+      43.8
+     ],
+     "text": "RADAR SAW HIM",
+     "color": "#FFFFFF",
+     "t": 10.45
+    }
+   ]
+  },
+  {
+   "id": "c2-air",
+   "type": "region",
+   "start": 220.087,
+   "end": 228.937,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     137.5,
+     43.2
+    ],
+    "widthKm": 1400.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      137.5,
+      43.2
+     ],
+     "widthKm": 1400.0
+    },
+    {
+     "t": 2.95,
+     "center": [
+      136.8333,
+      43.3
+     ],
+     "widthKm": 1233.3
+    },
+    {
+     "t": 5.9,
+     "center": [
+      136.1667,
+      43.4
+     ],
+     "widthKm": 1066.7
+    },
+    {
+     "t": 8.85,
+     "center": [
+      135.5,
+      43.5
+     ],
+     "widthKm": 900.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "source": "Wikipedia, Defection of Viktor Belenko",
+   "labels": [
+    {
+     "at": [
+      139.0,
+      44.8
+     ],
+     "text": "A DEFECTION, NOT AN ATTACK",
+     "color": "#FFFFFF",
+     "t": 0.4
+    },
+    {
+     "at": [
+      132.3,
+      44.4
+     ],
+     "text": "SOVIET AIR BASES NEARBY",
+     "color": "#F2B01E",
+     "t": 6.6
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      131.9,
+      43.1
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "VLADIVOSTOK",
+     "t": 0.4
+    }
+   ]
+  },
+  {
+   "id": "c2-calm",
+   "type": "region",
+   "start": 228.937,
+   "end": 242.056,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     145.6,
+     43.7
+    ],
+    "widthKm": 600.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      145.6,
+      43.7
+     ],
+     "widthKm": 600.0
+    },
+    {
+     "t": 4.37,
+     "center": [
+      145.7333,
+      43.7667
+     ],
+     "widthKm": 900.0
+    },
+    {
+     "t": 8.74,
+     "center": [
+      145.8667,
+      43.8333
+     ],
+     "widthKm": 1200.0
+    },
+    {
+     "t": 13.12,
+     "center": [
+      146.0,
+      43.9
+     ],
+     "widthKm": 1500.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "Reports at the time",
+   "labels": [
+    {
+     "at": [
+      145.2,
+      44.6
+     ],
+     "text": "NO CLASH",
+     "color": "#FFFFFF",
+     "t": 1.27
+    },
+    {
+     "at": [
+      145.2,
+      43.9
+     ],
+     "text": "NO BLOCKADE",
+     "color": "#FFFFFF",
+     "t": 2.37
+    },
+    {
+     "at": [
+      145.2,
+      43.2
+     ],
+     "text": "NO SHOT FIRED",
+     "color": "#FFFFFF",
+     "t": 3.67
+    },
+    {
+     "at": [
+      148.5,
+      45.0
+     ],
+     "text": "THE AUGUST FIRINGS WERE DRILLS",
+     "color": "#F2B01E",
+     "t": 6.93
+    },
+    {
+     "at": [
+      141.0,
+      43.3
+     ],
+     "text": "A QUARREL, THEN WHAT?",
+     "color": "#FFD23F",
+     "t": 8.75
+    }
+   ]
+  },
+  {
+   "id": "c3-card",
+   "type": "chapter",
+   "start": 242.056,
+   "end": 245.756,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 03",
+   "title": "The spark"
+  },
+  {
+   "id": "c3-collide",
+   "type": "region",
+   "start": 245.756,
+   "end": 257.16,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     145.6,
+     43.7
+    ],
+    "widthKm": 330.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      145.6,
+      43.7
+     ],
+     "widthKm": 330.0
+    },
+    {
+     "t": 3.8,
+     "center": [
+      145.6,
+      43.6667
+     ],
+     "widthKm": 283.3
+    },
+    {
+     "t": 7.6,
+     "center": [
+      145.6,
+      43.6333
+     ],
+     "widthKm": 236.7
+    },
+    {
+     "t": 11.4,
+     "center": [
+      145.6,
+      43.6
+     ],
+     "widthKm": 190.0
+    }
+   ],
+   "clock": "DAY 01",
+   "clockLabel": "THE COLLISION",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       145.58,
+       43.33
+      ],
+      [
+       145.6,
+       43.6
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.0,
+     "kind": "coastguard",
+     "color": "#6EA8FF",
+     "size": 22,
+     "wake": true,
+     "label": "JAPAN COAST GUARD",
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       145.55,
+       43.95
+      ],
+      [
+       145.6,
+       43.62
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.0,
+     "kind": "coastguard",
+     "color": "#F2B01E",
+     "size": 22,
+     "wake": true,
+     "label": "RUSSIAN BORDER BOAT",
+     "t": 0.05
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      145.2,
+      43.2
+     ],
+     "text": "NEMURO STRAIT",
+     "color": "#FFFFFF",
+     "t": 4.39
+    },
+    {
+     "at": [
+      145.3,
+      43.75
+     ],
+     "text": "THEY TOUCH",
+     "color": "#FF3B3B",
+     "t": 3.73
+    },
+    {
+     "at": [
+      146.1,
+      43.45
+     ],
+     "text": "THE CAUSE IS LEFT UNSAID",
+     "color": "#FFD23F",
+     "t": 8.79
+    }
+   ]
+  },
+  {
+   "id": "c3-zone",
+   "type": "region",
+   "start": 257.16,
+   "end": 272.937,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     137.5,
+     41.0
+    ],
+    "widthKm": 2900.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      137.5,
+      41.0
+     ],
+     "widthKm": 2900.0
+    },
+    {
+     "t": 3.94,
+     "center": [
+      139.0,
+      42.0
+     ],
+     "widthKm": 2200.0
+    },
+    {
+     "t": 7.89,
+     "center": [
+      145.7,
+      43.7
+     ],
+     "widthKm": 330.0
+    },
+    {
+     "t": 11.83,
+     "center": [
+      145.7,
+      43.8
+     ],
+     "widthKm": 220.0
+    },
+    {
+     "t": 15.78,
+     "center": [
+      142.6,
+      41.2
+     ],
+     "widthKm": 1100.0
+    }
+   ],
+   "clock": "DAY 02",
+   "clockLabel": "THE CLOSURE ZONE",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      131.9,
+      43.1
+     ],
+     "to": [
+      139.7,
+      35.7
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 1.0,
+     "t1": 3.0,
+     "width": 2,
+     "label": "TALKS FROZEN SINCE 2022"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      139.7,
+      35.7
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "TOKYO",
+     "t": 0.4
+    },
+    {
+     "at": [
+      131.9,
+      43.1
+     ],
+     "kind": "dot",
+     "color": "#F2B01E",
+     "size": 7,
+     "label": "VLADIVOSTOK",
+     "t": 0.8
+    },
+    {
+     "at": [
+      139.67,
+      35.28
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "YOKOSUKA",
+     "t": 14.19
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       145.2,
+       43.45
+      ],
+      [
+       146.1,
+       43.45
+      ],
+      [
+       146.15,
+       43.95
+      ],
+      [
+       145.3,
+       44.05
+      ]
+     ],
+     "color": "#F2B01E",
+     "t": 4.65,
+     "fillOpacity": 0.14,
+     "strokeWidth": 2.4,
+     "solid": false,
+     "label": "RUSSIAN CLOSURE ZONE",
+     "pulse": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      145.0,
+      43.1
+     ],
+     "text": "LIVE-FIRE WARNINGS",
+     "color": "#F2B01E",
+     "t": 6.71
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       141.5,
+       41.9
+      ],
+      [
+       145.0,
+       43.3
+      ]
+     ],
+     "t0": 10.41,
+     "t1": 15.78,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 22,
+     "wake": true,
+     "label": "JAPANESE DESTROYERS",
+     "t": 10.41
+    },
+    {
+     "path": [
+      [
+       139.7,
+       35.0
+      ],
+      [
+       142.0,
+       40.5
+      ],
+      [
+       145.0,
+       42.4
+      ]
+     ],
+     "t0": 11.21,
+     "t1": 15.78,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 22,
+     "wake": true,
+     "label": "US SHIPS FROM YOKOSUKA",
+     "t": 11.21
+    }
+   ]
+  },
+  {
+   "id": "c3-soil",
+   "type": "region",
+   "start": 272.937,
+   "end": 287.817,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.0,
+     44.4
+    ],
+    "widthKm": 1000.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.0,
+      44.4
+     ],
+     "widthKm": 1000.0
+    },
+    {
+     "t": 3.72,
+     "center": [
+      146.225,
+      44.7
+     ],
+     "widthKm": 700.0
+    },
+    {
+     "t": 7.44,
+     "center": [
+      146.65,
+      45.15
+     ],
+     "widthKm": 700.0
+    },
+    {
+     "t": 11.16,
+     "center": [
+      146.75,
+      45.75
+     ],
+     "widthKm": 975.0
+    },
+    {
+     "t": 14.88,
+     "center": [
+      146.0,
+      46.5
+     ],
+     "widthKm": 1500.0
+    }
+   ],
+   "clock": "DAY 02",
+   "clockLabel": "MOSCOW'S POSITION",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      146.6,
+      45.6
+     ],
+     "text": "RUSSIAN SOIL, SAYS MOSCOW",
+     "color": "#F2B01E",
+     "t": 1.69
+    },
+    {
+     "at": [
+      144.0,
+      43.6
+     ],
+     "text": "CONSTITUTION BARS HANDOVER",
+     "color": "#FFFFFF",
+     "t": 3.19
+    },
+    {
+     "at": [
+      147.5,
+      44.4
+     ],
+     "text": "CRITICAL THREAT TO TERRITORY",
+     "color": "#F2B01E",
+     "t": 9.25
+    },
+    {
+     "at": [
+      145.0,
+      47.5
+     ],
+     "text": "A CONDITION FOR NUCLEAR USE",
+     "color": "#FF3B3B",
+     "t": 13.01
+    }
+   ]
+  },
+  {
+   "id": "c3-pressure",
+   "type": "region",
+   "start": 287.817,
+   "end": 299.439,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     145.5,
+     43.8
+    ],
+    "widthKm": 600.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      145.5,
+      43.8
+     ],
+     "widthKm": 600.0
+    },
+    {
+     "t": 3.87,
+     "center": [
+      145.1667,
+      43.6
+     ],
+     "widthKm": 933.3
+    },
+    {
+     "t": 7.74,
+     "center": [
+      144.6667,
+      43.8333
+     ],
+     "widthKm": 1366.7
+    },
+    {
+     "t": 11.62,
+     "center": [
+      144.0,
+      44.5
+     ],
+     "widthKm": 1900.0
+    }
+   ],
+   "clock": "DAY 02",
+   "clockLabel": "OUR CHOICE",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      144.3,
+      44.7
+     ],
+     "text": "THE SIMULATION'S CHOICE",
+     "color": "#FFD23F",
+     "t": 1.09
+    },
+    {
+     "at": [
+      141.4,
+      42.2
+     ],
+     "text": "NO PUBLISHED WARGAME FOUND",
+     "color": "#FFD23F",
+     "t": 6.45
+    },
+    {
+     "at": [
+      147.5,
+      45.6
+     ],
+     "text": "EVERY STEP IS OUR CHOICE",
+     "color": "#FFFFFF",
+     "t": 8.67
+    }
+   ]
+  },
+  {
+   "id": "c4-card",
+   "type": "chapter",
+   "start": 299.439,
+   "end": 303.139,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 04",
+   "title": "Day by day"
+  },
+  {
+   "id": "c4-d3",
+   "type": "region",
+   "start": 303.139,
+   "end": 318.352,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     145.7,
+     43.75
+    ],
+    "widthKm": 280.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      145.7,
+      43.75
+     ],
+     "widthKm": 280.0
+    },
+    {
+     "t": 3.8,
+     "center": [
+      145.675,
+      43.725
+     ],
+     "widthKm": 235.0
+    },
+    {
+     "t": 7.61,
+     "center": [
+      145.65,
+      43.7
+     ],
+     "widthKm": 190.0
+    },
+    {
+     "t": 11.41,
+     "center": [
+      145.575,
+      43.6
+     ],
+     "widthKm": 245.0
+    },
+    {
+     "t": 15.21,
+     "center": [
+      145.5,
+      43.5
+     ],
+     "widthKm": 300.0
+    }
+   ],
+   "clock": "DAY 03",
+   "clockLabel": "BASTION FIRES",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       145.6,
+       43.45
+      ],
+      [
+       145.55,
+       43.55
+      ]
+     ],
+     "t0": 0,
+     "t1": 15.21,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 22,
+     "wake": true,
+     "label": "JAPANESE DESTROYER",
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       145.78265,
+       43.96877
+      ],
+      [
+       145.55,
+       43.55
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.41,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 24,
+     "wake": true,
+     "label": "ONIKS",
+     "t": 0.05
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      145.8,
+      44.0
+     ],
+     "to": [
+      145.55,
+      43.55
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.05,
+     "t1": 4.41,
+     "width": 2,
+     "label": "54 KM"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      145.8,
+      44.0
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "BASTION BATTERY (SITE SIMULATED)",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      146.0,
+      43.8
+     ],
+     "text": "UNDER FOUR MINUTES",
+     "color": "#FF3B3B",
+     "t": 8.13
+    },
+    {
+     "at": [
+      145.0,
+      43.9
+     ],
+     "text": "WE DO NOT SAY IF IT SURVIVES",
+     "color": "#FFD23F",
+     "t": 9.6
+    },
+    {
+     "at": [
+      146.0,
+      43.3
+     ],
+     "text": "CREW: NOT SIMULATED",
+     "color": "#FFFFFF",
+     "t": 13.29
+    }
+   ]
+  },
+  {
+   "id": "c4-d4",
+   "type": "region",
+   "start": 318.352,
+   "end": 336.704,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     145.7,
+     43.7
+    ],
+    "widthKm": 450.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      145.7,
+      43.7
+     ],
+     "widthKm": 450.0
+    },
+    {
+     "t": 3.67,
+     "center": [
+      145.6,
+      43.6
+     ],
+     "widthKm": 330.0
+    },
+    {
+     "t": 7.34,
+     "center": [
+      141.5,
+      46.0
+     ],
+     "widthKm": 2800.0
+    },
+    {
+     "t": 11.01,
+     "center": [
+      142.0,
+      44.0
+     ],
+     "widthKm": 2000.0
+    },
+    {
+     "t": 14.68,
+     "center": [
+      138.5,
+      41.0
+     ],
+     "widthKm": 2500.0
+    },
+    {
+     "t": 18.35,
+     "center": [
+      140.5,
+      42.0
+     ],
+     "widthKm": 2000.0
+    }
+   ],
+   "clock": "DAY 04",
+   "clockLabel": "NOTHING IS FIRED",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       145.9,
+       43.9
+      ],
+      [
+       145.85,
+       43.85
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.0,
+     "kind": "coastguard",
+     "color": "#F2B01E",
+     "size": 20,
+     "wake": true,
+     "label": "RUSSIAN BOAT",
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       145.5,
+       43.35
+      ],
+      [
+       145.55,
+       43.4
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.0,
+     "kind": "coastguard",
+     "color": "#6EA8FF",
+     "size": 20,
+     "wake": true,
+     "label": "JAPAN COAST GUARD",
+     "t": 0.05
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      146.2,
+      43.2
+     ],
+     "text": "NOTHING IS FIRED",
+     "color": "#FFFFFF",
+     "t": 0.4
+    },
+    {
+     "at": [
+      142.7,
+      50.4
+     ],
+     "text": "RUSSIA: NO WIDER WAR",
+     "color": "#F2B01E",
+     "t": 5.8
+    },
+    {
+     "at": [
+      142.3,
+      43.2
+     ],
+     "text": "JAPAN: NO WIDER WAR",
+     "color": "#6EA8FF",
+     "t": 6.0
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      131.9,
+      43.1
+     ],
+     "to": [
+      139.7,
+      35.7
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 12.68,
+     "t1": 14.68,
+     "width": 2
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      139.7,
+      35.7
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "ONE PHONE",
+     "t": 14.24
+    },
+    {
+     "at": [
+      131.9,
+      43.1
+     ],
+     "kind": "dot",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "THE OTHER, SILENT",
+     "t": 14.84
+    }
+   ]
+  },
+  {
+   "id": "c4-d5",
+   "type": "region",
+   "start": 336.704,
+   "end": 352.816,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     144.0,
+     43.5
+    ],
+    "widthKm": 900.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      144.0,
+      43.5
+     ],
+     "widthKm": 900.0
+    },
+    {
+     "t": 4.03,
+     "center": [
+      143.25,
+      43.35
+     ],
+     "widthKm": 675.0
+    },
+    {
+     "t": 8.06,
+     "center": [
+      143.3,
+      43.45
+     ],
+     "widthKm": 625.0
+    },
+    {
+     "t": 12.09,
+     "center": [
+      143.75,
+      43.675
+     ],
+     "widthKm": 617.5
+    },
+    {
+     "t": 16.11,
+     "center": [
+      144.2,
+      43.9
+     ],
+     "widthKm": 520.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 75.6,
+   "ships": [
+    {
+     "path": [
+      [
+       142.4,
+       43.2
+      ],
+      [
+       145.8,
+       44.0
+      ]
+     ],
+     "t0": 9.09,
+     "t1": 15.11,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 24,
+     "wake": true,
+     "label": "TYPE-12 (ASSUMED)",
+     "t": 9.11
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      142.4,
+      43.2
+     ],
+     "to": [
+      145.8,
+      44.0
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 9.09,
+     "t1": 11.09,
+     "width": 2,
+     "label": "288 KM"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      142.4,
+      43.2
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "ASSUMED: CENTRAL HOKKAIDO",
+     "t": 7.31
+    },
+    {
+     "at": [
+      145.8,
+      44.0
+     ],
+     "kind": "target",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "BASTION BATTERY",
+     "t": 10.07
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      143.0,
+      44.6
+     ],
+     "text": "JAPAN ANSWERS, CONVENTIONALLY",
+     "color": "#6EA8FF",
+     "t": 1.81
+    },
+    {
+     "at": [
+      144.6,
+      42.4
+     ],
+     "text": "NO NUCLEAR WEAPONS",
+     "color": "#FFFFFF",
+     "t": 3.01
+    }
+   ]
+  },
+  {
+   "id": "c4-d6",
+   "type": "globe",
+   "start": 352.816,
+   "end": 360.21,
+   "tag": "SIMULATION",
+   "sun": {
+    "lat": -2.48,
+    "lon": 149.83
+   },
+   "camera": [
+    {
+     "t": 0.0,
+     "lat": 55,
+     "lon": 40,
+     "scale": 1500
+    },
+    {
+     "t": 4.5,
+     "lat": 52,
+     "lon": 90,
+     "scale": 1100
+    },
+    {
+     "t": 7.39,
+     "lat": 46,
+     "lon": 140,
+     "scale": 800
+    }
+   ],
+   "clock": "DAY 06",
+   "clockLabel": "MOSCOW DECIDES",
+   "markers": [
+    {
+     "at": [
+      37.6,
+      55.75
+     ],
+     "label": "MOSCOW: THE QUESTION",
+     "color": "#F2B01E",
+     "kind": "base",
+     "size": 9,
+     "t": 0.3
+    },
+    {
+     "at": [
+      146.0,
+      44.5
+     ],
+     "label": "THE ISLANDS",
+     "color": "#6EA8FF",
+     "kind": "target",
+     "size": 9,
+     "t": 4.174000000000035
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      37.6,
+      55.75
+     ],
+     "to": [
+      146.0,
+      44.5
+     ],
+     "t0": 1.0,
+     "t1": 7.0,
+     "color": "#F2B01E",
+     "loft": 0.1
+    }
+   ]
+  },
+  {
+   "id": "c4-2024",
+   "type": "stamp",
+   "start": 360.21,
+   "end": 363.47,
+   "tag": "REAL DATA",
+   "text": "2024",
+   "line": "Russia rewrites its nuclear doctrine",
+   "color": "#F2B01E",
+   "source": "Bulletin of the Atomic Scientists"
+  },
+  {
+   "id": "c4-d6b",
+   "type": "region",
+   "start": 363.47,
+   "end": 370.721,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.0,
+     44.5
+    ],
+    "widthKm": 900.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.0,
+      44.5
+     ],
+     "widthKm": 900.0
+    },
+    {
+     "t": 3.63,
+     "center": [
+      145.5,
+      44.25
+     ],
+     "widthKm": 750.0
+    },
+    {
+     "t": 7.25,
+     "center": [
+      145.0,
+      44.0
+     ],
+     "widthKm": 600.0
+    }
+   ],
+   "clock": "DAY 06",
+   "clockLabel": "A READING, NOT A PROMISE",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      147.0,
+      45.5
+     ],
+     "text": "ONE VIEW: IT LOWERED THE BAR",
+     "color": "#F2B01E",
+     "t": 2.9
+    },
+    {
+     "at": [
+      144.5,
+      44.8
+     ],
+     "text": "A READING, NOT A PROMISE",
+     "color": "#FFD23F",
+     "t": 4.62
+    }
+   ]
+  },
+  {
+   "id": "c4-d7",
+   "type": "region",
+   "start": 370.721,
+   "end": 376.996,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.5,
+     47.0
+    ],
+    "widthKm": 1500.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.5,
+      47.0
+     ],
+     "widthKm": 1500.0
+    },
+    {
+     "t": 3.14,
+     "center": [
+      146.9,
+      46.7
+     ],
+     "widthKm": 1200.0
+    },
+    {
+     "t": 6.27,
+     "center": [
+      147.3,
+      46.4
+     ],
+     "widthKm": 900.0
+    }
+   ],
+   "clock": "DAY 07",
+   "clockLabel": "MINUTE ZERO, 11:10 LOCAL",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      145.2,
+      48.6
+     ],
+     "text": "SEA OF OKHOTSK",
+     "color": "#FFFFFF",
+     "t": 0.4
+    }
+   ],
+   "caption": "Day seven, minute zero.",
+   "cities": [
+    {
+     "at": [
+      147.5,
+      46.2
+     ],
+     "kind": "sub",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "RUSSIAN SUBMARINE (SIMULATED)",
+     "t": 3.0
+    }
+   ]
+  },
+  {
+   "id": "c4-launch",
+   "type": "region",
+   "start": 376.996,
+   "end": 390.249,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     147.0,
+     45.2
+    ],
+    "widthKm": 1000.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      147.0,
+      45.2
+     ],
+     "widthKm": 1000.0
+    },
+    {
+     "t": 4.41,
+     "center": [
+      146.8667,
+      44.6667
+     ],
+     "widthKm": 800.0
+    },
+    {
+     "t": 8.83,
+     "center": [
+      146.7333,
+      44.2667
+     ],
+     "widthKm": 666.7
+    },
+    {
+     "t": 13.25,
+     "center": [
+      146.6,
+      44.0
+     ],
+     "widthKm": 600.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 18.93,
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 13.25,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 13.25,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "label": "ESCORT GROUP",
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 13.25,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       147.5,
+       46.2
+      ],
+      [
+       147.34688,
+       45.67938
+      ]
+     ],
+     "t0": 3.53,
+     "t1": 13.25,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 26,
+     "wake": true,
+     "label": "KALIBR",
+     "t": 3.55
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      145.0,
+      46.4
+     ],
+     "text": "KALIBR, NUCLEAR (ASSUMED)",
+     "color": "#FF3B3B",
+     "t": 0.65
+    },
+    {
+     "at": [
+      144.9,
+      45.2
+     ],
+     "text": "NOT PUBLIC: OUR CHOICE",
+     "color": "#FFD23F",
+     "t": 10.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      147.5,
+      46.2
+     ],
+     "kind": "sub",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "SUBMARINE",
+     "t": 0.3
+    }
+   ]
+  },
+  {
+   "id": "c4-target",
+   "type": "region",
+   "start": 390.249,
+   "end": 400.313,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.8,
+     44.4
+    ],
+    "widthKm": 720.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.8,
+      44.4
+     ],
+     "widthKm": 720.0
+    },
+    {
+     "t": 3.35,
+     "center": [
+      146.7,
+      44.0333
+     ],
+     "widthKm": 620.0
+    },
+    {
+     "t": 6.71,
+     "center": [
+      146.6,
+      43.6667
+     ],
+     "widthKm": 520.0
+    },
+    {
+     "t": 10.06,
+     "center": [
+      146.5,
+      43.3
+     ],
+     "widthKm": 420.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+04:11",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 25.79,
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 10.06,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 10.06,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "label": "ESCORT GROUP",
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 10.06,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       147.34688,
+       45.67938
+      ],
+      [
+       147.18843,
+       45.14066
+      ]
+     ],
+     "t0": 0,
+     "t1": 10.06,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 26,
+     "wake": true,
+     "label": "KALIBR",
+     "t": 0.05
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      147.5,
+      46.2
+     ],
+     "to": [
+      146.5,
+      42.8
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.5,
+     "t1": 2.5,
+     "width": 2,
+     "label": "386 KM"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      144.6,
+      43.8
+     ],
+     "text": "JAPANESE AND US GROUP",
+     "color": "#6EA8FF",
+     "t": 1.24
+    },
+    {
+     "at": [
+      148.0,
+      42.2
+     ],
+     "text": "OFF SOUTH-EAST HOKKAIDO",
+     "color": "#FFFFFF",
+     "t": 4.98
+    }
+   ]
+  },
+  {
+   "id": "c4-27min",
+   "type": "timeline",
+   "start": 400.313,
+   "end": 406.229,
+   "tag": "SIMULATION",
+   "title": "WARNING TIME: ABOUT 27 MINUTES",
+   "sub": "Our assumption: a subsonic cruise missile, 386 km",
+   "total": 27,
+   "unit": "min",
+   "segments": [
+    {
+     "from": 0,
+     "to": 27,
+     "label": "MISSILE IN FLIGHT",
+     "color": "#FF3B3B"
+    }
+   ],
+   "cursorTo": 27
+  },
+  {
+   "id": "c4-spread",
+   "type": "region",
+   "start": 406.229,
+   "end": 421.298,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.5,
+     42.8
+    ],
+    "widthKm": 300.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.5,
+      42.8
+     ],
+     "widthKm": 300.0
+    },
+    {
+     "t": 3.77,
+     "center": [
+      146.5,
+      42.875
+     ],
+     "widthKm": 217.5
+    },
+    {
+     "t": 7.53,
+     "center": [
+      144.75,
+      41.2
+     ],
+     "widthKm": 1195.0
+    },
+    {
+     "t": 11.3,
+     "center": [
+      143.125,
+      39.75
+     ],
+     "widthKm": 2025.0
+    },
+    {
+     "t": 15.07,
+     "center": [
+      143.5,
+      40.5
+     ],
+     "widthKm": 1500.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+11:03",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 25.79,
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.02,
+       42.488
+      ]
+     ],
+     "t0": 0,
+     "t1": 15.07,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 15.07,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "label": "THE GROUP SPREADS OUT",
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       147.02,
+       43.138
+      ]
+     ],
+     "t0": 0,
+     "t1": 15.07,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       147.09529,
+       44.82398
+      ],
+      [
+       146.85805,
+       44.01736
+      ]
+     ],
+     "t0": 0,
+     "t1": 15.07,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 26,
+     "wake": true,
+     "label": "KALIBR",
+     "t": 0.05
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      146.0,
+      43.3
+     ],
+     "text": "A DESTROYER CAN TURN",
+     "color": "#6EA8FF",
+     "t": 1.84
+    },
+    {
+     "at": [
+      147.0,
+      42.4
+     ],
+     "text": "RADAR TRACKS THE MISSILE",
+     "color": "#FFFFFF",
+     "t": 5.74
+    },
+    {
+     "at": [
+      147.5,
+      40.0
+     ],
+     "text": "NOBODY KNOWS THE WARHEAD",
+     "color": "#FFD23F",
+     "t": 12.68
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      146.5,
+      42.8
+     ],
+     "to": [
+      139.7,
+      35.7
+     ],
+     "color": "#6EA8FF",
+     "dashed": true,
+     "t0": 7.24,
+     "t1": 9.24,
+     "width": 2,
+     "label": "CALL TOKYO"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      139.7,
+      35.7
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "TOKYO",
+     "t": 8.44
+    }
+   ]
+  },
+  {
+   "id": "c4-down",
+   "type": "region",
+   "start": 421.298,
+   "end": 432.67,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.5,
+     43.4
+    ],
+    "widthKm": 500.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.5,
+      43.4
+     ],
+     "widthKm": 500.0
+    },
+    {
+     "t": 3.79,
+     "center": [
+      146.5,
+      43.1333
+     ],
+     "widthKm": 366.7
+    },
+    {
+     "t": 7.58,
+     "center": [
+      146.5,
+      43.0333
+     ],
+     "widthKm": 256.7
+    },
+    {
+     "t": 11.37,
+     "center": [
+      146.5,
+      43.1
+     ],
+     "widthKm": 170.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+17:32",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 25.79,
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.02,
+       42.488
+      ]
+     ],
+     "t0": 0,
+     "t1": 11.37,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 11.37,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "label": "ESCORT GROUP",
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       147.02,
+       43.138
+      ]
+     ],
+     "t0": 0,
+     "t1": 11.37,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.85805,
+       44.01736
+      ],
+      [
+       146.67901,
+       43.40862
+      ]
+     ],
+     "t0": 0,
+     "t1": 11.37,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 26,
+     "wake": true,
+     "label": "KALIBR",
+     "t": 0.05
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      145.0,
+      43.9
+     ],
+     "text": "CAN THE GROUP SHOOT IT DOWN?",
+     "color": "#FFD23F",
+     "t": 1.11
+    },
+    {
+     "at": [
+      148.0,
+      43.0
+     ],
+     "text": "WE DO NOT SAY",
+     "color": "#FFFFFF",
+     "t": 2.97
+    },
+    {
+     "at": [
+      147.0,
+      43.5
+     ],
+     "text": "IT GETS THROUGH: OUR CHOICE",
+     "color": "#FF3B3B",
+     "t": 6.43
+    },
+    {
+     "at": [
+      145.6,
+      42.4
+     ],
+     "text": "NO TREATY CAP ON FORCES",
+     "color": "#FFFFFF",
+     "t": 8.93
+    }
+   ]
+  },
+  {
+   "id": "c4-newstart",
+   "type": "stamp",
+   "start": 432.67,
+   "end": 438.25,
+   "tag": "REAL DATA",
+   "text": "5 FEBRUARY 2026",
+   "line": "New START expires: no treaty cap on US and Russian forces",
+   "color": "#FFFFFF",
+   "source": "FAS, The Expiration of New START"
+  },
+  {
+   "id": "c4-m27",
+   "type": "region",
+   "start": 438.25,
+   "end": 444.44,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.125,
+     42.836
+    ],
+    "widthKm": 420.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 420.0
+    },
+    {
+     "t": 3.1,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 340.0
+    },
+    {
+     "t": 6.19,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 260.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+24:49",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 24.12,
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.02,
+       42.488
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.19,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.19,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "label": "ESCORT GROUP",
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       147.02,
+       43.138
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.19,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 34,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.59116,
+       43.10993
+      ],
+      [
+       146.5,
+       42.8
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.79,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 26,
+     "wake": true,
+     "label": "KALIBR",
+     "t": 0.05
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      148.0,
+      43.6
+     ],
+     "text": "MINUTE 27",
+     "color": "#FF3B3B",
+     "t": 0.3
+    },
+    {
+     "at": [
+      145.0,
+      42.3
+     ],
+     "text": "WHAT DOES 10 KT DO TO WATER?",
+     "color": "#FFD23F",
+     "t": 1.86
+    }
+   ]
+  },
+  {
+   "id": "c5-card",
+   "type": "chapter",
+   "start": 444.44,
+   "end": 448.14,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 05",
+   "title": "One warhead, ring by ring"
+  },
+  {
+   "id": "c5-burst-a",
+   "type": "region",
+   "start": 448.14,
+   "end": 453.255,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.125,
+     42.836
+    ],
+    "widthKm": 200.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 200.0
+    },
+    {
+     "t": 2.56,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 220.0
+    },
+    {
+     "t": 5.11,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 240.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+27:18",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "rings": [
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 0.918,
+     "color": "#FF7A1A",
+     "t": 0.3,
+     "dashed": false
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.11,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.11,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.11,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      145.82,
+      43.39
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "CAPE NOSAPPU",
+     "t": 0.6
+    }
+   ],
+   "lines": [],
+   "labels": [
+    {
+     "at": [
+      147.15,
+      43.05225
+     ],
+     "text": "10 KT: OUR ASSUMPTION",
+     "color": "#FFD23F",
+     "t": 0.61
+    },
+    {
+     "at": [
+      146.75,
+      42.4036
+     ],
+     "text": "LOW END OF ONE ESTIMATE",
+     "color": "#FFFFFF",
+     "t": 2.39
+    }
+   ],
+   "caption": "Rings drawn 6 times true size. Ships not to scale.",
+   "burst": {
+    "at": [
+     146.5,
+     42.8
+    ],
+    "t": 0.15,
+    "km": 9,
+    "fade": 9
+   }
+  },
+  {
+   "id": "c5-burst-b",
+   "type": "region",
+   "start": 453.255,
+   "end": 458.369,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.0625,
+     42.8
+    ],
+    "widthKm": 330.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.0625,
+      42.8
+     ],
+     "widthKm": 330.0
+    },
+    {
+     "t": 2.56,
+     "center": [
+      146.2812,
+      42.8
+     ],
+     "widthKm": 255.0
+    },
+    {
+     "t": 5.11,
+     "center": [
+      146.5,
+      42.8
+     ],
+     "widthKm": 180.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+27:18",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "rings": [
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 0.918,
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "dashed": false
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.11,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.11,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.11,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      145.82,
+      43.39
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "CAPE NOSAPPU",
+     "t": 0.05
+    }
+   ],
+   "lines": [],
+   "labels": [
+    {
+     "at": [
+      147.1875,
+      42.54775
+     ],
+     "text": "ABOUT 2/3 OF HIROSHIMA",
+     "color": "#FFFFFF",
+     "t": 3.11
+    }
+   ],
+   "caption": "Rings drawn 6 times true size. Ships not to scale.",
+   "burst": {
+    "at": [
+     146.5,
+     42.8
+    ],
+    "t": -4.96,
+    "km": 9,
+    "fade": 9
+   }
+  },
+  {
+   "id": "c5-fireball-a",
+   "type": "region",
+   "start": 458.369,
+   "end": 462.914,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.125,
+     42.836
+    ],
+    "widthKm": 260.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 260.0
+    },
+    {
+     "t": 2.27,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 235.0
+    },
+    {
+     "t": 4.54,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 210.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+27:40",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "rings": [
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 0.918,
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "dashed": false
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.54,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.54,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.54,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      145.82,
+      43.39
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "CAPE NOSAPPU",
+     "t": 0.4
+    }
+   ],
+   "lines": [],
+   "labels": [
+    {
+     "at": [
+      147.125,
+      43.01622
+     ],
+     "text": "A SMALL POINT ON A LARGE SEA",
+     "color": "#FFFFFF",
+     "t": 2.54
+    }
+   ],
+   "caption": "Rings drawn 6 times true size. Ships not to scale."
+  },
+  {
+   "id": "c5-fireball-b",
+   "type": "region",
+   "start": 462.914,
+   "end": 467.458,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.5,
+     42.8
+    ],
+    "widthKm": 150.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.5,
+      42.8
+     ],
+     "widthKm": 150.0
+    },
+    {
+     "t": 2.28,
+     "center": [
+      146.45,
+      42.809
+     ],
+     "widthKm": 170.0
+    },
+    {
+     "t": 4.54,
+     "center": [
+      146.4,
+      42.818
+     ],
+     "widthKm": 190.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+27:40",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "rings": [
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 0.918,
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "dashed": false
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.54,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.54,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.54,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      145.82,
+      43.39
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "CAPE NOSAPPU",
+     "t": 0.05
+    }
+   ],
+   "lines": [],
+   "labels": [
+    {
+     "at": [
+      145.75,
+      42.8
+     ],
+     "text": "FIREBALL, 20 PSI: UNDER 0.3 KM",
+     "color": "#FF7A1A",
+     "t": 0.06
+    }
+   ],
+   "caption": "Rings drawn 6 times true size. Ships not to scale."
+  },
+  {
+   "id": "c5-fireball-c",
+   "type": "region",
+   "start": 467.458,
+   "end": 472.003,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.125,
+     42.836
+    ],
+    "widthKm": 230.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 230.0
+    },
+    {
+     "t": 2.27,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 255.0
+    },
+    {
+     "t": 4.54,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 280.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+27:40",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "rings": [
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 0.918,
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "dashed": false
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.54,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.54,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.54,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      145.82,
+      43.39
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "CAPE NOSAPPU",
+     "t": 0.05
+    }
+   ],
+   "lines": [],
+   "labels": [
+    {
+     "at": [
+      147.15,
+      42.56577
+     ],
+     "text": "NOT POLICY: 10 KT IS OURS",
+     "color": "#FFD23F",
+     "t": 0.05
+    }
+   ],
+   "caption": "Rings drawn 6 times true size. Ships not to scale."
+  },
+  {
+   "id": "c5-20psi-a",
+   "type": "region",
+   "start": 472.003,
+   "end": 475.426,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.375,
+     42.818
+    ],
+    "widthKm": 170.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.375,
+      42.818
+     ],
+     "widthKm": 170.0
+    },
+    {
+     "t": 3.42,
+     "center": [
+      146.425,
+      42.818
+     ],
+     "widthKm": 140.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+27:50",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "rings": [
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 0.918,
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 1.782,
+     "color": "#FF3B3B",
+     "t": 3.09,
+     "dashed": false
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 3.42,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 3.42,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 3.42,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "cities": [],
+   "lines": [],
+   "labels": [
+    {
+     "at": [
+      147.0,
+      42.6018
+     ],
+     "text": "WITHIN 300 M OF THE BURST",
+     "color": "#FFFFFF",
+     "t": 0.3
+    }
+   ],
+   "caption": "Rings drawn 6 times true size. Ships not to scale."
+  },
+  {
+   "id": "c5-20psi-b",
+   "type": "region",
+   "start": 475.426,
+   "end": 478.849,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.425,
+     42.818
+    ],
+    "widthKm": 140.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.425,
+      42.818
+     ],
+     "widthKm": 140.0
+    },
+    {
+     "t": 3.42,
+     "center": [
+      146.35,
+      42.818
+     ],
+     "widthKm": 190.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+27:50",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "rings": [
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 0.918,
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 1.782,
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 3.42,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 3.42,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 3.42,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "cities": [],
+   "lines": [],
+   "labels": [
+    {
+     "at": [
+      146.975,
+      42.98018
+     ],
+     "text": "20 PSI: ABOUT 300 M",
+     "color": "#FF3B3B",
+     "t": 0.44
+    }
+   ],
+   "caption": "Rings drawn 6 times true size. Ships not to scale."
+  },
+  {
+   "id": "c5-5psi-a",
+   "type": "region",
+   "start": 478.849,
+   "end": 485.113,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.125,
+     42.836
+    ],
+    "widthKm": 190.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 190.0
+    },
+    {
+     "t": 3.13,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 215.0
+    },
+    {
+     "t": 6.26,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 240.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+28:00",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "rings": [
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 0.918,
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 1.782,
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 8.754,
+     "color": "#FF3B3B",
+     "t": 1.0,
+     "dashed": false
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.26,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.26,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.26,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      145.82,
+      43.39
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "CAPE NOSAPPU",
+     "t": 0.4
+    }
+   ],
+   "lines": [],
+   "labels": [
+    {
+     "at": [
+      147.15,
+      43.05225
+     ],
+     "text": "5 PSI: ABOUT 1.5 KM",
+     "color": "#FF3B3B",
+     "t": 1.0
+    },
+    {
+     "at": [
+      147.1875,
+      42.54775
+     ],
+     "text": "FLATTENS BUILDINGS ON LAND",
+     "color": "#FFFFFF",
+     "t": 3.5
+    }
+   ],
+   "caption": "Rings drawn 6 times true size. Ships not to scale."
+  },
+  {
+   "id": "c5-5psi-b",
+   "type": "region",
+   "start": 485.113,
+   "end": 491.377,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.25,
+     42.8
+    ],
+    "widthKm": 120.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.25,
+      42.8
+     ],
+     "widthKm": 120.0
+    },
+    {
+     "t": 3.14,
+     "center": [
+      146.25,
+      42.8
+     ],
+     "widthKm": 150.0
+    },
+    {
+     "t": 6.26,
+     "center": [
+      146.25,
+      42.8
+     ],
+     "widthKm": 180.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+28:00",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "rings": [
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 0.918,
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 1.782,
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 8.754,
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.26,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.26,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.26,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      145.82,
+      43.39
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "CAPE NOSAPPU",
+     "t": 0.05
+    }
+   ],
+   "lines": [],
+   "labels": [
+    {
+     "at": [
+      146.75,
+      42.4036
+     ],
+     "text": "ABOUT 7 KM2: A SMALL TOWN",
+     "color": "#FFD23F",
+     "t": 0.86
+    }
+   ],
+   "caption": "Rings drawn 6 times true size. Ships not to scale."
+  },
+  {
+   "id": "c5-burns-a",
+   "type": "region",
+   "start": 491.377,
+   "end": 496.744,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.125,
+     42.836
+    ],
+    "widthKm": 220.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 220.0
+    },
+    {
+     "t": 2.68,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 240.0
+    },
+    {
+     "t": 5.37,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 260.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+28:10",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "rings": [
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 0.918,
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 1.782,
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 8.754,
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 9.702,
+     "color": "#F2B01E",
+     "t": 2.87,
+     "dashed": true
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.37,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.37,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.37,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      145.82,
+      43.39
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "CAPE NOSAPPU",
+     "t": 0.4
+    }
+   ],
+   "lines": [],
+   "labels": [
+    {
+     "at": [
+      147.1875,
+      43.05225
+     ],
+     "text": "THIRD-DEGREE BURNS: 1.6 KM",
+     "color": "#F2B01E",
+     "t": 2.87
+    }
+   ],
+   "caption": "Rings drawn 6 times true size. Ships not to scale."
+  },
+  {
+   "id": "c5-burns-b",
+   "type": "region",
+   "start": 496.744,
+   "end": 502.11,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.5,
+     42.8
+    ],
+    "widthKm": 160.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.5,
+      42.8
+     ],
+     "widthKm": 160.0
+    },
+    {
+     "t": 2.69,
+     "center": [
+      146.4062,
+      42.8
+     ],
+     "widthKm": 180.0
+    },
+    {
+     "t": 5.37,
+     "center": [
+      146.3125,
+      42.8
+     ],
+     "widthKm": 200.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+28:10",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "rings": [
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 0.918,
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 1.782,
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 8.754,
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 9.702,
+     "color": "#F2B01E",
+     "t": 0.05,
+     "dashed": true
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.37,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.37,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.37,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      145.82,
+      43.39
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "CAPE NOSAPPU",
+     "t": 0.05
+    }
+   ],
+   "lines": [],
+   "labels": [
+    {
+     "at": [
+      147.1875,
+      42.52973
+     ],
+     "text": "A LITTLE FARTHER THAN BLAST",
+     "color": "#FFFFFF",
+     "t": 2.49
+    }
+   ],
+   "caption": "Rings drawn 6 times true size. Ships not to scale."
+  },
+  {
+   "id": "c5-light-a",
+   "type": "region",
+   "start": 502.11,
+   "end": 507.824,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.125,
+     42.836
+    ],
+    "widthKm": 260.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 260.0
+    },
+    {
+     "t": 2.86,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 235.0
+    },
+    {
+     "t": 5.71,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 210.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+28:20",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "rings": [
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 0.918,
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 1.782,
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 9.702,
+     "color": "#F2B01E",
+     "t": 0.05,
+     "dashed": true
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 8.75,
+     "color": "#FF3B3B",
+     "t": 2.62,
+     "dashed": false
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.71,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.71,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.71,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      145.82,
+      43.39
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "CAPE NOSAPPU",
+     "t": 0.6
+    }
+   ],
+   "lines": [],
+   "labels": [
+    {
+     "at": [
+      147.15,
+      43.05225
+     ],
+     "text": "THE LIGHT ARRIVES FIRST",
+     "color": "#FFD23F",
+     "t": 0.9
+    },
+    {
+     "at": [
+      147.1875,
+      42.54775
+     ],
+     "text": "THE SHOCK WAVE, SECONDS LATER",
+     "color": "#FFFFFF",
+     "t": 2.62
+    }
+   ],
+   "caption": "Rings drawn 6 times true size. Ships not to scale.",
+   "burst": {
+    "at": [
+     146.5,
+     42.8
+    ],
+    "t": 0.1,
+    "km": 6,
+    "fade": 6
+   }
+  },
+  {
+   "id": "c5-light-b",
+   "type": "region",
+   "start": 507.824,
+   "end": 513.538,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.1875,
+     42.8
+    ],
+    "widthKm": 170.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.1875,
+      42.8
+     ],
+     "widthKm": 170.0
+    },
+    {
+     "t": 2.86,
+     "center": [
+      146.1875,
+      42.8
+     ],
+     "widthKm": 200.0
+    },
+    {
+     "t": 5.71,
+     "center": [
+      146.1875,
+      42.8
+     ],
+     "widthKm": 230.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+28:20",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "rings": [
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 0.918,
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 1.782,
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 9.702,
+     "color": "#F2B01E",
+     "t": 0.05,
+     "dashed": true
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 8.75,
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.71,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.71,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.71,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      145.82,
+      43.39
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "CAPE NOSAPPU",
+     "t": 0.05
+    }
+   ],
+   "lines": [],
+   "labels": [
+    {
+     "at": [
+      146.75,
+      42.4036
+     ],
+     "text": "ALMOST NO TIME TO LOOK AWAY",
+     "color": "#FF3B3B",
+     "t": 2.63
+    }
+   ],
+   "caption": "Rings drawn 6 times true size. Ships not to scale.",
+   "burst": {
+    "at": [
+     146.5,
+     42.8
+    ],
+    "t": -5.61,
+    "km": 6,
+    "fade": 6
+   }
+  },
+  {
+   "id": "c5-1psi-a",
+   "type": "region",
+   "start": 513.538,
+   "end": 519.97,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.125,
+     42.836
+    ],
+    "widthKm": 200.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 200.0
+    },
+    {
+     "t": 3.21,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 230.0
+    },
+    {
+     "t": 6.43,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 260.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+28:40",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "rings": [
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 0.918,
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 1.782,
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 8.754,
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 9.702,
+     "color": "#F2B01E",
+     "t": 0.05,
+     "dashed": true
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 23.694,
+     "color": "#3ED6C8",
+     "t": 0.05,
+     "dashed": false
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.43,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.43,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.43,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      145.82,
+      43.39
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "CAPE NOSAPPU",
+     "t": 0.4
+    }
+   ],
+   "lines": [],
+   "labels": [],
+   "caption": "Rings drawn 6 times true size. Ships not to scale."
+  },
+  {
+   "id": "c5-1psi-b",
+   "type": "region",
+   "start": 519.97,
+   "end": 526.402,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.25,
+     42.773
+    ],
+    "widthKm": 150.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.25,
+      42.773
+     ],
+     "widthKm": 150.0
+    },
+    {
+     "t": 3.22,
+     "center": [
+      146.25,
+      42.773
+     ],
+     "widthKm": 175.0
+    },
+    {
+     "t": 6.43,
+     "center": [
+      146.25,
+      42.773
+     ],
+     "widthKm": 200.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+28:40",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "rings": [
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 0.918,
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 1.782,
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 8.754,
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 9.702,
+     "color": "#F2B01E",
+     "t": 0.05,
+     "dashed": true
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 23.694,
+     "color": "#3ED6C8",
+     "t": 0.05,
+     "dashed": false
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.43,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.43,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.43,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      145.82,
+      43.39
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "CAPE NOSAPPU",
+     "t": 0.05
+    }
+   ],
+   "lines": [],
+   "labels": [
+    {
+     "at": [
+      147.225,
+      42.51171
+     ],
+     "text": "NO PUBLISHED DATA ON WARSHIPS",
+     "color": "#FFD23F",
+     "t": 0.22
+    }
+   ],
+   "caption": "Rings drawn 6 times true size. Ships not to scale."
+  },
+  {
+   "id": "c5-water-a",
+   "type": "region",
+   "start": 526.402,
+   "end": 532.441,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.125,
+     42.836
+    ],
+    "widthKm": 220.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 220.0
+    },
+    {
+     "t": 3.02,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 260.0
+    },
+    {
+     "t": 6.04,
+     "center": [
+      146.125,
+      42.836
+     ],
+     "widthKm": 300.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+29:00",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "rings": [
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 0.918,
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 1.782,
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 8.754,
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 9.702,
+     "color": "#F2B01E",
+     "t": 0.05,
+     "dashed": true
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 23.694,
+     "color": "#3ED6C8",
+     "t": 0.05,
+     "dashed": false
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.04,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.04,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.04,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      145.82,
+      43.39
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "CAPE NOSAPPU",
+     "t": 0.3
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      145.82,
+      43.39
+     ],
+     "to": [
+      146.5,
+      42.8
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 6.6,
+     "t1": 8.4,
+     "width": 2,
+     "label": "ABOUT 85 KM"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      147.0,
+      43.07027
+     ],
+     "text": "EVERY RING FALLS ON OPEN WATER",
+     "color": "#FFFFFF",
+     "t": 1.49
+    }
+   ],
+   "caption": "Rings drawn 6 times true size. Ships not to scale."
+  },
+  {
+   "id": "c5-water-b",
+   "type": "region",
+   "start": 532.441,
+   "end": 538.48,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.16,
+     43.095
+    ],
+    "widthKm": 330.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.16,
+      43.095
+     ],
+     "widthKm": 330.0
+    },
+    {
+     "t": 3.02,
+     "center": [
+      146.16,
+      43.095
+     ],
+     "widthKm": 295.0
+    },
+    {
+     "t": 6.04,
+     "center": [
+      146.16,
+      43.095
+     ],
+     "widthKm": 260.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+29:00",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "rings": [
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 0.918,
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 1.782,
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 8.754,
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "dashed": false
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 9.702,
+     "color": "#F2B01E",
+     "t": 0.05,
+     "dashed": true
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 23.694,
+     "color": "#3ED6C8",
+     "t": 0.05,
+     "dashed": false
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       146.45,
+       42.77
+      ],
+      [
+       146.47,
+       42.758
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.04,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.5,
+       42.8
+      ],
+      [
+       146.52,
+       42.788
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.04,
+     "kind": "us",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       146.55,
+       42.835
+      ],
+      [
+       146.57,
+       42.823
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.04,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 12,
+     "wake": true,
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      145.82,
+      43.39
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "CAPE NOSAPPU",
+     "t": 0.05
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      145.82,
+      43.39
+     ],
+     "to": [
+      146.5,
+      42.8
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 0.56,
+     "t1": 2.36,
+     "width": 2,
+     "label": "ABOUT 85 KM"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      146.335,
+      43.095
+     ],
+     "text": "ABOUT 85 KM",
+     "color": "#FFFFFF",
+     "t": 1.16
+    },
+    {
+     "at": [
+      147.0,
+      42.49369
+     ],
+     "text": "NO JAPANESE LAND IN A RING",
+     "color": "#6EA8FF",
+     "t": 3.79
+    }
+   ],
+   "caption": "Rings drawn 6 times true size. Ships not to scale."
+  },
+  {
+   "id": "c5-fallout",
+   "type": "region",
+   "start": 538.48,
+   "end": 546.144,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     146.16,
+     43.095
+    ],
+    "widthKm": 260.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      146.16,
+      43.095
+     ],
+     "widthKm": 260.0
+    },
+    {
+     "t": 3.83,
+     "center": [
+      146.16,
+      43.095
+     ],
+     "widthKm": 230.0
+    },
+    {
+     "t": 7.66,
+     "center": [
+      146.16,
+      43.095
+     ],
+     "widthKm": 200.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "clock": "T+29:20",
+   "clockLabel": "THE BURST",
+   "clockRate": 1,
+   "burst": {
+    "at": [
+     146.5,
+     42.8
+    ],
+    "t": -5.0,
+    "km": 4,
+    "fade": 12
+   },
+   "cities": [
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "AIR BURST",
+     "t": 0.2
+    },
+    {
+     "at": [
+      145.82,
+      43.39
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "CAPE NOSAPPU",
+     "t": 0.4
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      145.82,
+      43.39
+     ],
+     "to": [
+      146.5,
+      42.8
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 1.0,
+     "t1": 2.6,
+     "width": 2,
+     "label": "ABOUT 85 KM"
+    }
+   ],
+   "plume": {
+    "at": [
+     146.5,
+     42.8
+    ],
+    "bearing": 90,
+    "lengthKm": 70,
+    "widthKm": 6,
+    "t0": 2.0,
+    "t1": 5.0,
+    "color": "#F2B01E",
+    "label": "WIND ASSUMED"
+   },
+   "labels": [
+    {
+     "at": [
+      146.335,
+      43.095
+     ],
+     "text": "ABOUT 85 KM",
+     "color": "#FFFFFF",
+     "t": 1.8
+    },
+    {
+     "at": [
+      146.875,
+      42.9982
+     ],
+     "text": "LITTLE LOCAL FALLOUT",
+     "color": "#F2B01E",
+     "t": 1.99
+    },
+    {
+     "at": [
+      146.875,
+      42.6018
+     ],
+     "text": "LITTLE MATERIAL LIFTED",
+     "color": "#FFFFFF",
+     "t": 2.25
+    }
+   ]
+  },
+  {
+   "id": "c6-card",
+   "type": "chapter",
+   "start": 546.144,
+   "end": 549.844,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 06",
+   "title": "The day after"
+  },
+  {
+   "id": "c6-why",
+   "type": "region",
+   "start": 549.844,
+   "end": 568.921,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     145.8,
+     43.4
+    ],
+    "widthKm": 700.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      145.8,
+      43.4
+     ],
+     "widthKm": 700.0
+    },
+    {
+     "t": 3.82,
+     "center": [
+      145.56,
+      43.32
+     ],
+     "widthKm": 980.0
+    },
+    {
+     "t": 7.63,
+     "center": [
+      145.32,
+      43.24
+     ],
+     "widthKm": 1260.0
+    },
+    {
+     "t": 11.45,
+     "center": [
+      144.96,
+      43.32
+     ],
+     "widthKm": 1280.0
+    },
+    {
+     "t": 15.27,
+     "center": [
+      144.48,
+      43.56
+     ],
+     "widthKm": 1040.0
+    },
+    {
+     "t": 19.08,
+     "center": [
+      144.0,
+      43.8
+     ],
+     "widthKm": 800.0
+    }
+   ],
+   "clock": "DAY 08",
+   "clockLabel": "THE DAY AFTER",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "burst": {
+    "at": [
+     146.5,
+     42.8
+    ],
+    "t": -5.0,
+    "km": 6,
+    "fade": 12
+   },
+   "cities": [
+    {
+     "at": [
+      145.58,
+      43.33
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "NEMURO",
+     "t": 0.5
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "kind": "ring",
+     "color": "#FF3B3B",
+     "size": 7,
+     "label": "THE SHIPS",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      148.0,
+      44.2
+     ],
+     "text": "WHY A FLEET, NOT A CITY?",
+     "color": "#FFD23F",
+     "t": 1.97
+    },
+    {
+     "at": [
+      148.2,
+      41.4
+     ],
+     "text": "A SIGNAL: OUR READING",
+     "color": "#FFFFFF",
+     "t": 5.81
+    },
+    {
+     "at": [
+      147.8,
+      43.0
+     ],
+     "text": "IT SAYS: WE CAN",
+     "color": "#FF3B3B",
+     "t": 10.33
+    },
+    {
+     "at": [
+      143.0,
+      43.3
+     ],
+     "text": "A CITY WOULD SAY MORE",
+     "color": "#FFFFFF",
+     "t": 11.87
+    },
+    {
+     "at": [
+      142.5,
+      44.7
+     ],
+     "text": "NO PUBLISHED COUNT: NONE GIVEN",
+     "color": "#FFD23F",
+     "t": 15.43
+    }
+   ]
+  },
+  {
+   "id": "c6-plume",
+   "type": "region",
+   "start": 568.921,
+   "end": 580.105,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     147.5,
+     43.0
+    ],
+    "widthKm": 600.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      147.5,
+      43.0
+     ],
+     "widthKm": 600.0
+    },
+    {
+     "t": 3.73,
+     "center": [
+      148.1667,
+      43.0667
+     ],
+     "widthKm": 800.0
+    },
+    {
+     "t": 7.46,
+     "center": [
+      148.8333,
+      43.1333
+     ],
+     "widthKm": 1000.0
+    },
+    {
+     "t": 11.18,
+     "center": [
+      149.5,
+      43.2
+     ],
+     "widthKm": 1200.0
+    }
+   ],
+   "clock": "DAY 08",
+   "clockLabel": "THE PLUME",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "burst": {
+    "at": [
+     146.5,
+     42.8
+    ],
+    "t": -5.0,
+    "km": 4,
+    "fade": 12
+   },
+   "plume": {
+    "at": [
+     146.5,
+     42.8
+    ],
+    "bearing": 90,
+    "lengthKm": 220,
+    "widthKm": 14,
+    "t0": 1.55,
+    "t1": 5.55,
+    "color": "#F2B01E",
+    "label": "ASSUMED WIND: FROM THE WEST"
+   },
+   "labels": [
+    {
+     "at": [
+      144.0,
+      44.0
+     ],
+     "text": "AWAY FROM HOKKAIDO",
+     "color": "#6EA8FF",
+     "t": 8.55
+    },
+    {
+     "at": [
+      151.0,
+      42.0
+     ],
+     "text": "OPEN PACIFIC",
+     "color": "#FFFFFF",
+     "t": 7.37
+    }
+   ]
+  },
+  {
+   "id": "c6-routes",
+   "type": "region",
+   "start": 580.105,
+   "end": 599.017,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     143.0,
+     43.8
+    ],
+    "widthKm": 1200.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      143.0,
+      43.8
+     ],
+     "widthKm": 1200.0
+    },
+    {
+     "t": 3.78,
+     "center": [
+      143.0,
+      43.8
+     ],
+     "widthKm": 1600.0
+    },
+    {
+     "t": 7.56,
+     "center": [
+      139.7,
+      44.22
+     ],
+     "widthKm": 1580.0
+    },
+    {
+     "t": 11.35,
+     "center": [
+      138.5,
+      44.78
+     ],
+     "widthKm": 1260.0
+    },
+    {
+     "t": 15.12,
+     "center": [
+      140.388,
+      45.264
+     ],
+     "widthKm": 820.0
+    },
+    {
+     "t": 18.91,
+     "center": [
+      141.94,
+      45.52
+     ],
+     "widthKm": 500.0
+    }
+   ],
+   "clock": "DAY 08",
+   "clockLabel": "SHIPPING AND AIR ROUTES",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       139.3,
+       45.8
+      ],
+      [
+       142.5,
+       46.2
+      ],
+      [
+       146.6,
+       44.6
+      ],
+      [
+       146.4,
+       42.2
+      ],
+      [
+       143.0,
+       41.2
+      ],
+      [
+       139.8,
+       41.0
+      ]
+     ],
+     "color": "#FFFFFF",
+     "t": 3.04,
+     "fillOpacity": 0.1,
+     "strokeWidth": 2.4,
+     "solid": false,
+     "label": "ROUTES AROUND HOKKAIDO CLOSE",
+     "pulse": true
+    },
+    {
+     "points": [
+      [
+       141.5,
+       45.3
+      ],
+      [
+       142.4,
+       45.3
+      ],
+      [
+       142.4,
+       45.9
+      ],
+      [
+       141.5,
+       45.9
+      ]
+     ],
+     "color": "#FFFFFF",
+     "t": 15.68,
+     "fillOpacity": 0.4,
+     "strokeWidth": 2.4,
+     "solid": true,
+     "label": "THE STRAIT GOES DARK"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       131.9,
+       43.1
+      ],
+      [
+       137.0,
+       44.5
+      ],
+      [
+       141.0,
+       45.6
+      ],
+      [
+       144.5,
+       46.2
+      ]
+     ],
+     "t0": 6.85,
+     "t1": 14.14,
+     "kind": "pla",
+     "color": "#F2B01E",
+     "size": 22,
+     "wake": true,
+     "label": "RUSSIAN SHIPS FROM VLADIVOSTOK",
+     "t": 6.85
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      141.94,
+      45.52
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "SOYA STRAIT: ABOUT 42 KM",
+     "t": 8.2
+    }
+   ]
+  },
+  {
+   "id": "c6-gas",
+   "type": "region",
+   "start": 599.017,
+   "end": 610.09,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     141.0,
+     40.5
+    ],
+    "widthKm": 2200.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      141.0,
+      40.5
+     ],
+     "widthKm": 2200.0
+    },
+    {
+     "t": 3.69,
+     "center": [
+      141.1667,
+      41.0
+     ],
+     "widthKm": 1966.7
+    },
+    {
+     "t": 7.38,
+     "center": [
+      141.3333,
+      41.5
+     ],
+     "widthKm": 1733.3
+    },
+    {
+     "t": 11.07,
+     "center": [
+      141.5,
+      42.0
+     ],
+     "widthKm": 1500.0
+    }
+   ],
+   "clock": "DAY 08",
+   "clockLabel": "THE GAS",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "ZOiS Berlin; Lowy Interpreter",
+   "cities": [
+    {
+     "at": [
+      143.1,
+      46.65
+     ],
+     "kind": "base",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "SAKHALIN-2",
+     "t": 1.68
+    },
+    {
+     "at": [
+      139.7,
+      35.7
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "TOKYO REVIEWS THE SUPPLY",
+     "t": 9.37
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      143.1,
+      46.65
+     ],
+     "to": [
+      139.7,
+      35.7
+     ],
+     "color": "#F2B01E",
+     "dashed": false,
+     "t0": 2.29,
+     "t1": 5.29,
+     "width": 3,
+     "label": "ABOUT A TENTH OF JAPAN'S LNG"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      144.5,
+      39.5
+     ],
+     "text": "MITSUI AND MITSUBISHI",
+     "color": "#FFFFFF",
+     "t": 6.37
+    }
+   ]
+  },
+  {
+   "id": "c6-nonuc",
+   "type": "region",
+   "start": 610.09,
+   "end": 631.522,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     139.5,
+     37.5
+    ],
+    "widthKm": 2000.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      139.5,
+      37.5
+     ],
+     "widthKm": 2000.0
+    },
+    {
+     "t": 4.29,
+     "center": [
+      139.58,
+      36.9
+     ],
+     "widthKm": 1720.0
+    },
+    {
+     "t": 8.57,
+     "center": [
+      139.66,
+      36.3
+     ],
+     "widthKm": 1440.0
+    },
+    {
+     "t": 12.86,
+     "center": [
+      139.86,
+      36.4
+     ],
+     "widthKm": 1480.0
+    },
+    {
+     "t": 17.15,
+     "center": [
+      140.18,
+      37.2
+     ],
+     "widthKm": 1840.0
+    },
+    {
+     "t": 21.43,
+     "center": [
+      140.5,
+      38.0
+     ],
+     "widthKm": 2200.0
+    }
+   ],
+   "clock": "DAY 08",
+   "clockLabel": "THE DEBATE",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "source": "Nippon.com; Lowy Interpreter",
+   "cities": [
+    {
+     "at": [
+      139.7,
+      35.7
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "TOKYO",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      141.5,
+      38.6
+     ],
+     "text": "NO POSSESSING",
+     "color": "#6EA8FF",
+     "t": 8.08
+    },
+    {
+     "at": [
+      141.5,
+      37.7
+     ],
+     "text": "NO MAKING",
+     "color": "#6EA8FF",
+     "t": 9.64
+    },
+    {
+     "at": [
+      141.5,
+      36.8
+     ],
+     "text": "NO INTRODUCING",
+     "color": "#6EA8FF",
+     "t": 11.12
+    },
+    {
+     "at": [
+      136.5,
+      39.8
+     ],
+     "text": "THREE PRINCIPLES SINCE 1967",
+     "color": "#FFFFFF",
+     "t": 3.58
+    },
+    {
+     "at": [
+      137.5,
+      38.4
+     ],
+     "text": "SECURITY DOCUMENTS REWRITTEN",
+     "color": "#FFFFFF",
+     "t": 15.17
+    },
+    {
+     "at": [
+      141.0,
+      34.9
+     ],
+     "text": "REOPENED IN PUBLIC",
+     "color": "#FFD23F",
+     "t": 19.12
+    }
+   ]
+  },
+  {
+   "id": "c6-options",
+   "type": "region",
+   "start": 631.522,
+   "end": 650.434,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     142.0,
+     38.5
+    ],
+    "widthKm": 2600.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      142.0,
+      38.5
+     ],
+     "widthKm": 2600.0
+    },
+    {
+     "t": 3.78,
+     "center": [
+      142.6,
+      39.1
+     ],
+     "widthKm": 2360.0
+    },
+    {
+     "t": 7.57,
+     "center": [
+      143.2,
+      39.7
+     ],
+     "widthKm": 2120.0
+    },
+    {
+     "t": 11.35,
+     "center": [
+      143.8,
+      40.5
+     ],
+     "widthKm": 1820.0
+    },
+    {
+     "t": 15.13,
+     "center": [
+      144.4,
+      41.5
+     ],
+     "widthKm": 1460.0
+    },
+    {
+     "t": 18.91,
+     "center": [
+      145.0,
+      42.5
+     ],
+     "widthKm": 1100.0
+    }
+   ],
+   "clock": "DAY 08",
+   "clockLabel": "THE DECISION",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      139.7,
+      35.7
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "TOKYO AND WASHINGTON CHOOSE",
+     "t": 0.3
+    },
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "kind": "ring",
+     "color": "#FF3B3B",
+     "size": 7,
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      147.0,
+      41.0
+     ],
+     "text": "OPTION 1: CONVENTIONAL REPLY",
+     "color": "#6EA8FF",
+     "t": 3.57
+    },
+    {
+     "at": [
+      147.0,
+      39.6
+     ],
+     "text": "OPTION 2: NUCLEAR UMBRELLA",
+     "color": "#6EA8FF",
+     "t": 6.53
+    },
+    {
+     "at": [
+      147.0,
+      38.2
+     ],
+     "text": "OPTION 3: A THIRD-PARTY CALL",
+     "color": "#6EA8FF",
+     "t": 8.67
+    },
+    {
+     "at": [
+      147.5,
+      44.2
+     ],
+     "text": "ANALYSIS LEANS CONVENTIONAL",
+     "color": "#FFFFFF",
+     "t": 13.17
+    },
+    {
+     "at": [
+      147.8,
+      41.5
+     ],
+     "text": "ALL THREE SHOWN, THEN IT STOPS",
+     "color": "#FFD23F",
+     "t": 15.51
+    }
+   ]
+  },
+  {
+   "id": "c6-empty",
+   "type": "region",
+   "start": 650.434,
+   "end": 660.321,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     141.94,
+     45.52
+    ],
+    "widthKm": 500.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      141.94,
+      45.52
+     ],
+     "widthKm": 500.0
+    },
+    {
+     "t": 3.3,
+     "center": [
+      143.5,
+      44.0
+     ],
+     "widthKm": 1500.0
+    },
+    {
+     "t": 6.6,
+     "center": [
+      145.0,
+      43.8
+     ],
+     "widthKm": 1000.0
+    },
+    {
+     "t": 9.89,
+     "center": [
+      146.0,
+      44.3
+     ],
+     "widthKm": 600.0
+    }
+   ],
+   "clock": "DAY 08",
+   "clockLabel": "THE DAY AFTER",
+   "highlight": [
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    },
+    {
+     "iso": "392",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "JAPAN AND US",
+     "color": "#6EA8FF"
+    }
+   ],
+   "zones": [
+    {
+     "points": [
+      [
+       141.5,
+       45.3
+      ],
+      [
+       142.4,
+       45.3
+      ],
+      [
+       142.4,
+       45.9
+      ],
+      [
+       141.5,
+       45.9
+      ]
+     ],
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "fillOpacity": 0.4,
+     "strokeWidth": 2.4,
+     "solid": true,
+     "label": "THE STRAIT IS EMPTY"
+    }
+   ],
+   "rings": [
+    {
+     "at": [
+      146.5,
+      42.8
+     ],
+     "km": 3.949,
+     "color": "#3ED6C8",
+     "t": 1.0,
+     "dashed": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      146.5,
+      41.9
+     ],
+     "text": "THE RINGS FADE",
+     "color": "#3ED6C8",
+     "t": 1.62
+    },
+    {
+     "at": [
+      146.5,
+      45.5
+     ],
+     "text": "IT HAS NOT HAPPENED",
+     "color": "#FFD23F",
+     "t": 4.22
+    },
+    {
+     "at": [
+      147.6,
+      44.8
+     ],
+     "text": "THE ISLANDS: REAL",
+     "color": "#F2B01E",
+     "t": 6.14
+    },
+    {
+     "at": [
+      144.0,
+      43.2
+     ],
+     "text": "THE MISSING TREATY: REAL",
+     "color": "#FFFFFF",
+     "t": 7.54
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "type": "endslate",
+   "start": 660.321,
+   "end": 677.48,
+   "tag": "",
+   "title": "Next scenario",
+   "line": "Tsar Bomba, the largest bomb ever built, on London, Tokyo and New York."
+  }
+ ]
+}
