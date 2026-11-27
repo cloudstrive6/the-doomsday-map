@@ -1,6 +1,6 @@
 {
-  "built": "2026-11-26",
-  "latest_snapshot": "2026-11-26",
+  "built": "2026-11-27",
+  "latest_snapshot": "2026-11-27",
   "subscribers": 19,
   "subs_target": [
     50,
@@ -10,8 +10,8 @@
     "C1@7d": {
       "label": "Long CTR",
       "target": 0.05,
-      "median": 0.0419,
-      "n": 6,
+      "median": 0.0403,
+      "n": 7,
       "met": false
     },
     "C2@7d": {
@@ -38,15 +38,15 @@
     "C5a@7d": {
       "label": "Shorts views",
       "target": 300,
-      "median": 427,
-      "n": 17,
+      "median": 482.5,
+      "n": 20,
       "met": true
     },
     "C5b@7d": {
       "label": "Shorts avg % viewed",
       "target": 80.0,
-      "median": 72.28,
-      "n": 17,
+      "median": 64.23,
+      "n": 20,
       "met": false
     },
     "C1@28d": {
@@ -1187,8 +1187,15 @@
       "publish_at": "2026-11-20T00:00:00Z",
       "horizon": 7,
       "due": "2026-11-27",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-27",
+      "status": "measured",
+      "views": 1277,
+      "avp": 63.55,
+      "avd": 24,
+      "hold": 1.178,
+      "subs": 1,
+      "ctr": 0.0113,
+      "impressions": 888
     },
     {
       "episode": "010-tsar-bomba-over-new-york",
@@ -1211,8 +1218,15 @@
       "publish_at": "2026-11-20T00:00:00Z",
       "horizon": 7,
       "due": "2026-11-27",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-27",
+      "status": "measured",
+      "views": null,
+      "avp": null,
+      "avd": null,
+      "hold": null,
+      "subs": null,
+      "ctr": 0.0328,
+      "impressions": 61
     },
     {
       "episode": "011-washington-where-the-government-goes",
@@ -1235,8 +1249,15 @@
       "publish_at": "2026-11-20T14:00:00Z",
       "horizon": 7,
       "due": "2026-11-27",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-27",
+      "status": "measured",
+      "views": 538,
+      "avp": 47.23,
+      "avd": 17,
+      "hold": null,
+      "subs": 0,
+      "ctr": 0.0367,
+      "impressions": 109
     },
     {
       "episode": "011-washington-where-the-government-goes",
@@ -1259,8 +1280,15 @@
       "publish_at": "2026-11-20T19:00:00Z",
       "horizon": 7,
       "due": "2026-11-27",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-27",
+      "status": "measured",
+      "views": 283,
+      "avp": 50.2,
+      "avd": 18,
+      "hold": null,
+      "subs": 0,
+      "ctr": 0.03,
+      "impressions": 100
     },
     {
       "episode": "011-washington-where-the-government-goes",
@@ -2063,6 +2091,102 @@
       "publish_at": "2026-11-29T00:00:00Z",
       "horizon": 28,
       "due": "2026-12-27",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "020-russia-japan-kuril-hokkaido",
+      "num": 20,
+      "kind": "long",
+      "id": "5QuZrxLGi5c",
+      "title": "What If Russia Fired One Nuke at Japan's Fleet?",
+      "publish_at": "2026-11-29T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-06",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "020-russia-japan-kuril-hokkaido",
+      "num": 20,
+      "kind": "long",
+      "id": "5QuZrxLGi5c",
+      "title": "What If Russia Fired One Nuke at Japan's Fleet?",
+      "publish_at": "2026-11-29T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-27",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "020-russia-japan-kuril-hokkaido",
+      "num": 20,
+      "kind": "short",
+      "id": "Tm89j4f6KfA",
+      "title": "One Nuke at Japan's Fleet: A Simulated Russia War Over the Kurils #shorts",
+      "publish_at": "2026-11-29T14:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-06",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "020-russia-japan-kuril-hokkaido",
+      "num": 20,
+      "kind": "short",
+      "id": "Tm89j4f6KfA",
+      "title": "One Nuke at Japan's Fleet: A Simulated Russia War Over the Kurils #shorts",
+      "publish_at": "2026-11-29T14:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-27",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "020-russia-japan-kuril-hokkaido",
+      "num": 20,
+      "kind": "short",
+      "id": "N7VXzq-uIjs",
+      "title": "What One Nuke Would Do to Ships Off Hokkaido #shorts",
+      "publish_at": "2026-11-29T19:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-06",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "020-russia-japan-kuril-hokkaido",
+      "num": 20,
+      "kind": "short",
+      "id": "N7VXzq-uIjs",
+      "title": "What One Nuke Would Do to Ships Off Hokkaido #shorts",
+      "publish_at": "2026-11-29T19:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-27",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "020-russia-japan-kuril-hokkaido",
+      "num": 20,
+      "kind": "short",
+      "id": "wC_etxHVsSY",
+      "title": "Russia Fires One Missile at a Japanese Destroyer: Simulated #shorts",
+      "publish_at": "2026-11-30T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-07",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "020-russia-japan-kuril-hokkaido",
+      "num": 20,
+      "kind": "short",
+      "id": "wC_etxHVsSY",
+      "title": "Russia Fires One Missile at a Japanese Destroyer: Simulated #shorts",
+      "publish_at": "2026-11-30T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-28",
       "snapshot": null,
       "status": "pending"
     }
