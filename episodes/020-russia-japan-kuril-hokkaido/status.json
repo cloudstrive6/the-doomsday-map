@@ -69,7 +69,22 @@
       "stage": "packaged",
       "note": "packaged; thumbnails engine-drawn (Gemini 402), s3 replaced",
       "at": "2026-11-27T01:50:49+00:00"
+    },
+    {
+      "stage": "rendered",
+      "note": "https://github.com/cloudstrive6/the-doomsday-map/actions/runs/45920185272",
+      "at": "2026-11-27T02:09:53+00:00"
+    },
+    {
+      "stage": "qc_passed",
+      "note": "",
+      "at": "2026-11-27T02:10:28+00:00"
+    },
+    {
+      "stage": "uploaded",
+      "note": "https://youtu.be/5QuZrxLGi5c at 2026-11-29T00:00:00Z",
+      "at": "2026-11-27T02:11:30+00:00"
     }
   ],
-  "stage": "packaged"
+  "stage": "uploaded"
 }
