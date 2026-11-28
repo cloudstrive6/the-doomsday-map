@@ -1,6 +1,6 @@
 {
-  "built": "2026-11-27",
-  "latest_snapshot": "2026-11-27",
+  "built": "2026-11-28",
+  "latest_snapshot": "2026-11-28",
   "subscribers": 19,
   "subs_target": [
     50,
@@ -10,8 +10,8 @@
     "C1@7d": {
       "label": "Long CTR",
       "target": 0.05,
-      "median": 0.0417,
-      "n": 7,
+      "median": 0.041999999999999996,
+      "n": 8,
       "met": false
     },
     "C2@7d": {
@@ -24,29 +24,29 @@
     "C3@7d": {
       "label": "Avg % viewed",
       "target": 40.0,
-      "median": 33.265,
-      "n": 6,
+      "median": 33.24,
+      "n": 7,
       "met": false
     },
     "C4@7d": {
       "label": "Long views",
       "target": 150,
-      "median": 23.5,
-      "n": 6,
+      "median": 25,
+      "n": 7,
       "met": false
     },
     "C5a@7d": {
       "label": "Shorts views",
       "target": 300,
-      "median": 482.5,
-      "n": 20,
+      "median": 427,
+      "n": 23,
       "met": true
     },
     "C5b@7d": {
       "label": "Shorts avg % viewed",
       "target": 80.0,
-      "median": 64.23,
-      "n": 20,
+      "median": 63.470000000000006,
+      "n": 23,
       "met": false
     },
     "C1@28d": {
@@ -1311,8 +1311,15 @@
       "publish_at": "2026-11-21T00:00:00Z",
       "horizon": 7,
       "due": "2026-11-28",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-28",
+      "status": "measured",
+      "views": 254,
+      "avp": 42.94,
+      "avd": 23,
+      "hold": null,
+      "subs": 0,
+      "ctr": 0.0204,
+      "impressions": 49
     },
     {
       "episode": "011-washington-where-the-government-goes",
@@ -1335,8 +1342,15 @@
       "publish_at": "2026-11-21T00:00:00Z",
       "horizon": 7,
       "due": "2026-11-28",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-28",
+      "status": "measured",
+      "views": 39,
+      "avp": 22.99,
+      "avd": 154,
+      "hold": null,
+      "subs": 0,
+      "ctr": 0.0423,
+      "impressions": 142
     },
     {
       "episode": "012-nato-russia-first-24-hours",
@@ -1359,8 +1373,15 @@
       "publish_at": "2026-11-21T14:00:00Z",
       "horizon": 7,
       "due": "2026-11-28",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-28",
+      "status": "measured",
+      "views": 1070,
+      "avp": 60.67,
+      "avd": 21,
+      "hold": 1.271,
+      "subs": 2,
+      "ctr": 0.0268,
+      "impressions": 112
     },
     {
       "episode": "012-nato-russia-first-24-hours",
@@ -1383,8 +1404,15 @@
       "publish_at": "2026-11-21T19:00:00Z",
       "horizon": 7,
       "due": "2026-11-28",
-      "snapshot": null,
-      "status": "pending"
+      "snapshot": "2026-11-28",
+      "status": "measured",
+      "views": 298,
+      "avp": 61.65999999999999,
+      "avd": 22,
+      "hold": null,
+      "subs": 1,
+      "ctr": 0.0093,
+      "impressions": 215
     },
     {
       "episode": "012-nato-russia-first-24-hours",
@@ -2187,6 +2215,102 @@
       "publish_at": "2026-11-30T00:00:00Z",
       "horizon": 28,
       "due": "2026-12-28",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "021-london-four-submarines-one-warhead",
+      "num": 21,
+      "kind": "long",
+      "id": "ExwBlJYHn0c",
+      "title": "What If One Nuke Hit London at 8:49 AM?",
+      "publish_at": "2026-11-30T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-07",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "021-london-four-submarines-one-warhead",
+      "num": 21,
+      "kind": "long",
+      "id": "ExwBlJYHn0c",
+      "title": "What If One Nuke Hit London at 8:49 AM?",
+      "publish_at": "2026-11-30T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-28",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "021-london-four-submarines-one-warhead",
+      "num": 21,
+      "kind": "short",
+      "id": "66LiPJTJ59g",
+      "title": "One Nuke Over London's Whitehall: Simulated Blast #shorts",
+      "publish_at": "2026-11-30T14:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-07",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "021-london-four-submarines-one-warhead",
+      "num": 21,
+      "kind": "short",
+      "id": "66LiPJTJ59g",
+      "title": "One Nuke Over London's Whitehall: Simulated Blast #shorts",
+      "publish_at": "2026-11-30T14:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-28",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "021-london-four-submarines-one-warhead",
+      "num": 21,
+      "kind": "short",
+      "id": "KG5LV5126Bw",
+      "title": "What One Nuke Would Do to London, Ring by Ring #shorts",
+      "publish_at": "2026-11-30T19:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-07",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "021-london-four-submarines-one-warhead",
+      "num": 21,
+      "kind": "short",
+      "id": "KG5LV5126Bw",
+      "title": "What One Nuke Would Do to London, Ring by Ring #shorts",
+      "publish_at": "2026-11-30T19:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-28",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "021-london-four-submarines-one-warhead",
+      "num": 21,
+      "kind": "short",
+      "id": "GAotXzyRdLM",
+      "title": "One Nuke on Britain's Submarine Base: Simulated Faslane #shorts",
+      "publish_at": "2026-12-01T00:00:00Z",
+      "horizon": 7,
+      "due": "2026-12-08",
+      "snapshot": null,
+      "status": "pending"
+    },
+    {
+      "episode": "021-london-four-submarines-one-warhead",
+      "num": 21,
+      "kind": "short",
+      "id": "GAotXzyRdLM",
+      "title": "One Nuke on Britain's Submarine Base: Simulated Faslane #shorts",
+      "publish_at": "2026-12-01T00:00:00Z",
+      "horizon": 28,
+      "due": "2026-12-29",
       "snapshot": null,
       "status": "pending"
     }
