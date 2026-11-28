@@ -1,0 +1,206 @@
+[
+  {
+    "id": "a",
+    "variant": "globe",
+    "concept": "orbit",
+    "palette": "fire-night",
+    "line1": "SCOTLAND",
+    "line2": "GOES FIRST",
+    "tag": "",
+    "align": "left",
+    "globe": {
+      "camera": [
+        {
+          "t": 0,
+          "lat": 56,
+          "lon": -9,
+          "scale": 4200
+        }
+      ],
+      "sun": {
+        "lat": 40,
+        "lon": -10
+      },
+      "arcs": [
+        {
+          "from": [
+            3.0,
+            68.0
+          ],
+          "to": [
+            -4.82,
+            56.0675
+          ],
+          "t0": 0,
+          "t1": 1,
+          "color": "#FF4A2B",
+          "width": 10
+        },
+        {
+          "from": [
+            3.0,
+            68.0
+          ],
+          "to": [
+            -0.1276,
+            51.5034
+          ],
+          "t0": 0,
+          "t1": 1,
+          "color": "#FF4A2B",
+          "width": 10
+        }
+      ],
+      "flashes": [
+        {
+          "at": [
+            -4.82,
+            56.0675
+          ],
+          "t": 0.6,
+          "radius": 350,
+          "color": "#FFD23F",
+          "hold": 120
+        },
+        {
+          "at": [
+            -0.1276,
+            51.5034
+          ],
+          "t": 0.6,
+          "radius": 350,
+          "color": "#FFD23F",
+          "hold": 120
+        }
+      ],
+      "highlight": [
+        {
+          "iso": "826",
+          "color": "#FFB020"
+        }
+      ]
+    }
+  },
+  {
+    "id": "b",
+    "variant": "map",
+    "concept": "map",
+    "palette": "map",
+    "line1": "UNDER 9",
+    "line2": "MINUTES",
+    "tag": "",
+    "align": "left",
+    "region": {
+      "theme": "bright",
+      "t": 30,
+      "view": {
+        "center": [
+          -1.8,
+          55.8
+        ],
+        "widthKm": 1900
+      },
+      "highlight": [
+        {
+          "iso": "826",
+          "color": "#6EA8FF",
+          "fill": "rgba(110,168,255,0.22)"
+        }
+      ],
+      "lines": [
+        {
+          "from": [
+            3.0,
+            60.5
+          ],
+          "to": [
+            -4.82,
+            56.0675
+          ],
+          "color": "#E01E1E",
+          "t0": 0,
+          "t1": 1,
+          "width": 18
+        },
+        {
+          "from": [
+            3.0,
+            60.5
+          ],
+          "to": [
+            -0.1276,
+            51.5034
+          ],
+          "color": "#E01E1E",
+          "t0": 0,
+          "t1": 1,
+          "width": 18
+        }
+      ]
+    }
+  },
+  {
+    "id": "c",
+    "variant": "map",
+    "concept": "scale",
+    "palette": "map",
+    "line1": "590 KM",
+    "line2": "APART",
+    "tag": "",
+    "align": "left",
+    "region": {
+      "theme": "bright",
+      "t": 30,
+      "view": {
+        "center": [
+          -5.2,
+          53.2
+        ],
+        "widthKm": 1000
+      },
+      "highlight": [
+        {
+          "iso": "826",
+          "color": "#6EA8FF",
+          "fill": "rgba(110,168,255,0.22)"
+        }
+      ],
+      "lines": [
+        {
+          "from": [
+            -4.82,
+            56.0675
+          ],
+          "to": [
+            -0.1276,
+            51.5034
+          ],
+          "color": "#FFB020",
+          "t0": 0,
+          "t1": 1,
+          "width": 14
+        }
+      ],
+      "rings": [
+        {
+          "at": [
+            -4.82,
+            56.0675
+          ],
+          "km": 25,
+          "color": "#FF3A00",
+          "t": 0
+        },
+        {
+          "at": [
+            -0.1276,
+            51.5034
+          ],
+          "km": 25,
+          "color": "#FF3A00",
+          "t": 0
+        }
+      ]
+    }
+  }
+]
