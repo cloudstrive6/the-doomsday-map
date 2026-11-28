@@ -39,7 +39,12 @@
       "stage": "visual_approved",
       "note": "visual review PASS, 5 non-blocking polish notes",
       "at": "2026-11-28T01:01:59+00:00"
+    },
+    {
+      "stage": "packaged",
+      "note": "packaged, thumbnails are engine fallback (Gemini 402)",
+      "at": "2026-11-28T01:06:54+00:00"
     }
   ],
-  "stage": "visual_approved"
+  "stage": "packaged"
 }

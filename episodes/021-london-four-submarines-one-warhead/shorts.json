@@ -1,25 +1,25 @@
 [
   {
     "id": "s1",
-    "start": 0.0,
-    "end": 36.2,
-    "title": [
-      "ONE 100 KT NUKE",
-      "ON WESTMINSTER"
-    ],
-    "yt_title": "One Nuke on London: Scotland Is Hit a Minute First #shorts",
-    "hook": "One 100 kiloton warhead bursts over Westminster at 8:49 in the morning, a minute after another hits a submarine base in Scotland."
-  },
-  {
-    "id": "s2",
     "start": 378.771,
     "end": 411.5,
     "title": [
       "ONE 100 KT NUKE",
       "OVER WHITEHALL"
     ],
+    "yt_title": "One Nuke Over London's Whitehall: Simulated Blast #shorts",
+    "hook": "The simulated warhead bursts over Whitehall: a fireball 380 metres in radius, and at 640 metres heavy buildings do not stand."
+  },
+  {
+    "id": "s2",
+    "start": 411.739,
+    "end": 460.4,
+    "title": [
+      "ONE 100 KT NUKE",
+      "ON GREATER LONDON"
+    ],
     "yt_title": "What One Nuke Would Do to London, Ring by Ring #shorts",
-    "hook": "The second simulated warhead bursts over Whitehall: a fireball 380 metres in radius, and at 640 metres heavy buildings do not stand."
+    "hook": "At 3.1 kilometres the blast falls to five pounds per square inch and most houses collapse, a circle of 31 square kilometres."
   },
   {
     "id": "s3",

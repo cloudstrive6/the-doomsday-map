@@ -1,0 +1,524 @@
+{
+ "subtitles": [
+  {
+   "start": 0.491,
+   "end": 2.059,
+   "text": "At 8.8 minutes,"
+  },
+  {
+   "start": 2.282,
+   "end": 3.929,
+   "text": "the second warhead bursts in"
+  },
+  {
+   "start": 3.929,
+   "end": 5.559,
+   "text": "the air over Whitehall."
+  },
+  {
+   "start": 6.129,
+   "end": 9.199,
+   "text": "One warhead. One city."
+  },
+  {
+   "start": 9.734,
+   "end": 11.069,
+   "text": "The map now shows what"
+  },
+  {
+   "start": 11.069,
+   "end": 13.143,
+   "text": "that single burst does,"
+  },
+  {
+   "start": 13.143,
+   "end": 14.479,
+   "text": "ring by ring."
+  },
+  {
+   "start": 15.399,
+   "end": 16.509,
+   "text": "The fireball is"
+  },
+  {
+   "start": 16.509,
+   "end": 17.829,
+   "text": "380 m"
+  },
+  {
+   "start": 17.829,
+   "end": 18.409,
+   "text": "in radius,"
+  },
+  {
+   "start": 18.409,
+   "end": 21.219,
+   "text": "about 770 m across."
+  },
+  {
+   "start": 21.892,
+   "end": 24.099,
+   "text": "Everything inside is vaporised."
+  },
+  {
+   "start": 24.756,
+   "end": 26.915,
+   "text": "At 640 m,"
+  },
+  {
+   "start": 26.915,
+   "end": 28.489,
+   "text": "the blast reaches 20"
+  },
+  {
+   "start": 28.489,
+   "end": 29.869,
+   "text": "pounds per square inch."
+  },
+  {
+   "start": 29.869,
+   "end": 32.379,
+   "text": "Heavy buildings do not stand."
+  }
+ ],
+ "slug": "021-london-four-submarines-one-warhead-s1",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 32.729,
+ "shots": [
+  {
+   "id": "c4-last",
+   "type": "region",
+   "start": 0.0,
+   "end": 3.159,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 160.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 160.0
+    },
+    {
+     "t": 3.16,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 170.0
+    }
+   ],
+   "legend": null,
+   "clock": "T+08:44",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1.404,
+   "ships": [
+    {
+     "path": [
+      [
+       -0.00826,
+       52.13286
+      ],
+      [
+       -0.1276,
+       51.5034
+      ]
+     ],
+     "t0": 0,
+     "t1": 3.16,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 28,
+     "wake": true,
+     "label": "TO LONDON",
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "WHITEHALL",
+     "t": 0.2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -0.6327,
+      51.72863
+     ],
+     "text": "8.8 MINUTES",
+     "color": "#FF3B3B",
+     "t": 0.4
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c4-flash",
+   "type": "city",
+   "start": 3.159,
+   "end": 6.089,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 4.8
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 4.8
+    },
+    {
+     "t": 2.93,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 8.8
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.4,
+     "angle": 225
+    }
+   ],
+   "clock": "T+08:48",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      -0.1276,
+      51.53403
+     ],
+     "text": "AIR BURST OVER WHITEHALL",
+     "color": "#FFFFFF",
+     "t": 0.8
+    }
+   ],
+   "flashT": 0.1
+  },
+  {
+   "id": "c4-one",
+   "type": "city",
+   "start": 6.089,
+   "end": 15.303,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 11.2
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 11.2
+    },
+    {
+     "t": 3.07,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 8.56
+    },
+    {
+     "t": 6.14,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 12.8
+    },
+    {
+     "t": 9.21,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 24.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "clock": "T+08:57",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "burst": {
+    "at": [
+     -0.1276,
+     51.5034
+    ],
+    "t": -4.0,
+    "km": 1.2,
+    "fade": 9
+   },
+   "labels": [
+    {
+     "at": [
+      -0.16007,
+      51.51702
+     ],
+     "text": "ONE WARHEAD",
+     "color": "#FF3B3B",
+     "t": 0.05
+    },
+    {
+     "at": [
+      -0.09513,
+      51.48978
+     ],
+     "text": "ONE CITY",
+     "color": "#FFFFFF",
+     "t": 2.21
+    },
+    {
+     "at": [
+      -0.1276,
+      51.51702
+     ],
+     "text": "RING BY RING",
+     "color": "#FFD23F",
+     "t": 6.9
+    }
+   ]
+  },
+  {
+   "id": "c5-fire",
+   "type": "city",
+   "start": 19.003,
+   "end": 24.527,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 1.12
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 1.12
+    },
+    {
+     "t": 2.77,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 1.6
+    },
+    {
+     "t": 5.52,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 2.08
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "angle": 225
+    }
+   ],
+   "clock": "T+09:00",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "burst": {
+    "at": [
+     -0.1276,
+     51.5034
+    ],
+    "t": -4.0,
+    "km": 0.6,
+    "fade": 8
+   },
+   "labels": [
+    {
+     "at": [
+      -0.1276,
+      51.5079
+     ],
+     "text": "FIREBALL: 380 M RADIUS",
+     "color": "#FF7A1A",
+     "t": 0.05
+    },
+    {
+     "at": [
+      -0.1377,
+      51.4998
+     ],
+     "text": "EVERYTHING INSIDE VAPORISED",
+     "color": "#FFFFFF",
+     "t": 3.88
+    }
+   ]
+  },
+  {
+   "id": "c5-20",
+   "type": "city",
+   "start": 24.527,
+   "end": 32.729,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 1.6
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 1.6
+    },
+    {
+     "t": 4.22,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 2.72
+    },
+    {
+     "t": 8.44,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 2.4
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.39,
+     "angle": 225
+    }
+   ],
+   "clock": "T+09:10",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      -0.12183,
+      51.50971
+     ],
+     "text": "20 PSI: 640 M",
+     "color": "#FF3B3B",
+     "t": 0.39
+    },
+    {
+     "at": [
+      -0.14059,
+      51.49799
+     ],
+     "text": "HEAVY BUILDINGS DO NOT STAND",
+     "color": "#FFFFFF",
+     "t": 5.19
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "ONE 100 KT NUKE",
+  "OVER WHITEHALL"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

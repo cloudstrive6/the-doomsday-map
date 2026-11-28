@@ -1,0 +1,847 @@
+{
+ "subtitles": [
+  {
+   "start": 0.405,
+   "end": 2.171,
+   "text": "At 3.1 km,"
+  },
+  {
+   "start": 2.491,
+   "end": 3.641,
+   "text": "it falls to five"
+  },
+  {
+   "start": 3.641,
+   "end": 5.353,
+   "text": "pounds per square inch."
+  },
+  {
+   "start": 5.353,
+   "end": 6.851,
+   "text": "Most houses collapse."
+  },
+  {
+   "start": 7.103,
+   "end": 10.211,
+   "text": "That circle covers 31 square kilometres,"
+  },
+  {
+   "start": 10.487,
+   "end": 12.731,
+   "text": "about 2% of Greater London."
+  },
+  {
+   "start": 13.712,
+   "end": 15.671,
+   "text": "At 4.2 km,"
+  },
+  {
+   "start": 16.021,
+   "end": 17.641,
+   "text": "bare skin takes third-degree"
+  },
+  {
+   "start": 17.641,
+   "end": 19.171,
+   "text": "burns from the flash."
+  },
+  {
+   "start": 20.08,
+   "end": 21.921,
+   "text": "At eight and a half kilometres,"
+  },
+  {
+   "start": 21.921,
+   "end": 22.961,
+   "text": "the blast is one"
+  },
+  {
+   "start": 22.961,
+   "end": 24.783,
+   "text": "pound per square inch."
+  },
+  {
+   "start": 24.783,
+   "end": 25.921,
+   "text": "Windows shatter,"
+  },
+  {
+   "start": 25.921,
+   "end": 27.941,
+   "text": "and flying glass injures people"
+  },
+  {
+   "start": 27.941,
+   "end": 29.391,
+   "text": "far from the fireball."
+  },
+  {
+   "start": 29.936,
+   "end": 31.981,
+   "text": "Because this is an airburst,"
+  },
+  {
+   "start": 31.981,
+   "end": 33.771,
+   "text": "local fallout is small."
+  },
+  {
+   "start": 34.174,
+   "end": 35.521,
+   "text": "The smoke and dust of a"
+  },
+  {
+   "start": 35.521,
+   "end": 37.851,
+   "text": "burning city are not modelled here."
+  },
+  {
+   "start": 38.131,
+   "end": 38.981,
+   "text": "On average about"
+  },
+  {
+   "start": 38.981,
+   "end": 40.981,
+   "text": "5,800 people live"
+  },
+  {
+   "start": 40.981,
+   "end": 43.581,
+   "text": "on each square kilometre of Greater London,"
+  },
+  {
+   "start": 43.581,
+   "end": 44.601,
+   "text": "and the morning rush"
+  },
+  {
+   "start": 44.601,
+   "end": 45.821,
+   "text": "moves them around."
+  },
+  {
+   "start": 45.821,
+   "end": 46.941,
+   "text": "We still do not count"
+  },
+  {
+   "start": 46.941,
+   "end": 48.661,
+   "text": "who is inside these rings."
+  }
+ ],
+ "slug": "021-london-four-submarines-one-warhead-s2",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 48.661,
+ "shots": [
+  {
+   "id": "c5-5a",
+   "type": "city",
+   "start": 0.0,
+   "end": 6.953,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 4.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 4.0
+    },
+    {
+     "t": 3.48,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 5.2
+    },
+    {
+     "t": 6.95,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 6.4
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.39,
+     "angle": 225
+    }
+   ],
+   "clock": "T+09:20",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      -0.10162,
+      51.51601
+     ],
+     "text": "5 PSI: 3.1 KM",
+     "color": "#FF3B3B",
+     "t": 0.39
+    },
+    {
+     "at": [
+      -0.15935,
+      51.48989
+     ],
+     "text": "MOST HOUSES COLLAPSE",
+     "color": "#FFFFFF",
+     "t": 5.93
+    }
+   ]
+  },
+  {
+   "id": "c5-5b",
+   "type": "city",
+   "start": 6.953,
+   "end": 13.256,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 6.4
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 6.4
+    },
+    {
+     "t": 3.15,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 9.6
+    },
+    {
+     "t": 6.3,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 12.8
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "clock": "T+09:30",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      -0.10451,
+      51.51551
+     ],
+     "text": "31 KM2 INSIDE THE RING",
+     "color": "#FFD23F",
+     "t": 1.06
+    },
+    {
+     "at": [
+      -0.15646,
+      51.49129
+     ],
+     "text": "ABOUT 2% OF GREATER LONDON",
+     "color": "#FFFFFF",
+     "t": 3.77
+    }
+   ]
+  },
+  {
+   "id": "c5-burns",
+   "type": "city",
+   "start": 13.256,
+   "end": 19.68,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 7.2
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 7.2
+    },
+    {
+     "t": 3.21,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 8.8
+    },
+    {
+     "t": 6.42,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 10.4
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 4.158,
+     "label": "BURNS",
+     "color": "#F2B01E",
+     "t": 0.42,
+     "angle": 225
+    }
+   ],
+   "clock": "T+09:40",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      -0.09008,
+      51.52142
+     ],
+     "text": "THIRD-DEGREE BURNS: 4.2 KM",
+     "color": "#F2B01E",
+     "t": 4.24
+    },
+    {
+     "at": [
+      -0.17667,
+      51.48178
+     ],
+     "text": "BARE SKIN, FROM THE FLASH",
+     "color": "#FFFFFF",
+     "t": 2.81
+    }
+   ]
+  },
+  {
+   "id": "c5-1psi",
+   "type": "city",
+   "start": 19.68,
+   "end": 29.913,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 10.4
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 10.4
+    },
+    {
+     "t": 3.41,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 13.6
+    },
+    {
+     "t": 6.82,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 17.04
+    },
+    {
+     "t": 10.23,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 20.8
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 4.158,
+     "label": "BURNS",
+     "color": "#F2B01E",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 8.507,
+     "label": "1 PSI",
+     "color": "#3ED6C8",
+     "t": 0.51,
+     "angle": 225
+    }
+   ],
+   "clock": "T+09:50",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      -0.06266,
+      51.53403
+     ],
+     "text": "1 PSI: 8.5 KM",
+     "color": "#3ED6C8",
+     "t": 0.51
+    },
+    {
+     "at": [
+      -0.20697,
+      51.47097
+     ],
+     "text": "WINDOWS SHATTER",
+     "color": "#FFFFFF",
+     "t": 4.95
+    },
+    {
+     "at": [
+      -0.06987,
+      51.46736
+     ],
+     "text": "FLYING GLASS INJURES",
+     "color": "#FFD23F",
+     "t": 6.53
+    }
+   ]
+  },
+  {
+   "id": "c5-air",
+   "type": "city",
+   "start": 29.913,
+   "end": 38.129,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 20.8
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 20.8
+    },
+    {
+     "t": 4.11,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 32.0
+    },
+    {
+     "t": 8.22,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 40.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 4.158,
+     "label": "BURNS",
+     "color": "#F2B01E",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 8.507,
+     "label": "1 PSI",
+     "color": "#3ED6C8",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "clock": "T+10:00",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      -0.2214,
+      51.54275
+     ],
+     "text": "AIR BURST: LITTLE FALLOUT",
+     "color": "#F2B01E",
+     "t": 2.9
+    },
+    {
+     "at": [
+      -0.0338,
+      51.46405
+     ],
+     "text": "SMOKE AND DUST: NOT MODELLED",
+     "color": "#FFD23F",
+     "t": 4.28
+    }
+   ]
+  },
+  {
+   "id": "c5-people",
+   "type": "city",
+   "start": 38.129,
+   "end": 45.671,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 40.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 40.0
+    },
+    {
+     "t": 3.77,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 31.2
+    },
+    {
+     "t": 7.54,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 22.4
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 4.158,
+     "label": "BURNS",
+     "color": "#F2B01E",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 8.507,
+     "label": "1 PSI",
+     "color": "#3ED6C8",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "clock": "T+10:30",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "source": "ONS mid-2024 estimate; GLA",
+   "labels": [
+    {
+     "at": [
+      -0.22862,
+      51.54578
+     ],
+     "text": "ABOUT 5,800 PEOPLE PER KM2",
+     "color": "#FFFFFF",
+     "t": 0.7
+    },
+    {
+     "at": [
+      -0.04678,
+      51.46102
+     ],
+     "text": "THE MORNING RUSH MOVES THEM",
+     "color": "#FFD23F",
+     "t": 5.92
+    }
+   ]
+  },
+  {
+   "id": "c5-count",
+   "type": "city",
+   "start": 45.671,
+   "end": 48.661,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 22.4
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 22.4
+    },
+    {
+     "t": 3.47,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 16.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 4.158,
+     "label": "BURNS",
+     "color": "#F2B01E",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 8.507,
+     "label": "1 PSI",
+     "color": "#3ED6C8",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "clock": "T+10:40",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      -0.1276,
+      51.53367
+     ],
+     "text": "WE DO NOT COUNT WHO IS INSIDE",
+     "color": "#FFD23F",
+     "t": 0.6
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "ONE 100 KT NUKE",
+  "ON GREATER LONDON"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}

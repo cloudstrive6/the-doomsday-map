@@ -5,3 +5,9 @@
 - Shorts: s1 SIMULATION 0 to 36.2 (cold open, London flash at 3.8 s, opening is fixed), s2 SIMULATION 378.8 to 411.5 (London burst at 3.1 s, 20 psi ring), s3 SIMULATION 326.3 to 366.2 (Faslane ground burst at 4.3 s, fallout plume; flash not within 3 s because the shot before is a region approach). No REAL DATA Short.
 - Chapters: history early, last chapter the day after (7 chapters from script.md headers).
 - Thumbnail review 2026-11-28: Gemini still 402. A fallback globe raised from brightness 83 / glow 10.5 to 126 / 28 (scale 5200, sun lat 50, flash radius 600); scale 7000 tried and reverted (London cropped). Kept round 1, PASS 15/20.
+
+## 2026-11-28 showrunner summary
+- Rounds: fact-screener 2 (PASS round 2), visual-screener 1 (PASS; five non-blocking polish notes in visual_review.md), thumbnail-reviewer 2 internal rounds (PASS at 15/20 for A), Shorts screen 1 FAIL then fixed (s1 replaced, s2 moved and extended to 460.4 s, now 32.7, 48.7 and 39.9 s).
+- Risks: Gemini returned HTTP 402 (credits depleted), so all three thumbnails are engine fallbacks, not photoreal; A scores 15 of 20. Regenerate when credits return. Narration 10.3 min, just under the 10.5 target. Internal scenario clock set to a past date (2026-02-10) so no upcoming real date is used; the script states only 08:40 and 08:49 clock times.
+- pace: lines left: 0. Title lead: "What If One Nuke Hit London at 8:49 AM?" (lint 100).
+- Hard craft rules: thumbnail photorealism (no image credits), single-source UK history facts softened.

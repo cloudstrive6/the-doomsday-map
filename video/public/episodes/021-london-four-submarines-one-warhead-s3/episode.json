@@ -1,0 +1,744 @@
+{
+ "subtitles": [
+  {
+   "start": 0.405,
+   "end": 2.374,
+   "text": "At 7.6 minutes,"
+  },
+  {
+   "start": 2.374,
+   "end": 4.234,
+   "text": "the first warhead reaches Faslane"
+  },
+  {
+   "start": 4.234,
+   "end": 5.824,
+   "text": "and bursts on the ground."
+  },
+  {
+   "start": 6.052,
+   "end": 7.754,
+   "text": "The fireball reaches about half a"
+  },
+  {
+   "start": 7.754,
+   "end": 9.704,
+   "text": "kilometre from the point of burst."
+  },
+  {
+   "start": 10.061,
+   "end": 11.674,
+   "text": "Blast of 20 pounds per square"
+  },
+  {
+   "start": 11.674,
+   "end": 13.681,
+   "text": "inch reaches just over that."
+  },
+  {
+   "start": 13.681,
+   "end": 15.374,
+   "text": "Five pounds per square inch reaches"
+  },
+  {
+   "start": 15.374,
+   "end": 16.904,
+   "text": "two and a half kilometres."
+  },
+  {
+   "start": 18.253,
+   "end": 20.664,
+   "text": "A ground burst throws up earth,"
+  },
+  {
+   "start": 20.974,
+   "end": 21.774,
+   "text": "and the earth comes"
+  },
+  {
+   "start": 21.774,
+   "end": 23.264,
+   "text": "down as fallout."
+  },
+  {
+   "start": 23.557,
+   "end": 25.489,
+   "text": "The engine marks Faslane"
+  },
+  {
+   "start": 25.489,
+   "end": 27.404,
+   "text": "as heavy local fallout."
+  },
+  {
+   "start": 27.933,
+   "end": 28.554,
+   "text": "If the wind is"
+  },
+  {
+   "start": 28.554,
+   "end": 29.704,
+   "text": "from the west,"
+  },
+  {
+   "start": 30.001,
+   "end": 32.274,
+   "text": "the commonest direction in southern Britain,"
+  },
+  {
+   "start": 32.274,
+   "end": 33.754,
+   "text": "the plume drifts east"
+  },
+  {
+   "start": 33.754,
+   "end": 35.204,
+   "text": "over central Scotland."
+  },
+  {
+   "start": 35.576,
+   "end": 37.084,
+   "text": "We choose that wind."
+  },
+  {
+   "start": 37.084,
+   "end": 38.374,
+   "text": "We model no dose"
+  },
+  {
+   "start": 38.374,
+   "end": 39.724,
+   "text": "and no towns."
+  }
+ ],
+ "slug": "021-london-four-submarines-one-warhead-s3",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "durationSeconds": 39.894,
+ "shots": [
+  {
+   "id": "c4-arrive",
+   "type": "region",
+   "start": 0.0,
+   "end": 4.324,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -4.82,
+     56.0675
+    ],
+    "widthKm": 500.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 500.0
+    },
+    {
+     "t": 4.32,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 220.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "clock": "T+06:33",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 14.481,
+   "ships": [
+    {
+     "path": [
+      [
+       -3.74617,
+       57.70604
+      ],
+      [
+       -4.82,
+       56.0675
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.32,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 28,
+     "wake": true,
+     "label": "TO FASLANE",
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       1.97376,
+       62.58708
+      ],
+      [
+       1.81041,
+       61.72548
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.32,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 28,
+     "wake": true,
+     "label": "TO LONDON",
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "FASLANE",
+     "t": 0.2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -5.54416,
+      56.42786
+     ],
+     "text": "7.6 MINUTES",
+     "color": "#FF3B3B",
+     "t": 0.4
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c4-faslane",
+   "type": "city",
+   "start": 4.324,
+   "end": 9.911,
+   "tag": "SIMULATION",
+   "city": "faslane",
+   "view": {
+    "center": [
+     -4.82,
+     56.0675
+    ],
+    "widthKm": 4.0
+   },
+   "gz": [
+    -4.82,
+    56.0675
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 4.0
+    },
+    {
+     "t": 2.79,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 3.28
+    },
+    {
+     "t": 5.59,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 2.56
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.481,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.4,
+     "angle": 225
+    }
+   ],
+   "clock": "T+07:36",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1.404,
+   "caption": "Ground burst, 100 kt. Ring sizes from the engine.",
+   "labels": [
+    {
+     "at": [
+      -4.82,
+      56.07831
+     ],
+     "text": "GROUND BURST (SIMULATED)",
+     "color": "#FFFFFF",
+     "t": 0.8
+    },
+    {
+     "at": [
+      -4.84575,
+      56.05849
+     ],
+     "text": "FIREBALL: ABOUT 0.5 KM",
+     "color": "#FF7A1A",
+     "t": 1.7
+    }
+   ],
+   "flashT": 0.1
+  },
+  {
+   "id": "c4-fpsi",
+   "type": "city",
+   "start": 9.911,
+   "end": 17.568,
+   "tag": "SIMULATION",
+   "city": "faslane",
+   "view": {
+    "center": [
+     -4.82,
+     56.0675
+    ],
+    "widthKm": 2.88
+   },
+   "gz": [
+    -4.82,
+    56.0675
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 2.88
+    },
+    {
+     "t": 3.83,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 5.04
+    },
+    {
+     "t": 7.66,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 7.2
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.481,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.512,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.4,
+     "angle": 225
+    },
+    {
+     "km": 2.514,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 3.62,
+     "angle": 225
+    }
+   ],
+   "clock": "T+07:44",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1.404,
+   "labels": [
+    {
+     "at": [
+      -4.82,
+      56.08101
+     ],
+     "text": "20 PSI: JUST OVER 0.5 KM",
+     "color": "#FF3B3B",
+     "t": 0.8
+    },
+    {
+     "at": [
+      -4.77816,
+      56.04948
+     ],
+     "text": "5 PSI: 2.5 KM",
+     "color": "#FF3B3B",
+     "t": 3.62
+    }
+   ]
+  },
+  {
+   "id": "c4-heavy",
+   "type": "city",
+   "start": 17.568,
+   "end": 27.913,
+   "tag": "SIMULATION",
+   "city": "faslane",
+   "view": {
+    "center": [
+     -4.82,
+     56.0675
+    ],
+    "widthKm": 8.0
+   },
+   "gz": [
+    -4.82,
+    56.0675
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 8.0
+    },
+    {
+     "t": 3.45,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 15.44
+    },
+    {
+     "t": 6.9,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 23.44
+    },
+    {
+     "t": 10.34,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 32.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.481,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.512,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 2.514,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "clock": "T+07:55",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1.404,
+   "labels": [
+    {
+     "at": [
+      -4.86506,
+      56.08264
+     ],
+     "text": "EARTH THROWN UP",
+     "color": "#FFFFFF",
+     "t": 2.26
+    },
+    {
+     "at": [
+      -4.78781,
+      56.07759
+     ],
+     "text": "IT COMES DOWN AS FALLOUT",
+     "color": "#F2B01E",
+     "t": 4.58
+    },
+    {
+     "at": [
+      -4.82,
+      56.04984
+     ],
+     "text": "ENGINE: HEAVY LOCAL FALLOUT",
+     "color": "#FF3B3B",
+     "t": 5.94
+    }
+   ]
+  },
+  {
+   "id": "c4-wind",
+   "type": "region",
+   "start": 27.913,
+   "end": 35.426,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -4.82,
+     56.0675
+    ],
+    "widthKm": 500.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 500.0
+    },
+    {
+     "t": 3.76,
+     "center": [
+      -3.91,
+      56.1338
+     ],
+     "widthKm": 700.0
+    },
+    {
+     "t": 7.51,
+     "center": [
+      -3.0,
+      56.2
+     ],
+     "widthKm": 900.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "clock": "T+08:09",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1.404,
+   "burst": {
+    "at": [
+     -4.82,
+     56.0675
+    ],
+    "t": -5.0,
+    "km": 12,
+    "fade": 10
+   },
+   "plume": {
+    "at": [
+     -4.82,
+     56.0675
+    ],
+    "bearing": 90,
+    "lengthKm": 230,
+    "widthKm": 22,
+    "t0": 3.0,
+    "t1": 6.5,
+    "color": "#F2B01E",
+    "label": "WIND FROM THE WEST"
+   },
+   "labels": [
+    {
+     "at": [
+      -7.5,
+      57.6
+     ],
+     "text": "THE COMMONEST WIND",
+     "color": "#FFFFFF",
+     "t": 2.01
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "FASLANE",
+     "t": 0.2
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c4-nodose",
+   "type": "region",
+   "start": 35.426,
+   "end": 39.894,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -2.0,
+     56.2
+    ],
+    "widthKm": 900.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -2.0,
+      56.2
+     ],
+     "widthKm": 900.0
+    },
+    {
+     "t": 2.37,
+     "center": [
+      -1.5,
+      55.9
+     ],
+     "widthKm": 1100.0
+    },
+    {
+     "t": 4.73,
+     "center": [
+      -1.0,
+      55.6
+     ],
+     "widthKm": 1300.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "clock": "T+08:20",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1.404,
+   "plume": {
+    "at": [
+     -4.82,
+     56.0675
+    ],
+    "bearing": 90,
+    "lengthKm": 230,
+    "widthKm": 22,
+    "t0": -2.0,
+    "t1": 0.2,
+    "color": "#F2B01E"
+   },
+   "labels": [
+    {
+     "at": [
+      -1.0,
+      57.4
+     ],
+     "text": "CENTRAL SCOTLAND",
+     "color": "#FFFFFF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -6.0,
+      54.9
+     ],
+     "text": "WIND: OUR CHOICE",
+     "color": "#FFD23F",
+     "t": 0.16
+    },
+    {
+     "at": [
+      1.5,
+      54.4
+     ],
+     "text": "NO DOSE, NO TOWNS MODELLED",
+     "color": "#FFD23F",
+     "t": 1.74
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  }
+ ],
+ "shortTitle": [
+  "ONE 100 KT NUKE",
+  "ON FASLANE"
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated."
+}
