@@ -34,7 +34,12 @@
       "stage": "shotlisted",
       "note": "105 shots, 623.6 s, no validate lines, 0 pace lines",
       "at": "2026-11-28T01:01:21+00:00"
+    },
+    {
+      "stage": "visual_approved",
+      "note": "visual review PASS, 5 non-blocking polish notes",
+      "at": "2026-11-28T01:01:59+00:00"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "visual_approved"
 }
