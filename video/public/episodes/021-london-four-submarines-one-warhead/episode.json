@@ -1,0 +1,8974 @@
+{
+ "slug": "021-london-four-submarines-one-warhead",
+ "fps": 60,
+ "width": 1920,
+ "height": 1080,
+ "durationSeconds": 623.58,
+ "banner": {
+  "start": 3.48,
+  "end": 6.48
+ },
+ "musicPlan": [
+  {
+   "src": "bed_tense.mp3",
+   "from": 0,
+   "to": 38.04,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  },
+  {
+   "src": "bed.mp3",
+   "from": 36.04,
+   "to": 214.633,
+   "loop": [
+    2,
+    174
+   ],
+   "gain_db": -17
+  },
+  {
+   "src": "bed_tense.mp3",
+   "from": 212.633,
+   "to": 623.58,
+   "loop": [
+    3,
+    92
+   ],
+   "gain_db": -14
+  }
+ ],
+ "sfxPlan": [
+  {
+   "src": "impact.mp3",
+   "t": 37.19,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 123.462,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 213.78300000000002,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 295.59099999999995,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 394.224,
+   "gain_db": -9
+  },
+  {
+   "src": "impact.mp3",
+   "t": 483.601,
+   "gain_db": -9
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 43.858000000000004,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 85.35,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 151.777,
+   "gain_db": -14
+  },
+  {
+   "src": "whoosh.mp3",
+   "t": 170.047,
+   "gain_db": -14
+  },
+  {
+   "src": "boom.mp3",
+   "t": 3.88,
+   "gain_db": -4
+  },
+  {
+   "src": "boom.mp3",
+   "t": 20.88,
+   "gain_db": -4
+  },
+  {
+   "src": "boom.mp3",
+   "t": 330.73,
+   "gain_db": -4
+  },
+  {
+   "src": "boom.mp3",
+   "t": 382.03,
+   "gain_db": -4
+  }
+ ],
+ "attribution": "Maps: Natural Earth (public domain); OpenStreetMap contributors (ODbL) via OpenFreeMap and OpenMapTiles. Imagery: NASA Blue Marble and Black Marble. Narration: AI-generated.",
+ "shots": [
+  {
+   "id": "open-run",
+   "type": "region",
+   "start": 0.0,
+   "end": 3.78,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     1.0,
+     60.5
+    ],
+    "widthKm": 3500
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      1.0,
+      60.5
+     ],
+     "widthKm": 3500
+    },
+    {
+     "t": 3.78,
+     "center": [
+      -0.5,
+      54.0
+     ],
+     "widthKm": 2300
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "clock": "T-08:48",
+   "clockLabel": "UNTIL THE FLASH",
+   "clockRate": 139.7,
+   "ships": [
+    {
+     "path": [
+      [
+       3.0,
+       68.0
+      ],
+      [
+       -0.1276,
+       51.5034
+      ]
+     ],
+     "t0": 0.05,
+     "t1": 3.78,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 28,
+     "wake": true,
+     "label": "BULAVA",
+     "t": 0.05
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      3.0,
+      68.0
+     ],
+     "to": [
+      -0.1276,
+      51.5034
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.1,
+     "t1": 3.58,
+     "width": 2
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "LONDON",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -2.0,
+      66.0
+     ],
+     "text": "NORWEGIAN SEA",
+     "color": "#FFFFFF",
+     "t": 0.2
+    },
+    {
+     "at": [
+      -5.5,
+      56.6
+     ],
+     "text": "SCOTLAND",
+     "color": "#6EA8FF",
+     "t": 0.9
+    }
+   ]
+  },
+  {
+   "id": "open-flash",
+   "type": "city",
+   "start": 3.78,
+   "end": 6.61,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 5.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 5.0
+    },
+    {
+     "t": 1.42,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 9.0
+    },
+    {
+     "t": 2.83,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 16.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 1.0,
+     "angle": 225
+    },
+    {
+     "km": 8.507,
+     "label": "1 PSI",
+     "color": "#3ED6C8",
+     "t": 2.6,
+     "angle": 225
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "THE FLASH",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      -0.1276,
+      51.53043
+     ],
+     "text": "100 KT AIR BURST (SIMULATED)",
+     "color": "#FFFFFF",
+     "t": 0.6
+    },
+    {
+     "at": [
+      -0.18533,
+      51.48088
+     ],
+     "text": "WESTMINSTER",
+     "color": "#FFD23F",
+     "t": 1.4
+    }
+   ],
+   "flashT": 0.1
+  },
+  {
+   "id": "open-notreal",
+   "type": "region",
+   "start": 6.61,
+   "end": 10.833,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -0.5,
+     52.0
+    ],
+    "widthKm": 450.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.5,
+      52.0
+     ],
+     "widthKm": 450.0
+    },
+    {
+     "t": 4.22,
+     "center": [
+      -1.0,
+      53.0
+     ],
+     "widthKm": 1300.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "clock": "T+00:30",
+   "clockLabel": "THE FLASH",
+   "clockRate": 1,
+   "burst": {
+    "at": [
+     -0.1276,
+     51.5034
+    ],
+    "t": -5.0,
+    "km": 6,
+    "fade": 9
+   },
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "LONDON",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -2.5,
+      53.7
+     ],
+     "text": "IT HAS NOT HAPPENED",
+     "color": "#FFD23F",
+     "t": 2.88
+    },
+    {
+     "at": [
+      1.5,
+      51.2
+     ],
+     "text": "SIMULATION",
+     "color": "#FF3B3B",
+     "t": 1.2
+    }
+   ]
+  },
+  {
+   "id": "open-sub",
+   "type": "region",
+   "start": 10.833,
+   "end": 14.05,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     4.0,
+     66.0
+    ],
+    "widthKm": 2200.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      4.0,
+      66.0
+     ],
+     "widthKm": 2200.0
+    },
+    {
+     "t": 3.22,
+     "center": [
+      2.0,
+      63.0
+     ],
+     "widthKm": 3000.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "caption": "Nine minutes earlier.",
+   "clock": "T+00:00",
+   "clockLabel": "LAUNCH",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      3.0,
+      68.0
+     ],
+     "kind": "sub",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "RUSSIAN SUBMARINE (SIMULATED)",
+     "t": 1.62
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -4.5,
+      62.0
+     ],
+     "text": "NORWEGIAN SEA",
+     "color": "#FFFFFF",
+     "t": 2.46
+    }
+   ]
+  },
+  {
+   "id": "open-fly",
+   "type": "region",
+   "start": 14.05,
+   "end": 22.241,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -0.5,
+     62.0
+    ],
+    "widthKm": 3100.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.5,
+      62.0
+     ],
+     "widthKm": 3100.0
+    },
+    {
+     "t": 2.73,
+     "center": [
+      -1.5,
+      59.0
+     ],
+     "widthKm": 2633.3
+    },
+    {
+     "t": 5.46,
+     "center": [
+      -2.0667,
+      56.6667
+     ],
+     "widthKm": 2100.0
+    },
+    {
+     "t": 8.19,
+     "center": [
+      -2.2,
+      55.0
+     ],
+     "widthKm": 1500.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 67.77,
+   "burst": {
+    "at": [
+     -4.82,
+     56.0675
+    ],
+    "t": 6.73,
+    "km": 30,
+    "fade": 6
+   },
+   "ships": [
+    {
+     "path": [
+      [
+       3.0,
+       68.0
+      ],
+      [
+       -0.1276,
+       51.5034
+      ]
+     ],
+     "t0": 0,
+     "t1": 7.79,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 28,
+     "wake": true,
+     "label": "TO LONDON",
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       3.0,
+       68.0
+      ],
+      [
+       -4.82,
+       56.0675
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.73,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 28,
+     "wake": true,
+     "label": "TO SCOTLAND",
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "LONDON",
+     "t": 1.0
+    },
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "FASLANE",
+     "t": 4.5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      5.5,
+      59.0
+     ],
+     "text": "7.6 AND 8.8 MINUTES",
+     "color": "#FFD23F",
+     "t": 1.89
+    },
+    {
+     "at": [
+      -6.5,
+      58.6
+     ],
+     "text": "SCOTLAND LANDS FIRST",
+     "color": "#FF3B3B",
+     "t": 6.94
+    }
+   ]
+  },
+  {
+   "id": "open-rush",
+   "type": "city",
+   "start": 22.241,
+   "end": 24.75,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 40.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 40.0
+    },
+    {
+     "t": 2.51,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 24.0
+    }
+   ],
+   "rings": [],
+   "clock": "08:48",
+   "clockLabel": "LONDON TIME",
+   "clockRate": 0,
+   "labels": [
+    {
+     "at": [
+      -0.19687,
+      51.53972
+     ],
+     "text": "MORNING RUSH HOUR",
+     "color": "#FFD23F",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -0.05833,
+      51.46708
+     ],
+     "text": "WESTMINSTER",
+     "color": "#FFFFFF",
+     "t": 1.2
+    }
+   ]
+  },
+  {
+   "id": "open-two",
+   "type": "region",
+   "start": 24.75,
+   "end": 29.001,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -2.5,
+     54.6
+    ],
+    "widthKm": 900.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -2.5,
+      54.6
+     ],
+     "widthKm": 900.0
+    },
+    {
+     "t": 4.25,
+     "center": [
+      -2.5,
+      54.4
+     ],
+     "widthKm": 1250.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "clock": "T+07:36",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "caption": "About 70 seconds apart.",
+   "cities": [
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "FASLANE: 08:48",
+     "t": 0.2
+    },
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "LONDON: 08:49",
+     "t": 2.86
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -4.82,
+      56.0675
+     ],
+     "to": [
+      -0.1276,
+      51.5034
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 1.0,
+     "t1": 2.8,
+     "width": 2,
+     "label": "590 KM"
+    }
+   ],
+   "burst": {
+    "at": [
+     -4.82,
+     56.0675
+    ],
+    "t": -5.0,
+    "km": 25,
+    "fade": 9
+   },
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "open-why1",
+   "type": "region",
+   "start": 29.001,
+   "end": 32.108,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -4.82,
+     56.0675
+    ],
+    "widthKm": 700.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 700.0
+    },
+    {
+     "t": 3.11,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 380.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -4.1763,
+      56.563
+     ],
+     "text": "WHY SCOTLAND FIRST?",
+     "color": "#FFD23F",
+     "t": 0.3
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "FASLANE",
+     "t": 0.5
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "open-why2",
+   "type": "region",
+   "start": 32.108,
+   "end": 37.04,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -0.5,
+     52.0
+    ],
+    "widthKm": 450.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.5,
+      52.0
+     ],
+     "widthKm": 450.0
+    },
+    {
+     "t": 2.46,
+     "center": [
+      -0.35,
+      51.8
+     ],
+     "widthKm": 355.0
+    },
+    {
+     "t": 4.93,
+     "center": [
+      -0.2,
+      51.6
+     ],
+     "widthKm": 260.0
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "LONDON",
+     "t": 0.2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -1.6,
+      52.4
+     ],
+     "text": "WHAT DO THREE DAYS MEAN?",
+     "color": "#FFD23F",
+     "t": 0.54
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c1-card",
+   "type": "chapter",
+   "start": 37.04,
+   "end": 40.74,
+   "tag": "REAL DATA",
+   "kicker": "CHAPTER 01",
+   "title": "The boats on the Clyde"
+  },
+  {
+   "id": "c1-sea",
+   "type": "region",
+   "start": 40.74,
+   "end": 44.258,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -13.0,
+     57.5
+    ],
+    "widthKm": 2600.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -13.0,
+      57.5
+     ],
+     "widthKm": 2600.0
+    },
+    {
+     "t": 3.52,
+     "center": [
+      -11.0,
+      58.0
+     ],
+     "widthKm": 1800.0
+    }
+   ],
+   "legend": null,
+   "source": "gov.uk, The UK's nuclear deterrent; SIPRI Yearbook 2026",
+   "ships": [
+    {
+     "path": [
+      [
+       -16.0,
+       56.0
+      ],
+      [
+       -12.0,
+       58.0
+      ],
+      [
+       -9.0,
+       59.5
+      ]
+     ],
+     "t0": 0,
+     "t1": 3.52,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 26,
+     "wake": true,
+     "label": "ONE BOAT AT SEA",
+     "t": 0.05
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -12.5,
+      61.0
+     ],
+     "text": "NORTH ATLANTIC",
+     "color": "#FFFFFF",
+     "t": 0.5
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c1-1969",
+   "type": "stamp",
+   "start": 44.258,
+   "end": 48.058,
+   "tag": "REAL HISTORY",
+   "text": "APRIL 1969",
+   "line": "One boat on patrol since: not a single break",
+   "color": "#6EA8FF",
+   "source": "gov.uk, National Endeavour explained"
+  },
+  {
+   "id": "c1-patrol",
+   "type": "region",
+   "start": 48.058,
+   "end": 52.976,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -11.0,
+     58.0
+    ],
+    "widthKm": 2000.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -11.0,
+      58.0
+     ],
+     "widthKm": 2000.0
+    },
+    {
+     "t": 2.46,
+     "center": [
+      -9.5,
+      58.5
+     ],
+     "widthKm": 2400.0
+    },
+    {
+     "t": 4.92,
+     "center": [
+      -8.0,
+      59.0
+     ],
+     "widthKm": 2800.0
+    }
+   ],
+   "source": "SIPRI Yearbook 2026",
+   "ships": [
+    {
+     "path": [
+      [
+       -9.0,
+       59.5
+      ],
+      [
+       -14.0,
+       57.0
+      ],
+      [
+       -18.0,
+       58.5
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.92,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 26,
+     "wake": true,
+     "label": "PATROL",
+     "t": 0.05
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -13.0,
+      61.6
+     ],
+     "text": "NOT A SINGLE BREAK",
+     "color": "#FFFFFF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -14.0,
+      55.0
+     ],
+     "text": "ONCE: ABOUT TWO MONTHS",
+     "color": "#FFFFFF",
+     "t": 2.63
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c1-bars",
+   "type": "bars",
+   "start": 52.976,
+   "end": 56.776,
+   "tag": "REAL DATA",
+   "title": "DAYS ON PATROL",
+   "sub": "Typical Royal Navy deterrent patrol",
+   "source": "SIPRI Yearbook 2026; Navy Lookout",
+   "bars": [
+    {
+     "label": "1970S",
+     "value": 65,
+     "display": "60 TO 70",
+     "color": "#FFFFFF"
+    },
+    {
+     "label": "RECENT YEARS",
+     "value": 175,
+     "display": "150 TO 200",
+     "color": "#6EA8FF"
+    }
+   ]
+  },
+  {
+   "id": "c1-hold",
+   "type": "region",
+   "start": 56.776,
+   "end": 64.097,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -3.0,
+     56.5
+    ],
+    "widthKm": 1800.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -3.0,
+      56.5
+     ],
+     "widthKm": 1800.0
+    },
+    {
+     "t": 3.66,
+     "center": [
+      -3.91,
+      56.2837
+     ],
+     "widthKm": 1250.0
+    },
+    {
+     "t": 7.32,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 700.0
+    }
+   ],
+   "source": "gov.uk, The UK's nuclear deterrent; SIPRI Yearbook 2026",
+   "cities": [
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "FASLANE: WHERE BOTH START",
+     "t": 5.49
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -9.0,
+      58.2
+     ],
+     "text": "THE UNBROKEN PATROL",
+     "color": "#FFFFFF",
+     "t": 1.19
+    },
+    {
+     "at": [
+      -1.5,
+      57.7
+     ],
+     "text": "THE MINUTE BETWEEN FLASHES",
+     "color": "#FFD23F",
+     "t": 3.25
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c1-clyde",
+   "type": "region",
+   "start": 64.097,
+   "end": 71.884,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -3.5,
+     54.8
+    ],
+    "widthKm": 1100.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -3.5,
+      54.8
+     ],
+     "widthKm": 1100.0
+    },
+    {
+     "t": 3.89,
+     "center": [
+      -3.35,
+      54.9
+     ],
+     "widthKm": 1000.0
+    },
+    {
+     "t": 7.79,
+     "center": [
+      -3.2,
+      55.0
+     ],
+     "widthKm": 900.0
+    }
+   ],
+   "source": "gov.uk; HM Naval Base Clyde",
+   "legend": null,
+   "cities": [
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "FASLANE, THE CLYDE",
+     "t": 1.31
+    },
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "LONDON",
+     "t": 2.0
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -4.82,
+      56.0675
+     ],
+     "to": [
+      -0.1276,
+      51.5034
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 2.2,
+     "t1": 5.0,
+     "width": 2,
+     "label": "ABOUT 590 KM"
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c1-boats",
+   "type": "region",
+   "start": 71.884,
+   "end": 81.385,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -4.82,
+     56.0675
+    ],
+    "widthKm": 400.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 400.0
+    },
+    {
+     "t": 3.17,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 260.0
+    },
+    {
+     "t": 6.34,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 213.3
+    },
+    {
+     "t": 9.5,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 260.0
+    }
+   ],
+   "source": "gov.uk; SIPRI Yearbook 2026",
+   "legend": null,
+   "labels": [
+    {
+     "at": [
+      -5.38324,
+      56.51795
+     ],
+     "text": "4 VANGUARD-CLASS BOATS",
+     "color": "#6EA8FF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -4.33722,
+      56.47291
+     ],
+     "text": "16 MISSILE TUBES EACH",
+     "color": "#FFFFFF",
+     "t": 2.87
+    },
+    {
+     "at": [
+      -5.38324,
+      55.75218
+     ],
+     "text": "ONE IN OVERHAUL",
+     "color": "#FFD23F",
+     "t": 6.21
+    },
+    {
+     "at": [
+      -4.25676,
+      55.66209
+     ],
+     "text": "THREE OPERATIONAL",
+     "color": "#6EA8FF",
+     "t": 7.39
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "t": 0.1
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c1-forty",
+   "type": "region",
+   "start": 81.385,
+   "end": 85.75,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -11.0,
+     58.0
+    ],
+    "widthKm": 2300.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -11.0,
+      58.0
+     ],
+     "widthKm": 2300.0
+    },
+    {
+     "t": 4.36,
+     "center": [
+      -10.0,
+      58.5
+     ],
+     "widthKm": 1700.0
+    }
+   ],
+   "source": "SIPRI Yearbook 2026",
+   "legend": null,
+   "ships": [
+    {
+     "path": [
+      [
+       -9.0,
+       59.5
+      ],
+      [
+       -12.0,
+       58.0
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.36,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 26,
+     "wake": true,
+     "label": "THE BOAT AT SEA",
+     "t": 0.05
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -12.0,
+      60.5
+     ],
+     "text": "ABOUT 40 WARHEADS ON IT",
+     "color": "#6EA8FF",
+     "t": 0.12
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c1-2021",
+   "type": "stamp",
+   "start": 85.75,
+   "end": 89.77,
+   "tag": "REAL DATA",
+   "text": "2021",
+   "line": "Britain stops publishing its warhead numbers",
+   "color": "#FFFFFF",
+   "source": "SIPRI Yearbook 2026"
+  },
+  {
+   "id": "c1-est",
+   "type": "region",
+   "start": 89.77,
+   "end": 97.385,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -3.0,
+     56.0
+    ],
+    "widthKm": 1400.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -3.0,
+      56.0
+     ],
+     "widthKm": 1400.0
+    },
+    {
+     "t": 3.81,
+     "center": [
+      -3.0,
+      56.0
+     ],
+     "widthKm": 1800.0
+    },
+    {
+     "t": 7.62,
+     "center": [
+      -3.0,
+      56.0
+     ],
+     "widthKm": 2200.0
+    }
+   ],
+   "source": "SIPRI Yearbook 2026, Table 8A.4",
+   "legend": null,
+   "labels": [
+    {
+     "at": [
+      -7.5,
+      58.6
+     ],
+     "text": "OUTSIDE ESTIMATES ONLY",
+     "color": "#FFD23F",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -0.8,
+      57.6
+     ],
+     "text": "ABOUT 120 AVAILABLE",
+     "color": "#FFFFFF",
+     "t": 2.63
+    },
+    {
+     "at": [
+      -0.8,
+      56.4
+     ],
+     "text": "ABOUT 225 IN ALL",
+     "color": "#FFFFFF",
+     "t": 4.7
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c1-coulport",
+   "type": "region",
+   "start": 97.385,
+   "end": 104.09,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -4.82,
+     56.0675
+    ],
+    "widthKm": 380.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 380.0
+    },
+    {
+     "t": 3.35,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 285.0
+    },
+    {
+     "t": 6.7,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 190.0
+    }
+   ],
+   "source": "gov.uk; RNAD Coulport",
+   "legend": null,
+   "cities": [
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "FASLANE",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -4.88,
+      56.05
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "COULPORT: SPARE WARHEADS",
+     "t": 2.52
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -4.88,
+      56.05
+     ],
+     "to": [
+      -4.82,
+      56.0675
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 3.8,
+     "t1": 5.2,
+     "width": 2,
+     "label": "ABOUT 3 KM"
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c1-london",
+   "type": "city",
+   "start": 104.09,
+   "end": 111.17,
+   "tag": "REAL DATA",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 70.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 70.0
+    },
+    {
+     "t": 3.54,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 55.0
+    },
+    {
+     "t": 7.08,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 40.0
+    }
+   ],
+   "rings": [],
+   "source": "ONS mid-2024 estimate; GLA",
+   "labels": [
+    {
+     "at": [
+      -0.27191,
+      51.56394
+     ],
+     "text": "ABOUT 9 MILLION PEOPLE",
+     "color": "#FFFFFF",
+     "t": 3.0
+    },
+    {
+     "at": [
+      -0.01215,
+      51.44286
+     ],
+     "text": "1,600 KM2",
+     "color": "#FFFFFF",
+     "t": 4.26
+    }
+   ]
+  },
+  {
+   "id": "c1-pair",
+   "type": "region",
+   "start": 111.17,
+   "end": 116.002,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -3.0,
+     55.5
+    ],
+    "widthKm": 1200.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -3.0,
+      55.5
+     ],
+     "widthKm": 1200.0
+    },
+    {
+     "t": 2.42,
+     "center": [
+      -3.0,
+      55.25
+     ],
+     "widthKm": 1100.0
+    },
+    {
+     "t": 4.83,
+     "center": [
+      -3.0,
+      55.0
+     ],
+     "widthKm": 1000.0
+    }
+   ],
+   "source": "gov.uk; ONS",
+   "legend": null,
+   "cities": [
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "ONE BASE: THE DETERRENT",
+     "t": 0.2
+    },
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "ONE CITY: THE GOVERNMENT",
+     "t": 2.46
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c1-october",
+   "type": "region",
+   "start": 116.002,
+   "end": 123.312,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -0.8,
+     52.4
+    ],
+    "widthKm": 500.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.8,
+      52.4
+     ],
+     "widthKm": 500.0
+    },
+    {
+     "t": 3.66,
+     "center": [
+      -0.5,
+      52.1
+     ],
+     "widthKm": 390.0
+    },
+    {
+     "t": 7.31,
+     "center": [
+      -0.2,
+      51.8
+     ],
+     "widthKm": 280.0
+    }
+   ],
+   "source": "Cabinet Office, Be Ready, 22 October 2026",
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "LONDON",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -2.3,
+      52.9
+     ],
+     "text": "OCTOBER: THE GOVERNMENT SPEAKS",
+     "color": "#FFD23F",
+     "t": 0.11
+    },
+    {
+     "at": [
+      1.2,
+      51.2
+     ],
+     "text": "WHEN THINGS STOP WORKING",
+     "color": "#FFFFFF",
+     "t": 5.31
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c2-card",
+   "type": "chapter",
+   "start": 123.312,
+   "end": 127.012,
+   "tag": "REAL HISTORY",
+   "kicker": "CHAPTER 02",
+   "title": "Four minutes, fourteen days, three days"
+  },
+  {
+   "id": "c2-hq",
+   "type": "region",
+   "start": 127.012,
+   "end": 134.11,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -0.9,
+     51.8
+    ],
+    "widthKm": 380.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.9,
+      51.8
+     ],
+     "widthKm": 380.0
+    },
+    {
+     "t": 3.55,
+     "center": [
+      -0.8,
+      51.85
+     ],
+     "widthKm": 470.0
+    },
+    {
+     "t": 7.1,
+     "center": [
+      -0.7,
+      51.9
+     ],
+     "widthKm": 560.0
+    }
+   ],
+   "source": "Wikipedia, Four-minute warning; Imperial War Museums",
+   "legend": null,
+   "cities": [
+    {
+     "at": [
+      -0.81,
+      51.61
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "RAF BOOKER: HEADQUARTERS",
+     "t": 2.3
+    },
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "label": "LONDON",
+     "t": 0.4
+    },
+    {
+     "at": [
+      -1.26,
+      51.75
+     ],
+     "kind": "dot",
+     "color": "#FFFFFF",
+     "size": 7,
+     "label": "POLICE POSTS: ABOUT 250",
+     "t": 3.66
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      -0.81,
+      51.61
+     ],
+     "to": [
+      -0.1276,
+      51.5034
+     ],
+     "color": "#FFFFFF",
+     "dashed": true,
+     "t0": 3.66,
+     "t1": 5.06,
+     "width": 2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -2.4,
+      52.3
+     ],
+     "text": "FROM 1953",
+     "color": "#FFFFFF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      1.0,
+      51.3
+     ],
+     "text": "THOUSANDS OF SIRENS",
+     "color": "#F2B01E",
+     "t": 5.66
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c2-gap",
+   "type": "region",
+   "start": 134.11,
+   "end": 140.265,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -0.3,
+     51.8
+    ],
+    "widthKm": 520.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.3,
+      51.8
+     ],
+     "widthKm": 520.0
+    },
+    {
+     "t": 3.08,
+     "center": [
+      -0.225,
+      51.7
+     ],
+     "widthKm": 410.0
+    },
+    {
+     "t": 6.15,
+     "center": [
+      -0.15,
+      51.6
+     ],
+     "widthKm": 300.0
+    }
+   ],
+   "source": "Wikipedia, Four-minute warning; Imperial War Museums",
+   "legend": null,
+   "clock": "T-04:00",
+   "clockLabel": "THE FOUR-MINUTE WARNING",
+   "clockRate": 1,
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "IMPACT",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -1.7,
+      52.1
+     ],
+     "text": "CONFIRMED ATTACK",
+     "color": "#FFFFFF",
+     "t": 0.4
+    },
+    {
+     "at": [
+      1.2,
+      52.1
+     ],
+     "text": "THE ESTIMATED GAP",
+     "color": "#FFD23F",
+     "t": 0.96
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c2-sirens",
+   "type": "region",
+   "start": 140.265,
+   "end": 146.93,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -1.0,
+     52.5
+    ],
+    "widthKm": 600.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -1.0,
+      52.5
+     ],
+     "widthKm": 600.0
+    },
+    {
+     "t": 3.34,
+     "center": [
+      -1.0,
+      52.5
+     ],
+     "widthKm": 800.0
+    },
+    {
+     "t": 6.67,
+     "center": [
+      -1.0,
+      52.5
+     ],
+     "widthKm": 1000.0
+    }
+   ],
+   "source": "Wikipedia, Four-minute warning; Imperial War Museums",
+   "legend": null,
+   "labels": [
+    {
+     "at": [
+      -3.4,
+      53.9
+     ],
+     "text": "1992: THE WARNING ENDS",
+     "color": "#FFD23F",
+     "t": 0.3
+    },
+    {
+     "at": [
+      1.0,
+      51.4
+     ],
+     "text": "SIRENS DISMANTLED",
+     "color": "#FFFFFF",
+     "t": 2.25
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.81,
+      51.61
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 7,
+     "t": 0.1
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c2-bars",
+   "type": "bars",
+   "start": 146.93,
+   "end": 152.177,
+   "tag": "SIMULATION",
+   "title": "WARNING TIME IN THE SIMULATION",
+   "sub": "Minutes from launch to burst",
+   "source": "Scenario engine",
+   "bars": [
+    {
+     "label": "1953 WARNING GAP",
+     "value": 4,
+     "display": "4 MIN",
+     "color": "#FFFFFF"
+    },
+    {
+     "label": "FASLANE",
+     "value": 7.6,
+     "display": "7.6 MIN",
+     "color": "#FF3B3B"
+    },
+    {
+     "label": "LONDON",
+     "value": 8.8,
+     "display": "8.8 MIN",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "c2-1980",
+   "type": "stamp",
+   "start": 152.177,
+   "end": 158.37,
+   "tag": "REAL HISTORY",
+   "text": "MAY 1980",
+   "line": "Protect and Survive goes on public sale",
+   "color": "#FFFFFF",
+   "source": "Wikipedia, Protect and Survive"
+  },
+  {
+   "id": "c2-fallout",
+   "type": "region",
+   "start": 158.37,
+   "end": 167.841,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -1.5,
+     52.5
+    ],
+    "widthKm": 1100.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -1.5,
+      52.5
+     ],
+     "widthKm": 1100.0
+    },
+    {
+     "t": 3.16,
+     "center": [
+      -1.1667,
+      52.1667
+     ],
+     "widthKm": 686.7
+    },
+    {
+     "t": 6.31,
+     "center": [
+      -0.7333,
+      51.8667
+     ],
+     "widthKm": 420.0
+    },
+    {
+     "t": 9.47,
+     "center": [
+      -0.2,
+      51.6
+     ],
+     "widthKm": 300.0
+    }
+   ],
+   "source": "Wikipedia, Protect and Survive",
+   "legend": null,
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "A HOME IN THE CITY",
+     "t": 0.5
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -3.0,
+      53.0
+     ],
+     "text": "BUILD A FALLOUT ROOM",
+     "color": "#FFFFFF",
+     "t": 1.82
+    },
+    {
+     "at": [
+      1.0,
+      52.4
+     ],
+     "text": "STAY HOME: 14 DAYS",
+     "color": "#FFD23F",
+     "t": 3.92
+    },
+    {
+     "at": [
+      -2.6,
+      51.3
+     ],
+     "text": "INNER REFUGE: FIRST 48 HOURS",
+     "color": "#F2B01E",
+     "t": 5.78
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c2-bars2",
+   "type": "bars",
+   "start": 167.841,
+   "end": 170.447,
+   "tag": "REAL HISTORY",
+   "title": "HOW LONG TO STAY IN",
+   "sub": "Official household guidance",
+   "source": "Wikipedia, Protect and Survive; Cabinet Office",
+   "bars": [
+    {
+     "label": "1980: PROTECT AND SURVIVE",
+     "value": 14,
+     "display": "14 DAYS",
+     "color": "#FFFFFF"
+    },
+    {
+     "label": "2026: BE READY",
+     "value": 3,
+     "display": "ABOUT 3 DAYS",
+     "color": "#6EA8FF"
+    }
+   ]
+  },
+  {
+   "id": "c2-2026",
+   "type": "stamp",
+   "start": 170.447,
+   "end": 176.67,
+   "tag": "REAL DATA",
+   "text": "22 OCTOBER 2026",
+   "line": "The Cabinet Office launches Be Ready",
+   "color": "#6EA8FF",
+   "source": "gov.uk; Cabinet Office"
+  },
+  {
+   "id": "c2-ready",
+   "type": "region",
+   "start": 176.67,
+   "end": 185.13,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 380.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 380.0
+    },
+    {
+     "t": 4.23,
+     "center": [
+      -0.15,
+      51.5
+     ],
+     "widthKm": 250.0
+    },
+    {
+     "t": 8.46,
+     "center": [
+      -0.8,
+      52.4
+     ],
+     "widthKm": 700.0
+    }
+   ],
+   "source": "gov.uk; Cabinet Office",
+   "cities": [
+    {
+     "at": [
+      -0.1137,
+      51.5036
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "CABINET OFFICE: WHITEHALL",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -1.5,
+      52.2
+     ],
+     "text": "A THREE-YEAR CAMPAIGN",
+     "color": "#FFFFFF",
+     "t": 3.3
+    },
+    {
+     "at": [
+      1.2,
+      52.6
+     ],
+     "text": "ABOUT THREE DAYS",
+     "color": "#FFD23F",
+     "t": 3.62
+    },
+    {
+     "at": [
+      -2.0,
+      51.1
+     ],
+     "text": "POWER, WATER",
+     "color": "#F2B01E",
+     "t": 4.42
+    },
+    {
+     "at": [
+      1.0,
+      51.0
+     ],
+     "text": "PHONE, INTERNET",
+     "color": "#F2B01E",
+     "t": 6.16
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c2-nonuc1",
+   "type": "region",
+   "start": 185.13,
+   "end": 193.31,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -2.0,
+     53.5
+    ],
+    "widthKm": 1100.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -2.0,
+      53.5
+     ],
+     "widthKm": 1100.0
+    },
+    {
+     "t": 4.09,
+     "center": [
+      -1.75,
+      53.0
+     ],
+     "widthKm": 950.0
+    },
+    {
+     "t": 8.18,
+     "center": [
+      -1.5,
+      52.5
+     ],
+     "widthKm": 800.0
+    }
+   ],
+   "source": "gov.uk; Al Jazeera, 22 October 2026",
+   "legend": null,
+   "labels": [
+    {
+     "at": [
+      -4.5,
+      55.0
+     ],
+     "text": "NOT A NUCLEAR CAMPAIGN",
+     "color": "#FFD23F",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -4.0,
+      53.6
+     ],
+     "text": "STORMS",
+     "color": "#FFFFFF",
+     "t": 3.26
+    },
+    {
+     "at": [
+      1.0,
+      54.4
+     ],
+     "text": "WILDFIRES",
+     "color": "#FFFFFF",
+     "t": 4.18
+    },
+    {
+     "at": [
+      0.5,
+      52.4
+     ],
+     "text": "NUCLEAR: NOT MENTIONED",
+     "color": "#FF3B3B",
+     "t": 5.94
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c2-nonuc2",
+   "type": "region",
+   "start": 193.31,
+   "end": 200.234,
+   "tag": "REAL DATA",
+   "view": {
+    "center": [
+     -1.0,
+     52.3
+    ],
+    "widthKm": 600.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -1.0,
+      52.3
+     ],
+     "widthKm": 600.0
+    },
+    {
+     "t": 3.46,
+     "center": [
+      -0.65,
+      52.0
+     ],
+     "widthKm": 490.0
+    },
+    {
+     "t": 6.92,
+     "center": [
+      -0.3,
+      51.7
+     ],
+     "widthKm": 380.0
+    }
+   ],
+   "source": "Reports quoting the Defence Secretary, October 2026",
+   "legend": null,
+   "caption": "No specific thing to prepare for, in reports of the Defence Secretary.",
+   "cities": [
+    {
+     "at": [
+      -0.1137,
+      51.5036
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "DEFENCE SECRETARY: QUOTED",
+     "t": 0.96
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -2.4,
+      52.8
+     ],
+     "text": "NO SPECIFIC THING",
+     "color": "#FFD23F",
+     "t": 2.86
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c2-hour",
+   "type": "city",
+   "start": 200.234,
+   "end": 209.29,
+   "tag": "REAL DATA",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 30.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 30.0
+    },
+    {
+     "t": 4.53,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 16.0
+    },
+    {
+     "t": 9.06,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 8.0
+    }
+   ],
+   "rings": [],
+   "source": "Cabinet Office, Be Ready; gov.uk radiation guidance",
+   "labels": [
+    {
+     "at": [
+      -0.15993,
+      51.51551
+     ],
+     "text": "THE KIT",
+     "color": "#FFFFFF",
+     "t": 3.98
+    },
+    {
+     "at": [
+      -0.09527,
+      51.51147
+     ],
+     "text": "THE LIST",
+     "color": "#FFFFFF",
+     "t": 4.92
+    },
+    {
+     "at": [
+      -0.1276,
+      51.49048
+     ],
+     "text": "THE FIRST HOUR OF A STRIKE",
+     "color": "#FFD23F",
+     "t": 6.46
+    }
+   ]
+  },
+  {
+   "id": "c2-but",
+   "type": "region",
+   "start": 209.29,
+   "end": 213.633,
+   "tag": "REAL HISTORY",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 400.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 400.0
+    },
+    {
+     "t": 4.34,
+     "center": [
+      2.0,
+      60.0
+     ],
+     "widthKm": 2800.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "LONDON",
+     "t": 0.2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -4.0,
+      58.0
+     ],
+     "text": "HOW DOES A STRIKE START?",
+     "color": "#FFD23F",
+     "t": 0.9
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c3-card",
+   "type": "chapter",
+   "start": 213.633,
+   "end": 217.333,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 03",
+   "title": "The trigger"
+  },
+  {
+   "id": "c3-crisis",
+   "type": "region",
+   "start": 217.333,
+   "end": 219.23,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     18.0,
+     56.0
+    ],
+    "widthKm": 4300.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      18.0,
+      56.0
+     ],
+     "widthKm": 4300.0
+    },
+    {
+     "t": 1.9,
+     "center": [
+      12.0,
+      56.0
+     ],
+     "widthKm": 3600.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "text": "NATO",
+     "color": "#6EA8FF"
+    }
+   ],
+   "countryLabels": [
+    {
+     "iso": "643",
+     "text": "RUSSIA",
+     "color": "#F2B01E"
+    },
+    {
+     "iso": "826",
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      20.0,
+      62.0
+     ],
+     "text": "A CRISIS FOR WEEKS",
+     "color": "#FFD23F",
+     "t": 0.05
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c3-decide",
+   "type": "region",
+   "start": 219.23,
+   "end": 224.57,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     10.0,
+     57.0
+    ],
+    "widthKm": 3400.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      10.0,
+      57.0
+     ],
+     "widthKm": 3400.0
+    },
+    {
+     "t": 2.67,
+     "center": [
+      4.0,
+      56.0
+     ],
+     "widthKm": 2550.0
+    },
+    {
+     "t": 5.34,
+     "center": [
+      -2.0,
+      55.0
+     ],
+     "widthKm": 1700.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      30.0,
+      59.0
+     ],
+     "to": [
+      -0.1276,
+      51.5034
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.4,
+     "t1": 3.4,
+     "width": 2,
+     "label": "LIMITED STRIKE"
+    },
+    {
+     "from": [
+      30.0,
+      59.0
+     ],
+     "to": [
+      -4.82,
+      56.0675
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.6,
+     "t1": 3.4,
+     "width": 2
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "THE CAPITAL",
+     "t": 2.3
+    },
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "THE DETERRENT BASE",
+     "t": 3.72
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c3-invent",
+   "type": "region",
+   "start": 224.57,
+   "end": 228.905,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -2.0,
+     55.0
+    ],
+    "widthKm": 1200.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -2.0,
+      55.0
+     ],
+     "widthKm": 1200.0
+    },
+    {
+     "t": 4.34,
+     "center": [
+      -2.0,
+      55.0
+     ],
+     "widthKm": 1700.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -6.0,
+      56.9
+     ],
+     "text": "OUR INVENTION",
+     "color": "#FFD23F",
+     "t": 0.3
+    },
+    {
+     "at": [
+      1.0,
+      53.4
+     ],
+     "text": "NO GOVERNMENT HAS SAID IT",
+     "color": "#FFFFFF",
+     "t": 2.36
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c3-bulava",
+   "type": "region",
+   "start": 228.905,
+   "end": 234.51,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     3.0,
+     66.0
+    ],
+    "widthKm": 2400.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      3.0,
+      66.0
+     ],
+     "widthKm": 2400.0
+    },
+    {
+     "t": 2.81,
+     "center": [
+      3.0,
+      65.5
+     ],
+     "widthKm": 2100.0
+    },
+    {
+     "t": 5.6,
+     "center": [
+      3.0,
+      65.0
+     ],
+     "widthKm": 1800.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      3.0,
+      68.0
+     ],
+     "kind": "sub",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "BOREI-CLASS SUBMARINE",
+     "t": 3.84
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -4.0,
+      62.5
+     ],
+     "text": "R-30 BULAVA",
+     "color": "#FF3B3B",
+     "t": 1.97
+    },
+    {
+     "at": [
+      10.0,
+      63.0
+     ],
+     "text": "NORWEGIAN SEA",
+     "color": "#FFFFFF",
+     "t": 5.71
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c3-short",
+   "type": "region",
+   "start": 234.51,
+   "end": 245.297,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     3.0,
+     64.0
+    ],
+    "widthKm": 2800.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      3.0,
+      64.0
+     ],
+     "widthKm": 2800.0
+    },
+    {
+     "t": 3.6,
+     "center": [
+      1.0,
+      60.6667
+     ],
+     "widthKm": 3333.3
+    },
+    {
+     "t": 7.19,
+     "center": [
+      -0.1667,
+      57.6667
+     ],
+     "widthKm": 3333.3
+    },
+    {
+     "t": 10.79,
+     "center": [
+      -0.5,
+      55.0
+     ],
+     "widthKm": 2800.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      3.0,
+      68.0
+     ],
+     "to": [
+      -0.1276,
+      51.5034
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.5,
+     "t1": 3.0,
+     "width": 2,
+     "label": "LESS THAN 9 MINUTES"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      3.0,
+      68.0
+     ],
+     "kind": "sub",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "LAUNCH POINT: SIMULATED",
+     "t": 0.2
+    },
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "LONDON",
+     "t": 1.0
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      8.0,
+      59.5
+     ],
+     "text": "SHORT FLIGHT, LITTLE TIME",
+     "color": "#FFD23F",
+     "t": 7.28
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c3-yield",
+   "type": "region",
+   "start": 245.297,
+   "end": 252.634,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     3.0,
+     68.0
+    ],
+    "widthKm": 2000.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      3.0,
+      68.0
+     ],
+     "widthKm": 2000.0
+    },
+    {
+     "t": 3.67,
+     "center": [
+      2.5,
+      65.0
+     ],
+     "widthKm": 2300.0
+    },
+    {
+     "t": 7.34,
+     "center": [
+      2.0,
+      62.0
+     ],
+     "widthKm": 2600.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      3.0,
+      68.0
+     ],
+     "kind": "sub",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "BULAVA ESTIMATES",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -3.0,
+      66.0
+     ],
+     "text": "100 TO 150 KILOTONS",
+     "color": "#FFFFFF",
+     "t": 3.92
+    },
+    {
+     "at": [
+      10.0,
+      64.5
+     ],
+     "text": "PUBLISHED ESTIMATES",
+     "color": "#FFD23F",
+     "t": 1.0
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c3-bars",
+   "type": "bars",
+   "start": 252.634,
+   "end": 257.602,
+   "tag": "SIMULATION",
+   "title": "OUR CHOICE: 100 KILOTONS",
+   "sub": "Yield in kilotons",
+   "source": "Scenario engine; published Bulava estimates",
+   "bars": [
+    {
+     "label": "HIROSHIMA, 1945",
+     "value": 15,
+     "display": "15 KT",
+     "color": "#FF7A1A"
+    },
+    {
+     "label": "THIS SIMULATION",
+     "value": 100,
+     "display": "100 KT, ABOUT 7 TIMES",
+     "color": "#FF3B3B"
+    }
+   ]
+  },
+  {
+   "id": "c3-ukwar",
+   "type": "region",
+   "start": 257.602,
+   "end": 263.41,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -4.82,
+     56.0675
+    ],
+    "widthKm": 700.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 700.0
+    },
+    {
+     "t": 2.91,
+     "center": [
+      -3.66,
+      55.2837
+     ],
+     "widthKm": 1000.0
+    },
+    {
+     "t": 5.81,
+     "center": [
+      -2.5,
+      54.5
+     ],
+     "widthKm": 1300.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "FASLANE",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -7.0,
+      57.5
+     ],
+     "text": "UK YIELD: NEVER PUBLISHED",
+     "color": "#FFD23F",
+     "t": 0.41
+    },
+    {
+     "at": [
+      1.5,
+      53.0
+     ],
+     "text": "NOT A CLAIM ABOUT IT",
+     "color": "#FFFFFF",
+     "t": 4.29
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c3-two",
+   "type": "region",
+   "start": 263.41,
+   "end": 266.01,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     3.0,
+     62.0
+    ],
+    "widthKm": 3300.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      3.0,
+      62.0
+     ],
+     "widthKm": 3300.0
+    },
+    {
+     "t": 2.6,
+     "center": [
+      0.0,
+      58.0
+     ],
+     "widthKm": 3000.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "ships": [],
+   "cities": [
+    {
+     "at": [
+      3.0,
+      68.0
+     ],
+     "kind": "sub",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "SUBMARINE",
+     "t": 0.2
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      3.0,
+      68.0
+     ],
+     "to": [
+      -0.1276,
+      51.5034
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.6,
+     "t1": 2.4,
+     "width": 2
+    },
+    {
+     "from": [
+      3.0,
+      68.0
+     ],
+     "to": [
+      -4.82,
+      56.0675
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.9,
+     "t1": 2.6,
+     "width": 2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -6.0,
+      60.5
+     ],
+     "text": "TWO WARHEADS, ONE EACH",
+     "color": "#FFD23F",
+     "t": 0.05
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c3-first",
+   "type": "region",
+   "start": 266.01,
+   "end": 272.69,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -3.0,
+     60.0
+    ],
+    "widthKm": 2200.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -3.0,
+      60.0
+     ],
+     "widthKm": 2200.0
+    },
+    {
+     "t": 3.34,
+     "center": [
+      -3.91,
+      58.0337
+     ],
+     "widthKm": 1550.0
+    },
+    {
+     "t": 6.68,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 900.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      3.0,
+      68.0
+     ],
+     "to": [
+      -4.82,
+      56.0675
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.4,
+     "t1": 2.6,
+     "width": 3,
+     "label": "ABOUT 1,400 KM"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "FASLANE AND COULPORT",
+     "t": 1.06
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c3-second",
+   "type": "region",
+   "start": 272.69,
+   "end": 279.97,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -1.0,
+     58.0
+    ],
+    "widthKm": 2200.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -1.0,
+      58.0
+     ],
+     "widthKm": 2200.0
+    },
+    {
+     "t": 3.64,
+     "center": [
+      -0.75,
+      56.0
+     ],
+     "widthKm": 1850.0
+    },
+    {
+     "t": 7.28,
+     "center": [
+      -0.5,
+      54.0
+     ],
+     "widthKm": 1500.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "lines": [
+    {
+     "from": [
+      3.0,
+      68.0
+     ],
+     "to": [
+      -0.1276,
+      51.5034
+     ],
+     "color": "#FF3B3B",
+     "dashed": true,
+     "t0": 0.4,
+     "t1": 3.0,
+     "width": 3,
+     "label": "ABOUT 1,840 KM"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "WESTMINSTER AND WHITEHALL",
+     "t": 1.22
+    },
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 6,
+     "t": 0.05
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c3-remove",
+   "type": "region",
+   "start": 279.97,
+   "end": 284.479,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -4.82,
+     56.0675
+    ],
+    "widthKm": 600.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 600.0
+    },
+    {
+     "t": 4.51,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 300.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "FASLANE: THE DETERRENT",
+     "t": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -4.25676,
+      56.563
+     ],
+     "text": "REMOVE THE DETERRENT",
+     "color": "#FF3B3B",
+     "t": 2.68
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c3-atsea",
+   "type": "region",
+   "start": 284.479,
+   "end": 289.811,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -8.0,
+     57.5
+    ],
+    "widthKm": 1700.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -8.0,
+      57.5
+     ],
+     "widthKm": 1700.0
+    },
+    {
+     "t": 2.66,
+     "center": [
+      -8.5,
+      57.75
+     ],
+     "widthKm": 2050.0
+    },
+    {
+     "t": 5.33,
+     "center": [
+      -9.0,
+      58.0
+     ],
+     "widthKm": 2400.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "ships": [
+    {
+     "path": [
+      [
+       -14.0,
+       56.0
+      ],
+      [
+       -10.5,
+       58.0
+      ],
+      [
+       -8.0,
+       59.0
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.33,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 26,
+     "wake": true,
+     "label": "BOAT AT SEA: NOT IN PORT",
+     "t": 0.05
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -10.0,
+      60.5
+     ],
+     "text": "ALWAYS ONE AT SEA",
+     "color": "#FFFFFF",
+     "t": 0.05
+    },
+    {
+     "at": [
+      -4.0,
+      57.0
+     ],
+     "text": "THE BOATS IN PORT",
+     "color": "#F2B01E",
+     "t": 2.37
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c3-eight",
+   "type": "region",
+   "start": 289.811,
+   "end": 295.441,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -2.5,
+     54.5
+    ],
+    "widthKm": 900.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -2.5,
+      54.5
+     ],
+     "widthKm": 900.0
+    },
+    {
+     "t": 2.82,
+     "center": [
+      -2.0,
+      54.25
+     ],
+     "widthKm": 1200.0
+    },
+    {
+     "t": 5.63,
+     "center": [
+      -1.5,
+      54.0
+     ],
+     "widthKm": 1500.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "THE EIGHT MINUTES",
+   "clockRate": 0,
+   "cities": [
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "FASLANE",
+     "t": 0.4
+    },
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "LONDON",
+     "t": 1.4
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -6.0,
+      56.9
+     ],
+     "text": "THE FIRST QUESTION",
+     "color": "#FFD23F",
+     "t": 0.52
+    },
+    {
+     "at": [
+      2.0,
+      52.3
+     ],
+     "text": "THE EIGHT MINUTES",
+     "color": "#FF3B3B",
+     "t": 3.56
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c4-card",
+   "type": "chapter",
+   "start": 295.441,
+   "end": 299.141,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 04",
+   "title": "Minute by minute"
+  },
+  {
+   "id": "c4-launch",
+   "type": "region",
+   "start": 299.141,
+   "end": 301.473,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     3.0,
+     66.0
+    ],
+    "widthKm": 1800.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      3.0,
+      66.0
+     ],
+     "widthKm": 1800.0
+    },
+    {
+     "t": 2.33,
+     "center": [
+      1.0,
+      62.0
+     ],
+     "widthKm": 3000.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "clock": "T+00:00",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 14.481,
+   "ships": [
+    {
+     "path": [
+      [
+       3.0,
+       68.0
+      ],
+      [
+       2.42087,
+       67.11631
+      ]
+     ],
+     "t0": 0,
+     "t1": 2.33,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 28,
+     "wake": true,
+     "label": "TO FASLANE",
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       3.0,
+       68.0
+      ],
+      [
+       2.9119,
+       67.53532
+      ]
+     ],
+     "t0": 0,
+     "t1": 2.33,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 28,
+     "wake": true,
+     "label": "TO LONDON",
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      3.0,
+      68.0
+     ],
+     "kind": "sub",
+     "color": "#F2B01E",
+     "size": 8,
+     "label": "RUSSIAN SUBMARINE (SIMULATED)",
+     "t": 0.2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -5.0,
+      63.0
+     ],
+     "text": "08:40: MISSILES LEAVE",
+     "color": "#FF3B3B",
+     "t": 0.5
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c4-sky",
+   "type": "city",
+   "start": 301.473,
+   "end": 307.83,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 30.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 30.0
+    },
+    {
+     "t": 3.18,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 24.0
+    },
+    {
+     "t": 6.36,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 18.0
+    }
+   ],
+   "rings": [],
+   "clock": "T+00:40",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 14.48,
+   "labels": [
+    {
+     "at": [
+      -0.17955,
+      51.53064
+     ],
+     "text": "A NORMAL MORNING SKY",
+     "color": "#FFFFFF",
+     "t": 2.98
+    },
+    {
+     "at": [
+      -0.06266,
+      51.47616
+     ],
+     "text": "NOTHING VISIBLE YET",
+     "color": "#FFD23F",
+     "t": 0.4
+    }
+   ]
+  },
+  {
+   "id": "c4-inair",
+   "type": "region",
+   "start": 307.83,
+   "end": 312.322,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -1.0,
+     59.0
+    ],
+    "widthKm": 2600.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -1.0,
+      59.0
+     ],
+     "widthKm": 2600.0
+    },
+    {
+     "t": 4.49,
+     "center": [
+      -1.5,
+      56.5
+     ],
+     "widthKm": 1800.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "clock": "T+02:06",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 14.481,
+   "ships": [
+    {
+     "path": [
+      [
+       0.84217,
+       64.70737
+      ],
+      [
+       -0.27338,
+       63.00517
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.49,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 28,
+     "wake": true,
+     "label": "TO FASLANE",
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       2.67175,
+       66.26862
+      ],
+      [
+       2.50205,
+       65.37354
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.49,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 28,
+     "wake": true,
+     "label": "TO LONDON",
+     "t": 0.05
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      5.0,
+      60.0
+     ],
+     "text": "IN THE AIR: UNDER 9 MINUTES",
+     "color": "#FF3B3B",
+     "t": 0.86
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "LONDON",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "FASLANE",
+     "t": 0.3
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c4-clocks",
+   "type": "region",
+   "start": 312.322,
+   "end": 315.356,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -2.5,
+     56.5
+    ],
+    "widthKm": 1300.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -2.5,
+      56.5
+     ],
+     "widthKm": 1300.0
+    },
+    {
+     "t": 3.03,
+     "center": [
+      -1.5,
+      54.5
+     ],
+     "widthKm": 1800.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "clock": "T+03:11",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 14.481,
+   "ships": [
+    {
+     "path": [
+      [
+       -0.27338,
+       63.00517
+      ],
+      [
+       -1.02684,
+       61.85546
+      ]
+     ],
+     "t0": 0,
+     "t1": 3.03,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 28,
+     "wake": true,
+     "label": "TO FASLANE",
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       2.50205,
+       65.37354
+      ],
+      [
+       2.38743,
+       64.76899
+      ]
+     ],
+     "t0": 0,
+     "t1": 3.03,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 28,
+     "wake": true,
+     "label": "TO LONDON",
+     "t": 0.05
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -8.0,
+      57.6
+     ],
+     "text": "THE CLOCKS MATTER MORE",
+     "color": "#FFD23F",
+     "t": 0.3
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c4-times",
+   "type": "region",
+   "start": 315.356,
+   "end": 321.458,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -2.5,
+     54.8
+    ],
+    "widthKm": 1100.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -2.5,
+      54.8
+     ],
+     "widthKm": 1100.0
+    },
+    {
+     "t": 3.05,
+     "center": [
+      -2.0,
+      54.4
+     ],
+     "widthKm": 1300.0
+    },
+    {
+     "t": 6.1,
+     "center": [
+      -1.5,
+      54.0
+     ],
+     "widthKm": 1500.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "clock": "T+03:55",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 14.481,
+   "ships": [
+    {
+     "path": [
+      [
+       -1.02684,
+       61.85546
+      ],
+      [
+       -2.54222,
+       59.54315
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.1,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 28,
+     "wake": true,
+     "label": "TO FASLANE",
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       2.38743,
+       64.76899
+      ],
+      [
+       2.15691,
+       63.5531
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.1,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 28,
+     "wake": true,
+     "label": "TO LONDON",
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "FASLANE: ABOUT 08:48",
+     "t": 0.05
+    },
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 8,
+     "label": "LONDON: ABOUT 08:49",
+     "t": 3.05
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c4-morning",
+   "type": "city",
+   "start": 321.458,
+   "end": 326.306,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 30.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 30.0
+    },
+    {
+     "t": 2.42,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 40.0
+    },
+    {
+     "t": 4.85,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 24.0
+    }
+   ],
+   "rings": [],
+   "clock": "T+05:23",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 14.481,
+   "labels": [
+    {
+     "at": [
+      -0.19687,
+      51.53972
+     ],
+     "text": "NINE MILLION PEOPLE",
+     "color": "#FFFFFF",
+     "t": 1.77
+    },
+    {
+     "at": [
+      -0.05833,
+      51.46708
+     ],
+     "text": "THE MORNING GOES ON",
+     "color": "#FFD23F",
+     "t": 3.51
+    }
+   ]
+  },
+  {
+   "id": "c4-arrive",
+   "type": "region",
+   "start": 326.306,
+   "end": 330.63,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -4.82,
+     56.0675
+    ],
+    "widthKm": 500.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 500.0
+    },
+    {
+     "t": 4.32,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 220.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "clock": "T+06:33",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 14.481,
+   "ships": [
+    {
+     "path": [
+      [
+       -3.74617,
+       57.70604
+      ],
+      [
+       -4.82,
+       56.0675
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.32,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 28,
+     "wake": true,
+     "label": "TO FASLANE",
+     "t": 0.05
+    },
+    {
+     "path": [
+      [
+       1.97376,
+       62.58708
+      ],
+      [
+       1.81041,
+       61.72548
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.32,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 28,
+     "wake": true,
+     "label": "TO LONDON",
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "FASLANE",
+     "t": 0.2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -5.54416,
+      56.42786
+     ],
+     "text": "7.6 MINUTES",
+     "color": "#FF3B3B",
+     "t": 0.4
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c4-faslane",
+   "type": "city",
+   "start": 330.63,
+   "end": 336.217,
+   "tag": "SIMULATION",
+   "city": "faslane",
+   "view": {
+    "center": [
+     -4.82,
+     56.0675
+    ],
+    "widthKm": 5.0
+   },
+   "gz": [
+    -4.82,
+    56.0675
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 5.0
+    },
+    {
+     "t": 2.79,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 4.1
+    },
+    {
+     "t": 5.59,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 3.2
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.481,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.4,
+     "angle": 225
+    }
+   ],
+   "clock": "T+07:36",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1.404,
+   "caption": "Ground burst, 100 kt. Ring sizes from the engine.",
+   "labels": [
+    {
+     "at": [
+      -4.82,
+      56.07831
+     ],
+     "text": "GROUND BURST (SIMULATED)",
+     "color": "#FFFFFF",
+     "t": 0.8
+    },
+    {
+     "at": [
+      -4.84575,
+      56.05849
+     ],
+     "text": "FIREBALL: ABOUT 0.5 KM",
+     "color": "#FF7A1A",
+     "t": 1.7
+    }
+   ],
+   "flashT": 0.1
+  },
+  {
+   "id": "c4-fpsi",
+   "type": "city",
+   "start": 336.217,
+   "end": 343.874,
+   "tag": "SIMULATION",
+   "city": "faslane",
+   "view": {
+    "center": [
+     -4.82,
+     56.0675
+    ],
+    "widthKm": 3.6
+   },
+   "gz": [
+    -4.82,
+    56.0675
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 3.6
+    },
+    {
+     "t": 3.83,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 6.3
+    },
+    {
+     "t": 7.66,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 9.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.481,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.512,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.4,
+     "angle": 225
+    },
+    {
+     "km": 2.514,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 3.62,
+     "angle": 225
+    }
+   ],
+   "clock": "T+07:44",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1.404,
+   "labels": [
+    {
+     "at": [
+      -4.82,
+      56.08101
+     ],
+     "text": "20 PSI: JUST OVER 0.5 KM",
+     "color": "#FF3B3B",
+     "t": 0.8
+    },
+    {
+     "at": [
+      -4.77816,
+      56.04948
+     ],
+     "text": "5 PSI: 2.5 KM",
+     "color": "#FF3B3B",
+     "t": 3.62
+    }
+   ]
+  },
+  {
+   "id": "c4-heavy",
+   "type": "city",
+   "start": 343.874,
+   "end": 354.219,
+   "tag": "SIMULATION",
+   "city": "faslane",
+   "view": {
+    "center": [
+     -4.82,
+     56.0675
+    ],
+    "widthKm": 10.0
+   },
+   "gz": [
+    -4.82,
+    56.0675
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 10.0
+    },
+    {
+     "t": 3.45,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 19.3
+    },
+    {
+     "t": 6.9,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 29.3
+    },
+    {
+     "t": 10.34,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 40.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.481,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.512,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 2.514,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "clock": "T+07:55",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1.404,
+   "labels": [
+    {
+     "at": [
+      -4.86506,
+      56.08264
+     ],
+     "text": "EARTH THROWN UP",
+     "color": "#FFFFFF",
+     "t": 2.26
+    },
+    {
+     "at": [
+      -4.78781,
+      56.07759
+     ],
+     "text": "IT COMES DOWN AS FALLOUT",
+     "color": "#F2B01E",
+     "t": 4.58
+    },
+    {
+     "at": [
+      -4.82,
+      56.04984
+     ],
+     "text": "ENGINE: HEAVY LOCAL FALLOUT",
+     "color": "#FF3B3B",
+     "t": 5.94
+    }
+   ]
+  },
+  {
+   "id": "c4-wind",
+   "type": "region",
+   "start": 354.219,
+   "end": 361.732,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -4.82,
+     56.0675
+    ],
+    "widthKm": 500.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 500.0
+    },
+    {
+     "t": 3.76,
+     "center": [
+      -3.91,
+      56.1338
+     ],
+     "widthKm": 700.0
+    },
+    {
+     "t": 7.51,
+     "center": [
+      -3.0,
+      56.2
+     ],
+     "widthKm": 900.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "clock": "T+08:09",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1.404,
+   "burst": {
+    "at": [
+     -4.82,
+     56.0675
+    ],
+    "t": -5.0,
+    "km": 12,
+    "fade": 10
+   },
+   "plume": {
+    "at": [
+     -4.82,
+     56.0675
+    ],
+    "bearing": 90,
+    "lengthKm": 230,
+    "widthKm": 22,
+    "t0": 3.0,
+    "t1": 6.5,
+    "color": "#F2B01E",
+    "label": "WIND FROM THE WEST"
+   },
+   "labels": [
+    {
+     "at": [
+      -7.5,
+      57.6
+     ],
+     "text": "THE COMMONEST WIND",
+     "color": "#FFFFFF",
+     "t": 2.01
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "FASLANE",
+     "t": 0.2
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c4-nodose",
+   "type": "region",
+   "start": 361.732,
+   "end": 366.467,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -2.0,
+     56.2
+    ],
+    "widthKm": 900.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -2.0,
+      56.2
+     ],
+     "widthKm": 900.0
+    },
+    {
+     "t": 2.37,
+     "center": [
+      -1.5,
+      55.9
+     ],
+     "widthKm": 1100.0
+    },
+    {
+     "t": 4.73,
+     "center": [
+      -1.0,
+      55.6
+     ],
+     "widthKm": 1300.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "clock": "T+08:20",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1.404,
+   "plume": {
+    "at": [
+     -4.82,
+     56.0675
+    ],
+    "bearing": 90,
+    "lengthKm": 230,
+    "widthKm": 22,
+    "t0": -2.0,
+    "t1": 0.2,
+    "color": "#F2B01E"
+   },
+   "labels": [
+    {
+     "at": [
+      -1.0,
+      57.4
+     ],
+     "text": "CENTRAL SCOTLAND",
+     "color": "#FFFFFF",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -6.0,
+      54.9
+     ],
+     "text": "WIND: OUR CHOICE",
+     "color": "#FFD23F",
+     "t": 0.16
+    },
+    {
+     "at": [
+      1.5,
+      54.4
+     ],
+     "text": "NO DOSE, NO TOWNS MODELLED",
+     "color": "#FFD23F",
+     "t": 1.74
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c4-1992",
+   "type": "region",
+   "start": 366.467,
+   "end": 370.724,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -1.0,
+     52.6
+    ],
+    "widthKm": 800.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -1.0,
+      52.6
+     ],
+     "widthKm": 800.0
+    },
+    {
+     "t": 4.26,
+     "center": [
+      -0.4,
+      51.9
+     ],
+     "widthKm": 450.0
+    }
+   ],
+   "legend": null,
+   "clock": "T+08:26",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1.404,
+   "ships": [
+    {
+     "path": [
+      [
+       0.45656,
+       54.58457
+      ],
+      [
+       0.29574,
+       53.73632
+      ]
+     ],
+     "t0": 0,
+     "t1": 4.26,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 28,
+     "wake": true,
+     "label": "TO LONDON",
+     "t": 0.05
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -3.0,
+      53.6
+     ],
+     "text": "1992: SIRENS GONE",
+     "color": "#FFFFFF",
+     "t": 1.62
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "LONDON",
+     "t": 0.2
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c4-advice",
+   "type": "region",
+   "start": 370.724,
+   "end": 378.771,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -0.5,
+     52.0
+    ],
+    "widthKm": 420.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.5,
+      52.0
+     ],
+     "widthKm": 420.0
+    },
+    {
+     "t": 4.03,
+     "center": [
+      -0.35,
+      51.8
+     ],
+     "widthKm": 340.0
+    },
+    {
+     "t": 8.05,
+     "center": [
+      -0.2,
+      51.6
+     ],
+     "widthKm": 260.0
+    }
+   ],
+   "legend": null,
+   "clock": "T+08:32",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1.404,
+   "ships": [
+    {
+     "path": [
+      [
+       0.29574,
+       53.73632
+      ],
+      [
+       -0.00826,
+       52.13286
+      ]
+     ],
+     "t0": 0,
+     "t1": 8.05,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 28,
+     "wake": true,
+     "label": "TO LONDON",
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "LONDON",
+     "t": 0.2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -1.6,
+      52.5
+     ],
+     "text": "GO IN",
+     "color": "#FFFFFF",
+     "t": 2.32
+    },
+    {
+     "at": [
+      1.0,
+      52.5
+     ],
+     "text": "STAY IN",
+     "color": "#FFFFFF",
+     "t": 3.15
+    },
+    {
+     "at": [
+      -1.6,
+      51.3
+     ],
+     "text": "TUNE IN",
+     "color": "#FFFFFF",
+     "t": 4.25
+    },
+    {
+     "at": [
+      1.0,
+      51.3
+     ],
+     "text": "NO NUCLEAR WEAPON NAMED",
+     "color": "#FF3B3B",
+     "t": 5.71
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c4-last",
+   "type": "region",
+   "start": 378.771,
+   "end": 381.93,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 160.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 160.0
+    },
+    {
+     "t": 3.16,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 170.0
+    }
+   ],
+   "legend": null,
+   "clock": "T+08:44",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1.404,
+   "ships": [
+    {
+     "path": [
+      [
+       -0.00826,
+       52.13286
+      ],
+      [
+       -0.1276,
+       51.5034
+      ]
+     ],
+     "t0": 0,
+     "t1": 3.16,
+     "kind": "pla",
+     "color": "#FF3B3B",
+     "size": 28,
+     "wake": true,
+     "label": "TO LONDON",
+     "t": 0.05
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "WHITEHALL",
+     "t": 0.2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -0.6327,
+      51.72863
+     ],
+     "text": "8.8 MINUTES",
+     "color": "#FF3B3B",
+     "t": 0.4
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c4-flash",
+   "type": "city",
+   "start": 381.93,
+   "end": 384.86,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 6.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 6.0
+    },
+    {
+     "t": 2.93,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 11.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.4,
+     "angle": 225
+    }
+   ],
+   "clock": "T+08:48",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      -0.1276,
+      51.53403
+     ],
+     "text": "AIR BURST OVER WHITEHALL",
+     "color": "#FFFFFF",
+     "t": 0.8
+    }
+   ],
+   "flashT": 0.1
+  },
+  {
+   "id": "c4-one",
+   "type": "city",
+   "start": 384.86,
+   "end": 394.074,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 14.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 14.0
+    },
+    {
+     "t": 3.07,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 10.7
+    },
+    {
+     "t": 6.14,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 16.0
+    },
+    {
+     "t": 9.21,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 30.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "clock": "T+08:57",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "burst": {
+    "at": [
+     -0.1276,
+     51.5034
+    ],
+    "t": -4.0,
+    "km": 1.2,
+    "fade": 9
+   },
+   "labels": [
+    {
+     "at": [
+      -0.16007,
+      51.51702
+     ],
+     "text": "ONE WARHEAD",
+     "color": "#FF3B3B",
+     "t": 0.05
+    },
+    {
+     "at": [
+      -0.09513,
+      51.48978
+     ],
+     "text": "ONE CITY",
+     "color": "#FFFFFF",
+     "t": 2.21
+    },
+    {
+     "at": [
+      -0.1276,
+      51.51702
+     ],
+     "text": "RING BY RING",
+     "color": "#FFD23F",
+     "t": 6.9
+    }
+   ]
+  },
+  {
+   "id": "c5-card",
+   "type": "chapter",
+   "start": 394.074,
+   "end": 397.774,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 05",
+   "title": "One warhead, ring by ring"
+  },
+  {
+   "id": "c5-fire",
+   "type": "city",
+   "start": 397.774,
+   "end": 403.298,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 1.4
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 1.4
+    },
+    {
+     "t": 2.77,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 2.0
+    },
+    {
+     "t": 5.52,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 2.6
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.2,
+     "angle": 225
+    }
+   ],
+   "clock": "T+09:00",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "burst": {
+    "at": [
+     -0.1276,
+     51.5034
+    ],
+    "t": -4.0,
+    "km": 0.6,
+    "fade": 8
+   },
+   "labels": [
+    {
+     "at": [
+      -0.1276,
+      51.5079
+     ],
+     "text": "FIREBALL: 380 M RADIUS",
+     "color": "#FF7A1A",
+     "t": 0.05
+    },
+    {
+     "at": [
+      -0.1377,
+      51.4998
+     ],
+     "text": "EVERYTHING INSIDE VAPORISED",
+     "color": "#FFFFFF",
+     "t": 3.88
+    }
+   ]
+  },
+  {
+   "id": "c5-20",
+   "type": "city",
+   "start": 403.298,
+   "end": 411.739,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 2.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 2.0
+    },
+    {
+     "t": 4.22,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 3.4
+    },
+    {
+     "t": 8.44,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 3.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.39,
+     "angle": 225
+    }
+   ],
+   "clock": "T+09:10",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      -0.12183,
+      51.50971
+     ],
+     "text": "20 PSI: 640 M",
+     "color": "#FF3B3B",
+     "t": 0.39
+    },
+    {
+     "at": [
+      -0.14059,
+      51.49799
+     ],
+     "text": "HEAVY BUILDINGS DO NOT STAND",
+     "color": "#FFFFFF",
+     "t": 5.19
+    }
+   ]
+  },
+  {
+   "id": "c5-5a",
+   "type": "city",
+   "start": 411.739,
+   "end": 418.692,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 5.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 5.0
+    },
+    {
+     "t": 3.48,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 6.5
+    },
+    {
+     "t": 6.95,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 8.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.39,
+     "angle": 225
+    }
+   ],
+   "clock": "T+09:20",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      -0.10162,
+      51.51601
+     ],
+     "text": "5 PSI: 3.1 KM",
+     "color": "#FF3B3B",
+     "t": 0.39
+    },
+    {
+     "at": [
+      -0.15935,
+      51.48989
+     ],
+     "text": "MOST HOUSES COLLAPSE",
+     "color": "#FFFFFF",
+     "t": 5.93
+    }
+   ]
+  },
+  {
+   "id": "c5-5b",
+   "type": "city",
+   "start": 418.692,
+   "end": 424.995,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 8.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 8.0
+    },
+    {
+     "t": 3.15,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 12.0
+    },
+    {
+     "t": 6.3,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 16.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "clock": "T+09:30",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      -0.10451,
+      51.51551
+     ],
+     "text": "31 KM2 INSIDE THE RING",
+     "color": "#FFD23F",
+     "t": 1.06
+    },
+    {
+     "at": [
+      -0.15646,
+      51.49129
+     ],
+     "text": "ABOUT 2% OF GREATER LONDON",
+     "color": "#FFFFFF",
+     "t": 3.77
+    }
+   ]
+  },
+  {
+   "id": "c5-burns",
+   "type": "city",
+   "start": 424.995,
+   "end": 431.419,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 9.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 9.0
+    },
+    {
+     "t": 3.21,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 11.0
+    },
+    {
+     "t": 6.42,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 13.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 4.158,
+     "label": "BURNS",
+     "color": "#F2B01E",
+     "t": 0.42,
+     "angle": 225
+    }
+   ],
+   "clock": "T+09:40",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      -0.09008,
+      51.52142
+     ],
+     "text": "THIRD-DEGREE BURNS: 4.2 KM",
+     "color": "#F2B01E",
+     "t": 4.24
+    },
+    {
+     "at": [
+      -0.17667,
+      51.48178
+     ],
+     "text": "BARE SKIN, FROM THE FLASH",
+     "color": "#FFFFFF",
+     "t": 2.81
+    }
+   ]
+  },
+  {
+   "id": "c5-1psi",
+   "type": "city",
+   "start": 431.419,
+   "end": 441.652,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 13.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 13.0
+    },
+    {
+     "t": 3.41,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 17.0
+    },
+    {
+     "t": 6.82,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 21.3
+    },
+    {
+     "t": 10.23,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 26.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 4.158,
+     "label": "BURNS",
+     "color": "#F2B01E",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 8.507,
+     "label": "1 PSI",
+     "color": "#3ED6C8",
+     "t": 0.51,
+     "angle": 225
+    }
+   ],
+   "clock": "T+09:50",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      -0.06266,
+      51.53403
+     ],
+     "text": "1 PSI: 8.5 KM",
+     "color": "#3ED6C8",
+     "t": 0.51
+    },
+    {
+     "at": [
+      -0.20697,
+      51.47097
+     ],
+     "text": "WINDOWS SHATTER",
+     "color": "#FFFFFF",
+     "t": 4.95
+    },
+    {
+     "at": [
+      -0.06987,
+      51.46736
+     ],
+     "text": "FLYING GLASS INJURES",
+     "color": "#FFD23F",
+     "t": 6.53
+    }
+   ]
+  },
+  {
+   "id": "c5-air",
+   "type": "city",
+   "start": 441.652,
+   "end": 449.868,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 26.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 26.0
+    },
+    {
+     "t": 4.11,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 40.0
+    },
+    {
+     "t": 8.22,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 50.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 4.158,
+     "label": "BURNS",
+     "color": "#F2B01E",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 8.507,
+     "label": "1 PSI",
+     "color": "#3ED6C8",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "clock": "T+10:00",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      -0.2214,
+      51.54275
+     ],
+     "text": "AIR BURST: LITTLE FALLOUT",
+     "color": "#F2B01E",
+     "t": 2.9
+    },
+    {
+     "at": [
+      -0.0338,
+      51.46405
+     ],
+     "text": "SMOKE AND DUST: NOT MODELLED",
+     "color": "#FFD23F",
+     "t": 4.28
+    }
+   ]
+  },
+  {
+   "id": "c5-people",
+   "type": "city",
+   "start": 449.868,
+   "end": 457.41,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 50.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 50.0
+    },
+    {
+     "t": 3.77,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 39.0
+    },
+    {
+     "t": 7.54,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 28.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 4.158,
+     "label": "BURNS",
+     "color": "#F2B01E",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 8.507,
+     "label": "1 PSI",
+     "color": "#3ED6C8",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "clock": "T+10:30",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "source": "ONS mid-2024 estimate; GLA",
+   "labels": [
+    {
+     "at": [
+      -0.22862,
+      51.54578
+     ],
+     "text": "ABOUT 5,800 PEOPLE PER KM2",
+     "color": "#FFFFFF",
+     "t": 0.7
+    },
+    {
+     "at": [
+      -0.04678,
+      51.46102
+     ],
+     "text": "THE MORNING RUSH MOVES THEM",
+     "color": "#FFD23F",
+     "t": 5.92
+    }
+   ]
+  },
+  {
+   "id": "c5-count",
+   "type": "city",
+   "start": 457.41,
+   "end": 460.884,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 28.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 28.0
+    },
+    {
+     "t": 3.47,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 20.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 4.158,
+     "label": "BURNS",
+     "color": "#F2B01E",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 8.507,
+     "label": "1 PSI",
+     "color": "#3ED6C8",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "clock": "T+10:40",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      -0.1276,
+      51.53367
+     ],
+     "text": "WE DO NOT COUNT WHO IS INSIDE",
+     "color": "#FFD23F",
+     "t": 0.6
+    }
+   ]
+  },
+  {
+   "id": "c5-engine",
+   "type": "city",
+   "start": 460.884,
+   "end": 468.877,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 20.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 20.0
+    },
+    {
+     "t": 4.0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 34.0
+    },
+    {
+     "t": 7.99,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 24.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 4.158,
+     "label": "BURNS",
+     "color": "#F2B01E",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 8.507,
+     "label": "1 PSI",
+     "color": "#3ED6C8",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "clock": "T+10:50",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      -0.19976,
+      51.53367
+     ],
+     "text": "ENGINE: 100 KT AIR BURST",
+     "color": "#FFFFFF",
+     "t": 0.95
+    },
+    {
+     "at": [
+      -0.06987,
+      51.47313
+     ],
+     "text": "A LARGER WARHEAD, LARGER RINGS",
+     "color": "#FF3B3B",
+     "t": 4.97
+    }
+   ]
+  },
+  {
+   "id": "c5-nostudy",
+   "type": "city",
+   "start": 468.877,
+   "end": 478.717,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 24.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 24.0
+    },
+    {
+     "t": 3.28,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 17.3
+    },
+    {
+     "t": 6.56,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 19.3
+    },
+    {
+     "t": 9.84,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 30.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 4.158,
+     "label": "BURNS",
+     "color": "#F2B01E",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 8.507,
+     "label": "1 PSI",
+     "color": "#3ED6C8",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "clock": "T+11:00",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "labels": [
+    {
+     "at": [
+      -0.17811,
+      51.52459
+     ],
+     "text": "NO PUBLISHED STUDY",
+     "color": "#FFD23F",
+     "t": 0.05
+    },
+    {
+     "at": [
+      -0.07709,
+      51.48221
+     ],
+     "text": "WE WILL NOT MAKE ONE UP",
+     "color": "#FFFFFF",
+     "t": 5.33
+    },
+    {
+     "at": [
+      -0.16801,
+      51.49987
+     ],
+     "text": "ELECTRONICS: NOT MODELLED",
+     "color": "#FFFFFF",
+     "t": 8.27
+    }
+   ]
+  },
+  {
+   "id": "c5-minute",
+   "type": "region",
+   "start": 478.717,
+   "end": 483.451,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 80.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 80.0
+    },
+    {
+     "t": 2.36,
+     "center": [
+      -0.3138,
+      51.7517
+     ],
+     "widthKm": 490.0
+    },
+    {
+     "t": 4.73,
+     "center": [
+      -0.5,
+      52.0
+     ],
+     "widthKm": 900.0
+    }
+   ],
+   "legend": null,
+   "clock": "T+11:30",
+   "clockLabel": "SINCE LAUNCH",
+   "clockRate": 1,
+   "burst": {
+    "at": [
+     -0.1276,
+     51.5034
+    ],
+    "t": -5.0,
+    "km": 6,
+    "fade": 10
+   },
+   "rings": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "km": 8.51,
+     "color": "#3ED6C8",
+     "t": 0.2,
+     "dashed": true
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -2.0,
+      52.6
+     ],
+     "text": "THAT IS THE FIRST MINUTE",
+     "color": "#FFD23F",
+     "t": 0.4
+    },
+    {
+     "at": [
+      1.2,
+      51.2
+     ],
+     "text": "THE REST IS THE DAY AFTER",
+     "color": "#FFFFFF",
+     "t": 1.79
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c6-card",
+   "type": "chapter",
+   "start": 483.451,
+   "end": 487.151,
+   "tag": "SIMULATION",
+   "kicker": "CHAPTER 06",
+   "title": "The day after"
+  },
+  {
+   "id": "c6-zone",
+   "type": "city",
+   "start": 487.151,
+   "end": 490.807,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 9.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 9.0
+    },
+    {
+     "t": 3.66,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 7.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "caption": "The first change: a zone.",
+   "labels": [
+    {
+     "at": [
+      -0.09152,
+      51.51962
+     ],
+     "text": "THE 5 PSI ZONE",
+     "color": "#FF3B3B",
+     "t": 0.4
+    }
+   ]
+  },
+  {
+   "id": "c6-list",
+   "type": "city",
+   "start": 490.807,
+   "end": 499.478,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 7.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 7.0
+    },
+    {
+     "t": 4.33,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 6.0
+    },
+    {
+     "t": 8.67,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 5.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "source": "Cabinet Office, Be Ready",
+   "labels": [
+    {
+     "at": [
+      -0.14925,
+      51.51147
+     ],
+     "text": "WATER",
+     "color": "#FFFFFF",
+     "t": 1.52
+    },
+    {
+     "at": [
+      -0.1276,
+      51.51198
+     ],
+     "text": "LONG-LIFE FOOD",
+     "color": "#FFFFFF",
+     "t": 3.04
+    },
+    {
+     "at": [
+      -0.10595,
+      51.51097
+     ],
+     "text": "TORCH",
+     "color": "#FFFFFF",
+     "t": 4.08
+    },
+    {
+     "at": [
+      -0.14925,
+      51.49482
+     ],
+     "text": "BATTERIES",
+     "color": "#FFFFFF",
+     "t": 5.03
+    },
+    {
+     "at": [
+      -0.1276,
+      51.50088
+     ],
+     "text": "POWER BANK",
+     "color": "#FFFFFF",
+     "t": 6.2
+    },
+    {
+     "at": [
+      -0.10595,
+      51.49482
+     ],
+     "text": "RADIO",
+     "color": "#FFFFFF",
+     "t": 7.22
+    }
+   ]
+  },
+  {
+   "id": "c6-collapse",
+   "type": "city",
+   "start": 499.478,
+   "end": 505.612,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 5.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 5.0
+    },
+    {
+     "t": 3.07,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 6.5
+    },
+    {
+     "t": 6.13,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 8.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -0.14564,
+      51.51097
+     ],
+     "text": "IN HOUSES THAT COLLAPSE",
+     "color": "#FF3B3B",
+     "t": 4.45
+    },
+    {
+     "at": [
+      -0.10956,
+      51.49583
+     ],
+     "text": "THE LIST IS INSIDE THE RING",
+     "color": "#FFD23F",
+     "t": 0.6
+    }
+   ]
+  },
+  {
+   "id": "c6-plume",
+   "type": "region",
+   "start": 505.612,
+   "end": 509.091,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -4.82,
+     56.0675
+    ],
+    "widthKm": 600.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 600.0
+    },
+    {
+     "t": 3.48,
+     "center": [
+      -2.5,
+      56.3
+     ],
+     "widthKm": 900.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "burst": {
+    "at": [
+     -4.82,
+     56.0675
+    ],
+    "t": -5.0,
+    "km": 12,
+    "fade": 12
+   },
+   "plume": {
+    "at": [
+     -4.82,
+     56.0675
+    ],
+    "bearing": 90,
+    "lengthKm": 230,
+    "widthKm": 22,
+    "t0": 1.0,
+    "t1": 4.0,
+    "color": "#F2B01E",
+    "label": "ASSUMED WIND"
+   },
+   "cities": [
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "FASLANE",
+     "t": 0.2
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -7.0,
+      57.6
+     ],
+     "text": "THE SECOND: A PLUME",
+     "color": "#FFD23F",
+     "t": 0.4
+    },
+    {
+     "at": [
+      1.5,
+      57.2
+     ],
+     "text": "FAR TO THE NORTH",
+     "color": "#FFFFFF",
+     "t": 2.5
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c6-stay",
+   "type": "region",
+   "start": 509.091,
+   "end": 518.994,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -3.0,
+     55.5
+    ],
+    "widthKm": 1000.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -3.0,
+      55.5
+     ],
+     "widthKm": 1000.0
+    },
+    {
+     "t": 3.3,
+     "center": [
+      -2.6667,
+      55.1667
+     ],
+     "widthKm": 1166.7
+    },
+    {
+     "t": 6.6,
+     "center": [
+      -2.3333,
+      54.8333
+     ],
+     "widthKm": 1333.3
+    },
+    {
+     "t": 9.9,
+     "center": [
+      -2.0,
+      54.5
+     ],
+     "widthKm": 1500.0
+    }
+   ],
+   "legend": null,
+   "plume": {
+    "at": [
+     -4.82,
+     56.0675
+    ],
+    "bearing": 90,
+    "lengthKm": 230,
+    "widthKm": 22,
+    "t0": -1.0,
+    "t1": 0.0,
+    "color": "#F2B01E"
+   },
+   "source": "gov.uk, radiation emergencies; Protect and Survive",
+   "labels": [
+    {
+     "at": [
+      -7.0,
+      56.8
+     ],
+     "text": "RADIATION ADVICE: 1 TO 2 DAYS",
+     "color": "#6EA8FF",
+     "t": 3.76
+    },
+    {
+     "at": [
+      1.5,
+      55.2
+     ],
+     "text": "PROTECT AND SURVIVE: 14",
+     "color": "#FFFFFF",
+     "t": 6.6
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c6-neither",
+   "type": "region",
+   "start": 518.994,
+   "end": 524.468,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -4.82,
+     56.0675
+    ],
+    "widthKm": 700.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 700.0
+    },
+    {
+     "t": 2.74,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 540.0
+    },
+    {
+     "t": 5.47,
+     "center": [
+      -4.82,
+      56.0675
+     ],
+     "widthKm": 380.0
+    }
+   ],
+   "legend": [
+    {
+     "text": "UNITED KINGDOM",
+     "color": "#6EA8FF"
+    },
+    {
+     "text": "RUSSIA (SIMULATED)",
+     "color": "#F2B01E"
+    }
+   ],
+   "plume": {
+    "at": [
+     -4.82,
+     56.0675
+    ],
+    "bearing": 90,
+    "lengthKm": 230,
+    "widthKm": 22,
+    "t0": -1.0,
+    "t1": 0.0,
+    "color": "#F2B01E"
+   },
+   "cities": [
+    {
+     "at": [
+      -4.82,
+      56.0675
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "A SUBMARINE BASE",
+     "t": 1.86
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -4.09584,
+      56.563
+     ],
+     "text": "NEITHER WAS WRITTEN FOR THIS",
+     "color": "#FFD23F",
+     "t": 0.4
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c6-glass",
+   "type": "city",
+   "start": 524.468,
+   "end": 527.731,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 22.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 22.0
+    },
+    {
+     "t": 3.26,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 26.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 4.158,
+     "label": "BURNS",
+     "color": "#F2B01E",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 8.507,
+     "label": "1 PSI",
+     "color": "#3ED6C8",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -0.20697,
+      51.5367
+     ],
+     "text": "THE THIRD: BROKEN GLASS",
+     "color": "#FFD23F",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -0.04823,
+      51.4701
+     ],
+     "text": "1 PSI: 8.5 KM",
+     "color": "#3ED6C8",
+     "t": 0.86
+    }
+   ]
+  },
+  {
+   "id": "c6-three",
+   "type": "region",
+   "start": 527.731,
+   "end": 535.185,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -1.5,
+     53.0
+    ],
+    "widthKm": 1200.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -1.5,
+      53.0
+     ],
+     "widthKm": 1200.0
+    },
+    {
+     "t": 3.73,
+     "center": [
+      -1.5,
+      52.75
+     ],
+     "widthKm": 1000.0
+    },
+    {
+     "t": 7.45,
+     "center": [
+      -1.5,
+      52.5
+     ],
+     "widthKm": 800.0
+    }
+   ],
+   "legend": null,
+   "labels": [
+    {
+     "at": [
+      -4.0,
+      54.0
+     ],
+     "text": "PLANNED FOR STORMS",
+     "color": "#FFFFFF",
+     "t": 2.26
+    },
+    {
+     "at": [
+      1.0,
+      53.5
+     ],
+     "text": "A FEW DAYS WITHOUT POWER",
+     "color": "#FFFFFF",
+     "t": 5.06
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "LONDON",
+     "t": 0.2
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c6-hub",
+   "type": "city",
+   "start": 535.185,
+   "end": 540.77,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 12.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 12.0
+    },
+    {
+     "t": 2.8,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 10.5
+    },
+    {
+     "t": 5.59,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 9.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.1137,
+      51.5036
+     ],
+     "kind": "dot",
+     "color": "#FFFFFF",
+     "size": 7,
+     "label": "WATERLOO: TRANSPORT HUB",
+     "t": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -0.16397,
+      51.51702
+     ],
+     "text": "CENTRE OF GOVERNMENT",
+     "color": "#6EA8FF",
+     "t": 1.39
+    },
+    {
+     "at": [
+      -0.09513,
+      51.48978
+     ],
+     "text": "INSIDE THE DAMAGE",
+     "color": "#FF3B3B",
+     "t": 4.41
+    }
+   ]
+  },
+  {
+   "id": "c6-economy",
+   "type": "region",
+   "start": 540.77,
+   "end": 545.172,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -1.5,
+     53.0
+    ],
+    "widthKm": 900.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -1.5,
+      53.0
+     ],
+     "widthKm": 900.0
+    },
+    {
+     "t": 4.4,
+     "center": [
+      -1.5,
+      53.5
+     ],
+     "widthKm": 1500.0
+    }
+   ],
+   "legend": null,
+   "source": "ONS via GLA, London in figures",
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "LONDON: ABOUT A FIFTH OF THE ECONOMY",
+     "t": 0.4
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c6-radio1",
+   "type": "city",
+   "start": 545.172,
+   "end": 547.759,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 30.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 30.0
+    },
+    {
+     "t": 2.59,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 16.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 4.158,
+     "label": "BURNS",
+     "color": "#F2B01E",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 8.507,
+     "label": "1 PSI",
+     "color": "#3ED6C8",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -0.18533,
+      51.52762
+     ],
+     "text": "THE FOURTH: A RADIO",
+     "color": "#FFD23F",
+     "t": 0.3
+    }
+   ]
+  },
+  {
+   "id": "c6-radio2",
+   "type": "region",
+   "start": 547.759,
+   "end": 558.569,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -1.0,
+     52.3
+    ],
+    "widthKm": 700.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -1.0,
+      52.3
+     ],
+     "widthKm": 700.0
+    },
+    {
+     "t": 3.6,
+     "center": [
+      -0.7667,
+      52.1333
+     ],
+     "widthKm": 616.7
+    },
+    {
+     "t": 7.21,
+     "center": [
+      -0.5333,
+      51.9667
+     ],
+     "widthKm": 533.3
+    },
+    {
+     "t": 10.81,
+     "center": [
+      -0.3,
+      51.8
+     ],
+     "widthKm": 450.0
+    }
+   ],
+   "legend": null,
+   "source": "gov.uk, radiation emergencies; Cabinet Office, Be Ready",
+   "labels": [
+    {
+     "at": [
+      -3.0,
+      52.9
+     ],
+     "text": "ADVICE: TUNE IN",
+     "color": "#FFFFFF",
+     "t": 1.15
+    },
+    {
+     "at": [
+      1.0,
+      52.6
+     ],
+     "text": "RADIO: ON THE LIST",
+     "color": "#6EA8FF",
+     "t": 2.59
+    },
+    {
+     "at": [
+      -2.6,
+      51.3
+     ],
+     "text": "WHAT DOES IT SOUND LIKE?",
+     "color": "#FFD23F",
+     "t": 8.73
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "LONDON",
+     "t": 0.2
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c6-examples",
+   "type": "region",
+   "start": 558.569,
+   "end": 564.869,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -1.5,
+     53.5
+    ],
+    "widthKm": 1300.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -1.5,
+      53.5
+     ],
+     "widthKm": 1300.0
+    },
+    {
+     "t": 3.15,
+     "center": [
+      -1.5,
+      53.25
+     ],
+     "widthKm": 1150.0
+    },
+    {
+     "t": 6.3,
+     "center": [
+      -1.5,
+      53.0
+     ],
+     "widthKm": 1000.0
+    }
+   ],
+   "legend": null,
+   "source": "gov.uk, radiation emergencies",
+   "labels": [
+    {
+     "at": [
+      -4.0,
+      54.6
+     ],
+     "text": "EXAMPLES: POWER PLANTS",
+     "color": "#FFFFFF",
+     "t": 1.96
+    },
+    {
+     "at": [
+      1.0,
+      53.8
+     ],
+     "text": "TRANSPORT ACCIDENTS",
+     "color": "#FFFFFF",
+     "t": 3.04
+    },
+    {
+     "at": [
+      -3.5,
+      52.3
+     ],
+     "text": "NO NUCLEAR WEAPON",
+     "color": "#FF3B3B",
+     "t": 4.72
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c6-command",
+   "type": "city",
+   "start": 564.869,
+   "end": 572.812,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 14.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 14.0
+    },
+    {
+     "t": 3.97,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 10.5
+    },
+    {
+     "t": 7.94,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 7.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "base",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "WHITEHALL",
+     "t": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -0.15589,
+      51.5147
+     ],
+     "text": "THE FIFTH: A COMMAND LINE",
+     "color": "#FFD23F",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -0.09931,
+      51.49281
+     ],
+     "text": "ONLY THE PRIME MINISTER",
+     "color": "#FFFFFF",
+     "t": 3.19
+    }
+   ]
+  },
+  {
+   "id": "c6-inside",
+   "type": "city",
+   "start": 572.812,
+   "end": 578.107,
+   "tag": "SIMULATION",
+   "city": "london",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 8.0
+   },
+   "gz": [
+    -0.1276,
+    51.5034
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 8.0
+    },
+    {
+     "t": 2.65,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 10.0
+    },
+    {
+     "t": 5.29,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 12.0
+    }
+   ],
+   "rings": [
+    {
+     "km": 0.384,
+     "label": "FIREBALL",
+     "color": "#FFFFFF",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 0.64,
+     "label": "20 PSI",
+     "color": "#FF7A1A",
+     "t": 0.05,
+     "angle": 225
+    },
+    {
+     "km": 3.143,
+     "label": "5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.05,
+     "angle": 225
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -0.15993,
+      51.51551
+     ],
+     "text": "WHITEHALL: INSIDE 5 PSI",
+     "color": "#FF3B3B",
+     "t": 0.3
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "target",
+     "color": "#FF3B3B",
+     "size": 8,
+     "t": 0.05
+    }
+   ]
+  },
+  {
+   "id": "c6-question",
+   "type": "region",
+   "start": 578.107,
+   "end": 583.501,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -0.1276,
+     51.5034
+    ],
+    "widthKm": 300.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -0.1276,
+      51.5034
+     ],
+     "widthKm": 300.0
+    },
+    {
+     "t": 2.69,
+     "center": [
+      -0.5638,
+      52.2517
+     ],
+     "widthKm": 900.0
+    },
+    {
+     "t": 5.39,
+     "center": [
+      -1.0,
+      53.0
+     ],
+     "widthKm": 1500.0
+    }
+   ],
+   "legend": null,
+   "labels": [
+    {
+     "at": [
+      -3.0,
+      52.8
+     ],
+     "text": "WHAT BECOMES OF AUTHORITY?",
+     "color": "#FFD23F",
+     "t": 0.4
+    },
+    {
+     "at": [
+      1.5,
+      51.2
+     ],
+     "text": "A QUESTION, NOT AN ANSWER",
+     "color": "#FFFFFF",
+     "t": 2.7
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "target",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "LONDON",
+     "t": 0.2
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c6-route",
+   "type": "region",
+   "start": 583.501,
+   "end": 589.39,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -10.0,
+     58.0
+    ],
+    "widthKm": 2400.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -10.0,
+      58.0
+     ],
+     "widthKm": 2400.0
+    },
+    {
+     "t": 2.95,
+     "center": [
+      -9.5,
+      58.25
+     ],
+     "widthKm": 2100.0
+    },
+    {
+     "t": 5.89,
+     "center": [
+      -9.0,
+      58.5
+     ],
+     "widthKm": 1800.0
+    }
+   ],
+   "legend": null,
+   "ships": [
+    {
+     "path": [
+      [
+       -14.0,
+       56.0
+      ],
+      [
+       -11.0,
+       58.0
+      ],
+      [
+       -8.5,
+       59.2
+      ]
+     ],
+     "t0": 0,
+     "t1": 5.89,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 26,
+     "wake": true,
+     "label": "THE BOAT KEEPS PATROLLING",
+     "t": 0.05
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -13.0,
+      60.8
+     ],
+     "text": "THE SIXTH: A ROUTE",
+     "color": "#FFD23F",
+     "t": 0.3
+    },
+    {
+     "at": [
+      -5.0,
+      57.0
+     ],
+     "text": "IT DOES NOT CHANGE",
+     "color": "#FFFFFF",
+     "t": 1.45
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c6-doctrine",
+   "type": "region",
+   "start": 589.39,
+   "end": 595.693,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -9.0,
+     58.5
+    ],
+    "widthKm": 1800.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -9.0,
+      58.5
+     ],
+     "widthKm": 1800.0
+    },
+    {
+     "t": 3.15,
+     "center": [
+      -7.5,
+      58.25
+     ],
+     "widthKm": 2250.0
+    },
+    {
+     "t": 6.3,
+     "center": [
+      -6.0,
+      58.0
+     ],
+     "widthKm": 2700.0
+    }
+   ],
+   "legend": null,
+   "ships": [
+    {
+     "path": [
+      [
+       -8.5,
+       59.2
+      ],
+      [
+       -6.0,
+       60.0
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.3,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 26,
+     "wake": true,
+     "label": "PATROL",
+     "t": 0.05
+    }
+   ],
+   "source": "gov.uk, National Endeavour explained",
+   "labels": [
+    {
+     "at": [
+      -12.0,
+      61.0
+     ],
+     "text": "EXTREME CIRCUMSTANCES",
+     "color": "#FFFFFF",
+     "t": 1.24
+    },
+    {
+     "at": [
+      -3.0,
+      56.4
+     ],
+     "text": "DELIBERATE AMBIGUITY",
+     "color": "#FFD23F",
+     "t": 4.16
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "c6-end",
+   "type": "region",
+   "start": 595.693,
+   "end": 604.908,
+   "tag": "SIMULATION",
+   "view": {
+    "center": [
+     -9.0,
+     58.5
+    ],
+    "widthKm": 1900.0
+   },
+   "camera": [
+    {
+     "t": 0,
+     "center": [
+      -9.0,
+      58.5
+     ],
+     "widthKm": 1900.0
+    },
+    {
+     "t": 3.07,
+     "center": [
+      -7.0,
+      57.6667
+     ],
+     "widthKm": 2333.3
+    },
+    {
+     "t": 6.15,
+     "center": [
+      -5.0,
+      56.8333
+     ],
+     "widthKm": 2766.7
+    },
+    {
+     "t": 9.22,
+     "center": [
+      -3.0,
+      56.0
+     ],
+     "widthKm": 3200.0
+    }
+   ],
+   "legend": null,
+   "ships": [
+    {
+     "path": [
+      [
+       -6.0,
+       60.0
+      ],
+      [
+       -9.0,
+       58.5
+      ]
+     ],
+     "t0": 0,
+     "t1": 6.0,
+     "kind": "ally",
+     "color": "#6EA8FF",
+     "size": 26,
+     "wake": true,
+     "label": "THE BOAT ON PATROL",
+     "t": 0.05
+    }
+   ],
+   "labels": [
+    {
+     "at": [
+      -12.5,
+      61.0
+     ],
+     "text": "THE ONE THING WE DO NOT DECIDE",
+     "color": "#FFD23F",
+     "t": 2.44
+    },
+    {
+     "at": [
+      0.0,
+      53.8
+     ],
+     "text": "IT HAS NOT HAPPENED",
+     "color": "#FF3B3B",
+     "t": 7.14
+    }
+   ],
+   "cities": [
+    {
+     "at": [
+      -0.1276,
+      51.5034
+     ],
+     "kind": "dot",
+     "color": "#6EA8FF",
+     "size": 8,
+     "label": "LONDON",
+     "t": 0.3
+    }
+   ],
+   "highlight": [
+    {
+     "iso": "826",
+     "color": "#6EA8FF",
+     "fill": "rgba(110,168,255,0.1)"
+    },
+    {
+     "iso": "643",
+     "color": "#F2B01E",
+     "fill": "rgba(242,176,30,0.08)"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "type": "endslate",
+   "start": 604.908,
+   "end": 623.58,
+   "tag": "",
+   "title": "Next scenario",
+   "line": "Tsar Bomba, the largest bomb ever built, on London, Tokyo and New York."
+  }
+ ],
+ "narration": "episodes/021-london-four-submarines-one-warhead/narration.wav"
+}
