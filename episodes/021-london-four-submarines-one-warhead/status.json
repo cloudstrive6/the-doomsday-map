@@ -24,7 +24,12 @@
       "stage": "script_approved",
       "note": "round 2 PASS",
       "at": "2026-11-28T00:49:00+00:00"
+    },
+    {
+      "stage": "narrated",
+      "note": "1441 words, 10.3 min",
+      "at": "2026-11-28T00:52:31+00:00"
     }
   ],
-  "stage": "script_approved"
+  "stage": "narrated"
 }
