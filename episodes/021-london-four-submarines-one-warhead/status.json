@@ -9,7 +9,22 @@
       "stage": "researched",
       "note": "31 A, 10 B items",
       "at": "2026-11-28T00:43:28+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "script draft 1",
+      "at": "2026-11-28T00:46:25+00:00"
+    },
+    {
+      "stage": "scripted",
+      "note": "script revised for review issues 1-9",
+      "at": "2026-11-28T00:48:04+00:00"
+    },
+    {
+      "stage": "script_approved",
+      "note": "round 2 PASS",
+      "at": "2026-11-28T00:49:00+00:00"
     }
   ],
-  "stage": "researched"
+  "stage": "script_approved"
 }
