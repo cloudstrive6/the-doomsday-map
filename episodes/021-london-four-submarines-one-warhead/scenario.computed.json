@@ -1,0 +1,100 @@
+{
+ "slug": "021-london-four-submarines-one-warhead",
+ "title": "One nuclear warhead on London, and what the three-day guidance assumes",
+ "t0_utc": "2026-02-10T08:40:00+00:00",
+ "sun": {
+  "lat": -14.86,
+  "lon": 53.64
+ },
+ "totals": {
+  "strikes": 2,
+  "warheads": 2,
+  "yield_mt": 0.2,
+  "first_impact_min": 7.6,
+  "last_impact_min": 8.8
+ },
+ "strikes": [
+  {
+   "id": "nor-faslane",
+   "launch_name": "Norwegian Sea, Russian Borei-class submarine (location simulated)",
+   "launch_lat": 68.0,
+   "launch_lon": 3.0,
+   "target_name": "HM Naval Base Clyde, Faslane and RNAD Coulport",
+   "target_lat": 56.0675,
+   "target_lon": -4.82,
+   "weapon": "R-30 Bulava (assumed, one warhead)",
+   "weapon_class": "slbm",
+   "yield_kt": 100,
+   "burst": "ground",
+   "warheads": 1,
+   "launch_offset_min": 0,
+   "notes": "Home of the four Vanguard-class boats and warhead storage at Coulport, about 3 km west (research A11, A18). Ground burst to hit hardened facilities; this is the strike that carries the local fallout. A boat on patrol (A10, A14) is not in port and is not hit.",
+   "distance_km": 1385.5,
+   "bearing_deg": 200.6,
+   "flight_min": 7.6,
+   "launch_min": 0,
+   "impact_min": 7.6,
+   "effects": {
+    "yield_kt": 100,
+    "burst": "ground",
+    "fireball_km": 0.481,
+    "psi20_km": 0.512,
+    "psi5_km": 2.514,
+    "psi1_km": 6.806,
+    "thermal3_km": 4.158,
+    "fallout": "heavy local fallout"
+   },
+   "area_psi5_km2": 19.9
+  },
+  {
+   "id": "nor-london",
+   "launch_name": "Norwegian Sea, Russian Borei-class submarine (location simulated)",
+   "launch_lat": 68.0,
+   "launch_lon": 3.0,
+   "target_name": "Central London, Westminster and Whitehall",
+   "target_lat": 51.5034,
+   "target_lon": -0.1276,
+   "weapon": "R-30 Bulava (assumed, one warhead)",
+   "weapon_class": "slbm",
+   "yield_kt": 100,
+   "burst": "air",
+   "warheads": 1,
+   "launch_offset_min": 0,
+   "notes": "Hero strike, 08:40 UTC (08:40 London, morning rush). Bulava carrier with published yield estimates of 100 to 150 kt (episode 001 research A3); 100 kt is a simulation choice at the low end, chosen to match the US W76 that the UK Holbrook warhead is derived from (research A13). The UK has never published Holbrook's yield; this is not a claim about it. Airburst for maximum blast and burn area.",
+   "distance_km": 1842.1,
+   "bearing_deg": 186.8,
+   "flight_min": 8.8,
+   "launch_min": 0,
+   "impact_min": 8.8,
+   "effects": {
+    "yield_kt": 100,
+    "burst": "air",
+    "fireball_km": 0.384,
+    "psi20_km": 0.64,
+    "psi5_km": 3.143,
+    "psi1_km": 8.507,
+    "thermal3_km": 4.158,
+    "fallout": "little local fallout"
+   },
+   "area_psi5_km2": 31.0
+  }
+ ],
+ "sources": [
+  {
+   "claim": "Bulava carrier and 100 to 150 kt yield estimates",
+   "url": "https://www.thebarentsobserver.com/security/first-borey-sub-gets-bulava-missiles/266353",
+   "publisher": "Barents Observer"
+  },
+  {
+   "claim": "UK Vanguard boats at Faslane, deterrent facts",
+   "url": "https://www.gov.uk/government/publications/the-uks-nuclear-deterrent-what-you-need-to-know/the-uks-nuclear-deterrent-the-national-endeavour-explained",
+   "publisher": "gov.uk"
+  },
+  {
+   "claim": "Blast scaling",
+   "url": "https://nuclearsecrecy.com/nukemap/",
+   "publisher": "NUKEMAP, Alex Wellerstein"
+  }
+ ],
+ "model": "Glasstone and Dolan scaling calibrated to NUKEMAP Hiroshima figures; flight times fitted to published ranges; all values are estimates for a labelled simulation."
+}
